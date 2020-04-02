@@ -1,5 +1,5 @@
 ---
-source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
+source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
 translation-type: tm+mt
 
 ---
@@ -35,13 +35,13 @@ Undantag från den här regeln gäller versionsinformationen där kända problem
 
 Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, frågor och förfrågningar är dock endast avsedda för *bidrag* . De är inte avsedda att användas för att besvara dina frågor om hur du använder Dynamic Media Classic, implementerar projektet eller löser tekniska problem.
 
-Alla frågor om användningen av Dynamic Media Classic eller tekniska fel som du har kan ha rapporterats under den normala supportprocessen.
+Alla frågor om användningen av Dynamic Media Classic eller tekniska fel som du har kan ha rapporterats via [Experience Cloud Enterprise Support-portalen](https://helpx.adobe.com/contact/enterprise-support.ec.html) eller diskuteras i [Experience Cloud-communityn](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***Dokumentationsbidragen ersätter inte Adobes support*** och eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
+***Dokumentationsbidragen ersätter inte Adobes kundtjänst*** och eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
 
 ### Bidragen ska tydligt hänvisa till berörda dokumentationssidor.
 
-Om du skapar ett ärende för att föreslå förbättringar av dokumentationen måste du inkludera länkar till de berörda sidorna. Om du skapar ett ärende genom att använda länken **Redigera den här sidan** på en dokumentationssida skapas ärendet automatiskt med en länk till sidan.
+Om du skapar ett problem som kan föreslå förbättringar av dokumentationen måste du inkludera länkar till de sidor som påverkas. Om du skapar ett ärende genom att använda länken **Redigera den här sidan** på en dokumentationssida skapas ärendet automatiskt med en länk till sidan.
 
 Detta gäller inte för pull-begäranden eftersom pull-begäranden till sin natur refererar till den eller de berörda sidorna.
 
