@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 684950586bf9b1df897ac46b52d84a21f4cb4120
+source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
 
 ---
 
@@ -48,6 +48,17 @@ I den här tabellen visas de filformat som Scene7 Publishing System stöder. Mer
 | ZIP | ZIP |
 
 Stöd för TAR- och ZIP-överföring innehåller en kryssruta för att välja om du vill packa upp filerna.
+
+### Bildformat som inte stöds i Dynamic Media {#unsupported-image-formats-dynamic-media}
+
+I följande lista beskrivs de undertyper av rasterbildfilformat som *inte* stöds i Dynamic Media.
+
+* PNG-filer som har en IDAT-segmentstorlek som är större än 100 MB.
+* PSB-filer.
+* PSD-filer med en annan färgrymd än CMYK, RGB, Gråskala eller Bitmapp stöds inte. Färgrymderna DuoTone, Lab och Indexed stöds inte.
+* PSD-filer med ett bitdjup som är större än 16.
+* TIFF-filer som har flyttalsdata.
+* TIFF-filer med Lab-färgrymd.
 
 ### Resurstyper {#asset-types}
 
@@ -242,7 +253,7 @@ Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-me
 
    * **Behåll ursprunglig färgrymd** - Behåller originalfärgerna utan någon färgkonvertering vid den tidpunkt då de hämtas in till Scene7 Publishing System. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler kanske inte justeras mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
 
-   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Du bör bara markera det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
+   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Du bör bara välja det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
 * **ALTERNATIV** FÖR BILDREDIGERING - Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
 Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
