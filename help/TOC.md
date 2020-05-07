@@ -2,10 +2,13 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Dynamic Media Classic - hjälp
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 1%
 
 ---
 
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Publiceringsmallar](publishing-templates.md)
    + [Länka en mall till en webbsida](linking-template-web-page.md)
    + [Hantera innehållsvariationer](content-variations.md)
-+ Mallpublicering {#template-publishing}
-   + [Snabbstart: Mallpublicering](quick-start-template-publishing.md)
-   + [Skapa den ursprungliga mallen i Adobe Illustrator](create-initial-template-illustrator.md)
-   + [Överför filer för mallpublicering](upload-files-template-publishing.md)
-   + [Definiera variabilitet: Parameterisering kontra DOM-manipulering](defining-variability-parameterization-versus-dom.md)
-   + [Parametrisera en mall i Dynamic Media Classic](parameterizing-template-scene7.md)
-   + [Förhandsgranska och uppdatera mallattribut](preview-update-template-attributes.md)
-   + [DOM-manipulering](dom-manipulation.md)
-   + [Länka en FXG-mall till en webbsida](linking-fxg-template-web-page.md)
-   + [Skapa ett PDF-dokument](creating-pdf-document.md)
 + Video {#video}
    + [Snabbstart: Video](quick-start-video.md)
    + [Bästa praxis: Använda HTML5 Video Viewer](best-practice-using-html5-video.md)
