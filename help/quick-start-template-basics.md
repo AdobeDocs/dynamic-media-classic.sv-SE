@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 0%
 
 ---
 
@@ -18,10 +21,6 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 # Snabbstart: Grundläggande om mallar{#quick-start-template-basics}
 
 Grundläggande mallar skapas och adresseras dynamiskt lageruppbyggda bildfiler som lageruppbyggda filer i bildredigeringsprogram som Adobe Photoshop. Till skillnad från en statisk fil som innehåller lager, till exempel en PSD-fil, kan en mall innehålla parametrar. Med hjälp av parametrar kan de olika delarna av bilden hanteras och anpassas.
-
->[!NOTE]
->
->Du kan också skapa mallar från layoutbaserade designer genom att använda mallpublicering och filer från Adobe Illustrator och Adobe InDesign. Se [Mallpublicering](quick-start-template-publishing.md) .
 
 En mall kan innehålla valfritt antal bildlager och textlager. Du kan konvertera en statisk fil som innehåller lager, till exempel en PSD-fil med lager, till en mall och skapa mallar i Dynamic Media Classic. Du kan skapa textlager i mallar med teckensnitt som du överfört till SPS. När du har lagt till text i en mall kan du formatera den genom att ändra dess justering, teckensnitt, teckenstorlek och färg.
 
