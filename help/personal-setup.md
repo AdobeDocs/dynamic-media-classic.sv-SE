@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 1%
 
 ---
 
@@ -32,25 +35,6 @@ Identifierar kontonamn, namn, användarnamn (e-postadress) och tilldelad använd
 ### Skrivbordsversion
 
 Klicka på Installera nu för att installera skrivbordsversionen av Scene7 Publishing System på den lokala hårddisken. Du kan också klicka på Installera om nu för att installera om skrivbordsversionen.
-
-### Illustrator-plugin för webb-till-tryck
-
-På datorer med Windows 7 eller 8 måste du ha administratörsbehörighet och logga in som administratör i Windows för att installera Adobe Illustrator-plugin-programmet för webb-till-utskrift. När du har installerat plugin-programmet är det tillgängligt i Adobe Illustrator.
-
-Plugin-programmet stöds för följande Adobe Illustrator-versioner:
-
-* Adobe Illustrator 18 i Adobe Creative Cloud 2014.
-* Adobe Illustrator 17 i Adobe Creative Cloud.
-* Adobe Illustrator 16 i Adobe Creative Suite 6.
-
-Följande Adobe Illustrator-plattformar stöds:
-
-* Apple Mac OS X 10.7 eller senare.
-* Windows 8, 32-bitars och 64-bitars.
-* Windows 7, 32-bitars och 64-bitars.
-* Windows XP, 32-bitars och 64-bitars (endast för Adobe Illustrator 16 i Adobe Creative Suite 6).
-
-Se även [Mallpublicering](quick-start-template-publishing.md).
 
 ## Installera plugin-programmet på den lokala hårddisken
 
@@ -138,7 +122,6 @@ Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
       * Innehåller minst en versal
       * Innehåller minst en siffra
       * Innehåller minst ett av följande specialtecken: #$&amp;-_:{}
-
 * **Skriv lösenordet igen**
    * Ange det nya lösenordet igen för att bekräfta att du har angett det korrekt.
 * **Lösenordets förfallodatum**
