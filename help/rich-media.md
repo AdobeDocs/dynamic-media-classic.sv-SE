@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,5 @@ Dynamic Media Classic har många verktyg för multimedia. Du kan skapa följande
 * **Färgruteuppsättningar** ger en interaktiv shoppingupplevelse där användarna kan visa produkter i olika färger och mönster. Du kan kombinera zoomning, flera vyer och färgrutor för en integrerad visningsupplevelse. Se [Snabbstart: Färgruteuppsättningar](/help/quick-start-swatch-sets.md).
 
 * **Mallgrunder** Skapa datadrivna mallar som kombinerar teckensnitt, bilder och grafik för monogrammering, onlineanpassning och kampanjer. Till exempel lagerförsäljning eller annan reklamgrafik på produktbilder eller placera kundnamnen på T-shirts eller kaffemuggar. Kunderna kan se sina namn i e-postmeddelanden eller tryckta broschyrer som du skickar till dem. Se [Snabbstart: Grundläggande om mallar](/help/quick-start-template-basics.md).
-
-* **Mallpublicering** Skapa professionellt varumärkesanpassat tryckt material som är enkelt för kunder, kunder och personal att anpassa och personalisera. Ni kan upprätthålla företagsinnehåll och varumärkesidentitet under hela publiceringsprocessen. Slutanvändare kan anpassa utskriftsinnehållet - men bara den del av innehållet som du låter dem anpassa. Personaliserade brevpapper, visitkort, affischer, gratulationskort, etiketter, checkar, presenter, kläder, kalendrar, scrapbooks och fotoalbum är exempel på skräddarsydda tryckprodukter som du kan leverera. Företag kan behålla en gemensam varumärkesidentitet i sin skylt som kan anpassas för olika regioner, franchise, butiker och filialkontor. Se [Snabbstart: Mallpublicering](/help/quick-start-template-publishing.md).
 
 * **Zoommål** Gör det möjligt för kunder att zooma in, zooma ut och panorera bilder med de konfigurerbara visningsprogrammen som medföljer Dynamic Media Classic. Kunderna kan snabbt och interaktivt se högupplöst produktinformation. Se [Snabbstart: Zooma](/help/quick-start-zoom.md).
