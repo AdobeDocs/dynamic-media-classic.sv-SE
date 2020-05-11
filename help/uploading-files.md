@@ -9,7 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: e37612b066909fdba486bd72ee4ae3712294f50a
+source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+workflow-type: tm+mt
+source-wordcount: '3867'
+ht-degree: 0%
 
 ---
 
@@ -52,6 +55,8 @@ Stöd för TAR- och ZIP-överföring innehåller en kryssruta för att välja om
 ### Bildformat som inte stöds i Dynamic Media {#unsupported-image-formats-dynamic-media}
 
 I följande lista beskrivs de undertyper av rasterbildfilformat som *inte* stöds i Dynamic Media.
+
+Se även [Identifiera filformat som inte stöds för Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * PNG-filer som har en IDAT-segmentstorlek som är större än 100 MB.
 * PSB-filer.
@@ -253,7 +258,7 @@ Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-me
 
    * **Behåll ursprunglig färgrymd** - Behåller originalfärgerna utan någon färgkonvertering vid den tidpunkt då de hämtas in till Scene7 Publishing System. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler kanske inte justeras mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
 
-   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Du bör bara välja det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
+   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Du bör bara markera det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
 * **ALTERNATIV** FÖR BILDREDIGERING - Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
 Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
