@@ -1,15 +1,15 @@
 ---
-title: Nytt gränssnitt i Dynamic Media Classic kommer under första halvåret 2020
-seo-title: Nytt gränssnitt i Dynamic Media Classic kommer under första halvåret 2020
-description: Användare av Dynamic Media Classic kan förvänta sig att användargränssnittet uppdateras under första halvåret 2020. Upplevelsen kommer att ge en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen kommer inte längre att vara beroende av Adobe Flash-teknik i webbläsaren.
-seo-description: Användare av Dynamic Media Classic kan förvänta sig att användargränssnittet uppdateras under första halvåret 2020. Upplevelsen kommer att ge en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen kommer inte längre att vara beroende av Adobe Flash-teknik i webbläsaren.
+title: Ny inloggningsfunktion för Dynamic Media Classic som är tillgänglig 30 juni 2020
+seo-title: Nya Dynamic Media Classic 30 juni 2020
+description: Användare av Dynamic Media Classic kan förvänta sig en uppdatering av användargränssnittet 30 juni 2020. Upplevelsen kommer att ge en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen kommer inte längre att vara beroende av Adobe Flash-teknik i webbläsaren.
+seo-description: Användare av Dynamic Media Classic kan förvänta sig en uppdatering av användargränssnittet den 30 juni 2020. Upplevelsen kommer att ge en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen kommer inte längre att vara beroende av Adobe Flash-teknik i webbläsaren.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
