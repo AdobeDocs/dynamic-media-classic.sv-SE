@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media Classic - hjälp
 index: y
 translation-type: tm+mt
-source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '725'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
    + [Systemkrav](system-requirements.md)
-   + [Adobe Scene7 Publishing System för persondatorer](scene7-publishing-system-desktop-applications.md)
+   + [Adobe Dynamic Media Classic-datorprogrammet kommer snart!](dynamic-media-classic-desktop-app.md)
    + [Support](support.md)
    + [Hjälp för Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Adobe Training Services](training-services.md)
