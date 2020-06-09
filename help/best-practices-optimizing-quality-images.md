@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
+source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+workflow-type: tm+mt
+source-wordcount: '1527'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +30,7 @@ Se även [Smart bildbehandling](https://helpx.adobe.com/experience-manager/6-3/a
 
 * JPG eller PNG är de bästa alternativen för att leverera bilder med god kvalitet och hanterbar storlek och vikt.
 * Om inget formatkommando anges i URL:en används som standard JPG för leverans.
-* JPG komprimeras med förhållandet 10:1 och ger vanligtvis mindre bildfilsstorlekar. PNG komprimeras med ett förhållande på cirka 2:1, utom i vissa fall, till exempel när bilder innehåller en vit bakgrund. Vanligtvis är PNG-filernas storlek större än JPG-filer.
+* JPG komprimeras med förhållandet 10:1 och ger vanligtvis mindre bildfilsstorlekar. PNG komprimeras med ett förhållande på cirka 2:1, utom i vissa fall, till exempel när bilder innehåller en tom bakgrund. Vanligtvis är PNG-filernas storlek större än JPG-filer.
 * JPG använder förstörande komprimering, vilket innebär att bildelement (pixlar) tas bort under komprimeringen. PNG använder däremot förlustfri komprimering.
 * JPG komprimerar ofta fotografiska bilder med bättre återgivning än syntetiska bilder med skarpa kanter och kontrast.
 * Om dina bilder innehåller genomskinlighet kan du använda PNG eftersom JPG inte har stöd för genomskinlighet.
