@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '11115'
+ht-degree: 3%
 
 ---
 
@@ -29,23 +32,23 @@ Om du vill öppna sidan Allmänna inställningar för programmet klickar du på 
 
 ### Servrar
 
-När du skapar ett konto tillhandahåller Dynamic Media Classic automatiskt de tilldelade servrarna för ditt företag. De här servrarna används för att skapa URL-strängar för din webbplats och dina program. Dessa URL-anrop är specifika för ditt konto.
+När du skapar ett konto får du automatiskt de tilldelade servrarna för ditt företag i Dynamic Media Classic. De här servrarna används för att skapa URL-strängar för din webbplats och dina program. Dessa URL-anrop är specifika för ditt konto.
 
 Se även [Testa tjänsten](testing-assets-making-them-public.md#testing_the_secure_testing_service)Secure Testing.
 
-**Publicerat servernamn** Den här servern är den CDN-live-server som används i alla systemgenererade URL-anrop som är specifika för ditt konto. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en supporttekniker för Dynamic Media Classic.
+**Publicerat servernamn** Den här servern är den CDN-live-server som används i alla systemgenererade URL-anrop som är specifika för ditt konto. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
 
-**Ursprungligt servernamn** Den här servern används endast för kvalitetstestning. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en supporttekniker för Dynamic Media Classic.
+**Ursprungligt servernamn** Den här servern används endast för kvalitetstestning. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
 
-**AGM-servernamn** Den här servern används för mallar för webb-till-utskrift. Den här servern är företagsövergripande. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en supporttekniker för Dynamic Media Classic.
+**AGM-servernamn** Den här servern används för mallar för webb-till-utskrift. Den här servern är företagsövergripande. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
 
-**Test&amp;Target-servernamn** Din Test&amp;Target-URL, fram till och med .com. Instruktioner om hur du hämtar den här URL:en finns i Integrera Dynamic Media Classic med Target Classic.
+**Test&amp;Target Server Name** Your Test&amp;Target URL, up to and including .com. Instruktioner om hur du hämtar den här URL:en finns i Integrera Dynamic Media Classic med Target Classic.
 
 **Namn på** iOS-direktuppspelningsserver URL:en till din Dynamic Media Classic iOS-direktuppspelningsserver. Den här servern levererar direktuppspelad video till iOS-baserade enheter med HTTP-protokoll.
 
-**Progressivt videoservernamn** URL:en till den progressiva videoservern för Dynamic Media Classic. Den här servern levererar progressiv video med HTTP-protokoll.
+**Progressivt videoservernamn** URL:en till den progressiva videoservern i Dynamic Media Classic. Den här servern levererar progressiv video med HTTP-protokoll.
 
-**Visa URL för opublicerade resurser** Välj det här alternativet om du vill att Dynamic Media Classic ska visa en URL när en resurs förhandsgranskas, oavsett om den är publicerad eller inte. Om resursen inte publiceras fungerar inte URL:en. Du kan dock använda URL-adressen för planering eller organisering.
+**Visa URL för opublicerade resurser** Välj det här alternativet om du vill att en URL ska visas i Dynamic Media Classic när du förhandsgranskar en resurs, oavsett om den är publicerad eller inte. Om resursen inte publiceras fungerar inte URL:en. Du kan dock använda URL-adressen för planering eller organisering.
 
 **Tillåt installation** av AIR Välj det här alternativet om du vill tillåta användare att hämta Scene7 Publishing System-versionen för skrivbordet till sina lokala hårddiskar. Användarna installerar programmet från området Skrivbordsversion på skärmen Personliga inställningar.
 
@@ -75,11 +78,11 @@ Se [Återpublicerade resurser och CDN-fördröjningar](publishing-files.md#repub
 
 **Bläddra**
 
-**Visa projekt** Avgör om projekt är tillgängliga som ett sätt att ordna dina dynamiska media Classic-resurser. Se Ordna ditt arbete med projekt.
+**Visa projekt** Avgör om projekt är tillgängliga som ett sätt att ordna dina Dynamic Media Classic-resurser. Se Ordna ditt arbete med projekt.
 
 **Visa exempel på eVideo-innehåll** Aktivera eller inaktivera visning av exempelinnehåll för eVideo.
 
-**Visa genererat innehåll** i mappar, visar innehåll som genererats från en resurs. När en PDF-fil till exempel rastreras när den överförs skapas en bild för varje sida i den ursprungliga PDF-filen. Om Visa genererat innehåll är markerat visas varje bild som genereras när den ursprungliga PDF-filen överfördes tillsammans med PDF-filen i den mapp som PDF-filen överfördes till.
+**Visa genererat innehåll** i mappar, visar innehåll som genererats från en resurs. När en PDF-fil till exempel rastreras när den överförs skapas en bild för varje sida i den ursprungliga PDF-filen i Dynamic Media Classic. Om Visa genererat innehåll är markerat visas varje bild som genereras när den ursprungliga PDF-filen överfördes tillsammans med PDF-filen i den mapp som PDF-filen överfördes till.
 
 **Visa kodade videoklipp** som avmarkerad (av) som standard.
 
@@ -145,19 +148,19 @@ Det här alternativet är den mest omfattande ersättningsregeln. Du kan överf�
 
 ## Använda alternativet Skriv över bilder {#using-the-overwrite-images-option}
 
-Dynamic Media Classic tillåter inte att två filer har samma namn. Varje objekts Scene7 Publishing System ID (bildnamn minus filnamnstillägg) måste vara unikt. På grund av den här regeln innehåller dialogrutan Överför alternativ för Skriv över bilder. Den exakta effekten av det här alternativet beror på en inställning för varje företags interna inställningar i Scene7 Publishing System.
+Två filer kan inte ha samma namn i Dynamic Media Classic. Varje objekts Scene7 Publishing System ID (bildnamn minus filnamnstillägg) måste vara unikt. På grund av den här regeln innehåller dialogrutan Överför alternativ för Skriv över bilder. Den exakta effekten av det här alternativet beror på en inställning för varje företags interna inställningar i Scene7 Publishing System.
 
-Om du tidigare överförde bilder och sedan ändrade originalfilerna (eller ersatt dem) anger det valda alternativet Skriv över hur Dynamic Media Classic ersätter bilderna. Ingen information om bilden ändras, men den nya bilden ersätter den gamla. Om mappen även innehåller bilder som inte redan finns i Dynamic Media Classic läggs dessa bilder till.
+Om du tidigare överförde bilder och sedan ändrade originalfilerna (eller ersatt dem), anger det valda alternativet Skriv över hur Dynamic Media Classic ersätter bilderna. Ingen information om bilden ändras, men den nya bilden ersätter den gamla. Om mappen även innehåller bilder som inte redan finns i Dynamic Media Classic läggs dessa bilder till.
 
-Använd det här alternativet om de överförda bilderna har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF-filer. Om du vill finjustera hur Dynamic Media Classic *rippar* bilden justerar du ICC-färgprofilalternativen i dialogrutan Överför och överför med hjälp av funktionen Skriv över.
+Använd det här alternativet om de överförda bilderna har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF-filer. Om du vill finjustera hur bilden *rips* med Dynamic Media Classic justerar du ICC-färgprofilalternativen i dialogrutan Överför och överför igen med hjälp av funktionen Skriv över.
 
-De Dynamic Media Classic-ID:n som används för att komma åt bilder från produktionsservrarna härleds från bildens filnamn. Det är viktigt att du använder versaler och gemener i filnamnet, både när du ersätter befintliga filer och när du ersätter de Dynamic Media Classic ID:n som används för att få åtkomst till bilden. Se till att versaler och gemener används korrekt i filnamn innan du överför till Dynamic Media Classic för att undvika Dynamic Media Classic-ID:n som bara skiljer sig åt för samma bild.
+De Dynamic Media Classic-ID:n som används för att komma åt bilder från produktionsservrarna härleds från bildens filnamn. Det är viktigt att du använder versaler och gemener i filnamnet, både för att ersätta befintliga filer och för de Dynamic Media Classic ID som används för att få åtkomst till bilden. Se till att versaler och gemener i filnamn används korrekt innan du överför till Dynamic Media Classic för att undvika Dynamic Media Classic-ID:n som bara skiljer sig åt för samma bild.
 
 Om du avmarkerar det här alternativet behandlas alla bilder med samma filnamn som befintliga bilder som dubbletter och läggs inte till.
 
 ## Bildförinställningar {#image-presets}
 
-Skärmen Bildförinställningar används för att skapa och redigera bildförinställningar. Med bildförinställningar kan Dynamic Media Classic leverera bilder dynamiskt i olika storlekar från samma huvudbild. Varje bildförinställning representerar en fördefinierad samling kommandon för storleksändring och formatering för visning av bilder. När du skapar en bildförinställning väljer du en storlek för bildleverans. Du kan också välja formateringskommandon så att bildens utseende optimeras när bilden levereras för visning.
+Skärmen Bildförinställningar används för att skapa och redigera bildförinställningar. Med bildförinställningar kan du med Dynamic Media Classic leverera bilder dynamiskt i olika storlekar från samma huvudbild. Varje bildförinställning representerar en fördefinierad samling kommandon för storleksändring och formatering för visning av bilder. När du skapar en bildförinställning väljer du en storlek för bildleverans. Du kan också välja formateringskommandon så att bildens utseende optimeras när bilden levereras för visning.
 
 Administratörer kan skapa förinställningar för att exportera resurser. Användarna kan välja en förinställning när de exporterar bilder, vilket även innebär att bilderna formateras om till de specifikationer som administratören anger.
 
@@ -266,7 +269,7 @@ Se även [ICC-profiler](icc-profiles.md#icc_profiles).
 
 **URL-modifierare** Om du föredrar att ange URL-modifierare som definierar bildförinställningen, i stället för inställningarna, anger du modifieringarna här.
 
-**Exempelbild-URL** Visar den &quot;raw&quot;-URL-sträng som den dynamiska mediabildsservern använder för att leverera bilder med den bildförinställning som du lägger till eller redigerar. Den här URL-strängen kodar alla formatinställningar som du väljer på skärmen Lägg till förinställning eller Redigera förinställning.
+**Exempelbild-URL** Visar den &quot;raw&quot;-URL-sträng som Dynamic Media Image Server använder för att leverera bilder med den bildförinställning som du lägger till eller redigerar. Den här URL-strängen kodar alla formatinställningar som du väljer på skärmen Lägg till förinställning eller Redigera förinställning.
 
 ### Redigera, ta bort eller inaktivera en bildförinställning {#editing-removing-or-deactivating-an-image-preset}
 
@@ -279,7 +282,7 @@ Se även [ICC-profiler](icc-profiles.md#icc_profiles).
 
 ## Aktivera eller inaktivera anpassade videoförinställningar {#activating-or-deactivating-adaptive-video-presets}
 
-Dynamic Media Classic har förinställningar för adaptiv videokodning. Det är en huvudlista med förinställningar som kombinerar både 16:9-förinställningar för adaptiv video och 4:3-förinställningar för adaptiv video till en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
+I Dynamic Media Classic finns förinställningar för adaptiv videokodning. Det är en huvudlista med förinställningar som kombinerar både 16:9-förinställningar för adaptiv video och 4:3-förinställningar för adaptiv video till en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
 
 Endast kodningsförinställningar för adaptiv video aktiveras (aktiverat eller aktiverat) som standard. Du kan avaktivera den om du vill. Inaktiva förinställningar för adaptiv video visas inte som ett valbart alternativ i delen eVideo i dialogrutan Alternativ för överföringsjobb.
 
@@ -297,7 +300,7 @@ Om du vill välja en kodningsförinställning klickar du på Jobbalternativ i de
 
 >[!NOTE]
 >
->Med undantag för Adaptiv video, som är aktiverat som standard, kanske du inte ser alla andra adaptiva video- eller enstaka videokodningsförinställningar i dialogrutan Alternativ för överföringsjobb. Administratörer för Dynamic Media Classic avgör vilka förinställningar för videokodning som visas i dialogrutan Alternativ för överföringsjobb.
+>Med undantag för Adaptiv video, som är aktiverat som standard, kanske du inte ser alla andra adaptiva video- eller enstaka videokodningsförinställningar i dialogrutan Alternativ för överföringsjobb. Dynamic Media Classic-administratörer avgör vilka förinställningar för videokodning som visas i dialogrutan Alternativ för överföringsjobb.
 
 * Välj mellan följande adaptiva videokodningsförinställningar eller enskilda kodningsförinställningar:
 
@@ -339,7 +342,7 @@ När du klickar på **Starta överföring**&#x200B;överförs originalhuvudvideo
 
 Parametrarna för de förinställda alternativen för kodning är följande:
 
-**Målanslutningshastighet** Slutanvändarens internetanslutningshastighet.
+**Target anslutningshastighet** Slutanvändarens internetanslutning.
 
 **Kodat filsuffix** Det suffix som är kopplat till den kodade videofilen i identifieringssyfte.
 
@@ -373,7 +376,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativ](ap
 
 **Förinställningar för adaptiv videokodning (16:9 eller 4:3)**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Target anslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | 4:3, 384x288px, Mobil (iPhone, iPad, Android), (400 kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
@@ -394,7 +397,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen](
 
 **H264 Main 3.2 - Audio AAC, MP4-filtillägg**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Target anslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 kbit/s) | 500 | _480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
 | 2 | 16:9, 640x360 (800 kbit/s) | 900 | _640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
@@ -407,7 +410,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen](
 
 **OGG Theora Vorbis - OGV-filtillägg**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Target anslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 kbit/s), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
 | 2 | 16:9, 640x360 (800 kbit/s), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
@@ -426,7 +429,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen](
 
 **H264 Originalplan 2.1 - Ljud-AAC, MP4-filtillägg**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videobithastighet (kbit/s) | Pixelbredd/höjd | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Target-anslutningshastighet (kbit/s) | Kodat filsuffix | Videobithastighet (kbit/s) | Pixelbredd/höjd | Fps | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512x288, mobil (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | 16:9, 512x288, mobil (600 kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
@@ -447,21 +450,21 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen](
 
 En *visningsförinställning* är en samling inställningar som bestämmer hur användare visar mediefiler på datorskärmar och mobila enheter. Som administratör kan du skapa visningsförinställningar. Inställningarna är tillgängliga för en array med visningskonfigurationsalternativ. Du kan till exempel ändra visningsprogrammets visningsstorlek, zoombeteende, färgscheman, kanter och teckensnitt.
 
-Det bästa sättet är att använda visningsprogram för Dynamic Media Classic HTML5-video. De förinställningar som används i HTML5 Video-visningsprogram är robusta videospelare. Genom att i en enda spelare kombinera möjligheten att utforma uppspelningskomponenterna med HTML5 och CSS, ha inbäddad uppspelning och använda adaptiv och progressiv strömning beroende på webbläsarens kapacitet, kan du utöka räckvidden för ditt multimedieinnehåll till datorer, surfplattor och mobilanvändare och få en smidig videoupplevelse.
+Det bästa sättet att göra det är att använda videovisningsprogram i Dynamic Media Classic HTML5. De förinställningar som används i HTML5 Video-visningsprogram är robusta videospelare. Genom att i en enda spelare kombinera möjligheten att utforma uppspelningskomponenterna med HTML5 och CSS, ha inbäddad uppspelning och använda adaptiv och progressiv strömning beroende på webbläsarens kapacitet, kan du utöka räckvidden för ditt multimedieinnehåll till datorer, surfplattor och mobilanvändare och få en smidig videoupplevelse.
 
-Se [Om HTML5-visningsprogram](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_viewers_about.html) i referenshandboken för Adobe-visningsprogram.
+Se [Om HTML5-visningsprogram](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) i referenshandboken för Adobe-visningsprogram.
 
-Se Kompatibilitetsmatris för visningsförinställningar för [Dynamic Media Classic](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Se Kompatibilitetsmatris för [Dynamic Media Classic Viewer Preset](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 Se [Bästa praxis: Använda HTML5 Video Viewer](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
-Beroende på visningsprogrammet kan du lägga till communityfunktioner. Community-funktionerna är bland annat knappen Bädda in, knappen E-post, knappen Länk och knappen Besök webbplats. Med de här knapparna kan personer som använder visningsprogrammen dela visningsprogrammet med andra eller öppna webbplatsen Dynamic Media Classic.
+Beroende på visningsprogrammet kan du lägga till communityfunktioner. Community-funktionerna är bland annat knappen Bädda in, knappen E-post, knappen Länk och knappen Besök webbplats. Med de här knapparna kan personer som använder visningsprogrammen dela visningsprogrammet med andra eller öppna Dynamic Media Classic-webbplatsen.
 
 Se även [Adobe Viewer Reference Library-exempel](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Stöd för visningsprogram för responsiva webbsidor {#viewer-support-for-responsive-designed-web-pages}
 
-Olika webbsidor har olika behov. Ibland kanske du vill ha en webbsida som innehåller en länk som öppnar HTML5 Viewer i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in HTML5 Viewer direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk layout. Det kan också vara&quot;responsivt&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har de HTML5-visningsprogram som medföljer Dynamic Media Classic stöd för både statiska webbsidor och responsiva designade webbsidor.
+Olika webbsidor har olika behov. Ibland kanske du vill ha en webbsida som innehåller en länk som öppnar HTML5 Viewer i ett separat webbläsarfönster. I andra fall kan det vara nödvändigt att bädda in HTML5 Viewer direkt på värdsidan. I det senare fallet kan webbsidan ha en statisk layout. Det kan också vara&quot;responsivt&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har HTML5-visningsprogrammen som medföljer Dynamic Media Classic stöd för både statiska webbsidor och responsiva designade webbsidor.
 
 Mer information om hur du bäddar in responsiva visningsprogram på dina webbsidor finns i [Responsive Static Image](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)libraries i hjälpen *för* Adobe Image Serving API.
 
@@ -489,19 +492,19 @@ När du fastställer den fullständiga bandbreddsanvändningen för det här vis
 
 Om huvudbildens storlek till exempel är 350 x 350 pixlar, med zoomfaktorn 3, blir den utfällbara bilden 1 050 x 1 050 pixlar. Om huvudbildstorleken är 300 x 300 pixlar, med zoomfaktorn 4, är den utfällbara bilden 1 200 x 1 200 pixlar. Beroende på kvalitetsinställningen för JPEG (rekommenderade inställningar är mellan 80 och 90) kan du minska filstorleken avsevärt. Rekommenderade zoomningsfaktorer är 2,5 till 4, beroende på storleken på huvudbilden.
 
-### Kompatibilitetsmatris för Dynamic Media Classic Viewer Preset {#scene-viewer-preset-compatibility-matrix}
+### Kompatibilitetsmatris för Dynamic Media Classic Viewer-förinställning {#scene-viewer-preset-compatibility-matrix}
 
 **Meddelande** om att Flash-visningsprogrammet upphör att gälla: Från och med den 31 januari 2017 upphörde Adobe Scene7 Publishing System officiellt med stöd för Flash-visningsprogramplattformen.
 
 Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-I följande tabell visas de tillgängliga förinställningarna för Dynamic Media Classic Viewer. Tabellen anger också visningsprogrammets kompatibilitet med datorer och mobila enheter samt vilken teknik som används för varje visningsprogram.
+Följande tabell visar vilka förinställningar för Dynamic Media Classic Viewer som är tillgängliga. Tabellen anger också visningsprogrammets kompatibilitet med datorer och mobila enheter samt vilken teknik som används för varje visningsprogram.
 
 Se även [Adobe Viewer Reference Library-exempel](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Information om vilka webbläsare och operativsystemversioner som stöds för visningsprogram finns i Viewer Release Notes.
 
-Se Versionsinformation om [Adobe Viewer Reference](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+Se Versionsinformation om [Adobe Viewer Reference](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android Smartphone | Android-surfplatta |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -540,9 +543,9 @@ Se Versionsinformation om [Adobe Viewer Reference](https://marketing.adobe.com/r
 
 **eVideo Viewers**
 
-Dynamic Media Classic har stöd för videouppspelning på mobiler för MP4 H.264-video.
+Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video.
 
-* Du kan hitta Blackberry-enheter som stöder det här videoformatet på följande sätt: Videoformat [som stöds på Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Du kan hitta Blackberry-enheter som stöder det här videoformatet på följande sätt: [Videoformat som stöds på Blackberry](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * Du kan även hitta Windows-enheter som stöder det här videoformatet på följande:Videoformat som[stöds på Windows Phone](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android Smartphone | Android-surfplatta | Blackberry Smartphone | Windows Phone |
@@ -592,7 +595,7 @@ Se [Exportera en HTML5 Viewer-förinställning](application-setup.md#exporting_a
 * Öppna listrutan **Aktiv/Inaktiv** och välj ett alternativ för att visa aktiva förinställningar, inaktiva förinställningar eller alla förinställningar.
 * Öppna listrutan **Visningsprogram** och välj ett alternativ för att endast visa visningsprogram av en viss typ. Välj **Alla visningsprogram** om du vill visa alla visningsprogram.
 
-**Sortera förinställningar** Klicka på en kolumnrubrik (Aktiv, Typ, Förinställning eller Plattform) för att sortera listan i en kolumn. Klicka på en kolumnrubrik en andra gång om du vill sortera listan i fallande (eller stigande) ordning.
+**Sortera förinställningar** Klicka på en kolumnrubrik (Aktiv, Typ, Förinställning eller Platform) för att sortera listan i en kolumn. Klicka på en kolumnrubrik en andra gång om du vill sortera listan i fallande (eller stigande) ordning.
 
 **Aktivera och inaktivera förinställningar** Välj en förinställning och klicka på alternativet Aktiv för att aktivera eller inaktivera den.
 
@@ -644,7 +647,7 @@ Se [Exportera en HTML5 Viewer-förinställning](application-setup.md#exporting_a
 
 Du kan exportera en befintlig HTML5 Viewer-förinställning som du kan använda som grund för att skapa en ny HTML5 Viewer-förinställning. Det här exportalternativet är användbart eftersom du inte behöver skapa visningsprogrammet från grunden. I stället exporterar du en förinställning som ser ut och beter sig ungefär som du vill ha den, och sedan kan du använda den som utgångspunkt för att göra designjusteringar.
 
-Observera att alla standardförinställda CSS-filer för visningsprogram i SPS använder relativa bildvisningssökvägar som pekar på resurser som finns på `Scene7SharedAssets`. Följande är en relativ sökväg till en bildresurs i en CSS-fil för visningsförinställning som finns på `Scene7SharedAsset`: Om du `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`däremot har CSS-filer för visningsprogram på din egen plats, måste du lösa den relativa sökvägen genom att använda en explicit sökväg till bildservern i din egen miljö. I illustrationssyfte, om du skulle uppdatera den relativa sökvägen ovan till en explicit sökväg, kan den se ut så här, där `https://s7d1.scene7.com` är den direkta sökvägen till bildservern: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Observera att alla standardförinställda CSS-filer för visningsprogram i SPS använder relativa bildvisningssökvägar som pekar på resurser som finns på `Scene7SharedAssets`. Följande är en relativ sökväg till en bildresurs i en CSS-fil för visningsförinställning som finns på `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Om du däremot har CSS-filer för visningsprogram på din egen plats, måste du lösa den relativa sökvägen genom att använda en explicit sökväg till bildservern i din egen miljö. I illustrationssyfte, om du skulle uppdatera den relativa sökvägen ovan till en explicit sökväg, kan den se ut så här, där `https://s7d1.scene7.com` är den direkta sökvägen till bildservern: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Exportera en HTML5-visningsförinställning**
 
@@ -857,7 +860,7 @@ Ett effektivt sätt att använda användardefinierade metadatafält är att för
 
    **Tillämpas på** (valfritt), välj en resurstyp om du vill att metadatafältet endast ska gälla för en viss typ av resurs.
 
-   ***Obs**! Välj ett **Tillämpa på** -alternativ noggrant eftersom du inte kan ändra alternativet **Tillämpa på** när du har skapat ett användardefinierat fält. Med Dynamic Media Classic kan du redigera namn, typ och standardvärde för ett användardefinierat fält, men inte för inställningen **Gäller** . *
+   ***Obs**! Välj ett **Tillämpa på** -alternativ noggrant eftersom du inte kan ändra alternativet **Tillämpa på** när du har skapat ett användardefinierat fält. I Dynamic Media Classic kan du redigera namn, typ och standardvärde för ett användardefinierat fält, men inte för inställningen **Gäller** . *
 
 1. Klicka på **Spara** när du har skapat metadatafältet.
 
@@ -918,7 +921,7 @@ Det finns två element för definition, Matcha och Basnamn. Med dessa fält kan 
 
 ### Skapa en gruppuppsättningsförinställning {#creating-a-batch-set-preset}
 
-Dynamic Media Classic använder förinställningar för gruppuppsättningar för att ordna resurser som delar viss vanlig information eller innehåll i uppsättningar med bilder för visning i visningsprogram. Förinställningsrecepten för gruppuppsättningar körs automatiskt tillsammans med de resursimporteringsjobb som du schemalägger i Dynamic Media Classic.
+I Dynamic Media Classic används gruppuppsättningsförinställningar för att ordna resurser som delar viss vanlig information eller innehåll i uppsättningar med bilder som ska visas i visningsprogram. Förinställningsrecepten för gruppuppsättningar körs automatiskt tillsammans med de resursimporteringsjobb som du schemalägger i Dynamic Media Classic.
 
 Använd Förinställning för gruppuppsättning för att skapa, redigera och hantera dina gruppuppsättningsförinställningar. Du kan skapa så många batchuppsättningsförinställningar som behövs för att täcka alla tillgångsimportjobb som du behöver. Det finns två former av förinställda gruppuppsättningsdefinitioner: en för en standardnamnkonvention som du kan ha konfigurerat och en för anpassade namnkonventioner som du skapar direkt.
 
@@ -941,7 +944,7 @@ Se även [Skapa en förinställning för batchuppsättning för automatisk gener
    * To define a naming convention as you set up the preset, expand **Asset Naming Conventions**, and then in the File Naming drop-down list, click **Custom**.
 
 1. I Sekvensordning definierar du ordningen för bilderna när uppsättningen har grupperats tillsammans i Dynamic Media Classic. Som standard sorteras dina resurser alfanumeriskt. Du kan dock använda en kommaavgränsad lista med reguljära uttryck för att definiera ordningen.
-1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Definiera också var bilduppsättningen ska skapas i mappstrukturen Dynamic Media Classic.
+1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Ange också var bilduppsättningen ska skapas i mappstrukturen för Dynamic Media Classic.
 
    Om du definierar ett stort antal bilduppsättningar kanske du föredrar att hålla dessa åtskilda från de mappar som innehåller själva resurserna. Många kunder skapar en mapp för bilduppsättningar och dirigerar om programmet för att placera gruppuppsättningar som genererats här.
 
@@ -1014,7 +1017,7 @@ När rotationsuppsättningen har överförts och publicerats aktiverar du namnet
    >[!NOTE]
    Om kombinationen av reguljära uttryck för rader och kolumner inte kan avgöra positionen för resursen i den flerdimensionella spinset-arrayen, läggs resursen inte till i uppsättningen och ett fel loggas.
 
-1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Definiera också var bilduppsättningen ska skapas i mappstrukturen Dynamic Media Classic.
+1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Ange också var bilduppsättningen ska skapas i mappstrukturen för Dynamic Media Classic.
 
    Om du definierar ett stort antal bilduppsättningar kanske du föredrar att hålla dessa åtskilda från de mappar som innehåller själva resurserna. Många kunder skapar en mapp för bilduppsättningar och dirigerar om programmet för att placera gruppuppsättningar som genererats här.
 
