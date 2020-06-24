@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 0%
 
 ---
 
@@ -33,9 +36,9 @@ Den logik som en videospelare använder för att avgöra vilken kodad video som 
 
 Information om algoritmens logik finns på [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) .
 
-Dynamic Media Classic kan hantera enstaka videoklipp och adaptiva videouppsättningar på följande sätt:
+För hantering av enstaka video och adaptiva videouppsättningar har Dynamic Media Classic stöd för följande:
 
-* Överföra video från ett antal videoformat och ljudformat som stöds och koda video till MP4 H.264-format för uppspelning på flera skärmar. Du kan använda fördefinierade dynamiska Media Classic-anpassade videoförinställningar, enskilda videokodningsförinställningar eller anpassa din egen kodning för att styra videons kvalitet och storlek.
+* Överföra video från ett antal videoformat och ljudformat som stöds och koda video till MP4 H.264-format för uppspelning på flera skärmar. Du kan använda fördefinierade anpassade videoförinställningar för Dynamic Media Classic, enskilda videokodningsförinställningar eller anpassa din egen kodning för att styra videons kvalitet och storlek.
 
    När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
@@ -52,9 +55,9 @@ Dynamic Media Classic kan hantera enstaka videoklipp och adaptiva videouppsättn
 
    Adaptiv videoströmning stöds på flera olika iOS-plattformar.
 
-   Se det senaste stödet i [Adobe Viewer Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/).
+   Se det senaste stödet i [Adobe Viewer Reference Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
-   Dynamic Media Classic har stöd för videouppspelning på mobiler för MP4 H.264-video. Blackberry-enheter som stöder det här videoformatet finns på följande webbplats:
+   Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. Blackberry-enheter som stöder det här videoformatet finns på följande webbplats:
 
    Se [Videoformat som stöds på Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -62,7 +65,7 @@ Dynamic Media Classic kan hantera enstaka videoklipp och adaptiva videouppsättn
 
    Se [Videoformat som stöds på Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
 
-* Spela upp videon med Dynamic Media Classic Viewer Presets, bland annat följande:
+* Spela upp videon med Dynamic Media Classic Viewer Presets, inklusive följande:
 
    * Enstaka videovisningsprogram.
    * Visningsprogram för blandade media som kombinerar både video- och bildinnehåll.
@@ -72,13 +75,13 @@ Dynamic Media Classic kan hantera enstaka videoklipp och adaptiva videouppsättn
 
 **Snabbstart**
 
-Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma igång snabbt med adaptiva videouppsättningar i Dynamic Media Classic. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
+Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma igång snabbt med anpassningsbara videouppsättningar i Dynamic Media Classic. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
 **1. Överföra och koda videofilmer**
 
 Överför och generera adaptiva videouppsättningar i något av följande två scenarier:
 
-* **Ladda upp förkodade videor** Om dina videor redan har kodats utanför Dynamic Media Classic klickar du på **Överför** i det globala navigeringsfältet för att bläddra och överföra MP4-videofiler direkt till Scene7 Publishing System. Klicka sedan på **Skapa > Adaptiva videouppsättningar**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
+* **Överför förkodade videor** Om dina videoklipp redan har kodats utanför Dynamic Media Classic klickar du på **Överför** i det globala navigeringsfältet för att bläddra och överföra MP4-videofiler direkt till Scene7 Publishing System. Klicka sedan på **Skapa > Adaptiva videouppsättningar**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
 * **Överför huvudkällvideor** Om videoklippen inte är kodade klickar du på **Överför** i fältet Global Navigation (Global Navigation) för att överföra huvudvideokällfiler (ej MP4) och låta Scene7 Publishing System koda dem till MP4-filer. Välj **Adaptiv video** under EVideo-alternativ i dialogrutan Alternativ för överföringsjobb.
 
    Med det här önskade alternativet kan du skapa en adaptiv videouppsättning som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videokoder i rätt proportioner.
@@ -91,7 +94,7 @@ Se [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading_and_
 
 **Valfritt**
 
-Dynamic Media Classic har många fördefinierade förinställningar för videokodning. Dessa fördefinierade förinställningar återspeglar de vanligaste videokodningsinställningarna som används idag och är optimerade för uppspelning på målskärmar.
+I Dynamic Media Classic finns ett antal fördefinierade videokodningsförinställningar. Dessa fördefinierade förinställningar återspeglar de vanligaste videokodningsinställningarna som används idag och är optimerade för uppspelning på målskärmar.
 
 Om ytterligare anpassningar behövs kan dock administratörerna skapa videoförinställningar för att anpassa storleken och uppspelningen av videoklipp för slutanvändarna. Administratörer kan lägga till och hantera videoförinställningar från sidan Videoförinställningar som finns under Konfigurera > Programinställningar > Videoförinställningar > Enkla kodningsförinställningar. På sidan Videoförinställningar finns alternativ för att lägga till, redigera, ta bort och aktivera videoförinställningar.
 
@@ -107,7 +110,7 @@ Du kan spela upp videon på förhandsgranskningsskärmen. Du kan också välja o
 
 **Valfritt**
 
-Anpassning av visningsförinställningar - Dynamic Media Classic erbjuder fördefinierade visningsförinställningar för videouppspelning. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Om du vill öppna den här sidan klickar du på Inställningar > Visningsförinställningar i det övre högra hörnet av Scene7 Publishing System. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
+Anpassning av visningsförinställningar - I Dynamic Media Classic finns fördefinierade visningsförinställningar för video. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Om du vill öppna den här sidan klickar du på Inställningar > Visningsförinställningar i det övre högra hörnet av Scene7 Publishing System. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
 
 Se [Arbeta med förinställningar](previewing-videos-video-viewer.md#working_with_video_viewer_presets)för visningsprogram för video.
 
