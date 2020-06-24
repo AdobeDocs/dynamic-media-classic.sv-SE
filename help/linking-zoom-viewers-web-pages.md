@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +48,7 @@ Dina webbplatser och program har tillgång till Dynamic Media Image Server-inneh
 
 Vanligtvis zoomar besökare på en webbplats bilder genom att först markera en zoomningsikon (ofta visas bilden av ett förstoringsglas). Om du väljer den här ikonen öppnas en dynamisk webbsida (ASP eller JSP) som visar bilden i ett popup-fönster. I popup-fönstret kan besökarna zooma in bilden.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i Adobe Viewer Reference Guide](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_basic_zoom_viewer_about.html).
+Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i Adobe Viewer Reference Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
 ## Kopiera den inbäddade kopian av ett Zoom-visningsprogram {#copying-the-embed-copy-of-a-zoom-viewer}
 
