@@ -9,25 +9,28 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 88dad40ef625ebbe02600262c502f3e778c34cfa
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '287'
+ht-degree: 6%
 
 ---
 
 
 # Resurser för utvecklare{#developer-resources}
 
-Dynamic Media Classic tillhandahåller dokumentation för den senaste större versionen av varje Dynamic Media Classic-programmodul. Moduldokument är tillgängliga för bildredigering, Scene7 Publishing System, bildserver och bildåtergivning, visningsprogram och web-to-print.
+I Dynamic Media Classic finns dokumentation om den senaste större versionen av respektive Dynamic Media Classic-programmodul. Moduldokument är tillgängliga för bildredigering, Scene7 Publishing System, Image Server och Image Rendering samt visningsprogram.
 
 Versionsinformation finns också för vissa moduler. Versionsinformation innehåller information om releasen, inklusive förbättringar, ny funktionalitet, tips, felsökningsråd och kända problem. Versionsinformationen innehåller även interaktiva exempel på multimediefunktioner och hur du aktiverar dem. Versionsinformationen innehåller dessutom installations- och konfigureringsinstruktioner för klienter med licensierad programvara.
 
-Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och utnyttja multimedia i Dynamic Media Classic ytterligare för en webbplats eller för ett anpassat program kan använda dessa guider. Dynamic Media Classic förutsätter att läsaren känner till Scene7 Publishing System, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
+Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och utnyttja multimedia i Dynamic Media Classic ytterligare för en webbplats eller ett anpassat program kan använda dessa guider. Dynamic Media Classic förutsätter att läsaren känner till datorprogrammet, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
 
 
 **Scene7 Publishing System API**
 
 | Dokument | Webbadress |
 |--- |--- |
-| Referenshandbok för API | Kontakta den tekniska supporten för Dynamic Media Classic för mer information. |
+| Referenshandbok för API | Kontakta Dynamic Media Classic teknisk support för mer information. |
 
 **Bildredigering**
 
@@ -40,18 +43,22 @@ Referenshandböcker till Image Serving och Image Rendering samt visningsprogram 
 
 | Dokument | Webbadress |
 |--- |--- |
-| Referenshandbok för API | [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html) |
+| Referenshandbok för API | [https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html) |
 
 **Tittare**
 
 | Dokument | Webbadress |
 |--- |--- |
-| Referenshandbok för visningsprogram och versionsinformation | [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html) |
-| Exempel på visningsprogrambibliotek | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.htm) |
+| Referenshandbok för visningsprogram och versionsinformation | [https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html) |
+| Exempel på visningsprogrambibliotek | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 
-**Webb-till-utskrift**
+<!-- 
 
-| Dokument | Webbadress |
+**Web-to-Print**
+
+|Document|Web address|
 |--- |--- |
-| Referenshandbok | [https://www.adobe.com/go/learn_s7_webtoprint_en](https://www.adobe.com/go/learn_s7_webtoprint_en) |
+|Reference Guide|[https://www.adobe.com/go/learn_s7_webtoprint_en](https://www.adobe.com/go/learn_s7_webtoprint_en)| 
+
+-->
