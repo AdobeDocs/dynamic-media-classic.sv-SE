@@ -2,22 +2,23 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic - hjälp
+user-guide-title: Hjälp för Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
 
 
-# Dynamic Media Classic - hjälp {#using}
+# Hjälp för Dynamic Media Classic {#using}
 
-+ [Dynamic Media Classic - dokumentation - startsida](home.md)
-+ [NYTT Dynamic Media Classic-inloggningsmaterial finns tillgängligt 30 juni 2020](new-ui-2020.md)
-+ [Dynamic Media Newsletter från Experience League](dynamic-media-newsletter.md)
++ [Dynamic Media Classic - startsida för dokumentation](home.md)
++ [Självstudiekurs om bästa praxis](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [NYTT Dynamic Media Classic-inloggningsupplevelsen finns tillgänglig 30 juni 2020](new-ui-2020.md)
++ [Dynamic Media Newsletter av Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
    + [Om Dynamic Media Classic](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
@@ -30,7 +31,7 @@ ht-degree: 1%
    + [Populära resurser](popular-resources.md)
    + [Utbildningsvideor](training-videos.md)
 + Komma igång {#getting-started}
-   + [Adobe Dynamic Media Classic - plattformsöversikt](scene7-platform-overview.md)
+   + [Adobe Dynamic Media Classic - översikt](scene7-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Logga in och ut](signing-out.md)
    + [Navigeringsgrunder](navigation-basics.md)
@@ -144,20 +145,20 @@ ht-degree: 1%
    + [Skapa en blandad medieuppsättning](creating-mixed-media-set.md)
    + [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md)
    + [Länka en uppsättning med blandade media till en webbsida](linking-mixed-media-set-web.md)
-+ Instrumentationspaket för Adobe Analytics {#analytics-kit}
++ Adobe Analytics instrumentation Kit {#analytics-kit}
    + [Snabbstart: Integrera Dynamic Media Classic med Adobe Analytics](quick-start-integrating-scene7-analytics.md)
    + [Logga in på Adobe Analytics](log-analytics.md)
    + [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md)
    + [Instrumentera ett visningsprogram med Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
-   + [Inaktivera Adobe Analytics-spårning](disabling-analytics-tracking.md)
-   + [Testa integreringen genom att visa en Adobe Analytics-rapport](testing-integration-viewing-analytics-report.md)
-   + [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md)
+   + [Inaktivera spårning av Adobe Analytics](disabling-analytics-tracking.md)
+   + [Testa integrationen genom att visa en Adobe Analytics-rapport](testing-integration-viewing-analytics-report.md)
+   + [Aktivera videorapporter för Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicera konfigurationsinformation för Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integrering med Target Classic {#target-classic}
    + [Snabbstart: Integrering med Target Classic](quick-start-target-classic-integration.md)
    + [Integrera Adobe Dynamic Media Classic med Adobe Target Classic](integrating-scene7-target-classic.md)
    + [Skapa en erbjudandeuppsättning](creating-offer-set.md)
-   + [Paketera erbjudanden till Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Paketerbjudanden skickas till Adobe Target Classic](pushing-offer-sets-target-classic.md)
 + Användargenererat innehåll {#user-generated-content}
    + [Om användargenererat innehåll](about-ugc.md)
    + [Ta bort en överförd resurs](deleting-uploaded-asset.md)
