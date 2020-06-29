@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -47,18 +47,18 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 
    * **För macOS** - Dra **[!UICONTROL Drag & drop to install]** och släpp det i **[!UICONTROL Adobe Dynamic Media Classic]** dialogrutan **[!UICONTROL Applications]**.
 
-      ![Dra och släpp installation i macOS](/help/assets/dragondrop-install.png)
+      ![Dra och släpp installation i macOS](/help/assets/dragondrop-install1.png)
 
    * Tryck på ikonen Adobe Dynamic Media Classic i **[!UICONTROL Applications]** mappen.
    * Öppna Adobe Dynamic Media Classic-datorprogrammet genom **[!UICONTROL Open]** att trycka på i dialogrutan.
 
-      ![Öppna hämtat program](/help/assets/open-dmclassicapp.png)
+      ![Öppna hämtat program](/help/assets/open-dmclassicapp1.png)
 
    * **För Windows** - Kör installationsprogrammets binärfil och följ instruktionerna på skärmen för att installera skrivbordsappen.
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
-   ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login.png)
+   ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
 1. Använd samma inloggningsuppgifter som för webbläsaren när du loggar in på Adobe Dynamic Media Classic.
 
@@ -70,7 +70,7 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-1. När du publicerar användargränssnittet för inloggning kommer du att märka hur det fungerar i webbläsaren. Du kan utföra din dagliga aktivitet som vanligt nu i användargränssnittet för skrivbordsappen.
+1. När du publicerar användargränssnittet för inloggning kommer du att märka hur det fungerar i webbläsaren. Du kan utföra din dagliga aktivitet som vanligt nu i skrivbordsappens användargränssnitt.
 
 ## Kända begränsningar i Dynamic Media Classic
 
@@ -80,7 +80,7 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 * I appen Dynamic Media Classic väljer du det nya företaget i listrutan för företag.
 * När popup-fönstret visas trycker du på **[!UICONTROL OK]** för att logga ut och stänga appen.
 
-   ![Starta om appen för att använda det nya företaget](/help/assets/dmclassic-new-company.png)
+   ![Starta om appen för att använda det nya företaget](/help/assets/dmclassic-new-company1.png)
 * Starta om Dynamic Media Classic och logga sedan in som vanligt för att arbeta med det nya företaget.
 
 ## Tips och tricks
@@ -89,6 +89,6 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 
 **_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br> I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har vi introducerat en **[!UICONTROL Refresh]** ikon i verktygsfältet till höger om **[!UICONTROL Select None]** knappen. Tryck på **[!UICONTROL Refresh]** ikonen för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
 
-![Ikonen](/help/assets/refresh-icon.png)Uppdatera *Uppdatera*
+![Ikonen](/help/assets/refresh-icon1.png)Uppdatera *Uppdatera*
 
 **_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br> Tryck på **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Kontrollera att relevant **[!UICONTROL Batch Set Preset]** är aktiverat. Klicka på **[!UICONTROL Save and Submit upload]**.
