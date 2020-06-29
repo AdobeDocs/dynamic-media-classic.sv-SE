@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Hjälp för Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -20,8 +20,8 @@ ht-degree: 1%
 + [NYTT Dynamic Media Classic-inloggningsgränssnittet är nu tillgängligt](new-ui-2020.md)
 + [Dynamic Media Newsletter av Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
-   + [Adobe Dynamic Media Classic - nu tillgängligt](dynamic-media-classic-desktop-app.md)
-   + [Om Dynamic Media Classic](introduction.md)
+   + [Adobe Dynamic Media Classic-datorprogrammet - nu tillgängligt](dynamic-media-classic-desktop-app.md)
+   + [Om Hjälp för Dynamic Media Classic](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
    + [Systemkrav](system-requirements.md)
