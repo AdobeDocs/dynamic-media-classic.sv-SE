@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Hjälp för Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 1%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 1%
 
 + [Dynamic Media Classic - startsida för dokumentation](home.md)
 + [Självstudiekurs om bästa praxis](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NYTT Dynamic Media Classic-inloggningsupplevelsen finns tillgänglig 30 juni 2020](new-ui-2020.md)
++ [NYTT Dynamic Media Classic-inloggningsgränssnittet är nu tillgängligt](new-ui-2020.md)
 + [Dynamic Media Newsletter av Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
+   + [Adobe Dynamic Media Classic - nu tillgängligt](dynamic-media-classic-desktop-app.md)
    + [Om Dynamic Media Classic](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
    + [Systemkrav](system-requirements.md)
-   + [Adobe Dynamic Media Classic-datorprogrammet kommer snart!](dynamic-media-classic-desktop-app.md)
    + [Support](support.md)
    + [Hjälp för Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
    + [Adobe Training Services](training-services.md)
