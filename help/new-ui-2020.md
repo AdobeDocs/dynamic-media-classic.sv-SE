@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ Dynamic Media Classic-användare har nu tillgång till en ny inloggningsupplevel
 ### **_Kommer Dynamic Media Classic (tidigare Scene7) att påverkas om webbläsarna slutar stödja Adobe Flash den 31 december 2020?_**
 
 Adobe Flash Player var en webbläsarplugin som gör att webbläsare kan använda innehåll som utvecklats på Adobe Flash-plattformen. Webbgränssnittet i Dynamic Media Classic (som för närvarande är märkt [!DNL Scene7 Publishing System] eller finns [!DNL SPS] i produkten) kräver Adobe Flash Player. När Adobe Flash är inaktuellt den 31 december 2020 kan Dynamic Media Classic-användare inte längre logga in i webbgränssnittet. På grund av detta har Adobe försett kunderna med ett skrivbordsprogram som ersätter webbläsarupplevelsen.
-
-Läs mer i [Adobe Dynamic Media Classic-datorprogrammet](/help/dynamic-media-classic-desktop-app.md) om du vill läsa systemkraven, hämta och installera det nya programmet och sedan logga in på det.
 
 ### **_Hur får jag tillgång till det nya datorprogrammet?_**
 
