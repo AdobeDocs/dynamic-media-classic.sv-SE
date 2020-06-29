@@ -1,20 +1,20 @@
 ---
-title: Nu finns nya Dynamic Media Classic-inloggningsfunktioner
-seo-title: Nu finns ett nytt Dynamic Media Classic-datorprogram
+title: Adobe Dynamic Media Classic-datorprogrammet
+seo-title: Adobe Dynamic Media Classic-datorprogrammet
 description: Dynamic Media Classic-användare kan nu uppdatera användargränssnittet helt. Upplevelsen ger en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen är inte längre beroende av Adobe Flash-teknik i webbläsaren.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1107'
 ht-degree: 0%
 
 ---
 
 
-# Nu finns det en ny inloggningsfunktion för Dynamic Media Classic {#new-ui-2020}
+# Adobe Dynamic Media Classic-datorprogrammet - nu tillgängligt {#new-ui-2020}
 
 Läs mer i [Adobe Dynamic Media Classic-datorprogrammet](/help/dynamic-media-classic-desktop-app.md) om du vill läsa systemkraven, hämta och installera det nya programmet och sedan logga in på det.
 
