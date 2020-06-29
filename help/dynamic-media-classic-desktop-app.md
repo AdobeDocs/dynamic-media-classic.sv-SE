@@ -8,98 +8,87 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 871d12eccc3ce183c8fb2785bad02ad490491157
+source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
 
 
-# Kommer snart: Adobe Dynamic Media Classic-datorprogrammet {#dynamic-media-classic-desktop-app}
+# Ute nu: Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
 
-Dynamic Media Classic-användare får tillgång till en ny skrivbordsappsupplevelse som inte längre är beroende av Adobe Flash-teknik i webbläsaren. Den nya appen kommer att finnas för Windows och macOS den 30 juni 2020.
+Dynamic Media Classic-användare har nu tillgång till en ny skrivbordsappsupplevelse som inte längre är beroende av Adobe Flash-teknik i webbläsaren.
 
-Se Frågor och svar för den [nya inloggningsfunktionen i Dynamic Media Classic som kommer den 30 juni 2020](/help/new-ui-2020.md).
-
-<!--
-
-# Adobe Dynamic Media Classic desktop app {#dynamic-media-classic-desktop-app}
-
-Dynamic Media Classic users now have access to a new desktop app experience that no longer relies on Adobe Flash technology in the browser. 
-
-This new app is now available for Windows and macOS.
+Den nya appen finns nu för Windows och macOS.
 
 >[!IMPORTANT]
 >
->We recommend that you install the new Adobe Dynamic Media Classic desktop app by October 1, 2020. Doing so will ensure you have a smooth transition before Adobe Flash Player is deprecated on December 31, 2020. On that date, you will no longer be able to log on to the browser version of Adobe Dynamic Media Classic user interface, labeled as Scene7 Publishing System in the product.
+>Vi rekommenderar att du installerar nya Adobe Dynamic Media Classic senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player är inaktuellt den 31 december 2020. På den tiden kommer du inte längre att kunna logga in på webbläsarversionen av Adobe Dynamic Media Classic-användargränssnittet, som heter Scene7 Publishing System i produkten.
 
-See the FAQ for the [New Dynamic Media Classic sign in experience now available](/help/new-ui-2020.md).
+Se Vanliga frågor och svar om inloggningen med [nya Dynamic Media Classic finns](/help/new-ui-2020.md)nu.
 
-## System requirements for Adobe Dynamic Media Classic desktop app {#system-requirements-dmc-app}
+## Systemkrav för datorprogrammet Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
-Adobe Dynamic Media Classic desktop app is compatible with the following operating systems:
-* macOS X 10.10 or newer.
-* Windows 7 or newer.
+Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
+* macOS X 10.10 eller senare.
+* Windows 7 eller senare.
 
-## Download and install Adobe Dynamic Media Classic desktop app {#installation-dmc-app}
+## Hämta och installera Adobe Dynamic Media Classic-datorprogrammet {#installation-dmc-app}
 
-1. Uninstall any older Dynamic Media Classic desktop app versions on your system.
+1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
-1. Download the latest installer for Adobe Dynamic Media Classic desktop app.
+1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-    * macOS (.dmg) &ndash; [Text](link).
-    * Windows (.exe) &ndash; [Text](link).
+   * macOS (.dmg) - [Ladda ned](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
+   * Windows (.exe) - [Ladda ned](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
 
-1. Do one of the following based on the installer you downloaded.
+1. Gör något av följande baserat på det installationsprogram du hämtade.
 
-    * **For macOS** &ndash; In the **[!UICONTROL Drag & drop to install]** dialog box, drag **[!UICONTROL Adobe Dynamic Media Classic]** and drop it onto **[!UICONTROL Applications]**.
+   * **För macOS** - Dra **[!UICONTROL Drag & drop to install]** och släpp det i **[!UICONTROL Adobe Dynamic Media Classic]** dialogrutan **[!UICONTROL Applications]**.
 
-        ![Drag and drop install on macOS](/help/assets/dragondrop-install.png)
+      ![Dra och släpp installation i macOS](/help/assets/dragondrop-install.png)
 
-    * In the **[!UICONTROL Applications]** folder, tap the Adobe Dynamic Media Classic icon.
-    * In the dialog box, tap **[!UICONTROL Open]** to open the Adobe Dynamic Media Classic desktop app.
+   * Tryck på ikonen Adobe Dynamic Media Classic i **[!UICONTROL Applications]** mappen.
+   * Öppna Adobe Dynamic Media Classic-datorprogrammet genom **[!UICONTROL Open]** att trycka på i dialogrutan.
 
-        ![Open downloaded app](/help/assets/open-dmclassicapp.png)
+      ![Öppna hämtat program](/help/assets/open-dmclassicapp.png)
 
-    * **For Windows** &ndash; Run the installer binary and follow the on-screen instructions to install the desktop app.
+   * **För Windows** - Kör installationsprogrammets binärfil och följ instruktionerna på skärmen för att installera skrivbordsappen.
 
-1. When you open the application, the new Adobe Dynamic Media Classic Sign In page is displayed:
+1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
-    ![Dynamic Media Classic sign in](/help/assets/dmclassic-login.png)
+   ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login.png)
 
-1. Use the same credentials as your browser credentials to sign in to Adobe Dynamic Media Classic.
+1. Använd samma inloggningsuppgifter som för webbläsaren när du loggar in på Adobe Dynamic Media Classic.
 
-    For the **[!UICONTROL Server]** to use, see the following mapping for the production environment:
+   Mer information om **[!UICONTROL Server]** hur du använder finns i följande mappning för produktionsmiljön:
 
-    | Browser URL | Desktop app server name |
-    |---|---|
-    | https://s7sps1.scene7.com/ | NA (North America) production |
-    | https://s7sps3.scene7.com/ | EMEA (Europe, Middle East, and Africa) production |
-    | https://s7sps5.scene7.com/ | APAC (Asia-Pacific) production |
- 
-1. Post the login UI, you will notice the familiar browser UI experience. You can carry your day to day activity as usual now on the desktop app UI.
+   | Webbläsarens URL | Servernamn för skrivbordsapp |
+   |---|---|
+   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
+   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-## Known limitations in Dynamic Media Classic 
- 
-**_Applies to Windows only &ndash; Is there a limitation on the number of files that can be uploaded through the desktop app UI?_**<br>Yes, a maximum of 150 files can be uploaded at a time by way of the desktop app UI.
+1. När du publicerar användargränssnittet för inloggning kommer du att märka hur det fungerar i webbläsaren. Du kan utföra din dagliga aktivitet som vanligt nu i användargränssnittet för skrivbordsappen.
 
-**_Applies to Windows and macOS &ndash; How do I switch between companies?_**<br>To switch between companies, do the following:
-* In the Dynamic Media Classic app, select the new company from the company drop-down list.
-* When the pop-up appears, tap **[!UICONTROL OK]** to sign out and close the app.
+## Kända begränsningar i Dynamic Media Classic
 
-    ![Restart the app to use the new company](/help/assets/dmclassic-new-company.png)
-* Restart Dynamic Media Classic, then sign in as usual to work with the new company.
+**_Gäller endast Windows - finns det en begränsning av antalet filer som kan överföras via skrivbordsappens användargränssnitt?_**<br> Ja, högst 150 filer kan överföras åt gången via skrivbordsappens användargränssnitt.
 
-## Tips and Tricks 
+**_Gäller Windows och macOS - Hur växlar jag mellan företag?_**<br> Så här byter du mellan företag:
+* I appen Dynamic Media Classic väljer du det nya företaget i listrutan för företag.
+* När popup-fönstret visas trycker du på **[!UICONTROL OK]** för att logga ut och stänga appen.
 
-**_I am unable to see Media Cart panel on the landing page of Dynamic Media Classic._**<br>In Dynamic Media Classic, tap **[!UICONTROL Setup > Personal Setup]**. In the Browser section, make sure **[!UICONTROL Show MediaPortal Features]** is selected (checked). Tap **[!UICONTROL Save > Close]**.
- 
-**_Publish state (green indicator) of an asset is not reflected correctly._**<br>In the browser UI, a re-login to the UI was required to see the correct publish state of assets. In the desktop app, we have introduced a **[!UICONTROL Refresh]** icon on the toolbar, to the right of the **[!UICONTROL Select None]** button. Tap the **[!UICONTROL Refresh]** icon to see the latest status of all the assets on the given page. No re-login required as with the browser UI.
+   ![Starta om appen för att använda det nya företaget](/help/assets/dmclassic-new-company.png)
+* Starta om Dynamic Media Classic och logga sedan in som vanligt för att arbeta med det nya företaget.
 
-![Refresh icon](/help/assets/refresh-icon.png)
-*Refresh icon*
- 
-**_I don't see batch set presets working in the desktop app._**<br>Tap **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Ensure the relevant **[!UICONTROL Batch Set Preset]** is enabled. Click **[!UICONTROL Save and Submit upload]**. 
+## Tips och tricks
 
--->
+**_Jag kan inte se Media Cart-panelen på startsidan för Dynamic Media Classic._**<br> Tryck på **[!UICONTROL Setup > Personal Setup]** i Dynamic Media Classic. Kontrollera att alternativet **[!UICONTROL Show MediaPortal Features]** är markerat i webbläsaravsnittet. Tryck på **[!UICONTROL Save > Close]**.
+
+**_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br> I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har vi introducerat en **[!UICONTROL Refresh]** ikon i verktygsfältet till höger om **[!UICONTROL Select None]** knappen. Tryck på **[!UICONTROL Refresh]** ikonen för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
+
+![Ikonen](/help/assets/refresh-icon.png)Uppdatera *Uppdatera*
+
+**_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br> Tryck på **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Kontrollera att relevant **[!UICONTROL Batch Set Preset]** är aktiverat. Klicka på **[!UICONTROL Save and Submit upload]**.
