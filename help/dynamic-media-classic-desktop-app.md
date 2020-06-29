@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Den nya appen finns nu för Windows och macOS.
 >
 >Vi rekommenderar att du installerar nya Adobe Dynamic Media Classic senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player är inaktuellt den 31 december 2020. På den tiden kommer du inte längre att kunna logga in på webbläsarversionen av Adobe Dynamic Media Classic-användargränssnittet, som heter Scene7 Publishing System i produkten.
 
-Se Vanliga frågor och svar om inloggningen med [nya Dynamic Media Classic finns](/help/new-ui-2020.md)nu.
+Se Vanliga frågor och svar om inloggningen med [nya Dynamic Media Classic.](/help/new-ui-2020.md)
 
 ## Systemkrav för datorprogrammet Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * macOS (.dmg) - [Ladda ned](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
-   * Windows (.exe) - [Ladda ned](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
+   * [macOS (.dmg) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.exe) - Ladda ned.](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. Gör något av följande baserat på det installationsprogram du hämtade.
 
