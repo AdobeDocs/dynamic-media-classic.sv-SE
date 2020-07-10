@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: a886163176973bdea4c7f0feddefc6c228c3b83c
+source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 0%
 
 ---
 
@@ -25,15 +28,9 @@ Adobe Training Services erbjuder en omfattande, skräddarsydd utbildning för er
 
 Se [Adobes utbildningstjänster](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
-**Självstudiekurser för snabbstart av video**
-
-Läs mer om Media Portal, dynamisk bildbehandling, e-kataloger, e-videor, web to Print och många andra ämnen som handlar om att förstå och använda Scene7 Publishing System.
-
-Se [Självstudiekurser](https://marketing.adobe.com/resources/help/en_US/home/index.html#Scene7)för snabbstart.
-
 **Demos**
 
-Titta på demonstrationer av Dynamic Media Classic Viewer-funktioner.
+Titta på demonstrationer av visningsfunktionerna i Dynamic Media Classic.
 
 Se [Demos](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
 
