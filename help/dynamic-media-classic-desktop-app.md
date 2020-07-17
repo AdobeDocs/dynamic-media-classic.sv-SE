@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
 1. När du publicerar användargränssnittet för inloggning kommer du att märka hur det fungerar i webbläsaren. Du kan utföra din dagliga aktivitet som vanligt nu i skrivbordsappens användargränssnitt.
+
+## Videogenomgång om hur du använder Dynamic Media Classic Desktop App
+
+Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter och 36 sekunder).
 
 ## Kända begränsningar i Dynamic Media Classic
 
