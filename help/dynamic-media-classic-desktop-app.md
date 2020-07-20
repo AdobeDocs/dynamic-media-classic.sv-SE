@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
+source-git-commit: 9f541bf3a6f364029df868215953b14c15ae474c
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 
 ## Videogenomgång om hur du använder Dynamic Media Classic Desktop App
 
-Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter och 36 sekunder).
+Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter (36 sekunder).
 
 ## Kända begränsningar i Dynamic Media Classic
 
