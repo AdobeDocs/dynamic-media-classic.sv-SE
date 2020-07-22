@@ -6,11 +6,14 @@ seo-description: Lär dig hur du lägger till kapitelmarkörer i en video.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 0%
 
 ---
 
@@ -55,7 +58,7 @@ Se [WebVTT: Textspårningsformatet](https://dev.w3.org/html5/webvtt/)för webbvi
 
 **Lägga till kapitelmarkörer i video**
 
-1. Skapa en videokapitelfil med en enkel textredigerare utanför Scene7 Publishing System.
+1. Skapa videokapitelfilen med en enkel textredigerare utanför Dynamic Media Classic.
 
    >[!NOTE]
    >
@@ -65,7 +68,7 @@ Se [WebVTT: Textspårningsformatet](https://dev.w3.org/html5/webvtt/)för webbvi
 
    Vanligtvis vill du ge kapitlet VTT-filen samma namn som videofilen och bifoga den med `chapters`. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll.
 
-1. I Scene7 Publishing System överför du din WebVTT-kapitelfil.
+1. Överför din WebVTT-kapitelfil till Dynamic Media Classic.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
