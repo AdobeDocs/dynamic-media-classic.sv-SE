@@ -6,18 +6,21 @@ seo-description: Lär dig hur du söker efter resurser.
 uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 0%
 
 ---
 
 
 # Söka efter resurser{#searching-assets}
 
-Om du vill hitta filresurser i Scene7 Publishing System kan du visa resurser efter typ, sortera resurser i panelen Bläddra, göra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
+Om du vill söka efter filresurser i Dynamic Media Classic kan du visa resurser efter typ, sortera resurser i panelen Bläddra, utföra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
 
 >[!NOTE]
 >
