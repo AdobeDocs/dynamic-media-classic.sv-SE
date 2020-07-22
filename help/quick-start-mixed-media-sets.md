@@ -6,11 +6,14 @@ seo-description: En introduktion och snabbstart av blandade medieuppsättningar 
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 6%
 
 ---
 
@@ -23,13 +26,13 @@ Förinställningar för visningsprogram för blandade media innehåller communit
 
 **Snabbstart**
 
-Den här snabbstarten för blandade medieuppsättningar är utformad för att komma igång snabbt med blandad mediauppsättning i Dynamic Media Classic.
+Den här snabbstarten för blandade medieuppsättningar är utformad för att komma igång snabbt med blandad medieuppsättning i Dynamic Media Classic.
 
 **1. Överföra bilder, färgrutefiler och videoklipp**
 
 Börja med att ladda upp bilder, färgrutefiler och videoklipp till dina blandade medieuppsättningar. Eftersom användare kan zooma in bilder i visningsprogrammet för uppsättningen med blandade medier bör du ta hänsyn till zoomningen när du väljer bilder. Se till att bilderna har minst 2 000 pixlar i den största dimensionen.
 
-Klicka på Överför i det globala navigeringsfältet för att överföra filer från datorn till en mapp i Scene7 Publishing System.
+Klicka på Överför i det globala navigeringsfältet om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
 
 Se [Överföra filer](uploading-files.md#uploading-your-files).
 
@@ -47,7 +50,7 @@ Se [Skapa en blandad medieuppsättning](creating-mixed-media-set.md#creating-a-m
 
 **4. Konfigurera förinställningar för visningsprogrammet för blandade media**
 
-Dynamic Media Classic levereras med standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra förinställningar för visningsprogrammet för blandad medieuppsättning.
+Dynamic Media Classic innehåller standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra förinställningar för visningsprogrammet för blandad medieuppsättning.
 
 När du konfigurerar en visningsförinställning för blandad medieuppsättning lägger du till visningsförinställningarna för alla andra resurser i uppsättningen. Om din uppsättning med blandade media innehåller videoklipp lägger du till en förinställning för visningsprogrammet för video i förinställningen för visningsprogrammet för blandade media. Du kan också lägga till ett ljudspår i visningsprogrammet. Det här ljudspåret spelas upp när visningsprogrammet är öppet, men spelas inte upp när en video är aktiv.
 
@@ -61,7 +64,7 @@ Se [Förhandsvisa en resurs](previewing-asset.md#previewing-an-asset).
 
 **6. Publicera en blandad medieuppsättning**
 
-När du publicerar en uppsättning med blandade media placeras den på dynamiska Media Classic-servrar och URL-strängen aktiveras.
+När du publicerar en uppsättning med blandade media placeras den på Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
 Blandade medieuppsättningar kräver att du publicerar till **videoservern** och även till **bildservern**. Du använder **Video Server** för att publicera de faktiska videoklippen som du har markerat för publicering. Och du kan använda **Image Server** för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.
 
