@@ -6,13 +6,13 @@ seo-description: Lär dig hur du länkar en e-katalog till en webbsida.
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Länka en e-katalog till en webbsida{#linking-an-ecatalog-to-a-web-page}
 
-Dina webbplatser och program får tillgång till Dynamic Media Image Server-innehåll, inklusive e-kataloger, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller den inbäddade koden för din eCatalog på dina webbsidor och i dina program kopierar du den från Scene7 Publishing System.
+Dina webbplatser och program får tillgång till Dynamic Media Image Server-innehåll, inklusive e-kataloger, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller den inbäddade koden för din eCatalog på dina webbsidor och i dina program kopierar du den från Dynamic Media Classic.
 
 >[!NOTE]
 >
