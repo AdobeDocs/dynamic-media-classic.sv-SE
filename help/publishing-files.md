@@ -6,20 +6,23 @@ seo-description: Lär dig hur du publicerar filer.
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 0%
 
 ---
 
 
 # Publicera filer {#publishing-files}
 
-Du publicerar dina resurser på dynamiska mediabildsservrar. Du kan publicera resurser en gång eller ordna så att Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Scene7 Publishing System och lägga till dem på webbplatsen eller i programmet.
+Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser en gång eller ordna så att Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Dynamic Media Classic och lägga till dem på webbplatsen eller i programmet.
 
-Scene7 Publishing System har nu stöd för leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla dina Dynamic Media Classic-resurser. Se Vanliga frågor om [HTTP2-leverans av innehåll](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
+Dynamic Media Classic har nu stöd för leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar kommunikationen mellan webbläsare och servrar, vilket ger bättre respons och laddningstider för alla dina resurser i Dynamic Media Classic. Se Vanliga frågor om [HTTP2-leverans av innehåll](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html).
 
 ## Publicera efter överföring {#publish-after-uploading}
 
@@ -46,7 +49,7 @@ Härledda bilder markeras också automatiskt för publicering när deras överor
 
 ## Skapa ett publiceringsjobb {#creating-a-publish-job}
 
-Skapa ett publiceringsjobb för att publicera resurser som du har överfört till Dynamic Media Classic-servrar, men välj att inte publicera dem automatiskt än. Du kan göra en engångspublicering eller schemalägga återkommande jobb. Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
+Skapa ett publiceringsjobb för att publicera resurser som du har överfört till Dynamic Media Classic-servrar, men välj att inte publicera dem automatiskt än. Du kan göra en engångspublicering eller schemalägga återkommande jobb. I Dynamic Media Classic finns avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av resurser som redan har publicerats.
 
 **Skapa ett publiceringsjobb**
 
@@ -62,7 +65,7 @@ Skapa ett publiceringsjobb för att publicera resurser som du har överfört til
 
 1. Klicka på **Skicka publicering**.
 
-SPS spårar publiceringsjobb på jobbsidan. Du kan granska publiceringsjobb på den sidan.
+Dynamic Media Classic spårar publiceringsjobb på sidan Jobb. Du kan granska publiceringsjobb på den sidan.
 
 >[!NOTE]
 >
@@ -78,7 +81,7 @@ Om du vill att publiceringsjobbet ska utföras vid ett senare datum väljer du m
 
 Skapa ett återkommande publiceringsjobb genom att välja alternativet Återkommande på sidan Publicera.
 
-Välj sedan alternativet Upprepa - varje dag, Varje vecka, Varje månad eller Anpassad - för att deklarera när du vill att publiceringsjobbet ska återkomma. Dynamic Media Classic visar kalenderverktyg för schemaläggning av det återkommande publiceringsjobbet. Du kan välja alternativet Egen och ange en regel i rutan Regel för att beskriva ett anpassat jobbintervall.
+Välj sedan alternativet Upprepa - varje dag, Varje vecka, Varje månad eller Anpassad - för att deklarera när du vill att publiceringsjobbet ska återkomma. I Dynamic Media Classic visas kalenderverktyg för schemaläggning av det återkommande publiceringsjobbet. Du kan välja alternativet Egen och ange en regel i rutan Regel för att beskriva ett anpassat jobbintervall.
 
 Se [Skapa ett anpassat tidsintervall](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval)för överföring eller publiceringsjobb.
 
@@ -92,7 +95,7 @@ Du kan visa de avancerade alternativen på sidan Publicera och välja följande 
 
 * **Publicera till** Välj en servertyp om du bara vill publicera resurser på en viss server, inte på alla servrar.
 
-* **Publicera** som standard publiceras endast resurser som är nya och som inte har publicerats tidigare (alternativet Ny sedan senaste publicering). Du kan dock välja Fullständig publicering om du även vill publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj Fullständig w/ Sök data om du publicerar en e-katalog och vill att läsarna ska kunna söka efter den med nyckelord.
+* **Publicera** som standard publiceras endast nya resurser som inte har publicerats tidigare (alternativet Ny sedan senaste publicering) i Dynamic Media Classic. Du kan dock välja Fullständig publicering om du även vill publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj Fullständig w/ Sök data om du publicerar en e-katalog och vill att läsarna ska kunna söka efter den med nyckelord.
 
 * **Kör jobb som** Välj ett användarnamn i listan. Du kan sortera jobb efter användarnamn på sidan Jobb. Genom att välja ett namn associerar du ett publiceringsjobb med en användare.
 
@@ -152,7 +155,7 @@ Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är 
 
 Första gången någon hämtar en webbsida levereras resurserna till en CDN-webbcache-server. De lagras på den här servern så att nästa gång någon i samma område öppnar webbsidan kan samma cachelagrade innehåll levereras snabbare. Innehållet levereras snabbare eftersom det ligger närmare slutanvändaren. CDN gör att webbsidor visas snabbare. Den minskar behovet av bandbredd på den centrala servern eftersom innehållet levereras från edge cache-nätverket, inte från en central server i varje instans.
 
-Nypublicerat Dynamic Media Classic-innehåll är tillgängligt direkt för slutanvändaren och fyller snabbt i kantcachens nätverk. Nypublicerat innehåll (bilder som har exakt samma namn som bilder som tidigare publicerats på en bildserver) uppdateras inte på CDN på upp till tio timmar. I stället ser slutanvändarna vad som finns i ett webbcacheminne i CDN-nätverket. Av den anledningen kan det hända att dina dynamiska media Classic-resurser som publicerats igen inte visas för slutanvändarna på tio timmar.
+Det nypublicerade Dynamic Media Classic-innehållet är omedelbart tillgängligt för slutanvändaren och fyller snabbt i kantcachens nätverk. Nypublicerat innehåll (bilder som har exakt samma namn som bilder som tidigare publicerats på en bildserver) uppdateras inte på CDN på upp till tio timmar. I stället ser slutanvändarna vad som finns i ett webbcacheminne i CDN-nätverket. Därför kanske dina ompublicerade Dynamic Media Classic-resurser inte visas för slutanvändarna på tio timmar.
 
 Om du vill att dina nypublicerade bildresurser ska vara tillgängliga tidigare än tio timmars fördröjning kan du tömma webcacher på CDN. När du tömmer dessa webbcacher tas gammalt innehåll bort från CDN-webbcachen och ersätts med dina senast publicerade resurser.
 
