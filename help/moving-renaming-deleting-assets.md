@@ -6,11 +6,14 @@ seo-description: Lär dig hur du flyttar, byter namn på och tar bort resurser.
 uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +40,7 @@ Så här byter du namn på en resurs:
    * Markera namnet, skriv in ett nytt namn och tryck på Retur eller klicka utanför namnet.
    * Välj Arkiv > Byt namn. Namnet på resursen markeras. Ange ett nytt namn och tryck på Retur.
 
-Se till att du inte anger namnet på en befintlig Scene7 Publishing System-resurs.
+Se till att du inte anger namnet på en befintlig Dynamic Media Classic-resurs.
 
 ## Ta bort resurser {#delete-assets}
 
@@ -58,13 +61,13 @@ När du tar bort en resurs tas även alla resurser som härletts från den bort.
 
 >[!NOTE]
 >
->Dynamic Media Classic rekommenderar att du skriver över resursfiler i stället för att ta bort dem, om orsaken till att du tar bort en resursfil är att ersätta den med en annan med samma namn.
+>Dynamic Media Classic rekommenderar att du skriver över resursfiler i stället för att ta bort dem, om du vill ersätta en resursfil med en annan med samma namn.
 
 ## Ta bort flera resurser med en textfil {#delete-multiple-assets-with-a-text-file}
 
 Om du vill ta bort flera resurser samtidigt i resursbiblioteket kan du visa de resurser du vill ta bort i en textfil och skicka listan till Dynamic Media Classic.
 
-Skapa en lista med Scene7 Publishing System ID:n och spara den som en textfil (.txt). Varje Scene7 Publishing System-ID måste finnas på sin egen rad (följt av en retur).
+Skapa en lista med Dynamic Media Classic ID:n och spara den som en textfil (.txt). Varje Dynamic Media Classic ID måste finnas på sin egen rad (följt av en hård radbrytning).
 
 När du har skapat listan följer du de här stegen för att använda den för att ta bort resurser:
 
@@ -72,7 +75,7 @@ När du har skapat listan följer du de här stegen för att använda den för a
 1. I dialogrutan Ta bort resurs bläddrar du till eller skriver sökvägen till textfilen med listan över resurser som du vill ta bort.
 1. Klicka på knappen Ta bort.
 
-När du tar bort resurser med en textfil och något Scene7 Publishing System ID inte finns med i listan visas ett meddelande om att Dynamic Media Classic är&quot;Unable to validate these entries in your list:&quot; tillsammans med listan över poster. Dynamic Media Classic genererar dock inget fel på jobbskärmen.
+När du tar bort resurser med en textfil visas ett meddelande om att det inte finns något Dynamic Media Classic-ID i listan om att Dynamic Media Classic är&quot;Det går inte att validera de här posterna i listan:&quot; tillsammans med listan över poster. Dynamic Media Classic genererar dock inget fel på jobbskärmen.
 
 >[!MORELIKETHIS]
 >
