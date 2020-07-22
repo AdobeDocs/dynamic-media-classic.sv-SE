@@ -6,10 +6,13 @@ seo-description: Lär dig hur du anger exportalternativ som är tillgängliga f�
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 0%
 
 ---
 
@@ -18,12 +21,12 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 Om administratören ger dem tillstånd kan Media Portal-användare formatera om bilder när de exporterar dem. De kan till exempel ändra storlek, filformat och bildkvalitet. Automatisk omformatering av bilder när de exporteras sparar tid genom att du inte behöver formatera om bilderna separat. Dessutom kan administratörer skapa en förinställning - ett i förväg fastställt urval av bildformatsinställningar. Du kan använda en förinställning när du exporterar bilder för att formatera om dem efter företagets specifikationer.
 
-Följande två begränsningar gäller om du exporterar bildresurser som en användardefinierad konvertering eller om du exporterar originalmallbilder:
+Följande två begränsningar gäller om du exporterar bildresurser som en användardefinierad konvertering eller om du exporterar överordnad originalbilder:
 
 * Den komprimerade ZIP-exportfilen har en maximal filstorlek på 1 GB för exportjobbet.
 * Du kan ha maximalt 500 totala resurser per exportjobb.
 
-Se även [Exportera resurser från Scene7 Publishing System](exporting-assets-scene7-publishing-system.md#exporting_assets_from_scene7_publishing_system).
+Se även [Exportera resurser från Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Ange tillgängliga exportalternativ för Media Portal-användare**
 
@@ -32,11 +35,11 @@ Se även [Exportera resurser från Scene7 Publishing System](exporting-assets-sc
 
    * **Aktivera användardefinierad konvertering** När du väljer det här alternativet kan användare välja en annan i listrutan Storlek i fönstret Exportera markerade resurser. Användarna kan sedan välja en måttenhet som pixlar eller centimeter och sedan ange önskad bredd och höjd. När de exporterar eller hämtar dessa filer formateras bildfilerna om.
 
-      När **pixlar** väljs i listrutan **Storlek** får bildens bredd x-höjd inte överstiga 100 miljoner pixlar. Storleken är lika med 10 000 x 10 000 pixlar för en fyrkantig bild, eller ungefär 8 000 x 12 000 pixlar för en bild med 2x3-proportioner. Den här storleksbegränsningen gäller inte om du exporterar originalmallbilder.
+      När **pixlar** väljs i listrutan **Storlek** får bildens bredd x-höjd inte överstiga 100 miljoner pixlar. Storleken är lika med 10 000 x 10 000 pixlar för en fyrkantig bild, eller ungefär 8 000 x 12 000 pixlar för en bild med 2x3-proportioner. Den här storleksbegränsningen gäller inte om du exporterar överordnad originalbilder.
 
       Avmarkera det här alternativet om du vill att användare ska hämta filer utan att formatera om dem när de hämtas.
 
-   * **Aktivera Exportera ursprungligt** Gör att du kan exportera ursprungliga mallbilder. På panelen Exportera markerade resurser kan användare öppna listrutan Konvertering och välja Exportera ursprungligt foto för att exportera originalfilerna. Avmarkera det här alternativet om du vill tvinga användarna att välja en bildförinställning eller välja konverteringsalternativ när de exporterar bilder.
+   * **Aktivera Exportera original** Gör att du kan exportera överordnad originalbilder. På panelen Exportera markerade resurser kan användare öppna listrutan Konvertering och välja Exportera ursprungligt foto för att exportera originalfilerna. Avmarkera det här alternativet om du vill tvinga användarna att välja en bildförinställning eller välja konverteringsalternativ när de exporterar bilder.
 
 >[!MORELIKETHIS]
 >
