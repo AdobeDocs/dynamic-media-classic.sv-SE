@@ -6,18 +6,21 @@ seo-description: En introduktion och en snabbstart till Media Portal som hjälpe
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '709'
+ht-degree: 1%
 
 ---
 
 
 # Snabbstart: Media Portal{#quick-start-media-portal}
 
-Med Media Portal kan man enkelt skaffa, styra upp och distribuera godkänt material till externa partners och kanaler samt interna affärsanvändare. Den webbläsarbaserade, självbetjäningsmiljön ger Media Portal-användare administratörskontrollerade&quot;vyer&quot; i Dynamic Media Classic-material så att de enkelt kan komma åt, söka, förhandsgranska och exportera mediefiler i företagsgodkända format.
+Med Media Portal kan man enkelt skaffa, styra upp och distribuera godkänt material till externa partners och kanaler samt interna affärsanvändare. Den webbläsarbaserade, självbetjäningsmiljön ger Media Portal-användare administratörskontrollerade&quot;vyer&quot; av Dynamic Media Classic-material så att de enkelt kan komma åt, söka, förhandsgranska och exportera mediefiler i företagsgodkända format.
 
 Som administratör kan du styra hur användare visar, får åtkomst till och använder resurser i Media Portal. Dessutom kan ni anpassa Media Portal-gränssnittet så att det passar er webbplats och ert varumärke. Du kan ange teckensnitt, teckenfärg och teckensnittsstorlek samt inkludera märkeselement som logotyper i Media Portal-gränssnittet.
 
@@ -45,7 +48,7 @@ Se [Lägga till och hantera Media Portal-användare](adding-media-portal-users.m
 
 **4. Hantera FTP-konton**
 
-Du kan ha separata FTP-konton som är kopplade till Media Portal och som är mappade till en viss mapp i ditt konto för Scene7 Publishing System. Den här typen av funktionalitet innebär att du kan tillåta användare att överföra digitala resurser till ditt konto med hjälp av separata FTP-konton.
+Du kan ha separata FTP-konton som är associerade med Media Portal och mappade till en viss mapp i ditt Dynamic Media Classic-konto. Den här typen av funktionalitet innebär att du kan tillåta användare att överföra digitala resurser till ditt konto med hjälp av separata FTP-konton.
 
 Se [Hantera FTP-konton](ftp-accounts.md#managing_ftp_accounts).
 
@@ -57,7 +60,7 @@ Se Användarroller [i](media-portal-user-roles.md#media_portal_user_roles)Media 
 
 **5. Ange exportalternativ**
 
-Medieportalanvändare kan, när de exporterar filer, formatera om filerna och exportera originalmallfiler - om du ger dem behörighet att göra det. Som administratör bestämmer du hur användare ska exportera filer.
+Medieportalanvändare kan, när de exporterar filer, formatera om filerna och exportera överordnad originalfiler - om du ger dem tillstånd att göra det. Som administratör bestämmer du hur användare ska exportera filer.
 
 Se [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
