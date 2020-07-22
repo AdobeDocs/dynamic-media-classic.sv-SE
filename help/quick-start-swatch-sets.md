@@ -6,28 +6,31 @@ seo-description: En introduktion och Quick Start to Swatch Set som hjälper dig 
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 1%
 
 ---
 
 
 # Snabbstart: Färgruteuppsättningar{#quick-start-swatch-sets}
 
-Dynamic Media Classic Swatch Sets ger användarna en integrerad visningsupplevelse. I det dynamiska visningsprogrammet för färgruteuppsättning kan användarna se ett objekt som återges i en annan färg, material, struktur, finish eller struktur genom att klicka på en miniatyrbild.
+Dynamic Media Classic-färgruteuppsättningar ger en integrerad visningsupplevelse. I det dynamiska visningsprogrammet för färgruteuppsättning kan användarna se ett objekt som återges i en annan färg, material, struktur, finish eller struktur genom att klicka på en miniatyrbild.
 
 **Snabbstart**
 
-Den här snabbstarten för färgruteuppsättningar är utformad för att komma igång snabbt med tekniken för färgruteuppsättning i Dynamic Media Classic.
+Den här snabbstarten för färgruteuppsättningar är utformad för att komma igång snabbt med hjälp av färgrutetekniker i Dynamic Media Classic.
 
 **1. Överföra bilder och färgrutefiler**
 
 Börja med att ladda upp bilder och färgrutefiler för dina färgruteuppsättningar.
 
-Klicka på Överför i det globala navigeringsfältet för att överföra filer från datorn till en mapp i Scene7 Publishing System. Se [Förbereda färgrutor Ange resurser för](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)överföring och [överföring av filer](uploading-files.md#uploading-your-files).
+Klicka på Överför i det globala navigeringsfältet om du vill överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Förbereda färgrutor Ange resurser för](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)överföring och [överföring av filer](uploading-files.md#uploading-your-files).
 
 **2. Skapa en färgruteuppsättning**
 
