@@ -6,11 +6,11 @@ seo-description: Lär dig de bästa sätten att optimera bildkvaliteten.
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 707afa544ffcea8885631c9fca8b432bc7af6860
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 3%
@@ -29,7 +29,7 @@ Se även [Smart bildbehandling](https://helpx.adobe.com/experience-manager/6-3/a
 ## Bästa tillvägagångssätt för bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * JPG eller PNG är de bästa alternativen för att leverera bilder med god kvalitet och hanterbar storlek och vikt.
-* Om inget formatkommando anges i URL:en används som standard JPG för leverans.
+* Om inget formatkommando anges i URL:en används som standard JPG för leverans i Dynamic Media Image Serving.
 * JPG komprimeras med förhållandet 10:1 och ger vanligtvis mindre bildfilsstorlekar. PNG komprimeras med ett förhållande på cirka 2:1, utom i vissa fall, till exempel när bilder innehåller en tom bakgrund. Vanligtvis är PNG-filernas storlek större än JPG-filer.
 * JPG använder förstörande komprimering, vilket innebär att bildelement (pixlar) tas bort under komprimeringen. PNG använder däremot förlustfri komprimering.
 * JPG komprimerar ofta fotografiska bilder med bättre återgivning än syntetiska bilder med skarpa kanter och kontrast.
@@ -39,7 +39,7 @@ Ett tips för bildformat är att börja med den vanligaste inställningen `&fmt=
 
 ## Bästa tillvägagångssätt för bildstorlek {#best-practices-for-image-size}
 
-Att minska bildstorleken dynamiskt är en av de vanligaste åtgärderna som Dynamic Media Image Serving utför. Det handlar om att ange storleken och, om så önskas, vilket nedsamplingsläge som används för att nedskala bilden.
+Att minska bildstorleken dynamiskt är en av de vanligaste åtgärderna som utförs i Dynamic Media Image Serving. Det handlar om att ange storleken och, om så önskas, vilket nedsamplingsläge som används för att nedskala bilden.
 
 * För storleksändring av bilder är det bästa och enklaste sättet att använda `&wid=<value>` och `&hei=<value>` eller bara `&hei=<value>`. Dessa parametrar ställer automatiskt in bildbredden i enlighet med proportionerna.
 * `&resMode=<value>` styr den algoritm som används för nedsampling. Börja med `&resMode=sharp2`. Det här värdet ger den bästa bildkvaliteten. Nedsamplingsvärdet `=bilin` är snabbare, men resulterar ofta i alias av artefakter.
@@ -50,7 +50,7 @@ Det bästa sättet att ändra storlek på bilder är att använda `&wid=<value>&
 
 Bildskärpa är den mest komplicerade aspekten när det gäller att styra bilder på webbplatsen och var många misstag görs. Ta dig tid att lära dig mer om hur skärpa och oskarp maskning fungerar i Dynamic Media Classic med hjälp av följande resurser:
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
+Best practices white paper [Sharpening images in Adobe Dynamic Media Classic and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
 Se även [Öka skärpan i en bild med oskarp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
 
@@ -73,11 +73,11 @@ Det finns två metoder för bildskärpa:
          Den här parametern avgör hur annorlunda de pixlar som ska göras skarpare måste vara jämfört med det omgivande området innan de betraktas som kantpixlar och filtret gör dem skarpare. Tröskelvärdet hjälper dig att undvika att göra områden med liknande färger, som hudtoner, för skarpare. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka för att undvika att lägga till ”brus”, men lägger ändå till kantkontrast i områden med hög kontrast, till exempel där ögonfransarna möter huden.
       Mer information om hur du ställer in de här tre parametrarna, inklusive de bästa sätten att använda med filtret, finns i följande resurser:
 
-      Hjälpavsnittet Dynamic Media Classic om [skärpa i en bild](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
+      Hjälpavsnittet för Dynamic Media Classic om [skärpa i en bild](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html).
 
       Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-   * Med Dynamic Media Classic kan du även styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskering används separat på varje färgkomponent med hjälp av värdet `0` eller bildens intensitet/intensitet med hjälp av värdet `1`.
+   * I Dynamic Media Classic kan du även styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskering används separat på varje färgkomponent med hjälp av värdet `0` eller bildens intensitet/intensitet med hjälp av värdet `1`.
 
 
 Det bästa sättet är att börja med parametern oskarp maskradie. Radie-inställningar som du kan börja med är följande:
@@ -127,7 +127,7 @@ Om skärpeeffekten fortfarande inte är tillräcklig ökar du radien i decimalst
 
 När du experimenterar kan du också hitta följande allmänna förslag som kan hjälpa dig att optimera arbetsflödet:
 
-* Testa och testa olika parametrar i realtid, antingen direkt på en dynamisk Media Classic-URL eller med Scene7 Publishing System bildjusteringsfunktion som ger förhandsgranskning i realtid för justeringsåtgärder.
-* Det är en god vana att gruppera kommandona Dynamic Media Image Serving i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg gör att dessa förinställningar anropas. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
-* Dynamic Media Classic erbjuder också mer avancerade sätt att finjustera bildkvaliteten, till exempel genom att använda skärpebilder vid inhämtning. I avancerade fall där detta kan vara ett alternativ för att ytterligare finjustera och optimera återgivningsresultaten kan Adobe Professional Services hjälpa dig med anpassade insikter och metodtips.
+* Testa och testa olika parametrar i realtid, antingen direkt på en Dynamic Media Classic-URL eller med hjälp av bildjusteringsfunktionen i Dynamic Media Classic som ger förhandsgranskning i realtid för justeringsåtgärder.
+* Det är en god vana att gruppera Dynamic Media Image Serving-kommandon i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg gör att dessa förinställningar anropas. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
+* I Dynamic Media Classic finns också mer avancerade sätt att finjustera bildkvaliteten, till exempel genom att använda skärpebilder vid inhämtning. I avancerade fall där detta kan vara ett alternativ för att ytterligare finjustera och optimera återgivningsresultaten kan Adobe Professional Services hjälpa dig med anpassade insikter och metodtips.
 
