@@ -5,12 +5,15 @@ description: 'null'
 seo-description: Lär dig hur du hanterar innehåll i panelen Info i Bilduppsättningar.
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 Förutom att använda bildschematext för överrullningar i bilduppsättningar kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
 
-Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Scene7 Publishing System:
+Du kan hantera InfoPanel-inställningarna och data med följande funktioner i Dynamic Media Classic:
 
 * I inställningspanelen i InfoPanel kan du ange den mall som används för att visa informationspanelens text, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om bilduppsättningen ska publiceras automatiskt.
 * Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i informationspanelens överrullningstext, samt schemaläggningstider för uppdatering av informationen.
