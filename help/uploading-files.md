@@ -6,12 +6,12 @@ seo-description: Lär dig hur du överför filer.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: d5dcc67200b636cafcf1c87b2ecdfb2271b7b9a2
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '3867'
+source-wordcount: '3855'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Överför filer{#uploading-files}
 
-Innan du överför resursfiler till Scene7 Publishing System bör du kontrollera att resursfilerna har rätt namn och att mappstrukturen är konfigurerad och ordnad som du vill ha den. Du kan överföra filer från en FTP-plats som tillhandahålls av Dynamic Media Classic eller direkt från datorn eller nätverket. I Dynamic Media Classic finns alternativ för att optimera filer när du överför dem. Om du har installerat skrivbordsprogrammet Adobe Scene7 Publishing System kan du överföra filer och mappar genom att dra dem direkt från skrivbordet. (Se Allmänna inställningar [för](application-setup.md#general_settings)programmet.)
+Innan du överför resursfiler till Dynamic Media Classic måste du se till att resursfilerna har rätt namn och att mappstrukturen är konfigurerad och ordnad som du vill ha den. Du kan överföra filer från en FTP-plats som tillhandahålls av Dynamic Media Classic eller direkt från datorn eller nätverket. I Dynamic Media Classic finns alternativ för att optimera filer när du överför dem. Om du har installerat Adobe Dynamic Media Classic kan du överföra filer och mappar genom att dra dem direkt från skrivbordet. (Se Allmänna inställningar [för](application-setup.md#general_settings)programmet.)
 
 ## Förbereda dina resurser och mappar för överföring {#preparing-your-assets-and-folders-for-uploading}
 
-Innan du överför resurser till Scene7 Publishing System bör du kontrollera att de har rätt format och storlek. Du måste också följa reglerna för namngivning av resurser i Dynamic Media Classic. Genom att konfigurera en mappstruktur för filerna ser du till att du enkelt kan hitta och arbeta med filerna.
+Innan du överför resurser till Dynamic Media Classic bör du kontrollera att de har rätt format och storlek. Du måste också följa Dynamic Media i Classic när du namnger resurser. Genom att konfigurera en mappstruktur för filerna ser du till att du enkelt kan hitta och arbeta med filerna.
 
 ### Filformat som stöds {#supported-asset-file-formats}
 
-I den här tabellen visas de filformat som Scene7 Publishing System stöder. Mer information om vilka Camera Raw-filer som stöds finns i [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+I den här tabellen visas de resursfilformat som Dynamic Media Classic har stöd för. Mer information om vilka Camera Raw-filer som stöds finns i [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | Resursfilformat | Beskrivning |
 |--- |--- |
@@ -67,7 +67,7 @@ Se även [Identifiera filformat som inte stöds för Dynamic Media](https://help
 
 ### Resurstyper {#asset-types}
 
-Använd de rekommenderade filformaten och storlekarna för att få optimala resultat med den dynamiska Media Classic-plattformen. I den här tabellen visas resurstyper, vissa med rekommenderade format och filstorlekar för resurser som används ofta.
+För att få bästa möjliga resultat med Dynamic Media Classic-plattformen bör du använda de rekommenderade filformaten och storlekarna. I den här tabellen visas resurstyper, vissa med rekommenderade format och filstorlekar för resurser som används ofta.
 
 | Tillgångstyp | Beskrivning/rekommendationer |
 |--- |--- |
@@ -75,7 +75,7 @@ Använd de rekommenderade filformaten och storlekarna för att få optimala resu
 | Bilder (för Bildstorlek, Zooma, Bilduppsättningar, Snurra uppsättningar) | Bilderna måste vara minst 2 000 pixlar långa. de vanliga bildstorlekarna varierar mellan 1 500 och 2 500 pixlar i det längsta måttet. Vi rekommenderar förlustfria bildformat, inklusive TIFF- och PNG-filer. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten. Animate GIF-filer hanteras som annat statiskt innehåll. |
 | eCatalogs | Använd högupplösta PDF-filer som skapats i Adobe® Acrobat® eller ett Creative Suite-program som sparats som &quot;tryckoriginal&quot;. PDF-filer innehåller alla teckensnitt, bilder, masker och refererade grafiska element som behövs, antingen som enkelsidiga, dubbelsidiga uppslag eller i ett flersidigt format. Ordna sidorna genom att namnge filerna i alfanumerisk ordning. Placera alla PDF-filer för din e-katalog i en enda mapp för att underlätta överföringen. Du kan välja beskärningsalternativ när du överför för att ta bort beskärningsområdet från PDF-filer, inklusive skärmärken, registreringsmål eller färgfält. De flesta tryckfärdiga PDF-filer finns i CMYK-färgmodellen, så det är viktigt att du hämtar den ICC-färgprofil för CMYK som används med PDF-filerna. |
 | Mallar | Bild- eller layoutdesign med flera lager som kan innehålla text, bilder och lager. Bildlager, textsträngar och attribut, som färg och storlek, kan parametriseras så att variabeldata kan anpassas. Bildkraven för användning i mallar är desamma som för andra bilder. Förbered bilderna i Photoshop eller något annat bildredigeringsprogram. Spara varje bild som en förenklad genomskinlig fil i TIFF- eller PNG-format. Kontrollera att bildupplösningen är lämplig för förväntad användning. Bilder för utskrift bör vara 300 ppi. |
-| Videor | Dynamic Media Classic stöder videofiler som sparats i formaten OGV och MP4. Du kan omkoda filer till MP4-format vid överföring.Se [Filformat](#supported-static-file-formats)som stöds. |
+| Videor | Dynamic Media Classic stöder videofiler som har sparats i formaten OGV och MP4. Du kan omkoda filer till MP4-format vid överföring.Se [Filformat](#supported-static-file-formats)som stöds. |
 | Teckensnitt | Överförda TrueType, Type1 (endast Windows), OpenType-teckensnitt och PhotoFonts |
 | Bilder | Bilder och bildfiler med flera lager. |
 | Bilduppsättningar och färgruteuppsättningar | En uppsättning närliggande bilder som kan visas i ett visningsprogram. |
@@ -90,11 +90,11 @@ Använd de rekommenderade filformaten och storlekarna för att få optimala resu
 
 >[!NOTE]
 >
->När du överför bildfiler och PDF-filer till SPS konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF-filer är de filer som senare publiceras till dynamiska mediabildsservrar. Dynamic Media Classic använder filformatet Pyramid Tiff eftersom det innehåller olika zoomningsförhållanden som möjliggör snabb zoomning när det visas med en Dynamic Media Classic Zoom Viewer.
+>När du överför bildfiler och PDF-filer till Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF-filer är de filer som senare publiceras till Dynamic Media Image Servers. I Dynamic Media Classic används filformatet Pyramid Tiff eftersom det innehåller olika zoomningsförhållanden som möjliggör snabb zoomning när det visas med ett Dynamic Media Classic Zoom Viewer.
 
 ### Statiska filformat som stöds {#supported-static-file-formats}
 
-Dynamic Media Classic har stöd för flera statiska filformat. Statiskt innehåll är alla resurser som publiceras i befintligt skick, t.ex. CSS, PDF, SVG, XML och så vidare.
+Dynamic Media Classic stöder flera statiska filformat. Statiskt innehåll är alla resurser som publiceras i befintligt skick, t.ex. CSS, PDF, SVG, XML och så vidare.
 
 Följande filtyper kan publiceras:
 
@@ -102,18 +102,18 @@ Följande filtyper kan publiceras:
 * Ljudfiler
 * CSS
 * JavaScript (när företaget har konfigurerats med sin egen domän)
-* Huvudvideo
+* Överordnad video
 * PDF (när PDF-filen är speciellt markerad för publicering efter överföring, för att undvika att alla PDF-filer levereras för det befintliga eCatalog/PDF-arbetsflödet)
 * PrX-video
 * SVG
 * XML
 * ZIP
 
-I Dynamic Media Classic går det inte att generera en förhandsgransknings-URL för statiskt innehåll.
+I Dynamic Media Classic går det inte att generera en förhandsvisnings-URL för statiskt innehåll.
 
 ### Krav för filnamn {#filename-requirements}
 
-Eftersom filnamnstillägg tas bort från filnamn under överföringsprocessen tillåter inte systemet att filer har samma rotnamn. I Dynamic Media Classic-systemet blir filnamnet minus filnamnstillägget resurs-ID för resursen. Därför kan två resurser inte ha samma namn.
+Eftersom filnamnstillägg tas bort från filnamn under överföringsprocessen tillåter inte systemet att filer har samma rotnamn. I Dynamic Media Classic blir resursfilens namn minus filnamnstillägget resurs-ID:t för resursen. Därför kan två resurser inte ha samma namn.
 
 Se till att alla användare på företaget förstår följande regler för filnamngivning:
 
@@ -135,12 +135,12 @@ I de flesta fall kan ett filnamn för en resurs vara samma som dess artikelnumme
 
 ### Mappstruktur {#folder-organization-and-structure}
 
-Ordna och strukturera mappar och undermappar för ditt innehåll i Scene7 Publishing System innan du överför innehållet till systemet. Planering framåt på det här sättet har två stora fördelar:
+Ordna och strukturera mappar och undermappar för ditt innehåll i Dynamic Media Classic innan du överför innehållet till systemet. Planering framåt på det här sättet har två stora fördelar:
 
-* När du överför ditt innehåll till SPS via FTP kan du ange att systemet ska replikera mappstrukturen under överföringen. På så sätt ordnas innehållet i samma mappar och undermappar i SPS som på datorn eller i nätverket. (Om du vill replikera mappstrukturen i SPS markerar du alternativet Inkludera undermappar när du överför resurser via FTP.)
+* När du överför ditt innehåll till Dynamic Media Classic via FTP kan du ange att systemet ska replikera mappstrukturen under överföringen. På så sätt ordnas ditt innehåll i samma mappar och undermappar i Dynamic Media Classic som det finns på datorn eller i nätverket. (Om du vill replikera mappstrukturen i Dynamic Media Classic markerar du alternativet Inkludera undermappar när du överför resurser via FTP.)
 * Det är mycket svårare att ordna om mappar i systemet efter att filer har överförts än att börja med en noggrant genomtänkt mappstruktur.
 
-Vilken mappnamnsmetod och struktur du väljer för att lagra ditt innehåll i Scene7 Publishing System beror på organisationens behov. Här följer några exempel på mappstrukturer:
+Vilken mappnamnsmetod och struktur du väljer för att lagra ditt innehåll i Dynamic Media Classic beror på organisationens behov. Här följer några exempel på mappstrukturer:
 
 **SKU-baserade** mappar namnges enligt SKU:er eller artikelnummer. Separata mappar skapas till exempel för alla serier med 0-, 20- och 30-tal.
 
@@ -154,21 +154,19 @@ Vilken mappnamnsmetod och struktur du väljer för att lagra ditt innehåll i Sc
 
 Du kan överföra enskilda filer från skrivbordet eller överföra mappar via FTP. Om du vill överföra mer än 100 MB filer eller överföra hela mappar och undermappar väljer du fliken **VIA FTP** .
 
-Om du har installerat Scene7 Publishing System kan du dra filer och mappar direkt från skrivbordet till målmappen för överföring.
+Dynamic Media Classic skickar ett e-postmeddelande till dig för att bekräfta när överföringsjobbet påbörjas och avslutas samt för att meddela dig om eventuella problem.
 
-Scene7 Publishing System skickar ett e-postmeddelande till dig som bekräftar när överföringsjobbet påbörjas och avslutas och som meddelar dig om eventuella problem.
-
-Under (eller omedelbart efter) ett stort överföringsjobb kan vissa nya objekt visa meddelandet&quot;Bilden har inte optimerats ännu&quot;. Det här meddelandet visas eftersom filerna ännu inte har bearbetats fullständigt och lagts till i SPS. Du kan optimera dessa filer senare. (Se [Optimera filer](application-setup.md#optimize_files).)
+Under (eller omedelbart efter) ett stort överföringsjobb kan vissa nya objekt visa meddelandet&quot;Bilden har inte optimerats ännu&quot;. Det här meddelandet visas eftersom filerna ännu inte har bearbetats fullständigt och lagts till i Dynamic Media Classic. Du kan optimera dessa filer senare. (Se [Optimera filer](application-setup.md#optimize_files).)
 
 ### Överföra filer med hjälp av fliken FRÅN SKRIVBORD {#upload-files-using-sps-desktop-application}
 
-Med programmet Scene7 Publishing System Desktop kan du överföra filer och mappar genom att dra.
+Med Dynamic Media Classic Desktop kan du överföra filer och mappar genom att dra.
 
-1. I programmet Scene7 Publishing System Desktop klickar du på **Överför** i fältet Global Navigation.
+1. Klicka på **Överför** i fältet Global navigering i Dynamic Media Classic Desktop.
 1. På sidan Överför klickar du på fliken **FRÅN SKRIVBORD** .
 1. Till vänster på sidan Överför, i området **Välj filer för överföring** , klickar du på **Bläddra** för att välja de filer eller mappar som du vill överföra och sedan på **Öppna**.
 1. Till höger på sidan Överför går du till en målmapp där du vill lägga till de överförda filerna eller mapparna i området **Välj mappdestination** .
-1. (Valfritt) Ange det nya namnet på överföringsjobbet i fältet **Jobbnamn** längst ned på sidan Överför. Du kan också använda det standardnamn som genereras av systemet i SPS. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
+1. (Valfritt) Ange det nya namnet på överföringsjobbet i fältet **Jobbnamn** längst ned på sidan Överför. Du kan också använda det standardnamn som genereras av systemet i Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
 Se [Kontrollera jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) Långt ned på sidan Överför väljer du **Publicera efter överföring** om du vill publicera de resurser som du överför automatiskt.
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Observera att samma alternativ också är tillgängligt i dialogrutan Jobbalternativ.
@@ -180,16 +178,16 @@ Namnet på det här alternativet kan vara annorlunda beroende på inställningar
 
 1. Klicka på **Spara** i dialogrutan Alternativ för överföringsjobb.
 1. Klicka på **Skicka överföring**i det nedre högra hörnet på sidan Överför.
-Klicka på **Jobb** i det globala navigeringsfältet för att se överföringsförloppet. Du kan fortsätta arbeta i Scene7 Publishing System och när som helst återgå till jobbsidan för att granska ett pågående jobb. Om du vill avbryta ett pågående överföringsjobb väljer du **Avbryt** bredvid Varaktighet.
+Klicka på **Jobb** i det globala navigeringsfältet för att se överföringsförloppet. Du kan fortsätta arbeta i Dynamic Media Classic och när som helst återgå till jobbsidan för att granska ett pågående jobb. Om du vill avbryta ett pågående överföringsjobb väljer du **Avbryt** bredvid Varaktighet.
 
 ### Överföra filer med fliken VIA FTP {#upload-files-using-via-ftp}
 
 1. Logga in på den Dynamic Media Classic FTP-plats som är specifik för just din region. Använd det FTP-användarnamn och -lösenord som du fick från administratören.
-1. Klicka på **Överför** i fältet Global navigering i Dynamic Media Classic.
+1. I Dynamic Media Classic klickar du på **Överför** i fältet Global navigering.
 1. På sidan Överför klickar du på fliken **VIA FTP** .
 1. Till vänster på sidan Överför väljer du en FTP-mapp att överföra filer från i området **Välj FTP-mapp för överföring** .
-1. Till höger på sidan Överför väljer du en målmapp i Scene7 Publishing System i området **Choose SPS Folder Destination** .
-1. (Valfritt) Ange det nya namnet på överföringsjobbet i fältet **Jobbnamn** längst ned på sidan Överför. Du kan också använda det standardnamn som genereras av systemet i SPS. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
+1. Till höger på sidan Överför väljer du en målmapp i Dynamic Media Classic i området **Choose Adobe Dynamic Media Folder Destination** .
+1. (Valfritt) Ange det nya namnet på överföringsjobbet i fältet **Jobbnamn** längst ned på sidan Överför. Du kan också använda det standardnamn som genereras av systemet i Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
 Se [Kontrollera jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) Långt ned på sidan Överför väljer du **Publicera efter överföring** om du vill publicera de resurser som du överför automatiskt.
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Observera att samma alternativ också är tillgängligt i dialogrutan Jobbalternativ.
@@ -203,7 +201,7 @@ Namnet på det här alternativet kan vara annorlunda beroende på inställningar
 1. Klicka på **Spara** i dialogrutan Alternativ för överföringsjobb.
 1. Klicka på **Skicka överföring** i det nedre högra hörnet på sidan Överför.
 
-   Klicka på **Jobb** i det globala navigeringsfältet för att se överföringsförloppet. På sidan Jobs visas överföringsförloppet. Du kan fortsätta arbeta i Scene7 Publishing System och när som helst återgå till jobbsidan för att granska ett pågående jobb.
+   Klicka på **Jobb** i det globala navigeringsfältet för att se överföringsförloppet. På sidan Jobs visas överföringsförloppet. Du kan fortsätta arbeta i Dynamic Media Classic och när som helst återgå till jobbsidan för att granska ett pågående jobb.
 
 Om du vill avbryta ett pågående överföringsjobb klickar du på **Avbryt** bredvid Varaktighet.
 
@@ -232,7 +230,7 @@ När du överför filer kan du välja mellan följande alternativ i dialogrutan 
 Välj det här alternativet om du automatiskt vill extrahera alla filer från den överförda ZIP- eller TAR-filen. Observera att samma alternativ också är tillgängligt i dialogrutan Jobbalternativ.
 
    * **Inkludera undermappar** - Endast tillgängligt om du har valt fliken **VIA FTP** .
-Välj det här alternativet om du vill överföra undermappar till mappen som du vill överföra. Namnen på mappen och dess undermappar som du överför anges automatiskt i SPS.
+Välj det här alternativet om du vill överföra undermappar till mappen som du vill överföra. Namnen på mappen och dess undermappar som du överför anges automatiskt i Dynamic Media Classic.
 
    * **Bearbeta metadatafiler** - endast tillgängligt om du har valt fliken **VIA FTP** . Välj det här alternativet om du vill överföra en tabbavgränsad fil eller XML-fil för att lägga till metadata i flera resurser.
 Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
@@ -252,13 +250,13 @@ Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-me
 
       * **Tolerans** - Dra i skjutreglaget för att ange en tolerans mellan 0 och 1.
 
-* **FÄRGPROFILALTERNATIV** - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Dynamic Media Classic:
+* **ALTERNATIV** FÖR FÄRGPROFIL - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Dynamic Media Classic:
 
    * **Standardfärgbevaring** - Behåller källbildens färger när bilderna innehåller färgrymdsinformation. det inte finns någon färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
 
-   * **Behåll ursprunglig färgrymd** - Behåller originalfärgerna utan någon färgkonvertering vid den tidpunkt då de hämtas in till Scene7 Publishing System. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler kanske inte justeras mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
+   * **Behåll ursprunglig färgrymd** - Behåller originalfärgerna utan någon färgkonvertering vid den tidpunkt då färgen hämtas in till Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler kanske inte justeras mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
 
-   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Du bör bara markera det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
+   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Du bör bara välja det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
 * **ALTERNATIV** FÖR BILDREDIGERING - Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
 Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
