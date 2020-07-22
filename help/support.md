@@ -6,11 +6,14 @@ seo-description: Läs mer om supportalternativen.
 uuid: b4927dc0-3a58-43da-b967-d00e2582cb15
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 05e443b2-ac15-4d87-859a-271699593304
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +35,7 @@ Teknisk support är utformad för att uppfylla behoven hos alla större företag
 
 När du rapporterar problem till den tekniska supporten ska du inkludera följande information:
 
-* Scene7 Publishing System - företagsnamn.
+* Dynamic Media Classic-företagsnamn.
 * Ditt namn, telefonnummer och e-postadress.
 * Dynamic Media Classic, plattform och version.
 * Problembeskrivning och nödvändiga steg för att återskapa problemet.
