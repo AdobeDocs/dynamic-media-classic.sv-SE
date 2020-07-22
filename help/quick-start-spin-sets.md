@@ -6,18 +6,21 @@ seo-description: En introduktion och Snabb start till snurra uppsättning som hj
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
 
 # Snabbstart: Snurra uppsättningar{#quick-start-spin-sets}
 
-Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. Med en snurra uppsättning simuleras en 360-graders visningsupplevelse. Dynamic Media Classic erbjuder endimensionella snurpuppsättningar där tittarna kan rotera ett objekt och tvådimensionella snurpuppar där tittarna kan rotera och vända objektet. Dessutom kan man zooma och panorera med några enkla musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
+Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. Med en snurra uppsättning simuleras en 360-graders visningsupplevelse. I Dynamic Media Classic finns en endimensionell snurra som du kan använda för att rotera ett objekt och tvådimensionella snurra uppsättningar där visningsprogram kan rotera och vända objektet. Dessutom kan man zooma och panorera med några enkla musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
 
 ![Bilder för en snurra uppsättning.](/help/assets/spin_set.png)
 
@@ -33,7 +36,7 @@ Snabbstart för den här snurruppsättningen är utformad för att komma igång 
 
 Du behöver minst 8-12 tagningar av ett objekt för en endimensionell snurra och 16-24 för en tvådimensionell snurra uppsättning. Fotografierna måste tas med jämna mellanrum för att ge intryck av att objektet roteras och vändas. Om en endimensionell snurra t.ex. innehåller 12 tagningar roterar du objektet 30 grader (360/12) för varje tagning.
 
-Välj knappen Överför i fältet Global Navigation (Global Navigation) om du vill överföra snurrbilder från datorn eller nätverket till Scene7 Publishing System.
+Välj knappen Överför i fältet Global navigering om du vill överföra snurrbilder från datorn eller nätverket till Dynamic Media Classic.
 
 Se [Riktlinjer för fotografering av snurra uppsättningsbilder](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
@@ -85,7 +88,7 @@ Se [Förhandsvisa en snurra](previewing-spin-set.md#previewing-a-spin-set).
 
 **6. Publicera en snurruppsättning**
 
-När du publicerar en snurruppsättning placeras den på Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den snurra uppsättningen från dynamiska mediabildsservrar till din webbplats eller ditt program.
+När du publicerar en snurruppsättning placeras den på Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image-servrar till din webbplats eller ditt program.
 
 Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **Markera för publicering** bredvid namnet på bläddringspanelen. Klicka på **Publicera** i fältet Global navigering för att starta en publicering. På skärmen Publicera klickar du på **Starta publicering**.
 
@@ -93,7 +96,7 @@ Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set
 
 **7. Länka en snurruppsättning till en webbsida**
 
-Dynamic Media Classic skapar URL-bildtextssträngar för snurruppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
+I Dynamic Media Classic skapas URL-bildtextsträngar för snurruppsättningar och aktiveras när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
 
 Markera rotationsuppsättningen och klicka sedan på **Förhandsgranska**. Förhandsgranskningsskärmen öppnas. Välj en förinställning för Snurra uppsättning för visningsprogram. Klicka sedan på **Kopiera URL**.
 
