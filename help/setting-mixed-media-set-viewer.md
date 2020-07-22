@@ -6,11 +6,14 @@ seo-description: Lär dig hur du ställer in en visningsförinställning för en
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +29,7 @@ Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogramm
 
    * Om du vill skapa en ny förinställning klickar du på **Lägg till**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer Visningsprogram för blandad medieuppsättning och klickar sedan på **Lägg till**.
    * Om du vill redigera en förinställning för visningsprogrammet för blandad medieuppsättning markerar du den och klickar sedan på **Redigera**.
+
    Skärmen Konfigurera visningsprogram öppnas.
 
 1. Skriv ett namn i rutan Förinställningsnamn för visningsprogrammet för den blandade medieuppsättningen.
@@ -53,11 +57,14 @@ Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogramm
 
    * **E-post** Klicka på På om du vill aktivera en e-postknapp i visningsprogrammet. När användarna klickar på knappen E-post när de visar uppsättningen öppnas ett e-postmeddelande med länken till uppsättningen.
 
-   * **Bädda in** Klicka på Live. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Om du vill kan du klicka på **Bläddra** för att hitta och välja ett anpassat skal för knappen.
+   * **Bädda in** Klicka på Live. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Om du vill kan du klicka 
+**Bläddra** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Länk** Klicka på Live. Skriv det namn du vill visa i visningsprogrammet för knappen Länk i rutan Etikett för länkknapp. Om du vill kan du klicka på **Bläddra** för att hitta och välja ett anpassat skal för knappen.
+   * **Länk** Klicka på Live. Skriv det namn du vill visa i visningsprogrammet för knappen Länk i rutan Etikett för länkknapp. Om du vill kan du klicka 
+**Bläddra** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Besök** Klicka på **Live**. I rutan Besök knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Besök. I rutan Besök URL skriver du URL-adressen till den webbplats som du vill öppna när du klickar på länken.
+   * **Besök** Klicka 
+**Live**. I rutan Besök knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Besök. I rutan Besök URL skriver du URL-adressen till den webbplats som du vill öppna när du klickar på länken.
 
 1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ klickar du på ikonen för informationstips bredvid alternativet.
 
