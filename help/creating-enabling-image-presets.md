@@ -6,11 +6,14 @@ seo-description: Lär dig hur du skapar och aktiverar bildförinställningar.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 När användare exporterar bildresurser med Media Portal kan de välja en bildförinställning i dialogrutan Exportera markerade resurser. En bildförinställning är en samling fördefinierade inställningar som ändrar storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
 
-Administratörer för Media Portal kan skapa bildförinställningar som styr hur bilder formateras om när de exporteras. Bildförinställningar formaterar bilderna efter företagets specifikationer när användare exporterar bilder från Scene7 Publishing System. I stället för att bara formatera om bilder exporterar användarna dem till de exakta specifikationerna för en bildförinställning.
+Administratörer för Media Portal kan skapa bildförinställningar som styr hur bilder formateras om när de exporteras. Bildförinställningar formaterar om bilderna enligt ditt företags specifikationer när användare exporterar bilder från Dynamic Media Classic. I stället för att bara formatera om bilder exporterar användarna dem till de exakta specifikationerna för en bildförinställning.
 
 Följande begränsningar gäller när du exporterar bildresurser:
 
@@ -29,7 +32,7 @@ Följande begränsningar gäller när du exporterar bildresurser:
 
 >[!NOTE]
 >
->Dessa begränsningar gäller endast export av härledda bildresurser, inte export av huvudfiler.
+>Dessa begränsningar gäller endast export av härledda bildresurser, inte export av överordnad filer.
 
 Mer information om hur du skapar bildförinställningar finns i [Bildförinställningar](application-setup.md#image_presets).
 
