@@ -6,11 +6,14 @@ seo-description: Lär dig hur du förbereder resurser för färgrutor för över
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Om du vill skapa en uppsättning med färgrutor behöver du vinjetter eller olik
 * En svart, brun och grön tagning av samma jacka.
 * En svart, brun och grön färgruta.
 
-Eftersom användare kan zooma bilder i färgruteuppsättningar bör du se till att bilderna har minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
+Eftersom användare kan zooma bilder i färgruteuppsättningar bör du se till att bilderna har minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic stöder många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
 
 Detaljerade instruktioner om hur du överför resurser finns i [Överföra filer](uploading-files.md#uploading_files).
 
