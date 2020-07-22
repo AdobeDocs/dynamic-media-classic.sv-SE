@@ -6,13 +6,13 @@ seo-description: Alla användare kan ändra inställningarna på skärmen Person
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1194'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Alla användare kan ändra inställningarna på skärmen Personliga inställning
 
 >[!NOTE]
 >
->På skärmen Personliga inställningar visas vilken användarroll du har i Scene7 Publishing System: Företagsadministratör, administratör eller användare.
+>På skärmen Personliga inställningar visas vilken användarroll du har i Dynamic Media Classic: Företagsadministratör, administratör eller användare.
 
 Inställningarna för personliga inställningar styr standardbeteendet för panelen Bläddra, hur du tar emot e-post och lösenordsinställningar. Kom ihåg att klicka på Spara när du har ändrat de här inställningarna.
 
@@ -34,11 +34,11 @@ Identifierar kontonamn, namn, användarnamn (e-postadress) och tilldelad använd
 
 ### Skrivbordsversion
 
-Klicka på Installera nu för att installera skrivbordsversionen av Scene7 Publishing System på den lokala hårddisken. Du kan också klicka på Installera om nu för att installera om skrivbordsversionen.
+Klicka på Installera nu för att installera skrivbordsversionen av Dynamic Media Classic på den lokala hårddisken. Du kan också klicka på Installera om nu för att installera om skrivbordsversionen.
 
 ## Installera plugin-programmet på den lokala hårddisken
 
-1. På sidan Personliga inställningar i Scene7 Publishing System, under Illustrator Plug-in for Web-to-Print, klickar du på **Ladda ned nu** för att ladda ned **Illustrator Plug-in for Web-to-Print.zip** .
+1. På sidan Personliga inställningar i Dynamic Media Classic, under Illustrator-plugin-programmet för webb-till-utskrift, klickar du på **Hämta nu** för att hämta **Illustrator-plugin-programmet för webb-till-utskrift.zip** -filen.
 1. Avkomprimera ZIP-filen till en tillfällig mapp.
 
    En Viktigt-fil finns i roten av den uppzippade filen och ger dig ytterligare information om plugin-programmet.
@@ -83,8 +83,6 @@ Plugin-programmet finns nu för användning i Adobe Illustrator.
    * Visar ett schackbrädlager bakom bilder så att du enkelt kan se de genomskinliga områdena i en bild som har en alfakanal.
 * **Visa filstorlek**
    * Visar filstorleken för en resurs när du bläddrar.
-* **Bekräfta när SPS lämnas**
-   * Visar ett bekräftelsefönster innan du avslutar Scene7 Publishing System.
 * **Inkludera användardefinierat fält i sökning**
    * Avmarkerat (standard) om du vill förbättra systemprestanda för de flesta metadatasökningar som du kör.
 
@@ -106,7 +104,7 @@ Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
 ## E-post
 
 * **E-postalternativ**
-   * Välj hur du vill att Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben har slutförts. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+   * Välj hur du vill att Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben är slutförda. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
 * **E-postomfång**
    * Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
 * **E-posttyper**
