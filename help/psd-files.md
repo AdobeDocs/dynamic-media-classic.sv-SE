@@ -6,20 +6,23 @@ seo-description: Lär dig hur du arbetar med PSD-filer.
 uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 1%
 
 ---
 
 
 # Arbeta med PSD-filer {#working-with-psd-files}
 
-PSD (Photoshop-dokumentfiler) används oftast i Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en dynamisk Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på överföringsskärmen).
+PSD (Photoshop-dokumentfiler) används oftast i Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en Dynamic Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på överföringsskärmen).
 
-SPS skapar flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall; skapas en bild för varje lager.
+I Dynamic Media Classic skapas flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall; skapas en bild för varje lager.
 
 ## PSD-överföringsalternativ {#psd-upload-options}
 
@@ -47,7 +50,7 @@ Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixla
 
 **Behåll ursprunglig färgmodell** Behåller bildens ursprungliga färgmodell.
 
-**Anpassad från > Till** öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en Photoshop-standardfärgmodell eller en färgmodell som du överförde till SPS. Se ICC-profiler.
+**Anpassad från > Till** öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överförde till Dynamic Media Classic. Se ICC-profiler.
 
 **Med Behåll lager** rippar du lagren i PSD-filen, om det finns några, till enskilda resurser. Resurslagren förblir kopplade till PSD-filen. Du kan visa dem genom att öppna PSD-filen i detaljvyn och välja lagerpanelen. Se Visa och redigera lager i en PSD-fil.
 
@@ -57,7 +60,7 @@ Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixla
 
 **Utöka lager till bakgrundsstorlek** Utökar storleken på överlappade bildlager till storleken på bakgrundslagret.
 
-**Lager för namngivning** av lager i PSD-filen överförs som separata bilder. Välj ett alternativ för att namnge dessa bilder i Scene7 Publishing System:
+**Lager för namngivning** av lager i PSD-filen överförs som separata bilder. Välj ett alternativ för att namnge de här bilderna i Dynamic Media Classic:
 
 **Lagernamn** Namnger bilderna efter deras lagernamn i PSD-filen. Ett lager med namnet Price Tag i den ursprungliga PSD-filen blir till exempel en bild med namnet Price Tag. Om lagernamnen i PSD-filen är standardlagernamn för Photoshop (Bakgrund, Lager 1, Lager 2 och så vidare) får bilderna namn efter sina lagernummer i PSD-filen, inte efter deras standardlagernamn.
 
