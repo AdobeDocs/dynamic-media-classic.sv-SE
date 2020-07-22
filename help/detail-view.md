@@ -6,11 +6,14 @@ seo-description: Lär dig hur du arbetar i detaljvyn.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +54,7 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
 ## Hämta information i detaljvyn {#getting-information-in-detail-view}
 
-I detaljvyn finns information om en resurs eller fil. Den här informationen om ett objekt visas: mappen där den lagras, dess filnamn, det datum då objektet överfördes till Scene7 Publishing System och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
+I detaljvyn finns information om en resurs eller fil. Den här informationen om ett objekt visas: mappen där den lagras, dess filnamn, det datum då objektet överfördes till Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
 
 Du kan hämta en resurs-URL i detaljvyn; URL:en är dock inte aktiv förrän du publicerar resursen. För bilder innehåller vyn Detalj även en lista över resurser och metadata som skapats, till exempel zoommål och bilduppsättningar.
 
