@@ -6,11 +6,14 @@ seo-description: Lär dig hur du skapar en mall i Dynamic Media Classic.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '3441'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Om du vill skapa en mall klickar du på Skapa > Grundläggande om mallar. Välj 
 
 >[!NOTE]
 >
->Om du redigerar en mall som har skapats i en tidigare version av Scene7 Publishing System kan du få ett meddelande när du sparar med frågan&quot;Vill du lägga till ett arbetsytelager?&quot; Välj Nej om du inte vill lägga till ett nytt baslager. Om du av misstag väljer Ja tar du bort modifieringarna &quot;&amp;allowCanvasPrompt&quot; och &quot;&amp;layer=0&quot; i URL:en och trycker på Retur.
+>Om du redigerar en mall som har skapats i en tidigare version av Dynamic Media Classic kan du få ett meddelande när du sparar med frågan&quot;Vill du lägga till ett arbetsytelager?&quot; Välj Nej om du inte vill lägga till ett nytt baslager. Om du av misstag väljer Ja tar du bort modifieringarna &quot;&amp;allowCanvasPrompt&quot; och &quot;&amp;layer=0&quot; i URL:en och trycker på Retur.
 
 ## Skapa den ursprungliga mallen {#creating-the-initial-template}
 
@@ -99,7 +102,7 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
 **Textredigerare v4.3 och textredigerare v4.2** Du kan välja att använda den senaste och mest avancerade textredigeraren, textredigeraren v4.3 eller den tidigare textredigeraren, textredigeraren v4.2. När du skapar nya mallar väljs textredigeraren v4.3 som standard. När du redigerar äldre mallar väljs textredigeraren v4.2 som standard. Textredigeraren v4.3 stöder för närvarande inte automatisk radbrytning, så när du redigerar äldre mallar som använder automatisk radbrytning bör du använda textredigeraren v4.2 för att behålla mallens återgivning helt intakt. Om den äldre mallen inte använder automatisk radbrytning kan du välja textredigeraren v4.3 för att utnyttja alla nya funktioner som den har, till exempel Öka marginaler, Minska marginaler, Ange text i versaler och Kopiera textpassning.
 
-***Obs **! Textredigeraren v4.2 kommer till slut att tas bort som ett alternativ i Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. Alternativet Radbrytning kommer att ingå i en framtida version av textredigeraren.*
+***Obs **! Textredigeraren v4.2 kommer att tas bort som ett alternativ i Dynamic Media Classic, så du bör använda textredigeraren 4.3 när det är möjligt. Alternativet Radbrytning kommer att ingå i en framtida version av textredigeraren.*
 
 **Designer och utvecklare** Välj det alternativ som bäst beskriver din roll.
 
@@ -138,7 +141,7 @@ Så här formaterar du text i ett textlager:
 1. Markera texten som du vill formatera i textrutan. Du kan markera all text, alla delar av texten samt enskilda tecken.
 1. Ange något av dessa formateringsalternativ och klicka sedan på Använd.
 
-   **Teckensnitt** Välj ett teckensnitt på menyn Teckensnitt. Om ett teckensnitt som du vill använda inte visas på menyn kan du överföra det till Scene7 Publishing System. Se Teckensnitt.
+   **Teckensnitt** Välj ett teckensnitt på menyn Teckensnitt. Om ett teckensnitt som du vill använda inte visas på menyn kan du överföra det till Dynamic Media Classic. Se Teckensnitt.
 
    **Teckenstorlek** Välj en teckenstorlek på menyn, skriv en specifik storlek i rutan eller klicka på upp- eller nedpilarna för att öka eller minska storleken med två punkter.
 
@@ -290,7 +293,7 @@ Om du vill välja bakgrundsfärg, opacitet och blandningsläge för ett lager el
 
 ## Använda skugg- och glödeffekter på lager {#using-shadow-and-glow-effects-on-layers}
 
-Du kan använda en skugga eller glöd på ett lager. Skugga eller glöd används i utkanten av lagret och sträcker sig inåt eller utåt, beroende på vilket skugg- eller glödalternativ du väljer. Om mallen har skapats med en PSD-fil med skugg- och glödeffekter kan du justera dessa effekter i Scene7 Publishing System.
+Du kan använda en skugga eller glöd på ett lager. Skugga eller glöd används i utkanten av lagret och sträcker sig inåt eller utåt, beroende på vilket skugg- eller glödalternativ du väljer. Om mallen har skapats med en PSD-fil med skugg- och glödeffekter kan du justera dessa effekter i Dynamic Media Classic.
 
 När du har använt en skugg- eller glödeffekt kan du justera dess storlek, färg, opacitet och position i området Lageregenskaper på mallskärmen.
 
