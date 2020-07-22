@@ -6,11 +6,14 @@ seo-description: Lär dig hur du skapar bildscheman.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2444'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +42,7 @@ När du skapar bildscheman kan du göra något av följande:
    * Om du arbetar med en bild i stödrastervyn eller listvyn klickar du på **Bildschema** i listrutan Redigera. Du kan också öppna den i detaljvyn och sedan klicka på **Bildschema** ovanför bilden.
    * Om du arbetar med en SpinSet i Stödrastervisning eller listvy klickar du på **Redigera**. Du kan också öppna den i detaljvyn och sedan klicka på **Redigera**. Välj en bildresurs och klicka sedan på **Bildschema**.
    * Om du arbetar med en e-katalog klickar du på **Redigera** i Stödrastervisning, Listvy och Detaljvy. Klicka på fliken **Mappa sidor** .
+
    ![](assets/ma_image_map.png)
 
 1. Rita ett rektangulärt eller polygonalt (flersidigt) bildschema:
@@ -47,7 +51,7 @@ När du skapar bildscheman kan du göra något av följande:
 
    **Polygonkarta** Välj verktyget Polygonbildschema och klicka på punkter vid omkretsen av det område i bilden som du vill omsluta. Använd reglaget för polygondensitet för att ändra polygonens punktdensitet. Den ursprungliga densiteten sparas om du väljer andra kartor. Om en punkt läggs till, tas bort eller flyttas i polygonen, försvinner den ursprungliga densiteten och reglaget återställs till sitt högsta värde.
 
-1. Ange ett namn för bildschemat, om du vill, i listan Bildschema. När du har ritat en bildschema får den ett namn av Dynamic Media Classic.
+1. Ange ett namn för bildschemat, om du vill, i listan Bildschema. När du har ritat en bildschema får den ett namn i Dynamic Media Classic.
 
    För att skapa namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den bild- eller eCatalog-sida som du arbetar med. Du kan ange ett namn.
 
@@ -140,7 +144,7 @@ Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg
 * URL-värde: `product.htm`
 * Faktisk URL som genererats: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Som standard innehåller URL-mallen en egen Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` för att öppna ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Dynamic Media Classic-hanterare:
+Som standard innehåller URL-mallen en egen JavaScript-hanterare för Dynamic Media Classic som kallas `loadProduct` för att öppna ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Dynamic Media Classic-hanterare:
 
 * `loadProductCW`
 
