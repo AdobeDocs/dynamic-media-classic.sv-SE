@@ -1,26 +1,29 @@
 ---
-title: Inaktivera Adobe Analytics-spårning
-seo-title: Inaktivera Adobe Analytics-spårning
+title: Inaktivera spårning av Adobe Analytics
+seo-title: Inaktivera spårning av Adobe Analytics
 description: 'null'
-seo-description: Lär dig hur du inaktiverar Adobe Analytics-spårning.
+seo-description: Lär dig hur du inaktiverar Adobe Analytics tracking.
 uuid: 6998bb18-1809-4fc7-a1b6-d75c24798620
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 3f1f5575-9fe5-436c-b009-99f3bff0b21f
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 0%
 
 ---
 
 
-# Inaktivera Adobe Analytics-spårning{#disabling-adobe-analytics-tracking}
+# Inaktivera spårning av Adobe Analytics{#disabling-adobe-analytics-tracking}
 
-**Inaktivera Adobe Analytics-spårning**
+**Så här inaktiverar du Adobe Analytics tracking**
 
-1. Stäng av alla händelser på Adobe Analytics-konfigurationssidan i Scene7 Publishing System.
+1. Stäng av alla händelser på konfigurationssidan för Adobe Analytics i Dynamic Media Classic.
 1. Spara och publicera.
 
-Detta inaktiverar stödet via Dynamic Media Classic och via URL:er som hämtas från funktionen **CopyURL** . Om du implementerar anpassad spårning kan du inaktivera Adobe Analytics-spårning som konfigurerats på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.
+Detta inaktiverar stödet via Dynamic Media Classic och via URL:er som hämtas från funktionen **CopyURL** . Om du implementerar anpassad spårning kan du inaktivera Adobe Analytics-spårningen som den är inställd på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.
 
