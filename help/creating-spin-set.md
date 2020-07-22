@@ -6,26 +6,29 @@ seo-description: Lär dig hur du skapar en snurruppsättning.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '906'
+ht-degree: 0%
 
 ---
 
 
 # Skapa en snurruppsättning{#creating-a-spin-set}
 
-Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt sätt. Du kan skapa en snurra uppsättning i Dynamic Media Classic genom att markera knappen Skapa och välja Snurra uppsättningar. Redigera snurruppsättningar på skärmen Snurra uppsättningar.
+Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt sätt. Du kan skapa en snurruppsättning i Dynamic Media Classic genom att markera Skapa och välja Snurra uppsättningar. Redigera snurruppsättningar på skärmen Snurra uppsättningar.
 
 >[!NOTE]
 >
->Tidigare versioner av Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den under ett annat namn. Klicka på Spara som på skärmen med rotationsuppsättningen och ange ett nytt namn så att du kan redigera det i Dynamic Media Classic.
+>Tidigare versioner av Dynamic Media Classic innehöll inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den med ett annat namn. Klicka på Spara som på skärmen med rotationsuppsättningen och ange ett nytt namn så att du kan redigera det i Dynamic Media Classic.
 
 ## Riktlinjer för fotografering av snurra uppsättningsbilder {#guidelines-for-shooting-spin-set-images}
 
-Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snurra. Om du inkluderar många bilder i uppsättningen ökar dock tiden det tar för bilderna att läsas in. Dynamic Media Classic rekommenderar följande riktlinjer för att ta bilder som ska användas i snurrsuppsättningar:
+Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snurra. Om du inkluderar många bilder i uppsättningen ökar dock tiden det tar för bilderna att läsas in. Dynamic Media Classic rekommenderar följande riktlinjer för att ta bilder som ska användas i snurra uppsättningar:
 
 * Använd minst 8-12 bilder i en endimensionell snurra och 16-24 bilder i en tvådimensionell snurra.
 * Använd ett förlustfritt format, TIFF och PNG rekommenderas.
@@ -35,7 +38,7 @@ Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snu
 
 ## Skapa en snurruppsättning {#create}
 
-Observera att den ordning i vilken rotationsuppsättningen skapas eller skapas i Scene7 Publishing System är viktig. Beroende på hur du ordnar resurserna när du drar och släpper bilder i rutnätet på sidan Snurra uppsättning, snurrar den i en viss riktning. Därför är den ordning i vilken resursen visas visuellt i byggaren hur resursen snurras när användaren flyttar muspekaren eller flyttar fingret, från vänster till höger.
+Tänk på att den ordning i vilken du skapar eller skapar den i Dynamic Media Classic är viktig. Beroende på hur du ordnar resurserna när du drar och släpper bilder i rutnätet på sidan Snurra uppsättning, snurrar den i en viss riktning. Därför är den ordning i vilken resursen visas visuellt i byggaren hur resursen snurras när användaren flyttar muspekaren eller flyttar fingret, från vänster till höger.
 
 När du skapar en uppsättning påverkar alternativet **Publicera efter spara** den och anger medlemmar på följande sätt:
 
@@ -82,11 +85,13 @@ Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) ma
 1. Klicka på knappen **Redigera** överrullning för den aktiva uppsättningen.
 1. Gör något av följande:
 
-   * **Ta bort bilder** Markera bilden och klicka sedan på **Ta bort**.
+   * **Ta bort bilder** Markera bilden och klicka sedan på 
+**Ta bort**.
 
    * **Lägga till bilder** Dra bilden till en cell.
 
-   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)** Klicka på en radväljarruta (till vänster om raden) och klicka sedan på **Flytta rad nedåt** eller **Flytta rad uppåt**.
+   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)** Klicka i en radväljarruta (till vänster om raden) och klicka sedan på 
+**Flytta rad nedåt** eller **flytta rad uppåt**.
 
    * **När du lägger till rader och celler** anger du en siffra i rutorna Rader och Celler som bestämmer antalet rader och antalet celler i varje rad.
 
