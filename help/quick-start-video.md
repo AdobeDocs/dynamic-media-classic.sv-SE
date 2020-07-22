@@ -6,13 +6,13 @@ seo-description: En introduktion och Snabbstart till video som hjälper dig att 
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ För hantering av enstaka video och adaptiva videouppsättningar har Dynamic Med
 
    När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
-   `**Note:**` Huvud-/källvideor och andra videofilmer i källformat läggs *inte* till i en adaptiv videouppsättning.
+   `**Note:**` Överordnad videoklipp, källvideoklipp och andra videofilmer i källformat läggs *inte* till i en adaptiv videouppsättning.
 
 * Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
 
@@ -81,14 +81,16 @@ Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma ig�
 
 Överför och generera adaptiva videouppsättningar i något av följande två scenarier:
 
-* **Överför förkodade videor** Om dina videoklipp redan har kodats utanför Dynamic Media Classic klickar du på **Överför** i det globala navigeringsfältet för att bläddra och överföra MP4-videofiler direkt till Scene7 Publishing System. Klicka sedan på **Skapa > Adaptiva videouppsättningar**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
-* **Överför huvudkällvideor** Om videoklippen inte är kodade klickar du på **Överför** i fältet Global Navigation (Global Navigation) för att överföra huvudvideokällfiler (ej MP4) och låta Scene7 Publishing System koda dem till MP4-filer. Välj **Adaptiv video** under EVideo-alternativ i dialogrutan Alternativ för överföringsjobb.
+* **Överför förkodade videoklipp** Om dina videoklipp redan har kodats utanför Dynamic Media Classic klickar du på 
+**Ladda upp** från Global Navigation Bar för att bläddra bland och ladda upp MP4-videofiler direkt till Dynamic Media Classic. Klicka sedan på **Skapa > Adaptiva videouppsättningar**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
+* **Ladda upp videoklipp** med överordnad källkod Om videoklippen inte är kodade klickar du på 
+**Ladda upp** från Global Navigation Bar för att ladda upp överordnad videokällfiler (ej MP4) och låt Dynamic Media Classic koda dem till MP4-filer. Välj **Adaptiv video** under EVideo-alternativ i dialogrutan Alternativ för överföringsjobb.
 
    Med det här önskade alternativet kan du skapa en adaptiv videouppsättning som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videokoder i rätt proportioner.
 
    Du kan också utöka **Encoding Presets** i dialogrutan Jobbalternativ under EVideo-alternativ och välja enskilda förinställningar för videokodning som du vill ha från **Skrivbord**, **Mobil (iPhone, iPad, Android)** och **Surfplatta (iPad, Android)** så att du kan skapa MP4-filer.
 
-* Du kan också bearbeta en huvudvideo på nytt med hjälp av funktionen Bearbeta igen. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
+* Du kan också bearbeta om en överordnad video med hjälp av funktionen Bearbeta om. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
 
 Se [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -110,7 +112,7 @@ Du kan spela upp videon på förhandsgranskningsskärmen. Du kan också välja o
 
 **Valfritt**
 
-Anpassning av visningsförinställningar - I Dynamic Media Classic finns fördefinierade visningsförinställningar för video. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Om du vill öppna den här sidan klickar du på Inställningar > Visningsförinställningar i det övre högra hörnet av Scene7 Publishing System. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
+Anpassning av visningsförinställningar - I Dynamic Media Classic finns fördefinierade visningsförinställningar för video. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Du öppnar den här sidan genom att klicka på Konfigurera > Visningsförinställningar i det övre högra hörnet av Dynamic Media Classic. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
 
 Se [Arbeta med förinställningar](previewing-videos-video-viewer.md#working_with_video_viewer_presets)för visningsprogram för video.
 
