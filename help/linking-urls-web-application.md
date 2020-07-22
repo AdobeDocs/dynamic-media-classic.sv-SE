@@ -6,20 +6,23 @@ seo-description: Lär dig hur du länkar URL-adresser till webbprogram.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 0%
 
 ---
 
 
 # Länka URL:er till webbprogrammet{#linking-urls-to-your-web-application}
 
-Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Image Server via URL-strängar. När du har publicerat en bild aktiverar Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på dynamiska mediabildsservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
+Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media-bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
 
-Om du vill placera dessa URL-strängar på dina webbsidor och i dina program kopierar du dem från Scene7 Publishing System. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
+Om du vill placera dessa URL-strängar på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
 
 ## Hämta en URL för bildförinställning {#obtaining-an-image-preset-url}
 
@@ -50,11 +53,11 @@ Du kan hämta en URL-sträng som genereras av en bildförinställning från för
 
 ## Om URL-strängar för bildförinställning {#about-image-preset-url-strings}
 
-Ett URL-anrop för att ändra bildstorlek till dynamiska mediabildsservrar har följande grundläggande syntax:
+Ett URL-anrop för att ändra bildstorlek till Dynamic Media-bildservrar har följande grundläggande syntax:
 
 *sökväg*/*namn för Image Server*/*kontonamn*/*avbildningsnamn*?*modifier1*&amp;*modifier2*&amp;...
 
-I en URL för en dynamisk mediabildsserver visas instruktioner till servern om hur bilden ska visas efter frågetecknet (?). Det här URL-anropet ger t.ex. en bild med namnet &quot;backpack&quot; och bredden 250 pixlar:
+I en URL för Dynamic Media Image Server visas instruktioner till servern om hur bilden ska visas efter frågetecknet (?). Det här URL-anropet ger t.ex. en bild med namnet &quot;backpack&quot; och bredden 250 pixlar:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -72,11 +75,11 @@ I en URL-sträng som skapas med en bildförinställning visas namnet på bildfö
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Namn på bildförinställningar i URL:er omges av dollartecken ($). När en dynamisk mediabildsserver träffar på delen Bildförinställning i URL:en ( `Large` i det här fallet), med hjälp av de inställningar för storlek och formatering som definieras av den stora bildförinställningen.
+Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dynamic Media Image Server påträffar delen Bildförinställning i URL:en ( `Large` i det här fallet) med hjälp av de inställningar för storlek och formatering som definieras av den stora förinställningen.
 
 ## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
 
-Om du vill lägga till dynamiska bilder på en webbsida ändras taggen i HTML-webbsideskoden vanligtvis med URL-strängen för Dynamic Media Classic och en begäran skickas till Dynamic Media Image-servrar. `<IMG>` Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
+Om du vill lägga till dynamiska bilder på en webbsida ändras taggen i HTML-webbsideskoden vanligtvis med URL-strängen för Dynamic Media Classic för att göra en begäran till Dynamic Media-bildservrar. `<IMG>` Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 
 I stället för det vanliga anropet för att öppna en statisk bild som
 
