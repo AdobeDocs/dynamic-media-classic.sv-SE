@@ -6,10 +6,13 @@ seo-description: Lär dig hur du överför PDF-filer som är kopplade till en e-
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '701'
+ht-degree: 0%
 
 ---
 
@@ -20,13 +23,13 @@ Vanligtvis är Adobe PDF-filer källan till en e-katalog; dessa filer innehålle
 
 ## Förbereda PDF-filer {#preparing-your-pdf-files}
 
-Förbered dina PDF-filer innan du överför dem till Scene7 Publishing System:
+Förbered PDF-filerna innan du överför dem till Dynamic Media Classic:
 
 * Placera alla filer i samma mapp på datorn eller i nätverket så att det blir enklare att överföra filerna.
 * Namnge filerna i alfanumerisk ordning per sida. Om du beställer sidorna blir det enklare att placera sidorna i rätt ordning efter att filerna har överförts.
-* Granska PDF-sidorna för att se om de innehåller skärmärken, registreringsmål eller färgfält. Dessa märken avgör var papperet ska skäras när dokumenten skrivs ut. måste tas bort innan din eCatalog kan placeras på webben. Dynamic Media Classic innehåller alternativ för beskärningsmärken när du överför PDF-filer.
+* Granska PDF-sidorna för att se om de innehåller skärmärken, registreringsmål eller färgfält. Dessa märken avgör var papperet ska skäras när dokumenten skrivs ut. måste tas bort innan din eCatalog kan placeras på webben. I Dynamic Media Classic finns alternativ för beskärningsmärken när du överför PDF-filer.
 * Om du vill att tittarna ska söka i din e-katalog med nyckelord, ta reda på om PDF-filerna är förenklade. Du kan inte extrahera sökord från förenklade PDF-filer. Om du vill ta reda på om en PDF-fil är förenklad kan du försöka markera text i den. Om du inte kan markera text förenklas PDF-filen och visningsprogrammen kan inte söka efter nyckelord i din eCatalog.
-* Eftersom de ska skrivas ut innehåller PDF-filerna vanligtvis CMYK-bilder. Som standard kan SPS identifiera dessa CMYK-bilder på ett intelligent sätt och konvertera dem med en intern CMYK-färgprofil. Om du vill använda en egen färgprofil för att konvertera CMYK-bilder kan du göra det.
+* Eftersom de ska skrivas ut innehåller PDF-filerna vanligtvis CMYK-bilder. Som standard kan Dynamic Media Classic identifiera dessa CMYK-bilder på ett intelligent sätt och konvertera dem med en intern CMYK-färgprofil. Om du vill använda en egen färgprofil för att konvertera CMYK-bilder kan du göra det.
 
    Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
@@ -46,7 +49,7 @@ Markera de filer som du vill överföra och välj sedan följande *bästa* PDF-a
 
 * **Upplösning** Dynamic Media Classic rekommenderar 150 pixlar per tum.
 
-* **Colorspace** Dynamic Media Classic rekommenderar att du väljer Identifiera automatiskt. Vanligtvis är PDF-filer som skapats för utskrift CMYK. PDF-filer för visning online är RGB. Om båda färgrymderna används i en PDF-fil kan du välja en viss färgrymd genom att välja Tvinga som RGB eller Tvinga som CMYK. I PDF-filer används till exempel båda färgmodellerna när sidgrafik använder en CMYK-färgmodell, men bilder använder RGB. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
+* **Färgrymd** Dynamic Media Classic rekommenderar att du väljer Identifiera automatiskt. Vanligtvis är PDF-filer som skapats för utskrift CMYK. PDF-filer för visning online är RGB. Om båda färgrymderna används i en PDF-fil kan du välja en viss färgrymd genom att välja Tvinga som RGB eller Tvinga som CMYK. I PDF-filer används till exempel båda färgmodellerna när sidgrafik använder en CMYK-färgmodell, men bilder använder RGB. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
 
    Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
@@ -56,7 +59,7 @@ Markera de filer som du vill överföra och välj sedan följande *bästa* PDF-a
 
 * **Behåll ursprunglig färgrymd** Behåller den ursprungliga färgrymden.
 
-* **Anpassa från > Till**&#x200B;öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en Photoshop-standardfärgmodell eller en färgmodell som du överförde till SPS.
+* **Anpassa från > Till**&#x200B;öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överförde till Dynamic Media Classic.
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
