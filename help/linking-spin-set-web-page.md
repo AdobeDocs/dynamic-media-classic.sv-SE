@@ -6,18 +6,21 @@ seo-description: Lär dig hur du länkar en snurruppsättning till en webbsida.
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 0%
 
 ---
 
 
 # Länka en snurruppsättning till en webbsida{#linking-a-spin-set-to-a-web-page}
 
-Webbplatser och applikationer har åtkomst till Dynamic Media Image Server-innehåll, inklusive Spin Sets, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för din snurruppsättning på dina webbsidor och i dina program kopierar du den från Scene7 Publishing System.
+Webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive snurruppsättningar, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för din snurruppsättning på dina webbsidor och i dina program kopierar du den från Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -44,7 +47,7 @@ Webbplatser och applikationer har åtkomst till Dynamic Media Image Server-inneh
 
 ## Lägga till URL-adresser för snurruppsättning på webbsidan {#adding-spin-set-urls-to-your-web-page}
 
-Snurra uppsättningar används som alla zoomningsvisningsprogram via en dynamisk sida (ASP eller JSP) som visar snurra uppsättningar i ett zoomfönster. URL-anropet till den dynamiska Media Classic-plattformen följer samma protokoll i zoomvisningsprogrammet. Namnet på visningsförinställningen beror dock på den förinställning som administratören har definierat som förinställning för rotationsuppsättningen. Följande exempel på icke-aktiv URL-syntax innehåller till exempel ett förinställningsnamn som kallas `viewer.jsp` och parametern SKU är nu namnet på rotationsuppsättningen:
+Snurra uppsättningar används som alla zoomningsvisningsprogram via en dynamisk sida (ASP eller JSP) som visar snurra uppsättningar i ett zoomfönster. URL-anropet till Dynamic Media Classic-plattformen följer samma protokoll i zoomvisningsprogrammet. Namnet på visningsförinställningen beror dock på den förinställning som administratören har definierat som förinställning för rotationsuppsättningen. Följande exempel på icke-aktiv URL-syntax innehåller till exempel ett förinställningsnamn som kallas `viewer.jsp` och parametern SKU är nu namnet på rotationsuppsättningen:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
