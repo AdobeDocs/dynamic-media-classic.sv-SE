@@ -6,13 +6,13 @@ seo-description: Lär dig hur du ställer in programområdet för Dynamic Media 
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11115'
+source-wordcount: '10977'
 ht-degree: 3%
 
 ---
@@ -24,7 +24,7 @@ Du kan använda sidorna Programinställningar för att ange allmänna inställni
 
 >[!NOTE]
 >
->Endast Scene7 Publishing System-administratörer kan ändra inställningarna på programinställningssidorna.
+>Endast Dynamic Media Classic-administratörer kan ändra inställningarna på programinställningssidorna.
 
 ## Allmänna inställningar {#general-settings}
 
@@ -36,119 +36,113 @@ När du skapar ett konto får du automatiskt de tilldelade servrarna för ditt f
 
 Se även [Testa tjänsten](testing-assets-making-them-public.md#testing_the_secure_testing_service)Secure Testing.
 
-**Publicerat servernamn** Den här servern är den CDN-live-server som används i alla systemgenererade URL-anrop som är specifika för ditt konto. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
+* **Publicerat servernamn** - Den här servern är den CDN-live-server som används i alla systemgenererade URL-anrop som är specifika för ditt konto. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
 
-**Ursprungligt servernamn** Den här servern används endast för kvalitetstestning. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
+* **Ursprungligt servernamn** - Den här servern används endast för kvalitetstestning. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
 
-**AGM-servernamn** Den här servern används för mallar för webb-till-utskrift. Den här servern är företagsövergripande. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en Dynamic Media Classic-supporttekniker.
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Test&amp;Target Server Name** Your Test&amp;Target URL, up to and including .com. Instruktioner om hur du hämtar den här URL:en finns i Integrera Dynamic Media Classic med Target Classic.
+* **Test&amp;Target Server Name** - Your Test&amp;Target URL, up to and including .com. Instruktioner om hur du hämtar den här URL:en finns i Integrera [!DNL Dynamic Media Classic] med [!DNL Target Standard/Premium].
 
-**Namn på** iOS-direktuppspelningsserver URL:en till din Dynamic Media Classic iOS-direktuppspelningsserver. Den här servern levererar direktuppspelad video till iOS-baserade enheter med HTTP-protokoll.
+<!-- **Test Publish Context Server Name** -->
 
-**Progressivt videoservernamn** URL:en till den progressiva videoservern i Dynamic Media Classic. Den här servern levererar progressiv video med HTTP-protokoll.
+* **Namn på** iOS-direktuppspelningsserver - URL:en till din [!DNL Dynamic Media Classic] iOS-direktuppspelningsserver. Den här servern levererar direktuppspelad video till iOS-baserade enheter med HTTP-protokoll.
 
-**Visa URL för opublicerade resurser** Välj det här alternativet om du vill att en URL ska visas i Dynamic Media Classic när du förhandsgranskar en resurs, oavsett om den är publicerad eller inte. Om resursen inte publiceras fungerar inte URL:en. Du kan dock använda URL-adressen för planering eller organisering.
+* **Progressivt namn på** videoserver - URL:en till din [!DNL Dynamic Media Classic] progressiva videoserver. Den här servern levererar progressiv video med HTTP-protokoll.
 
-**Tillåt installation** av AIR Välj det här alternativet om du vill tillåta användare att hämta Scene7 Publishing System-versionen för skrivbordet till sina lokala hårddiskar. Användarna installerar programmet från området Skrivbordsversion på skärmen Personliga inställningar.
+* **Visa URL för opublicerade resurser** - Välj det här alternativet om du vill [!DNL Dynamic Media Classic] visa en URL när du förhandsgranskar en resurs, oavsett om den är publicerad eller inte. Om resursen inte publiceras fungerar inte URL:en. Du kan dock använda URL-adressen för planering eller organisering.
 
-AIR-användare måste avinstallera sina befintliga program manuellt och installera om dem från webbversionen av Scene7 Publishing System (i Personliga inställningar). Efter den här engångsinstallationen uppmanas du att uppgradera när servern har en nyare version av Scene7 Publishing System AIR. Scene7 Publishing System är integrerat med Application Update Framework som effektiviserar uppgraderingsprocessen.
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**CDN-mall** för invalidering anger den mall som används för att ogiltigförklara CDN-cachen (Content Delivery Network).
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-Anta till exempel att du anger en bild-URL (inklusive bildförinställningar eller modifierare) som refererar `<ID>`i stället för ett specifikt bild-ID, som i följande exempel:
+* **CDN-mall** för invalidering - Anger den mall som används för att ogiltigförklara CDN-cachen (Content Delivery Network).
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   Anta till exempel att du anger en bild-URL (inklusive bildförinställningar eller modifierare) som refererar `<ID>`i stället för ett specifikt bild-ID, som i följande exempel:
 
-Om mallen bara innehåller `<ID>`fylls SPS i `https://<server>/is/image`, där `<server>` är namnet på publiceringsservern som definieras i Allmänna inställningar.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-Om du ställer in mallen för invalidering av CDN, markerar en bild med namnet Backpack_B och sedan klickar på **Arkiv** > **Invalidera CDN** , skapas följande genererade URL i CDN-gränssnittet:
+   Om mallen bara innehåller `<ID>`fylls Dynamic Media Classic i `https://<server>/is/image`, där `<server>` är namnet på publiceringsservern som definieras i Allmänna inställningar.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   Om du ställer in mallen för invalidering av CDN, markerar en bild med namnet Backpack_B och sedan klickar på **Arkiv** > **Invalidera CDN** , skapas följande genererade URL i CDN-gränssnittet:
 
-I listrutan URL klickar du på **Fortsätt** för att rensa cachen för det specifika bild-URL-anropet. Observera att du även kan lägga till URL-adresser genom att skriva eller klistra in dem i URL-listrutan; du inte behöver ange mallen i förväg.
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-När du har valt en mall för CDN-validering och gjort en begäran om ogiltig CDN visas en indikator i användargränssnittet som ger dig en uppskattning av hur lång tid det tar att rensa cachen.
+   I listrutan URL klickar du på **Fortsätt** för att rensa cachen för det specifika bild-URL-anropet. Observera att du även kan lägga till URL-adresser genom att skriva eller klistra in dem i URL-listrutan; du inte behöver ange mallen i förväg.
 
-Om flera bilder markeras i SPS när du klickar på **Arkiv** > **Invalidera CDN**, refereras varje bild till i den sparade mall-URL:en. Därför kan du definiera en mall för Ovalidering av CDN som refererar till varje URL som finns på webbplatsen (t.ex. produktinformation, sökresultat osv.). När du sedan väljer en eller flera bilder som ska ogiltigförklaras från cachen fylls gränssnittet automatiskt i med URL:erna.
+   När du har valt en mall för CDN-validering och gjort en begäran om ogiltig CDN visas en indikator i användargränssnittet som ger dig en uppskattning av hur lång tid det tar att rensa cachen.
 
-Se [Cachelagring](scene7-platform-overview.md#content_caching)av innehåll.
+   Om flera bilder är markerade i Dynamic Media Classic när du klickar på **Arkiv** > **Invalidera CDN**, refereras varje bild till i den sparade mall-URL:en. Därför kan du definiera en mall för Ovalidering av CDN som refererar till varje URL som finns på webbplatsen (t.ex. produktinformation, sökresultat osv.). När du sedan väljer en eller flera bilder som ska ogiltigförklaras från cachen fylls gränssnittet automatiskt i med URL:erna.
 
-Se [Återpublicerade resurser och CDN-fördröjningar](publishing-files.md#republished_assets_and_cdn_delays).
+   Se [Cachelagring](dmc-platform-overview.md#content_caching)av innehåll.
 
-**Bläddra**
+   Se [Återpublicerade resurser och CDN-fördröjningar](publishing-files.md#republished_assets_and_cdn_delays).
 
-**Visa projekt** Avgör om projekt är tillgängliga som ett sätt att ordna dina Dynamic Media Classic-resurser. Se Ordna ditt arbete med projekt.
+### Bläddra
 
-**Visa exempel på eVideo-innehåll** Aktivera eller inaktivera visning av exempelinnehåll för eVideo.
+* **Visa projekt** - Avgör om projekt är tillgängliga som ett sätt att ordna dina Dynamic Media Classic-resurser. Se Ordna ditt arbete med projekt.
 
-**Visa genererat innehåll** i mappar, visar innehåll som genererats från en resurs. När en PDF-fil till exempel rastreras när den överförs skapas en bild för varje sida i den ursprungliga PDF-filen i Dynamic Media Classic. Om Visa genererat innehåll är markerat visas varje bild som genereras när den ursprungliga PDF-filen överfördes tillsammans med PDF-filen i den mapp som PDF-filen överfördes till.
+* **Visa exempel på eVideo-innehåll** - Aktivera eller inaktivera visning av exempelinnehåll för eVideo.
 
-**Visa kodade videoklipp** som avmarkerad (av) som standard.
+* **Visa genererat innehåll** - I mappar visas innehåll som genererats från en resurs. När en PDF-fil till exempel rastreras när den överförs skapas en bild för varje sida i den ursprungliga PDF-filen i Dynamic Media Classic. Om Visa genererat innehåll är markerat visas varje bild som genereras när den ursprungliga PDF-filen överfördes tillsammans med PDF-filen i den mapp som PDF-filen överfördes till.
 
-Om du snabbt vill söka efter och bläddra bland videoklipp i Scene7 Publishing System utan att behöva navigera bland en massa kodade derivat av samma video låter du det här alternativet vara avmarkerat (standard). Endast miniatyrbilden för huvudvideon, som är den källvideo som du överfört och använt för att skapa alla derivat, och bara miniatyrbilden för den överordnade adaptiva videouppsättningen, som innehåller alla underordnade derivat för den kodade videouppsättningen, visas i användargränssnittet.
+* **Visa kodade videoklipp** - avmarkerat (av) som standard.
 
-Du kan dock fortfarande komma åt enskilda kodade videor från huvudvideon eller den adaptiva videouppsättningen. Om du vill göra det dubbelklickar du på miniatyrbilden för videon för att öppna detaljvyn. Klicka sedan på **Kodade videoklipp** i den högra panelen för att komma åt alla underordnade videoklipp.
+   Om du snabbt vill söka efter och bläddra efter videofilmer i Dynamic Media Classic utan att behöva navigera bland flera kodade derivat av samma videofil låter du det här alternativet vara avmarkerat (standard). Endast miniatyrbilden för huvudvideon, som är den källvideo som du överfört och använt för att skapa alla derivat, och bara miniatyrbilden för den överordnade adaptiva videouppsättningen, som innehåller alla underordnade derivat för den kodade videouppsättningen, visas i användargränssnittet.
 
-Du kan också använda **Arkiv > Bearbeta** om du vill skapa mer kodade underordnade videor direkt från en adaptiv videouppsättning. Scene7 Publishing System hittar automatiskt den &quot;överordnade&quot; huvudvideon i den adaptiva videouppsättningen och använder den som källvideo för transkodning. När du sparar de nya enskilda kodade videofilmerna visas de dock inte när du söker efter eller bläddrar. De är dock fortfarande tillgängliga på fliken Kodade videoklipp i detaljvyn.
+   Du kan dock fortfarande komma åt enskilda kodade videoklipp från den Överordnad videon eller den adaptiva videouppsättningen. Om du vill göra det dubbelklickar du på miniatyrbilden för videon för att öppna detaljvyn. Klicka sedan på **Kodade videoklipp** i den högra panelen för att komma åt alla underordnade videoklipp.
 
-Se [Överföra och koda video](uploading-encoding-videos.md#uploading_and_encoding_videos).
+   Du kan också använda **Arkiv > Bearbeta** om du vill skapa mer kodade underordnade videor direkt från en adaptiv videouppsättning. Dynamic Media Classic hittar automatiskt den&quot;överordnade&quot; Överordnad videon i den adaptiva videouppsättningen och använder den som källvideo för omkodning. När du sparar de nya enskilda kodade videofilmerna visas de dock inte när du söker efter eller bläddrar. De är dock fortfarande tillgängliga på fliken Kodade videoklipp i detaljvyn.
 
-Om du vill ha fortsatt åtkomst till alla kodade videoderivat när du söker och bläddrar väljer du **Visa kodade videoklipp**.
+   Se [Överföra och koda video](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-Det finns vissa åtgärder på menyn Skapa som bara fungerar, eller eventuellt fungerar, med enskilda videor. Den här funktionen gör det nödvändigt att visa alla kodade videoderivat som du kan välja mellan, oavsett hur du ställer in **Visa kodade videoklipp**. De Build-åtgärder som åsidosätter inställningen **Visa kodade videoklipp** är bland annat **Adaptiva videouppsättningar** och **e-kataloger**.
+   Om du vill ha fortsatt åtkomst till alla kodade videoderivat när du söker och bläddrar väljer du **Visa kodade videoklipp**.
 
->[Anteckning]
->
->Om du inte använde Scene7 Publishing System för att överföra och koda videoresurser visar Dynamic Media Classic alla dina enskilda kodade videor, även om det här alternativet är avmarkerat.
+   Det finns vissa åtgärder på menyn Skapa som bara fungerar, eller eventuellt fungerar, med enskilda videor. Den här funktionen gör det nödvändigt att visa alla kodade videoderivat som du kan välja mellan, oavsett hur du ställer in **Visa kodade videoklipp**. De Build-åtgärder som åsidosätter inställningen **Visa kodade videoklipp** är bland annat **Adaptiva videouppsättningar** och **e-kataloger**.
 
-**Visa knappen** Uppdatera undermappar Aktivera och inaktivera visning av knappen Uppdatera för undermappar.
+   >[Anteckning]
+   >
+   >Om du inte använde Dynamic Media Classic för att överföra och koda videoresurser visas alla dina enskilda kodade videofilmer i Dynamic Media Classic, även om det här alternativet är avmarkerat.
 
-**Dynamic Media Classic FTP-konto**
+* **Knappen** Visa Uppdatera undermappar - Aktivera eller inaktivera visning av knappen Uppdatera för undermappar.
 
-**Server** Visar en lista över din FTP-kontoserver.
+### Dynamic Media Classic FTP-konto
 
-**Användarnamn** Visar användarnamnet för ditt FTP-konto.
+* **Server** - Visar en lista över din FTP-kontoserver.
 
-**Överför till program**
+* **Användarnamn** - Visar användarnamnet för ditt FTP-konto.
 
-**Skriv över bilder** Dynamic Media Classic tillåter inte att två filer har samma namn. Varje objekts Scene7 Publishing System ID (bildnamn minus filnamnstillägg) måste vara unikt. På grund av den här regeln har dialogrutan Överför ett överskrivningsalternativ. Den exakta effekten av det här alternativet beror på det angivna alternativet Skriv över bilder. De här alternativen anger hur ersättningsbilder överförs: om de ersätter originalbilderna eller blir dubblettbilder. Duplicerade bilder får ett nytt namn med namnet&quot;-1&quot; (till exempel heter stol.tif stol-1.tif). De här alternativen påverkar bilder som har överförts till en annan mapp än den ursprungliga eller bilder med ett annat filnamnstillägg än den ursprungliga (till exempel JPG, TIF eller PNG). (Se Använda alternativet Skriv över bilder.)
+### Överför till program
 
-**Skriv över i den aktuella mappen, samma basbildens namn/tillägg**
+* **Skriv över bilder** - två filer kan inte ha samma namn i Dynamic Media Classic. Varje objekts Dynamic Media Classic-ID (bildnamnet minus filnamnstillägget) måste vara unikt. På grund av den här regeln har dialogrutan Överför ett överskrivningsalternativ. Den exakta effekten av det här alternativet beror på det angivna alternativet Skriv över bilder. De här alternativen anger hur ersättningsbilder överförs: om de ersätter originalbilderna eller blir dubblettbilder. Duplicerade bilder får ett nytt namn med namnet&quot;-1&quot; (till exempel heter stol.tif stol-1.tif). De här alternativen påverkar bilder som har överförts till en annan mapp än den ursprungliga eller bilder med ett annat filnamnstillägg än den ursprungliga (till exempel JPG, TIF eller PNG). (Se Använda alternativet Skriv över bilder.)
 
-Det här alternativet är den striktaste regeln för ersättning. Det kräver att du överför ersättningsbilden till samma mapp som originalbilden och att ersättningsbilden har samma filnamnstillägg som originalbilden. Om dessa krav inte uppfylls skapas en dubblett.
+   * **Skriv över i den aktuella mappen, samma basbildnamn/tillägg** - Det här alternativet är den striktaste regeln för ersättning. Det kräver att du överför ersättningsbilden till samma mapp som originalbilden och att ersättningsbilden har samma filnamnstillägg som originalbilden. Om dessa krav inte uppfylls skapas en dubblett.
 
-**Skriv över i den aktuella mappen, samma basresursnamn oavsett tillägg**
+   * **Skriv över i den aktuella mappen, samma basresursnamn oavsett tillägg** - Kräver att du överför ersättningsbilden till samma mapp som originalet, men filnamnstillägget kan skilja sig från originalet. Till exempel ersätter stol.tif stol.jpg.
 
-Kräver att du överför ersättningsbilden till samma mapp som originalet, men filnamnstillägget kan skilja sig från originalet. Till exempel ersätter stol.tif stol.jpg.
+   * **Skriv över i valfri mapp, samma basresursnamn/filnamnstillägg** - Kräver att ersättningsbilden har samma filnamnstillägg som den ursprungliga bilden (till exempel måste stol.jpg ersätta stol.jpg, inte stol.tif). Du kan dock överföra ersättningsbilden till en annan mapp än den ursprungliga. Den uppdaterade bilden finns i den nya mappen; filen inte längre kan hittas på sin ursprungliga plats
 
-**Skriv över i valfri mapp, samma basresursnamn/tillägg**
+   * **Skriv över i valfri mapp, samma basresursnamn oavsett tillägg** - Det här alternativet är den mest omfattande ersättningsregeln. Du kan överföra en ersättningsbild till en annan mapp än den ursprungliga, överföra en fil med ett annat filnamnstillägg och ersätta den ursprungliga filen. Om originalfilen finns i en annan mapp finns ersättningsbilden i den nya mappen som den överfördes till.
 
-Kräver att ersättningsbilden har samma filnamnstillägg som den ursprungliga bilden (t.ex. måste stol.jpg ersätta stol.jpg, inte stol.tif). Du kan dock överföra ersättningsbilden till en annan mapp än den ursprungliga. Den uppdaterade bilden finns i den nya mappen; filen inte längre kan hittas på sin ursprungliga plats
+* **Behåll publicering** - Anger om en ersättningsbild som överförts till Dynamic Media Classic ska behålla inställningen Klart för publicering för den bild som ersätts, eller om inställningen anges vid överföring.
 
-**Skriv över i valfri mapp, samma basresursnamn oavsett tillägg**
+* **Standardfärgprofiler** - Anger de färgprofiler som används som en del av alternativen för standardfärgprofil när du lägger till CMYK-bilder.
 
-Det här alternativet är den mest omfattande ersättningsregeln. Du kan överföra en ersättningsbild till en annan mapp än den ursprungliga, överföra en fil med ett annat filnamnstillägg och ersätta den ursprungliga filen. Om originalfilen finns i en annan mapp finns ersättningsbilden i den nya mappen som den överfördes till.
+* **Standardalternativ** för överföring - Öppnar dialogrutan Alternativ för överföringsjobb, där du kan ange standardalternativ för överföring. Mer information om de här alternativen finns i Överföringsalternativ.
 
-**Behåll publicering** Anger om en ersättningsbild som överförts till Dynamic Media Classic ska behålla inställningen Klart för publicering för den bild den ersätter eller om inställningen anges vid överföring.
+### Image Map Editor, to Application
 
-**Standardfärgprofiler** Anger de färgprofiler som används som en del av alternativen för standardfärgprofiler när du lägger till CMYK-bilder.
+* **Standardbildmappning HREF** - Definierar den standard-URL som används för bildmappningens href-kolumn. Den här URL:en är den standardadress du ser när du skapar nya bildscheman.
 
-**Standardalternativ** för överföring Öppnar dialogrutan Alternativ för överföringsjobb, där du kan ange standardalternativ för överföring. Mer information om de här alternativen finns i Överföringsalternativ.
+* **Standardmall** för bildmappning - Definierar JavaScript-standardvärdet för bildmappningens href-mall. Du kan ange att egen kod ska köras här när du klickar på ett bildschema.
 
-**Image Map Editor, to Application**
+### Andra inställningar, till program
 
-**HREF för standardbildmappning** definierar den standard-URL som används för bildmappningens href-kolumn. Den här URL:en är den standardadress du ser när du skapar nya bildscheman.
-
-**Standardmall** för bildmappning definierar JavaScript som är standard för bildmappningens href-mall. Du kan ange att egen kod ska köras här när du klickar på ett bildschema.
-
-**Andra inställningar, till program**
-
-**Papperskorgen kan rensa upp varningar** i papperskorgen tas automatiskt bort inom sju dagar. Välj&quot;Skicka e-postmeddelanden innan papperskorgen tas bort automatiskt&quot; om du vill att meddelanden ska skickas till företagsadministratörer när resurser i papperskorgen inte tas bort permanent om fyra dagar. Se Hantera papperskorgen.
+* **Papperskorgen kan rensa upp varningar** - resurser i papperskorgen tas automatiskt bort inom sju dagar. Välj&quot;Skicka e-postmeddelanden innan papperskorgen tas bort automatiskt&quot; om du vill att meddelanden ska skickas till företagsadministratörer när resurser i papperskorgen inte tas bort permanent om fyra dagar. Se Hantera papperskorgen.
 
 ## Använda alternativet Skriv över bilder {#using-the-overwrite-images-option}
 
-Två filer kan inte ha samma namn i Dynamic Media Classic. Varje objekts Scene7 Publishing System ID (bildnamn minus filnamnstillägg) måste vara unikt. På grund av den här regeln innehåller dialogrutan Överför alternativ för Skriv över bilder. Den exakta effekten av det här alternativet beror på en inställning för varje företags interna inställningar i Scene7 Publishing System.
+Två filer kan inte ha samma namn i Dynamic Media Classic. Varje objekts Dynamic Media Classic-ID (bildnamnet minus filnamnstillägget) måste vara unikt. På grund av den här regeln innehåller dialogrutan Överför alternativ för Skriv över bilder. Den exakta effekten av det här alternativet beror på en inställning för varje företags interna Dynamic Media Classic-inställningar.
 
 Om du tidigare överförde bilder och sedan ändrade originalfilerna (eller ersatt dem), anger det valda alternativet Skriv över hur Dynamic Media Classic ersätter bilderna. Ingen information om bilden ändras, men den nya bilden ersätter den gamla. Om mappen även innehåller bilder som inte redan finns i Dynamic Media Classic läggs dessa bilder till.
 
@@ -160,7 +154,7 @@ Om du avmarkerar det här alternativet behandlas alla bilder med samma filnamn s
 
 ## Bildförinställningar {#image-presets}
 
-Skärmen Bildförinställningar används för att skapa och redigera bildförinställningar. Med bildförinställningar kan du med Dynamic Media Classic leverera bilder dynamiskt i olika storlekar från samma huvudbild. Varje bildförinställning representerar en fördefinierad samling kommandon för storleksändring och formatering för visning av bilder. När du skapar en bildförinställning väljer du en storlek för bildleverans. Du kan också välja formateringskommandon så att bildens utseende optimeras när bilden levereras för visning.
+Skärmen Bildförinställningar används för att skapa och redigera bildförinställningar. Med bildförinställningar kan du med Dynamic Media Classic leverera bilder dynamiskt i olika storlekar från samma överordnad bild. Varje bildförinställning representerar en fördefinierad samling kommandon för storleksändring och formatering för visning av bilder. När du skapar en bildförinställning väljer du en storlek för bildleverans. Du kan också välja formateringskommandon så att bildens utseende optimeras när bilden levereras för visning.
 
 Administratörer kan skapa förinställningar för att exportera resurser. Användarna kan välja en förinställning när de exporterar bilder, vilket även innebär att bilderna formateras om till de specifikationer som administratören anger.
 
@@ -257,7 +251,7 @@ Mer information om skärpa, omsamplingslägen och oskarp maskning finns i [Skär
 
 **Färg** Välj följande alternativ:
 
-**Utdatafärgprofil** Välj Använd standard eller någon av ICC-färgprofilerna som finns i Scene7 Publishing System.
+**Utdatafärgprofil** Välj Använd standard eller någon av de ICC-färgprofiler som är tillgängliga i Dynamic Media Classic.
 
 Se även [ICC-profiler](icc-profiles.md#icc_profiles).
 
@@ -278,11 +272,11 @@ Se även [ICC-profiler](icc-profiles.md#icc_profiles).
 
    * Klicka på **Redigera** och ange sedan nya alternativ i dialogrutan Redigera förinställning.
    * Klicka på **Ta bort** för att ta bort förinställningen från listan.
-   * Avmarkera kryssrutan Aktiv bredvid ett förinställningsnamn om du vill ta bort den från hela användargränssnittet i Scene7 Publishing System för MediaPortal-användare.
+   * Avmarkera kryssrutan Aktiv bredvid ett förinställningsnamn om du vill ta bort den från hela Dynamic Media Classic-användargränssnittet för MediaPortal-användare.
 
 ## Aktivera eller inaktivera anpassade videoförinställningar {#activating-or-deactivating-adaptive-video-presets}
 
-I Dynamic Media Classic finns förinställningar för adaptiv videokodning. Det är en huvudlista med förinställningar som kombinerar både 16:9-förinställningar för adaptiv video och 4:3-förinställningar för adaptiv video till en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
+I Dynamic Media Classic finns förinställningar för adaptiv videokodning. Det är en överordnad lista med förinställningar som kombinerar både 16:9-förinställningar för adaptiv video och 4:3-förinställningar för adaptiv video till en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
 
 Endast kodningsförinställningar för adaptiv video aktiveras (aktiverat eller aktiverat) som standard. Du kan avaktivera den om du vill. Inaktiva förinställningar för adaptiv video visas inte som ett valbart alternativ i delen eVideo i dialogrutan Alternativ för överföringsjobb.
 
@@ -290,7 +284,7 @@ Se [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading_and_
 
 **Aktivera eller inaktivera anpassade videoförinställningar**
 
-1. I det övre högra hörnet av Scene7 Publishing System klickar du på **Inställningar** > **Programinställningar** > **Videoförinställningar** > **Adaptiva videoförinställningar**.
+1. I det övre högra hörnet av Dynamic Media Classic klickar du på **Inställningar** > **Programinställningar** > **Videoförinställningar** > **Adaptiva videoförinställningar**.
 1. På sidan Adaptiva videoförinställningar avmarkerar du kryssrutan bredvid ett förinställningsnamn för att ta bort förinställningen från listan eVideo-alternativ i dialogrutan Alternativ för överföringsjobb.
 1. Klicka på **Stäng**.
 
@@ -336,7 +330,7 @@ Om du vill välja en kodningsförinställning klickar du på Jobbalternativ i de
    * Välj en kodningsförinställning baserat på upplösningsstorleken och bandbredden som du vill spela upp videon med.
    * Du kan välja Adaptiv videokodning och en eller flera kodningsförinställningar per video. Du kan till exempel koda en fil för både dator och mobil i ett överföringsjobb.
 
-När du klickar på **Starta överföring**&#x200B;överförs originalhuvudvideofilen och kodade filer genereras från huvudfilen.
+När du klickar på **Starta överföring**&#x200B;överförs den ursprungliga överordnad videofilen och kodade filer genereras från den överordnad filen.
 
 ### Om alternativ för kodningsförinställningar {#about-encoding-preset-options}
 
@@ -370,7 +364,7 @@ En förinställning för kodning som fungerar med alla proportioner så att du k
 
 ### Videoförinställningar för Adaptiv videokodning (16:9 eller 4:3) {#adaptive-video-encoding-or-video-presets}
 
-Dessa adaptiva videokodningsförinställningar kombinerar en serie individuella kodningsförinställningar som väljs automatiskt utifrån proportionerna för den video du överförde. Om du till exempel överför en 4:3-video kodas den automatiskt med alla fem 4:3-förinställningar som finns i huvudförinställningslistan i alternativet **Adaptiv videokodning (16:9 eller 4:3)** .
+Dessa adaptiva videokodningsförinställningar kombinerar en serie individuella kodningsförinställningar som väljs automatiskt utifrån proportionerna för den video du överförde. Om du till exempel överför en 4:3-video kodas den automatiskt med alla fem 4:3-förinställningar som finns i den överordnad förinställningslistan i alternativet **Adaptiv videokodning (16:9 eller 4:3)** .
 
 Mer information om parametrar för kodningsalternativ finns i [Om alternativ](application-setup.md#about_encoding_preset_options)för kodningsförinställningar.
 
@@ -446,7 +440,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen](
 
 >[!NOTE]
 >
->**Meddelande** om att Flash Viewer upphör att gälla - Från och med den 31 januari 2017 upphörde Adobe Scene7 Publishing System officiellt med stöd för Flash-visningsprogrammets plattform. Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Meddelande** om att Flash-visningsprogrammet upphör att gälla - Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt med stödet för Flash-visningsprogramplattformen. Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 En *visningsförinställning* är en samling inställningar som bestämmer hur användare visar mediefiler på datorskärmar och mobila enheter. Som administratör kan du skapa visningsförinställningar. Inställningarna är tillgängliga för en array med visningskonfigurationsalternativ. Du kan till exempel ändra visningsprogrammets visningsstorlek, zoombeteende, färgscheman, kanter och teckensnitt.
 
@@ -494,7 +488,7 @@ Om huvudbildens storlek till exempel är 350 x 350 pixlar, med zoomfaktorn 3, bl
 
 ### Kompatibilitetsmatris för Dynamic Media Classic Viewer-förinställning {#scene-viewer-preset-compatibility-matrix}
 
-**Meddelande** om att Flash-visningsprogrammet upphör att gälla: Från och med den 31 januari 2017 upphörde Adobe Scene7 Publishing System officiellt med stöd för Flash-visningsprogramplattformen.
+**Meddelande** om att Flash-visningsprogrammet upphör att gälla: Från och med den 31 januari 2017 upphör stödet för Flash-visningsprogramplattformen officiellt i Adobe Dynamic Media Classic.
 
 Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -613,7 +607,7 @@ Se [Exportera en HTML5 Viewer-förinställning](application-setup.md#exporting_a
 
 **Lägga till och redigera visningsprogramförinställningar**
 
-1. I det övre högra hörnet av Scene7 Publishing System klickar du på **Inställningar** > **Visningsförinställningar**.
+1. I det övre högra hörnet av Dynamic Media Classic klickar du på **Inställningar** > **Visningsförinställningar**.
 
    Du kan filtrera i listan med förinställningar. Om du till exempel bara vill visa förinställningar för videovisningsprogram väljer du Videovisningsprogram i listrutan Visare i verktygsfältet direkt ovanför tabellen.
 
@@ -647,7 +641,7 @@ Se [Exportera en HTML5 Viewer-förinställning](application-setup.md#exporting_a
 
 Du kan exportera en befintlig HTML5 Viewer-förinställning som du kan använda som grund för att skapa en ny HTML5 Viewer-förinställning. Det här exportalternativet är användbart eftersom du inte behöver skapa visningsprogrammet från grunden. I stället exporterar du en förinställning som ser ut och beter sig ungefär som du vill ha den, och sedan kan du använda den som utgångspunkt för att göra designjusteringar.
 
-Observera att alla standardförinställda CSS-filer för visningsprogram i SPS använder relativa bildvisningssökvägar som pekar på resurser som finns på `Scene7SharedAssets`. Följande är en relativ sökväg till en bildresurs i en CSS-fil för visningsförinställning som finns på `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Om du däremot har CSS-filer för visningsprogram på din egen plats, måste du lösa den relativa sökvägen genom att använda en explicit sökväg till bildservern i din egen miljö. I illustrationssyfte, om du skulle uppdatera den relativa sökvägen ovan till en explicit sökväg, kan den se ut så här, där `https://s7d1.scene7.com` är den direkta sökvägen till bildservern: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Observera att alla standardförinställda CSS-filer för visningsprogram i Dynamic Media Classic använder relativa bildvisningssökvägar som pekar på resurser som finns på `Scene7SharedAssets`. Följande är en relativ sökväg till en bildresurs i en CSS-fil för visningsförinställning som finns på `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`Om du däremot har CSS-filer för visningsprogram på din egen plats, måste du lösa den relativa sökvägen genom att använda en explicit sökväg till bildservern i din egen miljö. I illustrationssyfte, om du skulle uppdatera den relativa sökvägen ovan till en explicit sökväg, kan den se ut så här, där `https://s7d1.scene7.com` är den direkta sökvägen till bildservern: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Exportera en HTML5-visningsförinställning**
 
@@ -661,7 +655,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 ```
 
 1. Klicka på **Inställningar** > **Visningsförinställningar**.
-1. Välj **HTML5** i den andra listrutan till vänster i verktygsfältet Förinställningar för visningsprogram.
+1. Välj **HTML5** i den andra listrutan till vänster i verktygsfältet Visningsförinställningar.
 1. I den tredje listrutan till vänster väljer du **Alla visningsprogram**.
 1. Välj den visningsförinställning som du vill använda som bas för en ny visningsförinställning för HTML5.
 1. Klicka på **Exportera** i verktygsfältet.
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    Efter exporten får du en CSS-fil. Ladda ned och zippa upp filen.
 
 1. Öppna CSS-filen i en CSS-redigerare, gör ändringarna och spara sedan filen.
-1. Överför CSS-filen till Scene7 Publishing System.
+1. Överför CSS-filen till Dynamic Media Classic.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
@@ -706,12 +700,15 @@ URL:en kopieras till Urklipp. Du kan använda den vid behov i HTML-koden för we
 
    * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Kopiera URL** till höger om det visningsprogram du vill använda i panelen URL:er och Bädda in kod till höger.
    * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
+
    Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
    * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+
    Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
    * Klicka på **Stödrastervisning**, **Listvy** eller **Detaljvy**. Klicka på **Förhandsgranska** > **Visningsprogramlista** i samma verktygsfält.
+
    Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
 ### Kopiera inbäddningskoden för en visningsförinställning {#copying-the-embed-code-of-a-viewer-preset}
@@ -727,12 +724,15 @@ Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
    * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Bädda in kod** på panelen URL:er till höger.
    * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
+
    Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
    * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+
    Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
    * Klicka på **Stödrastervisning**, **Listvy** eller **Detaljvy**. Klicka på **Förhandsgranska** > **Visningsprogramlista** i samma verktygsfält.
+
    Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
 1. I dialogrutan Bädda in kod klickar du på **Kopiera till Urklipp**.
@@ -740,7 +740,7 @@ Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 ## Konfigurera standardvisningsprogram {#configuring-default-viewers}
 
-Du kan använda standardvisningsprogram för att konfigurera standardvisningsprogrammet som är kopplat till en resurs när du använder Förhandsgranska i Scene7 Publishing System. Du kan ställa in standardförhandsvisningen för följande resurstyper:
+Du kan använda standardvisningsprogram för att konfigurera standardvisningsprogrammet som är associerat med en resurs när du använder Förhandsvisa i Dynamic Media Classic. Du kan ställa in standardförhandsvisningen för följande resurstyper:
 
 * Bild
 * Video
@@ -816,9 +816,9 @@ Skapa en metadataförinställning för varje uppsättning metadatavärden som du
 
 ## Användardefinierade fält {#user-defined-fields}
 
-En Media Portal-administratör eller en företagsadministratör kan skapa anpassade, användardefinierade metadatafält. Med anpassade fält kan du ordna resurser i Scene7 Publishing System. Du kan markera fälten som aktiva, efter behov. När du aktiverar det här alternativet visas namnen på dessa anpassade metadatafält på panelen Metadata i detaljvyn. Användare kan ange information i användardefinierade metadatafält för att beskriva resurser. Användarna kan också göra ett användardefinierat metadatafält till ett villkor i sökningar.
+En Media Portal-administratör eller en företagsadministratör kan skapa anpassade, användardefinierade metadatafält. Med anpassade fält kan du ordna resurser i Dynamic Media Classic. Du kan markera fälten som aktiva, efter behov. När du aktiverar det här alternativet visas namnen på dessa anpassade metadatafält på panelen Metadata i detaljvyn. Användare kan ange information i användardefinierade metadatafält för att beskriva resurser. Användarna kan också göra ett användardefinierat metadatafält till ett villkor i sökningar.
 
-Ett effektivt sätt att använda användardefinierade metadatafält är att fördröja aktiveringstiden för en mediefil för en viss start eller försäljning. Du definierar ett aktiveringsfält baserat på typen *Datum*. Sedan kan du ange när resursen ska aktiveras med panelen **Metadata** i vyn **Detalj** eller **Arkiv** > **Redigera information**. Scene7 Publishing System kontrollerar publiceringsstatusen för en resurs och publiceringshistoriken. Om det inte är inom aktiveringstiden visas publiceringsstatusen som Inte publicerad.
+Ett effektivt sätt att använda användardefinierade metadatafält är att fördröja aktiveringstiden för en mediefil för en viss start eller försäljning. Du definierar ett aktiveringsfält baserat på typen *Datum*. Sedan kan du ange när resursen ska aktiveras med panelen **Metadata** i vyn **Detalj** eller **Arkiv** > **Redigera information**. Dynamic Media Classic kontrollerar publiceringsstatusen för en resurs och publiceringshistoriken. Om det inte är inom aktiveringstiden visas publiceringsstatusen som Inte publicerad.
 
 >[!NOTE]
 >
@@ -880,9 +880,9 @@ Om du vill öppna den här skärmen klickar du på **Inställningar** > **Progra
 
 ## Optimera filer {#optimize-files}
 
-När du överför filer till Scene7 Publishing System optimeras de för lagring och publicering. Om överföringen avbryts kan vissa bilder inte optimeras. I det här fallet visas meddelandet &quot;Bilden är inte optimerad ännu&quot;. Du kan dock optimera dessa filer om du är administratör.
+När du överför filer till Dynamic Media Classic optimeras de för lagring och publicering. Om överföringen avbryts kan vissa bilder inte optimeras. I det här fallet visas meddelandet &quot;Bilden är inte optimerad ännu&quot;. Du kan dock optimera dessa filer om du är administratör.
 
-Scene7 Publishing System söker igenom filerna och optimerar endast de bilder som inte har optimerats fullständigt tidigare.
+Dynamic Media Classic söker igenom dina filer och optimerar bara de bilder som inte har optimerats fullständigt tidigare.
 
 1. Välj **Konfigurera** > **Programinställningar** och sedan **Optimera filer**.
 1. Ange information för optimeringsjobbet och klicka på **Skicka**.
@@ -891,7 +891,7 @@ Scene7 Publishing System söker igenom filerna och optimerar endast de bilder so
 
 ## Förinställningar för gruppuppsättning {#batch-set-presets}
 
-Använd gruppuppsättningsförinställningarna för att automatiskt skapa bilduppsättningar eller snurruppsättningar när ett jobb körs för att överföra resurser till Scene7 Publishing System.
+Använd förinställningarna för gruppuppsättningar för att automatiskt skapa bilduppsättningar eller snurruppsättningar när ett jobb körs för att överföra resurser till Dynamic Media Classic.
 
 Företagsadministratörer definierar först namnkonventioner för de resurser som de vill gruppera tillsammans i en uppsättning. Du kan sedan skapa en förinställning för batchuppsättning som refererar till dessa bilder. Varje förinställning är en unik, självständig uppsättning instruktioner som definierar hur uppsättningen ska skapas med bilder som matchar de definierade namnkonventionerna i förinställningsreceptet.
 
