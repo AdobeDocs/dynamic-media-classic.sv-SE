@@ -6,18 +6,21 @@ seo-description: Lär dig hur du distribuerar video till webbplatser och mobilsa
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 1%
 
 ---
 
 
 # Distribuera video till webbplatser och mobilsajter{#deploying-video-to-your-websites-and-mobile-sites}
 
-Webbplatser, mobilsajter och datorprogram får tillgång till dynamiskt Media Classic-serverinnehåll, inklusive video, via URL-strängar eller inbäddad kod. Dynamic Media Classic aktiverar dessa URL-strängar under publiceringsprocessen. Om du vill placera URL-strängen eller bädda in koden för videon på dina webbsidor, mobilsidor och datorprogram kopierar du den från Scene7 Publishing System.
+Webbplatser, mobilsajter och datorprogram har åtkomst till Dynamic Media Classic-serverinnehåll, inklusive video, via URL-strängar eller inbäddad kod. Dynamic Media Classic aktiverar dessa URL-strängar under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för videon på webbsidor, mobilsidor och datorprogram kopierar du den från Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -25,19 +28,19 @@ Webbplatser, mobilsajter och datorprogram får tillgång till dynamiskt Media Cl
 
 ## Publicera video {#publishing-video}
 
-Genom att publicera en video kan Dynamic Media Classic-servrar leverera video till webbplatser, mobilsajter och applikationer.
+Genom att publicera en video kan Dynamic Media Classic-servrar leverera video till webbplatser, mobilsajter och program.
 
 Det finns två olika metoder som du kan använda för att publicera video:
 
 * **Publicera videoklipp automatiskt och direkt vid överföring**
 
-   Som en del av videoöverföringen kan Dynamic Media Classic automatiskt publicera videor när de överförs och kodas. Denna möjlighet att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
+   Som en del av videoöverföringen kan Dynamic Media Classic automatiskt publicera videofilmer när de överförs och kodas. Möjligheten att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
 
 * **Publicera video manuellt efter överföring**
 
    Om du inte vill publicera videoklipp direkt kan du när som helst publicera videoklipp manuellt.
 
-När du har publicerat videofilmer aktiverar Scene7 Publishing System URL-strängarna för HTML-sidan eller programkoden.
+När du har publicerat videofilmer aktiveras URL-strängarna för HTML-sidan eller programkoden i Dynamic Media Classic.
 
 **Publicera video**
 
@@ -60,7 +63,7 @@ Se även [Bädda in videovisningsprogrammet på en webbsida](deploying-video-web
 1. navigera till resursmappen som innehåller den video- eller adaptiva videouppsättning som du vill länka i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Klicka på **Stödrastervisning** eller **Listvy**. Dubbelklicka på videominiatyrbilden för en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger, under HTTP-direktuppspelning, klickar du på **Kopiera URL** till höger om det visningsprogram du vill använda. Det är en god idé att kopiera den URL som är kopplad till `Universal_HTML5_Video` visningsprogrammet.
+   * Klicka på **Stödrastervisning** eller **Listvy**. Dubbelklicka på videominiatyrbilden för en enskild resurs i panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger, under HTTP-direktuppspelning, klickar du på **Kopiera URL** till höger om det visningsprogram du vill använda. Det är en god idé att kopiera den URL som är kopplad till `Universal_HTML5_Video` visningsprogrammet.
    * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista. Det är en god idé att kopiera den URL som är kopplad till `Universal_HTML5_Video` visningsprogrammet.
@@ -87,7 +90,7 @@ Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deployi
 1. navigera till resursmappen som innehåller den video- eller adaptiva videouppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Klicka på **Stödrastervisning** eller **Listvy**. Dubbelklicka på videominiatyrbilden för en enskild resurs i panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger, under HTTP-direktuppspelning, klickar du på **Bädda in kod** till höger om det visningsprogram du vill använda. Det bästa är att klicka på **Bädda in kod** som är kopplad till `Universal_HTML5_Video` visningsprogrammet.
+   * Klicka på **Stödrastervisning** eller **Listvy**. Dubbelklicka på videominiatyrbilden för en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger, under HTTP-direktuppspelning, klickar du på **Bädda in kod** till höger om det visningsprogram du vill använda. Det bästa är att klicka på **Bädda in kod** som är kopplad till `Universal_HTML5_Video` visningsprogrammet.
    * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden för videon på **Förhandsgranska** > **Visningsprogramlista**.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista. Det bästa är att klicka på **Bädda in kod** som är kopplad till `Universal_HTML5_Video` visningsprogrammet.
@@ -109,7 +112,7 @@ Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deployi
 
 ### Implementera inbäddningskod för att använda HTML5-video med MP4-videoresurser {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Om du inte använder videospelaren Dynamic Media Classic HTML5, utan i stället vill använda den inbyggda HTML5- `<video>` -taggen med MP4-videoresurser, kan du använda följande exempel på inbäddningskod:
+Om du inte använder videospelaren i Dynamic Media Classic HTML5, utan i stället vill använda den inbyggda HTML5- `<video>` -taggen med MP4-videoresurser, kan du använda följande exempel på inbäddningskod:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -133,15 +136,16 @@ Om du inte använder videospelaren Dynamic Media Classic HTML5, utan i stället 
 
 ## Distribuera video med en videospelare från tredje part {#deploying-video-using-a-third-party-video-player}
 
-Om du använder en videospelare från tredje part eller en anpassad inbyggd videospelare i stället för ett dynamiskt Media Classic-videovisningsprogram, kan du få en direkt video-URL som fungerar för HLS-videoströmning med flera bithastigheter eller progressiv nedladdning.
+Om du använder en videospelare från en annan leverantör eller en anpassad inbyggd videospelare i stället för ett Dynamic Media Classic-visningsprogram, kan du få en direkt video-URL som fungerar för HLS-videoströmning med flera bitfrekvenser eller progressiv nedladdning.
 
 **Distribuera video med en videospelare från tredje part**
 
-1. I Scene7 Publishing System klickar du på **Inställningar** > **Programinställningar** > **Allmänna inställningar** i det globala navigeringsfältet.
+1. I Dynamic Media Classic klickar du på **Inställningar** > **Programinställningar** > **Allmänna inställningar** i fältet Global navigering.
 1. Beroende på vilken typ av URL som du vill använda gör du något av följande:
 * Generera en URL för direktuppspelad HLS-video (flerbithastighet)
 
-   Skapa den direkta URL:en med följande syntax på sidan **Allmänna inställningar** i gruppen **Servrar** i textfältet **Publicerat servernamn** : Anta `server/is/content/company/folder/filename.m3u8`till exempel att namnet på den publicerade servern är `https://s7d9.scene7.com/.` Använda syntaxen i steg 2, så kan den direkta URL:en se ut så här:
+   Skapa den direkta URL:en med följande syntax på sidan **Allmänna inställningar** i gruppen **Servrar** i textfältet **Publicerat servernamn** : `server/is/content/company/folder/filename.m3u8`
+Anta till exempel att namnet på den publicerade servern är `https://s7d9.scene7.com/.` Använda syntaxen i steg 2, så kan den direkta URL:en se ut så här:
    `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Generera en URL för direktuppspelad HLS-video (enkelbithastighet)
@@ -153,18 +157,19 @@ Anta till exempel att namnet på servern för HLS-direktuppspelning är `https:/
 
 * Generera en URL för direkt progressiv video
 
-   På sidan **Allmänna inställningar** för programmet, i gruppen **Servrar** , i textfältet **Progressivt** videoservernamn, konstruerar du den direkta eVideo-URL:en med följande syntax: Anta till `server/company/folder/filename`exempel att namnet på den progressiva videoservern är `https://s7d9.scene7.com/is/content/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
+   På sidan **Allmänna inställningar** för programmet, i gruppen **Servrar** , i textfältet **Progressivt** videoservernamn, konstruerar du den direkta eVideo-URL:en med följande syntax: `server/company/folder/filename`
+Anta till exempel att namnet på den progressiva videoservern är `https://s7d9.scene7.com/is/content/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Arbeta med videominiatyrer {#working-with-video-thumbnails}
 
-Dynamic Media Classic genererar miniatyrer för kodade videoklipp och förkodade videoklipp. Du kan använda videominiatyrer som vilken bildresurs som helst. Dessutom kan du hämta URL:er för de videominiatyrer som genereras av Dynamic Media Classic och distribuera dessa URL:er utanför SPS. Du kan till exempel distribuera miniatyrbilderna i sökresultat, relaterade videolistor och videouppspelningslistor på en webbplats.
+I Dynamic Media Classic genereras miniatyrer för kodade videoklipp och förkodade videoklipp. Du kan använda videominiatyrer som vilken bildresurs som helst. Dessutom kan du hämta URL:er för de videominiatyrbilder som genereras i Dynamic Media Classic och distribuera dessa URL:er utanför Dynamic Media Classic. Du kan till exempel distribuera miniatyrbilderna i sökresultat, relaterade videolistor och videouppspelningslistor på en webbplats.
 
 Miniatyrbilder genereras baserat på den första heterogena bildrutan (inte en helt svart bildruta, eller en helt vit bildruta o.s.v.) i videon.
 
 ### Hämta URL-adresser för videominiatyrbilder {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic genererar videominiatyrer automatiskt under överföringsprocessen. Miniatyrbilderna visas i panelen Bläddra i listvyn och stödrastervyn.
+I Dynamic Media Classic skapas videominiatyrer automatiskt under överföringen. Miniatyrbilderna visas i panelen Bläddra i listvyn och stödrastervyn.
 
 Utför en publiceringsåtgärd för att generera URL:er för videominiatyrer.
 
