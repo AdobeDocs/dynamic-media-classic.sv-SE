@@ -6,18 +6,21 @@ seo-description: Lär dig hur du publicerar mallar.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
 
 # Publiceringsmallar{#publishing-templates}
 
-När du publicerar mallen placeras den på dynamiska mediabildsservrar, där den är tillgänglig för din webbplats och ditt program. Under publiceringsprocessen aktiverar Scene7 Publishing System de URL:er du behöver för din webbplats och ditt program.
+När du publicerar mallen placeras den på Dynamic Media Image Servers, där den är tillgänglig för din webbplats och ditt program. Under publiceringsprocessen aktiverar Dynamic Media Classic de URL:er du behöver för din webbplats och ditt program.
 
 >[!NOTE]
 >
@@ -25,11 +28,11 @@ När du publicerar mallen placeras den på dynamiska mediabildsservrar, där den
 
 ## Märk mallar för publicering {#marking-templates-for-publish}
 
-Mallar och deras supportfiler måste markeras för publicering för att de ska kunna placeras på dynamiska mediabildsservrar. Du kan markera de här objekten för publicering på panelen Bläddra genom att klicka på **ikonen Markera för publicering** .
+Mallar och deras supportfiler måste markeras för publicering för att de ska kunna placeras på Dynamic Media Image Servers. Du kan markera de här objekten för publicering på panelen Bläddra genom att klicka på **ikonen Markera för publicering** .
 
 ## Publicera din mall {#publishing-your-template}
 
-Om du vill publicera mallar till dynamiska mediabildsservrar börjar du med att välja knappen Publicera i fältet Global navigering. Välj sedan alternativet Vid, ange ett namn för publiceringsjobbet och välj knappen Starta publicering.
+Om du vill publicera mallar till Dynamic Media-bildservrar börjar du med att välja knappen Publicera i fältet Global navigering. Välj sedan alternativet Vid, ange ett namn för publiceringsjobbet och välj knappen Starta publicering.
 
 >[!MORELIKETHIS]
 >
