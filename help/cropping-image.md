@@ -6,24 +6,27 @@ seo-description: Lär dig beskära en bild.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 0%
 
 ---
 
 
 # Beskära en bild{#cropping-an-image}
 
-Du kan beskära bilder i Scene7 Publishing System. Systemet sparar information om beskurna bilder så att du kan återställa dem till ursprungligt läge. Du kan också beskära en bild och spara den beskurna versionen under ett nytt namn.
+Du kan beskära bilder i Dynamic Media Classic. Systemet sparar information om beskurna bilder så att du kan återställa dem till ursprungligt läge. Du kan också beskära en bild och spara den beskurna versionen under ett nytt namn.
 
 Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära ett område i bilden.
 
 >[!NOTE]
 >
->När du har beskurit kan du klicka på knappen Spara som och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny mallsida om du vill spara en andra kopia av bilden. Välj Spara som tilläggsvy för mallsida om du vill spara originalet och den beskurna versionen med ett annat namn. Välj Ersätt original om du vill ta bort originalfilen som du beskurit bilden från. Ange sedan ett namn för bilden och välj knappen Skicka.
+>När du har beskurit kan du klicka på knappen Spara som och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Om du vill spara originalet och den beskurna versionen med ett annat namn väljer du Spara som tilläggsvy med Överordnad. Välj Ersätt original om du vill ta bort originalfilen som du beskurit bilden från. Ange sedan ett namn för bilden och välj knappen Skicka.
 
 ## Beskära för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
 
@@ -39,7 +42,7 @@ Du kan beskära de genomskinliga eller enfärgade pixlarna från bildens kant.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
 
 ## Markera ett område att beskära {#select-an-area-to-crop}
 
@@ -56,7 +59,7 @@ Du kan beskära de genomskinliga eller enfärgade pixlarna från bildens kant.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
 
 >[!MORELIKETHIS]
 >
