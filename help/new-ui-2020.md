@@ -4,9 +4,9 @@ seo-title: Adobe Dynamic Media Classic-datorprogrammet
 description: Dynamic Media Classic-användare kan nu uppdatera användargränssnittet helt. Upplevelsen ger en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen är inte längre beroende av Adobe Flash-teknik i webbläsaren.
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 0%
