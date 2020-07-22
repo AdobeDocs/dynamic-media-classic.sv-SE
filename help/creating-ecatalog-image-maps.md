@@ -6,11 +6,14 @@ seo-description: Lär dig hur du skapar eCatalog-bildscheman.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1496'
+ht-degree: 0%
 
 ---
 
@@ -30,8 +33,8 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
 
    * **Rektangulär karta** Välj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln.
 
-   * **Polygonkarta** Välj verktyget Polygonbildschema och klicka så många gånger som behövs runt bildens omkrets. När du klickar ritar Dynamic Media Classic kanterna på bildschemat.
-   När du har ritat en bildschema får den ett namn i listan Bildschema. För att bilda namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
+   * **Polygonkarta** Välj verktyget Polygonbildschema och klicka så många gånger som behövs runt bildens omkrets. När du klickar ritas kanterna för bildschemat i Dynamic Media Classic.
+   När du har ritat en bildschema får den ett namn i listan Bildschema i Dynamic Media Classic. För att bilda namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
 
 1. (Valfritt) Ange ett nytt namn för bildschemat i listpanelen Bildschema under kolumnen Namn. Använd inte blanksteg i det namn du anger.
 1. Du kan låta tittarna öppna en ny webbsida när de klickar på bildschemat. Ange webbsidans URL i URL-kolumnen på listpanelen Bildschema.
@@ -80,7 +83,8 @@ Använd följande tekniker för att redigera eCatalog-bildscheman från och med 
 
    Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Ta bort bildscheman** Välj panoreringsverktyget, klicka på bildschemat för att markera det och klicka sedan på **Ta bort**.
+* **Ta bort bildscheman** Markera panoreringsverktyget, klicka på bildschemat för att markera det och klicka sedan på 
+**Ta bort**.
 
    Om du vill ta bort alla bildscheman från en e-katalog klickar du på fliken **Ordna sidor** och sedan på **Rensa kartor**.
 
@@ -140,4 +144,4 @@ Så här kopierar du alla bildscheman i en e-katalog till en annan eCatalog:
 1. Klicka på Kopiera kartor på fliken Ordna sidor.
 1. I dialogrutan Välj resurs markerar du den e-katalog där du vill kopiera bildscheman och klickar sedan på Välj.
 
-Ett varningsmeddelande visas i Dynamic Media Classic om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder som har en annan storlek. Du kan klicka på Fortsätt om du vill kopiera bildscheman trots varningen.
+I Dynamic Media Classic visas ett varningsmeddelande om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Du kan klicka på Fortsätt om du vill kopiera bildscheman trots varningen.
