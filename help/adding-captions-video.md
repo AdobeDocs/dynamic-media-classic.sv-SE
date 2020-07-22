@@ -6,9 +6,9 @@ seo-description: Lär dig hur du lägger till bildtexter i video
 uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 1%
@@ -40,13 +40,13 @@ Mer information om hur du använder JSON-funktionen i en URL finns i [Servera st
 
 **Lägga till bildtexter i video**
 
-1. Använd ett tredjepartsprogram utanför Scene7 Publishing System och skapa en videobildtextfil utifrån den typ av visningsprogram som du använder.
+1. Använd ett tredjepartsprogram utanför Dynamic Media Classic och skapa videobeskrivningsfilen baserat på vilken typ av visningsprogram du använder.
 
    | Typ av visningsprogram | Bildtextfil |
    |--- |--- |
-   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://dev.w3.org/html5/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa bildtextfiler utanför Scene7 Publishing System. Om du till exempel vill skapa en enkel videobeskrivningsfil utan formatering kan du använda följande kostnadsfria redigerings- och redigeringsverktyg för bildtexter online: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>För bästa resultat bör du använda verktyget i Internet Explorer 9 eller senare, Google Chrome eller Safari. <br><br>I verktyget, i fältet <b>Ange URL för videofilen</b> , klistrar du in URL-adressen för videofilen och klickar sedan på <b>Läs in</b>. <br><br>Om du till exempel använder en Dynamic Media Classic-URL för videofilen dubbelklickar du i SPS på en enskild videoresurs (inte en adaptiv videouppsättning eller en huvudvideo) för att öppna den i detaljvyn. Expandera URL:er och Bädda in kod i den högra panelen i detaljvyn. Klicka sedan på Kopiera URL under gruppen Mobil till höger om Mobil (progressiv). Den här processen ger dig webbadressen till själva videofilen som du sedan kan klistra in i fältet <b>Ange webbadress för videofilen</b> . Internet Explorer, Chrome och Safari kan sedan spela upp videon direkt. Följ nu instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget .vtt. <br><br><b>Obs!</b> Om du vill ha globalt stöd för videobeskrivningar på andra språk än engelska måste du tänka på att WebVTT-standarden kräver att du skapar separata VTT-filer och anropar varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
+   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://dev.w3.org/html5/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa bildtextfiler utanför Dynamic Media Classic. Om du till exempel vill skapa en enkel videobeskrivningsfil utan formatering kan du använda följande kostnadsfria redigerings- och redigeringsverktyg för bildtexter online: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>För bästa resultat bör du använda verktyget i Internet Explorer 9 eller senare, Google Chrome eller Safari. <br><br>I verktyget, i fältet <b>Ange URL för videofilen</b> , klistrar du in URL-adressen för videofilen och klickar sedan på <b>Läs in</b>. <br><br>Om du till exempel använder en Dynamic Media Classic-URL för videofilen dubbelklickar du i DMC på en enskild videoresurs (inte en adaptiv videouppsättning eller en Överordnad video) för att öppna den i detaljvyn. Expandera URL:er och Bädda in kod i den högra panelen i detaljvyn. Klicka sedan på Kopiera URL under gruppen Mobil till höger om Mobil (progressiv). Den här processen ger dig webbadressen till själva videofilen som du sedan kan klistra in i fältet <b>Ange webbadress för videofilen</b> . Internet Explorer, Chrome och Safari kan sedan spela upp videon direkt. Följ nu instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget .vtt. <br><br><b>Obs!</b> Om du vill ha globalt stöd för videobeskrivningar på andra språk än engelska måste du tänka på att WebVTT-standarden kräver att du skapar separata VTT-filer och anropar varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
 
-1. I Scene7 Publishing System överför du XML-bildtextfilen WebVTT, DFXP eller SMPTE.
+1. I Dynamic Media Classic överför du XML-bildtextfilen WebVTT, DFXP eller SMPTE.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
