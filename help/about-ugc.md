@@ -5,18 +5,21 @@ description: 'null'
 seo-description: En introduktion till användargenererat innehåll.
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '139'
+ht-degree: 0%
 
 ---
 
 
 # Om användargenererat innehåll{#about-user-generated-content}
 
-Att använda UGC (användargenererat innehåll) består av att överföra resurser till en dedikerad lagringsplats för Dynamic Media Classic och utföra relaterade åtgärder.
+Att använda UGC (användargenererat innehåll) består av att överföra resurser till en dedikerad Dynamic Media Classic-lagringsplats och utföra relaterade åtgärder.
 
 UGC har stöd för följande filformat:
 
