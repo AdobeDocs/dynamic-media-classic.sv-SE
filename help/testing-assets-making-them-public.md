@@ -6,18 +6,21 @@ seo-description: Lär dig hur du testar resurser innan du publicerar dem.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '948'
+ht-degree: 0%
 
 ---
 
 
 # Testa resurser innan du gör dem offentliga {#testing-assets-before-making-them-public}
 
-Säker testning hjälper er att definiera en säker testmiljö och bygga en robust B2B-lösning som bygger på en konfigurerbar uppsättning IP-adresser och intervall. Med den här funktionen kan du matcha dina dynamiska Media Classic-distributioner med arkitekturen för din innehållshantering och e-handelsplattform.
+Säker testning hjälper er att definiera en säker testmiljö och bygga en robust B2B-lösning som bygger på en konfigurerbar uppsättning IP-adresser och intervall. Med den här funktionen kan du matcha dina Dynamic Media Classic-distributioner med arkitekturen för din innehållshantering och e-handelsplattform.
 
 Med Säker testning kan du förhandsgranska testversionen av webbplatsen med opublicerat innehåll.
 
@@ -29,7 +32,7 @@ Du kanske föredrar att skapa en staging-miljö i stället för att göra resurs
 
 >[!NOTE]
 >
->Säker testning påverkar inte åtkomsten till Scene7 Publishing System. SPS-säkerheten är konsekvent och kräver de vanliga inloggningsuppgifterna för åtkomst till SPS och relaterade webbtjänster.
+>Säker testning påverkar inte åtkomsten till Dynamic Media Classic. Dynamic Media Classic-säkerhet är konsekvent och kräver de vanliga autentiseringsuppgifterna för åtkomst till Dynamic Media Classic och relaterade webbtjänster.
 
 ## Så här fungerar säkra tester {#how-secure-testing-works}
 
@@ -37,13 +40,13 @@ De flesta företag använder internet bakom en brandvägg. Tillgång till Intern
 
 Från ditt företagsnätverk kan du ta reda på din offentliga IP-adress med hjälp av webbplatser som https://whatismyip.com eller begära den här informationen från din IT-organisation.
 
-Med Secure Testing skapar Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna program. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Dynamic Media Classic Company Administrator konfigurerar den godkända listan över IP-adresser för företagets säkra testmiljö.
+Med Säker testning skapar Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna program. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Dynamic Media Classic Company Administrator konfigurerar den godkända listan med IP-adresser för företagets säkra testmiljö.
 
-Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, till exempel offentlig trafik för Dynamic Media Image Server. Begäranden till tjänsten för säker testning kan ha en något högre fördröjning än de offentliga servrarna för dynamiska mediabilder.
+Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, till exempel offentlig Dynamic Media Image Server-trafik. Begäranden till tjänsten för säker testning kan ha en något högre fördröjning än de offentliga Dynamic Media Image Servers.
 
 Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker testning, utan att behöva publicera. Detta gör att du kan köra en förhandsvisning innan resurser publiceras på den offentliga bildservern.
 
-***Obs **! Säker testning utnyttjar katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning bör du därför vara medveten om att alla överförda resurser i Scene7 Publishing System omedelbart blir tillgängliga för säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring eller inte.*
+***Obs **! Säker testning utnyttjar katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning bör du därför vara medveten om att överförda resurser i Dynamic Media Classic omedelbart blir tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring eller inte.*
 
 Tjänster för säker testning stöder för närvarande följande resurstyper och funktioner:
 
@@ -61,7 +64,7 @@ Last Modified Date:
 * Vinjetter (renderingsserverbegäranden).
 * Rendera serverförfrågningar (stöds, men måste begäras uttryckligen av kunden).
 * Uppsättningar, inklusive bilduppsättningar, eCatalog, renderingsuppsättningar och medieuppsättningar.
-* Dynamic Media Classic-multimedievisningsprogram som standard.
+* Standardvisningsprogram för multimedia i Dynamic Media Classic.
 * Dynamic Media Classic OnDemand JSP-sidor.
 * Statiskt innehåll, till exempel PDF-filer och progressivt levererade videor.
 * HTTP-videoströmning.
@@ -72,7 +75,7 @@ Följande tillgångstyper och funktioner stöds för närvarande inte:
 * RTMP-videoströmning
 * UGC-tjänster
 * Webb-till-tryck
-* Dynamic Media Classic Info eller eCatalog-sökning
+* Dynamic Media Classic Info eller e-katalogsökning
 
 ## Testa tjänsten Secure Testing {#testing-the-secure-testing-service}
 
@@ -91,13 +94,13 @@ Last Modified Date:
  -->
 
 1. Kontakta teknisk support och begär att säker testning aktiveras för ditt konto.
-1. I Scene7 Publishing System klickar du på **Inställningar** > **Publiceringsinställningar** > **Bildserver**.
+1. I Dynamic Media Classic klickar du på **Inställningar** > **Publiceringsinställningar** > **Bildserver**.
 1. På sidan Image Server Publish (Publicera kontext) väljer du **Test Image Serving**(Testa bildserver).
 1. Klicka på **Lägg till** som klientadressfilter.
 1. Markera kryssrutan om du vill aktivera (aktivera) adressen och ange sedan en IP-adress och nätmask i respektive textfält.
 1. Upprepa de två föregående stegen för att lägga till fler IP-adresser. I annat fall fortsätter du till nästa steg.
 1. Klicka på **Spara längst ned till vänster på sidan Image Server Publish**
-1. Överför önskade bilder till ditt Scene7 Publishing System-konto.
+1. Överför de önskade bilderna till ditt Dynamic Media Classic-konto.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
@@ -114,7 +117,7 @@ Kontakta teknisk support om servernamnet saknas eller om URL:er till servern int
 
 Du behöver två varianter av en webbplats som länkar de publicerade och opublicerade resurserna:
 
-* Offentlig version: Länka resurser med din traditionella Dynamic Media Classic URL-syntax
+* Offentlig version: Länka resurser med din vanliga Dynamic Media Classic URL-syntax
 * Mellanlagringsversion: Länka resurser med samma syntax men med namnet på platsen för säker testning
 
 **Kör testerna**
@@ -125,7 +128,7 @@ Utför följande tester:
 
    I det företagsnätverk som identifieras av det tidigare definierade IP-adressintervallet ska mellanlagringsversionen av webbplatsen visa alla bilder, oavsett om de är markerade för publicering eller inte. Det gör att du kan testa utan att oavsiktligt göra bilder tillgängliga innan du förhandsgranskar eller startar produkten.
 
-   Bekräfta att den offentliga versionen av din webbplats visar publicerade resurser så som de har varit med om Dynamic Media Classic tidigare.
+   Bekräfta att den offentliga versionen av din webbplats visar publicerade resurser så som de har varit i Dynamic Media Classic tidigare.
 
 1. Verifiera att icke-publicerade resurser (dvs. omärkta för publicering) är skyddade från åtkomst från tredje part utanför företagets nätverk.
 
