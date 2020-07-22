@@ -6,11 +6,14 @@ seo-description: Lär dig hur du förhandsgranskar en resurs.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +59,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
    * Ovanför fönstret Resurser klickar du på Listvy till höger om verktygsfältet. I fönstret Resurser väljer du en enskild resurs och klickar sedan på Förhandsvisa > Visningsprogramlista till höger om miniatyrbilden.
    * Klicka på Detaljvy ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på Förhandsgranska > Visningsprogramlista i samma verktygsfält.
 
-1. (Valfritt) I fönstret Visningsprogramlista klickar du på kolumnrubriken **Namn** eller **plattformstyp** för att sortera kolumnen i stigande eller fallande ordning.
+1. (Valfritt) I fönstret Visningsprogramlista klickar du på kolumnrubriken **Namn** eller **Platform-typ** för att sortera kolumnen i stigande eller fallande ordning.
 1. I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, klickar du på Förhandsvisa för att se hur resursen visas för ett valt visningsprogram och en vald plattformstyp.
 
    Stäng förhandsgranskningen som visas för att återgå till fönstret Visningsprogramlista.
