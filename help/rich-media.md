@@ -2,15 +2,15 @@
 title: Multimedia
 seo-title: Multimedia
 description: 'null'
-seo-description: Lär dig mer om de verktyg du kan använda i Dynamic Media Classic för att skapa multimedia.
+seo-description: Läs om de olika verktyg du kan använda i Dynamic Media Classic för att skapa multimedia.
 uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Multimedia{#rich-media}
 
-Dynamic Media Classic har många verktyg för multimedia. Du kan skapa följande typer av multimedia:
+I Dynamic Media Classic finns många verktyg som du kan använda för att skapa multimedia. Du kan skapa följande typer av multimedia:
 
 * **eCatalogs** Presentera en interaktiv, sökaktiverad webbversion av katalogen eller annat tryckt material. Skapa klickbara områden (s.k. bildscheman) som visar överrullningsinnehåll och gör det möjligt för kunderna att vända sidor, zooma, panorera och bifoga anteckningar till sidor. Se [Snabbstart: eCatalog](/help/quick-start-ecatalog.md).
 
 * **eVideo** Leverera högkvalitativa videoupplevelser till flera skärmar, inklusive stationära datorer, mobilenheter och surfplattor. Använd fördefinierade kodningsförinställningar för Dynamic Media Classic eller anpassa kodningen för att styra videons kvalitet och storlek. Ordna, bläddra bland och sök videoklipp med fullt stöd för metadata för effektiv hantering av videomaterial. Se [Snabbstart: eVideo](/help/quick-start-video.md).
 
-* **Bildscheman** visar bilder dynamiskt i alla storlekar och format på webbplatsen. I stället för att manuellt skapa många bilder i olika storlekar, använder du bara en mallbild. När Dynamic Media Classic levererar den begärda bilden optimeras bilden för resultat av högsta kvalitet i storlek, format, vikt, kvalitet och skärpa. Se [Snabbstart: Bildstorlek](/help/quick-start-image-sizing.md).
+* **Bildscheman** visar bilder dynamiskt i alla storlekar och format på webbplatsen. I stället för att manuellt skapa många bilder i olika storlekar använder du bara en överordnad bild. När Dynamic Media Classic levererar den begärda bilden optimeras bilden för resultat av högsta kvalitet i storlek, format, vikt, kvalitet och skärpa. Se [Snabbstart: Bildstorlek](/help/quick-start-image-sizing.md).
 
 * **Bilduppsättningar** Leverera en interaktiv shoppingupplevelse där användarna kan visa produkter i flera vyer. Du kan kombinera zoomning, flera vyer och färgrutor för en integrerad visningsupplevelse. Se [Snabbstart: Bilduppsättningar](/help/quick-start-image-sets.md).
 
