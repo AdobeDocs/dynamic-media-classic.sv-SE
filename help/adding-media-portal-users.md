@@ -6,11 +6,14 @@ seo-description: Lär dig hur du lägger till och hanterar Media Portal-använda
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 0%
 
 ---
 
@@ -115,7 +118,7 @@ Du kan skicka ett välkomstmeddelande när du lägger till nya användare, medar
 
    **Standardlösenord** Ange ett tillfälligt lösenord för nya användare eller lämna fältet tomt om du vill att Dynamic Media Classic ska generera slumpmässiga lösenord. Användarna uppmanas att ändra lösenord första gången de loggar in.
 
-   **Ersättnings-URL** Ange en annan URL än standardadressen om användarna öppnar Dynamic Media Classic via en annan URL.
+   **Ersättnings-URL** Ange en annan URL än standardadressen om dina användare öppnar Dynamic Media Classic via en annan URL.
 
 ## Andra användarhanteringsåtgärder {#other-user-management-tasks}
 
@@ -129,6 +132,6 @@ Med början på skärmen Inställningar för användaradministration kan du äve
 
 **Redigera användarinformation** Ange uppdaterad information om en användare. Se Redigera användarinformation.
 
-**Skapa användardefinierade fält** Skapa anpassade, användardefinierade metadatafält som hjälper dig att ordna resurser i Scene7 Publishing System. Fälten kan också aktiveras eller inaktiveras vid behov.
+**Skapa användardefinierade fält** Skapa anpassade, användardefinierade metadatafält som hjälper dig att ordna resurser i Dynamic Media Classic. Fälten kan också aktiveras eller inaktiveras vid behov.
 
 Se [Användardefinierade fält](application-setup.md#user_defined_fields).
