@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1126'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ När du har hämtat, installerat och startat skrivbordsappen visas en uppdaterad
 
 >[!IMPORTANT]
 >
->Endast en instans av skrivbordsappen kan installeras och vara aktiv åt gången.
+>Det går bara att installera *och* aktivera en instans åt gången på en viss dator. Det finns dock ingen begränsning för hur många installationer du kan ha mellan olika datorer.
 
 ### **_Vad händer om jag använder Dynamic Media Classic-API:erna för att komma åt produkten och inte loggar in via webbgränssnittet?_**
 
