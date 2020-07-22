@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Hjälp för Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '736'
 ht-degree: 1%
 
 ---
@@ -26,12 +26,12 @@ ht-degree: 1%
    + [Nyheter](whats-new.md)
    + [Systemkrav](system-requirements.md)
    + [Support](support.md)
-   + [Hjälp för Dynamic Media Classic Media Portal](help-scene7-media-portal.md)
+   + [Hjälp för Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Populära resurser](popular-resources.md)
    + [Utbildningsvideor](training-videos.md)
 + Komma igång {#getting-started}
-   + [Adobe Dynamic Media Classic - översikt](scene7-platform-overview.md)
+   + [Adobe Dynamic Media Classic - översikt](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Logga in och ut](signing-out.md)
    + [Navigeringsgrunder](navigation-basics.md)
@@ -70,15 +70,15 @@ ht-degree: 1%
    + [Flytta, byta namn på och ta bort resurser](moving-renaming-deleting-assets.md)
    + [Arbeta i detaljvyn ](detail-view.md)
    + [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md)
-   + [Exportera resurser från Scene7 Publishing System](exporting-assets-scene7-publishing-system.md)
+   + [Exportera resurser från Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Dela resursändringar med kollegor i realtid](sharing-asset-changes-peers-real.md)
    + [Skriva ut resurser](printing-assets.md)
    + [Hantera papperskorgen](trash-folder.md)
    + [Organisera ditt arbete med projekt](organizing-projects.md)
 + Bildstorlek {#image-sizing}
    + [Snabbstart: Bildstorlek](quick-start-image-sizing.md)
-   + [Överför mallbilder](uploading-master-images.md)
-   + [Publicera mallbilder](publishing-master-images.md)
+   + [Överför överordnad bilder](uploading-master-images.md)
+   + [Publicera överordnad bilder](publishing-master-images.md)
    + [Konfigurera bildförinställningar](setting-image-presets.md)
    + [Länka URL:er till webbprogrammet](linking-urls-web-application.md)
 + Zooma {#zoom}
@@ -146,7 +146,7 @@ ht-degree: 1%
    + [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md)
    + [Länka en uppsättning med blandade media till en webbsida](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation Kit {#analytics-kit}
-   + [Snabbstart: Integrera Dynamic Media Classic med Adobe Analytics](quick-start-integrating-scene7-analytics.md)
+   + [Snabbstart: Integrera Dynamic Media Classic med Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Logga in på Adobe Analytics](log-analytics.md)
    + [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md)
    + [Instrumentera ett visningsprogram med Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,17 +154,17 @@ ht-degree: 1%
    + [Testa integrationen genom att visa en Adobe Analytics-rapport](testing-integration-viewing-analytics-report.md)
    + [Aktivera videorapporter för Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicera konfigurationsinformation för Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integrering med Target Classic {#target-classic}
-   + [Snabbstart: Integrering med Target Classic](quick-start-target-classic-integration.md)
-   + [Integrera Adobe Dynamic Media Classic med Adobe Target Classic](integrating-scene7-target-classic.md)
++ Integrering av Target Standard/premium {#target-classic}
+   + [Snabbstart: Integrering av Target Standard/premium](quick-start-target-integration.md)
+   + [Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Skapa en erbjudandeuppsättning](creating-offer-set.md)
-   + [Paketerbjudanden skickas till Adobe Target Classic](pushing-offer-sets-target-classic.md)
+   + [Paketera erbjudanden för Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Användargenererat innehåll {#user-generated-content}
    + [Om användargenererat innehåll](about-ugc.md)
    + [Ta bort en överförd resurs](deleting-uploaded-asset.md)
    + [Hämta information om diskanvändning](getting-disk-usage-information.md)
    + [Överföra en bildresurs eller en vektorresurs](uploading-image-asset-or-vector.md)
-+ Huvudfiler {#master-files}
++ Överordnad filer {#master-files}
    + [Bästa tillvägagångssätt för att optimera bildkvaliteten](best-practices-optimizing-quality-images.md)
    + [Redigera bilder](editing-images.md)
    + [Skapa bildscheman](creating-image-maps.md)
