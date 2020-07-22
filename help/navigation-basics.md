@@ -6,18 +6,21 @@ seo-description: Läs om hur du navigerar i användargränssnittet i Dynamic Med
 uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 0%
 
 ---
 
 
 # Navigeringsgrunder{#navigation-basics}
 
-Scene7 Publishing System-skärmen innehåller tre huvudområden: Global Navigation bar, Asset Library, and Browse Panel/Build Panel.
+Skärmen Dynamic Media Classic innehåller tre huvudområden: Global Navigation bar, Asset Library, and Browse Panel/Build Panel.
 
 ![Navigeringsgrunder](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -27,11 +30,11 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 **Välj Företag** Välj det företag du vill få åtkomst till på menyn. Den här knappen är inte tillgänglig om du arbetar med ett företag.
 
-**Överför** Öppnar skärmen Överför så att du kan överföra filer från datorn eller nätverket till SPS. Du kan överföra filer från skrivbordet eller via FTP. Se Överföra filer.
+**Överför** Öppnar skärmen Överför så att du kan överföra filer från datorn eller nätverket till Dynamic Media Classic. Du kan överföra filer från skrivbordet eller via FTP. Se Överföra filer.
 
 **Skapa** Välj en byggåtgärd på menyn. Panelen Skapa öppnas så att du kan skapa en resurstyp.
 
-**Publicera** Öppnar publiceringsskärmen så att du kan publicera mediefiler till dynamiska mediabildsservrar och resten av Dynamic Media Classic SAAS-infrastrukturen. Se Publicera.
+**Publicera** Öppnar publiceringsskärmen så att du kan publicera mediefiler till Dynamic Media Image Servers och resten av Dynamic Media Classic SAAS Infrastructure. Se Publicera.
 
 **Jobb** Öppnar skärmen Jobb så att du kan undersöka poster för överförings- och publiceringsjobb.
 
@@ -51,7 +54,7 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 **Hjälp > Support** Anger hur du får teknisk support från Dynamic Media Classic.
 
-**Logga ut** avslutar Scene7 Publishing System.
+**Logga ut** avslutar Dynamic Media Classic.
 
 ## Resursbibliotek {#asset-library}
 
