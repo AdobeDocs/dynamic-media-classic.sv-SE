@@ -6,20 +6,23 @@ seo-description: Lär dig hur du länkar en mall till en webbsida.
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 0%
 
 ---
 
 
 # Länka en mall till en webbsida{#linking-a-template-to-a-web-page}
 
-Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Image Server via URL-strängar. När du har publicerat en mall aktiverar Dynamic Media Classic en URL-sträng som refererar till mallen på dynamiska mediabildsservrar. Du kan klistra in den här URL:en i en webbläsare för testning.
+Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en mall aktiverar Dynamic Media Classic en URL-sträng som refererar till mallen på Dynamic Media-bildservrar. Du kan klistra in den här URL:en i en webbläsare för testning.
 
-Om du vill placera URL-strängar på webbsidor och i program kopierar du dem från Scene7 Publishing System. Om du vill hämta en mall-URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn). Välj sedan en bildförinställning och klicka på knappen Kopiera URL.
+Om du vill placera URL-strängar på webbsidor och i program kopierar du dem från Dynamic Media Classic. Om du vill hämta en mall-URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn). Välj sedan en bildförinställning och klicka på knappen Kopiera URL.
 
 >[!NOTE]
 >
@@ -35,7 +38,7 @@ Du kan hämta en mall-URL-sträng som genereras av en bildförinställning från
 
 ## Lägga till URL-adresser för mallar på webbsidan {#adding-template-urls-to-your-web-page}
 
-Om du vill lägga till en mall på en webbsida ska du rådfråga webbsidans utvecklingsteam för att ändra taggen i HTML-webbsidans kod med hjälp av URL-strängen för Dynamic Media Classic och göra en förfrågan till Dynamic Media Image-servrar. `<IMG>` Handelsmotorn eller den dynamiska webbsideskoden infogar mallbilden med den storlek och formateringsspecifikation som definieras av den bildförinställning som du väljer för mallen.
+Om du vill lägga till en mall på en webbsida ska du rådfråga webbsidans utvecklingsteam och ändra taggen i HTML-webbsideskoden med hjälp av URL-strängen för Dynamic Media Classic för att göra en begäran till Dynamic Media-bildservrar. `<IMG>` Handelsmotorn eller den dynamiska webbsideskoden infogar mallbilden med den storlek och formateringsspecifikation som definieras av den bildförinställning som du väljer för mallen.
 
 >[!MORELIKETHIS]
 >
