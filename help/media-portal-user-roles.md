@@ -6,11 +6,14 @@ seo-description: Lär dig mer om de olika användarroller som finns i Media Port
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +38,7 @@ I den här tabellen beskrivs de uppgifter som användare med olika roller kan ut
 | Bläddra bland metadata | X | X | X |
 | Förhandsgranska filer | X | X | X |
 | Sök efter filer | X | X | X |
-| Överför filer till Scene7 Publishing System |  | X | X |
+| Överför filer till Dynamic Media Classic |  | X | X |
 | Redigera och importera metadata för resurser |  | X | X |
 | Skapa, byta namn på och ta bort mappar |  | X | X |
 | Exportera metadata för resurser | X |  | X |
@@ -43,4 +46,4 @@ I den här tabellen beskrivs de uppgifter som användare med olika roller kan ut
 | Flytta filer till olika mappar |  | X | X |
 | Byt namn på filer |  | X | X |
 | Ta bort filer |  | X | X |
-| Exportera (hämta) filer från SPS | X |  | X |
+| Exportera (hämta) filer från Dynamic Media Classic | X |  | X |
