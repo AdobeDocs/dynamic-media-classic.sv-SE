@@ -6,11 +6,14 @@ seo-description: Lär dig hur du skapar en färgruteuppsättning.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,10 @@ Anta till exempel att du vill visa bilder med olika färgskalor; räkningarna ä
 ## Skapa en färgruteuppsättning {#create}
 
 När du skapar en uppsättning påverkar alternativet **Publicera efter spara** den och anger medlemmar på följande sätt:
-| Alternativet Publicera efter spara markerat innan du sparar?|Status för uppsättning efter att du sparat|Status för inställningsmedlemmar efter att du sparat||—|—|—||Ja|Publicerad|Publicerad||Ingen|Opublicerad|Ange medlemmar som behåller sitt publicerade eller opublicerade tillstånd.|
+| Alternativet Publicera efter spara markerat innan du sparar?|Status för uppsättning efter att du sparat|Status för inställningsmedlemmar efter att du sparat|
+|— |— |— |
+|Ja|Publicerad|Publicerad|
+|Ingen|Opublicerad|Ange medlemmar som behåller sitt publicerade eller opublicerade tillstånd.|
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
 
