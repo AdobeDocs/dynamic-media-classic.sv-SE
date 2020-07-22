@@ -6,10 +6,10 @@ seo-description: Läs mer om vilka utvecklarresurser som är tillgängliga för 
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 6%
@@ -19,14 +19,14 @@ ht-degree: 6%
 
 # Resurser för utvecklare{#developer-resources}
 
-I Dynamic Media Classic finns dokumentation om den senaste större versionen av respektive Dynamic Media Classic-programmodul. Moduldokument är tillgängliga för bildredigering, Scene7 Publishing System, Image Server och Image Rendering samt visningsprogram.
+I Dynamic Media Classic finns dokumentation om den senaste större versionen av respektive Dynamic Media Classic-programmodul. Moduldokument är tillgängliga för Image Authoring, Dynamic Media Classic, Image Server och Image Rendering samt Viewers.
 
 Versionsinformation finns också för vissa moduler. Versionsinformation innehåller information om releasen, inklusive förbättringar, ny funktionalitet, tips, felsökningsråd och kända problem. Versionsinformationen innehåller även interaktiva exempel på multimediefunktioner och hur du aktiverar dem. Versionsinformationen innehåller dessutom installations- och konfigureringsinstruktioner för klienter med licensierad programvara.
 
 Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och utnyttja multimedia i Dynamic Media Classic ytterligare för en webbplats eller ett anpassat program kan använda dessa guider. Dynamic Media Classic förutsätter att läsaren känner till datorprogrammet, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
 
 
-**Scene7 Publishing System API**
+**Dynamic Media Classic API**
 
 | Dokument | Webbadress |
 |--- |--- |
