@@ -6,13 +6,13 @@ seo-description: Lär dig hur du länkar zoomningsvisningsprogram till webbsidor
 uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Länka zoomningsvisningsprogram till webbsidor{#linking-zoom-viewers-to-your-web-pages}
 
-Dina webbplatser och program har tillgång till Dynamic Media Image Server-innehåll, inklusive mallbilder och associerade zoommål, och förinställningar för Zoom Viewer, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Scene7 Publishing System.
+Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive överordnad bilder och associerade zoommål, och förinställningar för Zoom Viewer, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic.
 
 >[!NOTE]
 >
