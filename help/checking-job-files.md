@@ -6,18 +6,21 @@ seo-description: Lär dig hur du kontrollerar jobbfiler.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1602'
+ht-degree: 0%
 
 ---
 
 
 # Kontrollerar jobbfiler{#checking-job-files}
 
-För att övervaka filöverföringar till Scene7 Publishing System och filer som du publicerar på Dynamic Media Classic-servrar, erbjuder SPS sidan Jobs. Du kan granska överförings- och publiceringsjobb på jobbsidan, kontrollera status för jobb och avbryta publiceringsjobb från den här sidan. Du kan också schemalägga överförings- och publiceringsjobb.
+För att övervaka filöverföringar till Dynamic Media Classic och filer som du publicerar på Dynamic Media Classic-servrar finns det en jobbsida i Dynamic Media Classic. Du kan granska överförings- och publiceringsjobb på jobbsidan, kontrollera status för jobb och avbryta publiceringsjobb från den här sidan. Du kan också schemalägga överförings- och publiceringsjobb.
 
 När du överför resurser visas en snurrande ikon bredvid menyn Jobb, som anger att ett jobb pågår och hur många filer som bearbetas. Du kan klicka på ikonen om du vill visa mer information om det aktiva jobbet.
 
@@ -67,7 +70,7 @@ Använd följande tekniker för att sortera jobb eller ändra vyn på fliken His
 
 ## Visa, kopiera eller skriva ut en jobbdetaljrapport {#viewing-copying-or-printing-a-job-details-report}
 
-Dubbelklicka på namnet på en rapport på jobbsidan för att öppna sidan Jobbdetaljer. Den här sidan innehåller en sammanfattningsrapport om filerna i jobbet. Klicka på Visa detalj om du vill visa en posts SPS-ID, målsökväg och statusinformation. Om du överförde en PDF- eller PostScript-fil som kräver teckensnitt som inte är tillgängliga i SPS visas de saknade teckensnitten i rapporten.
+Dubbelklicka på namnet på en rapport på jobbsidan för att öppna sidan Jobbdetaljer. Den här sidan innehåller en sammanfattningsrapport om filerna i jobbet. Klicka på Visa detalj om du vill visa en posts Dynamic Media Classic ID, målsökväg och statusinformation. Om du överförde en PDF- eller PostScript-fil som kräver teckensnitt som inte är tillgängliga i Dynamic Media Classic visas de saknade teckensnitten i rapporten.
 
 Du kan kopiera den här informationen till Urklipp.
 
