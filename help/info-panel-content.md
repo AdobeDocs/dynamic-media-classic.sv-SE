@@ -6,11 +6,14 @@ seo-description: Lär dig hur du hanterar innehåll i panelen Info i e-kataloger
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 Förutom att använda bildschematext för överrullningar i e-kataloger kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
 
-Du kan hantera inställningar och data för InfoPanel med följande funktioner i Dynamic Media Classic:
+Du kan hantera InfoPanel-inställningarna och data med följande funktioner i Dynamic Media Classic:
 
 * I inställningspanelen i InfoPanel kan du ange vilken mall som ska användas för att visa Info-paneltexten, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om e-kataloger ska publiceras automatiskt.
 * Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i InfoPanel-överrullningstexten, samt schemaläggningstider för uppdatering av informationen.
@@ -87,7 +90,7 @@ Last Modified Date:
 1. Klicka på **Bläddra**, markera den tabbavgränsade TXT-, CSV- eller SSV-fil som du vill använda och klicka på **Öppna**.
 1. Klicka på **Överför**.
 
-Dynamic Media Classic skickar ett e-postmeddelande till dig som talar om huruvida överföringen lyckades eller inte.
+Dynamic Media Classic skickar ett e-postmeddelande till dig med information om överföringen lyckades eller inte.
 
 ## Förhandsgranska överrullningsnyckeltext för en bildschema {#preview-rollover-key-text-for-an-image-map}
 
