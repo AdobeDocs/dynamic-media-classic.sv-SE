@@ -6,11 +6,14 @@ seo-description: Lär dig justera en bild
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 0%
 
 ---
 
@@ -38,29 +41,29 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
       Välj **Ersätt original** i listrutan och klicka sedan på **Spara**.
 
-   * Om du vill spara bilden som en ny huvudbild klickar du på **Spara som**.
+   * Om du vill spara bilden som en ny överordnad bild klickar du på **Spara som**.
 
-      Välj **Spara som ny mall** i listrutan.
+      I listrutan väljer du **Spara som ny överordnad**.
 
-      I listrutan **Mappnamn** väljer du den mapp där du vill att den nya huvudbilden ska sparas.
+      I listrutan **Mappnamn** väljer du den mapp där du vill att den nya överordnad bilden ska sparas.
 
       Klicka på **Spara**.
 
-   * Om du vill spara bilden som en extra vy av huvudbilden. du kan skapa ett alias för det. Klicka på **Spara som**.
+   * Spara bilden som en extra vy av den överordnad bilden. du kan skapa ett alias för det. Klicka på **Spara som**.
 
-      I dialogrutan **Spara som** klickar du i listrutan på **Spara som ytterligare mallvy**.
+      I dialogrutan **Spara som** klickar du i listrutan på **Spara som ytterligare vy av överordnad**.
 
-      I listrutan **Mappnamn** väljer du den mapp där du vill att den nya huvudbilden ska sparas.
+      I listrutan **Mappnamn** väljer du den mapp där du vill att den nya överordnad bilden ska sparas.
 
       Klicka på **Spara**.
 
 ## Skapa ett alias för en bild {#creating-an-alias-for-an-image}
 
-När du har justerat en bild kanske du vill spara den som en extra vy av huvudbilden. Om du vill göra det kan du skapa ett alias för bilden genom att använda **Spara som ytterligare vy av mallfunktionen** .
+När du har justerat en bild kanske du vill spara den som en extra vy av den överordnad bilden. Om du vill göra det kan du skapa ett alias för bilden genom att använda **Spara som-extra vy av den överordnad** funktionen.
 
 1. I Stödrastervisning eller listvy klickar du på **Justera** i listrutan **Redigera** bredvid en bild som du vill skapa ett alias för.
 1. In the lower-right corner of the page, click **Save As**.
-1. I dialogrutan **Spara som** klickar du i listrutan på **Spara som tilläggsvy av mallsida**.
+1. I dialogrutan **Spara som** klickar du i listrutan på **Spara som tilläggsvy av överordnad**.
 1. I listrutan **Mappnamn** väljer du den mapp där du vill spara den utjämnade bilden.
 1. I fältet **Filnamn** skriver du namnet som du vill använda för aliaset.
 1. Klicka på **Spara**.
