@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f541bf3a6f364029df868215953b14c15ae474c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Den nya appen finns nu för Windows och macOS.
 
 >[!IMPORTANT]
 >
->Vi rekommenderar att du installerar nya Adobe Dynamic Media Classic senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player är inaktuellt den 31 december 2020. På den tiden kommer du inte längre att kunna logga in på webbläsarversionen av Adobe Dynamic Media Classic-användargränssnittet, som heter Scene7 Publishing System i produkten.
+>Vi rekommenderar att du installerar nya Adobe Dynamic Media Classic senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player är inaktuellt den 31 december 2020. På den tiden kommer du inte längre att kunna logga in på webbläsarversionen av Adobe Dynamic Media Classic-användargränssnittet, som heter Dynamic Media Classic i produkten.
 
 Se Vanliga frågor och svar om inloggningen med [nya Dynamic Media Classic.](/help/new-ui-2020.md)
 
