@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Hjälp för Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '737'
 ht-degree: 1%
 
 ---
@@ -154,9 +154,9 @@ ht-degree: 1%
    + [Testa integrationen genom att visa en Adobe Analytics-rapport](testing-integration-viewing-analytics-report.md)
    + [Aktivera videorapporter för Adobe Analytics](enabling-analytics-video-reports.md)
    + [Publicera konfigurationsinformation för Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integrering av Target Standard/premium {#target-classic}
-   + [Snabbstart: Integrering av Target Standard/premium](quick-start-target-integration.md)
-   + [Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md)
++ Integrering mellan Adobe Target Standard och Premium {#target-classic}
+   + [Snabbstart: Integrering mellan Adobe Target Standard och Premium](quick-start-target-integration.md)
+   + [Integrera Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Skapa en erbjudandeuppsättning](creating-offer-set.md)
    + [Paketera erbjudanden för Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Användargenererat innehåll {#user-generated-content}
