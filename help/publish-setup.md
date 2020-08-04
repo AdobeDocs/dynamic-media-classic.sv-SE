@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Bildserverskärmen används för att ange standardinställningar för att levere
 
 **Kataloghantering** De här inställningarna avgör hur Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista över allt innehåll som publiceras till bildservern tillsammans med sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
 
-**Attribut** för begäran Dessa inställningar begränsar antalet bilder som kan levereras från servern.
+**Attribut** för begäran Dessa inställningar begränsar antalet bilder som kan levereras från servern. Det *högsta* värdet **[!UICONTROL Reply Image Size Limit]** är till exempel **[!UICONTROL Width]** 5 000 och **[!UICONTROL Height]** 5 000.
 
 **Standardattribut** för begäran De här inställningarna gäller standardutseendet för bilder.
 
@@ -54,7 +54,7 @@ Bildserverskärmen används för att ange standardinställningar för att levere
 Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning genom att lägga till de översatta textsträngarna för det språk du vill använda.
 
 >[!NOTE]
-> Om du vill ange alternativ för lokaliseringssupport kontaktar du Adobe Dynamic Media Classic Technical Support eller skickar ett e-postmeddelande till s7support@adobe.com där du kan få hjälp med installationen.
+> Kontakta Adobe Dynamic Media Classic Technical Support eller skicka ett e-postmeddelande till s7support@adobe.com där du behöver hjälp med installationen för att ställa in alternativ för lokaliseringsstöd.
 
 Mer information om hur du konfigurerar **lokaliseringsstöd** finns i [Saker att tänka på när du konfigurerar lokalisering av resurser](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,7 +62,7 @@ Mer information om hur du konfigurerar **lokaliseringsstöd** finns i [Saker att
 
 >[!NOTE]
 >
->Om du vill ställa in alternativ för lokaliseringsstöd i Dynamic Media Classic, till exempel fältet för språkområdet, kontaktar du Adobe Dynamic Media Classic Technical Support. Du kan också skicka ett e-postmeddelande till s7support@adobe.com som begär installationshjälp.
+>Om du vill ställa in alternativ för lokaliseringsstöd i Dynamic Media Classic, till exempel fältet för språkinställningar, kontaktar du Adobe Dynamic Media Classic Technical Support. Du kan också skicka ett e-postmeddelande till s7support@adobe.com och begära installationshjälp.
 
 Ett vanligt sätt att använda Dynamic Media Classic är att hantera produktbilder på e-handelswebbplatser. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast är skillnaderna för en mycket liten del av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över bara skillnaderna är en stor insats och motsäger den enda överordnad tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. I Dynamic Media Classic används en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
 
