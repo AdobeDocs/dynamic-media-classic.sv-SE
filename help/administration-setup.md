@@ -2,16 +2,16 @@
 title: Administrationsinställningar
 seo-title: Administrationsinställningar
 description: 'null'
-seo-description: Lär dig hur du ställer in administrationsområdet för Dynamic Media Classic.
+seo-description: Lär dig hur du ställer in administrationsdelen för Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 # Administrationsinställningar{#administration-setup}
 
-Administrationsinstallationsfönstren är avsedda för administration av Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Dynamic Media Classic och att kommunicera via e-post med användare.
+Administrationsinstallationsfönstren används för att administrera Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Dynamic Media Classic och att kommunicera via e-post med användare.
 
 1. Om du vill visa alternativen för administrationsinställningar klickar du på **Inställningar** > **Personliga inställningar** > **Administrationsinställningar**.
 
 ## Användaradministration {#user-administration}
 
-Alla Dynamic Media Classic-användare tilldelas en roll som avgör vilka behörigheter de har och vilka behörigheter de har för funktioner i Dynamic Media Classic. Administratörerna bestämmer vilka roller och ansvarsområden de har för de företag de är tilldelade.
+Alla Dynamic Media Classic-användare tilldelas en roll som bestämmer deras behörigheter och åtkomsträttigheter till funktioner i Dynamic Media Classic. Administratörerna bestämmer vilka roller och ansvarsområden de har för de företag de är tilldelade.
 
-Vanligtvis konfigurerar Dynamic Media Classic den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören ställer sedan in och administrerar Dynamic Media Classic-användare.
+Dynamic Media Classic konfigurerar vanligtvis den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören ställer sedan in och administrerar Dynamic Media Classic-användare.
 
 Dynamic Media Classic har stöd för flera användarroller. De här rollerna har åtkomst till företag som har konfigurerats för Dynamic Media Classic:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic-användare** har åtkomst till företag som de har tilldelats, kan inte utföra några administrativa uppgifter.
+**Adobe Dynamic Media Classic-användare** har tillgång till företag som de har tilldelats. kan inte utföra några administrativa uppgifter.
 
-**Adobe Dynamic Media Classic Company Admin** Kan endast visa och administrera egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
+**Adobe Dynamic Media Classic Company Admin** kan endast visa och administrera egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
 
 När du har lagt till en användare skickar Dynamic Media Classic ett välkomstmeddelande till användaren. Meddelandet innehåller ett lösenord och Dynamic Media Classic-URL:en.
 
@@ -61,11 +61,11 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
    När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Klicka på Lägg till om du vill lägga till användaren i ett företag.
 
-   Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in i Dynamic Media Classic.
+   Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in på Dynamic Media Classic.
 
    Nya användare får ett välkomstmeddelande när du har lagt till dem. E-postmeddelandet innehåller ett tillfälligt lösenord och förklarar hur du loggar in på Scene 7 Publishing System.
 
-   Om användaren inte får något välkomstmeddelande går du till inloggningssidan för Dynamic Media Classic (https://s7sps1.scene7.com) och klickar på Har du glömt mitt lösenord. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
+   Om användaren inte får något välkomstmeddelande via e-post kan du be användaren att gå till inloggningssidan för Dynamic Media Classic (https://s7sps1.scene7.com) och klicka på Har du glömt mitt lösenord. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
 
    När du lägger till nya Media Portal-användare kan du även gå till Inställningar > Programinställningar > Användaradministration, klicka på Överför användarlista och välja en CSV-fil som inte innehåller fler än 500 användare.
 
@@ -114,36 +114,37 @@ Du kan använda följande filtertekniker för användarlistor:
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
-### Länka en IMS-användaridentitet till ett Dynamic Media Classic IPS-användarkonto {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-Du kan länka en Adobe IMS-användaridentitet till ett Dynamic Media Classic IPS-användarkonto så att du kan använda enkel inloggning (Single Sign On) för att logga in och starta Scene7 Publishing System inifrån Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
-1. Adobe bör redan ha konfigurerat ditt konto hos en Adobe Marketing Cloud-organisation och länkat det till produktsammanhanget för Scene7 Publishing System. Om installationen inte är klar än eller om du är osäker på om den är klar kontaktar du Adobes kundtjänst.
+1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   När installationen är klar kan du logga in på Adobe Marketing Cloud och länka din Adobe Marketing Cloud-identitet till ditt Dynamic Media Classic-användarkonto genom att göra följande.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
-1. Gå till dina kontoinställningar i Adobe Marketing Cloud.
-1. Klicka på **Hantera organisationer**.
-1. Klicka på **Länka konto** eller **Få åtkomst**.
-1. Markera **Experience Manager** och ange dina uppgifter.
+1. In Adobe Marketing Cloud, navigate to your account settings.
+1. Click **Manage Organizations**.
+1. Click **Link Account** or **Get Access**.
+1. Select **Experience Manager**, and then type your credentials.
 
-   Dina autentiseringsuppgifter inkluderar din region för IPS-företaget, e-postadress och lösenord.
+   Your credentials include your IPS company region, email address, and password.
 
-1. Klicka på **Länka**.
-1. När länken är angiven kan du starta Scene7 Publishing System inifrån Adobe Marketing Cloud eller starta det direkt.
+1. Click **Link**.
+1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
-   Gör något av följande:
+   Do one of the following:
 
-   * Om du vill starta Dynamic Media Classic inifrån Adobe Marketing Cloud klickar du på **Lösningar** > **Experience Manager i den vänstra listen i Adobe Marketing Cloud**. Klicka på **Starta** under Dynamic Media Classic-kortet.
-   * Om du vill logga in på Scene7 Publishing System direkt med dina IMS-inloggningsuppgifter använder du följande webbplats:
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Ersätt&quot;N&quot; i ovanstående sökväg med numret för IPS-företagsregionen. Det vill säga N = 1 för Nordamerika, 3 för EMEA, eller 5 för JAPAC.
+      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+ -->
 
 ## Bandbredd och lagring {#bandwidth-storage}
 
-Dynamic Media Classic-administratörer kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna är tillgängliga på skärmen Bandbredd och lagring.
+Administratörer för Dynamic Media Classic kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna är tillgängliga på skärmen Bandbredd och lagring.
 
 Om du vill öppna den här skärmen klickar du på Inställningar > Personliga inställningar. Expandera Administrationsinställningar och klicka sedan på Bandbredd och lagring.
 
@@ -156,7 +157,7 @@ I följande tabell beskrivs rapporter som du kan generera från skärmen Bandbre
 | Bandbredd | Bandbreddsanvändning | Spåra bandbreddsanvändning per företag över specifika datumintervall för att fastställa trafikmönster. |
 | Lagring | Lagringsanvändning | Spåra mängden data som överförts av företaget. |
 | Bildinnehåll | Antalet bildbegäranden per typ | Spåra antalet begäranden och volymer för olika bildtyper. |
-| Domän | Antalet URL-begäranden per domän | Spåra bildanvändningen baserat på domänen för bildbegäran för ett visst företag. (Dynamic Media Classic kan innehålla mer än en domän per konto. Kontakta teknisk support om du vill ha mer information.) |
+| Domän | Antalet URL-begäranden per domän | Spåra bildanvändningen baserat på domänen för bildbegäran för ett visst företag. (Dynamic Media Classic kan tillhandahålla mer än en domän per konto. Kontakta teknisk support om du vill ha mer information.) |
 | Videoströmning | Bandbreddsanvändning för direktuppspelad video | Spåra direktuppspelad videoanvändning efter företag över vissa datumintervall för att fastställa trafikmönster. |
 | Videoinnehåll | Spela upp tid för olika videoklipp | Avgör vilka som är de mest visade och minst visade videoklippen. |
 
@@ -169,7 +170,7 @@ Rapporten Bildinnehåll innehåller information om begäranden för följande bi
 
 **Maskbegäran** begär bilder som returnerar gråskalemasker.
 
-**Bildbegäranden** för visningsprogrammets panel läses in av ett visningsprogram.
+**Bildbegäranden** för visningsprogrammets paneler som läses in av ett visningsprogram.
 
 **Förfrågningar om bildåtergivning från Vnt-objekt** som returnerar en bild med angivna objekt i de begärda vinjetteringarna.
 
@@ -217,7 +218,7 @@ När du har genererat en rapport kan du exportera dess data för användning i k
 
 ## Bildfel {#image-errors}
 
-Dynamic Media Classic-administratörer kan generera bildfelsrapporter. En bildfelsrapport innehåller en lista med de 20 vanligaste bildfelen för det företag du är inloggad på under de senaste 24 timmarna. Följ de här stegen för att generera en bildfelsrapport:
+Administratörer för Dynamic Media Classic kan generera bildfelsrapporter. En bildfelsrapport innehåller en lista med de 20 vanligaste bildfelen för det företag du är inloggad på under de senaste 24 timmarna. Följ de här stegen för att generera en bildfelsrapport:
 
 1. Klicka på Inställningar > Personliga inställningar.
 1. Expandera Administrationsinställningar och klicka sedan på Bildfel.
