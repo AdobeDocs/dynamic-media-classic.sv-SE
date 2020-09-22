@@ -1,27 +1,27 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Hjälp för Dynamic Media Classic
+user-guide-title: Guide för Adobe Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
 
 
-# Hjälp för Dynamic Media Classic {#using}
+# Guide för Adobe Dynamic Media Classic {#using}
 
-+ [Dynamic Media Classic - startsida för dokumentation](home.md)
++ [Guide för Adobe Dynamic Media Classic](home.md)
 + [Självstudiekurs om bästa praxis](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NYTT Dynamic Media Classic-inloggningsgränssnittet är nu tillgängligt](new-ui-2020.md)
-+ [Dynamic Media Newsletter av Experience League](dynamic-media-newsletter.md)
++ [NYTT Dynamic Media Classic-inloggningsupplevelsen är nu tillgänglig](new-ui-2020.md)
++ [Dynamic Media Newsletter från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic-datorprogrammet - nu tillgängligt](dynamic-media-classic-desktop-app.md)
-   + [Om Hjälp för Dynamic Media Classic](introduction.md)
+   + [Om Dynamic Media Classic Help](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
    + [Systemkrav](system-requirements.md)
@@ -31,7 +31,7 @@ ht-degree: 1%
    + [Populära resurser](popular-resources.md)
    + [Utbildningsvideor](training-videos.md)
 + Komma igång {#getting-started}
-   + [Adobe Dynamic Media Classic - översikt](dmc-platform-overview.md)
+   + [Adobe Dynamic Media Classic - plattformsöversikt](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Logga in och ut](signing-out.md)
    + [Navigeringsgrunder](navigation-basics.md)
@@ -145,17 +145,17 @@ ht-degree: 1%
    + [Skapa en blandad medieuppsättning](creating-mixed-media-set.md)
    + [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md)
    + [Länka en uppsättning med blandade media till en webbsida](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentation Kit {#analytics-kit}
++ Adobe Analytics instrumentpaket {#analytics-kit}
    + [Snabbstart: Integrera Dynamic Media Classic med Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Logga in på Adobe Analytics](log-analytics.md)
    + [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md)
    + [Instrumentera ett visningsprogram med Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Inaktivera spårning av Adobe Analytics](disabling-analytics-tracking.md)
    + [Testa integrationen genom att visa en Adobe Analytics-rapport](testing-integration-viewing-analytics-report.md)
-   + [Aktivera videorapporter för Adobe Analytics](enabling-analytics-video-reports.md)
+   + [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md)
    + [Publicera konfigurationsinformation för Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integrering mellan Adobe Target Standard och Premium {#target-classic}
-   + [Snabbstart: Integrering mellan Adobe Target Standard och Premium](quick-start-target-integration.md)
++ Integrering med Adobe Target Standard/Premium {#target-classic}
+   + [Snabbstart: Integrering med Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integrera Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Skapa en erbjudandeuppsättning](creating-offer-set.md)
    + [Paketera erbjudanden för Adobe Target Standard/Premium](pushing-offer-sets-target.md)
