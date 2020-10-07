@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
 workflow-type: tm+mt
 source-wordcount: '1429'
 ht-degree: 0%
@@ -42,9 +42,13 @@ När du skapar en e-katalog kan du ordna sidorna eller uppslagen i den ordning d
 
 >[!NOTE]
 >
->Om du använder läget AEM-Dynamic Media - Scene7 och vill använda e-kataloger måste du redigera `pdfbrochure` värdet i CRXDE Lite. I AEM klickar du på **[!UICONTROL Tools > General > CRXDE Lite]**. Navigera till det vänstra panelnavigeringsträdet `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-Markera raden på den nedre högra panelen på **[!UICONTROL Properties]** fliken `jobParam` . Ange värdet för `pdfbrochure` från `false` till `true`. Klicka på `pdfbrochure=true`i det övre vänstra hörnet på CRXDE Lite-sidan **[!UICONTROL Save All]**.
-Nu kan du skapa e-kataloger i Dynamic Media Classic.
+>Om du använder läget AEM Dynamic Media - Scene7 och vill använda e-kataloger måste du redigera `pdfbrochure` värdet i CRXDE Lite. Om du vill göra det AEM du på **[!UICONTROL Tools > General > CRXDE Lite]**. Navigera till det vänstra panelnavigeringsträdet `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>
+>Markera raden på den nedre högra panelen på **[!UICONTROL Properties]** fliken `jobParam` . Ange värdet för `pdfbrochure` från `false` till `true`. Som i `pdfbrochure=true`
+>
+>Klicka på i det övre vänstra hörnet på CRXDE Lite-sidan **[!UICONTROL Save All]**.
+>
+>Nu kan du skapa e-kataloger i Dynamic Media Classic.
 
 **Snabbstart**
 
@@ -68,7 +72,7 @@ På fliken Ordna sidor väljer du en layoutknapp - 1 upp, 2 upp eller anpassad -
 
 Om du vill lägga till sidor markerar du en mapp i resursbiblioteket och drar PDF- eller bildfiler från till skärmen Ordna sidor. I stället för standardsidnummer kan du ange egna sidnamn eller importera ett stort antal sidnamn.
 
-Klicka **[!UICONTROL Save]**, ange ett namn för din e-katalog, välj en Dynamic Media Classic-mapp att lagra den i och klicka på **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att klicka **[!UICONTROL Save]**.
+Klicka **[!UICONTROL Save]**, ange ett namn för din e-katalog, välj en dynamisk Media Classic-mapp att lagra och klicka på **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att klicka **[!UICONTROL Save]**.
 
 Se [Skapa en e-katalog](creating-ecatalog.md).
 
@@ -90,7 +94,7 @@ Se [Hantera innehåll](info-panel-content.md#managing-info-panel-content)på inf
 
 **4. Konfigurera förinställningar för eCatalog Viewer**
 
-Slutanvändarna ser din eCatalog i eCatalog Viewer. Om du är administratör kan du konfigurera eCatalog Viewer. Du kan ändra dess konturfärg och välja ett nytt&quot;skal&quot; för att märka upp din eCatalog. I Dynamic Media Classic finns flera förinställningar för eCatalog Viewer. Du kan välja en av dessa förinställningar för att visa dina e-kataloger. Om du är administratör kan du även skapa en egen visningsförinställning för eCatalog.
+Slutanvändarna ser din eCatalog i eCatalog Viewer. Om du är administratör kan du konfigurera eCatalog Viewer. Du kan ändra dess konturfärg och välja ett nytt&quot;skal&quot; för att märka upp din eCatalog. Dynamic Media Classic innehåller flera förinställningar för eCatalog Viewer. Du kan välja en av dessa förinställningar för att visa dina e-kataloger. Om du är administratör kan du även skapa en egen visningsförinställning för eCatalog.
 
 Om du vill skapa en förinställning för eCatalog Viewer klickar du på **[!UICONTROL Setup]** och väljer **[!UICONTROL Viewer Presets]** i fältet Global navigering. Klicka sedan på **[!UICONTROL Add]**, välj en plattform och klicka sedan på **[!UICONTROL eCatalog > Viewer]**.
 
@@ -108,7 +112,7 @@ Se [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalo
 
 **6. Publicera e-katalog och tillhörande PDF-filer**
 
-När du publicerar din e-katalog och tillhörande PDF-filer placeras den på Dynamic Media Image Servers så att den kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängen för din eCatalog. Använd den här URL:en för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
+När du publicerar din e-katalog och tillhörande PDF-fil placeras den på dynamiska mediabaservrar så att den kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängen för din eCatalog. Använd den här URL:en för att anropa eCatalog från dynamiska mediabildsservrar till din webbplats eller ditt program.
 
 När du har markerat din e-katalog och PDF-fil för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att initiera en publicering. På skärmen Publicera klickar du på **[!UICONTROL Start Publish]**.
 
@@ -116,7 +120,7 @@ Se [Publicera e-kataloger och tillhörande PDF-filer](publishing-ecatalogs-assoc
 
 **7. Länka en e-katalog till en webbsida**
 
-Dynamic Media Classic aktiverar den URL-bildtextsträng som behövs för att visa din e-katalog när du publicerar den på Dynamic Media Image Servers. Du kan kopiera den här URL-strängen från förhandsgranskningsskärmen och panelen Bläddra (i detaljvyn) genom att välja URL-adresser i panelen. När du har kopierat URL-strängen är den tillgänglig för dina webbplatser och program.
+Dynamic Media Classic aktiverar den URL-bildtextsträng som krävs för att visa din e-katalog när du publicerar den på dynamiska mediabildsservrar. Du kan kopiera den här URL-strängen från förhandsgranskningsskärmen och panelen Bläddra (i detaljvyn) genom att välja URL-adresser i panelen. När du har kopierat URL-strängen är den tillgänglig för dina webbplatser och program.
 
 Samarbeta med IT-avdelningen och placera länken till e-katalogen på rätt plats på din webbsida. När användarna klickar på länken visas eCatalog Viewer och användarna kan bläddra i din eCatalog.
 
