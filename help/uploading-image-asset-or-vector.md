@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1536'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Innan du kan överföra en bildresurs måste du först begära en delad hemlig n
 
 ## Begär en delad hemlig nyckel {#requesting-a-shared-secret-key}
 
-Begär en *delad hemlig nyckel* genom att skicka ett e-postmeddelande till Scene 7 Technical Support på s7support@adobe.com.
+Begär en *delad hemlig nyckel* genom att [använda Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Begär en delad hemlig nyckel i ditt supportfall.
 
 I e-postmeddelandet anger du det företagsnamn som du vill använda för att överföra bildresurser. När du har fått nyckeln från Dynamic Media Classic sparar du den lokalt för framtida bruk.
 
@@ -84,7 +84,7 @@ Du kan använda följande fält i fråge-URL-strängen för att hämta en överf
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**Tillåtna HTTP-metoder:** GET OCH POST
+**Tillåtna HTTP-metoder:** GET och POST
 
 Du kan nu överföra en bildresurs.
 
@@ -145,7 +145,7 @@ Du kan visa HTML-källkoden som är kopplad till formuläret ovan genom att klic
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-I Firefox högerklickar du i webbläsarfönstret och klickar sedan på **Visa sidkälla**. Koden visar motsvarande URL-frågesträng och POST-metoden som körs när användaren klickar på **Skicka**.
+I Firefox högerklickar du i webbläsarfönstret och klickar sedan på **Visa sidkälla**. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **Skicka**.
 
 Om du vill visa XML-svaret i Internet Explorer klickar du på **Visa > Källa**. Om du vill visa XML-svar i Firefox klickar du på **Verktyg > Webbutvecklare > Sidkälla**. Firefox rekommenderas för visning av XML-svar.
 
@@ -190,12 +190,12 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 | company_name | Obligatoriskt | Namnet på det företag som utför överföringen. |
 | file_limit | Valfritt | Filstorleksgräns, i byte, för resursen. |
 | file_exts | Valfritt | Lista över tillåtna tillägg för bildresursfilen. |
-| preserve_colorprofile | Valfritt | Bevarar inbäddad färgprofil när den överförda filen konverteras till PTIFF-format. Möjliga värden är true eller false. Standardvärdet är false. |
+| preserve_color_profile | Valfritt | Bevarar inbäddad färgprofil när den överförda filen konverteras till PTIFF-format. Möjliga värden är true eller false. Standardvärdet är false. |
 | preserve_filename | Valfritt | Bevarar filnamnet för den överförda resursen. Möjliga värden är true eller false. Standardvärdet är false. |
 
 >[!NOTE]
 >
->Du måste skicka resursen som ska överföras som det enda fältet i en POST-begäran som består av flera delar.
+>Du måste skicka resursen som ska överföras som det enda fältet i en begäran om flera POSTER.
 
 **Exempel-URL:**
 
@@ -251,7 +251,7 @@ Du kan använda följande fält i URL-frågesträngen för att begära informati
 
 **Tillåten HTTP-metod:**
 
-GET OCH POST
+GET och POST
 
 ## Överföra en vektorresurs {#uploading-a-vector-asset}
 
@@ -304,7 +304,7 @@ Last Modified Date:
 
 ![]()
 
-Följande HTML-kod visas när du högerklickar i webbläsarfönstret och sedan klickar på **Visa källa** för formuläret som visas i bilden. Koden visar motsvarande URL-frågesträng och POST-metoden som körs när användaren klickar på **Skicka**.
+Följande HTML-kod visas när du högerklickar i webbläsarfönstret och sedan klickar på **Visa källa** för formuläret som visas i bilden. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **Skicka**.
 
 ```as3
 <body> 
@@ -386,7 +386,7 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 
 >[!NOTE]
 >
->Du måste skicka resursen som ska överföras som det enda fältet i en POST-begäran som består av flera delar.
+>Du måste skicka resursen som ska överföras som det enda fältet i en begäran om flera POSTER.
 
 **Exempel-URL:**
 
