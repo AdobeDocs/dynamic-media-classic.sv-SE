@@ -2,16 +2,16 @@
 title: Publiceringsinställningar
 seo-title: Publiceringsinställningar
 description: 'null'
-seo-description: Inställningarna på skärmen Publiceringsinställningar avgör hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program.
+seo-description: Inställningarna på skärmen Publiceringsinställningar avgör hur resurser levereras som standard från dynamiska Media Classic-servrar till webbplatser eller program.
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Publiceringsinställningar {#publish-setup}
 
-Inställningarna på skärmen Publiceringsinställningar avgör hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program. Om ingen inställning har angetts levererar Dynamic Media Classic-servern en resurs enligt standardinställningen på en publiceringsinställningsskärm. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på skärmen Bildserver.
+Inställningarna på skärmen Publiceringsinställningar avgör hur resurser levereras som standard från dynamiska Media Classic-servrar till webbplatser eller program. Om ingen inställning har angetts levererar Dynamic Media Classic-servern en resurs enligt en standardinställning på en publiceringsinställningsskärm. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på skärmen Bildserver.
 
 Administratörer kan ändra standardinställningarna på bildservern, bildåtergivningen och vinjettskärmarna för att ange standardinställningar för att leverera resurser från servrar.
 
@@ -31,11 +31,11 @@ Om du vill öppna publiceringsinställningarna klickar du på Inställningar > P
 
 ## Bildserver {#image-server}
 
-Bildserverskärmen används för att ange standardinställningar för att leverera bilder från bildservrar. Inställningarna är tillgängliga i dessa fem kategorier (mer information om inställningarna finns på skärmen Image Server).
+Bildserverskärmen anger standardinställningar för att leverera bilder från bildservrar. Inställningarna är tillgängliga i dessa fem kategorier (mer information om inställningarna finns på skärmen Image Server).
 
-Ändra bara de här inställningarna med hjälp av en Dynamic Media Classic-supportperson.
+Ändra dessa inställningar endast med hjälp av en supporttekniker för Dynamic Media Classic.
 
-**Kataloghantering** De här inställningarna avgör hur Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista över allt innehåll som publiceras till bildservern tillsammans med sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
+**Kataloghantering** Dessa inställningar avgör hur Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista över allt innehåll som publiceras till bildservern tillsammans med sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
 
 **Attribut** för begäran Dessa inställningar begränsar antalet bilder som kan levereras från servern. Det *högsta* värdet **[!UICONTROL Reply Image Size Limit]** är till exempel **[!UICONTROL Width]** 5 000 och **[!UICONTROL Height]** 5 000.
 
@@ -54,7 +54,7 @@ Bildserverskärmen används för att ange standardinställningar för att levere
 Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning genom att lägga till de översatta textsträngarna för det språk du vill använda.
 
 >[!NOTE]
-> Kontakta Adobe Dynamic Media Classic Technical Support eller skicka ett e-postmeddelande till s7support@adobe.com där du behöver hjälp med installationen för att ställa in alternativ för lokaliseringsstöd.
+> Om du vill ange alternativ för lokaliseringsstöd [använder du Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) I ditt supportärende, begär du hjälp med konfiguration.
 
 Mer information om hur du konfigurerar **lokaliseringsstöd** finns i [Saker att tänka på när du konfigurerar lokalisering av resurser](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -62,9 +62,9 @@ Mer information om hur du konfigurerar **lokaliseringsstöd** finns i [Saker att
 
 >[!NOTE]
 >
->Om du vill ställa in alternativ för lokaliseringsstöd i Dynamic Media Classic, till exempel fältet för språkinställningar, kontaktar du Adobe Dynamic Media Classic Technical Support. Du kan också skicka ett e-postmeddelande till s7support@adobe.com och begära installationshjälp.
+>Om du vill ställa in alternativ för lokaliseringsstöd i Dynamic Media Classic, till exempel fältet för språkinställningar, [använder du Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) I ditt supportärende, begär du hjälp med konfiguration.
 
-Ett vanligt sätt att använda Dynamic Media Classic är att hantera produktbilder på e-handelswebbplatser. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast är skillnaderna för en mycket liten del av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över bara skillnaderna är en stor insats och motsäger den enda överordnad tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. I Dynamic Media Classic används en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
+Ett vanligt sätt att använda Dynamic Media Classic är att hantera produktbilder på webbplatser för e-handel. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast är skillnaderna för en mycket liten del av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över bara skillnaderna är en stor insats och motsäger den enda överordnad tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
 
 **Hur resurser lokaliseras**
 
@@ -120,7 +120,7 @@ Om ett suffixvärde eller ett ersättningsvärde används beror på inställning
 
 >[!NOTE]
 >
->Inställningen Global Locale är för närvarande bara möjlig om du anger den via API:t, inte i Dynamic Media Classic-gränssnittet.
+>Inställningen Global Locale är för närvarande bara möjlig när du anger den via API:t, inte i gränssnittet Dynamic Media Classic.
 
 **Exempel på suffix**
 
@@ -140,7 +140,7 @@ Om en okänd eller tom språkområdesparameter anges `locale=`skannas localeMap 
 
 **Om defaultImage**
 
-Bildservern försöker att välja det begärda språket, det ena efter det andra. Om ingen matchning hittas används språkalternativen för defaultImage och den matchande versionen returneras. Därför bör varje språkinställning innehålla ett alternativ för bilden utan lokalisering, eller lokaliserade defaultImage-versioner bör vara tillgängliga i Dynamic Media Classic.
+Bildservern försöker att välja det begärda språket, det ena efter det andra. Om ingen matchning hittas används språkalternativen för defaultImage och den matchande versionen returneras. Därför bör varje språkområde innehålla ett alternativ för bilden utan lokalisering, eller lokaliserade defaultImage-versioner bör vara tillgängliga i Dynamic Media Classic.
 
 **Scenarier för att hitta localeMap**
 
@@ -223,7 +223,7 @@ Om du använder det första exemplet som bas kan bilder för alla språk ha suff
 
 Skärmen Bildåtergivning används för att ange standardinställningar för att leverera bilduppsättningar från bildåtergivningsservrar. Inställningarna är tillgängliga i följande fem kategorier (mer information om inställningarna finns på skärmen Image Server):
 
-**Kataloghantering** De här inställningarna avgör hur Dynamic Media Classic och katalogfilen interagerar. URL-anrop till Dynamic Media Classic Render Server görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra bara de här inställningarna med hjälp av en Dynamic Media Classic-supportperson.
+**Kataloghantering** De här inställningarna bestämmer hur Dynamic Media Classic och katalogfilen interagerar. URL-anrop till den dynamiska Media Classic Render Server görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra dessa inställningar endast med hjälp av en supporttekniker för Dynamic Media Classic.
 
 **Sessionsattribut** Dessa inställningar anger felparametrar, URL:er för relativa bild-URL:er och huruvida objektöverlappning är tillåten.
 
