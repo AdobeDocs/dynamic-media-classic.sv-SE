@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Skrivbordsappen Adobe Dynamic Media Classic är kompatibel med följande operati
 
 Se även:
 
-* [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen på Mac](#install-silent-mac-dmc-app)
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
@@ -143,7 +143,7 @@ Kommandot som du använder är för en grundläggande tyst MSI-installation. Ins
 Se även:
 
 * [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen på macOS](#install-silent-mac-dmc-app)
 
 Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Media Classic för Windows:
 
