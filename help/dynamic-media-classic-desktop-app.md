@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 477a8fd6ffee00cd586d91f6eeda8e676753a90f
+source-git-commit: 8d226f9b68e8f4d756825b26599bae37e06cf088
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,39 @@ Skrivbordsappen Adobe Dynamic Media Classic är kompatibel med följande operati
 * macOS X 10.10 eller senare.
 * Windows 7 eller senare.
 
-## Hämta och installera Adobe Dynamic Media Classic-datorprogrammet på macOS eller Windows {#installation-dmc-app}
+## Korrigeringar i den senaste versionen, 20.20.2 {#latest-fixes-desktop-app}
+
+* Ingen begränsning för hur många filer du kan överföra via skrivbordsappens användargränssnitt för både macOS och Windows.
+* Du behöver inte logga ut från datorprogrammet för att växla mellan olika företag.
+* Ctrl+V för inklistring fungerar nu i Windows.
+* När en ny version av skrivbordsappen släpps i framtiden meddelas användarna via själva skrivbordsappen.
+
+## Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på macOS eller Windows {#installation-dmc-app}
 
 Se även:
 
-* [Hämta och *tyst* installera Adobe Dynamic Media Classic-datorprogrammet på macOS](#install-silent-mac-dmc-app)
-* [Hämta och *tyst* installera Adobe Dynamic Media Classic-datorprogrammet i Windows](#install-silent-windows-dmc-app)
+* [Ladda ned och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på macOS](#install-silent-mac-dmc-app)
+* [Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic.
 
-   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   >[!NOTE]
+   >
+   >Användare som redan har installerat GA-versionen bör *avinstallera* den från det lokala Windows-systemet innan de installerar den senaste versionen. Eller så kan användarna helt enkelt *ersätta* den installerade GA-versionen i sina lokala macOS-system med den senaste versionen. Nya användare bör installera den senaste versionen direkt.
+
+   Den senaste versionen är 20.20.2 och finns på följande sida:
+
+   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+
+   GA-versionen (General Availability) var 20.20.1, tillgänglig på följande sida:
+
+   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+
+
 
 1. Gör något av följande baserat på det installationsprogram du hämtade.
 
@@ -77,24 +97,24 @@ Se även:
 
 1. När du publicerar användargränssnittet för inloggning kommer du att märka hur det fungerar i webbläsaren. Du kan utföra din dagliga aktivitet som vanligt nu i skrivbordsappens användargränssnitt.
 
-## Hämta och *tyst* installera Adobe Dynamic Media Classic-datorprogrammet på macOS {#install-silent-mac-dmc-app}
+## Ladda ned och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på macOS {#install-silent-mac-dmc-app}
 
 Se även:
 
-* [Hämta och installera Adobe Dynamic Media Classic-datorprogrammet på Mac eller Windows](#installation-dmc-app)
-* [Hämta och *tyst* installera Adobe Dynamic Media Classic-datorprogrammet i Windows](#install-silent-windows-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
+* [Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
 
-Så här hämtar du och installerar *tyst* Adobe Dynamic Media Classic-datorprogrammet på macOS:
+Så här hämtar och ** installerar du den senaste versionen av datorprogrammet Adobe Dynamic Media Classic i macOS:
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic för macOS.
 
-   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
 
 1. Kopiera APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
@@ -115,34 +135,34 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-## Hämta och *tyst* installera Adobe Dynamic Media Classic-datorprogrammet i Windows {#install-silent-windows-dmc-app}
+## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows {#install-silent-windows-dmc-app}
 
 Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för det dynamiska Media Classic-datorprogrammet är dock ett installationsprogram för InstallScript MSI som skapats med InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Se även:
 
-* [Hämta och installera Adobe Dynamic Media Classic-datorprogrammet på Mac eller Windows](#installation-dmc-app)
-* [Hämta och *tyst* installera Adobe Dynamic Media Classic-datorprogrammet i Windows](#install-silent-windows-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
+* [Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
 
-Så här hämtar du och installerar *tyst* Adobe Dynamic Media Classic-datorprogrammet i Windows:
+Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Media Classic för Windows:
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic.
 
-   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. Kör installationsprogrammet i postläge med följande kommando:
 
-   `adobe-dynamic-media-classic-20.20.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
 
 1. I GUI-installationsfönstret följer du stegen för att installera så att interaktioner/indata, som installationsplatsen, registreras i `Setup.iss` filen.
 
-1. Kopiera den skapade `Setup.iss` filen och `adobe-dynamic-media-classic-20.20.1.exe` till en annan dator.
+1. Kopiera den skapade `Setup.iss` filen och `adobe-dynamic-media-classic-20.20.2.exe` till en annan dator.
 
 1. Kör följande kommando för en tyst installation:
 
-   `adobe-dynamic-media-classic-20.20.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
 
    Information om kommandoradsparametrar finns på [Setup.exe och Update.exe Command-Line Parameters.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -165,7 +185,7 @@ Så här hämtar du och installerar *tyst* Adobe Dynamic Media Classic-datorprog
 
 Titta på en [video om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter (36 sekunder).
 
-## Kända begränsningar i Dynamic Media Classic
+## Kända begränsningar i Dynamic Media Classic 20.20.1 (åtgärdat i 20.20.2)
 
 **_Gäller endast Windows - finns det en begränsning av antalet filer som kan överföras via skrivbordsappens användargränssnitt?_**<br>Ja, högst 150 filer kan överföras åt gången via skrivbordsappens användargränssnitt.
 
