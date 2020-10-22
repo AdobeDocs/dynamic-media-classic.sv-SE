@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bc79edcdb378fab906df851971acd33f8af18105
+source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -58,13 +58,13 @@ Se även:
 
    Den senaste versionen är 20.20.2 och finns på följande sida:
 
-   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
    GA-versionen (General Availability) var 20.20.1, tillgänglig på följande sida:
 
-   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 
 
@@ -111,7 +111,7 @@ Så här hämtar och ** installerar du den senaste versionen av datorprogrammet 
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic för macOS.
 
-   * [macOS (.DMG) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
@@ -151,7 +151,7 @@ Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Me
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic.
 
-   * [Windows (.EXE) - Ladda ned.](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. Kör installationsprogrammet i postläge med följande kommando:
 
