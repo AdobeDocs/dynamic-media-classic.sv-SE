@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---
@@ -20,39 +20,63 @@ ht-degree: 0%
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Logga in och ut{#signing-in-and-out}
+# Logga in på Dynamic Media Classic {#sign-in}
 
-Överföring, uppbyggnad och publicering med Dynamic Media Classic kräver att vissa användarkrav och systemkrav uppfylls. Du kan identifiera dig för Dynamic Media Classic genom att logga in. Logga ut när du är klar med Dynamic Media Classic.
+Hur du loggar in på Dynamic Media Classic och loggar ut baseras på om du använder datorprogrammet eller webbläsaren.
 
-Kontrollera att du har följande innan du använder Dynamic Media Classic:
-
-* **Installationsprogrammet** Du måste ha konfigurerats för att använda Dynamic Media Classic av administratören.
-
-* **URL** Du måste ha en URL-adress för att kunna komma åt Dynamic Media Classic. Du får den här URL:en via e-postmeddelandet&quot;Välkommen&quot; eller från din Dynamic Media Classic-administratör.
+Kontrollera att du har följande innan du använder Dynamic Media Classic, oavsett hur du loggar in:
 
 * **Inloggningsnamn** Du använder din e-postadress som inloggningsnamn.
 
-* **Lösenord** Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Dynamic Media Classic eller från en Dynamic Media Classic-administratör. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
+* **Lösenord** Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Dynamic Media Classic eller från administratören för Dynamic Media Classic. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
 
-## Logga in {#sign-in}
+## Logga in på Dynamic Media Classic via datorprogrammet {#sign-in-dmc-app}
 
-I välkomstmeddelandet som du fick från administratören får du inloggnings-URL:en, ditt användarnamn och ett tillfälligt lösenord.
+1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
+
+   ![Logga in med Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+
+1. Ange din e-postadress i **[!UICONTROL User Name]** fältet.
+1. Skriv lösenordet i **[!UICONTROL Password]** fältet.
+1. Välj en server i den **[!UICONTROL Server]** nedrullningsbara listan.
+Använd följande mappning för att välja den produktionsmiljö som du vill använda.
+
+   | Webbläsarens URL | Servernamn för skrivbordsapp |
+   |---|---|
+   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
+   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
+
+1. Tryck på **[!UICONTROL Sign In]**.
+
+### Logga ut från Dynamic Media via skrivbordsappen {#sign-out-dmc-app}
+
+1. I det övre högra hörnet av programmet Dynamic Media Classic för datorer trycker du på **[!UICONTROL Sign Out]** och sedan **[!UICONTROL Sign Out]** igen.
+
+## Logga in på Dynamic Media Classic via webbläsaren {#signing-in-and-out}
+
+Förutom ditt användarnamn och lösenord bör du kontrollera att du har följande innan du använder Dynamic Media Classic från webbläsaren:
+
+* **Installationsprogrammet** Du måste ha konfigurerats för att använda Dynamic Media Classic av administratören.
+
+* **URL** Du måste ha en URL-adress för att få åtkomst till Dynamic Media Classic. Du får den här URL:en via 
+*Välkommen* via e-post eller från administratören för Dynamic Media Classic.
+
+Eftersom Dynamic Media Classic är webbaserat avslutas systemet om du går till en annan webbplats. Om du till exempel klickar på knappen Bakåt i webbläsarfönstret avslutar du Dynamic Media Classic.
 
 1. Starta webbläsaren.
-1. Gå till Dynamic Media Classic-inloggnings-URL (från välkomstmeddelandet). Du kan också logga in från Dynamic Media Classic-webbplatsen ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) genom att välja knappen Klientinloggning.
-1. Ange din e-postadress i rutan Användarnamn.
-1. Ange ditt lösenord i rutan Lösenord.
-1. Om du vill kan du ange att datorn ska komma ihåg din e-postadress genom att markera alternativet Kom ihåg mitt användarnamn.
-1. Klicka på Logga in.
+1. Gå till inloggningsadressen för Dynamic Media Classic (från välkomstmeddelandet). Du kan också logga in från webbplatsen Dynamic Media Classic ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) genom att välja knappen Klientinloggning.
+1. Ange din e-postadress i **[!UICONTROL User Name]** textfältet.
+1. Ange ditt lösenord i **[!UICONTROL Password]** textfältet.
+1. Om du vill kan du ange att datorn ska komma ihåg din e-postadress genom att välja **[!UICONTROL Remember My User Name]** .
+1. Tryck på **[!UICONTROL Sign In]**.
 
-## Logga ut {#sign-out}
+### Logga ut från Dynamic Media via webbläsaren {#sign-out}
 
-* Klicka på Logga ut, som finns till höger om fältet Global navigering.
-* Avsluta webbläsaren.
+1. Gör något av följande:
 
->[!NOTE]
->
->Eftersom SPS är webbaserat avslutas systemet om du går till en annan webbplats. Om du till exempel klickar på Bakåt i webbläsarfönstret avslutar du Dynamic Media Classic.
+   * Tryck på till höger om fältet Global Navigation (Global navigering) **[!UICONTROL Sign Out]**.
+   * Avsluta webbläsaren.
 
 >[!MORELIKETHIS]
 >
