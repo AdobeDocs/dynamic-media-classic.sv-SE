@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
+source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
 workflow-type: tm+mt
-source-wordcount: '1381'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -182,9 +182,26 @@ Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Me
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
 
-## Videogenomgång med Dynamic Media Classic Desktop App
+## Videogenomgång med Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
 Titta på en [video om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter (36 sekunder).
+
+## Rensa bildcachen och resurscachen på datorn med skrivbordsappen
+
+1. I appen Dynamic Media Classic för datorer trycker du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** längst upp till höger.
+1. Gör något av följande på **[!UICONTROL Personal Setup]** sidan under **[!UICONTROL Desktop]** rubriken:
+   * Tryck för **[!UICONTROL Clear Image Cache]** att ta bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn. Tryck på **[!UICONTROL OK]**.
+   * Tryck för **[!UICONTROL Clear Asset Cache]** att ta bort alla mediefiler i Adobe Dynamic Media från datorn. Tryck på **[!UICONTROL OK]**.
+1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+
+### Rensa bildcachen och resurscachen manuellt
+
+Förutom att rensa bild- och resurscachen med skrivbordsappen kan du även utföra den här uppgiften manuellt genom att rensa cachen direkt från filsystemet.
+
+1. Navigera till följande beroende på operativsystem:
+
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Kända begränsningar i Dynamic Media Classic 20.20.1 (åtgärdat i 20.20.2)
 
