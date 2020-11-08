@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 1%
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 # Arbeta med PSD-filer {#working-with-psd-files}
 
-PSD (Photoshop-dokumentfiler) används oftast i Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en Dynamic Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på överföringsskärmen).
+PSD (Photoshop Document files) används oftast i Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en dynamisk Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på överföringsskärmen).
 
-I Dynamic Media Classic skapas flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall; skapas en bild för varje lager.
+Dynamic Media Classic skapar flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall; skapas en bild för varje lager.
 
 ## PSD-överföringsalternativ {#psd-upload-options}
 
-Alternativ för överföring av PSD-filer finns under Photoshop-alternativ i Alternativ för överföring av jobb. Du kan beskära en fil, välja en färgprofil för den, använda den för att skapa en mall och välja en ankarpunkt.
+Alternativ för överföring av PSD-filer finns under Photoshop-alternativ i Alternativ för överföringsjobb. Du kan beskära en fil, välja en färgprofil för den, använda den för att skapa en mall och välja en ankarpunkt.
 
 Dessa alternativ är tillgängliga när du överför PSD-filer:
 
@@ -50,7 +50,7 @@ Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixla
 
 **Behåll ursprunglig färgmodell** Behåller bildens ursprungliga färgmodell.
 
-**Anpassad från > Till** öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överförde till Dynamic Media Classic. Se ICC-profiler.
+**Anpassad från > Till** öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överfört till Dynamic Media Classic. Se ICC-profiler.
 
 **Med Behåll lager** rippar du lagren i PSD-filen, om det finns några, till enskilda resurser. Resurslagren förblir kopplade till PSD-filen. Du kan visa dem genom att öppna PSD-filen i detaljvyn och välja lagerpanelen. Se Visa och redigera lager i en PSD-fil.
 
@@ -60,13 +60,13 @@ Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixla
 
 **Utöka lager till bakgrundsstorlek** Utökar storleken på överlappade bildlager till storleken på bakgrundslagret.
 
-**Lager för namngivning** av lager i PSD-filen överförs som separata bilder. Välj ett alternativ för att namnge de här bilderna i Dynamic Media Classic:
+**Lager för namngivning** av lager i PSD-filen överförs som separata bilder. Välj ett alternativ för att namnge dessa bilder i Dynamic Media Classic:
 
-**Lagernamn** Namnger bilderna efter deras lagernamn i PSD-filen. Ett lager med namnet Price Tag i den ursprungliga PSD-filen blir till exempel en bild med namnet Price Tag. Om lagernamnen i PSD-filen är standardlagernamn för Photoshop (Bakgrund, Lager 1, Lager 2 och så vidare) får bilderna namn efter sina lagernummer i PSD-filen, inte efter deras standardlagernamn.
+**Lagernamn** Namnger bilderna efter deras lagernamn i PSD-filen. Ett lager med namnet Price Tag i den ursprungliga PSD-filen blir till exempel en bild med namnet Price Tag. Om lagernamnen i PSD-filen däremot är Photoshop standardlagernamn (Bakgrund, Lager 1, Lager 2 och så vidare) får bilderna namn efter sina lagernummer i PSD-filen, inte efter deras standardlagernamn.
 
-**Photoshop och Lagernummer** Namnger bilderna efter deras lagernummer i PSD-filen och ignorerar de ursprungliga lagernamnen. Bilder namnges med Photoshops filnamn och ett nummer på lagret som läggs till. Det andra lagret i en fil som heter Spring Ad.psd får till exempel namnet Spring Ad_2 även om det har ett icke-standardnamn i Photoshop.
+**Photoshop och Lagernummer** Namnger bilderna efter deras lagernummer i PSD-filen och ignorerar de ursprungliga lagernamnen. Bilderna får samma namn som Photoshop-filnamnet och ett nummer i det tillagda lagret. Det andra lagret i en fil som heter Spring Ad.psd får till exempel namnet Spring Ad_2 även om det har ett icke-standardnamn i Photoshop.
 
-**Photoshop och lagernamn** Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i PSD-filen är standardlagernamn i Photoshop. Ett lager med namnet Price Tag i en PSD-fil med namnet SpringAd får till exempel namnet Spring Ad_Price Tag. Ett lager med standardnamnet Lager2 kallas Spring Ad_2.
+**Photoshop och Lagernamn** Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i PSD-filen är Photoshop standardlagernamn. Ett lager med namnet Price Tag i en PSD-fil med namnet SpringAd får till exempel namnet Spring Ad_Price Tag. Ett lager med standardnamnet Lager2 kallas Spring Ad_2.
 
 **Ankarpunkt** Ange hur bilder ska förankras i mallar som genereras från lagerkompositionen som skapas från PSD-filen. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan ersättningsbilder bäst fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
 
