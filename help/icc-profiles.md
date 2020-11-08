@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -22,13 +22,13 @@ ht-degree: 0%
 
 En ICC-profil (International Color Consortium) är en fil som beskriver hur du korrekt konverterar bildfiler från en färgrymd till en annan. ICC-profiler hjälper dig att få rätt färger för dina bilder. Om du till exempel vill visa bilder som är utformade för utskrift på en datorskärm på rätt sätt kan du välja en ICC-profil. Den här profilen konverterar bilden till en annan färgrymd och ser till att färgerna visas korrekt online.
 
-I Dynamic Media Classic kan du välja en ICC-profil för att konvertera bilder till en annan färgrymd när du överför bilderna. Alla vanliga Photoshop ICC-profiler är som standard tillgängliga i Dynamic Media Classic. Om du vill visa namnen på färgprofiler på skärmen Överför väljer du menyn Färgprofil. Välj sedan Egen från > Till och välj ett ICC-profilnamn på menyerna Konverterad från och Konverterad till. Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+I Dynamic Media Classic kan du välja en ICC-profil för att konvertera bilder till en annan färgrymd när du överför bilderna. Alla Photoshop ICC-standardprofiler är som standard tillgängliga i Dynamic Media Classic. Om du vill visa namnen på färgprofiler på skärmen Överför väljer du menyn Färgprofil. Välj sedan Egen från > Till och välj ett ICC-profilnamn på menyerna Konverterad från och Konverterad till. Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 
 Förutom att använda ICC-standardprofilerna kan du överföra andra ICC-profiler till Dynamic Media Classic och göra dem tillgängliga för konvertering av färgrymd. Växla till vyn Detalj på panelen Bläddra om du vill undersöka profilklassen, färgrymdstypen och PCS-typen för en ICC-profil.
 
 ## Överför ICC-profiler {#uploading-icc-profiles}
 
-Överför ICC-profiler med samma tekniker som du använder för att överföra filer. Du kan spara ICC-profiler i alla Dynamic Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
+Överför ICC-profiler med samma tekniker som du använder för att överföra filer. Du kan lagra ICC-profiler i alla dynamiska Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
 
 ## Undersöka en ICC-profil {#examining-an-icc-profile}
 
