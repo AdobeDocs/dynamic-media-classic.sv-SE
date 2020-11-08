@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Konfigurera förinställningar för Zoom Viewer{#setting-up-zoom-viewer-presets}
 
-Förinställningarna för zoomvisningsprogrammet bestämmer stilen, beteendet och utseendet för zoomningsvisningsprogrammen. I Dynamic Media Classic finns många alternativ för att anpassa och skalförändra visningsprogram. Dynamic Media Classic innehåller standardförinställningar för grundläggande (snabb), utfällbar och anpassad zoomningsvisning. Om du är administratör kan du skapa nya förinställningar för zoomvisningsprogrammet eller redigera en standardförinställning och spara den med ett nytt namn.
+Förinställningarna för zoomvisningsprogrammet bestämmer stilen, beteendet och utseendet för zoomningsvisningsprogrammen. I Dynamic Media Classic finns många alternativ för att anpassa och skalförändra visningsprogram. Dynamic Media Classic innehåller förinställningar för grundläggande (snabb), utfällbar och anpassad zoomningsvisning. Om du är administratör kan du skapa nya förinställningar för zoomvisningsprogrammet eller redigera en standardförinställning och spara den med ett nytt namn.
 
 Alla zoomvisningsprogram har knappar för att zooma in, zooma ut, panorera och återställa bilden till det ursprungliga läget efter zoomning. Hur dessa knappar ser ut och hur själva fönstret ser ut beror på vad du väljer bland förinställningarna för Zoom Viewer. Du kan konfigurera en förinställning för Zoomvisningsprogram med olika färger, kanter, teckensnitt och bildinställningar. När du konfigurerar ett visningsprogram för guidad zoomning kan du även välja var du vill placera zoommålen. Zoommål är de miniatyrbilder som användarna klickar på för att zooma till de områden som du anger.
 
 ## Om förinställningar för Zoom Viewer {#about-zoom-viewer-presets}
 
-I Dynamic Media Classic finns följande förinställningar för Zoom Viewer:
+Dynamic Media Classic har följande förinställningar för Zoom Viewer:
 
 * **Zoomvisningsprogram: Grundläggande** ger en enkel zoomning på originalbilden.
 
