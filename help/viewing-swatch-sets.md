@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
 ## Förhandsvisa färgruteuppsättningar i ett visningsprogram {#previewing-swatch-sets-in-a-viewer}
 
-Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visningstyppplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogrammet som du har valt att förhandsgranska, är inte alla plattformar tillgängliga i förhandsvisningen.
+Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visningstyppplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogram som du har valt att förhandsgranska, är inte alla plattformar tillgängliga i förhandsvisningen.
 
 1. Välj en färgruteuppsättningsbaserad resurstyp, till exempel Färgruteuppsättning, i listrutan Visa på panelen Resursbibliotek på vänster sida.
 1. På panelen Resursbibliotek till vänster navigerar du i de resursmappar som innehåller den färgruteuppsättning som du vill förhandsgranska med ett visningsprogram.
