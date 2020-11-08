@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Länka zoomningsvisningsprogram till webbsidor{#linking-zoom-viewers-to-your-web-pages}
 
-Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive överordnad bilder och associerade zoommål, och förinställningar för Zoom Viewer, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic.
+Dina webbplatser och program får tillgång till innehåll från Dynamic Media Image Server, inklusive överordnad bilder och associerade zoommål, och förinställningar för Zoom Viewer, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -46,9 +46,9 @@ Dina webbplatser och program har åtkomst till Dynamic Media Image Server-inneh�
 
 ## Lägga till URL-adresser för Zoom-visningsprogram på webbsidan {#adding-zoom-viewer-urls-to-your-web-page}
 
-Vanligtvis zoomar besökare på en webbplats bilder genom att först markera en zoomningsikon (ofta visas bilden av ett förstoringsglas). Om du väljer den här ikonen öppnas en dynamisk webbsida (ASP eller JSP) som visar bilden i ett popup-fönster. I popup-fönstret kan besökarna zooma in bilden.
+Vanligtvis zoomar besökare på en webbplats bilder genom att först välja en zoomningsikon (ofta visas bilden av ett förstoringsglas). Om du väljer den här ikonen öppnas en dynamisk webbsida (ASP eller JSP) som visar bilden i ett popup-fönster. I popup-fönstret kan besökarna zooma in bilden.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i Adobe Viewer Reference Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i referenshandboken](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)för visningsprogram för Adobe.
 
 ## Kopiera den inbäddade kopian av ett Zoom-visningsprogram {#copying-the-embed-copy-of-a-zoom-viewer}
 
