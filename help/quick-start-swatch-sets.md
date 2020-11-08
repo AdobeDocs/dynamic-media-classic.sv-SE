@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 1%
@@ -20,17 +20,17 @@ ht-degree: 1%
 
 # Snabbstart: Färgruteuppsättningar{#quick-start-swatch-sets}
 
-Dynamic Media Classic-färgruteuppsättningar ger en integrerad visningsupplevelse. I det dynamiska visningsprogrammet för färgruteuppsättning kan användarna se ett objekt som återges i en annan färg, material, struktur, finish eller struktur genom att klicka på en miniatyrbild.
+Dynamic Media Classic Swatch Sets ger användarna en integrerad visningsupplevelse. I det dynamiska visningsprogrammet för färgruteuppsättning kan användarna se ett objekt som återges i en annan färg, material, struktur, finish eller struktur genom att klicka på en miniatyrbild.
 
 **Snabbstart**
 
-Den här snabbstarten för färgruteuppsättningar är utformad för att komma igång snabbt med hjälp av färgrutetekniker i Dynamic Media Classic.
+Den här snabbstarten för färgruteuppsättningar är utformad för att komma igång snabbt med tekniken för färgruteuppsättning i Dynamic Media Classic.
 
 **1. Överföra bilder och färgrutefiler**
 
 Börja med att ladda upp bilder och färgrutefiler för dina färgruteuppsättningar.
 
-Klicka på Överför i det globala navigeringsfältet om du vill överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Förbereda färgrutor Ange resurser för](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)överföring och [överföring av filer](uploading-files.md#uploading-your-files).
+Klicka på Överför i fältet Global navigering för att överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Förbereda färgrutor Ange resurser för](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)överföring och [överföring av filer](uploading-files.md#uploading-your-files).
 
 **2. Skapa en färgruteuppsättning**
 
