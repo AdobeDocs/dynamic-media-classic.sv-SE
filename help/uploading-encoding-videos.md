@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3938'
 ht-degree: 1%
@@ -19,19 +19,19 @@ ht-degree: 1%
 
 # Överföra och koda videofilmer{#uploading-and-encoding-videos}
 
-Om du vill skapa en enda video eller adaptiva videouppsättningar för webben eller mobila enheter måste du först överföra dina överordnad videofiler till Dynamic Media Classic. Dynamic Media Classic kodar videoklipp till MP4-format och publicerar videoklipp i följande filformat:
+Om du vill skapa en enda video eller adaptiva videouppsättningar för webben eller mobila enheter överför du först dina överordnad videofiler till Dynamic Media Classic. Dynamic Media Classic kodar videoklipp till MP4-format och publicerar video i följande filformat:
 
 **MP4** Dynamic Media Classic rekommenderar MP4 som det önskade videofilformatet. Använd MP4-filer för följande:
 
-* Dynamisk HTTP-strömning på stationära datorer.
+* HTTP Dynamic Streaming på stationära datorer.
 * HTTP Live Streaming (Apples direktuppspelningsprotokoll).
 * Progressiv leverans av video till Android-, Blackberry- och Windows-mobilenheter
 
-I Dynamic Media Classic finns två arbetsflöden för att överföra videofiler:
+Dynamic Media Classic har två arbetsflöden för att överföra videofiler:
 
-**Förkodade videoklipp** Du kan överföra MP4-filer direkt till Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
+**Förkodade videor** Du överför MP4-filer direkt till Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
 
-**Överordnad källvideofilmer** Överför överordnad källvideofiler och koda dessa filer till MP4-filer när de överförs. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Dynamic Media Classic stöder kodning av videofiler i många format.
+**Överordnad källvideofilmer** Överför överordnad källvideofiler och koda dessa filer till MP4-filer när de överförs. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Dynamic Media Classic har stöd för kodning av videofiler i många format.
 
 * Kontrollera att de överordnad källvideofiler som du vill koda stöds.
 
@@ -43,7 +43,7 @@ I Dynamic Media Classic finns två arbetsflöden för att överföra videofiler:
 
    Se [Bästa tillvägagångssätt för videokodning](uploading-encoding-videos.md#best-practices-for-video-encoding).
 
-I Dynamic Media Classic genereras även videominiatyrer. Du kan lära dig mer om videominiatyrbilder, hur du hämtar deras URL-adresser och ändrar affischramar.
+Dynamic Media Classic genererar även videominiatyrer. Du kan lära dig mer om videominiatyrbilder, hur du hämtar deras URL-adresser och ändrar affischramar.
 
 Se [Arbeta med videominiatyrer](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
@@ -151,7 +151,7 @@ I följande tabell beskrivs rekommenderad storlek, proportioner och lägsta bith
 
 ### Hämta metadata för en fil {#obtaining-a-file-s-metadata}
 
-Du kan hämta metadata för en fil genom att visa dess metadata i Dynamic Media Classic, med ett videoredigeringsverktyg eller med ett program som utformats för att hämta metadata. Nedan följer instruktioner om hur du använder MediaInfo, ett tredjepartsprogram, för att hämta videofilens metadata:
+Du kan hämta filens metadata genom att visa dess metadata i Dynamic Media Classic, med ett videoredigeringsverktyg eller med ett program som är utformat för att hämta metadata. Nedan följer instruktioner om hur du använder MediaInfo, ett tredjepartsprogram, för att hämta videofilens metadata:
 
 1. Gå till den här webbsidan: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Välj och hämta installationsprogrammet för den grafiska användargränssnittsversionen och följ installationsanvisningarna.
@@ -184,7 +184,7 @@ Datahastigheten ** (kallas även*-bithastighet*) är den mängd data som kodas f
 >
 >Eftersom förlustgivande komprimering används för alla kodekar är datahastigheten den viktigaste faktorn i videokvaliteten. Ju mer du komprimerar en videofil desto sämre blir kvaliteten. Därför är alla andra egenskaper lika (upplösning, bildrutefrekvens och kodek), ju lägre datahastighet, desto lägre kvalitet får den komprimerade filen.
 
-När du väljer en förinställning för videokodning ska du ta hänsyn till slutanvändarens anslutningshastighet. Välj en förinställning med en datahastighet som är 80 % av den hastigheten. Om målanvändarens anslutningshastighet till exempel är 1 000 kbit/s är den bästa förinställningen en med en videodatahastighet på 800 kbit/s.
+När du väljer en förinställning för videokodning ska du ta hänsyn till slutanvändarens anslutningshastighet. Välj en förinställning med en datahastighet som är 80 % av den hastigheten. Om målanvändarens anslutningshastighet till exempel är 1000 kbit/s är den bästa förinställningen en med en videodatahastighet på 800 kbit/s.
 
 I den här tabellen beskrivs datahastigheten för typiska anslutningshastigheter.
 
@@ -261,7 +261,7 @@ Adobe Dynamic Media Classic rekommenderar att du använder MP4 H.264-videokodnin
 
 Se [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-I Dynamic Media Classic finns ett bibliotek med fördefinierade videokodningsförinställningar som återspeglar de vanligaste kodningsinställningarna som används idag. Dessa kodningsförinställningar är optimerade för uppspelning på målskärmar. Dessutom kan administratörer skapa egna videokodningsförinställningar för att anpassa storleken och uppspelningskvaliteten på videoklipp för slutanvändarna. Alla förinställningar för videokodning, oavsett om de är färdiga från Dynamic Media Classic eller skräddarsydda utdata för video i MP4-format.
+Med Dynamic Media Classic får du ett bibliotek med fördefinierade videokodningsförinställningar som återspeglar de vanligaste kodningsinställningarna som används idag. Dessa kodningsförinställningar är optimerade för uppspelning på målskärmar. Dessutom kan administratörer skapa egna videokodningsförinställningar för att anpassa storleken och uppspelningskvaliteten på videoklipp för slutanvändarna. Alla förinställningar för videokodning, oavsett om de är färdiga från Dynamic Media Classic eller skräddarsydda utdata för video i MP4-format.
 
 På skärmen Videoförinställningar kan administratörer konfigurera och hantera videokodning. De kan göra följande:
 
@@ -270,7 +270,7 @@ På skärmen Videoförinställningar kan administratörer konfigurera och hanter
 * Redigera förinställningar för videokodning.
 * Ta bort videoförinställningar.
 
-Alla videofilmer som du överför till Dynamic Media Classic eller kodar i Dynamic Media Classic behandlas som&quot;videofilmer&quot;. Med andra ord innebär den här resursklassificeringen att du kan leverera videon för uppspelning på datorer, mobila enheter eller båda. Du kan till exempel förhandsgranska den här typen av videofilmer i Dynamic Media Classic. Du kan också generera URL:er (med funktionen Kopiera URL) och kod som du kan bädda in (med funktionen Bädda in kod) för användning med videospelare, på webbplatser och så vidare.
+Alla videofilmer som du överför till Dynamic Media Classic eller kodar i Dynamic Media Classic behandlas som&quot;video&quot;. Med andra ord innebär den här resursklassificeringen att du kan leverera videon för uppspelning på datorer, mobila enheter eller båda. Du kan till exempel förhandsgranska den här typen av videoklipp i Dynamic Media Classic. Du kan också generera URL:er (med funktionen Kopiera URL) och kod som du kan bädda in (med funktionen Bädda in kod) för användning med videospelare, på webbplatser och så vidare.
 
 Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
@@ -278,15 +278,15 @@ Se [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-vid
 
 Se [Bädda in videovisningsprogrammet på en webbsida](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
 
-För videoresurser som du överför och kodar i Dynamic Media Classic levereras videon i följande filformat:
+För videomaterial som du överför och kodar i Dynamic Media Classic levereras videon i följande filformat:
 
 **MP4 H.264** Använd MP4-filer för följande:
 
-* Dynamisk HTTP-strömning på stationära datorer.
+* HTTP Dynamic Streaming på stationära datorer.
 * HLS (HTTP Live Streaming, Apples direktuppspelningsprotokoll).
 * Progressiv leverans av video till Android-, Blackberry- och Windows-mobilenheter.
 
-Alla andra videoformat och kodekar behandlas som&quot;Överordnad Video&quot;. Den här resursklassificeringen innebär att videon är en videokällfil och inte kan användas för uppspelning på datorer eller mobila enheter. Du kan till exempel inte förhandsgranska den här typen av videofilmer i Dynamic Media Classic. Du kan inte heller generera Kopiera URL:er eller Bädda in kod för användning i videospelare, på webbplatser och så vidare.
+Alla andra videoformat och kodekar behandlas som&quot;Överordnad Video&quot;. Den här resursklassificeringen innebär att videon är en videokällfil och inte kan användas för uppspelning på datorer eller mobila enheter. Du kan till exempel inte förhandsgranska den här typen av videoklipp i Dynamic Media Classic. Du kan inte heller generera Kopiera URL:er eller Bädda in kod för användning i videospelare, på webbplatser och så vidare.
 
 ### Filtrera listan med förinställningar för videokodning {#filtering-the-list-of-video-encoding-presets}
 
@@ -300,7 +300,7 @@ Du kan också filtrera baserat på ett uppspelningsenhetsalternativ om du vill b
 
 1. I Dynamic Media Classic klickar du på **Inställningar** > **Programinställningar** > **Videoförinställningar** > **Adaptiva videoförinställningar** eller **Enkodade förinställningar**.
 
-   Sidorna för adaptiva videoförinställningar och Förinställningar för enskild kodning innehåller en tabell med information om aktiv status, förinställningens namn, avsedd uppspelningsenhet, videodimensioner och Target datahastighet för varje videoförinställning.
+   Sidorna för adaptiva videoförinställningar och Förinställningar för enskild kodning innehåller en tabell med information om aktiv status, förinställningens namn, avsedd uppspelningsenhet, videodimensioner och måldatahastighet för varje videoförinställning.
 
 1. Använd de två listrutorna i verktygsfältet Videoförinställningar på sidan Förinställningar för enskild kodning, som heter Videoförinställningar, för att förfina listan med förinställningar i tabellen baserat på Aktiv-status och uppspelningsenhet.
 
@@ -330,7 +330,7 @@ De aktiverade videoförinställningarna visas i dialogrutan Alternativ för öve
 
 ### Lägga till eller redigera en förinställning för videokodning {#adding-or-editing-a-video-encoding-preset}
 
-Du kan skapa egna videoförinställningar för enskild kodning och lägga till dem i tabellen Videoförinställningar. Du kan också ändra fördefinierade enskilda kodningsförinställningar för video som medföljer Dynamic Media Classic, förutsatt att du sparar den redigerade förinställningen med ett nytt namn.
+Du kan skapa egna videoförinställningar för enskild kodning och lägga till dem i tabellen Videoförinställningar. Du kan också ändra fördefinierade videoförinställningar för enskild kodning som medföljde Dynamic Media Classic, förutsatt att du sparar den redigerade förinställningen med ett nytt namn.
 
 Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösningshöjd och upplösningsbredd för att säkerställa en korrekt uppspelningsupplevelse. Varningsmeddelanden visas om du överskrider följande gränser:
 
@@ -347,7 +347,7 @@ Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösning
    * Klicka på **Lägg till** i verktygsfältet Videoförinställningar för att lägga till en ny videoförinställning.
    * Välj en videoförinställning. Klicka på **Redigera** i verktygsfältet.
 
-      Du kan inte redigera fördefinierade Dynamic Media Classic-förinställningar; Du kan bara skapa en förinställning från en befintlig genom att välja **Spara som**.
+      Du kan inte redigera fördefinierade dynamiska Media Classic-förinställningar; Du kan bara skapa en förinställning från en befintlig genom att välja **Spara som**.
 
 1. På sidan Lägg till videoförinställning eller på sidan Redigera videoförinställning anger du önskade alternativ för videoförinställning.
 
@@ -358,11 +358,11 @@ Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösning
    | Förinställningsnamn | Ange ett beskrivande namn för videoförinställningen. Det namn du anger visas i dialogrutan Alternativ för överföringsjobb, där användarna väljer alternativ för omkodning. |
    | Beskrivning | Beskriv videoförinställningen. Det du anger visas som ett verktygstips när du flyttar pekaren över namnet på förinställningen i dialogrutan Alternativ för överföringsjobb där användarna väljer omkodningsalternativ. |
    | Uppspelningsenhet | Välj den enhet som videon ska spelas upp på. Alternativen är Dator (stationära datorer), Mobil (iPhone, iPad, Android). eller Tablet (endast iPad). Den här inställningen avgör automatiskt vilken video- och ljudkodek som används vid kodningen. |
-   | Target datahastighet | Ange den genomsnittliga internetanslutningshastigheten (i kilobit per sekund) för målslutanvändaren. Du kan ange hastigheten eller dra reglaget för att ange den. I spektrumet för användaranslutningshastighet visas typiska hastigheter för bredband, DSL, mobiler och fjärranslutningar. Den här inställningen bestämmer automatiskt den kombinerade video- och ljuddatahastigheten. Med andra ord den datamängd som kodas för att utgöra en sekund av videouppspelningen. Ju högre datahastighet, desto bättre kvalitet får videon. För höga datahastigheter resulterar dock i stora filstorlekar som skapar en underordnad visningsupplevelse för användare med låg bandbredd. Det bästa sättet är att hitta en balans mellan höga och låga datahastigheter. Rikta in dig på att skapa en bra uppspelningsupplevelse utan att ge alienera användare med smala bandbredder. |
+   | Måldatahastighet | Ange den genomsnittliga internetanslutningshastigheten (i kilobit per sekund) för målslutanvändaren. Du kan ange hastigheten eller dra reglaget för att ange den. I spektrumet för användaranslutningshastighet visas typiska hastigheter för bredband, DSL, mobiler och fjärranslutningar. Den här inställningen bestämmer automatiskt den kombinerade video- och ljuddatahastigheten. Med andra ord den datamängd som kodas för att utgöra en sekund av videouppspelningen. Ju högre datahastighet, desto bättre kvalitet får videon. För höga datahastigheter resulterar dock i stora filstorlekar som skapar en underordnad visningsupplevelse för användare med låg bandbredd. Det bästa sättet är att hitta en balans mellan höga och låga datahastigheter. Rikta in dig på att skapa en bra uppspelningsupplevelse utan att ge alienera användare med smala bandbredder. |
    | Proportioner | Proportionerna är proportionerna mellan videons bredd och höjd. De två första proportionerna som anges nedan används ofta för att visa video vågrätt:<ul><li> 4:3 - Används för nästan allt tv-sändningsinnehåll med standarddefinition.</li><li>16:9 - Används för nästan allt bredbildsformat, HD-TV-innehåll (HDTV) och filmer.</li><li>Skala automatiskt - (standard) En enda kodningsförinställning som fungerar med alla proportioner för att skapa videor som ska skickas till mobiler, surfplattor och datorer. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner (bredd-/höjdförhållande) bevaras.</li><li>Anpassad - Används när du vill definiera en videostorlek som inte är standard.</li><li>De proportioner du väljer avgör inställningarna för bredd och höjd för upplösningsstorleken. värdet för bredd och höjd automatiskt skalas till rätt proportioner.</li></ul> |
    | Upplösningsstorlek | Upplösningsstorleken, uttryckt som antalet pixlar breda och antalet pixlar höga, avgör måttet. Ange ett bredd- och höjdvärde i pixlar eller dra reglaget för att ange dessa värden. I upplösningsspektrumet visas vanliga upplösningsstorlekar. Bredd- och höjdvärdena följer automatiskt de proportioner som du har valt. Om du t.ex. väljer 4:3 som proportioner och anger 400 som bredd, anges 300 automatiskt som höjd. Om du valde Automatisk skalförändring för inställningen Proportioner, ställs värdet för Bredd för Upplösningsstorlek automatiskt in på Auto.Klicka på Förhandsgranska för att öppna ett webbläsarfönster och visa dina upplösningsalternativ där. |
    | Koda filsuffix | Ange ett suffix. Det här suffixet läggs till i den resulterande kodade videofilen. Du kan skriva ett bindestreck och ett understreck i namnet; blanksteg och specialtecken tillåts inte. |
-   | Andra inställningar | I Dynamic Media Classic avgörs alla andra kodningsinställningar automatiskt enligt riktlinjerna för bästa praxis-kodning. |
+   | Andra inställningar | Med Dynamic Media Classic bestäms alla andra kodningsinställningar automatiskt enligt riktlinjerna för bästa praxis-kodning. |
 
 1. Gör något av följande:
 
@@ -371,7 +371,7 @@ Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösning
 
 ### Ta bort en förinställning för videokodning {#deleting-a-video-encoding-preset}
 
-Administratörer kan ta bort anpassade videoförinställningar. Videoförinställningar som medföljer Dynamic Media Classic kan inte tas bort.
+Administratörer kan ta bort anpassade videoförinställningar. Det går inte att ta bort videoförinställningar som medföljer Dynamic Media Classic.
 
 **Ta bort en förinställning för videokodning**
 
