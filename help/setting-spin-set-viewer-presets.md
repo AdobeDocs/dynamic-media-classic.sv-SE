@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Konfigurera förinställningar för Snurra uppsättningar för visningsprogram{#setting-up-spin-set-viewer-presets}
 
-Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. I Dynamic Media Classic finns standardförinställningarna för Teckenuppsättning. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
+Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. Dynamic Media Classic levereras med förinställningar för rotationsuppsättning för visningsprogram. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
 
 Följ de här stegen för att skapa en förinställning för Snurra uppsättning för visningsprogram:
 
@@ -39,7 +39,7 @@ Följ de här stegen för att skapa en förinställning för Snurra uppsättning
 
 1. Klicka på **Spara**.
 
-Klicka på Använd som standard om du vill göra den förinställning för Snurra uppsättning för visningsprogram som du skapade till företagets standardinställning för att visa Snurra uppsättningar.
+Klicka på Använd som standard om du vill göra den förinställning för Snurra uppsättning för visningsprogram som du skapade till företagets standardinställning för att visa snurra uppsättningar.
 
 Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers).
 
