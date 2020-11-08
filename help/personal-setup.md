@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 1%
@@ -38,7 +38,7 @@ Klicka på Installera nu för att installera skrivbordsversionen av Dynamic Medi
 
 ## Installera plugin-programmet på den lokala hårddisken
 
-1. På sidan Personliga inställningar i Dynamic Media Classic, under Illustrator-plugin-programmet för webb-till-utskrift, klickar du på **Hämta nu** för att hämta **Illustrator-plugin-programmet för webb-till-utskrift.zip** -filen.
+1. På sidan Personliga inställningar i Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, klickar du på **Ladda ned nu** för att ladda ned **Illustrator Plug-in for Web-to-Print.zip** .
 1. Avkomprimera ZIP-filen till en tillfällig mapp.
 
    En Viktigt-fil finns i roten av den uppzippade filen och ger dig ytterligare information om plugin-programmet.
@@ -49,17 +49,17 @@ Klicka på Installera nu för att installera skrivbordsversionen av Dynamic Medi
 
 | Om du kör | Gör detta |
 |--- |--- |
-| Adobe Illustrator 18 i Adobe Creative Cloud 2014 | <ul><li>Klicka på CC-2014 i roten för den uppzippade mappen.</li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64.</li><li>Klicka på Bibliotek > flame och kopiera sedan `aflame.dll` till den körbara mappen för Adobe Illustrator. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Obs **: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86).<br/><ul><li>Gå tillbaka till samma biblioteksmapp, klicka på flamingo och kopiera sedan `aflamingo.dll` till samma körbara Adobe Illustrator-mapp som du använde i föregående steg. </li><li>Gå tillbaka till mappen win32 eller win64 som du valde i steg 2 och kopiera sedan `AdobeS7FXGFileFormat.aip` till mappen med plugin-program för Adobe Illustrator. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Obs **: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
-| Adobe Illustrator 17 i Adobe Creative Cloud | <ul><li>Klicka på CC i roten i den uppzippade mappen. </li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64.</li><li> Kopiera `AdobeS7FXGFileFormat.aip` till mappen för plugin-program i Adobe Illustrator. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Obs **: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
-| Adobe Illustrator 16 i Adobe Creative Suite 6 | <ul><li>Klicka på 6.0 i roten för den uppzippade mappen. </li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64. </li><li>Kopiera AdobeS7FXGFileFormat.aip till mappen för plugin-program i Adobe Illustrator. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Obs **: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
+| Adobe Illustrator 18 i Adobe Creative Cloud 2014 | <ul><li>Klicka på CC-2014 i roten för den uppzippade mappen.</li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64.</li><li>Klicka på Bibliotek > flame och kopiera sedan `aflame.dll` till den körbara Adobe Illustrator-mappen. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). <br/><ul><li>Gå tillbaka till samma biblioteksmapp, klicka på flamingo och kopiera sedan `aflamingo.dll` till samma körbara Adobe Illustrator-mapp som du använde i föregående steg. </li><li>Gå tillbaka till mappen win32 eller win64 som du valde i steg 2 och kopiera sedan `AdobeS7FXGFileFormat.aip` till Adobe Illustrator plug-ins-mapp. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
+| Adobe Illustrator 17 i Adobe Creative Cloud | <ul><li>Klicka på CC i roten i den uppzippade mappen. </li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64.</li><li> Kopiera `AdobeS7FXGFileFormat.aip` till Adobe Illustrator plug-ins-mapp. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
+| Adobe Illustrator 16 i Adobe Creative Suite 6 | <ul><li>Klicka på 6.0 i roten för den uppzippade mappen. </li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64. </li><li>Kopiera Adobe7FXGFileFormat.aip till Adobe Illustrator plug-ins-mapp. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
 
 ### Mac
 
 | Om du kör | Gör detta |
 |--- |--- |
-| Adobe Illustrator 18 i Adobe Creative Cloud 2014 | <ul><li>Klicka på CC-2014 > mac64 i roten för den uppzippade mappen.</li><li>Klicka på Bibliotek > Flöde och kopiera sedan mappen till innehållsmappen för Adobe Illustrator-paketet `aflame.framework` . Exempel, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Om du vill öppna Adobe Illustrators paketinnehållsmapp högerklickar du på ikonen Adobe Illustrator CC 2014 och klickar på Visa paketinnehåll på snabbmenyn.)</li><li>Gå tillbaka till samma biblioteksmapp, klicka `flamingo`och kopiera sedan `aflamingo.framework` mappen till samma innehållsmapp för Adobe Illustrator som du använde i föregående steg.</li><li>Gå tillbaka till MAC64-mappen som du valde i steg 1 och kopiera sedan mappen `AdobeS7FXGFileFormat.aip` till Adobe Illustrators plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 i Adobe Creative Cloud | <ul><li>Klicka på CC > mac64 i roten i den uppzippade mappen</li><li>Kopiera `AdobeS7FXGFileFormat.aip` mappen till Adobe Illustrators plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 i Adobe Creative Suite 6 | <ul><li>Klicka 6.0 > mac64 i roten för den uppzippade mappen</li><li>Kopiera `AdobeS7FXGFileFormat.aip` mappen till Adobe Illustrators plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+| Adobe Illustrator 18 i Adobe Creative Cloud 2014 | <ul><li>Klicka på CC-2014 > mac64 i roten för den uppzippade mappen.</li><li>Klicka på Bibliotek > flame och kopiera sedan mappen till innehållsmappen för Adobe Illustrator-paket `aflame.framework` . Exempel, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Om du vill öppna Adobe Illustrator paketinnehållsmapp högerklickar du på ikonen Adobe illustrator CC 2014 och klickar på Visa paketinnehåll på snabbmenyn.)</li><li>Gå tillbaka till samma biblioteksmapp, klicka `flamingo`och kopiera sedan `aflamingo.framework` mappen till samma Adobe Illustrator-paketinnehållsmapp som du använde i föregående steg.</li><li>Gå tillbaka till MAC64-mappen som du valde i steg 1 och kopiera sedan `AdobeS7FXGFileFormat.aip` mappen till Adobe Illustrator plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 17 i Adobe Creative Cloud | <ul><li>Klicka på CC > mac64 i roten i den uppzippade mappen</li><li>Kopiera `AdobeS7FXGFileFormat.aip` mappen till Adobe Illustrator plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
+| Adobe Illustrator 16 i Adobe Creative Suite 6 | <ul><li>Klicka 6.0 > mac64 i roten för den uppzippade mappen</li><li>Kopiera `AdobeS7FXGFileFormat.aip` mappen till Adobe Illustrator plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
 
 Plugin-programmet finns nu för användning i Adobe Illustrator.
 
@@ -104,7 +104,7 @@ Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
 ## E-post
 
 * **E-postalternativ**
-   * Välj hur du vill att Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben är slutförda. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+   * Välj hur du vill att Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben har slutförts. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
 * **E-postomfång**
    * Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
 * **E-posttyper**
