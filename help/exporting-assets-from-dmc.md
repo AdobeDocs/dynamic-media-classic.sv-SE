@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Exportera resurser från Dynamic Media Classic{#exporting-assets-from-dmc}
 
-Du kan spara resurser som du har redigerat i Dynamic Media Classic på en lokal nätverksenhet. Exporterade resurser paketeras i en ZIP-fil för nedladdning eller sändning via e-post.
+Du kan spara resurser som du redigerat i Dynamic Media Classic till en lokal nätverksenhet. Exporterade resurser paketeras i en ZIP-fil för nedladdning eller sändning via e-post.
 
 Den komprimerade ZIP-filen har en maximal filstorlek på 1 GB för exportjobbet. Tänk också på att du får högst 500 resurser totalt per exportjobb.
 
-I Dynamic Media Classic registreras exportjobb på jobbskärmen.
+Med Dynamic Media Classic registreras exportjobb på jobbskärmen.
 
 **Exportera resurser från Dynamic Media Classic**
 
