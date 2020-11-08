@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium {#integrating-dmc-with-target}
 
-Innan du kan integrera [!DNL Dynamic Media Classic] med [!DNL Target Standard/Premium]måste du ange din Target-URL i fönstret [!DNL Dynamic Media Classic] Allmänt om programmet. Följ de här stegen för att hämta din Target-URL och ange den i fönstret Allmänna inställningar för programmet:
+Innan du kan integrera [!DNL Dynamic Media Classic] med [!DNL Target Standard/Premium]måste du ange mål-URL:en på skärmen Allmänna inställningar i [!DNL Dynamic Media Classic] programmet. Följ de här stegen för att hämta mål-URL:en och ange den i fönstret Allmänna inställningar för programmet:
 
 1. Logga in [!DNL Adobe Experience Cloud]på ditt [!DNL Target Standard/Premium] konto.
 1. När du har loggat in kopierar du URL:en till och med *.com* i webbläsarens adressfält.
