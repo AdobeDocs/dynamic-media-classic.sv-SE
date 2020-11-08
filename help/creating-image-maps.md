@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 0%
@@ -51,7 +51,7 @@ När du skapar bildscheman kan du göra något av följande:
 
    **Polygonkarta** Välj verktyget Polygonbildschema och klicka på punkter vid omkretsen av det område i bilden som du vill omsluta. Använd reglaget för polygondensitet för att ändra polygonens punktdensitet. Den ursprungliga densiteten sparas om du väljer andra kartor. Om en punkt läggs till, tas bort eller flyttas i polygonen, försvinner den ursprungliga densiteten och reglaget återställs till sitt högsta värde.
 
-1. Ange ett namn för bildschemat, om du vill, i listan Bildschema. När du har ritat en bildschema får den ett namn i Dynamic Media Classic.
+1. Ange ett namn för bildschemat, om du vill, i listan Bildschema. När du har ritat en bildschema får den ett namn av Dynamic Media Classic.
 
    För att skapa namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den bild- eller eCatalog-sida som du arbetar med. Du kan ange ett namn.
 
@@ -144,7 +144,7 @@ Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg
 * URL-värde: `product.htm`
 * Faktisk URL som genererats: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Som standard innehåller URL-mallen en egen JavaScript-hanterare för Dynamic Media Classic som kallas `loadProduct` för att öppna ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Dynamic Media Classic-hanterare:
+Som standard innehåller URL-mallen en egen Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` för att öppna ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Dynamic Media Classic-hanterare:
 
 * `loadProductCW`
 
@@ -154,7 +154,7 @@ Som standard innehåller URL-mallen en egen JavaScript-hanterare för Dynamic Me
 
    Visar URL-målet som anges i URL-kolumnen i det överordnade fönstret (sidan som öppnade det aktuella fönstret). Det aktuella fönstret förblir öppet, men det överordnade fönstret ändras så att URL-målet visas.
 
-   ***Obs **! Hanteraren`loadProductPW`stöder inte DHTML- och HTML5-visningsprogram.*
+   ***Obs **! Hanteraren `loadProductPW` stöder inte DHTML- och HTML5-visningsprogram.*
 
 ### Creating a URL template {#creating-a-url-template}
 
@@ -194,9 +194,9 @@ Välj menyn Visa och välj Båda om du vill att en bildschema ska innehålla bå
 
 Du kan skapa bildscheman när du utformar din e-katalog i Adobe Acrobat eller Adobe InDesign.
 
-I Acrobat eller InDesign skapar du hyperlänksreferenser där du vill att bildscheman ska visas, och anger URL-adresser för bildschemat. Om du väljer alternativet Extrahera länkar när du överför PDF-filen till Dynamic Media Classic konverteras länkarna automatiskt till Bildscheman.
+I Acrobat eller InDesign skapar du hyperlänksreferenser där du vill att bildscheman ska visas och anger URL-adresser för bildschemat. Om du väljer alternativet Extrahera länkar när du överför PDF-filen till Dynamic Media Classic konverteras länkarna automatiskt till Bildscheman.
 
-Mer information finns i hjälpen för InDesign eller Acrobat.
+Mer information finns i hjälpen för InDesign och Acrobat.
 
 ### Skapa bildscheman i Adobe InDesign {#to-create-image-maps-in-adobe-indesign}
 
@@ -212,7 +212,7 @@ Mer information finns i hjälpen för InDesign eller Acrobat.
 
 1. Upprepa steg 2 till 5 för alla bildscheman som du vill skapa.
 1. Exportera filen som en PDF-fil.
-1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar under PDF-alternativ.
+1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar från PDF-alternativen.
 
 ### Skapa bildscheman i Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
@@ -227,5 +227,5 @@ Mer information finns i hjälpen för InDesign eller Acrobat.
 1. Skriv produkt-id:t för bildschemat i rutan Redigera URL och klicka på OK. (Dynamic Media Classic slutför URL:en med hjälp av URL-mallen för bildscheman.)
 1. Upprepa steg 1 till 7 för alla bildscheman som du vill skapa.
 1. Spara filen.
-1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar under PDF-alternativ.
+1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar från PDF-alternativen.
 
