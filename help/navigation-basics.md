@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Navigeringsgrunder{#navigation-basics}
 
-Skärmen Dynamic Media Classic innehåller tre huvudområden: Global Navigation bar, Asset Library, and Browse Panel/Build Panel.
+Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation bar, Asset Library, and Browse Panel/Build Panel.
 
 ![Navigeringsgrunder](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -34,7 +34,7 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 **Skapa** Välj en byggåtgärd på menyn. Panelen Skapa öppnas så att du kan skapa en resurstyp.
 
-**Publicera** Öppnar publiceringsskärmen så att du kan publicera mediefiler till Dynamic Media Image Servers och resten av Dynamic Media Classic SAAS Infrastructure. Se Publicera.
+**Publicera** Öppnar publiceringsskärmen så att du kan publicera mediefiler till dynamiska mediabildsservrar och resten av Dynamic Media Classic SAAS-infrastrukturen. Se Publicera.
 
 **Jobb** Öppnar skärmen Jobb så att du kan undersöka poster för överförings- och publiceringsjobb.
 
