@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
@@ -95,7 +95,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) ma
 
 ## Anpassa innehållsförteckningen {#customizing-the-table-of-contents-toc}
 
-I Dynamic Media Classic finns standardsidnummer i din eCatalog på fliken Ordna sidor på skärmen eCatalog. För anpassade sidnamn kan du ändra de sidetiketter som utgör innehållsförteckningen. Vi rekommenderar att du byter namn på framsidan och baksidan. Försättsbladet kan t.ex. vara &quot;Omslag&quot; i stället för &quot;Sida 0-1&quot;.
+Dynamic Media Classic innehåller standardsidnummer i din eCatalog på fliken Ordna sidor på skärmen eCatalog. För anpassade sidnamn kan du ändra de sidetiketter som utgör innehållsförteckningen. Vi rekommenderar att du byter namn på framsidan och baksidan. Försättsbladet kan t.ex. vara &quot;Omslag&quot; i stället för &quot;Sida 0-1&quot;.
 
 Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt eller genom att importera sidnamnen från en CSV- (endast Mac) eller XML-fil.
 
@@ -111,7 +111,7 @@ Om du vill ange sidnamn manuellt, en åt gången, går du till fliken Ordna sido
 
 Du bör importera sidnamn om du har att göra med en e-katalog med många sidor. Du kan importera namnen från en tabbavgränsad fil eller XML-fil.
 
-Innehållsförteckningsetiketten lagras i ett användardatafält för en bild. formatera dessa data som en lista över `name=<value>` ` pairs separated by two question marks “??” `. Om du till exempel vill ange en etikett för ett innehållsförteckningsfält med namnet tocEN anger du användardata för bilden till:
+Innehållsförteckningsetiketten lagras i en bilds fält för användardata. formatera dessa data som en lista över `name=<value>` ` pairs separated by two question marks “??” `. Om du till exempel vill ange en etikett för ett innehållsförteckningsfält med namnet tocEN anger du användardata för bilden till:
 
 tocEN=&lt;EN_page_label>
 
