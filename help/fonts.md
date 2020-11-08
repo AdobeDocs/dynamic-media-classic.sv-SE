@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -25,7 +25,7 @@ I vissa fall kräver Dynamic Media Classic att du överför en teckensnittsfil f
 Dynamic Media Classic stöder följande teckensnittstyper:
 
 * Alla TrueType-teckensnitt
-* PostScript®-teckensnitt
+* PostScript®
 * OpenType/TrueType-teckensnitt
 * OpenType/PostScript-teckensnitt
 * PhotoFonts
@@ -34,11 +34,11 @@ När en teckensnittsfil har överförts kan du ändra dess Dynamic Media Classic
 
 >[!NOTE]
 >
->Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. De här teckensnittsformaten behövs för att bearbeta begäranden i Dynamic Media Classic. Du bör även överföra alla PostScript-/Adobe Type 1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
+>Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Dynamic Media Classic behöver dessa teckensnittsformat för att bearbeta begäranden. Du bör även överföra alla PostScript-/Adobe Type 1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
 
 ## Överför teckensnittsfiler {#uploading-font-files}
 
-Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i valfri Dynamic Media Classic-mapp. Se [Överföra filer](uploading-files.md#uploading_your_files).
+Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i alla dynamiska Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
 
 ## Redigera teckensnittsfilinformation {#editing-font-file-information}
 
@@ -62,8 +62,8 @@ I panelen Bläddra markerar du den teckensnittsfil som du vill redigera i vyn De
 
 **TTF** TrueType-teckensnittsfiler som används för PDF/PostScript-återgivning och bildvisning.
 
-**AFM** Adobe PostScript-teckensnittsfiler som innehåller Adobe Font Metrics-information och används för bildvisning.
+**AFM** Adobe PostScript teckensnittsfiler som innehåller Adobe-teckensnittsmått och används för bildvisning.
 
-**PFM** Adobe PostScript-teckensnittsfiler som innehåller binär teckensnittsmätningsinformation.
+**PFM** Adobe PostScript teckensnittsfiler som innehåller binär teckensnittsmätningsinformation.
 
-**PFB** Adobe PostScript-teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
+**PFB** Adobe PostScript teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
