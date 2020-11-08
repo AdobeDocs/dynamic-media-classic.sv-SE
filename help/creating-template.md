@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3441'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Om du vill skapa en mall klickar du på Skapa > Grundläggande om mallar. Välj 
 
 >[!NOTE]
 >
->Om du redigerar en mall som har skapats i en tidigare version av Dynamic Media Classic kan du få ett meddelande när du sparar med frågan&quot;Vill du lägga till ett arbetsytelager?&quot; Välj Nej om du inte vill lägga till ett nytt baslager. Om du av misstag väljer Ja tar du bort modifieringarna &quot;&amp;allowCanvasPrompt&quot; och &quot;&amp;layer=0&quot; i URL:en och trycker på Retur.
+>Om du redigerar en mall som har skapats i en tidigare version av Dynamic Media Classic kan du få ett meddelande när du sparar med frågan&quot;Vill du lägga till ett lager på arbetsytan?&quot; Välj Nej om du inte vill lägga till ett nytt baslager. Om du av misstag väljer Ja tar du bort modifieringarna &quot;&amp;allowCanvasPrompt&quot; och &quot;&amp;layer=0&quot; i URL:en och trycker på Retur.
 
 ## Skapa den ursprungliga mallen {#creating-the-initial-template}
 
@@ -102,7 +102,7 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
 **Textredigerare v4.3 och textredigerare v4.2** Du kan välja att använda den senaste och mest avancerade textredigeraren, textredigeraren v4.3 eller den tidigare textredigeraren, textredigeraren v4.2. När du skapar nya mallar väljs textredigeraren v4.3 som standard. När du redigerar äldre mallar väljs textredigeraren v4.2 som standard. Textredigeraren v4.3 stöder för närvarande inte automatisk radbrytning, så när du redigerar äldre mallar som använder automatisk radbrytning bör du använda textredigeraren v4.2 för att behålla mallens återgivning helt intakt. Om den äldre mallen inte använder automatisk radbrytning kan du välja textredigeraren v4.3 för att utnyttja alla nya funktioner som den har, till exempel Öka marginaler, Minska marginaler, Ange text i versaler och Kopiera textpassning.
 
-***Obs **! Textredigeraren v4.2 kommer att tas bort som ett alternativ i Dynamic Media Classic, så du bör använda textredigeraren 4.3 när det är möjligt. Alternativet Radbrytning kommer att ingå i en framtida version av textredigeraren.*
+***Obs **! Textredigeraren v4.2 kommer till slut att tas bort som ett alternativ i Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. Alternativet Radbrytning kommer att ingå i en framtida version av textredigeraren.*
 
 **Designer och utvecklare** Välj det alternativ som bäst beskriver din roll.
 
@@ -208,7 +208,7 @@ Så här formaterar du text i ett textlager:
 
    **Position** Anger textrutans plats på arbetsytan.
 
-   **Utfyllnad** Lägger till marginaler eller beskär lagrets rektangel. Ange antalet pixlar som ska läggas till eller tas bort för Vänster, Upptill, Underkant och Höger. Ange positiva tal för att lägga till en marginal. ange negativa tal som ska beskäras.
+   **Utfyllnad** Lägger till marginaler eller beskär lagerrektangeln. Ange antalet pixlar som ska läggas till eller tas bort för Vänster, Upptill, Underkant och Höger. Ange positiva tal för att lägga till en marginal. ange negativa tal som ska beskäras.
 
 ### Visa och redigera textkällkod {#view-and-edit-text-source-code}
 
@@ -261,7 +261,7 @@ Om du vill ändra positionen för ett lager på arbetsytan markerar du lagrets n
 
 **Flytta pekaren** till en position som ändras manuellt, men inte över en lagergräns. När du ser den fyrhövdade pilmarkören klickar du och börjar dra.
 
-**Ange förskjutningsmått** för position Ange förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för fästpunkten i pixlar.
+**Ange förskjutningsmått** för position Ange förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för ankarpunkten i pixlar.
 
 **Rotera ett lager**
 
@@ -289,7 +289,7 @@ Om du vill välja bakgrundsfärg, opacitet och blandningsläge för ett lager el
 
 **Opacitet** Dra reglaget Opacitet om du vill göra ett lager genomskinligt så att en del av den underliggande bilden syns igenom. Inställningen på 100 procent är helt ogenomskinlig. 0-inställningen är genomskinlig.
 
-**Blandningsläge** Välj ett alternativ för att simulera ett av de blandningslägen som finns i Photoshop. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm. De här alternativen är tillgängliga för lager, inte för arbetsytan.
+**Blandningsläge** Välj ett alternativ för att simulera ett av de blandningslägen som är tillgängliga i Photoshop. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm. De här alternativen är tillgängliga för lager, inte för arbetsytan.
 
 ## Använda skugg- och glödeffekter på lager {#using-shadow-and-glow-effects-on-layers}
 
@@ -326,7 +326,7 @@ Om du vill justera en skugg- eller glödeffekt börjar du med att markera dess n
 
 **Opacitet** Ange hur intensiv effekten är genom att dra i skjutreglaget. Mindre ogenomskinliga effekter är mer genomskinliga.
 
-**Blandningsläge** Välj ett alternativ för att simulera ett av de blandningslägen som finns i Photoshop. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm.
+**Blandningsläge** Välj ett alternativ för att simulera ett av de blandningslägen som är tillgängliga i Photoshop. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm.
 
 **Storlek** Ange mått i rutan X och Y för att förstora eller förminska skuggeffekten. Storleksalternativ är bara tillgängliga för inre skuggor och skuggor.
 
