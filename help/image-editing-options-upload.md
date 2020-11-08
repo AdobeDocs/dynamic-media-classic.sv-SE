@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Välj ett färgprofilsalternativ för att välja en färgrymd för bilden:
 
 * **Behåll ursprunglig färgrymd** Behåller den ursprungliga färgrymden.
 
-* **Anpassa från > Till**&#x200B;öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överförde till Dynamic Media Classic.
+* **Anpassa från > Till**&#x200B;öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överfört till Dynamic Media Classic.
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
@@ -71,13 +71,13 @@ Välj **Skapa mask från urklippsbana** om du vill skapa en mask för bilden uti
 
 Med det här filtret kan du finjustera en skärpefiltereffekt på den slutliga nedsamplade bilden, styra intensiteten i effekten, radien för effekten (mätt i pixlar) och ett kontrasttröskelvärde som ignoreras.
 
-Den här effekten använder samma alternativ som filtret Oskarp mask i Photoshop. Till skillnad från vad namnet antyder är Oskarp mask ett skärpefilter.
+Den här effekten använder samma alternativ som Photoshop Oskarp mask-filter. Till skillnad från vad namnet antyder är Oskarp mask ett skärpefilter.
 
 Under Oskarp mask anger du önskade alternativ. Inställningsalternativen beskrivs i följande tabell:
 
 | Oskarp mask, alternativ | Beskrivning |
 |--- |--- |
-| Belopp | Styr mängden kontrast som används på kantpixlar.<br><br>Tänk på det som intensiteten i effekten. Den största skillnaden mellan mängden oskarp mask i Dynamic Media Classic och mängden värden i Adobe Photoshop är att det finns ett intervall mellan 1 % och 500 % i Photoshop. I Dynamic Media Classic är värdeintervallet 0,0 till 5,0. Värdet 5.0 i Dynamic Media Classic motsvarar 500 % i Photoshop. värdet 0,9 motsvarar 90 % och så vidare. |
+| Belopp | Styr mängden kontrast som används på kantpixlar.<br><br>Tänk på det som intensiteten i effekten. Den största skillnaden mellan mängdvärdena för Oskarp mask i Dynamic Media Classic och mängdvärdena i Adobe Photoshop är att Photoshop har ett intervall på 1 till 500 %. I Dynamic Media Classic är värdet mellan 0,0 och 5,0. Värdet 5.0 i Dynamic Media Classic motsvarar 500 % i Photoshop. värdet 0,9 motsvarar 90 % och så vidare. |
 | Radie | Styr radien för effekten. <br><br>Värdeintervallet är 0-250. Effekten körs på alla pixlar i en bild och strålar ut från alla pixlar i alla riktningar. Radien mäts i pixlar. Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar anger du en radie på två pixlar för bilden på 2 000 x 2 000 pixlar och ett radievärde på en pixel för bilden på 500 x 500 pixlar . Ett större värde används för en bild som har fler pixlar. |
 | Tröskelvärde | Tröskelvärde är ett kontrastintervall som ignoreras när filtret Oskarp mask används. Detta är viktigt så att inget &quot;brus&quot; uppstår i en bild när filtret används. Värdeintervallet är 0-255, vilket är antalet intensitetssteg i en gråskalebild. 0=svart, 128=50% grått och 255=vitt.<br><br>Ett tröskelvärde på 12 ignorerar t.ex. små variationer i hudtonens ljusstyrka för att undvika att lägga till brus, men ändå ger kantkontrast till kontrastområden som där ögonfransarna möts av hud.<br><br>Om du t.ex. har ett foto av någons ansikte påverkar Oskarp mask de kontrastrika delarna av bilden, t.ex. där ögonfransar och hud möts för att skapa ett tydligt kontrastområde och den utjämnade huden. Även den jämnaste huden uppvisar subtila förändringar i intensitetsvärden. Om du inte använder ett tröskelvärde framhäver filtret dessa subtila ändringar i hudpixlar. I sin tur skapas en högljudd och oönskad effekt medan kontrasten på ögonfransarna ökar, vilket ökar skärpan.<br><br>För att undvika det här problemet introduceras ett tröskelvärde som instruerar filtret att ignorera pixlar som inte förändrar kontrasten dramatiskt, som mjuk hud. <br><br>Lägg märke till texturen bredvid dragkedjan i zippargrafiken som visades tidigare. Bildbrus visas eftersom tröskelvärdena var för låga för att undertrycka bruset. |
 | Monokrom | Markera för att få bildintensiteten oskarp mask (intensitet).<br><br>Avmarkera alternativet om du vill skapa en oskarp mask för varje färgkomponent separat. |
