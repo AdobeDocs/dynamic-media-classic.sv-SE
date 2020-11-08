@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Konfigurera förinställningar för eCatalog Viewer{#setting-up-ecatalog-viewer-presets}
 
-eCatalog Viewer Presets avgör format, beteende och utseende för eCatalog-visningsprogram. I Dynamic Media Classic finns förinställningar för eCatalog Viewer, och du kan även skapa egna eCatalog Viewer-förinställningar om du är administratör.
+eCatalog Viewer Presets avgör format, beteende och utseende för eCatalog-visningsprogram. Dynamic Media Classic innehåller förinställningar för eCatalog Viewer och du kan skapa egna förinställningar för eCatalog Viewer om du är administratör.
 
-Om du vill skapa en ny förinställning kan du börja från början eller börja med en förinställning för visningsprogrammet för Dynamic Media Classic och spara den med ett nytt namn. Du kan skapa egna visningsförinställningar för eCatalog för att presentera utskrivet material i företagets färger och ställa in tonen.
+Om du vill skapa en ny förinställning kan du börja från början eller börja med en dynamisk Media Classic-förinställning för eCatalog Viewer och spara den under ett nytt namn. Du kan skapa egna visningsförinställningar för eCatalog för att presentera utskrivet material i företagets färger och ställa in tonen.
 
 Förinställningar för eCatalog Viewer ger många inställningar för att gå från sida till sida, zooma, söka och välja&quot;skal&quot;. Hur dessa kontroller ser ut och hur själva visningsprogrammet ser ut beror på vad du väljer bland förinställningarna för visningsprogrammet för eCatalog.
 
@@ -51,7 +51,7 @@ Så här skapar du en eCatalog Viewer-förinställning (du måste vara administr
    | `$2$` | frame | Sekvensnumret för den bildruta som visas i bilduppsättningen. |
    | `$3$` | imageroot | Det första sökvägselementet i det första objektet som anges i bildkommandot (vanligtvis bildkatalog-ID:t för den katalogpost som anger bilduppsättningen). |
 
-1. (Valfritt) I inställningarna för informationspanelen skriver du den text som du vill ska visas i rutan Svarsmall om ett fel uppstår när information för ett bildschema hämtas i Dynamic Media Classic. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
+1. (Valfritt) I inställningarna för informationspanelen skriver du den text som du vill ska visas i rutan Svarsmall om det uppstår ett fel när information för ett bildschema hämtas. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
 
 >[!NOTE]
 >
