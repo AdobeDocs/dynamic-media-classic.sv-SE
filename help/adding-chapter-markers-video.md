@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -68,23 +68,23 @@ Se [WebVTT: Textspårningsformatet](https://dev.w3.org/html5/webvtt/)för webbvi
 
    Vanligtvis vill du ge kapitlet VTT-filen samma namn som videofilen och bifoga den med `chapters`. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll.
 
-1. Överför din WebVTT-kapitelfil till Dynamic Media Classic.
+1. Ladda upp din WebVTT-kapitelfil i Dynamic Media Classic.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
 1. Navigera till resursmappen som innehåller den videofil som du vill associera med den överförda kapitelfilen i panelen Resursbibliotek på vänster sida.
-1. Markera en enskild videoresurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** nedanför miniatyrbilden av resursen.
+1. Markera en enskild videoresurs på panelen Resursbläddring och klicka sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden för resursen.
 1. Leta reda på HTML5-visningsprogrammet med namnet **Univeral_HTML5_Video** i tabellen Visningsprogramlista och gör sedan något av följande:
 
-   * Om du vill visa en popup-video klickar du på **Kopiera URL** längst till höger om namnet.
+   * Om du vill visa en popup-video klickar du längst **[!UICONTROL Copy URL]** till höger om namnet.
 
       Lägg till den kopierade URL:en för videon med följande syntax för att associera den med den kopierade URL:en till bildtextfilen:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Om du vill visa en inbäddad video klickar du på **Bädda in kod** längst till höger om namnet.
+   * Om du vill visa en inbäddad video klickar du längst **[!UICONTROL Embed Code]** till höger om namnet.
 
-      I dialogrutan Bädda in kod klickar du på **Kopiera till Urklipp**.
+      Klicka på **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
       För HTML5- `Universal_HTML5_Video` visningsprogrammet lägger du till den kopierade inbäddningskoden med följande:
 
