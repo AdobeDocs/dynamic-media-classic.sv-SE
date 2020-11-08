@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '61'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Så här skriver du ut en resurs:
 
-1. På panelen Bläddra väljer du den eller de resurser som du vill skriva ut.
+1. Markera den eller de resurser som du vill skriva ut på panelen Bläddra.
 1. Välj Arkiv > Skriv ut eller tryck på Ctrl+P (Windows) eller Kommando+P (Macintosh).
 1. I dialogrutan Skriv ut väljer du hur många kopior du vill skriva ut och sedan knappen Skriv ut.
 
