@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Du kan använda Adobe Analytics Instrumentation Kit för att integrera ett HTML5-visningsprogram med Adobe Analytics.
 
-Om du använder någon av de fördefinierade visningsförinställningarna för Dynamic Media Classic HTML5 bör du vara medveten om att de redan innehåller all implementeringskod som behövs för att skicka data till Adobe Analytics. Du behöver inte använda någon ytterligare instrumentering.
+Om du använder någon av de fördefinierade visningsinställningarna för Dynamic Media Classic HTML5 bör du vara medveten om att de redan innehåller all implementeringskod som behövs för att skicka data till Adobe Analytics. Du behöver inte använda någon ytterligare instrumentering.
 
-## Konfigurera Adobe Analytics-spårning från Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Konfigurera Adobe Analytics tracking från Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 För alla HTML5-visningsprogram lägger du till följande JavaScript i HTML-behållaren, vanligtvis i elementet &lt;head>:
 
