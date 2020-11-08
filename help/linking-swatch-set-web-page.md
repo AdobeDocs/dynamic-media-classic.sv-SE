@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 0%
@@ -49,7 +49,7 @@ När du har publicerat en färgruteuppsättning kan du använda dess URL-adress 
 
 Det vanligaste sättet att distribuera färgruteuppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (ASP eller JSP) som visar uppsättningen med färgrutor i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i Adobe Viewer Reference Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)för visningsprogram för Adobe.
 
 ## Kopiera inbäddningskoden för ett visningsprogram för färgrutor {#copying-the-embed-code-of-a-swatch-set-viewer}
 
