@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2159'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Skärpa är en bildändringsteknik som används för att göra konturerna i en digital bild mer distinkta. Skärpa ökar kontrasten mellan kantpixlar och framhäver övergången mellan mörka och ljusa områden. Skärpa ökar lokal kontrast och ger detaljskärpa. Det finns ingen strikt formel för att göra alla bilder skarpare. För lite skärpa kan skapa en mjuk bild, men för mycket skärpa ger haloeffekter, artefakter och brus.
 
-Dynamic Media Classic rekommenderar att du använder bildförinställningar för alla bilder. Detta garanterar en enhetlig storlek och skärpa används på alla bilder som kallas för bildförinställningar. Dessutom kan du enkelt redigera och ändra en bildförinställnings skärpeparametrar. Nästa gång du publicerar får alla bilder som anropas med den förinställningen de nya värdena.
+Du bör använda bildförinställningar för alla bilder i Dynamic Media Classic. Detta garanterar en enhetlig storlek och skärpa används på alla bilder som kallas för bildförinställningar. Dessutom kan du enkelt redigera och ändra en bildförinställnings skärpeparametrar. Nästa gång du publicerar får alla bilder som anropas med den förinställningen de nya värdena.
 
 Dynamic Media Classic rekommenderar också att du lägger till skärpa i visningsförinställningar och sedan anropar ett visningsprogram med den förinställningen. Detta gör att bilderna i tittarna blir skarpa och tilltalande.
 
@@ -30,17 +30,17 @@ Oavsett om du använder bildförinställningar och visningsförinställningar, e
 
 >[!NOTE]
 >
->Kommandona Skärpa åsidosätter inställningarna för bildförinställningar, inklusive deras skärpeeffekter. En bildförinställning styr storleken och formateringen som bilder levereras med från Dynamic Media bildservrar. Dynamic Media Classic rekommenderar att du använder bildförinställningar för att leverera alla bilder så att du är säker på att bilderna får samma storlek och skärpa. När skärpeinställningarna för en enskild bild har ändrats gäller skärpeinställningarna inte längre för bilden. Den levereras utan skärpeinställningar för bildförinställningar.
+>Kommandona Skärpa åsidosätter inställningarna för bildförinställningar, inklusive deras skärpeeffekter. En bildförinställning styr storleken och formateringen som bilder levereras med från dynamiska mediabildsservrar. Dynamic Media Classic rekommenderar starkt att du använder bildförinställningar för att leverera alla bilder, så att du kan vara säker på att bilderna levereras med samma storlek och skärpa. När skärpeinställningarna för en enskild bild har ändrats gäller skärpeinställningarna inte längre för bilden. Den levereras utan skärpeinställningar för bildförinställningar.
 
-Det är ofta nödvändigt att göra bilder skarpare. I Dynamic Media Classic och Bildservrar finns flera alternativ för skärpa. Det är viktigt att du förstår vad skärpa gör i en bild och hur mycket skärpa du behöver. De flesta bilder behöver skärpa, men mängden som krävs beror på bilden.
+Det är ofta nödvändigt att göra bilder skarpare. Dynamic Media Classic och Image Servers erbjuder flera skärpealternativ. Det är viktigt att du förstår vad skärpa gör i en bild och hur mycket skärpa du behöver. De flesta bilder behöver skärpa, men mängden som krävs beror på bilden.
 
 Bildskärpa ökar pixlarnas kontrast för att skapa effekten av framhävda kanter. Människan uppfattar den här förbättrade kantkontrasten som skärpa. Det är enkelt att förbättra en bild genom att köra skärpefilter på en bild, men det är också enkelt att öka skärpan i en bild för mycket.
 
 Om du ökar skärpan i en bild för mycket skapas en ljusgårdseffekt, eller ränder från kantens linjer.
 
-Det finns god praxis som du kan följa för att optimera skärpan i dina bilder i Dynamic Media Classic och i Dynamic Media Image Server.
+Det finns god praxis som du kan följa för att optimera skärpan i dina bilder i Dynamic Media Classic och på Dynamic Media Image Server.
 
-Mer information finns i [Bästa tillvägagångssätt för att öka skärpan i bilder i Dynamic Media Classic och i Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
+Mer information finns i [Bästa tillvägagångssätt för att öka skärpan i bilder i Dynamic Media Classic och på Dynamic Media Image Server](/help/assets/s7_sharpening_images.pdf).
 
 **Göra en bild skarpare**
 
@@ -70,13 +70,13 @@ Välj menyn Skärpa och välj ett alternativ:
 
 Välj följande alternativ för att finjustera skärpan med Oskarp mask:
 
-**Mängd** Styr mängden kontrast som används på kantpixlar. Standardvärdet är 0,0. För högupplösta bilder kan du öka den till upp till 5.0. Tänk på Mängd som ett mått på filterintensiteten. Tänk på att inställningen Mängd i Dynamic Media Classic inte är densamma som inställningen Mängd i Photoshop. I Photoshop används ett värde mellan 1 % och 500 %, medan Dynamic Media Classic skalas från 0,0 till 5,0. (5.0 motsvarar ungefär 500 % i Photoshop, 0,9 motsvarar 90 % och så vidare.)
+**Mängd** Styr mängden kontrast som används på kantpixlar. Standardvärdet är 0,0. För högupplösta bilder kan du öka den till upp till 5.0. Tänk på Mängd som ett mått på filterintensiteten. Tänk på att inställningen Mängd i Dynamic Media Classic inte är densamma som inställningen Mängd i Photoshop. Photoshop använder en mängd mellan 1 % och 500 %, medan Dynamic Media Classic skalar från 0,0 till 5,0. (5.0 motsvarar ungefär 500 % i Photoshop, 0,9 motsvarar 90 % och så vidare.)
 
 **Radie** Anger antalet pixlar runt kantpixlarna som påverkar skärpan. Effekten körs på alla pixlar i bilden och strålar ut i alla riktningar.
 
 Det bästa radievärdet beror på bildens storlek. Med ett lågt värde ökas skärpan endast för kantpixlarna. Med ett högt värde ökas skärpan för ett större antal pixlar.
 
-Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar kan du ange radievärdet två pixlar för bilden på 2 000 x 2 000 pixlar. Ange sedan ett radievärde på en pixel i bilden med 500 x 500 pixlar (ett större värde för en bild med fler pixlar).
+Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar kan du ange radievärdet två pixlar för bilden på 2 000 x 2 000 pixlar. Ange sedan radien 1 pixel i bilden med 500 x 500 pixlar (ett större värde för en bild med fler pixlar).
 
 **Tröskelvärde** bestämmer vilket kontrastintervall som ska ignoreras när filtret för oskarp mask används. Med det här alternativet anger du hur olika de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och blir skarpare.
 
@@ -102,7 +102,7 @@ Välj menyn Omsampling och välj ett alternativ. Dessa alternativ gör bilden sk
 
 **Förinställningar för skärpa och bilder**
 
-Du kan blanda alla tre skärpeeffekterna för att uppnå det slutliga resultatet. Detta rekommenderas dock inte. I Dynamic Media Classic rekommenderas du att spara skärpeeffekterna som en del av en bildförinställning.Med bildförinställningar kan du paketera de vanligaste bildmodifieringarna för att skapa en bild med en dynamiskt ändrad storlek i en liten textsträng. En bildförinställning innehåller värden för filformatet (vanligtvis JPEG för webben), pixelantal och bildskärpa. I stället för att lägga till URL:en med varje bildmodifierare som behövs för att skapa en viss typ av bildstorlek, skapar du en namngiven bildförinställning, till exempel&quot;miniatyrbild&quot;, konfigurerar miniatyrbildsförinställningen med rätt storlek, filformat och skärpealternativ och anropar sedan bilden med namnet Bildförinställning. Bildförinställningar förkortar den övergripande URL:en.Dessa två URL:er ger samma 350 x 350 JPEG-bild med skärpa:
+Du kan blanda alla tre skärpeeffekterna för att uppnå det slutliga resultatet. Detta rekommenderas dock inte. Dynamic Media Classic rekommenderar att du sparar dina skärpeeffekter som en del av en bildförinställning.Med bildförinställningar kan du paketera de vanligaste bildmodifieringarna för att skapa en bild med dynamiskt storlek i en liten textsträng. En bildförinställning innehåller värden för filformatet (vanligtvis JPEG för webben), pixelantal och bildskärpa. I stället för att lägga till URL:en med varje bildmodifierare som behövs för att skapa en viss typ av bildstorlek, skapar du en namngiven bildförinställning, till exempel&quot;miniatyrbild&quot;, konfigurerar miniatyrbildens förinställning med rätt storlek, filformat och skärpealternativ och anropar sedan bilden med namnet Bildförinställning. Bildförinställningar förkortar den övergripande URL:en.Dessa två URL:er ger samma 350 x 350 JPEG-bild med skärpa:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -131,7 +131,7 @@ Om du vill ange företagets standardalternativ för skärpa går du till Instäl
 
 Om du inte lägger till bildmodifieringar för skärpa i förinställningen kan den lilla inledande inläsningsbilden se mjuk ut eftersom den nedsamplas så att den passar i visningsfönstret utan att skärpan ökas.
 
-I Dynamic Media Classic kan du använda visningsförinställningar (som bildförinställningar) till att centralisera många alternativ till en plats, bland annat välja skal och visningsalternativ (som att inkludera en Skriv ut-knapp eller styra zoomanimeringens hastighet). Förinställningar för visningsprogram finns i samma avsnitt som Bildförinställningar, under Konfigurera > Programinställningar > Visningsförinställningar.
+I Dynamic Media Classic kan du använda visningsförinställningar (som bildförinställningar) för att centralisera många alternativ till en plats, inklusive val av skal och visningsalternativ (som att inkludera en Skriv ut-knapp eller styra hastigheten på zoomanimeringen). Förinställningar för visningsprogram finns i samma avsnitt som Bildförinställningar, under Konfigurera > Programinställningar > Visningsförinställningar.
 
 Alternativet Modifierare (Modifierare) finns i avsnittet Core Settings (Grundinställningar) för alla förinställningar för eCatalog, Spin och Custom Zoom Viewer. Genom att lägga till kommandona för URL-skärpa i rutan Modifierare lägger du till skärpa varje gång som visningsprogrammet anropas med den förinställningen.
 
