@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
 ## Förhandsgranska bilduppsättningsresurser i ett visningsprogram {#previewing-image-set-assets-in-a-viewer}
 
-Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visningstyppplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogrammet som du har valt att förhandsgranska, är inte alla plattformar tillgängliga i förhandsvisningen.
+Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visningstyppplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogram som du har valt att förhandsgranska, är inte alla plattformar tillgängliga i förhandsvisningen.
 
 1. I panelen Resursbibliotek på vänster sida väljer du Bilduppsättning i listrutan Visa.
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster och markera den bilduppsättning som du vill förhandsgranska.
