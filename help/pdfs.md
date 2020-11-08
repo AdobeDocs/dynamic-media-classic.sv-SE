@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Arbeta med PDF-filer{#working-with-pdfs}
 
-PDF-filer (Portable Document Format) används oftast i Dynamic Media Classic för att skapa e-kataloger. När du överför en PDF-fil rastreras eller rips Dynamic Medias som standard så att sidorna kan användas för att skapa multimedia.
+PDF-filer (Portable Document Format) används oftast i Dynamic Media Classic för att skapa e-kataloger. När du överför en PDF-fil rastreras eller rips sidorna som standard så att sidorna kan användas för att skapa multimedia.
 
 ## Alternativ för PDF-överföring {#pdf-upload-options}
 
@@ -64,7 +64,7 @@ Välj ett färgprofilsalternativ:
 
 **Behåll ursprunglig färgrymd** Behåller den ursprungliga färgrymden.
 
-**Anpassad från > Till** öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överförde till Dynamic Media Classic.
+**Anpassad från > Till** öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överfört till Dynamic Media Classic.
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
