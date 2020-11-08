@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -27,10 +27,10 @@ Anta till exempel att du vill visa bilder med olika färgskalor; räkningarna ä
 ## Skapa en färgruteuppsättning {#create}
 
 När du skapar en uppsättning påverkar alternativet **Publicera efter spara** den och anger medlemmar på följande sätt:
-| Alternativet Publicera efter spara markerat innan du sparar?|Status för uppsättning efter att du sparat|Status för inställningsmedlemmar efter att du sparat|
+| Alternativet Publicera efter spara markerat innan du sparar?|Tillstånd för uppsättningen när den sparats|Tillstånd för angivna medlemmar efter sparande|
 |— |— |— |
 |Ja|Publicerad|Publicerad|
-|Ingen|Opublicerad|Ange medlemmar som behåller sitt publicerade eller opublicerade tillstånd.|
+|No|Unpublished|Ange att medlemmarna behåller sitt publicerade eller opublicerade tillstånd.|
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
 
@@ -49,7 +49,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) ma
 1. Om du vill ändra ordningen på bilderna i färgruteuppsättningen drar du bilderna till nya platser.
 1. Kontrollera att **Publicera efter spara** är markerat i sidans nedre högra hörn (standard).
 1. Klicka på **Spara**, välj en mapp där du vill spara färgruteuppsättningen, ange ett namn för uppsättningen och klicka på Skicka.
-1. Klicka på **Förhandsvisa** på skärmen Uppsättning med färgrutor om du vill visa din uppsättning i visningsprogrammet för färgrutor. Du kan klicka på miniatyrbilderna för färgrutor i Visningsprogrammet för färgrutor för att se hur de beter sig.
+1. Klicka på **Förhandsvisa** på skärmen Färgruteuppsättning för att visa din uppsättning i visningsprogrammet för färgrutor. Du kan klicka på miniatyrbilderna för färgrutor i Visningsprogrammet för färgrutor för att se hur de beter sig.
 
 ## Redigera en färgruteuppsättning {#editing-a-swatch-set}
 
