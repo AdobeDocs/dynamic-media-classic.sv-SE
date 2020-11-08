@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Länka en bilduppsättning till en webbsida{#linking-an-image-set-to-a-web-page}
 
-När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess inbäddningskod för användning på din webbplats eller i ditt program. Sedan kan du distribuera URL-adressen eller klistra in inbäddningskoden om det behövs så att användarna kan visa bilduppsättningen på din webbplats eller i ditt program.
+När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess inbäddningskod för användning på din webbplats eller i ditt program. Sedan kan du distribuera URL:en eller klistra in inbäddningskoden om det behövs så att användarna kan visa bilduppsättningen på din webbplats eller i ditt program.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess in
 
 Det vanligaste sättet att distribuera bilduppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (JSP) som visar bilduppsättningen i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i Adobe Viewer Reference Guide](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)för visningsprogram för Adobe.
 
 ## Kopiera inbäddningskoden för ett visningsprogram för bilduppsättning {#copying-the-embed-code-of-an-image-set-viewer}
 
-Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda bilduppsättningen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
+Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda bilduppsättningen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. 
 
 **Så här kopierar du inbäddningskoden för ett visningsprogram för bilduppsättning**
 
