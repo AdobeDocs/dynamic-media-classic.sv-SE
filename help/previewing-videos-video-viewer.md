@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 
 **Förhandsgranska videoklipp i ett videovisningsprogram**
 
-1. På panelen Resursbibliotek till vänster i listrutan Visa väljer du **Video** (enkodade videoklipp) eller **Adaptiv videouppsättning** (när den adaptiva videokodningsförinställningen används resulterar det i en uppsättning kodade videor med flera bithastigheter).
+1. På panelen Resursbibliotek till vänster i listrutan Visa väljer du **Video** (enkodade videoklipp) eller **Adaptiv videouppsättning** (när den adaptiva videokodningsförinställningen används resulterar det i en uppsättning kodade videoklipp med flera bithastigheter).
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster för att välja den video som du vill förhandsgranska.
 1. Gör något av följande
 
@@ -42,13 +42,13 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 
 >[!NOTE]
 >
->Dynamic Media Classic är ett praktiskt sätt att förhandsgranska MP4-video på skrivbordet. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det du ser i skrivbordsförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen, väljer Kopiera URL och anger den URL-adressen i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilwebbplatser](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Med Dynamic Media Classic kan du enkelt förhandsgranska MP4-video på skrivbordet. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det du ser i skrivbordsförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen, väljer Kopiera URL och anger den URL-adressen i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilwebbplatser](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Arbeta med förinställningar för visningsprogram för video {#working-with-video-viewer-presets}
 
 Användare ser videoklipp i Video Viewer. Hur visningsprogrammet för video beter sig, hur det ser ut och hur dess uppspelningskontroller fungerar beror på vilken visningsförinställning du väljer för att spela upp videon. Du väljer en visningsförinställning på förhandsgranskningsskärmen. När du har valt en förinställning kan du hämta URL-adressen eller inbäddningskoden för att spela upp videon med den visningsförinställning du har valt.
 
-Dynamic Media Classic innehåller många fördefinierade visningsförinställningar för uppspelning av video, och om du är administratör kan du skapa anpassade visningsförinställningar. Det finns mer än ett dussin olika inställningar för att konfigurera Video Viewer. Du kan konfigurera dess storlek, färg, video och ljud, förloppsindikator, användargränssnittets skal och sociala funktioner.
+Dynamic Media Classic innehåller många fördefinierade visningsförinställningar för videouppspelning, och om du är administratör kan du skapa anpassade visningsförinställningar. Det finns mer än ett dussin olika inställningar för att konfigurera Video Viewer. Du kan konfigurera dess storlek, färg, video och ljud, förloppsindikator, användargränssnittets skal och sociala funktioner.
 
 Se även [Förhandsvisa videofilmer i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
