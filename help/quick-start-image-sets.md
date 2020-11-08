@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 3%
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 # Snabbstart: Bilduppsättningar{#quick-start-image-sets}
 
-Dynamic Media Classic-bilduppsättningar ger användarna en integrerad visningsupplevelse. I visningsprogrammet för den dynamiska bilduppsättningen kan användare visa olika vyer av ett objekt genom att klicka på en miniatyrbild. Med bilduppsättningar kan du visa alternativa högupplösta vyer av ett objekt.
+Dynamic Media Classic Image Sets ger användarna en integrerad visningsupplevelse. I visningsprogrammet för den dynamiska bilduppsättningen kan användare visa olika vyer av ett objekt genom att klicka på en miniatyrbild. Med bilduppsättningar kan du visa alternativa högupplösta vyer av ett objekt.
 
 I Image Set Viewer finns zoomningsverktyg som gör att du kan undersöka bilder noggrant. Om du vill kan du göra guidade zoommål och bildscheman till en del av din bilduppsättning. Bilduppsättningar ger en mer samordnad och intimt tittarupplevelse.
 
@@ -28,9 +28,9 @@ Den här snabbstarten för bilduppsättningar är utformad för att komma igång
 
 **1. Överföra dina överordnad bilder för flera vyer och färgrutor**
 
-Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet bör du ta hänsyn till zoomning när du väljer bilder. Se till att bilderna har minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic stöder många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
+Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet bör du ta hänsyn till zoomning när du väljer bilder. Se till att bilderna har minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
 
-Klicka på knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
+Välj knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
 
 Se [Förbereda bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) och [överföring av filer](uploading-files.md#uploading-your-files).
 
@@ -60,7 +60,7 @@ Se [Förhandsvisa en resurs](previewing-asset.md#previewing-an-asset).
 
 **5. Publicera en bilduppsättning**
 
-När du publicerar en bilduppsättning placeras den på Dynamic Media Classic-servrar och URL-strängen aktiveras.
+När du publicerar en bilduppsättning placeras den på dynamiska Media Classic-servrar och URL-strängen aktiveras.
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ Se [Publicera](publishing-files.md#publishing-files).
 
 **6. Länka en bilduppsättning till din webbplats**
 
-I Dynamic Media Classic skapas URL-anrop för bilduppsättningar och de aktiveras när du har publicerat. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
+Dynamic Media Classic skapar URL-anrop för bilduppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
 
 Markera bilduppsättningen och klicka sedan på knappen Förhandsvisa. Förhandsgranskningsskärmen öppnas. Välj en förinställning för bilduppsättningsvisningsprogrammet och klicka på **Kopiera URL**.
 
