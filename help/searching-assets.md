@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Ange något av följande villkor i sökningen:
 
 **Ange sökvillkor för metadata** Skapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
 
-1. Öppna listan Metadatavy (till vänster om menyn Lägg till ett fält) och välj en metadatavy. Du kan välja en kompakt vy, IPTC, XMP eller en vy som administratören har konfigurerat.
+1. Öppna listan Metadatavy (till vänster om menyn Lägg till ett fält) och välj en metadatavy. Du kan välja komprimerad vy, IPTC, XMP eller en vy som administratören har konfigurerat.
 1. Välj menyn Lägg till ett fält och välj ett fältnamn i listrutan.
 1. Välj alternativet Innehåller (Innehåller, Innehåller inte, Börjar med, Slutar med eller Likhetstecken).
 1. För numeriska fält väljer du ett värde eller anger ett anpassat datumintervall.
@@ -155,7 +155,7 @@ Metadataserverns publiceringsskärm öppnas. På den här skärmen kan du ange f
 
 **Med Direktpublicering** överförs automatiskt alla metadataändringar när de görs, inklusive nya resurser, nyckelordsändringar och så vidare.
 
-**XMP-paket** Publicerar XMP-paket. Paketet används inte för sökning, men innehåller den senaste XMP/
+**XMP Packet** publicerar XMP. Det här paketet används inte för sökning, men innehåller det senaste XMP/
 
 **Nyckelord** Publicerar dina nyckelord till metadataservern för användning i sökningar.
 
