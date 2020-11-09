@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
-source-wordcount: '10974'
+source-wordcount: '10969'
 ht-degree: 3%
 
 ---
@@ -566,7 +566,7 @@ Följande tabell visar vilka mobilvisningsgester som stöds på iOS-, Android 2.
 
 ### Om skärmen med visningsförinställningar {#about-the-viewer-preset-screen}
 
-Skapa och hantera visningsförinställningar på skärmen Förinställningar för visningsprogram. Om du vill öppna den här skärmen klickar du på **Inställningar** > **Visningsförinställningar**.
+Skapa och hantera visningsförinställningar på skärmen Förinställningar för visningsprogram. Om du vill öppna den här skärmen klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
 Skärmen Förinställningar för visningsprogram innehåller verktyg för följande åtgärder:
 
@@ -587,7 +587,7 @@ Se [Exportera en HTML5 Viewer-förinställning](application-setup.md#exporting_a
 **Filtrera listan** med visningsförinställningar Använd dessa verktyg för att filtrera listan:
 
 * Öppna listrutan **Aktiv/Inaktiv** och välj ett alternativ för att visa aktiva förinställningar, inaktiva förinställningar eller alla förinställningar.
-* Öppna listrutan **Visningsprogram** och välj ett alternativ för att endast visa visningsprogram av en viss typ. Välj **Alla visningsprogram** om du vill visa alla visningsprogram.
+* Öppna listrutan **Visningsprogram** och välj ett alternativ för att endast visa visningsprogram av en viss typ. Välj **[!UICONTROL All Viewers]** om du vill se alla visningsprogram.
 
 **Sortera förinställningar** Klicka på en kolumnrubrik (Aktiv, Typ, Förinställning eller Plattform) för att sortera listan i en kolumn. Klicka på en kolumnrubrik en andra gång om du vill sortera listan i fallande (eller stigande) ordning.
 
@@ -909,7 +909,8 @@ När det inte krävs någon standardnamnkonvention för att använda funktionen 
    Du kan markera kryssrutan Visa kod om du vill visa värdeuppbyggnaden för reguljära uttryck tillsammans med dina formulärval. Du kan ange eller ändra dessa värden för att underlätta definitionen av elementen i namnkonventionen, om formulärvyn begränsar dig av någon anledning. Om dina värden inte kan tolkas i formulärvyn blir formulärfälten inaktiva.
 
    >[!NOTE]
-   Inaktiverade formulärfält indikerar inte ett ogiltigt reguljärt uttryck. Det finns ingen validering av att dina reguljära uttryck är korrekta. Resultaten av det reguljära uttryck som du skapar för varje element visas efter resultatraden. Det fullständiga reguljära uttrycket visas längst ned på sidan.
+   >
+   >Inaktiverade formulärfält indikerar inte ett ogiltigt reguljärt uttryck. Det finns ingen validering av att dina reguljära uttryck är korrekta. Resultaten av det reguljära uttryck som du skapar för varje element visas efter resultatraden. Det fullständiga reguljära uttrycket visas längst ned på sidan.
 
 1. Expandera varje element efter behov och ange de namnkonventioner som du vill använda.
 1. Om det behövs klickar du på **Lägg till** för att lägga till en annan namnkonvention för ett element. Du kan också klicka på **Ta bort** för att ta bort en namnkonvention för ett element.
@@ -1015,7 +1016,8 @@ När rotationsuppsättningen har överförts och publicerats aktiverar du namnet
    Kom ihåg att detta bara är exempel. Du kan skapa det reguljära uttrycket hur du vill.
 
    >[!NOTE]
-   Om kombinationen av reguljära uttryck för rader och kolumner inte kan avgöra positionen för resursen i den flerdimensionella spinset-arrayen, läggs resursen inte till i uppsättningen och ett fel loggas.
+   >
+   >Om kombinationen av reguljära uttryck för rader och kolumner inte kan avgöra positionen för resursen i den flerdimensionella spinset-arrayen, läggs resursen inte till i uppsättningen och ett fel loggas.
 
 1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Definiera också var bilduppsättningen ska skapas i mappstrukturen Dynamic Media Classic.
 
@@ -1025,8 +1027,9 @@ När rotationsuppsättningen har överförts och publicerats aktiverar du namnet
 1. Ladda upp och publicera din snurruppsättning som vanligt och se till att du aktiverar namnet på din 2D-snurruppsättning i dialogrutan Alternativ för jobbinläsning under Gruppera förinställningar.
 
 >[!MORELIKETHIS]
-* [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset)
-* [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets)
-* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-* [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files)
+>
+>* [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset)
+>* [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets)
+>* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files)
 
