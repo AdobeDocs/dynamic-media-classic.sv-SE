@@ -24,29 +24,29 @@ Dynamic Media Classic Swatch Sets ger användarna en integrerad visningsupplevel
 
 **Snabbstart**
 
-Den här snabbstarten för färgruteuppsättningar är utformad för att komma igång snabbt med tekniken för färgruteuppsättning i Dynamic Media Classic.
+Den här snabbstarten för färgruteuppsättningar är utformad för att du snabbt ska komma igång med tekniken för färgruteuppsättning i Dynamic Media Classic.
 
 **1. Överföra bilder och färgrutefiler**
 
 Börja med att ladda upp bilder och färgrutefiler för dina färgruteuppsättningar.
 
-Klicka på Överför i fältet Global navigering för att överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Förbereda färgrutor Ange resurser för](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)överföring och [överföring av filer](uploading-files.md#uploading-your-files).
+Klicka på Överför i det globala navigeringsfältet om du vill överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Förbereda resurser för färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)och [Överföra filer](uploading-files.md#uploading-your-files).
 
 **2. Skapa en färgruteuppsättning**
 
 Om du vill skapa en uppsättning med färgrutor klickar du på Skapa > Uppsättningar med färgrutor. Dra bilder och färgrutor till skärmen på panelen Uppsättning med färgrutor. Se [Skapa en färgruteuppsättning](creating-swatch-set.md#creating-a-swatch-set).
 
-**3. Konfigurera förinställningar för färgruteuppsättning för visningsprogram**
+**3. Konfigurera förinställningar för färgrutor Ange visningsprograminställningar**
 
 Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Dynamic Media Classic innehåller standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: Anpassad > Bilduppsättningar/Förinställningar för färgrutor om du vill visa dina färgruteuppsättningar.
 
-Se [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
+Se [Skapa och redigera visningsprogramförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
 **4. Förhandsvisa en färgruteuppsättning**
 
 Markera färgruteuppsättningen på panelen Bläddra och klicka sedan på Förhandsvisa. Din uppsättning med färgrutor visas på den här skärmen. Klicka på miniatyrbilds- och färgruteikonerna för att undersöka uppsättningen med färgrutor i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
 
-Se [Förhandsvisa en resurs](previewing-asset.md#previewing-an-asset).
+Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
 **5. Publicera en färgruteuppsättning**
 
