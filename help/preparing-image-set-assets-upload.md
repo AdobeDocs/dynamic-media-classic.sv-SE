@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Förbereder bilduppsättningsresurser för överföring{#preparing-image-set-assets-for-upload}
 
-Innan du överför bilderna som du behöver för bilduppsättningar till Dynamic Media Classic måste du kontrollera att bilderna har rätt storlek och format.
+Innan du överför de bilder du behöver för bilduppsättningar till Dynamic Media Classic bör du kontrollera att bilderna har rätt storlek och format.
 
 Om du vill skapa en bilduppsättning med flera vyer behöver du bilder som visar ett objekt från olika vypunkter eller visar olika aspekter av samma objekt. Målet är att framhäva de viktiga funktionerna i ett objekt så att läsarna får en fullständig bild av hur det ser ut eller gör.
 
