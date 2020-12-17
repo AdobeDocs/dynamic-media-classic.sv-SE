@@ -2,7 +2,7 @@
 title: Adobe Dynamic Media Classic - nu tillgängligt
 seo-title: Adobe Dynamic Media Classic - nu tillgängligt
 description: 'null'
-seo-description: Läs mer om Dynamic Media Classic för datorer.
+seo-description: Läs mer om Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -16,21 +16,21 @@ ht-degree: 0%
 ---
 
 
-# Ute nu: Skrivbordsappen Adobe Dynamic Media Classic {#dynamic-media-classic-desktop-app}
+# Ute nu: Adobe Dynamic Media Classic-datorprogrammet {#dynamic-media-classic-desktop-app}
 
-Dynamic Media Classic-användare har nu tillgång till en ny skrivbordsappsupplevelse som inte längre är beroende av Adobe Flash-teknik i webbläsaren.
+Dynamic Media Classic-användare har nu tillgång till en ny skrivbordsappsupplevelse som inte längre är beroende av Adobe Flash i webbläsaren.
 
 Den nya appen finns nu för Windows och macOS.
 
 >[!IMPORTANT]
 >
->Vi rekommenderar att du installerar det nya datorprogrammet Adobe Dynamic Media Classic senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player tas bort den 31 december 2020. På den tiden kommer du inte längre att kunna logga in på webbläsarversionen av användargränssnittet Adobe Dynamic Media Classic, som heter Dynamic Media Classic i produkten.
+>Vi rekommenderar att du installerar det nya Adobe Dynamic Media Classic-datorprogrammet senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player tas bort den 31 december 2020. På den tiden kommer du inte längre att kunna logga in på webbläsarversionen av användargränssnittet Adobe Dynamic Media Classic, som heter Dynamic Media Classic i produkten.
 
-Se Frågor och svar för den [nya Dynamic Media Classic-inloggningen.](/help/new-ui-2020.md)
+Se Frågor och svar för [Ny inloggningsupplevelse i Dynamic Media Classic är nu tillgänglig.](/help/new-ui-2020.md)
 
-## Systemkrav för datorprogrammet Adobe Dynamic Media Classic {#system-requirements-dmc-app}
+## Systemkrav för Adobe Dynamic Media Classic-datorprogrammet {#system-requirements-dmc-app}
 
-Skrivbordsappen Adobe Dynamic Media Classic är kompatibel med följande operativsystem:
+Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 * macOS X 10.10 eller senare.
 * Windows 7 eller senare.
 
@@ -50,11 +50,11 @@ Se även:
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
-1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic.
+1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
    >[!NOTE]
    >
-   >Användare som redan har installerat GA-versionen bör *avinstallera* den från det lokala Windows-systemet innan de installerar den senaste versionen. Eller så kan användarna helt enkelt *ersätta* den installerade GA-versionen i sina lokala macOS-system med den senaste versionen. Nya användare bör installera den senaste versionen direkt.
+   >Användare som redan har installerat GA-versionen bör *avinstallera* den från det lokala Windows-systemet innan de installerar den senaste versionen. Eller så kan användarna helt enkelt *ersätta den installerade GA-versionen på sina lokala macOS-system med den senaste versionen.* Nya användare bör installera den senaste versionen direkt.
 
    Den senaste versionen är 20.20.2 och finns på följande sida:
 
@@ -71,24 +71,24 @@ Se även:
 
 1. Gör något av följande baserat på det installationsprogram du hämtade.
 
-   * **För macOS** - Dra **[!UICONTROL Drag & drop to install]** och släpp det i **[!UICONTROL Adobe Dynamic Media Classic]** dialogrutan **[!UICONTROL Applications]**.
+   * **För macOS**  - Dra  **[!UICONTROL Drag & drop to install]** och släpp det i  **[!UICONTROL Adobe Dynamic Media Classic]** dialogrutan  **[!UICONTROL Applications]**.
 
       ![Dra och släpp installation i macOS](/help/assets/dragondrop-install1.png)
 
-   * Tryck på ikonen Adobe Dynamic Media Classic i **[!UICONTROL Applications]** mappen.
-   * Öppna Adobe Dynamic Media Classic-datorprogrammet genom **[!UICONTROL Open]** att trycka på i dialogrutan.
+   * Tryck på ikonen Adobe Dynamic Media Classic i mappen **[!UICONTROL Applications]**.
+   * I dialogrutan trycker du på **[!UICONTROL Open]** för att öppna Adobe Dynamic Media Classic-datorprogrammet.
 
       ![Öppna hämtat program](/help/assets/open-dmclassicapp1.png)
 
-   * **För Windows** - Kör installationsprogrammets binärfil och följ instruktionerna på skärmen för att installera skrivbordsappen.
+   * **För Windows**  - Kör installationsprogrammets binärfil och följ instruktionerna på skärmen för att installera skrivbordsappen.
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
-   ![Logga in med Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
 1. Använd samma inloggningsuppgifter som för webbläsaren för att logga in på Adobe Dynamic Media Classic.
 
-   Mer information om **[!UICONTROL Server]** hur du använder finns i följande mappning för produktionsmiljön:
+   Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
    |---|---|
@@ -98,14 +98,14 @@ Se även:
 
 1. När du publicerar användargränssnittet för inloggning kommer du att märka hur det fungerar i webbläsaren. Du kan utföra din dagliga aktivitet som vanligt nu i skrivbordsappens användargränssnitt.
 
-## Ladda ned och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på macOS {#install-silent-mac-dmc-app}
+## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på macOS {#install-silent-mac-dmc-app}
 
 Se även:
 
 * [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
 
-Så här hämtar och ** installerar du den senaste versionen av datorprogrammet Adobe Dynamic Media Classic i macOS:
+Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet i macOS:*
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
@@ -117,18 +117,18 @@ Så här hämtar och ** installerar du den senaste versionen av datorprogrammet 
 
    `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
 
-1. Kopiera APP-filen till **[!UICONTROL Applications]** med följande kommando:
+1. Kopiera .APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
    `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
 Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
-   ![Logga in med Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
 1. Använd samma inloggningsuppgifter som för webbläsaren för att logga in på Adobe Dynamic Media Classic.
 
-   Mer information om **[!UICONTROL Server]** hur du använder finns i följande mappning för produktionsmiljön:
+   Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
    |---|---|
@@ -136,20 +136,20 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows {#install-silent-windows-dmc-app}
+## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på Windows {#install-silent-windows-dmc-app}
 
-Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för det dynamiska Media Classic-datorprogrammet är dock ett installationsprogram för InstallScript MSI som skapats med InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallScript som skapats med InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Se även:
 
 * [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen på macOS](#install-silent-mac-dmc-app)
 
-Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Media Classic för Windows:
+Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Media Classic för Windows:*
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
-1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic.
+1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
    * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
@@ -157,9 +157,9 @@ Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Me
 
    `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
 
-1. I GUI-installationsfönstret följer du stegen för att installera så att interaktioner/indata, som installationsplatsen, registreras i `Setup.iss` filen.
+1. I GUI-installationsfönstret följer du stegen för att installera så att interaktioner/indata, som installationsplatsen, registreras i `Setup.iss`-filen.
 
-1. Kopiera den skapade `Setup.iss` filen och `adobe-dynamic-media-classic-20.20.2.exe` till en annan dator.
+1. Kopiera den skapade `Setup.iss`-filen och `adobe-dynamic-media-classic-20.20.2.exe` till en annan dator.
 
 1. Kör följande kommando för en tyst installation:
 
@@ -169,11 +169,11 @@ Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Me
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
-   ![Logga in med Dynamic Media Classic](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
 1. Använd samma inloggningsuppgifter som för webbläsaren för att logga in på Adobe Dynamic Media Classic.
 
-   Mer information om **[!UICONTROL Server]** hur du använder finns i följande mappning för produktionsmiljön:
+   Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
    |---|---|
@@ -182,17 +182,17 @@ Så här hämtar och ** installerar du den senaste versionen av Adobe Dynamic Me
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
 
-## Videogenomgång med Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
+## Videogenomgång när du använder Dynamic Media Classic-datorprogrammet {#dmc-app-video-walk-through}
 
-Titta på en [video om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter (36 sekunder).
+Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter (36 sekunder).
 
 ## Rensa bildcachen och resurscachen på datorn med skrivbordsappen
 
-1. I appen Dynamic Media Classic för datorer trycker du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** längst upp till höger.
-1. Gör något av följande på **[!UICONTROL Personal Setup]** sidan under **[!UICONTROL Desktop]** rubriken:
-   * Tryck för **[!UICONTROL Clear Image Cache]** att ta bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn. Tryck på **[!UICONTROL OK]**.
-   * Tryck för **[!UICONTROL Clear Asset Cache]** att ta bort alla mediefiler i Adobe Dynamic Media från datorn. Tryck på **[!UICONTROL OK]**.
-1. In the lower-right corner of the page, tap **[!UICONTROL Close]**.
+1. I Dynamic Media Classic-datorprogrammet trycker du **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** i det övre högra hörnet.
+1. Gör något av följande på sidan **[!UICONTROL Personal Setup]**, under rubriken **[!UICONTROL Desktop]**:
+   * Tryck på **[!UICONTROL Clear Image Cache]** för att ta bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn. Tryck på **[!UICONTROL OK]**.
+   * Tryck på **[!UICONTROL Clear Asset Cache]** om du vill ta bort alla cachelagrade resursfiler för Adobe Dynamic Media från datorn. Tryck på **[!UICONTROL OK]**.
+1. Tryck på **[!UICONTROL Close]** längst ned till höger på sidan.
 
 ### Rensa bildcachen och resurscachen manuellt
 
@@ -203,12 +203,12 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du även utfö
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Kända begränsningar i Dynamic Media Classic 20.20.1 (åtgärdat i 20.20.2)
+## Kända begränsningar i Dynamic Media Classic 20.20.1 (fast i 20.20.2)
 
 **_Gäller endast Windows - finns det en begränsning av antalet filer som kan överföras via skrivbordsappens användargränssnitt?_**<br>Ja, högst 150 filer kan överföras åt gången via skrivbordsappens användargränssnitt.
 
 **_Gäller Windows och macOS - Hur växlar jag mellan företag?_**<br>Så här byter du mellan företag:
-* I appen Dynamic Media Classic väljer du det nya företaget i listrutan.
+* I appen Dynamic Media Classic väljer du det nya företaget i listrutan för företag.
 * När popup-fönstret visas trycker du på **[!UICONTROL OK]** för att logga ut och stänga appen.
 
    ![Starta om appen för att använda det nya företaget](/help/assets/dmclassic-new-company1.png)
@@ -216,10 +216,11 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du även utfö
 
 ## Tips och tricks
 
-**_Jag kan inte se Media Cart-panelen på startsidan för Dynamic Media Classic._**<br>Tryck på&#x200B;**[!UICONTROL Setup > Personal Setup]**i Dynamic Media Classic. Kontrollera att alternativet **[!UICONTROL Show MediaPortal Features]**är markerat i webbläsaravsnittet. Tryck på&#x200B;**[!UICONTROL Save > Close]**.
+**_Jag kan inte se Media Cart-panelen på startsidan för Dynamic Media Classic._**<br>Tryck på&#x200B;**[!UICONTROL Setup > Personal Setup]**i Dynamic Media Classic. Kontrollera att **[!UICONTROL Show MediaPortal Features]**är markerat i webbläsaravsnittet. Tryck på&#x200B;**[!UICONTROL Save > Close]**.
 
-**_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har vi introducerat en **[!UICONTROL Refresh]**ikon i verktygsfältet till höger om **[!UICONTROL Select None]**knappen. Tryck på&#x200B;**[!UICONTROL Refresh]**ikonen för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
+**_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har vi introducerat en **[!UICONTROL Refresh]**-ikon i verktygsfältet till höger om knappen **[!UICONTROL Select None]**. Tryck på ikonen **[!UICONTROL Refresh]**för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
 
-![Ikonen](/help/assets/refresh-icon1.png)Uppdatera *Uppdatera*
+![Ikon ](/help/assets/refresh-icon1.png)
+*för uppdateringIkon för uppdatering*
 
 **_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br>Tryck på&#x200B;**[!UICONTROL Upload > Job Options > Batch Set Presets]**. Kontrollera att relevant **[!UICONTROL Batch Set Preset]**är aktiverat. Klicka på&#x200B;**[!UICONTROL Save and Submit upload]**.
