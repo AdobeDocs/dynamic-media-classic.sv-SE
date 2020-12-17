@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Publicera e-kataloger och tillhörande PDF-filer{#publishing-ecatalogs-and-associated-pdfs}
 
-När du publicerar placeras din e-katalog och PDF-fil på Dynamic Media-bildservrar så att den kan göras tillgänglig för din webbplats eller ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängen. Du kan placera den här URL-strängen i HTML-webbsideskoden.
+När du publicerar placeras din e-katalog och PDF på Dynamic Media Image Servers så att den kan göras tillgänglig för din webbplats eller ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängen. Du kan placera den här URL-strängen i HTML-webbsideskoden.
 
 >[!NOTE]
 >
 >Se till att din e-katalog och PDF-fil finns i samma mapp och är markerade för publicering på panelen Bläddra eller sidan Resursinformation innan du publicerar dem.
 
-Så här publicerar du din e-katalog till Dynamic Media-bildservrar:
+Så här publicerar du din e-katalog till Dynamic Media Image-servrar:
 
 1. Klicka på **Publicera** i fältet Global navigering.
 1. På skärmen Publicera väljer du alternativet När (en gång eller Återkommande).
