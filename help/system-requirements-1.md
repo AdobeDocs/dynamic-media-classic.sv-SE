@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Systemkrav för Media Portal {#system-requirements}
+# Systemkrav för mediaportal {#system-requirements}
 
-Kontrollera att datorn uppfyller följande systemkrav och rekommendationer för att få en så bra upplevelse som möjligt med Dynamic Media Classic Media Portal:
+För att få en så bra upplevelse som möjligt med Dynamic Media Classic Media Portal bör du kontrollera att datorn uppfyller följande systemkrav och rekommendationer:
 
 * Microsoft® Windows® 7 eller senare eller macOS X 10.6 eller senare, Macintosh® Intel-processor krävs.
 * 3 GB RAM eller mer krävs (4 GB eller mer rekommenderas).
