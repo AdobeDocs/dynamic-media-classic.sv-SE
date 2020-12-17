@@ -30,16 +30,19 @@ Se även [Exportera resurser från Dynamic Media Classic](exporting-assets-from-
 
 **Ange tillgängliga exportalternativ för Media Portal-användare**
 
-1. Klicka på **Konfigurera** > **Bildförinställningar**.
+1. Klicka på **Inställningar** > **Bildförinställningar**.
 1. Välj något av följande i fönstret Bildförinställningar:
 
-   * **Aktivera användardefinierad konvertering** När du väljer det här alternativet kan användare välja en annan i listrutan Storlek i fönstret Exportera markerade resurser. Användarna kan sedan välja en måttenhet som pixlar eller centimeter och sedan ange önskad bredd och höjd. När de exporterar eller hämtar dessa filer formateras bildfilerna om.
+   * **Aktivera användardefinierad**
+konvertering När du väljer det här alternativet kan användare välja en annan i listrutan Storlek i fönstret Exportera markerade resurser. Användarna kan sedan välja en måttenhet som pixlar eller centimeter och sedan ange önskad bredd och höjd. När de exporterar eller hämtar dessa filer formateras bildfilerna om.
 
-      När **pixlar** väljs i listrutan **Storlek** får bildens bredd x-höjd inte överstiga 100 miljoner pixlar. Storleken är lika med 10 000 x 10 000 pixlar för en fyrkantig bild, eller ungefär 8 000 x 12 000 pixlar för en bild med 2x3-proportioner. Den här storleksbegränsningen gäller inte om du exporterar överordnad originalbilder.
+      När **pixlar** väljs från **Storlek**
+i den nedrullningsbara listan får bildens bredd x-höjd inte överstiga 100 miljoner pixlar. Storleken är lika med 10 000 x 10 000 pixlar för en fyrkantig bild, eller ungefär 8 000 x 12 000 pixlar för en bild med 2x3-proportioner. Den här storleksbegränsningen gäller inte om du exporterar överordnad originalbilder.
 
       Avmarkera det här alternativet om du vill att användare ska hämta filer utan att formatera om dem när de hämtas.
 
-   * **Aktivera Exportera original** Gör att du kan exportera överordnad originalbilder. På panelen Exportera markerade resurser kan användare öppna listrutan Konvertering och välja Exportera ursprungligt foto för att exportera originalfilerna. Avmarkera det här alternativet om du vill tvinga användarna att välja en bildförinställning eller välja konverteringsalternativ när de exporterar bilder.
+   * **Aktivera Exportera**
+originalGör att du kan exportera överordnad originalbilder. På panelen Exportera markerade resurser kan användare öppna listrutan Konvertering och välja Exportera ursprungligt foto för att exportera originalfilerna. Avmarkera det här alternativet om du vill tvinga användarna att välja en bildförinställning eller välja konverteringsalternativ när de exporterar bilder.
 
 >[!MORELIKETHIS]
 >
