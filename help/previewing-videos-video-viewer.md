@@ -26,12 +26,12 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 
 **Förhandsgranska videoklipp i ett videovisningsprogram**
 
-1. På panelen Resursbibliotek till vänster i listrutan Visa väljer du **Video** (enkodade videoklipp) eller **Adaptiv videouppsättning** (när den adaptiva videokodningsförinställningen används resulterar det i en uppsättning kodade videoklipp med flera bithastigheter).
+1. På panelen Resursbibliotek till vänster i listrutan Visa väljer du **Video** (single encoded videos) eller **Adaptive Video Set** (när förinställningen Adaptive Video används, resulterar det i en uppsättning kodade videor med flera bithastigheter).
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster för att välja den video som du vill förhandsgranska.
 1. Gör något av följande
 
    * Ovanför fönstret Resurser klickar du på **Listvy** till höger om verktygsfältet. Håll markören över en resurs i fönstret Resurser och klicka sedan på **Förhandsgranska**.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, klickar du på **Stödrastervisning**. Klicka på **Förhandsgranska** i fönstret Resurser i miniatyrbildsfönstret för en resurs.
+   * Ovanför fönstret Resurser klickar du på **Stödrastervy** till höger om verktygsfältet. Klicka på **Förhandsgranska** i fönstret Resurser i ett miniatyrbildsfönster.
    * Ovanför fönstret Resurser, till höger om verktygsfältet, klickar du på **Detaljvy**. Klicka på **Förhandsgranska** i samma verktygsfält.
    * Välj en resurs i fönstret Resurser. Klicka på **Arkiv** > **Förhandsgranska** i verktygsfältet.
 
@@ -42,15 +42,15 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 
 >[!NOTE]
 >
->Med Dynamic Media Classic kan du enkelt förhandsgranska MP4-video på skrivbordet. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det du ser i skrivbordsförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen, väljer Kopiera URL och anger den URL-adressen i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilwebbplatser](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Dynamic Media Classic är ett praktiskt sätt att förhandsgranska MP4-video på datorn. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det du ser i skrivbordsförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen, väljer Kopiera URL och anger den URL-adressen i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilwebbplatser](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
-## Arbeta med förinställningar för visningsprogram för video {#working-with-video-viewer-presets}
+## Arbeta med förinställningar för videovisningsprogram {#working-with-video-viewer-presets}
 
 Användare ser videoklipp i Video Viewer. Hur visningsprogrammet för video beter sig, hur det ser ut och hur dess uppspelningskontroller fungerar beror på vilken visningsförinställning du väljer för att spela upp videon. Du väljer en visningsförinställning på förhandsgranskningsskärmen. När du har valt en förinställning kan du hämta URL-adressen eller inbäddningskoden för att spela upp videon med den visningsförinställning du har valt.
 
-Dynamic Media Classic innehåller många fördefinierade visningsförinställningar för videouppspelning, och om du är administratör kan du skapa anpassade visningsförinställningar. Det finns mer än ett dussin olika inställningar för att konfigurera Video Viewer. Du kan konfigurera dess storlek, färg, video och ljud, förloppsindikator, användargränssnittets skal och sociala funktioner.
+Dynamic Media Classic innehåller många fördefinierade visningsförinställningar för uppspelning av video, och om du är administratör kan du skapa anpassade visningsförinställningar. Det finns mer än ett dussin olika inställningar för att konfigurera Video Viewer. Du kan konfigurera dess storlek, färg, video och ljud, förloppsindikator, användargränssnittets skal och sociala funktioner.
 
-Se även [Förhandsvisa videofilmer i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
+Se även [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 ### Lägga till eller redigera en förinställning för visningsprogram för video {#adding-or-editing-a-video-viewer-preset}
 
@@ -58,7 +58,7 @@ Du kan använda visningsförinställningar för att visa olika typer av visnings
 
 I Förinställningar för visningsprogram kan du aktivera, filtrera, sortera och förhandsgranska förinställningar för visningsprogram.
 
-Se [Förinställningar](application-setup.md#viewer_presets)för visningsprogram.
+Se [Förinställningar för visningsprogram](application-setup.md#viewer_presets).
 
 **Lägga till eller redigera en förinställning för visningsprogram för video**
 
@@ -68,15 +68,15 @@ Se [Förinställningar](application-setup.md#viewer_presets)för visningsprogram
 
 1. Lägg till eller redigera en visningsförinställning för att visa video:
 
-   **Lägg till** Klicka på Lägg till i verktygsfältet. I dialogrutan Lägg till visningsförinställning väljer du en plattform och ett visningsprogram i respektive listruta och klickar sedan på Lägg till.
+   **Lägg** tillKlicka på Lägg till i verktygsfältet. I dialogrutan Lägg till visningsförinställning väljer du en plattform och ett visningsprogram i respektive listruta och klickar sedan på Lägg till.
 
    Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
-   **Lägg till genom att starta från en befintlig visningsförinställning** i tabellen, markera en förinställning för visningsprogrammet för video och klicka sedan på Redigera i verktygsfältet.
+   **Lägg till genom att starta från en befintlig** visningsförinställningMarkera en förinställning för visningsprogrammet för video i tabellen och klicka sedan på Redigera i verktygsfältet.
 
    När du har konfigurerat om videovisningsprogrammet klickar du på **Spara som** för att spara förinställningen med ett annat namn i textfältet Förinställningsnamn.
 
-   **Redigera** Välj en förinställning för Videovisning och klicka sedan på Redigera.
+   **Redigera** Välj en förinställning för visningsprogrammet för video och klicka sedan på Redigera.
 
 1. Ange eller redigera förinställningsnamnet i fältet Förinställningsnamn på skärmen Konfigurera visningsprogram.
 1. Ange de återstående alternativen som du vill ha.
