@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Länka zoomningsvisningsprogram till webbsidor{#linking-zoom-viewers-to-your-web-pages}
 
-Dina webbplatser och program får tillgång till innehåll från Dynamic Media Image Server, inklusive överordnad bilder och associerade zoommål, och förinställningar för Zoom Viewer, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic.
+Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive överordnad bilder och associerade zoommål, och förinställningar för Zoom Viewer, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic.
 
 >[!NOTE]
 >
 >URL:en är inte aktiv förrän du publicerar resursen.
 
-## Kopiera en URL för Zoom-visningsprogram {#copying-a-zoom-viewer-url}
+## Kopiera en URL för zoomvisningsprogrammet {#copying-a-zoom-viewer-url}
 
 1. navigera till resursmappen som innehåller det zoomvisningsprogram vars URL du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
@@ -36,7 +36,7 @@ Dina webbplatser och program får tillgång till innehåll från Dynamic Media I
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
@@ -44,11 +44,11 @@ Dina webbplatser och program får tillgång till innehåll från Dynamic Media I
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägga till URL-adresser för Zoom-visningsprogram på webbsidan {#adding-zoom-viewer-urls-to-your-web-page}
+## Lägga till URL:er för zoomvisningsprogrammet på din webbsida {#adding-zoom-viewer-urls-to-your-web-page}
 
 Vanligtvis zoomar besökare på en webbplats bilder genom att först välja en zoomningsikon (ofta visas bilden av ett förstoringsglas). Om du väljer den här ikonen öppnas en dynamisk webbsida (ASP eller JSP) som visar bilden i ett popup-fönster. I popup-fönstret kan besökarna zooma in bilden.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i referenshandboken](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)för visningsprogram för Adobe.
+Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i referenshandboken för Adobe-visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
 ## Kopiera den inbäddade kopian av ett Zoom-visningsprogram {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -59,12 +59,12 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för det valda 
 1. navigera till resursmappen som innehåller Zoom-visningsprogrammet vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger klickar du på **Bädda in kod** till höger om det visningsprogram du vill använda.
+   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Bädda in kod** till höger om det visningsprogram du vill använda i panelen URL:er och Bädda in kod till höger.
    * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
