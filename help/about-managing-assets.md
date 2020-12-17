@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Hantera resurser{#about-managing-assets}
 
-I Dynamic Media Classic finns resursbiblioteket för hantering av resurser. Resursbiblioteket innehåller de mappar där du lagrar dina resursfiler. Om du väljer en mapp i resursbiblioteket visas innehållet i mappen på panelen Bläddra. Du kan visa objekt i panelen Bläddra i stödraster-, list- eller detaljvyn. När du vill fokusera på en enskild resurs dubbelklickar du på den i panelen Bläddra för att visa den i vyn Detalj.
+Dynamic Media Classic erbjuder resursbiblioteket för hantering av resurser. Resursbiblioteket innehåller de mappar där du lagrar dina resursfiler. Om du väljer en mapp i resursbiblioteket visas innehållet i mappen på panelen Bläddra. Du kan visa objekt i panelen Bläddra i stödraster-, list- eller detaljvyn. När du vill fokusera på en enskild resurs dubbelklickar du på den i panelen Bläddra för att visa den i vyn Detalj.
 
 På panelen Bläddra finns verktyg för att visa, markera, hitta, förhandsgranska, flytta, byta namn på och ta bort resurser. Resurser som du tar bort placeras i papperskorgen; du kan återställa resurser från den här mappen.
 
