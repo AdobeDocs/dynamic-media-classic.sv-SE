@@ -18,12 +18,12 @@ ht-degree: 0%
 ---
 
 
-# Inaktivera spårning av Adobe Analytics{#disabling-adobe-analytics-tracking}
+# Inaktiverar Adobe Analytics tracking{#disabling-adobe-analytics-tracking}
 
 **Så här inaktiverar du Adobe Analytics tracking**
 
-1. Stäng av alla händelser på konfigurationssidan för Adobe Analytics i Dynamic Media Classic.
+1. Stäng av alla händelser på Adobe Analytics konfigurationssida i Dynamic Media Classic.
 1. Spara och publicera.
 
-Detta inaktiverar stödet via Dynamic Media Classic och via URL:er som hämtas från funktionen **CopyURL** . Om du implementerar anpassad spårning kan du inaktivera Adobe Analytics-spårningen som den är inställd på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.
+Detta inaktiverar stödet via Dynamic Media Classic och via URL:er som hämtas från funktionen **CopyURL**. Om du implementerar anpassad spårning inaktiverar du den Adobe Analytics-spårning som har konfigurerats på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.
 
