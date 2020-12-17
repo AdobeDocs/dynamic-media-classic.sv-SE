@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Länka en e-katalog till en webbsida{#linking-an-ecatalog-to-a-web-page}
 
-Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Image Server, inklusive e-kataloger, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller den inbäddade koden för din eCatalog på dina webbsidor och i dina program kopierar du den från Dynamic Media Classic.
+Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive e-kataloger, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller den inbäddade koden för din eCatalog på dina webbsidor och i dina program kopierar du den från Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Im
 
 ## Kopiera en eCatalog-URL {#copying-an-ecatalog-url}
 
-1. Klicka på **Katalog** i listrutan Visa på panelen Resurser.
+1. Klicka på **Katalog** i listrutan Visa i panelen Resurser.
 1. navigera till resursmappen som innehåller den eCatalog vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
@@ -37,7 +37,7 @@ Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Im
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
@@ -45,11 +45,11 @@ Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Im
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägga till eCatalog-URL:er på webbsidan {#adding-ecatalog-urls-to-your-web-page}
+## Lägga till eCatalog-URL:er på din webbsida {#adding-ecatalog-urls-to-your-web-page}
 
 Det vanligaste sättet att distribuera en e-katalog är att placera en länk i form av en försättssida med en eCatalog-miniatyrbild på webbsidan. Samarbeta med IT-avdelningen för att säkerställa att e-katalogen öppnas i ett rent, centrerat popup-fönster. Be IT-avdelningen att inte visa verktygsfältet och adressfältet i webbläsaren.
 
-Mer information och kodexempel finns i [Bädda in HTML5 eCatalog Viewer i referenshandboken](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)för Adobe-visningsprogram.
+Mer information och kodexempel finns i [Bädda in HTML5 eCatalog Viewer i referenshandboken för Adobe-visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
 
 ## Kopiera inbäddningskoden för ett eCatalog-visningsprogram {#copying-the-embed-code-of-an-ecatalog-viewer}
 
@@ -57,7 +57,7 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
 **Så här kopierar du inbäddningskoden för ett eCatalog-visningsprogram**
 
-1. Klicka på **Katalog** i listrutan Visa på panelen Resurser.
+1. Klicka på **Katalog** i listrutan Visa i panelen Resurser.
 1. navigera till resursmappen som innehåller den eCatalog vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
@@ -66,7 +66,7 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
