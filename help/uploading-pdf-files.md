@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Överföra PDF-filer{#uploading-the-pdf-files}
 
-Vanligtvis är Adobe PDF-filer källan till en e-katalog; dessa filer innehåller all bildinformation samt teckensnitt och vektorgrafik. Du kan även skapa en e-katalog med bilder. När du har förberett PDF-filerna för överföring markerar du knappen Överför i fältet Global navigering för att börja överföra PDF-filerna.
+Vanligtvis är Adobe PDF-filer källan till en e-katalog. dessa filer innehåller all bildinformation samt teckensnitt och vektorgrafik. Du kan även skapa en e-katalog med bilder. När du har förberett PDF-filerna för överföring markerar du knappen Överför i fältet Global navigering för att börja överföra PDF-filerna.
 
 ## Förbereda PDF-filer {#preparing-your-pdf-files}
 
@@ -37,33 +37,43 @@ Förbered PDF-filerna innan du överför dem till Dynamic Media Classic:
 
 Mer information om de olika överföringsmetoderna finns i [Överföra filer](uploading-files.md#uploading_your_files).
 
-Markera de filer som du vill överföra och välj sedan följande *bästa* PDF-alternativ:
+Markera de filer som du vill överföra och välj sedan följande *metodtips* PDF-alternativ:
 
-* **Beskär** Välj Beskär-menyn och välj Manuell om sidorna innehåller skärmärken, passmärken eller andra märken. Ange antalet pixlar att beskära från sidans övre, högra, nedre och vänstra sidor. Skärmärken är vanligtvis inställda på en halv-tumsmarginal. Om du väljer 150 som pixel per tum-upplösning (den rekommenderade inställningen) beskärs en halv tum från marginalerna om du anger 75, 75, 75 i textrutorna Överkant, Höger, Underkant och Vänster (vid 150 ppi, hälften av en tum är lika med 75 pixlar).
+* ****
+BeskärVälj Beskär-menyn och välj Manuell om sidorna innehåller skärmärken, passmärken eller andra märken. Ange antalet pixlar att beskära från sidans övre, högra, nedre och vänstra sidor. Skärmärken är vanligtvis inställda på en halv-tumsmarginal. Om du väljer 150 som pixel per tum-upplösning (den rekommenderade inställningen) beskärs en halv tum från marginalerna om du anger 75, 75, 75 i textrutorna Överkant, Höger, Underkant och Vänster (vid 150 ppi, hälften av en tum är lika med 75 pixlar).
 
-* **Bearbetning** Välj Bearbetning och Rastrera. PDF-filen måste rastreras så att alla sidor och bilder kan visas i e-katalogen.
+* ****
+BearbetningVälj menyn Bearbetning och sedan Rastrera. PDF-filen måste rastreras så att alla sidor och bilder kan visas i e-katalogen.
 
-* **Extrahera sökord (valfritt)** Välj det här alternativet om du vill att dina läsare ska kunna söka efter nyckelord i din eCatalog.
+* **Extrahera sökord (valfritt)**
+Välj det här alternativet om du vill att dina läsare ska kunna söka efter nyckelord i din eCatalog.
 
-* **Skapa e-katalog automatiskt från PDF-fil med flera sidor (valfritt)** Välj det här alternativet om du automatiskt vill skapa en e-katalog när du överför den. Du kan gå direkt till eCatalog-skärmen och börja arbeta med eCatalog utan att först behöva markera PDF-filer och sedan välja kommandot Skapa. eCatalog namnges efter PDF-filen.
+* **Skapa e-katalog automatiskt från PDF-fil med flera sidor (valfritt)**
+Välj det här alternativet om du automatiskt vill skapa en e-katalog när du överför den. Du kan gå direkt till eCatalog-skärmen och börja arbeta med eCatalog utan att först behöva markera PDF-filer och sedan välja kommandot Skapa. eCatalog namnges efter PDF-filen.
 
-* **Upplösning** Dynamic Media Classic rekommenderar 150 pixlar per tum.
+* ****
+ResolutionDynamic Media Classic rekommenderar 150 pixlar per tum.
 
-* **Färgrymd** Dynamic Media Classic rekommenderar att du väljer Identifiera automatiskt. Vanligtvis är PDF-filer som skapats för utskrift CMYK. PDF-filer för visning online är RGB. Om båda färgrymderna används i en PDF-fil kan du välja en viss färgrymd genom att välja Tvinga som RGB eller Tvinga som CMYK. I PDF-filer används till exempel båda färgmodellerna när sidgrafik använder en CMYK-färgmodell, men bilder använder RGB. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
+* **Color**
+spaceDynamic Media Classic rekommenderar att du väljer Identifiera automatiskt. Vanligtvis är PDF-filer som skapats för utskrift CMYK. PDF-filer för visning online är RGB. Om båda färgrymderna används i en PDF-fil kan du välja en viss färgrymd genom att välja Använd som RGB eller Använd som CMYK. I PDF-filer används till exempel båda färgmodellerna när sidgrafik använder en CMYK-färgmodell, men bilder använder RGB. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
 
    Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
-* **Färgprofil**: Välj ett alternativ för Färgprofil:
+* **FärgprofilVälj ett**
+färgprofilsalternativ:
 
-* **ConvertTo SRGB** Converts to SRGB (Standard Red Green Blue). SRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+* **Konvertera till**
+SRGBConverts till SRGB (Standard Red Green Blue). SRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
 
-* **Behåll ursprunglig färgrymd** Behåller den ursprungliga färgrymden.
+* **Behåll ursprunglig**
+färgrymdBehåller den ursprungliga färgrymden.
 
-* **Anpassa från > Till**&#x200B;öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överförde till Dynamic Media Classic.
+* **Anpassad från >**
+TillÖppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
 >[!NOTE]
 >
->Mer information om alla PDF-alternativ finns i [PDF-överföringsalternativ](pdfs.md#pdf_upload_options).
+>Mer information om alla PDF-alternativ finns i [Alternativ för PDF-överföring](pdfs.md#pdf_upload_options).
 
