@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Publicera överordnad bilder{#publishing-master-images}
 
-När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers, där de är tillgängliga för din webbplats och ditt program. Under publiceringsprocessen aktiveras dessutom de URL-strängar du behöver för din webbplats och ditt program.
+När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers, där de är tillgängliga för din webbplats och ditt program. Dessutom aktiverar Dynamic Media Classic de URL-strängar du behöver för din webbplats och ditt program under publiceringsprocessen.
 
 ## Markera överordnad bilder för publicering {#marking-master-images-for-publish}
 
@@ -28,7 +28,7 @@ När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers,
 
 ## Publicera dina överordnad bilder {#publishing-your-master-images}
 
-Om du vill publicera överordnad bilder på Dynamic Media-bildservrar börjar du med att markera knappen Publicera i fältet Global navigering. Välj sedan alternativet Vid (En gång eller Återkommande), ange eventuellt ett namn för publiceringsjobbet och välj knappen Starta publicering.
+Om du vill publicera överordnad bilder på Dynamic Media bildservrar börjar du med att välja knappen Publicera i fältet Global navigering. Välj sedan alternativet Vid (En gång eller Återkommande), ange eventuellt ett namn för publiceringsjobbet och välj knappen Starta publicering.
 
 >[!NOTE]
 >
