@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Överför mallfiler{#uploading-template-files}
 
-Överför de filer du behöver för mallen till Dynamic Media Classic innan du börjar skapa mallen. Du kan skapa mallar från en Adobe® Photoshop® PSD-fil eller en bildfil. TIFF- och PNG-bilder rekommenderas eftersom de tillåter genomskinlighet.
+Överför de filer du behöver för mallen till Dynamic Media Classic innan du börjar skapa mallen. Du kan skapa mallar från en Adobe® Photoshop® PSD eller en bildfil. TIFF- och PNG-bilder rekommenderas eftersom de tillåter genomskinlighet.
 
 >[!NOTE]
 >
