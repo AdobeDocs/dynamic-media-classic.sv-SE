@@ -29,13 +29,15 @@ Vilka inställningar som är tillgängliga på den här skärmen beror på din s
 
 Administratörer kan också konfigurera bildförinställningar och visningsförinställningar på installationsskärmen:
 
-* **Bildförinställningar** Bildförinställningar är sparade format för visning av överordnad bilder i olika storlekar och format.
+* **Bildförinställningar**
+Bildförinställningar är sparade format för visning av överordnad bilder i olika storlekar och format.
 
-* **Visningsförinställningar** för visningsprogram avgör hur du ser dina multimedia när du ser dem i ett visningsprogram.
+* **Förinställningar**
+för visningsprogramFörinställningar för visningsprogram avgör hur du ser multimedia när du ser dem i ett visningsprogram.
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classic-användarroller och -behörigheter](administration-setup.md#user_administration)
+>* [Dynamic Media Classic - användarroller och behörigheter](administration-setup.md#user_administration)
 >* [Bildförinställningar](application-setup.md#image_presets)
 >* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)
 
