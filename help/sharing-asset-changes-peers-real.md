@@ -31,7 +31,7 @@ Om flera kopior av Dynamic Media Classic körs på en eller flera datorer i samm
 
 När en ändring har gjorts i den ursprungliga klienten uppdateras alla peer-klienter som är inloggade på samma företag med ändringen. Ändringar görs i peer-datorer utan meddelanden, såvida inte peer-datorn redigerar en resurs som ändras i någon av bildredigerarna eller byggarna.
 
-När du loggar in uppmanas du att tillåta eller neka peer-uppdateringar. Du kan&quot;komma ihåg&quot; valet så att du bara uppmanas en gång. Ta bort den aktuella platsen från panelen P2P-nätverk i Globala inställningar för att ta bort ditt val.
+När du loggar in uppmanar Flash Player dig att tillåta eller neka peer-uppdateringar. Du kan&quot;komma ihåg&quot; valet så att du bara uppmanas en gång. Ta bort den aktuella platsen från panelen P2P-nätverk i Globala inställningar för att ta bort ditt val.
 
 Om du redigerar en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer Ja ignoreras alla ändringar som gjorts i resursen och den uppdaterade resursen importeras. Om du väljer Nej ändras resursen inte i byggaren eller redigeraren och eventuella ändringar som du har gjort kvarstår under den sessionen.
 
