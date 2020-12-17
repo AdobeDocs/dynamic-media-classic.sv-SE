@@ -20,14 +20,14 @@ ht-degree: 0%
 
 # Konfigurera förinställningar för Snurra uppsättningar för visningsprogram{#setting-up-spin-set-viewer-presets}
 
-Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. Dynamic Media Classic levereras med förinställningar för rotationsuppsättning för visningsprogram. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
+Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. Dynamic Media Classic innehåller förinställningar för rotationsuppsättningen. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
 
 Följ de här stegen för att skapa en förinställning för Snurra uppsättning för visningsprogram:
 
 1. Klicka på **Inställningar** > **Visningsförinställningar**.
 1. Gör något av följande:
 
-   * Om du vill skapa en ny förinställning klickar du på **Lägg till**, väljer en plattform i dialogrutan Lägg till visningsförinställning och klickar sedan på **Snurra uppsättningsvisare**.
+   * Om du vill skapa en ny förinställning klickar du på **Lägg till**, väljer en plattform i dialogrutan Lägg till visningsförinställning och klickar sedan på **Snurra in visningsprogram**.
    * Om du vill redigera en befintlig förinställning för Snurra in visningsprogram markerar du förinställningen och klickar på **Redigera**.
 
    Skärmen Konfigurera visningsprogram öppnas.
