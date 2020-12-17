@@ -31,9 +31,9 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 1. Klicka på **Inställningar** > **Visningsförinställningar**.
 1. Skapa eller redigera en visningsförinställning på skärmen Förinställningar för visningsprogram genom att göra något av följande:
 
-   **Skapa** Klicka på Lägg till. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer Zoomvisningsprogram:Anpassad och klickar på Lägg till. Du kan också skapa en förinställning för zoomvisningsprogrammet genom att utgå från en befintlig förinställning. Visa namnet på förinställningen, markera den och välj sedan knappen Redigera. Ange ett nytt namn för förinställningen på skärmen Konfigurera visningsprogram.
+   **** SkapaKlicka på Lägg till. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer Zoomvisningsprogram:Anpassad och klickar på Lägg till. Du kan också skapa en förinställning för zoomvisningsprogrammet genom att utgå från en befintlig förinställning. Visa namnet på förinställningen, markera den och välj sedan knappen Redigera. Ange ett nytt namn för förinställningen på skärmen Konfigurera visningsprogram.
 
-   **Redigera** Visa namnet på en förinställning, markera den och klicka sedan på **Redigera**.
+   **Redigera** Visa namnet på en förinställning, markera den och klicka sedan på  **Redigera**.
 
 1. Välj alternativ på skärmen Konfigurera visningsprogram.
 
@@ -51,8 +51,8 @@ Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visnin
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster och markera den bilduppsättning som du vill förhandsgranska.
 1. Gör något av följande
 
-   * Ovanför fönstret Resurser klickar du på **Listvy** till höger om verktygsfältet. Håll markören över en resurs i fönstret Resurser och klicka sedan på **Förhandsgranska**.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, klickar du på **Stödrastervisning**. Klicka på **Förhandsgranska** i fönstret Resurser i miniatyrbildsfönstret för en resurs.
+   * Ovanför fönstret Resurser klickar du på **Listvy** till höger om verktygsfältet. Håll markören över en resurs i fönstret Resurs och klicka sedan på **Förhandsgranska**.
+   * Ovanför fönstret Resurser klickar du på **Stödrastervy** till höger om verktygsfältet. Klicka på **Förhandsgranska** i fönstret Resurser i ett miniatyrbildsfönster.
    * Ovanför fönstret Resurser, till höger om verktygsfältet, klickar du på **Detaljvy**. Klicka på **Förhandsgranska** i samma verktygsfält.
    * Välj en resurs i fönstret Resurser. Klicka på **Arkiv** > **Förhandsgranska** i verktygsfältet.
 
