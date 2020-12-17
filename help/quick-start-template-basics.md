@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Snabbstart: Grundläggande om mallar{#quick-start-template-basics}
+# Snabbstart: Mallgrunder{#quick-start-template-basics}
 
 Mallgrunder skapas dynamiskt och adresserbara bildfiler i lager, som lageruppbyggda filer i bildredigeringsprogram som Adobe Photoshop. Till skillnad från en statisk fil som innehåller lager, till exempel en PSD-fil, kan en mall innehålla parametrar. Med hjälp av parametrar kan de olika delarna av bilden hanteras och anpassas.
 
-En mall kan innehålla valfritt antal bildlager och textlager. Du kan konvertera en statisk fil som innehåller lager, till exempel en PSD-fil med lager, till en mall och skapa mallar i Dynamic Media Classic. Du kan skapa textlager i mallar med teckensnitt som du överfört till Dynamic Media Classic. När du har lagt till text i en mall kan du formatera den genom att ändra dess justering, teckensnitt, teckenstorlek och färg.
+En mall kan innehålla valfritt antal bildlager och textlager. Du kan konvertera en statisk fil som innehåller lager, t.ex. en PSD-fil med lager, till en mall samt skapa mallar i Dynamic Media Classic. Du kan skapa textlager i mallar med teckensnitt som du överfört till Dynamic Media Classic. När du har lagt till text i en mall kan du formatera den genom att ändra dess justering, teckensnitt, teckenstorlek och färg.
 
 På skärmen Parametrar kan du konvertera alla delar av en mall till adresserbara parametrar. Om du gör det kan du ändra vilken bild i lager som ska användas eller vilket textvärde som ska användas i mallen. Parametrar skickas med URL-strängen så att du kan ändra alla parametrar för att dynamiskt anpassa svarsbilden som genereras från bildservern.
 
@@ -34,11 +34,11 @@ Den här snabbstarten är utformad för att snabbt komma igång med mallgrundern
 
 Börja med att överföra PSD-filen eller bildfilen för mallen. Dynamic Media Classic stöder många bildfilformat förutom PSD, men förlustfria TIFF- och PNG-bilder rekommenderas för mallar eftersom de möjliggör genomskinlighet.
 
-Om du använder en PSD-fil för att skapa mallen väljer du alternativet Skapa mall i dialogrutan Alternativ för överföringsjobb när du överför PSD-filen. Välj också ett namngivningsalternativ för lager för att tala om för Dynamic Media Classic hur PSD-lager namnges när de överförs till Dynamic Media Classic.
+Om du använder en PSD-fil för att skapa mallen väljer du alternativet Skapa mall i dialogrutan Alternativ för överföringsjobb när du överför PSD-filen. Du kan också välja ett namngivningsalternativ för lager och ange för Dynamic Media Classic hur PSD-lager ska namnges när de överförs till Dynamic Media Classic.
 
 Om du använder bildfiler kan du beskära bilderna och även skapa en mask från urklippsbanor i bilderna när du överför dem.
 
-Välj knappen Överför i fältet Global Navigation (Global Navigation) om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp i Dynamic Media Classic. Se [Överföra mallfiler](uploading-template-files.md#uploading_template_files).
+Välj knappen Överför i fältet Global navigering om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp i Dynamic Media Classic. Se [Överföra mallfiler](uploading-template-files.md#uploading_template_files).
 
 **2. Skapa en mall**
 
@@ -58,9 +58,9 @@ Nästa steg är att parametrisera lageregenskaperna för att avgöra vilka lager
 
 Om du vill parametrisera ett lager öppnar du mallen på mallskärmen och väljer knappen Parametrar bredvid ett lagernamn. På skärmen Parametrar väljer du alternativet bredvid varje parameter som du vill lägga till. Se [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
 
-**4. Publiceringsmallar**
+**4. Publicera mallar**
 
-När du publicerar mallen placeras den på dynamiska mediabildsservrar så att den kan levereras dynamiskt till din webbplats eller ditt program. När du publicerar aktiveras även URL:en så att mallen anropas från dynamiska mediabildsservrar till din webbplats eller ditt program.
+När du publicerar mallen placeras den på Dynamic Media Image-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. När du publicerar aktiveras även URL:en så att mallen anropas från Dynamic Media Image Servers till din webbplats eller ditt program.
 
 Glöm inte att publicera alla bilder som är kopplade till mallen.
 
@@ -68,6 +68,6 @@ Om du vill publicera en mall markerar du den för publicering och väljer knappe
 
 **5. Länka en mall till en webbsida**
 
-Dynamic Media Classic skapar URL:er för mallar och aktiverar URL:er när du publicerar mallar till dynamiska mediabildsservrar. Du kan kopiera de här URL-strängarna från skärmen Förhandsgranska mall.
+Dynamic Media Classic skapar URL:er för mallar och aktiverar URL:er när du publicerar mallar på Dynamic Media Image Servers. Du kan kopiera de här URL-strängarna från skärmen Förhandsgranska mall.
 
 Markera mallen på panelen Bläddra och klicka på knappen Förhandsgranska för att öppna skärmen Förhandsvisa mall. Välj sedan en bildförinställning för mallen och klicka på knappen Kopiera URL. När du har kopierat URL:en från förhandsgranskningsskärmen kan du använda den på din webbplats eller i ditt program. Se [Länka en mall till en webbsida](linking-template-web-page.md#linking_a_template_to_a_web_page).
