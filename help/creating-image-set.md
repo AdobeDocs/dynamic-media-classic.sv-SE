@@ -24,31 +24,31 @@ Om du vill skapa en bilduppsättning med flera vyer behöver du bilder som visar
 
 ## Skapa en bilduppsättning {#create}
 
-När du skapar en uppsättning påverkar alternativet **Publicera efter spara** den och anger medlemmar på följande sätt:
+När du skapar en uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och anger medlemmar på följande sätt:
 
 | Alternativet Publicera efter spara är markerat innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |:--- |:--- |:--- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Skapa en bilduppsättning**
 
 1. Gör något av följande:
 
-   **Markera först** bilderna i panelen Bläddra, markera bilderna som du vill använda i bilduppsättningen och klicka på Skapa > Bilduppsättningar.
+   **Markera bilderna** förstMarkera de bilder du vill använda i bilduppsättningen i panelen Bläddra och klicka sedan på Skapa > Bilduppsättningar.
 
-   **Starta från skärmen** Bilduppsättning Klicka på Skapa > Bilduppsättningar. Skärmen Bilduppsättning öppnas. Markera en mapp i resursbiblioteket och dra bilderna som du vill använda i bilduppsättningen till skärmen Bilduppsättning.
+   **Starta från** skärmen BilduppsättningKlicka på Skapa > Bilduppsättningar. Skärmen Bilduppsättning öppnas. Markera en mapp i resursbiblioteket och dra bilderna som du vill använda i bilduppsättningen till skärmen Bilduppsättning.
 
 1. Om du vill ändra bildordningen drar du bilderna till nya platser.
 1. Kontrollera att **Publicera efter spara** är markerat i sidans nedre högra hörn (standard).
-1. Klicka på **Spara**, välj en mapp där bilduppsättningen ska lagras, ange ett namn för uppsättningen och klicka sedan på **Spara**.
-1. Klicka på **Förhandsgranska** på skärmen Bilduppsättning om du vill visa bilduppsättningen i bilduppsättningsvisningsprogrammet. Du kan klicka på miniatyrbilderna för färgrutor i bilduppsättningsvisningsprogrammet för att se hur de beter sig.
+1. Klicka på **Spara**, välj en mapp där du vill spara din bilduppsättning, ange ett namn för uppsättningen och klicka sedan på **Spara**.
+1. Om du vill visa din bilduppsättning i bilduppsättningsvisningsprogrammet klickar du på **Förhandsvisa** på skärmen Bilduppsättning. Du kan klicka på miniatyrbilderna för färgrutor i bilduppsättningsvisningsprogrammet för att se hur de beter sig.
 
 ## Redigera en bilduppsättning {#editing-an-image-set}
 
-Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter sparande** medlemmarna i uppsättningen och uppsättningen på följande sätt:
+Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
 
 | Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
@@ -57,11 +57,11 @@ Beroende på om du redigerar en publicerad eller opublicerad uppsättning påver
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Redigera en bilduppsättning**
 
-1. I stödrastervyn bläddrar du till en ImageSet och klickar sedan på **Redigera** under bilden.
+1. I stödrastervyn bläddrar du till en ImageSet och klickar sedan under bilden på **Redigera**.
 1. Gör något av följande:
 
    * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till sidan **Vyer** i bilduppsättningen.
@@ -75,10 +75,10 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) ma
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Ta bort en bilduppsättning**
 
 1. Markera en eller flera bilduppsättningar i Stödrastervisning, listvy eller detaljvy.
-1. Klicka på **Arkiv** > **Ta bort** > **Ta bort** i det globala navigeringsfältet.
+1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
 
