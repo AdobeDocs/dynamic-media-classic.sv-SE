@@ -22,25 +22,25 @@ ht-degree: 0%
 
 Med formatinställningarna för Media Portal kan du märka upp Media Portal-skärmen med företagets logotyp och färger. Använd formatinställningarna för att lägga din företagsstämpel på Media Portal.
 
-Du öppnar formatinställningarna genom att välja **Inställningar** > **Medieportalinställningar** > **Formatinställningar**. Spara inställningarna genom att klicka på **Spara** . Du kan klicka på **Återställ** om du vill återställa standardinställningarna. När du gör dina val visas hur alternativen ska se ut på panelen Förhandsvisa.
+Du öppnar formatinställningarna genom att välja **Inställningar** > **Medieportalinställningar** > **Formatinställningar**. Klicka på **Spara** för att spara inställningarna när du har gjort dem. Du kan klicka på **Återställ** om du vill återställa standardinställningarna. När du gör dina val visas hur alternativen ska se ut på panelen Förhandsvisa.
 
-**Logotyp** Klicka på Bläddra och välj en bild i fönstret Välj logotypbild.
+**** LogoKlicka på Bläddra och välj en bild i fönstret Välj logotypbild.
 
-**Program** Skapa en övertoningsfärgblandning genom att göra val på menyerna Bakgrundsövertoningsfärger.
+**** ProgramSkapa en övertoningsfärgblandning genom att göra val på menyerna Bakgrundsövertoningsfärger.
 
-**Tree** Välj en överrullningsfärg (den färg som visas när du flyttar pekaren över ett objekt) och en markeringsfärg (den färg som visas när du markerar ett objekt).
+**** TrädVälj en överrullningsfärg (den färg som visas när du flyttar pekaren över ett objekt) och en markeringsfärg (den färg som visas när du markerar ett objekt).
 
-**Dragspel** Välj bakgrundsfärger, en kantlinjestil och överrullning samt valda färger för dragspelsbilden som visas på skärmens högra sida i detaljvyn.
+**** DragspelVälj bakgrundsfärger, kantlinjeformat och överrullning samt valda färger för dragspelet som visas till höger på skärmen i detaljvyn.
 
 **Dragspelsrubrik** Välj om du vill skapa text i dragspelsrubrikens fetstil.
 
-**Datagrid** Välj färger för rubrikraden i datarutnät.
+**** DatagridVälj färger för rubrikraden i datarutnät.
 
-**Varning** Välj en bakgrundsfärg för varningsmeddelanderutor.
+**** VarningVälj en bakgrundsfärg för varningsmeddelanderutor.
 
-**Förloppsindikator** Välj en färg för fältet som anger förloppet för överföringar och hämtningar.
+**Progress** BarVälj en färg för fältet som anger förloppet för överföringar och hämtningar.
 
-För att Media Portal-användare ska kunna se de formatinställningar som du väljer måste de lägga `?company=(company name)` till den URL som de använder till sin Media Portal. Om du till exempel vill se formatinställningar kan du använda Media Portal-användare som har åtkomst till portalföretaget på följande plats:
+För att Media Portal-användare ska kunna se de formatinställningar som du väljer måste de lägga till `?company=(company name)` till den URL som de får tillgång till i Media Portal. Om du till exempel vill se formatinställningar kan du använda Media Portal-användare som har åtkomst till portalföretaget på följande plats:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
