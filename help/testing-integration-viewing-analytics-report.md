@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Testa integrationen genom att visa en Adobe Analytics-rapport{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-När du har skapat de nödvändiga variablerna i Adobe Analytics, länkat dem till Dynamic Media Classic-händelser och slutfört de nödvändiga implementeringsstegen bör du testa konfigurationen. Du kan testa och verifiera att data hämtas, inuti Adobe Analytics. Om installationen fungerar här behövs inga ytterligare steg. Förutsatt att du följde stegen ovan och länkade dina Dynamic Media Classic-händelsedata till en eller flera anpassade trafikvariabler följer du det här arbetsflödet för att testa data i Adobe Analytics.
+När du har skapat de nödvändiga variablerna i Adobe Analytics, länkat dem till Dynamic Media Classic-händelser och slutfört de nödvändiga implementeringsstegen bör du testa konfigurationen. Du kan testa och verifiera att data hämtas, inuti Adobe Analytics. Om installationen fungerar här behövs inga ytterligare steg. Om du följer stegen ovan och länkade dina Dynamic Media Classic-händelsedata till en eller flera anpassade trafikvariabler följer du det här arbetsflödet för att testa data i Adobe Analytics.
 
 **Testa integrationen genom att visa en Adobe Analytics-rapport**
 
-1. Starta en Dynamic Media Classic-läsare från ditt konto, särskilt en som visar mätvärden som du vill hämta och interagera med den för att skapa händelsedata.
+1. Starta ett Dynamic Media Classic-visningsprogram från ditt konto, särskilt ett som sänder mätdata som du vill hämta och interagera med det för att skapa vissa händelsedata.
 
    Om du till exempel vill mäta de mest populära alternativa vyerna i en bilduppsättning förhandsgranskar du en bilduppsättning och klickar på de olika miniatyrbilderna.
 
-1. I Adobe Analytics går du till Anpassad trafik > Anpassad trafik 1-10 > [Namn på prop]och väljer trafikproppens namn på menyalternativen.
+1. I Adobe Analytics går du till Anpassad trafik > Anpassad trafik 1-10 > [Namn på prop] och väljer trafikproppens namn på menyalternativen.
 
    Om du till exempel vill få åtkomst till LoadAsset-beställningen i vårt exempelkonto är rätt menyval Anpassad trafik > Anpassad trafik 1-10 > LoadAsset. Om du har fler än tio anpassade utkast kan du se fler menyalternativ.
 
