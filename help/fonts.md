@@ -34,11 +34,11 @@ När en teckensnittsfil har överförts kan du ändra dess Dynamic Media Classic
 
 >[!NOTE]
 >
->Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Dynamic Media Classic behöver dessa teckensnittsformat för att bearbeta begäranden. Du bör även överföra alla PostScript-/Adobe Type 1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
+>Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Dessa teckensnittsformat behövs för att bearbeta begäranden i Dynamic Media Classic. Du bör även överföra alla PostScript-/Adobe Type 1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
 
 ## Överför teckensnittsfiler {#uploading-font-files}
 
-Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i alla dynamiska Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
+Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i alla Dynamic Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
 
 ## Redigera teckensnittsfilinformation {#editing-font-file-information}
 
@@ -48,22 +48,22 @@ I panelen Bläddra markerar du den teckensnittsfil som du vill redigera i vyn De
 
 **Teckensnittsnamn** Det här namnet identifierar teckensnittet när det publiceras.
 
-**PostScript-namn** Det här namnet är det fullständiga PostScript-namnet för teckensnittet. Det anger vanligtvis bredden eller formatet.
+**PostScript-** namnDet här namnet är det fullständiga PostScript-namnet för teckensnittet. Det anger vanligtvis bredden eller formatet.
 
-**RTF-namn** Det här namnet visas på en snabbmeny i RTF-redigeraren där malltextlager skapas.
+**RTF-** namnDet här namnet visas på en snabbmeny i RTF-redigeraren där malltextlager skapas.
 
-**Teckensnittsfamiljenamn** Det här namnet visar teckensnittsnamnet utan indikator för format, vikt eller teckensnittstyp.
+**Teckensnittsfamilj** NamnDet här namnet visar teckensnittsnamnet utan indikator för format, vikt eller teckensnittstyp.
 
 **Teckensnittsformat** Alternativen är Normal, Fet, Kursiv och Fet-Kursiv.
 
 **Teckensnittstyp** Alternativen är TrueType och Adobe Type 1. Om du anropar teckensnitten med ett annat namn kan du ange det.
 
-**Typförkortning** Alternativen är följande:
+**Teckensnittstyp** FörkortningAlternativen är följande:
 
-**TTF** TrueType-teckensnittsfiler som används för PDF/PostScript-återgivning och bildvisning.
+**TTFTrueType-** teckensnittsfiler som används för PDF/PostScript-återgivning och bildvisning.
 
-**AFM** Adobe PostScript teckensnittsfiler som innehåller Adobe-teckensnittsmått och används för bildvisning.
+**** AFMAdobe PostScript-teckensnittsfiler som innehåller Adobe Font Metrics-information och används för bildvisning.
 
-**PFM** Adobe PostScript teckensnittsfiler som innehåller binär teckensnittsmätningsinformation.
+**** PFMAdobe PostScript-teckensnittsfiler som innehåller binär teckensnittsmätningsinformation.
 
-**PFB** Adobe PostScript teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
+**** PFBAdobe PostScript-teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
