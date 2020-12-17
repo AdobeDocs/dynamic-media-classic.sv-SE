@@ -54,7 +54,7 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
 ## Hämta information i detaljvyn {#getting-information-in-detail-view}
 
-I detaljvyn finns information om en resurs eller fil. Den här informationen om ett objekt visas: mappen där den lagras, dess filnamn, det datum då objektet överfördes till Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
+I detaljvyn finns information om en resurs eller fil. Den här informationen om ett objekt visas: mappen där den lagras, dess filnamn, datumet då objektet överfördes till Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
 
 Du kan hämta en resurs-URL i detaljvyn; URL:en är dock inte aktiv förrän du publicerar resursen. För bilder innehåller vyn Detalj även en lista över resurser och metadata som skapats, till exempel zoommål och bilduppsättningar.
 
@@ -62,15 +62,20 @@ Du kan hämta en resurs-URL i detaljvyn; URL:en är dock inte aktiv förrän du 
 
 I detaljvyn finns verktyg som du kan använda för att arbeta med den resurs du har öppnat. Vilka verktyg som är tillgängliga beror på vilken typ av resurs du arbetar med, men detaljvyn har alltid dessa funktioner:
 
-* **objekt för publicering** Klicka på **[!UICONTROL Publish]** ikonen till vänster om namnet eller klicka på **[!UICONTROL File > Publish]** eller **[!UICONTROL File > Unpublish]**.
+* **objekt för**
+publiceringKlicka på  **[!UICONTROL Publish]** ikonen till vänster om namnet eller klicka  **[!UICONTROL File > Publish]** eller  **[!UICONTROL File > Unpublish]**.
 
-* **Byt namn på resursen** Välj namnet och ange ett nytt namn.
+* **Byt namn på**
+resursenMarkera namnet och ange ett nytt namn.
 
-* **Redigera och lägga till metadata** Välj panelen Metadata och gör önskade ändringar. Se [Visa, lägga till och exportera metadata](/help/viewing-adding-exporting-metadata.md).
+* **Redigera och lägga till**
+metadataVälj panelen Metadata och gör önskade ändringar. Se [Visa, lägga till och exportera metadata](/help/viewing-adding-exporting-metadata.md).
 
-* **Redigera och lägga till nyckelord** Välj nyckelord och lägg till eller ta bort dem efter behov. Se [Lägga till eller redigera nyckelord](/help/viewing-adding-exporting-metadata.md).
+* **Redigera och lägga till**
+nyckelordMarkera nyckelord och lägg till eller ta bort dem efter behov. Se [Lägg till eller redigera nyckelord](/help/viewing-adding-exporting-metadata.md).
 
-* **Tar bort resursen** Klicka **[!UICONTROL File > Delete]**.
+* **Tar bort**
+resursenKlicka  **[!UICONTROL File > Delete]**.
 
 För diskreta filer - t.ex. bilder, bilduppsättningar och teckensnitt - kan du visa publicerings- och redigeringshistoriken och kontrollera jobbinformationen i detaljvyn.
 
