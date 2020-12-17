@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Söka efter resurser{#searching-assets}
+# Söker resurser{#searching-assets}
 
 Om du vill söka efter filresurser i Dynamic Media Classic kan du visa resurser efter typ, sortera resurser i panelen Bläddra, utföra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
 
@@ -55,21 +55,21 @@ Gör en enkel sökning:
 >
 >Dynamic Media Classic spårar sökningar. Om du vill göra en sökning en andra gång markerar du knappen Sök och väljer namnet på en sökning längst ned på menyn Sök.
 
-## Använda avancerad sökning {#conducting-an-advanced-search}
+## Avancerad sökning {#conducting-an-advanced-search}
 
 Klicka på Avancerad sökning i resursbiblioteket om du vill söka efter många villkor, inklusive värden i metadatafält.
 
 Ange något av följande villkor i sökningen:
 
-**Filtrera efter resurstyp** Begränsa sökningen till en resurstyp genom att välja en resurstyp på menyn.
+**Filtrera efter** resurstypBegränsa sökningen till en resurstyp genom att välja en resurstyp på menyn.
 
-**Filer och mappar** Välj var du vill söka: I alla filer och mappar, i den valda mappen eller i den valda mappen och undermapparna.
+**Filer och** mapparVälj var du vill söka: I alla filer och mappar, i den valda mappen eller i den valda mappen och undermapparna.
 
-**Alla Publiceringslägen** Sök efter filer som har markerats som klara för publicering, har inte markerats som klara för publicering eller alla filer.
+**Alla** publiceringstillståndSök efter filer som har markerats som klara för publicering, som inte har markerats som klara för publicering eller alla filer.
 
-**Villkor** Om du anger metadatavillkor för sökning väljer du om sökningen måste matcha alla villkor (en ALL-sökning) eller något villkor (en OR-sökning).
+**** Villkor Om du anger metadatavillkor för sökning väljer du om sökningen måste matcha alla villkor (en ALL-sökning) eller något villkor (en OR-sökning).
 
-**Ange sökvillkor för metadata** Skapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
+**Ange** villkor för metadatasökningSkapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
 
 1. Öppna listan Metadatavy (till vänster om menyn Lägg till ett fält) och välj en metadatavy. Du kan välja komprimerad vy, IPTC, XMP eller en vy som administratören har konfigurerat.
 1. Välj menyn Lägg till ett fält och välj ett fältnamn i listrutan.
@@ -83,7 +83,7 @@ Klicka på Sök för att börja söka. Resultatet av sökningen visas i panelen 
 
 Klicka på Rensa för att rensa sökvillkoren och starta en ny sökning. Klicka på Stäng när du är klar med sökningen för att stänga sökpanelen.
 
-## Filtrera resurser med metadata {#filter-assets-using-metadata}
+## Filtrera resurser med hjälp av metadata {#filter-assets-using-metadata}
 
 Filtrera resurser på fliken Filter i resursbiblioteket. Om du vill filtrera resurser använder du metadatavärden som villkor. När du har valt ett metadatafält som du vill använda för filtrering visar fliken Filter alla metadatavärden som har angetts i det valda fältet och antalet resurser som har tilldelats varje värde. I en filteråtgärd i metadatafältet för skapare visar till exempel fliken Filter alla namn som har angetts i metadatafältet för skapare för olika resurser, och för varje namn, antalet resurser som har tilldelats namnet. Klicka sedan på ett metadatavärde för att visa alla resurser som har tilldelats det värdet. I exemplet klickar du på metadatavärdet för Jimmy för att visa alla resurser där namnet Jimmy har angetts i metadatafältet för Skapare. Du kan filtrera med hjälp av mer än ett metadatafält som filtreringskriterium.
 
@@ -109,15 +109,15 @@ Följ de här stegen för att söka efter resurser genom att filtrera med deras 
 
 1. Klicka på knappen Fält på en panel, följ dessa instruktioner för att visa filtermenyn och skapa filteråtgärden:
 
-   **Välj ett metadatafält** Välj fältets namn på filtreringsmenyn.
+   **Välj ett** metadatafältMarkera fältets namn på filtreringsmenyn.
 
    ***Obs **! Endast namnen på metadatafälten i standardmetadatavyn visas på filtreringsmenyn.*
 
    Se [Metadatavyer](application-setup.md#metadata_views).
 
-   **Lägg till ett metadatafält** Välj Lägg till en panel. När panelen visas på filterpanelen klickar du på knappen Fält och väljer namnet på ett metadatafält på filtreringsmenyn.
+   **Lägga till ett** metadatafältVälj Lägg till en panel. När panelen visas på filterpanelen klickar du på knappen Fält och väljer namnet på ett metadatafält på filtreringsmenyn.
 
-   **Ta bort ett metadatafält** Välj Ta bort den här panelen på filtreringsmenyn.
+   **Ta bort ett** metadatafältVälj Ta bort den här panelen på filtreringsmenyn.
 
    När du väljer ett metadatafält visas en lista i panelen:
 
@@ -139,11 +139,11 @@ Följ de här stegen för att söka efter resurser genom att filtrera med deras 
 
 Följ dessa anvisningar på fliken Filter för att spara, upprepa och ta bort filteråtgärder:
 
-**Spara en filteråtgärd** Klicka på knappen Välj förinställning, välj Spara aktuella som nya förinställningar och ange ett namn i dialogrutan Spara.
+**Spara en** filteråtgärdKlicka på knappen Välj förinställning, välj Spara aktuella som nya förinställningar och ange ett namn i dialogrutan Spara.
 
-**Upprepa en filteråtgärd** Klicka på knappen Välj förinställning och välj namnet på en filteråtgärd på menyn. I menyn visas filteråtgärder som du har sparat.
+**Upprepa en** filteråtgärdKlicka på knappen Välj förinställning och välj namnet på en filteråtgärd på menyn. I menyn visas filteråtgärder som du har sparat.
 
-**Om du tar bort en filteråtgärd från menyn Välj förinställning** kör du filteråtgärden. Klicka sedan på knappen Välj förinställning och välj Ta bort förinställning på menyn.
+**Ta bort en filteråtgärd från** menyn Välj förinställningKör filteråtgärden. Klicka sedan på knappen Välj förinställning och välj Ta bort förinställning på menyn.
 
 ## Använda metadataservern {#using-the-metadata-server}
 
@@ -153,13 +153,13 @@ Om du vill konfigurera metadataservern klickar du på Konfigurera > Programinst�
 
 Metadataserverns publiceringsskärm öppnas. På den här skärmen kan du ange följande alternativ:
 
-**Med Direktpublicering** överförs automatiskt alla metadataändringar när de görs, inklusive nya resurser, nyckelordsändringar och så vidare.
+**Direkt** publiceringAlla metadataändringar skickas automatiskt när de görs, inklusive nya resurser, nyckelordsändringar osv.
 
-**XMP Packet** publicerar XMP. Det här paketet används inte för sökning, men innehåller det senaste XMP/
+**XMP** PacketPublicerar XMP. Det här paketet används inte för sökning, men innehåller det senaste XMP/
 
-**Nyckelord** Publicerar dina nyckelord till metadataservern för användning i sökningar.
+**** NyckelordPublicerar dina nyckelord på metadataservern för användning i sökningar.
 
-**Metadataserverns publiceringsfält** Välj de fält som ska inkluderas i metadata. På så sätt kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
+**Metadataserverns** publiceringsfältMarkera de fält som ska inkluderas i metadata. På så sätt kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
 
 Klicka på **Publicera nu** för att starta jobbet. En bekräftelse visas som talar om att jobbet har startat.
 
