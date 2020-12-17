@@ -28,9 +28,9 @@ Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära et
 >
 >När du har beskurit kan du klicka på knappen Spara som och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Om du vill spara originalet och den beskurna versionen med ett annat namn väljer du Spara som tilläggsvy med Överordnad. Välj Ersätt original om du vill ta bort originalfilen som du beskurit bilden från. Ange sedan ett namn för bilden och välj knappen Skicka.
 
-## Beskära för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
+## Beskär för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
 
-Du kan beskära de genomskinliga eller enfärgade pixlarna från bildens kant.
+Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant.
 
 1. Om du vill beskära en bild klickar du på knappen Redigera överrullning och väljer Beskär. Du kan också visa den i panelen Bläddra i detaljvyn och klicka på knappen Beskär. Skärmen Beskärningsredigeraren öppnas.
 1. Gör något av följande:
@@ -42,11 +42,11 @@ Du kan beskära de genomskinliga eller enfärgade pixlarna från bildens kant.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
 
 ## Markera ett område att beskära {#select-an-area-to-crop}
 
-1. Om du vill beskära en bild klickar du på knappen Redigera överrullning och väljer **Beskär**. Du kan också visa den i panelen Bläddra i detaljvyn och klicka på **Beskär**.
+1. Om du vill beskära en bild klickar du på knappen Redigera överrullning och väljer **Beskär**, eller visar den i panelen Bläddra i vyn Detalj och klickar på **Beskär**.
 
 1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Det som visas i rutan kvarstår när du klickar på **Spara** och beskär bilden.
 1. Justera beskärningsområdet genom att göra något av följande:
@@ -59,7 +59,7 @@ Du kan beskära de genomskinliga eller enfärgade pixlarna från bildens kant.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
 
 >[!MORELIKETHIS]
 >
