@@ -1,6 +1,6 @@
 ---
-title: '"Snabbstart: Integrera Dynamic Media Classic och Adobe Analytics'
-seo-title: '"Snabbstart: Integrera Dynamic Media Classic och Adobe Analytics'
+title: '"Snabbstart: Integrera Dynamic Media Classic och Adobe Analytics "'
+seo-title: '"Snabbstart: Integrera Dynamic Media Classic och Adobe Analytics "'
 description: 'null'
 seo-description: En introduktion och snabbstart för att integrera Dynamic Media Classic och Adobe Analytics så att du snabbt kommer igång.
 uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Analytics är den branschledande produkten som ger marknadsförarna en plats där de kan mäta, analysera och optimera integrerade data från alla onlineinitiativ i flera marknadsföringskanaler.
 
-När du har integrerat Adobe Analytics med Dynamic Media Classic kan du få rapporter om webbplatsbesökarnas beteende med hjälp av Dynamic Media Classic-visningsprogram på webbplatsen. När en besökare på en webbplats till exempel klickar på ett zoommål i en Dynamic Media Classic Zoom Viewer registrerar Adobe Analytics den här åtgärden. Adobe Analytics-rapporter kan samla in kumulativ information om användaraktivitet i Dynamic Media Classic-visningsprogram.
+När du har integrerat Adobe Analytics med Dynamic Media Classic kan du få rapporter om hur besökare beter sig med Dynamic Media Classic-visningsprogram på din webbplats. När en besökare på en webbplats till exempel klickar på ett zoommål i ett zoomningsvisningsprogram för Dynamic Media Classic, registreras den här åtgärden i Adobe Analytics. Adobe Analytics-rapporter kan samla in kumulativ information om användaraktivitet i Dynamic Media Classic-visningsprogram.
 
 Med Adobe Analytics rapporter kan du få en tydlig bild av kundernas aktivitet på din webbplats. Du kan avgöra vilka produktpresentationer som leder till konvertering och vilka som inte drar nytta av kundernas intresse.
 
@@ -36,13 +36,13 @@ Se även [Mäta video i Adobe Analytics](https://docs.adobe.com/content/help/en/
 
 Den här snabbstarten är utformad för att du snabbt ska komma igång med Adobe Analytics Instrumentation Kit.
 
-**1. Logga in på Adobe Analytics med hjälp av Dynamic Media Classic och hämta Adobe Analytics rapportvariabler**
+**1. Logga in på Adobe Analytics med Dynamic Media Classic och hämta Adobe Analytics rapportvariabler**
 
 >[!NOTE]
 >
->Innan du kan konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics-rapportvariabler med Dynamic Media Classic-händelser måste du kontrollera att du har lagts till som medlem i gruppen Web Service Access i Adobe Analytics. Medlemmar i den här gruppen kan få åtkomst till alla rapporter i de angivna rapportsviterna via Marketing Cloud’s Web Services API oavsett vilka behörigheter som har angetts i gränssnittet. Om du vill lägga till en medlem i gruppen i Adobe Analytics klickar du på **Administratörsverktyg** > **Användarhantering** > **Redigera grupper**.
+>Innan du kan konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics-rapportvariabler med Dynamic Media Classic-händelser måste du kontrollera att du har lagts till som medlem i gruppen Web Service Access i Adobe Analytics. Medlemmar i den här gruppen kan få åtkomst till alla rapporter i de angivna rapportsviterna via Marketing Cloud’s Web Services API oavsett vilka behörigheter som har angetts i gränssnittet. Om du vill lägga till en medlem i gruppen i Adobe Analytics klickar du på **Admin Tools** > **Användarhantering** > **Redigera grupper**.
 
-När du har verifierat att du är medlem i webbtjänståtkomstgruppen klickar du i Dynamic Media Classic på **Inställningar** > **Programinställningar** > **Adobe Analytics**. Klicka på **Adobe Analytics-inloggning** på konfigurationssidan för Adobe Analytics.
+När du har verifierat att du är medlem i webbtjänståtkomstgruppen klickar du i Dynamic Media Classic på **Inställningar** > **Programinstallation** > **Adobe Analytics**. Klicka på **Adobe Analytics-inloggning** på konfigurationssidan för Adobe Analytics.
 
 Se [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
@@ -53,21 +53,21 @@ I dialogrutan Adobe Analytics-inloggning skriver du ditt Marketing Cloud Org-ID 
 På Adobe Analytics konfigurationssida anger du den information du vill ha i Adobe Analytics-rapporter. För varje Dynamic Media Classic-visningsprogramhändelse som du vill ha information om väljer du en Adobe Analytics-variabel (från rapportsviten) och en Dynamic Media Classic-variabel.
 
 * Visningsprogramhändelser beskriver den användaraktivitet som du vill mäta i rapporter.
-* Dynamiska Media Classic-variabler beskriver data om användarhändelser som du vill att rapporterna ska leverera.
+* Dynamic Media Classic-variabler beskriver de data om användarhändelser som du vill att rapporterna ska leverera.
 
 I Adobe Analytics Configuration finns även verktyg för att aktivera, redigera och ta bort visningsprogramhändelser.
 
-När du har klickat på Spara på skärmen Adobe Analytics Configuration infogas en anpassad spårningskod för att mäta användaraktivitet i Dynamic Media Classic-visningsprogram. Med den här funktionen kan du spåra användaraktivitet i Adobe Analytics-rapporter.
+När du har klickat på Spara på skärmen Adobe Analytics Configuration infogas en anpassad spårningskod för att mäta användaraktivitet i visningsprogram för Dynamic Media Classic. Med den här funktionen kan du spåra användaraktivitet i Adobe Analytics-rapporter.
 
 Se [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
 **3. Publicera dina Dynamic Media Classic-visningsprogram**
 
-Publicera dina Dynamic Media Classic-visningsprogram så att visningsprogrammen (med kod för att spåra användaraktivitet i Adobe Analytics-rapporter) läses in på Dynamic Media Classic-servrar. När du har publicerat den här informationen ingår den i visningsprogrammen och kan användas för analyser av Adobe Analytics.
+Publicera dina Dynamic Media Classic-visningsprogram så att visningsprogrammen (med kod för att spåra användaraktiviteter i Adobe Analytics-rapporter) läses in på Dynamic Media Classic-servrar. När du har publicerat den här informationen ingår den i visningsprogrammen och kan användas för analyser av Adobe Analytics.
 
-Se [Publiceringskonfigurationsinformation](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Se [Publicera konfigurationsinformation](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-**4. Placera Dynamic Media Classic-visningsprogram på webbplatsen**
+**4. Placera Dynamic Media Classic-visningsprogram på din webbplats**
 
 Placera Dynamic Media Classic-läsarna med Adobe Analytics spårningskod på webbplatsen.
 
