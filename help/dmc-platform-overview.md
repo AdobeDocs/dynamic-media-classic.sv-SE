@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic - översikt
-seo-title: Adobe Dynamic Media Classic - översikt
+title: Adobe Dynamic Media Classic - plattformsöversikt
+seo-title: Adobe Dynamic Media Classic - plattformsöversikt
 description: 'null'
 seo-description: En översikt över Dynamic Media Classic-plattformen och arbetsflödesprocessen.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
@@ -18,21 +18,25 @@ ht-degree: 0%
 ---
 
 
-# Adobe Dynamic Media Classic - översikt{#adobe-scene-platform-overview}
+# Adobe Dynamic Media Classic-plattformen - översikt{#adobe-scene-platform-overview}
 
 Dynamic Media Classic är en integrerad miljö för hantering, publicering och visning av multimedia. Multimedia kan levereras till alla marknadsförings- och säljkanaler, inklusive webben, trycksaker, e-postkampanjer, webbportaler, datorer och enheter.
 
 ## Arbetsflödesprocess {#workflow-process}
 
-De viktigaste stegen i arbetsflödet i Dynamic Media Classic är:
+De viktigaste stegen i Dynamic Media Classic-arbetsflödet är:
 
-* **Överför och hantera dina resurser**&#x200B;Överför dina medieresurser till Dynamic Media Classic. Du kan ordna, bläddra bland och söka efter resurser i systemet. Du kan också använda metadata för resurser.
+* **Överför och hantera dina**
+mediefilerÖverför dina mediefiler till Dynamic Media Classic. Du kan ordna, bläddra bland och söka efter resurser i systemet. Du kan också använda metadata för resurser.
 
-* **Skapa multimedia** Skapa olika konfigurationer av dina resurser som eCatalogs, Image Sets, Spin Sets, Swatch Sets, Mixed Media Sets, Basic Templates och FXG Templates. Mer information finns i Om multimedia.
+* **Skapa**
+multimediaSkapa olika konfigurationer av resurser som eCatalogs, Image Sets, Spin Sets, Swatch Sets, Mixed Media Sets, Basic Templates och FXG Templates. Mer information finns i Om multimedia.
 
-* **Publicera och administrera** publiceringsresurser i Dynamic Media Classic Saas-nätverket samt övervaka status för resurser när de publiceras, administrera användarrättigheter och upprätthålla säkerheten.
+* **Publicera och**
+administreraPublicera material i Dynamic Media Classic Saas-nätverket samt övervaka status för mediefiler när de publiceras, administrera användarrättigheter och upprätthålla säkerheten.
 
-* **Leverera** medier från Dynamic Media Classic SaaS-nätverk till webbsidor, tillämpningar och mobila enheter. mediet är prestandaoptimerat och levereras med CDN-cachning. I Dynamic Media Classic finns en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
+* ****
+ServeLeverera medier från Dynamic Media Classic SaaS-nätverk till webbsidor, tillämpningar och mobila enheter, mediet är prestandaoptimerat och levereras med CDN-cachning. I Dynamic Media Classic finns en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
 
 ![Arbetsflödesprocessen i Dynamic Media Classic](/help/assets/gs_workflow.png)
 
@@ -46,4 +50,4 @@ De URL-strängar du genererar med Dynamic Media Classic innehåller instruktione
 
 ## Cachelagring av innehåll {#content-caching}
 
-De bilder som genereras dynamiskt i Dynamic Media Classic är cachevänliga. I de flesta fall är de JPEG-bilder med unika URL-anrop som identifierar dem. Bilderna levereras i leveransnätverket (CDN), ett system med servrar som är sammankopplade på Internet för att leverera innehåll snabbare. Bilderna distribueras från servrar som finns globalt och sedan till datorer. När du implementerar en cachningsmekanism med en CDN-leverantör ändrar du bara servernamnet så att det pekar på den CDN-aktiverade Dynamic Media Image Server. Alla Dynamic Media Classic-utgåvor innehåller CDN-cachelagring i paket.
+De bilder som Dynamic Media Classic skapar dynamiskt är cachevänliga. I de flesta fall är de JPEG-bilder med unika URL-anrop som identifierar dem. Bilderna levereras i leveransnätverket (CDN), ett system med servrar som är sammankopplade på Internet för att leverera innehåll snabbare. Bilderna distribueras från servrar som finns globalt och sedan till datorer. När du implementerar en cachningsmekanism med en CDN-leverantör ändrar du bara servernamnet så att det pekar på den CDN-aktiverade Dynamic Media Image Server. Alla Dynamic Media Classic-utgåvor innehåller CDN-cachelagring i paket.
