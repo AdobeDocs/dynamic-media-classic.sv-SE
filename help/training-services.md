@@ -2,7 +2,7 @@
 title: Adobe Training Services
 seo-title: Adobe Training Services
 description: 'null'
-seo-description: Läs mer om Adobes utbildningstjänster.
+seo-description: Läs mer om Adobe utbildningstjänster.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -18,19 +18,19 @@ ht-degree: 0%
 ---
 
 
-# Adobe Training Services{#adobe-training-services}
+# Adobe utbildningstjänster{#adobe-training-services}
 
-Dynamic Media Classic erbjuder utbildning i form av videokurser, lärarledda workshops, webbsessioner och demos.
+Dynamic Media Classic erbjuder utbildning i form av videokurser, lärarledda workshops, webbseminarier och demonstrationer.
 
 **Adobe Training Services**
 
-Adobe Training Services erbjuder en omfattande, skräddarsydd utbildning för er organisation. Utbildningen kan ske i form av lokala universitetsklasser, webbaserade sessioner eller anpassade workshops på plats. Regionala kurser är öppna för alla kunder och hålls regelbundet på olika platser i Nordamerika och EMEA. Anpassade sessioner kan skräddarsys för både nybörjare och avancerade användare, slutanvändare, administratörer och IT-personal.
+Adobe Training Services erbjuder en djupgående, skräddarsydd utbildning för din organisation. Utbildningen kan ske i form av lokala universitetsklasser, webbaserade sessioner eller anpassade workshops på plats. Regionala kurser är öppna för alla kunder och hålls regelbundet på olika platser i Nordamerika och EMEA. Anpassade sessioner kan skräddarsys för både nybörjare och avancerade användare, slutanvändare, administratörer och IT-personal.
 
-Se [Adobes utbildningstjänster](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
+Se [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
 
 **Demos**
 
-Titta på demonstrationer av visningsfunktionerna i Dynamic Media Classic.
+Se demonstrationer av visningsfunktionerna i Dynamic Media Classic.
 
 Se [Demos](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
 
