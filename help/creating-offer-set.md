@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 4819803428adee539e46498c73e5f2ba6a952693
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 0%
@@ -95,11 +95,9 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
 1. Sammanställ bilder eller videor för uppsättningen. Starta i fönstret Test&amp;Target Offer Set eller i Stödrastervisning eller listvy och använd någon av följande metoder:
 
-   * **Test&amp;Target Offer Set**
-screenClick  **[!UICONTROL Build > Test&Target Offer Set]**. Dra bilder eller videoklipp till skärmen. Om du vill skapa olika storlekar för videoklipp eller bilder drar du i flera kopior av bilden eller videon och anger varje storlek för sig.
+   * **Test&amp;Target Offer Set** screenClick  **[!UICONTROL Build > Test&Target Offer Set]**. Dra bilder eller videoklipp till skärmen. Om du vill skapa olika storlekar för videoklipp eller bilder drar du i flera kopior av bilden eller videon och anger varje storlek för sig.
 
-   * **Stödraster- eller**
-listvyMarkera bilderna eller videoklippen och klicka sedan på  **[!UICONTROL Build > Test&Target Offer Set]**.
+   * **Stödraster- eller** listvyMarkera bilderna eller videoklippen och klicka sedan på  **[!UICONTROL Build > Test&Target Offer Set]**.
 
 1. Du kan också markera en bild eller video och klicka på **Förhandsgranska**. På sidan Förhandsvisningserbjudanden kan du ändra storlek och utseende för den bild eller video som du har valt. Eller så kan du ändra alla bilder eller videor i erbjudandeuppsättningen.
 
