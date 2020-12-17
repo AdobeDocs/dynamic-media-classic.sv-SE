@@ -55,15 +55,19 @@ Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogramm
 
 1. Om du vill lägga till communityfunktioner (Bädda in, Länk, Besök) i visningsprogrammet anger du alternativ för något av följande:
 
-   * **E-post** Klicka på På om du vill aktivera en e-postknapp i visningsprogrammet. När användarna klickar på knappen E-post när de visar uppsättningen öppnas ett e-postmeddelande med länken till uppsättningen.
+   * **Klicka på**
+E-post om du vill aktivera en e-postknapp i visningsprogrammet. När användarna klickar på knappen E-post när de visar uppsättningen öppnas ett e-postmeddelande med länken till uppsättningen.
 
-   * **Bädda in** Klicka på Live. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Om du vill kan du klicka 
+   * **Bädda**
+inKlicka på Live. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Om du vill kan du klicka 
 **Bläddra** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Länk** Klicka på Live. Skriv det namn du vill visa i visningsprogrammet för knappen Länk i rutan Etikett för länkknapp. Om du vill kan du klicka 
+   * ****
+LänkKlicka på Live. Skriv det namn du vill visa i visningsprogrammet för knappen Länk i rutan Etikett för länkknapp. Om du vill kan du klicka 
 **Bläddra** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Besök** Klicka 
+   * ****
+BesökKlicka 
 **Live**. I rutan Besök knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Besök. I rutan Besök URL skriver du URL-adressen till den webbplats som du vill öppna när du klickar på länken.
 
 1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ klickar du på ikonen för informationstips bredvid alternativet.
