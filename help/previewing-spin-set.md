@@ -18,13 +18,13 @@ ht-degree: 0%
 ---
 
 
-# Förhandsgranska en snurra uppsättning{#previewing-a-spin-set}
+# Förhandsgranska en snurruppsättning{#previewing-a-spin-set}
 
 Du kan använda visningsprogramlistan om du vill förhandsgranska hur en resurs visas på en viss visningstypsplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogram som du har valt att förhandsgranska är inte alla plattformar tillgängliga i visningsprogramlistan.
 
 Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers).
 
-Se [Förhandsvisa en resurs](previewing-asset.md#previewing_an_asset).
+Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 
 **Förhandsgranska en snurruppsättning**
 
