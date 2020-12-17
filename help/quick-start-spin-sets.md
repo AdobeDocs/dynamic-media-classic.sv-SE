@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Snabbstart: Snurra uppsättningar{#quick-start-spin-sets}
 
-Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. Med en snurra uppsättning simuleras en 360-graders visningsupplevelse. I Dynamic Media Classic finns en endimensionell snurra som du kan använda för att rotera ett objekt och tvådimensionella snurra uppsättningar där visningsprogram kan rotera och vända objektet. Dessutom kan man zooma och panorera med några enkla musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
+Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. Med en snurra uppsättning simuleras en 360-graders visningsupplevelse. I Dynamic Media Classic finns en endimensionell snurra där användaren kan rotera ett objekt och en tvådimensionell snurra uppsättningar där användaren kan rotera och vända objektet. Dessutom kan man zooma och panorera med några enkla musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
 
 ![Bilder för en snurra uppsättning.](/help/assets/spin_set.png)
 
@@ -30,15 +30,15 @@ Se [Skapa bildscheman](creating-image-maps.md).
 
 **Snabbstart**
 
-Snabbstart för den här snurruppsättningen är utformad för att komma igång snabbt med Spin Set-teknik i Dynamic Media Classic. Följ steg 1 till 7. I slutet av varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information om det behövs.
+Snabbstart för den här snurruppsättningen är utformad för att du snabbt ska komma igång med Spin Set-teknik i Dynamic Media Classic. Följ steg 1 till 7. I slutet av varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information om det behövs.
 
 **1. Skapa och överföra bilder**
 
 Du behöver minst 8-12 tagningar av ett objekt för en endimensionell snurra och 16-24 för en tvådimensionell snurra uppsättning. Fotografierna måste tas med jämna mellanrum för att ge intryck av att objektet roteras och vändas. Om en endimensionell snurra t.ex. innehåller 12 tagningar roterar du objektet 30 grader (360/12) för varje tagning.
 
-Välj knappen Överför i fältet Global navigering om du vill överföra snurrbilder från datorn eller nätverket till Dynamic Media Classic.
+Klicka på knappen Överför i fältet Global navigering om du vill överföra snurrbilder från datorn eller nätverket till Dynamic Media Classic.
 
-Se [Riktlinjer för fotografering av snurra uppsättningsbilder](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
+Se [Riktlinjer för fotografering av uppsättningsbilder för snurra](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
 **2. Skapa en snurruppsättning**
 
@@ -66,7 +66,7 @@ Last Modified Date:
 
  -->
 
-**3. Redigera en snurra uppsättning**
+**3. Redigera en snurruppsättning**
 
 Om du vill redigera en snurruppsättning väljer du knappen Redigera överrullning. Skärmen med snurra uppsättning öppnas. Lägg till, ta bort och ändra placeringen av bilder. Du kan ändra placeringen av rader i tvådimensionella snurruppsättningar.
 
@@ -78,19 +78,19 @@ Administratörer kan skapa förinställningar för Snurra uppsättning för visn
 
 På skärmen Förinställningar för visningsprogram väljer du menyn Lägg till och väljer Snurra uppsättning för visningsprogram i dialogrutan Lägg till visningsförinställning. Välj sedan alternativ på skärmen Konfigurera visningsprogram.
 
-Se [Ställa in visningsförinställningar för](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets)snurra uppsättningar.
+Se [Konfigurera förinställningar för Snurra uppsättning för visningsprogram](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
-**5. Förhandsgranska en snurra uppsättning**
+**5. Förhandsgranska en snurruppsättning**
 
 Markera din snurruppsättning på panelen Bläddra och klicka på knappen Förhandsvisa överrullning. Håll ned musknappen på förhandsgranskningsskärmen och dra pekaren åt vänster eller höger för att visuellt&quot;snurra&quot; objektet.
 
-Se [Förhandsvisa en snurra](previewing-spin-set.md#previewing-a-spin-set).
+Se [Förhandsgranska en snurruppsättning](previewing-spin-set.md#previewing-a-spin-set).
 
 **6. Publicera en snurruppsättning**
 
 När du publicerar en snurruppsättning placeras den på Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image-servrar till din webbplats eller ditt program.
 
-Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **Markera för publicering** bredvid namnet på bläddringspanelen. Klicka på **Publicera** i fältet Global navigering för att starta en publicering. På skärmen Publicera klickar du på **Starta publicering**.
+Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **Markera för publicering** bredvid namnet på bläddringspanelen. Klicka på **Publicera** i fältet Global navigering för att initiera en publicering. På skärmen Publicera klickar du på **Starta publicering**.
 
 Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set).
 
