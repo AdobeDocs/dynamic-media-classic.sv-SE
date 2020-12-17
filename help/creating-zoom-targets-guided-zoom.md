@@ -24,7 +24,7 @@ Zoommål vägleder tittarna till vissa delar av en bild. Förutom att zooma frit
 
 ![Skapa zoommål för guidad zoomning](/help/assets/zo_guided_zoom.png)
 
-## Om zoomningsmål {#about-zoom-targets}
+## Om zoommål {#about-zoom-targets}
 
 Den maximala zoomprocenten för zoommål är 100 procent. Den minsta zoomprocenten varierar beroende på en kombination av visningsprogrammets storlek och bildstorleken, vilket visas i följande tabell:
 
@@ -33,30 +33,32 @@ Den maximala zoomprocenten för zoommål är 100 procent. Den minsta zoomprocent
 | Stor | Mindre | Mindre minimum |
 | Liten | Större | Större minimum |
 
-Du kan ändra storleken på Zoomvisningsprogrammet så att den matchar storleken som används på webbsidan. Om du vill ändra inställningen permanent kan du ändra visningsprogrammets storlek på installationsskärmen (om du är administratör). Se [Ställa in förinställningar](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)för zoomvisningsprogrammet.
+Du kan ändra storleken på Zoomvisningsprogrammet så att den matchar storleken som används på webbsidan. Om du vill ändra inställningen permanent kan du ändra visningsprogrammets storlek på installationsskärmen (om du är administratör). Se [Konfigurera förinställningar för zoomvisningsprogrammet](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Skapa och redigera zoommål {#creating-and-editing-zoom-targets}
 
-Skapa och redigera zoommål på zoomskärmen i Target Editor. Om du vill öppna den här skärmen markerar du en bild och gör något av följande:
+Skapa och redigera zoommål på skärmen för zoommålredigeraren. Om du vill öppna den här skärmen markerar du en bild och gör något av följande:
 
-* Klicka på **[!UICONTROL Edit]** överrullningsknappen och välj Zoommål.
-* Visa bilden i på panelen Bläddra **[!UICONTROL Detail View]** och klicka sedan på **[!UICONTROL Zoom Targets]**.
+* Klicka på knappen för överrullning **[!UICONTROL Edit]** och välj Zoommål.
+* Visa bilden i **[!UICONTROL Detail View]** på panelen Bläddra och klicka sedan på **[!UICONTROL Zoom Targets]**.
 
-Klicka på **[!UICONTROL Select Target]** knappen (pilen) för att markera ett mål innan du ändrar dess storlek eller position på zoomskärmen i Target Editor. Klicka **[!UICONTROL Add Targets]** (rektangel) för att skapa ett zoommål på bilden. Skärmen Zoom Target Editor innehåller även verktyg för att ta bort, kopiera och namnge zoomningsmål.
+Klicka på knappen **[!UICONTROL Select Target]** (pil) i zoommålredigeraren för att markera ett mål innan du ändrar dess storlek eller position. Klicka på **[!UICONTROL Add Targets]** (rektangel) för att skapa ett zoommål på bilden. Skärmen Zoom Target Editor innehåller även verktyg för att ta bort, kopiera och namnge zoommål.
 
 ### Skapa ett zoommål {#creating-a-zoom-target}
 
-Öppna zoomskärmen i Target Editor och följ de här stegen för att skapa ett zoommål:
+Öppna fönstret för zoommålredigeraren och följ de här stegen för att skapa ett zoommål:
 
-1. Klicka **[!UICONTROL Add Targets]** (rektangel), flytta pekaren över bilden och klicka där du vill att zoommålet ska vara.
+1. Klicka på **[!UICONTROL Add Targets]** (rektangel), flytta pekaren över bilden och klicka där du vill att zoommålet ska vara.
 
    En miniatyrbild av zoommålet visas på panelen till höger på skärmen.
 
-1. Klicka **[!UICONTROL Select Target]** (pil), klicka för att markera det zoommål som du skapade och justera målets storlek och position.
+1. Klicka på **[!UICONTROL Select Target]** (pil), klicka för att välja det zoommål som du skapade och justera målets storlek och position.
 
-   * **Ändra storlek** Flytta pekaren över ett hörn av zoommålet och dra för att förstora eller förminska målet.
+   * **Ändra**
+storlekFlytta pekaren över ett hörn av zoommålet och dra för att förstora eller förminska målet.
 
-   * **Placering** Flytta pekaren över zoommålet och dra den till en annan plats.
+   * **Placering**
+Flytta pekaren över zoommålet och dra den till en annan plats.
 
 1. Ange ett namn för zoommålet i rutan Namn.
 
@@ -71,25 +73,29 @@ Klicka på **[!UICONTROL Select Target]** knappen (pilen) för att markera ett m
 
 >[!NOTE]
 >
->Om du vill se hur dina zoommål ser ut i ett zoomvisningsprogram klickar du på knappen Förhandsvisa i zoomningsredigeraren i Target och väljer ett zoomvisningsprogram på förhandsvisningsskärmen. Mer information om den här skärmen finns i [Förhandsvisa bilder med olika zoomvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>Om du vill se hur dina zoommål ser ut i ett zoomvisningsprogram klickar du på knappen Förhandsvisa i zoommålredigeraren och väljer ett zoomvisningsprogram på förhandsvisningsskärmen. Mer information om den här skärmen finns i [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### Redigera zoommål {#editing-zoom-targets}
 
-Använd de här teknikerna på Zoom Target Editor-skärmen för att redigera zoommål:
+Använd de här teknikerna på skärmen för zoommålredigeraren för att redigera zoommål:
 
-* **Flytta** med knappen Välj Target (pilen) klickar du på målet för att markera det. Dra sedan målet till en annan plats.
+* **Flytta**
+omKlicka på målet för att markera det med knappen Välj mål (pilen). Dra sedan målet till en annan plats.
 
-* **Ändra storlek** med knappen Välj Target (pilen) och klicka på målet för att markera det. Flytta sedan pekaren över ett hörn av zoommålet och dra för att förstora eller förminska målet.
+* **Ändra**
+storlekMarkera målet genom att klicka på det med knappen Välj mål (pilen). Flytta sedan pekaren över ett hörn av zoommålet och dra för att förstora eller förminska målet.
 
-* **Ta bort** Klicka på målets miniatyrbild till höger på skärmen. Klicka sedan på **[!UICONTROL Delete Target]**.
+* **Ta**
+bortKlicka på målets miniatyrbild till höger på skärmen. Klicka sedan på **[!UICONTROL Delete Target]**.
 
-* **Byt namn** Klicka på målets miniatyrbild till höger på skärmen. Ange sedan ett namn i **[!UICONTROL Name]** textfältet och klicka på **[!UICONTROL Save]**.
+* **Byt**
+namnKlicka på målets miniatyrbild till höger på skärmen. Ange sedan ett namn i textfältet **[!UICONTROL Name]** och klicka på **[!UICONTROL Save]**.
 
-### Kopiera zoommål {#copying-zoom-targets}
+### Kopierar zoommål {#copying-zoom-targets}
 
-Du kan kopiera zoommål från en bild till en annan. Kopiera mål när två bilder har liknande innehåll och deras zoommål finns på samma platser. Så här kopierar du zoommål till en annan bild:
+Du kan kopiera zoommål från en bild till en annan. Kopiera mål när två bilder har liknande innehåll och deras zoommål hör till samma platser. Så här kopierar du zoommål till en annan bild:
 
-1. Öppna bilden med de zoommål som du vill kopiera på zoomskärmen i Target Editor.
+1. Öppna bilden med de zoommål som du vill kopiera på skärmen för zoommålredigeraren.
 1. Klicka på **[!UICONTROL Copy Targets To]**.
 1. Markera en bild i dialogrutan Välj bilder och klicka på **[!UICONTROL Select]**.
 
