@@ -26,7 +26,7 @@ Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_defaul
 
 Om du förhandsgranskar en mallresurs med parameterlager kan du ändra parametrarna eller ändra bildförinställningen. Eftersom ändringarna infogas kan du visa resultatet direkt från samma förhandsgranskningsfönster.
 
-Se även [Adobe Viewer Reference Library Examples](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Se även [Exempel på referensbibliotek för visningsprogram för Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Förhandsgranska en resurs**
 
@@ -59,7 +59,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
    * Ovanför fönstret Resurser klickar du på Listvy till höger om verktygsfältet. I fönstret Resurser väljer du en enskild resurs och klickar sedan på Förhandsvisa > Visningsprogramlista till höger om miniatyrbilden.
    * Klicka på Detaljvy ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på Förhandsgranska > Visningsprogramlista i samma verktygsfält.
 
-1. (Valfritt) I fönstret Visningsprogramlista klickar du på kolumnrubriken **Namn** eller **plattformstyp** för att sortera kolumnen i stigande eller fallande ordning.
+1. (Valfritt) I fönstret Visningsprogramlista klickar du på kolumnrubriken **Namn** eller **Plattformstyp** för att sortera kolumnen i stigande eller fallande ordning.
 1. I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, klickar du på Förhandsvisa för att se hur resursen visas för ett valt visningsprogram och en vald plattformstyp.
 
    Stäng förhandsgranskningen som visas för att återgå till fönstret Visningsprogramlista.
@@ -79,7 +79,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
 1. Klicka på Stäng i det nedre högra hörnet av fönstret Visningsprogramlista för att återgå till skärmen Resurser.
 
-## Förhandsvisa en bildresurs baserat på dess bildförinställning {#previewing-an-image-asset-based-on-its-image-preset}
+## Förhandsgranska en bildresurs baserat på bildförinställningen {#previewing-an-image-asset-based-on-its-image-preset}
 
 Du kan förhandsgranska en bildresurs baserat på bildförinställningen för att ta reda på hur bilden ser ut när den levereras dynamiskt till webbplatsen eller programmet i olika storlekar.
 
