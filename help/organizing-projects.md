@@ -28,19 +28,21 @@ Du kan skapa ett projekt när du överför filer eller skapar projekt på panele
 
 >[!NOTE]
 >
->Dynamic Media Classic rekommenderar att du ordnar resurser med metadata i stället för med projekt. Se [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md).
+>Dynamic Media Classic rekommenderar att du organiserar resurser med metadata i stället för med projekt. Se [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
->För att du ska kunna ordna resurser i projekt måste administratören ha konfigurerat dig så att du kan använda dem. Om du inte ser något avsnitt i projektmappen längst ned i resursbiblioteket är den här metoden för att ordna resurser inte tillgänglig för dig. Se Allmänna inställningar [för](application-setup.md#general-settings)programmet.
+>För att du ska kunna ordna resurser i projekt måste administratören ha konfigurerat dig så att du kan använda dem. Om du inte ser något avsnitt i projektmappen längst ned i resursbiblioteket är den här metoden för att ordna resurser inte tillgänglig för dig. Se [Allmänna inställningar för program](application-setup.md#general-settings).
 
 ## Skapa en projektmapp {#creating-a-project-folder}
 
 Du kan skapa en projektmapp som börjar i resursbiblioteket eller när du överför filer till Dynamic Media Classic:
 
-* **I resursbiblioteket** Bläddra längst ned i resursbiblioteket till avsnittet Projekt och välj knappen Lägg till projekt . Ange sedan ett namn för projektet.
+* **Gå till avsnittet Projekt i**
+resursbiblioteketRulla längst ned i resursbiblioteket och välj knappen Lägg till projekt . Ange sedan ett namn för projektet.
 
-* **När du överför filer** på skärmen Överför väljer du Lägg till i projekt och sedan Skapa projekt. Ange sedan ett namn för projektet.
+* **När du överför**
+filerPå skärmen Överför väljer du Lägg till i projekt och sedan Skapa projekt. Ange sedan ett namn för projektet.
 
 >[!NOTE]
 >
@@ -50,16 +52,21 @@ Du kan skapa en projektmapp som börjar i resursbiblioteket eller när du överf
 
 Följ dessa anvisningar när du vill visa, ta bort och byta namn på en projektmapp:
 
-* **Bläddra i innehållet** Välj namnet på mappen i resursbiblioteket. Dess resurser visas i panelen Bläddra.
+* **Bläddra i**
+innehålletVälj namnet på mappen i resursbiblioteket. Dess resurser visas i panelen Bläddra.
 
-* **Ta bort projektmappar** Markera projektmappen och välj sedan knappen Ta bort projekt . När du tar bort resurser från en projektmapp tas de inte bort från Dynamic Media Classic. resurserna finns kvar i de ursprungliga mappar där de lagras.
+* **Ta bort**
+projektmapparMarkera projektmappen och välj knappen Ta bort projekt . När du tar bort resurser från en projektmapp tas de inte bort från Dynamic Media Classic. resurserna finns kvar i de ursprungliga mappar där de lagras.
 
-* **Byt namn på projektmappar** Dubbelklicka på namnet på mappen på resurspanelen och ange ett nytt namn.
+* **Byta namn på projektmapparDubbelklicka på**
+mappens namn på resurspanelen och ange ett nytt namn.
 
 ## Lägga till resurser i en projektmapp {#adding-assets-to-a-project-folder}
 
 Du kan lägga till bilder i en projektmapp med början på panelen Bläddra eller när du överför filer till Dynamic Media Classic:
 
-* **På panelen** Bläddra markerar du resurserna och drar dem till en projektmapp. Du kan också välja Arkiv > Lägg till i projekt, markera ett projektmappsnamn i dialogrutan Välj projekt och sedan klicka på Skicka.
+* **På**
+panelen BläddraMarkera resurserna och dra dem till en projektmapp. Du kan också välja Arkiv > Lägg till i projekt, markera ett projektmappsnamn i dialogrutan Välj projekt och sedan klicka på Skicka.
 
-* **Klicka på knappen Jobbalternativ när du överför filer** på skärmen Överför. I dialogrutan Alternativ för överföring av jobb väljer du Projekt och sedan ett projektnamn.
+* **När du överför**
+filerKlicka på knappen Jobbalternativ på skärmen Överför. I dialogrutan Alternativ för överföring av jobb väljer du Projekt och sedan ett projektnamn.
