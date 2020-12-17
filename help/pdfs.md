@@ -32,13 +32,13 @@ Alternativ för att överföra PDF-filer finns på skärmen Överför under PDF-
 
 Bearbetningsalternativen är följande:
 
-**Rastrera** (standard) Rippar sidorna i PDF-filen och konverterar vektorgrafik till bitmappsbilder. Välj det här alternativet om du vill skapa en e-katalog.
+**Rastrera**  (standard) Rippar sidorna i PDF-filen och konverterar vektorgrafik till bitmappsbilder. Välj det här alternativet om du vill skapa en e-katalog.
 
-**Extrahera sökord** Extraherar ord från PDF-filen så att filen kan genomsökas efter nyckelord i en eCatalog Viewer.
+**Extrahera** sökordExtraherar ord från PDF-filen så att filen kan genomsökas efter nyckelord i en eCatalog Viewer.
 
-**Extrahera länkar** extraherar länkar från PDF-filerna och konverterar dem till bildscheman som används i en eCatalog Viewer.
+**Extrahera** länkarExtraherar länkar från PDF-filerna och konverterar dem till bildscheman som används i en eCatalog Viewer.
 
-**Skapa automatiskt en eCatalog med PDF** med flera sidor skapar automatiskt en e-katalog från PDF-filen. eCatalog namnges efter den PDF-fil du överförde. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
+**Skapa eCatalog automatiskt med PDF** för flera sidor skapar automatiskt en e-katalog från PDF-filen. eCatalog namnges efter den PDF-fil du överförde. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
 
 **Upplösning**
 
@@ -48,23 +48,23 @@ Anger upplösningsinställningen. Den här inställningen avgör hur många pixl
 
 Välj menyn Färgrymd och välj en färgrymd för PDF-filen. De flesta PDF-filer har både RGB- och CMYK-färgbilder. RGB-färgmodellen är att föredra när du vill visa bilden online.
 
-**Identifiera automatiskt** Behåller PDF-filens färgrymd.
+**Identifiera** automatisktBehåller PDF-filens färgrymd.
 
-**Tvinga som RGB** Konverterar till RGB-färgrymden.
+**Tvinga som** RGBConverterar till RGB-färgmodellen.
 
-**Använd som CMYK** Konverterar till CMYK-färgmodellen.
+**Tvinga som** CMYK konverteras till CMYK-färgmodellen.
 
-**Använd som gråskala** Konverterar till färgrymden Gråskala.
+**Använd som** gråskalaKonverterar till färgrymden Gråskala.
 
 **Färgprofil**
 
 Välj ett färgprofilsalternativ:
 
-**Konvertera till sRGB** Konverterar till sRGB (röd standardgrön blå). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+**Konvertera till** sRGBConverts till sRGB (röd standardgrön blå). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
 
-**Behåll ursprunglig färgrymd** Behåller den ursprungliga färgrymden.
+**Behåll ursprunglig** färgrymdBehåller den ursprungliga färgrymden.
 
-**Anpassad från > Till** öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du överfört till Dynamic Media Classic.
+**Anpassad från >** TillÖppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
@@ -73,19 +73,19 @@ Se [ICC-profiler](icc-profiles.md#icc_profiles).
 1. Om du vill beskära pixlar med tomt utrymme automatiskt från en PDF-fil när du överför den väljer du Beskär-menyn och sedan Beskär.
 1. Ange följande alternativ:
 
-   **Rensa bortBaserat på** Välj om du vill beskära baserat på färg eller genomskinlighet:
+   **Trimma bort baserat** påVälj om du vill beskära baserat på färg eller genomskinlighet:
 
-   **Färg** Välj alternativet Färg. Välj sedan menyn Hörn och välj hörnet av PDF-filen med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
+   **** FärgVälj alternativet Färg. Välj sedan menyn Hörn och välj hörnet av PDF-filen med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 
-   **Genomskinlighet** Välj alternativet Genomskinlighet.
+   **** GenomskinlighetVälj alternativet Genomskinlighet.
 
-   **Tolerans** Dra skjutreglaget för att ange en tolerans mellan 0 och 1:
+   **** ToleransDra i skjutreglaget för att ange en tolerans mellan 0 och 1:
 
-   **Trimma baserat på färg** Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i PDF-filens hörn. Nummer som ligger närmare 1 ger större färgskillnader.
+   **Trimma baserat på** färgAnge 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i PDF-filens hörn. Nummer som ligger närmare 1 ger större färgskillnader.
 
-   **Trimma baserat på genomskinlighet** Ange 0 om pixlarna bara ska beskäras om de är helt genomskinliga. siffror närmare 1 ger större genomskinlighet.
+   **Trimma baserat på** genomskinlighetAnge 0 om pixlarna bara ska beskäras om de är helt genomskinliga. siffror närmare 1 ger större genomskinlighet.
 
-## Beskära från sidorna på PDF-sidor {#cropping-from-the-sides-of-pdf-pages}
+## Beskära från sidorna på PDF-sidorna {#cropping-from-the-sides-of-pdf-pages}
 
 Du kan ta bort skrivarmärken manuellt från sidorna i en PDF-fil när du överför den.
 
