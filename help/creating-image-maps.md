@@ -40,24 +40,24 @@ När du skapar bildscheman kan du göra något av följande:
 1. Gör något av följande:
 
    * Om du arbetar med en bild i stödrastervyn eller listvyn klickar du på **Bildschema** i listrutan Redigera. Du kan också öppna den i detaljvyn och sedan klicka på **Bildschema** ovanför bilden.
-   * Om du arbetar med en SpinSet i Stödrastervisning eller listvy klickar du på **Redigera**. Du kan också öppna den i detaljvyn och sedan klicka på **Redigera**. Välj en bildresurs och klicka sedan på **Bildschema**.
-   * Om du arbetar med en e-katalog klickar du på **Redigera** i Stödrastervisning, Listvy och Detaljvy. Klicka på fliken **Mappa sidor** .
+   * Om du arbetar med en SpinSet i stödrastervyn eller listvyn klickar du på **Redigera**. Du kan också öppna den i detaljvyn och sedan klicka på **Redigera**. Välj en bildresurs och klicka sedan på **Bildschema**.
+   * Om du arbetar med en e-katalog klickar du på **Redigera** i Stödrastervisning, listvy eller detaljvy. Klicka på fliken **Mappa sidor**.
 
    ![](assets/ma_image_map.png)
 
 1. Rita ett rektangulärt eller polygonalt (flersidigt) bildschema:
 
-   **Rektangulär karta** Välj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln. Om du vill lägga till en punkt i ett rektangulärt schema (och på så sätt ändra den till ett polygonschema) trycker du på Ctrl, placerar insättningsverktyget på önskad plats och klickar.
+   **Rektangulär** kartaVälj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln. Om du vill lägga till en punkt i ett rektangulärt schema (och på så sätt ändra den till ett polygonschema) trycker du på Ctrl, placerar insättningsverktyget på önskad plats och klickar.
 
-   **Polygonkarta** Välj verktyget Polygonbildschema och klicka på punkter vid omkretsen av det område i bilden som du vill omsluta. Använd reglaget för polygondensitet för att ändra polygonens punktdensitet. Den ursprungliga densiteten sparas om du väljer andra kartor. Om en punkt läggs till, tas bort eller flyttas i polygonen, försvinner den ursprungliga densiteten och reglaget återställs till sitt högsta värde.
+   **PolygonkartaVälj** verktyget Polygonbildschema och klicka på punkterna vid det område i bilden som du vill omsluta. Använd reglaget för polygondensitet för att ändra polygonens punktdensitet. Den ursprungliga densiteten sparas om du väljer andra kartor. Om en punkt läggs till, tas bort eller flyttas i polygonen, försvinner den ursprungliga densiteten och reglaget återställs till sitt högsta värde.
 
-1. Ange ett namn för bildschemat, om du vill, i listan Bildschema. När du har ritat en bildschema får den ett namn av Dynamic Media Classic.
+1. Ange ett namn för bildschemat, om du vill, i listan Bildschema. När du har ritat en bildschema ger Dynamic Media Classic den ett namn.
 
-   För att skapa namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den bild- eller eCatalog-sida som du arbetar med. Du kan ange ett namn.
+   För att skapa namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den bild- eller e-katalogsida som du arbetar med. Du kan ange ett namn.
 
 1. Om du vill att användarna ska öppna en ny webbsida när de klickar på bildschemat anger du URL:en i listan Bildschema.
 
-   Se [för att ange JavaScript och URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Se [för att ange JavaScript och URL:er](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. Om du vill visa överrullningstext när användare flyttar pekaren över bildschemat anger du texten i listan Bildschema. I listan Bildschema väljer du menyn Visa och sedan Överrullningstext. Ange sedan den text som du vill att användarna ska se på skärmen. Du kan skriva texten i en ordbehandlare och kopiera den till textfältet Över.
 1. Om du vill att en annan åtgärdseffekt ska inträffa när användaren flyttar musen över en bildschema definierar du åtgärden. Klicka på Andra åtgärder i listrutan Visa. Ange åtgärdens attribut. (Klicka på Visa > Båda för att skapa överrullningstext och en åtgärd för en bildschema.)
@@ -76,21 +76,21 @@ När du skapar bildscheman kan du göra något av följande:
 
 Om du vill ändra placering, form och storlek för ett bildschema väljer du knappen Bildschema. Välj sedan panoreringsverktyget och följ dessa instruktioner:
 
-**Ändra position** Flytta pekaren nära, men inte över, kanten på bildschemat. När du ser ikonen med fyra pilar drar du kartan till en ny plats.
+**Ändra** positionFlytta pekaren nära, men inte över, kanten på bildschemat. När du ser ikonen med fyra pilar drar du kartan till en ny plats.
 
-**Ändra storlek och form** Hur du ändrar form och storlek på ett bildschema beror på om du arbetar med ett rektangulärt eller polygonbildschema:
+**Ändra storlek och** formHur du ändrar form och storlek på ett bildschema beror på om du arbetar med ett rektangulärt eller polygonbildschema:
 
 ***Tips **: Du kan dra storleksreglaget längst ned på skärmen för att ändra vyer och få en bättre överblick över din bildschema.*
 
-**Rektangulär bildschema** Flytta pekaren över en sida eller ett hörn av bildschemat. När du ser den dubbelriktade pilikonen börjar du dra. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen).
+**Rektangulär** bildschemaFlytta pekaren över en sida eller ett hörn i bildschemat. När du ser den dubbelriktade pilikonen börjar du dra. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen).
 
-**Polygonbildschema** Dra ett fyrkantigt markeringshandtag. Om du vill skapa ett markeringshandtag klickar du på kanten på bildschemat och börjar dra.
+**Polygonbild** MapDra ett fyrkantigt markeringshandtag. Om du vill skapa ett markeringshandtag klickar du på kanten på bildschemat och börjar dra.
 
 ### Hantera överlappande bildscheman {#handling-overlapping-image-maps}
 
 Om bilden eller eCatalog-sidan innehåller mer än en bildschema och kartorna överlappar varandra, kan du bestämma hur kartor överlappar. Om du vill göra det ändrar du ordningen på kartorna i listan Bildschema. Dra namnen uppåt eller nedåt i listan. Hur högt ett namn finns på listan avgör om dess bildschema överlappar andra bildscheman.
 
-### Importera data för bildschema {#importing-image-map-data}
+### Importerar data för bildschema {#importing-image-map-data}
 
 I stället för att ange bildschemadata på varje sida kan du importera data för bilden, den nya uppsättningen eller eCatalog till fönstret Kartsammanfattning. Du importerar bildschemadata i form av en tabbavgränsad fil eller XML DTD. Fälten i filen måste vara i den ordning som visas i fönstret Mappningssammanfattning: Namn, etiketter för innehållsförteckning, kartor, URL:er, överrullningstext, andra åtgärder och söksträngar. Om du importerar data från bildschemat slipper du problem med att ange data i listan Bildschema när du skapar bildschemat.
 
@@ -124,7 +124,7 @@ Om du till exempel kopierar bildscheman i en eCatalog kan du enkelt kopiera alla
 
 ## Använda en mall för att ange JavaScript och URL:er {#using-a-template-to-enter-javascript-and-urls}
 
-Du kan definiera en URL-mall (kallas även Href-mall) för att göra det enklare och effektivare att ange URL:er för bildschema. Definiera en URL-mall om de flesta URL:er för bildschemat har ett gemensamt, fast format. Genom att ange den del av URL-adressen som är fast som URL-mall behöver du inte ange den här delen av URL-adressen varje gång du skapar en bildschema. URL-mallen kan även innehålla JavaScript-kommandon, sökvägsnamn och parametrar. Som standard innehåller URL-mallen en egen Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` för att öppna bilden i ett nytt fönster.
+Du kan definiera en URL-mall (kallas även Href-mall) för att göra det enklare och effektivare att ange URL:er för bildschema. Definiera en URL-mall om de flesta URL:er för bildschemat har ett gemensamt, fast format. Genom att ange den del av URL-adressen som är fast som URL-mall behöver du inte ange den här delen av URL-adressen varje gång du skapar en bildschema. URL-mallen kan även innehålla JavaScript-kommandon, sökvägsnamn och parametrar. Som standard innehåller URL-mallen en Dynamic Media Classic JavaScript-hanterare med namnet `loadProduct` som öppnar bilden i ett nytt fönster.
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg
 * URL-värde: `product.htm`
 * Faktisk URL som genererats: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-Som standard innehåller URL-mallen en egen Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` för att öppna ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Dynamic Media Classic-hanterare:
+Som standard innehåller URL-mallen en Dynamic Media Classic JavaScript-hanterare med namnet `loadProduct` som öppnar ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Dynamic Media Classic-hanterare:
 
 * `loadProductCW`
 
@@ -154,21 +154,21 @@ Som standard innehåller URL-mallen en egen Dynamic Media Classic JavaScript-han
 
    Visar URL-målet som anges i URL-kolumnen i det överordnade fönstret (sidan som öppnade det aktuella fönstret). Det aktuella fönstret förblir öppet, men det överordnade fönstret ändras så att URL-målet visas.
 
-   ***Obs **! Hanteraren `loadProductPW` stöder inte DHTML- och HTML5-visningsprogram.*
+   ***Obs **! Hanteraren  `loadProductPW` stöder inte DHTML- och HTML5-visningsprogram.*
 
-### Creating a URL template {#creating-a-url-template}
+### Skapa en URL-mall {#creating-a-url-template}
 
 Så här skapar du en URL-mall:
 
 1. Välj Redigera bredvid alternativet URL-mall på skärmen i Kartredigeraren (bilder eller SpinSets) eller på fliken Kartsidor på skärmen eCatalog (eCatalogs). Dialogrutan Redigera kartmall öppnas.
-1. Ange JavaScript-koden och den fullständiga URL:en (med variabeldelen ersatt av dollartecknen [$$]). Du kan klistra in koden genom att högerklicka och välja Klistra in.
+1. Ange JavaScript-koden och den fullständiga URL:en (med variabeldelen ersatt med dollartecken [$]). Du kan klistra in koden genom att högerklicka och välja Klistra in.
 1. Klicka på knappen Spara.
 
 ### Hantera URL-mallar {#handling-url-templates}
 
 På mallredigeringssidan (bilder och SpinSets) och fliken Kartsidor på eCatalog-skärmen (eCatalogs) finns följande kommandon för hantering av URL-mallar:
 
-**Alternativet** URL-mall Välj alternativet URL-mall om du vill använda URL-mallen på alla bildscheman på en bild- eller eCatalog-sida.
+**URL-mall-** alternativVälj alternativet URL-mall om du vill använda URL-mallen på alla bildscheman på en bild- eller eCatalog-sida.
 
 **Mallalternativ** Avmarkera ett mallalternativ i listan URL-bildschema om du inte vill att en enskild bildschema ska använda URL-mallen.
 
@@ -176,11 +176,11 @@ På mallredigeringssidan (bilder och SpinSets) och fliken Kartsidor på eCatalog
 
 Du kan välja menyn Visa och välja Andra åtgärder om du vill aktivera andra åtgärder än överrullningstext och webbsidor som öppnas. När användaren flyttar pekaren över ett bildschema kan du initiera en åtgärd. Dessa åtgärder är attribut som definieras för Image Maps på klientsidan av HTML-specifikationer för World Wide Web Consortium. De omfattar följande:
 
-**hjälptangenten** Startar en åtgärd när användaren trycker på en viss tangent på tangentbordet.
+**hjälpmedel** Startar en åtgärd när användaren trycker på en tangent på tangentbordet.
 
-**onfocus** Startar en händelse när bildschemat får fokus - med hjälp av markören, tabb eller en åtkomsttangent. Du kan till exempel starta en webbsida när bildschemat får fokus och stänga den när bildkartan förlorar fokus.
+**** onfocusUtlöser en händelse när bildschemat får fokus - av markören, genom att tabba eller genom att trycka på en åtkomsttangent. Du kan till exempel starta en webbsida när bildschemat får fokus och stänga den när bildkartan förlorar fokus.
 
-**onblur** Startar en händelse när bildschemat förlorar fokus, antingen med markören eller med tabbtangenten.
+**** onblurUtlöser en händelse när bildschemat förlorar fokus, antingen med markören eller med tabbtangenten.
 
 **Definiera andra åtgärder för bildscheman**
 
@@ -212,7 +212,7 @@ Mer information finns i hjälpen för InDesign och Acrobat.
 
 1. Upprepa steg 2 till 5 för alla bildscheman som du vill skapa.
 1. Exportera filen som en PDF-fil.
-1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar från PDF-alternativen.
+1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar under PDF-alternativ.
 
 ### Skapa bildscheman i Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
@@ -227,5 +227,5 @@ Mer information finns i hjälpen för InDesign och Acrobat.
 1. Skriv produkt-id:t för bildschemat i rutan Redigera URL och klicka på OK. (Dynamic Media Classic slutför URL:en med hjälp av URL-mallen för bildscheman.)
 1. Upprepa steg 1 till 7 för alla bildscheman som du vill skapa.
 1. Spara filen.
-1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar från PDF-alternativen.
+1. Överför PDF-filen till Dynamic Media Classic och välj Extrahera länkar under PDF-alternativ.
 
