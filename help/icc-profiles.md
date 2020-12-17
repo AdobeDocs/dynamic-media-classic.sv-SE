@@ -28,16 +28,16 @@ Förutom att använda ICC-standardprofilerna kan du överföra andra ICC-profile
 
 ## Överför ICC-profiler {#uploading-icc-profiles}
 
-Överför ICC-profiler med samma tekniker som du använder för att överföra filer. Du kan lagra ICC-profiler i alla dynamiska Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
+Överför ICC-profiler med samma tekniker som du använder för att överföra filer. Du kan spara ICC-profiler i alla Dynamic Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
 
-## Undersöka en ICC-profil {#examining-an-icc-profile}
+## Undersöker en ICC-profil {#examining-an-icc-profile}
 
 Om du vill undersöka en ICC-profil markerar du den på panelen Bläddra och visar den i vyn Detalj. I detaljvyn finns den här informationen om ICC-profiler:
 
-**Profilklass** ICC (International Color Consortium) definierar varje klass så att den omfattar en typ av program. Indataprofiler gäller till exempel enheter som digitalkameror och skannrar, och utdataprofiler gäller för skrivare.
+**Profile** ClassICC (International Color Consortium) definierar varje klass så att den omfattar en typ av program. Indataprofiler gäller till exempel enheter som digitalkameror och skannrar, och utdataprofiler gäller för skrivare.
 
-**Färgrymdtyp** Det här talet är profilens&quot;indatafärgrymd&quot; enligt ICC:n. Färgrymdtypen definierar antalet komponenter i färgrymden och tolkningen av dessa komponenter. RGB är till exempel en färgrymd med tre komponenter: röd, grön och blå. Färgrymdstypen definierar inte de särskilda färgegenskaperna för färgrymden (t.ex. de kromatoriska egenskaperna för primärfärgerna).
+**Color Space** TypeDet här talet är profilens&quot;indatafärgrymd&quot;, enligt ICC:n. Färgrymdtypen definierar antalet komponenter i färgrymden och tolkningen av dessa komponenter. RGB är till exempel en färgrymd med tre komponenter: röd, grön och blå. Färgrymdstypen definierar inte de särskilda färgegenskaperna för färgrymden (t.ex. de kromatoriska egenskaperna för primärfärgerna).
 
-**PCS-typ** Den här PCS-typen är profilens utdatafärgrymd - profilens anslutningsmodell. En färgprofil kan till exempel konvertera RGB till PCS, som sedan konverterar den till CMYK.
+**PCS-** typDen här PCS-typen är profilens utdatafärgrymd - profilens anslutningsmodell. En färgprofil kan till exempel konvertera RGB till PCS, som sedan konverterar den till CMYK.
 
 För indata-, visnings- eller utdataprofiler som är användbara för att lägga till märkord i färger eller bilder är PCS-typen antingen XYZ eller Lab. Tolka den här profilen som motsvarande specifika färgrymd som definieras i ICC-specifikationen.
