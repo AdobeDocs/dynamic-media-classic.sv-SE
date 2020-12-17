@@ -25,18 +25,18 @@ Skapa en blandad medieuppsättning när du vill kombinera flera typer av visning
 
 ## Skapa en blandad medieuppsättning {#create-a-mixed-media-set}
 
-När du skapar en uppsättning påverkar alternativet **Publicera efter spara** den och anger medlemmar på följande sätt:
+När du skapar en uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och anger medlemmar på följande sätt:
 
 | Alternativet Publicera efter spara är markerat innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Skapa en blandad medieuppsättning**
 
-1. Klicka på **Skapa** > **Blandade medieuppsättningar**.
+1. Klicka på **Build** > **Blandade medieuppsättningar**.
 1. Dra videoklipp, bilduppsättningar, snurruppsättningar och färgrutor från resursbiblioteket till skärmen med blandade medieuppsättningar.
 
    >[!NOTE]
@@ -50,15 +50,15 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) ma
    * (Valfritt) Om du vill lägga till en anpassad miniatyrbild som representerar en video i visningsprogrammet drar du en bildfil från resursbiblioteket till platshållarrutan för miniatyrbilder.
 
 1. Kontrollera att **Publicera efter spara** är markerat i sidans nedre högra hörn (standard).
-1. Klicka på **Spara**, välj en mapp där den blandade medieuppsättningen ska lagras, ange ett namn för uppsättningen och klicka på **Spara**.
+1. Klicka på **Spara**, välj en mapp där du vill lagra den blandade medieuppsättningen, ange ett namn för uppsättningen och klicka på **Spara**.
 
-   Klicka på **Förhandsgranska** för att se hur din kombinationsbilduppsättning ser ut i en visningsprogram för bilduppsättning.
+   Klicka på **Förhandsgranska** om du vill se hur din kombinationsbilduppsättning ser ut i en visningsprogram för bilduppsättning.
 
 ## Redigera en blandad medieuppsättning {#edit-a-mixed-media-set}
 
 Du kan redigera en uppsättning med blandade media. Om du vill redigera en uppsättning i en uppsättning med blandade media öppnar du den uppsättningen separat, redigerar den och sparar den. Redigeringarna visas i uppsättningen med blandade media.
 
-Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter sparande** medlemmarna i uppsättningen och uppsättningen på följande sätt:
+Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
 
 | Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
@@ -67,11 +67,11 @@ Beroende på om du redigerar en publicerad eller opublicerad uppsättning påver
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Redigera en blandad medieuppsättning**
 
-1. Klicka på knappen **Redigera** överrullning för den blandade medieuppsättningen.
+1. Klicka på knappen för överrullning **Redigera** för den blandade medieuppsättningen.
 1. Gör något av följande:
 
    * Om du vill ta bort objekt markerar du dem och klickar på **Ta bort**.
@@ -80,14 +80,14 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) ma
 1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **Publicera efter spara** är markerat (standard).
 1. Klicka på **Spara** eller **Spara som**.
 
-## Ta bort en blandad medieuppsättning {#deleting-a-mixed-media-set}
+## Tar bort en blandad medieuppsättning {#deleting-a-mixed-media-set}
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Ta bort en blandad medieuppsättning**
 
 1. I Stödrastervisning, listvy eller detaljvy väljer du en eller flera blandade medieuppsättningar.
-1. Klicka på **Arkiv** > **Ta bort** > **Ta bort** i det globala navigeringsfältet.
+1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
 
