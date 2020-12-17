@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Förutom att använda bildschematext för överrullningar i bilduppsättningar kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
 
-Du kan hantera InfoPanel-inställningarna och data med följande funktioner i Dynamic Media Classic:
+Du kan hantera InfoPanel-inställningar och data med följande funktioner i Dynamic Media Classic:
 
 * I inställningspanelen i InfoPanel kan du ange den mall som används för att visa informationspanelens text, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om bilduppsättningen ska publiceras automatiskt.
 * Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i informationspanelens överrullningstext, samt schemaläggningstider för uppdatering av informationen.
@@ -52,9 +52,9 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 
    Filformat som stöds är TAB-avgränsade filer med UTF-16-kodning och CSV-filer med ASCII-kodning. För CSV-filer måste icke-ASCII-tecken vara HTML-kodade.
 
-1. Klicka på **Publicera** på inställningspanelen i InfoPanel.
+1. Klicka på **Publicera** på InfoPanel Setup-panelen.
 
-## Importera källinnehåll för Info-panelen i Bilduppsättningar {#import-source-content-for-the-info-panel-in-image-sets}
+## Importera källinnehåll för Info-panelen i bilduppsättningar {#import-source-content-for-the-info-panel-in-image-sets}
 
 Du kan använda en CSV-fil (kommaseparerat värde) med ASCII-kodning (icke-ASCII-tecken måste vara HTML-kodade) eller en tabbavgränsad fil för källtexten för en informationspanel för en bilduppsättning. Tabbavgränsade filer måste använda UTF-16-kodning (Unicode). Du importerar de olika filtyperna på olika sätt.
 
