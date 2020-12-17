@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Länka URL:er till webbprogrammet{#linking-urls-to-your-web-application}
+# Länka URL:er till ditt webbprogram{#linking-urls-to-your-web-application}
 
-Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Image Server via URL-strängar. När du har publicerat en bild aktiverar Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på dynamiska mediabildsservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
+Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
 
 Om du vill placera dessa URL-strängar på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
 
@@ -53,11 +53,11 @@ Du kan hämta en URL-sträng som genereras av en bildförinställning från för
 
 ## Om URL-strängar för bildförinställning {#about-image-preset-url-strings}
 
-Ett URL-anrop för att ändra bildstorlek till dynamiska mediabildsservrar har följande grundläggande syntax:
+Ett URL-anrop för att ändra bildstorlek till Dynamic Media Image Servers har följande grundläggande syntax:
 
 *sökväg*/*namn för Image Server*/*kontonamn*/*avbildningsnamn*?*modifier1*&amp;*modifier2*&amp;...
 
-I en URL för en dynamisk mediabildsserver visas instruktioner till servern om hur bilden ska visas efter frågetecknet (?). Det här URL-anropet ger t.ex. en bild med namnet &quot;backpack&quot; och bredden 250 pixlar:
+I en Dynamic Media Image Server-URL visas instruktioner till servern om hur bilden ska visas efter frågetecknet (?). Det här URL-anropet ger t.ex. en bild med namnet &quot;backpack&quot; och bredden 250 pixlar:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -75,11 +75,11 @@ I en URL-sträng som skapas med en bildförinställning visas namnet på bildfö
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Namn på bildförinställningar i URL:er omges av dollartecken ($). När en dynamisk mediabildsserver träffar på delen Bildförinställning i URL:en ( `Large` i det här fallet), med hjälp av de inställningar för storlek och formatering som definieras av den stora bildförinställningen.
+Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dynamic Media Image Server påträffar delen Bildförinställning i URL:en (i det här fallet `Large`) och använder de storleks- och formateringsanvisningar som definieras av den stora bildförinställningen.
 
 ## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
 
-Om du vill lägga till dynamiska bilder på en webbsida ändras taggen i HTML-webbsideskoden vanligtvis med URL-strängen för Dynamic Media Classic och en begäran skickas till Dynamic Media Image-servrar. `<IMG>` Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
+Om du vill lägga till dynamiska bilder på en webbsida ändras taggen `<IMG>` i HTML-webbsideskoden vanligtvis med URL-strängen för Dynamic Media Classic och en begäran skickas till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 
 I stället för det vanliga anropet för att öppna en statisk bild som
 
@@ -87,7 +87,7 @@ I stället för det vanliga anropet för att öppna en statisk bild som
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Du använder nu `<IMG>`taggen för att ersätta referensen till en statisk bild med ett Image Preset-anrop till Dynamic Media Classic-plattformen. Ett exempelanrop ser ut så här:
+Du använder nu taggen `<IMG>`för att ersätta referensen till en statisk bild med ett Image Preset-anrop till Dynamic Media Classic-plattformen. Ett exempelanrop ser ut så här:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
