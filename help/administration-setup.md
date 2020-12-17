@@ -2,7 +2,7 @@
 title: Administrationsinställningar
 seo-title: Administrationsinställningar
 description: 'null'
-seo-description: Lär dig hur du ställer in administrationsdelen för Dynamic Media Classic.
+seo-description: Lär dig hur du ställer in administrationsdelen av Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 # Administrationsinställningar{#administration-setup}
 
-Administrationsinstallationsfönstren används för att administrera Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Dynamic Media Classic och att kommunicera via e-post med användare.
+Administrationsinstallationsfönstren är avsedda för administration av Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Dynamic Media Classic och att kommunicera via e-post med användare.
 
 1. Om du vill visa alternativen för administrationsinställningar klickar du på **Inställningar** > **Personliga inställningar** > **Administrationsinställningar**.
 
 ## Användaradministration {#user-administration}
 
-Alla Dynamic Media Classic-användare tilldelas en roll som bestämmer deras behörigheter och åtkomsträttigheter till funktioner i Dynamic Media Classic. Administratörerna bestämmer vilka roller och ansvarsområden de har för de företag de är tilldelade.
+Alla Dynamic Media Classic-användare tilldelas en roll som avgör vilka behörigheter de har och vilka funktioner de har i Dynamic Media Classic. Administratörerna bestämmer vilka roller och ansvarsområden de har för de företag de är tilldelade.
 
-Dynamic Media Classic konfigurerar vanligtvis den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören ställer sedan in och administrerar Dynamic Media Classic-användare.
+Vanligtvis konfigurerar Dynamic Media Classic den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören ställer sedan in och administrerar Dynamic Media Classic-användare.
 
 Dynamic Media Classic har stöd för flera användarroller. De här rollerna har åtkomst till företag som har konfigurerats för Dynamic Media Classic:
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic-användare** har tillgång till företag som de har tilldelats. kan inte utföra några administrativa uppgifter.
+**Adobe Dynamic Media Classic** UserHar åtkomst till företag som de har tilldelats. kan inte utföra några administrativa uppgifter.
 
-**Adobe Dynamic Media Classic Company Admin** kan endast visa och administrera egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
+**Adobe Dynamic Media Classic Company** AdminKan endast visa och administrera egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
 
 När du har lagt till en användare skickar Dynamic Media Classic ett välkomstmeddelande till användaren. Meddelandet innehåller ett lösenord och Dynamic Media Classic-URL:en.
 
@@ -53,7 +53,7 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
 1. Välj ett rollalternativ för att tilldela användaren en roll.
 
-   Se [Dynamic Media Classic-användarroller och -behörigheter](administration-setup.md#user_administration).
+   Se [Dynamic Media Classic-användarroller och behörigheter](administration-setup.md#user_administration).
 
 1. Välj ett företagsnamn om du vill lägga till en användare i ett företag.
 1. Om du vill lägga till användaren i en grupp (om du lägger till en Media Portal-användare eller -medarbetare) klickar du på Nästa och lägger till användaren.
@@ -61,7 +61,7 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
    När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Klicka på Lägg till om du vill lägga till användaren i ett företag.
 
-   Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in på Dynamic Media Classic.
+   Alla nya användare får ett slumpmässigt genererat lösenord. användare måste ändra lösenord första gången de loggar in på Dynamic Media Classic.
 
    Nya användare får ett välkomstmeddelande när du har lagt till dem. E-postmeddelandet innehåller ett tillfälligt lösenord och förklarar hur du loggar in på Scene 7 Publishing System.
 
@@ -69,12 +69,12 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
    När du lägger till nya Media Portal-användare kan du även gå till Inställningar > Programinställningar > Användaradministration, klicka på Överför användarlista och välja en CSV-fil som inte innehåller fler än 500 användare.
 
-### Ta bort en användare {#deleting-a-user}
+### Tar bort en användare {#deleting-a-user}
 
 Du kan ta bort användare från Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
 
-1. Klicka på **Inställningar** > **Programinställningar** >**Administrationsinställningar** > **Användaradministration**.
-1. Markera en användare i listan och klicka sedan på **Redigera**.
+1. Klicka på **Konfigurera** > **Programinställningar** > A **Administrationsinställningar** > **Användaradministration**.
+1. Välj en användare i listan och klicka sedan på **Redigera**.
 1. Avmarkera Giltig.
 1. Klicka på **Spara**.
 
@@ -82,14 +82,14 @@ Du kan ta bort användare från Dynamic Media Classic genom att göra dem ogilti
 
 Användare som har inaktiverats har inte längre behörighet att ange kontot som visas högst upp på menyn Välj konton att komma åt.
 
-1. Klicka på **Inställningar** > **Programinställningar** >**Administrationsinställningar** > **Användaradministration**.
+1. Klicka på **Konfigurera** > **Programinställningar** > A **Administrationsinställningar** > **Användaradministration**.
 1. Markera eller avmarkera alternativet Aktiv bredvid användarens namn i användarlistan.
 
 ### Redigera användarinformation {#editing-user-information}
 
 Vilken användarinformation du kan redigera beror på din roll som administratör och den tilldelade rollen för den användare vars information du vill redigera. Alternativ som är nedtonade (inte tillgängliga) går inte att redigera.
 
-1. Gå till **Inställningar** > **Programinställningar**>**Administrationsinställningar** > **Användaradministration**.
+1. Gå till **Inställningar** > **Programinställningar** A **Administrationsinställningar** > **Användaradministration**.
 1. Markera användaren och klicka på **Redigera**.
 1. Markera den post i tabellen som visar det företag du försöker ändra behörigheter eller åtkomst för och klicka sedan på länken Hantera företag.
 1. Välj användarroll.
@@ -102,15 +102,15 @@ Du kan filtrera och sortera användarlistan för att hitta användare. Alla anv�
 
 Du kan använda följande filtertekniker för användarlistor:
 
-**Filtrera efter grupp** Välj menyn Efter grupp och välj ett alternativ för att begränsa listan till användare i en grupp.
+**Filtrera efter** gruppVälj menyn Efter grupp och välj ett alternativ för att begränsa listan till användare i en grupp.
 
-**Filtrera efter användarroll** Välj menyn Efter användarroll och välj ett alternativ för att begränsa listan till användare eller administratörer av olika typer.
+**Filtrera efter** användarrollVälj menyn Efter användarroll och välj ett alternativ för att begränsa listan till användare eller administratörer av olika typer.
 
-**Filtrera efter fältnamn** Välj alternativet Aktivera filter efter fält. Välj sedan menyn Efter fältnamn, välj en kolumn för filtrering av listan, välj menyn Filtertecken och välj en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Avmarkera alternativet Aktivera filter efter fält för att se hela listan.
+**Filtrera efter fältnamn** Markera alternativet Aktivera filter efter fält. Välj sedan menyn Efter fältnamn, välj en kolumn för filtrering av listan, välj menyn Filtertecken och välj en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Avmarkera alternativet Aktivera filter efter fält för att se hela listan.
 
-**Filtrera bort ogiltiga användare** Avmarkera alternativet Inkludera ogiltiga. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton du administrerar.
+**Filtrera bort ogiltiga** användareAvmarkera alternativet Inkludera ogiltiga. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton du administrerar.
 
-**Sortera efter kolumnrubrik** Klicka på en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-post, efter användarroll eller efter giltig/ogiltig status.
+**Sortera efter** kolumnrubrikKlicka på en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress, efter användarroll eller efter giltig/ogiltig status.
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
@@ -144,7 +144,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 ## Bandbredd och lagring {#bandwidth-storage}
 
-Administratörer för Dynamic Media Classic kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna är tillgängliga på skärmen Bandbredd och lagring.
+Dynamic Media Classic-administratörer kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna är tillgängliga på skärmen Bandbredd och lagring.
 
 Om du vill öppna den här skärmen klickar du på Inställningar > Personliga inställningar. Expandera Administrationsinställningar och klicka sedan på Bandbredd och lagring.
 
@@ -164,23 +164,23 @@ I följande tabell beskrivs rapporter som du kan generera från skärmen Bandbre
 
 Rapporten Bildinnehåll innehåller information om begäranden för följande bildtyper:
 
-**Begäran** om avbildningar.
+**Image** RequestRequests för bilder.
 
-**Begär** miniatyrbilder för att begära färgrutor eller alternativa bilder i visningsprogram.
+**Miniatyrbild** RequestRequests för färgruta eller alternativa bilder i visningsprogram.
 
-**Maskbegäran** begär bilder som returnerar gråskalemasker.
+**Maskera** begäranBegär bilder som returnerar gråskalemasker.
 
-**Bildbegäranden** för visningsprogrammets paneler som läses in av ett visningsprogram.
+**Begäranden** för visningsprogrammets panel: RequestImage som läses in av ett visningsprogram.
 
-**Förfrågningar om bildåtergivning från Vnt-objekt** som returnerar en bild med angivna objekt i de begärda vinjetteringarna.
+**Vnt Object** RequestImage-återgivningsbegäranden som returnerar en bild med angivna objekt i begärda vinjetter.
 
-**Vnt Info begär** bildåtergivning som returnerar information om de begärda vinjetterna.
+**Vnt Info** RequestImage-återgivningsbegäranden som returnerar information om begärda vinjetter.
 
 >[!NOTE]
 >
 >Videoströmningsrapporten gäller endast direktuppspelade videor. Visningen av progressiva videor spåras inte.
 
-### Generera en rapport {#generating-a-report}
+### Genererar en rapport {#generating-a-report}
 
 Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän, videoströmning eller videoinnehåll:
 
@@ -194,15 +194,15 @@ Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän
 
 När du har genererat en rapport på sidan Bandbredd och lagring kan du välja alternativ för att visa information. Du kan välja hur informationen ska visas, visa information i ett diagram eller datarutnät och ange en tidsperiod för att hämta information. I datavyn kan du även sortera information och ordna om kolumner.
 
-**Visa data i ett diagram eller datarutnät** Klicka på alternativet Diagramvy om du vill visa data i ett diagram. Klicka på alternativet Datavy om du vill visa data i ett datarutnät.
+**Visa data i ett diagram eller** datarutnätKlicka på alternativet Diagramvy om du vill visa data i ett diagram. Klicka på alternativet Datavy om du vill visa data i ett datarutnät.
 
-**Välj en rapportpresentationstyp** På menyn Typ av rapport väljer du Sammanfattning, Dagligen eller Månad för att ordna data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
+**Välj en rapportpresentationstypPå** menyn Typ av rapport väljer du Sammanfattning, Dagligen eller Månad för att ordna data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
 
-**Ange en tidsperiod** Välj alternativ för att definiera en tidsperiod för rapporten och klicka sedan på Uppdatera när du har definierat en tidsperiod:
+**Ange en** tidsperiodVälj alternativ för att definiera en tidsperiod för rapporten och klicka sedan på Uppdatera när du har definierat en tidsperiod:
 
-**Fördefinierad tidsperiod** Välj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
+**Fördefinierad** tidsperiodVälj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
 
-**Anpassad tidsperiod** Välj Anpassad på menyn Fördefinierad rapport. Välj sedan ett datum på menyn Startmånad (eller Startdatum) och ett datum på menyn # av månader (eller # eller Dagar). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
+**Anpassad** tidsperiod Välj Anpassad på menyn Fördefinierad rapport. Välj sedan ett datum på menyn Startmånad (eller Startdatum) och ett datum på menyn # av månader (eller # eller Dagar). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
 
 **Sortera data (endast datavyn)** Om du vill sortera information i en kolumn klickar du på kolumnens rubrik. Klicka igen om du vill sortera i fallande ordning.
 
@@ -212,13 +212,13 @@ När du har genererat en rapport på sidan Bandbredd och lagring kan du välja a
 
 När du har genererat en rapport kan du exportera dess data för användning i kalkylblad och andra program. Du kan också skriva ut rapporter.
 
-**Exportera rapportdata** Sortera och ordna data i datavyn efter behov. Öppna sedan menyn Exportera och välj ett format: Tabbavgränsad, kommaseparerad eller HTML-formaterad. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
+**Exportera** rapportdataSortera och ordna data i datavyn efter behov. Öppna sedan menyn Exportera och välj ett format: Tabbavgränsad, kommaseparerad eller HTML-formaterad. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
 
-**Skriva ut en rapport** Klicka på Skriv ut, välj önskade alternativ i dialogrutan Skriv ut och klicka sedan på OK.
+**Skriva ut en** rapportKlicka på Skriv ut, välj önskade alternativ i dialogrutan Skriv ut och klicka sedan på OK.
 
 ## Bildfel {#image-errors}
 
-Administratörer för Dynamic Media Classic kan generera bildfelsrapporter. En bildfelsrapport innehåller en lista med de 20 vanligaste bildfelen för det företag du är inloggad på under de senaste 24 timmarna. Följ de här stegen för att generera en bildfelsrapport:
+Dynamic Media Classic-administratörer kan generera bildfelsrapporter. En bildfelsrapport innehåller en lista med de 20 vanligaste bildfelen för det företag du är inloggad på under de senaste 24 timmarna. Följ de här stegen för att generera en bildfelsrapport:
 
 1. Klicka på Inställningar > Personliga inställningar.
 1. Expandera Administrationsinställningar och klicka sedan på Bildfel.
@@ -232,15 +232,15 @@ Administratörer för Dynamic Media Classic kan generera bildfelsrapporter. En b
 
 De fel som visas gäller det företag du är inloggad på. Varje fel innehåller följande information:
 
-**Bild-ID** för den felaktiga bilden.
+**Bild-** ID för den felaktiga bilden.
 
-**Tid** Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, under de senaste 24 timmarna.
+**** Tid: Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, under de senaste 24 timmarna.
 
-**Antal** fel som rapporterats i bilden.
+**Antal** antal: Antal rapporterade fel i bilden.
 
-**Svar** Det specifika felmeddelandet. Fel är antingen 4xx eller 5xx.
+**** Svar Det specifika felmeddelandet. Fel är antingen 4xx eller 5xx.
 
-**URL:er** Visar URL:en till bilden på Scen 7.
+**URL:** erVisar URL:en till bilden på Scen 7.
 
 **Referent** Anger URL:en för den webbplats som den ursprungliga begäran kom från. Referenten kan vara vilken webbplats som helst som har en länk till bilden.
 
