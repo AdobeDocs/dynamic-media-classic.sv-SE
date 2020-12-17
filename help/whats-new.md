@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Nyheter {#what-s-new}
 
-Om du vill läsa den senaste versionsinformationen om Adobe Dynamic Media Classic, inklusive nya funktioner, förbättringar och korrigeringar, läser du i versionsinformationen [för](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)Dynamic Media Classic.
+Om du vill läsa den senaste versionsinformationen om Adobe Dynamic Media Classic, inklusive nya funktioner, förbättringar och korrigeringar, läser du [Dynamic Media Classic Release Notes](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html).
