@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Publicera zoombilder{#publishing-zoom-images}
 
-När du publicerar placeras dina zoombilder på Dynamic Media-bildservrar så att de kan göras tillgängliga för din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängarna. Du kan placera dessa URL-strängar i HTML-koden på webbplatsen.
+När du publicerar placeras dina zoombilder på Dynamic Media bildservrar så att de kan göras tillgängliga för din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängarna. Du kan placera dessa URL-strängar i HTML-koden på webbplatsen.
 
 ## Markera bilder för publicering {#marking-images-for-publish}
 
-Bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina bilder för publicering på panelen Bläddra genom att markera ikonen **Markera för publicering** . Du kan också markera bilder för publicering när du överför dem.
+Bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina bilder för publicering på panelen Bläddra genom att välja ikonen **Markera för publicering**. Du kan också markera bilder för publicering när du överför dem.
 
 ## Publicera bilderna {#publishing-the-images}
 
-Om du vill publicera zoombilder börjar du med att klicka på **Publicera** i fältet Global navigering. Välj sedan alternativet **När (En gång eller Återkommande)**, eventuellt ange ett namn för publiceringsjobbet och klicka på **Starta publicering**.
+Om du vill publicera zoombilder börjar du med att klicka på **Publicera** i fältet Global navigering. Välj sedan ett **När-alternativ (En gång eller Återkommande)**, ange ett namn för publiceringsjobbet och klicka på **Starta publicering**.
 
 >[!MORELIKETHIS]
 >
