@@ -28,7 +28,7 @@ När du har publicerat en färgruteuppsättning kan du använda dess URL-adress 
 
 ## Kopiera en URL för färgruteuppsättning {#copying-a-swatch-set-url}
 
-1. Klicka på **Färgruteuppsättning** i listrutan Visa på panelen Resursbläddring.
+1. Klicka på **Uppsättning med färgrutor** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den färgruteuppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
@@ -37,7 +37,7 @@ När du har publicerat en färgruteuppsättning kan du använda dess URL-adress 
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
@@ -45,28 +45,28 @@ När du har publicerat en färgruteuppsättning kan du använda dess URL-adress 
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägga till URL-adresser för färgrutor på webbsidan {#adding-swatch-set-urls-to-your-web-page}
+## Lägga till URL:er för färgruteuppsättning på webbsidan {#adding-swatch-set-urls-to-your-web-page}
 
 Det vanligaste sättet att distribuera färgruteuppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (ASP eller JSP) som visar uppsättningen med färgrutor i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)för visningsprogram för Adobe.
+Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken för Adobe-visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
-## Kopiera inbäddningskoden för ett visningsprogram för färgrutor {#copying-the-embed-code-of-a-swatch-set-viewer}
+## Kopiera inbäddningskoden för ett visningsprogram för färgruteuppsättning {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda uppsättningen med färgrutor. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 **Så här kopierar du inbäddningskoden för ett visningsprogram för färgrutor**
 
-1. Klicka på **Färgruteuppsättning** i listrutan Visa på panelen Resursbläddring.
+1. Klicka på **Uppsättning med färgrutor** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den färgruteuppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger klickar du på **Bädda in kod** till höger om det visningsprogram du vill använda.
+   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Bädda in kod** till höger om det visningsprogram du vill använda i panelen URL:er och Bädda in kod till höger.
    * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
