@@ -24,7 +24,7 @@ På skärmen Visningsprogramlista kan du förhandsvisa bilder med olika förinst
 
 Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers).
 
-Se [Förhandsvisa en resurs](previewing-asset.md#previewing_an_asset).
+Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 
 **Förhandsgranska bildresurser med olika zoomningsvisningsprogram**
 
