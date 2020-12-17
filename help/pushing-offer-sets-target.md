@@ -18,14 +18,14 @@ ht-degree: 0%
 ---
 
 
-# Paketera erbjudanden för Adobe Target Standard/Premium {#pushing-offer-sets-to-target}
+# Paketera erbjudanden till Adobe Target Standard/Premium {#pushing-offer-sets-to-target}
 
 När du har skapat eller redigerat ett erbjudande skickar du det till Target Standard/Premium genom att följa dessa steg:
 
-1. Klicka på i fönstret Test&amp;Target Offer Set **[!UICONTROL Push Offers]**.
+1. Klicka på **[!UICONTROL Push Offers]** på skärmen Test&amp;Target Offer Set.
 1. Ange din klientkod och inloggningsuppgifter.
 1. Klicka på **[!UICONTROL Login]**.
 
-Under överföringen till Target Standard/Premium kopplas prefixet S7_ automatiskt till början av erbjudandenamnen. Det här prefixet är bifogat för att säkerställa att du enkelt kan hitta erbjudanden för Dynamic Media Classic i Test&amp;Target-erbjudandelistan. Erbjudandet visas till exempel som S7_&lt;erbjudandeuppsättningens namn>_&lt;erbjudandenamn>.
+Under överföringen till Target Standard/Premium kopplas prefixet S7_ automatiskt till början av erbjudandenamnen. Det här prefixet bifogas för att säkerställa att du enkelt hittar erbjudanden för Dynamic Media Classic i listan Test&amp;Target. Erbjudandet visas till exempel som S7_&lt;erbjudandeuppsättningens namn>_&lt;erbjudandenamn>.
 
-Dynamic Media Classic tar sig in i widgeten Target Standard/Premium. Du kan använda Widget-erbjudanden för att lägga upp ditt eget erbjudandeinnehåll utanför Target Standard/Premium. Widgeterbjudanden liknar standarderbjudanden som ligger utanför Target Standard/Premium. De gör att Target Standard/Premium kan distribuera innehåll som finns på servern, vilket möjliggör mer sofistikerad och dynamisk användning. Widgeten erbjuder hämtning av innehåll från en URL, cachelagring och leverans av innehållet i ungefär två timmar. Widgeten innehåller funktioner för att skapa dynamiskt innehåll som andra erbjudanden utanför Target Standard/Premium inte har. Om rutan som innehåller erbjudandet innehåller mbox-parametrar som `mboxProductID` och `mbox.offerId`, läggs parametrarna `productId=[PRODUCT_ID]`och `offerID=[OFFERID]` URL till i den begärda URL:en. De här parametrarna kan användas av en tjänst som finns på Widget offer URL för att returnera innehåll utanför Target Standard/Premium som använder produkt- eller orderinformation från dina lådor. Widget-erbjudandet kan också nås via API:t för att skapa erbjudanden utanför Target Standard/Premium.
+Dynamic Media Classic utnyttjar widgeten Target Standard/Premium. Du kan använda Widget-erbjudanden för att lägga upp ditt eget erbjudandeinnehåll utanför Target Standard/Premium. Widgeterbjudanden liknar standarderbjudanden som ligger utanför Target Standard/Premium. De gör att Target Standard/Premium kan distribuera innehåll som finns på servern, vilket möjliggör mer sofistikerad och dynamisk användning. Widgeten erbjuder hämtning av innehåll från en URL, cachelagring och leverans av innehållet i ungefär två timmar. Widgeten innehåller funktioner för att skapa dynamiskt innehåll som andra erbjudanden utanför Target Standard/Premium inte har. Om den ruta som innehåller erbjudandet innehåller mbox-parametrar som `mboxProductID` och `mbox.offerId`, läggs URL-parametrarna `productId=[PRODUCT_ID]`och `offerID=[OFFERID]` till i den begärda URL:en. De här parametrarna kan användas av en tjänst som finns på Widget offer URL för att returnera innehåll utanför Target Standard/Premium som använder produkt- eller orderinformation från dina lådor. Widget-erbjudandet kan också nås via API:t för att skapa erbjudanden utanför Target Standard/Premium.
