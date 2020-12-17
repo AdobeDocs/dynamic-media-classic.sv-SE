@@ -19,18 +19,18 @@ ht-degree: 6%
 
 # Resurser för utvecklare{#developer-resources}
 
-I Dynamic Media Classic finns dokumentation om den senaste större versionen av respektive Dynamic Media Classic-programmodul. Moduldokument är tillgängliga för Image Authoring, Dynamic Media Classic, Image Server och Image Rendering samt Viewers.
+Dynamic Media Classic innehåller dokumentation om den senaste större versionen av alla Dynamic Media Classic-programmoduler. Moduldokument är tillgängliga för Image Authoring, Dynamic Media Classic, Image Server, Image Rendering och Viewers.
 
 Versionsinformation finns också för vissa moduler. Versionsinformation innehåller information om releasen, inklusive förbättringar, ny funktionalitet, tips, felsökningsråd och kända problem. Versionsinformationen innehåller även interaktiva exempel på multimediefunktioner och hur du aktiverar dem. Versionsinformationen innehåller dessutom installations- och konfigureringsinstruktioner för klienter med licensierad programvara.
 
-Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och utnyttja multimedia i Dynamic Media Classic ytterligare för en webbplats eller ett anpassat program kan använda dessa guider. Dynamic Media Classic förutsätter att läsaren känner till datorprogrammet, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
+Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och använda multimedia från Dynamic Media Classic ytterligare för en webbplats eller ett anpassat program kan använda dessa guider. Dynamic Media Classic förutsätter att läsaren känner till datorprogrammet, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
 
 
 **Dynamic Media Classic API**
 
 | Dokument | Webbadress |
 |--- |--- |
-| Referenshandbok för API | Kontakta Dynamic Media Classic teknisk support för mer information. |
+| Referenshandbok för API | Kontakta Dynamic Media Classic teknisk support för dokumentation. |
 
 **Bildredigering**
 
