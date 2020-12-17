@@ -18,11 +18,11 @@ ht-degree: 0%
 ---
 
 
-# Arbeta med vinjett, fönsteromslag och kabinettfiler{#working-with-vignette-window-covering-and-cabinet-files}
+# Arbeta med vinjett, fönstertäckning och kabinettfiler{#working-with-vignette-window-covering-and-cabinet-files}
 
 Användare av Dynamic Media Classic Image Authoring Tool kan använda vinjetter (VNT-filer), fönsteromslag (VNW-filer) och skåp (VNC-filer) i Scene 7. Dessa filer kan inte skapas eller redigeras i Dynamic Media Classic.
 
-Vinjetter, fönsteromslag och skåp är bilder som skapats. Med ett annat Dynamic Media Classic-program, Bildredigering, kan du maskera objekt i en bild så att användarna kan se samma bild i olika texturer eller färger. Användare ser t.ex. en soffa med olika typer av strukturer, ett fönster med olika fönsterbehandlingar eller ett skåp med olika typer av trä.
+Vinjetter, fönsteromslag och skåp är bilder som skapats. Med ett annat Dynamic Media Classic-program, Bildredigering, maskerar du objekt i en bild så att användarna kan se samma bild i olika texturer eller färger. Användare ser t.ex. en soffa med olika typer av strukturer, ett fönster med olika fönsterbehandlingar eller ett skåp med olika typer av trä.
 
 Ladda upp vinjetter, fönsteröverdrag och skåp på samma sätt som andra filer.
 
