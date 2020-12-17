@@ -22,10 +22,14 @@ ht-degree: 0%
 
 Välj en resurs i panelen Bläddra för att arbeta med den. Använd dessa tekniker för att välja resurser:
 
-* **En enskild resurs** Klicka på resursen (genom att dubbelklicka öppnas resursen i detaljvyn).
+* **En enskild**
+resursKlicka på resursen (genom att dubbelklicka öppnas resursen i detaljvyn).
 
-* **Flera resurser** Ctrl-klickar (Windows) eller Kommando-klickar (Macintosh) du på resurser för att markera resurser på olika platser i panelen Bläddra. Skift-klicka (klicka på en resurs och Skift-klicka sedan på en annan) för att markera närliggande resurser.
+* **Flera**
+resurserCtrl-klicka (Windows) eller Kommando-klicka (Macintosh) på resurser för att markera resurser på olika platser i panelen Bläddra. Skift-klicka (klicka på en resurs och Skift-klicka sedan på en annan) för att markera närliggande resurser.
 
-* **Alla resurser i panelen** Bläddra klickar på Markera > Alla.
+* **Alla resurser i**
+panelen Bläddra. Klicka på Markera > Alla.
 
-* **Inga resurser** Klicka på Välj > Inget.
+* **Inga**
+resurserKlicka på Välj > Inget.
