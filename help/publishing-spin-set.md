@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Publicera en snurruppsättning{#publishing-a-spin-set}
 
-När du publicerar en snurruppsättning placeras bilderna i uppsättningen på Dynamic Media-bildservrar, där de är tillgängliga för din webbplats eller ditt program. Under publiceringsprocessen aktiverar Dynamic Media Classic dessutom de URL-strängar för den uppsättning med snurra som du behöver för webbplatsen eller programmet.
+När du publicerar en snurruppsättning placeras bilderna i uppsättningen på Dynamic Media Image Servers, där de är tillgängliga för din webbplats eller ditt program. Under publiceringsprocessen aktiverar Dynamic Media Classic dessutom de URL-strängar för den uppsättning med snurra som du behöver för din webbplats eller ditt program.
 
 ## Markera en snurruppsättning för publicering {#marking-a-spin-set-for-publish}
 
 Markera din snurruppsättning för publicering om du vill att den ska kopieras till Dynamic Media Classic-bildservrar. Du kan markera din snurrsuppsättning för publicering på panelen Bläddra genom att markera ikonen Markera för publicering till vänster om namnet. Alla bilder i uppsättningen markeras för publicering när du markerar själva den nya uppsättningen för publicering.
 
-## Publicera snurruppsättningen {#publishing-the-spin-set}
+## Publicerar snurruppsättningen {#publishing-the-spin-set}
 
-Om du vill publicera en snurruppsättning på Dynamic Media-bildservrar börjar du med att markera knappen Publicera i fältet Global navigering. Välj sedan alternativet När, eller ange ett namn för publiceringsjobbet, och välj knappen Starta publicering.
+Om du vill publicera en snurruppsättning på Dynamic Media-bildservrar börjar du med att välja knappen Publicera i fältet Global navigering. Välj sedan alternativet När, eller ange ett namn för publiceringsjobbet, och välj knappen Starta publicering.
 
 >[!MORELIKETHIS]
 >
