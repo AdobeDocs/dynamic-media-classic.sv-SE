@@ -26,21 +26,21 @@ Anta till exempel att du vill visa bilder med olika färgskalor; räkningarna ä
 
 ## Skapa en färgruteuppsättning {#create}
 
-När du skapar en uppsättning påverkar alternativet **Publicera efter spara** den och anger medlemmar på följande sätt:
+När du skapar en uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och anger medlemmar på följande sätt:
 | Alternativet Publicera efter spara markerat innan du sparar?|Tillstånd för uppsättningen när den sparats|Tillstånd för angivna medlemmar efter sparande|
 |— |— |— |
 |Ja|Publicerad|Publicerad|
 |No|Unpublished|Ange att medlemmarna behåller sitt publicerade eller opublicerade tillstånd.|
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Skapa en färgruteuppsättning**
 
 1. Gör något av följande:
 
-   **Markera först** bilderna i panelen Bläddra, markera dem och klicka sedan på Skapa > Färgruteuppsättningar.
+   **Markera bilderna** förstMarkera bilderna på panelen Bläddra och klicka sedan på Skapa > Färgruteuppsättningar.
 
-   **Starta från skärmen** Uppsättning med färgrutor. Klicka på Skapa > Uppsättningar med färgrutor. Markera en mapp i resursbiblioteket och dra bilderna till avsnittet Vyer på sidan Uppsättning med färgrutor.
+   **Starta från** skärmen Uppsättning med färgrutorKlicka på Skapa > Uppsättningar med färgrutor. Markera en mapp i resursbiblioteket och dra bilderna till avsnittet Vyer på sidan Uppsättning med färgrutor.
 
 1. Dra färgrutefärger, mönster eller lapp till platshållarrutan för färgrutor på sidan Uppsättning med färgrutor.
 
@@ -49,11 +49,11 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) ma
 1. Om du vill ändra ordningen på bilderna i färgruteuppsättningen drar du bilderna till nya platser.
 1. Kontrollera att **Publicera efter spara** är markerat i sidans nedre högra hörn (standard).
 1. Klicka på **Spara**, välj en mapp där du vill spara färgruteuppsättningen, ange ett namn för uppsättningen och klicka på Skicka.
-1. Klicka på **Förhandsvisa** på skärmen Färgruteuppsättning för att visa din uppsättning i visningsprogrammet för färgrutor. Du kan klicka på miniatyrbilderna för färgrutor i Visningsprogrammet för färgrutor för att se hur de beter sig.
+1. Klicka på **Förhandsgranska** på skärmen för färgruteuppsättningen om du vill visa din uppsättning i visningsprogrammet för färgrutor. Du kan klicka på miniatyrbilderna för färgrutor i Visningsprogrammet för färgrutor för att se hur de beter sig.
 
 ## Redigera en färgruteuppsättning {#editing-a-swatch-set}
 
-Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter sparande** medlemmarna i uppsättningen och uppsättningen på följande sätt:
+Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
 
 | Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
@@ -62,14 +62,14 @@ Beroende på om du redigerar en publicerad eller opublicerad uppsättning påver
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Redigera en färgruteuppsättning**
 
-1. I stödrastervyn bläddrar du till en färgruteuppsättning och klickar sedan på **Redigera** under bilden.
+1. I stödrastervyn bläddrar du till en färgruteuppsättning och klickar sedan under bilden på **Redigera**.
 1. Gör något av följande:
 
-   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till **sidan Vyer** för färgruteuppsättningen.
+   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till **Vyer** på sidan för färgruteuppsättningen.
    * Om du vill ta bort en bild markerar du den och klickar sedan på **Ta bort** i verktygsfältet.
    * Om du vill ändra ordning på bilderna drar du en bild till en ny plats.
 
@@ -80,10 +80,10 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) ma
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) manuellt och [Avpublicera resurser](publishing-files.md#manually_unpublishing_assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 **Ta bort en färgruteuppsättning**
 
 1. Markera en eller flera färgruteuppsättningar i Stödrastervisning, listvy eller detaljvy.
-1. Klicka på **Arkiv** > **Ta bort** > **Ta bort** i det globala navigeringsfältet.
+1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
 
