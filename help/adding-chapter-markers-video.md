@@ -26,7 +26,7 @@ Du kan göra det enklare att titta på och navigera i videoklipp med långa form
 >
 >Den videospelare som används måste ha stöd för kapitelmarkörer.
 
-Mer information finns i [Lägga till eller redigera en förinställning](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) för visningsprogram för videovisning, som konfigurerar kapitelnavigeringsreferenspunkter och popup-text för kapiteltitlar för `Universal_HTML5_Video` visningsprogrammet (HTML5).
+Se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) för att konfigurera kapitelnavigeringsreferenspunkter och kapiteltitelns popup-text för visningsprogrammet `Universal_HTML5_Video` (HTML5).
 
 Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -50,11 +50,11 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-I exemplet ovan `Chapter 1` är det en referensidentifierare som är valfri. Referenstiden för `00:00:000 --> 01:04:364` anger kapitlets start- och sluttid i formatet 00:00:000. De sista tre siffrorna är millisekunder och kan lämnas som 000 om du vill. Kapiteltiteln för `The bicycle store behind it all` är den faktiska beskrivningen av kapitlets innehåll. Referensidentifieraren, startreferenstiden och kapiteltiteln visas alla i ett popup-fönster i videospelaren när en användare håller muspekaren över en visuell referenspunkt i videons tidslinje.
+I exemplet ovan är `Chapter 1` referensidentifieraren och valfri. Referenstiden på `00:00:000 --> 01:04:364` anger kapitlets start- och sluttid i formatet 00:00:000. De sista tre siffrorna är millisekunder och kan lämnas som 000 om du vill. Kapiteltiteln för `The bicycle store behind it all` är den faktiska beskrivningen av kapitlets innehåll. Referensidentifieraren, startreferenstiden och kapiteltiteln visas alla i ett popup-fönster i videospelaren när en användare håller muspekaren över en visuell referenspunkt i videons tidslinje.
 
 Eftersom du använder ett HTML5-videovisningsprogram bör du kontrollera att den kapitelfil du skapar följer standarden WebVTT (Web Video Text Tracks). Kapitelfilnamnstillägget är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.
 
-Se [WebVTT: Textspårningsformatet](https://dev.w3.org/html5/webvtt/)för webbvideo.
+Se [WebVTT: Textspårningsformatet för webbvideo](https://dev.w3.org/html5/webvtt/).
 
 **Lägga till kapitelmarkörer i video**
 
@@ -66,27 +66,27 @@ Se [WebVTT: Textspårningsformatet](https://dev.w3.org/html5/webvtt/)för webbvi
 
 1. Spara VTT-filen i UTF8-kodning för att undvika problem med teckenåtergivning i kapiteltiteltexten.
 
-   Vanligtvis vill du ge kapitlet VTT-filen samma namn som videofilen och bifoga den med `chapters`. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll.
+   Vanligtvis vill du ge den kapitelbaserade VTT-filen samma namn som videofilen och lägga till den med `chapters`. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll.
 
-1. Ladda upp din WebVTT-kapitelfil i Dynamic Media Classic.
+1. Överför din WebVTT-kapitelfil till Dynamic Media Classic.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
 1. Navigera till resursmappen som innehåller den videofil som du vill associera med den överförda kapitelfilen i panelen Resursbibliotek på vänster sida.
-1. Markera en enskild videoresurs på panelen Resursbläddring och klicka sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden för resursen.
-1. Leta reda på HTML5-visningsprogrammet med namnet **Univeral_HTML5_Video** i tabellen Visningsprogramlista och gör sedan något av följande:
+1. Välj en enskild videoresurs i panelen Resursbläddring och klicka sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden för resursen.
+1. Leta reda på HTML5-visningsprogrammet **Univeral_HTML5_Video** i tabellen Visningsprogramlista och gör sedan något av följande:
 
-   * Om du vill visa en popup-video klickar du längst **[!UICONTROL Copy URL]** till höger om namnet.
+   * Klicka **[!UICONTROL Copy URL]** längst till höger om namnet om du vill visa ett videoklipp.
 
       Lägg till den kopierade URL:en för videon med följande syntax för att associera den med den kopierade URL:en till bildtextfilen:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Om du vill visa en inbäddad video klickar du längst **[!UICONTROL Embed Code]** till höger om namnet.
+   * Klicka **[!UICONTROL Embed Code]** längst till höger om namnet om du vill se en inbäddad videovisningsfunktion.
 
       Klicka på **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
-      För HTML5- `Universal_HTML5_Video` visningsprogrammet lägger du till den kopierade inbäddningskoden med följande:
+      För HTML5 `Universal_HTML5_Video`-visningsprogrammet lägger du till den kopierade inbäddningskoden med följande:
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
