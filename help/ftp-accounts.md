@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # Hantera FTP-konton{#managing-ftp-accounts}
 
-Endast Media Portal-administratörer kan administrera och hantera FTP-konton. Endast användare med rollen *Media Portal Contributor-User *eller *Media Portal Contributor* kan överföra digitala resurser.
+Endast Media Portal-administratörer kan administrera och hantera FTP-konton. Dessutom kan bara användare med rollen *Media Portal Contributor-User *eller *Media Portal Contributor* överföra digitala resurser.
 
 Kom ihåg att du kan aktivera eller inaktivera befintliga Media Portal-användare via sidan Användaradministration i Administrationsinställningar.
 
 Se [Aktivera eller inaktivera användare](administration-setup.md#activating_or_deactivating_users).
 
-1. Klicka på **Inställningar** > **Media Portal** > **FTP-konton**.
+1. Klicka på **Inställningar** > **Medieportal** > **FTP-konton**.
 1. På sidan Lägg till FTP-konto väljer du en användare i listrutan FTP-konton med användarnamn.
 
    Om en användare inte finns med i listan kan du först behöva lägga till dem som en Media Portal Admin, en Media Portal Contributor-User eller en Media Portal Contributor via Administrationskonfiguration. När du har lagt till användaren med rätt roll är användarnamnet tillgängligt i listrutan.
@@ -40,9 +40,9 @@ Se [Aktivera eller inaktivera användare](administration-setup.md#activating_or_
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
-## Ta bort ett befintligt FTP-konto {#deleting-an-existing-ftp-account}
+## Tar bort ett befintligt FTP-konto {#deleting-an-existing-ftp-account}
 
-1. Klicka på **Inställningar** > **Media Portal** > **FTP-konton**.
+1. Klicka på **Inställningar** > **Medieportal** > **FTP-konton**.
 1. På sidan Lägg till FTP-konto i tabellen Befintliga konton väljer du det FTP-konto som du vill ta bort.
 1. Klicka på **Ta bort**.
 
