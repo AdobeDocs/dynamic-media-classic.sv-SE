@@ -24,17 +24,17 @@ Objekt som du tar bort från Dynamic Media Classic flyttas till papperskorgen. D
 
 Alla användare kan återställa objekt i papperskorgen till de mappar som de togs bort från. Alla användare kan också tömma papperskorgen på allt innehåll.
 
-Om du tar bort objekt från papperskorgen tas objekt från Dynamic Media Classic bort permanent. objekt som tas bort från papperskorgen kan inte längre återställas. Mer information om hur du konfigurerar meddelanden för företagsadministratörer när resurser ska tas bort automatiskt från papperskorgen finns i Allmänna inställningar [för](application-setup.md#general_settings)program.
+Om du tar bort objekt från papperskorgen tas objekt bort permanent från Dynamic Media Classic; objekt som tas bort från papperskorgen kan inte längre återställas. Mer information om hur du konfigurerar meddelanden för företagsadministratörer när resurser ska tas bort automatiskt från papperskorgen finns i [Allmänna inställningar för program](application-setup.md#general_settings).
 
 >[!NOTE]
 >
->Resurser som har flyttats till papperskorgen är fortfarande registrerade i Dynamic Media Classic. Om du försöker överföra en fil som har samma namn som en borttagen fil i papperskorgen, behandlar Dynamic Media Classic resursen som du vill överföra som en dubblettresurs. Därför läggs ett tal till efter namnet.
+>Resurser som har flyttats till papperskorgen är fortfarande registrerade i Dynamic Media Classic. Om du försöker överföra en fil som har samma namn som en borttagen fil i papperskorgen, behandlas den resurs som du vill överföra som en dubblettresurs i Dynamic Media Classic. Därför läggs ett tal till efter namnet.
 
 ## Om papperskorgen {#about-the-trash-folder}
 
 Om du tar bort ett objekt i en mapp placeras objektet i papperskorgen. Följande händer när du tar bort ett objekt och flyttar det till papperskorgen:
 
-* Objektet har tagits bort från dina dynamiska Media Classic-mappar, men det går inte att tilldela ett annat objekt dess ID medan det finns kvar i papperskorgen. Om du försöker överföra en resurs med samma namn som en fil i papperskorgen lägger Dynamic Media Classic till en siffra i resursens namn.
+* Objektet har tagits bort från dina Dynamic Media Classic-mappar, men det går inte att tilldela ett annat objekt dess ID medan det finns kvar i papperskorgen. Om du försöker överföra en resurs med samma namn som en fil i papperskorgen lägger Dynamic Media Classic till en siffra i resursens namn.
 * Objektet kan inte publiceras. Även om objektet markerades för publicering när du tog bort det publiceras det inte.
 * Objektet finns kvar i papperskorgen tills det återställs, sju dagar framåt eller någon väljer kommandot Töm papperskorgen. Efter sju dagar tas objektet bort permanent vid en automatisk rensning.
 
@@ -48,15 +48,15 @@ Följ de här stegen för att återställa resurser från papperskorgen till de 
 1. Markera den eller de resurser som du vill återställa.
 1. Välj Arkiv > Återställ från papperskorgen.
 
-## Ta bort resurser i papperskorgen permanent {#permanently-deleting-assets-in-the-trash-folder}
+## Ta bort resurser permanent i papperskorgen {#permanently-deleting-assets-in-the-trash-folder}
 
 När du tar bort resurser i papperskorgen tas resurserna bort permanent. Resurser tas automatiskt bort från papperskorgen efter sju dagar.
 
 Om du vill ta bort resurser permanent från papperskorgen väljer du papperskorgen för att öppna papperskorgen. Ta sedan bort enskilda resurser eller ta bort alla resurser i mappen:
 
-* **Ta bort enskilda resurser** Markera de resurser som du vill ta bort permanent och klicka på **[!UICONTROL File > Empty From Trash]**.
+* **Ta bort enskilda** resurserMarkera de resurser som du vill ta bort permanent och klicka på  **[!UICONTROL File > Empty From Trash]**.
 
-* **Ta bort alla resurser** Klicka **[!UICONTROL File > Empty Trash]**.
+* **Tar bort alla** resurserKlicka  **[!UICONTROL File > Empty Trash]**.
 
 >[!MORELIKETHIS]
 >
