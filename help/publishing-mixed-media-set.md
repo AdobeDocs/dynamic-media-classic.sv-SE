@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # Publicera en blandad medieuppsättning{#publishing-a-mixed-media-set}
 
-Skapa ett publiceringsjobb för att publicera en uppsättning med blandade media som du har markerat för publicering på Dynamic Media Classic Video Server och Image Server. I Dynamic Media Classic finns avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av resurser som redan har publicerats.
+Skapa ett publiceringsjobb för att publicera en uppsättning med blandade media som du har markerat för publicering på Dynamic Media Classic Video Server och Image Server. Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
 
-***Obs **! Blandade medieuppsättningar kräver att du publicerar till**videoservern **och även till**bildservern **. Du använder**Video Server **för att publicera de faktiska videoklippen som du har markerat för publicering. Och du kan använda**Image Server **för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.*
+***Obs **! Blandade medieuppsättningar kräver att du publicerar till**Video **Server och även till**Image Server **. Du använder**Videoserver **för att publicera de faktiska videoklipp som du har markerat för publicering. Du kan också använda**bildserver **för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.*
 
-Dynamic Media Classic spårar publiceringsjobb på skärmen Jobb.
+Dynamic Media Classic spårar publiceringsjobb på jobbskärmen.
 
 Se [Publicera](publishing-files.md#publishing_files).
 
@@ -42,13 +42,13 @@ Last Modified Date:
 
 1. Gör något av följande:
 
-   * Klicka på **Markera för publicering** bredvid de filnamn du vill publicera i panelen Bläddra.
+   * I panelen Bläddra klickar du på **Markera för publicering** bredvid varje filnamn som du vill publicera.
    * På skärmen Överför klickar du på **Markera för publicering** bredvid varje filnamn som du vill publicera.
 
-1. Klicka på **Publicera** i fältet Global navigering.
+1. Klicka på **Publicera** i fältet Global Navigation.
 1. Ange önskade schemaläggningsalternativ.
-1. (Valfritt) Skriv ett namn för publiceringsjobbet i fältet **Jobbnamn** .
-1. I **Avancerade** alternativ väljer du **Videoserver** i listrutan **Publicera till**.
+1. (Valfritt) Skriv ett namn för publiceringsjobbet i fältet **Jobbnamn**.
+1. I **Avancerade**-alternativ väljer du **Videoserver** i listrutan **Publicera till**.
 
    Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för ytterligare alternativ som du kan ange.
 
