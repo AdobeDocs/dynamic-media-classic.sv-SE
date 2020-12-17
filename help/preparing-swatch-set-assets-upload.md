@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Förbereder resurser för färgrutor Ange resurser för överföring{#preparing-swatch-set-assets-for-upload}
+# Förbereder resurser för färgruta för överföring{#preparing-swatch-set-assets-for-upload}
 
 Innan du överför de bilder du behöver bör du kontrollera att bilderna har rätt storlek och format. Sammanställ också de färgrutefiler du behöver.
 
