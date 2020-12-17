@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Generering av automatisk bilduppsättning{#automated-image-set-generation}
+# Automatiserad generering av bilduppsättning{#automated-image-set-generation}
 
 <!-- 
 
