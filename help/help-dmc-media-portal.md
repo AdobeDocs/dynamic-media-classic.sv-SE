@@ -22,4 +22,4 @@ ht-degree: 0%
 
 Följande hjälpdokument finns även i Dynamic Media Classic:
 
-**Med Dynamic Media Classic Media Portal** är Adobe Dynamic Media Classic Media Portal en webbläsarbaserad miljö där portalanvändare enkelt kan ladda upp, söka, förhandsgranska och exportera material i företagsgodkända format. Se [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+**Med Dynamic Media Classic Media** Portal är Adobe Dynamic Media Classic Media Portal en webbläsarbaserad miljö där portalanvändare enkelt kan ladda upp, söka, förhandsgranska och exportera material i företagsgodkända format. Se [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
