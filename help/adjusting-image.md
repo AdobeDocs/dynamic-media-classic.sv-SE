@@ -51,7 +51,7 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
    * Spara bilden som en extra vy av den överordnad bilden. du kan skapa ett alias för det. Klicka på **Spara som**.
 
-      I dialogrutan **Spara som** klickar du i listrutan på **Spara som ytterligare vy av överordnad**.
+      I dialogrutan **Spara som** klickar du på **Spara som ytterligare vy av överordnad** i listrutan.
 
       I listrutan **Mappnamn** väljer du den mapp där du vill att den nya överordnad bilden ska sparas.
 
@@ -59,10 +59,10 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
 ## Skapa ett alias för en bild {#creating-an-alias-for-an-image}
 
-När du har justerat en bild kanske du vill spara den som en extra vy av den överordnad bilden. Om du vill göra det kan du skapa ett alias för bilden genom att använda **Spara som-extra vy av den överordnad** funktionen.
+När du har justerat en bild kanske du vill spara den som en extra vy av den överordnad bilden. Om du vill göra det kan du skapa ett alias för bilden med funktionen **Spara som ytterligare vy av överordnad**.
 
-1. I Stödrastervisning eller listvy klickar du på **Justera** i listrutan **Redigera** bredvid en bild som du vill skapa ett alias för.
-1. In the lower-right corner of the page, click **Save As**.
+1. I stödrastervyn eller listvyn klickar du på **Justera** i listrutan **Redigera** bredvid en bild som du vill skapa ett alias för.
+1. Klicka på **Spara som** längst ned till höger på sidan.
 1. I dialogrutan **Spara som** klickar du i listrutan på **Spara som tilläggsvy av överordnad**.
 1. I listrutan **Mappnamn** väljer du den mapp där du vill spara den utjämnade bilden.
 1. I fältet **Filnamn** skriver du namnet som du vill använda för aliaset.
