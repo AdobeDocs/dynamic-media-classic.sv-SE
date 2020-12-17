@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Länka en snurruppsättning till en webbsida{#linking-a-spin-set-to-a-web-page}
 
-Webbplatser och applikationer har åtkomst till Dynamic Media Image Server-innehåll, inklusive Spin Sets, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för din snurruppsättning på dina webbsidor och i dina program kopierar du den från Dynamic Media Classic.
+Webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive snurruppsättningar, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för din snurruppsättning på dina webbsidor och i dina program kopierar du den från Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Webbplatser och applikationer har åtkomst till Dynamic Media Image Server-inneh
 
 ## Kopiera en URL för snurruppsättning {#copying-a-spin-set-url}
 
-1. Klicka på **Snurra uppsättning** i listrutan Visa på panelen Resursbläddring.
+1. Klicka på **Snurra uppsättning** i listrutan Visa på panelen Resurser.
 1. navigera till resursmappen som innehåller den snurra uppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
@@ -37,7 +37,7 @@ Webbplatser och applikationer har åtkomst till Dynamic Media Image Server-inneh
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
@@ -45,15 +45,15 @@ Webbplatser och applikationer har åtkomst till Dynamic Media Image Server-inneh
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägga till URL-adresser för snurruppsättning på webbsidan {#adding-spin-set-urls-to-your-web-page}
+## Lägga till URL:er för snurruppsättning på webbsidan {#adding-spin-set-urls-to-your-web-page}
 
-Snurra uppsättningar används som alla zoomningsvisningsprogram via en dynamisk sida (ASP eller JSP) som visar snurra uppsättningar i ett zoomfönster. URL-anropet till den dynamiska Media Classic-plattformen följer samma protokoll i zoomvisningsprogrammet. Namnet på visningsförinställningen beror dock på den förinställning som administratören har definierat som förinställning för rotationsuppsättningen. Följande exempel på icke-aktiv URL-syntax innehåller till exempel ett förinställningsnamn som kallas `viewer.jsp` och parametern SKU är nu namnet på rotationsuppsättningen:
+Snurra uppsättningar används som alla zoomningsvisningsprogram via en dynamisk sida (ASP eller JSP) som visar snurra uppsättningar i ett zoomfönster. URL-anropet till Dynamic Media Classic-plattformen följer samma protokoll i zoomvisningsprogrammet. Namnet på visningsförinställningen beror dock på den förinställning som administratören har definierat som förinställning för rotationsuppsättningen. I följande exempel på icke-aktiv URL-syntax finns ett förinställningsnamn med namnet `viewer.jsp` och SKU-parametern är nu namnet på den aktiva uppsättningen:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-I det här exemplet på URL-syntax (länken är inte aktiv) lägger du märke till ett SKU-nummer ( `sku=backpack_spin`). Strängen efter `sku=` är namnet på den tomma uppsättningen ( `backpack spin`).
+Lägg märke till ett SKU-nummer ( `sku=backpack_spin`) i det här exemplet på URL-syntax (länken är inte aktiv). Strängen efter `sku=` är namnet på den tomma uppsättningen ( `backpack spin`).
 
 ## Kopiera inbäddningskoden för ett visningsprogram för sned uppsättning {#copying-the-embed-code-of-a-spin-set-viewer}
 
@@ -61,16 +61,16 @@ Med hjälp av funktionen Bädda in kod kan du granska visningsprogramkoden för 
 
 **Så här kopierar du inbäddningskoden för ett visningsprogram för sned uppsättning**
 
-1. Klicka på **Snurra uppsättning** i listrutan Visa på panelen Resursbläddring.
+1. Klicka på **Snurra uppsättning** i listrutan Visa på panelen Resurser.
 1. navigera till resursmappen som innehåller den snurra uppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger klickar du på **Bädda in kod** till höger om det visningsprogram du vill använda.
+   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Bädda in kod** till höger om det visningsprogram du vill använda i panelen URL:er och Bädda in kod till höger.
    * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
