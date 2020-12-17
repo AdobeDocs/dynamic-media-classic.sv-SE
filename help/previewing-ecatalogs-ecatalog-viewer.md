@@ -24,7 +24,7 @@ Du kan använda Förhandsvisa för att visa din eCatalog med olika visningsföri
 
 Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers).
 
-Se [Förhandsvisa en resurs](previewing-asset.md#previewing_an_asset).
+Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 
 **Förhandsgranska e-kataloger i eCatalog Viewer**
 
