@@ -18,10 +18,10 @@ ht-degree: 0%
 ---
 
 
-# Media Portal{#media-portal}
+# Medieportal{#media-portal}
 
 Adobe Media Portal ger företag möjlighet att enkelt förvärva, styra och distribuera godkända kreativa resurser till externa partners och kanaler samt till interna affärsanvändare. Den webbläsarbaserade, självbetjäningsmiljön ger portalanvändare administratörskontrollerade&quot;vyer&quot; i Dynamic Media Classic-material så att de enkelt kan ladda upp, söka, förhandsgranska och exportera material i företagsgodkända format.
 
-Mer information om Media Portal och systemkrav finns på [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+Mer information om Media Portal och systemkrav finns i [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
 
-Information om hur du administrerar Media Portal finns i [Snabbstart: Media Portal Administration](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
+Information om hur du administrerar Media Portal finns i [Snabbstart: Administrering av mediaportal](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
