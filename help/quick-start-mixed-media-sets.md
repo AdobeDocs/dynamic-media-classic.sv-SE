@@ -40,7 +40,7 @@ Se [Överföra filer](uploading-files.md#uploading-your-files).
 
 Du kan lägga till bilder, bilduppsättningar, färgruteuppsättningar, snurruppsättningar och videoklipp i din uppsättning med blandade media. Förbered medieuppsättningarna innan du lägger till dem i den blandade medieuppsättningen.
 
-Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set), [Skapa en uppsättning](creating-swatch-set.md#creating-a-swatch-set)med färgrutor och [Skapa en uppsättning](creating-spin-set.md#creating-a-spin-set)med snurra.
+Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set), [Skapa en färgruteuppsättning](creating-swatch-set.md#creating-a-swatch-set) och [Skapa en snurruppsättning](creating-spin-set.md#creating-a-spin-set).
 
 **3. Skapa en blandad medieuppsättning**
 
@@ -52,21 +52,21 @@ Se [Skapa en blandad medieuppsättning](creating-mixed-media-set.md#creating-a-m
 
 Dynamic Media Classic innehåller standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra förinställningar för visningsprogrammet för blandad medieuppsättning.
 
-När du konfigurerar en visningsförinställning för blandad medieuppsättning lägger du till visningsförinställningarna för alla andra resurser i uppsättningen. Om din uppsättning med blandade media innehåller videoklipp lägger du till en förinställning för visningsprogrammet för video i förinställningen för visningsprogrammet för blandade media. Du kan också lägga till ett ljudspår i visningsprogrammet. Det här ljudspåret spelas upp när visningsprogrammet är öppet, men spelas inte upp när en video är aktiv.
+När du konfigurerar en visningsförinställning för blandad medieuppsättning lägger du till visningsförinställningarna för alla andra resurser i uppsättningen. Om din uppsättning med blandade media till exempel innehåller videoklipp lägger du till en förinställning för visningsprogrammet för video i förinställningen för visningsprogrammet med blandade media. Du kan också lägga till ett ljudspår i visningsprogrammet. Det här ljudspåret spelas upp när visningsprogrammet är öppet, men spelas inte upp när en video är aktiv.
 
-Se [Konfigurera en visningsförinställning](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) för en blandad medieuppsättning och [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
+Se [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) och [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
 **5. Förhandsgranska en blandad medieuppsättning**
 
 Klicka på knappen Förhandsvisa överrullning för den blandade medieuppsättningen. Den blandade medieuppsättningen visas. Du kan klicka på miniatyrbilds- och färgruteikonerna för att undersöka den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen. Du kan välja olika visningsprogram från förinställningsmenyerna.
 
-Se [Förhandsvisa en resurs](previewing-asset.md#previewing-an-asset).
+Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
 **6. Publicera en blandad medieuppsättning**
 
 När du publicerar en uppsättning med blandade media placeras den på Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
-Blandade medieuppsättningar kräver att du publicerar till **videoservern** och även till **bildservern**. Du använder **Video Server** för att publicera de faktiska videoklippen som du har markerat för publicering. Och du kan använda **Image Server** för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.
+Blandade medieuppsättningar kräver att du publicerar till **videoserver** och även till **bildserver**. Du använder **Videoserver** för att publicera de faktiska videoklipp som du har markerat för publicering. Du kan också använda **bildserver** för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.
 
 Se [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
@@ -74,4 +74,4 @@ Se [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md#publis
 
 Dynamic Media Classic aktiverar URL-anrop för blandade medieuppsättningar när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
 
-Markera den blandade medieuppsättningen och klicka på Förhandsgranska. Välj en visningsförinställning för blandad medieuppsättning på förhandsgranskningsskärmen och klicka på knappen Kopiera URL. Se [Länka en uppsättning med blandade media till en webbsida](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Markera den blandade medieuppsättningen och klicka på Förhandsgranska. Välj en visningsförinställning för blandad medieuppsättning på förhandsgranskningsskärmen och klicka på knappen Kopiera URL. Se [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
