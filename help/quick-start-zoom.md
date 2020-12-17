@@ -32,9 +32,9 @@ Snabbstart för zoomning är utformat för att komma igång snabbt med zoomtekni
 
 **1. Överför zoombilder**
 
-Börja med att överföra dina zoombilder till Dynamic Media Classic. För optimal zoomning rekommenderar Dynamic Media Classic att bilderna har minst 2 000 pixlar i det längsta måttet.
+Börja med att överföra dina zoombilder till Dynamic Media Classic. För optimal zoomning rekommenderar Dynamic Media Classic att bilderna är minst 2 000 pixlar långa.
 
-Välj knappen Överför i fältet Global Navigation (Global Navigation) om du vill överföra bilder från datorn eller nätverket till en mapp i Dynamic Media Classic. Se [Överföra zoombilder](uploading-zoom-images.md#uploading_zoom_images).
+Klicka på knappen Överför i fältet Global navigering om du vill överföra bilder från datorn eller nätverket till en mapp i Dynamic Media Classic. Se [Överföra zoombilder](uploading-zoom-images.md#uploading_zoom_images).
 
 **2. Skapa zoommål för guidad zoomning**
 
@@ -44,11 +44,11 @@ Om du vill skapa ett zoommål klickar du på knappen Redigera överrullning och 
 
 **3. Konfigurera förinställningar för Zoom Viewer**
 
-Förinställningarna för zoomvisningsprogrammet bestämmer hur zoomningsvisningsprogrammen ska se ut och fungera. Om du är administratör kan du konfigurera förinställningar för zoomvisningsprogrammet. Dynamic Media Classic innehåller även förinställningar för zoomningsvisningsprogrammet som är standard.
+Förinställningarna för zoomvisningsprogrammet bestämmer hur zoomningsvisningsprogrammen ska se ut och fungera. Om du är administratör kan du konfigurera förinställningar för zoomvisningsprogrammet. Dynamic Media Classic innehåller även standardförinställningar för zoomvisning.
 
 Om du vill skapa en förinställning för zoomvisningsprogrammet klickar du på knappen Inställningar i det globala navigeringsfältet och väljer Visningsförinställningar. Klicka sedan på knappen Lägg till på skärmen för visningsförinställningar, välj en plattform, välj en zoomningsvisare och klicka på Lägg till. Välj sedan alternativ på skärmen Konfigurera visningsprogram.
 
-I Dynamic Media Classic finns förinställningsalternativ för Zoom Viewer som gör att du kan välja knappstil och visningsprogrammets utseende. Du kan också anpassa zoominställningarna för webbplatsen. Se [Ställa in förinställningar](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)för zoomvisningsprogrammet.
+I Dynamic Media Classic finns förinställningsalternativ för Zoom Viewer som gör att du kan välja knappstil och visningsprogrammets övergripande utseende. Du kan också anpassa zoominställningarna för webbplatsen. Se [Konfigurera förinställningar för zoomvisningsprogrammet](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 **4. Förhandsgranska bilder med Zoomvisningsprogrammet**
 
@@ -56,14 +56,14 @@ Du kan förhandsvisa bilder i ett zoomvisningsprogram för att se vad zoomupplev
 
 Om du vill utforska olika förinställningar för zoomvisning och hur de visar zoomupplevelsen markerar du en bild i panelen Bläddra och klickar på knappen Förhandsvisa. Förhandsgranskningsskärmen öppnas. Välj Förinställningar > Zooma och sedan en förinställning med zoommenyerna.
 
-Zoomknappar visas. Du kan se hur zoombilderna ser ut på webbplatsen. Välj zoomknapparna (och zoommålen) för att testa inställningarna för den förinställning för Zoomvisningsprogram som du har valt. Se [Förhandsvisa bilder med olika zoomvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Zoomknappar visas. Du kan se hur zoombilderna ser ut på webbplatsen. Välj zoomknapparna (och zoommålen) för att testa inställningarna för den förinställning för Zoomvisningsprogram som du har valt. Se [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 **5. Publicera zoombilder**
 
-När du publicerar dina zoombilder placeras de på dynamiska mediabildsservrar så att de kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängar. Dessa URL-strängar anropar zoombilder från dynamiska mediabildsservrar till din webbplats eller ditt program.
+När du publicerar dina zoombilder placeras de på Dynamic Media bildservrar så att de kan levereras till din webbplats och tillämpning. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängar. Dessa URL-strängar anropar zoombilder från Dynamic Media Image Servers till din webbplats eller ditt program.
 
 Välj knappen Publicera i fältet Global navigering när du vill initiera en publicering. Välj knappen Starta publicering på skärmen Publicera. Se [Publicera zoombilder](publishing-zoom-images.md#publishing_zoom_images).
 
-**6. Länka zoomningsvisningsprogram till webbsidan**
+**6. Länka zoomningsvisningsprogram till din webbsida**
 
-Dynamic Media Classic skapar de URL-bildtextsträngar som behövs för att zooma bilder och aktiverar dem när du publicerar bilder på dynamiska mediabildsservrar. Du kan kopiera dessa URL-strängar från förhandsgranskningsskärmen. När du har kopierat URL-strängarna är de tillgängliga för dina webbplatser och program. Se [Länka zoomvisningsprogram till webbsidan](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Dynamic Media Classic skapar de URL-bildtextsträngar som behövs för att zooma bilder och aktiverar dem när du publicerar bilder på Dynamic Media bildservrar. Du kan kopiera dessa URL-strängar från förhandsgranskningsskärmen. När du har kopierat URL-strängarna är de tillgängliga för dina webbplatser och program. Se [Länka zoomningsvisningsprogram till din webbsida](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
