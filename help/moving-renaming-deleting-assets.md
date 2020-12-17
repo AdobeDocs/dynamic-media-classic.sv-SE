@@ -61,13 +61,13 @@ När du tar bort en resurs tas även alla resurser som härletts från den bort.
 
 >[!NOTE]
 >
->Dynamic Media Classic rekommenderar att du skriver över resursfiler i stället för att ta bort dem, om orsaken till att du tar bort en resursfil är att ersätta den med en annan med samma namn.
+>Dynamic Media Classic rekommenderar att du skriver över resursfiler i stället för att ta bort dem om du vill ersätta en resursfil med en annan med samma namn.
 
 ## Ta bort flera resurser med en textfil {#delete-multiple-assets-with-a-text-file}
 
 Om du vill ta bort flera resurser samtidigt i resursbiblioteket kan du visa de resurser du vill ta bort i en textfil och skicka listan till Dynamic Media Classic.
 
-Skapa en lista med dynamiska Media Classic-ID:n och spara den som en textfil (.txt). Varje dynamiskt Media Classic-ID måste finnas på sin egen rad (följt av en hård retur).
+Skapa en lista med Dynamic Media Classic ID:n och spara den som en textfil (.txt). Varje Dynamic Media Classic-ID måste finnas på sin egen rad (följt av en hård retur).
 
 När du har skapat listan följer du de här stegen för att använda den för att ta bort resurser:
 
@@ -75,7 +75,7 @@ När du har skapat listan följer du de här stegen för att använda den för a
 1. I dialogrutan Ta bort resurs bläddrar du till eller skriver sökvägen till textfilen med listan över resurser som du vill ta bort.
 1. Klicka på knappen Ta bort.
 
-När du tar bort resurser med en textfil visas ett meddelande om att Dynamic Media Classic-ID inte finns med i listan om att det inte går att validera posterna i listan tillsammans med listan över poster. Dynamic Media Classic genererar dock inget fel på jobbskärmen.
+När du tar bort resurser med en textfil visas ett meddelande om att Dynamic Media Classic inte kan validera de här posterna i listan tillsammans med listan med poster, om det inte finns något Dynamic Media Classic-ID i listan. Dynamic Media Classic genererar dock inget fel på jobbskärmen.
 
 >[!MORELIKETHIS]
 >
