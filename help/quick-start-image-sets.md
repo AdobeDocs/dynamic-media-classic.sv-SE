@@ -28,11 +28,11 @@ Den här snabbstarten för bilduppsättningar är utformad för att komma igång
 
 **1. Överföra dina överordnad bilder för flera vyer och färgrutor**
 
-Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet bör du ta hänsyn till zoomning när du väljer bilder. Se till att bilderna har minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
+Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet bör du ta hänsyn till zoomning när du väljer bilder. Se till att bilderna har minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic stöder många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
 
-Välj knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
+Klicka på knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
 
-Se [Förbereda bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) och [överföring av filer](uploading-files.md#uploading-your-files).
+Se [Förbereda bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) och [Överföra filer](uploading-files.md#uploading-your-files).
 
 **2. Skapa en bilduppsättning**
 
@@ -44,23 +44,23 @@ Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set).
 
 Se även [Inkludera zoommål och bildscheman i bilduppsättningar](including-zoom-targets-image-maps.md#including-zoom-targets-and-image-maps-in-image-sets)
 
-**3. Ställa in visningsförinställningar för bilduppsättning efter behov**
+**3. Konfigurera visningsförinställningar för bilduppsättning efter behov**
 
 Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Dynamic Media Classic innehåller standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: Anpassad > Bilder eller Bilduppsättningar/Förinställningar för flera vyer om du vill visa dina bilduppsättningar.
 
 Du kan lägga till eller redigera visningsprogramförinställningar på skärmen Programinställningar.
 
-Se [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
+Se [Skapa och redigera visningsprogramförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
 **4. Förhandsgranska en bilduppsättning**
 
 Markera bilduppsättningen på panelen Bläddra och klicka sedan på Förhandsvisa. Bilduppsättningen visas på förhandsgranskningsskärmen. Klicka på miniatyrbildikonerna för att undersöka bilduppsättningen i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
 
-Se [Förhandsvisa en resurs](previewing-asset.md#previewing-an-asset).
+Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
 **5. Publicera en bilduppsättning**
 
-När du publicerar en bilduppsättning placeras den på dynamiska Media Classic-servrar och URL-strängen aktiveras.
+När du publicerar en bilduppsättning placeras den på Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
 >[!NOTE]
 >
@@ -74,6 +74,6 @@ Se [Publicera](publishing-files.md#publishing-files).
 
 Dynamic Media Classic skapar URL-anrop för bilduppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
 
-Markera bilduppsättningen och klicka sedan på knappen Förhandsvisa. Förhandsgranskningsskärmen öppnas. Välj en förinställning för bilduppsättningsvisningsprogrammet och klicka på **Kopiera URL**.
+Markera bilduppsättningen och klicka sedan på knappen Förhandsvisa. Förhandsgranskningsskärmen öppnas. Välj en visningsförinställning för bilduppsättning och klicka på **Kopiera URL**.
 
 Se [Länka en bilduppsättning till en webbsida](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
