@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Systemkrav {#system-requirements}
 
-Kontrollera att datorn uppfyller följande systemkrav och rekommendationer för att få en så bra upplevelse som möjligt när du använder Dynamic Media Classic-datorprogrammet:
+För att få en så bra upplevelse som möjligt när du använder Dynamic Media Classic-datorprogrammet bör du kontrollera att datorn uppfyller följande systemkrav och rekommendationer:
 
 * Microsoft® Windows® 7 eller senare eller macOS X 10.6 eller senare, Macintosh® Intel-processor krävs.
 * 3 GB RAM eller mer krävs (4 GB eller mer rekommenderas).
