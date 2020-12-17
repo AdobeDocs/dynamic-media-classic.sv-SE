@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Förutom att använda bildschematext för överrullningar i e-kataloger kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
 
-Du kan hantera InfoPanel-inställningarna och data med följande funktioner i Dynamic Media Classic:
+Du kan hantera InfoPanel-inställningar och data med följande funktioner i Dynamic Media Classic:
 
 * I inställningspanelen i InfoPanel kan du ange vilken mall som ska användas för att visa Info-paneltexten, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om e-kataloger ska publiceras automatiskt.
 * Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i InfoPanel-överrullningstexten, samt schemaläggningstider för uppdatering av informationen.
@@ -35,9 +35,9 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 
 >[!NOTE]
 >
->Du kan också ställa in svarsmallen i visningsförinställningen. Om du i stället vill använda svarsmallen i visningsförinställningen lägger du till i slutet `fmt=1` av informationsserverns URL i visningsförinställningen.
+>Du kan också ställa in svarsmallen i visningsförinställningen. Om du vill använda svarsmallen i visningsförinställningen i stället lägger du till `fmt=1` i slutet av informationsserverns URL i visningsförinställningen.
 >
->Se [Konfigurera visningsförinställningar](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)för eCatalog.
+>Se [Konfigurera eCatalog Viewer-förinställningar](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Dubbelklicka på din e-katalog för att öppna den i detaljvyn.
 1. Klicka på InfoPanel Setup-panelen för att öppna den.
@@ -64,7 +64,7 @@ Tänk på följande när du formaterar källinnehåll:
 * Se till att det första objektet eller datakolumnen är rollover-identifieraren (associerad med rollover_key-värdet från URL:erna för bildschemat).
 * Kontrollera att varje tabb- eller kommaavgränsat objekt efter identifieraren är det objekt som du vill ersätta i svarsmallen (den första kolumnen ersätts alltså till $1$, den andra kolumnen till $2$ och så vidare).
 
-### Importera CSV-innehåll till e-kataloger från en externt värdbaserad plats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importera CSV-innehåll till e-kataloger från en extern värdplats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Dubbelklicka på e-katalogen för att öppna den i detaljvyn.
 1. Klicka på InfoPanel-datafeed-panelen för att öppna den.
@@ -87,7 +87,7 @@ Last Modified Date:
 1. Dubbelklicka på e-katalogen för att öppna den i detaljvyn.
 1. Klicka på InfoPanel Setup-panelen för att öppna den.
 1. **Klicka på Överför S7Info-innehåll**.
-1. Klicka på **Bläddra**, markera den tabbavgränsade TXT-, CSV- eller SSV-fil som du vill använda och klicka på **Öppna**.
+1. Klicka på **Bläddra**, markera den tabbavgränsade TXT-, CSV- eller SSV-fil som du vill använda och klicka sedan på **Öppna**.
 1. Klicka på **Överför**.
 
 Dynamic Media Classic skickar ett e-postmeddelande till dig med information om överföringen lyckades eller inte.
