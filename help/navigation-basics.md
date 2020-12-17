@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Navigeringsgrunder{#navigation-basics}
 
-Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation bar, Asset Library, and Browse Panel/Build Panel.
+Skärmen Dynamic Media Classic innehåller tre huvudområden: Global Navigation bar, Asset Library, and Browse Panel/Build Panel.
 
 ![Navigeringsgrunder](/help/assets/gs_navigation_basics_popup_popup.png)
 
@@ -28,33 +28,33 @@ Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation 
 
 I fältet Global navigering, som finns längst upp på skärmen, finns knappar för olika åtgärder:
 
-**Välj Företag** Välj det företag du vill få åtkomst till på menyn. Den här knappen är inte tillgänglig om du arbetar med ett företag.
+**Välj** FöretagVälj det företag du vill få åtkomst till på menyn. Den här knappen är inte tillgänglig om du arbetar med ett företag.
 
-**Överför** Öppnar skärmen Överför så att du kan överföra filer från datorn eller nätverket till Dynamic Media Classic. Du kan överföra filer från skrivbordet eller via FTP. Se Överföra filer.
+**** ÖverförÖppnar skärmen Överför så att du kan överföra filer från datorn eller nätverket till Dynamic Media Classic. Du kan överföra filer från skrivbordet eller via FTP. Se Överföra filer.
 
 **Skapa** Välj en byggåtgärd på menyn. Panelen Skapa öppnas så att du kan skapa en resurstyp.
 
-**Publicera** Öppnar publiceringsskärmen så att du kan publicera mediefiler till dynamiska mediabildsservrar och resten av Dynamic Media Classic SAAS-infrastrukturen. Se Publicera.
+**** PubliceraÖppnar publiceringsskärmen så att du kan publicera mediefiler till Dynamic Media Image Servers och resten av Dynamic Media Classic SAAS Infrastructure. Se Publicera.
 
-**Jobb** Öppnar skärmen Jobb så att du kan undersöka poster för överförings- och publiceringsjobb.
+**** JobbÖppnar skärmen Jobb så att du kan undersöka poster för överförings- och publiceringsjobb.
 
-**Senaste** öppnar skärmen Senaste aktivitet så att du kan visa namnen på nyligen ändrade resurser och nyligen överförda och publicerade jobb.
+**** Senaste Öppnar skärmen Senaste aktivitet så att du kan visa namnen på nyligen ändrade resurser och nyligen överförda och publicerade jobb.
 
-**Installationsprogrammet** Öppnar installationsskärmen så att du kan välja inställningar eller administrationsalternativ för att optimera användningen av Dynamic Media Classic. Se Konfigurera.
+**** InstallationsprogramÖppnar installationsskärmen så att du kan välja inställningar eller administrationsalternativ för att optimera användningen av Dynamic Media Classic. Se Konfigurera.
 
-**Hjälp** : Välj ett hjälpalternativ:
+**** HjälpVälj ett hjälpalternativ:
 
-**Hjälp > HjälpI det här avsnittet** Öppnar hjälpsystemet på en sida med information om den uppgift du håller på att utföra.
+**Hjälp > Hjälp om det här** avsnittet Öppnar hjälpsystemet på en sida med information om den uppgift du håller på att utföra.
 
-**Hjälp > Videosjälvstudiekurs** Här visas videofilmer om specifika ämnen som visar hur du kommer igång med varje arbetsflöde för multimediepublicering.
+**Hjälp >** VideosjälvstudiekursVideoklipp om olika ämnen som visar hur du kommer igång med de olika arbetsflödena för multimediepublicering.
 
 **Hjälp > Hjälpinnehåll** Öppnar hjälpsystemet på introduktionssidan. Du kan söka efter och visa olika ämnen genom att klicka i innehållsförteckningen.
 
-**Hjälp > Om** Anger vilken version av Dynamic Media Classic du använder.
+**Hjälp >** Om: Anger vilken version av Dynamic Media Classic du använder.
 
-**Hjälp > Support** Anger hur du får teknisk support från Dynamic Media Classic.
+**Hjälp >** SupportHär beskrivs hur du får teknisk support från Dynamic Media Classic.
 
-**Logga ut** avslutar Dynamic Media Classic.
+**Logga** utAvslutar Dynamic Media Classic.
 
 ## Resursbibliotek {#asset-library}
 
@@ -70,9 +70,9 @@ Använd resursbiblioteket för att ordna de resurser du arbetar med. Du kan skap
 
 På panelen Bläddra/bygg kan du göra mycket av ditt arbete. Vad som visas på den här panelen beror på om du arbetar i bläddringsläge eller byggläge:
 
-**Bläddringsläge** Välj en mapp i resursbiblioteket om du vill visa och arbeta med innehållet i den i panelen Bläddra. På den här panelen finns menyerna Arkiv, Förhandsvisa, Markera alla, Välj ingen och Sortera för att arbeta med resurser. Du kan också visa resurser på olika sätt genom att flytta skjutreglaget eller välja knappen Stödrastervisning , Listvy eller Detaljvy. Om du väljer knappen Detaljvy eller dubbelklickar på en resurs öppnas resursen i detaljvyn, där du kan utföra resursberoende filåtgärder.
+**BläddringslägeVälj en mapp i resursbiblioteket om du vill visa och arbeta med innehållet i den i panelen Bläddra.** På den här panelen finns menyerna Arkiv, Förhandsvisa, Markera alla, Välj ingen och Sortera för att arbeta med resurser. Du kan också visa resurser på olika sätt genom att flytta skjutreglaget eller välja knappen Stödrastervisning , Listvy eller Detaljvy. Om du väljer knappen Detaljvy eller dubbelklickar på en resurs öppnas resursen i detaljvyn, där du kan utföra resursberoende filåtgärder.
 
-**Skapa läge** Klicka på Skapa och välj sedan ett alternativ för att börja skapa en eCatalog, Bilduppsättning, Rotation eller något av flera andra tillgängliga alternativ på menyn Skapa. Skärmen Build öppnas. Du kan välja de resurser som du vill arbeta med innan eller efter att du aktiverar byggläget.
+**Bygg** lägeKlicka på Skapa och välj sedan ett alternativ för att börja skapa en eCatalog, Bilduppsättning, Snurra uppsättning eller ett av flera andra tillgängliga alternativ på menyn Skapa. Skärmen Build öppnas. Du kan välja de resurser som du vill arbeta med innan eller efter att du aktiverar byggläget.
 
 >[!MORELIKETHIS]
 >
