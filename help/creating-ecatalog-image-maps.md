@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Skapa bildkartor för eCatalog{#creating-ecatalog-image-maps}
+# Skapa eCatalog-bildscheman{#creating-ecatalog-image-maps}
 
 En bildschema är ett område på en eCatalog-sida som du kan rulla över med musen eller klicka för att aktivera åtgärder av olika slag. När du flyttar pekaren över ett bildschema visas t.ex. en beskrivning av ett objekts överrullningstext. När du klickar på en bildschema startas en annan åtgärd. Du kan till exempel öppna en webbsida så att tittarna kan lära sig mer om ett objekt eller köpa det, eller så kan du starta en video för att se ett objekt som används.
 
@@ -31,10 +31,12 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
 1. Till vänster på skärmen Kartsidor markerar du den sida du vill ha.
 1. I området Bildschema ritar du ett rektangulärt eller flersidigt bildschema:
 
-   * **Rektangulär karta** Välj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln.
+   * **Rektangulär**
+kartaVälj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln.
 
-   * **Polygonkarta** Välj verktyget Polygonbildschema och klicka så många gånger som behövs runt bildens omkrets. När du klickar ritas kanterna för bildschemat i Dynamic Media Classic.
-   När du har ritat en bildschema får den ett namn i listan Bildschema i Dynamic Media Classic. För att bilda namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
+   * **PolygonkartaVälj verktyget Polygonbildschema och klicka så många gånger som behövs runt bildens omkrets.**
+När du klickar ritas kanterna för bildschemat i Dynamic Media Classic.
+   När du har ritat en bildschema får den ett namn i listan Bildschema. För att bilda namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
 
 1. (Valfritt) Ange ett nytt namn för bildschemat i listpanelen Bildschema under kolumnen Namn. Använd inte blanksteg i det namn du anger.
 1. Du kan låta tittarna öppna en ny webbsida när de klickar på bildschemat. Ange webbsidans URL i URL-kolumnen på listpanelen Bildschema.
@@ -49,7 +51,7 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
    Se [Definiera andra åtgärder för bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Klicka på **Spara**.
-1. (Valfritt) Klicka på **Förhandsgranska** för att visa e-katalogen med standardförinställningen för eCatalog Viewer.
+1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa e-katalogen med standardförinställningen för eCatalog Viewer.
 
 Om du vill ta bort en bildschema markerar du dess namn i listan Bildschema och klickar på Ta bort. Om du tillfälligt vill inaktivera ett bildschema på en sida utan att ta bort bildschemat, avmarkerar du alternativet På på panelen Bildschema.
 
@@ -71,34 +73,39 @@ Du kan också visa funktionsbeskrivningstext när kunderna flyttar pekarna över
 1. (Valfritt) I listpanelen Bildschema, under kolumnrubriken Verktygstips, anger du den text som du vill att tittarna ska se på skärmen när de flyttar pekaren över bildschemat.
 1. Klicka på Spara.
 
-## Redigera bildkartor för eCatalog {#editing-ecatalog-image-maps}
+## Redigera eCatalog-bildscheman {#editing-ecatalog-image-maps}
 
 Använd följande tekniker för att redigera eCatalog-bildscheman från och med på fliken Kartsidor i eCatalog-skärmen:
 
-* **Justera positionen** Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhörig pil drar du hela bildschemat till en ny plats.
+* **Justera**
+positionenVälj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhörig pil drar du hela bildschemat till en ny plats.
 
    Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Ändra form och storlek** Om du vill ändra storlek på ett rektangulärt bildschema väljer du panoreringsverktyget. Flytta sedan pekaren över en kantlinje eller ett hörn och dra när du ser den dubbelriktade pilikonen. Dra i ett fyrkantigt markeringshandtag om du vill ändra storlek på ett flersidigt bildschema. Om du vill skapa ett markeringshandtag klickar du på kanten på bildschemat och drar.
+* **Ändra form och**
+storlekOm du vill ändra storlek på ett rektangulärt bildschema väljer du panoreringsverktyget. Flytta sedan pekaren över en kantlinje eller ett hörn och dra när du ser den dubbelriktade pilikonen. Dra i ett fyrkantigt markeringshandtag om du vill ändra storlek på ett flersidigt bildschema. Om du vill skapa ett markeringshandtag klickar du på kanten på bildschemat och drar.
 
    Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Ta bort bildscheman** Markera panoreringsverktyget, klicka på bildschemat för att markera det och klicka sedan på 
+* **Ta bort**
+bildschemanVälj panoreringsverktyget, klicka på bildschemat för att markera det och klicka sedan på 
 **Ta bort**.
 
    Om du vill ta bort alla bildscheman från en e-katalog klickar du på fliken **Ordna sidor** och sedan på **Rensa kartor**.
 
-* **Hantera överlappande bildscheman** Dra för att ändra ordningen på bildscheman i listan Bildschema.
+* **Hantera överlappande**
+bildschemanDra för att ändra ordningen på bildscheman i listan Bildschema.
 
    Se [Hantera överlappande bildscheman](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Kopiera bildscheman till andra sidor** Markera knappen Kopiera kartor till (se till att du är på fliken Avbilda sidor). På skärmen Välj bilder markerar du den eller de sidor där du vill kopiera bildscheman och klickar på knappen Markera.
+* **Kopiera bildscheman till andra**
+sidorMarkera knappen Kopiera kartor till (se till att du är på fliken Avbilda sidor). På skärmen Välj bilder markerar du den eller de sidor där du vill kopiera bildscheman och klickar på knappen Markera.
 
    Se [Kopiera bildscheman till andra bilder](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >
->Förutom att kopiera bildscheman till olika sidor i en e-katalog kan du kopiera alla bildscheman i en e-katalog till en annan e-katalog. Se [Kopiera bildscheman mellan e-kataloger](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>Förutom att kopiera bildscheman till olika sidor i en e-katalog kan du kopiera alla bildscheman i en e-katalog till en annan e-katalog. Se [Kopiera bildscheman mellan eCatalogs](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Granska och importera bildkartsdata {#reviewing-and-importing-image-map-data}
 
@@ -106,7 +113,7 @@ Skärmen Kartsammanfattning innehåller metadata om din eCatalog. Du kan också 
 
 Om du vill visa fönstret Kartsammanfattning klickar du på Sammanfattning på fliken Kartsidor på skärmen i eCatalog.
 
-### Granska sammanfattning av bildschemadata {#review-image-map-data-summary}
+### Granska datamappning för bildschema {#review-image-map-data-summary}
 
 1. Klicka på Sammanfattning på skärmen Kartsidor.
 
@@ -144,4 +151,4 @@ Så här kopierar du alla bildscheman i en e-katalog till en annan eCatalog:
 1. Klicka på Kopiera kartor på fliken Ordna sidor.
 1. I dialogrutan Välj resurs markerar du den e-katalog där du vill kopiera bildscheman och klickar sedan på Välj.
 
-I Dynamic Media Classic visas ett varningsmeddelande om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Du kan klicka på Fortsätt om du vill kopiera bildscheman trots varningen.
+Ett varningsmeddelande visas i Dynamic Media Classic om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Du kan klicka på Fortsätt om du vill kopiera bildscheman trots varningen.
