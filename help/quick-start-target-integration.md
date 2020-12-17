@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Med Adobe Target Standard/Premium får marknadsförarna kontroll direkt för att snabbt och kontinuerligt köra flera A/B-tester och multivariata tester, mäta effektiviteten och öka relevansen av onlinematerial genom segmentering, målinriktning och automatiserad personalisering.
 
-Med Dynamic Media Classic kan ni skapa erbjudanden och uppsättningar för Target Standard-/Premium-kampanjer. Du kan till exempel skapa en erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Target Standard/Premium avgöra vilken resurs som ger bättre konverteringshöjning. Du kan skapa erbjudanden och uppsättningar från en grundmall eller från enskilda bilder. När erbjudandet har skickats vidare eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Target Standard/Premium köra kampanjer för att avgöra vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
+Med Dynamic Media Classic kan du skapa erbjudanden och uppsättningar för Target Standard-/Premium-kampanjer. Du kan till exempel skapa en erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Target Standard/Premium avgöra vilken resurs som ger bättre konverteringshöjning. Du kan skapa erbjudanden och uppsättningar från en grundmall eller från enskilda bilder. När erbjudandet har skickats vidare eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Target Standard/Premium köra kampanjer för att avgöra vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
 
-Använd HTML-erbjudanden för Target Standard/Premium om du vill göra mer anpassningar av dynamiskt dynamiskt dynamiskt Media Classic-innehåll. Mer information finns i produktdokumentationen för Target Standard/Premium.
+Om du vill anpassa dynamiskt Dynamic Media Classic-innehåll mer använder du Target Standard/Premium HTML-erbjudanden. Mer information finns i produktdokumentationen för Target Standard/Premium.
 
 >[!NOTE]
 >
@@ -40,11 +40,11 @@ Dynamic Media Classic behöver din Target Standard/Premium URL för att kunna in
 
 **2. Skapa erbjudandeuppsättningen**
 
-Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du skapar uppsättningar med HTML-erbjudanden på skärmen Test&amp;Target Offer Set. Om du vill öppna den här skärmen markerar du mallen eller bilderna och klickar på **Skapa** > **Test&amp;Target Offer Set**.
+Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du skapar uppsättningar med HTML-erbjudanden på skärmen Test&amp;Target Offer Set. Om du vill öppna den här skärmen markerar du mallen eller bilderna och klickar på **Build** > **Test&amp;Target Offer Set**.
 
 Om du vill skapa ett erbjudande med en mall klickar du på **Lägg till och förhandsgranska**. Ändra parametervärden på skärmen Lägg till och förhandsvisa.
 
-Om du vill skapa ett erbjudande med bilder drar du bilder till skärmen Test&amp;Target Offer Set. Klicka på **Förhandsvisa** för att välja en bildförinställning för en bild eller alla bilder i erbjudandeuppsättningen.
+Om du vill skapa ett erbjudande med bilder drar du bilder till skärmen Test&amp;Target Offer Set. Klicka på **Förhandsgranska** om du vill välja en bildförinställning för en bild eller alla bilder i erbjudandeuppsättningen.
 
 Spara erbjudandet när du skapat det.
 
@@ -52,4 +52,4 @@ Se [Skapa en erbjudandeuppsättning](creating-offer-set.md#creating_an_offer_set
 
 **3. Skicka erbjudandet till Adobe Target Standard/Premium**
 
-Klicka på **Push Offers (push-erbjudanden**) på skärmen Test&amp;Target Offer Set (Test&amp;Target-erbjudanden) och ange dina inloggningsuppgifter i dialogrutan Test&amp;Target Login (Testa&amp;Target-inloggning). Se [Paketera erbjudanden till Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Klicka på **Push Offers** på skärmen Test&amp;Target Offer Set och ange dina inloggningsuppgifter i dialogrutan Test&amp;Target Login. Se [Paketera erbjudanden till Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
