@@ -26,7 +26,7 @@ När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess in
 >
 >URL:en är inte aktiv förrän du publicerar resursen.
 
-## Kopiera en URL för bilduppsättning {#copying-an-image-set-url}
+## Kopiera en bilduppsättnings-URL {#copying-an-image-set-url}
 
 1. Klicka på **Bilduppsättning** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den bilduppsättning vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
@@ -37,7 +37,7 @@ När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess in
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
@@ -45,15 +45,15 @@ När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess in
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägga till URL:er för bilduppsättning på webbsidan {#adding-image-set-urls-to-your-web-page}
+## Lägga till URL:er för bilduppsättning på din webbsida {#adding-image-set-urls-to-your-web-page}
 
 Det vanligaste sättet att distribuera bilduppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (JSP) som visar bilduppsättningen i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)för visningsprogram för Adobe.
+Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken för Adobe-visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
 ## Kopiera inbäddningskoden för ett visningsprogram för bilduppsättning {#copying-the-embed-code-of-an-image-set-viewer}
 
-Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda bilduppsättningen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. 
+Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda bilduppsättningen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 **Så här kopierar du inbäddningskoden för ett visningsprogram för bilduppsättning**
 
@@ -66,7 +66,7 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningslista** till höger om miniatyrbilden.
+   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
 
       Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
