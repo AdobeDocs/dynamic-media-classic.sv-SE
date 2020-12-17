@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Skapa en snurruppsättning{#creating-a-spin-set}
 
-Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt sätt. Du kan skapa en snurra uppsättning i Dynamic Media Classic genom att markera knappen Skapa och välja Snurra uppsättningar. Redigera snurruppsättningar på skärmen Snurra uppsättningar.
+Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt sätt. Du kan skapa en snurrsuppsättning i Dynamic Media Classic genom att markera knappen Skapa och välja Snurra uppsättningar. Redigera snurruppsättningar på skärmen Snurra uppsättningar.
 
 >[!NOTE]
 >
->Tidigare versioner av Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den under ett annat namn. Klicka på Spara som på skärmen med rotationsuppsättningen och ange ett nytt namn så att du kan redigera det i Dynamic Media Classic.
+>Tidigare versioner av Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den under ett annat namn. Klicka på Spara som på skärmen med den nya rotationsuppsättningen och ange ett nytt namn så att du kan redigera den i Dynamic Media Classic.
 
-## Riktlinjer för fotografering av snurra uppsättningsbilder {#guidelines-for-shooting-spin-set-images}
+## Riktlinjer för fotografering av snurruppsättningsbilder {#guidelines-for-shooting-spin-set-images}
 
-Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snurra. Om du inkluderar många bilder i uppsättningen ökar dock tiden det tar för bilderna att läsas in. Dynamic Media Classic rekommenderar följande riktlinjer för att ta bilder som ska användas i snurrsuppsättningar:
+Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snurra. Om du inkluderar många bilder i uppsättningen ökar dock tiden det tar för bilderna att läsas in. Dynamic Media Classic rekommenderar följande riktlinjer för att ta bilder som ska användas i snurra uppsättningar:
 
 * Använd minst 8-12 bilder i en endimensionell snurra och 16-24 bilder i en tvådimensionell snurra.
 * Använd ett förlustfritt format, TIFF och PNG rekommenderas.
@@ -38,22 +38,22 @@ Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snu
 
 ## Skapa en snurruppsättning {#create}
 
-Tänk på att den ordning i vilken rotationsuppsättningen skapas eller skapas i Dynamic Media Classic är viktig. Beroende på hur du ordnar resurserna när du drar och släpper bilder i rutnätet på sidan Snurra uppsättning, snurrar den i en viss riktning. Därför är den ordning i vilken resursen visas visuellt i byggaren hur resursen snurras när användaren flyttar muspekaren eller flyttar fingret, från vänster till höger.
+Tänk på att den ordning i vilken du skapar eller skapar den i Dynamic Media Classic är viktig. Beroende på hur du ordnar resurserna när du drar och släpper bilder i rutnätet på sidan Snurra uppsättning, snurrar den i en viss riktning. Därför är den ordning i vilken resursen visas visuellt i byggaren hur resursen snurras när användaren flyttar muspekaren eller flyttar fingret, från vänster till höger.
 
-När du skapar en uppsättning påverkar alternativet **Publicera efter spara** den och anger medlemmar på följande sätt:
+När du skapar en uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och anger medlemmar på följande sätt:
 
 | Alternativet Publicera efter spara är markerat innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
 
-Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) manuellt och [Avpublicera resurser](publishing-files.md#manually-unpublishing-assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) och [Manuellt avpublicera resurser](publishing-files.md#manually-unpublishing-assets).
 
 När du har sparat en snurruppsättning kan du använda Förhandsvisning i Build: På sidan med rotationsuppsättningen ser du hur din snurruppsättning ser ut i standardvisningsprogrammet.
 
 **Skapa en snurruppsättning**
 
-1. I listrutan **Skapa** klickar du på **Snurra uppsättningar**.
+1. I listrutan **Build** klickar du på **Spin Sets**.
 1. Ange antalet rader och celler som du vill ha i dialogrutan Ange storlek för snurra.
 
    Om du vill skapa en endimensionell snurruppsättning markerar du endast en rad.
@@ -67,9 +67,9 @@ När du har sparat en snurruppsättning kan du använda Förhandsvisning i Build
 1. I dialogrutan Spara väljer du en mapp för lagring av din snurruppsättning. I fältet Filnamn anger du namnet på rotationsuppsättningen.
 1. Klicka på **Spara**.
 
-## Redigera en snurra uppsättning {#editing-a-spin-set}
+## Redigera en snurruppsättning {#editing-a-spin-set}
 
-Beroende på om du redigerar en publicerad uppsättning eller en opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
+Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
 
 | Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
@@ -78,34 +78,38 @@ Beroende på om du redigerar en publicerad uppsättning eller en opublicerad upp
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
-Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) manuellt och [Avpublicera resurser](publishing-files.md#manually-unpublishing-assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) och [Manuellt avpublicera resurser](publishing-files.md#manually-unpublishing-assets).
 
 **Redigera en snurruppsättning**
 
-1. Klicka på knappen **Redigera** överrullning för den aktiva uppsättningen.
+1. Klicka på knappen för rotationsuppsättningens överrullning **Redigera**.
 1. Gör något av följande:
 
-   * **Ta bort bilder** Markera bilden och klicka sedan på 
+   * **Ta bort**
+bilderMarkera bilden och klicka sedan på 
 **Ta bort**.
 
-   * **Lägga till bilder** Dra bilden till en cell.
+   * **Lägga till**
+bilderDra bilden till en cell.
 
-   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)** Klicka i en radväljarruta (till vänster om raden) och klicka sedan på 
-**Flytta rad nedåt** eller **flytta rad uppåt**.
+   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)**
+Klicka i en radväljarruta (till vänster om raden) och klicka sedan på 
+**Flytta rad** nedåt eller  **flytta rad uppåt**.
 
-   * **När du lägger till rader och celler** anger du en siffra i rutorna Rader och Celler som bestämmer antalet rader och antalet celler i varje rad.
+   * **Lägga till rader och**
+cellerAnge en siffra i rutorna Rader och Celler för att bestämma antalet rader och antalet celler i varje rad.
 
-1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, kontrollerar du att **Publicera efter spara** är markerat (standard).
+1. När du är klar med redigeringen ser du till att **Publicera efter spara** är markerat (standard) nära sidans nedre högra hörn.
 1. Klicka på **Spara**, markera en lagringsmapp, ange ett namn för uppsättningen och klicka sedan på **Spara**.
 
-## Ta bort en snurruppsättning {#deleting-a-spin-set}
+## Tar bort en snurruppsättning {#deleting-a-spin-set}
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
-Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) manuellt och [Avpublicera resurser](publishing-files.md#manually-unpublishing-assets)manuellt.
+Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) och [Manuellt avpublicera resurser](publishing-files.md#manually-unpublishing-assets).
 
 **Ta bort en snurra uppsättning**
 
 1. I Stödrastervisning, listvy eller detaljvy väljer du en eller flera snurruppsättningar.
-1. Klicka på **Arkiv** > **Ta bort** > **Ta bort** i det globala navigeringsfältet.
+1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
 
