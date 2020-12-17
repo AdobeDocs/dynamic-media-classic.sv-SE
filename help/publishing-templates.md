@@ -28,11 +28,11 @@ När du publicerar mallen placeras den på Dynamic Media Image Servers, där den
 
 ## Märk mallar för publicering {#marking-templates-for-publish}
 
-Mallar och deras supportfiler måste markeras för publicering för att de ska kunna placeras på Dynamic Media Image Servers. Du kan markera de här objekten för publicering på panelen Bläddra genom att klicka på **ikonen Markera för publicering** .
+Mallar och deras supportfiler måste markeras för publicering för att de ska kunna placeras på Dynamic Media Image Servers. Du kan markera de här objekten för publicering i panelen Bläddra genom att klicka på ikonen **Markera för publicering**.
 
-## Publicera din mall {#publishing-your-template}
+## Publicera mallen {#publishing-your-template}
 
-Om du vill publicera mallar till Dynamic Media-bildservrar börjar du med att välja knappen Publicera i fältet Global navigering. Välj sedan alternativet Vid, ange ett namn för publiceringsjobbet och välj knappen Starta publicering.
+Om du vill publicera mallar på Dynamic Media Image-servrar börjar du med att välja knappen Publicera i fältet Global navigering. Välj sedan alternativet När, eller ange ett namn för publiceringsjobbet, och välj knappen Starta publicering.
 
 >[!MORELIKETHIS]
 >
