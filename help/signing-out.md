@@ -1,8 +1,6 @@
 ---
-title: Logga in och ut
-seo-title: Logga in och ut
-description: 'null'
-seo-description: Läs om hur du loggar in och ut i Dynamic Media Classic
+title: Logga in på och ut från Adobe Dynamic Media Classic
+description: Läs om hur du loggar in på och ut från Adobe Dynamic Media Classic och ansluter till en produktionsmiljöserver i Nordamerika (NA) eller Europa, Mellanöstern, Afrika (EMEA) eller Asien-Stillahavsområdet (APAC).
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -20,14 +18,14 @@ ht-degree: 0%
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Logga in på Dynamic Media Classic {#sign-in}
+# Logga in på Adobe Dynamic Media Classic {#sign-in}
 
-Hur du loggar in på Dynamic Media Classic och loggar ut baseras på om du använder datorprogrammet eller webbläsaren.
+Hur du loggar in på Dynamic Media Classic och loggar ut baseras på om du använder [datorprogrammet](#sign-in-dmc-app) eller [webbläsaren](#sign-out).
 
 Kontrollera att du har följande innan du använder Dynamic Media Classic, oavsett hur du loggar in:
 
-* **Inloggningsnamn**
-Du använder din e-postadress som inloggningsnamn.
+* **AnvändarnamnDu**
+använder din e-postadress som inloggningsnamn.
 
 * ****
 LösenordDu får ditt tillfälliga lösenord i ett välkomstmeddelande från Dynamic Media Classic eller från en Dynamic Media Classic-administratör. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
