@@ -2,9 +2,9 @@
 cloud: experience-cloud
 product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Guide för Adobe Dynamic Media Classic
+user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
-user-guide-description: Läs mer om Dynamic Media Classic
+user-guide-description: Läs mer om hur du använder Dynamic Media Classic
 index: y
 translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
@@ -15,15 +15,15 @@ ht-degree: 1%
 ---
 
 
-# Guide för Adobe Dynamic Media Classic {#using}
+# Adobe Dynamic Media Classic Guide {#using}
 
-+ [Guide för Adobe Dynamic Media Classic](home.md)
++ [Adobe Dynamic Media Classic Guide](home.md)
 + [Självstudiekurs om bästa praxis](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NYTT Dynamic Media Classic-inloggningsupplevelsen är nu tillgänglig](new-ui-2020.md)
++ [NYTT Inloggningsupplevelsen i Dynamic Media Classic är nu tillgänglig](new-ui-2020.md)
 + [Dynamic Media Newsletter från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic-datorprogrammet - nu tillgängligt](dynamic-media-classic-desktop-app.md)
-   + [Om Dynamic Media Classic Help](introduction.md)
+   + [Om hjälpen för Dynamic Media Classic](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
    + [Systemkrav](system-requirements.md)
@@ -39,13 +39,13 @@ ht-degree: 1%
    + [Navigeringsgrunder](navigation-basics.md)
    + [Grundläggande om inställningar](setup-basics.md)
    + [Multimedia](rich-media.md)
-+ Inställningar {#setup}
++ Konfigurera {#setup}
    + [Personliga inställningar](personal-setup.md)
    + [Programinställningar](application-setup.md)
    + [Publiceringsinställningar](publish-setup.md)
    + [Video SEO (sökmotoroptimering)](video-seo-search-engine-optimization.md)
    + [Administrationsinställningar](administration-setup.md)
-+ Media Portal {#media-portal}
++ Medieportal {#media-portal}
    + [Systemkrav](system-requirements-1.md)
    + [Snabbstart: Media Portal](quick-start-media-portal-administration.md)
    + [Användarroller för mediaportal](media-portal-user-roles.md)
@@ -56,7 +56,7 @@ ht-degree: 1%
    + [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.md)
    + [Effektivare användning av metadata](making-efficient-metadata.md)
    + [Anpassa skärmen Media Portal](customizing-media-portal-screen.md)
-+ Överföra och publicera resurser {#upload-publish}
++ Överför och publicera resurser {#upload-publish}
    + [Överföra och publicera resurser](about-asset-upload-publish.md)
    + [Överför filer](uploading-files.md)
    + [Publicera filer ](publishing-files.md)
@@ -101,7 +101,7 @@ ht-degree: 1%
    + [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md)
    + [Publicera e-kataloger och tillhörande PDF-filer](publishing-ecatalogs-associated-pdfs.md)
    + [Länka en e-katalog till en webbsida](linking-ecatalog-web-page.md)
-+ Image sets {#image-sets}
++ Bilduppsättningar {#image-sets}
    + [Snabbstart: Bilduppsättningar](quick-start-image-sets.md)
    + [Förbereder bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md)
    + [Skapa en bilduppsättning](creating-image-set.md)
@@ -110,14 +110,14 @@ ht-degree: 1%
    + [Visa bilduppsättningar](viewing-image-sets.md)
    + [Generering av automatisk bilduppsättning](automated-image-set-generation.md)
    + [Länka en bilduppsättning till en webbsida](linking-image-set-web-page.md)
-+ Färgruteuppsättningar {#swatch-sets}
++ Uppsättningar med färgrutor {#swatch-sets}
    + [Snabbstart: Färgruteuppsättningar](quick-start-swatch-sets.md)
    + [Inkludera zoommål och bildscheman i färgruteuppsättningar](including-zoom-targets-image-maps-1.md)
    + [Förbereder resurser för färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md)
    + [Skapa en färgruteuppsättning](creating-swatch-set.md)
    + [Visa färgruteuppsättningar](viewing-swatch-sets.md)
    + [Länka en färgruteuppsättning till en webbsida](linking-swatch-set-web-page.md)
-+ Rotationsset {#spin-sets}
++ Snurra uppsättningar {#spin-sets}
    + [Snabbstart: Snurra uppsättningar](quick-start-spin-sets.md)
    + [Skapa en snurruppsättning](creating-spin-set.md)
    + [Förhandsgranska en snurra uppsättning](previewing-spin-set.md)
@@ -147,7 +147,7 @@ ht-degree: 1%
    + [Skapa en blandad medieuppsättning](creating-mixed-media-set.md)
    + [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md)
    + [Länka en uppsättning med blandade media till en webbsida](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentpaket {#analytics-kit}
++ Adobe Analytics instrumentkit {#analytics-kit}
    + [Snabbstart: Integrera Dynamic Media Classic med Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Logga in på Adobe Analytics](log-analytics.md)
    + [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md)
