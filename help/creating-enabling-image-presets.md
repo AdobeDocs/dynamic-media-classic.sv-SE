@@ -36,6 +36,6 @@ Följande begränsningar gäller när du exporterar bildresurser:
 
 Mer information om hur du skapar bildförinställningar finns i [Bildförinställningar](application-setup.md#image_presets).
 
-Om du vill att användare ska kunna välja bildförinställningar när de exporterar filer läser du [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Information om hur du gör det möjligt för användare att välja bildförinställningar när de exporterar filer finns i [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-Om du vill välja vilka bildförinställningar som ska vara tillgängliga för medlemmarna i en grupp, se [Välja åtkomstbehörigheter för bildförinställningar för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
+Om du vill välja vilka bildförinställningar som ska vara tillgängliga för medlemmarna i en grupp går du till [Välja åtkomstbehörigheter för bildförinställningar för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
