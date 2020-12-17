@@ -20,22 +20,30 @@ ht-degree: 0%
 
 # Arbeta med PostScript- och Illustrator-filer{#working-with-postscript-and-illustrator-files}
 
-Du kan använda Adobe® PostScript®- (EPS) och Adobe® Illustrator®-filer (AI) i Dynamic Media Classic. I Dynamic Media Classic finns kommandon som du kan använda för att konfigurera de här filerna när du överför dem.
+Du kan använda Adobe® PostScript®-filer (EPS) och Adobe® Illustrator®-filer (AI) i Dynamic Media Classic. I Dynamic Media Classic finns kommandon för att konfigurera de här filerna när du överför dem.
 
-När du överför PostScript- (EPS) eller Illustrator-bildfiler (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Det finns alternativ för att formatera PostScript- och Illustrator-filer på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Alternativ för överföringsjobb.
+När du överför bildfiler från PostScript (EPS) eller Illustrator (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Formateringsalternativ för PostScript- och Illustrator-filer finns på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Överför jobbalternativ.
 
-* **Bearbetning** Välj Rastrera om du vill konvertera vektorgrafik i filen till bitmappsformat.
+* ****
+BearbetaVälj Rastrera om du vill konvertera vektorgrafik i filen till bitmappsformat.
 
-* **Bevara genomskinlig bakgrund i återgiven bild** bevarar filens bakgrundsgenomskinlighet.
+* **Behåll genomskinlig bakgrund i återgiven**
+bildBehåller filens bakgrundsgenomskinlighet.
 
-* **Upplösning** Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
+* **Upplösning**
+Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
 
-* **Färgrymd** Välj menyn Färgrymd och välj en färgrymd:
+* **FärgrymdVälj**
+menyn Färgrymd och välj en färgrymd:
 
-* **Identifiera automatiskt** behåller filens färgrymd.
+* **Identifiera**
+automatisktBehåller filens färgrymd.
 
-* **Tvinga som RGB** Konverterar till RGB-färgrymden.
+* **Tvinga som**
+RGBConverterar till RGB-färgmodellen.
 
-* **Använd som CMYK** Konverterar till CMYK-färgmodellen.
+* **Tvinga som**
+CMYK konverteras till CMYK-färgmodellen.
 
-* **Använd som gråskala** Konverterar till färgrymden Gråskala.
+* **Använd som**
+gråskalaKonverterar till färgrymden Gråskala.
