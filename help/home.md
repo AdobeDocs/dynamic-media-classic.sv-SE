@@ -5,7 +5,7 @@ description: Adobe Dynamic Media Classic - teknisk dokumentation
 seo-description: 'Teknisk dokumentation, versionsinformation och självhjälpsmaterial för Adobe Dynamic Media Classic, tidigare Scene 7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 1%
@@ -19,7 +19,7 @@ Välkommen till hjälpen för Dynamic Media Classic. Här har du tillgång till 
 
 ## Ny inloggningsfunktion för Dynamic Media Classic finns tillgänglig 30 juni 2020
 
-Den 30 juni 2020 får Dynamic Media Classic tillgång till en ny inloggningsfunktion som inte längre är beroende av Adobe Flash i webbläsaren. Läs mer i Vanliga frågor och svar.
+Den 30 juni 2020 får Dynamic Media Classic tillgång till en ny inloggningsupplevelse som inte längre är beroende av Adobe Flash i webbläsaren. Läs mer i Vanliga frågor och svar.
 
 Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från och med 7 maj 2020.
 
