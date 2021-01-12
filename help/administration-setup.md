@@ -9,9 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
+source-wordcount: '1947'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
    När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Klicka på Lägg till om du vill lägga till användaren i ett företag.
 
-   Alla nya användare får ett slumpmässigt genererat lösenord. användare måste ändra lösenord första gången de loggar in på Dynamic Media Classic.
+   Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in i Dynamic Media Classic-datorprogrammet.
 
-   Nya användare får ett välkomstmeddelande när du har lagt till dem. E-postmeddelandet innehåller ett tillfälligt lösenord och förklarar hur du loggar in på Scene 7 Publishing System.
+   Nya användare får ett välkomstmeddelande när du har lagt till dem. I e-postmeddelandet finns ett tillfälligt lösenord och information om hur du loggar in på Dynamic Media Classic.
 
    Om användaren inte får något välkomstmeddelande via e-post kan du be användaren att gå till inloggningssidan för Dynamic Media Classic (https://s7sps1.scene7.com) och klicka på Har du glömt mitt lösenord. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
 
