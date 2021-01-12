@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Om flera kopior av Dynamic Media Classic körs på en eller flera datorer i samm
 * Överför en eller flera resurser (både skrivbordsresurser och FTP)
 * Skapa, ta bort eller byta namn på en mapp
 
-När en ändring har gjorts i den ursprungliga klienten uppdateras alla peer-klienter som är inloggade på samma företag med ändringen. Ändringar görs i peer-datorer utan meddelanden, såvida inte peer-datorn redigerar en resurs som ändras i någon av bildredigerarna eller byggarna.
+När en ändring har gjorts i den ursprungliga klienten uppdateras alla peer-klienter som är signerade i samma företag med ändringen. Ändringar görs i peer-datorer utan meddelanden, såvida inte peer-datorn redigerar en resurs som ändras i någon av bildredigerarna eller byggarna.
 
-När du loggar in uppmanar Flash Player dig att tillåta eller neka peer-uppdateringar. Du kan&quot;komma ihåg&quot; valet så att du bara uppmanas en gång. Ta bort den aktuella platsen från panelen P2P-nätverk i Globala inställningar för att ta bort ditt val.
+När du loggar in uppmanas du att tillåta eller neka peer-uppdateringar. Du kan&quot;komma ihåg&quot; valet så att du bara uppmanas en gång. Ta bort den aktuella platsen från panelen P2P-nätverk i Globala inställningar för att ta bort ditt val.
 
 Om du redigerar en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer Ja ignoreras alla ändringar som gjorts i resursen och den uppdaterade resursen importeras. Om du väljer Nej ändras resursen inte i byggaren eller redigeraren och eventuella ändringar som du har gjort kvarstår under den sessionen.
 
