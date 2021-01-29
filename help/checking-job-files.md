@@ -1,8 +1,6 @@
 ---
 title: Kontrollerar jobbfiler
-seo-title: Kontrollerar jobbfiler
-description: 'null'
-seo-description: Lär dig hur du kontrollerar jobbfiler.
+description: Lär dig hur du kontrollerar jobbfiler.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 0%
+source-wordcount: '1598'
+ht-degree: 1%
 
 ---
 
