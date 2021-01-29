@@ -1,16 +1,14 @@
 ---
 title: Adobe Dynamic Media Classic - nu tillgängligt
-seo-title: Adobe Dynamic Media Classic - nu tillgängligt
-description: 'null'
-seo-description: Läs mer om Dynamic Media Classic.
+description: Läs mer om Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9e7955b2311496e58e9e973c8f579b2f256c55cb
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -34,12 +32,18 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 * macOS X 10.10 eller senare.
 * Windows 7 eller senare.
 
-## Korrigeringar i den senaste versionen, 20.20.2 {#latest-fixes-desktop-app}
+## Korrigeringar i den senaste versionen (20.21.1) {#latest-fixes-desktop-app}
+
+* Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen/grupperna utan behörighet. Kontakta administratören.*
+* Förinställningar för visningsprogram dupliceras med varje felaktigt lösenordsförsök.
+* Skrivbordsprogrammet slutar svara på grund av en stor mängd resurser i rotmappen. (Fast i Windows; arbeta som du vill i macOS.)
+
+## Korrigeringar i föregående version (20.20.2) {#previous-version-fixes-desktop-app}
 
 * Ingen begränsning för hur många filer du kan överföra via skrivbordsappens användargränssnitt för både macOS och Windows.
 * Du behöver inte logga ut från datorprogrammet för att växla mellan olika företag.
 * Ctrl+V för inklistring fungerar nu i Windows.
-* När en ny version av skrivbordsappen släpps i framtiden meddelas användarna via själva skrivbordsappen.
+* När en ny version av skrivbordsappen släpps i framtiden meddelas användarna via själva skrivbordsappen. —>
 
 ## Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på macOS eller Windows {#installation-dmc-app}
 
@@ -52,20 +56,14 @@ Se även:
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   >[!NOTE]
-   >
-   >Användare som redan har installerat GA-versionen bör *avinstallera* den från det lokala Windows-systemet innan de installerar den senaste versionen. Eller så kan användarna helt enkelt *ersätta den installerade GA-versionen på sina lokala macOS-system med den senaste versionen.* Nya användare bör installera den senaste versionen direkt.
+   * Den senaste versionen (20.21.1) finns här:
 
-   Den senaste versionen är 20.20.2 och finns på följande sida:
+      * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * Den tidigare versionen (20.20.2) finns på följande plats:
 
-   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
-
-   GA-versionen (General Availability) var 20.20.1, tillgänglig på följande sida:
-
-   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
-
+      * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+      * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 
 
@@ -111,11 +109,11 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic för macOS.
 
-   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
 
 1. Kopiera .APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
@@ -151,19 +149,19 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 1. Kör installationsprogrammet i postläge med följande kommando:
 
-   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
 
 1. I GUI-installationsfönstret följer du stegen för att installera så att interaktioner/indata, som installationsplatsen, registreras i `Setup.iss`-filen.
 
-1. Kopiera den skapade `Setup.iss`-filen och `adobe-dynamic-media-classic-20.20.2.exe` till en annan dator.
+1. Kopiera den skapade `Setup.iss`-filen och `adobe-dynamic-media-classic-20.21.1.exe` till en annan dator.
 
 1. Kör följande kommando för en tyst installation:
 
-   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
 
    Information om kommandoradsparametrar finns på [Setup.exe och Update.exe Command-Line Parameters.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
