@@ -1,8 +1,6 @@
 ---
 title: Konfigurera en visningsförinställning för blandad medieuppsättning
-seo-title: Konfigurera en visningsförinställning för blandad medieuppsättning
-description: 'null'
-seo-description: Lär dig hur du ställer in en visningsförinställning för en blandad medieuppsättning.
+description: Lär dig hur du ställer in en visningsförinställning för en blandad medieuppsättning.
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
