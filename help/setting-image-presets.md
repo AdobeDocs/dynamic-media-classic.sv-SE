@@ -1,8 +1,6 @@
 ---
 title: Konfigurera bildförinställningar
-seo-title: Konfigurera bildförinställningar
-description: 'null'
-seo-description: Lär dig hur du ställer in bildförinställningar.
+description: Lär dig hur du ställer in bildförinställningar.
 uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '649'
 ht-degree: 10%
 
 ---
@@ -64,8 +62,8 @@ alternativAnge de inställningar som visas här:
    | Förinställningstyp | Storlek | USM: Belopp | USM: Radie | USM: Tröskelvärde |
    |--- |--- |--- |--- |--- |
    | Korsförsäljning (miniatyrbild) | 75 x 75 | 1.5 | 0,8 | 5 |
-   | Miniatyrbild | 150 x 150 | 1.1 | 3 | 5 |
-   | Huvud | 350 x 350 | 3 | 3 | 6 |
+   | Miniatyrbild | 150 x 150 | 1.1 | 1 | 5 |
+   | Huvud | 350 x 350 | 1 | 1 | 6 |
    | Förstora | 500 x 500 | 1.2 | 1.2 | 5 |
 
 1. Klicka på **Spara**.
