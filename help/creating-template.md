@@ -1,8 +1,6 @@
 ---
 title: Skapa en mall
-seo-title: Skapa en mall
-description: 'null'
-seo-description: Lär dig hur du skapar en mall i Dynamic Media Classic.
+description: Lär dig hur du skapar en mall i Dynamic Media Classic.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3437'
 ht-degree: 0%
 
 ---
@@ -326,7 +324,7 @@ Om du vill justera en skugg- eller glödeffekt börjar du med att markera dess n
 
 **** OpacitetDra skjutreglaget för att bestämma hur intensiv effekten är. Mindre ogenomskinliga effekter är mer genomskinliga.
 
-**BlandningslägeVälj ett** alternativ för att simulera ett av de blandningslägen som är tillgängliga i Photoshop. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm.
+**BlandningslägeVälj ett** alternativ för att simulera ett av de blandningslägen som finns i Photoshop. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm.
 
 **** StorlekAnge mått i rutan X och Y om du vill förstora eller förminska skuggeffekten. Storleksalternativ är bara tillgängliga för inre skuggor och skuggor.
 
