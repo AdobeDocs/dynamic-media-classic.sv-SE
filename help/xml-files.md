@@ -1,17 +1,13 @@
 ---
 title: XML-filer
-seo-title: XML-filer
-description: 'null'
-seo-description: Webbplatser som använder ett XML-baserat system för att hantera bilder och bildinformation kan överföra XML-filer till Dynamic Media Classic. Läs mer om XML-filer.
-uuid: 6301d042-2040-4408-b816-8f134482beb7
+description: Webbplatser som använder ett XML-baserat system för att hantera bilder och bildinformation kan överföra XML-filer till Dynamic Media Classic. Läs mer om XML-filer.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 16216ce8-a81f-4efa-8ca6-a985256604db
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---
