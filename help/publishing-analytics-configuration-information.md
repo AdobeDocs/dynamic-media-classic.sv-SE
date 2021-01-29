@@ -1,8 +1,6 @@
 ---
 title: Publicera konfigurationsinformation för Adobe Analytics
-seo-title: Publicera konfigurationsinformation för Adobe Analytics
-description: 'null'
-seo-description: Lär dig hur du publicerar konfigurationsinformation för Adobe Analytics.
+description: Lär dig hur du publicerar konfigurationsinformation för Adobe Analytics.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
