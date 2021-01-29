@@ -1,8 +1,6 @@
 ---
-title: '"Bästa praxis: Använda HTML5 Video Viewer"'
-seo-title: '"Bästa praxis: Använda HTML5 Video Viewer"'
-description: 'null'
-seo-description: Lär dig mer om de bästa sätten att använda HTML5-videovisningsprogrammet.
+title: Bästa sättet att använda HTML5 Video Viewer
+description: Lär dig mer om de bästa sätten att använda HTML5-videovisningsprogrammet.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
 
 
-# Bästa praxis: Använda HTML5 Video Viewer{#best-practice-using-the-html-video-viewer}
+# Bästa tillvägagångssätt för att använda HTML5 Video Viewer{#best-practice-using-the-html-video-viewer}
 
 Förinställningarna för visningsprogrammet för Dynamic Media Classic HTML5-video är robusta videospelare. På designsidan av spelaren kan du skapa alla videospelarens funktioner med standardverktyg för webbutveckling. Du kan till exempel utforma knappar, kontroller och anpassad förhandsgranskningsbildbakgrund med HTML5 och CSS så att du kan nå dina kunder med ett anpassat utseende.
 
