@@ -1,8 +1,6 @@
 ---
 title: Förbereder bilduppsättningsresurser för överföring
-seo-title: Förbereder bilduppsättningsresurser för överföring
-description: 'null'
-seo-description: Lär dig hur du förbereder bilduppsättningsresurser för överföring.
+description: Lär dig hur du förbereder bilduppsättningsresurser för överföring.
 uuid: ea90643f-f52f-43cd-8a74-ebffc78ab717
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
