@@ -1,8 +1,6 @@
 ---
 title: Lägga till kapitelmarkörer i video
-seo-title: Lägga till kapitelmarkörer i video
-description: 'null'
-seo-description: Lär dig hur du lägger till kapitelmarkörer i en video.
+description: Lär dig hur du lägger till kapitelmarkörer i en video.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
