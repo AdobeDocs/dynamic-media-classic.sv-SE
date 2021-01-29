@@ -1,17 +1,15 @@
 ---
 title: Överför filer
-seo-title: Överför filer
-description: 'null'
-seo-description: Lär dig hur du överför filer.
+description: Lär dig hur du överför filer.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '3855'
+source-wordcount: '3852'
 ht-degree: 0%
 
 ---
@@ -186,7 +184,7 @@ Klicka på **Jobb** i det globala navigeringsfältet om du vill se överförings
 1. I Dynamic Media Classic klickar du på **Överför** i fältet Global Navigation.
 1. På sidan Överför klickar du på fliken **VIA FTP**.
 1. Till vänster på sidan Överför väljer du en FTP-mapp att överföra filer från i området **Välj FTP-mapp för överföring**.
-1. Till höger på sidan Överför väljer du en målmapp i Dynamic Media Classic i området **Välj mål för Dynamic Media-mapp** i området &lt;a0/>Adobe.
+1. Till höger på sidan Överför väljer du en målmapp i Dynamic Media Classic i området **Välj mål för Dynamic Media-mapp** i området Adobe.
 1. (Valfritt) Ange det nya namnet på överföringsjobbet i fältet **Jobbnamn** längst ned på sidan Överför. Du kan också använda det standardnamn som genereras av systemet i Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
 Se [Kontrollera jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) Långt ned på sidan Överför väljer du **Publicera efter överföring** om du vill publicera de resurser som du överför automatiskt.
