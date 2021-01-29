@@ -1,8 +1,6 @@
 ---
 title: Testa integrationen genom att visa en Adobe Analytics-rapport
-seo-title: Testa integrationen genom att visa en Adobe Analytics-rapport
-description: 'null'
-seo-description: Lär dig hur du testar integreringen genom att visa en Adobe Analytics-rapport.
+description: Lär dig hur du testar integreringen genom att visa en Adobe Analytics-rapport.
 uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
