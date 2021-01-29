@@ -1,8 +1,6 @@
 ---
 title: Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium
-seo-title: Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium
-description: 'null'
-seo-description: Lär dig hur du integrerar Adobe Dynamic Media Classic med Adobe Target Standard/Premium.
+description: Lär dig hur du integrerar Adobe Dynamic Media Classic med Adobe Target Standard/Premium.
 uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
