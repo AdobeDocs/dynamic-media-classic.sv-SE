@@ -1,17 +1,15 @@
 ---
 title: Hämta information om diskanvändning
-seo-title: Hämta information om diskanvändning
-description: 'null'
-seo-description: Lär dig hur du hämtar information om diskanvändning.
+description: Lär dig hur du hämtar information om diskanvändning.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
