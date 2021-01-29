@@ -1,8 +1,6 @@
 ---
 title: Lägga till och hantera Media Portal-användare
-seo-title: Lägga till och hantera Media Portal-användare
-description: 'null'
-seo-description: Lär dig hur du lägger till och hanterar Media Portal-användare
+description: Lär dig hur du lägger till och hanterar Media Portal-användare
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
