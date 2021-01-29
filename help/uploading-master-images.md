@@ -1,8 +1,6 @@
 ---
 title: Överför överordnad bilder
-seo-title: Överför överordnad bilder
-description: 'null'
-seo-description: Lär dig hur du överför överordnad bilder.
+description: Lär dig hur du överför överordnad bilder.
 uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
