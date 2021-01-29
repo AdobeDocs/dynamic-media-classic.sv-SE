@@ -1,16 +1,14 @@
 ---
 title: Logga in på och ut från Adobe Dynamic Media Classic
 description: Läs om hur du loggar in på och ut från Adobe Dynamic Media Classic och ansluter till en produktionsmiljöserver i Nordamerika (NA) eller Europa, Mellanöstern, Afrika (EMEA) eller Asien-Stillahavsområdet (APAC).
-uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
+source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -18,19 +16,15 @@ ht-degree: 0%
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Logga in på Adobe Dynamic Media Classic {#sign-in}
+# Logga in på Adobe Dynamic Media Classic {#dmc-sign-in}
 
-Hur du loggar in på Dynamic Media Classic och loggar ut baseras på om du använder [datorprogrammet](#sign-in-dmc-app) eller [webbläsaren](#sign-out).
-
-Kontrollera att du har följande innan du använder Dynamic Media Classic, oavsett hur du loggar in:
+Kontrollera att du har följande innan du använder Dynamic Media Classic:
 
 * **AnvändarnamnDu**
 använder din e-postadress som inloggningsnamn.
 
 * ****
 LösenordDu får ditt tillfälliga lösenord i ett välkomstmeddelande från Dynamic Media Classic eller från en Dynamic Media Classic-administratör. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
-
-## Logga in på Dynamic Media Classic med datorprogrammet {#sign-in-dmc-app}
 
 1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
 
@@ -49,36 +43,9 @@ Använd följande mappning för att välja den produktionsmiljö som du vill anv
 
 1. Tryck på **[!UICONTROL Sign In]**.
 
-### Logga ut från Dynamic Media via datorprogrammet {#sign-out-dmc-app}
+## Logga ut från Adobe Dynamic Media Classic {#dmc-sign-out}
 
 1. I det övre högra hörnet av Dynamic Media Classic-datorprogrammet trycker du på **[!UICONTROL Sign Out]** och sedan på **[!UICONTROL Sign Out]** igen.
-
-## Logga in på Dynamic Media Classic via webbläsaren {#signing-in-and-out}
-
-Förutom ditt användarnamn och lösenord bör du kontrollera att du har följande innan du använder Dynamic Media Classic via webbläsaren:
-
-* ****
-KonfigureraAdministratören måste ha ställt in att du ska använda Dynamic Media Classic.
-
-* **URLY**
-Du måste ha en URL-adress för åtkomst till Dynamic Media Classic. Du får den här URL:en via 
-*E-* post eller från en Dynamic Media Classic-administratör.
-
-Eftersom Dynamic Media Classic är webbaserat avslutas systemet om du går till en annan webbplats. Om du till exempel klickar på Bakåt i webbläsarfönstret avslutar du Dynamic Media Classic.
-
-1. Starta webbläsaren.
-1. Gå till inloggningsadressen för Dynamic Media Classic (från välkomstmeddelandet). Du kan också logga in från Dynamic Media Classic-webbplatsen ( [www.adobe.com/products/scene7.html](https://www.adobe.com/products/scene7.html)) genom att välja knappen Klientinloggning.
-1. Ange din e-postadress i textfältet **[!UICONTROL User Name]**.
-1. Ange ditt lösenord i textfältet **[!UICONTROL Password]**.
-1. Om du vill kan du ange att datorn ska komma ihåg din e-postadress genom att välja alternativet **[!UICONTROL Remember My User Name]**.
-1. Tryck på **[!UICONTROL Sign In]**.
-
-### Logga ut från Dynamic Media via webbläsaren {#sign-out}
-
-1. Gör något av följande:
-
-   * Tryck på **[!UICONTROL Sign Out]** till höger om fältet Global Navigation.
-   * Avsluta webbläsaren.
 
 >[!MORELIKETHIS]
 >
