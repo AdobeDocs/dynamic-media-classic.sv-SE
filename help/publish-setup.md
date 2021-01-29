@@ -1,17 +1,15 @@
 ---
 title: Publiceringsinställningar
-seo-title: Publiceringsinställningar
-description: 'null'
-seo-description: Inställningarna på skärmen Publiceringsinställningar avgör hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program.
+description: Inställningarna på skärmen Publiceringsinställningar avgör hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program.
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
