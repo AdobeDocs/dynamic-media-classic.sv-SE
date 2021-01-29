@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,12 @@ Du kan också [prenumerera på Dynamic Media nyhetsbrev](https://www.adobe.com/s
 ### **_Jag är intresserad av att lära mig mer om att uppgradera till Dynamic Media med AEM Assets. Var finns mer information?_**
 
 Om du vill veta mer om fördelarna med att uppgradera till nästa generation av multimedia-redigering, publicering och dynamisk leverans kan du gå till [Dynamic Media uppgraderingsportal](http://exploreadobe.com/dynamic-media-upgrade/).
+
+>[!MORELIKETHIS]
+>
+>* [Logga in på och ut från datorprogrammet Dynamic Media Classic](/help/signing-out.md)
+>* [Hämta och installera Dynamic Media Classic-datorprogrammet](/help/dynamic-media-classic-desktop-app.md)
+
 
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
