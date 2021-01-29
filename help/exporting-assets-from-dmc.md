@@ -1,8 +1,6 @@
 ---
 title: Exportera resurser från Dynamic Media Classic
-seo-title: Exportera resurser från Dynamic Media Classic
-description: 'null'
-seo-description: Lär dig hur du exporterar resurser från Dynamic Media Classic.
+description: Lär dig hur du exporterar resurser från Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
