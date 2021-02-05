@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1529'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ Den nya appen finns nu för Windows och macOS.
 
 >[!IMPORTANT]
 >
->Vi rekommenderar att du installerar det nya Adobe Dynamic Media Classic-datorprogrammet senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player tas bort den 31 december 2020. På den tiden kommer du inte längre att kunna logga in på webbläsarversionen av användargränssnittet Adobe Dynamic Media Classic, som heter Dynamic Media Classic i produkten.
+>Adobe rekommenderar att du installerar det nya Adobe Dynamic Media Classic-datorprogrammet senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player tas bort den 31 december 2020. Efter detta datum kan du inte logga in på webbläsarversionen av användargränssnittet Adobe Dynamic Media Classic, som heter Dynamic Media Classic i produkten.
 
 Se Frågor och svar för [Ny inloggningsupplevelse i Dynamic Media Classic är nu tillgänglig.](/help/new-ui-2020.md)
 
 ## Systemkrav för Adobe Dynamic Media Classic-datorprogrammet {#system-requirements-dmc-app}
 
 Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
-* macOS X 10.10 eller senare.
+
+* macOS 10.10 eller senare.
 * Windows 7 eller senare.
 
 ## Korrigeringar i den senaste versionen (20.21.1) {#latest-fixes-desktop-app}
 
-* Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen/grupperna utan behörighet. Kontakta administratören.*
+* Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen eller grupperna utan behörighet. Kontakta administratören.*
 * Förinställningar för visningsprogram dupliceras med varje felaktigt lösenordsförsök.
-* Skrivbordsprogrammet slutar svara på grund av en stor mängd resurser i rotmappen. (Fast i Windows; arbeta som du vill i macOS.)
+* Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows; arbeta som du vill i macOS.)
 
 ## Korrigeringar i föregående version (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -84,7 +85,7 @@ Se även:
 
    ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
-1. Använd samma inloggningsuppgifter som för webbläsaren för att logga in på Adobe Dynamic Media Classic.
+1. Om du vill logga in på datorprogrammet Adobe Dynamic Media Classic använder du samma inloggningsuppgifter som du använde när du loggade in på Dynamic Media Classic i webbläsaren.
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
@@ -94,7 +95,7 @@ Se även:
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-1. När du publicerar användargränssnittet för inloggning kommer du att märka hur det fungerar i webbläsaren. Du kan utföra din dagliga aktivitet som vanligt nu i skrivbordsappens användargränssnitt.
+1. När du har loggat in kan du se hur webbläsargränssnittet fungerar. Du kan fortsätta din dagliga Dynamic Media Classic-aktivitet som vanligt i skrivbordsappen.
 
 ## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på macOS {#install-silent-mac-dmc-app}
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
-1. Använd samma inloggningsuppgifter som för webbläsaren för att logga in på Adobe Dynamic Media Classic.
+1. Om du vill logga in på datorprogrammet Adobe Dynamic Media Classic använder du samma inloggningsuppgifter som du använde när du loggade in på Dynamic Media Classic i webbläsaren.
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
@@ -169,7 +170,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
    ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
-1. Använd samma inloggningsuppgifter som för webbläsaren för att logga in på Adobe Dynamic Media Classic.
+1. Om du vill logga in på datorprogrammet Adobe Dynamic Media Classic använder du samma inloggningsuppgifter som du använde när du loggade in på Dynamic Media Classic i webbläsaren.
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
@@ -194,7 +195,7 @@ Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop 
 
 ### Rensa bildcachen och resurscachen manuellt
 
-Förutom att rensa bild- och resurscachen med skrivbordsappen kan du även utföra den här uppgiften manuellt genom att rensa cachen direkt från filsystemet.
+Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cachen manuellt direkt från filsystemet.
 
 1. Navigera till följande beroende på operativsystem:
 
@@ -216,7 +217,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du även utfö
 
 **_Jag kan inte se Media Cart-panelen på startsidan för Dynamic Media Classic._**<br>Tryck på&#x200B;**[!UICONTROL Setup > Personal Setup]**i Dynamic Media Classic. Kontrollera att **[!UICONTROL Show MediaPortal Features]**är markerat i webbläsaravsnittet. Tryck på&#x200B;**[!UICONTROL Save > Close]**.
 
-**_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har vi introducerat en **[!UICONTROL Refresh]**-ikon i verktygsfältet till höger om knappen **[!UICONTROL Select None]**. Tryck på ikonen **[!UICONTROL Refresh]**för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
+**_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har Adobe introducerat en **[!UICONTROL Refresh]**-ikon i verktygsfältet till höger om knappen **[!UICONTROL Select None]**. Tryck på ikonen **[!UICONTROL Refresh]**för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
 
 ![Ikon ](/help/assets/refresh-icon1.png)
 *för uppdateringIkon för uppdatering*
