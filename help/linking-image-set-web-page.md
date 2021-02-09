@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess in
 
 Det vanligaste sättet att distribuera bilduppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (JSP) som visar bilduppsättningen i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken för Adobe-visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken för Adobe-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopiera inbäddningskoden för ett visningsprogram för bilduppsättning {#copying-the-embed-code-of-an-image-set-viewer}
 
