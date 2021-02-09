@@ -1,16 +1,14 @@
 ---
 title: '"Snabbstart: Video"'
-description: En introduktion och Snabbstart till video som hjälper dig att komma igång snabbt.
-uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
+description: En introduktion och snabbstart till Adobe Dynamic Media Classic Video som hjälper dig att komma igång snabbt.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
@@ -53,7 +51,7 @@ För hantering av enstaka video och adaptiva videouppsättningar har Dynamic Med
 
    Adaptiv videoströmning stöds på flera olika iOS-plattformar.
 
-   Se det senaste stödet i [referenshandboken för visningsprogram för Adobe](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+   Se det senaste stödet i [referenshandboken för visningsprogram för Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
    Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. Blackberry-enheter som stöder det här videoformatet finns på följande webbplats:
 
