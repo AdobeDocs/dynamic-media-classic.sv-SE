@@ -6,9 +6,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Se även [Lägga till och redigera visningsprogramförinställningar](applicatio
 
 Dynamic Media Classic kan konvertera bildtextfiler till JSON-format (JavaScript Object Notation). Den här konverteringen innebär att du kan bädda in JSON-texten på en webbsida som en dold men fullständig utskrift av videon. Sökmotorerna kan sedan crawla och indexera innehållet så att videoklippen blir lättare att hitta och ge kunderna ytterligare information om videoinnehållet.
 
-Mer information om hur du använder JSON-funktionen i en URL finns i [Servera statiskt (icke-image) innehåll](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html) i *API-hjälpen för Adobe Image Serving*.
+Mer information om hur du använder JSON-funktionen i en URL finns i [Servera statiskt (icke-image) innehåll](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) i *API-hjälpen för Adobe Image Serving*.
 
 **Lägga till bildtexter i video**
 
