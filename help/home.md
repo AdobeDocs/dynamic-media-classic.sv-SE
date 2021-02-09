@@ -5,9 +5,9 @@ description: Adobe Dynamic Media Classic - teknisk dokumentation
 seo-description: 'Teknisk dokumentation, versionsinformation och självhjälpsmaterial för Adobe Dynamic Media Classic, tidigare Scene 7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från och med 7 maj 2020
 
 ## Dynamic Media Developer Resources
 
-* [Dynamic Media Developer Resources landningssida](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html)  - Innehåller referenshandbok för visningsprogram, API för bildservering/bildåtergivning, API för bildproduktionssystem och versionsinformation för Dynamic Media Classic.
+* [Dynamic Media Developer Resources landningssida](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  - Innehåller referenshandbok för visningsprogram, API för bildservering/bildåtergivning, API för bildproduktionssystem och versionsinformation för Dynamic Media Classic.
 * [Exempel](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  på visningsprogrambibliotek - Innehåller exempel på visningsprogram för video, köpbara medier, blandade medier, snurruppsättningar, inline-zoom, bilder och färgrutor samt utfällbara menyer.
 
 ## Dynamic Media Classic-användarresurser
