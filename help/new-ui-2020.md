@@ -1,14 +1,13 @@
 ---
 title: Adobe Dynamic Media Classic-datorprogrammet
-seo-title: Adobe Dynamic Media Classic-datorprogrammet
 description: Dynamic Media Classic-användare kan nu uppdatera användargränssnittet helt. Upplevelsen ger en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen är inte längre beroende av Adobe Flash i webbläsaren.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -90,11 +89,11 @@ Kontakta Adobe Support om du har problem med appen.
 
 Dynamic Media Classic är en kraftfull och funktionsrik lösning som utformats för att förbättra dina multimediestrategier. Se till att du utforskar följande praktiska resurser så att du kan utnyttja alla funktioner:
 
-* [Självstudiekurs om bästa praxis för Dynamic Media](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Självstudiekurs om bästa praxis för Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Dynamic Media blogginlägg](https://theblog.adobe.com/tag/dynamic-media/)
-* [Dynamic Media Newsletter Archives](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Dynamic Media Newsletter Archives](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-Du kan också [prenumerera på Dynamic Media nyhetsbrev](https://www.adobe.com/subscription/dynamic-media-newsletter.html) och få aktuell information, information, utbildningsmöjligheter, kraftfulla funktioner som är tillgängliga för dig, som [Smart Imaging](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html) och det kompletterande granskningsprogrammet.
+Du kan också [prenumerera på Dynamic Media nyhetsbrev](https://www.adobe.com/subscription/dynamic-media-newsletter.html) och få aktuell information, information, utbildningsmöjligheter, kraftfulla funktioner som är tillgängliga för dig, som [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) och det kompletterande granskningsprogrammet.
 
 ### **_Jag är intresserad av att lära mig mer om att uppgradera till Dynamic Media med AEM Assets. Var finns mer information?_**
 
