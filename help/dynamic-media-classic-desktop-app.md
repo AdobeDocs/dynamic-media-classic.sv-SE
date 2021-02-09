@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -183,7 +183,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 ## Videogenomgång när du använder Dynamic Media Classic-datorprogrammet {#dmc-app-video-walk-through}
 
-Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (längd: 2 minuter (36 sekunder).
+Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (längd: 2 minuter (36 sekunder).
 
 ## Rensa bildcachen och resurscachen på datorn med skrivbordsappen
 
