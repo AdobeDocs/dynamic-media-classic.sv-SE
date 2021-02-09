@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ När du loggar in kan du ange ditt Marketing Cloud-Org-ID för att använda den 
 1. Tryck på **[!UICONTROL Adobe Analytics Login]** på konfigurationssidan för Adobe Analytics.
 1. I dialogrutan **[!UICONTROL Adobe Analytics Login]** anger du ditt företagsnamn, Marketing Cloud Org ID (valfritt), användarnamn och *delad hemlighet* i textfältet **[!UICONTROL Password]**.
 
-   Du kan hämta nyckeln *delad hemlighet* från Admin Console för analyser. Se [Hämta API-autentiseringsuppgifter för användarkonton](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html).
+   Du kan hämta nyckeln *delad hemlighet* från Admin Console för analyser. Se [Hämta API-autentiseringsuppgifter för användarkonton](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md).
 
 1. Klicka på **[!UICONTROL Login]**.
 1. Välj en rapportsvit i listrutan **[!UICONTROL Report Suite]** och klicka sedan på **[!UICONTROL OK]**.
