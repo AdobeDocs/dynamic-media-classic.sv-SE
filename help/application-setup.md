@@ -1,18 +1,14 @@
 ---
 title: Programinställningar
-seo-title: Programinställningar
-description: Lär dig hur du ställer in programområdet för Dynamic Media Classic.
-seo-description: Lär dig hur du ställer in programområdet för Dynamic Media Classic.
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
+description: Lär dig hur du konfigurerar programområdet i Dynamic Media Classic.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10969'
+source-wordcount: '10904'
 ht-degree: 3%
 
 ---
@@ -160,7 +156,7 @@ Administratörer kan skapa förinställningar för att exportera resurser. Anvä
 
 Du öppnar skärmen Bildförinställning genom att klicka på **Inställningar** > **Bildförinställningar** i fältet Global navigering.
 
-Se [Smart bildbehandling](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+Se [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
 ### Skapa och redigera bildförinställningar {#creating-and-editing-image-presets}
 
@@ -358,7 +354,7 @@ En förinställning för kodning som fungerar med alla proportioner så att du k
 
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | Auto x 360, 800 kbit/s | _Mobile_Autox360p_800K | 600 | Autox360 | Samma som källan | 64 | För mobiler (iPhone, iPad, Android) |
+| 3 | Auto x 360, 800 kbit/s | _Mobile_Autox360p_800K | 800 | Autox360 | Samma som källan | 64 | För mobiler (iPhone, iPad, Android) |
 | 2 | Auto x 480, 1 400 kbit/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Samma som källan | 96 | För surfplattor (iPad, Android) |
 | 3 | Auto x 720, 2 600 kbit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Samma som källan | 128 | För datorer |
 
@@ -374,10 +370,10 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativ fö
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | 4:3, 384x288px, Mobil (iPhone, iPad, Android), (400 kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
-| 3 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (600 kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 4 | 4:3, 384x288, Mobil (iPhone, iPad, Android), (600 kbit/s) | 700 | _Mobile_384x288_600 | 600 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 5 | 16:9, 640x360, surfplatta (iPad, Android), (800 kbit/s) | 900 | _iPad_640x360_800K | 600 | 640x360 | Samma som källan | 80 | Medelhög upplösning, WiFi |
-| 6 | 4:3, 640x480, surfplatta (iPad, Android), (800 kbit/s) | 900 | _iPad_640x480_800K | 600 | 640x480 | Samma som källan | 80 | Medelhög upplösning, WiFi |
+| 3 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (600 kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 4 | 4:3, 384x288, Mobil (iPhone, iPad, Android), (600 kbit/s) | 700 | _Mobile_384x288_600 | 800 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 5 | 16:9, 640x360, surfplatta (iPad, Android), (800 kbit/s) | 900 | _iPad_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelhög upplösning, WiFi |
+| 6 | 4:3, 640x480, surfplatta (iPad, Android), (800 kbit/s) | 900 | _iPad_640x480_800K | 800 | 640x480 | Samma som källan | 80 | Medelhög upplösning, WiFi |
 | 7 | 16:9, 768x432, surfplatta (iPad, Android), (1 200 kbit/s) | 1,5 Mbit/s | _iPad_768x432_1200K | 1200 | 768x432 | Samma som källan | 96 | Hög upplösning, WiFi |
 | 8 | 4:3, 768x576, surfplatta (iPad, Android), (1 200 kbit/s) | 1,5 Mbit/s | _iPad_768x576_1200K | 1200 | 768x576 | Samma som källan | 96 | Hög upplösning, WiFi |
 | 9 | 16:9, 1280x720, stationär dator, (2000 kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
@@ -395,7 +391,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 480x270 (400 kbit/s) | 500 | _480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
 | 2 | 16:9, 640x360 (800 kbit/s) | 900 | _640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
-| 3 | 16:9, 800x450 (1 200 kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
+| 1 | 16:9, 800x450 (1 200 kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
 | 4 | 16:9, 1 280 x 720 (2 000 kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
 | 5 | 4:3, 320x240 (400 kbit/s) | 500 | _320x240_400K | 400 | 320x240 | Samma som källan | 64 | Låg upplösning |
 | 6 | 4:3, 480x360 (800 kbit/s) | 900 | _480x360_800K | 800 | 480x360 | Samma som källan | 80 | Medelhög upplösning |
@@ -407,11 +403,11 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 480x270 (400 kbit/s), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
-| 2 | 16:9, 640x360 (800 kbit/s), OGG | 900 | _OGG_640x360_800K | 600 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
+| 2 | 16:9, 640x360 (800 kbit/s), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
 | 3 | 16:9, 800x450 (1 200 kbit/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
 | 4 | 16:9, 1 280 x 720 (2 000 kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
 | 5 | 4:3, 320x240 (400 kbit/s), OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | Samma som källan | 64 | Låg upplösning |
-| 6 | 4:3, 480x360 (800 kbit/s), OGG | 900 | _OGG_480x360_800K | 600 | 480x360 | Samma som källan | 80 | Medelhög upplösning |
+| 6 | 4:3, 480x360 (800 kbit/s), OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | Samma som källan | 80 | Medelhög upplösning |
 | 7 | 4:3, 640x480 (1 200 kbit/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1200 | 640x480 | Samma som källan | 96 | Medelhög upplösning |
 | 8 | 4:3, 1 280 x 960 (2 000 kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x960_2000K | 2000 | 1280x960 | Samma som källan | 128 | Hög definition |
 
@@ -426,13 +422,13 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videobithastighet (kbit/s) | Pixelbredd/höjd | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 512x288, mobil (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
-| 2 | 16:9, 512x288, mobil (600 kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 3 | 16:9, 512x288, mobil (800 kbit/s) | 900 | _Mobile_512x288_800K | 600 | 512x288 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
+| 2 | 16:9, 512x288, mobil (600 kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 3 | 16:9, 512x288, mobil (800 kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
 | 4 | 16:9, 512x288, mobil (1 000 kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1000 | 512x288 | Samma som källan | 80 | Hög upplösning, Wi-Fi |
 | 5 | 16:9, 512x288, mobil (1 200 kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1200 | 512x288 | Samma som källan | 96 | Hög upplösning, Wi-Fi |
 | 6 | 4:3, 384x288, mobil (400 kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
-| 7 | 4:3, 384x288, mobil (600 kbit/s) | 700 | _Mobile_384x288_600K | 600 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 8 | 4:3, 448x336, mobil (800 kbit/s) | 900 | _Mobile_448x336_800K | 600 | 448x336 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
+| 7 | 4:3, 384x288, mobil (600 kbit/s) | 700 | _Mobile_384x288_600K | 800 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 8 | 4:3, 448x336, mobil (800 kbit/s) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
 | 9 | 4:3, 448x336, mobil (1 000 kbit/s) | 1,2 Mbit/s | _Mobile_448x336_1000K | 1000 | 448x336 | Samma som källan | 80 | Hög upplösning, Wi-Fi |
 | 10 | 4:3, 448x336, mobil (1 200 kbit/s) | 1,5 Mbit/s | _Mobile_448x336_1200K | 1200 | 448x336 | Samma som källan | 96 | Hög upplösning, Wi-Fi |
 
@@ -440,13 +436,13 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 
 >[!NOTE]
 >
->**Flash Viewers End-of-Life Notice**  - Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogrammet för Flash. Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Flash Viewers End-of-Life Notice**  - Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogrammet för Flash.
 
 En *visningsförinställning* är en samling inställningar som bestämmer hur användare visar mediefiler på datorskärmar och mobila enheter. Som administratör kan du skapa visningsförinställningar. Inställningarna är tillgängliga för en array med visningskonfigurationsalternativ. Du kan till exempel ändra visningsprogrammets visningsstorlek, zoombeteende, färgscheman, kanter och teckensnitt.
 
 Ett tips är att använda Dynamic Media Classic HTML5-videovisningsprogram. De förinställningar som används i HTML5 Video-visningsprogram är robusta videospelare. Genom att i en enda spelare kombinera möjligheten att utforma uppspelningskomponenterna med HTML5 och CSS, ha inbäddad uppspelning och använda adaptiv och progressiv strömning beroende på webbläsarens kapacitet, kan du utöka räckvidden för ditt multimedieinnehåll till datorer, surfplattor och mobilanvändare och få en smidig videoupplevelse.
 
-Se [Om HTML5-visningsprogram](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) i referenshandboken för Adobe-visningsprogram.
+Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) i referenshandboken för Adobe-visningsprogram.
 
 Se [Kompatibilitetsmatris för Dynamic Media Classic Viewer Preset](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -490,15 +486,13 @@ Om huvudbildens storlek till exempel är 350 x 350 pixlar, med zoomfaktorn 3, bl
 
 **Flash Viewers End-of-Life Notice**: Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogramplattformen Flash.
 
-Mer information om den här viktiga ändringen finns på följande webbplats med vanliga frågor och svar: [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
-
 Följande tabell visar vilka förinställningar för Dynamic Media Classic Viewer som är tillgängliga. Tabellen anger också visningsprogrammets kompatibilitet med datorer och mobila enheter samt vilken teknik som används för varje visningsprogram.
 
 Se även [Exempel på referensbibliotek för visningsprogram för Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Information om vilka webbläsare och operativsystemversioner som stöds för visningsprogram finns i Viewer Release Notes.
 
-Se [Versionsinformation för Adobe-visningsprogrammet](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Se [Versionsinformation för Adobe-visningsprogrammet](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android Smartphone | Android-surfplatta |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Se [Exportera en HTML5 Viewer-förinställning](application-setup.md#exporting_a
    >
    >Välj Samma som källa om du automatiskt vill ändra storlek på videovisningsprogrammet till upplösningsstorleken för den kodade videon. Om du väljer det här alternativet kan du inte ange scenens bredd och höjd. I stället kommer dessa alternativ från själva videon. Om du väljer Samma som källa anger du alternativet Marginalstorlek för att visa skalets dimensioner utanför videouppspelningsområdet. Marginalstorleken är pixelhöjden och bredden på videokontrollerna. Du kan använda följande bild för att avgöra vilka marginalstorlekar du vill använda.*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![Marginalkonfiguration för videovisningsprogram](assets/vs_video_viewer_configure_margin.png)
 
 1. Gör något av följande:
 
