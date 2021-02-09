@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Dina webbplatser och program har åtkomst till Dynamic Media Image Server-inneh�
 
 Det vanligaste sättet att distribuera en e-katalog är att placera en länk i form av en försättssida med en eCatalog-miniatyrbild på webbsidan. Samarbeta med IT-avdelningen för att säkerställa att e-katalogen öppnas i ett rent, centrerat popup-fönster. Be IT-avdelningen att inte visa verktygsfältet och adressfältet i webbläsaren.
 
-Mer information och kodexempel finns i [Bädda in HTML5 eCatalog Viewer i referenshandboken för Adobe-visningsprogram](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
+Mer information och kodexempel finns i [Bädda in HTML5 eCatalog Viewer i referenshandboken för Adobe-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopiera inbäddningskoden för ett eCatalog-visningsprogram {#copying-the-embed-code-of-an-ecatalog-viewer}
 
