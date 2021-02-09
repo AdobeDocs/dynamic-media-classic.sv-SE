@@ -1,16 +1,14 @@
 ---
 title: '"Snabbstart: Integrera Dynamic Media Classic och Adobe Analytics"'
-description: En introduktion och snabbstart för att integrera Dynamic Media Classic och Adobe Analytics så att du snabbt kommer igång.
-uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
+description: En introduktion och snabbstart som integrerar Dynamic Media Classic och Adobe Analytics så att du snabbt kommer igång.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -24,7 +22,7 @@ När du har integrerat Adobe Analytics med Dynamic Media Classic kan du få rapp
 
 Med Adobe Analytics rapporter kan du få en tydlig bild av kundernas aktivitet på din webbplats. Du kan avgöra vilka produktpresentationer som leder till konvertering och vilka som inte drar nytta av kundernas intresse.
 
-Se även [Mäta video i Adobe Analytics](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html).
+Se även [Mäta video i Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 >[!NOTE]
 >
