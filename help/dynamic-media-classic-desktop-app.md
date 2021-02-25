@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 * Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen eller grupperna utan behörighet. Kontakta administratören.*
 * Förinställningar för visningsprogram dupliceras med varje felaktigt lösenordsförsök.
 * Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows; arbeta som du vill i macOS.)
+* jlkjlkj
 
 ## Korrigeringar i föregående version (20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -189,11 +190,11 @@ Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop 
 
 1. I Dynamic Media Classic-datorprogrammet trycker du **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** i det övre högra hörnet.
 1. Gör något av följande på sidan **[!UICONTROL Personal Setup]**, under rubriken **[!UICONTROL Desktop]**:
-   * Tryck på **[!UICONTROL Clear Image Cache]** för att ta bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn. Tryck på **[!UICONTROL OK]**.
-   * Tryck på **[!UICONTROL Clear Asset Cache]** om du vill ta bort alla cachelagrade resursfiler för Adobe Dynamic Media från datorn. Tryck på **[!UICONTROL OK]**.
+   * Om du vill ta bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn trycker du på **[!UICONTROL Clear Image Cache]** och sedan på **[!UICONTROL OK]**.
+   * Om du vill ta bort alla cachelagrade resursfiler för Adobe Dynamic Media från datorn trycker du på **[!UICONTROL Clear Asset Cache]** och sedan på **[!UICONTROL OK]**.
 1. Tryck på **[!UICONTROL Close]** längst ned till höger på sidan.
 
-### Rensa bildcachen och resurscachen manuellt
+### Rensa bildcachen och resurscachen manuellt {#clear-cache}
 
 Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cachen manuellt direkt från filsystemet.
 
@@ -201,6 +202,10 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Känd begränsning i Dynamic Media Classic 2021.1
+
+* Listrutan **[!UICONTROL Server]** är tom efter uppdatering till Dynamic Media Classic för datorer 20.21.1 - scenario: Du installerar och loggar in på Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Uppdatera sedan till Dynamic Media Classic 20.21.1. När du försöker logga in är listrutan **[!UICONTROL Server]** i dialogrutan **[!UICONTROL Sign in to your account]** tom. Du kan lösa problemet genom att [manuellt rensa cachen](#clear-cache).
 
 ## Kända begränsningar i Dynamic Media Classic 20.20.1 (fast i 20.20.2)
 
@@ -210,7 +215,8 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 * I appen Dynamic Media Classic väljer du det nya företaget i listrutan för företag.
 * När popup-fönstret visas trycker du på **[!UICONTROL OK]** för att logga ut och stänga appen.
 
-   ![Starta om appen för att använda det nya företaget](/help/assets/dmclassic-new-company1.png)
+   ![Starta om appen om du vill använda det nya företaget](/help/assets/dmclassic-new-company1.png)
+
 * Starta om Dynamic Media Classic och logga sedan in som vanligt för att arbeta med det nya företaget.
 
 ## Tips och tricks
