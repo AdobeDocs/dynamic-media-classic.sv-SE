@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
+source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -203,7 +203,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Känd begränsning i Dynamic Media Classic 2021.1
+## Känd begränsning i Dynamic Media Classic 20.21.1
 
 * Listrutan **[!UICONTROL Server]** är tom efter uppdatering till Dynamic Media Classic för datorer 20.21.1 - scenario: Du installerar och loggar in på Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Därefter uppdaterar du till Dynamic Media Classic 20.21.1. När du försöker logga in är listrutan **[!UICONTROL Server]** i dialogrutan **[!UICONTROL Sign in to your account]** tom. Du måste [rensa cacheminnet](#clear-cache) manuellt för att lösa problemet (se stegen ovan).
 
