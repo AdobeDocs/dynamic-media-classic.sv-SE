@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 0%
@@ -186,7 +186,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (längd: 2 minuter (36 sekunder).
 
-## Rensa bildcachen och resurscachen på datorn med skrivbordsappen
+## Rensa bildcachen och resurscachen på datorn med skrivbordsappen {#clear-cache}
 
 1. I Dynamic Media Classic-datorprogrammet trycker du **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** i det övre högra hörnet.
 1. Gör något av följande på sidan **[!UICONTROL Personal Setup]**, under rubriken **[!UICONTROL Desktop]**:
@@ -194,7 +194,7 @@ Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop 
    * Om du vill ta bort alla cachelagrade resursfiler för Adobe Dynamic Media från datorn trycker du på **[!UICONTROL Clear Asset Cache]** och sedan på **[!UICONTROL OK]**.
 1. Tryck på **[!UICONTROL Close]** längst ned till höger på sidan.
 
-### Rensa bildcachen och resurscachen manuellt {#clear-cache}
+### Rensa bildcachen och resurscachen manuellt
 
 Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cachen manuellt direkt från filsystemet.
 
