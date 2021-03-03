@@ -5,9 +5,9 @@ description: Adobe Dynamic Media Classic - teknisk dokumentation
 seo-description: 'Teknisk dokumentation, versionsinformation och självhjälpsmaterial för Adobe Dynamic Media Classic, tidigare Scene 7 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från och med 7 maj 2020
 * [Guide: De bästa sätten att använda Dynamic Media Classic](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
 * [Guide: Best Practices Guide for Sharpening Images](/help/assets/s7_sharpening_images.pdf)
 * [Guide: Hur Adobe Dyanmic Media Classic stöder SEO](/help/assets/s7_seo.pdf)  - dagens sökmotorer möjliggör sökning efter webbplatser och bilder. Dynamic Media Classic har stöd för sökmotorvänliga bilder så att mer trafik dirigeras till Dynamic Media Classic-användarens webbplats. Den här handboken i PDF-format ger dig de bakgrunds- och implementeringsrekommendationer som behövs för att det ska hända.
-* [Webbseminarium: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html)  - Praktiska tips om hur ni kan förbättra er mobilstrategi. Se exempel på responsiv design i verkligheten. Skapa en överordnad resurs som fungerar på flera enheter och ökar den mobila prestandan genom att dynamiskt ändra bildernas upplösning eller orienteringen för bilder för stående eller liggande visning. Lär dig även beskära, skalförändra och ändra storlek på bilder dynamiskt.
+<!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
 * [Webbseminarium: Best Practices Leverera interaktiva upplevelser med Dynamic Media Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/)  - Lär dig hur du får in och ut innehåll i Dynamic Media Classic och hur du ställer in bildförinställningar för optimala prestanda och en optimal upplevelse. Du kan även läsa mer om förinställningar för visningsprogram och cachelagringskonfigurationer.
 * [Webbseminarium: Maximera avkastningen](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  på mediefilerna - Lär dig branschens bästa metoder för att leverera multimedia på webbplatser och i mobilappar. I det här webbinariet ger vi exempel och demonstrationer som visar hur du kan leverera video effektivt på olika enheter, leverera dynamiskt kreativt innehåll i marknadsföringskampanjer och öka konverteringsgraden genom att göra alla bilder, stilguider och lookbook shoppbara.
 * [Webbseminarium: Accelerate Your Content Delivery Lifecycle](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  - En introduktion och demonstration av Adobe Experience Manager Assets - On Demand, nästa generation av plattform för multimediehantering och -leverans. Lär dig samarbeta och dela resurser mellan kreatörer och marknadsförare för att effektivisera sina processer för granskning av resurser. de bästa sätten att hantera metadata för resurser effektivt så att det blir enkelt att hitta, använda, återanvända och dela material samt att leverera interaktiva medieupplevelser över flera kanaler.
@@ -43,5 +43,5 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från och med 7 maj 2020
 
 ## Dynamic Media Classic-utbildning
 
-Gå [hit](http://training.adobe.com/training/courses.html#product=adobe-scene7) för att se vilka kurser som finns.
+Gå [hit](https://learning.adobe.com/catalog.html#product=adobe-scene7) för att se vilka kurser som finns.
 [Dynamic Media Classic Training Videos](/help/training-videos.md).
