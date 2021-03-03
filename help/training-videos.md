@@ -2,9 +2,9 @@
 title: Dynamic Media Classic - utbildningsvideor
 description: 'Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk bildbehandling, video, mediaportal, mallar samt redigering och rendering av bilder.'
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
 workflow-type: tm+mt
-source-wordcount: '6490'
+source-wordcount: '6544'
 ht-degree: 0%
 
 ---
@@ -100,17 +100,19 @@ Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk bildb
 
 Utbildningsvideor om olika aspekter av följande:
 
-* Färga
-* Mönstermappning
-* Illumination Map
-* Upprepa material
-* Överlappa objekt
-* 3D-rumsscener
-* Skolredigering
-* Maskering
-* Återgivning
+* [Färga](#colorizing)
+* [Mönstermappning](#pattern-mapping)
+* [Illumination Map](#illumination-map)
+* [Upprepa material](#material-repeat-tool)
+* [Överlappa objekt](#overlap-objects)
+* [3D-rumsscener](#three-dimensional-room-scenes)
+* [Skolredigering](#apparel-authoring)
+* [Maskering](#masking)
+* [Återgivning](#rendering)
 
 ### Färglägger {#colorizing}
+
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
 * [Översikt över färgsättning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/500_01_overview1_ia_01colorizing-AVS)
 
@@ -154,6 +156,8 @@ Utbildningsvideor om olika aspekter av följande:
 
 ### Mönstermappning {#pattern-mapping}
 
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
+
 * [Översikt över mönstermappning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
 
 * [Steg före redigering av nät](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/579_02_steps_before_mesh_editing_ia_02pattern-AVS)
@@ -196,6 +200,8 @@ Utbildningsvideor om olika aspekter av följande:
 
 ### Illumination Map {#illumination-map}
 
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
+
 * [Exportera till Adobe Photoshop](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/598_01_export_to_photoshop_ia_03illum-AVS)
 
 * [Retuschering](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/599_02_RETOUCHING_ia_03illum-AVS)
@@ -208,6 +214,8 @@ Utbildningsvideor om olika aspekter av följande:
 
 ### Upprepa material {#material-repeat-tool}
 
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
+
 * [Verktyget upprepa material](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/603_01_MRT_ia_04mrt-AVS)
 
 * [Justera ljus](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/604_02_lighting_adjust_ia_04mrt-AVS)
@@ -215,6 +223,8 @@ Utbildningsvideor om olika aspekter av följande:
 * [Korrigera PPI-värden](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/605_03_correct%20PPI%20value_ia_04mrt-AVS)
 
 ### Överlappa objekt {#overlap-objects}
+
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
 * [Grunderna för överlappning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/607_01_overlap_basics_ia_05overlap-AVS)
 
@@ -225,6 +235,8 @@ Utbildningsvideor om olika aspekter av följande:
 * [Introduktion till överlappande objekt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/610_IA005-Intro-Overlap_ia_05overlap-AVS)
 
 ### 3D-rumsscener {#three-dimensional-room-scenes}
+
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
 * [Översikt över 3D-projekt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/611_01_3D_project_ov_ia_06room3d-AVS)
 
@@ -244,6 +256,8 @@ Utbildningsvideor om olika aspekter av följande:
 
 ### Bildredigering {#apparel-authoring}
 
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
+
 * [Genomgång av färgsättning av skal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/620_700_apparel_colorization_review_ia_07apparel-AVS)
 
 * [Utvärderar mönstermappningsansträngning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
@@ -258,6 +272,8 @@ Utbildningsvideor om olika aspekter av följande:
 
 ### Maskering {#masking}
 
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
+
 * [Översikt över Adobe Photoshop-maskering](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/626_800_overview_of_photoshop_masking_ia_08masking-AVS)
 
 * [Exportera masker från Adobe Photoshop](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/627_801_exporting_masks_from_photoshop_ia_08masking-AVS)
@@ -269,6 +285,8 @@ Utbildningsvideor om olika aspekter av följande:
 * [Introduktion till maskering](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/630_IA008-Intro-Masking_ia_08masking-AVS)
 
 ### Återger {#rendering}
+
+Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
 * [Återge matematik](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/632_900_render_math_ia_09rendering-AVS)
 
