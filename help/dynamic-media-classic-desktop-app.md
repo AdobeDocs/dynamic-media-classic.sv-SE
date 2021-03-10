@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
+source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 * Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen eller grupperna utan behörighet. Kontakta administratören.*
 * Förinställningar för visningsprogram dupliceras med varje felaktigt lösenordsförsök.
 * Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows; arbeta som du vill i macOS.)
-* jlkjlkj
 
 ## Korrigeringar i föregående version (20.20.2) {#previous-version-fixes-desktop-app}
 
