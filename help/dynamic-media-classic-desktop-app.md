@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1600'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 * Ingen begränsning för hur många filer du kan överföra via skrivbordsappens användargränssnitt för både macOS och Windows.
 * Du behöver inte logga ut från datorprogrammet för att växla mellan olika företag.
 * Ctrl+V för inklistring fungerar nu i Windows.
-* När en ny version av skrivbordsappen släpps i framtiden meddelas användarna via själva skrivbordsappen. —>
+* När en ny version av skrivbordsappen släpps i framtiden meddelas användarna via själva skrivbordsappen.
 
 ## Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på macOS eller Windows {#installation-dmc-app}
 
