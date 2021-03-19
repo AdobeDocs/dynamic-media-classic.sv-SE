@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
+feature: Dynamic Media Classic
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -25,14 +27,14 @@ Dynamic Media Classic stöder följande teckensnittstyper:
 * Alla TrueType-teckensnitt
 * PostScript®
 * OpenType/TrueType-teckensnitt
-* OpenType/PostScript-teckensnitt
+* OpenType-/PostScript-teckensnitt
 * PhotoFonts
 
 När en teckensnittsfil har överförts kan du ändra dess Dynamic Media Classic-ID, teckensnittsnamn och typinformation på skärmen Redigera information.
 
 >[!NOTE]
 >
->Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Dessa teckensnittsformat behövs för att bearbeta begäranden i Dynamic Media Classic. Du bör även överföra alla PostScript-/Adobe Type 1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
+>Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Dessa teckensnittsformat behövs för att bearbeta begäranden i Dynamic Media Classic. Du bör även överföra alla PostScript/Adobe Type 1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
 
 ## Överför teckensnittsfiler {#uploading-font-files}
 
