@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
+feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '568'
 ht-degree: 3%
 
 ---
@@ -28,7 +30,7 @@ Den här snabbstarten för bilduppsättningar är utformad för att komma igång
 
 Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet bör du ta hänsyn till zoomning när du väljer bilder. Se till att bilderna har minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic stöder många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
 
-Klicka på knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
+Välj knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
 
 Se [Förbereda bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) och [Överföra filer](uploading-files.md#uploading-your-files).
 
