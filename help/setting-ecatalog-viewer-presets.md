@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
+feature: Dynamic Media Classic,visningsprogram,visningsförinställningar,eCatalog
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 # Konfigurera eCatalog Viewer-förinställningar{#setting-up-ecatalog-viewer-presets}
 
-eCatalog Viewer Presets avgör format, beteende och utseende för eCatalog-visningsprogram. Dynamic Media Classic innehåller förinställningar för eCatalog-visningsprogrammet, och du kan även skapa egna förinställningar för eCatalog-visningsprogrammet om du är administratör.
+eCatalog Viewer Presets avgör format, beteende och utseende för eCatalog-visningsprogram. I Dynamic Media Classic finns förinställningar för eCatalog Viewer, och du kan även skapa egna eCatalog Viewer-förinställningar om du är administratör.
 
 Om du vill skapa en ny förinställning kan du börja från början eller börja med en förinställning för eCatalog Viewer som tillhandahållits av Dynamic Media Classic och spara den under ett nytt namn. Du kan skapa egna visningsförinställningar för eCatalog för att presentera utskrivet material i företagets färger och ställa in tonen.
 
@@ -43,7 +45,7 @@ förinställning för eCatalog ViewerVälj en förinställning för eCatalog Vie
 
    Visningsprogrammet visas på förhandsgranskningsskärmen när du uppdaterar och ändrar inställningarna.
 
-1. (Valfritt) I inställningarna på panelen Info kan URL-alternativet för informationsservern innehålla följande särskilda tokens, som används av visningsprogrammet:
+1. (Valfritt) I inställningarna på panelen Info kan URL-alternativet för informationsservern innehålla följande specialvariabler, som används av visningsprogrammet:
 
    | Token | Ersatt med | Anteckningar |
    |--- |--- |--- |
