@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
+feature: Dynamic Media Classic,Visningsprogram,Video
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1687'
 ht-degree: 1%
 
 ---
@@ -32,7 +34,7 @@ Det finns två olika metoder som du kan använda för att publicera video:
 
 * **Publicera videoklipp automatiskt och direkt vid överföring**
 
-   Som en del av videoöverföringen kan Dynamic Media Classic automatiskt publicera videoklipp när de överförs och kodas. Möjligheten att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
+   Som en del av videoöverföringen kan Dynamic Media Classic automatiskt publicera videoklipp när de överförs och kodas. Denna möjlighet att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
 
 * **Publicera video manuellt efter överföring**
 
@@ -155,7 +157,7 @@ Anta till exempel att namnet på servern för HLS-direktuppspelning är  `https:
 
 * Generera en URL för direkt progressiv video
 
-   På sidan **Allmänt om programinställningar** i gruppen **Servrar** i textfältet **Progressive Video Server Name** skapar du den direkta eVideo-URL:en med följande syntax: `server/company/folder/filename`
+   På sidan **Allmänt om programinställningar** i gruppen **Servrar** i textfältet **Progressive Video Server Name** konstruerar du den direkta eVideo-URL:en med följande syntax: `server/company/folder/filename`
 Anta till exempel att namnet på den progressiva videoservern är `https://s7d9.scene7.com/is/content/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
