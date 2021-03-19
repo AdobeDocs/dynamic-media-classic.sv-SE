@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -18,7 +20,7 @@ ht-degree: 0%
 
 # Snabbstart: Bildstorlek{#quick-start-image-sizing}
 
-Bildstorlek avser möjligheten att i Dynamic Media Classic skapa flera bearbetade bilder baserade på en enda högupplöst bild. I stället för att manuellt skapa flera bilder - till exempel en miniatyrbild och en förstorad bild - för webbplatsen eller programmet, kan du skapa en enda överordnad bild. I Dynamic Media Classic skapas alla ändrade bilder precis som du vill ha dem. Att kunna leverera bilder dynamiskt från en enda överordnad bild har många fördelar:
+Bildstorlek avser möjligheten att i Dynamic Media Classic skapa flera bearbetade bilder baserade på en enda högupplöst bild. I stället för att manuellt skapa flera bilder - t.ex. en miniatyrbild och en förstorad bild - för webbplatsen eller programmet kan du skapa en enda överordnad bild. I Dynamic Media Classic skapas alla ändrade bilder precis som du vill ha dem. Att kunna leverera bilder dynamiskt från en enda överordnad bild har många fördelar:
 
 * Du behöver inte skapa flera kopior av bilden manuellt i olika storlekar. Du ger en överordnad bild till Dynamic Media Classic, och Dynamic Media Classic genererar derivat i olika storlekar från den överordnad bilden.
 * Du kan snabbt ändra storlek på en bildtyp på hela webbplatsen eller i programmet. Om du till exempel vill ändra alla miniatyrbilder kan du ändra bildförinställningen&quot;miniatyrbild&quot;. En bildförinställning, som liknar ett makro, är en samling med storleks- och formateringsattribut. Du kan ändra bildförinställningen &quot;miniatyrbild&quot; om du vill ändra storleken på alla miniatyrbilder på hela webbplatsen eller i programmet.
