@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
+feature: Dynamic Media Classic
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3437'
+source-wordcount: '3442'
 ht-degree: 0%
 
 ---
@@ -147,7 +149,7 @@ Så här formaterar du text i ett textlager:
 
    **Fet, Kursiv eller** UnderstrukenMarkera texten och klicka sedan på ikonen för den typ av formatering du vill använda för texten.
 
-   **Versaler, Upphöjd eller** NedsänktMarkera texten och klicka sedan på ikonen för den typ av formatering du vill använda på texten.
+   **Versaler, Upphöjd eller** NedsänktMarkera texten och klicka sedan på ikonen för den typ av formatering du vill använda för texten.
 
    **** JusteringVälj en justeringsknapp för att vänsterjustera, centrera eller högerjustera text i textlagret.
 
@@ -259,7 +261,7 @@ Om du vill ändra positionen för ett lager på arbetsytan markerar du lagrets n
 
 **Ändra** position manuelltFlytta pekaren nära, men inte över, en lagergräns, och när du ser den fyrhövdade pilmarkören klickar du och börjar dra.
 
-**Ange** mått för positionsförskjutningAnge förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för ankarpunkten i pixlar.
+**Ange** mått för positionsförskjutningAnge förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för fästpunkten i pixlar.
 
 **Rotera ett lager**
 
