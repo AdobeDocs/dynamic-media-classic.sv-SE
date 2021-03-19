@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
+feature: Dynamic Media Classic
+role: Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -27,7 +29,7 @@ CatalogsPresentera en interaktiv, sökaktiverad webbversion av katalogen eller a
 VideoLeverera högkvalitativa videoupplevelser till flera olika skärmar, inklusive stationära datorer, mobila enheter och surfplattor. Använd fördefinierade kodningsförinställningar för Dynamic Media Classic eller anpassa kodningen för att styra videons kvalitet och storlek. Ordna, bläddra bland och sök videoklipp med fullt stöd för metadata för effektiv hantering av videomaterial. Se [Snabbstart: eVideo](/help/quick-start-video.md).
 
 * **Image**
-MapsHantera bilder dynamiskt i valfri storlek och i valfritt format på webbplatsen. I stället för att manuellt skapa många bilder i olika storlekar, använder du bara en överordnad bild. När Dynamic Media Classic levererar den begärda bilden optimeras bilden för resultat av högsta kvalitet i storlek, format, vikt, kvalitet och skärpa. Se [Snabbstart: Bildstorlek](/help/quick-start-image-sizing.md).
+MapsHantera bilder dynamiskt i valfri storlek och i valfritt format på webbplatsen. I stället för att manuellt skapa många bilder i olika storlekar använder du bara en överordnad bild. När Dynamic Media Classic levererar den begärda bilden optimeras bilden för resultat av högsta kvalitet i storlek, format, vikt, kvalitet och skärpa. Se [Snabbstart: Bildstorlek](/help/quick-start-image-sizing.md).
 
 * **Image**
 SetsEn interaktiv shoppingupplevelse där användarna kan visa produkter i flera vyer. Du kan kombinera zoomning, flera vyer och färgrutor för en integrerad visningsupplevelse. Se [Snabbstart: Bilduppsättningar](/help/quick-start-image-sets.md).
