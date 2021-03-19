@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
+feature: Dynamic Media Classic,Visningsprogram,Zooma
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
@@ -20,7 +22,7 @@ ht-degree: 0%
 
 Förinställningarna för zoomvisningsprogrammet bestämmer stilen, beteendet och utseendet för zoomningsvisningsprogrammen. I Dynamic Media Classic finns många alternativ för att anpassa och skalförändra visningsprogram. Dynamic Media Classic innehåller standardförinställningar för grundläggande (snabb), utfällbar och anpassad zoomningsvisning. Om du är administratör kan du skapa nya förinställningar för zoomvisningsprogrammet eller redigera en standardförinställning och spara den med ett nytt namn.
 
-Alla zoomvisningsprogram har knappar för att zooma in, zooma ut, panorera och återställa bilden till det ursprungliga läget efter zoomning. Hur dessa knappar ser ut och hur själva fönstret ser ut beror på vad du väljer bland förinställningarna för Zoom Viewer. Du kan konfigurera en förinställning för Zoomvisningsprogram med olika färger, kanter, teckensnitt och bildinställningar. När du konfigurerar ett visningsprogram för guidad zoomning kan du även välja var du vill placera zoommålen. Zoommål är de miniatyrbilder som användarna klickar på för att zooma till de områden som du anger.
+Alla zoomningsvisningsprogram har knappar för att zooma in, zooma ut, panorera och återställa bilden till det ursprungliga läget efter zoomning. Hur dessa knappar ser ut och hur själva fönstret ser ut beror på vad du väljer bland förinställningarna för Zoom Viewer. Du kan konfigurera en förinställning för Zoomvisningsprogram med olika färger, kanter, teckensnitt och bildinställningar. När du konfigurerar ett visningsprogram för guidad zoomning kan du även välja var du vill placera zoommålen. Zoommål är de miniatyrbilder som användarna klickar på för att zooma till de områden som du anger.
 
 ## Om förinställningar för Zoom Viewer {#about-zoom-viewer-presets}
 
