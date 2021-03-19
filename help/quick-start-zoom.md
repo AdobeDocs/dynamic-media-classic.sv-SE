@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
+feature: Dynamic Media Classic,Visningsprogram,Zooma
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -32,7 +34,7 @@ Snabbstart för zoomning är utformat för att komma igång snabbt med zoomtekni
 
 Börja med att överföra dina zoombilder till Dynamic Media Classic. För optimal zoomning rekommenderar Dynamic Media Classic att bilderna är minst 2 000 pixlar långa.
 
-Klicka på knappen Överför i fältet Global navigering om du vill överföra bilder från datorn eller nätverket till en mapp i Dynamic Media Classic. Se [Överföra zoombilder](uploading-zoom-images.md#uploading_zoom_images).
+Välj knappen Överför i fältet Global navigering om du vill överföra bilder från datorn eller nätverket till en mapp i Dynamic Media Classic. Se [Överföra zoombilder](uploading-zoom-images.md#uploading_zoom_images).
 
 **2. Skapa zoommål för guidad zoomning**
 
@@ -44,7 +46,7 @@ Om du vill skapa ett zoommål klickar du på knappen Redigera överrullning och 
 
 Förinställningarna för zoomvisningsprogrammet bestämmer hur zoomningsvisningsprogrammen ska se ut och fungera. Om du är administratör kan du konfigurera förinställningar för zoomvisningsprogrammet. Dynamic Media Classic innehåller även standardförinställningar för zoomvisning.
 
-Om du vill skapa en förinställning för zoomvisningsprogrammet klickar du på knappen Inställningar i det globala navigeringsfältet och väljer Visningsförinställningar. Klicka sedan på knappen Lägg till på skärmen för visningsförinställningar, välj en plattform, välj en zoomningsvisare och klicka på Lägg till. Välj sedan alternativ på skärmen Konfigurera visningsprogram.
+Om du vill skapa en förinställning för zoomvisningsprogrammet klickar du på knappen Inställningar i det globala navigeringsfältet och väljer Visningsförinställningar. Klicka sedan på knappen Lägg till på skärmen för visningsförinställningar, välj en plattform, välj ett zoomvisningsprogram och klicka på Lägg till. Välj sedan alternativ på skärmen Konfigurera visningsprogram.
 
 I Dynamic Media Classic finns förinställningsalternativ för Zoom Viewer som gör att du kan välja knappstil och visningsprogrammets övergripande utseende. Du kan också anpassa zoominställningarna för webbplatsen. Se [Konfigurera förinställningar för zoomvisningsprogrammet](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
