@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2162'
 ht-degree: 0%
 
 ---
@@ -74,7 +76,7 @@ Välj följande alternativ för att finjustera skärpan med Oskarp mask:
 
 Det bästa radievärdet beror på bildens storlek. Med ett lågt värde ökas skärpan endast för kantpixlarna. Med ett högt värde ökas skärpan för ett större antal pixlar.
 
-Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar kan du ange radievärdet två pixlar för bilden på 2 000 x 2 000 pixlar. Ange sedan radien 1 pixel i bilden med 500 x 500 pixlar (ett större värde för en bild med fler pixlar).
+Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar kan du ange radievärdet två pixlar för bilden på 2 000 x 2 000 pixlar. Ange sedan ett radievärde på en pixel i bilden med 500 x 500 pixlar (ett större värde för en bild med fler pixlar).
 
 **Tröskelvärde** Anger vilket kontrastintervall som ska ignoreras när filtret för oskarp mask används. Med det här alternativet anger du hur olika de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och blir skarpare.
 
@@ -100,7 +102,7 @@ Välj menyn Omsampling och välj ett alternativ. Dessa alternativ gör bilden sk
 
 **Förinställningar för skärpa och bilder**
 
-Du kan blanda alla tre skärpeeffekterna för att uppnå det slutliga resultatet. Detta rekommenderas dock inte. Dynamic Media Classic rekommenderar att du sparar dina skärpeeffekter som en del av en bildförinställning.Med bildförinställningar kan du paketera de vanligaste bildmodifierarna för att skapa en bild med en dynamisk storlek i en liten textsträng. En bildförinställning innehåller värden för filformatet (vanligtvis JPEG för webben), pixelantal och bildskärpa. I stället för att lägga till URL:en med varje bildmodifierare som behövs för att skapa en viss typ av bildstorlek, skapar du en namngiven bildförinställning, till exempel&quot;miniatyrbild&quot;, konfigurerar miniatyrbildens förinställning med rätt storlek, filformat och skärpealternativ och anropar sedan bilden med namnet Bildförinställning. Bildförinställningar förkortar den övergripande URL:en.Dessa två URL:er ger samma 350 x 350 JPEG-bild med skärpa:
+Du kan blanda alla tre skärpeeffekterna för att uppnå det slutliga resultatet. Detta rekommenderas dock inte. Dynamic Media Classic rekommenderar att du sparar dina skärpeeffekter som en del av en bildförinställning.Med bildförinställningar kan du paketera de vanligaste bildmodifierarna för att skapa en bild med en dynamisk storlek i en liten textsträng. En bildförinställning innehåller värden för filformatet (vanligtvis JPEG för webben), pixelantal och bildskärpa. I stället för att lägga till URL:en med varje bildmodifierare som behövs för att skapa en viss typ av bildstorlek, skapar du en namngiven bildförinställning, till exempel&quot;miniatyrbild&quot;, konfigurerar miniatyrbildsförinställningen med rätt storlek, filformat och skärpealternativ och anropar sedan bilden med namnet Bildförinställning. Bildförinställningar förkortar den övergripande URL:en.Dessa två URL:er ger samma 350 x 350 JPEG-bild med skärpa:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
