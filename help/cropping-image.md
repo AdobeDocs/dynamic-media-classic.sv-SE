@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -40,7 +42,7 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
 
 ## Markera ett område att beskära {#select-an-area-to-crop}
 
@@ -57,7 +59,7 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
 
 >[!MORELIKETHIS]
 >
