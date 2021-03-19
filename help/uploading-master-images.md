@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
