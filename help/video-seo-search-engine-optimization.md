@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
+feature: Dynamic Media Classic
+role: Administratör
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -36,7 +38,7 @@ Dynamic Media Classic kan generera videosemappningar och mRSS-flöden från meta
 >
 >Innan du skapar en webbplatskarta för video eller RSS-feed bör du ta reda på vilka fält sökmotorn behöver i XML-filen och hur du strukturerar dessa fält. Om du vill skapa en lyckad webbplatskarta för video eller mRSS-feed måste den uppfylla kraven i sökmotorn.
 
-I Dynamic Media Classic skapas rapporter om webbplatskartor för video och mRSS-flöden när du har genererat dem. Rapporterna finns på videons SEO-rapportskärm.
+I Dynamic Media Classic skapas rapporter om webbplatskartor för video och mRSS-flöden när du har genererat dem. Dessa rapporter finns på videons SEO-rapportskärm.
 
 >[!NOTE]
 >
