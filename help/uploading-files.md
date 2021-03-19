@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3859'
 ht-degree: 0%
 
 ---
@@ -262,13 +264,13 @@ Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#
 * **POSTSCRIPT OPTIONS**  - Du kan rastrera PostScript®, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **PHOTOSHOP OPTIONS**  - Du kan skapa mallar från Adobe® Photoshop®-filer, behålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
+* **Photoshop OPTIONS**  - Du kan skapa mallar från Adobe® Photoshop®-filer, behålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
 Se [PSD-överföringsalternativ](psd-files.md#psd_upload_options).
 
 * **PDF OPTIONS**  - Du kan rastrera filerna, extrahera sökord och länkar, generera en e-katalog automatiskt, ange upplösningen och välja en färgrymd.
 Se [Alternativ för PDF-överföring](pdfs.md#pdf_upload_options).
 
-* **ILLUSTRATOR OPTIONS**  - Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
+* **Illustrator OPTIONS**  - Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **EVIDEO OPTIONS**  - Du kan koda om en videofil genom att välja en videoförinställning.
