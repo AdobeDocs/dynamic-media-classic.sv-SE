@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
@@ -81,7 +83,7 @@ Om du valde alternativet Behåll lager när du överförde din PSD-fil, delade D
 
    * Klicka på ikonen Bildschema för att skapa ett bildschema på lagret. (Se [Skapa bildscheman](creating-image-maps.md#creating_image_maps).)
    * Klicka på ikonen Zoommål för att skapa zoommål på lagret. (Se [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
-   * Klicka på beskärningsikonen för att beskära lagret. (Se [Beskära en bild](cropping-image.md#cropping_an_image).)
+   * Klicka på ikonen Beskär för att beskära lagret. (Se [Beskära en bild](cropping-image.md#cropping_an_image).)
    * Klicka på Skärpa om du vill öka skärpan i lagret. (Se [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image).)
    * Justera lagret genom att klicka på Justera. (Se [Justera en bild](adjusting-image.md#adjusting_an_image).)
 
