@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 3f1f5575-9fe5-436c-b009-99f3bff0b21f
+feature: Dynamic Media Classic
+role: Datatekniker, administratör, affärsansvarig
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '78'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
