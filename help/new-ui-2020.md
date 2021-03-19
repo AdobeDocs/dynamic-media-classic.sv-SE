@@ -4,10 +4,12 @@ description: Dynamic Media Classic-användare kan nu uppdatera användargränssn
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
