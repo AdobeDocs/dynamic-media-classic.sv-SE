@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
+feature: Dynamic Media Classic,Resurshantering,Metadata
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '2256'
+source-wordcount: '2264'
 ht-degree: 0%
 
 ---
@@ -96,7 +98,7 @@ Mer information om standardiserade egenskaper finns i: https://www.adobe.com/dev
 Tänk på följande när du identifierar olika metadatatyper som ska importeras:
 
 * Användardefinierade fält identifieras med sitt namn enligt inställningarna > Programinställningar > Metadata > Användardefinierade fält. Använd filfunktionen Generera för att få en lista över alla definierade UDF-filer i rätt importformat.
-* XMP metadataegenskaper måste ha det relaterade XMP-prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Det XMP prefixet finns i Konfigurera > Programinställningar > Metadata > Metadataschredigeraren. De tekniska namnen finns i dokumentationen för det relaterade XMP schemat. Observera att XMP egenskapsnamn inte visas i funktionen Generera fil.
+* XMP metadataegenskaper måste ha det relaterade XMP-prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Det XMP prefixet finns i Konfigurera > Programinställningar > Metadata > Metadata Schema Editor. De tekniska namnen finns i dokumentationen för det relaterade XMP schemat. Observera att XMP egenskapsnamn inte visas i funktionen Generera fil.
 * Egenskaper för metadataschema måste ha det relaterade prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Prefixet och egenskapsnamnen definieras i metadataschredigeraren. Observera att namn på metadataschemaegenskaper inte visas i funktionen Generera fil.
 
 Till exempel: Egenskapen XMP för nyckelord är det XMP schemat &quot;Dublin Core&quot; med prefixet &quot;dc&quot; och &quot;subject&quot; är det tekniska XMP. Prefixet och det tekniska XMP namnet kombineras till det fullständiga egenskapsnamnet&quot;dc:subject&quot;. I XML-metadataimportformatet måste &quot;dc.subject&quot; vara egenskapsnamnet. I det tabbavgränsade importformatet måste det vara column-header.
