@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
+feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -23,7 +25,7 @@ När du har publicerat en uppsättning med blandade media kan du hämta dess URL
 ## Hämta en URL för en blandad medieuppsättning {#obtain-a-mixed-media-set-url}
 
 1. Klicka på **Medieuppsättning** i listrutan Visa på panelen Resursbläddring.
-1. navigera till resursmappen som innehåller den mediauppsättning vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
+1. navigera till resursmappen som innehåller den mediauppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Kopiera URL** till höger om det visningsprogram du vill använda i panelen URL:er och Bädda in kod till höger.
