@@ -1,13 +1,15 @@
 ---
 title: Publiceringsinställningar
-description: Inställningarna på skärmen Publiceringsinställningar avgör hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program.
+description: Med inställningarna för publiceringsinställningar kan du bestämma hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: Administratör
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2416'
 ht-degree: 0%
 
 ---
