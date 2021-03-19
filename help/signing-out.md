@@ -5,10 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
+feature: Dynamic Media Classic
+role: Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
