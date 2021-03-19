@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 1%
+source-wordcount: '1605'
+ht-degree: 0%
 
 ---
 
@@ -118,7 +120,7 @@ I den här tabellen visas tidsökningar, deras tillåtna värden och de jokertec
 | Minuter | 0-59 |  | , - * / |
 | Timmar | 0-23 | Observera användningen av en 24-timmarsklocka. | , - * / |
 | Dag i månaden | 1-31 | Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en ? jokertecken. | , - * / ? L C |
-| Månad | 1-12 eller jan, feb, mar, apr, maj, jun, jul, aug, sep, sep, okt, nov, dec | Värdena är skiftlägeskänsliga. | , - * / |
+| Månad | 1-12 eller jan, feb, mar, apr, maj, jun, juli, aug, sep, sep, okt, nov, dec | Värdena är skiftlägeskänsliga. | , - * / |
 | Veckodag | Mån, Tue, Wed, Thu, Fri, Sat, Sun | Värdena är skiftlägeskänsliga. Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en ? jokertecken. | , - * / ? L C # |
 | År (valfritt) | Tom eller 1970-2099 |  | , - * / |
 
