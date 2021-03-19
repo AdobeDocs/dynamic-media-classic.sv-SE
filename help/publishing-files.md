@@ -1,14 +1,16 @@
 ---
 title: 'Publicera filer '
-description: Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser en gång eller ordna så att Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Dynamic Media Classic och lägga till dem på webbplatsen eller i programmet.
+description: '"Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser en gång eller ordna så att Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program."'
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+feature: Dynamic Media Classic,Resurshantering
+role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
