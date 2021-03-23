@@ -10,9 +10,9 @@ discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 feature: Dynamic Media Classic,Visningsprogram
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 1. Klicka på **Inställningar** > **Visningsförinställningar**.
 1. Gör något av följande:
 
-   * Om du vill skapa en ny förinställning klickar du på **Lägg till**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer Ställ in visningsprogram för färgrutor och klickar sedan på **Lägg till**.
+   * Om du vill skapa en förinställning klickar du på **Lägg till**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer Ställ in visningsprogram för färgrutor och klickar sedan på **Lägg till**.
    * Om du vill redigera en befintlig förinställning för Ställ in visningsprogram för färgrutor markerar du förinställningen och klickar sedan på **Redigera**.
 
 1. Skriv ett namn i rutan Förinställningsnamn för visningsprogramförinställningen för färgrutor.
@@ -57,11 +57,11 @@ Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visnin
    * Välj en resurs i fönstret Resurser. Klicka på **Arkiv** > **Förhandsgranska** i verktygsfältet.
 
 1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
-1. Klicka på en visningsprogramlänk om du vill förhandsgranska resursen i det valda visningsprogrammet.
+1. Om du vill förhandsgranska resursen i det valda visningsprogrammet klickar du på en visningsprogramlänk.
 
    När du klickar på en viss visningsprogramlänk kopieras den associerade URL:en automatiskt till Urklipp.
 
-1. Stäng visningsprogrammet för att återgå till förhandsgranskningsskärmen.
+1. Om du vill gå tillbaka till förhandsgranskningsskärmen stänger du visningsprogrammet.
 1. Klicka på **Stäng** för att återgå till skärmen Resurser.
 
 >[!MORELIKETHIS]
