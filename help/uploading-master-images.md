@@ -10,9 +10,9 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Media Classic,Resurshantering
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Överför överordnad bilder{#uploading-master-images}
 
-Innan du överför bilder till Dynamic Media Classic bör du kontrollera att de har högst kvalitet och format. Dynamic Media Classic rekommenderar att du överför högkvalitativa bilder med ett tillräckligt antal pixlar (från 1 500 till 2 000 pixlar i den långa dimensionen). Detta gör att du kan använda alla dynamiska bilder som behövs.
+Innan du överför bilder till Dynamic Media Classic bör du kontrollera att de har den högsta kvalitetsstorleken och formatet. Dynamic Media Classic rekommenderar att du överför högkvalitativa bilder med ett tillräckligt antal pixlar (från 1 500 till 2 000 pixlar i den långa dimensionen). Den här storleksändringen tillåter alla dynamiska bilder som behövs.
 
 Mer information om hur du överför bilder finns i [Överföra filer](uploading-files.md#uploading_files).
 
