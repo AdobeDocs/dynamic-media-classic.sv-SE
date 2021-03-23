@@ -10,10 +10,10 @@ discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Resurshantering
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 0%
+source-wordcount: '1584'
+ht-degree: 1%
 
 ---
 
@@ -26,23 +26,23 @@ När du överför resurser visas en snurrande ikon bredvid menyn Jobb, som anger
 
 >[!NOTE]
 >
->En lista över dina nyligen publicerade jobb finns också på sidan Senaste aktivitet. Klicka på Senaste i fältet Global navigering för att öppna den här sidan.
+>En lista över dina nyligen publicerade jobb finns också på sidan Senaste aktivitet. Klicka på **[!UICONTROL Recent]** i fältet Global navigering för att öppna den här sidan.
 
 ## Om sidan Jobb {#about-the-jobs-page}
 
-Klicka på knappen Jobb i fältet Global navigering för att öppna sidan Jobb. Som standard listas jobb med början från den senaste.
+Välj **[!UICONTROL Jobs]** i fältet Global navigering för att öppna sidan Jobs. Som standard listas jobb med början från den senaste.
 
 Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
 **JobbtypEn** ikon anger jobbtypen: Överföring och publicering är de vanligaste jobbtyperna.
 
-**Jobbnamn** Jobbets namn. Namnet innehåller den användardefinierade delen av namnet och datum- och tidsstämpeln.
+**Jobbnamn** Jobbets namn. Namnet innehåller den användardefinierade delen av namnet samt datum och tid.
 
 **** StartadesNär jobbet startades.
 
 **Totalt** antal överförda filer.
 
-**W (varningar)** Antalet varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Filerna .DS_store (Macintosh) och Thumbs.db (Windows) innehåller till exempel information om hur du visar bildfiler för användare. Du kan dock ignorera varningsmeddelanden om de här filerna eftersom de inte gäller hur filerna används i Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
+**W (varningar)** Antalet varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Till exempel innehåller `.DS_store`-filer (Macintosh) och Thumbs.db-filer (Windows®) information om hur du visar bildfiler för användare. Du kan dock ignorera varningsmeddelanden om de här filerna eftersom de inte gäller hur filerna används i Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
 
 **E (fel)** Visar antalet fel i jobbet (om det finns några). Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om fel.
 
@@ -62,7 +62,7 @@ Använd följande tekniker för att sortera jobb eller ändra vyn på fliken His
 
 **** SorteringVälj ett kolumnnamn om du vill sortera listan efter en viss kolumn. Du kan välja växeln bredvid kolumnnamnet för att sortera i fallande eller stigande ordning.
 
-**DatumintervallVälj** menyn Datumintervall och välj ett alternativ för att begränsa listan med jobb till aktuellt datum, föregående vecka eller föregående månad. Välj Anpassat datumintervall om du vill ange ett specifikt datumintervall.
+**DatumintervallVälj** menyn Datumintervall och välj ett alternativ för att begränsa listan med jobb till aktuellt datum, föregående vecka eller föregående månad. Välj Anpassat datumintervall och ange sedan ett specifikt datumintervall.
 
 **Jobbtyp** Välj menyn Jobbtyp och välj Publicera eller Överför för att begränsa listan till publiceringsjobb eller överföringsjobb. Välj Alla om du vill visa båda typerna av jobb.
 
@@ -116,27 +116,27 @@ I den här tabellen visas tidsökningar, deras tillåtna värden och de jokertec
 
 | Tidssteg | Tillåtna värden | Kommentarer | Jokertecken stöds |
 |--- |--- |--- |--- |
-| Sekunder | 0-59 |  | , - * / |
-| Minuter | 0-59 |  | , - * / |
-| Timmar | 0-23 | Observera användningen av en 24-timmarsklocka. | , - * / |
-| Dag i månaden | 1-31 | Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en ? jokertecken. | , - * / ? L C |
-| Månad | 1-12 eller jan, feb, mar, apr, maj, jun, juli, aug, sep, sep, okt, nov, dec | Värdena är skiftlägeskänsliga. | , - * / |
-| Veckodag | Mån, Tue, Wed, Thu, Fri, Sat, Sun | Värdena är skiftlägeskänsliga. Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en ? jokertecken. | , - * / ? L C # |
-| År (valfritt) | Tom eller 1970-2099 |  | , - * / |
+| Sekunder | 0-59 |  | `, - * /` |
+| Minuter | 0-59 |  | `, - * /` |
+| Timmar | 0-23 | Observera användningen av en 24-timmarsklocka. | `, - * /` |
+| Dag i månaden | 1-31 | Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste innehålla jokertecknet `?`. | `, - * / ? L C` |
+| Månad | 1-12 eller jan, feb, mar, apr, maj, jun, juli, aug, sep, sep, okt, nov, dec | Värdena är skiftlägeskänsliga. | `, - * /` |
+| Veckodag | Mån, Tue, Wed, Thu, Fri, Sat, Sun | Värdena är skiftlägeskänsliga. Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en ? jokertecken. | `, - * / ? L C #` |
+| År (valfritt) | Tom eller 1970-2099 |  | `, - * /` |
 
 
 I den här tabellen beskrivs de jokertecken som är tillåtna i rutan Regel och hur du använder dem:
 
 | Jokertecken | Namn | Vad det beskriver |
 |--- |--- |--- |
-| * | Asterisk | Alla värden (till exempel &quot;varje minut&quot;). |
-| ? | Frågetecken | Inget specifikt värde (t.ex. &quot;någon minut inom den angivna timmen&quot;). |
-| , | Komma | Ytterligare värden (t.ex. &quot;Måndag och onsdag&quot;). |
-| - | Bindestreck | Värdeintervall (t.ex. &quot;Måndag till fredag&quot;). |
-| / | Snedstreck | Ökningar (t.ex. &quot;var 15:e minut&quot;). |
-| L | Versalt L | Sista&quot;dag i månaden&quot; eller&quot;veckodag&quot; (endast tillgängligt för dessa fält). Om månaden till exempel är januari, schemaläggs jobbet för den 31 januari av ett L-värde för fältet &quot;dag i månaden&quot;. För fältet &quot;dag i veckan&quot; kan du ange det här tecknet enbart för att schemalägga jobbet på lördag. Du kan använda den med ett tal (till exempel 6L) för att ange sista fredagen i månaden.Ange inte L med jokertecken för kommatecken eller bindestreck. |
-| # | Nummertecken | &quot;Nth&quot; veckodag i månaden (endast tillgängligt för fältet &quot;day of the week&quot;).Exempelvis anger 6#3 i fältet &quot;day of the week&quot; den tredje fredagen i månaden. De sex betecknar &quot;fredag&quot; (den sjätte dagen i veckan) och de tre betecknar den tredje förekomsten i månaden. |
-| C | # Versalt C | Första kalendern &quot;dag i månaden&quot; eller &quot;veckodag&quot; (endast tillgängligt för dessa fält). Om du till exempel anger värdet 1C för &quot;dag i månaden&quot; schemaläggs den första dagen i kalendern som inträffar den femte dagen eller senare. För fältet &quot;dag i veckan&quot; schemaläggs den första dagen i kalendern som inträffar den första dagen eller efter söndagen när du anger 1C |
+| `*` | Asterisk | Alla värden (till exempel &quot;varje minut&quot;). |
+| `?` | Frågetecken | Inget specifikt värde (t.ex. &quot;någon minut inom den angivna timmen&quot;). |
+| `,` | Komma | Andra värden (t.ex. &quot;Måndag och onsdag&quot;). |
+| `-` | Bindestreck | Värdeintervall (t.ex. &quot;Måndag till fredag&quot;). |
+| `/` | Snedstreck | Ökningar (t.ex. &quot;var 15:e minut&quot;). |
+| `L` | Versalt L | Sista&quot;dag i månaden&quot; eller&quot;veckodag&quot; (endast tillgängligt för dessa fält). Om månaden till exempel är januari, schemaläggs jobbet till den 31 januari med ett L-värde för fältet &quot;dag i månaden&quot;. I fältet Veckodag kan du ange det här tecknet enbart för att schemalägga jobbet på lördag. Du kan använda den med ett tal (till exempel `6L`) för att ange sista fredagen i månaden. Ange inte `L` med jokertecken för kommatecken eller bindestreck. |
+| `#` | Nummertecken | &quot;Nth&quot; veckodag i månaden (endast tillgängligt för fältet &quot;day of the week&quot;). Till exempel anger `6#3` i fältet &quot;veckodag&quot; den tredje fredagen i månaden. `6` betecknar &quot;fredag&quot; (den sjätte dagen i veckan) och `3` den tredje förekomsten i månaden. |
+| `C` | # Versalt C | Första kalendern &quot;dag i månaden&quot; eller &quot;veckodag&quot; (endast tillgängligt för dessa fält). Om du till exempel anger värdet `1C` för &quot;dag i månaden&quot; schemaläggs den första dagen i kalendern som inträffar den femte eller senare. Om du anger `1C` för veckodagen schemaläggs den första dagen i kalendern som inträffar på eller efter söndag |
 
 Den här listan innehåller exempel på hur du beskriver tidsintervall i rutan Regel:
 
@@ -153,6 +153,6 @@ Den här listan innehåller exempel på hur du beskriver tidsintervall i rutan R
 
 ## Använda ett överförings- eller publiceringsjobb som utlösare {#using-an-upload-or-publish-job-as-a-trigger}
 
-När du överför resurser via FTP eller kör ett publiceringsjobb kan du schemalägga ett efterföljande jobb till att börja så fort överföringen är klar. (Om andra jobb är schemalagda att börja vid den tidpunkten står det jobb som du schemalägger här i kö bakom dem.) Det nya jobbet skickar ett meddelande till den adress du anger så att koden på den platsen kan utlösas. Detta uppföljningsjobb får samma namn som det aktuella överföringsjobbet, men med prefixet _Pub.
+När du överför resurser via FTP eller kör ett publiceringsjobb kan du schemalägga ett efterföljande jobb så att det börjar när överföringen är klar. (Om andra jobb är schemalagda att starta, köas jobbet som du schemalägger här bakom dem.) Det nya jobbet skickar ett meddelande till den adress du anger så att koden på den platsen kan utlösas. Detta uppföljningsjobb får samma namn som det aktuella överföringsjobbet, men med prefixet _Pub.
 
 Om du vill att ett överförings- eller publiceringsjobb ska utlösa ett annat jobb väljer du Avancerat på sidan Överför eller Publicera. Ange sedan URL:en i textfältet HTTP-meddelande.
