@@ -10,9 +10,9 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Resurshantering,Metadata
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Mer information om inbäddade metadata finns i [www.adobe.com/go/learn_s7_xmp_en
 
 ## Visa metadata {#view-metadata}
 
-Om du vill visa metadata för en resurs öppnar du resursen i detaljvyn och klickar på panelen Metadata. Välj sedan ett alternativ på menyn Metadatavy för att välja en uppsättning metadatafält. Dynamic Media Classic innehåller följande metadatavyer:
+Om du vill visa metadata för en resurs öppnar du resursen i detaljvyn och trycker på panelen Metadata. Om du vill välja en uppsättning metadatafält väljer du ett alternativ på menyn Metadatavy. Dynamic Media Classic innehåller följande metadatavyer:
 
 * **Kompakt**
 vyEn grundläggande lista med värden.
@@ -59,7 +59,7 @@ Administratörer kan skapa metadatavyer. De här vyerna visas även på menyn Me
 
 ## Lägg till eller redigera nyckelord {#add-or-edit-keywords}
 
-Förutom metadata kan du använda nyckelord som hjälp när du söker efter och hanterar resurser.
+Förutom metadata kan du använda nyckelord för att söka efter och hantera dina resurser.
 
 Om du har lagt till nyckelord till andra filer under den här sessionen, eller om du har tagit bort nyckelord från listan, visas de i tabellen Nyckelordsförslag.
 
@@ -97,21 +97,21 @@ Mer information om standardiserade egenskaper finns i: https://www.adobe.com/dev
 
 Tänk på följande när du identifierar olika metadatatyper som ska importeras:
 
-* Användardefinierade fält identifieras med sitt namn enligt inställningarna > Programinställningar > Metadata > Användardefinierade fält. Använd filfunktionen Generera för att få en lista över alla definierade UDF-filer i rätt importformat.
-* XMP metadataegenskaper måste ha det relaterade XMP-prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Det XMP prefixet finns i Konfigurera > Programinställningar > Metadata > Metadata Schema Editor. De tekniska namnen finns i dokumentationen för det relaterade XMP schemat. Observera att XMP egenskapsnamn inte visas i funktionen Generera fil.
-* Egenskaper för metadataschema måste ha det relaterade prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Prefixet och egenskapsnamnen definieras i metadataschredigeraren. Observera att namn på metadataschemaegenskaper inte visas i funktionen Generera fil.
+* Användardefinierade fält identifieras med sitt namn som de har skapats i Inställningar > Programinställningar > Metadata > Användardefinierade fält. Använd filfunktionen Generera för att få en lista över alla definierade UDF-filer i rätt importformat.
+* XMP metadataegenskaper måste ha det relaterade XMP-prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Det XMP prefixet finns i Konfigurera > Programinställningar > Metadata > Metadata Schema Editor. De tekniska namnen finns i dokumentationen för det relaterade XMP schemat. XMP egenskapsnamn visas inte i funktionen Generera fil.
+* Egenskaper för metadataschema måste ha det relaterade prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Prefixet och egenskapsnamnen definieras i metadataschredigeraren. Namn på metadataschemaegenskaper visas inte i funktionen Generera fil.
 
 Till exempel: Egenskapen XMP för nyckelord är det XMP schemat &quot;Dublin Core&quot; med prefixet &quot;dc&quot; och &quot;subject&quot; är det tekniska XMP. Prefixet och det tekniska XMP namnet kombineras till det fullständiga egenskapsnamnet&quot;dc:subject&quot;. I XML-metadataimportformatet måste &quot;dc.subject&quot; vara egenskapsnamnet. I det tabbavgränsade importformatet måste det vara column-header.
 
 **Importera nyckelord**
 
-Nyckelord kan importeras som kommaseparerade listor. Om ett kommatecken visas i något av de enskilda värdena måste det föregås av ett omvänt snedstreck (\). Ett literalt omvänt snedstreck är det vanliga dubbla snedstrecket (\\).
+Nyckelord kan importeras som kommaavgränsade listor. Om ett kommatecken förekommer i något av de enskilda värdena måste det föregås av ett omvänt snedstreck (\). Ett literalt omvänt snedstreck är det vanliga dubbla snedstrecket (\\).
 
 En metadataimportfil som innehåller värdet &quot;Hello\, World!,back\\slash,foo&quot; för &quot;dc:subject&quot; anger tre XMP nyckelord för resursen: &quot;Hello, World!&quot;, &quot;back\slash&quot; och &quot;foo.&quot;
 
 **Importera metadata för XMP och metadatamatchema XMP filer**
 
-XML-importen accepterar endast giltig XML. När du importerar XMP- eller metadataschefält läggs namnområdesprefixet till och fungerar här som ett XMP-namnutrymme. Detta namnutrymme måste deklareras t.ex. i taggen på den översta nivån.
+XML-importen accepterar endast giltig XML. När du importerar XMP- eller metadatamappningsfält läggs namnområdesprefixet till och fungerar här som ett XMP-namnutrymme. Detta namnutrymme måste deklareras. I taggen på den översta nivån.
 
 Exempel:
 
@@ -131,7 +131,7 @@ Du kan importera metadata för flera filer genom att ange metadata i en tabbavgr
 
 Kontrollera att data i den tabbavgränsade filen eller XML-filen har rätt format. På den första raden anger du ID-fältet följt av namnen på metadatafälten som ska ändras. I varje efterföljande rad anger du ett resurs-ID-namn följt av metadatavärden. Fält som inte finns med i den tabbavgränsade filen eller XML-filen ändras inte.
 
-Klicka på knappen Överför i det globala navigeringsfältet och välj fliken Via FTP på jobbskärmen för att importera metadata. Klicka sedan på Alternativ för jobb. Välj Bearbeta metadatafiler i dialogrutan Alternativ för överföringsjobb.
+Klicka på knappen Överför i det globala navigeringsfältet. Om du vill importera metadata väljer du fliken **[!UICONTROL Via FTP]** på jobbskärmen och klickar sedan på **[!UICONTROL Job Options]**. Välj Bearbeta metadatafiler i dialogrutan Alternativ för överföringsjobb.
 
 ## Döp om ID:n i grupp med hjälp av metadata {#batch-rename-ids-using-metadata}
 
@@ -146,12 +146,11 @@ Exempel:
 | testjacka_1 | Jacket_test_1 |
 | testjacka_blå | Jacket_test_2 |
 
-
-Jobbloggen för metadatajobbet visar vilka ID som har ändrats och vilka som inte gjorde det.
+Jobbloggen för metadatajobbet visar vilka ID:n som har namnändrats och vilka som inte har namnändrats.
 
 ## Skapa en mall för att ange metadata som ska överföras{#create-a-template-for-entering-metadata-to-upload}
 
-I Dynamic Media Classic finns ett kommando för att skapa en mall för att spela in metadata. Genom att använda mallen ser du till att metadata anges i rätt format så att de kan överföras korrekt till Dynamic Media Classic. Så här skapar du en mall som du kan använda när du spelar in och importerar metadata till Dynamic Media Classic:
+I Dynamic Media Classic finns ett kommando för att skapa en mall för att spela in metadata. Genom att använda mallen ser du till att metadata anges i rätt format så att de kan överföras korrekt till Dynamic Media Classic. Så här skapar du en mall för att spela in och importera metadata till Dynamic Media Classic:
 
 1. Välj bildresurser med metadatafält som du vill använda för mallen.
 1. Välj Arkiv > Importera metadata.
@@ -166,19 +165,19 @@ En företagsadministratör kan visa en lista med alla tillgängliga scheman. Öp
 
 Till att börja med är listan med globala standardscheman som XMP dold. De kan visas med hjälp av kryssrutan längst ned i listan.
 
-Företagsadministratören kan skapa ett nytt anpassat schema eller redigera ett befintligt anpassat schema.
+Företagsadministratören kan skapa ett anpassat schema eller redigera ett befintligt anpassat schema.
 
 Du kan använda redigeraren för metadatamatchning för att utföra följande åtgärder:
 
 | Åtgärd | Beskrivning |
 |--- |--- |
-| Lägg till | Lägger till en ny egenskap i schemat. En modal dialogruta samlar in informationen: ID, etikett, struktur och datatyp. |
-| Lägg till alternativvärde | Lägger till ett nytt valbart alternativ till en egenskap med strukturen Open Choice eller Closed Choice. Alla alternativvärden har samma typ. Du måste markera själva egenskapen för att aktivera knappen. |
+| Lägg till | Lägger till en egenskap i schemat. En modal dialogruta samlar in informationen: ID, etikett, struktur och datatyp. |
+| Lägg till alternativvärde | Lägger till ett nytt valbart alternativ till en egenskap med strukturen Open Choice eller Closed Choice. Alla alternativvärden har samma typ. Markera själva egenskapen för att aktivera knappen. |
 | Redigera | Redigera Label för en egenskap eller ett valfritt värde. Du kan bara ändra etikett-, ID- och typinformation som inte kan ändras. |
 | Flytta upp/Flytta ned | Ordningen i schemat återspeglas i användargränssnittet. Om du vill ändra ordningen markerar du en egenskap eller ett valvärde och flyttar den med knapparna. Dra och släpp stöds för närvarande inte. |
-| Ta bort | Tar bort en egenskap eller ett urvalsvärde från schemat. Detta tar inte bort värden från XMP eller databasen. Egenskapen är inte längre tillgänglig för metadatavyer och tas bort från vyn Resursdetaljer.Om egenskapen publicerades på metadataservern utför du en tvingad publicering för att ta bort data från den offentliga metadataservern. |
+| Ta bort | Tar bort en egenskap eller ett urvalsvärde från schemat. Värden tas inte bort från XMP eller databasen. Egenskapen är inte längre tillgänglig för metadatavyer och tas bort från vyn Resursdetaljer. Om egenskapen publicerades på metadataservern utför du en tvingad publicering för att ta bort data från den publika metadataservern. |
 
-Systemet genererar automatiskt ett anpassat schema för användardefinierade fält med prefixet &quot;s7udf&quot;. Detta är de befintliga användardefinierade fälten och redigeras i ett eget inställningsavsnitt.
+Systemet genererar automatiskt ett anpassat schema för användardefinierade fält med prefixet &quot;s7udf&quot;. Det är befintliga användardefinierade fält och de redigeras i sina egna inställningsavsnitt.
 
 >[!NOTE]
 >
@@ -192,7 +191,7 @@ Metadata Schema Editor är ett grafiskt sätt att lägga till eller redigera ett
 
 * Prefix
 
-   Teknisk unik identifierare för schemat. Begränsat till bokstäverna a-z och A-Z. Prefixet visas inte i Dynamic Media Classic-gränssnittet, utan används när metadata för en resurs lagras i XMP och i vår databas. Prefixet används för att unikt identifiera metadatafält i metadatasökning på Metadataservern eller import.
+   Teknisk unik identifierare för schemat. Begränsat till bokstäverna a-z och A-Z. Prefixet visas inte i Dynamic Media Classic-gränssnittet, utan används när metadata för en resurs lagras i XMP och i databasen. Prefixet används för att unikt identifiera metadatafält i metadatasökning på Metadataservern eller import.
 
 * Namnutrymme
 
@@ -210,7 +209,7 @@ Egenskaper beskriver de metadata som kan lagras med det här schemat i XMP. En e
 
 | Egenskap | Beskrivning |
 |--- |--- |
-| ID | Teknisk identifierare för den här egenskapen. ID:t visas inte i Dynamic Media Classic-gränssnittet, utan används när metadata för en resurs lagras i XMP och i vår databas. ID:t används för att skapa sökfrågor på metadataservern. ID:t har vissa begränsningar som: <ul><li>Inga blanksteg</li><li>Nej &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Inget tal som första tecken</li><li>Bästa sättet är att använda a-z eller A-Z som första tecken</li></ul> <br>När du har skapat det går det inte att ändra ID:t. |
+| ID | Teknisk identifierare för den här egenskapen. ID:t visas inte i Dynamic Media Classic-gränssnittet, utan används när metadata för en resurs lagras i XMP och i databasen. ID:t används för att skapa sökfrågor på metadataservern. ID:t har vissa begränsningar som: <ul><li>Inga blanksteg</li><li>Nej &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>Inget tal som första tecken</li><li>Bästa sättet är att använda a-z eller A-Z som första tecken</li></ul> <br>När du har skapat det går det inte att ändra ID:t. |
 | Etikett | Användargränssnittsnamn för den här egenskapen. |
 | Struktur | Anger egenskapens typ tillsammans med datatypen. Strukturen kan vara någon av:<ul><li>Enkel typ: ett värde för datatypen</li><li>Sekvens: en lista med värden av samma datatyp</li><li>Open Choice: markera ett objekt i en lista med fördefinierade värden, eller ange fritext. Kan bara vara av datatypen String eller Integer</li><li>Stängt val: markera ett objekt i en lista med fördefinierade värden (ett popup-fönster eller kombinationsruta)</li></ul> |
 | Datatyp | Välj bland följande tillgängliga typer: <ul><li>Sträng</li><li>Heltal</li><li>Float</li><li>Ja/Nej (booleskt)</li><li>Datum</li></ul> |
