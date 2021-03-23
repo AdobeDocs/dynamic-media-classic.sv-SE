@@ -10,7 +10,7 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Administratör
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 SEO är processen att förbättra trafiken till en webbplats från sökmotorer. Sökmotorer är utmärkta på att samla in information om textbaserat innehåll, men de kan inte hämta in information om video på ett adekvat sätt om de inte får den här informationen.
 
-Med Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. I Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. Det här är XML-filer av standardtyp för att skicka videoinformation till sökmotorer:
+Med hjälp av Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. Dessa XML-filer används för att skicka videoinformation till sökmotorer:
 
-**Video** SitemapInformerar Google om exakt var och vad videomaterialet finns på en webbplats. Därför är videor helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor finns på https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
+**Video** SitemapInformerar Google om exakt var och vad videomaterialet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor finns på https://www.google.com/support/webmasters/bin/answer.py?answer=80471.
 
 **mRSS-** feed (Media Really Simple Syndication)Används av utgivare för att skicka mediefiler till Yahoo! Videosökning. Mer information om mRSS-flöden finns på https://www.rssboard.org/media-rss.
 
@@ -38,7 +38,7 @@ Dynamic Media Classic kan generera videosemappningar och mRSS-flöden från meta
 >
 >Innan du skapar en webbplatskarta för video eller RSS-feed bör du ta reda på vilka fält sökmotorn behöver i XML-filen och hur du strukturerar dessa fält. Om du vill skapa en lyckad webbplatskarta för video eller mRSS-feed måste den uppfylla kraven i sökmotorn.
 
-I Dynamic Media Classic skapas rapporter om webbplatskartor för video och mRSS-flöden när du har genererat dem. Dessa rapporter finns på videons SEO-rapportskärm.
+I Dynamic Media Classic skapas rapporter om webbplatskartor för video och mRSS-flöden när du har genererat dem. Rapporterna finns på videons SEO-rapportskärm.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Välj ett rapportläge i listrutan Genereringsläge:
 
 **** BådaSkapa båda typerna av XML-filer.
 
-**** AvVälj det här alternativet om du vill sluta generera videosemappningar och en mRSS-matning (Media RSS).
+**** AvVälj det här alternativet om du vill sluta generera video-platskartor och media-RSS-flöden (mRSS).
 
 I listrutan Automatiskt/Manuellt läge väljer du om du vill generera automatiskt eller manuellt:
 
@@ -93,7 +93,7 @@ I området Genereringsinställningar visas indatafält för Video Sitemap och/el
 
 >[!NOTE]
 >
->Du måste publicera webbplatskartan för video eller mRSS-flöden innan du kan skicka den till sökmotorer. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera dessa XML-filer för publicering, om det behövs, och klicka på Publicera.
+>Publicera webbplatskartan för video eller mRSS-flöden innan du kan skicka den till sökmotorer. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera dessa XML-filer för publicering, om det behövs, och klicka på Publicera.
 
 ## Skicka videowebbplatskartor och RSS-feed-filer till sökmotorer {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
