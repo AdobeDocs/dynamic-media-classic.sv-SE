@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Visningsprogram,eCatalog
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Överföra PDF-filer{#uploading-the-pdf-files}
 
-Vanligtvis är Adobe PDF-filer källan till en e-katalog. dessa filer innehåller all bildinformation samt teckensnitt och vektorgrafik. Du kan även skapa en e-katalog med bilder. När du har förberett PDF-filerna för överföring markerar du knappen Överför i fältet Global navigering för att börja överföra PDF-filerna.
+Vanligtvis är Adobe PDF-filer källa för en e-katalog. Dessa filer innehåller all bildinformation, teckensnitt och vektorgrafik. Du kan även skapa en e-katalog med bilder. När du har förberett PDF-filerna för överföring markerar du knappen Överför i fältet Global navigering för att börja överföra PDF-filerna.
 
 ## Förbereda PDF-filer {#preparing-your-pdf-files}
 
 Förbered PDF-filerna innan du överför dem till Dynamic Media Classic:
 
-* Placera alla filer i samma mapp på datorn eller i nätverket så att det blir enklare att överföra filerna.
+* Om du vill göra det enklare att överföra filerna placerar du alla filer i samma mapp på datorn eller i nätverket.
 * Namnge filerna i alfanumerisk ordning per sida. Om du beställer sidorna blir det enklare att placera sidorna i rätt ordning efter att filerna har överförts.
-* Granska PDF-sidorna för att se om de innehåller skärmärken, registreringsmål eller färgfält. Dessa märken avgör var papperet ska skäras när dokumenten skrivs ut. måste tas bort innan din eCatalog kan placeras på webben. I Dynamic Media Classic finns alternativ för beskärningsmärken när du överför PDF-filer.
+* Granska sidorna om du vill se om PDF-sidorna innehåller skärmärken, registreringsmål eller färgfält. Dessa märken avgör var papperet ska skäras när dokumenten skrivs ut. måste tas bort innan din eCatalog kan placeras på webben. I Dynamic Media Classic finns alternativ för beskärningsmärken när du överför PDF-filer.
 * Om du vill att tittarna ska söka i din e-katalog med nyckelord, ta reda på om PDF-filerna är förenklade. Du kan inte extrahera sökord från förenklade PDF-filer. Om du vill ta reda på om en PDF-fil är förenklad kan du försöka markera text i den. Om du inte kan markera text förenklas PDF-filen och visningsprogrammen kan inte söka efter nyckelord i din eCatalog.
 * Eftersom de ska skrivas ut innehåller PDF-filerna vanligtvis CMYK-bilder. Som standard kan Dynamic Media Classic identifiera dessa CMYK-bilder på ett intelligent sätt och konvertera dem med en intern CMYK-färgprofil. Om du vill använda en egen färgprofil för att konvertera CMYK-bilder kan du göra det.
 
@@ -40,7 +40,7 @@ Mer information om de olika överföringsmetoderna finns i [Överföra filer](up
 Markera de filer som du vill överföra och välj sedan följande *metodtips* PDF-alternativ:
 
 * ****
-BeskärVälj Beskär-menyn och välj Manuell om sidorna innehåller skärmärken, passmärken eller andra märken. Ange antalet pixlar att beskära från sidans övre, högra, nedre och vänstra sidor. Skärmärken är vanligtvis inställda på en halv-tumsmarginal. Om du väljer 150 som pixel per tum-upplösning (den rekommenderade inställningen) beskärs en halv tum från marginalerna om du anger 75, 75, 75 i textrutorna Överkant, Höger, Underkant och Vänster (vid 150 ppi, hälften av en tum är lika med 75 pixlar).
+BeskärVälj Beskär-menyn och välj Manuell om sidorna innehåller skärmärken, passmärken eller andra märken. Ange antalet pixlar att beskära från sidans övre, högra, nedre och vänstra sidor. Skärmärken är ofta inställda på en halv-tumsmarginal. Anta att du väljer 150 (rekommenderas) som pixel per tum och anger 75, 75, 75, 75, 75 i textrutorna Överkant, Höger, Underkant och Vänster. I så fall beskärs en halv tum från marginalerna (vid 150 ppi motsvarar hälften av 1 75 pixlar).
 
 * ****
 BearbetningVälj menyn Bearbetning och sedan Rastrera. PDF-filen måste rastreras så att alla sidor och bilder kan visas i e-katalogen.
