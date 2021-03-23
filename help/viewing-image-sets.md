@@ -10,7 +10,7 @@ discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -57,11 +57,11 @@ Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visnin
    * Välj en resurs i fönstret Resurser. Klicka på **Arkiv** > **Förhandsgranska** i verktygsfältet.
 
 1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
-1. Klicka på en visningsprogramlänk om du vill förhandsgranska resursen i det valda visningsprogrammet.
+1. Om du vill förhandsgranska resursen i det valda visningsprogrammet klickar du på en visningsprogramlänk.
 
    När du klickar på en viss visningsprogramlänk kopieras den associerade URL:en automatiskt till Urklipp.
 
-1. Stäng visningsprogrammet för att återgå till förhandsgranskningsskärmen.
+1. Om du vill gå tillbaka till förhandsgranskningsskärmen stänger du visningsprogrammet.
 1. Klicka på **Stäng** för att återgå till skärmen Resurser.
 
 >[!MORELIKETHIS]
