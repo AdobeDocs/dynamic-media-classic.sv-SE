@@ -10,9 +10,9 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Visningsprogram,Video
 role: Yrkesverksamma inom affärsverksamhet
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,17 @@ ht-degree: 0%
 
 # Bästa tillvägagångssätt för att använda HTML5 Video Viewer{#best-practice-using-the-html-video-viewer}
 
-Förinställningarna för visningsprogrammet för Dynamic Media Classic HTML5-video är robusta videospelare. På designsidan av spelaren kan du skapa alla videospelarens funktioner med standardverktyg för webbutveckling. Du kan till exempel utforma knappar, kontroller och anpassad förhandsgranskningsbildbakgrund med HTML5 och CSS så att du kan nå dina kunder med ett anpassat utseende.
+Förinställningarna för visningsprogrammet för Dynamic Media Classic HTML5-video är robusta videospelare. På designsidan av spelaren kan du skapa hela videospelarens funktioner med standardverktyg för webbutveckling. Du kan till exempel utforma knappar, kontroller och anpassad förhandsgranskningsbildbakgrund med HTML5 och CSS så att du kan nå dina kunder med ett anpassat utseende.
 
 På visningsprogrammets uppspelningssida identifieras webbläsarens videokapacitet automatiskt. Sedan visas videon med HLS (adaptive video streaming). Om leveransmetoden inte finns används HTML5 Progressiv i stället.
 
-Genom att i en enda spelare kombinera möjligheten att utforma uppspelningskomponenterna med HTML5 och CSS, ha inbäddad uppspelning och använda adaptiv och progressiv strömning beroende på webbläsarens kapacitet, kan du utöka räckvidden för ditt multimedieinnehåll till både dator- och mobilanvändare och säkerställa en smidig videoupplevelse.
+Genom att kombinera följande funktioner i en enda spelare:
+
+* Uppspelningskomponenter utformade med HTML5 och CSS
+* Inbäddad uppspelning
+* Användning av adaptiv och progressiv strömning baserat på webbläsarens kapacitet
+
+Du kan göra multimediematerialet tillgängligt för både dator- och mobilanvändare. Du får också en smidig videoupplevelse.
 
 Se även [Om HTML5-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) i referenshandboken för Adobe-visningsprogram.
 
@@ -38,15 +44,15 @@ I följande tabell beskrivs enheten, webbläsaren och uppspelningsmetoden för v
 
 | Enhet | Webbläsare | Videouppspelningsläge |
 |--- |--- |--- |
-| Stationär | Internet Explorer 9 och 10 | Progressiv nedladdning. |
+| Skrivbord | Internet Explorer 9 och 10 | Progressiv nedladdning. |
 | Skrivbord | Internet Explorer 11+ | HLS-videoströmning. |
 | Skrivbord | Firefox 23-44 | Progressiv nedladdning. |
 | Skrivbord | Firefox 45 eller senare | HLS-videoströmning. |
 | Skrivbord | Krom | HLS-videoströmning. |
 | Skrivbord | Safari (Mac) | HLS-videoströmning. |
-| Mobil | Chrome (Android 6 eller tidigare) | Progressiv nedladdning. |
-| Mobil | Chrome (Android 7 eller senare) | HLS-videoströmning. |
-| Mobil | Android (standardwebbläsare) | Progressiv nedladdning. |
+| Mobil | Chrome (Android™ 6 eller tidigare) | Progressiv nedladdning. |
+| Mobil | Chrome (Android™ 7 eller senare) | HLS-videoströmning. |
+| Mobil | Android™ (standardwebbläsare) | Progressiv nedladdning. |
 | Mobil | Safari (iOS) | HLS-videoströmning. |
 | Mobil | Chrome (iOS) | HLS-videoströmning. |
-| Mobil | Blackberry | HLS-videoströmning. |
+| Mobil | BlackBerry® | HLS-videoströmning. |
