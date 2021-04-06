@@ -8,13 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Administratör,Affärsledare
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9801d5707bef099da72f9163826188b703e75168
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Stöd för {#support}
 
@@ -23,13 +22,15 @@ Teknisk support är utformad för att uppfylla behoven hos alla större företag
 | Support | Prenumeration |
 |--- |--- |
 | Ärendegräns | Obegränsat. |
-| Svarstid | Se Frågor och svar på [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/se/contact/enterprise-support.ec.html). |
-| SLA (servicenivåavtal) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Kontrollera systemstatus för Adobe | [Dynamic Media Classic-systemstatus](https://status.adobe.com/products/1175). |
+| Hittar du inget svar? | [Öppna en biljett](https://experienceleague.adobe.com/?support-solution=General#support) om du vill få hjälp från supporten. |
+| Community-forum | [Experience Manager forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| SLA (servicenivåavtal) | [Supporttjänster / Villkor](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Användare som stöds | Upp till tio användare per organisation kan utses till Användare som stöds, som kan öppna ärenden med kundtjänst. |
-| Socialt stöd | Se Frågor och svar på [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html). |
 | Kostnadsfria självstudiekurser på webben och video | Ingår. |
-| Skapa ett supportärende | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
-| Telefonsupport | <ul><li>USA/Kanada: (800) 898-9743, (800)497-033, (408)454-5910 </li> <li>Japan: +81-3-6743-9632 </li><li>Storbritannien: +44 (0)20 35641782</li><li>Tyskland: +49 (0)69 51709005</li><li>Frankrike: +33 157324085</li><li>Nederländerna: +31 (0)20 2035138 (Stöd för helger på engelska)</li></ul> |
+| Telefonsupport | <ul><li>USA och Kanada: 1-800-497-0335 </li><li>[Telefonnummer för andra regioner](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
+
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 När du rapporterar problem till den tekniska supporten ska du inkludera följande information:
 
@@ -39,4 +40,3 @@ När du rapporterar problem till den tekniska supporten ska du inkludera följan
 * Problembeskrivning och nödvändiga steg för att återskapa problemet.
 * Eventuellt felmeddelande.
 * Webbläsartyp och version, om tillämpligt.
-
