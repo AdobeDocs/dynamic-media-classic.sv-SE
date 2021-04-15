@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Resurshantering
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Arbeta med resursmappar{#working-with-asset-folders}
 
@@ -28,26 +28,22 @@ Se till att du har en mappstruktur och organisation för lagring av filer i Dyna
 
 I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resursbiblioteket visas dess innehåll på panelen Bläddra. Använd de här teknikerna för att söka efter mappar i mappträdet:
 
-* **Visa**
-undermapparVälj ikonen Expandera mapp om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
+* **Visa undermappar** - Välj ikonen Expandera mapp om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
 
-* **Flytta en**
-mappDu kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att välja Arkiv > Flytta mapp.
+* **Flytta en mapp** - Du kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att välja Arkiv > Flytta mapp.
 
-* **Dölja**
-mapparMarkera ikonen Dölj mapp om du vill komprimera undermappar. Den här ikonen finns till vänster om mappnamn.
+* **Döljer mappar** - Markera ikonen Dölj mapp om du vill komprimera undermappar. Den här ikonen finns till vänster om mappnamn.
 
-* **Öppna en**
-mappMarkera en mapp om du vill visa dess innehåll på panelen Bläddra.
+* **Öppna en mapp** - Välj en mapp för att visa dess innehåll på panelen Bläddra.
 
 ***Tips **: Du kan dölja eller visa resursbiblioteket genom att klicka på kontrollen Utöka/komprimera till vänster. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.*
 
 ## Skapar mappar {#creating-folders}
 
-Så här skapar du en mapp:
+Så här skapar du mappar:
 
 1. I resursbiblioteket markerar du den mapp du vill skapa en mapp i.
-1. Välj knappen Lägg till mapp. Den här ikonen finns högst upp i mapplistan.
+1. Välj knappen **[!UICONTROL Add Folder]**. Den här ikonen visas högst upp i mapplistan.
 1. Ange ett beskrivande namn för den nya mappen eller undermappen genom att skriva in den i fältet bredvid mappikonen.
 
    >[!NOTE]
@@ -58,11 +54,9 @@ Så här skapar du en mapp:
 
 Markera en mapp och använd dessa tekniker för att ta bort eller byta namn på den:
 
-* **Ta**
-bortVälj knappen Ta bort mapp . Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
+* **Ta bort** - Klicka på knappen Ta bort mapp . Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
 
-* **Byt**
-namnDubbelklicka på namnet och ange ett nytt namn.
+* **Byt namn**  - Dubbelklicka på namnet och ange ett nytt namn.
 
 >[!NOTE]
 >
