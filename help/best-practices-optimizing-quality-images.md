@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Resurshantering
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1465'
 ht-degree: 3%
 
 ---
-
 
 # Bästa tillvägagångssätt för att optimera bildkvaliteten{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Se även [Smart bildbehandling](https://experienceleague.adobe.com/docs/experien
 
 * JPG eller PNG är de bästa alternativen för att leverera bilder med god kvalitet och hanterbar storlek och vikt.
 * Om inget formatkommando anges i URL:en används som standard JPG för leverans i Dynamic Media Image Serving.
-* JPG komprimeras med förhållandet 10:1 och ger vanligtvis mindre bildfilsstorlekar. PNG komprimeras med ett förhållande på cirka 2:1, utom i vissa fall, till exempel när bilder innehåller en tom bakgrund. Vanligtvis är PNG-filernas storlek större än JPG-filer.
+* JPG komprimeras med förhållandet 10:1 och ger vanligtvis mindre bildfilsstorlekar. PNG komprimeras med ett förhållande på cirka 2:1, förutom ibland när bilder innehåller en tom bakgrund. Vanligtvis är PNG-filernas storlek större än JPG-filer.
 * JPG använder förstörande komprimering, vilket innebär att bildelement (pixlar) tas bort under komprimeringen. PNG använder däremot förlustfri komprimering.
 * JPG komprimerar ofta fotografiska bilder med bättre återgivning än syntetiska bilder med skarpa kanter och kontrast.
 * Om dina bilder innehåller genomskinlighet kan du använda PNG eftersom JPG inte har stöd för genomskinlighet.
@@ -52,7 +52,7 @@ Best practices white paper [Sharpening images in Adobe Dynamic Media Classic and
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Med Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid leverans eller både och. I de flesta fall bör du emellertid skärpa upp bilder med endast en metod eller med en annan, men inte med båda metoderna. Att skärpa bilderna vid leverans, på en URL-adress, ger oftast bäst resultat.
+Med Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid leverans eller både och. Normalt kan du emellertid skärpa upp bilder med bara en metod eller med en annan, men inte med båda metoderna. Att skärpa bilderna vid leverans, på en URL-adress, ger oftast bäst resultat.
 
 Det finns två metoder för bildskärpa:
 
@@ -100,7 +100,7 @@ Det bästa sättet att använda JPG-komprimering är att använda `&qlt=85,0`.
 
 ## Bästa tillvägagångssätt för JPEG-storleksändring (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
-`jpegSize` är en användbar parameter om du vill garantera att en bild inte överskrider en viss storlek för leverans till enheter som har begränsat minne.
+Parametern `jpegSize` är användbar om du vill garantera att en bild inte överskrider en viss storlek för leverans till enheter som har begränsat minne.
 
 * Den här parametern anges i kilobyte ( `jpegSize=<size_in_kilobytes>`). Det definierar den största tillåtna storleken för bildleverans.
 * `&jpegSize=` interagerar med JPG-komprimeringsparametern  `&qlt=`. Om JPG-svaret med den angivna JPG-komprimeringsparametern ( `&qlt=`) inte överskrider `jpegSize`-värdet returneras bilden med `&qlt=` enligt definitionen. Annars minskas `&qlt=` gradvis tills bilden får plats i den högsta tillåtna storleken, eller tills systemet fastställer att den inte får plats och returnerar ett fel.
@@ -119,8 +119,8 @@ Om bilden behöver optimeras ytterligare finjusterar du stegvis skärpeparametra
 
 Om skärpeeffekten fortfarande inte är tillräcklig ökar du radien i decimalsteg. För varje decimalsteg startar du om beloppet vid 1,75 och ökar det gradvis till 4. Upprepa den här processen tills du uppnår önskat resultat. Värdena ovan är en metod som de kreativa studierna har validerat, men kom ihåg att du kan börja med andra värden och följa andra strategier. Oavsett om resultaten är tillfredsställande för dig eller inte är en subjektiv fråga, så är strukturerade experiment avgörande.
 
-När du experimenterar kan du också hitta följande allmänna förslag som kan hjälpa dig att optimera arbetsflödet:
+Följande allmänna förslag är användbara när du experimenterar för att optimera arbetsflödet:
 
-* Testa och testa olika parametrar i realtid, antingen direkt på en Dynamic Media Classic-URL eller med Dynamic Media Classic-objektets bildjusteringsfunktion som ger förhandsgranskning i realtid för justeringsåtgärder.
-* Det är en god vana att gruppera Dynamic Media Image Serving-kommandon i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg gör att dessa förinställningar anropas. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
-* I Dynamic Media Classic finns också mer avancerade sätt att finjustera bildkvaliteten, till exempel genom att använda skärpebilder vid förtäring. I avancerade fall där detta kan vara ett alternativ för att ytterligare finjustera och optimera återgivningsresultaten kan Adobe Professional Services hjälpa dig med anpassade insikter och bästa metoder.
+* Prova och testa olika parametrar i realtid, antingen direkt på en Dynamic Media Classic-webbadress eller med Dynamic Media Classic. Den senare ger förhandsvisningar i realtid för justeringsåtgärder.
+* Det är en god vana att gruppera Dynamic Media Image Serving-kommandon i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg anropar de här förinställningarna. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
+* I Dynamic Media Classic finns också mer avancerade sätt att finjustera bildkvaliteten, till exempel genom att tillämpa bildskärpa vid intag. För avancerade användningsområden där ytterligare justering och optimering av återgivna resultat är ett alternativ kan Adobe Professional Services hjälpa dig med anpassade insikter och bästa metoder.
