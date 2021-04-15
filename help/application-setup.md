@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
-role: Administratör
+role: Administrator
+exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '10919'
+source-wordcount: '10918'
 ht-degree: 3%
 
 ---
-
 
 # Programinställningar{#application-setup}
 
@@ -358,7 +358,7 @@ En förinställning för kodning som fungerar med alla proportioner så att du k
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto x 360, 800 kbit/s | _Mobile_Autox360p_800K | 800 | Autox360 | Samma som källan | 64 | För mobiler (iPhone, iPad, Android) |
 | 2 | Auto x 480, 1 400 kbit/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Samma som källan | 96 | För surfplattor (iPad, Android) |
-| 3 | Auto x 720, 2 600 kbit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Samma som källan | 128 | För datorer |
+| 1 | Auto x 720, 2 600 kbit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Samma som källan | 128 | För datorer |
 
 ### Adaptiv videokodning (16:9 eller 4:3) videoförinställningar {#adaptive-video-encoding-or-video-presets}
 
@@ -370,9 +370,9 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativ fö
 
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
+| 3 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | 4:3, 384x288px, Mobil (iPhone, iPad, Android), (400 kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
-| 3 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (600 kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 1 | 16:9, 512x288, Mobil (iPhone, iPad, Android), (600 kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
 | 4 | 4:3, 384x288, Mobil (iPhone, iPad, Android), (600 kbit/s) | 700 | _Mobile_384x288_600 | 600 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
 | 5 | 16:9, 640x360, surfplatta (iPad, Android), (800 kbit/s) | 900 | _iPad_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelhög upplösning, WiFi |
 | 6 | 4:3, 640x480, surfplatta (iPad, Android), (800 kbit/s) | 900 | _iPad_640x480_800K | 800 | 640x480 | Samma som källan | 80 | Medelhög upplösning, WiFi |
@@ -391,8 +391,8 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270 (400 kbit/s) | 500 | _480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
-| 2 | 16:9, 640x360 (800 kbit/s) | 900 | _640x360_800K | 600 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
+| 3 | 16:9, 480x270 (400 kbit/s) | 500 | _480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
+| 2 | 16:9, 640x360 (800 kbit/s) | 900 | _640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
 | 1 | 16:9, 800x450 (1 200 kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
 | 4 | 16:9, 1 280 x 720 (2 000 kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
 | 5 | 4:3, 320x240 (400 kbit/s) | 500 | _320x240_400K | 400 | 320x240 | Samma som källan | 64 | Låg upplösning |
@@ -404,9 +404,9 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 480x270 (400 kbit/s), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
+| 1 | 16:9, 480x270 (400 kbit/s), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
 | 2 | 16:9, 640x360 (800 kbit/s), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
-| 1 | 16:9, 800x450 (1 200 kbit/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
+| 3 | 16:9, 800x450 (1 200 kbit/s), OGG | 1,5 Mbit/s | _OGG_800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
 | 4 | 16:9, 1 280 x 720 (2 000 kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
 | 5 | 4:3, 320x240 (400 kbit/s), OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | Samma som källan | 64 | Låg upplösning |
 | 6 | 4:3, 480x360 (800 kbit/s), OGG | 900 | _OGG_480x360_800K | 600 | 480x360 | Samma som källan | 80 | Medelhög upplösning |
@@ -424,13 +424,13 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videobithastighet (kbit/s) | Pixelbredd/höjd | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 512x288, mobil (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
-| 2 | 16:9, 512x288, mobil (600 kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 3 | 16:9, 512x288, mobil (800 kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
+| 2 | 16:9, 512x288, mobil (600 kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 1 | 16:9, 512x288, mobil (800 kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
 | 4 | 16:9, 512x288, mobil (1 000 kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1000 | 512x288 | Samma som källan | 80 | Hög upplösning, Wi-Fi |
 | 5 | 16:9, 512x288, mobil (1 200 kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1200 | 512x288 | Samma som källan | 96 | Hög upplösning, Wi-Fi |
 | 6 | 4:3, 384x288, mobil (400 kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 7 | 4:3, 384x288, mobil (600 kbit/s) | 700 | _Mobile_384x288_600K | 800 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 8 | 4:3, 448x336, mobil (800 kbit/s) | 900 | _Mobile_448x336_800K | 800 | 448x336 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
+| 8 | 4:3, 448x336, mobil (800 kbit/s) | 900 | _Mobile_448x336_800K | 600 | 448x336 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
 | 9 | 4:3, 448x336, mobil (1 000 kbit/s) | 1,2 Mbit/s | _Mobile_448x336_1000K | 1000 | 448x336 | Samma som källan | 80 | Hög upplösning, Wi-Fi |
 | 10 | 4:3, 448x336, mobil (1 200 kbit/s) | 1,5 Mbit/s | _Mobile_448x336_1200K | 1200 | 448x336 | Samma som källan | 96 | Hög upplösning, Wi-Fi |
 
