@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 0%
+source-wordcount: '95'
+ht-degree: 2%
 
 ---
-
 
 # Automatiserad generering av bilduppsättning{#automated-image-set-generation}
 
@@ -34,12 +34,11 @@ Du kan automatisera genereringen av uppsättningar som ett oberoende jobb som in
 
 **Automatisera generering av bilduppsättningar**
 
-1. Klicka på **Arkiv** > **Generera uppsättning**.
+1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
 1. Ange ett jobbnamn i dialogrutan Generera uppsättning.
 
    Som standard får jobbet ett namn som anger att det är ett genererat jobb och när jobbet genererades.
 
 1. Markera den förinställning som du vill använda.
-1. Klicka på **Målmapp** och ange den mapp som du vill använda.
-1. Klicka på **Skicka**.
-
+1. Klicka på **[!UICONTROL Destination Folder]** och ange den mapp som du vill använda.
+1. Klicka på **[!UICONTROL Submit]**.
