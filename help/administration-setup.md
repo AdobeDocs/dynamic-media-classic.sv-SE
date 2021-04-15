@@ -7,15 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
-role: Administratör
+role: Administrator
+exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1938'
 ht-degree: 0%
 
 ---
-
 
 <!-- UPDATE TOPIC AFTER DECEMBER 31, 2020!!!! -->
 
@@ -73,7 +73,7 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
 Du kan ta bort användare från Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
 
-1. Klicka på **Konfigurera** > **Programinställningar** > A **Administrationsinställningar** > **Användaradministration**.
+1. Klicka på **Inställningar** > **Programinställningar** > **Administrationsinställningar** > **Användaradministration**.
 1. Välj en användare i listan och klicka sedan på **Redigera**.
 1. Avmarkera Giltig.
 1. Klicka på **Spara**.
@@ -82,14 +82,14 @@ Du kan ta bort användare från Dynamic Media Classic genom att göra dem ogilti
 
 Användare som har inaktiverats har inte längre behörighet att ange kontot som visas högst upp på menyn Välj konton att komma åt.
 
-1. Klicka på **Konfigurera** > **Programinställningar** > A **Administrationsinställningar** > **Användaradministration**.
+1. Klicka på **Inställningar** > **Programinställningar** > **Administrationsinställningar** > **Användaradministration**.
 1. Markera eller avmarkera alternativet Aktiv bredvid användarens namn i användarlistan.
 
 ### Redigera användarinformation {#editing-user-information}
 
 Vilken användarinformation du kan redigera beror på din roll som administratör och den tilldelade rollen för den användare vars information du vill redigera. Alternativ som är nedtonade (inte tillgängliga) går inte att redigera.
 
-1. Gå till **Inställningar** > **Programinställningar** A **Administrationsinställningar** > **Användaradministration**.
+1. Gå till **Inställningar** > **Programinställningar** > **Administrationsinställningar** > **Användaradministration**.
 1. Markera användaren och klicka på **Redigera**.
 1. Markera den post i tabellen som visar det företag du försöker ändra behörigheter eller åtkomst för och klicka sedan på länken Hantera företag.
 1. Välj användarroll.
@@ -102,15 +102,15 @@ Du kan filtrera och sortera användarlistan för att hitta användare. Alla anv�
 
 Du kan använda följande filtertekniker för användarlistor:
 
-**Filtrera efter** gruppVälj menyn Efter grupp och välj ett alternativ för att begränsa listan till användare i en grupp.
+* **Filtrera efter grupp** - Välj menyn Efter grupp och välj ett alternativ för att begränsa listan till användare i en grupp.
 
-**Filtrera efter** användarrollVälj menyn Efter användarroll och välj ett alternativ för att begränsa listan till användare eller administratörer av olika typer.
+* **Filtrera efter användarroll** - Välj menyn Efter användarroll och välj ett alternativ för att begränsa listan till användare eller administratörer av olika typer.
 
-**Filtrera efter fältnamn** Markera alternativet Aktivera filter efter fält. Välj sedan menyn Efter fältnamn, välj en kolumn för filtrering av listan, välj menyn Filtertecken och välj en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Avmarkera alternativet Aktivera filter efter fält för att se hela listan.
+* **Filtrera efter fältnamn**  - Välj alternativet Aktivera filter efter fält. Välj sedan menyn Efter fältnamn, välj en kolumn för filtrering av listan, välj menyn Filtertecken och välj en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Avmarkera alternativet Aktivera filter efter fält för att se hela listan.
 
-**Filtrera bort ogiltiga** användareAvmarkera alternativet Inkludera ogiltiga. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton du administrerar.
+* **Filtrera bort ogiltiga användare**  - Avmarkera alternativet Inkludera ogiltiga. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton du administrerar.
 
-**Sortera efter** kolumnrubrikKlicka på en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress, efter användarroll eller efter giltig/ogiltig status.
+* **Sortera efter kolumnrubrik**  - Klicka på en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress, efter användarroll eller efter giltig/ogiltig status.
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
@@ -161,20 +161,19 @@ I följande tabell beskrivs rapporter som du kan generera från skärmen Bandbre
 | Videoströmning | Bandbreddsanvändning för direktuppspelad video | Spåra direktuppspelad videoanvändning efter företag över vissa datumintervall för att fastställa trafikmönster. |
 | Videoinnehåll | Spela upp tid för olika videoklipp | Avgör vilka som är de mest visade och minst visade videoklippen. |
 
-
 Rapporten Bildinnehåll innehåller information om begäranden för följande bildtyper:
 
-**Image** RequestRequests för bilder.
+* **Bildbegäran**  - bildbegäran.
 
-**Miniatyrbild** RequestRequests för färgruta eller alternativa bilder i visningsprogram.
+* **Miniatyrbildsbegäran**  - begäran om färgruta eller alternativa bilder i visningsprogram.
 
-**Maskera** begäranBegär bilder som returnerar gråskalemasker.
+* **Maskbegäran**  - Bildbegäran som returnerar gråskalemasker.
 
-**Begäranden** för visningsprogrammets panel: RequestImage som läses in av ett visningsprogram.
+* **Begäran**  om visningsruta - Bildbegäranden som läses in av ett visningsprogram.
 
-**Vnt Object** RequestImage-återgivningsbegäranden som returnerar en bild med angivna objekt i begärda vinjetter.
+* **Vnt objektbegäran**  - Bildåtergivningsbegäranden som returnerar en bild med angivna objekt i de begärda vinjetterna.
 
-**Vnt Info** RequestImage-återgivningsbegäranden som returnerar information om begärda vinjetter.
+* **Vnt Info Request**  - Bildåtergivningsbegäranden som returnerar information om begärda vinjetter.
 
 >[!NOTE]
 >
@@ -194,27 +193,27 @@ Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän
 
 När du har genererat en rapport på sidan Bandbredd och lagring kan du välja alternativ för att visa information. Du kan välja hur informationen ska visas, visa information i ett diagram eller datarutnät och ange en tidsperiod för att hämta information. I datavyn kan du även sortera information och ordna om kolumner.
 
-**Visa data i ett diagram eller** datarutnätKlicka på alternativet Diagramvy om du vill visa data i ett diagram. Klicka på alternativet Datavy om du vill visa data i ett datarutnät.
+* **Visa data i ett diagram eller datarutnät**  - Klicka på alternativet Diagramvy om du vill visa data i ett diagram. Klicka på alternativet Datavy om du vill visa data i ett datarutnät.
 
-**Välj en rapportpresentationstypPå** menyn Typ av rapport väljer du Sammanfattning, Dagligen eller Månad för att ordna data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
+* **Välj en rapportpresentationstyp**  - På menyn Typ av rapport väljer du Sammanfattning, Dagligen eller Månad för att ordna data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
 
-**Ange en** tidsperiodVälj alternativ för att definiera en tidsperiod för rapporten och klicka sedan på Uppdatera när du har definierat en tidsperiod:
+* **Ange en tidsperiod** - Välj alternativ för att definiera en tidsperiod för rapporten och klicka sedan på Uppdatera när du har definierat en tidsperiod:
 
-**Fördefinierad** tidsperiodVälj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
+* **Fördefinierad tidsperiod**  - Välj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
 
-**Anpassad** tidsperiod Välj Anpassad på menyn Fördefinierad rapport. Välj sedan ett datum på menyn Startmånad (eller Startdatum) och ett datum på menyn # av månader (eller # eller Dagar). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
+* **Anpassad tidsperiod**  - Välj Anpassad på menyn Fördefinierad rapport. Välj sedan ett datum på menyn Startmånad (eller Startdatum) och ett datum på menyn # av månader (eller # eller Dagar). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
 
-**Sortera data (endast datavyn)** Om du vill sortera information i en kolumn klickar du på kolumnens rubrik. Klicka igen om du vill sortera i fallande ordning.
+* **Sortera data (endast datavyn)** - Om du vill sortera information i en kolumn klickar du på kolumnens rubrik. Klicka igen om du vill sortera i fallande ordning.
 
-**Ordna om kolumner (endast datavyn)** Om du vill flytta en kolumn till en annan plats i datarutnätet drar du rubriken.
+* **Ordna om kolumner (endast datavyn)** - Dra rubriken om du vill flytta en kolumn till en annan plats i datarutnätet.
 
 ### Exportera och skriva ut rapporter {#exporting-and-printing-reports}
 
 När du har genererat en rapport kan du exportera dess data för användning i kalkylblad och andra program. Du kan också skriva ut rapporter.
 
-**Exportera** rapportdataSortera och ordna data i datavyn efter behov. Öppna sedan menyn Exportera och välj ett format: Tabbavgränsad, kommaseparerad eller HTML-formaterad. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
+* **Exportera rapportdata**  - Sortera och ordna data i datavyn efter behov. Öppna sedan menyn Exportera och välj ett format: Tabbavgränsad, kommaseparerad eller HTML-formaterad. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
 
-**Skriva ut en** rapportKlicka på Skriv ut, välj önskade alternativ i dialogrutan Skriv ut och klicka sedan på OK.
+* **Skriva ut en rapport** - Klicka  **[!UICONTROL Print]** på de alternativ du vill ha i dialogrutan Skriv ut och klicka sedan på  **[!UICONTROL OK]**.
 
 ## Bildfel {#image-errors}
 
@@ -227,21 +226,21 @@ Dynamic Media Classic-administratörer kan generera bildfelsrapporter. En bildfe
    * Klicka på en rubrik om du vill sortera fel efter rubrikinformationen. Som standard sorteras fel efter antal förekomster, från högst till lägst.
    * Flytta markören över svarsfältet för att se det specifika felmeddelandet.
    * Flytta markören över URL-fältet eller referensfältet för att se länken till bilden eller referenswebbsidan.
-   * Klicka på URL-kopieringens URL för att kopiera länken till den faktiska bilden. Du kan klistra in länken i ett webbläsarfönster för att gå till bilden och undersöka felet.
-   * Klicka på URL för refererarkopia för att kopiera länken till referenswebbsidan.
+   * Klicka på **[!UICONTROL URL Copy URL]** för att kopiera länken till den faktiska bilden. Du kan klistra in länken i ett webbläsarfönster för att gå till bilden och undersöka felet.
+   * Klicka på **[!UICONTROL Referrer Copy URL]** för att kopiera länken till referenswebbsidan.
 
 De fel som visas gäller det företag du är inloggad på. Varje fel innehåller följande information:
 
-**Bild-** ID för den felaktiga bilden.
+* **Bild-ID**  - ID för den felaktiga bilden.
 
-**** Tid: Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, under de senaste 24 timmarna.
+* **Tid**  - Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, under de senaste 24 timmarna.
 
-**Antal** antal: Antal rapporterade fel i bilden.
+* **Antal**  - Antal rapporterade fel i bilden.
 
-**** Svar Det specifika felmeddelandet. Fel är antingen 4xx eller 5xx.
+* **Svar**  - Det specifika felmeddelandet. Fel är antingen 4xx eller 5xx.
 
-**URL:** erVisar URL:en till bilden på Scen 7.
+* **URL:er**  - Visar URL:en till bilden i Dynamic Media Classic.
 
-**Referent** Anger URL:en för den webbplats som den ursprungliga begäran kom från. Referenten kan vara vilken webbplats som helst som har en länk till bilden.
+* **Referent**  - Anger URL:en för den webbplats som den ursprungliga begäran kom från. Referenten kan vara vilken webbplats som helst som har en länk till bilden.
 
 URL- och referenskolumnerna har en associerad Kopiera-URL för att förenkla testningen.
