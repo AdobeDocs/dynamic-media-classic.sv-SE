@@ -5,15 +5,15 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Visningsprogram,Video
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
-
 
 # Lägga till bildtexter i video{#adding-captions-to-video}
 
@@ -25,11 +25,13 @@ Bildtext ger också bättre tillgänglighet genom att använda undertexter för 
 >
 >Den videospelare som används måste ha stöd för visning av bildtexter.
 
-Se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) för att konfigurera bildtexteffekten och för att redigera själva bildtextmenyn, inklusive menytexten för någon av följande visningsprogram:
+Så här konfigurerar du bildtexteffekten och redigerar själva bildtextmenyn, inklusive menytexten för någon av följande visningsprogram:
 
-* `Universal_HTML5_Video` visningsprogram.
-* `Universal_HTML5_MixedMedia_dark` visningsprogram.
-* `Universal_HTML5_MixedMedia_light` visningsprogram.
+* `Universal_HTML5_Video` visningsprogram
+* `Universal_HTML5_MixedMedia_dark` visningsprogram
+* `Universal_HTML5_MixedMedia_light` visningsprogram
+
+se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
@@ -43,7 +45,7 @@ Mer information om hur du använder JSON-funktionen i en URL finns i [Servera st
 
    | Typ av visningsprogram | Bildtextfil |
    |--- |--- |
-   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://dev.w3.org/html5/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa bildtextfiler utanför Dynamic Media Classic. Om du till exempel vill skapa en enkel videobeskrivningsfil utan formatering kan du använda följande kostnadsfria redigerings- och redigeringsverktyg för bildtexter online: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Använd verktyget i Internet Explorer 9 eller senare, Google Chrome eller Safari för bästa resultat. <br><br>I verktyget, i fältet  <b>Ange URL för </b> videofilen, klistrar du in URL-adressen för videofilen och klickar sedan på  <b>Läs in</b>. <br><br>Om du till exempel använder en Dynamic Media Classic-URL för videofilen dubbelklickar du på en enskild videoresurs (inte en adaptiv videouppsättning eller en Överordnad video) för att öppna den i detaljvyn. Expandera URL:er och Bädda in kod i den högra panelen i detaljvyn. Klicka sedan på Kopiera URL under gruppen Mobil till höger om Mobil (progressiv). Den här processen ger dig URL:en till själva videofilen som du sedan kan klistra in i fältet <b>Ange URL:en för videofilen</b>. Internet Explorer, Chrome och Safari kan sedan spela upp videon direkt. Följ nu instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget .VTT. <br><br><b>Obs!</b> För globalt stöd för videobeskrivningar på andra språk än engelska kräver WebVTT-standarden att du skapar separata .vtt-filer och anropar för varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
+   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://w3c.github.io/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa bildtextfiler utanför Dynamic Media Classic. Om du till exempel vill skapa en enkel videobeskrivningsfil utan formatering kan du använda följande kostnadsfria redigerings- och redigeringsverktyg för bildtexter online: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Använd verktyget i Internet Explorer 9 eller senare, Google Chrome eller Safari för bästa resultat. <br><br>I verktyget, i fältet  <b>Ange URL för </b> videofilen, klistrar du in URL-adressen för videofilen och klickar sedan på  <b>Läs in</b>. <br><br>Om du till exempel använder en Dynamic Media Classic-URL för videofilen dubbelklickar du på en enskild videoresurs (inte en adaptiv videouppsättning eller en Överordnad video) för att öppna den i detaljvyn. Expandera URL:er och Bädda in kod i den högra panelen i detaljvyn. Klicka sedan på Kopiera URL under gruppen Mobil till höger om Mobil (progressiv). Den här processen ger dig URL:en till själva videofilen som du sedan kan klistra in i fältet <b>Ange URL:en för videofilen</b>. Internet Explorer, Chrome och Safari kan sedan spela upp videon direkt. Följ nu instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget .vtt. <br><br><b>Obs!</b> För globalt stöd för videobeskrivningar på andra språk än engelska kräver WebVTT-standarden att du skapar separata .vtt-filer och anropar för varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
 
 1. I Dynamic Media Classic överför du XML-bildtextfilen WebVTT, DFXP eller SMPTE.
 
@@ -59,7 +61,7 @@ Mer information om hur du använder JSON-funktionen i en URL finns i [Servera st
 
       `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Lägg märke till `,1` i slutet av bildtextens URL-sökväg. Omedelbart efter filnamnstillägget .VTT i sökvägen kan du aktivera eller inaktivera den stängda bildtextknappen i videospelarfältet genom att ställa in på `1` eller `0`.
+      Lägg märke till `,1` i slutet av bildtextens URL-sökväg. Omedelbart efter tillägget .vtt i sökvägen kan du aktivera eller inaktivera den stängda bildtextsknappen i videospelarfältet genom att ange `1` eller `0`.
 
    * Klicka **[!UICONTROL Embed Code]** längst till höger om namnet om du vill se en inbäddad videovisningsfunktion.
 
@@ -69,5 +71,4 @@ Mer information om hur du använder JSON-funktionen i en URL finns i [Servera st
 
       `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Lägg märke till `,1` i slutet av URL-sökvägen. Direkt efter filnamnstillägget .VTT i URL-sökvägen kan du aktivera eller inaktivera bildtextknappen i videospelarfältet genom att ange `1` eller `0`.
-
+      Lägg märke till `,1` i slutet av URL-sökvägen. Direkt efter tillägget .vtt i URL-sökvägen kan du aktivera eller inaktivera bildtextknappen i videospelarfältet genom att ange `1` eller `0`.
