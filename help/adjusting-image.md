@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Resurshantering
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 0%
+source-wordcount: '502'
+ht-degree: 3%
 
 ---
-
 
 # Justera en bild{#adjusting-an-image}
 
@@ -36,35 +36,34 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
 1. När du har justerat bilden gör du något av följande:
 
-   * Klicka på **Spara**.
-   * Om du vill ersätta originalbilden klickar du på **Spara som**.
+   * Klicka på **[!UICONTROL Save]**.
+   * Om du vill ersätta originalbilden klickar du på **[!UICONTROL Save As]**.
 
-      Välj **Ersätt original** i listrutan och klicka sedan på **Spara**.
+      Välj **[!UICONTROL Replace original]** i listrutan och klicka sedan på **[!UICONTROL Save]**.
 
-   * Om du vill spara bilden som en ny överordnad bild klickar du på **Spara som**.
+   * Om du vill spara bilden som en ny överordnad bild klickar du på **[!UICONTROL Save As]**.
 
-      I listrutan väljer du **Spara som ny överordnad**.
+      I listrutan  väljer du **[!UICONTROL Save as new master]**.
 
-      I listrutan **Mappnamn** väljer du den mapp där du vill att den nya överordnad bilden ska sparas.
+      I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya överordnad bilden.
 
-      Klicka på **Spara**.
+      Klicka på **[!UICONTROL Save]**.
 
-   * Spara bilden som en extra vy av den överordnad bilden. du kan skapa ett alias för det. Klicka på **Spara som**.
+   * Spara bilden som en annan vy av den överordnad bilden. du kan skapa ett alias för det. Klicka på **[!UICONTROL Save As]**.
 
-      I dialogrutan **Spara som** klickar du på **Spara som ytterligare vy av överordnad** i listrutan.
+      Klicka på **[!UICONTROL Save as another view of master]** i listrutan i dialogrutan **[!UICONTROL Save As]**.
 
-      I listrutan **Mappnamn** väljer du den mapp där du vill att den nya överordnad bilden ska sparas.
+      I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya överordnad bilden.
 
-      Klicka på **Spara**.
+      Klicka på **[!UICONTROL Save]**.
 
 ## Skapa ett alias för en bild {#creating-an-alias-for-an-image}
 
-När du har justerat en bild kanske du vill spara den som en extra vy av den överordnad bilden. Om du vill göra det kan du skapa ett alias för bilden med funktionen **Spara som ytterligare vy av överordnad**.
+När du har justerat en bild kan du spara den som en annan vy av den överordnad bilden. Om du vill göra det kan du skapa ett alias för bilden med funktionen **[!UICONTROL Save as additional view of master]**.
 
-1. I stödrastervyn eller listvyn klickar du på **Justera** i listrutan **Redigera** bredvid en bild som du vill skapa ett alias för.
-1. Klicka på **Spara som** längst ned till höger på sidan.
-1. I dialogrutan **Spara som** klickar du i listrutan på **Spara som tilläggsvy av överordnad**.
-1. I listrutan **Mappnamn** väljer du den mapp där du vill spara den utjämnade bilden.
-1. I fältet **Filnamn** skriver du namnet som du vill använda för aliaset.
-1. Klicka på **Spara**.
-
+1. I Stödrastervisning eller listvy klickar du på **[!UICONTROL Adjust]** i listrutan **[!UICONTROL Edit]** bredvid en bild som du vill skapa ett alias för.
+1. I sidans nedre högra hörn klickar du på **[!UICONTROL Save As]**.
+1. Klicka på **[!UICONTROL Save as additional view of master]** i listrutan i dialogrutan **[!UICONTROL Save As]**.
+1. I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den utjämnade bilden.
+1. I fältet **[!UICONTROL File Name]** skriver du namnet som du vill använda för aliaset.
+1. Klicka på **[!UICONTROL Save]**.
