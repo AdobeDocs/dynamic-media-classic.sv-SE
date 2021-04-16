@@ -8,35 +8,32 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Hantera innehållsvariationer{#managing-content-variations}
 
 Använd malluppsättningar för att hantera det sätt på vilket resursvariationer publiceras.
 
-Skapa en malluppsättning för att hantera varianter av en mall. Du kan styra vilken variation som används utan att ändra koden på webbplatsen. Detta gör att innehållshanterare kan rotera innehåll utan att IT-avdelningen behöver ändra en webbadress i webbkoden.
+Skapa en malluppsättning för att hantera varianter av en mall. Du kan styra vilken variation som används utan att ändra koden på webbplatsen. Med den här metoden kan innehållshanterare rotera innehåll utan att IT-avdelningen behöver ändra en webbadress i webbkoden.
 
-Universella URL:er används för att visa mallvarianten som visas på sidan, baserat på den ordning som de listas i uppsättningen. Mallen högst upp i malluppsättningslistan publiceras alltid.
+Universella URL:er används för att visa mallvariationen som visas på sidan, baserat på den ordning som de listas i uppsättningen. Mallen högst upp i malluppsättningslistan publiceras alltid.
 
 Du kan använda valfri URL för bildförinställningar i listan. URL:er för bildförinställningar fungerar som universella URL:er. Det kan finnas mer än en URL för bildförinställning.
 
-1. Klicka på Skapa > Malluppsättningar.
+1. Klicka på **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**. Byggaren öppnas.
+1. Välj en mall och klicka sedan på **[!UICONTROL Add/Preview]**.
+1. Ändra mallegenskaperna och klicka på **[!UICONTROL Save As]** för att skapa en annan version.
+1. Skriv ett namn och klicka på **[!UICONTROL Save]**.
 
-   Byggaren öppnas.
-
-1. Välj en mall och klicka sedan på Lägg till/Förhandsgranska.
-1. Ändra mallegenskaperna och klicka på Spara som för att skapa en ny version.
-1. Skriv ett namn och klicka på Spara.
-
-   Du måste publicera både resursen och mallen.
+   Både resursen och mallen måste publiceras.
 
 1. Gå till sidan Detalj för att hämta en kopia-URL från avsnittet URL:er.
 
@@ -44,5 +41,4 @@ Du kan flytta en mall i mallordningen (till exempel högst upp i listan) genom a
 
 >[!NOTE]
 >
->Du kan behöva rensa cachen för att se ändringarna. Ändringen visas bara på webbplatsen när ändringen har gått igenom cachecykeln.
-
+>Om det behövs rensar du cacheminnet för att se ändringarna. Ändringen visas bara på webbplatsen när ändringen har gått igenom cachecykeln.
