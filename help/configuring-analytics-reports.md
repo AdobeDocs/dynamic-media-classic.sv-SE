@@ -8,25 +8,25 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: Datatekniker, administratör, affärsansvarig
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
-
 
 # Konfigurera Adobe Analytics-rapporter{#configuring-adobe-analytics-reports}
 
 Information om vilken information du vill ha i Adobe Analytics rapporter får du på skärmen Adobe Analytics Configuration. När du har konfigurerat rapporter visas en motsvarande Adobe Analytics-variabel och Dynamic Media Classic-variabel för varje visningsprogramhändelse som du vill ha information om. Dessa visningsprogramhändelser-Adobe Analytics variabelkombinationer av Dynamic Media Classic avgör vilken information som rapporteras.
 
-Förutom att associera visningsprogramhändelser med variabler innehåller Adobe Analytics konfigurationsskärm verktyg för att aktivera, redigera och ta bort visningsprogramhändelser.
+Förutom att associera visningsprogramhändelser med variabler innehåller konfigurationsskärmen i Adobe Analytics verktyg för att aktivera, redigera och ta bort visningsprogramhändelser.
 
 >[!NOTE]
 >
->När du ändrar inställningarna för Adobe Analytics Report i Adobe Analytics måste du logga in på Adobe Analytics igen från Adobe Dynamic Media Classic, spara konfigurationsinställningarna för Adobe Analytics och sedan publicera igen.
+>När du ändrar inställningarna för Adobe Analytics Report i Adobe Analytics måste du logga in på Adobe Analytics igen från Adobe Dynamic Media Classic, spara om konfigurationsinställningarna för Adobe Analytics och sedan publicera igen.
 
 Se [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
@@ -38,7 +38,7 @@ Använd Adobe Analytics konfigurationsskärm för att associera visningsprogramh
 
 **Så här tilldelar du Adobe Analytics-variabler till visningsprogramhändelser och variabler i Dynamic Media Classic**
 
-1. När du har loggat in på Adobe Analytics från Dynamic Media Classic och valt en rapportsvit aktiverar du en visningsprogramhändelse på konfigurationssidan för Adobe Analytics i tabellens högra kolumn genom att klicka på **Aktivera**.
+1. När du har loggat in på Adobe Analytics från Dynamic Media Classic och valt en rapportsvit aktiverar du en visningsprogramhändelse på konfigurationssidan för Adobe Analytics i den högra tabellkolumnen genom att klicka på **[!UICONTROL Enable]**.
 1. Visa variabelparsväljaren under kolumnen Variabler genom att klicka på pilknappen för önskad visningsprogramhändelse.
 
    Se [Viewer events](configuring-analytics-reports.md#viewer_events).
@@ -60,7 +60,7 @@ Använd Adobe Analytics konfigurationsskärm för att associera visningsprogramh
 
 ### Viewer-händelser {#viewer-events}
 
-Visningshändelser beskriver åtgärder som användare utför med visningsprogram i Dynamic Media Classic. När en användare initierar en viss åtgärd, till exempel klickar på en miniatyrbild eller startar eller stoppar en video, &quot;sänder&quot; användaren en händelse till webbsidan tillsammans med data som är kopplade till händelsen.
+Visningshändelser beskriver åtgärder som användare utför med visningsprogram i Dynamic Media Classic. När en användare initierar en viss åtgärd, t.ex. klickar på en miniatyrbild eller startar eller stoppar en video, sänder användaren en händelse till webbsidan tillsammans med data som är kopplade till händelsen.
 
 I följande tabell beskrivs de visningsprogramhändelser som du kan lägga till på skärmen Adobe Analytics Configuration.
 
