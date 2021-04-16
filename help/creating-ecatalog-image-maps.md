@@ -8,26 +8,26 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visningsprogram,eCatalog
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
 
-
 # Skapa eCatalog-bildscheman{#creating-ecatalog-image-maps}
 
-En bildschema är ett område på en eCatalog-sida som du kan rulla över med musen eller klicka för att aktivera åtgärder av olika slag. När du flyttar pekaren över ett bildschema visas t.ex. en beskrivning av ett objekts överrullningstext. När du klickar på en bildschema startas en annan åtgärd. Du kan till exempel öppna en webbsida så att tittarna kan lära sig mer om ett objekt eller köpa det, eller så kan du starta en video för att se ett objekt som används.
+En bildschema är ett område på en eCatalog-sida som du kan rulla över med musen eller klicka för att aktivera åtgärder av olika slag. När du flyttar pekaren över ett bildschema visas t.ex. en överrullningstextbeskrivning av ett objekt. När du klickar på en bildschema startas en annan åtgärd. Du kan till exempel öppna en webbsida så att tittarna kan lära sig mer om ett objekt eller köpa det, eller så kan du starta en video för att se ett objekt som används.
 
 ## Rita eCatalog-bildscheman {#drawing-ecatalog-image-maps}
 
 För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog. Den här skärmen består av området Bildschema där eCatalog-sidor visas och, till höger, listan Bildschema. När du skapar bildscheman anges deras namn i listan Bildschema.
 
 1. Klicka på knappen Redigera överrullning för eCatalog.
-1. Klicka på **Mappa sidor**.
+1. Klicka på **[!UICONTROL Map Pages]**.
 1. Till vänster på skärmen Kartsidor markerar du den sida du vill ha.
 1. I området Bildschema ritar du ett rektangulärt eller flersidigt bildschema:
 
@@ -41,25 +41,25 @@ När du klickar ritas kanterna för bildschemat i Dynamic Media Classic.
 1. (Valfritt) Ange ett nytt namn för bildschemat i listpanelen Bildschema under kolumnen Namn. Använd inte blanksteg i det namn du anger.
 1. Du kan låta tittarna öppna en ny webbsida när de klickar på bildschemat. Ange webbsidans URL i URL-kolumnen på listpanelen Bildschema.
 
-   Klicka på Redigera och ange en mall för att göra det enklare att ange URL:er (Href-mallar).
+   Klicka på **[!UICONTROL Edit]** och ange en mall som gör det enklare att ange URL:er (Href-mallar).
 
-   Se [Använda en mall för att ange JavaScript och URL:er](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+   Se [Använda en mall för att ange JavaScript™ och URL:er](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
-1. (Valfritt) I listrutan Visa klickar du på **Överrullningstext** och anger sedan den text som du vill att användarna ska se på skärmen när de flyttar pekarna över bildschemat.
-1. (Valfritt) Klicka på **Andra åtgärder** i listrutan Visa och ange ett attribut som utlöser en oskärpa eller fokusåtgärd när användarna flyttar pekarna över en bildschema.
+1. (Valfritt) Klicka på **[!UICONTROL Rollover Text]** i listrutan Visa och ange sedan den text som du vill att användarna ska se på skärmen när de flyttar pekarna över bildschemat.
+1. (Valfritt) Klicka på **[!UICONTROL Other Actions]** i listrutan Visa och ange ett attribut som utlöser en oskärpa eller fokusåtgärd när användarna flyttar pekarna över en bildschema.
 
    Se [Definiera andra åtgärder för bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
 
-1. Klicka på **Spara**.
-1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa e-katalogen med standardförinställningen för eCatalog Viewer.
+1. Klicka på **[!UICONTROL Save]**.
+1. (Valfritt) Klicka på **[!UICONTROL Preview]** om du vill visa e-katalogen med standardförinställningen för eCatalog Viewer.
 
-Om du vill ta bort en bildschema markerar du dess namn i listan Bildschema och klickar på Ta bort. Om du tillfälligt vill inaktivera ett bildschema på en sida utan att ta bort bildschemat, avmarkerar du alternativet På på panelen Bildschema.
+Om du vill ta bort en bildschema markerar du dess namn i listan Bildschema och klickar på **[!UICONTROL Delete]**. Om du tillfälligt vill inaktivera ett bildschema på en sida utan att ta bort bildschemat, avmarkerar du alternativet På på panelen Bildschema.
 
 ## Bädda in multimedia i en e-katalog {#embedding-rich-media-in-an-ecatalog}
 
 Med alternativet Multimedia i eCatalog kan du lägga till videoklipp i MP4-format eller snurruppsättningar i bildscheman som du har lagt till i en e-katalog. När en användare klickar i området Bildschema i eCatalog visas den associerade video- eller rotationsinställningen. Den här funktionen är särskilt användbar om du vill att kunderna ska se ett objekt som används eller se ett objekt från olika vinklar och perspektiv.
 
-Du kan också visa funktionsbeskrivningstext när kunderna flyttar pekarna över bildschemat så att de vet vad de klickar på.
+Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildschemat så att de vet vad de klickar på.
 
 **Bädda in multimedia i en e-katalog**
 
@@ -71,7 +71,7 @@ Du kan också visa funktionsbeskrivningstext när kunderna flyttar pekarna över
 1. I panelen Lägg till resurser till vänster navigerar du till en mapp som innehåller den rotationsuppsättning eller videoresurs (MP4-format) som du vill bädda in.
 1. Dra resursen till bildschemat.
 1. (Valfritt) I listpanelen Bildschema, under kolumnrubriken Verktygstips, anger du den text som du vill att tittarna ska se på skärmen när de flyttar pekaren över bildschemat.
-1. Klicka på Spara.
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Redigera eCatalog-bildscheman {#editing-ecatalog-image-maps}
 
@@ -88,10 +88,9 @@ storlekOm du vill ändra storlek på ett rektangulärt bildschema väljer du pan
    Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Ta bort**
-bildschemanVälj panoreringsverktyget, klicka på bildschemat för att markera det och klicka sedan på 
-**Ta bort**.
+bildschemanVälj panoreringsverktyget, klicka på bildschemat för att markera det och klicka sedan på  **[!UICONTROL Delete]**.
 
-   Om du vill ta bort alla bildscheman från en e-katalog klickar du på fliken **Ordna sidor** och sedan på **Rensa kartor**.
+   Om du vill ta bort alla bildscheman från en e-katalog klickar du på fliken **[!UICONTROL Order Pages]** och sedan på **[!UICONTROL Clear Maps]**.
 
 * **Hantera överlappande**
 bildschemanDra för att ändra ordningen på bildscheman i listan Bildschema.
@@ -99,7 +98,7 @@ bildschemanDra för att ändra ordningen på bildscheman i listan Bildschema.
    Se [Hantera överlappande bildscheman](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Kopiera bildscheman till andra**
-sidorMarkera knappen Kopiera kartor till (se till att du är på fliken Avbilda sidor). På skärmen Välj bilder markerar du den eller de sidor där du vill kopiera bildscheman och klickar på knappen Markera.
+sidorMarkera knappen Kopiera kartor till (se till att du är på fliken Avbilda sidor). På skärmen Välj bilder markerar du den eller de sidor där du vill kopiera bildscheman och klickar på knappen **[!UICONTROL Select]**.
 
    Se [Kopiera bildscheman till andra bilder](creating-image-maps.md#copying_image_maps).
 
@@ -115,12 +114,12 @@ Om du vill visa fönstret Kartsammanfattning klickar du på Sammanfattning på f
 
 ### Granska datamappning för bildschema {#review-image-map-data-summary}
 
-1. Klicka på Sammanfattning på skärmen Kartsidor.
+1. På skärmen Karta sidor klickar du på **[!UICONTROL Summary]**.
 
    På skärmen Sammanfattning av kartor visas hur många bildscheman, URL:er, beskrivningar av rollover-text och andra åtgärder som finns i din eCatalog.
 
-1. Om det finns överrullningsnyckelfel klickar du på felet i kolumnen Rollover_Key Error för att se vad som behöver ändras i kalkylbladet för att rätta till felet. Du kan markera och kopiera texten från det här meddelandet och klistra in den i kalkylbladet.
-1. Klicka på Förhandsgranska för att granska en sida i eCatalog Viewer, klicka på X för att stänga fönstret Sammanfattning och återgå till skärmen Karta sidor eller klicka på Stäng för att återgå till Bläddra.
+1. Om det finns överrullningsnyckelfel klickar du på felet i kolumnen Rollover_Key Error för att se vad som måste ändras i kalkylbladet för att rätta till felet. Du kan markera och kopiera texten från det här meddelandet och klistra in den i kalkylbladet.
+1. Klicka på **[!UICONTROL Preview]** för att undersöka en sida i eCatalog Viewer, klicka på X för att stänga fönstret Sammanfattning och återgå till skärmen Karta sidor, eller klicka på **[!UICONTROL Close]** för att återgå till **[!UICONTROL Browse]**.
 
 ### Importera data för bildschema {#import-image-map-data}
 
@@ -132,10 +131,11 @@ I stället för att ange bildschemadata på varje sida kan du importera data fö
 
 Från och med fönstret Kartsammanfattning följer du de här stegen för att importera bildschemadata för bildscheman som du har skapat:
 
-1. Klicka på Importera kartdata.
-1. Klicka på Bläddra i dialogrutan Importera metadata och välj sedan den tabbavgränsade eller XML DTD-filen.
+1. Klicka på **[!UICONTROL Import Map Data]**.
+1. Klicka på **[!UICONTROL Browse]** i dialogrutan Importera metadata.
+1. Markera den tabbavgränsade eller XML DTD-filen.
 1. Skriv ett namn på filen i fältet Jobbnamn (var noga med att behålla filtillägget).
-1. Klicka på Överför.
+1. Klicka på **[!UICONTROL Upload]**.
 
 ## Kopiera bildscheman mellan e-kataloger {#copying-image-maps-between-ecatalogs}
 
@@ -147,8 +147,8 @@ Du kan kopiera alla bildscheman i en e-katalog till en annan e-katalog. Att kopi
 
 Så här kopierar du alla bildscheman i en e-katalog till en annan eCatalog:
 
-1. Markera e-katalogen med de bildscheman som du vill kopiera och klicka på knappen Redigera överrullning i eCatalog.
-1. Klicka på Kopiera kartor på fliken Ordna sidor.
-1. I dialogrutan Välj resurs markerar du den e-katalog där du vill kopiera bildscheman och klickar sedan på Välj.
+1. Markera e-katalogen med de bildscheman som du vill kopiera och klicka på eCatalogs överrullningsknapp **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL Copy Maps]** på fliken Ordna sidor.
+1. I dialogrutan Välj resurs markerar du den e-katalog där du vill kopiera bildscheman och klickar sedan på **[!UICONTROL Select]**.
 
-Ett varningsmeddelande visas i Dynamic Media Classic om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Du kan klicka på Fortsätt om du vill kopiera bildscheman trots varningen.
+Ett varningsmeddelande visas i Dynamic Media Classic om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Du kan klicka på **[!UICONTROL Continue]** om du vill kopiera bildscheman trots varningen.
