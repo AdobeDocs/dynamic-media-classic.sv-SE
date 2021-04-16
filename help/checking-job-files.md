@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Resurshantering
-role: Yrkesverksamma inom affärsverksamhet
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1582'
 ht-degree: 1%
 
 ---
-
 
 # Kontrollerar jobbfiler{#checking-job-files}
 
@@ -121,7 +121,7 @@ I den här tabellen visas tidsökningar, deras tillåtna värden och de jokertec
 | Timmar | 0-23 | Observera användningen av en 24-timmarsklocka. | `, - * /` |
 | Dag i månaden | 1-31 | Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste innehålla jokertecknet `?`. | `, - * / ? L C` |
 | Månad | 1-12 eller jan, feb, mar, apr, maj, jun, juli, aug, sep, sep, okt, nov, dec | Värdena är skiftlägeskänsliga. | `, - * /` |
-| Veckodag | Mån, Tue, Wed, Thu, Fri, Sat, Sun | Värdena är skiftlägeskänsliga. Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en ? jokertecken. | `, - * / ? L C #` |
+| Veckodag | Mån, Tue, Wed, Thu, Fri, Sat, Sun | Värdena är skiftlägeskänsliga. Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste innehålla jokertecknet `?`. | `, - * / ? L C #` |
 | År (valfritt) | Tom eller 1970-2099 |  | `, - * /` |
 
 
