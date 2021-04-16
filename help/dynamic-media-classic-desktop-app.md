@@ -9,9 +9,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 8427c3ea6ca3083fd0868286e634a5569c62f7ab
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Dynamic Media Classic-användare har nu tillgång till en ny skrivbordsappsupplevelse som inte längre är beroende av Adobe Flash i webbläsaren.
 
-Den nya appen finns nu för Windows och macOS.
+Den nya appen finns nu för Windows® och macOS.
 
 >[!IMPORTANT]
 >
@@ -33,41 +33,57 @@ Se Frågor och svar för [Ny inloggningsupplevelse i Dynamic Media Classic är n
 Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 
 * macOS 10.10 eller senare.
-* Windows 7 eller senare.
+* Windows® 7 eller senare.
+
+>[!NOTE]
+>
+>Uppgraderingsmeddelanden i Dynamic Media Classic-datorprogrammet genereras inte för *mindre*-versioner. Kunder som drar nytta av korrigeringar i en mindre release kan uppgradera.
+
+## Korrigeringar i den mindre versionen (20.21.2) {#minor-release}
+
+* Känd begränsning i 20.21.1-listrutan Server är tom.
+* I **[!UICONTROL Upload Job Options]** är standardvärdet för lagernamn under **[!UICONTROL Photoshop Options]** nu **[!UICONTROL Photoshop and Layer Name]**. Lager i PSD-filen överförs som separata bilder.
+   * Det tidigare standardvärdet **[!UICONTROL Layer name]**, som namnger bilderna efter deras lagernamn eller lagernummer i PSD-filen. Lagernumret användes om lagernamnen i PSD-filen var Photoshop standardlagernamn.
+   * Den nya standardinställningen **[!UICONTROL Photoshop and Layer Name]** namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i PSD-filen är Photoshop standardlagernamn.
+   * Eftersom lagerbilder i Dynamic Media Classic nu har unika namn kommer inga uppdateringar att göras av befintliga PSD- eller mallar (som delar lagernamn i de ursprungliga PSD-filerna).
+* Brutna miniatyrbilder av resurser.
 
 ## Korrigeringar i den senaste versionen (20.21.1) {#latest-fixes-desktop-app}
 
 * Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen eller grupperna utan behörighet. Kontakta administratören.*
 * Förinställningar för visningsprogram dupliceras med varje felaktigt lösenordsförsök.
-* Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows; arbeta som du vill i macOS.)
+* Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows®; arbeta som du vill i macOS.)
 
 ## Korrigeringar i föregående version (20.20.2) {#previous-version-fixes-desktop-app}
 
-* Ingen begränsning för hur många filer du kan överföra via skrivbordsappens användargränssnitt för både macOS och Windows.
+* Ingen begränsning för hur många filer du kan överföra via skrivbordsappens användargränssnitt för både macOS och Windows®.
 * Du behöver inte logga ut från datorprogrammet för att växla mellan olika företag.
-* Ctrl+V för inklistring fungerar nu i Windows.
+* Ctrl+V för inklistring fungerar nu i Windows®.
 * När en ny version av skrivbordsappen släpps i framtiden meddelas användarna via själva skrivbordsappen.
 
-## Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på macOS eller Windows {#installation-dmc-app}
+## Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på macOS eller Windows® {#installation-dmc-app}
 
 Se även:
 
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen på Mac](#install-silent-mac-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen i Windows®](#install-silent-windows-dmc-app)
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * Den senaste versionen (20.21.1) finns här:
+   * Den senaste versionen (20.21.2) finns här:
 
-      * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
-   * Den tidigare versionen (20.20.2) finns på följande plats:
+      * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+      * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * Den tidigare versionen (20.21.1) finns på följande plats:
 
-      * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-      * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+      * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+      * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
+
+<!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. Gör något av följande baserat på det installationsprogram du hämtade.
@@ -103,8 +119,8 @@ Se även:
 
 Se även:
 
-* [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen i Windows](#install-silent-windows-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows®](#installation-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen i Windows®](#install-silent-windows-dmc-app)
 
 Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet i macOS:*
 
@@ -112,11 +128,11 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic för macOS.
 
-   * [macOS (.DMG) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
+   * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
 
 1. Kopiera .APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
@@ -137,36 +153,36 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på Windows {#install-silent-windows-dmc-app}
+## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på Windows® {#install-silent-windows-dmc-app}
 
-Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallScript som skapats med InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallScript som skapats med InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 Se även:
 
-* [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows](#installation-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-datorappen på Mac eller Windows®](#installation-dmc-app)
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-datorappen på macOS](#install-silent-mac-dmc-app)
 
-Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Media Classic för Windows:*
+Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Media Classic för Windows®:*
 
 1. Avinstallera alla äldre versioner av Dynamic Media Classic-datorprogram på datorn.
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * [Windows (.EXE) - Ladda ned.](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
+   * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
 
 1. Kör installationsprogrammet i postläge med följande kommando:
 
-   `adobe-dynamic-media-classic-20.21.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
 
 1. I GUI-installationsfönstret följer du stegen för att installera så att interaktioner/indata, som installationsplatsen, registreras i `Setup.iss`-filen.
 
-1. Kopiera den skapade `Setup.iss`-filen och `adobe-dynamic-media-classic-20.21.1.exe` till en annan dator.
+1. Kopiera den skapade `Setup.iss`-filen och `adobe-dynamic-media-classic-20.21.2.exe` till en annan dator.
 
 1. Kör följande kommando för en tyst installation:
 
-   `adobe-dynamic-media-classic-20.21.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
 
-   Information om kommandoradsparametrar finns på [Setup.exe och Update.exe Command-Line Parameters.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Information om kommandoradsparametrar finns på [Setup.exe och Update.exe Command-Line Parameters.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
@@ -202,7 +218,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 1. Navigera till följande beroende på operativsystem:
 
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
-   * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+   * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Känd begränsning i Dynamic Media Classic 20.21.1
 
@@ -210,9 +226,10 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Kända begränsningar i Dynamic Media Classic 20.20.1 (fast i 20.20.2)
 
-**_Gäller endast Windows - finns det en begränsning av antalet filer som kan överföras via skrivbordsappens användargränssnitt?_**<br>Ja, högst 150 filer kan överföras åt gången via skrivbordsappens användargränssnitt.
+**_Gäller endast Windows® - finns det en begränsning av antalet filer som kan överföras via skrivbordsappens användargränssnitt?_**<br>Ja, högst 150 filer kan överföras åt gången via skrivbordsappens användargränssnitt.
 
-**_Gäller Windows och macOS - Hur växlar jag mellan företag?_**<br>Så här byter du mellan företag:
+**_Gäller Windows® och macOS - Hur växlar jag mellan företag?_**<br>Så här byter du mellan företag:
+
 * I appen Dynamic Media Classic väljer du det nya företaget i listrutan för företag.
 * När popup-fönstret visas trycker du på **[!UICONTROL OK]** för att logga ut och stänga appen.
 
