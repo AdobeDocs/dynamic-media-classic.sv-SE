@@ -1,13 +1,13 @@
 ---
 cloud: Experience Cloud
-product: Adobe Dynamic Media Classic
+product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
+source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 1%
