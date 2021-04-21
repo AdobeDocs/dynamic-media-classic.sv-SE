@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1581'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,9 @@ Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
 **Skickat** avListor som överförde tillgångarna.
 
-***Obs **: Du kan avbryta pågående publicerings- och överföringsjobb genom att klicka på knappen Avbryt bredvid förloppsindikatorn.*
+>[!NOTE]
+>
+>Du kan avbryta pågående publicerings- och överföringsjobb genom att klicka på knappen Avbryt bredvid förloppsindikatorn.
 
 ## Ändra vyer på jobbsidan {#changing-views-on-the-jobs-page}
 
