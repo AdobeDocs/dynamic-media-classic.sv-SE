@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
-
 
 # Testa resurser innan du gör dem offentliga {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras int
 
 Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker testning, utan att behöva publicera. Detta gör att du kan köra en förhandsvisning innan resurser publiceras på den offentliga bildservern.
 
-***Obs **! Säker testning utnyttjar katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning bör du därför vara medveten om att överförda resurser i Dynamic Media Classic omedelbart blir tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring eller inte.*
+>[!NOTE]
+>
+>Säker testning utnyttjar katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning bör du därför vara medveten om att överförda resurser i Dynamic Media Classic omedelbart blir tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring eller inte.
 
 Tjänster för säker testning stöder för närvarande följande resurstyper och funktioner:
 
@@ -145,4 +147,3 @@ Utför följande tester:
    Få åtkomst till ditt nätverk utifrån (t.ex. från din hemdator eller via en 3G-anslutning) och kontrollera sedan att den offentliga versionen av webbplatsen visar alla publicerade resurser, men inget av det opublicerade innehållet.
 
    Bekräfta att mellanlagringsversionen inte visar någon resurs eftersom du använder tjänsten för säker testning från en ej godkänd IP-adress.
-
