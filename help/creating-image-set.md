@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
 role: Business Practitioner
+exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en bilduppsättning{#creating-an-image-set}
 
@@ -33,43 +33,43 @@ När du skapar en uppsättning påverkar alternativet **Publicera efter spara** 
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Skapa en bilduppsättning**
+**Så här skapar du en bilduppsättning:**
 
 1. Gör något av följande:
 
-   **Markera bilderna** förstMarkera de bilder du vill använda i bilduppsättningen i panelen Bläddra och klicka sedan på Skapa > Bilduppsättningar.
+   * **Markera bilderna först**  - Markera de bilder du vill använda i bilduppsättningen i panelen Bläddra och klicka sedan på  **[!UICONTROL Build]** >  **[!UICONTROL Image Sets]**.
 
-   **Starta från** skärmen BilduppsättningKlicka på Skapa > Bilduppsättningar. Skärmen Bilduppsättning öppnas. Markera en mapp i resursbiblioteket och dra bilderna som du vill använda i bilduppsättningen till skärmen Bilduppsättning.
+   * **Starta från skärmen**  Bilduppsättning - klicka  **[!UICONTROL Build]** >  **[!UICONTROL Image Sets]**. Skärmen Bilduppsättning öppnas. Markera en mapp i resursbiblioteket och dra bilderna som du vill använda i bilduppsättningen till skärmen Bilduppsättning.
 
 1. Om du vill ändra bildordningen drar du bilderna till nya platser.
-1. Kontrollera att **Publicera efter spara** är markerat i sidans nedre högra hörn (standard).
-1. Klicka på **Spara**, välj en mapp där du vill spara din bilduppsättning, ange ett namn för uppsättningen och klicka sedan på **Spara**.
-1. Om du vill visa din bilduppsättning i bilduppsättningsvisningsprogrammet klickar du på **Förhandsvisa** på skärmen Bilduppsättning. Du kan klicka på miniatyrbilderna för färgrutor i bilduppsättningsvisningsprogrammet för att se hur de beter sig.
+1. Kontrollera att **[!UICONTROL Publish after save]** är markerat (standard) nära sidans nedre högra hörn.
+1. Klicka på **[!UICONTROL Save]**, välj en mapp där du vill lagra din bilduppsättning, ange ett namn för uppsättningen och klicka sedan på **[!UICONTROL Save]**.
+1. Om du vill visa din bilduppsättning i bilduppsättningsvisningsprogrammet klickar du på **[!UICONTROL Preview]** på skärmen Bilduppsättning. Du kan klicka på miniatyrbilderna för färgrutor i bilduppsättningsvisningsprogrammet för att se hur de beter sig.
 
 ## Redigera en bilduppsättning {#editing-an-image-set}
 
-Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
+Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **[!UICONTROL Publish after save]** uppsättningen och anger medlemmar på följande sätt:
 
-| Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
 | Ja | Ja | Publicerad | Publicerad |
-| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status.Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
+| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Redigera en bilduppsättning**
+**Så här redigerar du en bilduppsättning:**
 
-1. I stödrastervyn bläddrar du till en ImageSet och klickar sedan under bilden på **Redigera**.
+1. I stödrastervyn bläddrar du till en ImageSet och klickar sedan under bilden på **[!UICONTROL Edit]**.
 1. Gör något av följande:
 
-   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till sidan **Vyer** i bilduppsättningen.
-   * Om du vill ta bort en bild markerar du den och klickar sedan på **Ta bort** i verktygsfältet.
+   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till **[!UICONTROL Views]**-sidan för bilduppsättningen.
+   * Om du vill ta bort en bild markerar du den och klickar sedan på **[!UICONTROL Delete]** i verktygsfältet.
    * Om du vill ändra ordning på bilderna drar du en bild till en ny plats.
 
-1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **Publicera efter spara** är markerat (standard).
-1. Klicka på **Spara**, välj en lagringsmapp för uppsättningen, ange ett namn för uppsättningen och klicka sedan på **Spara**.
+1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **[!UICONTROL Publish after save]** är markerat (standard).
+1. Klicka på **[!UICONTROL Save]**, välj en lagringsmapp för uppsättningen, ange ett namn för uppsättningen och klicka sedan på **[!UICONTROL Save]**.
 
 ## Ta bort en bilduppsättning {#deleting-an-image-set}
 
@@ -77,8 +77,7 @@ När du tar bort en uppsättning flyttas själva uppsättningen till papperskorg
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Ta bort en bilduppsättning**
+**Så här tar du bort en bilduppsättning:**
 
 1. Markera en eller flera bilduppsättningar i Stödrastervisning, listvy eller detaljvy.
-1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
-
+1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]** i det globala navigeringsfältet.
