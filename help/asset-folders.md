@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,9 @@ I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resur
 
 * **Öppna en mapp** - Välj en mapp för att visa dess innehåll på panelen Bläddra.
 
-***Tips **: Du kan dölja eller visa resursbiblioteket genom att klicka på kontrollen Utöka/komprimera till vänster. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.*
+>[!TIP]
+>
+>Du kan dölja eller visa resursbiblioteket genom att klicka på kontrollen **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** till vänster. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.
 
 ## Skapar mappar {#creating-folders}
 
