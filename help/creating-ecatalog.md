@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visningsprogram,eCatalog
 role: Business Practitioner
+exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en e-katalog{#creating-an-ecatalog}
 
@@ -39,45 +39,47 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
 1. Börja skapa din e-katalog med någon av följande tekniker:
 
-   **Markera filerna** förstMarkera filerna på panelen Bläddra och klicka sedan på Skapa > e-kataloger.
+   * **Markera filerna först**  - Markera filerna på panelen Bläddra och klicka sedan på  **[!UICONTROL Build]** >  **[!UICONTROL eCatalogs]**.
 
-   **Starta från eCatalog-** skärmenKlicka på Skapa > eCatalogs. Markera en mapp i resursbiblioteket och dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
+   * **Starta från skärmen**  eCatalog - klicka  **[!UICONTROL Build]** >  **[!UICONTROL eCatalogs]**. Markera en mapp i resursbiblioteket och dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
 
-   ***Obs!**: Om du vill visa objekten i resursbiblioteket efter namn i stället för efter miniatyrbild, väljer du alternativet Namn för standardvyn för resursbibliotek i Personliga inställningar. *
+      >[!NOTE]
+      >
+      >Om du vill visa objekten i resursbiblioteket efter namn i stället för efter miniatyrbild, väljer du alternativet Namn för standardvyn för resursbibliotek i Personliga inställningar.
 
-1. Välj en övergripande layout för din eCatalog. Klicka på uppåtknappen 1 för enstaka sidor, uppåtknappen 2 för uppslag med dubbla sidor eller knappen Egen för uppslag med fler än två sidor. Dialogrutan Ändra eCatalog-layout visas. Markera alternativen för alla uppslag och klicka på **OK**.
-1. Du kan också ändra layouten för enskilda sidor eller uppslag genom att klicka på dem och sedan välja knappen 1 upp, 2 upp eller Egen. Dialogrutan Ändra eCatalog-layout visas. Välj alternativen för de valda uppslagen och klicka på **OK**.
+1. Välj en övergripande layout för din eCatalog. Klicka på uppåtknappen 1 för enstaka sidor, uppåtknappen 2 för uppslag med dubbla sidor eller knappen Egen för uppslag med fler än två sidor. Dialogrutan Ändra eCatalog-layout visas. Markera alternativen för alla uppslag och klicka på **[!UICONTROL OK]**.
+1. Du kan också ändra layouten för enskilda sidor eller uppslag genom att klicka på dem och sedan välja **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** eller **[!UICONTROL Custom]**. Dialogrutan Ändra eCatalog-layout visas. Välj alternativen för de valda uppslagen och klicka på **[!UICONTROL OK]**.
 1. Ändra ordning på sidorna efter behov med någon av följande tekniker:
 
-   **Dra** en sida eller ett uppslag till en ny plats. Det lodräta strecket visar var sidan flyttas.
+   * **Dra**  - Dra en sida eller ett uppslag till en ny plats. Det lodräta strecket visar var sidan flyttas.
 
-   **Flytta till-** knappMarkera en sida eller ett uppslag, klicka på knappen Flytta till och välj den sida på menyn som du vill att sidan ska visas före.
+   * **Knappen**  Flytta till - Markera en sida eller ett uppslag, klicka  **[!UICONTROL Move To]** och välj sidan på menyn som du vill att sidan ska visas före.
 
-   **Sekvens #** I listvyn anger du sidnummer i fälten Sekvensnummer.
+   * **Sekvens #** - I listvyn anger du sidnummer i fälten Sekvensnummer.
 
-1. När du är klar ser du till att **Publicera efter spara** är markerat (standard) nära sidans nedre högra hörn.
-1. Klicka på **Spara**.
+1. När du är klar ser du till att **[!UICONTROL Publish after save]** är markerat (standard) nära sidans nedre högra hörn.
+1. Klicka på **[!UICONTROL Save]**.
 1. I dialogrutan Spara väljer du en mapp där din eCatalog ska lagras. I fältet Filnamn anger du namnet på rotationsuppsättningen.
-1. Klicka på **Spara**.
+1. Klicka på **[!UICONTROL Save]**.
 
-   Du kan förhandsgranska din e-katalog när du har sparat den genom att klicka på **Förhandsgranska**.
+   Du kan förhandsgranska din e-katalog när du har sparat den genom att klicka på **[!UICONTROL Preview]**.
 
 ## Redigera en e-katalog {#editing-an-ecatalog}
 
-Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
+Beroende på om du redigerar en publicerad uppsättning eller en opublicerad uppsättning påverkar **[!UICONTROL Publish after save]**-alternativet uppsättningen och anger medlemmar på följande sätt:
 
 | Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
 | Ja | Ja | Publicerad | Publicerad |
-| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status.Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
+| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Så här redigerar du en e-katalog**
+**Så här redigerar du en e-katalog:**
 
-1. Klicka på eCatalogs rollover **Redigera**.
+1. Klicka på eCatalogs överrullningsknapp **[!UICONTROL Edit]**.
 1. Gör önskade ändringar.
 1. När du är klar med redigeringen ser du till att **Publicera efter spara** är markerat (standard) nära sidans nedre högra hörn.
 1. Klicka på **Spara**, markera en lagringsmapp, ange ett namn för uppsättningen och klicka sedan på **Spara**.
@@ -111,13 +113,13 @@ Om du vill ange sidnamn manuellt, en åt gången, går du till fliken Ordna sido
 
 Du bör importera sidnamn om du har att göra med en e-katalog med många sidor. Du kan importera namnen från en tabbavgränsad fil eller XML-fil.
 
-Innehållsförteckningsetiketten lagras i en bilds fält för användardata. formatera dessa data som en lista med `name=<value>` ` pairs separated by two question marks “??” `. Om du till exempel vill ange en etikett för ett innehållsförteckningsfält med namnet tocEN anger du användardata för bilden till:
+Innehållsförteckningsetiketten lagras i en bilds fält för användardata. formatera dessa data som en lista med `name=<value>` ` pairs separated by two question marks “??” `. Om du till exempel vill ange en etikett för ett innehållsförteckningsfält med namnet `tocEN` anger du användardata för bilden till:
 
-tocEN=&lt;EN_page_label>
+`tocEN=&lt;EN_page_label>`
 
-Så här anger du separata etiketter för innehållsförteckningsfält med namnen tocEN och tocFR:
+Så här anger du separata etiketter för innehållsförteckningsfält med namnen `tocEN` och `tocFR`:
 
-tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>
+`tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>`
 
 Om du vill importera fältet Användardata till en tabbavgränsad fil inkluderar du fältets användardata:
 
