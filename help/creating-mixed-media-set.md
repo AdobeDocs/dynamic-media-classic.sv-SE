@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
 role: Business Practitioner
+exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en blandad medieuppsättning{#creating-a-mixed-media-set}
 
@@ -34,14 +34,14 @@ När du skapar en uppsättning påverkar alternativet **Publicera efter spara** 
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Skapa en blandad medieuppsättning**
+**Så här skapar du en blandad medieuppsättning:**
 
-1. Klicka på **Build** > **Blandade medieuppsättningar**.
+1. Klicka på **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**.
 1. Dra videoklipp, bilduppsättningar, snurruppsättningar och färgrutor från resursbiblioteket till skärmen med blandade medieuppsättningar.
 
    >[!NOTE]
    >
-   >Blandade medieuppsättningar stöder inte resurser med filnamn som innehåller något av följande tecken: ( ) { }.
+   >Blandade medieuppsättningar stöder inte resurser med filnamn som innehåller något av följande tecken: `( ) { }`.
 
 1. Gör något av följande:
 
@@ -49,36 +49,36 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
    * Om du vill ändra ordningen på uppsättningar drar du dem till nya platser på skärmen med blandade medieuppsättningar. Ordningen på uppsättningarna på skärmen avgör i vilken ordning användarna ser uppsättningar i visningsprogrammet för den blandade medieuppsättningen.
    * (Valfritt) Om du vill lägga till en anpassad miniatyrbild som representerar en video i visningsprogrammet drar du en bildfil från resursbiblioteket till platshållarrutan för miniatyrbilder.
 
-1. Kontrollera att **Publicera efter spara** är markerat i sidans nedre högra hörn (standard).
-1. Klicka på **Spara**, välj en mapp där du vill lagra den blandade medieuppsättningen, ange ett namn för uppsättningen och klicka på **Spara**.
+1. Kontrollera att **[!UICONTROL Publish after save]** är markerat (standard) nära sidans nedre högra hörn.
+1. Klicka på **[!UICONTROL Save]**, välj en mapp för lagring av den blandade medieuppsättningen, ange ett namn för uppsättningen och klicka på **[!UICONTROL Save]**.
 
-   Klicka på **Förhandsgranska** om du vill se hur din kombinationsbilduppsättning ser ut i en visningsprogram för bilduppsättning.
+   Klicka på **[!UICONTROL Preview]** om du vill se hur din kombinationsbilduppsättning ser ut i ett visningsprogram.
 
 ## Redigera en blandad medieuppsättning {#edit-a-mixed-media-set}
 
 Du kan redigera en uppsättning med blandade media. Om du vill redigera en uppsättning i en uppsättning med blandade media öppnar du den uppsättningen separat, redigerar den och sparar den. Redigeringarna visas i uppsättningen med blandade media.
 
-Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
+Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **[!UICONTROL Publish after save]** uppsättningen och anger medlemmar på följande sätt:
 
 | Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
 | Ja | Ja | Publicerad | Publicerad |
-| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status.Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
+| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Redigera en blandad medieuppsättning**
+**Så här redigerar du en blandad medieuppsättning:**
 
-1. Klicka på knappen för överrullning **Redigera** för den blandade medieuppsättningen.
+1. Klicka på knappen för överrullning **[!UICONTROL Edit]** för den blandade medieuppsättningen.
 1. Gör något av följande:
 
-   * Om du vill ta bort objekt markerar du dem och klickar på **Ta bort**.
+   * Om du vill ta bort objekt markerar du dem och klickar på **[!UICONTROL Delete]**.
    * Om du vill ordna om objekt drar du dem till nya platser.
 
-1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **Publicera efter spara** är markerat (standard).
-1. Klicka på **Spara** eller **Spara som**.
+1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **[!UICONTROL Publish after save]** är markerat (standard).
+1. Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
 
 ## Tar bort en blandad medieuppsättning {#deleting-a-mixed-media-set}
 
@@ -86,8 +86,7 @@ När du tar bort en uppsättning flyttas själva uppsättningen till papperskorg
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Ta bort en blandad medieuppsättning**
+**Så här tar du bort en blandad medieuppsättning:**
 
 1. I Stödrastervisning, listvy eller detaljvy väljer du en eller flera blandade medieuppsättningar.
-1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
-
+1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]** i det globala navigeringsfältet.
