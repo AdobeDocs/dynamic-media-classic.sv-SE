@@ -7,22 +7,24 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
 role: Business Practitioner
+exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
-
 
 # Publicera en blandad medieuppsättning{#publishing-a-mixed-media-set}
 
 Skapa ett publiceringsjobb för att publicera en uppsättning med blandade media som du har markerat för publicering på Dynamic Media Classic Video Server och Image Server. Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
 
-***Obs **! Blandade medieuppsättningar kräver att du publicerar till**Video **Server och även till**Image Server **. Du använder**Videoserver **för att publicera de faktiska videoklipp som du har markerat för publicering. Du kan också använda**bildserver **för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.*
+>[!NOTE]
+>
+>Blandade medieuppsättningar kräver att du publicerar till **videoserver** och även till **bildserver**. Du använder **Videoserver** för att publicera de faktiska videoklipp som du har markerat för publicering. Du kan också använda **bildserver** för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.
 
 Dynamic Media Classic spårar publiceringsjobb på jobbskärmen.
 
@@ -42,21 +44,20 @@ Last Modified Date:
 
 1. Gör något av följande:
 
-   * I panelen Bläddra klickar du på **Markera för publicering** bredvid varje filnamn som du vill publicera.
-   * På skärmen Överför klickar du på **Markera för publicering** bredvid varje filnamn som du vill publicera.
+   * Klicka på **[!UICONTROL Mark For Publish]** bredvid de filnamn du vill publicera i panelen Bläddra.
+   * På skärmen Överför klickar du på **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
 
-1. Klicka på **Publicera** i fältet Global Navigation.
+1. Klicka på **[!UICONTROL Publish]** i fältet Global navigering.
 1. Ange önskade schemaläggningsalternativ.
-1. (Valfritt) Skriv ett namn för publiceringsjobbet i fältet **Jobbnamn**.
-1. I **Avancerade**-alternativ väljer du **Videoserver** i listrutan **Publicera till**.
+1. (Valfritt) Skriv ett namn för publiceringsjobbet i fältet **[!UICONTROL Job Name]**.
+1. I **[!UICONTROL Advanced]**-alternativen väljer du **[!UICONTROL Video Server]** i listrutan **[!UICONTROL Publish To]**.
 
    Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för ytterligare alternativ som du kan ange.
 
-1. Klicka på **Skicka publicering**.
+1. Klicka på **[!UICONTROL Submit Publish]**.
 1. Upprepa steg 2-4 ovan.
-1. I **Avancerat** väljer du **Bildserver** i listrutan **Publicera till**.
+1. I **[!UICONTROL Advanced]** väljer du **[!UICONTROL Image Server]** i listrutan **[!UICONTROL Publish To]**.
 
    Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för ytterligare alternativ som du kan ange.
 
-1. Klicka på **Skicka publicering**.
-
+1. Klicka på **[!UICONTROL Submit Publish]**.
