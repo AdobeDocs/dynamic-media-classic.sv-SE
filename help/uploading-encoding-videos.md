@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,Visningsprogram,Video
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
+source-wordcount: '3930'
 ht-degree: 1%
 
 ---
-
 
 # Överföra och koda videofilmer{#uploading-and-encoding-videos}
 
@@ -248,9 +248,9 @@ Anta till exempel att källvideon är 1 920 x 1 080. I följande tabell ger de t
 
 | Videotyp | Bredd x höjd | Breddförhållande | Höjdförhållande |
 |--- |--- |--- |--- |
-| Källa | 1920 x 1080 | 3 | 3 |
+| Källa | 1920 x 1080 | 1 | 1 |
 | Kodad | 960 x 540 | 2 | 2 |
-| Kodad | 640 x 360 | 1 | 3 |
+| Kodad | 640 x 360 | 3 | 1 |
 | Kodad | 480 x 270 | 4 | 4 |
 
 ### Kodat videofilformat {#encoded-video-file-format}
@@ -313,22 +313,24 @@ Du kan också filtrera baserat på ett uppspelningsenhetsalternativ om du vill b
 
 De aktiverade videoförinställningarna visas i dialogrutan Alternativ för överföringsjobb. Det här är den dialogruta som visas när en användare överför videofiler under överföringen. De kan välja från en lista med alla aktiverade kodningsförinställningar.
 
-**Aktivera eller inaktivera förinställningar för videokodning**
+**Så här aktiverar eller inaktiverar du förinställningar för videokodning:**
 
-1. I Dynamic Media Classic klickar du på **Inställningar** > **Programinställningar** > **Videoförinställningar**.
+1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]**.
 1. Gör något av följande:
 
-   * Klicka på **Adaptiva videoförinställningar**.
-   * Klicka på **Förinställningar för enskild kodning**.
+   * Klicka på **[!UICONTROL Adaptive Video Presets]**.
+   * Klicka på **[!UICONTROL Single Encoding Presets]**.
 
 1. Gör något av följande:
 
    * Om du vill aktivera en videoförinställning markerar du rutan bredvid ett förinställningsnamn under kolumnen Aktiv på sidan med förinställningar.
    * Om du vill inaktivera en videoförinställning avmarkerar du rutan bredvid de videoförinställningar som du vill göra inaktiva.
 
-      ***Obs!**: Inaktiva videoförinställningar visas inte i dialogrutan Alternativ för överföringsjobb. *
+      >[!NOTE]
+      >
+      >Inaktiva videoförinställningar visas inte i dialogrutan Alternativ för överföringsjobb.
 
-1. Klicka på **Stäng** i sidans nedre högra hörn.
+1. Klicka på **[!UICONTROL Close]** längst ned till höger på sidan.
 
 ### Lägga till eller redigera en förinställning för videokodning {#adding-or-editing-a-video-encoding-preset}
 
