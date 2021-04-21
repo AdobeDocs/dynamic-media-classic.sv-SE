@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
-
 
 # Skapar mallparametrar{#creating-template-parameters}
 
@@ -26,7 +26,7 @@ När du skapar mallparametrar deklarerar du i själva verket vilka delar av mall
 
 I textlagerparametrar kan du också göra textsträngen till ett dynamiskt fält som är länkat till värden i en databas. Att kunna länka text till en databas är användbart i kampanjer. Du kan anpassa mallbilder så att de visar klient- eller kundnamn. Du kan även länka en textlagerparameter till en prisdatabas för att visa priset på ett objekt i en mallbild.
 
-Du kan referera till en parameter mer än en gång. Använd kombinationsrutan för varje kommando i parameterdialogrutan för att välja en parameter som matchar det aktuella kommandot. (Alla storleksparametrar är till exempel tillgängliga för kommandot size=.) Du kan tilldela om parameterreferensen till en parameter som redan finns i kombinationsrutan och ändra namnet till något som inte finns i kombinationsrutan. I det senare fallet måste namnet vara unikt. I annat fall visas ett fel om att parametern redan finns. När du tar bort en parameterreferens tas parametern bort från URL:en om den inte refereras någon annanstans. När du ändrar standardvärdet för en textparameter uppdateras alla referenser till den parametern. Du kan se uppdateringen i lagertabellen, i mallens återgivning och i URL:en. När du ändrar ett lagerattribut genom att ändra storlekshandtag eller skriva värden i egenskapspanelen uppdateras parametervärdet och alla referenser till parameteruppdateringen. Om du till exempel har parametriserat storleken på två lager med en parameter, uppdateras båda lagerstorlekarna när någon av lagerstorlekarna ändras. När du förhandsgranskar en mall och ändrar en parameter uppdateras alla referenser till den parametern.
+Du kan referera till en parameter mer än en gång. Använd kombinationsrutan för varje kommando i parameterdialogrutan för att välja en parameter som matchar det aktuella kommandot. (Alla storleksparametrar är till exempel tillgängliga för kommandot `size=`.) Du kan tilldela om parameterreferensen till en parameter som redan finns i kombinationsrutan och ändra namnet till något som inte finns i kombinationsrutan. I det senare fallet måste namnet vara unikt. I annat fall visas ett fel om att parametern finns. När du tar bort en parameterreferens tas parametern bort från URL:en om den inte refereras någon annanstans. När du ändrar standardvärdet för en textparameter uppdateras alla referenser till den parametern. Uppdateringen visas i lagertabellen, i mallåtergivningen och i URL:en. När du ändrar ett lagerattribut genom att ändra storlekshandtag eller ange värden i egenskapspanelen uppdateras parametervärdet och alla referenser till parametern uppdateras. Om du till exempel har parametriserat storleken på två lager med en parameter, uppdateras båda lagerstorlekarna när någon av lagerstorlekarna ändras. När du förhandsgranskar en mall och ändrar en parameter uppdateras alla referenser till den parametern.
 
 ## Parametrar ett lager {#parameterizing-a-layer}
 
@@ -34,7 +34,7 @@ Följ de här stegen för att skapa mallparametrar för varje lager i mallen:
 
 1. I listan Lager väljer du knappen Parametrar bredvid namnet på det lager som du vill skapa parametrar för. Skärmen Parametrar öppnas. Den visar namnen på varje parameter i lagret, dess värde och typ.
 1. Välj alternativet På bredvid namnet på varje parameter som du vill ta med i mallbilden.
-1. Välj **Stäng** om du vill stänga parameterskärmen.
+1. Välj **[!UICONTROL Close]** om du vill stänga parameterskärmen.
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Om du vill visa en lista över de parametrar du har skapat för mallen väljer d
 
 ## Skapa dynamiska textparametrar {#creating-dynamic-text-parameters}
 
-För textlager kan du dessutom göra textsträngen till ett dynamiskt fält länkat till ett databasvärde. Följ de här stegen:
+För textlager kan du också göra textsträngen till ett dynamiskt fält länkat till ett databasvärde. Följ de här stegen:
 
-1. På mallskärmen väljer du knappen Parametrar bredvid namnet på textlagret som du vill skapa dynamiska textparametrar för. Skärmen Parametrar öppnas.
-1. Välj alternativet På bredvid namnet på textattributet (textAttr).
-1. Välj fliken Text på skärmen Parametrar.
-1. Klicka på knappen Lägg till parameter. Ett standardparameternamn visas. Du kan ersätta det här namnet genom att markera det och skriva över det. Den aktuella textsträngen blir parameterns nya namn.
-1. Klicka på knappen Stäng för att stänga skärmen Parametrar.
+1. På mallskärmen väljer du knappen Parametrar bredvid namnet på textlagret som du vill skapa dynamiska textparametrar för. Sidan Parametrar öppnas.
+1. Klicka på alternativet **[!UICONTROL On]** bredvid namnet på textattributet (textAttr).
+1. Klicka på fliken **[!UICONTROL Text]** på skärmen Parametrar.
+1. Klicka på **[!UICONTROL Add Parameter]**. Ett standardparameternamn visas. Du kan ersätta det här namnet genom att markera det och skriva över det. Den aktuella textsträngen blir parameterns nya namn.
+1. Klicka på **[!UICONTROL Close]** för att stänga sidan Parametrar.
 
 Om du vill att parameternamnet ska använda ett databasvärde lägger du till följande sträng i mallens URL:
 
@@ -58,4 +58,4 @@ Om du vill att parameternamnet ska använda ett databasvärde lägger du till f�
 ?$_2(parameter name)=(database value)
 ```
 
-Parameternamnet ersätts av namn i ett databasfält eller Java-kod som t.ex. anger det aktuella priset för en artikel eller ett kundnamn.
+Parameternamnet ersätts av namn i ett databasfält eller Java™-kod som t.ex. anger det aktuella priset för en artikel eller ett kundnamn.
