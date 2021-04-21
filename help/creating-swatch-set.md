@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visningsprogram
 role: Business Practitioner
+exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '673'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en färgruteuppsättning{#creating-a-swatch-set}
 
@@ -27,54 +27,54 @@ Anta till exempel att du vill visa bilder med olika färgskalor; räkningarna ä
 ## Skapa en färgruteuppsättning {#create}
 
 När du skapar en uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och anger medlemmar på följande sätt:
-| Alternativet Publicera efter spara markerat innan du sparar?|Tillstånd för uppsättningen när den sparats|Tillstånd för angivna medlemmar efter sparande|
+|**[!UICONTROL Publish after save]**-alternativet markerat innan du sparade?|Status för uppsättningen efter att du sparat|Status för inställningsmedlemmar efter att du sparat|
 |— |— |— |
 |Ja|Publicerad|Publicerad|
 |No|Unpublished|Ange att medlemmarna behåller sitt publicerade eller opublicerade tillstånd.|
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Skapa en färgruteuppsättning**
+**Så här skapar du en färgruteuppsättning:**
 
 1. Gör något av följande:
 
-   **Markera bilderna** förstMarkera bilderna på panelen Bläddra och klicka sedan på Skapa > Färgruteuppsättningar.
+   * **Markera bilderna först**  - Markera bilderna i panelen Bläddra och klicka sedan på  **[!UICONTROL Build]** >  **[!UICONTROL Swatch Sets]**.
 
-   **Starta från** skärmen Uppsättning med färgrutorKlicka på Skapa > Uppsättningar med färgrutor. Markera en mapp i resursbiblioteket och dra bilderna till avsnittet Vyer på sidan Uppsättning med färgrutor.
+   * **Starta från skärmen**  Uppsättning med färgrutor - klicka  **[!UICONTROL Build]** >  **[!UICONTROL Swatch Sets]**. Markera en mapp i resursbiblioteket och dra bilderna till avsnittet Vyer på sidan Uppsättning med färgrutor.
 
 1. Dra färgrutefärger, mönster eller lapp till platshållarrutan för färgrutor på sidan Uppsättning med färgrutor.
 
    Se till att färgrutan för färg, mönster eller slut som du drar till varje platshållare motsvarar färgen, mönstret eller slutet på den intilliggande bilden.
 
 1. Om du vill ändra ordningen på bilderna i färgruteuppsättningen drar du bilderna till nya platser.
-1. Kontrollera att **Publicera efter spara** är markerat i sidans nedre högra hörn (standard).
-1. Klicka på **Spara**, välj en mapp där du vill spara färgruteuppsättningen, ange ett namn för uppsättningen och klicka på Skicka.
-1. Klicka på **Förhandsgranska** på skärmen för färgruteuppsättningen om du vill visa din uppsättning i visningsprogrammet för färgrutor. Du kan klicka på miniatyrbilderna för färgrutor i Visningsprogrammet för färgrutor för att se hur de beter sig.
+1. Kontrollera att **[!UICONTROL Publish after save]** är markerat (standard) nära sidans nedre högra hörn.
+1. Klicka på **[!UICONTROL Save]**, välj en mapp där du vill lagra färgruteuppsättningen, ange ett namn för uppsättningen och klicka på **[!UICONTROL Submit]**.
+1. Klicka på **[!UICONTROL Preview]** på skärmen Uppsättning med färgrutor om du vill visa din uppsättning i visningsprogrammet för färgrutor. Du kan klicka på miniatyrbilderna för färgrutor i Visningsprogrammet för färgrutor för att se hur de beter sig.
 
 ## Redigera en färgruteuppsättning {#editing-a-swatch-set}
 
-Beroende på om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och ange medlemmar på följande sätt:
+Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **[!UICONTROL Publish after save]** uppsättningen och anger medlemmar på följande sätt:
 
-| Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | **[!UICONTROL Publish after]** Vill du spara alternativet innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 |--- |--- |--- |--- |
 | Ja | Ja | Publicerad | Publicerad |
-| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status.Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
+| Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Redigera en färgruteuppsättning**
+**Så här redigerar du en färgruteuppsättning:**
 
-1. I stödrastervyn bläddrar du till en färgruteuppsättning och klickar sedan under bilden på **Redigera**.
+1. I stödrastervyn bläddrar du till en färgruteuppsättning och klickar sedan under bilden på **[!UICONTROL Edit]**.
 1. Gör något av följande:
 
-   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till **Vyer** på sidan för färgruteuppsättningen.
-   * Om du vill ta bort en bild markerar du den och klickar sedan på **Ta bort** i verktygsfältet.
+   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till **[!UICONTROL Views]**-sidan för färgruteuppsättningen.
+   * Om du vill ta bort en bild markerar du den och klickar sedan på **[!UICONTROL Delete]** i verktygsfältet.
    * Om du vill ändra ordning på bilderna drar du en bild till en ny plats.
 
-1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **Publicera efter spara** är markerat (standard).
-1. Klicka på **Spara**, markera en lagringsmapp, ange ett namn för uppsättningen och klicka sedan på **Spara**.
+1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **[!UICONTROL Publish after save]** är markerat (standard).
+1. Klicka på **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och klicka sedan på **[!UICONTROL Save]**.
 
 ## Ta bort en färgruteuppsättning {#deleting-a-swatch-set}
 
@@ -82,8 +82,7 @@ När du tar bort en uppsättning flyttas själva uppsättningen till papperskorg
 
 Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-**Ta bort en färgruteuppsättning**
+**Så här tar du bort en färgruteuppsättning:**
 
 1. Markera en eller flera färgruteuppsättningar i Stödrastervisning, listvy eller detaljvy.
-1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
-
+1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]** i det globala navigeringsfältet.
