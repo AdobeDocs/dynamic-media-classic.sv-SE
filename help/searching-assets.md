@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: a5a6596213e273d806fbc012e2c63bf3458127b0
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -109,20 +109,23 @@ Följ de här stegen för att söka efter resurser genom att filtrera med deras 
 
 1. Klicka på knappen Fält på en panel, följ dessa instruktioner för att visa filtermenyn och skapa filteråtgärden:
 
-   **Välj ett** metadatafältMarkera fältets namn på filtreringsmenyn.
+   * **Välj ett metadatafält** - Markera fältets namn på filtreringsmenyn.
 
-   ***Obs **! Endast namnen på metadatafälten i standardmetadatavyn visas på filtreringsmenyn.*
+      >[!NOTE]
+      >
+      >Endast namnen på metadatafälten i standardmetadatavyn visas på filtreringsmenyn.
 
-   Se [Metadatavyer](application-setup.md#metadata_views).
+      Se [Metadatavyer](application-setup.md#metadata_views).
 
-   **Lägga till ett** metadatafältVälj Lägg till en panel. När panelen visas på filterpanelen klickar du på knappen Fält och väljer namnet på ett metadatafält på filtreringsmenyn.
+   * **Lägga till ett metadatafält**  - Välj Lägg till en panel. När panelen visas på filterpanelen klickar du på knappen Fält och väljer namnet på ett metadatafält på filtreringsmenyn.
 
-   **Ta bort ett** metadatafältVälj Ta bort den här panelen på filtreringsmenyn.
+   * **Ta bort ett metadatafält**  - Välj  **[!UICONTROL Remove This Panel]** på filtreringsmenyn.
 
    När du väljer ett metadatafält visas en lista i panelen:
 
    * Alla metadatavärden som anges i fältet.
    * För varje metadatavärde, antalet resurser som anges av värdet.
+
 
 1. Upprepa steg 2 så många gånger som behövs för att lista alla metadatafält för filteråtgärden på paneler.
 1. Välj ett metadatavärde att filtrera på på varje panel. Du kan inte markera mer än ett metadatavärde på varje panel.
@@ -139,11 +142,11 @@ Följ de här stegen för att söka efter resurser genom att filtrera med deras 
 
 Följ dessa anvisningar på fliken Filter för att spara, upprepa och ta bort filteråtgärder:
 
-**Spara en** filteråtgärdKlicka på knappen Välj förinställning, välj Spara aktuella som nya förinställningar och ange ett namn i dialogrutan Spara.
+* **Spara en filteråtgärd** - Klicka  **[!UICONTROL Select Preset]**, välj  **[!UICONTROL Save Current As New Presets]** och ange ett namn i dialogrutan Spara.
 
-**Upprepa en** filteråtgärdKlicka på knappen Välj förinställning och välj namnet på en filteråtgärd på menyn. I menyn visas filteråtgärder som du har sparat.
+* **Upprepa en filteråtgärd** - Klicka  **[!UICONTROL Select Preset]** och välj namnet på en filteråtgärd på menyn. I menyn visas filteråtgärder som du har sparat.
 
-**Ta bort en filteråtgärd från** menyn Välj förinställningKör filteråtgärden. Klicka sedan på knappen Välj förinställning och välj Ta bort förinställning på menyn.
+* **Tar bort en filteråtgärd från menyn**  Välj förinställning - Kör filteråtgärden. Klicka sedan på **[!UICONTROL Select Preset]** och välj Ta bort förinställning på menyn.
 
 ## Använda metadataservern {#using-the-metadata-server}
 
@@ -153,15 +156,15 @@ Om du vill konfigurera metadataservern klickar du på Konfigurera > Programinst�
 
 Metadataserverns publiceringsskärm öppnas. På den här skärmen kan du ange följande alternativ:
 
-**Direkt** publiceringAlla metadataändringar skickas automatiskt när de görs, inklusive nya resurser, nyckelordsändringar osv.
+* **Direktpublicering**  - Alla metadataändringar skickas automatiskt när de görs, inklusive nya resurser, nyckelordsändringar och så vidare.
 
-**XMP** PacketPublicerar XMP. Det här paketet används inte för sökning, men innehåller det senaste XMP/
+* **XMP Packet**  - Publicerar XMP. Det här paketet används inte för sökning, men innehåller det senaste XMP/
 
-**** NyckelordPublicerar dina nyckelord på metadataservern för användning i sökningar.
+* **Nyckelord**  - Publicerar dina nyckelord till metadataservern för användning i sökningar.
 
-**Metadataserverns** publiceringsfältMarkera de fält som ska inkluderas i metadata. På så sätt kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
+* **Metadataserverns publiceringsfält**  - Markera de fält som ska inkluderas i metadata. På så sätt kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
 
-Klicka på **Publicera nu** för att starta jobbet. En bekräftelse visas som talar om att jobbet har startat.
+Klicka på **[!UICONTROL Publish Now]** för att starta jobbet. En bekräftelse visas som talar om att jobbet har startat.
 
 >[!MORELIKETHIS]
 >
