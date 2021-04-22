@@ -9,21 +9,20 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: 3f1f5575-9fe5-436c-b009-99f3bff0b21f
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: fa5b3971-1c7d-4371-8d69-c399cec0390d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '82'
 ht-degree: 0%
 
 ---
 
-
 # Inaktiverar Adobe Analytics tracking{#disabling-adobe-analytics-tracking}
 
-**Så här inaktiverar du Adobe Analytics tracking**
+**Så här inaktiverar du Adobe Analytics tracking:**
 
 1. Stäng av alla händelser på Adobe Analytics konfigurationssida i Dynamic Media Classic.
 1. Spara och publicera.
 
-Detta inaktiverar stödet via Dynamic Media Classic och via URL:er som hämtas från funktionen **CopyURL**. Om du implementerar anpassad spårning inaktiverar du den Adobe Analytics-spårning som har konfigurerats på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.
-
+De här stegen inaktiverar stödet via Dynamic Media Classic och via URL:er som hämtas från funktionen CopyURL. Om du implementerar anpassad spårning inaktiverar du den Adobe Analytics-spårning som har konfigurerats på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.
