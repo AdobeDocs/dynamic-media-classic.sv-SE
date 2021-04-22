@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '576'
 ht-degree: 5%
 
 ---
-
 
 # Arbeta i detaljvyn {#working-in-detail-view}
 
@@ -46,7 +46,7 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
    * Dubbelklicka på resursen.
    * Markera resursen och klicka sedan på **[!UICONTROL Detail View]**.
-   * Markera resursen och klicka sedan på **[!UICONTROL File > Details]**.
+   * Markera resursen och klicka sedan på **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
@@ -62,45 +62,40 @@ Du kan hämta en resurs-URL i detaljvyn; URL:en är dock inte aktiv förrän du 
 
 I detaljvyn finns verktyg som du kan använda för att arbeta med den resurs du har öppnat. Vilka verktyg som är tillgängliga beror på vilken typ av resurs du arbetar med, men detaljvyn har alltid dessa funktioner:
 
-* **objekt för**
-publiceringKlicka på  **[!UICONTROL Publish]** ikonen till vänster om namnet eller klicka  **[!UICONTROL File > Publish]** eller  **[!UICONTROL File > Unpublish]**.
+* **objekt för publicering** - Klicka på  **[!UICONTROL Publish]** ikonen till vänster om namnet eller klicka  **[!UICONTROL File > Publish]** eller  **[!UICONTROL File > Unpublish]**.
 
-* **Byt namn på**
-resursenMarkera namnet och ange ett nytt namn.
+* **Byt namn på resursen** - Markera namnet och ange ett nytt namn.
 
-* **Redigera och lägga till**
-metadataVälj panelen Metadata och gör önskade ändringar. Se [Visa, lägga till och exportera metadata](/help/viewing-adding-exporting-metadata.md).
+* **Redigera och lägga till metadata**  - Välj panelen Metadata och ändra efter behov. Se [Visa, lägga till och exportera metadata](/help/viewing-adding-exporting-metadata.md).
 
-* **Redigera och lägga till**
-nyckelordMarkera nyckelord och lägg till eller ta bort dem efter behov. Se [Lägg till eller redigera nyckelord](/help/viewing-adding-exporting-metadata.md).
+* **Redigera och lägga till nyckelord**  - Markera nyckelord och lägg till eller ta bort dem efter behov. Se [Lägg till eller redigera nyckelord](/help/viewing-adding-exporting-metadata.md).
 
-* **Tar bort**
-resursenKlicka  **[!UICONTROL File > Delete]**.
+* **Tar bort resursen**  - Klicka  **[!UICONTROL File]** >  **[!UICONTROL Delete]**.
 
 För diskreta filer - t.ex. bilder, bilduppsättningar och teckensnitt - kan du visa publicerings- och redigeringshistoriken och kontrollera jobbinformationen i detaljvyn.
 
-Tabellen visar vilka ytterligare alternativ som är tillgängliga med olika typer av resurser i detaljvyn.
+Tabellen visar vilka andra alternativ som är tillgängliga med olika typer av resurser i detaljvyn.
 
 | Tillgångstyp | Redigera/justera | Förhandsgranska |
 |--- |--- |--- |
-| Bilder | Lägg till bildscheman Lägg till zoommål Beskär skärpa Skapa justerade vyer | Ja, Förinställningar för zoom och bild. |
-| Skåp och fönster som täcker bilder | Nej | Miniatyrbild. |
-| eCatalogs | Redigera | Ja. Info-panelen är också tillgänglig. |
-| Teckensnitt | Redigera teckensnittsinformation | Nej. |
-| FXG-filer | Redigera | Ja. |
-| ICC-profiler | Redigera profilinformation | Nej. |
-| Illustrator-filer | Nej (om det inte konverterats till FXG) | Nej. |
-| Bilduppsättningar | Redigera | Ja. |
-| InDesign-filer | Nej (om det inte konverterats till FXG) | Nej. |
-| PDF-filer | Nej | Nej. |
-| PSD-filer | Ja för enskilda lager | Ja för enskilda lager. |
-| Rotationsset | Redigera | Ja. |
-| SVG-filer | Nej | Nej. |
-| Mallar | Redigera | Ja. |
-| Videor | Nej | Ja. |
-| Vinjetter och renderade vinjetteringar | Nej | Bilden visas. Du kan visa innehållet och strukturen för de återgivningsbara elementen i vinjetteringen i XML-format. |
-| XML-filer | Nej | Innehållet visas. |
-| ZIP-filer | Nej | Innehållet visas inte. |
+| Bilder | Lägg till bildscheman<br>Lägg till zoommål<br>Beskär<br>Skärpa<br>Skapa justerade vyer | Ja, Zoom- och bildförinställningar |
+| Skåp och fönster som täcker bilder | Nej | Miniatyrbild |
+| eCatalogs | Redigera | Ja<br>Panelen Info är också tillgänglig |
+| Teckensnitt | Redigera teckensnittsinformation | Nej |
+| FXG-filer | Redigera | Ja |
+| ICC-profiler | Redigera profilinformation | Nej |
+| Illustrator-filer | Nej (om det inte konverterats till FXG) | Nej |
+| Bilduppsättningar | Redigera | Ja |
+| InDesign-filer | Nej (om det inte konverterats till FXG) | Nej |
+| PDF-filer | Nej | Nej |
+| PSD-filer | Ja för enskilda lager | Ja för enskilda lager |
+| Rotationsset | Redigera | Ja |
+| SVG-filer | Nej | Nej |
+| Mallar | Redigera | Ja |
+| Videor | Nej | Ja |
+| Vinjetter och renderade vinjetteringar | Nej | Bilden visas<br>Du kan visa innehållet och strukturen för vinjettens återgivningsbara element i XML-format |
+| XML-filer | Nej | Innehållet visas |
+| ZIP-filer | Nej | Innehållet visas inte |
 
 >[!MORELIKETHIS]
 >
