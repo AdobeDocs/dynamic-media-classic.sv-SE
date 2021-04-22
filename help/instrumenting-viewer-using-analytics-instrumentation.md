@@ -9,32 +9,32 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
-
 
 # Instrumentera ett visningsprogram med Adobe Analytics Instrumentation Kit{#instrumenting-a-viewer-using-the-adobe-analytics-instrumentation-kit}
 
 Du kan använda Adobe Analytics Instrumentation Kit för att integrera ett HTML5-visningsprogram med Adobe Analytics.
 
-Om du använder någon av de fördefinierade visningsförinställningarna för Dynamic Media Classic HTML5 bör du vara medveten om att de redan innehåller all implementeringskod som behövs för att skicka data till Adobe Analytics. Du behöver inte använda någon ytterligare instrumentering.
+Om du använder någon av de fördefinierade visningsförinställningarna för Dynamic Media Classic HTML5 innehåller de redan all implementeringskod som behövs för att skicka data till Adobe Analytics. ingen ytterligare instrumentering krävs av dig.
 
 ## Konfigurera Adobe Analytics tracking från Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-För alla HTML5-visningsprogram lägger du till följande JavaScript i HTML-behållaren, vanligtvis i elementet &lt;head>:
+För alla HTML5-visningsprogram lägger du till följande JavaScript™ i HTML-behållaren, vanligtvis i elementet &lt;head>:
 
 ```as3
-<!-- ***** Site Catalyst Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-`Company` är inställt på företagsnamnet för Dynamic Media Classic. `&preset` är valfritt om inte namnet på företagets förinställning inte är  `companypreset`. I sådana fall kan det vara `companypreset-1, companypreset-2` och så vidare. Den högre siffran är en nyare instans av förinställningen. Om du vill ta reda på rätt namn på företagets förinställda värde klickar du på **Kopiera URL** och söker sedan efter namnet på företagets förinställning i `preset=`parametern.
+Där `Dynamic Media Classic Company ID` är inställt på företagsnamnet för Dynamic Media Classic. Och `&preset` är valfritt såvida inte företagets förinställningsnamn är `companypreset`. I sådana fall kan det vara `companypreset-1, companypreset-2` och så vidare. Den högre siffran är en nyare instans av förinställningen. Om du vill ta reda på rätt namn på företagets förinställningsvärde klickar du på **[!UICONTROL Copy URL]** och söker sedan efter namnet på företagets förinställning i `preset=`parametern.
 
-Du kommer nu att lägga till en funktion som överför visningsprogramhändelsen till spårningskoden för Adobe Analytics.
+Nu kan du lägga till en funktion som skickar visningsprogramhändelsen till spårningskoden för Adobe Analytics.
 
 Lägg till funktionen `s7ComponentEvent()` i behållar-HTML (eller JSP, eller ASPX eller annan):
 
@@ -42,7 +42,7 @@ Lägg till funktionen `s7ComponentEvent()` i behållar-HTML (eller JSP, eller AS
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }
 ```
 
-Funktionsnamnet är skiftlägeskänsligt. Den enda parameter som skickas till `s7componentEvent`som är obligatorisk är den sista: `eventData`. `s7track()` definieras i s_code.jsp som ingår ovan. `s7track` hanterar all spårning per händelse. (I det här området kan du anpassa data som skickas till Adobe Analytics ytterligare.)
+Funktionsnamnet är skiftlägeskänsligt. Den enda parameter som skickas till `s7componentEvent`som är obligatorisk är den sista: `eventData`. Där `s7track()` definieras i s_code.jsp som finns ovan. Och `s7track` hanterar all spårning för varje händelse. (I det här området kan du anpassa data som skickas till Adobe Analytics ytterligare.)
 
 ## Aktivera HREF- och ITEM-händelser {#enabling-href-and-item-events}
 
