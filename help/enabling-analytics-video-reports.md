@@ -7,18 +7,18 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-
 # Aktivera Adobe Analytics videorapporter{#enabling-adobe-analytics-video-reports}
 
-Om du använder Adobe Analytics hjärttaktsbaserad videorappning behöver du inte längre aktivera de fyra videovisningsprogramhändelserna (Play, Pause, Stop, Milestone) när du konfigurerar Adobe Analytics i Dynamic Media Classic. Videoberättelser fungerar med färdiga visningsprogram för Dynamic Media Classic HTML5 Video och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter.
+Om du använder Adobe Analytics hjärttaktsbaserad videorappning behöver du inte längre aktivera de fyra videovisningsprogramhändelserna (Play, Pause, Stop, Milestone) när du konfigurerar Adobe Analytics i Dynamic Media Classic. Videoberättelser fungerar med färdiga Dynamic Media Classic HTML5-visningsprogram för video och blandade media. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter.
 
 * En introduktion till direktuppspelningsmedia och&quot;hjärtslagsmätning&quot; finns i [Om Adobe Analytics for Streaming Media](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
 
@@ -35,4 +35,3 @@ Om du använder Adobe Analytics hjärttaktsbaserad videorappning behöver du int
 >[!NOTE]
 >
 >Om din licensierade lösning av Adobe Analytics inte innehåller videopulsslag måste du fortsätta att använda stegen som beskrivs i det här kapitlet för att tilldela Adobe Analytics-variabler till Dynamic Media Classic-visningsprogramhändelser och variabler.
-
