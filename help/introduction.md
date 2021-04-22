@@ -6,21 +6,21 @@ seo-description: Dynamic Media Classic - översikt
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
-
 
 # Hjälp för Dynamic Media Classic {#scene7-overview}
 
 Välkommen till Adobe Dynamic Media Classic, det ledande publiceringssystemet för medieoberoende publicering som kan användas för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial på alla enheter och skärmar. Adobe Dynamic Media Classic-lösningar innehåller följande:
 
 * Dynamic Imaging: Realtidsredigering, formatering och storleksändring, interaktiv zoom och panorering. färgsättning och texturvisning, 360-graders centrifugering, bildmallar, multimediavisare.
-* eCatalogs: Skapa, länka till hotspot, sök-aktiverade, publicera och leverera dynamiskt hanterade onlinekataloger till konfigurerbara visningsprogram.
+* eCatalogs: Skapa, länka till hotspot, sök, publicera och leverera dynamiskt betjänade onlinekataloger till konfigurerbara visningsprogram.
 * Media Portal: En självbetjäningsmiljö som ger portalanvändare administratörskontrollerade&quot;vyer&quot; till Dynamic Media Classic-resurser så att de enkelt kan överföra, söka, förhandsgranska och exportera resurser.
 * eVideo: Ladda upp färdiga videor i valfritt format, hantera, redigera, skapa aktiveringspunkter och videomallar, publicera och strömma till konfigurerbara videovisningsprogram
 * Visual Configurators: Realtidsåtergivningsteknik som möjliggör visuell onlinekonfiguration för personalisering och anpassningseffekter som realtidsåtergivning av färgstrukturer, ytor, mönster, monogram och graveringar i produktbilder eller scener.
@@ -41,4 +41,3 @@ Välkommen till Adobe Dynamic Media Classic, det ledande publiceringssystemet f�
 * [Snabbstart: Grundläggande om mallar](/help/quick-start-template-basics.md)
 * [Snabbstart: Video](/help/quick-start-video.md)
 * [Snabbstart: Zooma](/help/quick-start-zoom.md)
-
