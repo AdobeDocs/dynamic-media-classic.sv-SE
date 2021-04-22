@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
-
 
 # Beskära en bild{#cropping-an-image}
 
@@ -26,40 +26,40 @@ Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära et
 
 >[!NOTE]
 >
->När du har beskurit kan du klicka på knappen Spara som och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Om du vill spara originalet och den beskurna versionen med ett annat namn väljer du Spara som tilläggsvy med Överordnad. Välj Ersätt original om du vill ta bort originalfilen som du beskurit bilden från. Ange sedan ett namn för bilden och välj knappen Skicka.
+>När du har beskurit kan du klicka på knappen Spara som och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Klicka på **[!UICONTROL Save As Addition View Of Master]** om du vill spara originalet och den beskurna versionen med ett annat namn. Klicka på **[!UICONTROL Replace Original]** för att ta bort den ursprungliga fil som du beskurit bilden från. Ange sedan ett namn för bilden och klicka på **[!UICONTROL Submit]**.
 
 ## Beskär för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
 
 Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant.
 
-1. Om du vill beskära en bild klickar du på knappen Redigera överrullning och väljer Beskär. Du kan också visa den i panelen Bläddra i detaljvyn och klicka på knappen Beskär. Skärmen Beskärningsredigeraren öppnas.
-1. Gör något av följande:
+1. Om du vill beskära en bild klickar du på dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]**, eller visar den i panelen Bläddra i detaljvyn och klickar på knappen **[!UICONTROL Crop]**.
+1. Gör något av följande på sidan Beskärningsredigerare:
 
-   * Om du vill trimma färgpixlar väljer du menyn Rensa och sedan Färg. Dialogrutan Beskär automatiskt efter färg visas. Välj menyn Hörn och välj ett hörn med bakgrundsfärgen som ska beskäras. Ange sedan en toleransinställning från 0 till 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj knappen Beskär.
-   * Om du vill trimma genomskinliga pixlar väljer du Rensa och sedan Genomskinlig. Dialogrutan Beskär automatiskt efter genomskinlighet visas. Ange en toleransinställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de är helt genomskinliga. Siffror närmare 1 ger större genomskinlighet. Välj knappen Beskär.
+   * Om du vill trimma färgpixlar klickar du på **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Dialogrutan Beskär automatiskt efter färg visas. Klicka på menyn **[!UICONTROL Corner]** och välj ett hörn med bakgrundsfärgen som ska beskäras. Ange sedan en **[!UICONTROL Tolerance]**-inställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Klicka på knappen **[!UICONTROL Crop]**.
+   * Om du vill trimma genomskinliga pixlar väljer du **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Dialogrutan Beskär automatiskt efter genomskinlighet visas. Ange en toleransinställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de är genomskinliga. Siffror närmare 1 ger större genomskinlighet. Klicka på **[!UICONTROL Crop]**.
 
-1. Klicka på **Spara**.
+1. Klicka på **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden i beskärningsredigeraren och klickar på **[!UICONTROL Reset]**.
 
 ## Markera ett område att beskära {#select-an-area-to-crop}
 
-1. Om du vill beskära en bild klickar du på knappen Redigera överrullning och väljer **Beskär**, eller visar den i panelen Bläddra i vyn Detalj och klickar på **Beskär**.
+1. Om du vill beskära en bild klickar du på dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]**, eller visar den i panelen Bläddra i vyn Detalj och klickar på **[!UICONTROL Crop]**.
 
-1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Det som visas i rutan kvarstår när du klickar på **Spara** och beskär bilden.
+1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Det som visas i rutan är det som återstår när du klickar på **[!UICONTROL Save]** och beskär bilden.
 1. Justera beskärningsområdet genom att göra något av följande:
 
    * Dra en sida eller ett hörn av rutan. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen) för beskärningsrutan.
    * Ange pixelmått i rutorna Storlek.
    * Dra för att flytta beskärningsrutan. Flytta pekaren innanför rutans kant. När du ser den fyrhövdade pilen drar du rutan till en ny plats i bilden.
 
-1. Klicka på **Spara**.
+1. Klicka på **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget när du har beskurit den, visar du bilden på skärmen Beskärningsredigeraren och väljer knappen Återställ.
+>Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden i beskärningsredigeraren och klickar på **[!UICONTROL Reset]**.
 
 >[!MORELIKETHIS]
 >
