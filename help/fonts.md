@@ -9,18 +9,18 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
-
 # Teckensnitt{#fonts}
 
-I vissa fall kräver Dynamic Media Classic att du överför en teckensnittsfil för att ange eller återge text i ett visst teckensnitt. Om du till exempel vill använda ett visst teckensnitt för text i ett mallager överför du teckensnittsfilen. Om du vill visa sidnummer för eCatalog Viewer i ett visst teckensnitt överför du teckensnittsfilen.
+Ibland kräver Dynamic Media Classic att du överför en teckensnittsfil för att ange eller återge text i ett visst teckensnitt. Om du till exempel vill använda ett visst teckensnitt för text i ett mallager överför du teckensnittsfilen. Om du vill visa sidnummer för eCatalog Viewer i ett visst teckensnitt överför du teckensnittsfilen.
 
 Dynamic Media Classic stöder följande teckensnittstyper:
 
@@ -46,24 +46,24 @@ Du kan ändra ID-namnet för ett teckensnitt och dess typinformation. Att redige
 
 I panelen Bläddra markerar du den teckensnittsfil som du vill redigera i vyn Detalj och väljer Arkiv > Redigera info. Skärmen Redigera information öppnas. Välj följande alternativ och välj knappen Skicka.
 
-**Teckensnittsnamn** Det här namnet identifierar teckensnittet när det publiceras.
+* **Teckensnittsnamn**  - Det här namnet identifierar teckensnittet när det publiceras.
 
-**PostScript-** namnDet här namnet är det fullständiga PostScript-namnet för teckensnittet. Det anger vanligtvis bredden eller formatet.
+* **PostScript-namn**  - Det här namnet är det fullständiga PostScript-namnet för teckensnittet. Det anger vanligtvis bredden eller formatet.
 
-**RTF-** namnDet här namnet visas på en snabbmeny i RTF-redigeraren där malltextlager skapas.
+* **RTF-namn**  - Det här namnet visas på en snabbmeny i RTF-redigeraren där malltextlager skapas.
 
-**Teckensnittsfamilj** NamnDet här namnet visar teckensnittsnamnet utan indikator för format, vikt eller teckensnittstyp.
+* **Teckensnittsfamiljenamn**  - Det här namnet visar teckensnittsnamnet utan indikator för format, vikt eller teckensnittstyp.
 
-**Teckensnittsformat** Alternativen är Normal, Fet, Kursiv och Fet-Kursiv.
+* **Teckensnittsformat**  - Alternativen är Normal, Fet, Kursiv och Fet-Kursiv.
 
-**Teckensnittstyp** Alternativen är TrueType och Adobe Type 1. Om du anropar teckensnitten med ett annat namn kan du ange det.
+* **Teckensnittstyp**  - Alternativen är TrueType och Adobe Type 1. Om du anropar teckensnitten med ett annat namn kan du ange det.
 
-**Teckensnittstyp** FörkortningAlternativen är följande:
+* **Typförkortning**  - Alternativen är följande:
 
-**TTFTrueType-** teckensnittsfiler som används för PDF/PostScript-återgivning och bildvisning.
+   * **TTFTrueType-** teckensnittsfiler som används för PDF/PostScript-återgivning och bildvisning.
 
-**** AFMAdobe PostScript-teckensnittsfiler som innehåller Adobe Font Metrics-information och används för bildvisning.
+   * **** AFMAdobe PostScript-teckensnittsfiler som innehåller Adobe Font Metrics-information och används för bildvisning.
 
-**** PFMAdobe PostScript-teckensnittsfiler som innehåller binär teckensnittsmätningsinformation.
+   * **** PFMAdobe PostScript-teckensnittsfiler som innehåller binär teckensnittsmätningsinformation.
 
-**** PFBAdobe PostScript-teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
+   * **** PFBAdobe PostScript-teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
