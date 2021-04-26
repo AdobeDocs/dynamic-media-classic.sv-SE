@@ -11,9 +11,9 @@ feature: Dynamic Media Classic
 role: Business Practitioner
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -37,21 +37,21 @@ Du kan hämta en URL-sträng som genereras av en bildförinställning från för
 1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Klicka på Stödrastervisning ovanför fönstret Resurser, till höger om verktygsfältet. Välj en enda bildresurs i fönstret Resurser och klicka sedan på Förhandsvisa > Lista med bildförinställningar under miniatyrbilden.
-   * Ovanför fönstret Resurser klickar du på Listvy till höger om verktygsfältet. Välj en enda bildresurs i fönstret Resurser och klicka sedan på Förhandsvisa > Lista med bildförinställningar till höger om miniatyrbilden.
-   * Klicka på Detaljvy ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på Förhandsvisa > Lista med bildförinställningar i samma verktygsfält.
+   * Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och klickar sedan under miniatyrbilden på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Klicka på **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och klickar sedan på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** till höger om miniatyrbilden.
+   * Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** i samma verktygsfält.
 
-1. (Valfritt) I listrutan URL-kodning för kopiering av URL-generering i fönstret Bildförinställning väljer du den URL-kodning som du vill använda på bildresursens URL när den kopieras.
-1. Klicka på Kopiera URL-adress för den valda förinställningstypen i det övre högra hörnet i förhandsgranskningsfönstret.
-1. Klicka på Stäng i det nedre högra hörnet av fönstret Bildförinställningslista för att återgå till skärmen Resurser.
+1. (Valfritt) I listrutan Bildförinställning väljer du den URL-kodning som du vill använda på bildresursens URL när den kopieras i URL-kodningslistan för kopiering av URL-generering.
+1. Klicka på **[!UICONTROL Copy URL]** för den valda förinställningstypen i det övre högra området i förhandsgranskningsfönstret i fönstret Bildförinställningslista.
+1. Klicka på **[!UICONTROL Close]** längst ned till höger i fönstret Bildförinställningslista för att återgå till skärmen Resurser.
 
 ### Hämta en URL för bildförinställning från panelen Bläddra {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
-1. Klicka på Stödrastervisning ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs.
-1. Klicka på Detaljvy ovanför fönstret Resurser, till höger om verktygsfältet.
-1. Klicka på URL:er på panelen till höger på skärmen för att visa listan med bildförinställningar.
-1. Klicka på länken Kopiera URL bredvid namnet på bildförinställningen med den URL som du vill kopiera till Urklipp.
+1. Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs.
+1. Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet.
+1. Klicka på **[!UICONTROL URLs]** på panelen till höger på skärmen för att visa listan med bildförinställningar.
+1. Klicka på länken **[!UICONTROL Copy URL]** bredvid namnet på bildförinställningen med den URL som du vill kopiera till Urklipp.
 
 ## Om URL-strängar för bildförinställning {#about-image-preset-url-strings}
 
