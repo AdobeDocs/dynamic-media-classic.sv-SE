@@ -9,32 +9,28 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
-feature: Dynamic Media Classic,Collaboration,Asset Management
+feature: Dynamic Media Classic,Samarbete,Resurshantering
 role: Administrator,Business Practitioner
+exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
-
 
 # Användarroller för mediaportal{#media-portal-user-roles}
 
 Media Portal har följande roller med olika behörigheter och behörigheter. När du registrerar en användare tilldelar du användaren en av följande roller:
 
-* **Media Portal**
-AdministratorKan lägga till och ta bort administratörer, medarbetare och användare. Administratören kan också ange behörighet för gruppåtkomst, hantera FTP-konton, tilldela konverteringsformat (förinställningar) som godkänts av företaget, skicka e-post till Media Portal-användare samt visa portalanvändning och lagringsrapporter.
+* **Media Portal Administrator**  - Kan lägga till och ta bort administratörer, medarbetare och användare. Administratören kan också ange behörighet för gruppåtkomst, hantera FTP-konton, tilldela konverteringsformat (förinställningar) som godkänts av företaget, skicka e-post till Media Portal-användare samt visa portalanvändning och lagringsrapporter.
 
-* **Media Portal**
-UserHar åtkomst till mappar och filer. En användare kan bara bläddra bland, förhandsgranska och hämta filer. Den här rollen passar för kanal- eller servicepartners som behöver tillgång till företagets godkända resurser.
+* **Media Portal-användare**  - Har åtkomst till mappar och filer. En användare kan bara bläddra bland, förhandsgranska och hämta filer. Den här rollen passar för kanal- eller servicepartners som behöver tillgång till företagets godkända resurser.
 
-* **Media Portal**
-ContributorKan överföra, förhandsgranska och bläddra bland filer och metadata i områden som administratören har gett behörighet till. En deltagare kan inte hämta filer. Medarbetare kan redigera metadata, ändra namn på filer, flytta filer till olika mappar och ta bort filer.
+* **Media Portal Contributor**  - Kan överföra, förhandsgranska och bläddra bland filer och metadata i områden som en administratör har gett behörighet till. En deltagare kan inte hämta filer. Medarbetare kan redigera metadata, ändra namn på filer, flytta filer till olika mappar och ta bort filer.
 
-**Media Portal Contributor-**
-UserHar åtkomst till mappar och filer. Medverkande användare kan bläddra bland, förhandsgranska, hämta och överföra bilder och metadata. Contributor-användare kan ändra namn på filer, flytta filer till olika mappar och ta bort filer.
+* **Media Portal Contributor-User**  - Har åtkomst till mappar och filer. Medverkande användare kan bläddra bland, förhandsgranska, hämta och överföra bilder och metadata. Contributor-användare kan ändra namn på filer, flytta filer till olika mappar och ta bort filer.
 
 I den här tabellen beskrivs de uppgifter som användare med olika roller kan utföra. Administratörer och medverkande användare kan utföra alla uppgifter som anges i den här tabellen:
 
