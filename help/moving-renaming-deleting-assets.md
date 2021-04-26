@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
-
 
 # Flytta, byta namn på och ta bort resurser{#moving-renaming-and-deleting-assets}
 
@@ -29,16 +29,14 @@ Du kan flytta resurser till olika mappar i panelen Bläddra.
 1. Markera resursen eller resurserna på panelen Bläddra och gör något av följande:
 
    * Visa mappen som du vill flytta resurserna till i resursbiblioteket och dra resurserna till mappen.
-   * Välj Arkiv > Flytta, markera en mapp i fönstret Flytta resurser och välj Flytta.
+   * Klicka på **[!UICONTROL File]** > **[!UICONTROL Move]**, markera en mapp i fönstret Flytta resurser och välj **[!UICONTROL Move]**.
 
 ## Byt namn på resurser {#rename-assets}
 
-Så här byter du namn på en resurs:
-
 1. Markera resursen i panelen Bläddra och gör något av följande:
 
-   * Markera namnet, skriv in ett nytt namn och tryck på Retur eller klicka utanför namnet.
-   * Välj Arkiv > Byt namn. Namnet på resursen markeras. Ange ett nytt namn och tryck på Retur.
+   * Markera namnet, skriv in ett nytt namn och tryck på **[!UICONTROL Enter]** eller klicka utanför namnet.
+   * Klicka på **[!UICONTROL File]** > **[!UICONTROL Rename]**. Namnet på resursen markeras. Ange ett nytt namn och tryck på **[!UICONTROL Enter]**.
 
 Se till att du inte anger namnet på en befintlig Dynamic Media Classic-resurs.
 
@@ -54,10 +52,10 @@ När du tar bort en resurs tas även alla resurser som härletts från den bort.
 
 1. Gör något av följande:
 
-   * Om du vill ta bort en eller flera resurser markerar du resurserna på panelen Bläddra och trycker på Delete eller väljer Arkiv > Ta bort.
-   * Om du vill ta bort en mapp markerar du mappen i resursbiblioteket och klickar på **Ta bort mapp**.
+   * Om du vill ta bort en eller flera resurser markerar du resurserna på panelen Bläddra och trycker på **[!UICONTROL Delete]** eller klickar på **[!UICONTROL File]** > **[!UICONTROL Delete]**.
+   * Om du vill ta bort en mapp markerar du mappen i resursbiblioteket och klickar på **[!UICONTROL Remove Folder]**.
 
-      Om du tar bort en mapp tas mappen, alla resurser i mappen samt alla resurser i dess undermappar bort.
+      Om du tar bort en mapp tas mappen, alla resurser i mappen och alla resurser i dess undermappar bort.
 
 >[!NOTE]
 >
@@ -71,11 +69,11 @@ Skapa en lista med Dynamic Media Classic ID:n och spara den som en textfil (.txt
 
 När du har skapat listan följer du de här stegen för att använda den för att ta bort resurser:
 
-1. Välj Arkiv > Ta bort resurslista.
+1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Delete Asset List]**.
 1. I dialogrutan Ta bort resurs bläddrar du till eller skriver sökvägen till textfilen med listan över resurser som du vill ta bort.
-1. Klicka på knappen Ta bort.
+1. Klicka på **[!UICONTROL Delete]**.
 
-När du tar bort resurser med en textfil visas ett meddelande om att Dynamic Media Classic inte kan validera de här posterna i listan tillsammans med listan med poster, om det inte finns något Dynamic Media Classic-ID i listan. Dynamic Media Classic genererar dock inget fel på jobbskärmen.
+När du tar bort resurser med en textfil visas meddelandet&quot;Det går inte att validera de här posterna i listan:&quot; och listan över poster om det inte finns något Dynamic Media Classic-ID i listan. Dynamic Media Classic genererar dock inget fel på jobbsidan.
 
 >[!MORELIKETHIS]
 >
