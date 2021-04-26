@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Dynamic Media Classic-datorprogrammet - nu tillgängligt {#new-ui-2020}
 
@@ -21,23 +21,23 @@ Se [Adobe Dynamic Media Classic-datorprogrammet](/help/dynamic-media-classic-des
 
 ## _Senast uppdaterad 30 juni 2020_
 
-Dynamic Media Classic-användare har nu tillgång till en ny inloggningsupplevelse som inte längre är beroende av Adobe Flash i webbläsaren. Läs mer i Vanliga frågor och svar.
+Dynamic Media Classic-användare har nu tillgång till en ny inloggningsupplevelse som inte längre är beroende av Adobe Flash i webbläsaren.
 
 ### **_Kommer webbläsare som slutar stödja Adobe Flash den 31 december 2020 att påverkas av Dynamic Media Classic (tidigare Scene7)?_**
 
-Adobe Flash Player var en webbläsarplugin som gjorde att webbläsare kunde använda innehåll som utvecklats på Adobe Flash. Webbanvändargränssnittet i Dynamic Media Classic (som för närvarande är märkt [!DNL Scene7 Publishing System] eller [!DNL SPS] i produkten) krävde Flash Player. När Adobe Flash är borttagen den 31 december 2020 kommer Dynamic Media Classic-kunder inte längre att kunna logga in i webbanvändargränssnittet. På grund av detta har Adobe försett kunderna med ett skrivbordsprogram som ersätter webbläsarupplevelsen.
+Adobe Flash Player var en webbläsarplugin som gjorde att webbläsare kunde använda innehåll som utvecklats på Adobe Flash Platform. Webbanvändargränssnittet i Dynamic Media Classic (som för närvarande är märkt [!DNL Scene7 Publishing System] eller [!DNL SPS] i produkten) krävde Flash Player. När Adobe Flash är borttagen den 31 december 2020 kommer Dynamic Media Classic-kunder inte längre att kunna logga in i webbanvändargränssnittet. På grund av den här förändringen har Adobe försett kunderna med ett skrivbordsprogram som ersätter webbläsarupplevelsen.
 
 ### **_Hur får jag tillgång till det nya datorprogrammet?_**
 
-Det nya skrivbordsprogrammet är tillgängligt som ett `.dmg`-installationsprogram för macOS eller som ett `.exe`-installationsprogram för Windows.
+Det nya skrivbordsprogrammet är tillgängligt som ett `.dmg`-installationsprogram för macOS eller som ett `.exe`-installationsprogram för Windows®.
 
 Se [Adobe Dynamic Media Classic-datorprogrammet](/help/dynamic-media-classic-desktop-app.md) om du vill visa systemkraven, hämta och installera det nya programmet och sedan logga in på det.
 
-Hämtningslänkarna delas också via prenumerationssidan [Dynamic Media Classic newsletter.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
+Hämtningslänkarna är också tillgängliga via prenumerationssidan för [Dynamic Media Classic-nyhetsbrev.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
 
 ### **_Hur fungerar det nya datorprogrammet?_**
 
-När du har hämtat, installerat och startat skrivbordsappen visas en uppdaterad inloggningsupplevelse. Genom att ange ditt befintliga användarnamn och lösenord och välja rätt server baserat på region, kommer du att loggas in i Dynamic Media Classic. Du kommer att märka att den övergripande upplevelsen är densamma som den välbekanta webbläsarversionen du är van vid. Från skrivbordsappen får du tillgång till Dynamic Media Classic Production och Staging. Du kan även komma åt Media Portal om du är inloggad för den här funktionen.
+När du har hämtat, installerat och startat skrivbordsappen visas en uppdaterad inloggningsupplevelse. Genom att ange ditt befintliga användarnamn och lösenord och välja rätt server baserat på din region, kan du logga in på Dynamic Media Classic. Den övergripande upplevelsen är densamma som den välbekanta webbläsarversionen du är van vid. Från skrivbordsappen får du tillgång till Dynamic Media Classic Production och Staging. Du kan även komma åt Media Portal om du är inloggad för den här funktionen.
 
 >[!IMPORTANT]
 >
@@ -57,13 +57,13 @@ Nej. Automatiseringsskript påverkas inte. Det nya datorprogrammet fungerar och 
 
 ### **_Fungerar den nya datorappen Dynamic Media Classic på Macar och persondatorer?_**
 
-Ja. Den nya datorappen är en plattformsoberoende lösning som fungerar på både Mac och PC. Linux stöds inte *inte*.
+Ja. Den nya datorappen är en plattformsoberoende lösning som fungerar på både Mac och PC. Linux® stöds inte *inte*.
 
 ### **_Mitt företag har strikta säkerhetskrav. Hur hanterar den nya datorappen Dynamic Media Classic dessa krav?_**
 
-Adobe vill säkerställa att våra produkter uppfyller kundernas säkerhetskrav. Den nya datorappen Dynamic Media Classic kommer även i fortsättningen att ge kunderna en mycket säker upplevelse som uppfyller alla säkerhetsstandarder för Adobe.
+Adobe strävar efter att säkerställa att produkter uppfyller kundernas säkerhetskrav. Den nya datorappen Dynamic Media Classic fortsätter att ge kunderna en mycket säker upplevelse som uppfyller alla säkerhetsstandarder för Adobe.
 
-### **_Mitt företag tillåter inte att vi installerar programvara och appar på våra datorer. Hur rekommenderar vi att vi får tillgång till det nya datorprogrammet?_**
+### **_Mitt företag tillåter inte att jag installerar program och program på min dator. Hur rekommenderar jag att jag får tillgång till det nya datorprogrammet?_**
 
 Om ditt företag inte låter dig ladda ned och installera program och program på datorn utan godkännande kan du samarbeta med IT-avdelningen tidigt för att få åtkomst till den nya Dynamic Media Classic-datorappen. Kom ihåg att efter den 31 december 2020 kommer webbläsarversionen att bli inaktuell. Det är viktigt att du undviker att vänta tills den sista minuten med att hämta det nya datorprogrammet.
 
@@ -73,7 +73,7 @@ Nej, den AIR-teknik som den nya Dynamic Media Classic-datorappen byggs på hindr
 
 ### **_Finns det några begränsningar för hur många filer som kan överföras till Dynamic Media Classic via en lokal dator?_**
 
-När du använder det nya Dynamic Media Classic-datorprogrammet i Windows kan du överföra högst 150 filer i taget med hjälp av dialogrutan **[!UICONTROL Upload]**. Denna begränsning kommer att åtgärdas före utgången av 2020. Det finns *inga* överföringsbegränsningar för macOS-plattformen.
+När du använder det nya Dynamic Media Classic-datorprogrammet i Windows® kan du överföra högst 150 filer i taget med hjälp av dialogrutan **[!UICONTROL Upload]**. Denna begränsning har redan åtgärdats före utgången av 2020. Det finns *inga* överföringsbegränsningar för macOS-plattformen.
 
 ### **_Kräver den nya datorappen Dynamic Media Classic en ny SKU? Finns det någon licenskostnad?_**
 
@@ -81,7 +81,7 @@ Du behöver inte ändra SKU eller licens för att använda det nya Dynamic Media
 
 ### **_Hur aktiveras uppgraderingar till Dynamic Media Classic?_**
 
-Efter lanseringen av Adobe Dynamic Media Classic-datorprogrammet den 30 juni 2020 måste Adobe ladda ned den nya versionen och installera som vanligt (ersätt den befintliga appen i **[!UICONTROL Applications]**). Kunderna meddelas om den nya versionen via Dynamic Media nyhetsbrev eller via sina CSM:er. Adobe arbetar också med en meddelandefunktion i appen som meddelar användare om en uppgradering.
+Efter lanseringen av Adobe Dynamic Media Classic-datorprogrammet den 30 juni 2020 måste Adobe ladda ned den nya versionen och installera som vanligt (ersätt den befintliga appen i **[!UICONTROL Applications]**). Du meddelas om den nya releasen via Dynamic Media nyhetsbrev, via din CSM (Customer Success Manager) och en meddelandefunktion för uppgradering i appen som meddelar användare om en uppgradering.
 
 ### **_Hur får jag hjälp med eventuella problem jag har med Dynamic Media Classic?_**
 
@@ -92,7 +92,7 @@ Kontakta Adobe Support om du har problem med appen.
 Dynamic Media Classic är en kraftfull och funktionsrik lösning som utformats för att förbättra dina multimediestrategier. Se till att du utforskar följande praktiska resurser så att du kan utnyttja alla funktioner:
 
 * [Självstudiekurs om bästa praxis för Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-* [Dynamic Media blogginlägg](https://theblog.adobe.com/tag/dynamic-media/)
+* [Adobe blogginlägg](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Dynamic Media Newsletter Archives](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
 Du kan också [prenumerera på Dynamic Media nyhetsbrev](https://www.adobe.com/subscription/dynamic-media-newsletter.html) och få aktuell information, information, utbildningsmöjligheter, kraftfulla funktioner som är tillgängliga för dig, som [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) och det kompletterande granskningsprogrammet.
@@ -109,4 +109,3 @@ Om du vill veta mer om fördelarna med att uppgradera till nästa generation av 
 
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
-
