@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visningsprogram,eCatalog
 role: Business Practitioner
+exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 0%
+source-wordcount: '622'
+ht-degree: 1%
 
 ---
-
 
 # Länka en e-katalog till en webbsida{#linking-an-ecatalog-to-a-web-page}
 
@@ -28,20 +28,20 @@ Dina webbplatser och program har åtkomst till Dynamic Media Image Server-inneh�
 
 ## Kopiera en eCatalog-URL {#copying-an-ecatalog-url}
 
-1. Klicka på **Katalog** i listrutan Visa i panelen Resurser.
+1. Klicka på **[!UICONTROL Catalog]** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den eCatalog vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Kopiera URL** till höger om det visningsprogram du vill använda i panelen URL:er och Bädda in kod till höger.
-   * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
+   * Klicka på **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **[!UICONTROL Copy URL]** till höger om det visningsprogram du vill använda i panelen URL:er och Bädda in kod.
+   * Klicka på **[!UICONTROL Grid View]**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
+      Klicka på **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
+   * Klicka på **[!UICONTROL List View]**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** till höger om miniatyrbilden.
 
-      Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
+      Klicka på **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Stödrastervisning**, **Listvy** eller **Detaljvy**. Klicka på **Förhandsgranska** > **Visningsprogramlista** i samma verktygsfält.
+   * Klicka på **[!UICONTROL Grid View]**, **[!UICONTROL List View]** eller **[!UICONTROL Detail View]**. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
       Klicka på **Kopiera URL** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
@@ -55,28 +55,27 @@ Mer information och kodexempel finns i [Bädda in HTML5 eCatalog Viewer i refere
 
 Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda e-katalogen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
-**Så här kopierar du inbäddningskoden för ett eCatalog-visningsprogram**
+**Så här kopierar du inbäddningskoden för ett eCatalog-visningsprogram:**
 
-1. Klicka på **Katalog** i listrutan Visa i panelen Resurser.
+1. Klicka på **[!UICONTROL Catalog]** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den eCatalog vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Klicka på **Stödrastervisning**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **Bädda in kod** på panelen URL:er till höger.
-   * Klicka på **Stödrastervisning**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **Förhandsvisa** > **Visningsprogramlista**.
+   * Klicka på **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Klicka på **[!UICONTROL Embed Code]** på panelen URL till höger.
+   * Klicka på **[!UICONTROL Grid View]**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan under miniatyrbilden på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
+      Klicka på **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Listvy**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **Förhandsvisa** > **Visningsprogramlista** till höger om miniatyrbilden.
+   * Klicka på **[!UICONTROL List View]**. Markera en enskild resurs på panelen Resursbläddring och klicka sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** till höger om miniatyrbilden.
 
-      Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
+      Klicka på **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Klicka på **Stödrastervisning**, **Listvy** eller **Detaljvy**. Klicka på **Förhandsgranska** > **Visningsprogramlista** i samma verktygsfält.
+   * Klicka på **[!UICONTROL Grid View]**, **[!UICONTROL List View]** eller **[!UICONTROL Detail View]**. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
-      Klicka på **Bädda in kod** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
+      Klicka på **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-1. I dialogrutan Bädda in kod klickar du på **Kopiera till Urklipp**.
+1. Klicka på **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
    Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
-1. Klicka på Stäng.
-
+1. Klicka på **[!UICONTROL Close]**.
