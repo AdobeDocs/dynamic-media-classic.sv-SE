@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,Visningsprogram,eCatalog
 role: Business Practitioner
+exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
-
 
 # Förhandsgranska e-kataloger i eCatalog Viewer{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
@@ -26,19 +26,19 @@ Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_defaul
 
 Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 
-**Förhandsgranska e-kataloger i eCatalog Viewer**
+**Så här förhandsgranskar du e-kataloger i eCatalog Viewer:**
 
 1. Välj en videobaserad resurstyp, till exempel Video eller Videouppsättning, i listrutan Visa på panelen Resursbibliotek på vänster sida.
 1. Navigera i resursmapparna som innehåller videoklipp som du vill förhandsgranska med ett eCatalog-visningsprogram i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Klicka på Stödrastervisning ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser, under miniatyrbilden, klickar du på Förhandsvisa > Visningsprogramlista.
-   * Ovanför fönstret Resurser klickar du på Listvy till höger om verktygsfältet. Markera en resurs i fönstret Resurser och klicka sedan på Förhandsvisa > Visningsprogramlista till höger om miniatyrbilden.
-   * Klicka på Detaljvy ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på Förhandsgranska > Visningsprogramlista i samma verktygsfält.
+   * Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser, under miniatyrbilden, klickar du på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Klicka på **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. Markera en resurs i fönstret Resurser och klicka sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** till höger om miniatyrbilden.
+   * Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
 1. I fönstret Visningsprogramlista i tabellen klickar du på en visningsprogramlänk för att förhandsgranska resursen i det valda visningsprogrammet.
-1. Stäng visningsprogrammet som visas för att återgå till skärmen Visningsprogramlista.
-1. Klicka på Stäng i det nedre högra hörnet av fönstret Visningsprogramlista för att återgå till skärmen Resurser.
+1. Stäng visningsprogrammet som visas.
+1. Klicka på **[!UICONTROL Close]** längst ned till höger i fönstret Visningsprogramlista för att gå tillbaka till skärmen Resurser.
 
 >[!MORELIKETHIS]
 >
