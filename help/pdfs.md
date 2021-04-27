@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -26,70 +26,66 @@ PDF-filer (Portable Document Format) används oftast i Dynamic Media Classic fö
 
 När du överför en PDF-fil kan du formatera den på olika sätt. Du beskär sidorna, extraherar sökord, anger en pixel per tum-upplösning och väljer en färgrymd. PDF-filer innehåller ofta en ytmarginal, skärmärken, passmärken och andra skrivarmärken. Du kan beskära dessa märken från sidorna när du överför en PDF-fil.
 
-Alternativ för att överföra PDF-filer finns på skärmen Överför under PDF-alternativ.
+Alternativ för att överföra PDF-filer finns på sidan Överför under PDF-alternativ.
 
-**Bearbetar**
+### Bearbetningsalternativ
 
-Bearbetningsalternativen är följande:
+**Rastrera**  - (standard) Rippar sidorna i PDF-filen och konverterar vektorgrafik till bitmappsbilder. Välj det här alternativet om du vill skapa en e-katalog.
 
-**Rastrera**  (standard) Rippar sidorna i PDF-filen och konverterar vektorgrafik till bitmappsbilder. Välj det här alternativet om du vill skapa en e-katalog.
+**Extrahera sökord**  - Extraherar ord från PDF-filen så att filen kan genomsökas efter nyckelord i en eCatalog Viewer.
 
-**Extrahera** sökordExtraherar ord från PDF-filen så att filen kan genomsökas efter nyckelord i en eCatalog Viewer.
+**Extrahera länkar**  - Extraherar länkar från PDF-filerna och konverterar dem till bildscheman som används i en eCatalog Viewer.
 
-**Extrahera** länkarExtraherar länkar från PDF-filerna och konverterar dem till bildscheman som används i en eCatalog Viewer.
+**Skapa eCatalog automatiskt med PDF**  med flera sidor - skapar automatiskt en e-katalog från PDF-filen. eCatalog namnges efter den PDF-fil du överförde. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
 
-**Skapa eCatalog automatiskt med PDF** för flera sidor skapar automatiskt en e-katalog från PDF-filen. eCatalog namnges efter den PDF-fil du överförde. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
-
-**Upplösning**
+### Upplösning
 
 Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i PDF-filen. Standardvärdet är 150.
 
-**Färgmodell**
+### Alternativ för färgrymd
 
 Välj menyn Färgrymd och välj en färgrymd för PDF-filen. De flesta PDF-filer har både RGB- och CMYK-färgbilder. RGB-färgmodellen är att föredra när du vill visa bilden online.
 
-**Identifiera** automatisktBehåller PDF-filens färgrymd.
+* **Identifiera automatiskt**  - Behåller PDF-filens färgrymd.
 
-**Tvinga som** RGBConverterar till RGB-färgmodellen.
+* **Tvinga som RGB**  - Konverterar till RGB-färgrymden.
 
-**Tvinga som** CMYK konverteras till CMYK-färgmodellen.
+* **Använd som CMYK**  - Konverterar till CMYK-färgmodellen.
 
-**Använd som** gråskalaKonverterar till färgrymden Gråskala.
+* **Använd som gråskala**  - Konverterar till färgrymden Gråskala.
 
-**Färgprofil**
+### Alternativ för färgprofil
 
-Välj ett färgprofilsalternativ:
+* **Konvertera till sRGB**  - Konverterar till sRGB (röd standardgrön blå). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
 
-**Konvertera till** sRGBConverts till sRGB (röd standardgrön blå). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+* **Behåll ursprunglig färgmodell**  - Behåller den ursprungliga färgmodellen.
 
-**Behåll ursprunglig** färgrymdBehåller den ursprungliga färgrymden.
+* **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
 
-**Anpassad från >** TillÖppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
-
-Se [ICC-profiler](icc-profiles.md#icc_profiles).
+Se även [ICC-profiler](/help/icc-profiles.md#icc_profiles).
 
 ## Beskära tomt utrymme från en PDF-fil {#cropping-white-space-from-a-pdf-file}
 
 1. Om du vill beskära pixlar med tomt utrymme automatiskt från en PDF-fil när du överför den väljer du Beskär-menyn och sedan Beskär.
 1. Ange följande alternativ:
 
-   **Trimma bort baserat** påVälj om du vill beskära baserat på färg eller genomskinlighet:
+   * **Rensa bort baserat på**  - Välj om du vill beskära baserat på färg eller genomskinlighet:
 
-   **** FärgVälj alternativet Färg. Välj sedan menyn Hörn och välj hörnet av PDF-filen med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
+   * **Färg**  - Välj alternativet Färg. Välj sedan menyn Hörn och välj hörnet av PDF-filen med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 
-   **** GenomskinlighetVälj alternativet Genomskinlighet.
+   * **Genomskinlighet**  - Välj alternativet Genomskinlighet.
 
-   **** ToleransDra i skjutreglaget för att ange en tolerans mellan 0 och 1:
+   * **Tolerans**  - Dra i skjutreglaget för att ange en tolerans mellan 0 och 1.
 
-   **Trimma baserat på** färgAnge 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i PDF-filens hörn. Nummer som ligger närmare 1 ger större färgskillnader.
+   * **Trimma baserat på färg**  - Ange 0 om du bara vill beskära pixlar om de exakt matchar den färg som du valde i PDF-filens hörn. Nummer som ligger närmare 1 ger större färgskillnader.
 
-   **Trimma baserat på** genomskinlighetAnge 0 om pixlarna bara ska beskäras om de är helt genomskinliga. siffror närmare 1 ger större genomskinlighet.
+   * **Trimma baserat på genomskinlighet**  - Ange 0 om pixlarna bara ska beskäras om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
 
 ## Beskära från sidorna på PDF-sidorna {#cropping-from-the-sides-of-pdf-pages}
 
 Du kan ta bort skrivarmärken manuellt från sidorna i en PDF-fil när du överför den.
 
-1. Välj menyn Beskär och välj Manuell.
+1. Klicka på **[!UICONTROL Manual]** på menyn Beskär.
 1. Ange pixelinställningar i textrutorna Överkant, Höger, Underkant och Vänster om du vill beskära från sidans överkant, underkant och sidor.
 
-Hur mycket av sidan som beskärs beror på inställningen för upplösning PX/tum som du anger för PDF-filen. Om du t.ex. anger 150 (standardvärdet) som inställningen Upplösning PX/tum och beskär 75 pixlar från sidorna beskärs en halv tum eftersom 75 pixlar är lika med en halv tum vid 150 pixlar per tum.
+Hur mycket av sidan som beskärs beror på inställningen för upplösning PX/tum som du anger för PDF-filen. Om du t.ex. anger 150 (standardvärdet) som inställningen Upplösning PX/tum och beskär 75 pixlar från sidorna beskärs en halv tum. vid 150 pixlar per tum är 75 pixlar lika med en halv tum.
