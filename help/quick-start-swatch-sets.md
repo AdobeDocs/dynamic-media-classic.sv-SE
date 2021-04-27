@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visningsprogram
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 1%
 
 ---
-
 
 # Snabbstart: Färgruteuppsättningar{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
 När du publicerar en uppsättning med färgrutor placeras den på Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
-Klicka på ikonen **Markera för publicering** till vänster om namnet i panelen Bläddra. Klicka sedan på **Publicera**. På skärmen Publicera klickar du på **Starta publicering**.
+Klicka på ikonen **Markera för publicering** till vänster om namnet i panelen Bläddra. Klicka sedan på **Publicera**. Klicka på **Skicka publicering** på skärmen Publicera.
 
 Se [Publicera](publishing-files.md#publishing-files).
 
