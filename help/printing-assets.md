@@ -7,22 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: e4a2a5b8-a074-4f0e-a607-0c47acbb81b4
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '65'
+source-wordcount: '47'
 ht-degree: 0%
 
 ---
 
-
 # Skriva ut resurser{#printing-assets}
 
-Så här skriver du ut en resurs:
-
 1. Markera den eller de resurser som du vill skriva ut på panelen Bläddra.
-1. Välj Arkiv > Skriv ut eller tryck på Ctrl+P (Windows) eller Kommando+P (Macintosh).
-1. I dialogrutan Skriv ut väljer du hur många kopior du vill skriva ut och sedan knappen Skriv ut.
-
+1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Print]** eller tryck på `Ctrl+P` (Windows®) eller `Command+P` (Macintosh).
+1. I dialogrutan Skriv ut väljer du hur många kopior du vill skriva ut och klickar sedan på **[!UICONTROL Print]**.
