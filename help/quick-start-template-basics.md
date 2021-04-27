@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
-
 
 # Snabbstart: Mallgrunder{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ När du publicerar mallen placeras den på Dynamic Media Image-servrar så att d
 
 Glöm inte att publicera alla bilder som är kopplade till mallen.
 
-Om du vill publicera en mall markerar du den för publicering och väljer knappen Publicera i fältet Global navigering. Välj sedan knappen Starta publicering. Se [Publiceringsmallar](publishing-templates.md#publishing_templates).
+Om du vill publicera en mall markerar du den för publicering och väljer knappen Publicera i fältet Global navigering. Klicka sedan på **[!UICONTROL Submit Publish]**. Se [Publiceringsmallar](publishing-templates.md#publishing_templates).
 
 **5. Länka en mall till en webbsida**
 
