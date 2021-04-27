@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic,Visningsprogram,Zooma
 role: Business Practitioner
+exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
-
 
 # Publicera zoombilder{#publishing-zoom-images}
 
@@ -24,11 +24,11 @@ När du publicerar placeras dina zoombilder på Dynamic Media bildservrar så at
 
 ## Markera bilder för publicering {#marking-images-for-publish}
 
-Bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina bilder för publicering på panelen Bläddra genom att välja ikonen **Markera för publicering**. Du kan också markera bilder för publicering när du överför dem.
+Bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina bilder för publicering i panelen Bläddra genom att välja ikonen **[!UICONTROL Mark for Publish]**. Du kan också markera bilder för publicering när du överför dem.
 
 ## Publicera bilderna {#publishing-the-images}
 
-Om du vill publicera zoombilder börjar du med att klicka på **Publicera** i fältet Global navigering. Välj sedan ett **När-alternativ (En gång eller Återkommande)**, ange ett namn för publiceringsjobbet och klicka på **Starta publicering**.
+Om du vill publicera zoombilder klickar du på **[!UICONTROL Publish]** i fältet Global navigering och väljer sedan ett **[!UICONTROL When]**-alternativ (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**). Du kan också ange ett namn för publiceringsjobbet. Klicka på **Skicka publicering**.
 
 >[!MORELIKETHIS]
 >
