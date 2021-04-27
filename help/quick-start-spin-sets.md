@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,visningsprogram,snurra uppsättningar
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
-
 
 # Snabbstart: Snurra uppsättningar{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Se [Förhandsgranska en snurruppsättning](previewing-spin-set.md#previewing-a-s
 
 När du publicerar en snurruppsättning placeras den på Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image-servrar till din webbplats eller ditt program.
 
-Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **Markera för publicering** bredvid namnet på bläddringspanelen. Klicka på **Publicera** i fältet Global navigering för att initiera en publicering. På skärmen Publicera klickar du på **Starta publicering**.
+Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **Markera för publicering** bredvid namnet på bläddringspanelen. Klicka på **Publicera** i fältet Global navigering för att initiera en publicering. Klicka på **Skicka publicering** på skärmen Publicera.
 
 Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set).
 
