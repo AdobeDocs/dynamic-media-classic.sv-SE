@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic,Visningsprogram,Zooma
 role: Business Practitioner
+exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
-
 
 # Snabbstart: Zooma{#quick-start-zoom}
 
@@ -62,7 +62,7 @@ Zoomknappar visas. Du kan se hur zoombilderna ser ut på webbplatsen. Välj zoom
 
 När du publicerar dina zoombilder placeras de på Dynamic Media bildservrar så att de kan levereras till din webbplats och tillämpning. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängar. Dessa URL-strängar anropar zoombilder från Dynamic Media Image Servers till din webbplats eller ditt program.
 
-Välj knappen Publicera i fältet Global navigering när du vill initiera en publicering. Välj knappen Starta publicering på skärmen Publicera. Se [Publicera zoombilder](publishing-zoom-images.md#publishing_zoom_images).
+Klicka på **[!UICONTROL Publish]** i fältet Global navigering. Klicka på Skicka publicering i dialogrutan Publicera. Se [Publicera zoombilder](publishing-zoom-images.md#publishing_zoom_images).
 
 **6. Länka zoomningsvisningsprogram till din webbsida**
 
