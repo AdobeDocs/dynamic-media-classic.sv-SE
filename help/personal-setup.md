@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: a019f973-7647-466f-8af3-5312e9225e89
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 1%
+source-wordcount: '802'
+ht-degree: 0%
 
 ---
-
 
 # Personliga inställningar {#personal-setup}
 
@@ -32,95 +32,86 @@ Inställningarna för personliga inställningar styr standardbeteendet för pane
 
 Identifierar kontonamn, namn, användarnamn (e-postadress) och tilldelad användarroll.
 
-### Skrivbordsversion
+## Skrivbord
 
-Klicka på Installera nu för att installera datorversionen av Dynamic Media Classic på den lokala hårddisken. Du kan också klicka på Installera om nu för att installera om skrivbordsversionen.
+* **Rensa bildcache**  - Tar bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn.
+* **Rensa resurscache**  - Tar bort alla Adobe Dynamic Media-cachelagrade resursfiler från datorn.
 
-## Installera plugin-programmet på den lokala hårddisken
+Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cachen manuellt direkt från filsystemet. Navigera till följande beroende på operativsystem:
 
-1. På sidan Personliga inställningar i Dynamic Media Classic, under Illustrator Plug-in för webb-till-utskrift, klickar du på **Hämta nu** för att hämta filen **Illustrator Plug-in för webb-till-utskrift.zip**.
-1. Avkomprimera ZIP-filen till en tillfällig mapp.
+* macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+* Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-   En Viktigt-fil finns i roten av den uppzippade filen och ger dig ytterligare information om plugin-programmet.
+## Creative Suite-tillägg
 
-1. Beroende på vilket operativsystem du har gör du något av följande:
+**Så här installerar du Adobe Dynamic Media Creative Suite Extension:**
 
-### Windows
+1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, under Creative Suite-tillägget, på **[!UICONTROL Download Now]** för att hämta `s7csxs.zxp`-filen.
+1. Klicka på länkarna **[!UICONTROL Installation]** och **[!UICONTROL System Requirements]** om du vill ha mer information om tillägget.
 
-| Om du kör | Gör detta |
+<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+
+1. Depending on your installed operating system, do one of the following: -->
+
+<!-- #### Windows
+
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 i Adobe Creative Cloud 2014 | <ul><li>Klicka på CC-2014 i roten för den uppzippade mappen.</li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64.</li><li>Klicka på Bibliotek > flame och kopiera sedan `aflame.dll` till den körbara Adobe Illustrator-mappen. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86).  <br/><ul><li>Gå tillbaka till samma biblioteksmapp, klicka på flamingo och kopiera sedan `aflamingo.dll` till samma körbara Adobe Illustrator-mapp som du använde i föregående steg. </li><li>Gå tillbaka till mappen win32 eller win64 som du valde i steg 2 och kopiera sedan `AdobeS7FXGFileFormat.aip` till Adobe Illustrator plug-ins-mappen. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
-| Adobe Illustrator 17 i Adobe Creative Cloud | <ul><li>Klicka på CC i roten i den uppzippade mappen. </li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64.</li><li> Kopiera `AdobeS7FXGFileFormat.aip` till Adobe Illustrator plugin-mapp. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
-| Adobe Illustrator 16 i Adobe Creative Suite 6 | <ul><li>Klicka på 6.0 i roten för den uppzippade mappen. </li><li>Beroende på vilken bitversion av Adobe Illustrator du använder klickar du på win32 eller win64. </li><li>Kopiera Adobe7FXGFileFormat.aip till Adobe Illustrator plug-ins-mapp. Exempel, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Obs**: Den här exempelsökvägen är för 64-bitarsplatsen; 32-bitarsplatsen kan i stället ingå i Program Files (x86). |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014.</li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li>Click libraries > flame, and then copy `aflame.dll` to Adobe Illustrator's executable folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`. </li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead. <br/><ul><li>Return to the same libraries folder, click flamingo, and then copy `aflamingo.dll` to the same Adobe Illustrator executable folder that you used in the previous step. </li><li>Return to the win32 or win64 folder that you selected in step 2, and then copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`. </li></ul> <br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0. </li><li>Depending on the bit version of Adobe Illustrator that you are using, click win32 or win64. </li><li>Copy AdobeS7FXGFileFormat.aip to Adobe Illustrator's plug-ins folder. For example, `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`.</li></ul><br/>**Note**: This example path is for the 64-bit location; the 32-bit location may fall under Program Files (x86) instead.|
 
-### Mac
+#### Mac
 
-| Om du kör | Gör detta |
+|If you are running|Do this|
 |--- |--- |
-| Adobe Illustrator 18 i Adobe Creative Cloud 2014 | <ul><li>Klicka på CC-2014 > mac64 i roten för den uppzippade mappen.</li><li>Klicka på Bibliotek > flame och kopiera sedan mappen `aflame.framework` till Adobe Illustrator-paketinnehållsmappen. Exempel, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (Om du vill öppna Adobe Illustrator paketinnehållsmapp högerklickar du på ikonen Adobe illustrator CC 2014 och klickar på Visa paketinnehåll på snabbmenyn.)</li><li>Återgå till samma biblioteksmapp, klicka på `flamingo` och kopiera sedan `aflamingo.framework`-mappen till samma Adobe Illustrator-paketinnehållsmapp som du använde i föregående steg.</li><li>Gå tillbaka till mac64-mappen som du valde i steg 1 och kopiera sedan `AdobeS7FXGFileFormat.aip`-mappen till Adobe Illustrator plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 17 i Adobe Creative Cloud | <ul><li>Klicka på CC > mac64 i roten i den uppzippade mappen</li><li>Kopiera mappen `AdobeS7FXGFileFormat.aip` till Adobe Illustrator plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/> |
-| Adobe Illustrator 16 i Adobe Creative Suite 6 | <ul><li>Klicka 6.0 > mac64 i roten för den uppzippade mappen</li><li>Kopiera mappen `AdobeS7FXGFileFormat.aip` till Adobe Illustrator plug-in-mapp. Exempel, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul> |
+|Adobe Illustrator 18 in Adobe Creative Cloud 2014|<ul><li>From the root of the unzipped folder, click CC-2014 > mac64.</li><li>Click libraries > flame, and then copy the `aflame.framework` folder to Adobe Illustrator package contents folder. For example, `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`. (To open Adobe Illustrator’s package contents folder, right-click on the Adobe illustrator CC 2014 icon and click Show Package Contents from context menu).</li><li>Return to the same libraries folder, click `flamingo`, and then copy the `aflamingo.framework` folder to the same Adobe Illustrator package contents folder that you used in the previous step.</li><li>Return to the mac64 folder that you selected in step 1, and then copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, click CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
+|Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, click 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-Plugin-programmet finns nu för användning i Adobe Illustrator.
+The plug-in is now available for you to use in Adobe Illustrator. -->
 
-### Webbläsare
+## Webbläsare
 
-* **Miniatyrstorlek**
-   * Anger standardstorleken för miniatyrbilder i Stödrastervisning på panelen Bläddra.
-* **Standardvy för resursbibliotek**
-   * Avgör om resurserna i resursbiblioteket för uppsättningar visas som miniatyrer eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
-* **Standardordning för bläddringssortering**
-   * Anger i vilken ordning som resurser visas som standard på panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
-* **Standardplats för bläddring**
-   * Gör att du kan ange bläddringsplatsen till standardplatsen, den senast öppnade mappen eller till en specifik plats som du navigerar till och identifierar. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
-* **Standardvy för webbläsare**
-   * Avgör om stödrastervyn eller listvyn är standardvyn som du ser när du först öppnar panelen Bläddra.
-* **Välkomstskärm**
-   * Avgör om du ser några välkomstskärmar, inklusive välkomstvälkomstvälkomstskärmen.
-* **Visa verktygstips**
-   * Avgör om verktygstips ska visas när du flyttar pekaren över knappar, menyer och navigeringslänkar. Verktygstips beskriver objekt på skärmen.
-* **Schackrutor, bakgrund**
-   * Visar ett schackbrädlager bakom bilder så att du enkelt kan se de genomskinliga områdena i en bild som har en alfakanal.
-* **Visa filstorlek**
-   * Visar filstorleken för en resurs när du bläddrar.
-* **Inkludera användardefinierat fält i sökning**
-   * Avmarkerat (standard) om du vill förbättra systemprestanda för de flesta metadatasökningar som du kör.
+* **Miniatyrstorlek**  - Anger standardstorleken för miniatyrbilder i stödrastervyn i panelen Bläddra.
+* **Standardvy**  för resursbibliotek - Anger om resurserna i resursbiblioteket för uppsättningar ska visas som miniatyrer eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
+* **Standardordning**  för bläddringssortering - Anger i vilken ordning resurser visas som standard i panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
+* **Standardplats**  för bläddring - Här kan du ange bläddringsplatsen till standardplatsen, den senast bläddrade mappen eller till en specifik plats som du navigerar till och identifierar. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
+* **Standardvy**  för bläddring - Anger om stödrastervyn eller listvyn är standardvyn som du ser när du först öppnar panelen Bläddra.
+* **Välkomstskärm**  - Anger om det visas några välkomstskärmar, inklusive välkomstvälkomstskärmen.
+* **Visa verktygstips**  - Anger om verktygstips ska visas när du flyttar pekaren över knappar, menyer och navigeringslänkar. Verktygstips beskriver gränssnittsobjekt på skärmen.
+* **Schackrutor**  - Visar ett schackrutigt lager bakom bilder så att du enkelt kan se de genomskinliga områdena i en bild som har en alfakanal.
+* **Visa filstorlek**  - Visar filstorleken för en resurs när du bläddrar.
+* **Inkludera användardefinierat fält i sökningen**  - Avmarkerat (standard) om du vill förbättra systemprestanda för de flesta metadatasökningar som du kör.
 
-Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Du kan också använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än att inkludera användardefinierade fält.
+   Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Du kan också använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än att inkludera användardefinierade fält.
 
-Se [Avancerad sökning](searching-assets.md#conducting_an_advanced_search).
+   Se [Avancerad sökning](searching-assets.md#conducting_an_advanced_search).
 
-Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
+   Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
 
-* **Grundläggande sökningstyp**
-   * Välj en standardsöktyp, Innehåller eller Börjar med.
-* **Visa funktioner för mediaportal**
-   * Välj det här alternativet om du vill få tillgång till funktioner i Medieportalen, t.ex. Mediekortet.
-* **Visa kommandofeedback**
-   * Visa kommandobegäranden till servern.
-* **Visa dialogrutan vid export**
-   * Visar en dialogruta när du exporterar. Om du avmarkerar det här alternativet kan du fortfarande gå till sidan Jobb för att hämta resultatet av din export.
+* **Grundläggande sökningstyp**  - Du kan välja mellan två alternativ:  **[!UICONTROL Contains]** söker igenom hela strängen efter det angivna värdet,  **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än  **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som ställs in i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** av administratören.
+* **Visa kommandofeedback** - Välj det här alternativet om du vill aktivera visning av kommandobegäranden på servern; avmarkera för att stänga av.
+* **Visa dialogruta vid export**  - Välj det här alternativet om du vill visa en popup-dialogruta under en export. Om du avmarkerar (inaktiverar) det här alternativet kan du fortfarande gå till sidan Jobb för att hämta resultaten av din export.
 
 ## E-post
 
-* **E-postalternativ**
-   * Välj hur du vill att Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben har slutförts. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
-* **E-postomfång**
-   * Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
-* **E-posttyper**
-   * Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
-* **Språk**
-* **Önskat språk**
-   * Anger språket för gränssnittet.
-* **Lösenord**
-* **Nytt lösenord**
-   * Ange ett nytt, giltigt lösenord. Lösenordet måste uppfylla följande krav:
-      * Var mellan 8 och 25 tecken lång
-      * Innehåller minst en gemen bokstav
-      * Innehåller minst en versal
-      * Innehåller minst en siffra
-      * Innehåller minst ett av följande specialtecken: #$&amp;-_:{}
-* **Skriv lösenordet igen**
-   * Ange det nya lösenordet igen för att bekräfta att du har angett det korrekt.
-* **Lösenordets förfallodatum**
-   * Fastställer om ditt lösenord upphör att gälla efter 72 dagar som en säkerhetsåtgärd. Om du väljer Ja ombeds du skapa ett nytt lösenord efter 72 dagar.
+* **E-postalternativ**  - Välj hur du vill att Dynamic Media Classic ska informera dig via e-post när överföringen och publiceringen är klar. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+* **E-postomfång**  - Avgör om du får alla jobbmeddelanden för ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
+* **E-posttyper**  - Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
+
+## Språk
+
+* **Önskat språk**  - Anger vilket språk som ska användas för gränssnittet.
+
+## Lösenord
+
+* **Aktuellt lösenord**  - Ange lösenordet för ditt nuvarande lösenord.
+* **Nytt lösenord**  - Ange ett nytt, giltigt lösenord. Lösenordet måste uppfylla följande krav:
+   * Var mellan 8 och 25 tecken lång.
+   * Innehåller minst en gemen bokstav.
+   * Innehåller minst en versal.
+   * Innehåller minst en siffra.
+   * Innehåller minst ett av följande specialtecken: `# $ & - _ : { }`
+* **Skriv lösenordet**  igen- Bekräfta att du har angett det korrekt genom att ange det nya lösenordet igen.
+* **Lösenordets förfallodatum**  - Anger om ditt lösenord upphör att gälla efter 72 dagar som en säkerhetsåtgärd. Om du väljer Ja ombeds du skapa ett lösenord efter 72 dagar.
