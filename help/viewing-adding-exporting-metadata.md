@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
-feature: Dynamic Media Classic,Asset Management,Metadata
+feature: Dynamic Media Classic,Resurshantering,Metadata
 role: Business Practitioner
+exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2244'
 ht-degree: 0%
 
 ---
-
 
 # Visa, lägga till och exportera metadata{#viewing-adding-and-exporting-metadata}
 
@@ -181,7 +181,7 @@ Systemet genererar automatiskt ett anpassat schema för användardefinierade fä
 
 >[!NOTE]
 >
->Ändringar i schemat ändrar aldrig metadata för resursen. De är dock inte synliga för alla funktioner i Dynamic Media Classic och Metadata Server och går inte att komma åt när de har ändrats. Om det finns metadata för en resurs gör skapandet av det matchande schemat att metadata kan användas i Dynamic Media Classic och Metadataservern.
+>Ändringar i schemat ändrar aldrig metadata för resursen. De är dock inte synliga för alla funktioner i Dynamic Media Classic och Metadata Server och kan inte kommas åt när de har ändrats. Om det finns metadata för en resurs gör skapandet av det matchande schemat att metadata kan användas i Dynamic Media Classic och Metadataservern.
 
 Metadata Schema Editor är ett grafiskt sätt att lägga till eller redigera ett anpassat företagsschema i Dynamic Media Classic. Ett schema definieras av ett prefix, ett namnutrymme och en lista med egenskaper.
 
