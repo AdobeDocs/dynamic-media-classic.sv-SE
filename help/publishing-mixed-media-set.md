@@ -11,7 +11,7 @@ feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**Publicera en blandad medieuppsättning**
+**Så här publicerar du en blandad medieuppsättning:**
 
 1. Gör något av följande:
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (Valfritt) Skriv ett namn för publiceringsjobbet i fältet **[!UICONTROL Job Name]**.
 1. I **[!UICONTROL Advanced]**-alternativen väljer du **[!UICONTROL Video Server]** i listrutan **[!UICONTROL Publish To]**.
 
-   Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för ytterligare alternativ som du kan ange.
+   Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för fler alternativ som du kan ange.
 
 1. Klicka på **[!UICONTROL Submit Publish]**.
 1. Upprepa steg 2-4 ovan.
 1. I **[!UICONTROL Advanced]** väljer du **[!UICONTROL Image Server]** i listrutan **[!UICONTROL Publish To]**.
 
-   Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för ytterligare alternativ som du kan ange.
+   Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för fler alternativ som du kan ange.
 
 1. Klicka på **[!UICONTROL Submit Publish]**.
