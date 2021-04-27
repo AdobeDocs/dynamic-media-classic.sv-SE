@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: b0010107-248c-4ebc-955c-7514462f351d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # Publicera överordnad bilder{#publishing-master-images}
 
@@ -24,11 +24,13 @@ När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers,
 
 ## Markera överordnad bilder för publicering {#marking-master-images-for-publish}
 
-Överordnad bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina överordnad bilder för publicering på panelen Bläddra genom att klicka på ikonen Markera för publicering. Du kan också markera bilder för publicering när du överför dem till Dynamic Media Classic.
+Överordnad bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina överordnad bilder för publicering på panelen Bläddra genom att klicka på ikonen **[!UICONTROL Mark for Publish]**. Du kan också markera bilder för publicering när du överför dem till Dynamic Media Classic.
 
 ## Publicera dina överordnad bilder {#publishing-your-master-images}
 
-Om du vill publicera överordnad bilder på Dynamic Media bildservrar börjar du med att välja knappen Publicera i fältet Global navigering. Välj sedan alternativet Vid (En gång eller Återkommande), ange eventuellt ett namn för publiceringsjobbet och välj knappen Starta publicering.
+1. Klicka på **[!UICONTROL Publish]** i fältet Global navigering. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och anger sedan eventuellt ett namn för publiceringsjobbet
+
+1. Klicka på **[!UICONTROL Submit Publish]**.
 
 >[!NOTE]
 >
