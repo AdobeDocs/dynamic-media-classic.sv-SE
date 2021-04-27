@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
-
 
 # Snabbstart: Bildstorlek{#quick-start-image-sizing}
 
@@ -36,7 +36,7 @@ Den här snabbstarten för bildstorlekar är utformad för att hjälpa dig att k
 
 Börja med att ladda upp dina överordnad bilder till Dynamic Media Classic. När det gäller storlek rekommenderar Dynamic Media Classic att du använder bilder med den största storlek som du förväntar dig på din webbplats eller i ditt program. Om du till exempel vill att tittarna ska zooma bilder överför du bilder som är minst 2 000 pixlar i den största dimensionen. Dynamic Media Classic stöder många bildfilsformat, men förlustfria TIFF- och PNG-bilder rekommenderas.
 
-Klicka på knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Överföra överordnad bilder](uploading-master-images.md#uploading_master_images).
+Välj knappen Överför i fältet Global navigering om du vill överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Överföra överordnad bilder](uploading-master-images.md#uploading_master_images).
 
 **2. Konfigurera bildförinställningar**
 
@@ -63,9 +63,9 @@ Publicera dina överordnad bildfiler i två viktiga syften:
 * Publicera dina överordnad bilder på Dynamic Media Image Servers så att bilderna dynamiskt kan levereras till din webbplats och tillämpning.
 * När du publicerar aktiveras URL-strängarna för att anropa bilder från Dynamic Media Image Servers till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera de Dynamic Media Classic-genererade URL:erna där det behövs på webbplatsen eller i programmet.
 
-Välj knappen Publicera i fältet Global navigering när du vill initiera en publicering. Välj knappen Starta publicering på skärmen Publicera. Se [Publicera överordnad bilder](publishing-master-images.md#publishing_master_images).
+Välj knappen Publicera i fältet Global navigering när du vill initiera en publicering. Klicka på **[!UICONTROL Submit Publish]** i dialogrutan Publicera. Se [Publicera överordnad bilder](publishing-master-images.md#publishing_master_images).
 
-**5. Länka URL:er till ditt webbprogram**
+**5. Länka URL:er till ditt webbprogram:**
 
 Dynamic Media Classic skapar URL-bildtextsträngar för bilder. När du publicerar bilder till Dynamic Media Image Servers (Image-servrar) aktiveras URL:erna. Du kan kopiera dessa URL-strängar från panelen Bläddra (i detaljvyn) eller förhandsgranskningsskärmen. När du har kopierat URL-strängarna kan du använda dem på din webbplats och i dina program. URL:en för bildstorlek ersätter referensen till ett statiskt bildnamn i webbsideskoden. URL:en refererar till ett överordnad bildnamn som ersätts av databasen för varje ny bild som ska visas.
 
