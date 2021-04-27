@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 3%
 
 ---
-
 
 # Snabbstart: Bilduppsättningar{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ När du publicerar en bilduppsättning placeras den på Dynamic Media Classic-se
 >
 >Det här steget är inte nödvändigt om du valde **Publicera efter att du sparat **(standard) när du skapade och sparade bilduppsättningen.
 
-Klicka på ikonen Markera för publicering till vänster om namnet på panelen Bläddra. Klicka sedan på **Publicera**. På skärmen Publicera klickar du på **Starta publicering**.
+Klicka på ikonen Markera för publicering till vänster om namnet på panelen Bläddra. Klicka sedan på **Publicera**. Klicka på **Skicka publicering** på skärmen Publicera.
 
 Se [Publicera](publishing-files.md#publishing-files).
 
-**6. Länka en bilduppsättning till din webbplats**
+**6. Länka en bilduppsättning till din webbplats:**
 
 Dynamic Media Classic skapar URL-anrop för bilduppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
 
