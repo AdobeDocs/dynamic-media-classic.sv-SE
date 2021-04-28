@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
-feature: Dynamic Media Classic,Viewers,Mix Media Sets
+feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
 role: Business Practitioner
+exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 5%
+source-wordcount: '628'
+ht-degree: 0%
 
 ---
-
 
 # Snabbstart: Blandade medieuppsättningar{#quick-start-mixed-media-sets}
 
@@ -24,31 +24,29 @@ Mixed Media Sets ger användarna en integrerad visningsupplevelse. Blandade medi
 
 Förinställningar för visningsprogram för blandade media innehåller communityalternativ för slutanvändare som kan bädda in kod, kopiera URL:er och länka till huvudwebbplatsen. Användare kan använda dessa alternativ för att dela information om produkter på sina personliga webbplatser eller sociala nätverksplatser.
 
-**Snabbstart**
-
 Den här snabbstarten för blandade medieuppsättningar är utformad för att komma igång snabbt med blandad medieuppsättning i Dynamic Media Classic.
 
-**1. Överföra bilder, färgrutefiler och videoklipp**
+## 1. Överföra bilder, färgrutefiler och videoklipp
 
-Börja med att ladda upp bilder, färgrutefiler och videoklipp till dina blandade medieuppsättningar. Eftersom användare kan zooma in bilder i visningsprogrammet för uppsättningen med blandade medier bör du ta hänsyn till zoomningen när du väljer bilder. Se till att bilderna har minst 2 000 pixlar i den största dimensionen.
+Börja med att ladda upp bilder, färgrutefiler och videoklipp till dina blandade medieuppsättningar. Eftersom användare kan zooma in bilder i visningsprogrammet för den blandade medieuppsättningen måste du ta hänsyn till den möjligheten när du väljer bilder. Se till att bilderna har en största storlek på minst 2 000 pixlar.
 
-Klicka på Överför i det globala navigeringsfältet om du vill överföra filer från datorn till en mapp i Dynamic Media Classic.
+Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att överföra filer från datorn till en mapp i Dynamic Media Classic.
 
 Se [Överföra filer](uploading-files.md#uploading-your-files).
 
-**2. Skapa medieuppsättningar som ska användas i den blandade medieuppsättningen**
+## 2. Skapa medieuppsättningar som ska användas i den blandade medieuppsättningen
 
 Du kan lägga till bilder, bilduppsättningar, färgruteuppsättningar, snurruppsättningar och videoklipp i din uppsättning med blandade media. Förbered medieuppsättningarna innan du lägger till dem i den blandade medieuppsättningen.
 
 Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set), [Skapa en färgruteuppsättning](creating-swatch-set.md#creating-a-swatch-set) och [Skapa en snurruppsättning](creating-spin-set.md#creating-a-spin-set).
 
-**3. Skapa en blandad medieuppsättning**
+## 3. Skapa en blandad medieuppsättning
 
-Klicka på knappen Skapa och välj Blandade medieuppsättningar. Dra bilder, färgruteuppsättningar, bilduppsättningar och videofilmer till skärmen med blandade medieuppsättningar. Om du vill lägga till ett ljudspår drar du en ljudfil till rutan Ljudspår.
+Klicka på **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]** i fältet Global Navigation. Dra bilder, färgruteuppsättningar, bilduppsättningar och videofilmer till sidan med blandade medieuppsättningar. Om du vill lägga till ett ljudspår drar du en ljudfil till rutan Ljudspår.
 
 Se [Skapa en blandad medieuppsättning](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-**4. Konfigurera förinställningar för visningsprogrammet för blandade media**
+## 4. Konfigurera förinställningar för visningsprogrammet för blandade media
 
 Dynamic Media Classic innehåller standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra förinställningar för visningsprogrammet för blandad medieuppsättning.
 
@@ -56,13 +54,13 @@ När du konfigurerar en visningsförinställning för blandad medieuppsättning 
 
 Se [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) och [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
-**5. Förhandsgranska en blandad medieuppsättning**
+## 5. Förhandsgranska en blandad medieuppsättning
 
-Klicka på knappen Förhandsvisa överrullning för den blandade medieuppsättningen. Den blandade medieuppsättningen visas. Du kan klicka på miniatyrbilds- och färgruteikonerna för att undersöka den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen. Du kan välja olika visningsprogram från förinställningsmenyerna.
+Klicka på knappen **[!UICONTROL Preview]** för den blandade medieuppsättningen. Du kan klicka på miniatyrbilds- och färgruteikonerna för att undersöka den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen. Du kan välja olika visningsprogram från förinställningsmenyerna.
 
 Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
-**6. Publicera en blandad medieuppsättning**
+## 6. Publicera en blandad medieuppsättning
 
 När du publicerar en uppsättning med blandade media placeras den på Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
@@ -70,8 +68,8 @@ Blandade medieuppsättningar kräver att du publicerar till **videoserver** och 
 
 Se [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
-**7. Länka en uppsättning med blandade media till en webbsida**
+## 7. Länka en uppsättning med blandade media till en webbsida
 
-Dynamic Media Classic aktiverar URL-anrop för blandade medieuppsättningar när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
+Dynamic Media Classic aktiverar URL-anrop för blandade medieuppsättningar när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
-Markera den blandade medieuppsättningen och klicka på Förhandsgranska. Välj en visningsförinställning för blandad medieuppsättning på förhandsgranskningsskärmen och klicka på knappen Kopiera URL. Se [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Markera den blandade medieuppsättningen och klicka sedan på **[!UICONTROL Preview]**. Välj en visningsförinställning för blandad medieuppsättning på sidan Förhandsvisa och klicka sedan på **[!UICONTROL Copy URL]**. Se [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
