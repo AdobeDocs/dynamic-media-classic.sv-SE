@@ -1,6 +1,6 @@
 ---
-title: '"Snabbstart: Integration med Target Standard/Premium"'
-description: En introduktion och snabbstart till Adobe Target Standard/Premium som hjälper dig att komma igång snabbt med integreringstekniker för Target Standard/Premium.
+title: '"Snabbstart: Integrering med Adobe Target Standard/Premium"'
+description: En introduktion och snabbstart till Adobe Target Standard/Premium som hjälper dig att komma igång snabbt med integreringsteknikerna Adobe Target Standard/Premium.
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: admin
 content-type: reference
@@ -9,47 +9,45 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
-
 
 # Snabbstart: Integrering med Adobe Target Standard/Premium{#quick-start-target-integration}
 
 Med Adobe Target Standard/Premium får marknadsförarna kontroll direkt för att snabbt och kontinuerligt köra flera A/B-tester och multivariata tester, mäta effektiviteten och öka relevansen av onlinematerial genom segmentering, målinriktning och automatiserad personalisering.
 
-Med Dynamic Media Classic kan du skapa erbjudanden och uppsättningar för Target Standard-/Premium-kampanjer. Du kan till exempel skapa en erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Target Standard/Premium avgöra vilken resurs som ger bättre konverteringshöjning. Du kan skapa erbjudanden och uppsättningar från en grundmall eller från enskilda bilder. När erbjudandet har skickats vidare eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Target Standard/Premium köra kampanjer för att avgöra vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
+Med Dynamic Media Classic kan du skapa erbjudanden och uppsättningar för Adobe Target Standard/Premium-kampanjer. Du kan till exempel skapa en erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Adobe Target Standard/Premium avgöra vilken mediefil som ger bättre konverteringshöjning. Du kan skapa erbjudanden och uppsättningar från en grundmall eller från enskilda bilder. När erbjudandet har skickats vidare eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Adobe Target Standard/Premium köra kampanjer. Dessa kampanjer avgör vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
 
-Om du vill anpassa dynamiskt Dynamic Media Classic-innehåll mer använder du Target Standard/Premium HTML-erbjudanden. Mer information finns i produktdokumentationen för Target Standard/Premium.
+Om du vill anpassa dynamiskt Dynamic Media Classic-innehåll ännu mer använder du Adobe Target Standard/Premium HTML. Mer information finns i [Adobe Target Standard/Premium produktdokumentation](https://experienceleague.adobe.com/docs/target.html).
 
 >[!NOTE]
 >
->Du måste ha ett giltigt Adobe Target Standard-/Premium-konto för att kunna använda Target Standard/Premium med Dynamic Media Classic.
+>Du måste ha ett giltigt Adobe Target Standard-/Premium-konto för att kunna använda Adobe Target Standard/Premium med Dynamic Media Classic.
 
-**Snabbstart**
+Den här snabbstarten är utformad för att du snabbt ska komma igång med Adobe Target Standard/Premium HTML. Följ steg 1 till 3. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
-Den här snabbstarten är utformad för att du snabbt ska komma igång med Target Standard/Premium HTML. Följ steg 1 till 3. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
+## 1. Ange din Adobe Target Standard/Premium-URL på sidan med allmänna inställningar för programmet
 
-**1. Ange din Adobe Target Standard/Premium-URL på skärmen för allmänna inställningar för programmet.**
+Dynamic Media Classic behöver din Adobe Target Standard/Premium-URL för att kunna integreras med Adobe Target Standard/Premium. Kopiera delen av din Adobe Target Standard/Premium-URL till och med `.com` och ange den på sidan Dynamic Media Classic **[!UICONTROL Application General Settings]** i gruppen **[!UICONTROL Servers]** i textfältet **[!UICONTROL Test&Target Server Name]**. Se [Integrera Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
-Dynamic Media Classic behöver din Target Standard/Premium URL för att kunna integreras med Target Standard/Premium. Kopiera delen av målstandard-/Premium-URL:en till och med *.com* och ange den på skärmen Allmänna inställningar i Dynamic Media Classic-programmet. Se [Integrera Dynamic Media Classic med Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+## 2. Skapa erbjudandeuppsättningen
 
-**2. Skapa erbjudandeuppsättningen**
+Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du skapar uppsättningar med HTML-erbjudanden på sidan Test&amp;Target-erbjudanden. Om du vill öppna den här sidan markerar du mallen eller bilderna och klickar sedan på **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]** i fältet Global navigering.
 
-Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du skapar uppsättningar med HTML-erbjudanden på skärmen Test&amp;Target Offer Set. Om du vill öppna den här skärmen markerar du mallen eller bilderna och klickar på **Build** > **Test&amp;Target Offer Set**.
+Om du vill skapa ett erbjudande med en mall klickar du på **[!UICONTROL Add & Preview]**. Ändra parametervärden på sidan Lägg till och förhandsvisa.
 
-Om du vill skapa ett erbjudande med en mall klickar du på **Lägg till och förhandsgranska**. Ändra parametervärden på skärmen Lägg till och förhandsvisa.
-
-Om du vill skapa ett erbjudande med bilder drar du bilder till skärmen Test&amp;Target Offer Set. Klicka på **Förhandsgranska** om du vill välja en bildförinställning för en bild eller alla bilder i erbjudandeuppsättningen.
+Om du vill skapa ett erbjudande med bilder drar du bilderna till sidan Test&amp;Target Offer Set. Klicka på **[!UICONTROL Preview]** och välj en bildförinställning för en bild eller alla bilder i erbjudandeuppsättningen.
 
 Spara erbjudandet när du skapat det.
 
 Se [Skapa en erbjudandeuppsättning](creating-offer-set.md#creating_an_offer_set).
 
-**3. Skicka erbjudandet till Adobe Target Standard/Premium**
+## 3. Skicka erbjudandet till Adobe Target Standard/Premium
 
-Klicka på **Push Offers** på skärmen Test&amp;Target Offer Set och ange dina inloggningsuppgifter i dialogrutan Test&amp;Target Login. Se [Paketera erbjudanden till Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Klicka på **[!UICONTROL Push Offers]** på sidan Test&amp;Target Offer Set och ange dina inloggningsuppgifter i dialogrutan Test&amp;Target Login. Se [Paketera erbjudanden till Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
