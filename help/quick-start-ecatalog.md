@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,Visningsprogram,eCatalog
 role: Business Practitioner
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,9 @@ När du skapar en e-katalog kan du ordna sidorna eller uppslagen i den ordning d
 >
 >Nu kan du skapa e-kataloger i Dynamic Media Classic.
 
-## Snabbstart
-
 Den här eCatalog-snabbstarten är utformad för att hjälpa dig komma igång snabbt med e-kataloger. Följ steg 1 till 7. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
-### 1. Överföra PDF-filer
+## 1. Överföra PDF-filer
 
 Adobe PDF-filer är vanligtvis källan till en e-katalog. Eftersom de ska skrivas ut innehåller PDF-filerna vanligtvis CMYK-bilder. Dynamic Media Classic identifierar dessa bilder och konverterar dem med en CMYK-standardfärgprofil. Du måste dock överföra och använda en anpassad färgprofil.
 
@@ -64,7 +62,7 @@ Under PDF-alternativ innehåller skärmen Överför alternativ för att överfö
 
 Se [Överföra PDF-filer](uploading-pdf-files.md#uploading_the_pdf_files).
 
-### 2. Skapa en e-katalog
+## 2. Skapa en e-katalog
 
 Skapa din eCatalog genom att välja PDF eller bildfiler i panelen Bläddra. Klicka på **[!UICONTROL Build]** och välj sedan **[!UICONTROL eCatalogs]**.
 
@@ -76,7 +74,7 @@ Klicka på **[!UICONTROL Save]**, ange ett namn för din eCatalog, välj en Dyna
 
 Se [Skapa en e-katalog](creating-ecatalog.md).
 
-### 3. Skapa bildscheman
+## 3. Skapa bildscheman
 
 Bildscheman lägger till en annan aspekt på eCatalog-sidor. En bildschema är ett område på en sida som innehåller mer information om ett objekt. När visningsprogram rullar pekaren över en bildschema visas en beskrivning av objektet. När du klickar på en bildschema aktiveras en extern referens som öppnar en ny webbsida där du kan lära dig mer om ett objekt.
 
@@ -92,7 +90,7 @@ Du kan ställa in och hantera bildschematexten med hjälp av inställningarna i 
 
 Se [Hantera innehåll i informationspanelen](info-panel-content.md#managing-info-panel-content).
 
-### 4. Konfigurera förinställningar för eCatalog Viewer
+## 4. Konfigurera förinställningar för eCatalog Viewer
 
 Slutanvändarna ser din eCatalog i eCatalog Viewer. Om du är administratör kan du konfigurera eCatalog Viewer. Du kan ändra dess konturfärg och välja ett nytt&quot;skal&quot; för att märka upp din eCatalog. Dynamic Media Classic innehåller flera förinställningar för eCatalog Viewer. Du kan välja en av dessa förinställningar för att visa dina e-kataloger. Om du är administratör kan du även skapa en egen visningsförinställning för eCatalog.
 
@@ -100,7 +98,7 @@ Om du vill skapa en förinställning för eCatalog-visningsprogrammet klickar du
 
 Se [Konfigurera eCatalog Viewer-förinställningar](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
-### 5. Förhandsgranska e-kataloger i eCatalog Viewer
+## 5. Förhandsgranska e-kataloger i eCatalog Viewer
 
 Förinställningarna för eCatalog-visningsprogrammet avgör formatet och beteendet för eCatalog-visningsprogrammen.
 
@@ -110,7 +108,7 @@ Lägg märke till orientering, färgschema, hur kontrollerna för att ändra sid
 
 Se [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-### 6. Publicera e-katalog och tillhörande PDF-filer
+## 6. Publicera e-katalog och tillhörande PDF-filer
 
 När du publicerar din e-katalog och tillhörande PDF-filer placeras den på Dynamic Media Image-servrar så att den kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängen för din eCatalog. Använd den här URL:en för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
 
@@ -118,7 +116,7 @@ När du har markerat din e-katalog och PDF-fil för publicering i panelen Blädd
 
 Se [Publicera e-kataloger och tillhörande PDF-filer](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
-### 7. Länka en e-katalog till en webbsida
+## 7. Länka en e-katalog till en webbsida
 
 Dynamic Media Classic aktiverar den URL-bildtextsträng som krävs för att visa din e-katalog när du publicerar den på Dynamic Media Image Servers. Du kan kopiera den här URL-strängen från förhandsgranskningsskärmen och panelen Bläddra (i detaljvyn) genom att välja URL-adresser i panelen. När du har kopierat URL-strängen är den tillgänglig för dina webbplatser och program.
 
