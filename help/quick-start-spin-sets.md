@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,visningsprogram,snurra uppsättningar
 role: Business Practitioner
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '696'
 ht-degree: 0%
 
 ---
@@ -24,25 +24,23 @@ Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett obj
 
 ![Bilder för en snurra uppsättning.](/help/assets/spin_set.png)
 
-Du kan även använda snurruppsättningar för bildscheman. En bildschema är ett område i en bild i den snurrande uppsättningen som visar en överrullningspanel med text. När användaren klickar på en bildschema utlöses en åtgärd av något slag. En webbsida startas till exempel så att användaren kan lära sig mer om en produkt. Om du vill rikta uppmärksamheten mot användningen av ett bildschema i en snurruppsättning, visas en kontur runt själva bildschemat när användaren flyttar muspekaren över den.
+Du kan även använda snurruppsättningar för bildscheman. En bildschema är ett område i en bild i den snurrande uppsättningen som visar en överrullningspanel med text. När användaren klickar på en bildschema utlöses en åtgärd av något slag. En webbsida startas till exempel så att användaren kan lära sig mer om en produkt. Om du vill peka ut ett bildschema i en snurruppsättning visas en kontur runt själva bildschemat när användaren flyttar muspekaren över den.
 
 Se [Skapa bildscheman](creating-image-maps.md).
 
-**Snabbstart**
+Snabbstart för den här snurruppsättningen är utformad för att du snabbt ska komma igång med Spin Set-teknik i Dynamic Media Classic. Följ steg 1 till 7. I slutet av varje steg kan du klicka på en ämneslänk om du vill veta mer.
 
-Snabbstart för den här snurruppsättningen är utformad för att du snabbt ska komma igång med Spin Set-teknik i Dynamic Media Classic. Följ steg 1 till 7. I slutet av varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information om det behövs.
+## 1. Skapa och överföra bilder
 
-**1. Skapa och överföra bilder**
+Du behöver minst 8-12 tagningar av ett objekt för en endimensionell snurra och 16-24 för en tvådimensionell snurra uppsättning. Fotografierna måste tas med jämna mellanrum för att ge intryck av att objektet roteras och vändas. Om en endimensionell snurra t.ex. innehåller 12 tagningar roterar du objektet 30° (360/12) för varje tagning.
 
-Du behöver minst 8-12 tagningar av ett objekt för en endimensionell snurra och 16-24 för en tvådimensionell snurra uppsättning. Fotografierna måste tas med jämna mellanrum för att ge intryck av att objektet roteras och vändas. Om en endimensionell snurra t.ex. innehåller 12 tagningar roterar du objektet 30 grader (360/12) för varje tagning.
-
-Klicka på knappen Överför i fältet Global navigering om du vill överföra snurrbilder från datorn eller nätverket till Dynamic Media Classic.
+Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att överföra snurrbilder från datorn eller nätverket till Dynamic Media Classic.
 
 Se [Riktlinjer för fotografering av uppsättningsbilder för snurra](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
-**2. Skapa en snurruppsättning**
+## 2. Skapa en snurruppsättning
 
-Om du vill skapa en snurrsuppsättning klickar du på knappen Skapa och väljer Snurra uppsättningar. Välj hur många rader och celler du vill ha i dialogrutan Ange storlek för snurra och klicka sedan på OK. Dra sedan bilder till rutnätet på skärmen för snurra uppsättning.
+Om du vill skapa en snurruppsättning klickar du på **[!UICONTROL Build]** > **[!UICONTROL Spin Sets]** i fältet Global navigering. Välj hur många rader och celler du vill ha i dialogrutan Ange storlek för snurra och klicka sedan på **[!UICONTROL OK]**. Dra sedan bilderna till rutnätet på sidan Snurra uppsättning.
 
 Se [Skapa en snurruppsättning](creating-spin-set.md#creating-a-spin-set).
 
@@ -66,38 +64,38 @@ Last Modified Date:
 
  -->
 
-**3. Redigera en snurruppsättning**
+## 3. Redigera en snurra uppsättning
 
-Om du vill redigera en snurruppsättning väljer du knappen Redigera överrullning. Skärmen med snurra uppsättning öppnas. Lägg till, ta bort och ändra placeringen av bilder. Du kan ändra placeringen av rader i tvådimensionella snurruppsättningar.
+Om du vill redigera en snurruppsättning klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering. Välj en snurra och klicka sedan på **[!UICONTROL Edit]**. Lägg till, ta bort och ändra placeringen av bilder. Du kan ändra placeringen av rader i tvådimensionella snurruppsättningar.
 
 Se [Redigera en snurruppsättning](creating-spin-set.md#editing-a-spin-set).
 
-**4. Konfigurera förinställningar för Snurra uppsättningar för visningsprogram**
+## 4. Konfigurera förinställningar för Snurra uppsättningar för visningsprogram
 
-Administratörer kan skapa förinställningar för Snurra uppsättning för visningsprogram. De här förinställningarna bestämmer hur visningsprogrammet för snurra uppsättning ser ut. Om du vill konfigurera en ny förinställning för Snurra uppsättning för visningsprogram väljer du knappen Inställningar i fältet Global navigering. Visa programinställningsalternativ på skärmen Konfigurera och välj sedan Visningsförinställningar.
+Administratörer kan skapa förinställningar för Snurra uppsättning för visningsprogram. De här förinställningarna bestämmer hur visningsprogrammet för snurra uppsättning ser ut. Om du vill konfigurera en ny förinställning för Snurra uppsättning för visningsprogram klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering.
 
-På skärmen Förinställningar för visningsprogram väljer du menyn Lägg till och väljer Snurra uppsättning för visningsprogram i dialogrutan Lägg till visningsförinställning. Välj sedan alternativ på skärmen Konfigurera visningsprogram.
+Klicka på **[!UICONTROL Add]** på sidan Visningsförinställningar, välj **[!UICONTROL Spin Set Viewer]** i listrutan och klicka sedan på **[!UICONTROL Add]**. Välj alternativ på sidan Konfigurera visningsprogram och klicka sedan på **[!UICONTROL Save]**.
 
 Se [Konfigurera förinställningar för Snurra uppsättning för visningsprogram](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
-**5. Förhandsgranska en snurruppsättning**
+## 5. Förhandsgranska en snurra uppsättning
 
-Markera din snurruppsättning på panelen Bläddra och klicka på knappen Förhandsvisa överrullning. Håll ned musknappen på förhandsgranskningsskärmen och dra pekaren åt vänster eller höger för att visuellt&quot;snurra&quot; objektet.
+Välj din snurruppsättning på panelen Bläddra och klicka sedan på **[!UICONTROL Preview]**. Håll ned musknappen på förhandsgranskningssidan och dra pekaren åt vänster eller höger för att se objektet&quot;snurra&quot; visuellt.
 
 Se [Förhandsgranska en snurruppsättning](previewing-spin-set.md#previewing-a-spin-set).
 
-**6. Publicera en snurruppsättning**
+## 6. Publicera en snurruppsättning
 
 När du publicerar en snurruppsättning placeras den på Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image-servrar till din webbplats eller ditt program.
 
-Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **Markera för publicering** bredvid namnet på bläddringspanelen. Klicka på **Publicera** i fältet Global navigering för att initiera en publicering. Klicka på **Skicka publicering** på skärmen Publicera.
+Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **[!UICONTROL Mark for Publish]** bredvid namnet på panelen Bläddra. Klicka på **[!UICONTROL Publish]** i fältet Global navigering för att starta en publicering. Klicka på **[!UICONTROL Submit Publish]** på skärmen Publicera.
 
 Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set).
 
-**7. Länka en snurruppsättning till en webbsida**
+## 7. Länka en snurruppsättning till en webbsida
 
-I Dynamic Media Classic skapas URL-bildtextsträngar för snurruppsättningar och aktiveras när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
+I Dynamic Media Classic skapas URL-bildtextsträngar för snurruppsättningar och aktiveras när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
-Markera rotationsuppsättningen och klicka sedan på **Förhandsgranska**. Förhandsgranskningsskärmen öppnas. Välj en förinställning för Snurra uppsättning för visningsprogram. Klicka sedan på **Kopiera URL**.
+Markera rotationsuppsättningen och klicka sedan på **[!UICONTROL Preview]**. Välj en förinställning för Snurra uppsättning för visningsprogram. Klicka sedan på **[!UICONTROL Copy URL]**.
 
 Se [Länka en snurruppsättning till en webbsida](linking-spin-set-web-page.md#linking-a-spin-set-to-a-web-page).
