@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Visningsprogram
 role: Business Practitioner
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '377'
+ht-degree: 0%
 
 ---
 
@@ -22,42 +22,40 @@ ht-degree: 1%
 
 Dynamic Media Classic Swatch Sets ger användarna en integrerad visningsupplevelse. I det dynamiska visningsprogrammet för färgruteuppsättning kan användarna se ett objekt som återges i en annan färg, material, struktur, finish eller struktur genom att klicka på en miniatyrbild.
 
-**Snabbstart**
-
 Den här snabbstarten för färgruteuppsättningar är utformad för att du snabbt ska komma igång med tekniken för färgruteuppsättning i Dynamic Media Classic.
 
-**1. Överföra bilder och färgrutefiler**
+## 1. Överföra bilder och färgrutefiler
 
 Börja med att ladda upp bilder och färgrutefiler för dina färgruteuppsättningar.
 
-Klicka på Överför i det globala navigeringsfältet om du vill överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Förbereda resurser för färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload)och [Överföra filer](uploading-files.md#uploading-your-files).
+Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Förbereda resurser för färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) och [Överföra filer](uploading-files.md#uploading-your-files).
 
-**2. Skapa en färgruteuppsättning**
+## 2. Skapa en färgruteuppsättning
 
-Om du vill skapa en uppsättning med färgrutor klickar du på Skapa > Uppsättningar med färgrutor. Dra bilder och färgrutor till skärmen på panelen Uppsättning med färgrutor. Se [Skapa en färgruteuppsättning](creating-swatch-set.md#creating-a-swatch-set).
+Om du vill skapa en färgruteuppsättning klickar du på **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]** i fältet Global navigering. Dra bilder och färgrutor på sidan Uppsättning med färgrutor till sidan. Se [Skapa en färgruteuppsättning](creating-swatch-set.md#creating-a-swatch-set).
 
-**3. Konfigurera förinställningar för färgrutor Ange visningsprograminställningar**
+## 3. Konfigurera förinställningar för färgruteuppsättning för visningsprogram
 
 Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Dynamic Media Classic innehåller standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: Anpassad > Bilduppsättningar/Förinställningar för färgrutor om du vill visa dina färgruteuppsättningar.
 
 Se [Skapa och redigera visningsprogramförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
-**4. Förhandsvisa en färgruteuppsättning**
+## 4. Förhandsvisa en färgruteuppsättning
 
-Markera färgruteuppsättningen på panelen Bläddra och klicka sedan på Förhandsvisa. Din uppsättning med färgrutor visas på den här skärmen. Klicka på miniatyrbilds- och färgruteikonerna för att undersöka uppsättningen med färgrutor i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
+Markera färgruteuppsättningen på panelen Bläddra och klicka sedan på **[!UICONTROL Preview]**. Din färgruteuppsättning visas på den här sidan. Klicka på miniatyrbilds- och färgruteikonerna så att du kan granska färgruteuppsättningen i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
 
 Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
-**5. Publicera en färgruteuppsättning**
+## 5. Publicera en färgruteuppsättning
 
 När du publicerar en uppsättning med färgrutor placeras den på Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
-Klicka på ikonen **Markera för publicering** till vänster om namnet i panelen Bläddra. Klicka sedan på **Publicera**. Klicka på **Skicka publicering** på skärmen Publicera.
+Klicka på ikonen **[!UICONTROL Mark For Publish]** till vänster om namnet i panelen Bläddra. Klicka sedan på **[!UICONTROL Publish]**. Klicka på **[!UICONTROL Submit Publish]** på sidan Publicera.
 
 Se [Publicera](publishing-files.md#publishing-files).
 
-**6. Länka en färgruteuppsättning till en webbsida**
+## 6. Länka en färgruteuppsättning till en webbsida
 
-Dynamic Media Classic skapar URL-anrop för färgruteuppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
+Dynamic Media Classic skapar URL-anrop för färgruteuppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
-Markera färgruteuppsättningen och välj sedan knappen Förhandsvisa. Förhandsgranskningsskärmen öppnas. Markera en förinställning för färgruteuppsättning och välj knappen Kopiera URL. Se [Länka en färgruteuppsättning till en webbsida](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Markera färgruteuppsättningen och välj sedan knappen Förhandsvisa. Förhandsgranskningssidan öppnas. Markera en förinställning för färgruteuppsättning och välj knappen Kopiera URL. Se [Länka en färgruteuppsättning till en webbsida](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
