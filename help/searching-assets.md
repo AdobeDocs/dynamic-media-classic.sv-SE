@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 translation-type: tm+mt
-source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
+source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -24,90 +24,93 @@ Om du vill söka efter filresurser i Dynamic Media Classic kan du visa resurser 
 
 >[!NOTE]
 >
->Skärmen Personliga inställningar innehåller alternativ för hur du vill utföra sökningar. Du kan t.ex. välja en standardsöktyp och välja om användardefinierade fält ska inkluderas i sökningar. Mer information finns i [Personliga inställningar](personal-setup.md#personal_setup).
+>På sidan Personliga inställningar finns alternativ för att välja hur du vill utföra sökningar. Du kan t.ex. välja en standardsöktyp och välja om användardefinierade fält ska inkluderas i sökningar. Mer information finns i [Personliga inställningar](personal-setup.md#personal_setup).
 
 ## Visa resurser efter typ {#viewing-assets-by-type}
 
-Om du bara vill visa filer av en viss typ när du bläddrar öppnar du listrutan Visa i resursbiblioteket och väljer sedan en filtyp. Endast resurser av den typ du valde visas i resursbiblioteket.
+Om du bara vill visa filer av en viss typ när du bläddrar väljer du en filtyp i resursbiblioteket till vänster i listrutan **[!UICONTROL Show]**. Endast resurser av den typ som du väljer att visa visas i resursbiblioteket.
+
+>[!NOTE]
+>
+>Om du inte ser panelen Resursbibliotek till vänster klickar du på den högra triangelpilen till vänster, halvvägs nedåt i Dynamic Media Classic-fönstret, så öppnas resursbiblioteket.)
 
 ## Sortera filer i panelen Bläddra {#sorting-files-in-the-browse-panel}
 
-Om du vill sortera innehållet i en mapp eller sökresultaten på panelen Bläddra väljer du menyn Sortera och väljer ett alternativ. Alternativen är Namn, Storlek, Typ, Skapad och Senast ändrad.
+Om du vill sortera innehållet i en mapp eller sökresultaten som visas i panelen Bläddra till höger klickar du på **[!UICONTROL Sort]** i fältet Global navigering och väljer sedan ett alternativ. Alternativen är **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]** och **[!UICONTROL Last Modified]**.
 
-Du kan välja Stigande eller Fallande om du vill sortera resurser i stigande eller fallande ordning efter de villkor du väljer.
+Du kan också välja **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]** om du vill sortera resurser i stigande eller fallande ordning efter de villkor du väljer.
 
 I listvyn kan du sortera genom att klicka på ett kolumnnamn.
 
 ## Genomföra en enkel sökning {#conducting-a-simple-search}
 
-Använd sökfältet för att utföra enkla sökningar. Du kan söka efter objekt efter namn eller söka efter objekt vars metadata innehåller ett nyckelord.
+Använd sökfältet i resursbiblioteket för att utföra enkla sökningar. Du kan söka efter objekt efter namn eller söka efter objekt vars metadata innehåller ett nyckelord.
 
-Gör en enkel sökning:
+1. I resursbiblioteket i panelen **[!UICONTROL Folders]** markerar du mappen som du vill söka i en viss mapp och dess undermappar.
+1. Klicka på ikonen **[!UICONTROL Magnifying Glass]** till vänster om sökfältet i resursbiblioteket för att öppna listrutan.
+1. I listrutan väljer du ett alternativ som beskriver hur smal eller bred du vill att sökningen ska vara. Du kan välja **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]** eller **[!UICONTROL Within Selected Folder & Subfolders]**.
+1. Ange en sökterm i fältet Sök.
+1. Klicka på **[!UICONTROL Go]** eller tryck på **[!UICONTROL Enter]** till höger om sökfältet.
 
-1. Markera mappen i resursbiblioteket om du vill söka i en viss mapp och dess undermappar
-1. Klicka i resursbiblioteket och välj ett alternativ som beskriver hur smal eller bred du vill att sökningen ska vara. Du kan välja Inom alla filer och mappar, i den markerade mappen eller i den valda mappen och undermapparna.
-1. Ange ett sökord.
-1. Klicka på Gå eller tryck på Enter.
+   Resultatet av sökningen visas i panelen Bläddra till höger.
 
-   Resultatet av sökningen visas i panelen Bläddra.
-
->[!NOTE]
+<!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic spårar sökningar. Om du vill göra en sökning en andra gång markerar du knappen Sök och väljer namnet på en sökning längst ned på menyn Sök.
+>Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## Avancerad sökning {#conducting-an-advanced-search}
 
-Klicka på Avancerad sökning i resursbiblioteket om du vill söka efter många villkor, inklusive värden i metadatafält.
+I resursbiblioteket, direkt under sökfältet, klickar du på **[!UICONTROL Advanced Search]** för att söka efter många villkor, inklusive värden i metadatafält.
 
-Ange något av följande villkor i sökningen:
+Ange något av följande villkor i den avancerade sökningen:
 
-**Filtrera efter** resurstypBegränsa sökningen till en resurstyp genom att välja en resurstyp på menyn.
+* **Filtrera efter resurstyp**  - Begränsa sökningen till en resurstyp genom att välja en resurstyp på menyn.
 
-**Filer och** mapparVälj var du vill söka: I alla filer och mappar, i den valda mappen eller i den valda mappen och undermapparna.
+* **Filer och mappar**  - Välj var du vill söka:  **[!UICONTROL Within All Files & Folders]**,  **[!UICONTROL Within Selected Folder]** eller  **[!UICONTROL Within Selected Folder & Subfolders]**.
 
-**Alla** publiceringstillståndSök efter filer som har markerats som klara för publicering, som inte har markerats som klara för publicering eller alla filer.
+* **Alla publiceringslägen**  - Sök efter filer som har markerats som klara för publicering, som inte har markerats som klara för publicering eller alla filer.
 
-**** Villkor Om du anger metadatavillkor för sökning väljer du om sökningen måste matcha alla villkor (en ALL-sökning) eller något villkor (en OR-sökning).
+* **Villkor**  - Om du anger metadatavillkor för sökning väljer du om sökningen måste matcha alla villkor (en ALL-sökning) eller något villkor (en OR-sökning).
 
-**Ange** villkor för metadatasökningSkapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
+* **Sökvillkor**  - Skapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
 
-1. Öppna listan Metadatavy (till vänster om menyn Lägg till ett fält) och välj en metadatavy. Du kan välja komprimerad vy, IPTC, XMP eller en vy som administratören har konfigurerat.
-1. Välj menyn Lägg till ett fält och välj ett fältnamn i listrutan.
-1. Välj alternativet Innehåller (Innehåller, Innehåller inte, Börjar med, Slutar med eller Likhetstecken).
-1. För numeriska fält väljer du ett värde eller anger ett anpassat datumintervall.
-1. (Valfritt) Upprepa steg 1-4 om du vill skapa fler sökfält.
+   1. I Avancerad sökning, under rubriken **[!UICONTROL Search criteria]** och till vänster om menyn **[!UICONTROL Add a Field]** klickar du på den nedrullningsbara triangelpilen för att öppna listrutan. Välj en metadatavy. Du kan välja **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]** eller **[!UICONTROL XMP]**.
+   1. Klicka på listrutan **[!UICONTROL Add a Field]** och välj ett fältnamn.
+   1. Välj ett **[!UICONTROL Contains]**-alternativ: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]** eller **[!UICONTROL Equals]**.
+   1. För numeriska fält väljer du ett värde eller anger ett anpassat datumintervall.
+   1. (Valfritt) Upprepa steg 1-4 om du vill skapa fler sökfält.
 
-Du kan klicka på knappen Ta bort sökfält för att ta bort ett sökfält.
+Klicka på ikonen **[!UICONTROL Remove search field]** (cirkel med &quot;X&quot; inuti) så att sökfältet tas bort.
 
-Klicka på Sök för att börja söka. Resultatet av sökningen visas i panelen Bläddra. Du kan ändra sökvillkoren och klicka på Sök för att köra sökningen igen.
+Klicka på **[!UICONTROL Search]** längst ned till höger på panelen Avancerad sökning för att börja söka. Resultatet av sökningen visas i panelen Bläddra till höger. Du kan ändra alla sökvillkor och klicka på **[!UICONTROL Search]** för att köra sökningen igen.
 
-Klicka på Rensa för att rensa sökvillkoren och starta en ny sökning. Klicka på Stäng när du är klar med sökningen för att stänga sökpanelen.
+Klicka på **[!UICONTROL Clear]** för att rensa sökvillkoren och starta en ny sökning. Klicka på **[!UICONTROL Close]** när du är klar med sökningen för att stänga sökpanelen.
 
 ## Filtrera resurser med hjälp av metadata {#filter-assets-using-metadata}
 
-Filtrera resurser på fliken Filter i resursbiblioteket. Om du vill filtrera resurser använder du metadatavärden som villkor. När du har valt ett metadatafält som du vill använda för filtrering visar fliken Filter alla metadatavärden som har angetts i det valda fältet och antalet resurser som har tilldelats varje värde. I en filteråtgärd i metadatafältet för skapare visar till exempel fliken Filter alla namn som har angetts i metadatafältet för skapare för olika resurser, och för varje namn, antalet resurser som har tilldelats namnet. Klicka sedan på ett metadatavärde för att visa alla resurser som har tilldelats det värdet. I exemplet klickar du på metadatavärdet för Jimmy för att visa alla resurser där namnet Jimmy har angetts i metadatafältet för Skapare. Du kan filtrera med hjälp av mer än ett metadatafält som filtreringskriterium.
+Filtrera resurser på fliken Filter i resursbiblioteket. Om du vill filtrera resurser använder du metadatavärden som villkor. När du har valt ett metadatafält som du vill filtrera på visas alla metadatavärden som har angetts i det valda fältet på fliken Filter. Här visas även antalet resurser som tilldelats varje värde. I en filteråtgärd i metadatafältet för Skapare visas till exempel alla namn som har angetts i metadatafältet för Skapare för olika resurser på fliken Filter. Den visar också för varje namn antalet resurser som har tilldelats namnet. Klicka sedan på ett metadatavärde för att visa alla resurser som har tilldelats det värdet. I exemplet klickar du på metadatavärdet för Paririe Cat för att visa alla resurser där namnet Prairie Cat angavs i metadatafältet för Skapare. Du kan filtrera med hjälp av mer än ett metadatafält som filtreringskriterium.
 
-Du kan spara filteråtgärder för att kunna köra dem många gånger.
+Du kan spara filteråtgärder för att köra dem många gånger.
 
 >[!NOTE]
 >
->Endast metadatafält i standardmetadatavyn kan användas för filteråtgärder. På skärmen Metadatavyer visas namnet på standardvyn för metadata.
+>Endast metadatafält i standardmetadatavyn kan användas för filteråtgärder. På sidan Metadatavyer visas namnet på standardmetadatavyn.
 
 Se [Metadatavyer](application-setup.md#metadata_views).
 
 ### Köra en filteråtgärd {#running-a-filter-operation}
 
-Följ de här stegen för att söka efter resurser genom att filtrera med deras metadatavärden:
+Följ de här stegen för att hitta resurser genom att filtrera med deras metadatavärden:
 
-1. Klicka på fliken Filter i resursbiblioteket.
+1. Klicka på fliken **[!UICONTROL Filters]** i resursbiblioteket.
 
    Kriterierna för den tidigare filteråtgärden visas i filterrutan. Panelen Filter är uppdelad i paneler där varje panel representerar ett metadatafält. Använd panelerna för att välja vilka metadatafält som ska filtreras med och inom varje fält för att välja ett metadatavärde för filteråtgärden.
 
-   Om du vill köra en filteråtgärd som du har skapat och sparat klickar du på knappen Välj förinställning och väljer åtgärdens namn på menyn.
+   Om du vill köra en filteråtgärd som du har skapat och sparat klickar du på **[!UICONTROL Select Preset]** och väljer sedan åtgärdens namn på menyn.
 
    Se [Spara, upprepa och ta bort filteråtgärder](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
-1. Klicka på knappen Fält på en panel, följ dessa instruktioner för att visa filtermenyn och skapa filteråtgärden:
+1. Klicka på **[!UICONTROL Field]** på en panel och följ sedan dessa instruktioner så att du kan visa filtreringsmenyn och skapa filteråtgärden:
 
    * **Välj ett metadatafält** - Markera fältets namn på filtreringsmenyn.
 
@@ -117,11 +120,11 @@ Följ de här stegen för att söka efter resurser genom att filtrera med deras 
 
       Se [Metadatavyer](application-setup.md#metadata_views).
 
-   * **Lägga till ett metadatafält**  - Välj Lägg till en panel. När panelen visas på filterpanelen klickar du på knappen Fält och väljer namnet på ett metadatafält på filtreringsmenyn.
+   * **Lägga till ett metadatafält**  - Klicka  **[!UICONTROL Add a Panel]**. När panelen visas på filterpanelen klickar du på knappen **[!UICONTROL Field]** och väljer namnet på ett metadatafält på filtreringsmenyn.
 
-   * **Ta bort ett metadatafält**  - Välj  **[!UICONTROL Remove This Panel]** på filtreringsmenyn.
+   * **Ta bort ett metadatafält** - klicka  **[!UICONTROL Remove This Panel]** på filtreringsmenyn.
 
-   När du väljer ett metadatafält visas en lista i panelen:
+   När du väljer ett metadatafält visas följande på panelen:
 
    * Alla metadatavärden som anges i fältet.
    * För varje metadatavärde, antalet resurser som anges av värdet.
@@ -134,35 +137,35 @@ Följ de här stegen för att söka efter resurser genom att filtrera med deras 
 
    >[!NOTE]
    >
-   >Om du vill ta bort ett fält tillfälligt från filteråtgärden klickar du på Avmarkera alla. Det här alternativet finns högst upp på varje panel, ovanför metadatavärden.
+   >Om du vill ta bort ett fält tillfälligt från filteråtgärden klickar du på **[!UICONTROL Deselect All]**. Det här alternativet visas högst upp på varje panel, ovanför metadatavärden.
 
-1. (Valfritt) Om du vill spara filteråtgärden och kunna köra den senare klickar du på knappen Välj förinställning, väljer Spara aktuella som nya förinställningar och anger ett namn i dialogrutan Spara.
+1. (Valfritt) Om du vill spara filteråtgärden och kunna köra den senare klickar du på **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** och anger sedan ett namn i dialogrutan **[!UICONTROL Save]**.
 
 ### Spara, upprepa och ta bort filteråtgärder {#saving-repeating-and-deleting-filter-operations}
 
-Följ dessa anvisningar på fliken Filter för att spara, upprepa och ta bort filteråtgärder:
+Följ dessa instruktioner på fliken Filter så att du kan spara, upprepa och ta bort filteråtgärder:
 
-* **Spara en filteråtgärd** - Klicka  **[!UICONTROL Select Preset]**, välj  **[!UICONTROL Save Current As New Presets]** och ange ett namn i dialogrutan Spara.
+* **Spara en filteråtgärd**  - Klicka  **[!UICONTROL Select Preset]** >  **[!UICONTROL Save Current As New Presets]** och ange sedan ett namn i  **[!UICONTROL Save]** dialogrutan.
 
 * **Upprepa en filteråtgärd** - Klicka  **[!UICONTROL Select Preset]** och välj namnet på en filteråtgärd på menyn. I menyn visas filteråtgärder som du har sparat.
 
-* **Tar bort en filteråtgärd från menyn**  Välj förinställning - Kör filteråtgärden. Klicka sedan på **[!UICONTROL Select Preset]** och välj Ta bort förinställning på menyn.
+* **Tar bort en filteråtgärd från menyn**  Välj förinställning - Kör filteråtgärden. Klicka sedan på **[!UICONTROL Select Preset]** > **[!UICONTROL Delete Preset]** på menyn.
 
 ## Använda metadataservern {#using-the-metadata-server}
 
 Metadataservern är ett offentligt API som du kan använda för att söka efter resurser via metadata via http-begäranden.
 
-Om du vill konfigurera metadataservern klickar du på Konfigurera > Programinställningar > Publiceringsinställningar > Metadataserver.
+Konfigurera metadataservern genom att klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**.
 
-Metadataserverns publiceringsskärm öppnas. På den här skärmen kan du ange följande alternativ:
+På sidan Publicera för metadataserver kan du ange följande alternativ:
 
 * **Direktpublicering**  - Alla metadataändringar skickas automatiskt när de görs, inklusive nya resurser, nyckelordsändringar och så vidare.
 
-* **XMP Packet**  - Publicerar XMP. Det här paketet används inte för sökning, men innehåller det senaste XMP/
+* **XMP Packet**  - Publicerar XMP. Paketet används inte för sökning, men innehåller den senaste XMP.
 
 * **Nyckelord**  - Publicerar dina nyckelord till metadataservern för användning i sökningar.
 
-* **Metadataserverns publiceringsfält**  - Markera de fält som ska inkluderas i metadata. På så sätt kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
+* **Metadataserverns publiceringsfält**  - Markera de fält som ska inkluderas i metadata. Med det här alternativet kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
 
 Klicka på **[!UICONTROL Publish Now]** för att starta jobbet. En bekräftelse visas som talar om att jobbet har startat.
 
