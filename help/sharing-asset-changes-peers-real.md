@@ -7,22 +7,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Media Classic,Asset Management,Collaboration
+feature: Dynamic Media Classic,Resurshantering,Samarbete
 role: Administrator,Business Practitioner
+exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
-
 
 # Dela resursändringar med kollegor i realtid{#sharing-asset-changes-with-peers-in-real-time}
 
 Om flera kopior av Dynamic Media Classic körs på en eller flera datorer i samma företag uppdateras följande åtgärder från alla Dynamic Media Classic-klienter i realtid med alla peer-klienter:
 
-* Redigera en resurs (byggare, bildredigerare osv.)
+* Redigera en resurs (byggare, bildredigerare o.s.v.)
 * Byta namn på en resurs
 * Ta bort en resurs
 * Flytta en resurs
@@ -33,6 +33,6 @@ När en ändring har gjorts i den ursprungliga klienten uppdateras alla peer-kli
 
 När du loggar in uppmanas du att tillåta eller neka peer-uppdateringar. Du kan&quot;komma ihåg&quot; valet så att du bara uppmanas en gång. Ta bort den aktuella platsen från panelen P2P-nätverk i Globala inställningar för att ta bort ditt val.
 
-Om du redigerar en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer Ja ignoreras alla ändringar som gjorts i resursen och den uppdaterade resursen importeras. Om du väljer Nej ändras resursen inte i byggaren eller redigeraren och eventuella ändringar som du har gjort kvarstår under den sessionen.
+Om du redigerar en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer **[!UICONTROL Yes]** ignoreras alla ändringar som gjorts i resursen och den uppdaterade resursen importeras. Om du väljer **[!UICONTROL No]** ändras inte resursen i byggaren eller redigeraren och alla ändringar du har gjort sparas i den sessionen.
 
 När du sparar resursen visas ett meddelande om att det finns en nyare version och du tillfrågas om du vill skriva över resursen med dina ändringar.
