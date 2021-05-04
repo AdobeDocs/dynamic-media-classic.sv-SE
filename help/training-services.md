@@ -9,33 +9,33 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: e2840200-246e-4c68-b10f-a66461f2a118
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 0%
+source-wordcount: '163'
+ht-degree: 4%
 
 ---
 
-
 # Adobe utbildningstjänster{#adobe-training-services}
 
-Dynamic Media Classic erbjuder utbildning i form av videokurser, lärarledda workshops, webbseminarier och demonstrationer.
+Dynamic Media Classic erbjuder utbildning i form av videoutbildning, lärarledda workshops, webbseminarier och demonstrationer.
 
-**Adobe Training Services**
+## Adobe Training Services
 
 Adobe Training Services erbjuder en djupgående, skräddarsydd utbildning för din organisation. Utbildningen kan ske i form av lokala universitetsklasser, webbaserade sessioner eller anpassade workshops på plats. Regionala kurser är öppna för alla kunder och hålls regelbundet på olika platser i Nordamerika och EMEA. Anpassade sessioner kan skräddarsys för både nybörjare och avancerade användare, slutanvändare, administratörer och IT-personal.
 
-Se [Adobe Training Services](https://training.adobe.com/training.html) [](https://www.adobe.com/go/learn_sc7_trainingrequest_en).
+Se [Adobe Training Services](https://learning.adobe.com/)
 
-**Demos**
+## Demos
 
 Se demonstrationer av visningsfunktionerna i Dynamic Media Classic.
 
-Se [Demos](https://www.adobe.com/solutions/web-experience-management/rich-media-assets-demos.html).
+Se [Demos](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-**Komma igång-kapitlet i hjälpen**
+## Komma igång-kapitlet i hjälpen
 
-I avsnittet Komma igång i hjälpsystemet finns instruktioner för användare som inte har använt Dynamic Media Classic tidigare. Här förklaras grunderna för plattformen, navigering, konfiguration, resurshantering och framtagning av multimedia.
+I avsnittet Komma igång i hjälpsystemet finns instruktioner för användare som inte har använt Dynamic Media Classic tidigare. Här förklaras grunderna i programmet, navigering, konfiguration, resurshantering och framtagning av multimedia.
 
 Se [Komma igång](dmc-platform-overview.md).
