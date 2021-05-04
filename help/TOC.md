@@ -7,7 +7,7 @@ breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Dynamic Media Classic
 index: y
 translation-type: tm+mt
-source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
    + [Populära resurser](popular-resources.md)
    + [Utbildningsvideor](training-videos.md)
 + Komma igång {#getting-started}
-   + [Adobe Dynamic Media Classic - plattformsöversikt](dmc-platform-overview.md)
+   + [Adobe Dynamic Media Classic - programöversikt](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [Logga in och ut](signing-out.md)
    + [Navigeringsgrunder](navigation-basics.md)
