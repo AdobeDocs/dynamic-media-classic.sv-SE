@@ -7,14 +7,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
@@ -22,11 +22,9 @@ ht-degree: 0%
 
 Kontrollera att du har följande innan du använder Dynamic Media Classic:
 
-* **AnvändarnamnDu**
-använder din e-postadress som inloggningsnamn.
+* **Användarnamn**  - Du använder din e-postadress som inloggningsnamn.
 
-* ****
-LösenordDu får ditt tillfälliga lösenord i ett välkomstmeddelande från Dynamic Media Classic eller från en Dynamic Media Classic-administratör. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
+* **Lösenord** - Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Dynamic Media Classic eller från en Dynamic Media Classic-administratör. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
 
 1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
 
@@ -43,11 +41,11 @@ Använd följande mappning för att välja den produktionsmiljö som du vill anv
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-1. Tryck på **[!UICONTROL Sign In]**.
+1. Tryck på **[!UICONTROL Sign in]**.
 
 ## Logga ut från Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. I det övre högra hörnet av Dynamic Media Classic-datorprogrammet trycker du på **[!UICONTROL Sign Out]** och sedan på **[!UICONTROL Sign Out]** igen.
+1. I det övre högra hörnet av Dynamic Media Classic-datorprogrammet trycker du på **[!UICONTROL Sign out]** och sedan på **[!UICONTROL Sign out]** igen.
 
 >[!MORELIKETHIS]
 >
