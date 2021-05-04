@@ -11,20 +11,20 @@ feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1005'
 ht-degree: 0%
 
 ---
 
 # Testa resurser innan du gör dem offentliga {#testing-assets-before-making-them-public}
 
-Säker testning hjälper er att definiera en säker testmiljö och bygga en robust B2B-lösning som bygger på en konfigurerbar uppsättning IP-adresser och intervall. Med den här funktionen kan du matcha dina Dynamic Media Classic-distributioner med arkitekturen för din innehållshantering och e-handelsplattform.
+Säker testning hjälper er att definiera en säker testmiljö och bygga en robust B2B-lösning som bygger på en konfigurerbar uppsättning IP-adresser och intervall. Med den här funktionen kan du matcha dina Dynamic Media Classic-distributioner med arkitekturen i innehållshanteringen och affärssystemet.
 
 Med Säker testning kan du förhandsgranska testversionen av webbplatsen med opublicerat innehåll.
 
-Du kanske föredrar att skapa en staging-miljö i stället för att göra resurserna tillgängliga för allmänheten av följande skäl:
+Om du vill kan du skapa en staging-miljö i stället för att göra resurserna allmänt tillgängliga av följande skäl:
 
 * Förhandsgranska webbplatser innan den offentliga lanseringen (testwebbplatsen).
 * Tjäna resurser som kräver begränsad åtkomst, till exempel e-kataloger som visar priser i B2B-webbprogram.
@@ -42,13 +42,13 @@ Från ditt företagsnätverk kan du ta reda på din offentliga IP-adress med hj�
 
 Med Secure Testing skapar Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna program. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Dynamic Media Classic Company Administrator konfigurerar den godkända listan över IP-adresser för företagets säkra testmiljö.
 
-Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, t.ex. offentlig Dynamic Media Image Server-trafik. Begäranden till tjänsten för säker testning kan ha en något högre fördröjning än de offentliga Dynamic Media Image-servrarna.
+Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, t.ex. offentlig Dynamic Media Image Server-trafik. Begäranden till tjänsten för säker testning har en något högre fördröjning än de offentliga Dynamic Media Image-servrarna.
 
-Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker testning, utan att behöva publicera. Detta gör att du kan köra en förhandsvisning innan resurser publiceras på den offentliga bildservern.
+Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker testning, utan att behöva publicera. På så sätt kan du köra en förhandsvisning innan resurser publiceras på den offentliga bildservern.
 
 >[!NOTE]
 >
->Säker testning utnyttjar katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning bör du därför vara medveten om att överförda resurser i Dynamic Media Classic omedelbart blir tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring eller inte.
+>Tjänster för säker testning använder katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning blir därför alla överförda resurser i Dynamic Media Classic omedelbart tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring.
 
 Tjänster för säker testning stöder för närvarande följande resurstyper och funktioner:
 
@@ -81,12 +81,13 @@ Följande tillgångstyper och funktioner stöds för närvarande inte:
 
 ## Testa tjänsten Secure Testing {#testing-the-secure-testing-service}
 
-Du bör testa tjänsten för säker testning för att kontrollera att den fungerar som förväntat.
+Testa tjänsten Secure Testing för att kontrollera att den fungerar som förväntat.
 
-Obs! Om du inte anger några IP-adresser under Konfigurera > Publiceringsinställningar > Bildserver > Testa bildtjänst
-Om du lägger till en IP-adress kan bara den IP-adressen anropa resurserna och ingen annan IP-adress tillåts att ringa. Så länge det inte finns någon IP nämnd under det avsnittet tillåts alla IP-adresser att ringa upp tillgångarna, och de visas.
+<!-- >[!NOTE]
+>
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
-**Förbered ditt konto**
+### Förbered ditt konto
 
 <!-- 
 
@@ -98,20 +99,20 @@ Last Modified Date:
 
  -->
 
-1. Kontakta teknisk support och begär att säker testning aktiveras för ditt konto.
-1. I Dynamic Media Classic klickar du på **Inställningar** > **Publiceringsinställningar** > **Bildserver**.
-1. Välj **Testa bildservern** i listrutan Publiceringskontext på sidan Image Server Publish.
-1. Klicka på **Lägg till** som klientadressfilter.
-1. Markera kryssrutan om du vill aktivera (aktivera) adressen och ange sedan en IP-adress och nätmask i respektive textfält.
+1. Kontakta Adobe kundtjänst och begär att de aktiverar säker testning på ditt konto.
+1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** i fältet Global Navigation.
+1. Välj **[!UICONTROL Test Image Serving]** i listrutan **[!UICONTROL Publish Context]** på sidan Image Server Publish.
+1. Klicka på **[!UICONTROL Add]** som klientadressfilter.
+1. Markera kryssrutan så att adressen är aktiverad (påslagen) och skriv sedan en IP-adress och nätmask i respektive textfält.
 
    >[!NOTE]
    >
-   >Om du lägger till en enda IP-adress och nätmask kan den adressen göra tillgångsanrop. Andra IP-adresser och nätmasker som du lägger till har dock inte rätt att göra resursanrop. Därför kanske du vill inaktivera (inaktivera) kryssrutan i steget ovan för att inaktivera möjligheten att ange en IP-adress och nätmask. Om du gör det kan *alla* IP-adresser göra tillgångsanrop, och alla visas.
+   >Om du lägger till en enda IP-adress och nätmask kan den adressen göra tillgångsanrop. Andra IP-adresser och nätmasker som du lägger till har dock inte rätt att göra resursanrop. Överväg därför att inaktivera (inaktivera) kryssrutan i steget ovan för att inaktivera möjligheten att ange en IP-adress och nätmask. Om du gör det kan *alla* IP-adresser göra tillgångsanrop, och de visas alla.
 
 1. Gör något av följande:
-   * Upprepa de två föregående stegen för att lägga till fler IP-adresser.
+   * Upprepa de två föregående stegen om du måste lägga till fler IP-adresser.
    * Fortsätt till nästa steg.
-1. Klicka på **Spara** längst ned till vänster på Image Server Publish-sidan
+1. Klicka på **[!UICONTROL Save]** längst ned till vänster på sidan Image Server Publish
 1. Överför bilderna till ditt Dynamic Media Classic-konto.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
@@ -120,25 +121,25 @@ Last Modified Date:
 
    Se [Publicera](publishing-files.md#publishing_files).
 
-1. Ange namnet på tjänsten för säker testning genom att klicka på **Inställningar** > **Programinställningar** > **Allmänna inställningar**.
-1. På sidan Allmänna inställningar för programmet, under gruppen Servrar, söker du efter namnet till höger om **Test Publish Context Server Name**.
+1. Ange namnet på tjänsten för säker testning genom att klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
+1. På sidan Allmänna inställningar för programmet, under gruppen Servrar, söker du efter namnet till höger om **[!UICONTROL Test Publish Context Server Name]**.
 
 Kontakta Adobe Care om servernamnet saknas eller om URL:erna till inte fungerar.
 
-**Förbered webbplatsvarianter**
+### Förbered webbplatsvarianter
 
 Du behöver två varianter av en webbplats som länkar de publicerade och opublicerade resurserna:
 
 * Offentlig version - Länka resurser med din vanliga Dynamic Media Classic URL-syntax.
 * Mellanlagringsversion - Länka resurser med samma syntax men med namnet på platsen för säker testning.
 
-**Kör testerna**
+### Kör testerna
 
 Utför följande tester:
 
 1. Kontrollera om resurser är synliga inifrån företagets nätverk.
 
-   I det företagsnätverk som identifieras av det tidigare definierade IP-adressintervallet ska mellanlagringsversionen av webbplatsen visa alla bilder, oavsett om de är markerade för publicering eller inte. Det gör att du kan testa utan att oavsiktligt göra bilder tillgängliga innan du förhandsgranskar eller startar produkten.
+   I företagsnätverket som identifieras av det tidigare definierade IP-adressintervallet visar mellanlagringsversionen av webbplatsen alla bilder, oavsett om de är markerade för publicering eller inte. Därför kan du testa utan att oavsiktligt göra bilder tillgängliga innan du förhandsgranskar eller startar produkten.
 
    Bekräfta att den offentliga versionen av din webbplats visar publicerade resurser så som de har varit i Dynamic Media Classic tidigare.
 
