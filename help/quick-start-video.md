@@ -9,7 +9,7 @@ feature: Dynamic Media Classic,Visningsprogram,Video
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -40,7 +40,9 @@ För hantering av enstaka video och adaptiva videouppsättningar har Dynamic Med
 
    När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
-   `**Note:**` Överordnad videoklipp, källvideoklipp och andra videofilmer i källformat läggs  ** inte till i en adaptiv videouppsättning.
+   >[!NOTE]
+   >
+   >Överordnad videoklipp/källvideoklipp och annan video i källformat *läggs inte* till i en adaptiv videouppsättning.
 
 * Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
 
