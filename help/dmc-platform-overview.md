@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic - plattformsöversikt
-description: En översikt över Dynamic Media Classic-plattformen och arbetsflödesprocessen.
+title: Adobe Dynamic Media Classic - programöversikt
+description: En översikt över programmet och arbetsflödet i Dynamic Media Classic.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -11,14 +11,14 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic-plattformen - översikt{#adobe-scene-platform-overview}
+# Adobe Dynamic Media Classic - programöversikt{#adobe-scene-platform-overview}
 
 Dynamic Media Classic är en integrerad miljö för hantering, publicering och visning av multimedia. Multimedia kan levereras till alla marknadsförings- och säljkanaler, inklusive webben, trycksaker, e-postkampanjer, webbportaler, datorer och enheter.
 
