@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
+exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
 
-
 # Hantera papperskorgen{#managing-the-trash-folder}
 
-Objekt som du tar bort från Dynamic Media Classic flyttas till papperskorgen. De finns kvar i sju dagar i den här mappen tills de återställs eller tas bort permanent. Du kan undersöka borttagna objekt genom att markera papperskorgsikonen längst ned i resursbiblioteket och visa objekt i papperskorgen.
+Objekt som du tar bort från Dynamic Media Classic flyttas till papperskorgen. De borttagna filerna finns kvar i mappen i sju dagar tills de återställs eller tas bort permanent. Du kan granska borttagna objekt genom att klicka på ikonen **[!UICONTROL Trash]** längst ned i resursbiblioteket och visa objekt på papperskorgsmappens sida.
 
 Alla användare kan återställa objekt i papperskorgen till de mappar som de togs bort från. Alla användare kan också tömma papperskorgen på allt innehåll.
 
@@ -36,27 +36,27 @@ Om du tar bort ett objekt i en mapp placeras objektet i papperskorgen. Följande
 
 * Objektet har tagits bort från dina Dynamic Media Classic-mappar, men det går inte att tilldela ett annat objekt dess ID medan det finns kvar i papperskorgen. Om du försöker överföra en resurs med samma namn som en fil i papperskorgen lägger Dynamic Media Classic till en siffra i resursens namn.
 * Objektet kan inte publiceras. Även om objektet markerades för publicering när du tog bort det publiceras det inte.
-* Objektet finns kvar i papperskorgen tills det återställs, sju dagar framåt eller någon väljer kommandot Töm papperskorgen. Efter sju dagar tas objektet bort permanent vid en automatisk rensning.
+* Objektet finns kvar i papperskorgen tills det återställs, sju dagar framåt eller någon väljer kommandot **[!UICONTROL Empty the Trash]**. Efter sju dagar tas objektet bort permanent vid en automatisk rensning.
 
 ## Återställa resurser från papperskorgen {#restoring-assets-from-the-trash-folder}
 
 Den som tagit bort en resurs behöver inte återställa den. alla kan återställa resurser från papperskorgen. Resurser som återställs placeras i de mappar som de har tagits bort från. Om de här mapparna inte längre finns återskapas de av Dynamic Media Classic och de återställda resurserna placeras i mapparna som du har skapat igen.
 
-Följ de här stegen för att återställa resurser från papperskorgen till de mappar som de togs bort från:
+Så här återställer du resurser från papperskorgen till de mappar som de togs bort från:
 
-1. Klicka på papperskorgen för att öppna papperskorgen.
+1. Klicka på ikonen **[!UICONTROL Trash]** längst ned på panelen Resursbibliotek för att öppna papperskorgen.
 1. Markera den eller de resurser som du vill återställa.
-1. Välj Arkiv > Återställ från papperskorgen.
+1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Restore from trash]**.
 
 ## Ta bort resurser permanent i papperskorgen {#permanently-deleting-assets-in-the-trash-folder}
 
 När du tar bort resurser i papperskorgen tas resurserna bort permanent. Resurser tas automatiskt bort från papperskorgen efter sju dagar.
 
-Om du vill ta bort resurser permanent från papperskorgen väljer du papperskorgen för att öppna papperskorgen. Ta sedan bort enskilda resurser eller ta bort alla resurser i mappen:
+Om du vill ta bort resurser permanent från papperskorgen klickar du på ikonen **[!UICONTROL Trash]**. Gör något av följande på sidan Papperskorg:
 
-* **Ta bort enskilda** resurserMarkera de resurser som du vill ta bort permanent och klicka på  **[!UICONTROL File > Empty From Trash]**.
+* **Ta bort enskilda resurser** - Markera de resurser som du vill ta bort permanent och klicka sedan på  **[!UICONTROL File]** >  **[!UICONTROL Empty From Trash]**.
 
-* **Tar bort alla** resurserKlicka  **[!UICONTROL File > Empty Trash]**.
+* **Tar bort alla resurser**  - Klicka  **[!UICONTROL File]** >  **[!UICONTROL Empty trash]**.
 
 >[!MORELIKETHIS]
 >
