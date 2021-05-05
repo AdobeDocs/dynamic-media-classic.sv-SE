@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -33,19 +33,19 @@ Dessa alternativ finns på sidan Överför under Bildredigeringsalternativ.
 
 ## Beskära tomt utrymme från bilder
 
-Om du vill beskära pixlar med tomt utrymme automatiskt från en bild väljer du Beskär-menyn och sedan Beskär. Välj sedan följande alternativ:
+Om du vill beskära pixlar med tomt utrymme automatiskt från en bild klickar du på **[!UICONTROL Crop Options]** i dialogrutan Alternativ för överföringsjobb. Välj **[!UICONTROL Trim]** i listrutan **[!UICONTROL Crop]**. Välj sedan följande alternativ:
 
-* **Rensa bort baserat på**  - Välj om du vill beskära baserat på färg eller genomskinlighet:
+* **Rensa bort baserat på**  - Välj om du vill beskära baserat på färg eller genomskinlighet i den här listrutan:
 
-* **Färg**  - Välj  **[!UICONTROL Color]** alternativet. I listrutan **[!UICONTROL Corner]** väljer du sedan hörnet av bilden med den färg som bäst motsvarar den vitfärgen som du vill beskära.
+   * **Färg**  - Välj  **[!UICONTROL Color]** alternativet. I listrutan **[!UICONTROL Corner]** väljer du sedan hörnet av bilden med den färg som bäst motsvarar den vitfärgen som du vill beskära.
 
-* **Genomskinlighet**  - Välj alternativet Genomskinlighet.
+   * **Genomskinlighet**  - Välj alternativet Genomskinlighet.
 
 * **Tolerans** - Dra i skjutreglaget för att ange en tolerans mellan 0 och 1:
 
-* **Trimma baserat på färg** - Ange 0 om du bara vill beskära pixlar om de exakt matchar den färg som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
+   * **Trimma baserat på färg** - Ange 0 om du bara vill beskära pixlar om de exakt matchar den färg som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
 
-* **Trimma baserat på genomskinlighet**  - Ange 0 om pixlarna bara ska beskäras om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
+   * **Trimma baserat på genomskinlighet**  - Ange 0 om pixlarna bara ska beskäras om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
 
 ## Beskära manuellt från bildsidorna
 
