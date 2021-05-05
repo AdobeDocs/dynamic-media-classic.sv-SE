@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
-
 
 # Överför mallfiler{#uploading-template-files}
 
@@ -30,8 +30,11 @@ Mallar kan skapas från Adobe Photoshop PSD-filer eller bildfiler.
 
 Detaljerade instruktioner om hur du överför filer finns i [Överföra filer](uploading-files.md#uploading_files). Tänk på följande när du överför mallfiler:
 
-* Om du överför en PSD-fil kan du skapa en mall utifrån den. I Dynamic Media Classic skapas en separat bild för varje lager i PSD-filen. I dialogrutan Alternativ för överföringsjobb väljer du Photoshop-alternativ, markerar alternativet Behåll lager och väljer alternativet Skapa mall. Välj sedan ett alternativ på menyn Lagernamn för att namnge bilderna som skapas i Dynamic Media Classic från lager i PSD-filen. Se [PSD-överföringsalternativ](psd-files.md#psd_upload_options).
-* Om du överför bilder kan du skapa en mask från urklippsbanan. Det här alternativet gäller bilder som skapats med bildredigeringsprogram där en urklippsbana har skapats. I dialogrutan Alternativ för överföringsjobb väljer du Bildredigeringsalternativ och väljer alternativet Skapa mask från urklippsbana. Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+* Om du överför en PSD-fil kan du skapa en mall utifrån den. I Dynamic Media Classic skapas en separat bild för varje lager i PSD-filen. Klicka på **[!UICONTROL Photoshop Options]** i dialogrutan Alternativ för överföringsjobb och välj **[!UICONTROL Maintain Layers]** och **[!UICONTROL Create Template]**. Välj sedan ett alternativ i listrutan **[!UICONTROL Layer Naming]** för att namnge bilderna som skapas i Dynamic Media Classic från lager i PSD:n.
+Se [PSD-överföringsalternativ](psd-files.md#psd_upload_options).
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
