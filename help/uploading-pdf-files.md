@@ -10,16 +10,16 @@ feature: Dynamic Media Classic,Visningsprogram,eCatalog
 role: Business Practitioner
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '734'
 ht-degree: 0%
 
 ---
 
 # Överföra PDF-filer{#uploading-the-pdf-files}
 
-Vanligtvis är Adobe PDF-filer källa för en e-katalog. Dessa filer innehåller all bildinformation, teckensnitt och vektorgrafik. Du kan även skapa en e-katalog med bilder. När du har förberett PDF-filerna för överföring markerar du knappen Överför i fältet Global navigering för att börja överföra PDF-filerna.
+Vanligtvis är Adobe PDF-filer källa för en e-katalog. Dessa filer innehåller all bildinformation, teckensnitt och vektorgrafik. Du kan även skapa en e-katalog med bilder. När du har förberett PDF-filerna för överföring klickar du på **[!UICONTROL Upload]** i fältet Global Navigation (Global Navigation) för att börja överföra PDF-filerna.
 
 ## Förbereda PDF-filer {#preparing-your-pdf-files}
 
@@ -39,37 +39,27 @@ Mer information om de olika överföringsmetoderna finns i [Överföra filer](up
 
 Markera de filer som du vill överföra och välj sedan följande *metodtips* PDF-alternativ:
 
-* ****
-BeskärVälj Beskär-menyn och välj Manuell om sidorna innehåller skärmärken, passmärken eller andra märken. Ange antalet pixlar att beskära från sidans övre, högra, nedre och vänstra sidor. Skärmärken är ofta inställda på en halv-tumsmarginal. Anta att du väljer 150 (rekommenderas) som pixel per tum och anger 75, 75, 75, 75, 75 i textrutorna Överkant, Höger, Underkant och Vänster. I så fall beskärs en halv tum från marginalerna (vid 150 ppi motsvarar hälften av 1 75 pixlar).
+* **Beskärningsalternativ** - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL Crop Options]**. Om PDF-sidorna innehåller skärmärken, passmärken eller andra märken väljer du **[!UICONTROL Manual]** i listrutan **[!UICONTROL Crop]**. Ange antalet pixlar att beskära från sidans övre, högra, nedre och vänstra sidor. Skärmärken är ofta inställda på en halv-tumsmarginal. Anta att du väljer **[!UICONTROL 150]** (rekommenderas) som pixel per tum-upplösning och anger 75, 75, 75, 75 i textrutorna Överkant, Höger, Underkant och Vänster. I så fall beskärs en halv tum från marginalerna (vid 150 ppi motsvarar hälften av 1 75 pixlar).
 
-* ****
-BearbetningVälj menyn Bearbetning och sedan Rastrera. PDF-filen måste rastreras så att alla sidor och bilder kan visas i e-katalogen.
+* **Bearbetning**  - I dialogrutan Alternativ för överföring av jobb klickar du på  **[!UICONTROL PDF Options]**. Välj **[!UICONTROL Rasterize]** i listrutan **[!UICONTROL Processing]**. PDF-filen måste rastreras så att alla sidor och bilder kan visas i e-katalogen.
 
-* **Extrahera sökord (valfritt)**
-Välj det här alternativet om du vill att dina läsare ska kunna söka efter nyckelord i din eCatalog.
+* **Extrahera sökord (valfritt)**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Välj **[!UICONTROL Search words]** i listrutan Extract om du vill att dina visningsprogram ska kunna söka efter nyckelord i din eCatalog.
 
-* **Skapa e-katalog automatiskt från PDF-fil med flera sidor (valfritt)**
-Välj det här alternativet om du automatiskt vill skapa en e-katalog när du överför den. Du kan gå direkt till eCatalog-skärmen och börja arbeta med eCatalog utan att först behöva markera PDF-filer och sedan välja kommandot Skapa. eCatalog namnges efter PDF-filen.
+* **Generera eCatalog automatiskt från PDF-fil med flera sidor (valfritt)**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Välj **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** om du vill skapa en e-katalog automatiskt när du överför. Du kan gå direkt till eCatalog-skärmen och börja arbeta med eCatalog utan att först behöva markera PDF-filer och sedan välja kommandot Skapa. eCatalog namnges efter PDF-filen.
 
-* ****
-ResolutionDynamic Media Classic rekommenderar 150 pixlar per tum.
+* **Upplösning**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Ange ett värde i textfältet **[!UICONTROL Resolution]**. Dynamic Media Classic rekommenderar 150 pixlar per tum.
 
-* **Color**
-spaceDynamic Media Classic rekommenderar att du väljer Identifiera automatiskt. Vanligtvis är PDF-filer som skapats för utskrift CMYK. PDF-filer för visning online är RGB. Om båda färgrymderna används i en PDF-fil kan du välja en viss färgrymd genom att välja Använd som RGB eller Använd som CMYK. I PDF-filer används till exempel båda färgmodellerna när sidgrafik använder en CMYK-färgmodell, men bilder använder RGB. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
+* **Färgrymd**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Välj **[!UICONTROL Detect automatically]** i listrutan Färgrymd. Vanligtvis är PDF-filer som skapats för utskrift CMYK. PDF-filer för visning online är RGB. Om båda färgrymderna används i en PDF-fil kan du välja en viss färgrymd genom att välja Använd som RGB eller Använd som CMYK. I PDF-filer används till exempel båda färgmodellerna när sidgrafik använder en CMYK-färgmodell, men bilder använder RGB. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
 
-   Se [ICC-profiler](icc-profiles.md#icc_profiles).
+   Se [ICC-profiler](/help/icc-profiles.md).
 
-* **FärgprofilVälj ett**
-färgprofilsalternativ:
+* **Alternativ**  för färgprofil - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL Color Profile Options]** och väljer sedan ett färgprofilsalternativ:
 
-* **Konvertera till**
-SRGBConverts till SRGB (Standard Red Green Blue). SRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+   * **Behåll ursprunglig färgmodell**  - Behåller den ursprungliga färgmodellen.
 
-* **Behåll ursprunglig**
-färgrymdBehåller den ursprungliga färgrymden.
+   * **Anpassad från > Till** - Öppnar undermenyer så att du kan välja en  **[!UICONTROL Convert From]** och  **[!UICONTROL Convert To]** en färgrymd. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
 
-* **Anpassad från >**
-TillÖppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
+<!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
