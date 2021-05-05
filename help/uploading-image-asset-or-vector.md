@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
-
 
 # Överföra en bildresurs eller en vektorresurs{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ I e-postmeddelandet anger du det företagsnamn som du vill använda för att öv
 
 *Överföringstoken* säkerställer att ingen kan använda samma delade hemliga nyckel för att överföra resurser. Den ser till att överföringen är giltig och kommer från en betrodd källa.
 
-Överföringstoken är en alfanumerisk sträng som bara är tillgänglig under en viss tidsperiod. Använd följande URL:er, som ersätter din delade hemliga nyckel, för att hämta överföringstoken.
+Överföringstoken är en alfanumerisk sträng som bara är tillgänglig under en viss tidsperiod. Använd följande URL:er och ersätt din delade hemliga nyckel så att du kan hämta överföringstoken.
 
 * Bild
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`I det här exemplet är nyckeln med delad hemlighet  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ Som standard upphör överföringstoken att gälla fem minuter (300 sekunder) ef
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-Det lyckade svaret på bilder ser ut så här:
+Svaret som lyckades för bilder ser ut ungefär så här:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ Du kan använda följande fält i fråge-URL-strängen för att hämta en överf
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**Tillåtna HTTP-metoder:** GET och POST
+**Tillåtna HTTP-metoder:**
+`GET` och  `POST`
 
 Du kan nu överföra en bildresurs.
 
@@ -123,9 +124,10 @@ Med följande HTML-formulär kan en användare överföra en resurs. I formulär
 * En överföringstoken.
 * En gräns för filstorlek.
 * En lista med filnamnstillägg.
-* Om färgprofilen och filnamnet som är associerade med resursen ska bevaras eller inte.
-* Om du vill använda Blockera bakgrund eller inte. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod. Se Spara ur bakgrund i [Alternativ för bildredigering vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
-* Namnet på filen som ska överföras
+* Anger om färgprofilen och filnamnet som är associerade med resursen ska bevaras.
+* Om du vill använda Blockera bakgrund. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod.
+Se Spara ur bakgrund i [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+* Namnet på filen som ska överföras.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+Du kan visa HTML-källkoden som är kopplad till formuläret ovan genom att klicka på [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Du kan visa HTML-källkoden som är kopplad till formuläret ovan genom att klicka på följande länk:
+Högerklicka i webbläsarfönstret i Firefox och klicka sedan på **[!UICONTROL View Page Source]**. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-Högerklicka i webbläsarfönstret i Firefox och klicka sedan på **Visa sidkälla**. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **Skicka**.
-
-Om du vill visa XML-svaret i Internet Explorer klickar du på **Visa > Källa**. Om du vill visa XML-svar i Firefox klickar du på **Verktyg > Webbutvecklare > Sidkälla**. Firefox rekommenderas för visning av XML-svar.
+Om du vill visa XML-svaret i Internet Explorer klickar du på **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svaret i Firefox klickar du på **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Firefox rekommenderas för visning av XML-svar.
 
 Nedan följer ett exempelsvar från en slutförd överföring:
 
@@ -183,13 +181,13 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
 |--- |--- |--- |
-| op | Obligatoriskt | ladda upp |
-| upload_token | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
-| company_name | Obligatoriskt | Namnet på det företag som utför överföringen. |
-| file_limit | Valfritt | Filstorleksgräns, i byte, för resursen. |
-| file_exts | Valfritt | Lista över tillåtna tillägg för bildresursfilen. |
-| preserve_color_profile | Valfritt | Bevarar inbäddad färgprofil när den överförda filen konverteras till PTIFF-format. Möjliga värden är true eller false. Standardvärdet är false. |
-| preserve_filename | Valfritt | Bevarar filnamnet för den överförda resursen. Möjliga värden är true eller false. Standardvärdet är false. |
+| `op` | Obligatoriskt | ladda upp |
+| `upload_token` | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
+| `company_name` | Obligatoriskt | Namnet på det företag som utför överföringen. |
+| `file_limit` | Valfritt | Filstorleksgräns, i byte, för resursen. |
+| `file_exts` | Valfritt | Lista över tillåtna tillägg för bildresursfilen. |
+| `preserve_colorprofile` | Valfritt | Bevarar inbäddad färgprofil när den överförda filen konverteras till PTIFF-format. Möjliga värden är true eller false. Standardvärdet är false. |
+| `preserve_filename` | Valfritt | Bevarar filnamnet för den överförda resursen. Möjliga värden är true eller false. Standardvärdet är false. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ Du kan använda `image_info` för att hämta metadata för en resurs som du har 
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-Ett exempel på ett lyckat svar ser ut så här:
+Ett exempel på ett lyckat svar ser ut ungefär så här:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ Du kan använda följande fält i URL-frågesträngen för att begära informati
 
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
 |--- |--- |--- |
-| op | Obligatoriskt | image_info |
-| shared_secrets | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
-| image_name | Obligatoriskt | Bildens namn. |
+| `op` | Obligatoriskt | image_info |
+| `shared_secret` | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
+| `image_name` | Obligatoriskt | Bildens namn. |
 
 **Exempel-URL:**
 
@@ -286,9 +284,10 @@ Med följande HTML-formulär kan en användare överföra en resurs. I formulär
 * En överföringstoken.
 * En gräns för filstorlek.
 * En lista med filnamnstillägg.
-* Om färgprofilen och filnamnet som är associerade med resursen ska bevaras eller inte.
-* Om du vill använda Blockera bakgrund eller inte. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod. Se Spara ur bakgrund i [Alternativ för bildredigering vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
-* Namnet på filen som ska överföras
+* Anger om färgprofilen och filnamnet som är associerade med resursen ska bevaras.
+* Om du vill använda Blockera bakgrund. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod.
+Se Spara ur bakgrund i [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+* Namnet på filen som ska överföras.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-Följande HTML-kod visas när du högerklickar i webbläsarfönstret och sedan klickar på **Visa källa** för formuläret som visas i bilden. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **Skicka**.
+Följande HTML-kod visas när du högerklickar i webbläsarfönstret och sedan klickar på **[!UICONTROL View Source]** för formuläret som visas i exemplet. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-Om du vill visa XML-svaret i Internet Explorer klickar du på **Visa** > **Källa**. Om du vill visa XML-svar i Firefox klickar du på **Visa** > **Sidkälla**. Firefox rekommenderas för visning av XML-svar.
+Om du vill visa XML-svaret i Internet Explorer klickar du på **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svar i Firefox klickar du på **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Firefox rekommenderas för visning av XML-svar.
 
 Nedan följer ett exempelsvar från en slutförd överföring:
 
@@ -366,7 +363,7 @@ Nedan följer ett exempelsvar från en slutförd överföring:
 >
 >Den överförda resursen (AI, EPS, PDF osv.) konverteras till FXG-format och svaret skickar en direktlänk till den aktuella FXG-resursen.
 
-Resursen är som alla andra webb-till-tryck-resurser. du kan använda bearbetningsfrågor på den. Följande URL konverterar till exempel en FXG-resurs till en bild med storleken 500 × 500 png.
+Resursen är som alla andra webb-till-tryck-resurser. du använder bearbetningsfrågor på den. Följande URL konverterar till exempel en FXG-resurs till en bild med storleken 500 × 500 png.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
 |--- |--- |--- |
-| op | Obligatoriskt | ladda upp |
-| upload_token | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
-| company_name | Obligatoriskt | Namnet på det företag som utför överföringen. |
-| file_limit | Valfritt | Filstorleksgräns, i byte, för resursen. |
-| file_exts | Valfritt | Lista över tillåtna tillägg för resursfilen. |
+| `op` | Obligatoriskt | ladda upp |
+| `upload_token` | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
+| `company_name` | Obligatoriskt | Namnet på det företag som utför överföringen. |
+| `file_limit` | Valfritt | Filstorleksgräns, i byte, för resursen. |
+| `file_exts` | Valfritt | Lista över tillåtna tillägg för resursfilen. |
 
 >[!NOTE]
 >
