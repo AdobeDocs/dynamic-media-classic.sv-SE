@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,Visningsprogram
 role: Business Practitioner
+exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
-
 
 # Visa färgruteuppsättningar{#viewing-swatch-sets}
 
@@ -28,41 +28,40 @@ Dynamic Media Classic innehåller standardförinställningar för visningsprogra
 
 Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
-1. Klicka på **Inställningar** > **Visningsförinställningar**.
+1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global Navigation.
 1. Gör något av följande:
 
-   * Om du vill skapa en förinställning klickar du på **Lägg till**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer Ställ in visningsprogram för färgrutor och klickar sedan på **Lägg till**.
-   * Om du vill redigera en befintlig förinställning för Ställ in visningsprogram för färgrutor markerar du förinställningen och klickar sedan på **Redigera**.
+   * Om du vill skapa en förinställning klickar du på **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du **[!UICONTROL Swatch Set Viewer]** i listrutan Visare och klickar sedan på **[!UICONTROL Add]**.
+   * Om du vill redigera en befintlig förinställning för Ställ in visningsprogram för färgrutor markerar du förinställningen och klickar sedan på **[!UICONTROL Edit]**.
 
-1. Skriv ett namn i rutan Förinställningsnamn för visningsprogramförinställningen för färgrutor.
+1. På sidan Konfigurera visningsprogram skriver du ett namn för färgrutans visningsprogramförinställning i textfältet Förinställningsnamn.
 1. Välj alternativ på skärmen Konfigurera visningsprogram.
 
-   Om du vill visa en beskrivning av ett alternativ klickar du på ikonen för informationstips bredvid alternativet.
+   Om du vill visa en beskrivning av ett alternativ klickar du på ikonen **[!UICONTROL Info Tip]** till höger om alternativet.
 
-   Visningsprogrammet visas på förhandsgranskningsskärmen när du uppdaterar och ändrar inställningarna.
+   På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
-1. Klicka på **Spara**.
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Förhandsvisa färgruteuppsättningar i ett visningsprogram {#previewing-swatch-sets-in-a-viewer}
 
-Du kan använda Förhandsvisa för att se hur en resurs visas på en viss visningstyppplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogram som du har valt att förhandsgranska, är inte alla plattformar tillgängliga i förhandsvisningen.
+Du kan använda Förhandsvisa för att se hur en resurs visas för en viss visningsprogramtyp, till exempel HTML5. Beroende på resurstypen och tillhörande visningsprogram som du har valt att förhandsgranska, är inte alla visningsprogramplattformar tillgängliga i förhandsvisningen.
 
-1. Välj en färgruteuppsättningsbaserad resurstyp, till exempel Färgruteuppsättning, i listrutan Visa på panelen Resursbibliotek på vänster sida.
+1. Välj en färgruteuppsättningsbaserad resurstyp, till exempel **[!UICONTROL Swatch Set]**, i listrutan **[!UICONTROL Show]** på panelen Resursbibliotek på vänster sida.
 1. På panelen Resursbibliotek till vänster navigerar du i de resursmappar som innehåller den färgruteuppsättning som du vill förhandsgranska med ett visningsprogram.
 1. Gör något av följande:
 
-   * Ovanför fönstret Resurser klickar du på **Listvy** till höger om verktygsfältet. Håll markören över en resurs i fönstret Resurser och klicka sedan på **Förhandsgranska**.
-   * Ovanför fönstret Resurser klickar du på **Stödrastervy** till höger om verktygsfältet. Klicka på **Förhandsgranska** i fönstret Resurser i ett miniatyrbildsfönster.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, klickar du på **Detaljvy**. Klicka på **Förhandsgranska** i samma verktygsfält.
-   * Välj en resurs i fönstret Resurser. Klicka på **Arkiv** > **Förhandsgranska** i verktygsfältet.
+   * Klicka på ikonen **[!UICONTROL List View]** i det övre högra hörnet av Dynamic Media Classic-fönstret. Håll markören över en resurs i fönstret Resurs och klicka sedan på **[!UICONTROL Preview]** (inte listrutan Förhandsvisa).
+   * Klicka på ikonen **[!UICONTROL Grid View]** i det övre högra hörnet av Dynamic Media Classic-fönstret. I fönstret Resurser klickar du i ett miniatyrbildsfönster på **[!UICONTROL Preview]** (inte i listrutan Förhandsgranska).
+   * Klicka på ikonen **[!UICONTROL Detail View]** i det övre högra hörnet av Dynamic Media Classic-fönstret. Klicka på **[!UICONTROL Preview]** (inte i listrutan Förhandsgranska) i samma verktygsfält.
 
 1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
 1. Om du vill förhandsgranska resursen i det valda visningsprogrammet klickar du på en visningsprogramlänk.
 
    När du klickar på en viss visningsprogramlänk kopieras den associerade URL:en automatiskt till Urklipp.
 
-1. Om du vill gå tillbaka till förhandsgranskningsskärmen stänger du visningsprogrammet.
-1. Klicka på **Stäng** för att återgå till skärmen Resurser.
+1. Om du vill gå tillbaka till förhandsgranskningssökaren stänger du det visningsprogram som visas.
+1. Klicka på **[!UICONTROL Close]** för att återgå till sidan Resurser.
 
 >[!MORELIKETHIS]
 >
