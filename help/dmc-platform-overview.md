@@ -11,9 +11,9 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,7 @@ Dynamic Media Classic skiljer sig i grunden från andra system eftersom du kan a
 De URL-strängar du genererar med Dynamic Media Classic innehåller instruktioner som talar om för servern hur resursen ska visas när den levereras. Samma överordnad bild kan till exempel visas i olika storlekar, format, vikter, färger och zoomningsvyer. När du bygger och publicerar medieresurser med Dynamic Media Classic konfigureras effekterna visuellt. När du gör det skapar du URL-anrop som talar om för servern hur du ska presentera din överordnad resurs för program.
 
 ![Dynamic Media Classic kan leverera samma överordnad bild till olika medier i olika storlekar och format.](/help/assets/gs_dynamic_publishing.png)
+*Med Dynamic Media Classic kan du leverera enhetliga, högklassiga upplevelser till alla skärmar, oavsett storlek och bandbredd.*
 
 ## Cachelagring av innehåll {#content-caching}
 
