@@ -11,18 +11,20 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Navigeringsgrunder{#navigation-basics}
 
-Skärmen Dynamic Media Classic innehåller tre huvudområden: Global Navigation bar, Asset Library, and Browse Panel/Build Panel.
+Skärmen Dynamic Media Classic innehåller tre huvudområden: Global Navigation bar, Asset Library, Asset Filters tab, Browse Panel/Build Panel och Media Cart (endast Media Portal).
 
-![Navigeringsgrunder](/help/assets/gs_navigation_basics_popup_popup.png)
+![Navigation ](/help/assets/gs_navigation_basics_popup_popup.png)
+*basicsMain Dynamic Media Classic*
+*areasA) Global Navigation bar B) Asset Library panel C) Asset Filters tab D) Browse panel E) Media Cart (endast Media Portal)*
 
 ## Globalt navigeringsfält {#global-navigation-bar}
 
