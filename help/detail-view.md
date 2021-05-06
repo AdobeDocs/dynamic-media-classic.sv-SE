@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,Resurshantering
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 5%
+source-wordcount: '601'
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![Detaljvy](/help/assets/image_0.img.png)
+![DetaljvyDetaljvy ](/help/assets/image_0.img.png)
+*med resurspanelen dold från vänster sida.*
 
 >[!NOTE]
 >
@@ -44,8 +45,8 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
 1. Gör något av följande i panelen Bläddra:
 
+   * Markera resursen. Klicka på ikonen **[!UICONTROL Detail View]** i det övre högra hörnet av Dynamic Media Classic.
    * Dubbelklicka på resursen.
-   * Markera resursen och klicka sedan på **[!UICONTROL Detail View]**.
    * Markera resursen och klicka sedan på **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
