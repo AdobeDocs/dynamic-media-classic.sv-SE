@@ -7,10 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: 35c62fb1f4f136c06ccfbfd80f918462e839d931
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2374'
 ht-degree: 0%
 
 ---
@@ -21,7 +20,7 @@ Inställningarna på sidan Publiceringsinställningar avgör hur resurser levere
 
 Administratörer kan ändra standardinställningarna på sidorna Image Server, Image Renderer och Vinjettering för att skapa standardinställningar för att leverera resurser från servrar.
 
-Om du vill öppna sidorna Publiceringsinställningar klickar du på **Inställningar** > **Programinställningar** > **Publiceringsinställningar**.
+Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** för att öppna publiceringsinstallationssidorna.
 
 >[!NOTE]
 >
@@ -108,13 +107,13 @@ Vid lokalisering lägger en Image Server-URL till parametern `locale=` i sökvä
 
 `https://server/is/image/company/image?locale=de_DE`
 
-När http-anropet tas emot av Image Server tolkas parametern `locale=` via fältet localeMap som finns i ****[!UICONTROL Setup]**** > ****[!UICONTROL Application Setup]**** > ****[!UICONTROL Publish Setup]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Localization Support]**** gruppen.
+När http-anropet tas emot av Image Server tolkas parametern `locale=` via fältet localeMap som finns i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]** gruppen.
 
 Fältet Lokalkarta innehåller en lista med poster som separeras med lodsymbolen (|).
 
 Varje post består av en kommaavgränsad lista med värden. Det första värdet är det sökvärde som skickas av parametern `locale=`. De återstående värdena är suffix-/ersättningsvärden som sedan testas tills ett resultat har skapats i en befintlig bild.
 
-Om ett suffixvärde eller ett ersättningsvärde används beror på inställningen för Global Locale i ****[!UICONTROL Setup]**** > ****[!UICONTROL Application Setup]**** > ****[!UICONTROL Publish Setup]**** > ****[!UICONTROL Image Server]**** > ****[!UICONTROL Localization Support]**** gruppen.
+Om ett suffixvärde eller ett ersättningsvärde används beror på inställningen för Global Locale i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]** gruppen.
 
 >[!NOTE]
 >
