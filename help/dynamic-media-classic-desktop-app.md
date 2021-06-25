@@ -136,8 +136,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 1. Kopiera .APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
