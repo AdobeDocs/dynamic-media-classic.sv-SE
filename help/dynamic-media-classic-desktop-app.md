@@ -8,8 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: cba2c0ff2478b480d51b3c0f132003e14463a08a
 workflow-type: tm+mt
 source-wordcount: '1772'
 ht-degree: 0%
@@ -28,7 +27,7 @@ Den nya appen finns nu för Windows® och macOS.
 
 Se Frågor och svar för [Ny inloggningsupplevelse i Dynamic Media Classic är nu tillgänglig.](/help/new-ui-2020.md)
 
-## Systemkrav för Adobe Dynamic Media Classic-datorprogrammet {#system-requirements-dmc-app}
+## Systemkrav för datorprogrammet Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
 Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 
@@ -136,7 +135,10 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 1. Kopiera .APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
+   ```
+   rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
+   Unmount DMG - hdiutil detach <mount_point_path>
+   ```
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
@@ -152,7 +154,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen på Windows® {#install-silent-windows-dmc-app}
+## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows® {#install-silent-windows-dmc-app}
 
 Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallScript som skapats med InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
@@ -198,7 +200,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
 
-## Videogenomgång när du använder Dynamic Media Classic-datorprogrammet {#dmc-app-video-walk-through}
+## Videogenomgång om hur du använder Dynamic Media Classic Desktop App {#dmc-app-video-walk-through}
 
 Titta på en [videogenomgång om hur du använder Dynamic Media Classic Desktop App](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (längd: 2 minuter (36 sekunder).
 
