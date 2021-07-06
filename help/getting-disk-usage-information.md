@@ -7,15 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+role: Admin,User
+exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '88'
 ht-degree: 0%
 
 ---
-
 
 # Hämta information om diskanvändning {#getting-disk-usage-information}
 
@@ -55,4 +54,3 @@ Följande exempelkod hämtar diskinformation för 000Company:
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b9602
 ```
-
