@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,visningsprogram,snurra uppsättningar
-role: Business Practitioner
+role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 0%
@@ -26,7 +25,7 @@ Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt s�
 >
 >Tidigare versioner av Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den under ett annat namn. Klicka på Spara som på skärmen med den nya rotationsuppsättningen och ange ett nytt namn så att du kan redigera den i Dynamic Media Classic.
 
-## Riktlinjer för fotografering av snurruppsättningsbilder {#guidelines-for-shooting-spin-set-images}
+## Riktlinjer för fotografering av snurra uppsättningsbilder {#guidelines-for-shooting-spin-set-images}
 
 Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snurra. Om du inkluderar många bilder i uppsättningen ökar dock tiden det tar för bilderna att läsas in. Dynamic Media Classic rekommenderar följande riktlinjer för att ta bilder som ska användas i snurra uppsättningar:
 
@@ -67,7 +66,7 @@ När du har sparat en snurruppsättning kan du använda Förhandsvisning i Build
 1. I dialogrutan Spara väljer du en mapp för lagring av din snurruppsättning. I fältet Filnamn anger du namnet på rotationsuppsättningen.
 1. Klicka på **[!UICONTROL Save]**.
 
-## Redigera en snurruppsättning {#editing-a-spin-set}
+## Redigera en snurra uppsättning {#editing-a-spin-set}
 
 Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar **[!UICONTROL Publish after save]**-alternativet uppsättningen och anger medlemmar på följande sätt:
 
@@ -96,7 +95,7 @@ Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) oc
 1. Se till att **[!UICONTROL Publish after save]** är markerat (standard) när du är klar med redigeringen, nära sidans nedre högra hörn.
 1. Klicka på **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och klicka sedan på **[!UICONTROL Save]**.
 
-## Tar bort en snurruppsättning {#deleting-a-spin-set}
+## Ta bort en snurruppsättning {#deleting-a-spin-set}
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
