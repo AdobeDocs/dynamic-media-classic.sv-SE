@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
-role: Data Engineer,Administrator,Business Practitioner
+role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -34,7 +33,7 @@ I Dynamic Media Classic finns verktyg för redigering och för att skapa erbjuda
 >
 >Innan du skapar en erbjudandeuppsättning måste du publicera alla resurser som du vill använda för uppsättningen till Dynamic Media Classic. Se [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
-## Olika typer av uppsättningar {#types-of-offer-sets}
+## Olika typer av uppsättningar erbjudanden {#types-of-offer-sets}
 
 Skapa en erbjudandeuppsättning av följande typer av erbjudanden:
 
@@ -77,7 +76,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
 Innan du stänger sidan Test&amp;Target Offer Set (Ange erbjudanden) ska du överföra erbjudandet till Adobe Target Standard/Premium. Se [Paketera erbjudanden till Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
-## Skapa en erbjudandeuppsättning med bilder eller videoklipp {#creating-an-offer-set-with-images-or-videos}
+## Skapa en erbjudandeuppsättning med bilder eller videor {#creating-an-offer-set-with-images-or-videos}
 
 När du skapar en erbjudandeuppsättning påverkar **[!UICONTROL Publish after save]**-alternativet uppsättningen och anger medlemmar på följande sätt:
 
