@@ -8,10 +8,9 @@ content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
-role: Business Practitioner
+role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -54,7 +53,7 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 
 1. Klicka på **[!UICONTROL Publish]** på InfoPanel Setup-panelen.
 
-## Importera källinnehåll för Info-panelen i bilduppsättningar {#import-source-content-for-the-info-panel-in-image-sets}
+## Importera källinnehåll för Info-panelen i Bilduppsättningar {#import-source-content-for-the-info-panel-in-image-sets}
 
 Du kan använda en CSV-fil (kommaseparerat värde) med ASCII-kodning (icke-ASCII-tecken måste vara HTML-kodade) eller en tabbavgränsad fil för källtexten för en informationspanel för en bilduppsättning. Tabbavgränsade filer måste använda UTF-16-kodning (Unicode). Du importerar de olika filtyperna på olika sätt.
 
