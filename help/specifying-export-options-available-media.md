@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Samarbete,Resurshantering
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
@@ -44,5 +43,5 @@ Se även [Exportera resurser från Dynamic Media Classic](exporting-assets-from-
 >[!MORELIKETHIS]
 >
 >* [Bildförinställningar](application-setup.md#image_presets)
->* [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+* [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 
