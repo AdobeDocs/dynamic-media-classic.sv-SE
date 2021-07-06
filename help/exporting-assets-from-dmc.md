@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
