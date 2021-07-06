@@ -9,10 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Visningsprogram,Video
-role: Business Practitioner
+role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '3778'
 ht-degree: 1%
@@ -243,9 +242,9 @@ Anta till exempel att källvideon är 1 920 x 1 080. I följande tabell ger de t
 
 | Videotyp | Bredd x höjd | Breddförhållande | Höjdförhållande |
 |--- |--- |--- |--- |
-| Källa | 1920 x 1080 | 1 | 1 |
+| Källa | 1920 x 1080 | 3 | 3 |
 | Kodad | 960 x 540 | 2 | 2 |
-| Kodad | 640 x 360 | 3 | 3 |
+| Kodad | 640 x 360 | 3 | 1 |
 | Kodad | 480 x 270 | 4 | 4 |
 
 ### Kodat videofilformat {#encoded-video-file-format}
@@ -379,6 +378,6 @@ Administratörer kan ta bort anpassade videoförinställningar. Videoförinstäl
 >[!MORELIKETHIS]
 >
 >* [Snabbstart: Video](quick-start-video.md#quick-start-video)
->* [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading-and-encoding-videos)
->* [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+* [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading-and-encoding-videos)
+* [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 
