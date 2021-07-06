@@ -10,7 +10,7 @@ discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
 feature: Dynamic Media Classic,Resurshantering
 role: Admin,User
 exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
@@ -21,6 +21,6 @@ ht-degree: 0%
 
 Adobe Media Portal ger företag möjlighet att enkelt skaffa, kontrollera och distribuera godkända mediefiler till externa partner och kanaler, liksom till interna användare. Den webbläsarbaserade, självbetjäningsmiljön ger portalanvändare administratörskontrollerade&quot;vyer&quot; i Dynamic Media Classic-material så att de enkelt kan ladda upp, söka, förhandsgranska och exportera mediefiler i företagsgodkända format.
 
-Mer information om Media Portal och systemkrav finns i [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en).
+Mer information om Media Portal och systemkrav finns i [Använda Dynamic Media Classic Media Portal](https://www.adobe.com/go/learn_sc7_mediaportalusing_en) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
 
 Information om hur du administrerar Media Portal finns i [Snabbstart: Administrering av mediaportal](quick-start-media-portal-administration.md#quick_start_media_portal_administration).
