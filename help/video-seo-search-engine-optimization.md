@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
-role: Administrator
+role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-translation-type: tm+mt
-source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 0%
@@ -78,7 +77,7 @@ I listrutan **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generer
 
    * **Tillåt delvis generering**  - Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videoklipp. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
 
-### Väljer genereringsinställningar {#choosing-generation-settings}
+### Välja genereringsinställningar {#choosing-generation-settings}
 
 I området Genereringsinställningar visas indatafält för Video SiteMap, eller mRSS-feed, eller båda, samt namn på metadatafält på panelen Metadata. Använd området Allmänna inställningar för att mappa inmatningsfält till metadatafält. På så sätt anger du var Dynamic Media Classic ska hämta metadata för Video Sitemap och/eller mRSS-feed.
 
