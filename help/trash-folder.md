@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
@@ -48,7 +47,7 @@ Så här återställer du resurser från papperskorgen till de mappar som de tog
 1. Markera den eller de resurser som du vill återställa.
 1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Restore from trash]**.
 
-## Ta bort resurser permanent i papperskorgen {#permanently-deleting-assets-in-the-trash-folder}
+## Ta bort resurser i papperskorgen permanent {#permanently-deleting-assets-in-the-trash-folder}
 
 När du tar bort resurser i papperskorgen tas resurserna bort permanent. Resurser tas automatiskt bort från papperskorgen efter sju dagar.
 
