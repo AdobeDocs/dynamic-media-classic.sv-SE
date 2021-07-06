@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
-translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -36,7 +35,7 @@ Du kan hämta en mall-URL-sträng som genereras av en bildförinställning från
 1. Använd förinställningens menyer och välj den bildförinställning som du vill leverera mallbilden med. På sidan Förhandsgranska visas hur mallen ser ut när den levereras från servern.
 1. Klicka på **[!UICONTROL Copy URL]** för att kopiera URL:en till Urklipp.
 
-## Lägga till mall-URL:er på webbsidan {#adding-template-urls-to-your-web-page}
+## Lägga till URL-adresser för mallar på webbsidan {#adding-template-urls-to-your-web-page}
 
 Om du vill lägga till en mall på en webbsida ska du rådfråga webbsidans utvecklingsteam och ändra taggen `<IMG>` i HTML-webbsideskoden. Använd URL-strängen för Dynamic Media Classic för att göra en begäran till Dynamic Media Image Servers. Handelsmotorn eller den dynamiska webbsideskoden infogar mallbilden med den storlek och formateringsspecifikation som definieras av den bildförinställning som du väljer för mallen.
 
