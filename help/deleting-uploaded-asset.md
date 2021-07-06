@@ -7,15 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+role: User
+exl-id: d845bcb2-f914-4727-8df2-049dc172f266
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '97'
 ht-degree: 0%
 
 ---
-
 
 # Ta bort en överförd resurs{#deleting-an-uploaded-asset}
 
