@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Visningsprogram,eCatalog
-role: Business Practitioner
+role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 0%
@@ -95,7 +94,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 1. Markera en eller flera e-kataloger i Stödrastervisning, listvy eller detaljvy.
 1. I det globala navigeringsfältet klickar du på **Arkiv** > **Ta bort** > **Ta bort**.
 
-## Anpassa innehållsförteckningen (TOC) {#customizing-the-table-of-contents-toc}
+## Anpassa innehållsförteckningen {#customizing-the-table-of-contents-toc}
 
 Dynamic Media Classic innehåller standardsidnummer i din e-katalog på fliken Ordna sidor på skärmen eCatalog. För anpassade sidnamn kan du ändra de sidetiketter som utgör innehållsförteckningen. Vi rekommenderar att du byter namn på framsidan och baksidan. Försättsbladet kan t.ex. vara &quot;Omslag&quot; i stället för &quot;Sida 0-1&quot;.
 
@@ -109,7 +108,7 @@ Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt eller
 
 Om du vill ange sidnamn manuellt, en åt gången, går du till fliken Ordna sidor på skärmen för eCatalog. Klicka sedan i sidnummerfältet och ange ett namn. Ange ett namn för varje sida som du vill namnge.
 
-### Importerar sidnamn {#importing-page-names}
+### Importera sidnamn {#importing-page-names}
 
 Du bör importera sidnamn om du har att göra med en e-katalog med många sidor. Du kan importera namnen från en tabbavgränsad fil eller XML-fil.
 
