@@ -10,7 +10,7 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Media Classic,Resurshantering
 role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -23,11 +23,11 @@ Innan du överför bilder till Dynamic Media Classic bör du kontrollera att de 
 
 Mer information om hur du överför bilder finns i [Överföra filer](uploading-files.md#uploading_files).
 
-**Förbereda dina överordnad bilder för överföring:**
+**Förbered dina överordnad bilder för överföring:**
 
 Förbered dina överordnad bildfiler innan du överför dem till Dynamic Media Classic:
 
-* **Bildstorlek**  - Skapa de största bilderna du förväntar dig med. De vanliga bildstorlekarna varierar mellan 1 500 och 2 500 pixlar i den längsta storleken. Om du tänker använda zoomfunktionen rekommenderar Dynamic Media Classic att du använder bilder som är minst 2 000 pixlar i den längsta storleken för att få optimala zoomdetaljer. Dynamic Media Classic kan återge bilder på upp till 25 megapixlar vardera. Du kan till exempel använda en 5 000 × 5 000 megapixelbild eller någon annan storlekskombination på upp till 25 megapixlar.
+* **Bildstorlek**  - Skapa de största bilderna du förväntar dig med. De vanliga bildstorlekarna varierar mellan 1 500 och 2 500 pixlar i den längsta storleken. Om du tänker använda zoomfunktionen rekommenderar Dynamic Media Classic att du använder bilder som är minst 2 000 pixlar i den längsta storleken för att få optimala zoomdetaljer. Dynamic Media Classic kan återge bilder på upp till 25 megapixlar vardera. Du kan till exempel använda en 5 000 x 5 000 MP-bild eller någon annan storlekskombination på upp till 25 MP.
 
 * **Filformat**  - Dynamic Media Classic har stöd för alla standardformat för bildfiler, inklusive TIFF, BMP, JPEG, PSD, GIF och EPS. Vi rekommenderar förlustfria bildformat - TIFF och PNG. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten.
 
