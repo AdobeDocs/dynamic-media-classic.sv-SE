@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-translation-type: tm+mt
-source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1581'
 ht-degree: 1%
@@ -102,7 +101,7 @@ Se [Skapa ett anpassat tidsintervall för överföring eller publicering](checki
 
 **Pausa (och återuppta) ett återkommande** jobbAvmarkera kryssrutan i kolumnen Aktiv om du vill pausa ett jobb. markera en kryssruta för att återuppta ett pausat jobb.
 
-### Skapar ett anpassat tidsintervall för överföring eller publiceringsjobb {#creating-a-custom-upload-or-publish-job-time-interval}
+### Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb {#creating-a-custom-upload-or-publish-job-time-interval}
 
 Om du vill skapa ett anpassat tidsintervall för en överföring (via FTP) eller ett publiceringsjobb väljer du Upprepa > Anpassad på sidan Överför eller Publicera. Ange sedan siffror och jokertecken i rutan Regel för att ange ett tidsintervall för överförings- eller publiceringsjobben som ska återkomma.
 
