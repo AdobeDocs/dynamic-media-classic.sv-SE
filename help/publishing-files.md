@@ -6,10 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 0%
@@ -22,7 +21,7 @@ Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera re
 
 Dynamic Media Classic har nu stöd för leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar kommunikationen mellan webbläsare och servrar, vilket ger bättre respons och laddningstider för alla dina Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
-## Publicera efter överföring av {#publish-after-uploading}
+## Publicera efter överföring {#publish-after-uploading}
 
 Resurser i publicerat eller opublicerat läge. Som standard markeras alla resurser som du överför till Dynamic Media Classic automatiskt för publicering.
 
@@ -45,7 +44,7 @@ Vissa underordnade resurser markeras automatiskt för publicering när deras öv
 
 Härledda bilder markeras också automatiskt för publicering när deras överordnade bilder publiceras. Härledda bilder innehåller bilder som du har justerat med bildredigeringsalternativ. Du kan se de här härledda bilderna i detaljvyn under Byggnader och derivat.
 
-## Skapar ett publiceringsjobb {#creating-a-publish-job}
+## Skapa ett publiceringsjobb {#creating-a-publish-job}
 
 Skapa ett publiceringsjobb för att publicera resurser som du har överfört till Dynamic Media Classic-servrar, men välj att inte publicera dem automatiskt än. Du kan göra en engångspublicering eller schemalägga jobb som ska återkomma regelbundet. Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
 
@@ -69,13 +68,13 @@ Dynamic Media Classic spårar publiceringsjobb på jobbsidan. Du kan granska pub
 >
 >Resurser som du publicerar på nytt (du har publicerat dem tidigare) visas inte direkt på webbplatsen på grund av webb-cachningsmekanismen i leveransnätverket (CDN). Se [Återpublicerade resurser och CDN-fördröjningar](publishing-files.md#republished_assets_and_cdn_delays).
 
-### Skapar ett engångspubliceringsjobb {#creating-a-one-time-publish-job}
+### Skapa ett engångspubliceringsjobb {#creating-a-one-time-publish-job}
 
 Skapa ett engångspubliceringsjobb genom att välja alternativet Enstaka gång på sidan Publicera.
 
 Om du vill att publiceringsjobbet ska utföras senare väljer du **[!UICONTROL One-Time]** på sidan Publicera och klickar sedan på listrutan **[!UICONTROL Schedule For Later]**. Använd kalendern och tidsreglaget för att välja dag och tid för publiceringsjobbet.
 
-### Skapar ett återkommande publiceringsjobb {#creating-a-recurring-publish-job}
+### Skapa ett återkommande publiceringsjobb {#creating-a-recurring-publish-job}
 
 Skapa ett återkommande publiceringsjobb genom att välja **[!UICONTROL Recurring]** på sidan Publicera.
 
@@ -101,7 +100,7 @@ Du kan visa de avancerade alternativen på sidan Publicera och välja följande 
 
 Se [Använda ett överförings- eller publiceringsjobb som utlösare](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
-## Avbryter ett publiceringsjobb {#canceling-a-publish-job}
+## Avbryta ett publiceringsjobb {#canceling-a-publish-job}
 
 Du kan avbryta ett pågående publiceringsjobb. Om du är administratör kan du dessutom avbryta ett pågående publiceringsjobb från företagets jobbsida.
 
@@ -111,7 +110,7 @@ Om du vill avbryta ett publiceringsjobb går du till sidan Jobb och klickar på 
 >
 >När du har avslutat ett publiceringsjobb ändras dess status till&quot;stoppa&quot; tills jobbet når en punkt där det kan stanna säkert. Det kan ta en stund att avbryta ett publiceringsjobb om jobbet håller på att hämta data från databasen.
 
-## Publicera resurser {#manually-publishing-assets} manuellt
+## Publicera resurser manuellt {#manually-publishing-assets}
 
 Du kan publicera enskilda resurser manuellt i stället för att skapa ett publiceringsjobb. När du publicerar uppsättningar, till exempel en bilduppsättning eller en adaptiv videouppsättning, publiceras uppsättningen (eller &quot;överordnad&quot;) och alla medlemmar (eller &quot;underordnade&quot;) i uppsättningen.
 
@@ -127,7 +126,7 @@ Opublicerade resurser visas i användargränssnittet med en grå, rund ikon med 
 
    * I Stödrastervisning, listvy eller detaljvy klickar du på den grå, runda ikonen med ett snedstreck till vänster om resursens namn.
 
-## Manuellt avpublicera resurser {#manually-unpublishing-assets}
+## Avpublicera resurser manuellt {#manually-unpublishing-assets}
 
 Du kan avpublicera enskilda resurser manuellt. När du avpublicerar uppsättningar, till exempel en uppsättning med färgrutor eller en eCatalog, försätts själva uppsättningen (eller&quot;överordnad&quot;) i ett opublicerat läge. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
@@ -147,7 +146,7 @@ Publicerade resurser visas i användargränssnittet med en rund, grön ikon med 
 
 Det senaste datumet när en resurs publicerades visas i detaljvyn högst upp på panelen. Du kan få mer information om publiceringshistoriken genom att öppna panelen Historik och publicerade servrar i detaljvyn. Därifrån kan du se när resursen publicerades och till vilka servrar den publicerades.
 
-## Återpublicerade resurser och CDN-fördröjningar {#republished-assets-and-cdn-delays}
+## Återpublicerade resurser och CDN-förseningar {#republished-assets-and-cdn-delays}
 
 Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är ett system med datorservrar som är sammankopplade och som på ett transparent sätt samarbetar för att leverera innehåll, särskilt stort medieinnehåll, till slutanvändarna. I CDN-systemet lagras webbinnehåll i webbcacheminnen över Internet (kallas edge cache-nätverk). Webbinnehåll levereras från webbcachen till slutanvändarna för snabbare leveranser.
 
@@ -162,5 +161,5 @@ Om du vill tömma cachen klickar du på **[!UICONTROL File]** > **[!UICONTROL In
 >[!MORELIKETHIS]
 >
 >* [Kontrollerar jobbfiler](checking-job-files.md)
->* [Redigera, ta bort, pausa och återuppta återkommande jobb](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+* [Redigera, ta bort, pausa och återuppta återkommande jobb](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
 
