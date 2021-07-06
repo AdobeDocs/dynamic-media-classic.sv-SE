@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Visningsprogram,eCatalog
-role: Business Practitioner
+role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-translation-type: tm+mt
-source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 2%
@@ -64,7 +63,7 @@ Tänk på följande när du formaterar källinnehåll:
 * Se till att det första objektet eller datakolumnen är rollover-identifieraren (associerad med rollover_key-värdet från URL:erna för bildschemat).
 * Kontrollera att varje tabbavgränsat eller kommaavgränsat objekt efter identifieraren är det objekt som du vill ersätta i svarsmallen. Den första kolumnen ersätts alltså med $1$, den andra kolumnen med $2$ och så vidare.
 
-### Importera CSV-innehåll till e-kataloger från en extern värdplats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importera CSV-innehåll till e-kataloger från en externt värdbaserad plats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Dubbelklicka på e-katalogen för att öppna den i detaljvyn.
 1. Klicka på panelen Datafeed i InfoPanel.
