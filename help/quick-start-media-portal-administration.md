@@ -8,17 +8,16 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Samarbete,Resurshantering
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
 
 ---
 
-# Snabbstart: Medieportal{#quick-start-media-portal}
+# Snabbstart: Media Portal{#quick-start-media-portal}
 
 Med Media Portal kan man enkelt skaffa, kontrollera och distribuera godkända mediefiler till externa partners och kanaler samt interna användare i ett företag. Den webbläsarbaserade, självbetjäningsmiljön ger Media Portal-användare administratörskontrollerad&quot;vy&quot; i Dynamic Media Classic-material så att de enkelt kan komma åt, söka, förhandsgranska och exportera mediefiler i företagsgodkända format.
 
