@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Resurshantering,visningsprogram
-role: Business Practitioner
+role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
@@ -79,7 +78,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
 1. Klicka på **[!UICONTROL Close]** längst ned till höger i fönstret Visningsprogramlista för att gå tillbaka till skärmen Resurser.
 
-## Förhandsgranska en bildresurs baserat på bildförinställningen {#previewing-an-image-asset-based-on-its-image-preset}
+## Förhandsvisa en bildresurs baserat på dess bildförinställning {#previewing-an-image-asset-based-on-its-image-preset}
 
 Du kan förhandsgranska en bildresurs baserat på bildförinställningen för att ta reda på hur bilden ser ut när den levereras dynamiskt till webbplatsen eller programmet i olika storlekar.
 
