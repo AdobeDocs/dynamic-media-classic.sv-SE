@@ -6,15 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+role: Admin,User
+exl-id: 94cfb748-30f9-4a8b-9576-3b4775964d04
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
-source-wordcount: '56'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
-
 
 # Nyheter {#what-s-new}
 
