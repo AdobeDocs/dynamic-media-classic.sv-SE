@@ -5,11 +5,10 @@ contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
-feature: Dynamic Media Classic,Asset Management
-role: Business Practitioner
+feature: Dynamic Media Classic,Resurshantering
+role: User
 exl-id: 98b12031-f88b-47ea-a95b-31d71eaf22c2
-translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
