@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -52,7 +51,7 @@ Så här skapar du mappar:
    >
    >Du kan också skapa mappar i Dynamic Media Classic när du överför filer via FTP. Om du väljer alternativet Inkludera undermappar när du överför via FTP replikeras mappstrukturen på datorn i systemet. Filer och undermappar på datorn eller i nätverket replikeras i resursbiblioteket och de resurser du överför placeras i dessa mappar.
 
-## Tar bort och byter namn på mappar {#deleting-and-renaming-folders}
+## Ta bort och byta namn på mappar {#deleting-and-renaming-folders}
 
 Markera en mapp och använd dessa tekniker för att ta bort eller byta namn på den:
 
