@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Visningsprogram,Zooma
-role: Business Practitioner
+role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-translation-type: tm+mt
-source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 0%
@@ -44,7 +43,7 @@ Dynamic Media Classic rekommenderar följande parametrar för de utfällbara fö
 
 * **Zoomvisningsprogram: Anpassad**  - Tillhandahåller guidad eller oguidad zoomning med bilder, bilduppsättningar med flera vyer eller färgruteuppsättningar.
 
-## Skapa och redigera förinställningar för zoomvisningsprogrammet {#creating-and-editing-zoom-viewer-presets}
+## Skapa och redigera förinställningar för Zoomvisningsprogram {#creating-and-editing-zoom-viewer-presets}
 
 1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global Navigation.
 1. Gör något av följande:
