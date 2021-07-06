@@ -5,10 +5,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-translation-type: tm+mt
-source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1475'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 Innan du kan överföra en bildresurs måste du först begära en delad hemlig nyckel. Du använder den här delade hemliga nyckeln för att hämta en överföringstoken. Sedan använder du överföringstoken för att överföra bildresurser eller vektorresurser.
 
-## Begär en delad-hemlig nyckel {#requesting-a-shared-secret-key}
+## Begär en delad hemlig nyckel {#requesting-a-shared-secret-key}
 
 Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) Begär en delad hemlig nyckel i ditt supportfall.
 
@@ -89,7 +88,7 @@ Du kan nu överföra en bildresurs.
 
 Se [Överföra en bildresurs](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
-## Överför en bildresurs {#uploading-an-image-asset}
+## Överföra en bildresurs {#uploading-an-image-asset}
 
 När du har hämtat en överföringstoken som är giltig under en viss tid kan du överföra en bildresurs. Du överför resursen som en multipart-/formulärpost medan du skickar resten av värdena som en URL-frågesträng, vilket visas i det här exemplet:
 
@@ -249,7 +248,7 @@ Du kan använda följande fält i URL-frågesträngen för att begära informati
 
 GET och POST
 
-## Överför en vektorresurs {#uploading-a-vector-asset}
+## Överföra en vektorresurs {#uploading-a-vector-asset}
 
 När du har hämtat en överföringstoken som är giltig under en viss tid kan du överföra en vektorresurs. Du överför resursen som en multipart-/formulärpost medan du skickar resten av värdena som en URL-frågesträng, vilket visas i det här exemplet:
 
