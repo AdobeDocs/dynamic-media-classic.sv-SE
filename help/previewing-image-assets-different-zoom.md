@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 feature: Dynamic Media Classic,Visningsprogram,Zooma
-role: Business Practitioner
+role: User
 exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -43,5 +42,5 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 >[!MORELIKETHIS]
 >
 >* [Konfigurera förinställningar för Zoom Viewer](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
->* [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers)
+* [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers)
 
