@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '3681'
 ht-degree: 0%
@@ -21,11 +20,11 @@ ht-degree: 0%
 
 Innan du överför resursfiler till Dynamic Media Classic måste du se till att resursfilerna har rätt namn och att mappstrukturen är konfigurerad och ordnad som du vill ha den. Du kan överföra filer från en FTP-plats som tillhandahålls av Dynamic Media Classic eller direkt från datorn eller nätverket. I Dynamic Media Classic finns alternativ för att optimera filer när du överför dem. Om du har installerat Adobe Dynamic Media Classic kan du överföra filer och mappar genom att dra dem direkt från skrivbordet. Se [Allmänna inställningar för program](application-setup.md#general_settings).
 
-## Förbereder dina resurser och mappar för överföring av {#preparing-your-assets-and-folders-for-uploading}
+## Förbereda dina resurser och mappar för överföring {#preparing-your-assets-and-folders-for-uploading}
 
 Innan du överför resurser till Dynamic Media Classic bör du kontrollera att de har rätt format och storlek. Du måste också följa Dynamic Media Classic-reglerna för att namnge resurser. Genom att konfigurera en mappstruktur för filerna ser du till att du enkelt kan hitta och arbeta med filerna.
 
-### Resursfilformat som stöds {#supported-asset-file-formats}
+### Filformat som stöds {#supported-asset-file-formats}
 
 I den här tabellen visas de filformat som stöds i Dynamic Media Classic. Information om vilka Camera Raw filer som stöds finns i [https://www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
@@ -92,7 +91,7 @@ För att få bästa möjliga resultat med Dynamic Media Classic bör du använda
 >
 >När du överför bildfiler och PDF-filer till Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF-filer är de filer som senare publiceras till Dynamic Media Image Servers. I Dynamic Media Classic används filformatet Pyramid Tiff eftersom det innehåller olika zoomningsförhållanden som möjliggör snabb zoomning när det visas med en Dynamic Media Classic Zoom Viewer.
 
-### Statiska filformat {#supported-static-file-formats} som stöds
+### Statiska filformat som stöds {#supported-static-file-formats}
 
 Dynamic Media Classic stöder flera statiska filformat. Statiskt innehåll är alla resurser som publiceras i befintligt skick, t.ex. CSS, PDF, SVG och XML.
 
@@ -133,7 +132,7 @@ Vanligtvis kan ett filnamn för en resurs vara samma som dess artikelnummer, pro
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
-### Mappordning och struktur {#folder-organization-and-structure}
+### Mappstruktur {#folder-organization-and-structure}
 
 Ordna och strukturera mappar och undermappar för ditt innehåll i Dynamic Media Classic innan du överför innehållet till systemet. Planering framåt på det här sättet har två stora fördelar:
 
@@ -276,7 +275,7 @@ Se [Gruppuppsättningsförinställningar](application-setup.md#batch_set_presets
 
 * **AVANCERAD**  - Se  [Följ upp en överföring med ett annat jobb](uploading-files.md#follow-an-upload-with-another-job).
 
-## Följ upp en överföring med ett annat jobb {#follow-an-upload-with-another-job}
+## Följ en överföring med ett annat jobb {#follow-an-upload-with-another-job}
 
 När du överför objekt med FTP kan du schemalägga ett efterföljande jobb så att det börjar när överföringen är klar. Om andra jobb är schemalagda att starta, köas det jobb som du schemalägger här efter dem.
 
@@ -306,6 +305,6 @@ Det nya jobbet skickar ett meddelande till den adress du anger så att koden på
 >[!MORELIKETHIS]
 >
 >* [Arbeta med resursmappar](asset-folders.md#working_with_asset_folders)
->* [Hantera återkommande överförings- och publiceringsjobb](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
->* [Använda ett överförings- eller publiceringsjobb som utlösare](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
+* [Hantera återkommande överförings- och publiceringsjobb](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
+* [Använda ett överförings- eller publiceringsjobb som utlösare](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
 
