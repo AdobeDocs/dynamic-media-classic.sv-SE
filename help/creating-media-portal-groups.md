@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Samarbete,Resurshantering
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 1%
@@ -48,7 +47,7 @@ Om du inte ger en gruppbehörighet till en resurs eller mapp ärver resursen ell
 
 1. Klicka på **[!UICONTROL Close]**.
 
-## Upprättar åtkomstbehörigheter för en grupp {#establishing-asset-access-permissions-for-a-group}
+## Skapa åtkomstbehörigheter för en grupp {#establishing-asset-access-permissions-for-a-group}
 
 1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Gör något av följande på sidan med grupplistan:
