@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Visningsprogram,Zooma
-role: Business Practitioner
+role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -24,7 +23,7 @@ Zoommål vägleder tittarna till vissa delar av en bild. Förutom att zooma frit
 
 ![Skapa zoommål för guidad zoomning](/help/assets/zo_guided_zoom.png)
 
-## Om zoommål {#about-zoom-targets}
+## Om zoomningsmål {#about-zoom-targets}
 
 Den maximala zoomprocenten för zoommål är 100 procent. Den minsta zoomprocenten varierar beroende på en kombination av visningsprogrammets storlek och bildstorleken, vilket visas i följande tabell:
 
@@ -85,7 +84,7 @@ Om du vill redigera zoommål använder du följande tekniker på sidan Zoommålr
 
 * **Byt namn** - Klicka på målets miniatyrbild till höger på skärmen. Ange sedan ett namn i textfältet **[!UICONTROL Name]** och klicka på **[!UICONTROL Save]**.
 
-### Kopierar zoommål {#copying-zoom-targets}
+### Kopiera zoommål {#copying-zoom-targets}
 
 Du kan kopiera zoommål från en bild till en annan. Kopiera mål när två bilder har liknande innehåll och deras zoommål hör till samma platser. Så här kopierar du zoommål till en annan bild:
 
