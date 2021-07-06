@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -30,12 +29,12 @@ När du publicerar mallen placeras den på Dynamic Media Image Servers, där den
 
 Mallar och deras supportfiler måste markeras för publicering för att de ska kunna placeras på Dynamic Media Image Servers. Du kan markera de här objekten för publicering i panelen Bläddra genom att klicka på ikonen **[!UICONTROL Mark for Publish]**.
 
-## Publicera mallen {#publishing-your-template}
+## Publicera din mall {#publishing-your-template}
 
 Om du vill publicera mallar på Dynamic Media Image-servrar klickar du på **[!UICONTROL Publish]** i fältet Global navigering och väljer sedan ett **[!UICONTROL When]**-alternativ. Du kan också ange ett namn för publiceringsjobbet. Klicka på **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >
 >* [Markera resurser för publicering](publishing-files.md#publish_after_uploading)
->* [Skapa ett publiceringsjobb](publishing-files.md#creating_a_publish_job)
+* [Skapa ett publiceringsjobb](publishing-files.md#creating_a_publish_job)
 
