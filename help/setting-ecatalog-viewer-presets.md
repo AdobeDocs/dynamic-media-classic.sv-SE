@@ -7,17 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,visningsprogram,visningsförinställningar,eCatalog
-role: Business Practitioner
+role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-translation-type: tm+mt
-source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
 
 ---
 
-# Konfigurera eCatalog Viewer-förinställningar{#setting-up-ecatalog-viewer-presets}
+# Konfigurera förinställningar för eCatalog Viewer{#setting-up-ecatalog-viewer-presets}
 
 eCatalog Viewer Presets avgör format, beteende och utseende för eCatalog-visningsprogram. I Dynamic Media Classic finns förinställningar för eCatalog Viewer, och du kan även skapa egna eCatalog Viewer-förinställningar om du är administratör.
 
