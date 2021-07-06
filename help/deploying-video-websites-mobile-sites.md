@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Visningsprogram,Video
-role: Business Practitioner
+role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 1%
@@ -26,7 +25,7 @@ Webbplatser, mobilsajter och datorprogram har tillgång till serverinnehåll i D
 >
 >URL:en eller inbäddningskoden är inte aktiv förrän du publicerar resursen.
 
-## Publicerar video {#publishing-video}
+## Publicera video {#publishing-video}
 
 Genom att publicera en video kan Dynamic Media Classic-servrar leverera video till webbplatser, mobilsajter och applikationer.
 
@@ -164,13 +163,13 @@ Om du använder en videospelare från tredje part eller en anpassad videospelare
    Anta till exempel att namnet på den progressiva videoservern är `https://s7d9.scene7.com/is/content/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
    `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
-## Arbeta med videominiatyrbilder {#working-with-video-thumbnails}
+## Arbeta med videominiatyrer {#working-with-video-thumbnails}
 
 Dynamic Media Classic genererar miniatyrbilder för kodade videoklipp och förkodade videoklipp. Du kan använda videominiatyrer som vilken bildresurs som helst. Dessutom kan du hämta URL:er för de videominiatyrbilder som skapas i Dynamic Media Classic och distribuera dessa URL:er utanför Dynamic Media Classic. Du kan till exempel distribuera miniatyrbilderna i sökresultat, relaterade videolistor och videouppspelningslistor på en webbplats.
 
 Miniatyrbilder genereras baserat på den första heterogena bildrutan (inte en helt svart bildruta, eller en helt vit bildruta o.s.v.) i videon.
 
-### Hämta URL:er för videominiatyrbilder {#obtaining-video-thumbnail-urls}
+### Hämta URL-adresser för videominiatyrbilder {#obtaining-video-thumbnail-urls}
 
 Dynamic Media Classic genererar videominiatyrer automatiskt under överföringsprocessen. Miniatyrbilderna visas i panelen Bläddra i listvyn och stödrastervyn.
 
@@ -188,7 +187,7 @@ Du kan använda bildmodifieringar i affischbildrutan. Du kan till exempel beskä
 
 Se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Se [Image Serving Guide](https://experienceleague.corp.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
+Se [Image Serving Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
 
 Du kan också ändra videominiatyrbilder genom att lägga till modifierare till URL:er för videominiatyrbilder.
 
