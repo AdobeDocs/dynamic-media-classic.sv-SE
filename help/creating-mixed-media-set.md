@@ -7,12 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
-role: Business Practitioner
+role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -41,7 +40,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
    >[!NOTE]
    >
-   >Blandade medieuppsättningar stöder inte resurser med filnamn som innehåller något av följande tecken: `( ) { }`.
+   >En uppsättning med blandade media stöder inte resurser med filnamn som innehåller något av följande tecken: `( ) { }`.
 
 1. Gör något av följande:
 
@@ -80,7 +79,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
 
-## Tar bort en blandad medieuppsättning {#deleting-a-mixed-media-set}
+## Ta bort en blandad medieuppsättning {#deleting-a-mixed-media-set}
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
