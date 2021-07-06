@@ -5,10 +5,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1119'
 ht-degree: 0%
@@ -104,7 +103,7 @@ Om du vill veta mer om fördelarna med att uppgradera till nästa generation av 
 >[!MORELIKETHIS]
 >
 >* [Logga in på och ut från datorprogrammet Dynamic Media Classic](/help/signing-out.md)
->* [Hämta och installera Dynamic Media Classic-datorprogrammet](/help/dynamic-media-classic-desktop-app.md)
+* [Hämta och installera Dynamic Media Classic-datorprogrammet](/help/dynamic-media-classic-desktop-app.md)
 
 
 
