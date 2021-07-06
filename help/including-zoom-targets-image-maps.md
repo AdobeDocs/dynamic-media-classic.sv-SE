@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
-feature: Dynamic Media Classic,Viewers,Image Sets
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
+role: User
+exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
-
 
 # Inkludera zoommål och bildscheman i bilduppsättningar{#including-zoom-targets-and-image-maps-in-image-sets}
 
@@ -27,5 +26,5 @@ Om du vill göra zoommål och bildscheman tillgängliga för användarna skapar 
 >[!MORELIKETHIS]
 >
 >* [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom)
->* [Skapa bildscheman](creating-image-maps.md#creating_image_maps)
+* [Skapa bildscheman](creating-image-maps.md#creating_image_maps)
 
