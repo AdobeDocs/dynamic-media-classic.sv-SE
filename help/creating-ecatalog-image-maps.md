@@ -8,17 +8,16 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visningsprogram,eCatalog
-role: Business Practitioner
+role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-translation-type: tm+mt
-source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
 
 ---
 
-# Skapa eCatalog-bildscheman{#creating-ecatalog-image-maps}
+# Skapa bildkartor för eCatalog{#creating-ecatalog-image-maps}
 
 En bildschema är ett område på en eCatalog-sida som du kan rulla över med musen eller klicka för att aktivera åtgärder av olika slag. När du till exempel flyttar pekaren över ett bildschema visas en beskrivning av ett objekts överrullningstext. När du klickar på en bildschema startas en annan åtgärd. Du kan till exempel öppna en webbsida så att tittarna kan lära sig mer om ett objekt eller köpa det, eller så kan du starta en video för att se ett objekt som används.
 
@@ -72,7 +71,7 @@ Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildsche
 1. (Valfritt) I listpanelen för bildscheman, under kolumnrubriken **[!UICONTROL Tool Tip]**, anger du den text som du vill att tittarna ska se på skärmen när de flyttar pekaren över bildschemat.
 1. Klicka på **[!UICONTROL Save]**.
 
-## Redigera eCatalog-bildscheman {#editing-ecatalog-image-maps}
+## Redigera bildkartor för eCatalog {#editing-ecatalog-image-maps}
 
 Använd följande tekniker för att redigera eCatalog-bildscheman från och med på fliken Kartsidor i eCatalog-skärmen:
 
@@ -106,7 +105,7 @@ Skärmen Kartsammanfattning innehåller metadata om din eCatalog. Du kan också 
 
 Om du vill visa fönstret Kartsammanfattning klickar du på Sammanfattning på fliken Kartsidor på skärmen i eCatalog.
 
-### Granska datamappning för bildschema {#review-image-map-data-summary}
+### Granska sammanfattning av bildschemadata {#review-image-map-data-summary}
 
 1. På skärmen Karta sidor klickar du på **[!UICONTROL Summary]**.
 
