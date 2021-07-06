@@ -10,9 +10,9 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Resurshantering
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -25,44 +25,44 @@ Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära et
 
 >[!NOTE]
 >
->När du har beskurit kan du klicka på knappen Spara som och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Klicka på **[!UICONTROL Save As Addition View Of Master]** om du vill spara originalet och den beskurna versionen med ett annat namn. Klicka på **[!UICONTROL Replace Original]** för att ta bort den ursprungliga fil som du beskurit bilden från. Ange sedan ett namn för bilden och klicka på **[!UICONTROL Submit]**.
+>När du har beskurit kan du välja **[!UICONTROL Save As]** och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Välj **[!UICONTROL Save As Addition View Of Master]** så att du kan spara originalet och den beskurna versionen med ett annat namn. Välj **[!UICONTROL Replace Original]** om du vill ta bort originalfilen som du beskurit bilden från. Ange sedan ett namn för bilden och välj **[!UICONTROL Submit]**.
 
 ## Beskära för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
 
 Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant.
 
-1. Om du vill beskära en bild klickar du på dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]**, eller visar den i panelen Bläddra i detaljvyn och klickar på knappen **[!UICONTROL Crop]**.
+1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]**, eller visar den i panelen Bläddra i detaljvyn och väljer knappen **[!UICONTROL Crop]**.
 1. Gör något av följande på sidan Beskärningsredigerare:
 
-   * Om du vill trimma färgpixlar klickar du på **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Dialogrutan Beskär automatiskt efter färg visas. Klicka på menyn **[!UICONTROL Corner]** och välj ett hörn med bakgrundsfärgen som ska beskäras. Ange sedan en **[!UICONTROL Tolerance]**-inställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Klicka på knappen **[!UICONTROL Crop]**.
-   * Om du vill trimma genomskinliga pixlar väljer du **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Dialogrutan Beskär automatiskt efter genomskinlighet visas. Ange en toleransinställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de är genomskinliga. Siffror närmare 1 ger större genomskinlighet. Klicka på **[!UICONTROL Crop]**.
+   * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Dialogrutan Beskär automatiskt efter färg visas. Välj menyn **[!UICONTROL Corner]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]**-inställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
+   * Om du vill trimma genomskinliga pixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Dialogrutan Beskär automatiskt efter genomskinlighet visas. Ange en toleransinställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de är genomskinliga. Siffror närmare 1 ger större genomskinlighet. Välj **[!UICONTROL Crop]**.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden i beskärningsredigeraren och klickar på **[!UICONTROL Reset]**.
+>Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden i beskärningsredigeraren och väljer **[!UICONTROL Reset]**.
 
 ## Markera ett område att beskära {#select-an-area-to-crop}
 
-1. Om du vill beskära en bild klickar du på dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]**, eller visar den i panelen Bläddra i vyn Detalj och klickar på **[!UICONTROL Crop]**.
+1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]** eller visar den i panelen Bläddra i vyn Detalj och väljer **[!UICONTROL Crop]**.
 
-1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Det som visas i rutan är det som återstår när du klickar på **[!UICONTROL Save]** och beskär bilden.
+1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Vad som än visas i rutan är vad som återstår efter att du har valt **[!UICONTROL Save]** och beskär bilden.
 1. Justera beskärningsområdet genom att göra något av följande:
 
    * Dra en sida eller ett hörn av rutan. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen) för beskärningsrutan.
    * Ange pixelmått i rutorna Storlek.
    * Dra för att flytta beskärningsrutan. Flytta pekaren innanför rutans kant. När du ser den fyrhövdade pilen drar du rutan till en ny plats i bilden.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden i beskärningsredigeraren och klickar på **[!UICONTROL Reset]**.
+>Om du vill återställa en bild till det ursprungliga läget efter att du har beskurit den, visar du bilden i beskärningsredigeraren och väljer **[!UICONTROL Reset]**.
 
 >[!MORELIKETHIS]
 >
->* [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload)
+>* [Alternativ för bildredigering vid överföring](image-editing-options-upload.md#image-editing-options-at-upload)
 * [Beskära tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [Beskära från sidorna på PDF-sidor](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+* [Beskära från sidorna på PDF-sidorna](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
