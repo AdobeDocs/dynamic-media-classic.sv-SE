@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 0%
@@ -34,7 +33,7 @@ Om du vill kan du skapa en staging-miljö i stället för att göra resurserna a
 >
 >Säker testning påverkar inte åtkomsten till Dynamic Media Classic. Dynamic Media Classic-säkerhet är konsekvent och kräver de vanliga inloggningsuppgifterna för åtkomst till Dynamic Media Classic och relaterade webbtjänster.
 
-## Så här fungerar Säker testning {#how-secure-testing-works}
+## Så här fungerar säkra tester {#how-secure-testing-works}
 
 De flesta företag använder internet bakom en brandvägg. Tillgång till Internet är möjlig via vissa vägar och vanligtvis via ett begränsat antal offentliga IP-adresser.
 
