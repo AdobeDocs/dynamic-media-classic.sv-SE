@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-translation-type: tm+mt
-source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '3322'
 ht-degree: 0%
@@ -26,7 +25,7 @@ Om du vill skapa en mall klickar du på **[!UICONTROL Build]** > **[!UICONTROL T
 >
 >Om du redigerar en mall som har skapats i en tidigare version av Dynamic Media Classic blir du tillfrågad när du sparar&quot;Vill du lägga till ett arbetsytelager?&quot; Klicka på **[!UICONTROL No]** om du inte vill lägga till ett baslager. Om du av misstag klickar på **[!UICONTROL Yes]** tar du bort modifieringarna `&allowCanvasPrompt` och `&layer=0` i URL:en och trycker på **[!UICONTROL Enter]** eller **[!UICONTROL Return]**.
 
-## Skapar den inledande mallen {#creating-the-initial-template}
+## Skapa den ursprungliga mallen {#creating-the-initial-template}
 
 När du skapar en malluppsättning påverkar **[!UICONTROL Publish after save]**-alternativet uppsättningen och anger medlemmar på följande sätt:
 
@@ -75,7 +74,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 1. Se till att **[!UICONTROL Publish after save]** är markerat (standard) när du är klar med redigeringen, nära sidans nedre högra hörn.
 1. Klicka på **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och klicka sedan på **[!UICONTROL Save]**.
 
-## Tar bort en mall {#deleting-a-template}
+## Ta bort en mall {#deleting-a-template}
 
 När du tar bort en malluppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
@@ -114,7 +113,7 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
 * **Området**  Lageregenskaper - innehåller verktyg för att ändra bakgrundsfärg, opacitet, storlek och position för ett lager samt bakgrundsfärg, opacitet och storlek för arbetsytan. Du kan också justera skugg- och glödeffekter. Se [Arbeta med lager](#working-with-layers).
 
-## Skapar bildlager {#creating-image-layers}
+## Skapa bildlager {#creating-image-layers}
 
 1. Dra bilden från resursbiblioteket till arbetsytan.
 
@@ -259,7 +258,7 @@ Förutom att ändra storlek på ett lager kan du lägga ut det. Om du vill göra
 
 * **Ändra position**  manuellt - Flytta pekaren nära, men inte över, en lagergräns, och när du ser den fyrhövdade pilmarkören klickar du och börjar dra.
 
-* **Ange förskjutningsmått**  för position - Ange förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för ankarpunkten i pixlar.
+* **Ange förskjutningsmått**  för position - Ange förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för fästpunkten i pixlar.
 
 * **Rotera ett lager** - I rutan Rotera visas vinkeln som lagret roterades till. Om du vill rotera ett lager markerar du lagrets namn i listan Lager och använder någon av följande tekniker:
 
