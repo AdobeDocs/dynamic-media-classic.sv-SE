@@ -7,13 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
-role: Business Practitioner
+feature: Dynamic Media Classic,visningsprogram,Mix-medieuppsättning
+role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '581'
 ht-degree: 1%
 
 ---
@@ -41,9 +40,9 @@ När du har publicerat en uppsättning med blandade media kan du hämta dess URL
 
       Klicka på **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägg till URL:er för blandad medieuppsättning på webbsidan {#add-mixed-media-set-urls-to-your-web-page}
+## Lägg till URL:er för blandad mediauppsättning på webbsidan {#add-mixed-media-set-urls-to-your-web-page}
 
-Det vanligaste sättet att distribuera blandade medieuppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (ASP eller JSP) som visar den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen.
+Det vanligaste sättet att distribuera en uppsättning med blandade media är att placera en länk (med hjälp av en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (ASP eller JSP) som visar den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen.
 
 ## Kopiera inbäddningskoden för ett visningsprogram för blandad medieuppsättning {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
