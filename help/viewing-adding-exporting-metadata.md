@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Resurshantering,Metadata
-role: Business Practitioner
+role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-translation-type: tm+mt
-source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
@@ -42,7 +41,7 @@ Administratörer kan skapa metadatavyer. De här vyerna visas även på menyn Me
 
 Mer information om hur du skapar metadatavyer finns i [Metadatavyer](application-setup.md#metadata_views).
 
-## Ange metadata för en resurs {#manually-enter-metadata-for-an-asset} manuellt
+## Ange metadata för en resurs manuellt {#manually-enter-metadata-for-an-asset}
 
 1. Öppna resursen i detaljvyn.
 1. Öppna panelen Metadata och gör något eller båda av följande:
@@ -56,7 +55,7 @@ Mer information om hur du skapar metadatavyer finns i [Metadatavyer](application
 >
 >Om du vill redigera metadata för flera resurser samtidigt markerar du resurserna och klickar på **[!UICONTROL File]** > **[!UICONTROL Edit Info]**. De ändringar du gör i metadata i fönstret Redigera information gäller för alla markerade resurser.
 
-## Lägg till eller redigera nyckelord {#add-or-edit-keywords}
+## Lägga till eller redigera nyckelord {#add-or-edit-keywords}
 
 Förutom metadata kan du använda nyckelord för att söka efter och hantera dina resurser.
 
@@ -149,7 +148,7 @@ Exempel:
 
 Jobbloggen för metadatajobbet visar vilka ID:n som har namnändrats och vilka som inte har namnändrats.
 
-## Skapa en mall för att ange metadata som ska överföras{#create-a-template-for-entering-metadata-to-upload}
+## Skapa en mall för att ange metadata som ska överföras {#create-a-template-for-entering-metadata-to-upload}
 
 I Dynamic Media Classic finns ett kommando för att skapa en mall för att spela in metadata. Genom att använda mallen ser du till att metadata anges i rätt format så att de kan överföras korrekt till Dynamic Media Classic. Så här skapar du en mall för att spela in och importera metadata till Dynamic Media Classic:
 
@@ -217,5 +216,5 @@ När egenskapen har strukturen Open Choice eller Closed Choice måste du ange mi
 >[!MORELIKETHIS]
 >
 >* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)
->* [Metadataförinställningar](application-setup.md#metadata_presets)
+* [Metadataförinställningar](application-setup.md#metadata_presets)
 
