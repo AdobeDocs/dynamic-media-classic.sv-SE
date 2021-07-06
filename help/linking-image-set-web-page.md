@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
-role: Business Practitioner
+role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
-translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 1%
@@ -26,7 +25,7 @@ När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess in
 >
 >URL:en är inte aktiv förrän du publicerar resursen.
 
-## Kopiera en bilduppsättnings-URL {#copying-an-image-set-url}
+## Kopiera en URL för bilduppsättning {#copying-an-image-set-url}
 
 1. Klicka på **[!UICONTROL Image Set]** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den bilduppsättning vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
@@ -45,7 +44,7 @@ När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess in
 
       Klicka på **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägga till URL:er för bilduppsättning på din webbsida {#adding-image-set-urls-to-your-web-page}
+## Lägga till URL:er för bilduppsättning på webbsidan {#adding-image-set-urls-to-your-web-page}
 
 Det vanligaste sättet att distribuera bilduppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (JSP) som visar bilduppsättningen i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
