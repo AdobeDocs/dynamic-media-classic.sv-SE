@@ -7,16 +7,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: c341f5ea-aa7b-4749-975d-68a45c6fa77c
-feature: Dynamic Media Classic,Viewers,Image Sets
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
+role: User
+exl-id: 63bc3b37-7d5f-4707-a743-ec4192c88f0b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '159'
 ht-degree: 0%
 
 ---
-
 
 # Förbereder bilduppsättningsresurser för överföring{#preparing-image-set-assets-for-upload}
 
@@ -31,5 +30,5 @@ Detaljerade instruktioner om hur du överför resurser finns i [Överföra filer
 >[!MORELIKETHIS]
 >
 >* [Överför filer](uploading-files.md#uploading_your_files)
->* [Arbeta med vinjett, fönsteromslag och kabinettfiler](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+* [Arbeta med vinjett, fönsteromslag och kabinettfiler](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 
