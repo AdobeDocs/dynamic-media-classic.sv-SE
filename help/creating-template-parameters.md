@@ -8,17 +8,16 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-# Skapar mallparametrar{#creating-template-parameters}
+# Skapa mallparametrar{#creating-template-parameters}
 
 Med parametrar kan du använda mallar med maximal flexibilitet; kan du anpassa en mallbild dynamiskt. Du kan bestämma vilka text- och bildlager som ska ingå i mallen och vilka parametrar som ska visas i varje lager. Om du till exempel vill rikta uppmärksamheten mot en produkt som är i rea kan du skapa ett textlager vid försäljning. Du kan senare ta bort det här lagret men behålla resten av mallbilden genom att ta bort parametern Vid försäljning.
 
@@ -28,7 +27,7 @@ I textlagerparametrar kan du också göra textsträngen till ett dynamiskt fält
 
 Du kan referera till en parameter mer än en gång. Använd kombinationsrutan för varje kommando i parameterdialogrutan för att välja en parameter som matchar det aktuella kommandot. (Alla storleksparametrar är till exempel tillgängliga för kommandot `size=`.) Du kan tilldela om parameterreferensen till en parameter som redan finns i kombinationsrutan och ändra namnet till något som inte finns i kombinationsrutan. I det senare fallet måste namnet vara unikt. I annat fall visas ett fel om att parametern finns. När du tar bort en parameterreferens tas parametern bort från URL:en om den inte refereras någon annanstans. När du ändrar standardvärdet för en textparameter uppdateras alla referenser till den parametern. Uppdateringen visas i lagertabellen, i mallåtergivningen och i URL:en. När du ändrar ett lagerattribut genom att ändra storlekshandtag eller ange värden i egenskapspanelen uppdateras parametervärdet och alla referenser till parametern uppdateras. Om du till exempel har parametriserat storleken på två lager med en parameter, uppdateras båda lagerstorlekarna när någon av lagerstorlekarna ändras. När du förhandsgranskar en mall och ändrar en parameter uppdateras alla referenser till den parametern.
 
-## Parametrar ett lager {#parameterizing-a-layer}
+## Parametrisera ett lager {#parameterizing-a-layer}
 
 Följ de här stegen för att skapa mallparametrar för varje lager i mallen:
 
