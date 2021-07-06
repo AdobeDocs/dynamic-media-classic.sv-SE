@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
-role: Administrator
+role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 0%
@@ -69,7 +68,7 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
    När du lägger till nya Media Portal-användare kan du också gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, klicka på **[!UICONTROL Upload User List]** och välja en CSV-fil som inte innehåller fler än 500 användare.
 
-### Tar bort en användare {#deleting-a-user}
+### Ta bort en användare {#deleting-a-user}
 
 Du kan ta bort användare från Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
 
@@ -179,7 +178,7 @@ Rapporten Bildinnehåll innehåller information om begäranden för följande bi
 >
 >Videoströmningsrapporten gäller endast direktuppspelade videor. Visningen av progressiva videor spåras inte.
 
-### Genererar en rapport {#generating-a-report}
+### Generera en rapport {#generating-a-report}
 
 Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän, videoströmning eller videoinnehåll:
 
