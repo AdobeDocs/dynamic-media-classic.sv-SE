@@ -8,10 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -28,7 +27,7 @@ Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära et
 >
 >När du har beskurit kan du klicka på knappen Spara som och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Klicka på **[!UICONTROL Save As Addition View Of Master]** om du vill spara originalet och den beskurna versionen med ett annat namn. Klicka på **[!UICONTROL Replace Original]** för att ta bort den ursprungliga fil som du beskurit bilden från. Ange sedan ett namn för bilden och klicka på **[!UICONTROL Submit]**.
 
-## Beskär för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
+## Beskära för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
 
 Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant.
 
@@ -64,6 +63,6 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 >[!MORELIKETHIS]
 >
 >* [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Beskära tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Beskära från sidorna på PDF-sidor](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+* [Beskära tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
+* [Beskära från sidorna på PDF-sidor](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
