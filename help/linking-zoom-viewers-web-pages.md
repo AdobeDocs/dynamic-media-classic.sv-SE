@@ -6,10 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 feature: Dynamic Media Classic,Visningsprogram,Zooma
-role: Business Practitioner
+role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
-translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -24,7 +23,7 @@ Dina webbplatser och program har åtkomst till Dynamic Media Image Server-inneh�
 >
 >URL:en är inte aktiv förrän du publicerar resursen.
 
-## Kopiera en URL för zoomvisningsprogrammet {#copying-a-zoom-viewer-url}
+## Kopiera en URL för Zoom-visningsprogram {#copying-a-zoom-viewer-url}
 
 1. navigera till resursmappen som innehåller det zoomvisningsprogram vars URL du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
@@ -42,7 +41,7 @@ Dina webbplatser och program har åtkomst till Dynamic Media Image Server-inneh�
 
       Klicka på **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-## Lägga till URL:er för zoomvisningsprogrammet på din webbsida {#adding-zoom-viewer-urls-to-your-web-page}
+## Lägga till URL-adresser för Zoom-visningsprogram på webbsidan {#adding-zoom-viewer-urls-to-your-web-page}
 
 Vanligtvis zoomar besökarna bilder på en webbplats genom att först välja en zoomningsikon (ofta visas bilden av ett förstoringsglas). Om du väljer den här ikonen öppnas en dynamisk webbsida (ASP eller JSP) som visar bilden i ett popup-fönster. I popup-fönstret kan besökarna zooma in bilden.
 
