@@ -6,10 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
-role: Administrator
+role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-translation-type: tm+mt
-source-git-commit: 223bbacab2f244b91763de2ea324a5c8d777feb9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '10595'
 ht-degree: 3%
@@ -259,7 +258,7 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
    * Klicka på **[!UICONTROL Delete]** för att ta bort förinställningen från listan.
    * Avmarkera kryssrutan **[!UICONTROL Active]** bredvid ett förinställningsnamn om du vill ta bort den från hela Dynamic Media Classic-användargränssnittet för MediaPortal-användare.
 
-## Aktivera eller inaktivera adaptiva videoförinställningar {#activating-or-deactivating-adaptive-video-presets}
+## Aktivera eller inaktivera anpassade videoförinställningar {#activating-or-deactivating-adaptive-video-presets}
 
 Dynamic Media Classic har förinställningar för adaptiv videokodning. Det är en överordnad lista med förinställningar som kombinerar både 16:9-förinställningar för adaptiv video och 4:3-förinställningar för adaptiv video till en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
 
@@ -337,9 +336,9 @@ En förinställning för kodning som fungerar med alla proportioner så att du k
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto x 360, 800 kbit/s | _Mobile_Autox360p_800K | 800 | Autox360 | Samma som källan | 64 | För mobiler (iPhone, iPad, Android™) |
 | 2 | Auto x 480, 1 400 kbit/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Samma som källan | 96 | För surfplattor (iPad, Android™) |
-| 3 | Auto x 720, 2 600 kbit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Samma som källan | 128 | För datorer |
+| 1 | Auto x 720, 2 600 kbit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Samma som källan | 128 | För datorer |
 
-### Adaptiv videokodning (16:9 eller 4:3) videoförinställningar {#adaptive-video-encoding-or-video-presets}
+### Videoförinställningar för Adaptiv videokodning (16:9 eller 4:3) {#adaptive-video-encoding-or-video-presets}
 
 Dessa adaptiva videokodningsförinställningar kombinerar en serie individuella kodningsförinställningar som väljs automatiskt utifrån proportionerna för den video du överförde. Om du till exempel överför en 4:3-video kodas den automatiskt med alla fem 4:3-förinställningar som finns i listan med överordnad förinställningar i alternativet **Adaptiv videokodning (16:9 eller 4:3)**.
 
@@ -349,7 +348,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativ fö
 
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512x288, Mobil (iPhone, iPad, Android™), (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
+| 3 | 16:9, 512x288, Mobil (iPhone, iPad, Android™), (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | 4:3, 384x288px, Mobil (iPhone, iPad, Android™), (400 kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 1 | 16:9, 512x288, Mobil (iPhone, iPad, Android™), (600 kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
 | 4 | 4:3, 384x288, Mobil (iPhone, iPad, Android™), (600 kbit/s) | 700 | _Mobile_384x288_600 | 800 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
@@ -360,7 +359,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativ fö
 | 9 | 16:9, 1280x720, stationär dator, (2000 kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
 | 10 | 4:3, 1 280 x 960, stationär dator (2 000 kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 kbit/s | 1280x960 | Samma som källan | 128 | HD |
 
-### Förinställningar för videokodning på skrivbordet {#desktop-video-encoding-presets}
+### Videokodningsförinställningar för datorer {#desktop-video-encoding-presets}
 
 Videokodningsförinställningar för MP4 och OGV på stationära datorer.
 
@@ -372,7 +371,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 kbit/s) | 500 | _480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
 | 2 | 16:9, 640x360 (800 kbit/s) | 900 | _640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelstor widescreen-upplösning |
-| 1 | 16:9, 800x450 (1 200 kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
+| 3 | 16:9, 800x450 (1 200 kbit/s) | 1,5 Mbit/s | _800x450_1200K | 1200 | 800x450 | Samma som källan | 96 | Medelhög upplösning |
 | 4 | 16:9, 1 280 x 720 (2 000 kbit/s) | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
 | 5 | 4:3, 320x240 (400 kbit/s) | 500 | _320x240_400K | 400 | 320x240 | Samma som källan | 64 | Låg upplösning |
 | 6 | 4:3, 480x360 (800 kbit/s) | 900 | _480x360_800K | 800 | 480x360 | Samma som källan | 80 | Medelhög upplösning |
@@ -404,7 +403,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512x288, mobil (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | 16:9, 512x288, mobil (600 kbit/s) | 700 | _Mobile_512x288_600K | 800 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 1 | 16:9, 512x288, mobil (800 kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
+| 3 | 16:9, 512x288, mobil (800 kbit/s) | 900 | _Mobile_512x288_800K | 800 | 512x288 | Samma som källan | 80 | Medelhög upplösning, Wi-Fi |
 | 4 | 16:9, 512x288, mobil (1 000 kbit/s) | 1,2 Mbit/s | _Mobile_512x288_1000K | 1000 | 512x288 | Samma som källan | 80 | Hög upplösning, Wi-Fi |
 | 5 | 16:9, 512x288, mobil (1 200 kbit/s) | 1,5 Mbit/s | _Mobile_512x288_1200K | 1200 | 512x288 | Samma som källan | 96 | Hög upplösning, Wi-Fi |
 | 6 | 4:3, 384x288, mobil (400 kbit/s) | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
@@ -612,7 +611,7 @@ Se [Exportera en HTML5 Viewer-förinställning](application-setup.md#exporting_a
    * Klicka på **[!UICONTROL Save As]** om du har lagt till en visningsförinställning genom att starta från en befintlig förinställning.
    * Klicka på **[!UICONTROL Save]** om du har lagt till eller redigerat en visningsförinställning.
 
-### Exportera en HTML5 Viewer-förinställning {#exporting-an-html-viewer-preset}
+### Exportera en HTML5-visningsförinställning {#exporting-an-html-viewer-preset}
 
 Du kan exportera en befintlig HTML5 Viewer-förinställning som du kan använda som grund för att skapa en HTML5 Viewer-förinställning. Det här exportalternativet är användbart eftersom du inte behöver skapa visningsprogrammet från grunden. I stället exporterar du en förinställning som ser ut och beter sig ungefär som du vill ha den, och sedan kan du använda den som utgångspunkt för att göra designjusteringar.
 
@@ -713,7 +712,7 @@ Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 1. Klicka på **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 1. Klicka på **[!UICONTROL Close]**.
 
-## Konfigurerar standardvisningsprogram {#configuring-default-viewers}
+## Konfigurera standardvisningsprogram {#configuring-default-viewers}
 
 Du kan använda standardvisningsprogram för att konfigurera standardvisningsprogrammet som är kopplat till en resurs när du använder Förhandsvisa i Dynamic Media Classic. Du kan ställa in standardförhandsvisningen för följande resurstyper:
 
@@ -928,7 +927,7 @@ Se även [Skapa en gruppuppsättningsförinställning för den automatiska gener
 
 1. Klicka på **[!UICONTROL Save]** på detaljpanelen.
 
-### Skapa en gruppuppsättningsförinställning för den automatiska genereringen av en 2D-snurruppsättning {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
+### Skapa en gruppuppsättningsförinställning för automatisk generering av en 2D-snurpuppsättning {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
 Du kan använda gruppuppsättningstypen **Spin Set** för flera axlar för att skapa ett recept som automatiserar genereringen av tvådimensionella snurruppsättningar. Vid gruppering av bilder används reguljära uttryck för rad och kolumn så att bildresurserna justeras korrekt på motsvarande plats i den flerdimensionella arrayen.
 
@@ -1006,7 +1005,7 @@ När rotationsuppsättningen har överförts och publicerats aktiverar du namnet
 >[!MORELIKETHIS]
 >
 >* [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset)
->* [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets)
->* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
->* [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files)
+* [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets)
+* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+* [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files)
 
