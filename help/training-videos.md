@@ -2,17 +2,16 @@
 title: Dynamic Media Classic - utbildningsvideor
 description: 'Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk bildbehandling, video, mediaportal, mallar samt redigering och rendering av bilder.'
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+role: Admin,User
+exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
-source-wordcount: '6550'
+source-wordcount: '6547'
 ht-degree: 0%
 
 ---
 
-
-# Adobe Dynamic Media Classic Training Videos {#training-videos}
+# Adobe Dynamic Media Classic - utbildningsvideor {#training-videos}
 
 Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk bildbehandling, video, mediaportal, mallar samt redigering och rendering av bilder.
 
@@ -72,7 +71,7 @@ Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk bildb
 
 * [Översikt över direktuppspelning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
-## Medieportal {#media-portal-training}
+## Media Portal {#media-portal-training}
 
 * [Översikt över Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
@@ -112,7 +111,7 @@ Utbildningsvideor om olika aspekter av följande:
 * [Maskering](#masking)
 * [Återgivning](#rendering)
 
-### Färglägger {#colorizing}
+### Färga {#colorizing}
 
 Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
@@ -256,7 +255,7 @@ Utbildningsvideor om olika aspekter av följande:
 
 * [Vinklade plan](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/618_08_angled_planes_ia_06room3d-AVS)
 
-### Bildredigering {#apparel-authoring}
+### Skolredigering {#apparel-authoring}
 
 Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
@@ -286,7 +285,7 @@ Utbildningsvideor om olika aspekter av följande:
 
 * [Introduktion till maskering](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/630_IA008-Intro-Masking_ia_08masking-AVS)
 
-### Återger {#rendering}
+### Återgivning {#rendering}
 
 Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
@@ -301,7 +300,3 @@ Utbildningsvideor om olika aspekter av följande:
 * [Återger URL-modifierare](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/640_904_rendering_url_modifiers_ia_09rendering-AVS)
 
 * [Introduktion till rendering](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/642_IA009-Intro-Rendering_ia_09rendering-AVS)\
-
-
-
-
