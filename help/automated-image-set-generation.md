@@ -7,18 +7,17 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
-feature: Dynamic Media Classic,Viewers,Image Sets
-role: Business Practitioner
+feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
+role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 2%
 
 ---
 
-# Automatiserad generering av bilduppsättning{#automated-image-set-generation}
+# Generering av automatisk bilduppsättning{#automated-image-set-generation}
 
 <!-- 
 
