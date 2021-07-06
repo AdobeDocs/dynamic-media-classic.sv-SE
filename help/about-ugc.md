@@ -7,15 +7,14 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
-translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+role: Admin,User
+exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
-
 
 # Om användargenererat innehåll{#about-user-generated-content}
 
@@ -34,4 +33,3 @@ När du har hämtat en delad hemlig nyckel och överfört token kan du utföra f
 * Hämta metadata för bildresurser.
 * Ta bort en överförd resurs.
 * Hämta information om hur mycket diskutrymme ett företag använder.
-
