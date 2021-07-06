@@ -8,17 +8,16 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,visningsprogram,snurra uppsättningar
-role: Business Practitioner
+role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
 
 ---
 
-# Förhandsgranska en snurruppsättning{#previewing-a-spin-set}
+# Förhandsgranska en snurra uppsättning{#previewing-a-spin-set}
 
 Du kan använda visningsprogramlistan om du vill förhandsgranska hur en resurs visas på en viss visningstypsplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogram som du har valt att förhandsgranska är inte alla plattformar tillgängliga i visningsprogramlistan.
 
