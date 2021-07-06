@@ -7,11 +7,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,visningsprogram,Mixa medieuppsättningar
-role: Business Practitioner
+feature: Dynamic Media Classic,visningsprogram,Mix-medieuppsättning
+role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 0%
