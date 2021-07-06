@@ -7,11 +7,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,Collaboration,Asset Management
-role: Administrator,Business Practitioner
+feature: Dynamic Media Classic,Samarbete,Resurshantering
+role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -26,7 +25,7 @@ Som administratör kan du lägga till och hantera användare, bestämma om de sk
 >
 >Innan du lägger till användare måste du konfigurera grupper för att administrera dem. Med Media Portal kan du inte lägga till en användare utan att tilldela användaren till en eller flera grupper. Mer information finns i [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-## Hantera lösenord för medieportalen {#handling-media-portal-passwords}
+## Hantera lösenord för Media Portal {#handling-media-portal-passwords}
 
 Användare, medarbetare och medverkande på Media Portal får ett välkomstmeddelande med ett lösenord när du registrerar dem. Administratörer kan bestämma om Media Portal-användare ska kunna ändra det här lösenordet.
 
@@ -60,13 +59,13 @@ Användare, medarbetare och medverkande på Media Portal får ett välkomstmedde
 
 När du har lagt till en användare skickas ett välkomstmeddelande till användaren via Media Portal. Meddelandet innehåller ett tillfälligt lösenord och mediaportal-URL:en.
 
-## Överför en användarlista för Media Portal {#uploading-a-media-portal-user-list}
+## Överföra en användarlista för Media Portal {#uploading-a-media-portal-user-list}
 
 Om du har flera användare att lägga till kan du överföra en användarlista. Användarna läggs automatiskt till i det valda kontot.
 
 Skapa användarlistan som en CSV-fil (kommaavgränsade värden) med användarinformationen. När listan har överförts läggs användarna i listan automatiskt till i kontot med sina angivna grupptilldelningar. Ett välkomstmeddelande skickas till varje ny användare, inklusive en länk till Media Portal och ett tillfälligt lösenord.
 
-### Skapar CSV-filen {#creating-the-csv-file}
+### Skapa CSV-filen {#creating-the-csv-file}
 
 Skapa en CSV-fil (filename.csv) som överensstämmer med följande format och fält. Den första raden i filen måste innehålla de kolumnrubriker som anges i denna tabell. Du kan ordna kolumnerna efter behov. Alla kolumner är obligatoriska.
 
@@ -99,7 +98,7 @@ Varje användare i listan läggs automatiskt till i de angivna grupperna. Ett v�
 >
 >Om CSV-filen inte har rätt format visas följande felmeddelande: &quot;Ett fel uppstod när den överförda CSV-filen bearbetades. Kontrollera om det finns giltiga data i filinnehållet.&quot; Om CSV-filen innehåller en befintlig IP- eller IPS-användare läggs användaren inte till i användarlistan.
 
-## Genererar en valbar lista över Media Portal-användare {#generating-a-selectable-list-of-media-portal-users}
+## Generera en valbar lista med Media Portal-användare {#generating-a-selectable-list-of-media-portal-users}
 
 Du kan visa namn och e-postadresser för Media Portal-användare i ett popup-fönster. Den här listan är användbar om du vill klippa ut och klistra in användarnamn och adresser för användning utanför Media Portal.
 
@@ -121,7 +120,7 @@ Du kan skicka ett välkomstmeddelande när du lägger till nya användare, medar
 
    * **[!UICONTROL Replacement URL]** - Ange en annan URL än standardadressen om användarna öppnar Dynamic Media Classic via en annan URL.
 
-## Andra användarhanteringsaktiviteter {#other-user-management-tasks}
+## Andra användarhanteringsåtgärder {#other-user-management-tasks}
 
 Med början på skärmen Inställningar för användaradministration kan du även göra följande:
 
