@@ -8,17 +8,16 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Resurshantering
-role: Business Practitioner
+role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-translation-type: tm+mt
-source-git-commit: 6f3801a71dd2a5f162acacf7d8199dbf8c3520f7
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 0%
 
 ---
 
-# Söker resurser{#searching-assets}
+# Söka efter resurser{#searching-assets}
 
 Om du vill söka efter filresurser i Dynamic Media Classic kan du visa resurser efter typ, sortera resurser i panelen Bläddra, utföra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
 
@@ -58,7 +57,7 @@ Använd sökfältet i resursbiblioteket för att utföra enkla sökningar. Du ka
 >
 >Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
-## Avancerad sökning {#conducting-an-advanced-search}
+## Använda avancerad sökning {#conducting-an-advanced-search}
 
 I resursbiblioteket, direkt under sökfältet, klickar du på **[!UICONTROL Advanced Search]** för att söka efter många villkor, inklusive värden i metadatafält.
 
@@ -86,7 +85,7 @@ Klicka på **[!UICONTROL Search]** längst ned till höger på panelen Avancerad
 
 Klicka på **[!UICONTROL Clear]** för att rensa sökvillkoren och starta en ny sökning. Klicka på **[!UICONTROL Close]** när du är klar med sökningen för att stänga sökpanelen.
 
-## Filtrera resurser med hjälp av metadata {#filter-assets-using-metadata}
+## Filtrera resurser med metadata {#filter-assets-using-metadata}
 
 Filtrera resurser på fliken Filter i resursbiblioteket. Om du vill filtrera resurser använder du metadatavärden som villkor. När du har valt ett metadatafält som du vill filtrera på visas alla metadatavärden som har angetts i det valda fältet på fliken Filter. Här visas även antalet resurser som tilldelats varje värde. I en filteråtgärd i metadatafältet för Skapare visas till exempel alla namn som har angetts i metadatafältet för Skapare för olika resurser på fliken Filter. Den visar också för varje namn antalet resurser som har tilldelats namnet. Klicka sedan på ett metadatavärde för att visa alla resurser som har tilldelats det värdet. I exemplet klickar du på metadatavärdet för Paririe Cat för att visa alla resurser där namnet Prairie Cat angavs i metadatafältet för Skapare. Du kan filtrera med hjälp av mer än ett metadatafält som filtreringskriterium.
 
@@ -172,5 +171,5 @@ Klicka på **[!UICONTROL Publish Now]** för att starta jobbet. En bekräftelse 
 >[!MORELIKETHIS]
 >
 >* [Navigeringsgrunder](navigation-basics.md#navigation_basics)
->* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 
