@@ -1,15 +1,15 @@
 ---
 title: Adobe Dynamic Media Classic-datorprogrammet
-description: Dynamic Media Classic-användare kan nu uppdatera användargränssnittet helt. Upplevelsen ger en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen är inte längre beroende av Adobe Flash i webbläsaren.
+description: Dynamic Media Classic-användare kan nu uppdatera användargränssnittet helt. Upplevelsen levererar en uppdaterad inloggning med länkar till värdefulla resurser, och den här uppdateringen är inte längre beroende av Adobe Flash i webbläsaren.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Du kan också [prenumerera på Dynamic Media nyhetsbrev](https://www.adobe.com/s
 
 ### **_Jag är intresserad av att lära mig mer om att uppgradera till Dynamic Media med AEM Assets. Var finns mer information?_**
 
-Om du vill veta mer om fördelarna med att uppgradera till nästa generation av multimedia-redigering, publicering och dynamisk leverans kan du gå till [Dynamic Media uppgraderingsportal](http://exploreadobe.com/dynamic-media-upgrade/).
+Om du vill veta mer om fördelarna med att uppgradera till nästa generation av multimedia-redigering, publicering och dynamisk leverans kan du gå till [Dynamic Media uppgraderingsportal](https://exploreadobe.com/dynamic-media-upgrade/).
 
 >[!MORELIKETHIS]
 >
