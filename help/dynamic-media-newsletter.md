@@ -5,7 +5,7 @@ title: Dynamic Media nyhetsbrevarkiv
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ca42d0167f72adc1b22f1e6e65b7026b6f6897a3
+source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 Nyhetsbrevet från Dynamic Media från Experience League har utformats för att hjälpa dig att komma igång med Dynamic Media och Dynamic Media Classic så att du snabbt kan börja inse värdet.
 
 I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga upp din kunskap, som instruktionsvideor och lösningsöversikter. Det finns även introduktioner till viktiga funktioner som bildförinställningar, visningsförinställningar och videoprofiler.
+
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
 <!-- ## Get inspired. Stay informed.
 
