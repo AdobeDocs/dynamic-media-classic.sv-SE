@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Resurshantering
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 3%
@@ -47,7 +47,7 @@ Använd `&wid=<value>&hei=<value>&resMode=sharp2` eller `&hei=<value>&resMode=sh
 
 Bildskärpa är den mest komplicerade aspekten när det gäller att styra bilder på webbplatsen och var många misstag görs. Läs mer om hur skärpa och oskarp maskning fungerar i Dynamic Media Classic:
 
-Best practices white paper [Sharpening images in Adobe Dynamic Media Classic and on Image Server](/help/assets/s7_sharpening_images.pdf).
+Best practices white paper [Öka skärpan i bilder i Adobe Dynamic Media Classic och på Image Server](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -69,7 +69,7 @@ Det finns två metoder för bildskärpa:
 
          Den här parametern avgör hur annorlunda de pixlar som ska göras skarpare måste vara jämfört med det omgivande området innan de betraktas som kantpixlar och filtret gör dem skarpare. Tröskelvärdet hjälper dig att undvika att göra områden med liknande färger, som hudtoner, för skarpare. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka för att undvika att lägga till ”brus”, men lägger ändå till kantkontrast i områden med hög kontrast, till exempel där ögonfransarna möter huden.
 
-         Mer information om hur du ställer in de här tre parametrarna, inklusive de bästa sätten att använda med filtret, finns i [Skärpa bilder i Adobe Scene7 Publishing System och på Image Server](/help/assets/s7_sharpening_images.pdf).
+         Mer information om hur du anger de här tre parametrarna, inklusive de bästa metoderna att använda med filtret, finns i [Öka skärpan i bilder i Adobe Dynamic Media Classic och på Image Server](/help/assets/s7_sharpening_images.pdf).
 
       * I Dynamic Media Classic kan du även styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskering används separat för varje färgkomponent med värdet `0` eller bildens intensitet/intensitet med värdet `1`.
 
