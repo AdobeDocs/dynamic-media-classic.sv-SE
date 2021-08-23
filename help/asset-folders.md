@@ -1,6 +1,6 @@
 ---
 title: Arbeta med resursmappar
-description: Lär dig hur du arbetar med resursmappar.
+description: Lär dig hur du arbetar med resursmappar i Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Resurshantering
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,19 @@ Se till att du har en mappstruktur och organisation för lagring av filer i Dyna
 
 I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resursbiblioteket visas dess innehåll på panelen Bläddra. Använd de här teknikerna för att söka efter mappar i mappträdet:
 
-* **Visa undermappar** - Välj ikonen Expandera mapp om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
+* **Visa undermappar** - Markera  **[!UICONTROL Expand Folder]** ikonen om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
 
-* **Flytta en mapp** - Du kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att välja Arkiv > Flytta mapp.
+* **Flytta en mapp** - Du kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att välja  **[!UICONTROL File]** >  **[!UICONTROL Move Folder]**.
 
-* **Döljer mappar** - Markera ikonen Dölj mapp om du vill komprimera undermappar. Den här ikonen finns till vänster om mappnamn.
+* **Dölj mappar** - Markera  **[!UICONTROL Collapse Folder]** ikonen om du vill dölja undermappar så att de inte visas. Den här ikonen finns till vänster om mappnamn.
 
-* **Öppna en mapp** - Välj en mapp för att visa dess innehåll på panelen Bläddra.
+* **Öppna en mapp** - Välj en mapp om du vill visa dess innehåll i panelen Bläddra.
 
 >[!TIP]
 >
->Du kan dölja eller visa resursbiblioteket genom att klicka på kontrollen **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** till vänster. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.
+>Du kan dölja eller visa resursbiblioteket genom att välja kontrollen **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** på vänster sida. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.
 
-## Skapar mappar {#creating-folders}
-
-Så här skapar du mappar:
+## Skapa mappar {#creating-folders}
 
 1. I resursbiblioteket markerar du den mapp du vill skapa en mapp i.
 1. Välj knappen **[!UICONTROL Add Folder]**. Den här ikonen visas högst upp i mapplistan.
@@ -49,13 +47,13 @@ Så här skapar du mappar:
 
    >[!NOTE]
    >
-   >Du kan också skapa mappar i Dynamic Media Classic när du överför filer via FTP. Om du väljer alternativet Inkludera undermappar när du överför via FTP replikeras mappstrukturen på datorn i systemet. Filer och undermappar på datorn eller i nätverket replikeras i resursbiblioteket och de resurser du överför placeras i dessa mappar.
+   >Du kan också skapa mappar i Dynamic Media Classic när du överför filer via FTP. Om du väljer alternativet **[!UICONTROL Include Subfolders]** när du överför via FTP replikeras mappstrukturen på datorn i systemet. Filer och undermappar på datorn eller i nätverket replikeras i resursbiblioteket och de resurser du överför placeras i dessa mappar.
 
 ## Ta bort och byta namn på mappar {#deleting-and-renaming-folders}
 
 Markera en mapp och använd dessa tekniker för att ta bort eller byta namn på den:
 
-* **Ta bort** - Klicka på knappen Ta bort mapp . Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
+* **Ta bort** - Markera  **[!UICONTROL Remove Folder]** knappen . Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
 
 * **Byt namn**  - Dubbelklicka på namnet och ange ett nytt namn.
 
