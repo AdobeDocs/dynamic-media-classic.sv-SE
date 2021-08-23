@@ -1,6 +1,6 @@
 ---
 title: Generering av automatisk bilduppsättning
-description: 'Lär dig hur du automatiserar genereringen av bilduppsättningar. '
+description: 'Lär dig hur du automatiserar genereringen av bilduppsättningar i Dynamic Media Classic. '
 uuid: bd4b3252-3e77-4230-9684-cd6d28b8eecb
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,visningsprogram,bilduppsättningar
 role: User
 exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 2%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
@@ -31,13 +31,13 @@ Last Modified Date:
 
 Du kan automatisera genereringen av uppsättningar som ett oberoende jobb som inte är beroende av en överföring.
 
-**Automatisera generering av bilduppsättningar**
+**Så här automatiserar du genereringen av bilduppsättningar:**
 
-1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
+1. Gå till **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
 1. Ange ett jobbnamn i dialogrutan Generera uppsättning.
 
    Som standard får jobbet ett namn som anger att det är ett genererat jobb och när jobbet genererades.
 
 1. Markera den förinställning som du vill använda.
-1. Klicka på **[!UICONTROL Destination Folder]** och ange den mapp som du vill använda.
-1. Klicka på **[!UICONTROL Submit]**.
+1. Välj **[!UICONTROL Destination Folder]** och ange sedan den mapp som du vill använda.
+1. Välj **[!UICONTROL Submit]**.
