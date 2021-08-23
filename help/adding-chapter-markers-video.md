@@ -1,6 +1,6 @@
 ---
 title: Lägga till kapitelmarkörer i video
-description: Lär dig hur du lägger till kapitelmarkörer i en video.
+description: Lär dig hur du lägger till kapitelmarkörer i en video i Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Visningsprogram,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
 
-# Lägga till kapitelmarkörer i video{#adding-chapter-markers-to-video}
+# Lägga till kapitelmarkörer i video {#adding-chapter-markers-to-video}
 
-Du kan göra det enklare att titta på och navigera i videoklipp med långa formulär genom att lägga till kapitelmarkörer i enstaka videor eller i adaptiva videouppsättningar. När en användare spelar upp videon kan han/hon klicka på kapitelmarkörerna på tidslinjen (kallas även videobandspelare). På så sätt kan de enkelt navigera till sin intressepunkt eller direkt gå till nytt innehåll, demonstrationer, självstudiekurser och så vidare.
+Du kan göra det enklare att titta på och navigera i videoklipp med långa formulär genom att lägga till kapitelmarkörer i enstaka videor eller i adaptiva videouppsättningar. När en användare spelar upp videon kan han/hon välja kapitelmarkörer på tidslinjen (kallas även videobandskrubber). På så sätt kan de enkelt navigera till sin intressepunkt eller direkt gå till nytt innehåll, demonstrationer, självstudiekurser och så vidare.
 
 >[!NOTE]
 >
 >Den videospelare som används måste ha stöd för kapitelmarkörer.
 
-Se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) om du vill konfigurera kapitelnavigeringsreferenspunkter och popup-text för kapiteltitlar för visningsprogrammet `Universal_HTML5_Video` (HTML5).
+Se [Lägg till eller redigera en förinställning för visningsprogrammet för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) om du vill konfigurera kapitelnavigeringsreferenspunkter och kapiteltitelns popup-text för visningsprogrammet `Universal_HTML5_Video` (HTML5).
 
-Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
+Se även [Lägg till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
 Du skapar en kapitellista för videon på ungefär samma sätt som du skapar bildtexter. Det innebär att du skapar en WebVTT-fil. Observera dock att den här filen måste vara separat från alla WebVTT-beskrivningsfiler som du också använder. du kan inte kombinera bildtexter och kapitel i en WebVTT-fil.
 
@@ -69,21 +69,21 @@ Se [WebVTT: Textspårningsformatet för webbvideo](https://w3c.github.io/webvtt/
 
 1. Överför din WebVTT-kapitelfil till Dynamic Media Classic.
 
-   Se [Överföra filer](uploading-files.md#uploading_files).
+   Se [Överför filer](uploading-files.md#uploading_files).
 
 1. Navigera till resursmappen som innehåller den videofil som du vill associera med den överförda kapitelfilen i panelen Resursbibliotek på vänster sida.
-1. Välj en enskild videoresurs i panelen Resursbläddring och klicka sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden för resursen.
+1. Markera en enskild videoresurs i panelen Resursbläddring och välj **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden för resursen.
 1. Leta reda på HTML5-visningsprogrammet **Univeral_HTML5_Video** i tabellen Visningsprogramlista och gör sedan något av följande:
 
-   * Klicka **[!UICONTROL Copy URL]** längst till höger om namnet om du vill visa ett videoklipp.
+   * Välj **[!UICONTROL Copy URL]** längst till höger om namnet om du vill visa ett videoklipp.
 
       Lägg till den kopierade URL:en för videon med följande syntax så att du kan koppla den till den kopierade URL:en till bildtextfilen:
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * Klicka **[!UICONTROL Embed Code]** längst till höger om namnet om du vill se en inbäddad videovisningsfunktion.
+   * Om du vill visa en inbäddad video väljer du **[!UICONTROL Embed Code]** längst till höger om namnet.
 
-      Klicka på **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
+      Välj **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
       För HTML5 `Universal_HTML5_Video`-visningsprogrammet lägger du till den kopierade inbäddningskoden med följande:
 
