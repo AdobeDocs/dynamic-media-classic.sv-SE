@@ -1,6 +1,6 @@
 ---
 title: Administrationsinställningar
-description: Lär dig hur du ställer in administrationsdelen av Dynamic Media Classic.
+description: Lär dig hur du ställer in administrationsområdet för Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Administrationsinstallationsfönstren är avsedda för administration av Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Dynamic Media Classic och att kommunicera via e-post med användare.
 
-1. Om du vill visa alternativen för administrationsinställningar klickar du på **Inställningar** > **Personliga inställningar** > **Administrationsinställningar**.
+1. Gå till **Inställningar** > **Personliga inställningar** > **Administrationsinställningar** om du vill visa alternativen för administrationsinställningar.
 
 ## Användaradministration {#user-administration}
 
@@ -42,9 +42,9 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
 ### Lägga till en användare eller administratör {#adding-a-user-or-administrator}
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. Klicka på **[!UICONTROL Add]**.
-1. Ange namn och e-postadress för den användare eller administratör som du vill lägga till och klicka sedan på **[!UICONTROL Next]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Välj **[!UICONTROL Add]**.
+1. Ange namn och e-postadress för den användare eller administratör som du vill lägga till och välj sedan **[!UICONTROL Next]**.
 
    >[!NOTE]
    >
@@ -55,45 +55,45 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
    Se [Dynamic Media Classic-användarroller och behörigheter](administration-setup.md#user_administration).
 
 1. Om du vill lägga till en användare till ett företag väljer du ett företagsnamn.
-1. Om du vill lägga till användaren i en grupp (om du lägger till en Media Portal-användare eller -medarbetare) klickar du på **[!UICONTROL Next]** och lägger till användaren.
-1. Klicka på **[!UICONTROL Save]** för att slutföra användarkonfigurationen.
+1. Om du vill lägga till användaren i en grupp (om du lägger till en Media Portal-användare eller -medarbetare) väljer du **[!UICONTROL Next]** och lägger till användaren.
+1. Välj **[!UICONTROL Save]** för att slutföra användarkonfigurationen.
 
-   När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Klicka på **[!UICONTROL Add]** om du vill lägga till användaren i ett företag.
+   När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Välj **[!UICONTROL Add]** om du vill lägga till användaren i ett företag.
 
    Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in i Dynamic Media Classic-datorprogrammet.
 
    Nya användare får ett välkomstmeddelande när du har lagt till dem. I e-postmeddelandet finns ett tillfälligt lösenord och information om hur du loggar in på Dynamic Media Classic.
 
-   Om användaren inte får något välkomstmeddelande via e-post kan du be användaren att gå till inloggningssidan för Dynamic Media Classic (https://s7sps1.scene7.com) och klicka på Har du glömt mitt lösenord. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
+   Om användaren inte får välkomstmeddelandet ber du dem gå till inloggningssidan för Dynamic Media Classic (https://s7sps1.scene7.com) och välja **[!UICONTROL Forgot My Password]**. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
 
-   När du lägger till nya Media Portal-användare kan du också gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, klicka på **[!UICONTROL Upload User List]** och välja en CSV-fil som inte innehåller fler än 500 användare.
+   När du lägger till nya Media Portal-användare kan du också gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, välja **[!UICONTROL Upload User List]** och välja en CSV-fil som inte innehåller fler än 500 användare.
 
 ### Ta bort en användare {#deleting-a-user}
 
 Du kan ta bort användare från Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. Välj en användare i listan och klicka sedan på **[!UICONTROL Edit]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Välj en användare i listan och välj sedan **[!UICONTROL Edit]**.
 1. Avmarkera Giltig.
-1. Klicka på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**.
 
 ### Aktivera eller inaktivera användare {#activating-or-deactivating-users}
 
 Användare som har inaktiverats har inte längre behörighet att ange kontot som visas högst upp på menyn Välj konton att komma åt.
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Markera eller avmarkera alternativet **[!UICONTROL Active]** bredvid användarens namn i användarlistan.
 
 ### Redigera användarinformation {#editing-user-information}
 
 Vilken användarinformation du kan redigera beror på din roll som administratör och den tilldelade rollen för den användare vars information du vill redigera. Alternativ som är nedtonade (inte tillgängliga) går inte att redigera.
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. Markera användaren och klicka på **[!UICONTROL Edit]**.
-1. Markera den post i tabellen som visar det företag du försöker ändra behörigheter eller åtkomst för och klicka sedan på **[!UICONTROL Manage Company]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+1. Välj en användare i listan och välj sedan **[!UICONTROL Edit]**.
+1. Markera den post i tabellen som visar det företag du försöker ändra behörigheter eller åtkomst för och välj sedan **[!UICONTROL Manage Company]**.
 1. Välj användarroll.
-1. Om du vill ändra användarens gruppmedlemskap (om du redigerar eller lägger till en Media Portal-användare eller -medarbetare) klickar du på **[!UICONTROL Next]** och redigerar gruppmedlemskapet.
-1. Klicka på **[!UICONTROL Save]**.
+1. Om du vill ändra användarens gruppmedlemskap (om du redigerar eller lägger till en Media Portal-användare eller -medarbetare) väljer du **[!UICONTROL Next]** och redigerar gruppmedlemskapet.
+1. Välj **[!UICONTROL Save]**.
 
 ### Filtrera och sortera användarlistan {#filtering-and-sorting-the-user-list}
 
@@ -109,7 +109,7 @@ Du kan använda följande filtertekniker för användarlistor:
 
 * **Filtrera bort ogiltiga användare**  - Avmarkera  **[!UICONTROL Include Invalid]**. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton du administrerar.
 
-* **Sortera efter kolumnrubrik**  - Klicka på en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress, efter användarroll eller efter giltig/ogiltig status.
+* **Sortera efter kolumnrubrik**  - Välj en rubrik för att sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress, efter användarroll eller efter giltig/ogiltig status.
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
@@ -122,18 +122,18 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
    When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
-1. Click **Manage Organizations**.
-1. Click **Link Account** or **Get Access**.
+1. Select **Manage Organizations**.
+1. Select **Link Account** or **Get Access**.
 1. Select **Experience Manager**, and then type your credentials.
 
    Your credentials include your IPS company region, email address, and password.
 
-1. Click **Link**.
+1. Select **Link**.
 1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -145,7 +145,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 Dynamic Media Classic-administratörer kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna finns på sidan Bandbredd och lagring.
 
-Om du vill öppna den här sidan klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**. Expandera **[!UICONTROL Administration Setup]** och klicka sedan på **[!UICONTROL Bandwidth & Storage]**.
+Öppna den här sidan genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**. Expandera **[!UICONTROL Administration Setup]** och välj sedan **[!UICONTROL Bandwidth & Storage]**.
 
 ### Typ av rapporter {#types-of-reports}
 
@@ -182,9 +182,9 @@ Rapporten Bildinnehåll innehåller information om begäranden för följande bi
 
 Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän, videoströmning eller videoinnehåll:
 
-1. Välj **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
-1. Expandera Administrationsinställningar och klicka sedan på **[!UICONTROL Bandwidth & Storage]**.
-1. Klicka på en flik: **[!UICONTROL Bandwidth]**, **[!UICONTROL Storage]**, **[!UICONTROL Image Content]**, **[!UICONTROL Domain]**, **[!UICONTROL Video Streaming]** eller **[!UICONTROL Video Content]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+1. Expandera Administrationsinställningar och välj sedan **[!UICONTROL Bandwidth & Storage]**.
+1. Välj en flik: **[!UICONTROL Bandwidth]**, **[!UICONTROL Storage]**, **[!UICONTROL Image Content]**, **[!UICONTROL Domain]**, **[!UICONTROL Video Streaming]** eller **[!UICONTROL Video Content]**.
 
    Se [Rapporttyper](administration-setup.md#types_of_reports).
 
@@ -192,41 +192,41 @@ Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän
 
 När du har genererat en rapport på sidan Bandbredd och lagring kan du välja alternativ för att visa information. Du kan välja hur informationen ska visas, visa information i ett diagram eller datarutnät och ange en tidsperiod för att hämta information. I datavyn kan du även sortera information och ordna om kolumner.
 
-* **Visa data i ett diagram eller datarutnät**  - Klicka  **[!UICONTROL Chart View]** för att visa data i ett diagram. klicka  **[!UICONTROL Data View]** för att visa data i ett datarutnät.
+* **Visa data i ett diagram eller datarutnät**  - Välj  **[!UICONTROL Chart View]** om du vill visa data i ett diagram. om du  **[!UICONTROL Data View]** vill visa data i ett datarutnät.
 
-* **Välja rapporttyp** - På menyn Typ av rapport klickar du på  **[!UICONTROL Summary]**,  **[!UICONTROL Daily]** eller  **[!UICONTROL Monthly]** ordnar data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
+* **Välj en rapportpresentationstyp**  - Välj  **[!UICONTROL Summary]**,  **[!UICONTROL Daily]** eller  **[!UICONTROL Monthly]** ordna data i sammanfattningsform, per dag eller per månad på menyn Typ av rapport. Det här alternativet finns inte i alla rapporter.
 
-* **Ange en tidsperiod** - Välj alternativ för att definiera en tidsperiod för rapporten och klicka sedan  **[!UICONTROL Update]** efter att du har definierat en tidsperiod:
+* **Ange en tidsperiod** - Välj alternativ för att definiera en tidsperiod för rapporten och välj sedan  **[!UICONTROL Update]** efter att du har definierat en tidsperiod:
 
 * **Fördefinierad tidsperiod**  - Välj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
 
-* **Anpassad tidsperiod**  - På menyn Fördefinierad rapport klickar du på  **[!UICONTROL Custom]**. Välj sedan ett datum på menyn **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
+* **Anpassad tidsperiod**  - Välj  **[!UICONTROL Custom]**. Välj sedan ett datum på menyn **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
 
-* **Sortera data (endast datavyn)** - Om du vill sortera information i en kolumn klickar du på kolumnens rubrik. Klicka igen om du vill sortera i fallande ordning.
+* **Sortera data (endast datavyn)** - Om du vill sortera information i en kolumn markerar du kolumnens rubrik. Välj igen om du vill sortera i fallande ordning.
 
-* **Ordna om kolumner (endast datavyn)** - Dra rubriken om du vill flytta en kolumn till en annan plats i datarutnätet.
+* **Ordna om kolumner (endast datavyn)** - Om du vill flytta en kolumn till en annan plats i datarutnätet drar du rubriken.
 
-### Exportera och skriva ut rapporter {#exporting-and-printing-reports}
+### Exportera och skriv ut rapporter {#exporting-and-printing-reports}
 
 När du har genererat en rapport kan du exportera dess data för användning i kalkylblad och andra program. Du kan också skriva ut rapporter.
 
 * **Exportera rapportdata**  - Sortera och ordna data i datavyn efter behov. Öppna sedan menyn **[!UICONTROL Export]** och välj ett format: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]** eller **[!UICONTROL HTML Formatted]**. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
 
-* **Skriva ut en rapport** - Klicka  **[!UICONTROL Print]** på de alternativ du vill ha i dialogrutan Skriv ut och klicka sedan på  **[!UICONTROL OK]**.
+* **Skriv ut en rapport** - Välj  **[!UICONTROL Print]** de alternativ du vill ha i dialogrutan Skriv ut och välj sedan  **[!UICONTROL OK]**.
 
 ## Bildfel {#image-errors}
 
 Dynamic Media Classic-administratörer kan generera bildfelsrapporter. En bildfelsrapport innehåller en lista med de 20 vanligaste bildfelen för det företag du är inloggad på under de senaste 24 timmarna. Så här genererar du en bildfelsrapport:
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
-1. Expandera Administrationsinställningar och klicka sedan på **[!UICONTROL Image Errors]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+1. Expandera Administrationsinställningar och välj sedan **[!UICONTROL Image Errors]**.
 1. (Valfritt) Gör något av följande:
 
-   * Om du vill sortera fel efter rubrikinformationen klickar du på en rubrik. Som standard sorteras fel efter antal förekomster, från högst till lägst.
+   * Om du vill sortera fel efter rubrikinformationen väljer du en rubrik. Som standard sorteras fel efter antal förekomster, från högst till lägst.
    * Flytta markören över svarsfältet för att se det specifika felmeddelandet.
    * Om du vill se länken till bildens eller hänvisarens webbsida för du markören över URL-fältet eller referensfältet.
-   * Om du vill kopiera länken till den faktiska bilden klickar du på **[!UICONTROL URL Copy URL]**. Du kan klistra in länken i ett webbläsarfönster för att gå till bilden och undersöka felet.
-   * Om du vill kopiera länken till referenswebbsidan klickar du på **[!UICONTROL Referrer Copy URL]**.
+   * Om du vill kopiera länken till den faktiska bilden väljer du **[!UICONTROL URL Copy URL]**. Du kan klistra in länken i ett webbläsarfönster för att gå till bilden och undersöka felet.
+   * Om du vill kopiera länken till referenswebbsidan väljer du **[!UICONTROL Referrer Copy URL]**.
 
 De fel som visas gäller det företag du är inloggad på. Varje fel innehåller följande information:
 
