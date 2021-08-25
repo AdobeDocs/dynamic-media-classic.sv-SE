@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Den nya appen finns nu för Windows® och macOS.
 >
 >Adobe rekommenderar att du installerar det nya Adobe Dynamic Media Classic-datorprogrammet senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player tas bort den 31 december 2020. Efter detta datum kan du inte logga in på webbläsarversionen av användargränssnittet Adobe Dynamic Media Classic, som heter Dynamic Media Classic i produkten.
 
-Se Frågor och svar för [Ny inloggningsupplevelse i Dynamic Media Classic är nu tillgänglig.](/help/new-ui-2020.md)
+Se Frågor och svar för [Ny inloggningsupplevelse för Dynamic Media Classic är nu tillgänglig.](/help/new-ui-2020.md)
 
 ## Systemkrav för datorprogrammet Adobe Dynamic Media Classic {#system-requirements-dmc-app}
 
@@ -87,7 +87,7 @@ Se även:
 
 1. Gör något av följande baserat på det installationsprogram du hämtade.
 
-   * **För macOS**  - Dra  **[!UICONTROL Drag & drop to install]** och släpp det i  **[!UICONTROL Adobe Dynamic Media Classic]** dialogrutan  **[!UICONTROL Applications]**.
+   * **macOS** -I  **[!UICONTROL Drag & drop to install]** dialogrutan drar  **[!UICONTROL Adobe Dynamic Media Classic]** och släpper du den  **[!UICONTROL Applications]**.
 
       ![Dra och släpp installation i macOS](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ Se även:
 
       ![Öppna hämtat program](/help/assets/open-dmclassicapp1.png)
 
-   * **För Windows**  - Kör installationsprogrammets binärfil och följ instruktionerna på skärmen för att installera skrivbordsappen.
+   * **Windows**  - Kör installationsprogrammets binärfil och följ instruktionerna på skärmen för att installera skrivbordsappen.
 
 1. När du öppnar programmet visas den nya inloggningssidan för Adobe Dynamic Media Classic:
 
@@ -107,7 +107,7 @@ Se även:
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
@@ -149,7 +149,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
@@ -194,7 +194,7 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
