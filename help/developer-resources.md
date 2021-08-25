@@ -9,11 +9,10 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 6%
+source-wordcount: '268'
+ht-degree: 7%
 
 ---
 
@@ -25,30 +24,29 @@ Versionsinformation finns också för vissa moduler. Versionsinformation innehå
 
 Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och använda multimedia från Dynamic Media Classic ytterligare för en webbplats eller ett anpassat program kan använda dessa guider. Dynamic Media Classic förutsätter att användaren känner till datorprogrammet, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
 
-
 ## Dynamic Media Classic API
 
 | Dokument | Webbadress |
-|--- |--- |
+| --- | --- |
 | Referenshandbok för API | Kontakta Dynamic Media Classic teknisk support för dokumentation. |
 
 ## Bildredigering
 
 | Dokument | Webbadress |
-|--- |--- |
+| --- | --- |
 | Användarhandbok | Kontakta Dynamic Media Classic teknisk support för den här dokumentationen. |
 | Versionsinformation | Kontakta Dynamic Media Classic teknisk support för den här dokumentationen. |
 
 ##  för bildleverans och bildåtergivning
 
 | Dokument | Webbadress |
-|--- |--- |
+| --- | --- |
 | Referenshandbok för API | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
 ## Tittare
 
 | Dokument | Webbadress |
-|--- |--- |
+| --- | --- |
 | Referenshandbok för visningsprogram och versionsinformation | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 | Exempel på visningsprogrambibliotek | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
