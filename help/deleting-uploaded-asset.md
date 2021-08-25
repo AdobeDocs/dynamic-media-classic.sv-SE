@@ -1,6 +1,6 @@
 ---
 title: Ta bort en överförd resurs
-description: Lär dig hur du tar bort en överförd resurs.
+description: Lär dig hur du tar bort en överförd resurs i Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ Följande är ett exempel på ett svar när en bildresurs tas bort:
 Du kan använda följande fält i URL-frågesträngen för att ta bort en resurs:
 
 | URL-parameter | Obligatoriskt/valfritt | Värde |
-|--- |--- |--- |
-| op | Obligatoriskt | delete |
-| shared_secrets | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
+| --- | --- | --- |
+| `op` | Obligatoriskt | delete |
+| `shared_secret` | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
 | <ul><li>För bilder:bildnamn</li><li>För vektor:fxg_name</li></ul> | Obligatoriskt | Namnet på resursen som ska tas bort. |
 
 **URL för exempelbild:**
