@@ -10,9 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Se [Publicera konfigurationsinformation](publishing-analytics-configuration-info
 
 Använd Adobe Analytics konfigurationsskärm för att associera visningsprogramhändelser med Adobe Analytics-variabler och Dynamic Media Classic-variabler. För varje visningsprogramhändelse väljer du en Adobe Analytics-variabel och en Dynamic Media Classic-variabel. Instruktioner om hur du öppnar skärmen Adobe Analytics Configuration finns i [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-**Så här tilldelar du Adobe Analytics-variabler till visningsprogramhändelser och variabler i Dynamic Media Classic**
+**Så här tilldelar du Adobe Analytics-variabler till visningsprogramhändelser och variabler i Dynamic Media Classic:**
 
 1. När du har loggat in på Adobe Analytics från Dynamic Media Classic och valt en rapportsvit aktiverar du en visningsprogramhändelse på konfigurationssidan för Adobe Analytics i den högra tabellkolumnen genom att välja **[!UICONTROL Enable]**.
 1. Visa variabelparsväljaren under kolumnen Variabler genom att markera pilknappen för önskad visningsprogramhändelse.
@@ -53,7 +53,7 @@ Använd Adobe Analytics konfigurationsskärm för att associera visningsprogramh
    När du har valt **[!UICONTROL Save]** visas visningsprogramhändelsen, dess Adobe Analytics-variabel och dess Dynamic Media Classic-variabel på skärmen för Adobe Analytics-konfiguration.
 
 1. Välj **[!UICONTROL Close]** i det nedre högra hörnet.
-1. Välj **[!UICONTROL Publish]** > **[!UICONTROL Submit Publish]** om du vill köra en Image Serving-publicering.
+1. Gå till **[!UICONTROL Publish]** > **[!UICONTROL Submit Publish]** för att köra en Image Serving-publicering.
 
    Publicering är nödvändigt för att informationen i visningsprogrammen ska vara tillgänglig på Dynamic Media Classic-servrar.
 
@@ -64,23 +64,22 @@ Visningshändelser beskriver åtgärder som användare utför med visningsprogra
 I följande tabell beskrivs de visningsprogramhändelser som du kan lägga till på skärmen Adobe Analytics Configuration.
 
 | Viewer-händelse | Stöd för HTML5 Viewer Platform och visningsprogram | Beskrivning |
-|--- |--- |--- |
-| LADDA | **X** (eCatalog, Flyout, SpinSet, Video, Zoom) | När ett visningsprogram startas av en användare |
-| SIDA | **X**  (eCatalog) | I eCatalogs när en användare byter sida; i målinriktade zoomningsvisningsprogram, när en användare väljer ett annat mål eller en färgruta |
-| SWAP | **X**  (eCatalog, Flyout, SpinSet, Video, Zoom) | När en användare väljer en annan miniatyrbild för att visa en annan bild |
-| OBJEKT | **X**  (eCatalog) | I visningsprogram som stöder bildscheman där överrullningar definieras, när en användare håller pekaren över en bildschema för att läsa överrullningstexten |
-| HREF | **X**  (eCatalog) | I visningsprogram som stöder bildscheman väljer en användare en URL i en bildschema |
+| --- | --- | --- |
+| LADDA | **X** (eCatalog, Flyout, SpinSet, Video, Zoom) | När en användare startar ett visningsprogram |
+| SIDA | **X**  (eCatalog) | I eCatalogs när en användare byter sida; i målvisningsprogram för zoomning när en användare väljer ett annat mål eller en färgruta. |
+| SWAP | **X**  (eCatalog, Flyout, SpinSet, Video, Zoom) | När en användare väljer en annan miniatyrbild för att visa en annan bild. |
+| OBJEKT | **X**  (eCatalog) | I visningsprogram som stöder bildscheman där överrullningar definieras, när en användare håller pekaren över en bildschema för att läsa överrullningstexten. |
+| HREF | **X**  (eCatalog) | I visningsprogram som stöder bildscheman väljer en användare en URL i en bildschema. |
 | MÅL |  | När en användare väljer ett zoommål för att zooma in en del av en bild i målvisningsprogram. |
 | SÖK |  | I e-kataloger, när en användare gör en ordsökning. |
 | SPELA | **X**   (video) | När en användare väljer Spela upp för att börja spela upp en video i videovisningsprogram.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapporter behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Dynamic Media Classic. Videoberättelser fungerar med färdiga visningsprogram för Dynamic Media Classic HTML5 Video och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
 | PAUS | **X**  (video) | I videovisningsprogram, när en användare väljer **[!UICONTROL Pause]** för att frysa en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapporter behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Dynamic Media Classic. Videoberättelser fungerar med färdiga visningsprogram för Dynamic Media Classic HTML5 Video och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
 | STOP | **X**  (video) | I videovisningsprogram när en användare väljer **[!UICONTROL Stop]** för att sluta spela upp en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapporter behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Dynamic Media Classic. Videoberättelser fungerar med färdiga visningsprogram för Dynamic Media Classic HTML5 Video och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
 | MILESTON | **X**   (video) | I videovisningsprogram genereras milstolpehändelser när användaren tittar på 0, 25, 50, 75 eller 100 procent av videon.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapporter behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Dynamic Media Classic. Videoberättelser fungerar med färdiga visningsprogram för Dynamic Media Classic HTML5 Video och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
-| FÄRGRUTA | X (utfällbar, zoom) | Den här visningsprogramhändelsen mappas till PAGE-visningsprogramhändelsen i Dynamic Media Classic. |
-| ZOOMA | **X**  (eCatalog, SpinSet, Zoom) | Spåras inte av Adobe Analytics.<br> |
-| PAN | **X**  (eCatalog, SpinSet, Zoom) | Spåras inte av Adobe Analytics.<br> |
-| SPIN | **X**  (SpinSet) | Spåras inte av Adobe Analytics.<br> |
-
+| FÄRGRUTA | **X**  (utfällbar, zoomad) | Den här visningsprogramhändelsen mappas till PAGE-visningsprogramhändelsen i Dynamic Media Classic. |
+| ZOOMA | **X** (eCatalog, SpinSet, Zoom) | Inte spårad av Adobe Analytics. |
+| PAN | **X** (eCatalog, SpinSet, Zoom) | Inte spårad av Adobe Analytics. |
+| SPIN | **X** (SpinSet) | Inte spårad av Adobe Analytics. |
 
 ### Dynamic Media Classic-variabler {#scene-variables}
 
@@ -89,7 +88,7 @@ För varje visningsprogramhändelse på skärmen Adobe Analytics Configuration v
 I följande tabell beskrivs Dynamic Media Classic-variabler:
 
 | Dynamic Media Classic-variabel | Beskrivning |
-|--- |:--- |
+| --- | --- |
 | resurs | Dynamic Media Classic-resurs-ID eller videosökvägsfil. |
 | viewerId | Ett godtyckligt nummer som tilldelas varje enskild visningsprogramtyp. |
 | pageLabel | I eCatalogs är den sida som visas i ett visningsprogram. |
@@ -106,11 +105,8 @@ I följande tabell beskrivs Dynamic Media Classic-variabler:
 
 På skärmen Adobe Analytics Configuration kan du aktivera, redigera och ta bort visningsprogramhändelser:
 
-* **Aktivera**
-Markera  **[!UICONTROL Enable]** för att aktivera eller  **[!UICONTROL Disable]** inaktivera en vald visningsprogramhändelse.
+* **Aktivera**  - Välj  **[!UICONTROL Enable]** om du vill aktivera eller inaktivera  **[!UICONTROL Disable]** en vald visningsprogramhändelse.
 
-* ****
-RedigeraVälj en visningshändelse och välj  **[!UICONTROL View/Edit]** grått i variabler. I listrutorna Dynamic Media Classic Variable och Adobe Analytics Variable väljer du en annan variabel i respektive lista. Mer information finns i Tilldela Adobe Analytics-variabler till Dynamic Media Classic-visningsprogramhändelser och -variabler.
+* **Redigera** - Välj en visningsprogramhändelse och välj  **[!UICONTROL View/Edit]** grått i variabler. I listrutorna Dynamic Media Classic Variable och Adobe Analytics Variable väljer du en annan variabel i respektive lista. Mer information finns i [Tilldela Adobe Analytics-variabler till Dynamic Media Classic-visningsprogramhändelser och variabler](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* ****
-Ta bortVälj en visningsprogramhändelse och välj  **[!UICONTROL View/Edit]** gråknapp för variabler. Välj **[!UICONTROL Delete]**.
+* **Ta bort** - Markera en visningsprogramhändelse och välj  **[!UICONTROL View/Edit]** grått i variabler. Välj **[!UICONTROL Delete]**.
