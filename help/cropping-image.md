@@ -1,18 +1,18 @@
 ---
 title: Beskära en bild
-description: Lär dig beskära en bild.
+description: Lär dig beskära en bild i Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,13 @@ Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära et
 
 >[!NOTE]
 >
->När du har beskurit kan du välja **[!UICONTROL Save As]** och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du Spara som ny Överordnad om du vill spara en andra kopia av bilden. Välj **[!UICONTROL Save As Addition View Of Master]** så att du kan spara originalet och den beskurna versionen med ett annat namn. Välj **[!UICONTROL Replace Original]** om du vill ta bort originalfilen som du beskurit bilden från. Ange sedan ett namn för bilden och välj **[!UICONTROL Submit]**.
+>När du har beskurit kan du välja **[!UICONTROL Save As]** och spara en beskuren version av bilden under ett annat namn. I fönstret Spara som väljer du **[!UICONTROL Save As New Master]** om du vill spara en andra kopia av bilden. Välj **[!UICONTROL Save As Addition View Of Master]** så att du kan spara originalet och den beskurna versionen med ett annat namn. Välj **[!UICONTROL Replace Original]** om du vill ta bort originalfilen som du beskurit bilden från. Ange sedan ett namn för bilden och välj **[!UICONTROL Submit]**.
 
 ## Beskära för att ta bort tomt utrymme runt en bild {#crop-to-remove-white-space-around-an-image}
 
 Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant.
 
-1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]**, eller visar den i panelen Bläddra i detaljvyn och väljer knappen **[!UICONTROL Crop]**.
+1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer sedan **[!UICONTROL Crop]** eller visar den i panelen Bläddra i vyn Detalj och väljer knappen **[!UICONTROL Crop]**.
 1. Gör något av följande på sidan Beskärningsredigerare:
 
    * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Välj menyn **[!UICONTROL Corner]** i dialogrutan **[!UICONTROL Auto Crop By Color]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]**-inställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
@@ -63,6 +63,6 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 >[!MORELIKETHIS]
 >
 >* [Alternativ för bildredigering vid överföring](image-editing-options-upload.md#image-editing-options-at-upload)
-* [Beskära tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
-* [Beskära från sidorna på PDF-sidorna](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Beskära tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Beskära från sidorna på PDF-sidorna](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 
