@@ -1,18 +1,18 @@
 ---
 title: Skapa en snurruppsättning
-description: Lär dig hur du skapar en snurruppsättning.
+description: Lär dig hur du skapar en snurruppsättning i Dynamic Media Classic.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
-feature: Dynamic Media Classic,visningsprogram,snurra uppsättningar
+feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt s�
 
 >[!NOTE]
 >
->Tidigare versioner av Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den under ett annat namn. Klicka på Spara som på skärmen med den nya rotationsuppsättningen och ange ett nytt namn så att du kan redigera den i Dynamic Media Classic.
+>Tidigare versioner av Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den under ett annat namn. Välj **[!UICONTROL Save As]** på skärmen för snurruppsättning och ange ett nytt namn så att du kan redigera det i Dynamic Media Classic.
 
 ## Riktlinjer för fotografering av snurra uppsättningsbilder {#guidelines-for-shooting-spin-set-images}
 
@@ -33,7 +33,7 @@ Ju fler bilder du har i en snurrfunktion, desto bättre blir effekten av att snu
 * Använd ett förlustfritt format, TIFF och PNG rekommenderas.
 * Maskera alla bilder så att objektet visas på en helt vit eller annan bakgrund med hög kontrast. Du kan också lägga till skuggor.
 * Se till att produktinformationen är väl belyst och i fokus.
-* Ta snurra bilder till modekläder med mannequin eller modell. Ofta är mannequin antingen maskerat (med hjälp av en glasmannequin) eller en stiliserad mannequin/form visas i bilden. Du kan skapa en omformningsrotation genom att definiera antalet vinklar. Markera varje vinkel med band på golvet för att vägleda modellen till steg och titta i riktningen för varje tagning.
+* Ta snurra bilder till modekläder med mannequin eller modell. Ofta är mannequin antingen maskerat (med hjälp av en glasmannequin) eller en stiliserad mannequin/form visas i bilden. Du kan skapa en omformningsrotation genom att definiera antalet vinklar. Markera varje vinkel med band på golvet så att du kan vägleda modellen till steg och titta i riktningen för varje tagning.
 
 ## Skapa en snurruppsättning {#create}
 
@@ -42,7 +42,7 @@ Den ordning i vilken rotationsuppsättningen skapas eller skapas i Dynamic Media
 När du skapar en uppsättning påverkar **[!UICONTROL Publish after save]**-alternativet mängdmedlemmarna på följande sätt:
 
 | **[!UICONTROL Publish after save]** markerat alternativ innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
-|--- |--- |--- |
+| --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
 
@@ -52,26 +52,26 @@ När du har sparat en snurruppsättning kan du använda Förhandsvisning i Build
 
 **Så här skapar du en snurra:**
 
-1. Klicka på **[!UICONTROL Spin Sets]** i listrutan **[!UICONTROL Build]**.
+1. Välj **[!UICONTROL Spin Sets]** i listrutan **[!UICONTROL Build]**.
 1. Ange antalet rader och celler som du vill ha i dialogrutan Ange storlek för snurra.
 
    Om du vill skapa en endimensionell snurruppsättning markerar du endast en rad.
 
    Om du vill skapa en tvådimensionell snurra uppsättning markerar du två eller flera rader.
 
-1. Klicka på **[!UICONTROL OK]**.
+1. Välj **[!UICONTROL OK]**.
 1. Dra och släpp bilder i rutnätet på skärmen Snurra uppsättning.
 1. När du är klar ser du till att **Publicera efter spara** är markerat (standard) nära sidans nedre högra hörn.
-1. Klicka på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**.
 1. I dialogrutan Spara väljer du en mapp för lagring av din snurruppsättning. I fältet Filnamn anger du namnet på rotationsuppsättningen.
-1. Klicka på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**.
 
 ## Redigera en snurra uppsättning {#editing-a-spin-set}
 
 Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar **[!UICONTROL Publish after save]**-alternativet uppsättningen och anger medlemmar på följande sätt:
 
 | Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
-|--- |--- |--- |--- |
+| --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
 | Nej | Ja | Publicerad | Publicerad |
@@ -81,19 +81,19 @@ Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) oc
 
 **Så här redigerar du en snurra:**
 
-1. Klicka på knappen för rotationsuppsättningens överrullning **[!UICONTROL Edit]**.
+1. Välj knappen för rotationsuppsättningens överrullning **[!UICONTROL Edit]**.
 1. Gör något av följande:
 
-   * **Ta bort bilder** - Markera bilden och klicka sedan på  **[!UICONTROL Delete]**.
+   * **Ta bort bilder** - Markera bilden och markera sedan  **[!UICONTROL Delete]**.
 
    * **Lägga till bilder**  - Dra bilden till en cell.
 
-   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)** - Klicka i en radväljarruta (till vänster om raden) och sedan på  **[!UICONTROL Move Row Down]** eller  **[!UICONTROL Move Row Up]**.
+   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)** - Markera en radväljarruta (till vänster om raden) och markera  **[!UICONTROL Move Row Down]** eller  **[!UICONTROL Move Row Up]**.
 
    * **Lägga till rader och celler**  - Ange ett värde i rutorna Rader och Celler för att bestämma antalet rader och antalet celler i varje rad.
 
 1. Se till att **[!UICONTROL Publish after save]** är markerat (standard) när du är klar med redigeringen, nära sidans nedre högra hörn.
-1. Klicka på **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och klicka sedan på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och välj sedan **[!UICONTROL Save]**.
 
 ## Ta bort en snurruppsättning {#deleting-a-spin-set}
 
@@ -104,4 +104,4 @@ Se även [Publicera resurser](publishing-files.md#manually-publishing-assets) oc
 **Så här tar du bort en snurruppsättning:**
 
 1. I Stödrastervisning, listvy eller detaljvy väljer du en eller flera snurruppsättningar.
-1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]** i det globala navigeringsfältet.
+1. I det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
