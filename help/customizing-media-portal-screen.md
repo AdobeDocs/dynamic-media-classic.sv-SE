@@ -1,18 +1,18 @@
 ---
 title: Anpassa skärmen Media Portal
-description: Lär dig hur du anpassar mediaportalskärmen.
+description: Lär dig hur du anpassar Media Portal-skärmen i Dynamic Media Classic.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
-feature: Dynamic Media Classic,Samarbete,Resurshantering
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 Med formatinställningarna för Media Portal kan du märka upp Media Portal-skärmen med företagets logotyp och färger. Använd formatinställningarna för att lägga företagets varumärke på Media Portal.
 
-Välj **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]** för att komma åt formatinställningarna. Kontrollera att du klickar på **[!UICONTROL Save]** för att spara inställningarna när du har gjort dem. Du kan klicka på **[!UICONTROL Restore]** om du vill återställa standardinställningarna. När du gör dina val visas hur alternativen ska se ut på panelen Förhandsvisa.
+Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]** om du vill komma åt formatinställningarna. Se till att du väljer **[!UICONTROL Save]** för att spara inställningarna när du har gjort dem. Du kan välja **[!UICONTROL Restore]** om du vill återställa standardinställningarna. När du gör dina val visas hur de visas på panelen Förhandsvisa.
 
-* **Logotyp** - Klicka  **[!UICONTROL Browse]** och välj en bild i fönstret Välj logotypbild.
+* **[!UICONTROL Logo]** - Markera  **[!UICONTROL Browse]** och välj sedan en bild i fönstret Välj logotypbild.
 
-* **Program**  - Skapa en övertoningsfärgblandning genom att göra val på menyerna Bakgrundsövertoningsfärger.
+* **[!UICONTROL Application]** - Skapa en övertoningsfärgblandning genom att göra val på menyerna Bakgrundsövertoningsfärger.
 
-* **Träd**  - Välj en överrullningsfärg (den färg som visas när du flyttar pekaren över ett objekt) och en markeringsfärg (den färg som visas när du markerar ett objekt).
+* **[!UICONTROL Tree]** - Välj en överrullningsfärg (den färg som visas när du flyttar pekaren över ett objekt) och en markeringsfärg (den färg som visas när du markerar ett objekt).
 
-* **Dragspelspanel**  - Välj bakgrundsfärger, en kantlinjestil samt överrullning och valda färger för dragspelsbilden som visas på skärmens högra sida i detaljvyn.
+* **[!UICONTROL Accordion]** - Välj bakgrundsfärger, kantlinjeformat, överrullning och valda färger för dragspelet som visas på skärmens högra sida i detaljvyn.
 
-* **Dragspelsrubrik**  - Välj om du vill skapa text i dragspelsrubrikens fetstil.
+* **[!UICONTROL Accordion Header]** - Välj om du vill skapa text i dragspelsrubrikens fetstil.
 
-* **Datagrid**  - Välj färger för rubrikraden i datarutnät.
+* **[!UICONTROL Datagrid]** - Välj färger för rubrikraden i datarutnätet.
 
-* **Varning**  - Välj en bakgrundsfärg för varningsmeddelanderutor.
+* **[!UICONTROL Alert]** - Välj en bakgrundsfärg för varningsmeddelanderutor.
 
-* **Förloppsindikator**  - Välj en färg för fältet som anger förloppet för överföringar och hämtningar.
+* **[!UICONTROL Progress Bar]** - Välj en färg för fältet som anger förloppet för överföringar och nedladdningar.
 
 För att Media Portal-användare ska kunna se de formatinställningar som du har valt måste de lägga till `?company=(company name)` till den URL som de kommer åt Media Portal med. Om du till exempel vill se formatinställningar kan du använda Media Portal-användare som har åtkomst till portalföretaget på följande plats:
 
