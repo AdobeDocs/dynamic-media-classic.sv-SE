@@ -1,6 +1,6 @@
 ---
 title: Skapa och aktivera bildförinställningar
-description: Lär dig hur du skapar och aktiverar bildförinställningar.
+description: Lär dig hur du skapar och aktiverar bildförinställningar i Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Samarbete,Bildförinställningar,Resurshantering
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Administratörer för Media Portal kan skapa bildförinställningar som styr hur
 
 Följande begränsningar gäller när du exporterar bildresurser:
 
-* Bredden x höjden måste vara mindre än eller lika med 100 MB per bild. Bilden får t.ex. inte överstiga 10K x 10K eller någon bildvariation under, t.ex. 8K x 12K.
+* Bredden x höjden måste vara mindre än eller lika med 100 MB per bild. Bilden får t.ex. inte överstiga 10 K x 10 K eller någon bildvariation under, t.ex. 8 K x 12 K.
 * Det finns högst 1 GB total filstorlek per exportjobb.
 * Du kan ha maximalt 500 totala resurser per exportjobb.
 
