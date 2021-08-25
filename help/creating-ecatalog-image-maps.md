@@ -1,6 +1,6 @@
 ---
-title: Skapa bildkartor för eCatalog
-description: Lär dig hur du skapar eCatalog-bildscheman.
+title: Skapa eCatalog-bildscheman
+description: Lär dig hur du skapar eCatalog-bildscheman i Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Visningsprogram,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
 
-# Skapa bildkartor för eCatalog{#creating-ecatalog-image-maps}
+# Skapa eCatalog-bildscheman{#creating-ecatalog-image-maps}
 
 En bildschema är ett område på en eCatalog-sida som du kan rulla över med musen eller välja att aktivera åtgärder av olika slag. När du till exempel flyttar pekaren över ett bildschema visas en beskrivning av ett objekts överrullningstext. När du väljer en bildschema initieras en annan åtgärd. Du kan till exempel öppna en webbsida så att tittarna kan lära sig mer om ett objekt eller köpa det, eller så kan du starta en video för att se ett objekt som används.
 
@@ -41,12 +41,12 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
 
    Om du vill göra det enklare att ange URL:er (Href-mallar) väljer du **[!UICONTROL Edit]** och anger en mall.
 
-Se [Använda en mall för att ange JavaScript och URL:er](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
+Se [Använd en mall för att ange JavaScript och URL:er](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
 1. (Valfritt) Välj **[!UICONTROL Rollover Text]** i listrutan Visa och ange sedan den text som du vill att användarna ska se på skärmen när de flyttar pekarna över bildschemat.
 1. (Valfritt) I listrutan Visa väljer du **[!UICONTROL Other Actions]** och anger ett attribut som utlöser en oskärpa eller fokusåtgärd när användarna flyttar pekarna över en bildschema.
 
-   Se [Definiera andra åtgärder för bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
+   Se [Definiera andra åtgärder för Bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. Välj **[!UICONTROL Save]**.
 1. (Valfritt) Välj **[!UICONTROL Preview]** om du vill visa e-katalogen med standardförinställningen för eCatalog Viewer.
@@ -75,7 +75,7 @@ Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildsche
 
 Använd följande tekniker för att redigera eCatalog-bildscheman från och med på fliken Kartsidor i eCatalog-skärmen:
 
-* **Justera positionen** - Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhörig pil drar du hela bildschemat till en ny plats.
+* **Justera positionen**  - Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhörig pil drar du hela bildschemat till en ny plats.
 
    Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -99,7 +99,7 @@ Använd följande tekniker för att redigera eCatalog-bildscheman från och med 
 >
 >Förutom att kopiera bildscheman till olika sidor i en e-katalog kan du kopiera alla bildscheman i en e-katalog till en annan e-katalog. Se [Kopiera bildscheman mellan eCatalogs](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
-## Granska och importera bildkartsdata {#reviewing-and-importing-image-map-data}
+## Granska och importera data från bildschemat {#reviewing-and-importing-image-map-data}
 
 Skärmen Kartsammanfattning innehåller metadata om din eCatalog. Du kan också batchimportera bildschemadata för din eCatalog med början på skärmen Kartsammanfattning. Om du importerar data från bildschemat på det här sättet blir det enklare att ange URL:er för bildschema och överrullningstext.
 
