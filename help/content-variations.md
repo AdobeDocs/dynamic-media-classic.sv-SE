@@ -1,6 +1,6 @@
 ---
 title: Hantera innehållsvariationer
-description: Lär dig hantera innehållsvariationer.
+description: Lär dig hur du hanterar innehållsvariationer i Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,10 @@ Universella URL:er används för att visa mallvariationen som visas på sidan, b
 
 Du kan använda valfri URL för bildförinställningar i listan. URL:er för bildförinställningar fungerar som universella URL:er. Det kan finnas mer än en URL för bildförinställning.
 
-1. Klicka på **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**. Byggaren öppnas.
-1. Välj en mall och klicka sedan på **[!UICONTROL Add/Preview]**.
-1. Ändra mallegenskaperna och klicka på **[!UICONTROL Save As]** för att skapa en annan version.
-1. Skriv ett namn och klicka på **[!UICONTROL Save]**.
+1. Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
+1. Välj en mall i verktyget och välj sedan **[!UICONTROL Add/Preview]**.
+1. Ändra mallegenskaperna och välj **[!UICONTROL Save As]** om du vill skapa en annan version.
+1. Skriv ett namn och välj sedan **[!UICONTROL Save]**.
 
    Både resursen och mallen måste publiceras.
 
