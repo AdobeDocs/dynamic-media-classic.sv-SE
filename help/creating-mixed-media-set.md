@@ -1,17 +1,17 @@
 ---
 title: Skapa en blandad medieuppsättning
-description: Lär dig hur du skapar en uppsättning med blandade media.
+description: Lär dig hur du skapar en uppsättning med blandade media i Dynamic Media Classic.
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic,visningsprogram,blandade medieuppsättningar
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 5f7e0c821dc2a34170e811157c9e689370d36d21
+source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Skapa en blandad medieuppsättning när du vill kombinera flera typer av visning
 När du skapar en uppsättning påverkar alternativet **Publicera efter spara** uppsättningen och anger medlemmar på följande sätt:
 
 | Alternativet Publicera efter spara är markerat innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
-|--- |--- |--- |
+| --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
 
@@ -35,7 +35,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
 **Så här skapar du en blandad medieuppsättning:**
 
-1. Klicka på **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**.
+1. Gå till **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]**.
 1. Dra videoklipp, bilduppsättningar, snurruppsättningar och färgrutor från resursbiblioteket till skärmen med blandade medieuppsättningar.
 
    >[!NOTE]
@@ -49,9 +49,11 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
    * (Valfritt) Om du vill lägga till en anpassad miniatyrbild som representerar en video i visningsprogrammet drar du en bildfil från resursbiblioteket till platshållarrutan för miniatyrbilder.
 
 1. Kontrollera att **[!UICONTROL Publish after save]** är markerat (standard) nära sidans nedre högra hörn.
-1. Klicka på **[!UICONTROL Save]**, välj en mapp för lagring av den blandade medieuppsättningen, ange ett namn för uppsättningen och klicka på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**.
+1. Välj en mapp för lagring av den blandade medieuppsättningen och ange sedan ett namn för uppsättningen.
+1. Välj **[!UICONTROL Save]**.
 
-   Klicka på **[!UICONTROL Preview]** om du vill se hur din kombinationsbilduppsättning ser ut i ett visningsprogram.
+   Välj **[!UICONTROL Preview]** om du vill se hur din kombinationsbilduppsättning ser ut i ett visningsprogram.
 
 ## Redigera en blandad medieuppsättning {#edit-a-mixed-media-set}
 
@@ -59,8 +61,8 @@ Du kan redigera en uppsättning med blandade media. Om du vill redigera en upps�
 
 Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **[!UICONTROL Publish after save]** uppsättningen och anger medlemmar på följande sätt:
 
-| Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
-|--- |--- |--- |--- |
+| Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| --- |--- |--- |--- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
 | Nej | Ja | Publicerad | Publicerad |
@@ -70,14 +72,14 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
 **Så här redigerar du en blandad medieuppsättning:**
 
-1. Klicka på knappen för överrullning **[!UICONTROL Edit]** för den blandade medieuppsättningen.
+1. Välj knappen för överrullning **[!UICONTROL Edit]** för den blandade medieuppsättningen.
 1. Gör något av följande:
 
-   * Om du vill ta bort objekt markerar du dem och klickar på **[!UICONTROL Delete]**.
+   * Om du vill ta bort objekt markerar du dem och väljer **[!UICONTROL Delete]**.
    * Om du vill ordna om objekt drar du dem till nya platser.
 
 1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **[!UICONTROL Publish after save]** är markerat (standard).
-1. Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
+1. Välj **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
 
 ## Ta bort en blandad medieuppsättning {#deleting-a-mixed-media-set}
 
@@ -88,4 +90,4 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 **Så här tar du bort en blandad medieuppsättning:**
 
 1. I Stödrastervisning, listvy eller detaljvy väljer du en eller flera blandade medieuppsättningar.
-1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]** i det globala navigeringsfältet.
+1. I det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
