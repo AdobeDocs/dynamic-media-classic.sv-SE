@@ -1,6 +1,6 @@
 ---
 title: Skapa en erbjudandeuppsättning
-description: Lär dig hur du skapar ett erbjudande i Dynamic Media Classic.
+description: Lär dig hur du skapar ett erbjudande i Adobe Dynamic Media Classic.
 uuid: 6d6a4af9-70c0-4cfa-9a8f-855d6adfcc8f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Du kan skapa följande typer av erbjudandeuppsättningar:
 
 För mallar väljer du **[!UICONTROL Add and Preview]** och anger sedan de parametrar du väljer. De andra erbjudandetyperna innehåller inga parametrar, men du kan fortfarande anpassa dem genom att välja **[!UICONTROL Preview]** och ändra de tillgängliga förinställningarna.
 
-I Dynamic Media Classic finns verktyg för redigering och för att skapa erbjudanden.
+Adobe Dynamic Media Classic har verktyg för redigering och för att skapa erbjudanden.
 
 >[!NOTE]
 >
->Innan du skapar en erbjudandeuppsättning måste du publicera alla resurser som du vill använda för uppsättningen till Dynamic Media Classic. Se [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
+>Innan du skapar en uppsättning med erbjudanden måste du publicera alla resurser som du vill använda för uppsättningen till Adobe Dynamic Media Classic. Se [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 ## Olika typer av uppsättningar erbjudanden {#types-of-offer-sets}
 
@@ -39,7 +39,7 @@ Skapa en erbjudandeuppsättning av följande typer av erbjudanden:
 
 * **Bilder**  - Du kan sätta ihop bilder för en uppsättning erbjudanden. Varje bild har ett eget erbjudande.
 
-* **Bildmall**  - Du kan parametrisera bildmallar i Dynamic Media Classic med kommandot Skapa > Mallgrunder. Med hjälp av parametrar kan mallkomponenter - texten i textramar och de olika bilderna - bytas ut och anpassas. För en erbjudandeuppsättning kan du till exempel använda mallparametrar för att skapa varianter på samma bild i din erbjudandeuppsättning. Mer information om hur du skapar och parametriserar bildmallar finns i Skapa mallparametrar.
+* **Bildmall**  - Du kan parametrisera bildmallar i Adobe Dynamic Media Classic med kommandot Skapa > Mallgrunder. Med hjälp av parametrar kan mallkomponenter - texten i textramar och de olika bilderna - bytas ut och anpassas. För en erbjudandeuppsättning kan du till exempel använda mallparametrar för att skapa varianter på samma bild i din erbjudandeuppsättning. Mer information om hur du skapar och parametriserar bildmallar finns i Skapa mallparametrar.
 
 * **Video**  - Du kan sammanställa video för en uppsättning erbjudanden. Varje video är ett separat erbjudande i uppsättningen.
 
@@ -122,7 +122,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
 **Så här redigerar du en erbjudandeuppsättning:**
 
-1. Om du vill redigera en erbjudandeuppsättning visar du erbjudandeuppsättningen i stödrastervyn eller listvyn och väljer sedan dess **[!UICONTROL Edit]**-överrullningsknapp.
+1. Om du vill redigera en erbjudandeuppsättning visar du erbjudandeuppsättningen i Stödrastervisning eller listvy och väljer sedan dess **[!UICONTROL Edit]**-överrullningsknapp.
 1. Gör något av följande på sidan Test&amp;Target Offer Set:
 
    * **Ta bort ett erbjudande** - Välj erbjudandet och välj sedan  **[!UICONTROL Delete]** för att ta bort ett erbjudande från uppsättningen.
@@ -132,7 +132,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
    >[!NOTE]
    >
-   >Du kan inte ta bort en erbjudandeuppsättning som är associerad med en kampanj. Om du vill ta bort en erbjudandeuppsättning som är associerad med en kampanj loggar du in på Adobe Target Standard/Premium och tar bort kampanjassociationerna först. Även om du avassocierar från en kampanj kan resursen bara tas bort från Dynamic Media Classic, vilket kräver en inloggning till Adobe Target Standard/Premium, och inte från Adobe Target Standard/Premium.
+   >Du kan inte ta bort en erbjudandeuppsättning som är associerad med en kampanj. Om du vill ta bort en erbjudandeuppsättning som är associerad med en kampanj loggar du in på Adobe Target Standard/Premium och tar bort kampanjassociationerna först. Även om du avassocierar från en kampanj kan resursen bara tas bort från Adobe Dynamic Media Classic, vilket kräver en inloggning till Adobe Target Standard/Premium, och inte från Adobe Target Standard/Premium.
 
 1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, kontrollerar du att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och välj sedan **[!UICONTROL Save]**.

@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
 
 # Testa resurser innan du gör dem offentliga {#testing-assets-before-making-them-public}
 
-Säker testning hjälper er att definiera en säker testmiljö och bygga en robust B2B-lösning som bygger på en konfigurerbar uppsättning IP-adresser och intervall. Med den här funktionen kan du matcha dina Dynamic Media Classic-distributioner med arkitekturen i innehållshanteringen och affärssystemet.
+Säker testning hjälper er att definiera en säker testmiljö och bygga en robust B2B-lösning som bygger på en konfigurerbar uppsättning IP-adresser och intervall. Med den här funktionen kan du matcha dina Adobe Dynamic Media Classic-distributioner med arkitekturen i ditt innehållshantering och affärssystem.
 
 Med Säker testning kan du förhandsgranska testversionen av webbplatsen med opublicerat innehåll.
 
@@ -31,7 +31,7 @@ Om du vill kan du skapa en staging-miljö i stället för att göra resurserna a
 
 >[!NOTE]
 >
->Säker testning påverkar inte åtkomsten till Dynamic Media Classic. Dynamic Media Classic-säkerhet är konsekvent och kräver de vanliga inloggningsuppgifterna för åtkomst till Dynamic Media Classic och relaterade webbtjänster.
+>Säker testning påverkar inte åtkomsten till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic-säkerhet är konsekvent och kräver de vanliga inloggningsuppgifterna för åtkomst till Adobe Dynamic Media Classic och relaterade webbtjänster.
 
 ## Så här fungerar säkra tester {#how-secure-testing-works}
 
@@ -39,7 +39,7 @@ De flesta företag använder internet bakom en brandvägg. Tillgång till Intern
 
 Från ditt företagsnätverk kan du ta reda på din offentliga IP-adress med hjälp av webbplatser som https://whatismyip.com eller begära den här informationen från din IT-organisation.
 
-Med Secure Testing skapar Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna program. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Dynamic Media Classic Company Administrator konfigurerar den godkända listan över IP-adresser för företagets säkra testmiljö.
+Med Secure Testing skapar Adobe Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna program. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Adobe Dynamic Media Classic-företagsadministratören konfigurerar den godkända listan över IP-adresser för företagets säkra testmiljö.
 
 Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, t.ex. offentlig Dynamic Media Image Server-trafik. Begäranden till tjänsten för säker testning har en något högre fördröjning än de offentliga Dynamic Media Image-servrarna.
 
@@ -47,7 +47,7 @@ Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker
 
 >[!NOTE]
 >
->Tjänster för säker testning använder katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning blir därför alla överförda resurser i Dynamic Media Classic omedelbart tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring.
+>Tjänster för säker testning använder katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning blir därför alla överförda resurser i Adobe Dynamic Media Classic omedelbart tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring.
 
 Tjänster för säker testning stöder för närvarande följande resurstyper och funktioner:
 
@@ -65,8 +65,8 @@ Last Modified Date:
 * Vinjetter (renderingsserverbegäranden).
 * Rendera serverförfrågningar (stöds, men måste begäras uttryckligen av kunden).
 * Uppsättningar, inklusive bilduppsättningar, eCatalog, renderingsuppsättningar och medieuppsättningar.
-* Dynamic Media Classic-visningsprogram för multimedia som standard.
-* Dynamic Media Classic OnDemand JSP-sidor.
+* Adobe Dynamic Media Classic-multimedievisningsprogram som standard.
+* Adobe Dynamic Media Classic OnDemand JSP-sidor.
 * Statiskt innehåll, till exempel PDF-filer och progressivt levererade videor.
 * HTTP-videoströmning.
 * Progressiv videoströmning.
@@ -76,7 +76,7 @@ Följande tillgångstyper och funktioner stöds för närvarande inte:
 * RTMP-videoströmning
 * UGC-tjänster
 * Webb-till-tryck
-* Dynamic Media Classic Info eller eCatalog-sökning
+* Adobe Dynamic Media Classic Info eller eCatalog Search
 
 ## Testa tjänsten Secure Testing {#testing-the-secure-testing-service}
 
@@ -99,7 +99,7 @@ Last Modified Date:
  -->
 
 1. Kontakta Adobe kundtjänst och begär att de aktiverar säker testning på ditt konto.
-1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** i fältet Global Navigation.
+1. I Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** i fältet Global Navigation.
 1. Välj **[!UICONTROL Test Image Serving]** i listrutan **[!UICONTROL Publish Context]** på sidan Image Server Publish.
 1. Klicka på **[!UICONTROL Add]** som klientadressfilter.
 1. Markera kryssrutan så att adressen är aktiverad (påslagen) och skriv sedan en IP-adress och nätmask i respektive textfält.
@@ -112,7 +112,7 @@ Last Modified Date:
    * Upprepa de två föregående stegen om du måste lägga till fler IP-adresser.
    * Fortsätt till nästa steg.
 1. Klicka på **[!UICONTROL Save]** längst ned till vänster på sidan Image Server Publish
-1. Överför bilderna till ditt Dynamic Media Classic-konto.
+1. Överför bilderna till ditt Adobe Dynamic Media Classic-konto.
 
    Se [Överföra filer](uploading-files.md#uploading_files).
 
@@ -129,7 +129,7 @@ Kontakta Adobe Care om servernamnet saknas eller om URL:erna till inte fungerar.
 
 Du behöver två varianter av en webbplats som länkar de publicerade och opublicerade resurserna:
 
-* Offentlig version - Länka resurser med din vanliga Dynamic Media Classic URL-syntax.
+* Offentlig version - Länka resurser med din vanliga Adobe Dynamic Media Classic-URL-syntax.
 * Mellanlagringsversion - Länka resurser med samma syntax men med namnet på platsen för säker testning.
 
 ### Kör testerna
@@ -140,7 +140,7 @@ Utför följande tester:
 
    I företagsnätverket som identifieras av det tidigare definierade IP-adressintervallet visar mellanlagringsversionen av webbplatsen alla bilder, oavsett om de är markerade för publicering eller inte. Därför kan du testa utan att oavsiktligt göra bilder tillgängliga innan du förhandsgranskar eller startar produkten.
 
-   Bekräfta att den offentliga versionen av din webbplats visar publicerade resurser så som de har varit i Dynamic Media Classic tidigare.
+   Bekräfta att den offentliga versionen av din webbplats visar publicerade resurser så som de har varit i Adobe Dynamic Media Classic tidigare.
 
 1. Verifiera att icke-publicerade resurser (dvs. omärkta för publicering) är skyddade från åtkomst från tredje part utanför företagets nätverk.
 

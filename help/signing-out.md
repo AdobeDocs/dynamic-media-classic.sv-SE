@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Logga in på Adobe Dynamic Media Classic {#dmc-sign-in}
 
-Kontrollera att du har följande innan du använder Dynamic Media Classic:
+Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic:
 
 * **Användarnamn**  - Du använder din e-postadress som inloggningsnamn.
 
-* **Lösenord** - Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Dynamic Media Classic eller från en Dynamic Media Classic-administratör. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
+* **Lösenord** - Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Adobe Dynamic Media Classic eller från Adobe Dynamic Media Classic-administratören. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
 
 1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
 
-   ![Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
 
 1. Ange din e-postadress i fältet **[!UICONTROL User Name]**.
 1. Skriv lösenordet i fältet **[!UICONTROL Password]**.
@@ -44,7 +44,7 @@ Använd följande mappning för att välja den produktionsmiljö som du vill anv
 
 ## Logga ut från Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. I det övre högra hörnet av Dynamic Media Classic-datorprogrammet trycker du på **[!UICONTROL Sign out]** och sedan på **[!UICONTROL Sign out]** igen.
+1. I det övre högra hörnet av Adobe Dynamic Media Classic-datorprogrammet trycker du på **[!UICONTROL Sign out]** och sedan på **[!UICONTROL Sign out]** igen.
 
 >[!MORELIKETHIS]
 >

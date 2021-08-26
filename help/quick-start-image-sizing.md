@@ -7,37 +7,37 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
 
 # Snabbstart: Bildstorlek{#quick-start-image-sizing}
 
-Bildstorlek avser möjligheten att i Dynamic Media Classic skapa flera bearbetade bilder baserade på en enda högupplöst bild. I stället för att manuellt skapa flera bilder - t.ex. en miniatyrbild och en förstorad bild - för webbplatsen eller programmet kan du skapa en enda överordnad bild. I Dynamic Media Classic skapas alla ändrade bilder precis som du vill ha dem. Att kunna leverera bilder dynamiskt från en enda överordnad bild har många fördelar:
+Bildstorlek avser möjligheten för Adobe Dynamic Media Classic att skapa flera bearbetade bilder baserade på en enda högupplöst bild. I stället för att manuellt skapa flera bilder - t.ex. en miniatyrbild och en förstorad bild - för webbplatsen eller programmet kan du skapa en enda överordnad bild. Adobe Dynamic Media Classic genererar alla ändrade bilder precis som du vill ha dem. Att kunna leverera bilder dynamiskt från en enda överordnad bild har många fördelar:
 
-* Du behöver inte skapa flera kopior av bilden manuellt i olika storlekar. Du ger en överordnad bild till Dynamic Media Classic, och Dynamic Media Classic genererar derivat i olika storlekar från den överordnad bilden.
+* Du behöver inte skapa flera kopior av bilden manuellt i olika storlekar. Du ger en överordnad bild till Adobe Dynamic Media Classic, och Adobe Dynamic Media Classic genererar derivat i olika storlekar från den överordnad bilden.
 * Du kan snabbt ändra storlek på en bildtyp på hela webbplatsen eller i programmet. Om du till exempel vill ändra alla miniatyrbilder kan du ändra bildförinställningen&quot;miniatyrbild&quot;. En bildförinställning, som liknar ett makro, är en samling med storleks- och formateringsattribut. Du kan ändra bildförinställningen &quot;miniatyrbild&quot; om du vill ändra storleken på alla miniatyrbilder på hela webbplatsen eller i programmet.
 * Ni behöver inte hantera mallarna och alla olika derivat i ert innehålls- eller resurshanteringssystem internt eller externt.
 
 ![Du kan skapa flera variantbilder med olika storlek från samma högupplösta överordnad fil.](/help/assets/is_derivative_sizes_popup.png)
 
-Den här snabbstarten för bildstorlekar är utformad för att hjälpa dig att komma igång snabbt med tekniker för bildstorlek i Dynamic Media Classic. Följ steg 1-5. Efter varje steg finns en korsreferens där du kan hitta mer information om det behövs.
+Den här snabbstarten för bildstorlek är utformad för att hjälpa dig att komma igång snabbt med hjälp av tekniker för bildstorlek i Adobe Dynamic Media Classic. Följ steg 1-5. Efter varje steg finns en korsreferens där du kan hitta mer information om det behövs.
 
 ## 1. Överför överordnad bilder
 
-Börja med att ladda upp dina överordnad bilder till Dynamic Media Classic. När det gäller storlek rekommenderar Dynamic Media Classic att du använder bilder med den största storlek som du förväntar dig på din webbplats eller i ditt program. Om du till exempel vill att tittarna ska zooma bilder överför du bilder som är minst 2 000 pixlar stora. Dynamic Media Classic stöder många bildfilsformat, men förlustfria TIFF- och PNG-bilder rekommenderas.
+Börja med att ladda upp dina överordnad bilder till Adobe Dynamic Media Classic. När det gäller storlek rekommenderar Adobe Dynamic Media Classic att du använder bilder som är den största storlek som du förväntar dig på din webbplats eller i ditt program. Om du till exempel vill att tittarna ska zooma bilder överför du bilder som är minst 2 000 pixlar stora. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF- och PNG-bilder rekommenderas.
 
-Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att överföra filer från datorn till en mapp i Dynamic Media Classic. Se [Överföra överordnad bilder](uploading-master-images.md#uploading_master_images).
+Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att överföra filer från datorn till en mapp i Adobe Dynamic Media Classic. Se [Överföra överordnad bilder](uploading-master-images.md#uploading_master_images).
 
 ## 2. Konfigurera bildförinställningar
 
-Precis som ett makro är en bildförinställning en samling fördefinierade storlekar och formateringskommandon som sparas under ett namn. En bildförinställning styr storleken och formateringen som bilder levereras med från Dynamic Media bildservrar. Om du har företagsadministratörsstatus kan du konfigurera bildförinställningar på egen hand. Dynamic Media Classic innehåller även standardförinställningar för bilder, och du kan använda dem för att dynamiskt leverera bilder.
+Precis som ett makro är en bildförinställning en samling fördefinierade storlekar och formateringskommandon som sparas under ett namn. En bildförinställning styr storleken och formateringen som bilder levereras med från Dynamic Media bildservrar. Om du har företagsadministratörsstatus kan du konfigurera bildförinställningar på egen hand. Adobe Dynamic Media Classic innehåller också standardförinställningar för bilder, och du kan använda dem för att dynamiskt leverera bilder.
 
 Om du vill skapa en bildförinställning (om du är administratör) klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Image Presets]** i fältet Global navigering. Klicka sedan på **[!UICONTROL Add]** om du vill skapa en bildförinställning eller klicka på **[!UICONTROL Edit]** om du vill ändra en befintlig bildförinställning.
 
@@ -58,12 +58,12 @@ Se [Förhandsgranska en bildresurs baserat på bildförinställningen](previewin
 Publicera dina överordnad bildfiler i två viktiga syften:
 
 * Publicera dina överordnad bilder på Dynamic Media Image Servers så att bilderna dynamiskt kan levereras till din webbplats och tillämpning.
-* När du publicerar aktiveras URL-strängarna för att anropa bilder från Dynamic Media Image Servers till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera de Dynamic Media Classic-genererade URL:erna där det behövs på webbplatsen eller i programmet.
+* När du publicerar aktiveras URL-strängarna för att anropa bilder från Dynamic Media Image Servers till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera URL:er som genererats av Adobe Dynamic Media Classic där det behövs på webbplatsen eller i programmet.
 
 Klicka på **[!UICONTROL Publish]** i fältet Global navigering för att starta ett publiceringsjobb. Klicka på **[!UICONTROL Submit Publish]** i dialogrutan Publicera. Se [Publicera överordnad bilder](publishing-master-images.md#publishing_master_images).
 
 ## 5. Länka URL:er till webbprogrammet
 
-Dynamic Media Classic skapar URL-bildtextsträngar för bilder. När du publicerar bilder till Dynamic Media Image Servers (Image-servrar) aktiveras URL:erna. Du kan kopiera dessa URL-strängar från panelen Bläddra (i detaljvyn) eller förhandsgranskningsskärmen. När du har kopierat URL-strängarna kan du använda dem på din webbplats och i dina program. URL:en för bildstorlek ersätter referensen till ett statiskt bildnamn i webbsideskoden. URL:en refererar till ett överordnad bildnamn som ersätts av databasen för varje ny bild som ska visas.
+Adobe Dynamic Media Classic skapar URL-bildtextsträngar för bilder. När du publicerar bilder till Dynamic Media Image Servers (Image-servrar) aktiveras URL:erna. Du kan kopiera dessa URL-strängar från panelen Bläddra (i detaljvyn) eller förhandsgranskningsskärmen. När du har kopierat URL-strängarna kan du använda dem på din webbplats och i dina program. URL:en för bildstorlek ersätter referensen till ett statiskt bildnamn i webbsideskoden. URL:en refererar till ett överordnad bildnamn som ersätts av databasen för varje ny bild som ska visas.
 
 URL-strängar som skapas med bildförinställningar innehåller namnet på en bildförinställning. Namnet omges av dollartecken (`$`). `$thumbnail$` kan t.ex. vara den förinställda bilden som är utformad för att visa överordnad bilder i miniatyrstorlek. Se [Länka URL:er till ditt webbprogram](linking-urls-web-application.md#linking_urls_to_your_web_application).

@@ -1,6 +1,6 @@
 ---
 title: Beskära en bild
-description: Lär dig beskära en bild i Dynamic Media Classic.
+description: Lär dig beskära en bild i Adobe Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
 
 # Beskära en bild{#cropping-an-image}
 
-Du kan beskära bilder i Dynamic Media Classic. Systemet sparar information om beskurna bilder så att du kan återställa dem till ursprungligt läge. Du kan också beskära en bild och spara den beskurna versionen under ett nytt namn.
+Du kan beskära bilder i Adobe Dynamic Media Classic. Systemet sparar information om beskurna bilder så att du kan återställa dem till ursprungligt läge. Du kan också beskära en bild och spara den beskurna versionen under ett nytt namn.
 
 Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära ett område i bilden.
 
@@ -31,7 +31,7 @@ Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära et
 
 Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant.
 
-1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer sedan **[!UICONTROL Crop]** eller visar den i panelen Bläddra i vyn Detalj och väljer knappen **[!UICONTROL Crop]**.
+1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer sedan **[!UICONTROL Crop]** eller visar den i panelen Bläddra i detaljvyn och väljer knappen **[!UICONTROL Crop]**.
 1. Gör något av följande på sidan Beskärningsredigerare:
 
    * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Välj menyn **[!UICONTROL Corner]** i dialogrutan **[!UICONTROL Auto Crop By Color]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]**-inställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
@@ -45,7 +45,7 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 
 ## Markera ett område att beskära {#select-an-area-to-crop}
 
-1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]** eller visar den i panelen Bläddra i vyn Detalj och väljer **[!UICONTROL Crop]**.
+1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]** eller visar den i panelen Bläddra i detaljvyn och väljer **[!UICONTROL Crop]**.
 
 1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Vad som än visas i rutan är vad som återstår efter att du har valt **[!UICONTROL Save]** och beskär bilden.
 1. Justera beskärningsområdet genom att göra något av följande:

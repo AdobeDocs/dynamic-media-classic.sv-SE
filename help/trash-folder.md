@@ -7,39 +7,39 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
 
 # Hantera papperskorgen{#managing-the-trash-folder}
 
-Objekt som du tar bort från Dynamic Media Classic flyttas till papperskorgen. De borttagna filerna finns kvar i mappen i sju dagar tills de återställs eller tas bort permanent. Du kan granska borttagna objekt genom att klicka på ikonen **[!UICONTROL Trash]** längst ned i resursbiblioteket och visa objekt på papperskorgsmappens sida.
+Objekt som du tar bort från Adobe Dynamic Media Classic flyttas till papperskorgen. De borttagna filerna finns kvar i mappen i sju dagar tills de återställs eller tas bort permanent. Du kan granska borttagna objekt genom att klicka på ikonen **[!UICONTROL Trash]** längst ned i resursbiblioteket och visa objekt på papperskorgsmappens sida.
 
 Alla användare kan återställa objekt i papperskorgen till de mappar som de togs bort från. Alla användare kan också tömma papperskorgen på allt innehåll.
 
-Om du tar bort objekt från papperskorgen tas objekt bort permanent från Dynamic Media Classic; objekt som tas bort från papperskorgen kan inte längre återställas. Mer information om hur du konfigurerar meddelanden för företagsadministratörer när resurser ska tas bort automatiskt från papperskorgen finns i [Allmänna inställningar för program](application-setup.md#general_settings).
+Om du tar bort objekt från papperskorgen tas objekt bort permanent från Adobe Dynamic Media Classic; objekt som tas bort från papperskorgen kan inte längre återställas. Mer information om hur du konfigurerar meddelanden för företagsadministratörer när resurser ska tas bort automatiskt från papperskorgen finns i [Allmänna inställningar för program](application-setup.md#general_settings).
 
 >[!NOTE]
 >
->Resurser som har flyttats till papperskorgen är fortfarande registrerade i Dynamic Media Classic. Om du försöker överföra en fil som har samma namn som en borttagen fil i papperskorgen, behandlas den resurs som du vill överföra som en dubblettresurs i Dynamic Media Classic. Därför läggs ett tal till efter namnet.
+>Resurser som har flyttats till papperskorgen registreras fortfarande i Adobe Dynamic Media Classic. Om du försöker överföra en fil som har samma namn som en borttagen fil i papperskorgen behandlas den resurs du vill överföra som en dubblettresurs i Adobe Dynamic Media Classic. Därför läggs ett tal till efter namnet.
 
 ## Om papperskorgen {#about-the-trash-folder}
 
 Om du tar bort ett objekt i en mapp placeras objektet i papperskorgen. Följande händer när du tar bort ett objekt och flyttar det till papperskorgen:
 
-* Objektet har tagits bort från dina Dynamic Media Classic-mappar, men det går inte att tilldela ett annat objekt dess ID medan det finns kvar i papperskorgen. Om du försöker överföra en resurs med samma namn som en fil i papperskorgen lägger Dynamic Media Classic till en siffra i resursens namn.
+* Objektet har tagits bort från dina Adobe Dynamic Media Classic-mappar, men det går inte att tilldela ett annat objekt dess ID medan det finns kvar i papperskorgen. Om du försöker överföra en resurs med samma namn som en fil i papperskorgen lägger Adobe Dynamic Media Classic till en siffra i resursens namn.
 * Objektet kan inte publiceras. Även om objektet markerades för publicering när du tog bort det publiceras det inte.
 * Objektet finns kvar i papperskorgen tills det återställs, sju dagar framåt eller någon väljer kommandot **[!UICONTROL Empty the Trash]**. Efter sju dagar tas objektet bort permanent vid en automatisk rensning.
 
 ## Återställa resurser från papperskorgen {#restoring-assets-from-the-trash-folder}
 
-Den som tagit bort en resurs behöver inte återställa den. alla kan återställa resurser från papperskorgen. Resurser som återställs placeras i de mappar som de har tagits bort från. Om de här mapparna inte längre finns återskapas de av Dynamic Media Classic och de återställda resurserna placeras i mapparna som du har skapat igen.
+Den som tagit bort en resurs behöver inte återställa den. alla kan återställa resurser från papperskorgen. Resurser som återställs placeras i de mappar som de har tagits bort från. Om mapparna inte längre finns återskapas de i Adobe Dynamic Media Classic och de återställda resurserna placeras i mapparna som du har skapat igen.
 
 Så här återställer du resurser från papperskorgen till de mappar som de togs bort från:
 

@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,visningsprogram,blandade medieuppsättningar
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # Publicera en blandad medieuppsättning{#publishing-a-mixed-media-set}
 
-Skapa ett publiceringsjobb för att publicera en uppsättning med blandade media som du har markerat för publicering på Dynamic Media Classic Video Server och Image Server. Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
+Skapa ett publiceringsjobb för att publicera en uppsättning med blandade media som du har markerat för publicering på Adobe Dynamic Media Classic Video Server och Image Server. Adobe Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
 
 >[!NOTE]
 >
 >Blandade medieuppsättningar kräver att du publicerar till **videoserver** och även till **bildserver**. Du använder **Videoserver** för att publicera de faktiska videoklipp som du har markerat för publicering. Du kan också använda **bildserver** för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.
 
-Dynamic Media Classic spårar publiceringsjobb på jobbskärmen.
+Adobe Dynamic Media Classic spårar publiceringsjobb på jobbskärmen.
 
 Se [Publicera](publishing-files.md#publishing_files).
 

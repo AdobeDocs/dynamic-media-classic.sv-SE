@@ -1,6 +1,6 @@
 ---
 title: Hämta information om diskanvändning
-description: Lär dig hur du hämtar information om diskanvändning.
+description: Läs om hur du får information om diskanvändning i Adobe Dynamic Media Classic.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '90'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Ett exempelsvar ser ut så här:
 Du kan använda följande fält i URL-frågesträngen för att få information om diskanvändning:
 
 | URL-parameter | Obligatoriskt/valfritt | Värde |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obligatoriskt | disk_info |
 | shared_secrets | Obligatoriskt | Den delade hemliga nyckeln för företaget |
 

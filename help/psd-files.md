@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 <!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
 
-PSD (Photoshop Document Files) används oftast i Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en Dynamic Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på skärmen Överför).
+PSD (Photoshop Document Files) används oftast i Adobe Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en Adobe Dynamic Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på överföringsskärmen).
 
-I Dynamic Media Classic skapas flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall; skapas en bild för varje lager.
+Adobe Dynamic Media Classic skapar flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall; skapas en bild för varje lager.
 
 ## PSD-överföringsalternativ {#psd-upload-options}
 
@@ -47,7 +47,7 @@ Dessa alternativ är tillgängliga när du överför PSD-filer:
 
    * **Behåll ursprunglig färgmodell**  - Behåller bildens ursprungliga färgmodell.
 
-   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic. Se [ICC-profiler](/help/icc-profiles.md).
+   * **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic. Se [ICC-profiler](/help/icc-profiles.md).
 
 * **Photoshop-alternativ**
 
@@ -59,7 +59,7 @@ Dessa alternativ är tillgängliga när du överför PSD-filer:
 
    * **Utöka lager till bakgrundsstorlek**  - Utökar storleken på överlappade bildlager till storleken på bakgrundslagret.
 
-   * **Namnge**  lager - Lager i PSD-filen överförs som separata bilder. Om du vill namnge bilderna i Dynamic Media Classic väljer du något av följande alternativ:
+   * **Namnge**  lager - Lager i PSD-filen överförs som separata bilder. Om du vill namnge bilderna i Adobe Dynamic Media Classic väljer du bland följande alternativ:
 
       * **Lagernamn**  - Namnger bilderna efter deras lagernamn i PSD-filen. Ett lager med namnet Price Tag i den ursprungliga PSD-filen blir till exempel en bild med namnet Price Tag. Om lagernamnen i PSD-filen däremot är Photoshop standardlagernamn (Bakgrund, Lager 1, Lager 2 och så vidare) får bilderna namn efter sina lagernummer i PSD-filen, inte efter deras standardlagernamn.
 
@@ -71,7 +71,7 @@ Dessa alternativ är tillgängliga när du överför PSD-filer:
 
 ## Visa och redigera lager i en PSD-fil {#viewing-and-editing-layers-in-a-psd-file}
 
-Om du valde alternativet Behåll lager när du överförde din PSD-fil, delade Dynamic Media Classic de enskilda lagren i resurser. Du kan visa och redigera de objektlager som tillhör en PSD-fil genom att öppna filen i panelen Bläddra i detaljvyn.
+Om du valde alternativet Behåll lager när du överförde PSD-filen, delade Adobe Dynamic Media Classic de enskilda lagren i resurser. Du kan visa och redigera de objektlager som tillhör en PSD-fil genom att öppna filen i panelen Bläddra i detaljvyn.
 
 1. Dubbelklicka på den fullständiga PSD-filen i panelen Bläddra. Filen öppnas i detaljvyn.
 
@@ -90,4 +90,4 @@ Om du valde alternativet Behåll lager när du överförde din PSD-fil, delade D
 
 1. Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
 1. Om du vill visa eller redigera ett annat lager klickar du på en pil längst ned i förhandsgranskningen av lagret.
-1. Klicka på ikonen **[!UICONTROL Grid view]** för att stänga lagerdetaljsvyn.
+1. Klicka på ikonen **[!UICONTROL Grid View]** för att stänga lagerdetaljvyn.

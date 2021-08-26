@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Media Classic,visningsprogram,snurra uppsättningar
+feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
 
 # Publicera en snurruppsättning{#publishing-a-spin-set}
 
-När du publicerar en snurruppsättning placeras bilderna i uppsättningen på Dynamic Media Image Servers, där de är tillgängliga för din webbplats eller ditt program. Under publiceringsprocessen aktiverar Dynamic Media Classic dessutom de URL-strängar för den uppsättning som du behöver för din webbplats eller ditt program.
+När du publicerar en snurruppsättning placeras bilderna i uppsättningen på Dynamic Media Image Servers, där de är tillgängliga för din webbplats eller ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic dessutom de URL-strängar för den uppsättning som du behöver för din webbplats eller ditt program.
 
 ## Markera en snurruppsättning för publicering {#marking-a-spin-set-for-publish}
 
-Markera din snurruppsättning för publicering om du vill att den ska kopieras till Dynamic Media Classic-bildservrar. Du kan markera din snurrsuppsättning för publicering på panelen Bläddra genom att klicka på ikonen **[!UICONTROL Mark for Publish]** till vänster om namnet. Alla bilder i uppsättningen markeras för publicering när du markerar själva den nya uppsättningen för publicering.
+Markera din snurruppsättning för publicering om du vill att den ska kopieras till Adobe Dynamic Media Classic-bildservrar. Du kan markera din snurrsuppsättning för publicering på panelen Bläddra genom att klicka på ikonen **[!UICONTROL Mark for Publish]** till vänster om namnet. Alla bilder i uppsättningen markeras för publicering när du markerar själva den nya uppsättningen för publicering.
 
 ## Publicera snurruppsättningen {#publishing-the-spin-set}
 

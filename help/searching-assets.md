@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
 
 # Söka efter resurser{#searching-assets}
 
-Om du vill söka efter filresurser i Dynamic Media Classic kan du visa resurser efter typ, sortera resurser i panelen Bläddra, utföra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
+Om du vill söka efter filresurser i Adobe Dynamic Media Classic kan du visa resurser efter typ, sortera resurser i panelen Bläddra, utföra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Om du bara vill visa filer av en viss typ när du bläddrar väljer du en filtyp
 
 >[!NOTE]
 >
->Om du inte ser panelen Resursbibliotek till vänster klickar du på den högra triangelpilen till vänster, halvvägs nedåt i Dynamic Media Classic-fönstret, så öppnas resursbiblioteket.)
+>Om du inte ser panelen Resursbibliotek till vänster klickar du på den högra triangelpilen till vänster, halvvägs nedåt i Adobe Dynamic Media Classic-fönstret, så öppnas resursbiblioteket.)
 
 ## Sortera filer i panelen Bläddra {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ Använd sökfältet i resursbiblioteket för att utföra enkla sökningar. Du ka
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## Använda avancerad sökning {#conducting-an-advanced-search}
 
@@ -171,5 +171,5 @@ Klicka på **[!UICONTROL Publish Now]** för att starta jobbet. En bekräftelse 
 >[!MORELIKETHIS]
 >
 >* [Navigeringsgrunder](navigation-basics.md#navigation_basics)
-* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

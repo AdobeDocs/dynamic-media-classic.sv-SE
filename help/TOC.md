@@ -4,12 +4,12 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
-user-guide-description: Läs mer om hur du använder Dynamic Media Classic
+user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: 6da0de3f4d50d75020e0c66119d56e24cc27fae7
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 1%
+source-wordcount: '778'
+ht-degree: 0%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 1%
 # Adobe Dynamic Media Classic Guide {#using}
 
 + [Adobe Dynamic Media Classic Guide](home.md)
-+ [Självstudiekurs om bästa praxis](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NYTT Inloggningsupplevelsen i Dynamic Media Classic är nu tillgänglig](new-ui-2020.md)
-+ [Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
++ [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [NYTT Adobe Dynamic Media Classic-inloggningsgränssnittet är nu tillgängligt](new-ui-2020.md)
++ [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic-datorprogrammet - nu tillgängligt](dynamic-media-classic-desktop-app.md)
-   + [Om hjälpen för Dynamic Media Classic](introduction.md)
+   + [Om Adobe Dynamic Media Classic - hjälp](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
-   + [Systemkrav](system-requirements.md)
+   + [Systemkrav för datorprogrammet Adobe Dynamic Media Classic](system-requirements.md)
    + [Support](support.md)
-   + [Hjälp för Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
+   + [Hjälp för Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
    + [Populära resurser](popular-resources.md)
    + [Utbildningsvideor](training-videos.md)
@@ -45,7 +45,7 @@ ht-degree: 1%
    + [Video SEO (sökmotoroptimering)](video-seo-search-engine-optimization.md)
    + [Administrationsinställningar](administration-setup.md)
 + Medieportal {#media-portal}
-   + [Systemkrav](system-requirements-1.md)
+   + [Systemkrav för Media Portal i Adobe Dynamic Media Classic](system-requirements-media-portal.md)
    + [Snabbstart: Media Portal](quick-start-media-portal-administration.md)
    + [Användarroller för mediaportal](media-portal-user-roles.md)
    + [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md)
@@ -58,20 +58,20 @@ ht-degree: 1%
 + Överför och publicera resurser {#upload-publish}
    + [Överföra och publicera resurser](about-asset-upload-publish.md)
    + [Överför filer](uploading-files.md)
-   + [Publicera filer ](publishing-files.md)
+   + [Publicera filer](publishing-files.md)
    + [Testa resurser innan du gör dem offentliga](testing-assets-making-them-public.md)
-   + [Kontrollerar jobbfiler](checking-job-files.md)
+   + [Kontrollera jobbfiler](checking-job-files.md)
 + Hantera resurser {#managing-assets}
    + [Hantera resurser](about-managing-assets.md)
    + [Arbeta med resursmappar](asset-folders.md)
    + [Visa resurser i panelen Bläddra](viewing-assets-browse-panel.md)
-   + [Välja resurser i panelen Bläddra](selecting-assets-browse-panel.md)
-   + [Söka efter resurser](searching-assets.md)
+   + [Markera resurser på panelen Bläddra](selecting-assets-browse-panel.md)
+   + [Sök resurser](searching-assets.md)
    + [Förhandsgranska en resurs](previewing-asset.md)
    + [Flytta, byta namn på och ta bort resurser](moving-renaming-deleting-assets.md)
-   + [Arbeta i detaljvyn ](detail-view.md)
+   + [Arbeta i detaljvyn](detail-view.md)
    + [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md)
-   + [Exportera resurser från Dynamic Media Classic](exporting-assets-from-dmc.md)
+   + [Exportera resurser från Adobe Dynamic Media Classic](exporting-assets-from-dmc.md)
    + [Dela resursändringar med kollegor i realtid](sharing-asset-changes-peers-real.md)
    + [Skriva ut resurser](printing-assets.md)
    + [Hantera papperskorgen](trash-folder.md)
@@ -81,38 +81,38 @@ ht-degree: 1%
    + [Överför överordnad bilder](uploading-master-images.md)
    + [Publicera överordnad bilder](publishing-master-images.md)
    + [Konfigurera bildförinställningar](setting-image-presets.md)
-   + [Länka URL:er till webbprogrammet](linking-urls-web-application.md)
+   + [Länka URL:er till ditt webbprogram](linking-urls-web-application.md)
 + Zooma {#zoom}
    + [Snabbstart: Zooma](quick-start-zoom.md)
    + [Överför zoombilder](uploading-zoom-images.md)
    + [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md)
-   + [Konfigurera förinställningar för Zoom Viewer](setting-zoom-viewer-presets.md)
+   + [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md)
    + [Förhandsgranska bildresurser med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md)
    + [Publicera zoombilder](publishing-zoom-images.md)
-   + [Länka zoomningsvisningsprogram till webbsidor](linking-zoom-viewers-web-pages.md)
+   + [Länka zoomningsvisningsprogram till dina webbsidor](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
    + [Snabbstart: eCatalogs](quick-start-ecatalog.md)
-   + [Överföra PDF-filer](uploading-pdf-files.md)
+   + [Ladda upp PDF-filerna](uploading-pdf-files.md)
    + [Skapa en e-katalog](creating-ecatalog.md)
-   + [Skapa bildkartor för eCatalog](creating-ecatalog-image-maps.md)
-   + [Hantera innehåll i informationspanelen i e-kataloger](info-panel-content.md)
+   + [Skapa eCatalog-bildscheman](creating-ecatalog-image-maps.md)
+   + [Hantera innehåll i informationspanelen i e-kataloger](info-panel-content-ecatalog.md)
    + [Konfigurera förinställningar för eCatalog Viewer](setting-ecatalog-viewer-presets.md)
    + [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md)
    + [Publicera e-kataloger och tillhörande PDF-filer](publishing-ecatalogs-associated-pdfs.md)
    + [Länka en e-katalog till en webbsida](linking-ecatalog-web-page.md)
 + Bilduppsättningar {#image-sets}
    + [Snabbstart: Bilduppsättningar](quick-start-image-sets.md)
-   + [Förbereder bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md)
+   + [Förbered bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md)
    + [Skapa en bilduppsättning](creating-image-set.md)
-   + [Inkludera zoommål och bildscheman i bilduppsättningar](including-zoom-targets-image-maps.md)
-   + [Hantera innehåll i informationspanelen i bilduppsättningar](info-panel-content-1.md)
+   + [Inkludera zoommål och bildscheman i bilduppsättningar](including-zoom-targets-image-maps-image-sets.md)
+   + [Hantera innehåll i informationspanelen i bilduppsättningar](info-panel-content-image-sets.md)
    + [Visa bilduppsättningar](viewing-image-sets.md)
-   + [Generering av automatisk bilduppsättning](automated-image-set-generation.md)
+   + [Automatisera generering av bilduppsättning](automated-image-set-generation.md)
    + [Länka en bilduppsättning till en webbsida](linking-image-set-web-page.md)
 + Uppsättningar med färgrutor {#swatch-sets}
    + [Snabbstart: Färgruteuppsättningar](quick-start-swatch-sets.md)
-   + [Inkludera zoommål och bildscheman i färgruteuppsättningar](including-zoom-targets-image-maps-1.md)
-   + [Förbereder resurser för färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md)
+   + [Inkludera zoommål och bildscheman i uppsättningar av färgrutor](including-zoom-targets-image-maps-swatch-sets.md)
+   + [Förbered färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md)
    + [Skapa en färgruteuppsättning](creating-swatch-set.md)
    + [Visa färgruteuppsättningar](viewing-swatch-sets.md)
    + [Länka en färgruteuppsättning till en webbsida](linking-swatch-set-web-page.md)
@@ -121,7 +121,7 @@ ht-degree: 1%
    + [Skapa en snurruppsättning](creating-spin-set.md)
    + [Förhandsgranska en snurra uppsättning](previewing-spin-set.md)
    + [Publicera en snurruppsättning](publishing-spin-set.md)
-   + [Konfigurera förinställningar för Snurra uppsättningar för visningsprogram](setting-spin-set-viewer-presets.md)
+   + [Konfigurera förinställningar för Snurra uppsättning för visningsprogram](setting-spin-set-viewer-presets.md)
    + [Länka en snurruppsättning till en webbsida](linking-spin-set-web-page.md)
 + Grundläggande om mallar {#template-basics}
    + [Snabbstart: Grundläggande om mallar](quick-start-template-basics.md)
@@ -134,7 +134,7 @@ ht-degree: 1%
 + Video {#video}
    + [Snabbstart: Video](quick-start-video.md)
    + [Bästa praxis: Använda HTML5 Video Viewer](best-practice-using-html5-video.md)
-   + [Överföra och koda videofilmer](uploading-encoding-videos.md)
+   + [Överföra och koda videoklipp](uploading-encoding-videos.md)
    + [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md)
    + [Lägga till bildtexter i video](adding-captions-video.md)
    + [Lägga till kapitelmarkörer i video](adding-chapter-markers-video.md)
@@ -145,9 +145,9 @@ ht-degree: 1%
    + [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md)
    + [Skapa en blandad medieuppsättning](creating-mixed-media-set.md)
    + [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md)
-   + [Länka en uppsättning med blandade media till en webbsida](linking-mixed-media-set-web.md)
+   + [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentkit {#analytics-kit}
-   + [Snabbstart: Integrera Dynamic Media Classic med Adobe Analytics](quick-start-integrating-dmc-analytics.md)
+   + [Snabbstart: Integrera Adobe Dynamic Media Classic med Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Logga in på Adobe Analytics](log-analytics.md)
    + [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md)
    + [Instrumentera ett visningsprogram med Adobe Analytics Instrumentation Kit](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -157,9 +157,9 @@ ht-degree: 1%
    + [Publicera konfigurationsinformation för Adobe Analytics](publishing-analytics-configuration-information.md)
 + Integrering med Adobe Target Standard/Premium {#target-classic}
    + [Snabbstart: Integrering med Adobe Target Standard/Premium](quick-start-target-integration.md)
-   + [Integrera Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md)
+   + [Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Skapa en erbjudandeuppsättning](creating-offer-set.md)
-   + [Paketera erbjudanden för Adobe Target Standard/Premium](pushing-offer-sets-target.md)
+   + [Erbjudandet gäller Adobe Target Standard/Premium](pushing-offer-sets-target.md)
 + Användargenererat innehåll {#user-generated-content}
    + [Om användargenererat innehåll](about-ugc.md)
    + [Ta bort en överförd resurs](deleting-uploaded-asset.md)
@@ -172,11 +172,11 @@ ht-degree: 1%
    + [Beskära en bild](cropping-image.md)
    + [Öka skärpan i en bild](sharpening-image.md)
    + [Justera en bild](adjusting-image.md)
-   + [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md)
+   + [Bildoptimeringsalternativ vid överföring](image-editing-options-upload.md)
    + [Arbeta med PDF-filer](pdfs.md)
-   + [Arbeta med PSD-filer ](psd-files.md)
+   + [Arbeta med PSD-filer](psd-files.md)
    + [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md)
-   + [Arbeta med vinjett, fönsteromslag och kabinettfiler](vignette-window-covering-cabinet-files.md)
+   + [Arbeta med vinjett, fönsterhölje och kabinettfiler](vignette-window-covering-cabinet-files.md)
 + Supportfiler {#support-files}
    + [Teckensnitt](fonts.md)
    + [XML-filer](xml-files.md)

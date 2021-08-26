@@ -1,27 +1,27 @@
 ---
 title: Arbeta med resursmappar
-description: Lär dig hur du arbetar med resursmappar i Dynamic Media Classic.
+description: Lär dig hur du arbetar med resursmappar i Adobe Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
 # Arbeta med resursmappar{#working-with-asset-folders}
 
-Filresurser i Dynamic Media Classic sparas i mappar. De här mapparna visas i alfabetisk ordning på panelen Resursbibliotek. Innan du överför filer från datorn eller nätverket till Dynamic Media Classic uppmanas du att ange ett namn för en mapp där filerna ska lagras. Skapa de här mapparna innan du överför några filer.
+Filresurser i Adobe Dynamic Media Classic finns i mappar. De här mapparna visas i alfabetisk ordning på panelen Resursbibliotek. Innan du överför filer från datorn eller nätverket till Adobe Dynamic Media Classic ombeds du ange ett namn för en mapp där filerna ska lagras. Skapa de här mapparna innan du överför några filer.
 
-Se till att du har en mappstruktur och organisation för lagring av filer i Dynamic Media Classic innan du överför filer.
+Se till att du har en mappstruktur och organisation för lagring av filer på Adobe Dynamic Media Classic innan du överför filer.
 
 ## Visa, flytta, dölja och öppna mappar {#displaying-moving-hiding-and-opening-folders}
 
@@ -47,7 +47,7 @@ I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resur
 
    >[!NOTE]
    >
-   >Du kan också skapa mappar i Dynamic Media Classic när du överför filer via FTP. Om du väljer alternativet **[!UICONTROL Include Subfolders]** när du överför via FTP replikeras mappstrukturen på datorn i systemet. Filer och undermappar på datorn eller i nätverket replikeras i resursbiblioteket och de resurser du överför placeras i dessa mappar.
+   >Du kan också skapa mappar i Adobe Dynamic Media Classic när du överför filer via FTP. Om du väljer alternativet **[!UICONTROL Include Subfolders]** när du överför via FTP replikeras mappstrukturen på datorn i systemet. Filer och undermappar på datorn eller i nätverket replikeras i resursbiblioteket och de resurser du överför placeras i dessa mappar.
 
 ## Ta bort och byta namn på mappar {#deleting-and-renaming-folders}
 
@@ -59,4 +59,4 @@ Markera en mapp och använd dessa tekniker för att ta bort eller byta namn på 
 
 >[!NOTE]
 >
->Du kan inte kopiera mappar eller resurser eftersom det skulle skapa dubblettmappar och resurser i Dynamic Media Classic, och dubbletter tillåts inte.
+>Du kan inte kopiera mappar eller resurser eftersom det skulle skapa dubblettmappar och resurser i Adobe Dynamic Media Classic, och dubbletter tillåts inte.

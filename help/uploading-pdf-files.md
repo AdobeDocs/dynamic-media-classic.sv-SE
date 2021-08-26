@@ -6,10 +6,10 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
-feature: Dynamic Media Classic,Visningsprogram,eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 0%
@@ -22,13 +22,13 @@ Vanligtvis är Adobe PDF-filer källa för en e-katalog. Dessa filer innehåller
 
 ## Förbereda PDF-filer {#preparing-your-pdf-files}
 
-Förbered PDF-filerna innan du överför dem till Dynamic Media Classic:
+Förbered PDF-filerna innan du överför dem till Adobe Dynamic Media Classic:
 
 * Om du vill göra det enklare att överföra filerna placerar du alla filer i samma mapp på datorn eller i nätverket.
 * Namnge filerna i alfanumerisk ordning per sida. Om du beställer sidorna blir det enklare att placera sidorna i rätt ordning efter att filerna har överförts.
-* Granska sidorna om du vill se om PDF-sidorna innehåller skärmärken, registreringsmål eller färgfält. Dessa märken avgör var papperet ska skäras när dokumenten skrivs ut. måste tas bort innan din eCatalog kan placeras på webben. I Dynamic Media Classic finns alternativ för beskärningsmärken när du överför PDF-filer.
+* Granska sidorna om du vill se om PDF-sidorna innehåller skärmärken, registreringsmål eller färgfält. Dessa märken avgör var papperet ska skäras när dokumenten skrivs ut. måste tas bort innan din eCatalog kan placeras på webben. Adobe Dynamic Media Classic innehåller alternativ för beskärningsmärken när du överför PDF-filer.
 * Om du vill att tittarna ska söka i din e-katalog med nyckelord, ta reda på om PDF-filerna är förenklade. Du kan inte extrahera sökord från förenklade PDF-filer. Om du vill ta reda på om en PDF-fil är förenklad kan du försöka markera text i den. Om du inte kan markera text förenklas PDF-filen och visningsprogrammen kan inte söka efter nyckelord i din eCatalog.
-* Eftersom de ska skrivas ut innehåller PDF-filerna vanligtvis CMYK-bilder. Som standard kan Dynamic Media Classic identifiera dessa CMYK-bilder på ett intelligent sätt och konvertera dem med en intern CMYK-färgprofil. Om du vill använda en egen färgprofil för att konvertera CMYK-bilder kan du göra det.
+* Eftersom de ska skrivas ut innehåller PDF-filerna vanligtvis CMYK-bilder. Som standard kan Adobe Dynamic Media Classic identifiera dessa CMYK-bilder på ett intelligent sätt och konvertera dem med en intern CMYK-färgprofil. Om du vill använda en egen färgprofil för att konvertera CMYK-bilder kan du göra det.
 
    Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
@@ -46,7 +46,7 @@ Markera de filer som du vill överföra och välj sedan följande *metodtips* PD
 
 * **Generera eCatalog automatiskt från PDF-fil med flera sidor (valfritt)**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Välj **[!UICONTROL Auto-Generate eCatalog from multiple page PDF]** om du vill skapa en e-katalog automatiskt när du överför. Du kan gå direkt till eCatalog-skärmen och börja arbeta med eCatalog utan att först behöva markera PDF-filer och sedan välja kommandot Skapa. eCatalog namnges efter PDF-filen.
 
-* **Upplösning**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Ange ett värde i textfältet **[!UICONTROL Resolution]**. Dynamic Media Classic rekommenderar 150 pixlar per tum.
+* **Upplösning**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Ange ett värde i textfältet **[!UICONTROL Resolution]**. Adobe Dynamic Media Classic rekommenderar 150 pixlar per tum.
 
 * **Färgrymd**  - I dialogrutan Alternativ för överföringsjobb klickar du på  **[!UICONTROL PDF Options]**. Välj **[!UICONTROL Detect automatically]** i listrutan Färgrymd. Vanligtvis är PDF-filer som skapats för utskrift CMYK. PDF-filer för visning online är RGB. Om båda färgrymderna används i en PDF-fil kan du välja en viss färgrymd genom att välja Använd som RGB eller Använd som CMYK. I PDF-filer används till exempel båda färgmodellerna när sidgrafik använder en CMYK-färgmodell, men bilder använder RGB. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
 
@@ -56,7 +56,7 @@ Markera de filer som du vill överföra och välj sedan följande *metodtips* PD
 
    * **Behåll ursprunglig färgmodell**  - Behåller den ursprungliga färgmodellen.
 
-   * **Anpassad från > Till** - Öppnar undermenyer så att du kan välja en  **[!UICONTROL Convert From]** och  **[!UICONTROL Convert To]** en färgrymd. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
+   * **Anpassad från > Till** - Öppnar undermenyer så att du kan välja en  **[!UICONTROL Convert From]** och  **[!UICONTROL Convert To]** en färgrymd. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
 
 <!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
 

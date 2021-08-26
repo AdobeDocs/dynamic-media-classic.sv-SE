@@ -1,6 +1,6 @@
 ---
-title: Länka URL:er till webbprogrammet
-description: Lär dig hur du länkar URL-adresser till webbprogram.
+title: Länka URL:er till ditt webbprogram
+description: Lär dig hur du länkar URL-adresser till webbprogram från Adobe Dynamic Media Classic.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,18 +10,18 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
-# Länka URL:er till webbprogrammet{#linking-urls-to-your-web-application}
+# Länka URL:er till ditt webbprogram{#linking-urls-to-your-web-application}
 
-Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
+Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
 
-Om du vill placera dessa URL-strängar på dina webbsidor och i dina program kopierar du dem från Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
+Om du vill placera dessa URL-strängar på dina webbsidor och i dina program kopierar du dem från Adobe Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
 
 ## Hämta en URL för bildförinställning {#obtaining-an-image-preset-url}
 
@@ -36,21 +36,21 @@ Du kan hämta en URL-sträng som genereras av en bildförinställning från för
 1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och klickar sedan under miniatyrbilden på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
-   * Klicka på **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och klickar sedan på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** till höger om miniatyrbilden.
-   * Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** i samma verktygsfält.
+   * Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och går sedan till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** under miniatyrbilden.
+   * Markera **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** på samma verktygsfält.
 
 1. (Valfritt) I listrutan Bildförinställning väljer du den URL-kodning som du vill använda på bildresursens URL när den kopieras i URL-kodningslistan för kopiering av URL-generering.
-1. Klicka på **[!UICONTROL Copy URL]** för den valda förinställningstypen i det övre högra området i förhandsgranskningsfönstret i fönstret Bildförinställningslista.
-1. Klicka på **[!UICONTROL Close]** längst ned till höger i fönstret Bildförinställningslista för att återgå till skärmen Resurser.
+1. Välj **[!UICONTROL Copy URL]** som den valda förinställningstypen i det övre högra hörnet i förhandsgranskningsfönstret i listfönstret Bildförinställningar.
+1. I det nedre högra hörnet av fönstret Bildförinställningslista väljer du **[!UICONTROL Close]** för att återgå till skärmen Resurser.
 
 ### Hämta en URL för bildförinställning från panelen Bläddra {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
-1. Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs.
-1. Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet.
-1. Klicka på **[!UICONTROL URLs]** på panelen till höger på skärmen för att visa listan med bildförinställningar.
-1. Klicka på länken **[!UICONTROL Copy URL]** bredvid namnet på bildförinställningen med den URL som du vill kopiera till Urklipp.
+1. Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs.
+1. Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet.
+1. Välj **[!UICONTROL URLs]** på panelen till höger på skärmen så att du kan visa listan med bildförinställningar.
+1. Välj länken **[!UICONTROL Copy URL]** bredvid namnet på bildförinställningen med den URL som du vill kopiera till Urklipp.
 
 ## Om URL-strängar för bildförinställning {#about-image-preset-url-strings}
 
@@ -80,7 +80,7 @@ Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dyna
 
 ## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
 
-Om du vill lägga till dynamiska bilder på en webbsida ändras taggen `<IMG>` i HTML-webbsideskoden vanligtvis med URL-strängen för Dynamic Media Classic och en begäran skickas till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
+Om du vill lägga till dynamiska bilder på en webbsida ändras taggen `<IMG>` i HTML-webbsideskoden vanligtvis med URL-strängen för Adobe Dynamic Media Classic för att skicka en begäran till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 
 I stället för det vanliga anropet för att öppna en statisk bild som
 
@@ -88,7 +88,7 @@ I stället för det vanliga anropet för att öppna en statisk bild som
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Du använder nu taggen `<IMG>`för att ersätta referensen till en statisk bild med ett Image Preset-anrop till Dynamic Media Classic-plattformen. Ett exempelanrop ser ut så här:
+Du använder nu taggen `<IMG>`för att ersätta referensen till en statisk bild med ett Image Preset-anrop till Adobe Dynamic Media Classic-plattformen. Ett exempelanrop ser ut så här:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”

@@ -1,18 +1,18 @@
 ---
 title: Lägga till kapitelmarkörer i video
-description: Lär dig hur du lägger till kapitelmarkörer i en video i Dynamic Media Classic.
+description: Lär dig hur du lägger till kapitelmarkörer i en video i Adobe Dynamic Media Classic.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
-feature: Dynamic Media Classic,Visningsprogram,Video
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Se [WebVTT: Textspårningsformatet för webbvideo](https://w3c.github.io/webvtt/
 
 **Så här lägger du till kapitelmarkörer i video:**
 
-1. Skapa videokapitelfilen med en enkel textredigerare utanför Dynamic Media Classic.
+1. Skapa videokapitelfilen med en enkel textredigerare utanför Adobe Dynamic Media Classic.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ Se [WebVTT: Textspårningsformatet för webbvideo](https://w3c.github.io/webvtt/
 
    Vanligtvis vill du ge den kapitelbaserade VTT-filen samma namn som videofilen och lägga till den med `chapters`. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll.
 
-1. Överför din WebVTT-kapitelfil till Dynamic Media Classic.
+1. Ladda upp din WebVTT-kapitelfil i Adobe Dynamic Media Classic.
 
    Se [Överför filer](uploading-files.md#uploading_files).
 

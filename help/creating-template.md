@@ -1,6 +1,6 @@
 ---
 title: Skapa en mall
-description: Lär dig hur du skapar en mall i Dynamic Media Classic.
+description: Lär dig hur du skapar en mall i Adobe Dynamic Media Classic.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3246'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Om du vill skapa en mall går du till **[!UICONTROL Build]** > **[!UICONTROL Tem
 
 >[!NOTE]
 >
->Om du redigerar en mall som har skapats i en tidigare version av Dynamic Media Classic blir du tillfrågad när du sparar&quot;Vill du lägga till ett arbetsytelager?&quot;. Välj **[!UICONTROL No]** om du inte vill lägga till ett baslager. Om du av misstag väljer **[!UICONTROL Yes]** tar du bort modifieringarna `&allowCanvasPrompt` och `&layer=0` i URL:en och trycker på **[!UICONTROL Enter]** eller **[!UICONTROL Return]**.
+>Om du redigerar en mall som har skapats i en tidigare version av Adobe Dynamic Media Classic blir du tillfrågad när du sparar&quot;Vill du lägga till ett arbetsytelager?&quot;. Välj **[!UICONTROL No]** om du inte vill lägga till ett baslager. Om du av misstag väljer **[!UICONTROL Yes]** tar du bort modifieringarna `&allowCanvasPrompt` och `&layer=0` i URL:en och trycker på **[!UICONTROL Enter]** eller **[!UICONTROL Return]**.
 
 ## Skapa den ursprungliga mallen {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 1. Välj **[!UICONTROL Save]**.
 1. Välj en mapp där du vill lagra mallen, ange ett namn för mallen och välj **[!UICONTROL Submit]**.
 
-   Dynamic Media Classic förminskar bilder om det behövs för att de ska få plats på arbetsytan, området på mallskärmen för att definiera mallen.
+   Adobe Dynamic Media Classic minskar bilder om det behövs för att de ska få plats på arbetsytan, det område på mallskärmen som används för att definiera mallen.
 
 ## Redigera en malluppsättning {#editing-a-template-set}
 
@@ -103,7 +103,7 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
    >[!NOTE]
    >
-   >Textredigeraren v4.2 planeras att tas bort som ett alternativ i Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. Alternativet **[!UICONTROL Word Wrap]** kommer att införlivas i en framtida version av textredigeraren.
+   >Textredigeraren v4.2 planeras att tas bort som ett alternativ i Adobe Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. Alternativet **[!UICONTROL Word Wrap]** kommer att införlivas i en framtida version av textredigeraren.
 
 * **[!UICONTROL Designer and Developer]** - Välj det alternativ som bäst beskriver din roll.
 
@@ -121,7 +121,7 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
    >[!NOTE]
    >
-   >Om det behövs krymper Dynamic Media Classic bilderna så att de får plats på arbetsytan när du skapar ett bildlager.
+   >Om det behövs krymper Adobe Dynamic Media Classic bilderna så att de får plats på arbetsytan när du skapar ett bildlager.
 
 ## Skapa ett textlager {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ Så här formaterar du text i ett textlager:
 1. Markera texten som du vill formatera i textrutan i textredigeraren. Du kan markera all text, alla delar av texten eller enskilda tecken.
 1. Ange något av följande formateringsalternativ och välj sedan **[!UICONTROL Apply]**.
 
-   * **[!UICONTROL Font]** - Välj ett teckensnitt på teckensnittsmenyn. Om ett teckensnitt som du vill använda inte visas på menyn kan du överföra det till Dynamic Media Classic. Se Teckensnitt.
+   * **[!UICONTROL Font]** - Välj ett teckensnitt på teckensnittsmenyn. Om ett teckensnitt som du vill använda inte visas på menyn kan du överföra det till Adobe Dynamic Media Classic. Se Teckensnitt.
 
    * **[!UICONTROL Font Size]** - Välj en teckenstorlek på menyn, skriv en specifik storlek i rutan eller markera  **[!UICONTROL Up]** eller  **[!UICONTROL Down]** pilarna för att öka eller minska storleken med två punkter.
 
@@ -244,7 +244,7 @@ Lagren måste vara tillräckligt små för att få plats på arbetsytan. Du kan 
 
 >[!NOTE]
 >
->Dynamic Media Classic rekommenderar att du skapar en bildförinställning som har exakt samma storlek som mallen. Genom att matcha storleken på förinställningen för bild med mallstorleken kan du vara säker på att mallens slutliga utdatastorlek och skärpealternativ ställs in korrekt. När du har skapat den här bildförinställningen kan du välja den på menyn Använd förinställning på skärmen Förhandsvisa mall. På skärmen visas hur bilden ser ut när den levereras från servern. Se [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets).
+>Adobe Dynamic Media Classic rekommenderar att du skapar en bildförinställning som har exakt samma storlek som mallen. Genom att matcha storleken på förinställningen för bild med mallstorleken kan du vara säker på att mallens slutliga utdatastorlek och skärpealternativ ställs in korrekt. När du har skapat den här bildförinställningen kan du välja den på menyn Använd förinställning på skärmen Förhandsvisa mall. På skärmen visas hur bilden ser ut när den levereras från servern. Se [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets).
 
 * **Ändra storlek på ett lager** - Om du vill ändra storlek på ett lager eller arbetsytan markerar du lagret eller arbetsytan i listan Lager och använder någon av följande tekniker:
 
@@ -288,7 +288,7 @@ Om du vill välja bakgrundsfärg, opacitet och blandningsläge för ett lager el
 
 ## Använd skugg- och glödeffekter på lager {#using-shadow-and-glow-effects-on-layers}
 
-Du kan använda en skugga eller glöd på ett lager. Skugga eller glöd används i utkanten av lagret och sträcker sig inåt eller utåt, beroende på vilket skugg- eller glödalternativ du väljer. Om mallen har skapats med en PSD-fil med skugg- och glödeffekter kan du justera dessa effekter i Dynamic Media Classic.
+Du kan använda en skugga eller glöd på ett lager. Skugga eller glöd används i utkanten av lagret och sträcker sig inåt eller utåt, beroende på vilket skugg- eller glödalternativ du väljer. Om mallen har skapats med en PSD-fil med skugg- och glödeffekter kan du justera dessa effekter i Adobe Dynamic Media Classic.
 
 När du har använt en skugg- eller glödeffekt kan du justera dess storlek, färg, opacitet och position i området Lageregenskaper på mallskärmen.
 

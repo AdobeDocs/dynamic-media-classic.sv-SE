@@ -1,6 +1,6 @@
 ---
 title: Administrationsinställningar
-description: Lär dig hur du ställer in administrationsområdet för Dynamic Media Classic.
+description: Lär dig hur du ställer in administrationsområdet för Adobe Dynamic Media Classic.
 uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -20,25 +20,25 @@ ht-degree: 0%
 
 # Administrationsinställningar{#administration-setup}
 
-Administrationsinstallationsfönstren är avsedda för administration av Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Dynamic Media Classic och att kommunicera via e-post med användare.
+Skärmerna för administrationsinställningar används för att administrera Adobe Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Adobe Dynamic Media Classic och att kommunicera via e-post med användare.
 
 1. Gå till **Inställningar** > **Personliga inställningar** > **Administrationsinställningar** om du vill visa alternativen för administrationsinställningar.
 
 ## Användaradministration {#user-administration}
 
-Alla Dynamic Media Classic-användare tilldelas en roll som avgör vilka behörigheter de har och vilka funktioner de har i Dynamic Media Classic. Administratörerna bestämmer vilka roller och ansvarsområden de har för de företag de är tilldelade.
+Alla användare av Adobe Dynamic Media Classic får en roll som avgör vilka funktioner de har i Adobe Dynamic Media Classic och vilka behörigheter de har. Administratörerna bestämmer vilka roller och ansvarsområden de har för de företag de är tilldelade.
 
-Vanligtvis konfigurerar Dynamic Media Classic den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören ställer sedan in och administrerar Dynamic Media Classic-användare.
+Vanligtvis konfigurerar Adobe Dynamic Media Classic den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören ställer sedan in och administrerar Adobe Dynamic Media Classic-användare.
 
-Dynamic Media Classic har stöd för flera användarroller. De här rollerna har åtkomst till företag som har konfigurerats för Dynamic Media Classic:
+Adobe Dynamic Media Classic har stöd för flera användarroller. De här rollerna har åtkomst till företag som har konfigurerats för Adobe Dynamic Media Classic:
 
-<!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
+<!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
 **Adobe Dynamic Media Classic** UserHar åtkomst till företag som de har tilldelats. kan inte utföra några administrativa uppgifter.
 
 **Adobe Dynamic Media Classic Company** AdminKan endast visa och administrera egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
 
-När du har lagt till en användare skickar Dynamic Media Classic ett välkomstmeddelande till användaren. Meddelandet innehåller ett lösenord och Dynamic Media Classic-URL:en.
+När du har lagt till en användare skickar Adobe Dynamic Media Classic ett välkomstmeddelande till användaren. Meddelandet innehåller ett lösenord och Adobe Dynamic Media Classic-URL:en.
 
 ### Lägga till en användare eller administratör {#adding-a-user-or-administrator}
 
@@ -52,7 +52,7 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
 1. Om du vill tilldela användaren en roll väljer du ett rollalternativ.
 
-   Se [Dynamic Media Classic-användarroller och behörigheter](administration-setup.md#user_administration).
+   Se [Adobe Dynamic Media Classic-användarroller och -privilegier](administration-setup.md#user_administration).
 
 1. Om du vill lägga till en användare till ett företag väljer du ett företagsnamn.
 1. Om du vill lägga till användaren i en grupp (om du lägger till en Media Portal-användare eller -medarbetare) väljer du **[!UICONTROL Next]** och lägger till användaren.
@@ -60,17 +60,17 @@ När du har lagt till en användare skickar Dynamic Media Classic ett välkomstm
 
    När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Välj **[!UICONTROL Add]** om du vill lägga till användaren i ett företag.
 
-   Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in i Dynamic Media Classic-datorprogrammet.
+   Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in i Adobe Dynamic Media Classic-datorprogrammet.
 
-   Nya användare får ett välkomstmeddelande när du har lagt till dem. I e-postmeddelandet finns ett tillfälligt lösenord och information om hur du loggar in på Dynamic Media Classic.
+   Nya användare får ett välkomstmeddelande när du har lagt till dem. I e-postmeddelandet finns ett tillfälligt lösenord och information om hur du loggar in på Adobe Dynamic Media Classic.
 
-   Om användaren inte får välkomstmeddelandet ber du dem gå till inloggningssidan för Dynamic Media Classic (https://s7sps1.scene7.com) och välja **[!UICONTROL Forgot My Password]**. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
+   Om användaren inte får något välkomstmeddelande går du till inloggningssidan för Adobe Dynamic Media Classic (https://s7sps1.scene7.com) och väljer **[!UICONTROL Forgot My Password]**. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
 
    När du lägger till nya Media Portal-användare kan du också gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, välja **[!UICONTROL Upload User List]** och välja en CSV-fil som inte innehåller fler än 500 användare.
 
 ### Ta bort en användare {#deleting-a-user}
 
-Du kan ta bort användare från Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
+Du kan ta bort användare från Adobe Adobe Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Välj en användare i listan och välj sedan **[!UICONTROL Edit]**.
@@ -113,13 +113,13 @@ Du kan använda följande filtertekniker för användarlistor:
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
-<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
+<!-- CQDOC-16690 TOPIC REMOVED AS PER JIRA TICKET INSTRUCTIONS ### Linking an IMS user identity to a Adobe Dynamic Media Classic IPS user account {#linking-an-ims-user-identity-to-a-scene-ips-user-account}
 
-You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
+You can link an Adobe IMS user identity to a Adobe Dynamic Media Classic IPS user account so you can use SSO (Single Sign On) to log on and launch Scene7 Publishing System from within Adobe Marketing Cloud.
 
 1. Adobe should already have setup your account with an Adobe Marketing Cloud organization and linked it to your Scene7 Publishing System product context. If this setup is not yet done or you are unsure if it has been done, contact Adobe Customer Care.
 
-   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
+   When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Adobe Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
 1. Select **Manage Organizations**.
@@ -133,7 +133,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
+    * To launch Adobe Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Adobe Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -143,7 +143,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
 ## Bandbredd och lagring {#bandwidth-storage}
 
-Dynamic Media Classic-administratörer kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna finns på sidan Bandbredd och lagring.
+Administratörer för Adobe Dynamic Media Classic kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna finns på sidan Bandbredd och lagring.
 
 Öppna den här sidan genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**. Expandera **[!UICONTROL Administration Setup]** och välj sedan **[!UICONTROL Bandwidth & Storage]**.
 
@@ -156,7 +156,7 @@ I följande tabell beskrivs rapporter som du kan generera från sidan Bandbredd 
 | Bandbredd | Bandbreddsanvändning | Spåra bandbreddsanvändning per företag över specifika datumintervall för att fastställa trafikmönster. |
 | Lagring | Lagringsanvändning | Spåra mängden data som överförts av företaget. |
 | Bildinnehåll | Antalet bildbegäranden per typ | Spåra antalet begäranden och volymer för olika bildtyper. |
-| Domän | Antalet URL-begäranden per domän | Spåra bildanvändningen baserat på domänen för bildbegäran för ett visst företag. (Dynamic Media Classic kan tillhandahålla mer än en domän per konto. Kontakta teknisk support om du vill ha mer information.) |
+| Domän | Antalet URL-begäranden per domän | Spåra bildanvändningen baserat på domänen för bildbegäran för ett visst företag. (Adobe Dynamic Media Classic kan tillhandahålla mer än en domän per konto. Kontakta teknisk support om du vill ha mer information.) |
 | Videoströmning | Bandbreddsanvändning för direktuppspelad video | Spåra direktuppspelad videoanvändning efter företag över vissa datumintervall för att fastställa trafikmönster. |
 | Videoinnehåll | Spela upp tid för olika videoklipp | Avgör vilka som är de mest visade och minst visade videoklippen. |
 
@@ -216,7 +216,7 @@ När du har genererat en rapport kan du exportera dess data för användning i k
 
 ## Bildfel {#image-errors}
 
-Dynamic Media Classic-administratörer kan generera bildfelsrapporter. En bildfelsrapport innehåller en lista med de 20 vanligaste bildfelen för det företag du är inloggad på under de senaste 24 timmarna. Så här genererar du en bildfelsrapport:
+Administratörer för Adobe Dynamic Media Classic kan skapa bildfelsrapporter. En bildfelsrapport innehåller en lista med de 20 vanligaste bildfelen för det företag du är inloggad på under de senaste 24 timmarna. Så här genererar du en bildfelsrapport:
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Expandera Administrationsinställningar och välj sedan **[!UICONTROL Image Errors]**.
@@ -238,7 +238,7 @@ De fel som visas gäller det företag du är inloggad på. Varje fel innehåller
 
 * **Svar**  - Det specifika felmeddelandet. Fel är antingen 4xx eller 5xx.
 
-* **URL:er**  - Visar URL:en till bilden i Dynamic Media Classic.
+* **URL:er**  - Visar URL:en till bilden i Adobe Dynamic Media Classic.
 
 * **Referent**  - Anger URL:en för den webbplats som den ursprungliga begäran kom från. Referenten kan vara vilken webbplats som helst som har en länk till bilden.
 

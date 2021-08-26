@@ -1,29 +1,29 @@
 ---
 title: 'Publicera filer '
-description: '"Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser en gång eller ordna så att Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program."'
+description: '"Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser en gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program."'
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1695'
 ht-degree: 0%
 
 ---
 
 # Publicera filer {#publishing-files}
 
-Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser en gång eller ordna så att Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Dynamic Media Classic och lägga till dem på webbplatsen eller i programmet.
+Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser en gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Adobe Dynamic Media Classic och lägga till dem på webbplatsen eller i programmet.
 
-Dynamic Media Classic har nu stöd för leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar kommunikationen mellan webbläsare och servrar, vilket ger bättre respons och laddningstider för alla dina Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic har nu stöd för leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar kommunikationen mellan webbläsare och servrar, vilket ger bättre respons och laddningstider för alla dina Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Publicera efter överföring {#publish-after-uploading}
 
-Resurser i publicerat eller opublicerat läge. Som standard markeras alla resurser som du överför till Dynamic Media Classic automatiskt för publicering.
+Resurser i publicerat eller opublicerat läge. Som standard markeras alla resurser som du överför till Adobe Dynamic Media Classic automatiskt för publicering.
 
 Mer information finns i [PDF-filen med snabbpubliceringsmeddelande](/help/assets/rendering-instant-publish-notification.pdf).
 
@@ -46,7 +46,7 @@ Härledda bilder markeras också automatiskt för publicering när deras överor
 
 ## Skapa ett publiceringsjobb {#creating-a-publish-job}
 
-Skapa ett publiceringsjobb för att publicera resurser som du har överfört till Dynamic Media Classic-servrar, men välj att inte publicera dem automatiskt än. Du kan göra en engångspublicering eller schemalägga jobb som ska återkomma regelbundet. Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
+Skapa ett publiceringsjobb för att publicera resurser som du har överfört till Adobe Dynamic Media Classic-servrar, men välj att inte publicera dem automatiskt än. Du kan göra en engångspublicering eller schemalägga jobb som ska återkomma regelbundet. Adobe Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
 
 **Så här skapar du ett publiceringsjobb:**
 
@@ -62,7 +62,7 @@ Skapa ett publiceringsjobb för att publicera resurser som du har överfört til
 
 1. Klicka på **[!UICONTROL Submit Publish]**.
 
-Dynamic Media Classic spårar publiceringsjobb på jobbsidan. Du kan granska publiceringsjobb på den sidan.
+Adobe Dynamic Media Classic spårar publiceringsjobb på jobbsidan. Du kan granska publiceringsjobb på den sidan.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Om du vill att publiceringsjobbet ska utföras senare väljer du **[!UICONTROL O
 
 Skapa ett återkommande publiceringsjobb genom att välja **[!UICONTROL Recurring]** på sidan Publicera.
 
-Välj sedan alternativet Upprepa **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Custom]** och ange sedan när du vill att publiceringsjobbet ska återkomma. I Dynamic Media Classic visas kalenderverktyg för schemaläggning av det återkommande publiceringsjobbet. Du kan klicka på alternativet **[!UICONTROL Custom]** och ange en regel i textfältet Regel för att beskriva ett anpassat jobbintervall.
+Välj sedan alternativet Upprepa **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** eller **[!UICONTROL Custom]** och ange sedan när du vill att publiceringsjobbet ska återkomma. Adobe Dynamic Media Classic visar kalenderverktyg för schemaläggning av det återkommande publiceringsjobbet. Du kan klicka på alternativet **[!UICONTROL Custom]** och ange en regel i textfältet Regel för att beskriva ett anpassat jobbintervall.
 
 Se [Skapa ett anpassat tidsintervall för överföring eller publicering](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -92,7 +92,7 @@ Du kan visa de avancerade alternativen på sidan Publicera och välja följande 
 
 * **Publicera till**  - Välj en servertyp om du bara vill publicera resurser på en viss server.
 
-* **Publicera**  - Som standard publicerar Dynamic Media Classic endast resurser som är nya och som inte har publicerats tidigare (alternativet Nytt sedan senaste publicering). Du kan dock klicka på **[!UICONTROL Full Publish]** om du även vill publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj **[!UICONTROL Full w/ Search Data]** om du publicerar en e-katalog och du vill att läsarna ska kunna söka i den med nyckelord.
+* **Publicera**  - Som standard publicerar Adobe Dynamic Media Classic endast resurser som är nya och som inte har publicerats tidigare (alternativet Ny sedan senaste publicering). Du kan dock klicka på **[!UICONTROL Full Publish]** om du även vill publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj **[!UICONTROL Full w/ Search Data]** om du publicerar en e-katalog och du vill att läsarna ska kunna söka i den med nyckelord.
 
 * **Kör jobb som** - Välj ett användarnamn i listan. Du kan sortera jobb efter användarnamn på sidan Jobb. Genom att välja ett namn associerar du ett publiceringsjobb med en användare.
 
@@ -148,11 +148,11 @@ Det senaste datumet när en resurs publicerades visas i detaljvyn högst upp på
 
 ## Återpublicerade resurser och CDN-förseningar {#republished-assets-and-cdn-delays}
 
-Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är ett system med datorservrar som är sammankopplade och som på ett transparent sätt samarbetar för att leverera innehåll, särskilt stort medieinnehåll, till slutanvändarna. I CDN-systemet lagras webbinnehåll i webbcacheminnen över Internet (kallas edge cache-nätverk). Webbinnehåll levereras från webbcachen till slutanvändarna för snabbare leveranser.
+Adobe Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är ett system med datorservrar som är sammankopplade och som på ett transparent sätt samarbetar för att leverera innehåll, särskilt stort medieinnehåll, till slutanvändarna. I CDN-systemet lagras webbinnehåll i webbcacheminnen över Internet (kallas edge cache-nätverk). Webbinnehåll levereras från webbcachen till slutanvändarna för snabbare leveranser.
 
 Första gången någon hämtar en webbsida levereras resurserna till en CDN-webbcache-server. De lagras på den här servern så att nästa gång någon i samma område öppnar webbsidan kan samma cachelagrade innehåll levereras snabbare. Innehållet levereras snabbare eftersom det ligger närmare slutanvändaren. CDN gör att webbsidor visas snabbare. Den minskar behovet av bandbredd på den centrala servern eftersom innehållet levereras från edge cache-nätverket, inte från en central server i varje instans.
 
-Nypublicerat Dynamic Media Classic-material är tillgängligt direkt för slutanvändaren och fyller snabbt i edge cache-nätverket. Nypublicerat innehåll (bilder som har exakt samma namn som bilder som tidigare publicerats på en bildserver) uppdateras inte på CDN på upp till tio timmar. I stället ser slutanvändarna vad som finns i ett webbcacheminne i CDN-nätverket. Därför verkar dina ompublicerade Dynamic Media Classic-resurser inte visas för slutanvändarna på tio timmar.
+Nypublicerat Adobe Dynamic Media Classic-innehåll är tillgängligt direkt för slutanvändaren och fyller snabbt i kantcachens nätverk. Nypublicerat innehåll (bilder som har exakt samma namn som bilder som tidigare publicerats på en bildserver) uppdateras inte på CDN på upp till tio timmar. I stället ser slutanvändarna vad som finns i ett webbcacheminne i CDN-nätverket. Därför visas dina ompublicerade resurser i Adobe Dynamic Media Classic inte för slutanvändarna på tio timmar.
 
 Om du vill att dina nypublicerade bildresurser ska vara tillgängliga tidigare än tio timmars fördröjning kan du tömma webcacher på CDN. När du tömmer dessa webbcacher tas gammalt innehåll bort från CDN-webbcachen och ersätts med dina senast publicerade resurser.
 
@@ -161,5 +161,5 @@ Om du vill tömma cachen klickar du på **[!UICONTROL File]** > **[!UICONTROL In
 >[!MORELIKETHIS]
 >
 >* [Kontrollerar jobbfiler](checking-job-files.md)
-* [Redigera, ta bort, pausa och återuppta återkommande jobb](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
+>* [Redigera, ta bort, pausa och återuppta återkommande jobb](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
 

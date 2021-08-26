@@ -1,5 +1,5 @@
 ---
-title: Om användargenererat innehåll i Dynamic Media Classic
+title: Om användargenererat innehåll i Adobe Dynamic Media Classic
 description: En introduktion till användargenererat innehåll.
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
@@ -9,16 +9,16 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-# Om användargenererat innehåll i Dynamic Media Classic {#about-user-generated-content}
+# Om användargenererat innehåll i Adobe Dynamic Media Classic {#about-user-generated-content}
 
-Att använda UGC (användargenererat innehåll) består av att överföra resurser till en dedikerad Dynamic Media Classic-lagringsplats och utföra relaterade åtgärder.
+Att använda UGC (användargenererat innehåll) består av att överföra resurser till en dedikerad Adobe Dynamic Media Classic-lagringsplats och utföra relaterade åtgärder.
 
 UGC har stöd för följande filformat:
 

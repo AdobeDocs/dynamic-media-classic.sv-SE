@@ -1,6 +1,6 @@
 ---
 title: Personliga inställningar
-description: Alla användare kan ändra inställningarna på skärmen Personliga inställningar i Dynamic Media Classic.
+description: Alla användare kan ändra inställningarna på skärmen Personliga inställningar i Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '803'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Alla användare kan ändra inställningarna på skärmen Personliga inställning
 
 >[!NOTE]
 >
->På skärmen Personliga inställningar visas vilken användarroll du har i Dynamic Media Classic: Företagsadministratör, administratör eller användare.
+>På skärmen Personliga inställningar visas vilken användarroll du har i Adobe Dynamic Media Classic: Företagsadministratör, administratör eller användare.
 
 Inställningarna för personliga inställningar styr standardbeteendet för panelen Bläddra, hur du tar emot e-post och lösenordsinställningar. Kom ihåg att klicka på Spara när du har ändrat de här inställningarna.
 
@@ -45,7 +45,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 **Så här installerar du Adobe Dynamic Media Creative Suite Extension:**
 
-1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, under Creative Suite-tillägget, på **[!UICONTROL Download Now]** för att hämta `s7csxs.zxp`-filen.
+1. I Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, under Creative Suite Extension, på **[!UICONTROL Download Now]** för att hämta filen `s7csxs.zxp`.
 1. Klicka på länkarna **[!UICONTROL Installation]** och **[!UICONTROL System Requirements]** om du vill ha mer information om tillägget.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
@@ -72,11 +72,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Webbläsare
 
-* **Miniatyrstorlek**  - Anger standardstorleken för miniatyrbilder i stödrastervyn i panelen Bläddra.
+* **Miniatyrbildsstorlek**  - Anger standardstorleken för miniatyrbilder i Stödrastervisning i panelen Bläddra.
 * **Standardvy**  för resursbibliotek - Anger om resurserna i resursbiblioteket för uppsättningar ska visas som miniatyrer eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
 * **Standardordning**  för bläddringssortering - Anger i vilken ordning resurser visas som standard i panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
 * **Standardplats**  för bläddring - Här kan du ange bläddringsplatsen till standardplatsen, den senast bläddrade mappen eller till en specifik plats som du navigerar till och identifierar. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
-* **Standardvy**  för bläddring - Anger om stödrastervyn eller listvyn är standardvyn som du ser när du först öppnar panelen Bläddra.
+* **Standardvy**  för webbläsare - Anger om Stödrastervisning eller Listvy är standardvyn som du ser när du öppnar panelen Bläddra första gången.
 * **Välkomstskärm**  - Anger om det visas några välkomstskärmar, inklusive välkomstvälkomstskärmen.
 * **Visa verktygstips**  - Anger om verktygstips ska visas när du flyttar pekaren över knappar, menyer och navigeringslänkar. Verktygstips beskriver gränssnittsobjekt på skärmen.
 * **Schackrutor**  - Visar ett schackrutigt lager bakom bilder så att du enkelt kan se de genomskinliga områdena i en bild som har en alfakanal.
@@ -95,7 +95,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## E-post
 
-* **E-postalternativ**  - Välj hur du vill att Dynamic Media Classic ska informera dig via e-post när överföringen och publiceringen är klar. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+* **E-postalternativ**  - Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överföringen och publiceringen är klar. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
 * **E-postomfång**  - Avgör om du får alla jobbmeddelanden för ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
 * **E-posttyper**  - Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
 

@@ -1,22 +1,22 @@
 ---
 title: Publiceringsinställningar
-description: Med inställningarna för publiceringsinställningar kan du bestämma hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program.
+description: Med publiceringsinställningarna kan du bestämma hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2374'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
 
 # Publiceringsinställningar {#publish-setup}
 
-Inställningarna på sidan Publiceringsinställningar avgör hur resurser levereras som standard från Dynamic Media Classic-servrar till webbplatser eller program. Om ingen inställning har angetts levererar Dynamic Media Classic-servern en resurs enligt standardinställningen på en publiceringsinställningssida. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på sidan Bildserver.
+Inställningarna på sidan Publiceringsinställningar avgör hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program. Om ingen inställning har angetts levererar Adobe Dynamic Media Classic-servern en resurs enligt standardinställningen på en publiceringsinställningssida. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på sidan Bildserver.
 
 Administratörer kan ändra standardinställningarna på sidorna Image Server, Image Renderer och Vinjettering för att skapa standardinställningar för att leverera resurser från servrar.
 
@@ -24,15 +24,15 @@ Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UIC
 
 >[!NOTE]
 >
->Publiceringsinstallationssidorna är till för erfarna webbplatsutvecklare och programmerare. Dynamic Media Classic förutsätter att användare som ändrar inställningar på dessa sidor är bekanta med Dynamic Media Classic, HTTP-protokollets standarder och konventioner samt grundläggande bildbehandlingsteknik.
+>Publiceringsinstallationssidorna är till för erfarna webbplatsutvecklare och programmerare. Adobe Dynamic Media Classic förutsätter att användare som ändrar inställningar på dessa sidor är bekanta med Adobe Dynamic Media Classic, HTTP-protokollets standarder och konventioner samt grundläggande bildbehandlingsteknik.
 
 ## Bildserver {#image-server}
 
 Sidan Image Server används för att ange standardinställningar för att leverera bilder från bildservrar. Inställningarna är tillgängliga i dessa fem kategorier (se sidan Image Server för mer ingående beskrivningar av inställningarna).
 
-Ändra dessa inställningar endast med hjälp av en Dynamic Media Classic-supportperson.
+Ändra dessa inställningar endast med hjälp av en Adobe Dynamic Media Classic-supportperson.
 
-* **Kataloghantering**  - De här inställningarna bestämmer hur Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista över allt innehåll som publiceras till bildservern tillsammans med sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
+* **Kataloghantering**  - De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista över allt innehåll som publiceras till bildservern tillsammans med sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
 
 * **Attribut**  för begäran - De här inställningarna begränsar antalet bilder som kan levereras från servern. Till exempel är *maximum* **[!UICONTROL Reply Image Size Limit]** **[!UICONTROL Width]** 5000 och **[!UICONTROL Height]** 5000.
 
@@ -59,9 +59,9 @@ Sidan Image Server används för att ange standardinställningar för att levere
 
 >[!NOTE]
 >
->Om du vill ställa in alternativ för lokaliseringsstöd i Dynamic Media Classic, till exempel fältet för språkinställningar, [använder du Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) I ditt supportärende, begär du hjälp med konfiguration.
+>Om du vill ställa in alternativ för lokaliseringsstöd i Adobe Dynamic Media Classic, till exempel fältet för språkinställningar, [använder du Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) I ditt supportärende, begär du hjälp med konfiguration.
 
-Ett vanligt sätt att använda Dynamic Media Classic är att hantera produktbilder på e-handelswebbplatser. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast gäller skillnaderna några delar av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över bara skillnaderna är en stor insats och motsäger den enda överordnad tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
+Ett vanligt sätt att använda Adobe Dynamic Media Classic är att hantera produktbilder på e-handelswebbplatser. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast gäller skillnaderna några delar av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över bara skillnaderna är en stor insats och motsäger den enda överordnad tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Adobe Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
 
 #### Hur resurser lokaliseras
 
@@ -97,7 +97,7 @@ Några av fördelarna med att använda `locale=` och `attribute::DefaultLocale` 
 
 #### Implementera resurslokalisering
 
-Dynamic Media Classic och Image Serving har ett gränssnitt som möjliggör lokalisering av bilder och statiskt innehåll.
+Adobe Dynamic Media Classic och Image Serving har ett gränssnitt för lokalisering av bilder och statiskt innehåll.
 
 Utan lokalisering ser en Image Server-URL ut så här:
 
@@ -117,7 +117,7 @@ Om ett suffixvärde eller ett ersättningsvärde används beror på inställning
 
 >[!NOTE]
 >
->Inställningen Global Locale är bara möjlig om du anger den via API:t, inte i Dynamic Media Classic-gränssnittet.
+>Inställningen Global Locale är bara möjlig om du anger den via API:t, inte i Adobe Dynamic Media Classic-gränssnittet.
 
 **Exempel på suffix:**
 
@@ -137,7 +137,7 @@ Om en okänd eller tom språkområdesparameter anges med `locale=` genomsöks lo
 
 #### Om defaultImage
 
-Bildservern försöker att välja det begärda språket, det ena efter det andra. Om ingen matchning hittas används språkalternativen för defaultImage och den matchande versionen returneras. Därför måste varje språkinställning innehålla ett alternativ för bilden utan lokalisering, eller lokaliserade defaultImage-versioner är tillgängliga i Dynamic Media Classic.
+Bildservern försöker att välja det begärda språket, det ena efter det andra. Om ingen matchning hittas används språkalternativen för defaultImage och den matchande versionen returneras. Därför måste varje språkområde innehålla ett alternativ för bilden utan lokalisering, eller så är lokaliserade defaultImage-versioner tillgängliga i Adobe Dynamic Media Classic.
 
 #### Scenarier för att hitta localeMap
 
@@ -220,7 +220,7 @@ Om du använder det första exemplet som bas kan bilder för alla språk ha suff
 
 Sidan Bildåtergivning används för att ange standardinställningar för att leverera bilduppsättningar från bildåtergivningsservrar. Inställningarna är tillgängliga i dessa fem kategorier (mer information om inställningarna finns på sidan Image Server):
 
-* **Kataloghantering**  - De här inställningarna bestämmer hur Dynamic Media Classic och katalogfilen interagerar. Dynamic Media Classic Render Server URL-anrop görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra dessa inställningar endast med hjälp av en Dynamic Media Classic-supportperson.
+* **Kataloghantering**  - De här inställningarna bestämmer hur Adobe Dynamic Media Classic och katalogfilen interagerar. Adobe Dynamic Media Classic Render Server URL-anrop görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra dessa inställningar endast med hjälp av en Adobe Dynamic Media Classic-supportperson.
 
 * **Sessionsattribut**  - De här inställningarna anger felparametrar, URL:er för relativa bild-URL:er och huruvida objektöverlappning är tillåten.
 

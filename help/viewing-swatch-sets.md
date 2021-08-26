@@ -7,10 +7,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
-feature: Dynamic Media Classic,Visningsprogram
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du kan visa dina färgruteuppsättningar i förhandsgranskningsfönstret med dina tillgängliga förinställningar. Du använder ett zoomvisningsprogram: Anpassad visningsförinställning för färgruteuppsättningar.
 
-Dynamic Media Classic innehåller standardförinställningar för visningsprogram. Administratörer kan skapa eller ändra visningsförinställningarna.
+Adobe Dynamic Media Classic innehåller standardförinställningar för visningsprogram. Administratörer kan skapa eller ändra visningsförinställningarna.
 
 ## Konfigurera förinställningar för Zoomvisningsprogram för färgruteuppsättningar {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
@@ -50,9 +50,9 @@ Du kan använda Förhandsvisa för att se hur en resurs visas för en viss visni
 1. På panelen Resursbibliotek till vänster navigerar du i de resursmappar som innehåller den färgruteuppsättning som du vill förhandsgranska med ett visningsprogram.
 1. Gör något av följande:
 
-   * Klicka på ikonen **[!UICONTROL List View]** i det övre högra hörnet av Dynamic Media Classic-fönstret. Håll markören över en resurs i fönstret Resurs och klicka sedan på **[!UICONTROL Preview]** (inte listrutan Förhandsvisa).
-   * Klicka på ikonen **[!UICONTROL Grid View]** i det övre högra hörnet av Dynamic Media Classic-fönstret. I fönstret Resurser klickar du i ett miniatyrbildsfönster på **[!UICONTROL Preview]** (inte i listrutan Förhandsgranska).
-   * Klicka på ikonen **[!UICONTROL Detail View]** i det övre högra hörnet av Dynamic Media Classic-fönstret. Klicka på **[!UICONTROL Preview]** (inte i listrutan Förhandsgranska) i samma verktygsfält.
+   * Klicka på ikonen **[!UICONTROL List View]** i det övre högra hörnet av fönstret Adobe Dynamic Media Classic. Håll markören över en resurs i fönstret Resurs och klicka sedan på **[!UICONTROL Preview]** (inte listrutan Förhandsvisa).
+   * Klicka på ikonen **[!UICONTROL Grid View]** i det övre högra hörnet av fönstret Adobe Dynamic Media Classic. I fönstret Resurser klickar du i ett miniatyrbildsfönster på **[!UICONTROL Preview]** (inte i listrutan Förhandsgranska).
+   * Klicka på ikonen **[!UICONTROL Detail View]** i det övre högra hörnet av fönstret Adobe Dynamic Media Classic. Klicka på **[!UICONTROL Preview]** (inte i listrutan Förhandsgranska) i samma verktygsfält.
 
 1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
 1. Om du vill förhandsgranska resursen i det valda visningsprogrammet klickar du på en visningsprogramlänk.

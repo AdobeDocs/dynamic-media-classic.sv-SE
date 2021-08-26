@@ -6,21 +6,21 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
-feature: Dynamic Media Classic,visningsprogram,visningsförinställningar,eCatalog
+feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Konfigurera förinställningar för eCatalog Viewer{#setting-up-ecatalog-viewer-presets}
 
-eCatalog Viewer Presets avgör format, beteende och utseende för eCatalog-visningsprogram. I Dynamic Media Classic finns förinställningar för eCatalog Viewer, och du kan även skapa egna eCatalog Viewer-förinställningar om du är administratör.
+eCatalog Viewer Presets avgör format, beteende och utseende för eCatalog-visningsprogram. Adobe Dynamic Media Classic innehåller förinställningar för eCatalog Viewer, och du kan även skapa egna förinställningar för eCatalog Viewer om du är administratör.
 
-Om du vill skapa en förinställning kan du börja från början eller börja med en förinställning för eCatalog Viewer som tillhandahållits av Dynamic Media Classic och spara den under ett nytt namn. Du kan skapa egna visningsförinställningar för eCatalog för att presentera utskrivet material i företagets färger och ställa in tonen.
+Om du vill skapa en förinställning kan du börja från början eller börja med en Adobe Dynamic Media Classic-tillhandahållen eCatalog Viewer-förinställning och spara den under ett nytt namn. Du kan skapa egna visningsförinställningar för eCatalog för att presentera utskrivet material i företagets färger och ställa in tonen.
 
 Förinställningar för eCatalog Viewer ger många inställningar för att gå från sida till sida, zooma, söka och välja&quot;skal&quot;. Hur dessa kontroller ser ut och hur visningsprogrammet ser ut beror på vad du väljer bland förinställningarna för visningsprogrammet för eCatalog.
 
@@ -48,7 +48,7 @@ Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du mås
    | `$2$` | frame | Sekvensnumret för den bildruta som visas i bilduppsättningen. |
    | `$3$` | imageroot | Det första sökvägselementet i det första objektet som anges i bildkommandot (vanligtvis bildkatalog-ID:t för den katalogpost som anger bilduppsättningen). |
 
-1. (Valfritt) I rutan **[!UICONTROL Info Panel Settings]** skriver du den text som du vill ska visas om det uppstår ett fel i Dynamic Media Classic när information för ett bildschema hämtas. **[!UICONTROL Response Template]** Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
+1. (Valfritt) I rutan **[!UICONTROL Info Panel Settings]** skriver du den text som du vill ska visas om Adobe Dynamic Media Classic påträffar ett fel när information hämtas för ett bildschema. **[!UICONTROL Response Template]** Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
 
 >[!NOTE]
 >

@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '149'
 ht-degree: 0%
 
 ---
 
 # Publicera överordnad bilder{#publishing-master-images}
 
-När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers, där de är tillgängliga för din webbplats och ditt program. Dessutom aktiverar Dynamic Media Classic de URL-strängar du behöver för din webbplats och ditt program under publiceringsprocessen.
+När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers, där de är tillgängliga för din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic dessutom de URL-strängar du behöver för din webbplats och ditt program.
 
 ## Markera överordnad bilder för publicering {#marking-master-images-for-publish}
 
-Överordnad bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina överordnad bilder för publicering på panelen Bläddra genom att klicka på ikonen **[!UICONTROL Mark for Publish]**. Du kan också markera bilder för publicering när du överför dem till Dynamic Media Classic.
+Överordnad bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina överordnad bilder för publicering på panelen Bläddra genom att klicka på ikonen **[!UICONTROL Mark for Publish]**. Du kan också markera bilder för publicering när du överför dem till Adobe Dynamic Media Classic.
 
 ## Publicera dina överordnad bilder {#publishing-your-master-images}
 

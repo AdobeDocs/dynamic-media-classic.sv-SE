@@ -1,31 +1,31 @@
 ---
 title: Justera en bild
-description: Läs om hur du justerar en bild i Dynamic Media Classic.
+description: Läs om hur du justerar en bild i Adobe Dynamic Media Classic.
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
 
 # Justera en bild{#adjusting-an-image}
 
-I Dynamic Media Classic finns olika kommandon för att justera utseendet på en bild. Du kan vända, rotera, göra oskarpa, ändra färgbalansen och färglägga en bild. När du experimenterar med de här kommandona kan du se hur de påverkar bilden som du arbetar med.
+I Adobe Dynamic Media Classic finns olika kommandon för att justera utseendet på en bild. Du kan vända, rotera, göra oskarpa, ändra färgbalansen och färglägga en bild. När du experimenterar med de här kommandona kan du se hur de påverkar bilden som du arbetar med.
 
 Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for_an_image).
 
 **Justera en bild:**
 
-1. Markera bildens redigeringsknapp för överrullning och välj Justera, eller dubbelklicka på bilden i panelen Bläddra så att den öppnas i vyn Detalj.
+1. Markera bildens redigeringsknapp för överrullning och välj Justera, eller dubbelklicka på bilden i panelen Bläddra så att den öppnas i detaljvyn.
 1. Välj en storlek och en bildförinställning (längst ned i fönstret).
 1. Använd kommandona till höger i fönstret Justera redigerare för att justera bilden:
 

@@ -1,6 +1,6 @@
 ---
 title: Arbeta i detaljvyn
-description: Läs om hur du arbetar i detaljvyn i Dynamic Media Classic.
+description: Läs om hur du arbetar i detaljvyn i Adobe Dynamic Media Classic.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
 1. Gör något av följande i panelen Bläddra:
 
-   * Markera resursen. I närheten av det övre högra hörnet av Dynamic Media Classic väljer du ikonen **[!UICONTROL Detail View]** .
+   * Markera resursen. I närheten av det övre högra hörnet av Adobe Dynamic Media Classic väljer du ikonen **[!UICONTROL Detail View]** .
    * Dubbelklicka på resursen.
    * Markera resursen och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
@@ -54,7 +54,7 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
 ## Hämta information i detaljvyn {#getting-information-in-detail-view}
 
-I detaljvyn finns information om en resurs eller fil. Den här informationen om ett objekt visas: mappen där den lagras, dess filnamn, datumet då objektet överfördes till Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
+I detaljvyn finns information om en resurs eller fil. Den här informationen om ett objekt visas: mappen där den lagras, dess filnamn, det datum då objektet överfördes till Adobe Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
 
 Du kan hämta en resurs-URL i detaljvyn; URL:en är dock inte aktiv förrän du publicerar resursen. För bilder innehåller detaljvyn även en lista med resurser och metadata som skapats, t.ex. zoommål och bilduppsättningar.
 

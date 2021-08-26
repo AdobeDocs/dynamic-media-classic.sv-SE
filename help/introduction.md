@@ -1,37 +1,35 @@
 ---
-title: Hjälp för Dynamic Media Classic
-seo-title: Adobe Dynamic Media Classic
-description: Dynamic Media Classic - översikt
-seo-description: Dynamic Media Classic - översikt
+title: Hjälp för Adobe Dynamic Media Classic
+description: Adobe Dynamic Media Classic - översikt
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
-# Hjälp för Dynamic Media Classic {#scene7-overview}
+# Hjälp för Adobe Dynamic Media Classic {#scene7-overview}
 
-Välkommen till Adobe Dynamic Media Classic, det ledande publiceringssystemet för medieoberoende publicering som kan användas för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial på alla enheter och skärmar. Adobe Dynamic Media Classic-lösningar innehåller följande:
+Välkommen till Adobe Adobe Dynamic Media Classic, det ledande publiceringssystemet för medieoberoende publicering som kan användas för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial på alla enheter och skärmar. Adobe Dynamic Media Classic-lösningar innehåller följande:
 
 * Dynamic Imaging: Realtidsredigering, formatering och storleksändring, interaktiv zoom och panorering. färgsättning och texturvisning, 360-graders centrifugering, bildmallar, multimediavisare.
 * eCatalogs: Skapa, länka till hotspot, sök, publicera och leverera dynamiskt betjänade onlinekataloger till konfigurerbara visningsprogram.
-* Media Portal: En självbetjäningsmiljö som ger portalanvändare administratörskontrollerade&quot;vyer&quot; till Dynamic Media Classic-resurser så att de enkelt kan överföra, söka, förhandsgranska och exportera resurser.
+* Media Portal: En självbetjäningsmiljö som ger portalanvändare administratörskontrollerade&quot;vyer&quot; i Adobe Dynamic Media Classic-resurser så att de enkelt kan ladda upp, söka, förhandsgranska och exportera mediefiler.
 * eVideo: Ladda upp färdiga videor i valfritt format, hantera, redigera, skapa aktiveringspunkter och videomallar, publicera och strömma till konfigurerbara videovisningsprogram
 * Visual Configurators: Realtidsåtergivningsteknik som möjliggör visuell onlinekonfiguration för personalisering och anpassningseffekter som realtidsåtergivning av färgstrukturer, ytor, mönster, monogram och graveringar i produktbilder eller scener.
 * E-post och utskrift: Leverera skräddarsydda, skräddarsydda e-postkampanjer som är knutna till kundprofil, produkt- och kanaldatabaser.
 
 ## Viktiga resurser
 
-* [Komma igång och översikt](/help/dmc-platform-overview.md)
-* [Snabbstart: Katalog](/help/quick-start-ecatalog.md)
+* [Kom igång &amp; översikt](/help/dmc-platform-overview.md)
+* [Snabbstart: eCatalog](/help/quick-start-ecatalog.md)
 * [Snabbstart: Bilduppsättningar](/help/quick-start-image-sets.md)
 * [Snabbstart: Bildstorlek](/help/quick-start-image-sizing.md)
-* [Snabbstart: Integrera Dynamic Media Classic-analyser](/help/quick-start-integrating-dmc-analytics.md)
+* [Snabbstart: Integrera Adobe Dynamic Media Classic-analyser](/help/quick-start-integrating-dmc-analytics.md)
 * [Snabbstart: Media Portal](/help/quick-start-media-portal-administration.md)
 * [Snabbstart: Blandade medieuppsättningar](/help/quick-start-mixed-media-sets.md)
 * [Snabbstart: Rotationsset](/help/quick-start-spin-sets.md)

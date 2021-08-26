@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic,Visningsprogram,Zooma
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '140'
 ht-degree: 0%
 
 ---
 
 # Publicera zoombilder{#publishing-zoom-images}
 
-När du publicerar placeras dina zoombilder på Dynamic Media bildservrar så att de kan göras tillgängliga för din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängarna. Du kan placera dessa URL-strängar i HTML-koden på webbplatsen.
+När du publicerar placeras dina zoombilder på Dynamic Media bildservrar så att de kan göras tillgängliga för din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängarna. Du kan placera dessa URL-strängar i HTML-koden på webbplatsen.
 
 ## Markera bilder för publicering {#marking-images-for-publish}
 

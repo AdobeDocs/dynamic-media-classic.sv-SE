@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic,Visningsprogram,eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
 
 # Publicera e-kataloger och tillhörande PDF-filer{#publishing-ecatalogs-and-associated-pdfs}
 
-När du publicerar placeras din e-katalog och PDF på Dynamic Media Image Servers så att den kan göras tillgänglig för din webbplats eller ditt program. Som en del av publiceringsprocessen aktiverar Dynamic Media Classic URL-strängen. Du kan placera den här URL-strängen i HTML-webbsideskoden.
+När du publicerar placeras din e-katalog och PDF på Dynamic Media Image Servers så att den kan göras tillgänglig för din webbplats eller ditt program. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen. Du kan placera den här URL-strängen i HTML-webbsideskoden.
 
 >[!NOTE]
 >

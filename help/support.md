@@ -8,21 +8,21 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
 
 # Support {#support}
 
-Teknisk support är utformad för att uppfylla behoven hos alla större företag. I följande tabell beskrivs Dynamic Media Classic Customer Care-erbjudanden:
+Teknisk support är utformad för att uppfylla behoven hos alla större företag. I följande tabell beskrivs Adobe Dynamic Media Classic Customer Care-erbjudanden:
 
 | Support | Prenumeration |
 |--- |--- |
 | Ärendegräns | Obegränsat. |
-| Kontrollera systemstatus för Adobe | [Dynamic Media Classic-systemstatus](https://status.adobe.com/products/1175). |
+| Kontrollera systemstatus för Adobe | [Adobe Dynamic Media Classic-systemstatus](https://status.adobe.com/products/1175). |
 | Hittar du inget svar? | [Öppna en biljett](https://experienceleague.adobe.com/?support-solution=General#support) om du vill få hjälp från supporten. |
 | Community-forum | [Experience Manager forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA (servicenivåavtal) | [Supporttjänster / Villkor](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
@@ -34,9 +34,9 @@ Teknisk support är utformad för att uppfylla behoven hos alla större företag
 
 När du rapporterar problem till den tekniska supporten ska du inkludera följande information:
 
-* Dynamic Media Classic-företagsnamn.
+* Adobe Dynamic Media Classic-företagsnamn.
 * Ditt namn, telefonnummer och e-postadress.
-* Dynamic Media Classic, plattform och version.
+* Adobe Dynamic Media Classic, plattform och version.
 * Problembeskrivning och nödvändiga steg för att återskapa problemet.
 * Eventuellt felmeddelande.
 * Webbläsartyp och version, om tillämpligt.

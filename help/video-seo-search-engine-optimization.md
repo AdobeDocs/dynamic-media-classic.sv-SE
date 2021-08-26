@@ -10,9 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 SEO är processen att förbättra trafiken till en webbplats från sökmotorer. Sökmotorer är utmärkta på att samla in information om textbaserat innehåll, men de kan inte hämta in information om video på ett adekvat sätt om de inte får den här informationen.
 
-Med hjälp av Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. Dessa XML-filer används för att skicka videoinformation till sökmotorer:
+Med Adobe Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Adobe Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. Dessa XML-filer används för att skicka videoinformation till sökmotorer:
 
 * **Webbplatskarta**  för video - Informerar Google om exakt var och vad videomaterialet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor för video finns i [Alternativ för webbplatskartor för video](https://developers.google.com/search/docs/advanced/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
@@ -31,17 +31,17 @@ Med hjälp av Dynamic Media Classic Video SEO kan du använda videometadata för
 >
 >Google stöder både Video Sitemap- och mRSS-feed-protokollet för att skicka information till sökmotorer.
 
-Dynamic Media Classic kan generera videosemappningar och mRSS-flöden från metadata som lagras med varje video. När du skapar videosemappningar och mRSS-flöden bestämmer du vilka metadatafält från videofiler som ska inkluderas. På det här sättet beskriver du dina videoklipp för sökmotorer så att sökmotorer kan dirigera trafik till videoklipp på din webbplats mer exakt
+Adobe Dynamic Media Classic kan generera videosemappningar och mRSS-flöden från metadata som lagras med varje video. När du skapar videosemappningar och mRSS-flöden bestämmer du vilka metadatafält från videofiler som ska inkluderas. På det här sättet beskriver du dina videoklipp för sökmotorer så att sökmotorer kan dirigera trafik till videoklipp på din webbplats mer exakt
 
 >[!NOTE]
 >
 >Innan du skapar en webbplatskarta för video eller RSS-feed bör du ta reda på vilka fält sökmotorn behöver i XML-filen och hur du strukturerar dessa fält. Om du vill skapa en lyckad webbplatskarta för video eller mRSS-feed måste den uppfylla kraven i sökmotorn.
 
-I Dynamic Media Classic skapas rapporter om webbplatskartor för video och mRSS-flöden när du har genererat dem. Rapporterna finns på sidan Video SEO Report.
+I Adobe Dynamic Media Classic skapas rapporter om webbplatskartor för video och mRSS-flöden när du har genererat dem. Rapporterna finns på sidan Video SEO Report.
 
 >[!NOTE]
 >
->För Video Sitemaps och mRSS-flöden hämtar Dynamic Media Classic endast metadata från videoklipp som har markerats för publicering. Markera videoklipp för publicering för att inkludera deras metadata i webbplatskartor för video och mRSS-flöden.
+>För Video Sitemaps och mRSS-flöden hämtar Adobe Dynamic Media Classic endast metadata från videoklipp som har markerats för publicering. Markera videoklipp för publicering för att inkludera deras metadata i webbplatskartor för video och mRSS-flöden.
 
 ## Välja SEO-inställningar för video {#choosing-video-seo-settings}
 
@@ -65,11 +65,11 @@ Välj ett rapportläge i listrutan **[!UICONTROL Generation Mode]**:
 
 I listrutan **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generera automatiskt eller manuellt:
 
-* **Automatiskt läge**  - Dynamic Media Classic genererar automatiskt en video-platskarta, en media-RSS-matning (mRSS) eller båda, varje dag. Välj alternativet Markera för publicering om du automatiskt vill markera XML-filen som genereras i Dynamic Media Classic för publicering.
+* **Automatiskt läge**  - Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS-matning (mRSS) eller båda, varje dag. Välj alternativet Markera för publicering om du automatiskt vill markera XML-filen som genereras i Adobe Dynamic Media Classic för publicering.
 
    * **Markera för** PublishMarks för att publicera XML-filen som genereras.
 
-* **Manuellt läge**  - Dynamic Media Classic genererar videowebbplatskartan, Media RSS-matningen (mRSS) eller både och när du klickar på Generera eller Spara och generera på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
+* **Manuellt läge**  - Adobe Dynamic Media Classic genererar videowebbplatskartan, Media RSS-matningen (mRSS) eller båda, när du klickar på Generera eller Spara och generera på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
 
    * **Inga ytterligare inställningar**  - Markerar inte för publicering av XML-filen som genereras.
 
@@ -79,7 +79,7 @@ I listrutan **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generer
 
 ### Välja genereringsinställningar {#choosing-generation-settings}
 
-I området Genereringsinställningar visas indatafält för Video SiteMap, eller mRSS-feed, eller båda, samt namn på metadatafält på panelen Metadata. Använd området Allmänna inställningar för att mappa inmatningsfält till metadatafält. På så sätt anger du var Dynamic Media Classic ska hämta metadata för Video Sitemap och/eller mRSS-feed.
+I området Genereringsinställningar visas indatafält för Video SiteMap, eller mRSS-feed, eller båda, samt namn på metadatafält på panelen Metadata. Använd området Allmänna inställningar för att mappa inmatningsfält till metadatafält. På så sätt anger du för Adobe Dynamic Media Classic var du vill ha metadata för Video Sitemap och/eller mRSS-feed.
 
 1. Välj en metadatavy på menyn Metadatavy. När du har valt en vy visas namnen på metadatafälten på panelen Metadata.
 Se [Metadatavyer](application-setup.md#metadata_views).

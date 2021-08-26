@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 Att optimera bildkvaliteten kan vara en tidskrävande process eftersom många faktorer bidrar till att återge godtagbara resultat. Resultatet är delvis subjektivt eftersom individer upplever olika bildkvalitet. Strukturerade experiment är avgörande.
 
-Dynamic Media Classic innehåller mer än 100 bildspelskommandon för att justera och optimera bilder och återge resultat. Följande riktlinjer kan hjälpa dig att effektivisera processen och uppnå goda resultat snabbt med några viktiga kommandon och bästa metoder.
+Adobe Dynamic Media Classic innehåller mer än 100 bildspelskommandon för att justera och optimera bilder och återge resultat. Följande riktlinjer kan hjälpa dig att effektivisera processen och uppnå goda resultat snabbt med några viktiga kommandon och bästa metoder.
 
 Se även [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
@@ -45,13 +45,13 @@ Använd `&wid=<value>&hei=<value>&resMode=sharp2` eller `&hei=<value>&resMode=sh
 
 ## Bästa tillvägagångssätt för bildskärpa {#best-practices-for-image-sharpening}
 
-Bildskärpa är den mest komplicerade aspekten när det gäller att styra bilder på webbplatsen och var många misstag görs. Läs mer om hur skärpa och oskarp maskning fungerar i Dynamic Media Classic:
+Bildskärpa är den mest komplicerade aspekten när det gäller att styra bilder på webbplatsen och var många misstag görs. Ta dig tid att lära dig mer om hur skärpa och oskarp maskning fungerar i Adobe Dynamic Media Classic genom att titta på följande resurser:
 
 Best practices white paper [Öka skärpan i bilder i Adobe Dynamic Media Classic och på Image Server](/help/assets/s7_sharpening_images.pdf).
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Med Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid leverans eller både och. Normalt kan du emellertid skärpa upp bilder med bara en metod eller med en annan, men inte med båda metoderna. Att skärpa bilderna vid leverans, på en URL-adress, ger oftast bäst resultat.
+Med Adobe Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid leverans eller både och. Normalt kan du emellertid skärpa upp bilder med bara en metod eller med en annan, men inte med båda metoderna. Att skärpa bilderna vid leverans, på en URL-adress, ger oftast bäst resultat.
 
 Det finns två metoder för bildskärpa:
 
@@ -71,7 +71,7 @@ Det finns två metoder för bildskärpa:
 
          Mer information om hur du anger de här tre parametrarna, inklusive de bästa metoderna att använda med filtret, finns i [Öka skärpan i bilder i Adobe Dynamic Media Classic och på Image Server](/help/assets/s7_sharpening_images.pdf).
 
-      * I Dynamic Media Classic kan du även styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskering används separat för varje färgkomponent med värdet `0` eller bildens intensitet/intensitet med värdet `1`.
+      * I Adobe Dynamic Media Classic kan du även styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskering används separat för varje färgkomponent med värdet `0` eller bildens intensitet/intensitet med värdet `1`.
 
 Det bästa sättet är att börja med parametern oskarp maskradie. Radie-inställningar som du kan börja med är följande:
 
@@ -120,6 +120,6 @@ Om skärpeeffekten fortfarande inte är tillräcklig ökar du radien i decimalst
 
 Följande allmänna förslag är användbara när du experimenterar för att optimera arbetsflödet:
 
-* Prova och testa olika parametrar i realtid, antingen direkt på en Dynamic Media Classic-webbadress eller med Dynamic Media Classic. Den senare ger förhandsvisningar i realtid för justeringsåtgärder.
+* Prova och testa olika parametrar i realtid, antingen direkt på en Adobe Dynamic Media Classic-webbadress eller med Adobe Dynamic Media Classic. Den senare ger förhandsvisningar i realtid för justeringsåtgärder.
 * Det är en god vana att gruppera Dynamic Media Image Serving-kommandon i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg anropar de här förinställningarna. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
-* I Dynamic Media Classic finns också mer avancerade sätt att finjustera bildkvaliteten, till exempel genom att tillämpa bildskärpa vid intag. För avancerade användningsområden där ytterligare justering och optimering av återgivna resultat är ett alternativ kan Adobe Professional Services hjälpa dig med anpassade insikter och bästa metoder.
+* Adobe Dynamic Media Classic har också mer avancerade sätt att finjustera bildkvaliteten, till exempel genom att tillämpa bildskärpa vid intag. För avancerade användningsområden där ytterligare justering och optimering av återgivna resultat är ett alternativ kan Adobe Professional Services hjälpa dig med anpassade insikter och bästa metoder.

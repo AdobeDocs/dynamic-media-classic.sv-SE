@@ -1,38 +1,38 @@
 ---
 title: Överföra och koda videofilmer
-seo-title: Överföra och koda videofilmer
+seo-title: Uploading and encoding videos
 description: Lär dig hur du överför och kodar videofilmer.
-seo-description: Lär dig hur du överför och kodar videofilmer.
+seo-description: Learn how to upload and encode videos.
 uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Visningsprogram,Video
+feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3778'
+source-wordcount: '3789'
 ht-degree: 1%
 
 ---
 
 # Överföra och koda videofilmer{#uploading-and-encoding-videos}
 
-Om du vill skapa en enda video eller adaptiva videouppsättningar för webben eller mobila enheter måste du först överföra dina överordnad videofiler till Dynamic Media Classic. Dynamic Media Classic kodar videoklipp till MP4-format och publicerar video i följande filformat:
+Om du vill skapa en enda video eller adaptiva videouppsättningar för webben eller mobila enheter måste du först överföra dina överordnad videofiler till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic kodar videoklipp till MP4-format och publicerar videoklipp i följande filformat:
 
-* **MP4** - Dynamic Media Classic rekommenderar MP4 som det önskade videofilformatet. Använd MP4-filer för följande:
+* **MP4** - Adobe Dynamic Media Classic rekommenderar MP4 som det videofilformat du föredrar. Använd MP4-filer för följande:
 
    * HTTP Dynamic Streaming på stationära datorer.
    * HTTP Live Streaming (Apples direktuppspelningsprotokoll).
    * Progressiv leverans av video till mobila enheter med Android™, BlackBerry® och Windows®
 
-   I Dynamic Media Classic finns två arbetsflöden för att överföra videofiler:
+   Adobe Dynamic Media Classic har två arbetsflöden för att överföra videofiler:
 
-* **Förkodade videoklipp**  - Du kan överföra MP4-filer direkt till Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
+* **Förkodade videoklipp**  - Du kan överföra MP4-filer direkt till Adobe Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
 
-* **Överordnad källvideor**  - Ladda upp överordnad källvideofiler och koda dessa filer till MP4-filer när de överförs. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Dynamic Media Classic stöder kodning av videofiler i många format.
+* **Överordnad källvideor**  - Ladda upp överordnad källvideofiler och koda dessa filer till MP4-filer när de överförs. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Adobe Dynamic Media Classic har stöd för kodning av videofiler i många format.
 
    * Kontrollera att de överordnad källvideofiler som du vill koda stöds.
 
@@ -44,7 +44,7 @@ Om du vill skapa en enda video eller adaptiva videouppsättningar för webben el
 
       Se [Bästa tillvägagångssätt för videokodning](uploading-encoding-videos.md#best-practices-for-video-encoding).
 
-Dynamic Media Classic genererar även videominiatyrer. Du kan lära dig mer om videominiatyrbilder, hur du hämtar deras URL-adresser och ändrar affischramar.
+Adobe Dynamic Media Classic genererar även videominiatyrer. Du kan lära dig mer om videominiatyrbilder, hur du hämtar deras URL-adresser och ändrar affischramar.
 
 Se [Arbeta med videominiatyrer](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails).
 
@@ -61,7 +61,7 @@ Gör något av följande.
 1. Kontrollera att **[!UICONTROL Publish After Uploading]** är markerat på sidan Överför.
 1. Klicka på **[!UICONTROL Submit Upload]**.
 
-*Om du vill koda videofilmer med Dynamic Media Classic*
+*Om du vill koda videofilmer med Adobe Dynamic Media Classic*
 
 1. Klicka på **[!UICONTROL Upload]** i fältet Global navigering.
 1. Klicka på fliken **[!UICONTROL From Desktop]** på sidan Överför.
@@ -79,7 +79,7 @@ Se [Förinställningar för videokodning för datorer](application-setup.md#desk
 
 *Om du vill koda om en videofil som du överfört tidigare*
 
-1. Navigera till videon i panelen Bläddra i Dynamic Media Classic och markera den.
+1. I Adobe Dynamic Media Classic navigerar du till videon i panelen Bläddra och markerar den.
 1. Klicka på **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.
 1. Expandera **[!UICONTROL EVideo Options]** i dialogrutan Bearbeta resurser och gör sedan något av följande:
    * Det bästa sättet är att använda följande metod. Välj **Adaptiv video**.
@@ -125,7 +125,7 @@ I följande tabell visas videofiltyper (med tillåtna videokodekar) som du kan k
 
 ## Bästa tillvägagångssätt för videokodning {#best-practices-for-video-encoding}
 
-Nedan följer några tips om hur du kodar källvideofiler i Dynamic Media Classic.
+Nedan följer några tips om hur du kodar källvideofiler i Adobe Dynamic Media Classic.
 
 <!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
@@ -147,7 +147,7 @@ I följande tabell beskrivs rekommenderad storlek, proportioner och lägsta bith
 
 ### Hämta metadata för en fil {#obtaining-a-file-s-metadata}
 
-Du kan hämta metadata för en fil genom att visa dess metadata i Dynamic Media Classic, med ett videoredigeringsverktyg eller med ett program som utformats för att hämta metadata. Nedan följer instruktioner om hur du använder MediaInfo, ett tredjepartsprogram, för att hämta videofilens metadata:
+Du kan hämta metadata för en fil genom att visa dess metadata i Adobe Dynamic Media Classic, med ett videoredigeringsverktyg eller med ett program som utformats för att hämta metadata. Nedan följer instruktioner om hur du använder MediaInfo, ett tredjepartsprogram, för att hämta videofilens metadata:
 
 1. Gå till den här webbsidan: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
 1. Välj och hämta installationsprogrammet för den grafiska användargränssnittsversionen och följ installationsanvisningarna.
@@ -242,9 +242,9 @@ Anta till exempel att källvideon är 1 920 x 1 080. I följande tabell ger de t
 
 | Videotyp | Bredd x höjd | Breddförhållande | Höjdförhållande |
 |--- |--- |--- |--- |
-| Källa | 1920 x 1080 | 3 | 3 |
+| Källa | 1920 x 1080 | 3 | 1 |
 | Kodad | 960 x 540 | 2 | 2 |
-| Kodad | 640 x 360 | 3 | 1 |
+| Kodad | 640 x 360 | 3 | 3 |
 | Kodad | 480 x 270 | 4 | 4 |
 
 ### Kodat videofilformat {#encoded-video-file-format}
@@ -257,7 +257,7 @@ Adobe Dynamic Media Classic rekommenderar att du använder MP4 H.264-videokodnin
 
 Se [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Dynamic Media Classic innehåller ett bibliotek med fördefinierade videokodningsförinställningar som återspeglar de vanligaste kodningsinställningarna som används idag. Dessa kodningsförinställningar är optimerade för uppspelning på målskärmar. Dessutom kan administratörer skapa egna videokodningsförinställningar för att anpassa storleken och uppspelningskvaliteten på videoklipp för slutanvändarna. Alla förinställningar för videokodning, oavsett om de är färdiga från Dynamic Media Classic eller skräddarsydda utdata för video i MP4-format.
+Adobe Dynamic Media Classic innehåller ett bibliotek med fördefinierade videokodningsförinställningar som återspeglar de vanligaste kodningsinställningarna som används idag. Dessa kodningsförinställningar är optimerade för uppspelning på målskärmar. Dessutom kan administratörer skapa egna videokodningsförinställningar för att anpassa storleken och uppspelningskvaliteten på videoklipp för slutanvändarna. Alla förinställningar för videokodning, oavsett om de är färdiga från Adobe Dynamic Media Classic eller skräddarsydda utdata för video i MP4-format.
 
 På skärmen Videoförinställningar kan administratörer konfigurera och hantera videokodning. De kan göra följande:
 
@@ -266,7 +266,7 @@ På skärmen Videoförinställningar kan administratörer konfigurera och hanter
 * Redigera förinställningar för videokodning.
 * Ta bort videoförinställningar.
 
-Alla videofilmer som du överför till Dynamic Media Classic eller kodar i Dynamic Media Classic behandlas som&quot;videofilmer&quot;. Med andra ord innebär den här resursklassificeringen att du kan leverera videon för uppspelning på datorer, mobila enheter eller båda. Du kan till exempel förhandsgranska den här typen av videoklipp i Dynamic Media Classic. Du kan också generera URL:er (med funktionen Kopiera URL) och kod som du kan bädda in (med funktionen Bädda in kod) för användning med videospelare, på webbplatser och så vidare.
+Alla videofilmer som du överför till Adobe Dynamic Media Classic eller kodar i Adobe Dynamic Media Classic behandlas som&quot;videofilmer&quot;. Med andra ord innebär den här resursklassificeringen att du kan leverera videon för uppspelning på datorer, mobila enheter eller båda. Du kan till exempel förhandsgranska den här typen av videofilmer i Adobe Dynamic Media Classic. Du kan också generera URL:er (med funktionen Kopiera URL) och kod som du kan bädda in (med funktionen Bädda in kod) för användning med videospelare, på webbplatser och så vidare.
 
 Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
@@ -274,7 +274,7 @@ Se [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-vid
 
 Se [Bädda in visningsprogrammet på en webbsida](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page).
 
-För videomaterial som du överför och kodar i Dynamic Media Classic levereras videon i följande filformat:
+För videomaterial som du överför och kodar i Adobe Dynamic Media Classic levereras videon i följande filformat:
 
 **MP4 H.264** Använd MP4-filer för följande:
 
@@ -282,7 +282,7 @@ För videomaterial som du överför och kodar i Dynamic Media Classic levereras 
 * HLS (HTTP Live Streaming, Apples direktuppspelningsprotokoll).
 * Progressiv leverans av video till mobila Android™-, BlackBerry®- och Windows®-enheter.
 
-Alla andra videoformat och kodekar behandlas som&quot;Överordnad Video&quot;. Den här resursklassificeringen innebär att videon är en videokällfil och inte kan användas för uppspelning på datorer eller mobila enheter. Du kan till exempel inte förhandsgranska den här typen av videofilmer i Dynamic Media Classic. Du kan inte heller generera Kopiera URL:er eller Bädda in kod för användning i videospelare, på webbplatser och så vidare.
+Alla andra videoformat och kodekar behandlas som&quot;Överordnad Video&quot;. Den här resursklassificeringen innebär att videon är en videokällfil och inte kan användas för uppspelning på datorer eller mobila enheter. Du kan till exempel inte förhandsgranska den här typen av videofilmer i Adobe Dynamic Media Classic. Du kan inte heller generera Kopiera URL:er eller Bädda in kod för användning i videospelare, på webbplatser och så vidare.
 
 ### Filtrera listan med förinställningar för videokodning {#filtering-the-list-of-video-encoding-presets}
 
@@ -294,7 +294,7 @@ Du kan också filtrera baserat på ett uppspelningsenhetsalternativ om du vill b
 
 **Så här filtrerar du listan med förinställningar för videokodning:**
 
-1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Adaptive Video Presets]** eller **[!UICONTROL Single Encoding Presets]** i fältet Global Navigation.
+1. I Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Adaptive Video Presets]** eller **[!UICONTROL Single Encoding Presets]** i fältet Global Navigation.
 
    Sidorna för adaptiva videoförinställningar och Förinställningar för enskild kodning innehåller en tabell med information om aktiv status, förinställningens namn, avsedd uppspelningsenhet, videodimensioner och datahastighet för varje videoförinställning.
 
@@ -307,7 +307,7 @@ Du kan också filtrera baserat på ett uppspelningsenhetsalternativ om du vill b
 
 De aktiverade videoförinställningarna visas i dialogrutan Alternativ för överföringsjobb. Dialogrutan visas när en användare överför videofiler under överföringen. De kan välja från en lista med alla aktiverade kodningsförinställningar.
 
-1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** i fältet Global Navigation.
+1. I Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** i fältet Global Navigation.
 1. Gör något av följande:
 
    * Klicka på **[!UICONTROL Adaptive Video Presets]**.
@@ -326,9 +326,9 @@ De aktiverade videoförinställningarna visas i dialogrutan Alternativ för öve
 
 ### Lägga till eller redigera en förinställning för videokodning {#adding-or-editing-a-video-encoding-preset}
 
-Du kan skapa egna videoförinställningar för enskild kodning och lägga till dem i tabellen Videoförinställningar. Du kan också ändra alla fördefinierade videoförinställningar för enskild kodning som medföljer Dynamic Media Classic, förutsatt att du sparar den redigerade förinställningen med ett nytt namn.
+Du kan skapa egna videoförinställningar för enskild kodning och lägga till dem i tabellen Videoförinställningar. Du kan också ändra alla fördefinierade videoförinställningar för enskild kodning som medföljer Adobe Dynamic Media Classic, förutsatt att du sparar den redigerade förinställningen med ett nytt namn.
 
-Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösningshöjd och upplösningsbredd för att säkerställa en korrekt uppspelningsupplevelse. Varningsmeddelanden visas om du överskrider följande gränser:
+Adobe Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösningshöjd och upplösningsbredd för att säkerställa en korrekt uppspelningsupplevelse. Varningsmeddelanden visas om du överskrider följande gränser:
 
 * För datoruppspelning är gränserna: (Bredd/16) * (Höjd/16) &lt; 8192.
 * För mobiluppspelning är gränserna: (Bredd/16) * (Höjd/16) &lt; 660; måldatahastighet &lt; 4000.
@@ -336,14 +336,14 @@ Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösning
 
 **Så här lägger du till eller redigerar en förinställning för videokodning:**
 
-1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** i fältet Global Navigation.
+1. I Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** i fältet Global Navigation.
 1. Klicka på **[!UICONTROL Single Encoding Presets]**.
 1. Gör något av följande på sidan Videoförinställningar:
 
    * Klicka på **[!UICONTROL Add]** i verktygsfältet Videoförinställningar så att du kan lägga till en videoförinställning.
    * Välj en videoförinställning. Klicka på **[!UICONTROL Edit]** i verktygsfältet.
 
-      Du kan inte redigera fördefinierade Dynamic Media Classic-förinställningar; Du kan bara skapa en förinställning från en befintlig genom att välja **[!UICONTROL Save As]**.
+      Du kan inte redigera fördefinierade Adobe Dynamic Media Classic-förinställningar; Du kan bara skapa en förinställning från en befintlig genom att välja **[!UICONTROL Save As]**.
 
 1. På sidan Lägg till videoförinställning eller på sidan Redigera videoförinställning anger du önskade alternativ för videoförinställning.
 
@@ -358,7 +358,7 @@ Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösning
    | Proportioner | Proportionerna är proportionerna mellan videons bredd och höjd. De två första proportionerna som anges nedan används ofta för att visa video vågrätt:<ul><li> 4:3 - Används för nästan allt tv-sändningsinnehåll med standarddefinition.</li><li>16:9 - Används för nästan allt bredbildsformat, HD-TV-innehåll (HDTV) och filmer.</li><li>Skala automatiskt - (standard) En enda kodningsförinställning som fungerar med alla proportioner för att skapa videor som ska skickas till mobiler, surfplattor och datorer. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner (bredd-/höjdförhållande) bevaras.</li><li>Anpassad - Används när du vill definiera en videostorlek som inte är standard.</li><li>De proportioner du väljer avgör inställningarna för bredd och höjd för upplösningsstorleken. värdet för bredd och höjd automatiskt skalas till rätt proportioner.</li></ul> |
    | Upplösningsstorlek | Upplösningsstorleken, uttryckt som antalet pixlar breda och antalet pixlar höga, avgör storleken. Ange ett bredd- och höjdvärde i pixlar eller dra reglaget för att ange dessa värden. I upplösningsspektrumet visas vanliga upplösningsstorlekar. Bredd- och höjdvärdena följer automatiskt de proportioner som du har valt. Om du till exempel väljer 4:3 som proportioner och anger 400 som bredd, anges 300 automatiskt som höjd. Om du valde Skala automatiskt för inställningen Proportioner, ställs värdet för Bredd för upplösningsstorleken automatiskt in på Auto. Klicka på Förhandsgranska så att du kan öppna ett webbläsarfönster och se dina upplösningsalternativ där. |
    | Koda filsuffix | Ange ett suffix. Det här suffixet läggs till i den resulterande kodade videofilen. Du kan skriva ett bindestreck och ett understreck i namnet; blanksteg och specialtecken tillåts inte. |
-   | Andra inställningar | Dynamic Media Classic fastställer automatiskt alla andra kodningsinställningar enligt riktlinjerna för bästa praxis-kodning. |
+   | Andra inställningar | Adobe Dynamic Media Classic fastställer automatiskt alla andra kodningsinställningar enligt riktlinjerna för bästa praxis-kodning. |
 
 1. Gör något av följande:
 
@@ -367,9 +367,9 @@ Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösning
 
 ### Ta bort en förinställning för videokodning {#deleting-a-video-encoding-preset}
 
-Administratörer kan ta bort anpassade videoförinställningar. Videoförinställningar som medföljer Dynamic Media Classic kan inte tas bort.
+Administratörer kan ta bort anpassade videoförinställningar. Videoförinställningar som medföljer Adobe Dynamic Media Classic kan inte tas bort.
 
-1. I Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** i fältet Global Navigation.
+1. I Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** i fältet Global Navigation.
 1. Klicka på **[!UICONTROL Single Encoding Presets]**.
 1. På sidan Videoförinställningar väljer du en videoförinställning i tabellen som du inte längre vill ha eller behöver.
 1. Klicka på **[!UICONTROL Delete]** i verktygsfältet Videoförinställningar.
@@ -378,6 +378,6 @@ Administratörer kan ta bort anpassade videoförinställningar. Videoförinstäl
 >[!MORELIKETHIS]
 >
 >* [Snabbstart: Video](quick-start-video.md#quick-start-video)
-* [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading-and-encoding-videos)
-* [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 

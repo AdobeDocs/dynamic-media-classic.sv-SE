@@ -1,13 +1,15 @@
 ---
-source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
-translation-type: tm+mt
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 4%
 
 ---
-# Riktlinjer för att bidra till Adobe Dynamic Media Classic-dokumentation
+# Riktlinjer för att bidra till Adobe Dynamic Media Classic Documentation
 
-## Adobe Dynamic Media Classic - dokumentationsfilosofi
+## Adobe Dynamic Media Classic Documentation Philosophy
 
-Vi vet att Adobe Dynamic Media Classic-användare arbetar i mycket konkurrensutsatta miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från konkurrenterna. Därför är det viktigt att när Adobe levererar avancerade nya verktyg kompletteras dessa med korrekt och tydlig dokumentation som gör det möjligt för kunden att omedelbart utnyttja sin investering i Dynamic Media Classic och maximera avkastningen.
+Vi vet att användare av Adobe Dynamic Media Classic arbetar i mycket konkurrensutsatta miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från deras konkurrenter. Därför är det viktigt att Adobe när de levererar avancerade nya verktyg kompletteras med korrekt och tydlig dokumentation som gör det möjligt för kunden att omedelbart utnyttja sin investering i Adobe Dynamic Media Classic och maximera avkastningen på investeringen.
 
 Syftet med dokumentationen är att användarna ska få tillgång till aktuell dokumentation så snart som möjligt. Därför prioriterar vi korrekt, användbar dokumentation och strävar efter att kontinuerligt uppdatera och förbättra den.
 
@@ -33,11 +35,11 @@ Undantag från den här regeln gäller versionsinformationen där kända problem
 
 ### Dokumentationsbidragen är inte till för att besvara tekniska frågor.
 
-Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, frågor och förfrågningar är dock endast avsedda för *bidrag* . De är inte avsedda att användas för att besvara dina frågor om hur du använder Dynamic Media Classic, implementerar projektet eller löser tekniska problem.
+Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, utgåvor och pull-begäranden är dock endast avsedda för *bidrag*. De är inte avsedda att användas för att besvara frågor om hur du använder Adobe Dynamic Media Classic, implementerar projektet eller löser tekniska problem.
 
-Alla frågor om användningen av Dynamic Media Classic eller tekniska fel som du har kan ha rapporterats via [Experience Cloud Enterprise Support-portalen](https://helpx.adobe.com/contact/enterprise-support.ec.html) eller diskuteras i [Experience Cloud-communityn](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
+Frågor om hur du använder Adobe Dynamic Media Classic eller tekniska fel som du kan ha rapporteras via [Experience Cloud Enterprise Support-portalen](https://helpx.adobe.com/se/contact/enterprise-support.ec.html) eller diskuteras i [Experience Cloud-communityn](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager).
 
-***Dokumentationsbidragen ersätter inte Adobes kundtjänst*** och eventuella bidrag som söker svar på supportrelaterade frågor kommer att refuseras.
+***Dokumentationsbidragen ersätter inte Adobe Customer*** Careoch eventuella bidrag som söker svar på frågor som rör support kommer att refuseras.
 
 ### Bidragen ska tydligt hänvisa till berörda dokumentationssidor.
 
@@ -63,7 +65,7 @@ Kom ihåg att läsarna av dokumentationen är från hela världen och inte kan f
 
 #### Följ Microsoft-formathandboken
 
-[Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och Dynamic Media Classic-dokumentation följer den här handboken när det är möjligt.
+[Microsoft Manual of ](https://docs.microsoft.com/en-us/style-guide/welcome/) Style är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och Adobe Dynamic Media Classic-dokumentation följer den här handboken när det är möjligt.
 
 ### Formatering
 

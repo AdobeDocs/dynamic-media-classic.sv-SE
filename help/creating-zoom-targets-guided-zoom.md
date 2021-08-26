@@ -1,6 +1,6 @@
 ---
 title: Skapa zoommål för guidad zoomning
-description: Lär dig hur du skapar zoommål för guidad zoomning i Dynamic Media Classic.
+description: Lär dig hur du skapar zoommål för guidad zoomning i Adobe Dynamic Media Classic.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du kan ändra storleken på Zoomvisningsprogrammet så att den matchar storleken
 
 Skapa och redigera zoommål på skärmen för zoommålredigeraren. Om du vill öppna den här skärmen markerar du en bild och gör något av följande:
 
-* markera knappen för överrullning **[!UICONTROL Edit]** och välj Zoommål.
+* Markera överrullningsknappen **[!UICONTROL Edit]** och välj Zoommål.
 * Visa bilden i **[!UICONTROL Detail View]** på panelen Bläddra och välj sedan **[!UICONTROL Zoom Targets]**.
 
 Välj **[!UICONTROL Select Target]**-knapp (pil) på skärmen för zoommålredigeraren för att markera ett mål innan du ändrar dess storlek eller position. Om du vill skapa ett zoommål på bilden väljer du **[!UICONTROL Add Targets]** (rektangel). På sidan Zoom Target Editor finns även verktyg för att ta bort, kopiera och namnge zoommål.

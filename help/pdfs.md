@@ -1,25 +1,25 @@
 ---
 title: Arbeta med PDF-filer
-description: Lär dig hur du arbetar med PDF-filer i Dynamic Media Classic.
+description: Lär dig hur du arbetar med PDF-filer i Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
 
 # Arbeta med PDF-filer{#working-with-pdfs}
 
-PDF-filer (Portable Document Format) används oftast i Dynamic Media Classic för att skapa e-kataloger. När du överför en PDF-fil rastreras eller rips sidorna som standard så att sidorna kan användas för att skapa multimedia.
+PDF-filer (Portable Document Format) används oftast i Adobe Dynamic Media Classic för att skapa e-kataloger. När du överför en PDF-fil rastreras eller rips Adobe Dynamic Media Classic, så att sidorna kan användas för att skapa multimedia.
 
 ## Alternativ för PDF-överföring {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ Välj menyn Färgrymd och välj en färgrymd för PDF-filen. De flesta PDF-filer
 
 * **Behåll ursprunglig färgmodell**  - Behåller den ursprungliga färgmodellen.
 
-* **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Dynamic Media Classic.
+* **Anpassad från > Till** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
 
 Se även [ICC-profiler](/help/icc-profiles.md#icc_profiles).
 

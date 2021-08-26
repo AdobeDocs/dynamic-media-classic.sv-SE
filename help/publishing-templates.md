@@ -10,16 +10,16 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
 
 # Publiceringsmallar{#publishing-templates}
 
-När du publicerar mallen placeras den på Dynamic Media Image Servers, där den är tillgänglig för din webbplats och ditt program. Under publiceringsprocessen aktiverar Dynamic Media Classic de URL:er du behöver för din webbplats och ditt program.
+När du publicerar mallen placeras den på Dynamic Media Image Servers, där den är tillgänglig för din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic de URL:er du behöver för din webbplats och ditt program.
 
 >[!NOTE]
 >
@@ -36,5 +36,5 @@ Om du vill publicera mallar på Dynamic Media Image-servrar klickar du på **[!U
 >[!MORELIKETHIS]
 >
 >* [Markera resurser för publicering](publishing-files.md#publish_after_uploading)
-* [Skapa ett publiceringsjobb](publishing-files.md#creating_a_publish_job)
+>* [Skapa ett publiceringsjobb](publishing-files.md#creating_a_publish_job)
 

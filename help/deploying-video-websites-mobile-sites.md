@@ -1,6 +1,6 @@
 ---
 title: Distribuera video till webbplatser och mobilsajter
-description: Lär dig hur du distribuerar video till webbplatser och mobilsajter från Dynamic Media Classic.
+description: Lär dig hur du distribuerar video till webbplatser och mobilsajter från Adobe Dynamic Media Classic.
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1588'
 ht-degree: 1%
 
 ---
 
 # Distribuera video till webbplatser och mobilsajter{#deploying-video-to-your-websites-and-mobile-sites}
 
-Webbplatser, mobilsajter och datorprogram har tillgång till serverinnehåll i Dynamic Media Classic, inklusive video, via URL-strängar eller inbäddad kod. Dynamic Media Classic aktiverar dessa URL-strängar under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för videon på webbsidor, mobilsidor och datorprogram kopierar du den från Dynamic Media Classic.
+Webbplatser, mobilsajter och datorprogram har åtkomst till serverinnehåll i Adobe Dynamic Media Classic, inklusive video, via URL-strängar eller inbäddad kod. Adobe Dynamic Media Classic aktiverar dessa URL-strängar under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för videon på webbsidor, mobilsidor och datorprogram kopierar du den från Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ Webbplatser, mobilsajter och datorprogram har tillgång till serverinnehåll i D
 
 ## Publicera video {#publishing-video}
 
-Genom att publicera en video kan Dynamic Media Classic-servrar leverera video till webbplatser, mobilsajter och applikationer.
+Genom att publicera en video kan Adobe Dynamic Media Classic-servrar leverera video till webbplatser, mobilsajter och applikationer.
 
 Det finns två olika metoder som du kan använda för att publicera video:
 
-* **Publicera videoklipp automatiskt och direkt vid överföring**  - Som en del av videoöverföringsprocessen kan Dynamic Media Classic automatiskt publicera videoklipp när de överförs och kodas. Denna möjlighet att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
+* **Publicera videoklipp automatiskt och direkt vid överföring**  - Som en del av videoöverföringen kan Adobe Dynamic Media Classic automatiskt publicera videoklipp när de överförs och kodas. Denna möjlighet att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
 
 * **Publicera videon manuellt efter överföring**  - Om du inte vill publicera videoklipp direkt kan du publicera videoklipp manuellt när du vill.
 
-När du har publicerat videofilmer aktiverar Dynamic Media Classic URL-strängarna för HTML-sidan eller programkoden.
+När du har publicerat videofilmer aktiveras URL-strängarna för HTML-sidan eller programkoden i Adobe Dynamic Media Classic.
 
 **Så här publicerar du video:**
 
@@ -107,7 +107,7 @@ Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deployi
 
 ### Implementera inbäddningskod för HTML5-video med MP4-videor {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Om du inte använder videospelaren i Dynamic Media Classic HTML5, utan i stället vill använda den inbyggda HTML5 `<video>`-taggen med MP4-videoresurser, kan du använda följande exempel på inbäddningskod:
+Om du inte använder videospelaren Adobe Dynamic Media Classic HTML5, utan i stället vill använda den inbyggda HTML5 `<video>`-taggen med MP4-videoresurser, kan du använda följande exempel på inbäddningskod:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -131,11 +131,11 @@ Om du inte använder videospelaren i Dynamic Media Classic HTML5, utan i ställe
 
 ## Distribuera video med en videospelare från tredje part {#deploying-video-using-a-third-party-video-player}
 
-Om du använder en videospelare från en annan leverantör eller en anpassad videospelare i stället för ett Dynamic Media Classic-visningsprogram, får du den direkta video-URL som fungerar för HLS-videoströmning med flera bithastigheter eller progressiv nedladdning.
+Om du använder en videospelare från tredje part eller en anpassad videospelare i stället för ett Adobe Dynamic Media Classic-videovisningsprogram, får du den direkta video-URL som fungerar för HLS-videoströmning med flera bithastigheter eller progressiv nedladdning.
 
 **Så här distribuerar du video med en videospelare från tredje part:**
 
-1. I Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** i fältet Global Navigation.
+1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** i fältet Global Navigation.
 1. Beroende på vilken typ av URL som du vill använda gör du något av följande:
 
 * Generera en URL för direktuppspelad HLS-video (flerbithastighet)
@@ -165,13 +165,13 @@ Om du använder en videospelare från en annan leverantör eller en anpassad vid
 
 ## Arbeta med videominiatyrer {#working-with-video-thumbnails}
 
-Dynamic Media Classic genererar miniatyrbilder för kodade videoklipp och förkodade videoklipp. Du kan använda videominiatyrer som vilken bildresurs som helst. Dessutom kan du hämta URL:er för de videominiatyrbilder som skapas i Dynamic Media Classic och distribuera dessa URL:er utanför Dynamic Media Classic. Du kan till exempel distribuera miniatyrbilderna i sökresultat, relaterade videolistor och videouppspelningslistor på en webbplats.
+Adobe Dynamic Media Classic genererar miniatyrbilder för kodade videofilmer och förkodade videofilmer. Du kan använda videominiatyrer som vilken bildresurs som helst. Dessutom kan du hämta URL:er för de videominiatyrbilder som skapas i Adobe Dynamic Media Classic och distribuera dessa URL:er utanför Adobe Dynamic Media Classic. Du kan till exempel distribuera miniatyrbilderna i sökresultat, relaterade videolistor och videouppspelningslistor på en webbplats.
 
 Miniatyrbilder genereras baserat på den första heterogena bildrutan (inte en helt svart bildruta, eller en helt vit bildruta o.s.v.) i videon.
 
 ### Hämta URL-adresser för videominiatyrbilder {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic genererar videominiatyrer automatiskt under överföringsprocessen. Miniatyrbilderna visas i panelen Bläddra i listvyn och stödrastervyn.
+Adobe Dynamic Media Classic genererar videominiatyrer automatiskt under överföringen. Miniatyrbilderna visas i panelen Bläddra i listvyn och stödrastervyn.
 
 Utför en publiceringsåtgärd för att generera URL:er för videominiatyrer.
 
@@ -181,7 +181,7 @@ Efter publiceringen kan du hämta URL:er för videominiatyrbilder i detaljvyn p�
 
 ### Ändra affischbildrutor i videovisningsprogram {#modifying-poster-frames-in-video-viewers}
 
-*affischbildrutan* är den första bildrutan som visas i videomottagare innan videon börjar spelas upp. I Dynamic Media Classic används videominiatyrer som affischbildrutor.
+*affischbildrutan* är den första bildrutan som visas i videomottagare innan videon börjar spelas upp. I Adobe Dynamic Media Classic används videominiatyrer som affischbildrutor.
 
 Du kan använda bildmodifieringar i affischbildrutan. Du kan till exempel beskära affischramen eller göra den genomskinlig. Om du vill ändra affischbildrutan öppnar du konfigurationsskärmen för videovisningsprogrammet och anger modifierare i avsnittet Förhandsvisningsbildsmodifierare.
 

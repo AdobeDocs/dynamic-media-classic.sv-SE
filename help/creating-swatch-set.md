@@ -1,6 +1,6 @@
 ---
 title: Skapa en färgruteuppsättning
-description: Lär dig hur du skapar en färgruteuppsättning i Dynamic Media Classic.
+description: Lär dig hur du skapar en färgruteuppsättning i Adobe Dynamic Media Classic.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 
 **Så här redigerar du en färgruteuppsättning:**
 
-1. I stödrastervyn bläddrar du till en SwatchSet och väljer **[!UICONTROL Edit]** nedanför bilden.
+1. I stödrastervyn bläddrar du till en färgruteuppsättning och väljer **[!UICONTROL Edit]** under bilden.
 1. Gör något av följande:
 
    * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till **[!UICONTROL Views]**-sidan för färgruteuppsättningen.

@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
 # Grundläggande om inställningar{#setup-basics}
 
-På sidan Inställningar för Dynamic Media Classic anger du dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Klicka på **[!UICONTROL Setup]** i fältet Global navigering för att öppna en konfigurationssida.
+Använd inställningssidan för Adobe Dynamic Media Classic för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Klicka på **[!UICONTROL Setup]** i fältet Global navigering för att öppna en konfigurationssida.
 
 Vilka inställningar som är tillgängliga på den här sidan beror på din status som användare eller administratör:
 
@@ -34,7 +34,7 @@ Administratörer kan också konfigurera bildförinställningar och visningsföri
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classic - användarroller och behörigheter](administration-setup.md#user_administration)
-* [Bildförinställningar](application-setup.md#image_presets)
-* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)
+>* [Adobe Dynamic Media Classic - användarroller och behörigheter](administration-setup.md#user_administration)
+>* [Bildförinställningar](application-setup.md#image_presets)
+>* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)
 

@@ -6,12 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,Samarbete,Resurshantering
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Följande två begränsningar gäller om du exporterar bildresurser som en anvä
 * Den komprimerade ZIP-exportfilen har en maximal filstorlek på 1 GB för exportjobbet.
 * Du kan ha maximalt 500 totala resurser per exportjobb.
 
-Se även [Exportera resurser från Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Se även [Exportera resurser från Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Så här anger du exportalternativ som är tillgängliga för användare av Media Portal:**
 
@@ -43,5 +43,5 @@ Se även [Exportera resurser från Dynamic Media Classic](exporting-assets-from-
 >[!MORELIKETHIS]
 >
 >* [Bildförinställningar](application-setup.md#image_presets)
-* [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

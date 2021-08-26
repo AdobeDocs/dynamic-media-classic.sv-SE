@@ -1,22 +1,22 @@
 ---
-title: Hantera resurser i Dynamic Media Classic
-description: En introduktion till hantering av resurser i Dynamic Media Classic
+title: Hantera resurser i Adobe Dynamic Media Classic
+description: En introduktion till hantering av resurser i Adobe Dynamic Media Classic
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
 
-# Hantera resurser i Dynamic Media Classic {#about-managing-assets}
+# Hantera resurser i Adobe Dynamic Media Classic {#about-managing-assets}
 
-Dynamic Media Classic erbjuder resursbiblioteket för hantering av resurser. Resursbiblioteket innehåller de mappar där du lagrar dina resursfiler. Om du väljer en mapp i resursbiblioteket visas innehållet i mappen på panelen Bläddra. Du kan visa objekt i panelen Bläddra i stödraster-, list- eller detaljvyn. När du vill fokusera på en enskild resurs dubbelklickar du på den i panelen Bläddra för att visa den i vyn Detalj.
+Adobe Dynamic Media Classic erbjuder resursbiblioteket för hantering av resurser. Resursbiblioteket innehåller de mappar där du lagrar dina resursfiler. Om du väljer en mapp i resursbiblioteket visas innehållet i mappen på panelen Bläddra. Du kan visa objekt i panelen Bläddra i stödraster-, list- eller detaljvyn. När du vill fokusera på en enskild resurs dubbelklickar du på den i panelen Bläddra för att visa den i detaljvyn.
 
 På panelen Bläddra finns verktyg för att visa, markera, hitta, förhandsgranska, flytta, byta namn på och ta bort resurser. Resurser som du tar bort placeras i papperskorgen; du kan återställa resurser från den här mappen.
 

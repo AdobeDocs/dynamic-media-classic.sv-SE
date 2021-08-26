@@ -9,33 +9,33 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 7%
+source-wordcount: '277'
+ht-degree: 6%
 
 ---
 
 # Resurser för utvecklare {#developer-resources}
 
-Dynamic Media Classic innehåller dokumentation om den senaste större versionen av alla Dynamic Media Classic-programmoduler. Moduldokument är tillgängliga för Image Authoring, Dynamic Media Classic, Image Server, Image Rendering och Viewers.
+Adobe Dynamic Media Classic innehåller dokumentation för den senaste större versionen av respektive programmodul för Adobe Dynamic Media Classic. Moduldokument finns för Image Authoring, Adobe Dynamic Media Classic, Image Server och Image Rendering samt Viewers.
 
 Versionsinformation finns också för vissa moduler. Versionsinformation innehåller information om releasen, inklusive förbättringar, ny funktionalitet, tips, felsökningsråd och kända problem. Versionsinformationen innehåller även interaktiva exempel på multimediefunktioner och hur du aktiverar dem. Versionsinformationen innehåller dessutom installations- och konfigureringsinstruktioner för klienter med licensierad programvara.
 
-Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och använda multimedia från Dynamic Media Classic ytterligare för en webbplats eller ett anpassat program kan använda dessa guider. Dynamic Media Classic förutsätter att användaren känner till datorprogrammet, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
+Referenshandböcker till Image Serving och Image Rendering samt visningsprogram beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa och använda Adobe Dynamic Media Classic-multimedia för en webbplats eller ett anpassat program kan använda dessa guider. Adobe Dynamic Media Classic förutsätter att användaren känner till datorprogrammet, allmänna http-protokollstandarder och -konventioner samt grundläggande bildterminologi.
 
-## Dynamic Media Classic API
+## Adobe Dynamic Media Classic API
 
 | Dokument | Webbadress |
 | --- | --- |
-| Referenshandbok för API | Kontakta Dynamic Media Classic teknisk support för dokumentation. |
+| Referenshandbok för API | Kontakta Adobe Dynamic Media Classic för mer information. |
 
 ## Bildredigering
 
 | Dokument | Webbadress |
 | --- | --- |
-| Användarhandbok | Kontakta Dynamic Media Classic teknisk support för den här dokumentationen. |
-| Versionsinformation | Kontakta Dynamic Media Classic teknisk support för den här dokumentationen. |
+| Användarhandbok | Kontakta Adobe Dynamic Media Classic teknisk support för den här dokumentationen. |
+| Versionsinformation | Kontakta Adobe Dynamic Media Classic teknisk support för den här dokumentationen. |
 
 ##  för bildleverans och bildåtergivning
 

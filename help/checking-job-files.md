@@ -1,25 +1,25 @@
 ---
 title: Kontrollera jobbfiler
-description: Lär dig hur du kontrollerar jobbfiler i Dynamic Media Classic.
+description: Läs om hur du kontrollerar jobbfiler i Adobe Dynamic Media Classic.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Resurshantering
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
 
 # Kontrollera jobbfiler{#checking-job-files}
 
-Dynamic Media Classic erbjuder jobbsidan för att övervaka filöverföringar till Dynamic Media Classic och filer som du publicerar på Dynamic Media Classic-servrar. Du kan granska överförings- och publiceringsjobb på jobbsidan, kontrollera status för jobb och avbryta publiceringsjobb från den här sidan. Du kan också schemalägga överförings- och publiceringsjobb.
+För att kunna övervaka filöverföringar till Adobe Dynamic Media Classic och filer som du publicerar på Adobe Dynamic Media Classic-servrar finns Adobe Dynamic Media Classic som en jobbsida. Du kan granska överförings- och publiceringsjobb på jobbsidan, kontrollera status för jobb och avbryta publiceringsjobb från den här sidan. Du kan också schemalägga överförings- och publiceringsjobb.
 
 När du överför resurser visas en snurrande ikon bredvid menyn Jobb, som anger att ett jobb pågår och hur många filer som bearbetas. Du kan markera ikonen om du vill visa mer information om det aktiva jobbet.
 
@@ -41,7 +41,7 @@ Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
 * **[!UICONTROL Total]** - Antal överförda filer.
 
-* **[!UICONTROL W (warnings)]** - Antal varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Till exempel innehåller `.DS_store`-filer (Macintosh) och Thumbs.db-filer (Windows®) information om hur du visar bildfiler för användare. Du kan dock ignorera varningsmeddelanden om de här filerna eftersom de inte gäller hur filerna används i Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
+* **[!UICONTROL W (warnings)]** - Antal varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Till exempel innehåller `.DS_store`-filer (Macintosh) och Thumbs.db-filer (Windows®) information om hur du visar bildfiler för användare. Du kan dock ignorera varningsmeddelanden om de här filerna eftersom de inte gäller hur filerna används i Adobe Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
 
 * **[!UICONTROL E (errors)]** - Visar antalet fel i jobbet (om sådana finns). Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om fel.
 
@@ -71,7 +71,7 @@ Använd följande tekniker för att sortera jobb eller ändra vyn på fliken His
 
 ## Visa, kopiera eller skriv ut en jobbdetaljrapport {#viewing-copying-or-printing-a-job-details-report}
 
-Dubbelklicka på namnet på en rapport på jobbsidan så att sidan Jobbinformation öppnas. Den här sidan innehåller en sammanfattningsrapport om filerna i jobbet. Välj **[!UICONTROL View Detail]** så att du kan se en posts Dynamic Media Classic ID, målsökväg och statusinformation. Om du överförde en PDF- eller PostScript-fil som kräver teckensnitt som inte finns i Dynamic Media Classic visas en lista med de saknade teckensnitten i rapporten.
+Dubbelklicka på namnet på en rapport på jobbsidan så att sidan Jobbinformation öppnas. Den här sidan innehåller en sammanfattningsrapport om filerna i jobbet. Markera **[!UICONTROL View Detail]** så att du kan se en posts Adobe Dynamic Media Classic ID, målsökväg och statusinformation. Om du överförde en PDF- eller PostScript-fil som kräver teckensnitt som inte finns i Adobe Dynamic Media Classic visas de saknade teckensnitten i rapporten.
 
 Du kan kopiera den här informationen till Urklipp.
 

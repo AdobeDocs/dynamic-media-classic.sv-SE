@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic,visningsprogram,snurra uppsättningar,visningsförinställningar
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
 
 # Konfigurera förinställningar för Snurra uppsättningar för visningsprogram{#setting-up-spin-set-viewer-presets}
 
-Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. Dynamic Media Classic innehåller förinställningar för rotationsuppsättningen. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
+Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. Adobe Dynamic Media Classic innehåller förinställningar för rotationsuppsättningen. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
 
 **Så här skapar du en förinställning för Snurra uppsättning:**
 

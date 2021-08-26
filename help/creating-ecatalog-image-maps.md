@@ -1,18 +1,18 @@
 ---
 title: Skapa eCatalog-bildscheman
-description: Lär dig hur du skapar eCatalog-bildscheman i Dynamic Media Classic.
+description: Lär dig hur du skapar eCatalog-bildscheman i Adobe Dynamic Media Classic.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
-feature: Dynamic Media Classic,Visningsprogram,eCatalog
+feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
 
    * **Rektangulärt schema** - Välj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln.
 
-   * **Polygonkarta**  - Välj verktyget Polygonbildschema och markera sedan så många gånger som behövs runt bildens omkrets. När du väljer det här alternativet ritas kanterna för bildschemat i Dynamic Media Classic.
+   * **Polygonkarta**  - Välj verktyget Polygonbildschema och markera sedan så många gånger som behövs runt bildens omkrets. När du väljer det här alternativet ritas kanterna för bildschemat i Adobe Dynamic Media Classic.
 
-      När du har ritat en bildschema får den ett namn i listan Bildschema. För att bilda namnet lägger Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
+      När du har ritat en bildschema ger Adobe Dynamic Media Classic den ett namn i listan Bildschema. För att bilda namnet lägger Adobe Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida som du arbetar i.
 
 1. (Valfritt) I listan Bildschema i kolumnen [!UICONTROL Name] kan du ange ett nytt namn för bildschemat. Använd inte blanksteg i det namn du anger.
 1. Du kan låta tittarna öppna en ny webbsida när de väljer Bildschema. Ange webbsidans URL i URL-kolumnen på listpanelen Bildschema.
@@ -131,7 +131,7 @@ Från och med fönstret Kartsammanfattning följer du de här stegen för att im
 
 ## Kopiera bildscheman mellan e-kataloger {#copying-image-maps-between-ecatalogs}
 
-Du kan kopiera alla bildscheman i en e-katalog till en annan e-katalog. Att kopiera bildscheman på det här sättet är ett bekvämt sätt att kopiera bildscheman mellan översättningar på främmande språk i samma eCatalog. För att kopieringen ska lyckas rekommenderar Dynamic Media Classic att du kopierar mellan e-kataloger med samma antal sidor och samma bilder.
+Du kan kopiera alla bildscheman i en e-katalog till en annan e-katalog. Att kopiera bildscheman på det här sättet är ett bekvämt sätt att kopiera bildscheman mellan översättningar på främmande språk i samma eCatalog. För att kopieringen ska lyckas rekommenderar Adobe Adobe Dynamic Media Classic att du kopierar mellan e-kataloger med samma antal sidor och samma bilder.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ Så här kopierar du alla bildscheman i en e-katalog till en annan eCatalog:
 1. Välj **[!UICONTROL Copy Maps]** på fliken Ordna sidor.
 1. I dialogrutan Välj resurs markerar du den e-katalog där du vill kopiera bildscheman och väljer sedan **[!UICONTROL Select]**.
 
-Ett varningsmeddelande visas i Dynamic Media Classic om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Välj **[!UICONTROL Continue]** om du vill kopiera bildscheman trots varningen.
+I Adobe Dynamic Media Classic visas ett varningsmeddelande om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Välj **[!UICONTROL Continue]** om du vill kopiera bildscheman trots varningen.
