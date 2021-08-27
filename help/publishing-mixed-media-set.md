@@ -1,6 +1,6 @@
 ---
 title: Publicera en blandad medieuppsättning
-description: Lär dig hur du publicerar en uppsättning med blandade media.
+description: Lär dig hur du publicerar en uppsättning med blandade media från Adobe Dynamic Media Classic.
 uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -43,20 +43,20 @@ Last Modified Date:
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Mark For Publish]** bredvid de filnamn du vill publicera i panelen Bläddra.
-   * På skärmen Överför klickar du på **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
+   * I panelen Bläddra väljer du **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
+   * På skärmen Överför väljer du **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
 
-1. Klicka på **[!UICONTROL Publish]** i fältet Global navigering.
+1. Välj **[!UICONTROL Publish]** i fältet Global navigering.
 1. Ange önskade schemaläggningsalternativ.
 1. (Valfritt) Skriv ett namn för publiceringsjobbet i fältet **[!UICONTROL Job Name]**.
 1. I **[!UICONTROL Advanced]**-alternativen väljer du **[!UICONTROL Video Server]** i listrutan **[!UICONTROL Publish To]**.
 
    Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för fler alternativ som du kan ange.
 
-1. Klicka på **[!UICONTROL Submit Publish]**.
+1. Välj **[!UICONTROL Submit Publish]**.
 1. Upprepa steg 2-4 ovan.
 1. I **[!UICONTROL Advanced]** väljer du **[!UICONTROL Image Server]** i listrutan **[!UICONTROL Publish To]**.
 
    Se [Avancerade publiceringsalternativ](publishing-files.md#advanced_publish_options) för fler alternativ som du kan ange.
 
-1. Klicka på **[!UICONTROL Submit Publish]**.
+1. Välj **[!UICONTROL Submit Publish]**.

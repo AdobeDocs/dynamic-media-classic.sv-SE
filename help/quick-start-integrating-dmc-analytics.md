@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Den här snabbstarten är utformad för att du snabbt ska komma igång med Adobe
 >
 >Innan du kan konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics-rapportvariabler med Adobe Dynamic Media Classic-händelser måste du kontrollera att du har lagts till som medlem i webbtjänståtkomstgruppen i Adobe Analytics. Medlemmar i den här gruppen kan få åtkomst till alla rapporter i de angivna rapportsviterna via Marketing Cloud’s Web Services API oavsett vilka behörigheter som har angetts i gränssnittet. Om du vill lägga till en medlem i gruppen i Adobe Analytics klickar du på **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 
-När du har verifierat att du är medlem i webbtjänståtkomstgruppen klickar du i Adobe Dynamic Media Classic på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]**. Klicka på **[!UICONTROL Adobe Analytics Login]** på konfigurationssidan för Adobe Analytics.
+När du har verifierat att du är medlem i webbtjänståtkomstgruppen går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]** i Adobe Dynamic Media Classic. Klicka på **[!UICONTROL Adobe Analytics Login]** på konfigurationssidan för Adobe Analytics.
 
 Se [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 

@@ -1,6 +1,6 @@
 ---
 title: Publicera e-kataloger och tillhörande PDF-filer
-description: Lär dig hur du publicerar e-kataloger och tillhörande PDF-filer.
+description: Lär dig hur du publicerar e-kataloger och tillhörande PDF-filer från Adobe Dynamic Media Classic.
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,15 @@ När du publicerar placeras din e-katalog och PDF på Dynamic Media Image Server
 
 **Så här publicerar du e-kataloger och tillhörande PDF-filer:**
 
-1. Klicka på **[!UICONTROL Publish]** i fältet Global navigering.
-1. Klicka på **[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]** på skärmen Publicera.
+1. Välj **[!UICONTROL Publish]** i fältet Global navigering.
+1. Välj **[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]** på skärmen Publicera.
 1. (Valfritt) I fältet Jobbnamn anger du ett namn för publiceringsjobbet, men behåller den fördefinierade texten för datum och tid.
 
-   Om du har konfigurerat din e-katalog så att tittarna kan göra nyckelordssökningar kontrollerar du att nyckelordsdata är publicerade. Klicka på **[!UICONTROL Advanced]** i dialogrutan Publicera. Klicka på **[!UICONTROL Full w/ Search Data]** i listrutan **[!UICONTROL Publish]**. Det här alternativet är markerat som standard.
+   Om du har konfigurerat din e-katalog så att tittarna kan göra nyckelordssökningar kontrollerar du att nyckelordsdata är publicerade. Välj **[!UICONTROL Advanced]** i dialogrutan Publicera. Välj **[!UICONTROL Full w/ Search Data]** i listrutan **[!UICONTROL Publish]**. Det här alternativet är markerat som standard.
 
-1. Klicka på ****[!UICONTROL Submit Publish]****.
+1. Klicka på **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >
->* [Publicering](publishing-files.md)
+>* [Publicera filer](publishing-files.md)
 

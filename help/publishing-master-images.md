@@ -1,6 +1,6 @@
 ---
 title: Publicera överordnad bilder
-description: Lär dig hur du publicerar överordnad bilder.
+description: Lär dig hur du publicerar överordnad bilder från Adobe Dynamic Media Classic.
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers,
 
 ## Publicera dina överordnad bilder {#publishing-your-master-images}
 
-1. Klicka på **[!UICONTROL Publish]** i fältet Global navigering. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och anger sedan eventuellt ett namn för publiceringsjobbet
+1. Välj **[!UICONTROL Publish]** i fältet Global navigering. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och anger sedan eventuellt ett namn för publiceringsjobbet
 
-1. Klicka på **[!UICONTROL Submit Publish]**.
+1. Välj **[!UICONTROL Submit Publish]**.
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers,
 
 >[!MORELIKETHIS]
 >
->* [Publicering](publishing-files.md#publishing_files)
+>* [Publicera filer](publishing-files.md#publishing_files)
 

@@ -1,6 +1,6 @@
 ---
 title: Publicera zoombilder
-description: Lär dig hur du publicerar zoombilder.
+description: Lär dig hur du publicerar zoombilder från Adobe Dynamic Media Classic.
 uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Bilder måste markeras för publicering för att de ska kunna kopieras till Dyna
 
 ## Publicera bilderna {#publishing-the-images}
 
-Om du vill publicera zoombilder klickar du på **[!UICONTROL Publish]** i fältet Global navigering och väljer sedan ett **[!UICONTROL When]**-alternativ (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**). Du kan också ange ett namn för publiceringsjobbet. Klicka på **Skicka publicering**.
+Om du vill publicera zoombilder väljer du **[!UICONTROL Publish]** i fältet Global navigering och väljer sedan ett **[!UICONTROL When]**-alternativ (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**). Du kan också ange ett namn för publiceringsjobbet. Välj **Skicka publicering**.
 
 >[!MORELIKETHIS]
 >
->* [Publicering](publishing-files.md#publishing_files)
+>* [Publicera filer](publishing-files.md#publishing_files)
 

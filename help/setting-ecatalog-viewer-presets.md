@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du mås
 
    * **Skapa en förinställning**  för eCatalog Viewer - klicka  **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer eCatalog Viewer och klickar sedan på **[!UICONTROL Add]**.
 
-   * **Redigera en visningsförinställning**  för eCatalog - Välj en visningsförinställning för eCatalog och klicka sedan på Redigera. Klicka på **[!UICONTROL Save As]** när du har skapat förinställningen.
+   * **Redigera en visningsförinställning**  för eCatalog - Välj en visningsförinställning för eCatalog och klicka sedan på  **[!UICONTROL Edit]**. Klicka på **[!UICONTROL Save As]** när du har skapat förinställningen.
 
 1. Ange ett namn för visningsförinställningen för eCatalog på skärmen Konfigurera visningsprogram.
 1. Ange önskade alternativ på skärmen Konfigurera visningsprogram.

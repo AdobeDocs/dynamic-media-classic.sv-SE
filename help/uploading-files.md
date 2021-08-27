@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '3711'
 ht-degree: 0%
@@ -89,7 +89,7 @@ För att få bästa möjliga resultat med Adobe Dynamic Media Classic bör du an
 
 >[!NOTE]
 >
->När du överför bildfiler och PDF-filer till Adobe Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF-filer är de filer som senare publiceras till Dynamic Media Image Servers. I Adobe Dynamic Media Classic används filformatet Pyramid Tiff eftersom det innehåller olika zoomningsförhållanden som möjliggör snabb zoomning när det visas med ett Adobe Dynamic Media Classic Zoom Viewer.
+>När du överför bildfiler och PDF-filer till Adobe Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF-filer är de filer som senare publiceras till Dynamic Media Image Servers. I Adobe Dynamic Media Classic används filformatet Pyramid Tiff eftersom det innehåller olika zoomningsförhållanden som möjliggör snabb zoomning när det visas med Adobe Dynamic Media Classic Zoom Viewer.
 
 ### Statiska filformat som stöds {#supported-static-file-formats}
 
