@@ -9,9 +9,9 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1841'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ När du har lagt till en användare skickar Adobe Dynamic Media Classic ett väl
 
 ### Ta bort en användare {#deleting-a-user}
 
-Du kan ta bort användare från Adobe Adobe Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
+Du kan ta bort användare från Adobe Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. Välj en användare i listan och välj sedan **[!UICONTROL Edit]**.

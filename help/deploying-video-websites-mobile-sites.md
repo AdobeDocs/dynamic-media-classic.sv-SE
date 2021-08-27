@@ -10,9 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1587'
 ht-degree: 1%
 
 ---
@@ -131,7 +131,7 @@ Om du inte använder videospelaren Adobe Dynamic Media Classic HTML5, utan i st�
 
 ## Distribuera video med en videospelare från tredje part {#deploying-video-using-a-third-party-video-player}
 
-Om du använder en videospelare från tredje part eller en anpassad videospelare i stället för ett Adobe Dynamic Media Classic-videovisningsprogram, får du den direkta video-URL som fungerar för HLS-videoströmning med flera bithastigheter eller progressiv nedladdning.
+Om du använder en videospelare från en annan leverantör eller en anpassad videospelare i stället för ett Dynamic Media Classic-visningsprogram, får du den direkta video-URL som fungerar för HLS-videoströmning med flera bithastigheter eller progressiv nedladdning.
 
 **Så här distribuerar du video med en videospelare från tredje part:**
 

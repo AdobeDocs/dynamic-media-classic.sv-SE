@@ -1,6 +1,6 @@
 ---
 title: Konfigurera förinställningar för eCatalog Viewer
-description: Lär dig hur du ställer in förinställningar för visningsprogrammet för eCatalog.
+description: Läs om hur du ställer in visningsförinställningar för eCatalog i Adobe Dynamic Media Classic.
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -26,24 +26,24 @@ Förinställningar för eCatalog Viewer ger många inställningar för att gå f
 
 Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du måste vara administratör):
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global Navigation.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global Navigation.
 1. Skapa en visningsförinställning för eCatalog genom att starta en ny förinställning eller genom att starta från en befintlig visningsförinställning för eCatalog:
 
-   * **Skapa en förinställning**  för eCatalog Viewer - klicka  **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer eCatalog Viewer och klickar sedan på **[!UICONTROL Add]**.
+   * **Skapa en eCatalog Viewer-förinställning**  - Välj  **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer eCatalog Viewer och sedan **[!UICONTROL Add]**.
 
-   * **Redigera en visningsförinställning**  för eCatalog - Välj en visningsförinställning för eCatalog och klicka sedan på  **[!UICONTROL Edit]**. Klicka på **[!UICONTROL Save As]** när du har skapat förinställningen.
+   * **Redigera en eCatalog Viewer-förinställning**  - Välj en visningsförinställning för eCatalog och välj sedan  **[!UICONTROL Edit]**. Välj **[!UICONTROL Save As]** när du har skapat förinställningen.
 
 1. Ange ett namn för visningsförinställningen för eCatalog på skärmen Konfigurera visningsprogram.
 1. Ange önskade alternativ på skärmen Konfigurera visningsprogram.
 
-   Klicka på ikonen **[!UICONTROL Info Tip]** bredvid alternativet om du vill läsa dess beskrivning.
+   markera ikonen **[!UICONTROL Info Tip]** bredvid alternativet om du vill läsa dess beskrivning.
 
    På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
 1. (Valfritt) I **[!UICONTROL Info Panel Settings]** kan alternativet **[!UICONTROL Information Server URL]** innehålla följande speciella tokens, som används av visningsprogrammet:
 
    | Token | Ersatt med | Anteckningar |
-   |--- |--- |--- |
+   | --- | --- | --- |
    | `$1$` | rollover_key-värde | Objektidentifieraren från `<area>`-elementet för kartan. |
    | `$2$` | frame | Sekvensnumret för den bildruta som visas i bilduppsättningen. |
    | `$3$` | imageroot | Det första sökvägselementet i det första objektet som anges i bildkommandot (vanligtvis bildkatalog-ID:t för den katalogpost som anger bilduppsättningen). |
@@ -54,10 +54,10 @@ Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du mås
 >
 >Om du vill använda den här svarsmallen i stället för mallen som är definierad i själva e-katalogen lägger du till `fmt=1` i slutet av informationsserverns URL. Exempel: `https://.../$3$/$4$/$1$/?FMT=1`.
 
-1. Klicka på **Spara**.
-1. Klicka på Standard om du vill att den visningsförinställning för eCatalog som du skapade ska vara den som används för att visa e-kataloger på webbsidan.
+1. Välj **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Default]** om du vill att den visningsförinställning för eCatalog som du skapade ska vara den som används för att visa e-kataloger på webbsidan.
 
-Om du vill ta bort en visningsförinställning för eCatalog markerar du den på skärmen med visningsförinställningar och klickar på **[!UICONTROL Delete]**.
+Om du vill ta bort en visningsförinställning för eCatalog markerar du den på skärmen med visningsförinställningar och väljer **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

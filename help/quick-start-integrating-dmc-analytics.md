@@ -1,6 +1,6 @@
 ---
 title: '"Snabbstart: Integrera Adobe Dynamic Media Classic och Adobe Analytics"'
-description: En introduktion och snabbstart för att integrera Adobe Dynamic Media Classic och Adobe Analytics så att du snabbt kommer igång.
+description: En introduktion och snabbstart om hur du kan integrera Adobe Dynamic Media Classic och Adobe Analytics för att snabbt komma igång.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ När du har integrerat Adobe Analytics med Adobe Dynamic Media Classic kan du f�
 
 Med Adobe Analytics rapporter kan du få en tydlig bild av kundernas aktivitet på din webbplats. Du kan avgöra vilka produktpresentationer som leder till konvertering och vilka som inte drar till sig kundernas intresse.
 
-Se även [Mäta video i Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Se även [Mät video i Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 >[!NOTE]
 >
@@ -35,13 +35,13 @@ Den här snabbstarten är utformad för att du snabbt ska komma igång med Adobe
 
 >[!NOTE]
 >
->Innan du kan konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics-rapportvariabler med Adobe Dynamic Media Classic-händelser måste du kontrollera att du har lagts till som medlem i webbtjänståtkomstgruppen i Adobe Analytics. Medlemmar i den här gruppen kan få åtkomst till alla rapporter i de angivna rapportsviterna via Marketing Cloud’s Web Services API oavsett vilka behörigheter som har angetts i gränssnittet. Om du vill lägga till en medlem i gruppen i Adobe Analytics klickar du på **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+>Innan du kan konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics-rapportvariabler med Adobe Dynamic Media Classic-händelser måste du kontrollera att du har lagts till som medlem i webbtjänståtkomstgruppen i Adobe Analytics. Medlemmar i den här gruppen kan få åtkomst till alla rapporter i de angivna rapportsviterna via Experience Cloud’s Web Services API oavsett vilka behörigheter som har angetts i gränssnittet. Om du vill lägga till en medlem i gruppen går du till **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]** i Adobe Analytics.
 
-När du har verifierat att du är medlem i webbtjänståtkomstgruppen går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]** i Adobe Dynamic Media Classic. Klicka på **[!UICONTROL Adobe Analytics Login]** på konfigurationssidan för Adobe Analytics.
+När du har verifierat att du är medlem i webbtjänståtkomstgruppen går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Adobe Analytics]** i Adobe Dynamic Media Classic. Välj **[!UICONTROL Adobe Analytics Login]** på konfigurationssidan för Adobe Analytics.
 
 Se [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-I dialogrutan Adobe Analytics-inloggning skriver du ditt Marketing Cloud Org-ID (valfritt) och fullständig inloggningsinformation och klickar sedan på **[!UICONTROL Login]**. I listrutan Report Suite väljer du namnet på den rapportserie som du vill använda.
+I dialogrutan Adobe Analytics-inloggning skriver du ditt Experience Cloud Org-ID (valfritt) och dina fullständiga inloggningsuppgifter och väljer sedan **[!UICONTROL Login]**. I listrutan Report Suite väljer du namnet på den rapportserie som du vill använda.
 
 ## 2. Tilldela Adobe Analytics rapportvariabler till visningsprogramhändelser i Adobe Dynamic Media Classic och Adobe Dynamic Media Classic-variabler
 
@@ -52,7 +52,7 @@ På Adobe Analytics konfigurationssida anger du den information du vill ha i Ado
 
 I Adobe Analytics Configuration finns även verktyg för att aktivera, redigera och ta bort visningsprogramhändelser.
 
-När du har klickat på **[!UICONTROL Save]** på Adobe Analytics konfigurationssida infogas en anpassad spårningskod för att mäta användaraktivitet i visningsprogram för Adobe Dynamic Media Classic. Med den här funktionen kan du spåra användaraktivitet i Adobe Analytics-rapporter.
+När du har valt **[!UICONTROL Save]** på Adobe Analytics konfigurationssida infogas en anpassad spårningskod för att mäta användaraktivitet i visningsprogram för Adobe Dynamic Media Classic. Med den här funktionen kan du spåra användaraktivitet i Adobe Analytics-rapporter.
 
 Se [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 

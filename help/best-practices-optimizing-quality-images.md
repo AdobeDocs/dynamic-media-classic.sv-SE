@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 3%
 
 ---
@@ -120,6 +120,6 @@ Om skärpeeffekten fortfarande inte är tillräcklig ökar du radien i decimalst
 
 Följande allmänna förslag är användbara när du experimenterar för att optimera arbetsflödet:
 
-* Prova och testa olika parametrar i realtid, antingen direkt på en Adobe Dynamic Media Classic-webbadress eller med Adobe Dynamic Media Classic. Den senare ger förhandsvisningar i realtid för justeringsåtgärder.
+* Testa och testa olika parametrar i realtid, antingen direkt på en webbadress eller med Adobe Dynamic Media Classics bildjusteringsfunktioner. Den senare ger förhandsvisningar i realtid för justeringsåtgärder.
 * Det är en god vana att gruppera Dynamic Media Image Serving-kommandon i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg anropar de här förinställningarna. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
 * Adobe Dynamic Media Classic har också mer avancerade sätt att finjustera bildkvaliteten, till exempel genom att tillämpa bildskärpa vid intag. För avancerade användningsområden där ytterligare justering och optimering av återgivna resultat är ett alternativ kan Adobe Professional Services hjälpa dig med anpassade insikter och bästa metoder.
