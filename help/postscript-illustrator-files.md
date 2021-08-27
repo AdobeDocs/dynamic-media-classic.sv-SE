@@ -1,6 +1,6 @@
 ---
 title: Arbeta med PostScript- och Illustrator-filer
-description: Lär dig hur du arbetar med PostScript- och Illustrator-filer.
+description: Lär dig hur du arbetar med PostScript- och Illustrator-filer i Adobe Dynamic Media Classic.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,18 +23,18 @@ Du kan använda Adobe PostScript®- (EPS) och Adobe® Illustrator®-filer (AI) i
 
 När du överför bildfiler från PostScript (EPS) eller Illustrator (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Formateringsalternativ för PostScript- och Illustrator-filer finns på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Överför jobbalternativ.
 
-* **Bearbetning**  - Välj  **[!UICONTROL Rasterize]** att konvertera vektorgrafik i filen till bitmappsformat.
+* **[!UICONTROL Processing]** - Välj  **[!UICONTROL Rasterize]** att konvertera vektorgrafik i filen till bitmappsformat.
 
-* **Behåll genomskinlig bakgrund i återgiven bild**  - Behåller filens bakgrundsgenomskinlighet.
+* **[!UICONTROL Maintain Transparent Background In Rendered Image]** - Bevarar filens genomskinlighet i bakgrunden.
 
-* **Upplösning**  - Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
+* **[!UICONTROL Resolution]** - Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
 
-* **Färgrymd** - Markera  **[!UICONTROL Color Space]** menyn och välj en färgrymd:
+* **[!UICONTROL Color Space]** - Markera  **[!UICONTROL Color Space]** menyn och välj en färgrymd:
 
-   * **Identifiera automatiskt**  - Behåller filens färgrymd.
+   * **[!UICONTROL Detect Automatically]** - Behåller filens färgrymd.
 
-   * **Tvinga som RGB**  - Konverterar till RGB-färgrymden.
+   * **[!UICONTROL Force As RGB]** - Konverterar till RGB-färgmodellen.
 
-   * **Använd som CMYK**  - Konverterar till CMYK-färgmodellen.
+   * **[!UICONTROL Force As CMYK]** - Konverterar till CMYK-färgmodellen.
 
-   * **Använd som gråskala**  - Konverterar till färgrymden Gråskala.
+   * **[!UICONTROL Force As Grayscale]** - Konverterar till färgmodellen Gråskala.

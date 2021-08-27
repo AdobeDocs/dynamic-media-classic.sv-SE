@@ -1,6 +1,6 @@
 ---
-title: Förbereder resurser för färgrutor Ange resurser för överföring
-description: Lär dig hur du förbereder resurser för färgrutor för överföring.
+title: Förbered färgrutor Ange resurser för överföring
+description: Lär dig hur du förbereder resurser för färgrutor för överföring till Adobe Dynamic Media Classic.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 90216519-4b14-4f8b-8e72-3d7ce9ec89ff
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Förbereder resurser för färgrutor Ange resurser för överföring{#preparing-swatch-set-assets-for-upload}
+# Förbered färgrutor Ange resurser för överföring{#preparing-swatch-set-assets-for-upload}
 
 Innan du överför de bilder du behöver bör du kontrollera att bilderna har rätt storlek och format. Sammanställ också de färgrutefiler du behöver.
 
@@ -28,9 +28,9 @@ Om du vill skapa en uppsättning med färgrutor behöver du vinjetter eller olik
 
 Eftersom användare kan zooma bilder i färgruteuppsättningar bör du se till att bilderna har minst 2 000 pixlar i den största dimensionen. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
 
-Detaljerade instruktioner om hur du överför resurser finns i [Överföra filer](uploading-files.md#uploading_files).
+Detaljerade instruktioner om hur du överför resurser finns i [Överför filer](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [Arbeta med vinjett, fönsteromslag och kabinettfiler](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [Arbeta med vinjett, fönsterhölje och kabinettfiler](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

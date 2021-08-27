@@ -1,18 +1,18 @@
 ---
 title: Förhandsgranska en resurs
-description: Lär dig hur du förhandsgranskar en resurs.
+description: Lär dig hur du förhandsgranskar en resurs i Adobe Dynamic Media Classic.
 uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
-feature: Dynamic Media Classic,Resurshantering,visningsprogram
+feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,14 @@ Se även [Exempel på referensbibliotek för visningsprogram för Adobe](https:/
 1. Gå till resursmapparna som innehåller resursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet.
-   * Klicka på **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet.
-   * Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet.
+   * Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet.
+   * Markera **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet.
+   * Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet.
 
 1. Beroende på vilken vy du använder gör du något av följande:
 
-   * Markera en enskild resurs i fönstret Resurser i Stödrastervisning eller listvy och klicka sedan på **[!UICONTROL Preview]** bredvid miniatyrbilden.
-   * Klicka på **[!UICONTROL Preview]** i verktygsfältet ovanför fönstret Resurser i stödrastervyn, listvyn eller detaljvyn.
+   * I fönstret Resurser i stödrastervyn eller listvyn väljer du en enskild resurs och sedan **[!UICONTROL Preview]** bredvid miniatyrbilden.
+   * Välj **[!UICONTROL Preview]** i verktygsfältet ovanför fönstret Resurser i stödrastervyn, listvyn eller detaljvyn.
 
 ## Förhandsgranska en resurs baserat på visningsprogrammets plattformstyp {#previewing-an-asset-based-on-viewer-platform-type}
 
@@ -54,29 +54,29 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 1. Gå till resursmapparna som innehåller resursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enskild resurs och klickar sedan under miniatyrbilden på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Klicka på **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enskild resurs och klickar sedan på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** till höger om miniatyrbilden.
-   * Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
+   * Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enskild resurs och går sedan till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden.
+   * Markera **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enskild resurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** på samma verktygsfält.
 
-1. (Valfritt) I fönstret Visningsprogramlista klickar du på kolumnrubriken **[!UICONTROL Name]** eller **[!UICONTROL Platform type]** för att sortera kolumnen i stigande eller fallande ordning.
-1. Klicka på **[!UICONTROL Preview]** i kolumnen Åtgärder i fönstret Visningsprogramlista för att se hur resursen visas för ett valt visningsprogram och en vald plattformstyp.
+1. (Valfritt) I fönstret Visningsprogramlista väljer du kolumnrubriken **[!UICONTROL Name]** eller **[!UICONTROL Platform type]** för att sortera kolumnen i stigande eller fallande ordning.
+1. I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Preview]** för att se hur resursen visas för ett valt visningsprogram och plattformstyp.
 
    Stäng den förhandsgranskning som visas.
 
 1. (Valfritt) I listrutan URL-kodning för att kopiera URL-generering i visningsprogramlistan längst ned väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
 1. (Valfritt) Gör något av följande:
 
-   * Klicka på **[!UICONTROL Copy URL]** under åtgärdskolumnen för ett valt visningsprogram och plattformstyp i fönstret Visningsprogramlista.
+   * I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]** för ett valt visningsprogram och plattformstyp.
 
-      När du klickar på **[!UICONTROL Copy URL]** kopieras den associerade URL:en automatiskt till Urklipp.
+      När du väljer **[!UICONTROL Copy URL]** kopieras den associerade URL:en automatiskt till Urklipp.
 
-   * Klicka på **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen i fönstret Visningsprogramlista.
+   * Välj **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen i fönstret Visningsprogramlista.
 
-      När du klickar på **[!UICONTROL Embed Code]** öppnas fönstret Bädda in kod där du kan granska visningsprogramkoden. Det är inte tillåtet att redigera koden i fönstret. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor.
+      När du väljer **[!UICONTROL Embed Code]** öppnas fönstret Bädda in kod där du kan granska visningsprogramkoden. Det är inte tillåtet att redigera koden i fönstret. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor.
 
       Stäng den förhandsgranskning som visas.
 
-1. Klicka på **[!UICONTROL Close]** längst ned till höger i fönstret Visningsprogramlista för att gå tillbaka till skärmen Resurser.
+1. I det nedre högra hörnet av fönstret Visningsprogramlista väljer du **[!UICONTROL Close]** för att gå tillbaka till skärmen Resurser.
 
 ## Förhandsvisa en bildresurs baserat på dess bildförinställning {#previewing-an-image-asset-based-on-its-image-preset}
 
@@ -93,14 +93,14 @@ Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.m
 1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och klickar sedan under miniatyrbilden på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
-   * Klicka på **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och klickar sedan på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** till höger om miniatyrbilden.
-   * Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** i samma verktygsfält.
+   * Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och går sedan till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** under miniatyrbilden.
+   * Markera **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** på samma verktygsfält.
 
 1. I fönstret Bildförinställningslista i tabellen markerar du namnet på en förinställningstyp vars bildresurs du vill förhandsgranska infogat i den högra rutan.
 1. (Valfritt) I fönstret Bildförinställningslista väljer du den URL-kodning som ska användas på bildresursens URL när den kopieras i den nedrullningsbara listan **[!UICONTROL URL Encoding for Copy URL Generation]** längst ned.
-1. (Valfritt) I fönstret Bildförinställningslista klickar du på **[!UICONTROL Copy URL]** längst upp till höger i förhandsgranskningsfönstret för den valda förinställningstypen.
+1. (Valfritt) I fönstret Bildförinställningslista väljer du **[!UICONTROL Copy URL]** som den valda förinställningstypen i det övre högra hörnet i förhandsgranskningsfönstret.
 
-   När du klickar på **[!UICONTROL Copy URL]** kopieras den associerade URL:en automatiskt till Urklipp.
+   När du väljer **[!UICONTROL Copy URL]** kopieras den associerade URL:en automatiskt till Urklipp.
 
-1. Klicka på **[!UICONTROL Close]** längst ned till höger i fönstret Bildförinställningslista för att återgå till skärmen Resurser.
+1. I det nedre högra hörnet av fönstret Bildförinställningslista väljer du **[!UICONTROL Close]** för att återgå till skärmen Resurser.

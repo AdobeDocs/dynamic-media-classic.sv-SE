@@ -1,14 +1,14 @@
 ---
 title: Populära resurser
-description: Länkar till webbinarier, utbildningsvideor, metodinformation och utvecklarresurser.
+description: Länkar till webbinarier, utbildningsvideor, metodinformation och utvecklarresurser för Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,8 +25,9 @@ ht-degree: 2%
 * [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
 * [API för bildleverans och bildåtergivning](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
 
-## Adobe Dynamic Media Classic-webbinarier och Tutorials
+## Adobe Dynamic Media Classic Newsletters, Tutorials och webbinarier
 
+* [Arkiv med Adobe Dynamic Media Classic Newsletters](/help/dynamic-media-newsletter.md)
 * [Bästa tillvägagångssätt för skärpebilder](/help/assets/s7_sharpening_images.pdf)
 * [Maximera avkastningen](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true)  på mediefilerna - Lär dig branschens bästa metoder för att leverera multimedia på webbplatser och i mobilappar. I det här webbinariet visar exempel och demonstrationer hur du kan leverera video effektivt på olika enheter, leverera dynamiskt kreativt innehåll i marknadsföringskampanjer och öka konverteringsgraden genom att göra bilder, stilguide eller lookbook shoppbara.
 * [Accelerate Your Content Delivery Lifecycle](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/)  - Det här webbinariet innehåller en introduktion och demonstration av Adobe Experience Manager Assets - on demand, nästa generation av multimediehanteringsprogram. Lär dig samarbeta och dela resurser mellan kreatörer och marknadsförare för att effektivisera resursgranskningsprocesserna. Lär dig de bästa sätten att hantera metadata för resurser på ett effektivt sätt så att du enkelt kan hitta, använda, återanvända och dela resurser. Lär dig leverera interaktiva multimedieupplevelser över flera kanaler.

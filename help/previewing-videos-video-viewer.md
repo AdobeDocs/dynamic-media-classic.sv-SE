@@ -10,9 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du kan förhandsgranska hur en video ser ut och hur den spelas upp i Video Viewer.
 
-Se [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
+Se [Lägg till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
 **Så här förhandsgranskar du videofilmer i ett videovisningsprogram:**
 
@@ -29,19 +29,19 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster för att välja den video som du vill förhandsgranska.
 1. Gör något av följande
 
-   * Klicka på **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. Håll markören över en resurs i fönstret Resurser och klicka sedan på **[!UICONTROL Preview]**.
-   * Klicka på **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på **[!UICONTROL Preview]** i fönstret Resurser i ett miniatyrbildsfönster.
-   * Klicka på **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Klicka på **[!UICONTROL Preview]** i samma verktygsfält.
-   * Välj en resurs i fönstret Resurser. Klicka på **[!UICONTROL File]** > **[!UICONTROL Preview]** i verktygsfältet.
+   * Markera **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. Håll markören över en resurs i fönstret Resurser och välj sedan **[!UICONTROL Preview]**.
+   * Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du **[!UICONTROL Preview]** i ett miniatyrbildsfönster för resursen.
+   * Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Välj **[!UICONTROL Preview]** i samma verktygsfält.
+   * Välj en resurs i fönstret Resurser. Gå till **[!UICONTROL File]** > **[!UICONTROL Preview]** i verktygsfältet.
 
 1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
-1. Klicka på länken Förhandsgranska så att du kan förhandsgranska resursen i det valda visningsprogrammet.
+1. Välj länken **[!UICONTROL Preview]** så att du kan granska resursen i det valda visningsprogrammet.
 1. Stäng visningsprogrammet som visas.
-1. Klicka på **[!UICONTROL Close]** för att återgå till skärmen Resurser.
+1. Välj **[!UICONTROL Close]** om du vill återgå till skärmen Resurser.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic är ett praktiskt sätt att förhandsgranska MP4-video på skrivbordet. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det du ser i skrivbordsförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen, klickar på **[!UICONTROL Copy URL]** och anger den URL-adressen i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilwebbplatser](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic är ett praktiskt sätt att förhandsgranska MP4-video på skrivbordet. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det som visas i datorförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen, väljer **[!UICONTROL Copy URL]** och anger den URL-adressen i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilwebbplatser](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Arbeta med förinställningar för visningsprogram för video {#working-with-video-viewer-presets}
 
@@ -61,31 +61,31 @@ Se [Förinställningar för visningsprogram](application-setup.md#viewer_presets
 
 **Så här lägger du till eller redigerar en förinställning för visningsprogram för video:**
 
-1. I det övre högra hörnet av Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. I det övre högra hörnet av Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
    Om du bara vill visa förinställningar för videovisningsprogram väljer du Videovisningsprogram i listrutan öppna visningsprogram i verktygsfältet direkt ovanför tabellen.
 
 1. Lägg till eller redigera en visningsförinställning för att visa video:
 
-   * **Lägg till**  - Klicka  **[!UICONTROL Add]** i verktygsfältet. I dialogrutan Lägg till visningsförinställning väljer du en plattform och ett visningsprogram i respektive listruta och klickar sedan på **[!UICONTROL Add]**.
-   Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
+   * **Lägg till**  - Välj  **[!UICONTROL Add]** i verktygsfältet. I dialogrutan Lägg till visningsförinställning väljer du en plattform och ett visningsprogram i respektive listruta och väljer sedan **[!UICONTROL Add]**.
+   Se även [Lägg till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **Lägg till genom att starta från en befintlig visningsförinställning**  - Markera en förinställning för visningsprogrammet för video i tabellen och klicka sedan  **[!UICONTROL Edit]** i verktygsfältet.
-   När du har konfigurerat om videovisningsprogrammet klickar du på **[!UICONTROL Save As]** för att spara förinställningen med ett annat namn i textfältet Förinställningsnamn.
+   * **Lägg till genom att starta från en befintlig visningsförinställning**  - I tabellen väljer du en förinställning för Videovisning och sedan  **[!UICONTROL Edit]** i verktygsfältet.
+   När du har konfigurerat om videovisningsprogrammet väljer du **[!UICONTROL Save As]** om du vill spara förinställningen med ett annat namn i textfältet Förinställningsnamn.
 
-   * **Redigera** - Välj en förinställning för Videovisning och klicka sedan på  **[!UICONTROL Edit]**.
+   * **Redigera** - Välj en förinställning för visningsprogrammet för video och välj sedan  **[!UICONTROL Edit]**.
 
 
 
 1. Ange eller redigera förinställningsnamnet i fältet Förinställningsnamn på sidan Konfigurera visningsprogram.
 1. Ange de återstående alternativen som du vill ha.
 
-   Om du vill visa en beskrivning av ett alternativ klickar du på ikonen för informationstips.
+   Om du vill visa en beskrivning av ett alternativ väljer du dess ikon för informationsruta.
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Save As]** om du har lagt till en visningsförinställning genom att starta från en befintlig förinställning.
-   * Klicka på **[!UICONTROL Save]** om du har lagt till eller redigerat en visningsförinställning.
+   * Välj **[!UICONTROL Save As]** om du har lagt till en visningsförinställning genom att starta från en befintlig förinställning.
+   * Välj **[!UICONTROL Save]** om du har lagt till eller redigerat en visningsförinställning.
 
 >[!MORELIKETHIS]
 >

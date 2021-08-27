@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från och med 7 maj 2020
 ## Adobe Dynamic Media Classic-användarresurser
 
 * [Dynamic Media Monthly Newsletter](dynamic-media-newsletter.md)
-* [Guide: Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Guide: Best Practices Guide for Sharpening Images](/help/assets/s7_sharpening_images.pdf)
 * [Guide: Hur Adobe Dynamic Media Classic stöder SEO](/help/assets/s7_seo.pdf)  - dagens sökmotorer gör det möjligt att söka efter webbplatser och bilder. Adobe Dynamic Media Classic har stöd för sökmotorvänliga bilder så att mer trafik dirigeras till Adobe Dynamic Media Classic-användarens webbplats. Den här handboken i PDF-format ger dig de bakgrunds- och implementeringsrekommendationer som behövs för att det ska hända.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
