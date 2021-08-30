@@ -5,9 +5,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Välkommen till Adobe Adobe Dynamic Media Classic, det ledande publiceringssystemet för medieoberoende publicering som kan användas för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial på alla enheter och skärmar. Adobe Dynamic Media Classic-lösningar innehåller följande:
 
-* Dynamic Imaging: Realtidsredigering, formatering och storleksändring, interaktiv zoom och panorering. färgsättning och texturvisning, 360-graders centrifugering, bildmallar, multimediavisare.
+* Dynamic Imaging: Realtidsredigering, formatering och storleksändring, interaktiv zoom och panorering. färgsättning och texturvisning, 360° rotation, bildmallar, multimediavisare.
 * eCatalogs: Skapa, länka till hotspot, sök, publicera och leverera dynamiskt betjänade onlinekataloger till konfigurerbara visningsprogram.
 * Media Portal: En självbetjäningsmiljö som ger portalanvändare administratörskontrollerade&quot;vyer&quot; i Adobe Dynamic Media Classic-resurser så att de enkelt kan ladda upp, söka, förhandsgranska och exportera mediefiler.
 * eVideo: Ladda upp färdiga videor i valfritt format, hantera, redigera, skapa aktiveringspunkter och videomallar, publicera och strömma till konfigurerbara videovisningsprogram

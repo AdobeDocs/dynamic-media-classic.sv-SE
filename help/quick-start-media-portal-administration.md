@@ -1,6 +1,6 @@
 ---
 title: '"Snabbstart: Media Portal"'
-description: En introduktion och en snabbstart till Media Portal som hjälper dig att komma igång snabbt med Media Portal-teknik och -administration.
+description: En introduktion och en snabbstart till Media Portal som hjälper dig att komma igång snabbt med Media Portal-teknik och -administration i Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Med Media Portal kan man enkelt skaffa, kontrollera och distribuera godkända me
 
 Som administratör kan du styra hur användare visar, får åtkomst till och använder resurser i Media Portal. Dessutom kan ni anpassa Media Portal-gränssnittet så att det passar er webbplats och ert varumärke. Du kan ange teckensnitt, teckenfärg, teckenstorlek och inkludera märkeselement som logotyper i Media Portal-gränssnittet.
 
-Den här snabbstarten är utformad för att du snabbt ska komma igång med Media Portal-administration. Klicka på ämneslänken i slutet av varje steg om du vill veta mer.
+Den här snabbstarten är utformad för att du snabbt ska komma igång med Media Portal-administration. I slutet av varje steg väljer du ämneslänken om du vill veta mer.
 
 ## 1. Förstå användarroller i Media Portal
 
@@ -59,7 +59,7 @@ Se [Användarroller för mediaportal](media-portal-user-roles.md#media_portal_us
 
 Medieportalanvändare kan, när de exporterar filer, formatera om filerna och exportera överordnad originalfiler - om du ger dem tillstånd att göra det. Som administratör bestämmer du hur användare ska exportera filer.
 
-Se [Ange vilka exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Se [Ange vilka exportalternativ som är tillgängliga för användare av Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Skapa bildförinställningar
 

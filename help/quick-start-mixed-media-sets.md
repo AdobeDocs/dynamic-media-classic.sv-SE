@@ -1,6 +1,6 @@
 ---
 title: '"Snabbstart: Blandad medieuppsättning"'
-description: En introduktion och snabbstart av blandade medieuppsättningar som hjälper dig att komma igång snabbt.
+description: En introduktion och snabbstart av blandade medieuppsättningar som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
@@ -10,28 +10,28 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # Snabbstart: Blandade medieuppsättningar{#quick-start-mixed-media-sets}
 
-Mixed Media Sets ger användarna en integrerad visningsupplevelse. Blandade medieuppsättningar kan innehålla bilder, bilduppsättningar, färgruteuppsättningar, snurruppsättningar och videoklipp. Användarna kan klicka på olika flikar i visningsprogrammet för blandade media för att se objekten i olika visningsprogram. Om inga flikar har angetts visas alla resurser tillsammans i färgruteraden.
+Mixed Media Sets ger användarna en integrerad visningsupplevelse. Blandade medieuppsättningar kan innehålla bilder, bilduppsättningar, färgruteuppsättningar, snurruppsättningar och videoklipp. Användare kan välja olika flikar i visningsprogrammet för blandade media för att se objekten i olika visningsprogram. Om inga flikar har angetts visas alla resurser tillsammans i färgruteraden.
 
 Förinställningar för visningsprogram för blandade media innehåller communityalternativ för slutanvändare som kan bädda in kod, kopiera URL:er och länka till huvudwebbplatsen. Användare kan använda dessa alternativ för att dela information om produkter på sina personliga webbplatser eller sociala nätverksplatser.
 
 Den här snabbstarten för blandade medieuppsättningar är utformad för att komma igång snabbt med blandad medieuppsättning i Adobe Dynamic Media Classic.
 
-## 1. Överföra bilder, färgrutefiler och videoklipp
+## 1. Överför bilder, färgrutefiler och videoklipp
 
 Börja med att ladda upp bilder, färgrutefiler och videoklipp till dina blandade medieuppsättningar. Eftersom användare kan zooma in bilder i visningsprogrammet för den blandade medieuppsättningen måste du ta hänsyn till den möjligheten när du väljer bilder. Se till att bilderna har en största storlek på minst 2 000 pixlar.
 
-Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att överföra filer från datorn till en mapp i Adobe Dynamic Media Classic.
+I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra filer från datorn till en mapp på Adobe Dynamic Media Classic.
 
-Se [Överföra filer](uploading-files.md#uploading-your-files).
+Se [Överför filer](uploading-files.md#uploading-your-files).
 
 ## 2. Skapa medieuppsättningar som ska användas i den blandade medieuppsättningen
 
@@ -41,7 +41,7 @@ Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set), [Sk
 
 ## 3. Skapa en blandad medieuppsättning
 
-Klicka på **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]** i fältet Global Navigation. Dra bilder, färgruteuppsättningar, bilduppsättningar och videofilmer till sidan med blandade medieuppsättningar. Om du vill lägga till ett ljudspår drar du en ljudfil till rutan Ljudspår.
+Gå till **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]** i fältet Global Navigation. Dra bilder, färgruteuppsättningar, bilduppsättningar och videofilmer till sidan med blandade medieuppsättningar. Om du vill lägga till ett ljudspår drar du en ljudfil till rutan Ljudspår.
 
 Se [Skapa en blandad medieuppsättning](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
@@ -53,9 +53,9 @@ När du konfigurerar en visningsförinställning för blandad medieuppsättning 
 
 Se [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) och [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
-## 5. Förhandsgranska en blandad medieuppsättning
+## 5. Förhandsgranska en uppsättning med blandade media
 
-Klicka på knappen **[!UICONTROL Preview]** för den blandade medieuppsättningen. Du kan klicka på miniatyrbilds- och färgruteikonerna för att undersöka den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen. Du kan välja olika visningsprogram från förinställningsmenyerna.
+Välj knappen **[!UICONTROL Preview]** för den blandade medieuppsättningen. Du kan välja miniatyrbilds- och färgruteikoner för att undersöka den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen. Du kan välja olika visningsprogram från förinställningsmenyerna.
 
 Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
@@ -67,8 +67,8 @@ Blandade medieuppsättningar kräver att du publicerar till **videoserver** och 
 
 Se [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
-## 7. Länka en uppsättning med blandade media till en webbsida
+## 7. Länka en blandad medieuppsättning till en webbsida
 
 Adobe Dynamic Media Classic aktiverar URL-anrop för blandade medieuppsättningar när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
-Markera den blandade medieuppsättningen och klicka sedan på **[!UICONTROL Preview]**. Välj en visningsförinställning för blandad medieuppsättning på sidan Förhandsvisa och klicka sedan på **[!UICONTROL Copy URL]**. Se [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Markera den blandade medieuppsättningen och välj sedan **[!UICONTROL Preview]**. Välj en visningsförinställning för blandad medieuppsättning på sidan Förhandsvisa och välj sedan **[!UICONTROL Copy URL]**. Se [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

@@ -5,9 +5,9 @@ keywords: dynamiska medier;nyhetsbrev;produktuppdateringar;tips och tricks;event
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---

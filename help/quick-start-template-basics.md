@@ -1,6 +1,6 @@
 ---
 title: '"Snabbstart: Grundläggande om mallar"'
-description: En introduktion och snabbstart till mallgrunder som hjälper dig att komma igång snabbt.
+description: En introduktion och snabbstart till mallgrunder som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,14 @@ Om du använder en PSD-fil för att skapa mallen väljer du **[!UICONTROL Create
 
 Om du använder bildfiler kan du beskära bilderna och även skapa en mask från urklippsbanor i bilderna när du överför dem.
 
-Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att överföra en PSD-fil eller andra bildfiler från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överföra mallfiler](uploading-template-files.md#uploading_template_files).
+I det globala navigeringsfältet väljer du **[!UICONTROL Upload]** om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför mallfiler](uploading-template-files.md#uploading_template_files).
 
 ## 2. Skapa en mall
 
-Om du vill skapa en mall från en PSD-fil väljer du **[!UICONTROL Create Template]** när du överför filen. Om du vill skapa en mall från bilder klickar du på **[!UICONTROL Build]** > **[!UICONTROL Template Basics]** i fältet Global navigering och anger ett mått för bredd och höjd för arbetsytan. I det övre högra hörnet av sidan väljer du antingen **[!UICONTROL Designer]** eller **[!UICONTROL Developer]** och drar bilder till mallsidan. Du kan också markera bilderna *innan* du klickar på **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. På mallsidan finns verktyg för:
+Om du vill skapa en mall från en PSD-fil väljer du **[!UICONTROL Create Template]** när du överför filen. Om du vill skapa en mall från bilder går du till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]** i fältet Global navigering och anger mått för bredd och höjd för arbetsytan. I det övre högra hörnet av sidan väljer du antingen **[!UICONTROL Designer]** eller **[!UICONTROL Developer]** och drar bilder till mallsidan. Du kan också markera bilderna *innan* du går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. På mallsidan finns verktyg för:
 
 * Lägga till bildlager. Om du vill lägga till ett lager drar du en bild till mallsidan.
-* Lägga till textlager. Klicka på ikonen **[!UICONTROL Text tool]**. Dra pekaren för att skapa en ruta för textlagret; formatera texten med verktyg på textsidan.
+* Lägga till textlager. Välj ikonen **[!UICONTROL Text tool]**. Dra pekaren för att skapa en ruta för textlagret; formatera texten med verktyg på textsidan.
 * Ändra storlek och position för lager.
 * Ändra lagerordningen.
 * Använda skugg- och glödeffekter på bild- och textlager.
@@ -53,7 +53,7 @@ Se [Skapa en mall](creating-template.md#creating_a_template).
 
 Nästa steg är att parametrisera lageregenskaperna för att avgöra vilka lageregenskaper som ingår i URL-strängen. Med parametrar kan du använda mallar med maximal flexibilitet. När du har gjort en lageregenskap till en parameter kan du ändra den dynamiskt.
 
-Om du vill parametrisera ett lager öppnar du mallen på mallsidan och klickar sedan på **[!UICONTROL Parameters]** bredvid ett lagernamn. På sidan Parametrar väljer du alternativet bredvid varje parameter som du vill lägga till. Se [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
+Om du vill parametrisera ett lager öppnar du mallen på mallsidan och väljer sedan **[!UICONTROL Parameters]** bredvid ett lagernamn. På sidan Parametrar väljer du alternativet bredvid varje parameter som du vill lägga till. Se [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
 
 ## 4. Publiceringsmallar
 
@@ -61,10 +61,10 @@ När du publicerar mallen placeras den på Dynamic Media Image-servrar så att d
 
 Glöm inte att publicera alla bilder som är kopplade till mallen.
 
-Om du vill publicera en mall markerar du den för publicering och klickar på **[!UICONTROL Publish]** i fältet Global navigering. Klicka sedan på **[!UICONTROL Submit Publish]**. Se [Publiceringsmallar](publishing-templates.md#publishing_templates).
+Om du vill publicera en mall markerar du den för publicering och väljer **[!UICONTROL Publish]** i fältet Global navigering. Välj sedan **[!UICONTROL Submit Publish]**. Se [Publicera mallar](publishing-templates.md#publishing_templates).
 
 ## 5. Länka en mall till en webbsida
 
 Dynamic Media Classic skapar URL:er för mallar och aktiverar URL:er när du publicerar mallar på Dynamic Media Image Servers. Du kan kopiera dessa URL-strängar från sidan Förhandsvisa mall.
 
-Välj mallen i panelen Bläddra och klicka sedan på **[!UICONTROL Preview]** för att öppna sidan Mallförhandsvisning. Välj en bildförinställning för mallen och klicka sedan på **[!UICONTROL Copy URL]**. När du har kopierat URL-adressen från förhandsgranskningssidan kan du använda den på din webbplats eller i ditt program. Se [Länka en mall till en webbsida](linking-template-web-page.md#linking_a_template_to_a_web_page).
+Markera mallen i panelen Bläddra och välj sedan **[!UICONTROL Preview]** för att öppna sidan Mallförhandsvisning. Välj en bildförinställning för mallen och välj sedan **[!UICONTROL Copy URL]**. När du har kopierat URL-adressen från förhandsgranskningssidan kan du använda den på din webbplats eller i ditt program. Se [Länka en mall till en webbsida](linking-template-web-page.md#linking_a_template_to_a_web_page).

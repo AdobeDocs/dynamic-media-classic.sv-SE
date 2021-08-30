@@ -1,5 +1,5 @@
 ---
-title: '"Snabbstart: Video"'
+title: '"Snabbstart: Video i Adobe Dynamic Media Classic"'
 description: En introduktion och snabbstart till Adobe Dynamic Media Classic Video som hjälper dig att komma igång snabbt.
 contentOwner: admin
 content-type: reference
@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
 
-# Snabbstart: Video{#quick-start-video}
+# Snabbstart: Video i Adobe Dynamic Media Classic{#quick-start-video}
 
 Adobe Dynamic Media Classic Video är en totallösning som gör det enkelt att publicera högkvalitativ adaptiv video för direktuppspelning på flera skärmar, inklusive datorer, iOS, Android™, BlackBerry® och Windows®-mobilenheter. En adaptiv videouppsättning grupperar versioner av samma video som är kodade med olika bithastigheter och format som 400 kbit/s, 800 kbit/s och 1 000 kbit/s. Den stationära datorn eller mobila enheten känner av den tillgängliga bandbredden.
 
@@ -76,20 +76,20 @@ För hantering av enstaka video och adaptiva videouppsättningar har Adobe Dynam
 
 Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma igång snabbt med anpassningsbara videouppsättningar i Adobe Dynamic Media Classic. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
-## 1. Överföra och koda videofilmer
+## 1. Överföra och koda videoklipp
 
 Överför och generera adaptiva videouppsättningar i något av följande två scenarier:
 
-* **Överför förkodade videoklipp**  - Om dina videoklipp redan har kodats utanför Adobe Dynamic Media Classic klickar du på navigeringsfältet för att  **[!UICONTROL Upload]** bläddra och överföra MP4-videofiler direkt till Adobe Dynamic Media Classic. Klicka sedan på **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
-* **Ladda upp överordnad källvideor** - Om videoklippen inte är kodade kan du  **[!UICONTROL Upload]** ladda upp överordnad videokällfiler (ej MP4) i navigeringsfältet Global och låta Adobe Dynamic Media Classic koda dem till MP4-filer. Välj **[!UICONTROL Adaptive Video]** under **[!UICONTROL EVideo Options]** i dialogrutan **[!UICONTROL Upload Job Options]**.
+* **Överför förkodade videoklipp**  - Om dina videoklipp redan har kodats utanför Adobe Dynamic Media Classic väljer du  **[!UICONTROL Upload]** att bläddra bland och överföra MP4-videofiler direkt till Adobe Dynamic Media Classic i i det globala navigeringsfältet. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
+* **Överför överordnad källvideor** - Om videoklippen inte är kodade väljer du  **[!UICONTROL Upload]** att överföra överordnad videokällfiler (ej MP4) i navigeringsfältet Global. Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. Välj **[!UICONTROL Adaptive Video]** under **[!UICONTROL EVideo Options]** i dialogrutan **[!UICONTROL Upload Job Options]**.
 
-   Med det här önskade alternativet kan du skapa en adaptiv videouppsättning som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videokoder i rätt proportioner.
+   Med det här önskade alternativet kan du skapa en adaptiv videouppsättning som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
 
    I samma **[!UICONTROL Job Options]**-dialogruta expanderar du **[!UICONTROL Single Encoding Presets]** under **[!UICONTROL EVideo Options]**. Välj enskilda förinställningar för videokodning som du vill använda från **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** så att du skapar MP4-filerna.
 
 * Du kan också bearbeta om en överordnad video med funktionen **[!UICONTROL Reprocess]**. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
 
-Se [Överföra och koda videofilmer](uploading-encoding-videos.md#uploading_and_encoding_videos).
+Se [Överför och koda videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **Valfritt**
 
@@ -101,7 +101,7 @@ Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.m
 
 ## 2. Förhandsgranska videoklipp i ett videovisningsprogram
 
-Om du vill se hur en video spelas upp för slutanvändare på en dator, på din webbplats eller på en mobil enhet väljer du videon i panelen Bläddra och klickar sedan på **[!UICONTROL Preview]**.
+Om du vill se hur en video spelas upp för slutanvändare på en dator, på din webbplats eller på en mobil enhet väljer du videon i panelen Bläddra och sedan **[!UICONTROL Preview]**.
 
 Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -109,7 +109,7 @@ Du kan spela upp videon på förhandsgranskningssidan. Du kan också välja olik
 
 **Valfritt**
 
-Anpassning av visningsförinställningar - Adobe Dynamic Media Classic innehåller fördefinierade visningsförinställningar för videouppspelning. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Du öppnar den här sidan genom att klicka på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i det övre högra hörnet av Adobe Dynamic Media Classic. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
+Anpassning av visningsförinställningar - Adobe Dynamic Media Classic innehåller fördefinierade visningsförinställningar för videouppspelning. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Öppna den här sidan i det övre högra hörnet av Adobe Dynamic Media Classic genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
 
 Se [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
@@ -119,9 +119,9 @@ Om du vill integrera video på webbplatsen kan du göra något av följande:
 
 * Visa videon i ett eget popup-fönster eller modalt fönster, och använd i så fall funktionen **[!UICONTROL Copy URL]**.
 
-   Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Klicka på **[!UICONTROL Preview]** och sedan på **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
+   Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Välj **[!UICONTROL Preview]** och välj sedan **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
 
-   När du klickar på **[!UICONTROL Copy URL]** kopieras URL-adressen till Urklipp. Placera den här koden i HTML-koden för webbplatsen, mobilwebbplatsen eller programmet.
+   När du väljer **[!UICONTROL Copy URL]** kopieras URL-adressen till Urklipp. Placera den här koden i HTML-koden för webbplatsen, mobilwebbplatsen eller programmet.
 
    >[!NOTE]
    >
@@ -129,9 +129,9 @@ Om du vill integrera video på webbplatsen kan du göra något av följande:
 
 * Visa videon som är inbäddad på webbsidan, och använd i så fall funktionen **[!UICONTROL Embed Code]**.
 
-   Om du vill hämta inbäddningskoden för en video väljer du videon i Stödrastervisning eller Listvy på panelen Bläddra. Klicka på **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Klicka på **[!UICONTROL Embed Code]** till höger om `Universal_HTML5_Video` i kolumnen Åtgärder i tabellen. Det är inte tillåtet att redigera koden.
+   Om du vill hämta inbäddningskoden för en video väljer du videon i Stödrastervisning eller Listvy på panelen Bläddra. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Under åtgärdskolumnen i tabellen väljer du **[!UICONTROL Embed Code]** till höger om `Universal_HTML5_Video`. Det är inte tillåtet att redigera koden.
 
-   Klicka på **[!UICONTROL Close]** och klistra in inbäddningskoden på dina webbsidor.
+   Välj **[!UICONTROL Close]** och klistra in inbäddningskoden på dina webbsidor.
 
    >[!NOTE]
    >
