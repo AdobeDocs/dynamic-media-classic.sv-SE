@@ -1,6 +1,6 @@
 ---
-title: Grundläggande om inställningar
-description: Lär dig hur du använder installationsskärmen för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna.
+title: 'Grundläggande om inställningar '
+description: Lär dig hur du använder installationsskärmen för att ange dina personliga inställningar i Adobe Dynamic Media Classic. Om du är administratör konfigurerar du företagsinställningarna.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Grundläggande om inställningar{#setup-basics}
 
-Använd inställningssidan för Adobe Dynamic Media Classic för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Klicka på **[!UICONTROL Setup]** i fältet Global navigering för att öppna en konfigurationssida.
+Använd inställningssidan för Adobe Dynamic Media Classic för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Om du vill öppna en inställningssida väljer du **[!UICONTROL Setup]** i fältet Global navigering.
 
 Vilka inställningar som är tillgängliga på den här sidan beror på din status som användare eller administratör:
 

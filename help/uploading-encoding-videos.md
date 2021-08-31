@@ -11,7 +11,7 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
 source-wordcount: '3789'
 ht-degree: 1%
@@ -84,9 +84,9 @@ Se [Förinställningar för videokodning för datorer](application-setup.md#desk
 1. Expandera **[!UICONTROL EVideo Options]** i dialogrutan Bearbeta resurser och gör sedan något av följande:
    * Det bästa sättet är att använda följande metod. Välj **Adaptiv video**.
 Se [Adaptiv video (standard)](application-setup.md#adaptive-video-default).
-   * Valfritt. Om du vill använda enskilda kodningsinställningar expanderar du ****[!UICONTROL Single Encoding Presets]**** och väljer sedan de kodningsalternativ du vill använda för Skrivbord, Mobil och Surfplatta.
+   * Valfritt. Om du vill använda enskilda kodningsinställningar expanderar du **[!UICONTROL Single Encoding Presets]** och väljer sedan de kodningsalternativ du vill använda för Skrivbord, Mobil och Surfplatta.
 Se [Förinställningar för videokodning för datorer](application-setup.md#desktop-video-encoding-presets), [Förinställningar för videokodning för mobiler](application-setup.md#mobile-video-encoding-presets), [Videokodningsförinställningar för surfplattor](application-setup.md#tablet-video-encoding-presets).
-1. Klicka på **[!UICONTROL Submit]** i dialogrutan Bearbeta resurser.
+1. Välj **[!UICONTROL Submit]** i dialogrutan Bearbeta resurser.
 
 När du använder förinställningen Adaptiv videokodning eller använder flera kodningsförinställningar blir resultatet en adaptiv videouppsättning som automatiskt skapas med flera videokodningar. Du kan också skapa en adaptiv videouppsättning manuellt genom att markera enskilda videoklipp.
 
@@ -140,7 +140,7 @@ När du kodar en videofil ska du använda en källvideofil med högsta möjliga 
 I följande tabell beskrivs rekommenderad storlek, proportioner och lägsta bithastighet som källvideofilerna måste ha när du kodar dem:
 
 | Storlek | Proportioner | Minsta bithastighet |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 x 768 | 4:3 | 4 500 kbit/s för de flesta videoklipp. |
 | 1280 x 720 | 16:9 | 3 000 - 6 000 kbit/s, beroende på mängden rörelse i videon. |
 | 1920 x 1080 | 16:9 | 6000 - 8 000 kbit/s, beroende på mängden rörelse i videon. |
@@ -149,7 +149,7 @@ I följande tabell beskrivs rekommenderad storlek, proportioner och lägsta bith
 
 Du kan hämta metadata för en fil genom att visa dess metadata i Adobe Dynamic Media Classic, med ett videoredigeringsverktyg eller med ett program som utformats för att hämta metadata. Nedan följer instruktioner om hur du använder MediaInfo, ett tredjepartsprogram, för att hämta videofilens metadata:
 
-1. Gå till den här webbsidan: [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download).
+1. Gå till den här webbsidan: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Välj och hämta installationsprogrammet för den grafiska användargränssnittsversionen och följ installationsanvisningarna.
 1. Efter installationen högerklickar du på videofilen (endast Windows®) och väljer MediaInfo, eller så öppnar du MediaInfo och drar videofilen till programmet. Alla metadata som är associerade med videofilen, inklusive bredd, höjd och fps, visas.
 
@@ -242,9 +242,9 @@ Anta till exempel att källvideon är 1 920 x 1 080. I följande tabell ger de t
 
 | Videotyp | Bredd x höjd | Breddförhållande | Höjdförhållande |
 |--- |--- |--- |--- |
-| Källa | 1920 x 1080 | 3 | 1 |
+| Källa | 1920 x 1080 | 3 | 3 |
 | Kodad | 960 x 540 | 2 | 2 |
-| Kodad | 640 x 360 | 3 | 3 |
+| Kodad | 640 x 360 | 3 | 1 |
 | Kodad | 480 x 270 | 4 | 4 |
 
 ### Kodat videofilformat {#encoded-video-file-format}

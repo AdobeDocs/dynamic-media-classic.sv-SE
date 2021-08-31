@@ -10,9 +10,9 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic har många verktyg för multimedia. Du kan skapa fö
 Se [Snabbstart: eCatalog](/help/quick-start-ecatalog.md).
 
 * **eVideo**  - Leverera högkvalitativa videoupplevelser till flera skärmar, inklusive stationära datorer, mobilenheter och surfplattor. Använd fördefinierade kodningsförinställningar för Adobe Dynamic Media Classic eller anpassa kodningen för att styra videons kvalitet och storlek. Ordna, bläddra bland och sök videoklipp med fullt stöd för metadata för effektiv hantering av videomaterial.
-Se [Snabbstart: eVideo](/help/quick-start-video.md).
+Se [Snabbstart: Video i Adobe Dynamic Media Classic](/help/quick-start-video.md).
 
 * **Bildscheman**  - Visa bilder i valfri storlek och i valfritt format på hela webbplatsen. I stället för att manuellt skapa många bilder i olika storlekar använder du bara en överordnad bild. När Adobe Dynamic Media Classic levererar den begärda bilden optimeras bilden för resultat av högsta kvalitet i storlek, format, vikt, kvalitet och skärpa.
 Se [Snabbstart: Bildstorlek](/help/quick-start-image-sizing.md).

@@ -1,6 +1,6 @@
 ---
 title: Ange exportalternativ som är tillgängliga för Media Portal-användare
-description: Lär dig hur du anger exportalternativ som är tillgängliga för Media Portal-användare.
+description: Lär dig hur du anger exportalternativ som är tillgängliga för användare av Media Portal i Adobe Dynamic Media Classic.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,9 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Se även [Exportera resurser från Adobe Dynamic Media Classic](exporting-assets
 
 **Så här anger du exportalternativ som är tillgängliga för användare av Media Portal:**
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]** i fältet Global Navigation.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]** i fältet Global Navigation.
 1. Välj något av följande i fönstret Bildförinställningar:
 
    * **Aktivera användardefinierad konvertering**  - När det här alternativet är markerat kan användare välja andra från den  **[!UICONTROL Size]** nedrullningsbara listan i fönstret Exportera markerade resurser. Användarna kan sedan välja en måttenhet som pixlar eller centimeter och sedan ange önskad bredd och höjd. När de exporterar eller hämtar dessa filer formateras bildfilerna om.

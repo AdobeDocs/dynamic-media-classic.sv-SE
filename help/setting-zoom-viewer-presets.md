@@ -1,6 +1,6 @@
 ---
-title: Konfigurera förinställningar för Zoom Viewer
-description: Lär dig hur du ställer in förinställningar för zoomvisningsprogrammet.
+title: Konfigurera förinställningar för Zoomvisningsprogram
+description: Läs om hur du ställer in förinställningar för zoomvisningsprogrammet i Adobe Dynamic Media Classic.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Konfigurera förinställningar för Zoom Viewer{#setting-up-zoom-viewer-presets}
+# Konfigurera förinställningar för Zoomvisningsprogram{#setting-up-zoom-viewer-presets}
 
 Förinställningarna för zoomvisningsprogrammet bestämmer stilen, beteendet och utseendet för zoomningsvisningsprogrammen. Adobe Dynamic Media Classic har många alternativ för att anpassa och skalförändra visningsprogram. Adobe Dynamic Media Classic innehåller förinställningar för grundläggande (snabb), utfällbar och anpassad zoomningsvisning. Om du är administratör kan du skapa förinställningar för zoomvisning i företaget eller redigera en standardförinställning och spara den med ett nytt namn.
 
@@ -45,21 +45,21 @@ Adobe Dynamic Media Classic rekommenderar följande parametrar för de utfällba
 
 ## Skapa och redigera förinställningar för Zoomvisningsprogram {#creating-and-editing-zoom-viewer-presets}
 
-1. Klicka på **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global Navigation.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global Navigation.
 1. Gör något av följande:
 
-   * **Skapa en förinställning**  - klicka  **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer ett zoomvisningsprogram och klickar sedan på **[!UICONTROL Add]**. Ange ett namn för förinställningen i rutan Förinställningsnamn.
+   * **Skapa en förinställning**  - Välj  **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer ett zoomvisningsprogram och sedan **[!UICONTROL Add]**. Ange ett namn för förinställningen i rutan Förinställningsnamn.
 
-   * **Redigera en förinställning**  - Välj en förinställning för zoomvisning och klicka sedan på  **[!UICONTROL Edit]**.
+   * **Redigera en förinställning**  - Välj en förinställning för zoomvisning och markera sedan  **[!UICONTROL Edit]**.
 
 1. Ange önskade inställningar.
 
-   Om du vill visa en beskrivning av ett alternativ klickar du på ikonen **[!UICONTROL Info Tip]** bredvid alternativet.
+   Om du vill visa en beskrivning av ett alternativ väljer du ikonen **[!UICONTROL Info Tip]** bredvid alternativet.
 
    På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
-1. Klicka på **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
-1. Granska den förinställning för zoomvisningsprogram eller den förinställning för guidad zoomningsvisning som du skapade på sidan Förinställningar för visningsprogram för visningsprogram. Om det behöver justeras klickar du på **[!UICONTROL Edit]**, ändrar inställningarna på sidan Konfigurera visningsprogram och klickar på ****[!UICONTROL Save]****.
+1. Välj **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
+1. Granska den förinställning för zoomvisningsprogram eller den förinställning för guidad zoomningsvisning som du skapade på sidan Förinställningar för visningsprogram för visningsprogram. Om det behöver justeras väljer du **[!UICONTROL Edit]**, ändrar inställningarna på sidan Konfigurera visningsprogram och väljer sedan **[!UICONTROL Save]**.
 
 Mer information om hur du hanterar visningsförinställningar på skärmen Förinställningar för visningsprogram finns i [Förinställningar för visningsprogram](application-setup.md#viewer_presets).
 

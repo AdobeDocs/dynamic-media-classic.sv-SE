@@ -10,9 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -95,9 +95,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## E-post
 
-* ****[!UICONTROL Email Options]**** - Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben har slutförts. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
-* ****[!UICONTROL Email Scope]**** - Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
-* ****[!UICONTROL Email Types]**** - Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
+* **[!UICONTROL Email Options]** - Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben har slutförts. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+* **[!UICONTROL Email Scope]** - Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
+* **[!UICONTROL Email Types]** - Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
 
 ## Språk
 

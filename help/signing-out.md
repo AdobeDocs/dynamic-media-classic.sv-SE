@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,16 @@ Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic:
 Använd följande mappning för att välja den produktionsmiljö som du vill använda.
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
    | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
-1. Tryck på **[!UICONTROL Sign in]**.
+1. Välj **[!UICONTROL Sign in]**.
 
 ## Logga ut från Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. I det övre högra hörnet av Adobe Dynamic Media Classic-datorprogrammet trycker du på **[!UICONTROL Sign out]** och sedan på **[!UICONTROL Sign out]** igen.
+1. I det övre högra hörnet av Adobe Dynamic Media Classic väljer du **[!UICONTROL Sign out]** och sedan **[!UICONTROL Sign out]** igen.
 
 >[!MORELIKETHIS]
 >

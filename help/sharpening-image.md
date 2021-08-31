@@ -1,6 +1,6 @@
 ---
 title: Öka skärpan i en bild
-description: Lär dig hur du ökar skärpan i en bild.
+description: Läs om hur du ökar skärpan i en bild i Adobe Dynamic Media Classic.
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2114'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Se [Bästa tillvägagångssätt för att skärpa bilder i Adobe Dynamic Media Cl
 
 **Så här gör du en bild skarpare:**
 
-Om du vill öka skärpan i en bild klickar du på knappen **[!UICONTROL Edit]** och väljer **[!UICONTROL Sharpen]** eller öppnar den i panelen Bläddra i detaljvyn och klickar sedan på **[!UICONTROL Sharpen]**. Sidan Skärperedigeraren öppnas med skärpekommandon. Välj kommandon och klicka sedan på **[!UICONTROL Save]**.
+Om du vill öka skärpan i en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Sharpen]**, eller öppnar den i panelen Bläddra i detaljvyn och väljer **[!UICONTROL Sharpen]**. Sidan Skärperedigeraren öppnas med skärpekommandon. Välj kommandon och välj sedan **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
@@ -54,10 +54,10 @@ Om du vill öka skärpan i en bild klickar du på knappen **[!UICONTROL Edit]** 
 I följande tabell visas skärpealternativen för bildservern.
 
 | Namn | URL-protokoll | Värden | Exempel |
-|--- |--- |--- |--- |
-| Enkel skärpa | op_sharpen | `0 | 1` | op_sharpen=1 |
-| Sampla om läge | resMode | `bilin | bicub | sharp2 | trilin`<br><br>bilin: Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter är ofta märkbara.<br>bikub: Väljer bikubisk interpolation. Processorintensivare än bilin, men ger skarpare bilder med mindre märkbara aliasfelaktigheter.<br><br>sharp2: Väljer en modifierad Lanczos Windows®-funktion som interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad.<br><br>trilin: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om sådana finns. Rekommenderas endast när alias är ett problem. Minskar JPEG-storlekar på grund av reducerade högfrekventa data. | resMode=sharp2 |
-| Oskarp mask | op_usm | mängd, radie, tröskelvärde, monokrom<br><br>mängd: filterstyrkefaktor (verklig 0...5)<br><br>radie: filtrera kernelradien i pixlar (verklig 0...250) <br><br>tröskelvärde: filtertröskelnivå (int 0...255)<br><br>monokrom: ange 0 för att oskarp maskera varje färgkomponent separat, ange 1 till oskarp maskbildintensitet (intensitet) | op_usm=1,1,10,0 |
+| --- | --- | --- | --- |
+| Enkel skärpa | `op_sharpen` | `0` eller  `1` | `op_sharpen=1` |
+| Sampla om läge | `resMode` | `bilin`,  `bicub`,  `sharp2`,  `trilin`<br><br>`bilin`: Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter är ofta märkbara.<br>`bicub`: Väljer bikubisk interpolation. Processorintensivare än bilin, men ger skarpare bilder med mindre märkbara aliasfelaktigheter.<br><br>`sharp2`: Väljer en modifierad Lanczos Windows®-funktion som interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad.<br><br>`trilin`: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om sådana finns. Rekommenderas endast när alias är ett problem. Minskar JPEG-storlekar på grund av reducerade högfrekventa data. | `resMode=sharp2` |
+| Oskarp mask | `op_usm` | `amount`,  `radius`,  `threshold`,  `monochrome`<br><br>`amount`: filterstyrkefaktor (verklig 0...5)<br><br>`radius`: filtrera kernelradien i pixlar (verklig 0...250)  <br><br>`threshold`: filtertröskelnivå (int 0...255)<br><br>`monochrome`: anges  `0` till oskarp mask för varje färgkomponent separat, inställd på  `1` intensitet för oskarp mask (intensitet) | `op_usm=1,1,10,0` |
 
 Välj menyn **[!UICONTROL Sharpening]** och välj ett alternativ:
 
@@ -77,7 +77,7 @@ Det bästa radievärdet beror på bildens storlek. Med ett lågt värde ökas sk
 
 Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar, kan du ange ett radievärde på två pixlar för bilden på 2 000 x 2 000 pixlar. Ange sedan ett radievärde på en pixel i bilden med 500 x 500 pixlar (ett större värde för en bild med fler pixlar).
 
-* **Tröskelvärde** Anger vilket kontrastintervall som ska ignoreras när filtret för oskarp mask används. Med det här alternativet anger du hur olika de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och blir skarpare.
+* **Tröskelvärde**  - Anger vilket kontrastintervall som ska ignoreras när filtret för oskarp mask används. Med det här alternativet anger du hur olika de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och blir skarpare.
 
 Tröskelvärdet använder ett värde mellan 0 och 255, vilket är antalet steg för intensitet i en gråskalebild. 0=svart, 128=50% grått och 255=vitt. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka, så att inte brus läggs till, medan kantkontrasten läggs till i kontrastrika områden, till exempel där ögonfransarna möter huden.
 
@@ -87,17 +87,17 @@ Anta att du har ett foto på någons ansikte. Oskarp mask påverkar de delar av 
 
 **Omsampling**
 
-Klicka på menyn **[!UICONTROL Resampling]** och välj ett alternativ. Dessa alternativ gör bilden skarpare när den nedsamplas:
+Välj menyn **[!UICONTROL Resampling]** och välj ett alternativ. Dessa alternativ gör bilden skarpare när den nedsamplas:
 
-* **Ingen** - Stänger av omsampling.
+* **[!UICONTROL None]** - Inaktiverar omsampling.
 
-* **Bilinjär**  - den snabbaste omsamplingsmetoden. vissa aliaseringsartefakter är märkbara.
+* **[!UICONTROL Bilinear]** - den snabbaste omsamplingsmetoden, vissa aliaseringsartefakter är märkbara.
 
-* **Bikubisk**  - Ökar processoranvändningen på bildservern men ger skarpare bilder med mindre framträdande aliasartefakter.
+* **[!UICONTROL Bicubic]** - Ökar processoranvändningen på bildservern men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
 
-* **Skärpa2** - Ger något skarpare resultat än  **[!UICONTROL Bicubic]**, men till och med högre processorkostnader på Image Server.
+* **[!UICONTROL Sharpen2]** - Ger något skarpare resultat än  **[!UICONTROL Bicubic]**, men till och med högre CPU-kostnader på Image Server.
 
-* **Trilinjär** - använder både högre och lägre upplösningar om sådana finns. rekommenderas bara när alias är ett problem. Den här metoden minskar JPEG-storleken på grund av reducerade högfrekventa data.
+* **[!UICONTROL Trilinear]** - Använder både högre och lägre upplösningar om sådana finns. rekommenderas bara när alias är ett problem. Den här metoden minskar JPEG-storleken på grund av reducerade högfrekventa data.
 
 **Förinställningar för skärpa och bilder**
 
@@ -108,7 +108,7 @@ Du kan använda alla tre skärpeeffekterna för att uppnå det slutliga resultat
 
 Bildförinställningar kan ändras och uppdateras när som helst. Du ser resultatet av en ändring av en bildförinställning när du har publicerat och efter att cachen för URL:en har rensats.
 
-Om du använder en förinställning för varje bild i en storlekskategori kan alla företagsadministratörer uppdatera definitionen för den förinställningen, publicera om och påverka alla bilder som använder det formatet, utan att ändra någon webbkod. Det bästa sättet är att använda en bildförinställning per unik storlek på webbplatsen. Om du vill lägga till en bildförinställning klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Image Presets]** i fältet Global navigering. Klicka sedan på **[!UICONTROL Add]** eller på **[!UICONTROL Edit]** om du vill ändra en befintlig förinställning. Det enda obligatoriska fältet är namnet på själva förinställningen. Det är dock bäst att ta med en viss nivå av skärpa i varje förinställning.
+Om du använder en förinställning för varje bild i en storlekskategori kan alla företagsadministratörer uppdatera definitionen för den förinställningen, publicera om och påverka alla bilder som använder det formatet, utan att ändra någon webbkod. Det bästa sättet är att använda en bildförinställning per unik storlek på webbplatsen. Om du vill lägga till en bildförinställning går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Image Presets]** i fältet Global navigering. Välj sedan **[!UICONTROL Add]** eller **[!UICONTROL Edit]** om du vill ändra en befintlig förinställning. Det enda obligatoriska fältet är namnet på själva förinställningen. Det är dock bäst att ta med en viss nivå av skärpa i varje förinställning.
 
 **JPG-kvalitet**
 
@@ -120,11 +120,11 @@ Alternativen för JPG-kvalitet styr JPG-komprimeringsnivån:
 
 * **Aktivera JPG-krominansnedsampling**  - Eftersom ögat är mindre känsligt för högfrekvent färginformation än högfrekvent luminans delar JPEG-bilder in bildinformation i luminans och färgkomponenter. När en JPEG-bild komprimeras lämnas luminanskomponenten i full upplösning, medan färgkomponenterna nedsamplas genom att medelvärdet av grupper av pixlar ökas. Nedsampling minskar datavolymen med en halv eller en tredjedel utan att det påverkar den upplevda kvaliteten. Nedsampling kan inte användas för gråskalebilder. Den här tekniken minskar mängden komprimering som är användbar för bilder med hög kontrast (till exempel bilder med överlagrad text).
 
-**Ställa in skärpealternativ för hela företaget**
+**Ange skärpealternativ för hela företaget**
 
 Om du inte använder en bildförinställning eller skickar specifika bildserverskärpeprotokoll längs URL-strängen blir bilden inte skarpare när den nedsamplas. Om skärpan inte är tillräckligt hög kan du ange standardvärden för skärpa, och sedan har alla bilder en viss skärpa.
 
-Om du vill ange företagets standardalternativ för skärpa klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du anger standardomsamplingsläget till **[!UICONTROL Sharp2]** blir bilden alltid skarpare vid nedsampling.
+Om du vill ange företagets standardalternativ för skärpa går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du anger standardomsamplingsläget till **[!UICONTROL Sharp2]** blir bilden alltid skarpare vid nedsampling.
 
 **Lägga till skärpa i visningsförinställningar**
 
@@ -144,4 +144,4 @@ Förinställningen här gör visningsprogrammet skarpare och ändrar standardska
 
 Den sista, och minst rekommenderade, skärpningsmetoden är att skapa skärpeåsidosättningar bild för bild. Den här metoden åsidosätter skärpan i en bildförinställning med egna specifika värden. Den här metoden åsidosätter emellertid även alla andra skärpemetoder av alla storlekar. Det bästa användningsområdet för den här metoden är om vissa av dina bilder inte har hög upplösning och värdena i Bildförinställningar är för höga för dessa små bilder. I det här fallet kan skärpa per bild behövas.
 
-I Adobe Dynamic Media Classic markerar du en bild, går till detaljvyn (genom att dubbelklicka eller trycka på **[!UICONTROL Detail View]**) och klickar på **[!UICONTROL Sharpen]**. Ändra en parameter och klicka sedan på **[!UICONTROL Save]**. Den här processen anger för bildservern att de här skärpeparametrarna ska användas i stället för de kommandon som du anropar i URL:en, till exempel en skärpemodifierare eller bildförinställning. Se till att du publicerar för att se att ändringarna börjar gälla.
+I Adobe Dynamic Media Classic markerar du en bild, går till detaljvyn (genom att dubbelklicka eller trycka på **[!UICONTROL Detail View]**) och väljer **[!UICONTROL Sharpen]**. Ändra en parameter och välj sedan **[!UICONTROL Save]**. Den här processen anger för bildservern att de här skärpeparametrarna ska användas i stället för de kommandon som du anropar i URL:en, till exempel en skärpemodifierare eller bildförinställning. Se till att du publicerar för att se att ändringarna börjar gälla.
