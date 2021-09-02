@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3654'
 ht-degree: 0%
@@ -128,7 +128,7 @@ Se till att alla användare på företaget förstår följande regler för filna
 Vanligtvis kan ett filnamn för en resurs vara samma som dess artikelnummer, produkt-SKU eller annat namn som i följande exempel:
 
 | Objekt | Filnamn | Tillgångs-ID |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -234,7 +234,7 @@ Välj det här alternativet om du vill överföra undermappar till mappen som du
 Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
 
-* **BESKÄR OPTIONS**  - Om du vill beskära pixlar med tomt utrymme automatiskt från en bild öppnar du  **[!UICONTROL Crop]** menyn, markerar  **[!UICONTROL Manual]** och anger pixelmått i textrutorna Överkant, Höger, Underkant och Vänster för att beskära från sidorna. Du kan också välja **[!UICONTROL Trim]** på menyn Beskär och välja följande alternativ:
+* **Beskärningsalternativ**  - Om du automatiskt vill beskära pixlar med tomt utrymme från en bild öppnar du  **[!UICONTROL Crop]** menyn, markerar  **[!UICONTROL Manual]** och anger pixelmått i textrutorna Överkant, Höger, Underkant och Vänster för att beskära från sidorna. Du kan också välja **[!UICONTROL Trim]** på menyn Beskär och välja följande alternativ:
 
    * **[!UICONTROL Trim Away Based On]** - Välj om du vill beskära baserat på färg eller genomskinlighet:
       * **[!UICONTROL Color]** - Välj alternativet Färg. Välj sedan menyn Hörn och välj hörnet på bilden med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
@@ -243,13 +243,13 @@ Trimma baserat på färg: Ange 0 om du bara vill beskära pixlar om de exakt mat
 Trimma baserat på genomskinlighet: Ange 0 om du bara vill beskära pixlar om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
       * **[!UICONTROL Tolerance]** - Dra skjutreglaget för att ange en tolerans mellan 0 och 1.
 
-* **COLOR PROFILE OPTIONS**  - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Adobe Dynamic Media Classic:
+* **Alternativ**  för färgprofiler - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Default Color Preservation]** - Behåller källbildens färger när bilderna innehåller färgrymdsinformation. det inte finns någon färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
    * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering för att bearbeta begäranden om bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
    * **[!UICONTROL Custom From]** >  **[!UICONTROL To]** - Öppnar menyer så att du kan välja en  **[!UICONTROL Convert From]** och en  **[!UICONTROL Convert To]** färgrymd. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Välj bara det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
-* **Bildredigeringsalternativ**  - Du kan bevara  &lt;> urklippsmaskerna i bilder och välja en färgprofil.
+* **Bildredigeringsalternativ**  - Du kan bevara urklippsmaskerna  &lt;> i bilder och välja en färgprofil.
 Se [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 
 * **Alternativ**  för PostScript® - Du kan rastrera PostScript®, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.

@@ -1,6 +1,6 @@
 ---
 title: Testa integrationen genom att visa en Adobe Analytics-rapport
-description: Lär dig hur du testar integreringen genom att visa en Adobe Analytics-rapport.
+description: Lär dig hur du testar integreringen i Adobe Dynamic Media Classic genom att visa en Adobe Analytics-rapport.
 uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ När du har skapat de nödvändiga variablerna i Adobe Analytics, länkat dem ti
 
 1. I Adobe Analytics går du till **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > [Namn på prop] och väljer trafikproppens namn på menyalternativen.
 
-   Om du till exempel vill komma åt **[!UICONTROL LoadAsset]**-satsen i exempelkontot är det rätta menyalternativet **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Om du har fler än tio anpassade utkast visas även andra menyalternativ.
+   Om du till exempel vill komma åt **[!UICONTROL LoadAsset]**-satsen i exempelkontot är rätt menyval **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Om du har fler än tio anpassade utkast visas även andra menyalternativ.
 
 1. Visa diagram som skapats av Adobe Analytics. Det här diagrammet är vanligtvis bara data för ett enskilt mått. Om du också vill veta vilken resurs som dessa data är associerade med, kan du hämta resursuppgifter för den här händelsen. Det är till exempel ofta praktiskt att veta vilken video som bara visas till 50 % eller vilken bild i en uppsättning som är populär.
 

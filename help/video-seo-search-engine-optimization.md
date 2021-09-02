@@ -1,6 +1,6 @@
 ---
 title: Video SEO (sökmotoroptimering)
-description: Lär dig hur du konfigurerar SEO-inställningar för video.
+description: Lär dig hur du konfigurerar SEO-inställningar för video i Adobe Dynamic Media Classic.
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ I Adobe Dynamic Media Classic skapas rapporter om webbplatskartor för video och
 >
 >För Video Sitemaps och mRSS-flöden hämtar Adobe Dynamic Media Classic endast metadata från videoklipp som har markerats för publicering. Markera videoklipp för publicering för att inkludera deras metadata i webbplatskartor för video och mRSS-flöden.
 
-## Välja SEO-inställningar för video {#choosing-video-seo-settings}
+## Välj SEO-inställningar för video {#choosing-video-seo-settings}
 
-Klicka på SEO-inställningar för video för webbplatskartor och mRSS-flöden på sidan **[!UICONTROL Video Search Engine Optimization Settings]**. Om du vill öppna den här sidan klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]** i fältet Global Navigation.
+Välj SEO-inställningar för video för webbplatskartor och mRSS-flöden på sidan **[!UICONTROL Video Search Engine Optimization Settings]**. Öppna den här sidan genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]** i fältet Global Navigation.
 
 I **[!UICONTROL General Setting]**-området väljer du om du vill generera webbplatskartor för video, mRSS-flöden eller både och. Mappa metadatafält till indatafält i **[!UICONTROL Generation Settings]**-området.
 
-När du har valt inställningar klickar du på **[!UICONTROL Save]** (eller **[!UICONTROL Save & Generate]**) för att skapa videosemap, mRSS-flöden eller båda.
+När du har valt inställningar väljer du **[!UICONTROL Save]** (eller **[!UICONTROL Save & Generate]**) för att skapa videosemap, mRSS-flöden eller båda.
 
-### Välj allmänna inställningar {#choosing-general-settings}
+### Konfigurera allmänna inställningar {#choosing-general-settings}
 
 Välj ett rapportläge i listrutan **[!UICONTROL Generation Mode]**:
 
@@ -65,11 +65,11 @@ Välj ett rapportläge i listrutan **[!UICONTROL Generation Mode]**:
 
 I listrutan **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generera automatiskt eller manuellt:
 
-* **Automatiskt läge**  - Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS-matning (mRSS) eller båda, varje dag. Välj alternativet Markera för publicering om du automatiskt vill markera XML-filen som genereras i Adobe Dynamic Media Classic för publicering.
+* **Automatiskt läge**  - Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS-matning (mRSS) eller båda, varje dag. Markera alternativet **[!UICONTROL Mark for Publish]** om du vill att den XML-fil som skapas i Adobe Dynamic Media Classic ska publiceras automatiskt.
 
    * **Markera för** PublishMarks för att publicera XML-filen som genereras.
 
-* **Manuellt läge**  - Adobe Dynamic Media Classic genererar videowebbplatskartan, Media RSS-matningen (mRSS) eller båda, när du klickar på Generera eller Spara och generera på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
+* **Manuellt läge**  - Adobe Dynamic Media Classic genererar videosemappningen, Media RSS-matningen (mRSS) eller båda, när du markerar  **[!UICONTROL Generate]** eller  **[!UICONTROL Save & Generate]** i fönstret Optimeringsinställningar för videosökning. Välj även följande alternativ:
 
    * **Inga ytterligare inställningar**  - Markerar inte för publicering av XML-filen som genereras.
 
@@ -91,16 +91,16 @@ Se [Metadatavyer](application-setup.md#metadata_views).
 
 1. Gör något av följande:
 
-   * Om du vill spara inställningarna utan att generera XML-filen klickar du på **[!UICONTROL Save]**.
-   * Klicka på **[!UICONTROL Save & Generate]** om du vill spara och generera filen.
+   * Om du vill spara inställningarna utan att generera XML-filen väljer du **[!UICONTROL Save]**.
+   * Om du vill spara och generera filen väljer du **[!UICONTROL Save & Generate]**.
 
       XML-filen genereras och registreras i jobbloggen. Webbplatskarta för video (video-sitemap) och RSS-flöden (Media RSS) (mrss-feed) lagras i företagets rotmapp.
 
 >[!NOTE]
 >
->Publicera webbplatskartan för video eller mRSS-flöden innan du kan skicka den till sökmotorer. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera dessa XML-filer för publicering, om det behövs, och klicka på **[!UICONTROL Publish]**.
+>Publicera webbplatskartan för video eller mRSS-flöden innan du kan skicka den till sökmotorer. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera dessa XML-filer för publicering, om det behövs, och välj **[!UICONTROL Publish]**.
 
-## Skicka videowebbplatskartor och RSS-feed-filer till sökmotorer {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
+## Skicka videowebbplatskartor och RSS-feed-filer till en sökmotor {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
 Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp:
 
@@ -111,6 +111,6 @@ Kopiera en av dessa URL:er till sökmotorns webbmaster-verktyg för att skicka d
 
 ## Visa SEO-rapporter för video {#viewing-video-seo-reports}
 
-Visa SEO-rapporter för video på sidan för optimeringsrapport för videosökmotor. Om du vill öppna den här sidan klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]** i fältet Global Navigation.
+Visa SEO-rapporter för video på sidan för optimeringsrapport för videosökmotor. Öppna den här sidan genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]** i fältet Global Navigation.
 
 Om fel uppstår när en rapport genereras visas de på rapportsidan.

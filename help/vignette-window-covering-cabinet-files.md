@@ -1,6 +1,6 @@
 ---
-title: Arbeta med vinjett, fönsteromslag och kabinettfiler
-description: Lär dig hur du arbetar med vinjett, fönsteromslag och kabinettfiler.
+title: Arbeta med vinjett, fönsterhölje och kabinettfiler
+description: Lär dig hur du arbetar med vinjetter, fönsteromslag och kabinettfiler i Adobe Dynamic Media Classic.
 uuid: a738791c-4be0-4286-abbd-fae7a0e4bb73
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 42df9adc-e563-4de2-87a4-bd40cef77cdf
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8d1e0c37-a648-4c7b-8f68-4b2ab71dfa11
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
 
-# Arbeta med vinjett, fönsteromslag och kabinettfiler{#working-with-vignette-window-covering-and-cabinet-files}
+# Arbeta med vinjett, fönsterhölje och kabinettfiler{#working-with-vignette-window-covering-and-cabinet-files}
 
 Användare av Adobe Dynamic Media Classic Image Authoring Tool kan *använda* vinjetter (VNT-filer), fönsteromslag (VNW-filer) och skåp (VNC-filer). Dessa filer kan inte skapas eller redigeras i Adobe Dynamic Media Classic.
 

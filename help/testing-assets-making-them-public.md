@@ -1,6 +1,6 @@
 ---
 title: Testa resurser innan du gör dem offentliga
-description: Lär dig hur du testar resurser innan du publicerar dem.
+description: Lär dig hur du testar resurser i Adobe Dynamic Media Classic innan du publicerar dem.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Om du vill kan du skapa en staging-miljö i stället för att göra resurserna a
 
 De flesta företag använder internet bakom en brandvägg. Tillgång till Internet är möjlig via vissa vägar och vanligtvis via ett begränsat antal offentliga IP-adresser.
 
-Från ditt företagsnätverk kan du ta reda på din offentliga IP-adress med hjälp av webbplatser som https://whatismyip.com eller begära den här informationen från din IT-organisation.
+Från ditt företagsnätverk kan du ta reda på din offentliga IP-adress med hjälp av webbplatser som [https://www.whatismyip.com](https://www.whatismyip.com/) eller begära den här informationen från företagets IT-organisation.
 
 Med Secure Testing skapar Adobe Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna program. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Adobe Dynamic Media Classic-företagsadministratören konfigurerar den godkända listan över IP-adresser för företagets säkra testmiljö.
 
@@ -78,9 +78,9 @@ Följande tillgångstyper och funktioner stöds för närvarande inte:
 * Webb-till-tryck
 * Adobe Dynamic Media Classic Info eller eCatalog Search
 
-## Testa tjänsten Secure Testing {#testing-the-secure-testing-service}
+## Testa tjänsten för säker testning {#testing-the-secure-testing-service}
 
-Testa tjänsten Secure Testing för att kontrollera att den fungerar som förväntat.
+Testa tjänsten Secure Testing så att du kan vara säker på att den fungerar som förväntat.
 
 <!-- >[!NOTE]
 >
@@ -99,9 +99,9 @@ Last Modified Date:
  -->
 
 1. Kontakta Adobe kundtjänst och begär att de aktiverar säker testning på ditt konto.
-1. I Adobe Dynamic Media Classic klickar du på **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** i fältet Global Navigation.
+1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** i fältet Global Navigation.
 1. Välj **[!UICONTROL Test Image Serving]** i listrutan **[!UICONTROL Publish Context]** på sidan Image Server Publish.
-1. Klicka på **[!UICONTROL Add]** som klientadressfilter.
+1. Välj **[!UICONTROL Add]** som klientadressfilter.
 1. Markera kryssrutan så att adressen är aktiverad (påslagen) och skriv sedan en IP-adress och nätmask i respektive textfält.
 
    >[!NOTE]
@@ -111,16 +111,16 @@ Last Modified Date:
 1. Gör något av följande:
    * Upprepa de två föregående stegen om du måste lägga till fler IP-adresser.
    * Fortsätt till nästa steg.
-1. Klicka på **[!UICONTROL Save]** längst ned till vänster på sidan Image Server Publish
+1. Längst ned till vänster på sidan Image Server Publish väljer du **[!UICONTROL Save]**
 1. Överför bilderna till ditt Adobe Dynamic Media Classic-konto.
 
-   Se [Överföra filer](uploading-files.md#uploading_files).
+   Se [Överför filer](uploading-files.md#uploading_files).
 
 1. Se till att vissa bilder är markerade för publicering och att andra är omarkerade och skicka sedan publiceringsjobbet.
 
-   Se [Publicera](publishing-files.md#publishing_files).
+   Se [Publicera filer](publishing-files.md#publishing_files).
 
-1. Ange namnet på tjänsten för säker testning genom att klicka på **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
+1. Bestäm namnet på tjänsten för säker testning genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 1. På sidan Allmänna inställningar för programmet, under gruppen Servrar, söker du efter namnet till höger om **[!UICONTROL Test Publish Context Server Name]**.
 
 Kontakta Adobe Care om servernamnet saknas eller om URL:erna till inte fungerar.

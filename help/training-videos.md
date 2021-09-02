@@ -1,21 +1,21 @@
 ---
 title: Adobe Dynamic Media Classic - utbildningsvideor
-description: 'Adobe Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk bildhantering, video, mediaportal, mallar samt redigering och rendering av bilder.'
+description: Adobe Dynamic Media Classic - utbildningsvideor om hur du kommer igång, Dynamic Imaging, video, mediaportal, mallar samt redigering och rendering av bilder.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '6546'
+source-wordcount: '6552'
 ht-degree: 0%
 
 ---
 
 # Adobe Dynamic Media Classic - utbildningsvideor {#training-videos}
 
-Adobe Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk bildhantering, video, mediaportal, mallar samt redigering och rendering av bilder.
+Adobe Dynamic Media Classic - utbildningsvideor om hur du kommer igång, Dynamic Imaging, video, mediaportal, mallar samt redigering och rendering av bilder.
 
-## Komma igång {#get-started-training}
+## Kom igång {#get-started-training}
 
 * [Introduktion](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/570_Introduction_converted%20renamed_Getting%20Started-AVS)
 
@@ -61,7 +61,7 @@ Adobe Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk
 
 * [Snabbstart 2: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
-## Video {#video-training}
+## Video i Adobe Dynamic Media Classic {#video-training}
 
 * [MP4 - videoöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
@@ -97,7 +97,7 @@ Adobe Dynamic Media Classic: utbildningsvideor om hur du kommer igång, dynamisk
 
 * [SPS 6.5, uppdateringsöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/529_6.5%20highlights_2012.11.06%20-%20Scene7%20-%206.5%20Release%20Highlights_Scratch-AVS)
 
-## Bildredigering och återgivning {#image-authoring-rendering-training}
+## Bildredigering och bildåtergivning {#image-authoring-rendering-training}
 
 Utbildningsvideor om olika aspekter av följande:
 
@@ -155,11 +155,11 @@ Utbildningsvideor om olika aspekter av följande:
 
 * [Felaktiga illustrationsscheman](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/999_21_common_mistakes_bad_illumination_maps_ia_01colorizing-AVS)
 
-### Mönstermappning {#pattern-mapping}
+### Mönsterschema {#pattern-mapping}
 
 Återgå till [Bildredigering och återgivning](#image-authoring-rendering-training)
 
-* [Översikt över mönstermappning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
+* [Översikt över mönsterkartan](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
 
 * [Steg före redigering av nät](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/579_02_steps_before_mesh_editing_ia_02pattern-AVS)
 
@@ -261,7 +261,7 @@ Utbildningsvideor om olika aspekter av följande:
 
 * [Genomgång av färgsättning av skal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/620_700_apparel_colorization_review_ia_07apparel-AVS)
 
-* [Utvärdera mönstermappningsansträngning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
+* [Utvärdera mönstermappning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
 
 * [Framtagning av skymningsflöden](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/622_702_apparel_flowline_authoring_ia_07apparel-AVS)
 

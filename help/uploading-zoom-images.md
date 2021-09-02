@@ -1,6 +1,6 @@
 ---
 title: Överför zoombilder
-description: Lär dig hur du överför zoombilder.
+description: Lär dig hur du överför zoombilder till Adobe Dynamic Media Classic.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Zoombilder måste ha ett högt pixelantal. Ett stort antal pixlar behövs så att tittarna tydligt kan se bilddetaljer när de zoomar bilder. Kontrollera att de bilder du använder har rätt storlek innan du överför dem till Adobe Dynamic Media Classic.
 
-Klicka på **[!UICONTROL Upload]** i fältet Global navigering för att börja överföra bilder.
+I fältet Global navigering väljer du **[!UICONTROL Upload]** för att börja överföra bilder.
 
-Mer information om hur du överför bilder finns i [Överföra filer](uploading-files.md#uploading_files).
+Mer information om hur du överför bilder finns i [Överför filer](uploading-files.md#uploading_files).
 
-**Förbereda bilderna för zoomning:**
+**Förbered bilderna för zoomning:**
 
 Förbered dina zoombildfiler innan du överför dem för att dra nytta av zoomfunktionerna i Adobe Dynamic Media Classic Zoom:
 

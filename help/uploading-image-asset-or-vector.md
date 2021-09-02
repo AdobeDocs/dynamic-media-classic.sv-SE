@@ -1,15 +1,15 @@
 ---
 title: Överföra en bildresurs eller en vektorresurs
-description: Lär dig hur du överför en bildresurs eller en vektorresurs.
+description: Lär dig hur du överför en bildresurs eller en vektorresurs i Adobe Dynamic Media Classic
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1482'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett support
 
 I e-postmeddelandet anger du det företagsnamn som du vill använda för att överföra bildresurser. När du har fått nyckeln från Adobe Dynamic Media Classic sparar du den lokalt för framtida bruk.
 
-## Hämtar överföringstoken {#retrieving-the-upload-token}
+## Hämta överföringstoken {#retrieving-the-upload-token}
 
 *Överföringstoken* säkerställer att ingen kan använda samma delade hemliga nyckel för att överföra resurser. Den ser till att överföringen är giltig och kommer från en betrodd källa.
 
@@ -68,7 +68,7 @@ Spara överföringstoken lokalt för framtida förfrågningar.
 Du kan använda följande fält i fråge-URL-strängen för att hämta en överföringstoken:
 
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | Obligatoriskt | get_uploadtoken |
 | shared_secrets | Obligatoriskt | Den delade hemliga nyckeln för det företag som gör överföringen. |
 | förfaller | Valfritt | Antal sekunder som överföringstoken är giltig. Standardvärdet är 300 sekunder om inget anges. |
@@ -86,7 +86,7 @@ Du kan använda följande fält i fråge-URL-strängen för att hämta en överf
 
 Du kan nu överföra en bildresurs.
 
-Se [Överföra en bildresurs](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Se [Överför en bildresurs](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## Överföra en bildresurs {#uploading-an-image-asset}
 
@@ -113,7 +113,7 @@ Parametern `file_limit` anger gränsen för filstorlek i byte. Parametern `file_
 I programmet anges en global gräns för filstorlek och tillåtna filnamnstillägg. Om det du skickar i begäran är en delmängd av de globala gränserna respekteras det. De globala begränsningarna är följande:
 
 | Global gräns | Värde |
-|--- |--- |
+| --- | --- |
 | Filstorlek för alla klienter | 20 MB |
 | Bildfilformat som stöds för överföring | BMP, GIF, JPG, PNG, PSD |
 
@@ -125,7 +125,7 @@ Med följande HTML-formulär kan en användare överföra en resurs. I formulär
 * En lista med filnamnstillägg.
 * Anger om färgprofilen och filnamnet som är associerade med resursen ska bevaras.
 * Om du vill använda Blockera bakgrund. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod.
-Se Spara ur bakgrund i [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+Se Spara ur bakgrund i [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 * Namnet på filen som ska överföras.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-Du kan visa HTML-källkoden som är kopplad till formuläret ovan genom att klicka på [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Du kan visa HTML-källkoden som är kopplad till formuläret ovan genom att välja [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Högerklicka i webbläsarfönstret i Firefox och klicka sedan på **[!UICONTROL View Page Source]**. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
+I Firefox högerklickar du i webbläsarfönstret och väljer **[!UICONTROL View Page Source]**. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
 
-Om du vill visa XML-svaret i Internet Explorer klickar du på **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svaret i Firefox klickar du på **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Firefox rekommenderas för visning av XML-svar.
+Om du vill visa XML-svaret i Internet Explorer går du till **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svaret i Firefox går du till **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Firefox rekommenderas för visning av XML-svar.
 
 Nedan följer ett exempelsvar från en slutförd överföring:
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt som resten av värdena skickas som en URL-frågesträng. Du kan använda följande fält i URL-frågesträngen för att överföra en resurs:
 
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatoriskt | ladda upp |
 | `upload_token` | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
 | `company_name` | Obligatoriskt | Namnet på det företag som utför överföringen. |
@@ -200,7 +200,7 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 
 POST
 
-### Hämta metadata för resurser för bilder {#getting-asset-metadata-for-images}
+### Hämta metadata för bildobjekt {#getting-asset-metadata-for-images}
 
 Du kan använda `image_info` för att hämta metadata för en resurs som du har överfört, vilket visas i följande exempel:
 
@@ -235,7 +235,7 @@ Ett exempel på ett lyckat svar ser ut ungefär så här:
 Du kan använda följande fält i URL-frågesträngen för att begära information om en resurs:
 
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatoriskt | image_info |
 | `shared_secret` | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
 | `image_name` | Obligatoriskt | Bildens namn. |
@@ -273,7 +273,7 @@ Parametern `file_limit` anger gränsen för filstorlek i byte. Parametern `file_
 I programmet anges en global gräns för filstorlek och tillåtna filnamnstillägg. Om det du skickar i begäran är en delmängd av de globala gränserna respekteras det. De globala begränsningarna är följande:
 
 | Global gräns | Värde |
-|--- |--- |
+| --- | --- |
 | Filstorlek för alla klienter | 20 MB |
 | Vektorfilformat som stöds för överföring | AI, EPS, PDF (endast när PDF-filen tidigare har öppnats och sparats i Adobe Illustrator CS6) |
 
@@ -285,7 +285,7 @@ Med följande HTML-formulär kan en användare överföra en resurs. I formulär
 * En lista med filnamnstillägg.
 * Anger om färgprofilen och filnamnet som är associerade med resursen ska bevaras.
 * Om du vill använda Blockera bakgrund. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod.
-Se Spara ur bakgrund i [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+Se Spara ur bakgrund i [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 * Namnet på filen som ska överföras.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-Följande HTML-kod visas när du högerklickar i webbläsarfönstret och sedan klickar på **[!UICONTROL View Source]** för formuläret som visas i exemplet. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
+Följande HTML-kod visas när du högerklickar i webbläsarfönstret och sedan väljer **[!UICONTROL View Source]** för formuläret som visas i exemplet. Koden visar motsvarande URL-frågesträng och den POST som körs när användaren väljer **[!UICONTROL Submit]**.
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-Om du vill visa XML-svaret i Internet Explorer klickar du på **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svar i Firefox klickar du på **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Firefox rekommenderas för visning av XML-svar.
+Om du vill visa XML-svaret i Internet Explorer går du till **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svar i Firefox går du till **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Page Source]**. Firefox rekommenderas för visning av XML-svar.
 
 Nedan följer ett exempelsvar från en slutförd överföring:
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt som resten av värdena skickas som en URL-frågesträng. Du kan använda följande fält i URL-frågesträngen för att överföra en resurs:
 
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | Obligatoriskt | ladda upp |
 | `upload_token` | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
 | `company_name` | Obligatoriskt | Namnet på det företag som utför överföringen. |

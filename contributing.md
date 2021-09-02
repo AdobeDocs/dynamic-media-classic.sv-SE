@@ -1,28 +1,27 @@
 ---
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '533'
-ht-degree: 2%
+source-wordcount: '505'
+ht-degree: 0%
 
 ---
 # Bidra till Adobe Dynamic Media Classic Documentation
 
-Tack för att du väljer att delta i Adobe Dynamic Media Classic-dokumentationen! Vi välkomnar bidrag till innehåll från hela vår läsarcommunity och från medarbetare i Adobe.
+Tack för att du väljer att delta i Adobe Dynamic Media Classic-dokumentationen! Adobe välkomnar bidrag från hela läsarcommunityn och från medarbetare i Adobe.
 
-I den här filen beskrivs hur du kan bidra samt vilka riktlinjer du ska följa när du gör dina bidrag.
+Den här filen beskriver hur du kan bidra och visar de riktlinjer som ska följas när du gör dina inlägg.
 
 ## Adobe uppförandekod med öppen källkod
 
 Det här projektet har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md). Genom att bidra till dokumentationen samtycker du till att följa denna uppförandekod. Rapportera otillåtet beteende till [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
-## Riktlinjer för bidrag
+## Riktlinjer för att bidra
 
-Vi välkomnar alla bidrag för att förbättra dokumentationen, men vi kräver att bidragen ska följa vissa riktlinjer och standarder där det är möjligt. Mer information finns i [Riktlinjerna för Contribute to Adobe Dynamic Media Classic Documentation](guidelines.md).
+Adobe välkomnar alla bidrag för att förbättra dokumentationen, men se till att det ni bidrar till uppfyller vissa riktlinjer och standarder där det är möjligt. Mer information finns i [Riktlinjerna för Contribute to Adobe Dynamic Media Classic Documentation](guidelines.md).
 
-## Använda Contribute
+## Bidra
 
-Vi vill göra det så enkelt som möjligt att lämna in dina bidrag. Du kan bidra på två sätt:
+Adobe vill göra det så enkelt som möjligt att lämna in dina bidrag. Du kan bidra på två sätt:
 
 * [Skapa ett problem](#create-an-issue)
 * [Skapa en pull-begäran](#create-a-pull-request)
@@ -37,15 +36,15 @@ Vilken metod du väljer beror på hur bekväm du själv redigerar dokumentatione
 
 Har du ett förslag, synpunkter på aktuella dokument eller frågor om hur något beskrivs? Skapa sedan ett problem. Problem är också bra om du har något att bidra med, men inte känner dig bekväm med att redigera dokumenten eller göra en pull-förfrågan själv.
 
-Med hjälp av olika problem kan du enkelt beskriva din idé för förbättring av dokumenten, och en dokumentationsmedlem kan granska den. Klicka bara på länken **Logga ett problem** högst upp i den högra navigeringspanelen på en sida för att skapa ett problem.
+Med hjälp av olika problem kan du enkelt beskriva din idé för förbättring av dokumenten, och en dokumentationsmedlem kan granska den. Om du vill skapa ett problem väljer du **[!UICONTROL Log an issue]** längst upp på den högra navigeringspanelen på en sida.
 
 ### Skapa en pull-begäran {#create-a-pull-request}
 
-Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en dokumentationsteammedlem. Klicka bara på länken **Redigera den här sidan** högst upp i den högra navigeringspanelen på en sida för att göra de föreslagna ändringarna och skapa pull-begäran.
+Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en dokumentationsteammedlem. Om du vill göra de föreslagna ändringarna och skapa pull-begäran väljer du **[!UICONTROL Edit this page]** längst upp till höger på navigeringspanelen på en sida.
 
-Alla pull-begäranden måste åtföljas av ett signerat [licensavtal för deltagare eller CLA.](https://opensource.adobe.com/cla.html)  Detta ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du behöver bara skicka ett Adobe CLA en gång, så om du har skickat ett tidigare är du redo att gå!
+Alla pull-begäranden måste åtföljas av ett signerat [licensavtal för deltagare eller CLA](https://opensource.adobe.com/cla.html). Det här arbetsflödet ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du skickar bara ett CLA-avtal för Adobe en gång, så om du har skickat ett tidigare är det klart.
 
-### Introduktion till snabbvideo
+### Snabb videointroduktion
 
 Titta på följande video för att få en snabb översikt över hur du skapar problem och skickar in förfrågningar.
 
@@ -55,7 +54,7 @@ Titta på följande video för att få en snabb översikt över hur du skapar pr
 
 Om du är anställd i Adobe och har ett bidrag, använd organisationen `AdobeDocs` i företagsgruppen.
 
-Vi är naturligtvis glada över eventuella bidrag och kommer att granska ditt bidrag om det görs i den offentliga databasen, men ansökningar från medarbetarna i Adobe är enklare att behandla och kan godkännas snabbare i företagsrapporten. Se till att all företagsinformation endast behandlas i företagets rapport.
+Adobe välkomnar alla bidrag. Bidrag granskas om de görs i det offentliga arkivet. Det är dock enklare att behandla förfrågningar från anställda i Adobe och de godkänns snabbare i företagsarkivet. Se till att all företagsinformation bara diskuteras i företagets databas.
 
 ## Ytterligare information
 
