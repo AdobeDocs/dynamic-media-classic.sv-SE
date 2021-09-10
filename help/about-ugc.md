@@ -9,9 +9,9 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '164'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ UGC har stöd för följande filformat:
 
 * Raster: JPG, PNG, TIFF
 * Vektor: AI, EPS (EPS-filer från Adobe Illustrator 2018 stöds inte), PDF (endast när PDF-filen tidigare har öppnats och sparats i Adobe Illustrator CS6)
+
+>[!IMPORTANT]
+>
+>Stöd för nya eller befintliga UGC-vektorbildresurser i Adobe Dynamic Media Classic upphör den 30 september 2021.
 
 Innan du överför resurser får du en delad hemlig nyckel. Använd den här nyckeln för att hämta en överföringstoken. Du skickar överföringstoken när du överför resurser och utför andra UGC-åtgärder.
 

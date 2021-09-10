@@ -9,9 +9,9 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Du kan använda följande fält i URL-frågesträngen för att ta bort en resurs
 | `op` | Obligatoriskt | delete |
 | `shared_secret` | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
 | <ul><li>För bilder:bildnamn</li><li>För vektor:fxg_name</li></ul> | Obligatoriskt | Namnet på resursen som ska tas bort. |
+
+>[!IMPORTANT]
+>
+>Stöd för nya eller befintliga UGC-vektorbildresurser i Adobe Dynamic Media Classic upphör den 30 september 2021.
 
 **URL för exempelbild:**
 

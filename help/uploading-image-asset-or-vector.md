@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1518'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Överföra en bildresurs eller en vektorresurs{#uploading-an-image-asset-or-a-vector-asset}
 
 Innan du kan överföra en bildresurs måste du först begära en delad hemlig nyckel. Du använder den här delade hemliga nyckeln för att hämta en överföringstoken. Sedan använder du överföringstoken för att överföra bildresurser eller vektorresurser.
+
+>[!IMPORTANT]
+>
+>Stöd för nya eller befintliga UGC-vektorbildresurser i Adobe Dynamic Media Classic upphör den 30 september 2021.
 
 ## Begär en delad hemlig nyckel {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ Du kan använda följande fält i URL-frågesträngen för att begära informati
 GET och POST
 
 ## Överföra en vektorresurs {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>Stöd för nya eller befintliga UGC-vektorbildresurser i Adobe Dynamic Media Classic upphör den 30 september 2021.
 
 När du har hämtat en överföringstoken som är giltig under en viss tid kan du överföra en vektorresurs. Du överför resursen som en multipart-/formulärpost medan du skickar resten av värdena som en URL-frågesträng, vilket visas i det här exemplet:
 
