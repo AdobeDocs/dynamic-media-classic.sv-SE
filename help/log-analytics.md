@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d18dbbf89a1bfe4df46cbe7d56cdf6f442595ddb
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -27,21 +27,75 @@ När du loggar in kan du ange ditt Experience Cloud-Org-ID för att använda den
 >
 >Om ditt Adobe Analytics-konto har migrerats till Adobe IMS-baserad autentisering (Identity Management System) för inloggning fungerar inte det att ange direkta autentiseringsuppgifter.
 
-**Så här loggar du in på Adobe Analytics:**
+**Så här loggar du in på Adobe Analytics från Adobe Dynamic Media Classic:**
 
-1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** nära det övre högra hörnet på Adobe-Dynamic Media Classic-sidan.
-1. I den vänstra rutan, under **[!UICONTROL Application Setup]**, trycker du på **[!UICONTROL Adobe Analytics]**.
-1. Tryck på **[!UICONTROL Adobe Analytics Login]** på konfigurationssidan för Adobe Analytics.
-1. I dialogrutan **[!UICONTROL Adobe Analytics Login]** anger du ditt företagsnamn, Experience Cloud Org ID (valfritt), användarnamn och *delad hemlighet* i textfältet **[!UICONTROL Password]**.
+Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe Analytics OAuth-integrering med Dynamic Media Classic görs vanligtvis bara en gång per användare.
 
-   Du kan hämta *nyckeln för delad hemlighet* från Analytics-Admin Console. Se [Hämta API-autentiseringsuppgifter för användarkonton](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md).
+1. Åtkomst till [Adobe Developer Console](https://developer.adobe.com/console). Se till att ditt konto har administratörsbehörighet för organisationen som integreringen krävs för.
+1. I den nedrullningsbara listan i det övre högra hörnet av hemsidan väljer du önskat företag. (Skärmbilden nedan är endast avsedd för information. det faktiska företagsnamnet du väljer kan variera.)
 
-1. Välj **[!UICONTROL Login]**.
-1. I listrutan **[!UICONTROL Report Suite]** väljer du en rapportserie och sedan **[!UICONTROL OK]**.
+   ![Skapa ett nytt projekt](assets/analytics-oauth1.png)
+
+1. Gör något av följande:
+
+   * Högst upp på sidan väljer du **[!UICONTROL Home]** på fliken **[!UICONTROL Create new project]**.
+   * Överst på sidan går du till fliken **[!UICONTROL Projects]**. Välj **[!UICONTROL Create new project]** nära sidans högra hörn.
+
+1. Välj **[!UICONTROL Add API]** på projektsidan.
+1. Välj **[!UICONTROL Adobe Analytics]** på sidan **[!UICONTROL Add an API]**.
+1. Välj **[!UICONTROL Next]** längst ned till höger på sidan.
+
+   ![Lägg till ett API](assets/analytics-oauth2.png)
+
+1. Välj **[!UICONTROL USER AUTHENTICATION OAuth]** på sidan **[!UICONTROL Configure API]**.
+1. Välj **[!UICONTROL Next]** längst ned till höger på sidan.
+1. Välj **[!UICONTROL OAUTH 2.0 Web]** på sidan **[!UICONTROL Configure API]**.
+1. I textfältet **[!UICONTROL Default redirect URI]** anger du följande sökväg exakt som den visas:
+
+   `https://exploreadobe.com/dynamic-media-upgrade/`
+
+1. I textfältet **[!UICONTROL Redirect URI pattern]** anger du följande sökväg exakt som den visas:
+
+   `https://exploreadobe\.com/dynamic-media-upgrade/`
+
+1. Välj **[!UICONTROL Save configured API]** längst ned till höger på sidan.
+1. På navigeringspanelen till vänster på Adobe Analytics-sidan, under **[!UICONTROL Credentials]**, väljer du **[!UICONTROL OAuth Web]**.
+1. Gör följande under **[!UICONTROL Credential details]**:
+   * Under **[!UICONTROL Client ID]** väljer du **[!UICONTROL Copy]** för att kopiera värdet. Du behöver det här värdet för den följande Analytics-konfigurationen i det Dynamic Media Classic-datorprogram som ska följas.
+   * Under **[!UICONTROL Client Secret]** väljer du **[!UICONTROL Retrieve client secret]** för att visa det associerade värdet. Välj **[!UICONTROL Copy]** om du vill kopiera värdet. Du behöver det här värdet för den efterföljande Adobe Analytics-konfigurationen i Dynamic Media Classic-datorprogrammet som ska följas.
+
+**Konfigurera Adobe Analytics i datorprogrammet Dynamic Media Classic**
+
+>[!NOTE]
+>
+>När du har konfigurerat Adobe Analytics i Dynamic Media Classic till att börja med behöver du bara göra om konfigurationen i följande fall:
+>
+>* En ny rapport läggs till i Analytics och användaren vill börja skicka data till den nya rapporten.
+>* Spårningsservern uppdateras i Adobe Analytics.
+>* En ny spårningsvariabel introduceras i en rapport och du vill länka en specifik visningsvariabel i Dynamic Media Classic-användargränssnittet till den nya Analytics-variabeln.
+
+>
+
+
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** i det övre högra hörnet av skrivbordsprogrammet Adobe Dynamic Media Classic.
+1. Välj **[!UICONTROL Adobe Analytics]** under **[!UICONTROL Application Setup]** i den vänstra panelen.
+1. Välj **[!UICONTROL Adobe Analytics Login]** på sidan **[!UICONTROL Adobe Analytics Configuration]**.
+1. I dialogrutan **[!UICONTROL Adobe Analytics Login]** klistrar du in de värden du kopierade tidigare i fältet Klient-ID och Klienthemlighet.
+1. Utför IMS-inloggning.
+
+   När du är inloggad visas listrutan **[!UICONTROL COMPANIES]**, som initierats av de företag som är tillgängliga för dig.
+
+1. Välj ett företag i listrutan **[!UICONTROL COMPANIES]**.
+
+   När du har valt ett företag visas den nedrullningsbara listan **[!UICONTROL SUITES]** som initierats av de rapportsviter som är tillgängliga för det valda företaget.
+
+1. Välj en rapportsvit i listrutan **[!UICONTROL SUITES]**.
 
    >[!NOTE]
    >
-   >Första gången du loggar in på Adobe Analytics är listrutan Report Suite tom. Du väljer ingen rapportsvit första gången du loggar in. När du har loggat in första gången loggar du ut och återgår sedan till Adobe Analytics-skärmen. Logga in igen för att kunna välja en rapportsserie.
+   >Som standard måste användaren vara medveten om att listrutorna **[!UICONTROL COMPANIES]** och **[!UICONTROL SUITES]** är tomma. Användaren måste därför välja ett värde i varje lista. —>
+
+1. Välj **[!UICONTROL OK]** så att du kan spara konfigurationen.
 
 >[!MORELIKETHIS]
 >
