@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
+source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1792'
 ht-degree: 0%
 
 ---
@@ -106,11 +106,11 @@ Se även:
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
-   | Servernamn för skrivbordsapp | Webbläsarens URL |
+   | Webbläsarens URL | Servernamn för skrivbordsapp |
    | --- | --- |
-   | Produktion i Nordamerika | `https://s7sps1.scene7.com/` |
-   | EMEA-produktion (Europa, Mellanöstern och Afrika) | `https://s7sps3.scene7.com/` |
-   | APAC-produktion (Asien-Stillahavsområdet) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
+   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
 1. När du har loggat in kan du se hur webbläsargränssnittet fungerar. Du kan fortsätta din dagliga Dynamic Media Classic-aktivitet från Adobe som vanligt i skrivbordsappen.
 
@@ -123,7 +123,7 @@ Se även:
 
 Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet i macOS:*
 
-1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn genom att flytta Adobe Dynamic Media Classic.app till Papperskorgen.
+1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic för macOS.
 
@@ -148,11 +148,11 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
-   | Servernamn för skrivbordsapp | Webbläsarens URL |
+   | Webbläsarens URL | Servernamn för skrivbordsapp |
    | --- | --- |
-   | Produktion i Nordamerika | `https://s7sps1.scene7.com/` |
-   | EMEA-produktion (Europa, Mellanöstern och Afrika) | `https://s7sps3.scene7.com/` |
-   | APAC-produktion (Asien-Stillahavsområdet) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
+   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
 ## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows® {#install-silent-windows-dmc-app}
 
@@ -193,11 +193,12 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
-   | Servernamn för skrivbordsapp | Webbläsarens URL |
+   | Webbläsarens URL | Servernamn för skrivbordsapp |
    | --- | --- |
-   | Produktion i Nordamerika | `https://s7sps1.scene7.com/` |
-   | EMEA-produktion (Europa, Mellanöstern och Afrika) | `https://s7sps3.scene7.com/` |
-   | APAC-produktion (Asien-Stillahavsområdet) | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
+   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
+   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
+
 
 ## Videogenomgång om hur du använder Adobe Dynamic Media Classic-datorprogrammet {#dmc-app-video-walk-through}
 
