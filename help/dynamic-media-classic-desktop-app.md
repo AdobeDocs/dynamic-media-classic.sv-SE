@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
@@ -38,22 +38,34 @@ Adobe Dynamic Media Classic är kompatibelt med följande operativsystem:
 >
 >Uppgraderingsmeddelanden i Adobe Dynamic Media Classic-datorprogrammet genereras inte för *mindre*-versioner. Kunder som drar nytta av korrigeringar i en mindre release kan uppgradera.
 
-## Korrigeringar i den mindre versionen (20.21.2) {#minor-release}
+## Korrigeringar i den senaste versionen (20.21.3) {#release-sept2021}
 
-* Känd begränsning i 20.21.1-listrutan Server är tom.
+* Brutna miniatyrbilder för resurser som visas efter en viss inaktivitetsperiod i skrivbordsappen.
+* Skrivbordsappen slutar svara, vanligtvis efter Set-åtgärder.
+* Förfrågansfuscation och låsläge aktiveras automatiskt under **[!UICONTROL Test Image Serving]**.
+
+   Se [Testa tjänsten Secure Testing](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+
+* Uppdaterad autentiseringsmekanism med Adobe Analytics. Relevant för nya integreringar eller om vissa Analytics-variabler måste uppdateras inifrån Dynamic Media Classic-datorprogrammet.
+
+   Se [Logga in på Adobe Analytics](/help/log-analytics.md) för uppdaterade steg.
+
+## Korrigeringar i version 20.21.2 {#minor-release}
+
+* Känd begränsning i 20.21.1: listrutan **[!UICONTROL Server]** på inloggningsskärmen var tom.
 * I **[!UICONTROL Upload Job Options]** är standardvärdet för lagernamn under **[!UICONTROL Photoshop Options]** nu **[!UICONTROL Photoshop and Layer Name]**. Lager i PSD-filen överförs som separata bilder.
    * Det tidigare standardvärdet **[!UICONTROL Layer name]**, som namnger bilderna efter deras lagernamn eller lagernummer i PSD-filen. Lagernumret användes om lagernamnen i PSD-filen var Photoshop standardlagernamn.
    * Den nya standardinställningen **[!UICONTROL Photoshop and Layer Name]** namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i PSD-filen är Photoshop standardlagernamn.
    * Eftersom lagerbilderna i Adobe Dynamic Media Classic nu har unika namn kommer inga uppdateringar att göras av befintliga PSD- eller mallar (som delar lagernamn i de ursprungliga PSD-filerna).
 * Brutna miniatyrbilder av resurser.
 
-## Korrigeringar i den senaste versionen (20.21.1) {#latest-fixes-desktop-app}
+## Korrigeringar i version 20.21.1 {#latest-fixes-desktop-app}
 
 * Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen eller grupperna utan behörighet. Kontakta administratören.*
 * Förinställningar för visningsprogram dupliceras med varje felaktigt lösenordsförsök.
 * Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows®; arbeta som du vill i macOS.)
 
-## Korrigeringar i föregående version (20.20.2) {#previous-version-fixes-desktop-app}
+## Korrigeringar i version 20.20.2 {#previous-version-fixes-desktop-app}
 
 * Ingen begränsning för hur många filer du kan överföra via skrivbordsappens användargränssnitt för både macOS och Windows®.
 * Du behöver inte logga ut från datorprogrammet för att växla mellan olika företag.
@@ -71,14 +83,14 @@ Se även:
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * Den senaste versionen (20.21.2) finns här:
+   * Den senaste versionen (20.21.3) finns här:
+
+      * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * Den tidigare versionen (20.21.2) finns på följande plats:
 
       * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * Den tidigare versionen (20.21.1) finns på följande plats:
-
-      * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ Se även:
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
-   | Webbläsarens URL | Servernamn för skrivbordsapp |
+   | Server | Webbläsarens URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
-   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
-   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
+   | NA Production (Nordamerika) | https://s7sps1.scene7.com/ |
+   | EMEA-produktion (Europa, Mellanöstern och Afrika) | https://s7sps3.scene7.com/ |
+   | APAC-produktion (Asien-Stillahavsområdet) | https://s7sps5.scene7.com/ |
 
 1. När du har loggat in kan du se hur webbläsargränssnittet fungerar. Du kan fortsätta din dagliga Dynamic Media Classic-aktivitet från Adobe som vanligt i skrivbordsappen.
 
@@ -127,11 +139,11 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic för macOS.
 
-   * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS (.DMG) - Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. Kopiera .APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
@@ -148,11 +160,11 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
-   | Webbläsarens URL | Servernamn för skrivbordsapp |
+   | Server | Webbläsarens URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
-   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
-   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
+   | NA Production (Nordamerika) | https://s7sps1.scene7.com/ |
+   | EMEA-produktion (Europa, Mellanöstern och Afrika) | https://s7sps3.scene7.com/ |
+   | APAC-produktion (Asien-Stillahavsområdet) | https://s7sps5.scene7.com/ |
 
 ## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-datorappen i Windows® {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. Kör installationsprogrammet i postläge med följande kommando:
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. I GUI-installationsfönstret följer du stegen för att installera så att interaktioner/indata, som installationsplatsen, registreras i `Setup.iss`-filen.
 
-1. Kopiera den skapade `Setup.iss`-filen och `adobe-dynamic-media-classic-20.21.2.exe` till en annan dator.
+1. Kopiera den skapade `Setup.iss`-filen och `adobe-dynamic-media-classic-20.21.3.exe` till en annan dator.
 
 1. Kör följande kommando för en tyst installation:
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    Information om kommandoradsparametrar finns på [Setup.exe och Update.exe Command-Line Parameters.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ Så här hämtar och *installerar du den senaste versionen av Adobe Dynamic Medi
 
    Mer information om hur du använder **[!UICONTROL Server]** finns i följande mappning för produktionsmiljön:
 
-   | Webbläsarens URL | Servernamn för skrivbordsapp |
+   | Server | Webbläsarens URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
-   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
-   | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
-
+   | NA Production (Nordamerika) | https://s7sps1.scene7.com/ |
+   | EMEA-produktion (Europa, Mellanöstern och Afrika) | https://s7sps3.scene7.com/ |
+   | APAC-produktion (Asien-Stillahavsområdet) | https://s7sps5.scene7.com/ |
 
 ## Videogenomgång om hur du använder Adobe Dynamic Media Classic-datorprogrammet {#dmc-app-video-walk-through}
 

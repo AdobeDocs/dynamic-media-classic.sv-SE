@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2349'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ När du skapar bildscheman kan du göra något av följande:
    * Om du arbetar med en SpinSet i stödrastervyn eller listvyn väljer du **[!UICONTROL Edit]**. Du kan också öppna den i detaljvyn och sedan välja **[!UICONTROL Edit]**. Välj en bildresurs och välj sedan **[!UICONTROL Image Map]**.
    * Om du arbetar med en e-katalog väljer du **[!UICONTROL Edit]** i Stödrastervisning, Listvy och Detaljvy. Välj fliken **[!UICONTROL Map Pages]**.
 
-   ![](assets/ma_image_map.png)
+   ![Bild på bildschema](assets/ma_image_map.png)
 
 1. Rita ett rektangulärt eller polygonalt (flersidigt) bildschema:
 
