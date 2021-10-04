@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -164,7 +164,7 @@ ht-degree: 0%
    + [Om användargenererat innehåll](about-ugc.md)
    + [Ta bort en överförd resurs](deleting-uploaded-asset.md)
    + [Hämta information om diskanvändning](getting-disk-usage-information.md)
-   + [Överföra en bildresurs eller en vektorresurs](uploading-image-asset-or-vector.md)
+   + [Överföra en rasterbildsresurs](uploading-image-asset-or-vector.md)
 + Överordnad filer {#master-files}
    + [Bästa tillvägagångssätt för att optimera bildkvaliteten](best-practices-optimizing-quality-images.md)
    + [Redigera bilder](editing-images.md)

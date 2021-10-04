@@ -9,9 +9,9 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,12 @@ ht-degree: 0%
 
 Att använda UGC (användargenererat innehåll) består av att överföra resurser till en dedikerad Adobe Dynamic Media Classic-lagringsplats och utföra relaterade åtgärder.
 
-UGC har stöd för följande filformat:
-
-* Raster: JPG, PNG, TIFF
-* Vektor: AI, EPS (EPS-filer från Adobe Illustrator 2018 stöds inte), PDF (endast när PDF-filen tidigare har öppnats och sparats i Adobe Illustrator CS6)
+UGC stöder rasterbildfilformaten BMP, GIF, JPG, PNG, PSD och TIFF.
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
 >
->Stöd för nya eller befintliga UGC-vektorbildresurser i Adobe Dynamic Media Classic upphör den 30 september 2021.
+>Stöd för nya eller befintliga UGC-vektorbildresurser i Adobe Dynamic Media Classic upphörde den 30 september 2021.
 
 Innan du överför resurser får du en delad hemlig nyckel. Använd den här nyckeln för att hämta en överföringstoken. Du skickar överföringstoken när du överför resurser och utför andra UGC-åtgärder.
 
