@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) oc
 1. När du är klar ser du till att **[!UICONTROL Publish after save*]** är markerat (standard) nära sidans nedre högra hörn.
 1. Välj **[!UICONTROL Close]**, ange ett namn för erbjudandeuppsättningen och välj sedan **[!UICONTROL Save]**.
 
-Innan du stänger sidan Test&amp;Target Offer Set (Ange erbjudanden) ska du överföra erbjudandet till Adobe Target Standard/Premium. Se [Paketera erbjudanden till Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Innan du stänger sidan Test&amp;Target Offer Set (Ange erbjudanden) ska du överföra erbjudandet till Adobe Target Standard/Premium. Se [Push offer sets to Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
 
 ## Skapa en erbjudandeuppsättning med bilder eller videor {#creating-an-offer-set-with-images-or-videos}
 
