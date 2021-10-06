@@ -1,20 +1,20 @@
 ---
 title: Hjälp om Adobe Dynamic Media Classic
-description: Välkommen till Adobe Adobe Dynamic Media Classic, det ledande medieoberoende publiceringssystemet on-demand för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial för alla enheter och skärmar.
+description: Välkommen till Adobe Dynamic Media Classic, det ledande medieoberoende publiceringssystemet för on-demand för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial för alla enheter och skärmar.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
 
 # Hjälp om Adobe Dynamic Media Classic {#scene7-overview}
 
-Välkommen till Adobe Adobe Dynamic Media Classic, det ledande medieoberoende publiceringssystemet on-demand för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial för alla enheter och skärmar. Adobe Dynamic Media Classic lösningar omfattar följande:
+Välkommen till Adobe Dynamic Media Classic, det ledande medieoberoende publiceringssystemet för on-demand för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial för alla enheter och skärmar. Adobe Dynamic Media Classic lösningar omfattar följande:
 
 * Dynamic Imaging: Realtidsredigering, formatering och storleksändring, interaktiv zoom och panorering. färgsättning och texturvisning, 360° rotation, bildmallar, multimediavisare.
 * eCatalogs: Skapa, länka till hotspot, sök, publicera och leverera dynamiskt betjänade onlinekataloger till konfigurerbara visningsprogram.
