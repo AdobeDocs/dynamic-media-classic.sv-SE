@@ -10,16 +10,16 @@ discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
 
 # Navigeringsgrunder{#navigation-basics}
 
-Skärmen Adobe Dynamic Media Classic innehåller tre huvudområden: Global Navigation bar, Asset Library, Asset Filters tab, Browse Panel/Build Panel och Media Cart (endast Media Portal).
+Adobe Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation bar, Asset Library, Asset Filters tab, Browse Panel/Build Panel och Media Cart (endast Media Portal).
 
 ![Navigation ](/help/assets/gs_navigation_basics_popup_popup.png)
 *basicsMain Adobe Dynamic Media Classic*
@@ -41,15 +41,15 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 * **[!UICONTROL Recent]** - Öppnar skärmen Senaste aktivitet så att du kan visa namnen på nyligen ändrade resurser och nyligen överförda och publicerade jobb.
 
-* **[!UICONTROL Setup]** - Öppnar installationsskärmen så att du kan välja inställningar eller administrationsalternativ för att optimera användningen av Adobe Dynamic Media Classic. Se [Inställningar](/help/setup-basics.md).
+* **[!UICONTROL Setup]** - Öppnar installationsskärmen så att du kan välja inställningar eller administrationsalternativ för att optimera din användning av Adobe Dynamic Media Classic. Se [Inställningar](/help/setup-basics.md).
 
 * **[!UICONTROL Help]** Välj ett hjälpalternativ:
 
    * **[!UICONTROL Help On This Topic]** - Öppnar hjälpsystemet på en sida med information om den uppgift du håller på att utföra.
    * **[!UICONTROL Video Tutorial]** - Här finns videofilmer om specifika ämnen som visar hur du kommer igång med varje arbetsflöde för multimediepublicering.
    * **[!UICONTROL Help Contents]** - Öppnar hjälpsystemet på introduktionssidan. Du kan söka efter och visa olika ämnen i innehållsförteckningen.
-   * **[!UICONTROL About]** - Anger vilken version av Adobe Dynamic Media Classic du använder.
-   * **[!UICONTROL Support]** - Anger hur du får teknisk support från Adobe Dynamic Media Classic.
+   * **[!UICONTROL About]** - Anger vilken version av Adobe Dynamic Media Classic du kör.
+   * **[!UICONTROL Support]** - Informerar dig om hur du får teknisk support från Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Sign out]** - Avslutar Adobe Dynamic Media Classic.
 
@@ -70,6 +70,8 @@ På panelen Bläddra/bygg kan du göra mycket av ditt arbete. Vilka funktioner s
 * **[!UICONTROL Browse mode]** - Om du vill visa och arbeta med innehållet i en mapp på panelen Bläddra väljer du en mapp i resursbiblioteket. På den här panelen finns menyerna **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]** och **[!UICONTROL Sort]** för att arbeta med resurser. Du kan också visa resurser på olika sätt genom att flytta skjutreglaget eller välja **[!UICONTROL Grid View]**, **[!UICONTROL List View]** eller **[!UICONTROL Detail View]**. Om du väljer **[!UICONTROL Detail View]** eller dubbelklickar på en resurs öppnas resursen i detaljvyn, där du kan utföra resursberoende filåtgärder.
 
 * **[!UICONTROL Build mode]** - Välj  **[!UICONTROL Build]** och välj sedan ett alternativ så att du kan börja skapa en e-katalog, bilduppsättning, snurra uppsättning eller något av flera andra tillgängliga alternativ på menyn Skapa. Sidan Skapa öppnas. Du kan välja de resurser som du vill arbeta med innan eller efter att du aktiverar byggläget.
+
+Se även [Utbildningsvideon Navigation basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >

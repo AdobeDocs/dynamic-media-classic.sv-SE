@@ -1,6 +1,6 @@
 ---
 title: '"Snabbstart: Färgruteuppsättningar"'
-description: En introduktion och Snabbstart till färgruteuppsättning som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
+description: En introduktion och Quick Start to Swatch Set som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Om du vill skapa en färgruteuppsättning går du till **[!UICONTROL Build]** > 
 
 ## 3. Ställ in förinställningar för färgrutor
 
-Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Adobe Dynamic Media Classic innehåller standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: Anpassad > Bilduppsättningar/Förinställningar för färgrutor om du vill visa dina färgruteuppsättningar.
+Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: Anpassad > Bilduppsättningar/Förinställningar för färgrutor om du vill visa dina färgruteuppsättningar.
 
 Se [Skapa och redigera visningsprogramförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -55,6 +55,6 @@ Se [Publicera filer](publishing-files.md#publishing-files).
 
 ## 6. Länka en färgruteuppsättning till en webbsida
 
-Adobe Dynamic Media Classic skapar URL-anrop för färgruteuppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
+Adobe Dynamic Media Classic skapar URL-anrop för färgruteuppsättningar och aktiverar dem när du har publicerat. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
 Markera färgruteuppsättningen och välj sedan knappen Förhandsvisa. Förhandsgranskningssidan öppnas. Markera en förinställning för färgruteuppsättning och välj knappen Kopiera URL. Se [Länka en färgruteuppsättning till en webbsida](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

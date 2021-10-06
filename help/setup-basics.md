@@ -10,16 +10,16 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
 # Grundläggande om inställningar{#setup-basics}
 
-Använd inställningssidan för Adobe Dynamic Media Classic för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Om du vill öppna en inställningssida väljer du **[!UICONTROL Setup]** i fältet Global navigering.
+Använd sidan Adobe Dynamic Media Classic Setup för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Om du vill öppna en inställningssida väljer du **[!UICONTROL Setup]** i fältet Global navigering.
 
 Vilka inställningar som är tillgängliga på den här sidan beror på din status som användare eller administratör:
 
@@ -28,13 +28,14 @@ Vilka inställningar som är tillgängliga på den här sidan beror på din stat
 
 Administratörer kan också konfigurera bildförinställningar och visningsförinställningar på **[!UICONTROL Setup]**-sidan:
 
-* **Bildförinställningar**  - Bildförinställningar är sparade format för visning av överordnad bilder i olika storlekar och format.
+* **Bildförinställningar**  - Bildförinställningar är sparade format för visning av primära bilder i olika storlekar och format.
 
 * **Förinställningar**  för visningsprogram - Förinställningarna för visningsprogram avgör hur du ser multimedia när du ser dem i ett visningsprogram.
 
 >[!MORELIKETHIS]
 >
->* [Adobe Dynamic Media Classic - användarroller och behörigheter](administration-setup.md#user_administration)
+>* [Ställ in grundläggande utbildningsvideo](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Adobe Dynamic Media Classic användarroller och -behörigheter](administration-setup.md#user_administration)
 >* [Bildförinställningar](application-setup.md#image_presets)
 >* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)
 

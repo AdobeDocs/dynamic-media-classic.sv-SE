@@ -10,9 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Du kan skapa följande typer av erbjudandeuppsättningar:
 
 För mallar väljer du **[!UICONTROL Add and Preview]** och anger sedan de parametrar du väljer. De andra erbjudandetyperna innehåller inga parametrar, men du kan fortfarande anpassa dem genom att välja **[!UICONTROL Preview]** och ändra de tillgängliga förinställningarna.
 
-Adobe Dynamic Media Classic har verktyg för redigering och för att skapa erbjudanden.
+Adobe Dynamic Media Classic har verktyg för redigering och framtagning av erbjudanden.
 
 >[!NOTE]
 >
->Innan du skapar en uppsättning med erbjudanden måste du publicera alla resurser som du vill använda för uppsättningen till Adobe Dynamic Media Classic. Se [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
+>Innan du skapar en uppsättning med erbjudanden måste du publicera alla resurser som du vill använda för uppsättningen på Adobe Dynamic Media Classic. Se [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
 
 ## Olika typer av uppsättningar erbjudanden {#types-of-offer-sets}
 
@@ -39,7 +39,9 @@ Skapa en erbjudandeuppsättning av följande typer av erbjudanden:
 
 * **Bilder**  - Du kan sätta ihop bilder för en uppsättning erbjudanden. Varje bild har ett eget erbjudande.
 
-* **Bildmall**  - Du kan parametrisera bildmallar i Adobe Dynamic Media Classic med kommandot Skapa > Mallgrunder. Med hjälp av parametrar kan mallkomponenter - texten i textramar och de olika bilderna - bytas ut och anpassas. För en erbjudandeuppsättning kan du till exempel använda mallparametrar för att skapa varianter på samma bild i din erbjudandeuppsättning. Mer information om hur du skapar och parametriserar bildmallar finns i Skapa mallparametrar.
+* **Bildmall**  - Du kan parametrisera bildmallar i Adobe Dynamic Media Classic med kommandot  **[!UICONTROL Build]** > Mallar. Med hjälp av parametrar kan mallkomponenter - texten i textramar och de olika bilderna - bytas ut och anpassas. För en erbjudandeuppsättning kan du till exempel använda mallparametrar för att skapa varianter på samma bild i din erbjudandeuppsättning. Mer information om hur du skapar och parametriserar bildmallar finns i [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
+
+Se även [Utbildningsvideon Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 * **Video**  - Du kan sammanställa video för en uppsättning erbjudanden. Varje video är ett separat erbjudande i uppsättningen.
 

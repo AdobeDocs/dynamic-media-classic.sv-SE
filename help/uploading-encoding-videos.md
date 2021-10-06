@@ -9,28 +9,28 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # Överföra och koda videoklipp{#uploading-and-encoding-videos}
 
-Om du vill skapa en enda video eller adaptiva videouppsättningar för webben eller mobila enheter måste du först överföra dina överordnad videofiler till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic kodar videoklipp till MP4-format och publicerar videoklipp i följande filformat:
+Om du vill skapa en enda video eller adaptiva videouppsättningar för webben eller mobila enheter överför du först dina överordnad videofiler till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic kodar videoklipp till MP4-format och publicerar video i följande filformat:
 
-* **MP4** - Adobe Dynamic Media Classic rekommenderar MP4 som det videofilformat du föredrar. Använd MP4-filer för följande:
+* **MP4** - Adobe Dynamic Media Classic rekommenderar MP4 som det önskade videofilformatet. Använd MP4-filer för följande:
 
    * HTTP Dynamic Streaming på stationära datorer.
-   * HTTP Live Streaming (Apples direktuppspelningsprotokoll).
+   * HTTP Live Streaming (Apple direktuppspelningsprotokoll).
    * Progressiv leverans av video till mobila enheter med Android™, BlackBerry® och Windows®
 
-   Adobe Dynamic Media Classic har två arbetsflöden för att överföra videofiler:
+   Adobe Dynamic Media Classic har två arbetsflöden för överföring av videofiler:
 
-* **Förkodade videoklipp**  - Du kan överföra MP4-filer direkt till Adobe Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
+* **Förkodade videor**  - Du kan överföra MP4-filer direkt till Adobe Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
 
-* **Överordnad källvideor**  - Ladda upp överordnad källvideofiler och koda dessa filer till MP4-filer när de överförs. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Adobe Dynamic Media Classic har stöd för kodning av videofiler i många format.
+* **Överordnad källvideor**  - Ladda upp överordnad källvideofiler och koda dessa filer till MP4-filer när de överförs. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Adobe Dynamic Media Classic stöder kodning av videofiler i många format.
 
    * Kontrollera att de överordnad källvideofiler som du vill koda stöds.
 
@@ -59,7 +59,7 @@ Gör något av följande.
 1. Kontrollera att **[!UICONTROL Publish After Uploading]** är markerat på sidan Överför.
 1. Välj **[!UICONTROL Submit Upload]**.
 
-*Om du vill koda videofilmer med Adobe Dynamic Media Classic*
+*Om du vill koda dina videofilmer med Adobe Dynamic Media Classic*
 
 1. Välj **[!UICONTROL Upload]** i fältet Global navigering.
 1. Välj fliken **[!UICONTROL From Desktop]** på sidan Överför.
@@ -77,7 +77,7 @@ Se [Förinställningar för videokodning för datorer](application-setup.md#desk
 
 *Om du vill koda om en videofil som du överfört tidigare*
 
-1. I Adobe Dynamic Media Classic navigerar du till videon i panelen Bläddra och markerar den.
+1. I Adobe Dynamic Media Classic navigerar du till videon på panelen Bläddra och markerar den.
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.
 1. Expandera **[!UICONTROL EVideo Options]** i dialogrutan Bearbeta resurser och gör sedan något av följande:
    * Det bästa sättet är att använda följande metod. Välj **Adaptiv video**.
@@ -185,7 +185,7 @@ I den här tabellen beskrivs datahastigheten för typiska anslutningshastigheter
 | Hastighet (kbit/s) | Anslutningstyp |
 | --- | --- |
 | 256 | Uppringd anslutning. |
-| 600 | Vanlig mobilanslutning. För den här anslutningen anger du en datahastighet mellan 400 och maximalt 800 för 3G-upplevelser som mål. |
+| 800 | Vanlig mobilanslutning. För den här anslutningen anger du en datahastighet mellan 400 och maximalt 800 för 3G-upplevelser som mål. |
 | 2000 | Vanlig anslutning till stationär bredbandsuppkoppling. För den här anslutningen anger du en datahastighet i intervallet 800-2000 kbit/s med de flesta mål som är i genomsnitt 1200-1500 kbit/s. |
 | 5000 | Vanlig bredbandsanslutning. Kodning i det här övre intervallet rekommenderas inte eftersom videoleverans i den här hastigheten inte är tillgänglig för de flesta konsumenter. |
 
@@ -240,9 +240,9 @@ Anta till exempel att källvideon är 1 920 x 1 080. I följande tabell ger de t
 
 | Videotyp | Bredd x höjd | Breddförhållande | Höjdförhållande |
 | --- | --- | --- | --- |
-| Källa | 1920 x 1080 | 3 | 3 |
+| Källa | 1920 x 1080 | 1 | 1 |
 | Kodad | 960 x 540 | 2 | 2 |
-| Kodad | 640 x 360 | 3 | 1 |
+| Kodad | 640 x 360 | 3 | 3 |
 | Kodad | 480 x 270 | 4 | 4 |
 
 ### Kodat videofilformat {#encoded-video-file-format}
@@ -255,7 +255,7 @@ Adobe Dynamic Media Classic rekommenderar att du använder MP4 H.264-videokodnin
 
 Se [Överför och koda videoklipp](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
-Adobe Dynamic Media Classic innehåller ett bibliotek med fördefinierade videokodningsförinställningar som återspeglar de vanligaste kodningsinställningarna som används idag. Dessa kodningsförinställningar är optimerade för uppspelning på målskärmar. Dessutom kan administratörer skapa egna videokodningsförinställningar för att anpassa storleken och uppspelningskvaliteten på videoklipp för slutanvändarna. Alla förinställningar för videokodning, oavsett om de är färdiga från Adobe Dynamic Media Classic eller skräddarsydda utdata för video i MP4-format.
+Adobe Dynamic Media Classic har ett bibliotek med fördefinierade videokodningsförinställningar som återspeglar de vanligaste kodningsinställningarna som används idag. Dessa kodningsförinställningar är optimerade för uppspelning på målskärmar. Dessutom kan administratörer skapa egna videokodningsförinställningar för att anpassa storleken och uppspelningskvaliteten på videoklipp för slutanvändarna. Alla förinställningar för videokodning, oavsett om de är färdiga från Adobe Dynamic Media Classic eller skräddarsydda utdata för video i MP4-format.
 
 På skärmen Videoförinställningar kan administratörer konfigurera och hantera videokodning. De kan göra följande:
 
@@ -264,7 +264,7 @@ På skärmen Videoförinställningar kan administratörer konfigurera och hanter
 * Redigera förinställningar för videokodning.
 * Ta bort videoförinställningar.
 
-Alla videofilmer som du överför till Adobe Dynamic Media Classic eller kodar i Adobe Dynamic Media Classic behandlas som&quot;videofilmer&quot;. Med andra ord innebär den här resursklassificeringen att du kan leverera videon för uppspelning på datorer, mobila enheter eller båda. Du kan till exempel förhandsgranska den här typen av videofilmer i Adobe Dynamic Media Classic. Du kan också generera URL:er (med funktionen Kopiera URL) och kod som du kan bädda in (med funktionen Bädda in kod) för användning med videospelare, på webbplatser och så vidare.
+Alla videofilmer som du överför till Adobe Dynamic Media Classic eller kodar i Adobe Dynamic Media Classic behandlas som&quot;video&quot;. Med andra ord innebär den här resursklassificeringen att du kan leverera videon för uppspelning på datorer, mobila enheter eller båda. Du kan till exempel förhandsgranska den här typen av videofilmer i Adobe Dynamic Media Classic. Du kan också generera URL:er (med funktionen Kopiera URL) och kod som du kan bädda in (med funktionen Bädda in kod) för användning med videospelare, på webbplatser och så vidare.
 
 Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer).
 
@@ -277,7 +277,7 @@ För videomaterial som du överför och kodar i Adobe Dynamic Media Classic leve
 **MP4 H.264** Använd MP4-filer för följande:
 
 * HTTP Dynamic Streaming på stationära datorer.
-* HLS (HTTP Live Streaming, Apples direktuppspelningsprotokoll).
+* HLS (HTTP Live Streaming, Apple direktuppspelningsprotokoll).
 * Progressiv leverans av video till mobila Android™-, BlackBerry®- och Windows®-enheter.
 
 Alla andra videoformat och kodekar behandlas som&quot;Överordnad Video&quot;. Den här resursklassificeringen innebär att videon är en videokällfil och inte kan användas för uppspelning på datorer eller mobila enheter. Du kan till exempel inte förhandsgranska den här typen av videofilmer i Adobe Dynamic Media Classic. Du kan inte heller generera Kopiera URL:er eller Bädda in kod för användning i videospelare, på webbplatser och så vidare.
@@ -292,7 +292,7 @@ Du kan också filtrera baserat på ett uppspelningsenhetsalternativ om du vill b
 
 **Så här filtrerar du listan med förinställningar för videokodning:**
 
-1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Adaptive Video Presets]** eller **[!UICONTROL Single Encoding Presets]** i Adobe Dynamic Media Classic.
+1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video Presets]** > **[!UICONTROL Adaptive Video Presets]** eller **[!UICONTROL Single Encoding Presets]** i fältet Global Navigation.
 
    Sidorna för adaptiva videoförinställningar och Förinställningar för enskild kodning innehåller en tabell med information om aktiv status, förinställningens namn, avsedd uppspelningsenhet, videodimensioner och datahastighet för varje videoförinställning.
 
@@ -378,4 +378,5 @@ Administratörer kan ta bort anpassade videoförinställningar. Videoförinstäl
 >* [Snabbstart: Video i Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
 >* [Överföra och koda videoklipp](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [Videoförinställning ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) för video
 

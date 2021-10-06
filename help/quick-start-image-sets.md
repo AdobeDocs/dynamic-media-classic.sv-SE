@@ -1,6 +1,6 @@
 ---
 title: '"Snabbstart: Bilduppsättningar"'
-description: En introduktion och Snabbstart till bilduppsättningar som hjälper dig att komma igång snabbt med hjälp av bilduppsättningstekniker i Adobe Dynamic Media Classic.
+description: En introduktion och Snabbstart till bilduppsättningar som hjälper dig att komma igång snabbt med hjälp av Image Set-tekniker i Adobe Dynamic Media Classic.
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,13 @@ Adobe Dynamic Media Classic Image Sets ger användarna en integrerad visningsupp
 
 I Image Set Viewer finns zoomningsverktyg som gör att du kan undersöka bilder noggrant. Om du vill kan du göra guidade zoommål och bildscheman till en del av din bilduppsättning. Bilduppsättningar ger en mer samordnad och intimt tittarupplevelse.
 
-Den här snabbstarten för bilduppsättningar är utformad för att komma igång snabbt med hjälp av bilduppsättningstekniker i Adobe Dynamic Media Classic.
+Se [Bild- och snurruppsättningar: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) utbildningsvideo.
+
+Följande snabbstart för bilduppsättningar är utformat för att du snabbt ska komma igång med hjälp av Image Set-tekniker i Adobe Dynamic Media Classic.
 
 ## 1. Överför dina överordnad bilder för flera vyer och färgrutor
 
-Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet måste du ta hänsyn till den här möjligheten när du väljer bilder. Se till att bilderna har en största storlek på minst 2 000 pixlar. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
+Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet måste du ta hänsyn till den här möjligheten när du väljer bilder. Se till att bilderna har en största storlek på minst 2 000 pixlar. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria bilder i TIFF, PNG och EPS rekommenderas.
 
 I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra filer från datorn till en mapp på Adobe Dynamic Media Classic.
 
@@ -45,7 +47,7 @@ Se även [Inkludera zoommål och bildscheman i bilduppsättningar](/help/includi
 
 ## 3. Förbered bilduppsättningen med visningsförinställningar efter behov
 
-Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Adobe Dynamic Media Classic innehåller standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: **[!UICONTROL Custom]** > **[!UICONTROL Images]** eller **[!UICONTROL Image Sets]**/**[!UICONTROL Multiple Views]** förinställningar för att visa dina bilduppsättningar.
+Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: **[!UICONTROL Custom]** > **[!UICONTROL Images]** eller **[!UICONTROL Image Sets]**/**[!UICONTROL Multiple Views]** förinställningar för att visa dina bilduppsättningar.
 
 Du kan lägga till eller redigera visningsprogramförinställningar på skärmen Programinställningar.
 

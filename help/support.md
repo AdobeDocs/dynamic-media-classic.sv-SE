@@ -8,21 +8,21 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 523d6e82a5410d8b1ae1a69b4ea2c0a0a4793fc7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
 
 # Support {#support}
 
-Teknisk support är utformad för att uppfylla behoven hos alla större företag. I följande tabell beskrivs Adobe Dynamic Media Classic Customer Care-erbjudanden:
+Teknisk support är utformad för att uppfylla behoven hos alla större företag. I följande tabell beskrivs Adobe Dynamic Media Classic kundtjänst:
 
 | Support | Prenumeration |
 | --- | --- |
 | Ärendegräns | Obegränsat. |
-| Kontrollera systemstatus för Adobe | [Adobe Dynamic Media Classic-systemstatus](https://status.adobe.com/products/1175). |
+| Kontrollera systemstatus för Adobe | [Adobe Dynamic Media Classic systemstatus](https://status.adobe.com/products/1175). |
 | Hittar du inget svar? | [Öppna en biljett](https://experienceleague.adobe.com/?support-solution=General#support) om du vill få hjälp från supporten. |
 | Community-forum | [Experience Manager forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA (servicenivåavtal) | [Supporttjänster / Villkor](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
@@ -34,7 +34,7 @@ Teknisk support är utformad för att uppfylla behoven hos alla större företag
 
 När du rapporterar problem till den tekniska supporten ska du inkludera följande information:
 
-* Adobe Dynamic Media Classic-företagsnamn.
+* Adobe Dynamic Media Classic företagsnamn.
 * Ditt namn, telefonnummer och e-postadress.
 * Adobe Dynamic Media Classic, plattform och version.
 * Problembeskrivning och nödvändiga steg för att återskapa problemet.

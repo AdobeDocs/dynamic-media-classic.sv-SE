@@ -10,16 +10,16 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
 # Snabbstart: Snurra uppsättningar{#quick-start-spin-sets}
 
-Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. En snurra uppsättning simulerar en 360-gradig visningsupplevelse. Adobe Dynamic Media Classic har endimensionella snurruppsättningar där visningsprogram kan rotera ett objekt och tvådimensionella snurpuppar där visningsprogram kan rotera och vända objektet. Dessutom kan man zooma och panorera med några enkla musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
+Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. En snurra uppsättning simulerar en 360-gradig visningsupplevelse. Adobe Dynamic Media Classic erbjuder endimensionella snurruppsättningar där tittarna kan rotera ett objekt och tvådimensionella snurruppsättningar där tittarna kan rotera och vända objektet. Dessutom kan man zooma och panorera med några enkla musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
 
 ![Bilder för en snurra uppsättning.](/help/assets/spin_set.png)
 
@@ -27,7 +27,9 @@ Du kan även använda snurruppsättningar för bildscheman. En bildschema är et
 
 Se [Skapa bildscheman](creating-image-maps.md).
 
-Snabbstart för den här snurruppsättningen är utformad för att komma igång snabbt med Spin Set-teknik i Adobe Dynamic Media Classic. Följ steg 1 till 7. I slutet av varje steg kan du välja en ämneslänk och lära dig mer.
+Se [Bild- och snurruppsättningar: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) utbildningsvideo.
+
+Snabbstart för den här snurruppsättningen är utformad för att du snabbt ska komma igång med Spin Set-teknik i Adobe Dynamic Media Classic. Följ steg 1 till 7. I slutet av varje steg kan du välja en ämneslänk och lära dig mer.
 
 ## 1. Skapa och överföra bilderna
 
@@ -73,7 +75,7 @@ Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set
 
 ## 7. Länka en snurruppsättning till en webbsida
 
-Adobe Dynamic Media Classic skapar URL-bildtextssträngar för snurruppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
+Adobe Dynamic Media Classic skapar URL-bildtextsträngar för Spin Sets och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
 Markera rotationsuppsättningen och välj sedan **[!UICONTROL Preview]**. Välj en förinställning för Snurra uppsättning för visningsprogram. Välj sedan **[!UICONTROL Copy URL]**.
 

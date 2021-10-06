@@ -10,9 +10,9 @@ discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '907'
 ht-degree: 0%
 
 ---
@@ -21,17 +21,19 @@ ht-degree: 0%
 
 Bildstorlek avser möjligheten för Adobe Dynamic Media Classic att skapa flera bearbetade bilder baserade på en enda högupplöst bild. I stället för att manuellt skapa flera bilder - t.ex. en miniatyrbild och en förstorad bild - för webbplatsen eller programmet kan du skapa en enda överordnad bild. Adobe Dynamic Media Classic genererar alla ändrade bilder precis som du vill ha dem. Att kunna leverera bilder dynamiskt från en enda överordnad bild har många fördelar:
 
-* Du behöver inte skapa flera kopior av bilden manuellt i olika storlekar. Du ger en överordnad bild till Adobe Dynamic Media Classic, och Adobe Dynamic Media Classic genererar derivat i olika storlekar från den överordnad bilden.
+* Du behöver inte skapa flera kopior av bilden manuellt i olika storlekar. Du skickar en överordnad bild till Adobe Dynamic Media Classic, och Adobe Dynamic Media Classic genererar derivat i olika storlekar från den överordnad bilden.
 * Du kan snabbt ändra storlek på en bildtyp på hela webbplatsen eller i programmet. Om du till exempel vill ändra alla miniatyrbilder kan du ändra bildförinställningen&quot;miniatyrbild&quot;. En bildförinställning, som liknar ett makro, är en samling med storleks- och formateringsattribut. Du kan ändra bildförinställningen &quot;miniatyrbild&quot; om du vill ändra storleken på alla miniatyrbilder på hela webbplatsen eller i programmet.
 * Ni behöver inte hantera mallarna och alla olika derivat i ert innehålls- eller resurshanteringssystem internt eller externt.
 
 ![Du kan skapa flera variantbilder med olika storlek från samma högupplösta överordnad fil.](/help/assets/is_derivative_sizes_popup.png)
 
-Den här snabbstarten för bildstorlek är utformad för att hjälpa dig att komma igång snabbt med hjälp av tekniker för bildstorlek i Adobe Dynamic Media Classic. Följ steg 1-5. Efter varje steg finns en korsreferens där du kan hitta mer information om det behövs.
+Se [Bildstorlek: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) utbildningsvideo.
+
+Följande snabbstart för bildstorlekar är utformad för att hjälpa dig att komma igång snabbt med tekniker för bildstorlek i Adobe Dynamic Media Classic. Följ steg 1-5. Efter varje steg finns en korsreferens där du kan hitta mer information om det behövs.
 
 ## 1. Överför överordnad bilder
 
-Börja med att ladda upp dina överordnad bilder till Adobe Dynamic Media Classic. När det gäller storlek rekommenderar Adobe Dynamic Media Classic att du använder bilder som är den största storlek som du förväntar dig på din webbplats eller i ditt program. Om du till exempel vill att tittarna ska zooma bilder överför du bilder som är minst 2 000 pixlar stora. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF- och PNG-bilder rekommenderas.
+Börja med att ladda upp dina överordnad bilder till Adobe Dynamic Media Classic. När det gäller storlek rekommenderar Adobe Dynamic Media Classic att du använder bilder som är den största storlek du förväntar dig på din webbplats eller i ditt program. Om du till exempel vill att tittarna ska zooma bilder överför du bilder som är minst 2 000 pixlar stora. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF- och PNG-bilder rekommenderas.
 
 I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra filer från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför överordnad bilder](uploading-master-images.md#uploading_master_images).
 
@@ -58,7 +60,7 @@ Se [Förhandsgranska en bildresurs baserat på bildförinställningen](previewin
 Publicera dina överordnad bildfiler i två viktiga syften:
 
 * Publicera dina överordnad bilder på Dynamic Media Image Servers så att bilderna dynamiskt kan levereras till din webbplats och tillämpning.
-* När du publicerar aktiveras URL-strängarna för att anropa bilder från Dynamic Media Image Servers till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera URL:er som genererats av Adobe Dynamic Media Classic där det behövs på webbplatsen eller i programmet.
+* När du publicerar aktiveras URL-strängarna för att anropa bilder från Dynamic Media Image Servers till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera de URL-adresser som genererats av Adobe Dynamic Media Classic där det behövs på webbplatsen eller i programmet.
 
 Välj **[!UICONTROL Publish]** i fältet Global navigering för att starta ett publiceringsjobb. Välj **[!UICONTROL Submit Publish]** i dialogrutan Publicera. Se [Publicera överordnad bilder](publishing-master-images.md#publishing_master_images).
 

@@ -9,24 +9,24 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3654'
+source-wordcount: '3713'
 ht-degree: 0%
 
 ---
 
 # Överför filer{#uploading-files}
 
-Innan du överför resursfiler till Adobe Dynamic Media Classic måste du se till att resursfilerna har rätt namn och att mappstrukturen är konfigurerad och ordnad som du vill ha den. Du kan överföra filer från en FTP-plats som tillhandahålls av Adobe Dynamic Media Classic eller direkt från datorn eller nätverket. I Adobe Dynamic Media Classic finns alternativ för att optimera filer när du överför dem. Om du har installerat Adobe Dynamic Media Classic kan du överföra filer och mappar genom att dra dem direkt från skrivbordet. Se [Allmänna inställningar för program](application-setup.md#general_settings).
+Innan du överför resursfiler till Adobe Dynamic Media Classic måste du se till att resursfilerna har rätt namn och att mappstrukturen är konfigurerad och ordnad som du vill ha den. Du kan överföra filer från en FTP-plats som tillhandahålls av Adobe Dynamic Media Classic eller direkt från datorn eller nätverket. Adobe Dynamic Media Classic erbjuder alternativ för optimering av filer när du överför dem. Om du har installerat Adobe Dynamic Media Classic kan du överföra filer och mappar genom att dra dem direkt från skrivbordet. Se [Allmänna inställningar för program](application-setup.md#general_settings).
 
 ## Förbered dina resurser och mappar för överföring {#preparing-your-assets-and-folders-for-uploading}
 
-Innan du överför resurser till Adobe Dynamic Media Classic bör du kontrollera att de har rätt format och storlek. Du måste också följa Adobe Dynamic Media Classic-reglerna för att namnge resurser. Genom att konfigurera en mappstruktur för filerna ser du till att du enkelt kan hitta och arbeta med filerna.
+Innan du överför resurser till Adobe Dynamic Media Classic måste du kontrollera att de har rätt format och storlek. Du måste också följa Adobe Dynamic Media Classic regler för att namnge mediefiler. Genom att konfigurera en mappstruktur för filerna ser du till att du enkelt kan hitta och arbeta med filerna.
 
 ### Filformat som stöds {#supported-asset-file-formats}
 
-I den här tabellen visas de filformat som Adobe Dynamic Media Classic har stöd för. Information om vilka Camera Raw filer som stöds finns i [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
+I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. Information om vilka Camera Raw filer som stöds finns i [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Resursfilformat | Beskrivning |
 | --- | --- |
@@ -59,9 +59,9 @@ Se även [Identifiera filformat som inte stöds för Dynamic Media](https://help
 
 * PNG-filer som har en IDAT-segmentstorlek som är större än 100 MB.
 * PSB-filer.
-* PSD-filer med en annan färgrymd än CMYK, RGB, Gråskala eller Bitmapp stöds inte. Färgrymderna DuoTone, Lab och Indexed stöds inte.
+* PSD-filer med en annan färgmodell än CMYK, RGB, Gråskala eller Bitmapp stöds inte. Färgrymderna DuoTone, Lab och Indexed stöds inte.
 * PSD-filer med ett bitdjup som är större än 16.
-* TIFF-filer som har flyttalsdata.
+* TIFF-filer med flyttalsdata.
 * TIFF-filer med Lab-färgrymd.
 
 ### Resurstyper {#asset-types}
@@ -71,8 +71,8 @@ För att få bästa möjliga resultat med Adobe Dynamic Media Classic bör du an
 | Tillgångstyp | Beskrivning/Recommendations |
 | --- | --- |
 | Ljud | Bland indatafilformaten för ljudresurser finns AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3. Du kan koda om ljud till följande format: MP3, AAC och HE-AAC. |
-| Bilder (för Bildstorlek, Zooma, Bilduppsättningar, Snurra uppsättningar) | Bilderna måste ha minst 2 000 pixlar med den längsta storleken. de vanliga bildstorlekarna varierar mellan 1 500 och 2 500 pixlar i den längsta storleken. Vi rekommenderar förlustfria bildformat, inklusive TIFF- och PNG-filer. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten. Animate GIF-filer hanteras som annat statiskt innehåll. |
-| eCatalogs | Använd högupplösta PDF-filer som skapats i Adobe® Acrobat® eller ett Creative Suite-program som sparats som &quot;tryckoriginal&quot;. PDF-filer innehåller alla teckensnitt, bilder, masker och refererade grafiska element som behövs, antingen som enkelsidiga, dubbelsidiga uppslag eller i ett flersidigt format. Ordna sidorna genom att namnge filerna i alfanumerisk ordning. Placera alla PDF-filer för din e-katalog i en enda mapp för att underlätta överföringen. Du kan välja beskärningsalternativ när du överför för att ta bort beskärningsområdet från PDF-filer, inklusive skärmärken, registreringsmål eller färgfält. De flesta tryckfärdiga PDF-filer finns i CMYK-färgmodellen, så det är viktigt att du hämtar den ICC-färgprofil för CMYK som används med PDF-filerna. |
+| Bilder (för Bildstorlek, Zooma, Bilduppsättningar, Snurra uppsättningar) | Bilderna måste ha minst 2 000 pixlar med den längsta storleken. de vanliga bildstorlekarna varierar mellan 1 500 och 2 500 pixlar i den längsta storleken. Vi rekommenderar förlustfria bildformat, inklusive TIFF och PNG-filer. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten. Animate GIF-filer hanteras som annat statiskt innehåll. |
+| eCatalogs | Använd högupplösta PDF-filer som skapats i Adobe® Acrobat® eller ett Creative Suite-program som sparats som&quot;tryckoriginal&quot;. PDF innehåller alla teckensnitt, bilder, masker och refererade grafiska element som behövs, antingen som enkelsidiga, dubbelsidiga uppslag eller i ett flersidigt format. Ordna sidorna genom att namnge filerna i alfanumerisk ordning. Placera all PDF för din e-katalog i en enda mapp för att underlätta överföringen. Du kan välja beskärningsalternativ när du överför för att ta bort beskärningsområdet från PDF, inklusive skärmärken, passmärkesmål eller färgfält. De flesta tryckklara PDF-filerna finns i CMYK-färgmodellen, så det är viktigt att du hämtar den ICC-färgprofil för CMYK som används med dina PDF-filer. |
 | Mallar | Bild- eller layoutdesign med flera lager som kan innehålla text, bilder och lager. Bildlager, textsträngar och attribut, som färg och storlek, kan parametriseras så att variabeldata kan anpassas. Bildkraven för användning i mallar är desamma som för andra bilder. Förbered bilderna i Photoshop eller något annat bildredigeringsprogram. Spara varje bild som en förenklad genomskinlig fil i TIFF- eller PNG-format. Kontrollera att bildupplösningen är lämplig för förväntad användning. Bilder för utskrift är 300 ppi. |
 | Videor | Adobe Dynamic Media Classic stöder videofiler som sparats i formaten OGV och MP4. Du kan omkoda filer till MP4-format vid överföring. Se [Resursfilformat som stöds](#supported-static-file-formats). |
 | Teckensnitt | Överförda TrueType, Type1 (endast Windows®), OpenType®-teckensnitt och PhotoFonts. |
@@ -84,16 +84,16 @@ För att få bästa möjliga resultat med Adobe Dynamic Media Classic bör du an
 | FXG-filer | Upplösningsoberoende grafikformatfiler som du kan använda för att skapa anpassningsbara mallar för utskrift, webb, e-post, dator och enheter. |
 | SVG-filer | Skalbara vektorgrafikfiler som Image Serving-servrar kan återge. |
 | XML-filer | Filer som definierar förbearbetningsregler som används för att ändra sökväg och frågedelar för begäranden. |
-| Cascading Style Sheet-filer. | Överför CSS-skal för anpassning av HTML5-visningsprogram. |
+| Cascading Style Sheet-filer. | Överför CSS-skal för anpassning av visningsprogram för HTML5. |
 | JavaScript-filer | JavaScript-filer används för visningsprograminstrumentering för kontoinformation. Adobe Security rekommenderar att den här resurstypen endast används för klientkonton som har en separat domän som används för leverans (för att undvika serveröverskridande skript). |
 
 >[!NOTE]
 >
->När du överför bildfiler och PDF-filer till Adobe Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF-filer är de filer som senare publiceras till Dynamic Media Image Servers. I Adobe Dynamic Media Classic används filformatet Pyramid Tiff eftersom det innehåller olika zoomningsförhållanden som möjliggör snabb zoomning när det visas med Adobe Dynamic Media Classic Zoom Viewer.
+>När du överför bildfiler och PDF till Adobe Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF är de filer som senare publiceras till Dynamic Media Image Servers. Adobe Dynamic Media Classic använder filformatet Pyramid Tiff eftersom det innehåller olika zoomförhållanden som möjliggör snabb zoomning när det visas med Adobe Dynamic Media Classic zoomningsvisningsprogram.
 
 ### Statiska filformat som stöds {#supported-static-file-formats}
 
-Adobe Dynamic Media Classic stöder flera statiska filformat. Statiskt innehåll är alla resurser som publiceras i befintligt skick, t.ex. CSS, PDF, SVG och XML.
+Adobe Dynamic Media Classic stöder flera statiska filformat. Statiskt innehåll är alla resurser som publiceras i befintligt skick, till exempel CSS, PDF, SVG och XML.
 
 Följande filtyper kan publiceras:
 
@@ -102,23 +102,23 @@ Följande filtyper kan publiceras:
 * CSS
 * JavaScript (när företaget har konfigurerats med sin egen domän)
 * Överordnad video
-* PDF (när PDF har markerats för publicering efter överföring, för att undvika att alla PDF-filer levereras för det befintliga eCatalog/PDF-arbetsflödet)
+* PDF (när PDF har markerats för publicering efter överföring, för att undvika att alla PDF levereras för eCatalog/PDF)
 * PrX-video
 * SVG
 * XML
 * ZIP
 
-I Adobe Dynamic Media Classic går det inte att generera en förhandsgransknings-URL för statiskt innehåll.
+Adobe Dynamic Media Classic har inte möjlighet att generera en förhandsgransknings-URL för statiskt innehåll.
 
 ### Krav för filnamn {#filename-requirements}
 
-Eftersom filnamnstillägg tas bort från filnamn under överföringsprocessen tillåter inte systemet att filer har samma rotnamn. I Adobe Dynamic Media Classic-systemet blir resursfilens namn minus filnamnstillägget resurs-ID för resursen. Därför kan två resurser inte ha samma namn.
+Eftersom filnamnstillägg tas bort från filnamn under överföringsprocessen tillåter inte systemet att filer har samma rotnamn. I Adobe Dynamic Media Classic-systemet blir filnamnet minus filtillägget resurs-ID för resursen. Därför kan två resurser inte ha samma namn.
 
 Se till att alla användare på företaget förstår följande regler för filnamngivning:
 
 * Tillgångs-ID:n med samma exakta namn tillåts inte i systemet.
 * Resurs-ID:n är skiftlägeskänsliga.
-* Ett tips är att se till att resurs-ID:n inte innehåller blanksteg (t.ex. svart jacka.tif och blå jpg). Adobe Dynamic Media Classic ASCII-kodar tomma utrymmen i resursnamn när resursnamn används för att skapa URL-strängar. Dessa ASCII-koder är svåra att läsa, vilket kan göra det svårare att läsa URL:er.
+* Ett tips är att se till att resurs-ID:n inte innehåller blanksteg (t.ex. svart jacka.tif och blå jpg). Adobe Dynamic Media Classic ASCII kodar blanksteg i resursnamn när resursnamn används för att skapa URL-strängar. Dessa ASCII-koder är svåra att läsa, vilket kan göra det svårare att läsa URL:er.
 * Språkspecifika tecken får användas i filnamn. Följande tecken får dock inte användas i filnamn:
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; {} %
@@ -136,7 +136,7 @@ Vanligtvis kan ett filnamn för en resurs vara samma som dess artikelnummer, pro
 
 Ordna och strukturera mappar och undermappar för ditt innehåll i Adobe Dynamic Media Classic innan du överför innehållet till systemet. Planering framåt på det här sättet har två stora fördelar:
 
-* När du överför ditt innehåll till Adobe Dynamic Media Classic via FTP kan du ange att systemet ska replikera mappstrukturen under överföringen. På så sätt ordnas ditt innehåll i samma mappar och undermappar i Adobe Dynamic Media Classic som det finns på datorn eller i nätverket. (Om du vill replikera mappstrukturen i Adobe Dynamic Media Classic markerar du alternativet Inkludera undermappar när du överför resurser via FTP.)
+* När du överför ditt innehåll till Adobe Dynamic Media Classic via FTP kan du ange att systemet ska replikera mappstrukturen under överföringen. På så sätt ordnas ditt innehåll i samma mappar och undermappar i Adobe Dynamic Media Classic som på datorn eller i nätverket. (Om du vill replikera mappstrukturen i Adobe Dynamic Media Classic markerar du alternativet Inkludera undermappar när du överför resurser via FTP.)
 * Det är mycket svårare att ordna om mappar i systemet efter att filer har överförts än att börja med en noggrant genomtänkt mappstruktur.
 
 Vilken mappnamnsmetod och struktur du väljer för att lagra ditt innehåll på Adobe Dynamic Media Classic beror på organisationens behov. Här följer några exempel på mappstrukturer:
@@ -153,19 +153,19 @@ Vilken mappnamnsmetod och struktur du väljer för att lagra ditt innehåll på 
 
 Du kan överföra enskilda filer från skrivbordet eller överföra mappar via FTP. Om du vill överföra mer än 100 MB filer eller överföra hela mappar och undermappar väljer du fliken **VIA FTP**.
 
-Adobe Dynamic Media Classic skickar ett e-postmeddelande till dig för att bekräfta när överföringsjobbet påbörjas och avslutas samt för att meddela dig om eventuella problem.
+Adobe Dynamic Media Classic skickar ett e-postmeddelande till dig som bekräftar när överföringsjobbet påbörjas och avslutas samt som informerar dig om eventuella problem.
 
 Under (eller omedelbart efter) ett stort överföringsjobb kan vissa nya objekt visa meddelandet&quot;Bilden är ännu inte optimerad&quot;. Det här meddelandet visas eftersom filerna ännu inte har bearbetats fullständigt och lagts till i Adobe Dynamic Media Classic. Du kan optimera dessa filer senare. Se [Optimera filer](application-setup.md#optimize_files).
 
 ### Överföra filer med hjälp av fliken Från skrivbord {#upload-files-using-sps-desktop-application}
 
-Med Adobe Dynamic Media Classic för datorer kan du överföra filer och mappar genom att dra.
+Med Adobe Dynamic Media Classic Desktop kan du överföra filer och mappar genom att dra.
 
-1. I Adobe Dynamic Media Classic Desktop-programmet väljer du **[!UICONTROL Upload]** i fältet Global navigering.
+1. I Adobe Dynamic Media Classic-datorprogrammet väljer du **[!UICONTROL Upload]** i fältet Global Navigation.
 1. På sidan Överför väljer du fliken **[!UICONTROL From Desktop]**.
 1. Till vänster på sidan Överför väljer du **[!UICONTROL Select Files for Upload]** i området **[!UICONTROL Browse]** för att markera de filer eller mappar som du vill överföra och väljer sedan **[!UICONTROL Open]**.
 1. Till höger på sidan Överför går du till en målmapp där du vill lägga till de överförda filerna eller mapparna i området **Välj mappdestination**.
-1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Du kan också använda det standardnamn som genereras av systemet i Adobe Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status. Se [Kontrollera jobbfiler](checking-job-files.md#checking_job_files).
+1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Eller så använder du det standardnamn som genereras av Adobe Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status. Se [Kontrollera jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) Långt ned på sidan Överför väljer du **[!UICONTROL Publish After Uploading]** om du vill publicera de resurser som du överför automatiskt.
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 1. (Valfritt) Långt ned på sidan Överför väljer du **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
@@ -180,12 +180,12 @@ Om du vill visa överföringsförloppet väljer du **[!UICONTROL Jobs]** i det g
 
 ### Överföra filer med fliken VIA FTP {#upload-files-using-via-ftp}
 
-1. Logga in på Adobe Dynamic Media Classic FTP-webbplatsen som är specifik för just din region. Använd det FTP-användarnamn och -lösenord som du fick från administratören.
+1. Logga in på Adobe Dynamic Media Classic FTP-webbplats som är specifik för just din region. Använd det FTP-användarnamn och -lösenord som du fick från administratören.
 1. I Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]** i fältet Global Navigation.
 1. På sidan Överför väljer du fliken **[!UICONTROL VIA FTP]**.
 1. Till vänster på sidan Överför väljer du en FTP-mapp att överföra filer från i **[!UICONTROL Choose FTP Folder For Upload]**-området.
 1. Till höger på sidan Överför väljer du en målmapp i Adobe Dynamic Media Classic i området **[!UICONTROL Choose Adobe Dynamic Media Folder Destination]**.
-1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Du kan också använda det standardnamn som genereras av systemet i Adobe Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
+1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Eller så använder du det standardnamn som genereras av Adobe Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
 Se [Kontrollera jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) Långt ned på sidan Överför väljer du **[!UICONTROL Publish After Upload]** om du vill publicera de resurser som du överför automatiskt.
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
@@ -246,7 +246,7 @@ Trimma baserat på genomskinlighet: Ange 0 om du bara vill beskära pixlar om de
 * **Alternativ**  för färgprofiler - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Default Color Preservation]** - Behåller källbildens färger när bilderna innehåller färgrymdsinformation. det inte finns någon färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
-   * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering för att bearbeta begäranden om bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
+   * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan någon färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering för att bearbeta begäranden om bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
    * **[!UICONTROL Custom From]** >  **[!UICONTROL To]** - Öppnar menyer så att du kan välja en  **[!UICONTROL Convert From]** och en  **[!UICONTROL Convert To]** färgrymd. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Välj bara det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
 * **Bildredigeringsalternativ**  - Du kan bevara urklippsmaskerna  &lt;> i bilder och välja en färgprofil.
@@ -256,10 +256,10 @@ Se [Alternativ för finjustering av bilder vid överföring](image-editing-optio
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Photoshop-alternativ**  - Du kan skapa mallar från Adobe® Photoshop®-filer, behålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
-Se [PSD-överföringsalternativ](psd-files.md#psd_upload_options).
+Se [Överföringsalternativ för PSD](psd-files.md#psd_upload_options).
 
-* **PDF-alternativ**  - Du kan rastrera filerna, extrahera sökord och länkar, generera en e-katalog automatiskt, ange upplösningen och välja en färgrymd.
-Se [Alternativ för PDF-överföring](pdfs.md#pdf_upload_options).
+* **Alternativ**  för PDF - Du kan rastrera filerna, extrahera sökord och länkar, generera en e-katalog automatiskt, ange upplösningen och välja en färgmodell.
+Se [Överföringsalternativ för PDF](pdfs.md#pdf_upload_options).
 
 * **Illustrator-alternativ**  - Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
@@ -268,7 +268,7 @@ Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.m
 Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Ytterligare metadata**  - Ange nyckelord som beskriver de filer som du vill överföra. Separera nyckelord med kommatecken. Nyckelord gör det enklare att söka efter resurser.
-Se [Utför en avancerad sökning](searching-assets.md#conducting_an_advanced_search).
+Se [Utför en avancerad sökning](searching-assets.md#conducting_an_advanced_search). Se även [Överför nyckelord](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) utbildningsvideo.
 
 * **Gruppuppsättningsförinställningar**  - Om du vill skapa en bilduppsättning, snurruppsättning eller färgruteuppsättning från de överförda filerna markerar du  **[!UICONTROL Active]** kolumnen för den förinställning som du vill använda. Du kan markera flera förinställningar. Du skapar förinställningarna på sidan Programinställningar/Gruppera förinställningar.
 Se [Gruppuppsättningsförinställningar](application-setup.md#batch_set_presets).

@@ -10,9 +10,9 @@ discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Mixed Media Sets ger användarna en integrerad visningsupplevelse. Blandade medi
 
 Förinställningar för visningsprogram för blandade media innehåller communityalternativ för slutanvändare som kan bädda in kod, kopiera URL:er och länka till huvudwebbplatsen. Användare kan använda dessa alternativ för att dela information om produkter på sina personliga webbplatser eller sociala nätverksplatser.
 
-Den här snabbstarten för blandade medieuppsättningar är utformad för att komma igång snabbt med blandad medieuppsättning i Adobe Dynamic Media Classic.
+Den här snabbstarten för blandade medieuppsättningar är utformad för att du snabbt ska komma igång med blandad medieuppsättning i Adobe Dynamic Media Classic.
 
 ## 1. Överför bilder, färgrutefiler och videoklipp
 
@@ -47,11 +47,13 @@ Se [Skapa en blandad medieuppsättning](creating-mixed-media-set.md#creating-a-m
 
 ## 4. Konfigurera förinställningar för visningsprogrammet för blandade media
 
-Adobe Dynamic Media Classic innehåller standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra förinställningar för visningsprogrammet för blandad medieuppsättning.
+Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra förinställningar för visningsprogrammet för blandad medieuppsättning.
 
 När du konfigurerar en visningsförinställning för blandad medieuppsättning lägger du till visningsförinställningarna för alla andra resurser i uppsättningen. Om din uppsättning med blandade media till exempel innehåller videoklipp lägger du till en förinställning för visningsprogrammet för video i förinställningen för visningsprogrammet med blandade media. Du kan också lägga till ett ljudspår i visningsprogrammet. Det här ljudspåret spelas upp när visningsprogrammet är öppet, men spelas inte upp när en video är aktiv.
 
 Se [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) och [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
+
+Se även [Utbildningsvideon Viewer presets](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 ## 5. Förhandsgranska en uppsättning med blandade media
 
@@ -61,7 +63,7 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
 ## 6. Publicera en blandad medieuppsättning
 
-När du publicerar en uppsättning med blandade media placeras den på Adobe Dynamic Media Classic-servrar och URL-strängen aktiveras.
+När du publicerar en blandad medieuppsättning placeras den på Adobe Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
 Blandade medieuppsättningar kräver att du publicerar till **videoserver** och även till **bildserver**. Du använder **Videoserver** för att publicera de faktiska videoklipp som du har markerat för publicering. Du kan också använda **bildserver** för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.
 

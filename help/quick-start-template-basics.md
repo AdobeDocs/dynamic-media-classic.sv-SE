@@ -10,9 +10,9 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,19 @@ En mall kan innehålla valfritt antal bildlager och textlager. Du kan konvertera
 
 På sidan Parametrar kan du konvertera alla delar av en mall till adresserbara parametrar. Om du gör det kan du ändra vilken bild i lager som ska användas eller vilket textvärde som ska användas i mallen. Parametrar skickas med URL-strängen så att du kan ändra alla parametrar för att dynamiskt anpassa svarsbilden som genereras från bildservern.
 
-Den här snabbstarten är utformad för att snabbt komma igång med mallgrunderna.
+Se även [Utbildningsvideon Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+
+Den här snabbstarten är utformad för att du snabbt ska komma igång med mallgrunderna.
 
 ## 1. Överför filerna
 
-Börja med att överföra PSD-filen eller bildfilen för mallen. Adobe Dynamic Media Classic stöder många bildfilsformat förutom PSD, men förlustfria TIFF- och PNG-bilder rekommenderas för mallar eftersom de möjliggör genomskinlighet.
+Börja med att ladda upp PSD-filen eller bildfilen för mallen. Adobe Dynamic Media Classic har stöd för många bildfilsformat förutom PSD, men förlustfria TIFF- och PNG-bilder rekommenderas för mallar eftersom de möjliggör genomskinlighet.
 
-Om du använder en PSD-fil för att skapa mallen väljer du **[!UICONTROL Create Template]** i dialogrutan **[!UICONTROL Upload Job Options]** när du överför PSD-filen. Välj också ett **[!UICONTROL Layer Naming]**-alternativ så att Adobe Dynamic Media Classic kan namnge PSD-lager när de överförs till Adobe Dynamic Media Classic.
+Om du använder en PSD-fil för att skapa mallen väljer du **[!UICONTROL Create Template]** i dialogrutan **[!UICONTROL Upload Job Options]** när du överför PSD-filen. Välj också ett **[!UICONTROL Layer Naming]**-alternativ så att Adobe Dynamic Media Classic vet hur man namnger PSD-lager när de överförs till Adobe Dynamic Media Classic.
 
 Om du använder bildfiler kan du beskära bilderna och även skapa en mask från urklippsbanor i bilderna när du överför dem.
 
-I det globala navigeringsfältet väljer du **[!UICONTROL Upload]** om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför mallfiler](uploading-template-files.md#uploading_template_files).
+I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp i Adobe Dynamic Media Classic. Se [Överför mallfiler](uploading-template-files.md#uploading_template_files).
 
 ## 2. Skapa en mall
 
@@ -65,6 +67,6 @@ Om du vill publicera en mall markerar du den för publicering och väljer **[!UI
 
 ## 5. Länka en mall till en webbsida
 
-Dynamic Media Classic skapar URL:er för mallar och aktiverar URL:er när du publicerar mallar på Dynamic Media Image Servers. Du kan kopiera dessa URL-strängar från sidan Förhandsvisa mall.
+Dynamic Media Classic skapar URL:er för mallar och aktiverar URL:erna när du publicerar mallar på Dynamic Media Image Servers. Du kan kopiera dessa URL-strängar från sidan Förhandsvisa mall.
 
 Markera mallen i panelen Bläddra och välj sedan **[!UICONTROL Preview]** för att öppna sidan Mallförhandsvisning. Välj en bildförinställning för mallen och välj sedan **[!UICONTROL Copy URL]**. När du har kopierat URL-adressen från förhandsgranskningssidan kan du använda den på din webbplats eller i ditt program. Se [Länka en mall till en webbsida](linking-template-web-page.md#linking_a_template_to_a_web_page).

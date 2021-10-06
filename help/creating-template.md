@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3246'
+source-wordcount: '3307'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 # Skapa en mall {#creating-a-template}
 
 Om du vill skapa en mall går du till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer. På den här sidan kan du lägga till bild- och textlager. Du kan också ändra ordning på lager, ändra storlek och position för lager och använda skugg- och glödeffekter på bilder och text.
+
+Se även [Utbildningsvideon Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 >[!NOTE]
 >
@@ -42,7 +44,7 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 
 1. Använd någon av följande metoder för att skapa en ursprunglig mall:
 
-   * **Markera PSD-filen eller bilderna först**  - På panelen Bläddra väljer du PSD-filen eller bilderna som du vill använda för mallen, går till  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**.
+   * **Markera PSD eller bilderna först**  - På panelen Bläddra väljer du PSD-filen eller bilderna som du vill använda för mallen, går till  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**.
 
    * **Starta från mallskärmen**  - Gå till  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer.
 
@@ -52,7 +54,7 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 1. Välj **[!UICONTROL Save]**.
 1. Välj en mapp där du vill lagra mallen, ange ett namn för mallen och välj **[!UICONTROL Submit]**.
 
-   Adobe Dynamic Media Classic minskar bilder om det behövs för att de ska få plats på arbetsytan, det område på mallskärmen som används för att definiera mallen.
+   Adobe Dynamic Media Classic förminskar bilder om det behövs för att de ska få plats på arbetsytan, området på mallskärmen för att definiera mallen.
 
 ## Redigera en malluppsättning {#editing-a-template-set}
 
@@ -258,7 +260,7 @@ Förutom att ändra storlek på ett lager kan du lägga ut det. Om du vill göra
 
 * **Ändra position**  manuellt - Flytta pekaren nära, men inte över, en lagergräns, och när du ser den fyrhövdade pilmarkören markerar du och börjar dra.
 
-* **Ange förskjutningsmått**  för position - Ange förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för ankarpunkten i pixlar.
+* **Ange förskjutningsmått**  för position - Ange förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för fästpunkten i pixlar.
 
 * **Rotera ett lager** - I rutan Rotera visas vinkeln som lagret roterades till. Om du vill rotera ett lager markerar du lagrets namn i listan Lager och använder någon av följande tekniker:
 

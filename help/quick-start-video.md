@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic Video är en totallösning som gör det enkelt att publicera högkvalitativ adaptiv video för direktuppspelning på flera skärmar, inklusive datorer, iOS, Android™, BlackBerry® och Windows®-mobilenheter. En adaptiv videouppsättning grupperar versioner av samma video som är kodade med olika bithastigheter och format som 400 kbit/s, 800 kbit/s och 1 000 kbit/s. Den stationära datorn eller mobila enheten känner av den tillgängliga bandbredden.
 
-På en iOS-mobil enhet upptäcker den till exempel en bandbredd som 3G, 4G eller Wi-Fi. Sedan väljs automatiskt rätt kodad video bland de olika videobithastigheterna i den adaptiva videouppsättningen. Videon strömmas till datorer, mobila enheter eller surfplattor.
+På en mobilenhet från iOS identifieras t.ex. en bandbredd som 3G, 4G eller Wi-Fi. Sedan väljs automatiskt rätt kodad video bland de olika videobithastigheterna i den adaptiva videouppsättningen. Videon strömmas till datorer, mobila enheter eller surfplattor.
 
 Dessutom ändras videokvaliteten dynamiskt automatiskt om nätverksförhållandena ändras på datorn eller den mobila enheten. Om en kund går över till helskärmsläge på en stationär dator svarar den adaptiva videouppsättningen med en bättre upplösning, vilket förbättrar kundens tittarupplevelse. Med adaptiva videouppsättningar får du bästa möjliga uppspelning för kunder som spelar upp Adobe Dynamic Media Classic-video på flera skärmar och enheter.
 
@@ -35,15 +35,19 @@ Se algoritmens logik på [https://android.googlesource.com/platform/frameworks/a
 
 För hantering av enstaka video och adaptiva videouppsättningar har Adobe Dynamic Media Classic stöd för följande:
 
-* Överföra video från ett antal videoformat och ljudformat som stöds och koda video till MP4 H.264-format för uppspelning på flera skärmar. Du kan använda fördefinierade Adobe Dynamic Media Classic-anpassade videoförinställningar, enskilda videokodningsförinställningar eller anpassa din egen kodning för att styra videofilens kvalitet och storlek.
+* Överföra video från ett antal videoformat och ljudformat som stöds och koda video till MP4 H.264-format för uppspelning på flera skärmar. Du kan använda fördefinierade videoförinställningar för Adobe Dynamic Media Classic, enskilda videokodningsförinställningar eller anpassa din egen kodning för att styra videons kvalitet och storlek.
 
-   När en adaptiv videouppsättning genereras innehåller den MP4-videor.
+Se [Aktivera eller inaktivera adaptiva videoförinställningar](/help/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-   >[!NOTE]
-   >
-   >Överordnad videoklipp/källvideoklipp och annan video i källformat *läggs inte* till i en adaptiv videouppsättning.
+Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo.
 
-* Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i Univeral_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
+När en adaptiv videouppsättning genereras innehåller den MP4-videor.
+
+>[!NOTE]
+>
+>Överordnad videoklipp/källvideoklipp och annan video i källformat *läggs inte* till i en adaptiv videouppsättning.
+
+* Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i visningsprogrammen Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
 
    Se [Lägga till bildtexter i videon](adding-captions-video.md).
 
@@ -56,7 +60,7 @@ För hantering av enstaka video och adaptiva videouppsättningar har Adobe Dynam
 
    Se det senaste stödet i [referenshandboken för visningsprogram för Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   Adobe Dynamic Media Classic har stöd för videouppspelning på mobiler för MP4 H.264-video. Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande webbplats:
+   Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande webbplats:
 
    Se [Videoformat som stöds på BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -72,6 +76,15 @@ För hantering av enstaka video och adaptiva videouppsättningar har Adobe Dynam
 * Konfigurera videospelare för att tillgodose era varumärkesbehov.
 * Integrera video på webbplatsen, mobilsajten eller mobilapplikationen med en enkel URL eller inbäddningskod.
 
+Se följande utbildningsvideor:
+* [MP4 - videoöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+
+* [Förhandsgranskning av MP4-video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+
+* [MP4-videouppladdning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+
+* [Översikt över direktuppspelning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+
 **Snabbstart**
 
 Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma igång snabbt med anpassningsbara videouppsättningar i Adobe Dynamic Media Classic. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
@@ -80,7 +93,7 @@ Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma ig�
 
 Överför och generera adaptiva videouppsättningar i något av följande två scenarier:
 
-* **Överför förkodade videoklipp**  - Om dina videoklipp redan har kodats utanför Adobe Dynamic Media Classic väljer du  **[!UICONTROL Upload]** att bläddra bland och överföra MP4-videofiler direkt till Adobe Dynamic Media Classic i i det globala navigeringsfältet. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
+* **Överför förkodade videor** - Om dina videor redan har kodats utanför Adobe Dynamic Media Classic väljer du  **[!UICONTROL Upload]** att bläddra bland och överföra MP4-videofiler direkt till Adobe Dynamic Media Classic på navigeringsfältet Global. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
 * **Överför överordnad källvideor** - Om videoklippen inte är kodade väljer du  **[!UICONTROL Upload]** att överföra överordnad videokällfiler (ej MP4) i navigeringsfältet Global. Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. Välj **[!UICONTROL Adaptive Video]** under **[!UICONTROL EVideo Options]** i dialogrutan **[!UICONTROL Upload Job Options]**.
 
    Med det här önskade alternativet kan du skapa en adaptiv videouppsättning som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
@@ -105,13 +118,15 @@ Om du vill se hur en video spelas upp för slutanvändare på en dator, på din 
 
 Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Du kan spela upp videon på förhandsgranskningssidan. Du kan också välja olika videovisningsprogram för att ta reda på hur videon visas i olika spelare. Det bästa sättet är att använda HTML5-videospelaren för uppspelning på datorer, surfplattor och mobila enheter.
+Du kan spela upp videon på förhandsgranskningssidan. Du kan också välja olika videovisningsprogram för att ta reda på hur videon visas i olika spelare. Det bästa sättet är att använda videospelaren HTML5 för uppspelning på datorer, surfplattor och mobila enheter.
 
 **Valfritt**
 
-Anpassning av visningsförinställningar - Adobe Dynamic Media Classic innehåller fördefinierade visningsförinställningar för videouppspelning. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Öppna den här sidan i det övre högra hörnet av Adobe Dynamic Media Classic genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
+Anpassning av visningsförinställningar - Adobe Dynamic Media Classic har fördefinierade visningsförinställningar för videoutgång. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Öppna den här sidan i det övre högra hörnet av Adobe Dynamic Media Classic genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
 
 Se [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+
+Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo.
 
 ## 3. Distribuera videor till webbplatser och mobilsajter
 
@@ -121,7 +136,7 @@ Om du vill integrera video på webbplatsen kan du göra något av följande:
 
    Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Välj **[!UICONTROL Preview]** och välj sedan **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
 
-   När du väljer **[!UICONTROL Copy URL]** kopieras URL-adressen till Urklipp. Placera den här koden i HTML-koden för webbplatsen, mobilwebbplatsen eller programmet.
+   När du väljer **[!UICONTROL Copy URL]** kopieras URL-adressen till Urklipp. Placera den här koden HTML på din webbplats, mobilwebbplats eller i ditt program.
 
    >[!NOTE]
    >

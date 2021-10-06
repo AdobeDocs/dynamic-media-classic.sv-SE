@@ -10,9 +10,9 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ När du skapar mallparametrar deklarerar du i själva verket vilka delar av mall
 I textlagerparametrar kan du också göra textsträngen till ett dynamiskt fält som är länkat till värden i en databas. Att kunna länka text till en databas är användbart i kampanjer. Du kan anpassa mallbilder så att de visar klient- eller kundnamn. Du kan även länka en textlagerparameter till en prisdatabas för att visa priset på ett objekt i en mallbild.
 
 Du kan referera till en parameter mer än en gång. Använd kombinationsrutan för varje kommando i parameterdialogrutan för att välja en parameter som matchar det aktuella kommandot. Alla storleksparametrar är till exempel tillgängliga för kommandot `size=`. Du kan tilldela om parameterreferensen till en parameter som redan finns i kombinationsrutan och ändra namnet till något som inte finns i kombinationsrutan. I det senare fallet måste namnet vara unikt. I annat fall visas ett fel om att parametern finns. När du tar bort en parameterreferens tas parametern bort från URL:en om den inte refereras någon annanstans. När du ändrar standardvärdet för en textparameter uppdateras alla referenser till den parametern. Uppdateringen visas i lagertabellen, i mallåtergivningen och i URL:en. När du ändrar ett lagerattribut genom att ändra storlekshandtag eller ange värden i egenskapspanelen uppdateras parametervärdet och alla referenser till parametern uppdateras. Om du till exempel har parametriserat storleken på två lager med en parameter, uppdateras båda lagerstorlekarna när någon av lagerstorlekarna ändras. När du förhandsgranskar en mall och ändrar en parameter uppdateras alla referenser till den parametern.
+
+Se även [Utbildningsvideon Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 ## Parametrisera ett lager {#parameterizing-a-layer}
 

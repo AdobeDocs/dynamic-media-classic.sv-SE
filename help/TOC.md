@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -18,18 +18,18 @@ ht-degree: 0%
 
 + [Adobe Dynamic Media Classic Guide](home.md)
 + [Självstudiekurs om bästa praxis för Adobe Dynamic Media-klassen](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NYTT Adobe Dynamic Media Classic-inloggningsgränssnittet är nu tillgängligt](new-ui-2020.md)
++ [NYTT Adobe Dynamic Media Classic inloggningsupplevelse är nu tillgänglig](new-ui-2020.md)
 + [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
-   + [Adobe Dynamic Media Classic-datorprogrammet - nu tillgängligt](dynamic-media-classic-desktop-app.md)
-   + [Om Adobe Dynamic Media Classic - hjälp](introduction.md)
+   + [Adobe Dynamic Media Classic-datorprogram - nu tillgängligt](dynamic-media-classic-desktop-app.md)
+   + [Om Adobe Dynamic Media Classic Hjälp](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
-   + [Systemkrav för datorprogrammet Adobe Dynamic Media Classic](system-requirements.md)
+   + [Systemkrav för Adobe Dynamic Media Classic datorprogram](system-requirements.md)
    + [Support](support.md)
    + [Hjälp för Adobe Dynamic Media Classic Media Portal](help-dmc-media-portal.md)
    + [Adobe Training Services](training-services.md)
-   + [Populära resurser](popular-resources.md)
+   + [Populära utbildningsresurser](popular-resources.md)
    + [Utbildningsvideor](training-videos.md)
 + Komma igång {#getting-started}
    + [Adobe Dynamic Media Classic - programöversikt](dmc-platform-overview.md)
@@ -92,13 +92,13 @@ ht-degree: 0%
    + [Länka zoomningsvisningsprogram till dina webbsidor](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
    + [Snabbstart: eCatalogs](quick-start-ecatalog.md)
-   + [Ladda upp PDF-filerna](uploading-pdf-files.md)
+   + [Överför PDF-filer](uploading-pdf-files.md)
    + [Skapa en e-katalog](creating-ecatalog.md)
    + [Skapa eCatalog-bildscheman](creating-ecatalog-image-maps.md)
    + [Hantera innehåll i informationspanelen i e-kataloger](info-panel-content-ecatalog.md)
    + [Konfigurera förinställningar för eCatalog Viewer](setting-ecatalog-viewer-presets.md)
    + [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Publicera e-kataloger och tillhörande PDF-filer](publishing-ecatalogs-associated-pdfs.md)
+   + [Publicera e-kataloger och tillhörande PDF](publishing-ecatalogs-associated-pdfs.md)
    + [Länka en e-katalog till en webbsida](linking-ecatalog-web-page.md)
 + Bilduppsättningar {#image-sets}
    + [Snabbstart: Bilduppsättningar](quick-start-image-sets.md)
@@ -133,7 +133,7 @@ ht-degree: 0%
    + [Hantera innehållsvariationer](content-variations.md)
 + Video {#video}
    + [Snabbstart: Video](quick-start-video.md)
-   + [Bästa praxis: Använda HTML5 Video Viewer](best-practice-using-html5-video.md)
+   + [Bästa praxis: Använda videovisningsprogrammet för HTML5](best-practice-using-html5-video.md)
    + [Överföra och koda videoklipp](uploading-encoding-videos.md)
    + [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md)
    + [Lägga till bildtexter i video](adding-captions-video.md)
@@ -173,7 +173,7 @@ ht-degree: 0%
    + [Öka skärpan i en bild](sharpening-image.md)
    + [Justera en bild](adjusting-image.md)
    + [Bildoptimeringsalternativ vid överföring](image-editing-options-upload.md)
-   + [Arbeta med PDF-filer](pdfs.md)
+   + [Arbeta med PDF](pdfs.md)
    + [Arbeta med PSD-filer](psd-files.md)
    + [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md)
    + [Arbeta med vinjett, fönsterhölje och kabinettfiler](vignette-window-covering-cabinet-files.md)
