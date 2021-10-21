@@ -10,7 +10,7 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
+source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -81,9 +81,9 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 1. I den vänstra panelen, under **[!UICONTROL Application Setup]**, markera **[!UICONTROL Adobe Analytics]**.
 1. På **[!UICONTROL Adobe Analytics Configuration]** sida, markera **[!UICONTROL Adobe Analytics Login]**.
 1. I **[!UICONTROL Adobe Analytics Login]** i **[!UICONTROL CLIENT ID]** fält och **[!UICONTROL CLIENT SECRET]** klistrar du in respektive värden som du kopierade tidigare.
-1. I dialogrutans nedre högra hörn väljer du Logga in och utför inloggningen till Adobe IMS (Identity Management Services).
+1. I dialogrutans nedre högra hörn väljer du **[!UICONTROL Login]** och gör dina inloggningar på Adobe IMS (Identity Management Services).
 
-   När du har loggat in visas inloggningsdialogrutan för Adobe Analytics igen tillsammans med **[!UICONTROL COMPANIES]** nedrullningsbar lista, initierad av de företag som är tillgängliga för dig.
+   När du har loggat in visas dialogrutan Adobe Analytics Inloggning igen tillsammans med **[!UICONTROL COMPANIES]** nedrullningsbar lista, initierad av de företag som är tillgängliga för dig.
 
 1. Från **[!UICONTROL COMPANIES]** väljer du ett företag.
 
