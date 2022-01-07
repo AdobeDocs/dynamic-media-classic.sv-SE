@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '1909'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
 * Det gick inte att ange `d` och `e` in **[!UICONTROL Username]** och **[!UICONTROL Password]** fält när du kör macOS Monterey.
 * De återstående analys-API:erna flyttades till version 2.0.
 
-## Korrigeringar i version (20.21.3) {#release-sept2021}
+## Korrigeringar i version 20.21.3 {#release-sept2021}
 
 * Brutna miniatyrbilder för resurser som visas efter en viss inaktivitetsperiod i skrivbordsappen.
 * Skrivbordsappen slutar svara, vanligtvis efter Set-åtgärder.
