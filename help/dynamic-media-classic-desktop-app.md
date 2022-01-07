@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -40,21 +40,13 @@ Adobe Dynamic Media Classic-datorprogrammet är kompatibelt med följande operat
 
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
 
-* 
+Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
+* I Set editors **[!UICONTROL Close]**, **[!UICONTROL Save]** och **[!UICONTROL Save As]** inaktiveras knapparna när du har bläddrat resurser i **[!UICONTROL Add Assets]** -panelen.
+* **[!UICONTROL Play]** knappen i vyn Videodetalj fungerade inte.
+* Det gick inte att ange `d` och `e` in **[!UICONTROL Username]** och **[!UICONTROL Password]** fält när du kör macOS Monterey.
+* De återstående analys-API:erna flyttades till version 2.0.
 
 ## Korrigeringar i version (20.21.3) {#release-sept2021}
 
@@ -160,7 +152,7 @@ Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media C
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet för macOS.
 
-   * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
