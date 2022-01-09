@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '1909'
+source-wordcount: '1904'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,6 @@ Adobe Dynamic Media Classic-datorprogrammet är kompatibelt med följande operat
 >Upgrade notification inom Adobe Dynamic Media Classic desktop application is not generated for *moll* releaser. Kunder som drar nytta av korrigeringar i en mindre release kan uppgradera.
 
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
-
-Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
 
 * Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
 * I Set editors **[!UICONTROL Close]**, **[!UICONTROL Save]** och **[!UICONTROL Save As]** inaktiveras knapparna när du har bläddrat resurser i **[!UICONTROL Add Assets]** -panelen.
