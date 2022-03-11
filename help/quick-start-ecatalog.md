@@ -10,16 +10,16 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Snabbstart: eCatalogs{#quick-start-ecatalogs}
 
-En e-katalog är en digital webbversion av trycksaker - t.ex. en katalog, broschyr, flygblad, produkthandbok eller reklamcirkulär. En e-katalog visas i ett eCatalog-visningsprogram på en webbplats. Det här visningsprogrammet simulerar upplevelsen av att läsa tryckt material.
+En e-katalog är en digital webbversion av trycksaker, till exempel en katalog, broschyr, flygblad, produkthandbok eller reklamcirkel. En e-katalog visas i ett eCatalog-visningsprogram på en webbplats. Det här visningsprogrammet simulerar upplevelsen av att läsa tryckt material.
 
 Se även följande utbildningsvideor:
 
@@ -42,15 +42,15 @@ Beroende på vilka inställningar du väljer för din eCatalog kan du göra föl
 
 ![E-katalogen så som den ser ut för användarna. A) Öppningssida för e-katalog. B) eCatalog har skickats till sidan 2.](/help/assets/ec_cat_viewer_popup.png)
 
-Om du vill skapa en e-katalog använder du oftast högupplösta PDF-filer som skapats i Adobe® Acrobat® eller något annat utskriftsprogram, men du kan också skapa en e-katalog från bildfiler.
+Om du vill skapa en e-katalog använder du vanligtvis högupplösta PDF-filer som skapats i Adobe Acrobat eller något annat utskriftsprogram, men du kan också skapa en e-katalog från bildfiler.
 
 När du skapar en e-katalog kan du ordna sidorna eller uppslagen i den ordning du vill. Du kan också deklarera om du vill ha enstaka sidor, dubbelsidiga uppslag eller flersidiga uppslag. Du kan skapa bildscheman för sidområden så att visningsprogrammen t.ex. kan markera ett område på sidan och öppna en ny sida på webbplatsen. Du kan hantera den överrullningstext som visas med InfoPanel-inställningarna på eCatalog-skärmen. Du kan också konfigurera eCatalog Viewer genom att välja bland fler än 100 olika konfigurationsalternativ. Du kan anpassa funktionerna och utseendet på visningsprogrammet för just din publik.
 
 >[!NOTE]
 >
->Om du använder läget Dynamic Media - Scene7 och vill använda e-kataloger redigerar du `pdfbrochure`-värdet i CRXDE Lite. I Adobe Experience Manager går du till **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. Navigera till `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf` i det vänstra panelnavigeringsträdet.
+>Om du använder läget Dynamic Media - Scene7 och vill använda e-kataloger redigerar du `pdfbrochure` värde i CRXDE Lite. Om du vill göra det går du till Adobe Experience Manager **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. Navigera till navigeringsträdet i den vänstra panelen `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
->Markera raden `jobParam` på fliken **[!UICONTROL Properties]** i den nedre högra rutan. Ange värdet för `pdfbrochure` från `false` till `true`. Som i `pdfbrochure=true`
+>I den nedre högra rutan, i **[!UICONTROL Properties]** väljer du `jobParam` rad. Ange värdet för `pdfbrochure` från `false` till `true`. Som i `pdfbrochure=true`
 >
 >I det övre vänstra hörnet på CRXDE Lite-sidan väljer du **[!UICONTROL Save All]**.
 >
@@ -62,21 +62,21 @@ Den här eCatalog-snabbstarten är utformad för att hjälpa dig komma igång sn
 
 Adobe PDF-filer är vanligtvis källan till en e-katalog. Eftersom de ska skrivas ut innehåller PDF vanligtvis CMYK-bilder. Adobe Dynamic Media Classic identifierar dessa bilder och konverterar dem med en CMYK-standardfärgprofil. Du måste dock överföra och använda en anpassad färgprofil.
 
-I fältet Global navigering väljer du **[!UICONTROL Upload]** för att börja överföra PDF-filer eller bilder för din e-katalog. Du kan överföra filer från skrivbordet eller via FTP; FTP rekommenderas om du överför många filer eller filer som är större än 100 MB.
+Välj **[!UICONTROL Upload]** om du vill börja överföra PDF-filer eller bilder till din eCatalog. Du kan överföra filer från skrivbordet eller via FTP; FTP rekommenderas om du överför många filer eller filer som är större än 100 MB.
 
-Under Alternativ för PDF finns det alternativ på överföringsskärmen som du kan använda för att överföra PDF-filer med rätt upplösning och korrekt färgrymd. En upplösning på 150 pixlar per tum rekommenderas. Du kan välja alternativet Generera eCatalog automatiskt om du vill skapa en e-katalog när du överför en PDF-fil.
+Under Alternativ för PDF finns på skärmen Överför alternativ som du kan använda för att överföra PDF-filer med rätt upplösning och korrekt färgrymd. En upplösning på 150 pixlar per tum rekommenderas. Du kan välja alternativet Generera eCatalog automatiskt om du vill skapa en e-katalog när du överför en PDF-fil.
 
-Se [Överför PDF-filerna](uploading-pdf-files.md#uploading_the_pdf_files).
+Se [Överför PDF-filer](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. Skapa en e-katalog
 
-Skapa din eCatalog genom att välja PDF eller bildfiler i panelen Bläddra. Välj **[!UICONTROL Build]** och välj sedan **[!UICONTROL eCatalogs]**.
+Skapa din eCatalog genom att välja PDF eller bildfiler i panelen Bläddra. Välj **[!UICONTROL Build]** väljer du **[!UICONTROL eCatalogs]**.
 
-På sidan eCatalog väljer du ett layoutalternativ på fliken **[!UICONTROL Order Pages]**: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** eller **[!UICONTROL Custom]**. Du kan ordna om sidor eller uppslag genom att dra dem eller, i en stor e-katalog, genom att välja ett sidnamn på menyn Flytta till.
+På eCatalog-sidan, på **[!UICONTROL Order Pages]** väljer du ett layoutalternativ: **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]**, eller **[!UICONTROL Custom]**. Du kan ordna om sidor eller uppslag genom att dra dem eller, i en stor e-katalog, genom att välja ett sidnamn på menyn Flytta till.
 
 Om du vill lägga till sidor markerar du en mapp i resursbiblioteket och drar PDF eller bildfiler från till skärmen Ordna sidor. I stället för standardsidnummer kan du ange egna sidnamn eller importera många sidnamn.
 
-Välj **[!UICONTROL Save]**, ange ett namn för din e-katalog, välj en Adobe Dynamic Media Classic-mapp att lagra den i och välj **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att klicka på **[!UICONTROL Save]**.
+Välj **[!UICONTROL Save]**, ange ett namn för din eCatalog, välja en Adobe Dynamic Media Classic-mapp att lagra den i och markera **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att klicka på **[!UICONTROL Save]**.
 
 Se [Skapa en e-katalog](creating-ecatalog.md).
 
@@ -84,25 +84,25 @@ Se [Skapa en e-katalog](creating-ecatalog.md).
 
 Bildscheman lägger till en annan aspekt på eCatalog-sidor. En bildschema är ett område på en sida som innehåller mer information om ett objekt. När visningsprogram rullar pekaren över en bildschema visas en beskrivning av objektet. När du klickar på en bildschema aktiveras en extern referens som öppnar en ny webbsida där du kan lära dig mer om ett objekt.
 
-Om du vill skapa en bildschema öppnar du skärmen för eCatalog. Gå sedan till fliken **[!UICONTROL Map Pages]** på skärmen eCatalog och rama in kartan med verktyget Rektangelbildschema eller verktyget Polygonbildschema. Du kan justera placering och storlek för bildscheman genom att dra kartkanterna med panoreringsverktyget.
+Om du vill skapa en bildschema öppnar du skärmen för eCatalog. Gå sedan till **[!UICONTROL Map Pages]** i eCatalog-skärmen och rama in kartan med verktyget Rektangelbildschema eller verktyget Polygonbildschema. Du kan justera placering och storlek för bildscheman genom att dra kartkanterna med panoreringsverktyget.
 
 När du har ramat in bildschemat anger du den URL-adress du vill gå till när du väljer bildschemat. Du kan också ange den överrullningstext som visas när du flyttar pekaren över bildschemat.
 
 Se [Skapa eCatalog-bildscheman](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
-Se [Använd bildscheman för att bädda in multimedia i en eCatalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
+Se [Använd bildscheman för att bädda in multimedia i en e-katalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
 Du kan ställa in och hantera bildschematexten med hjälp av inställningarna i panelen Info på eCatalog-skärmen.
 
-Se [Hantera innehåll på informationspanelen i e-kataloger](/help/info-panel-content-ecatalog.md).
+Se [Hantera innehåll i informationspanelen i e-kataloger](/help/info-panel-content-ecatalog.md).
 
 ## 4. Konfigurera förinställningar för eCatalog Viewer
 
 Slutanvändarna ser din eCatalog i eCatalog Viewer. Om du är administratör kan du konfigurera eCatalog Viewer. Du kan ändra dess konturfärg och välja ett nytt&quot;skal&quot; för att märka upp din eCatalog. Adobe Dynamic Media Classic innehåller flera&quot;best practice&quot;-förinställningar för eCatalog Viewer. Du kan välja en av dessa förinställningar för att visa dina e-kataloger. Om du är administratör kan du även skapa en egen visningsförinställning för eCatalog.
 
-Om du vill skapa en förinställning för eCatalog Viewer väljer du **[!UICONTROL Setup]** i fältet Global navigering och sedan **[!UICONTROL Viewer Presets]**. Välj **[!UICONTROL Add]**, välj en plattform och välj sedan **[!UICONTROL eCatalog]** > **[!UICONTROL Viewer]**.
+Om du vill skapa en visningsförinställning för eCatalog väljer du **[!UICONTROL Setup]** och sedan välja **[!UICONTROL Viewer Presets]**. Välj **[!UICONTROL Add]**, väljer en plattform och väljer sedan **[!UICONTROL eCatalog]** > **[!UICONTROL Viewer]**.
 
-Se [Konfigurera eCatalog Viewer-förinställningar](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
+Se [Konfigurera förinställningar för eCatalog Viewer](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
 ## 5. Förhandsgranska e-kataloger i eCatalog Viewer
 
@@ -118,7 +118,7 @@ Se [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalo
 
 När du publicerar din e-katalog och tillhörande PDF placeras den på Dynamic Media Image-servrar så att den kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen för din eCatalog. Använd den här URL:en för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
 
-När du har markerat din e-katalog och PDF för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att starta en publicering. Välj **[!UICONTROL Submit Publish]** på skärmen Publicera.
+När du har markerat din e-katalog och PDF för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att starta en publicering. På skärmen Publicera väljer du **[!UICONTROL Submit Publish]**.
 
 Se [Publicera e-kataloger och tillhörande PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
