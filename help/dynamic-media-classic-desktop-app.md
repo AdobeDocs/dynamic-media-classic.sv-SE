@@ -1,16 +1,16 @@
 ---
 title: Adobe Dynamic Media Classic-datorprogram - nu tillgängligt
 description: Läs mer om Adobe Dynamic Media Classic desktop-program.
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1904'
+source-wordcount: '1933'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,14 @@ Se Frågor och svar för [Nu finns en ny inloggningsupplevelse för Adobe Dynami
 Adobe Dynamic Media Classic-datorprogrammet är kompatibelt med följande operativsystem:
 
 * macOS 10.10 eller senare.
+
+   >[!NOTE]
+   >
+   >Dynamic Media Classic-datorprogrammet har försämrad funktionalitet när det används med macOS Monterey. Adobe arbetar därför med att släppa en ny version av datorprogrammet de närmaste veckorna.
+
 * Windows® 7 eller senare.
 
->[!NOTE]
->
->Upgrade notification inom Adobe Dynamic Media Classic desktop application is not generated for *moll* releaser. Kunder som drar nytta av korrigeringar i en mindre release kan uppgradera.
+Upgrade notification inom Adobe Dynamic Media Classic desktop application is not generated for *moll* releaser. Kunder som drar nytta av korrigeringar i en mindre release kan uppgradera.
 
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
 
@@ -108,7 +111,7 @@ Se även:
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
-1. Gör något av följande baserat på det installationsprogram du hämtade.
+1. Gör något av följande beroende på vilket installationsprogram du har laddat ned.
 
    * **macOS** -I **[!UICONTROL Drag & drop to install]** dialogruta, dra **[!UICONTROL Adobe Dynamic Media Classic]** och släppa **[!UICONTROL Applications]**.
 
