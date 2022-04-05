@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
+source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,13 @@ Se Frågor och svar för [Nu finns en ny inloggningsupplevelse för Adobe Dynami
 Adobe Dynamic Media Classic-datorprogrammet är kompatibelt med följande operativsystem:
 
 * macOS 10.10 eller senare.
-
-   >[!NOTE]
-   >
-   >Dynamic Media Classic-datorprogrammet har försämrad funktionalitet när det används med macOS Monterey. Adobe arbetar därför med att släppa en ny version av datorprogrammet de närmaste veckorna.
-
 * Windows® 7 eller senare.
 
 Upgrade notification inom Adobe Dynamic Media Classic desktop application is not generated for *moll* releaser. Kunder som drar nytta av korrigeringar i en mindre release kan uppgradera.
+
+## Åtgärdat i den senaste versionen (20.22.2) - endast macOS {#release-feb2022}
+
+* macOS Monterey - filöverföringssidan har frysts vid efterföljande överföringar. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
 
@@ -94,15 +93,17 @@ Se även:
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * Den senaste versionen (20.22.1) finns här:
+   * Den senaste versionen finns på följande webbplats:
+
+      * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * Den tidigare versionen finns på följande webbplats:
 
       * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
-   * Den tidigare versionen (20.21.3) finns på följande plats:
-
-      * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
       * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
+
+<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
         * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
@@ -153,11 +154,11 @@ Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media C
 
 1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet för macOS.
 
-   * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+   * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
-   `hdiutil attach adobe-dynamic-media-classic-20.22.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
 1. Kopiera .APP-filen till **[!UICONTROL Applications]** med följande kommando:
 
