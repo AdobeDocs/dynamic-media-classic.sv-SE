@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,11 @@ Adobe Dynamic Media Classic-datorprogrammet är kompatibelt med följande operat
 * macOS 10.10 eller senare.
 * Windows® 7 eller senare.
 
+Se de fullständiga systemkraven på [Systemkrav för Adobe Dynamic Media Classic datorprogram](/help/system-requirements.md).
+
 Upgrade notification inom Adobe Dynamic Media Classic desktop application is not generated for *moll* releaser. Kunder som drar nytta av korrigeringar i en mindre release kan uppgradera.
 
-## Åtgärdat i den senaste versionen (20.22.2) - endast macOS {#release-feb2022}
+## Fixed in the latest release (20.22.2) macOS only {#release-feb2022}
 
 * macOS Monterey - filöverföringssidan har frysts vid efterföljande överföringar. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
