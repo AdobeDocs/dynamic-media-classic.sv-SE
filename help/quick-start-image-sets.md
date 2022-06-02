@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -25,21 +25,33 @@ I Image Set Viewer finns zoomningsverktyg som gör att du kan undersöka bilder 
 
 Se [Bild- och snurruppsättningar: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) utbildningsvideo.
 
+>[!NOTE]
+>
+>När du skapar en bilduppsättning rekommenderar Adobe följande riktlinjer för god praxis och tvingande gränser.
+>
+>* Antal duplicerade resurser per bilduppsättning
+   >   * Bästa praxis: 20
+   >   * Tvingad gräns: 20
+>* Maximalt antal sidor per bilduppsättning
+   >   * Bästa praxis: 1000
+   >   * Gräns för utförd: 1000
+
+
 Följande snabbstart för bilduppsättningar är utformat för att du snabbt ska komma igång med hjälp av Image Set-tekniker i Adobe Dynamic Media Classic.
 
-## 1. Överför dina överordnad bilder för flera vyer och färgrutor
+## 1. Överför dina primära bilder för flera vyer och färgrutor
 
 Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet måste du ta hänsyn till den här möjligheten när du väljer bilder. Se till att bilderna har en största storlek på minst 2 000 pixlar. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria bilder i TIFF, PNG och EPS rekommenderas.
 
-I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra filer från datorn till en mapp på Adobe Dynamic Media Classic.
+Välj **[!UICONTROL Upload]** för att överföra filer från datorn till en mapp på Adobe Dynamic Media Classic.
 
-Se [Förbered bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) och [Överför filer](uploading-files.md#uploading-your-files).
+Se [Förbered bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) och [Överför dina filer](uploading-files.md#uploading-your-files).
 
 ## 2. Skapa en bilduppsättning
 
 I Bilduppsättningar väljer användare miniatyrbilder i Bilduppsättningsvisningsprogrammet för att visa en bild från en annan sida eller vinkel.
 
-Om du vill skapa en bilduppsättning väljer du **[!UICONTROL Build]** i fältet Global navigering och väljer sedan **[!UICONTROL Image Sets]**. I fönstret Bilduppsättning drar du bilderna till sidan för att komponera bilduppsättningen. Ordna, lägg till och ta bort bilder efter behov.
+Om du vill skapa en bilduppsättning väljer du **[!UICONTROL Build]** väljer du **[!UICONTROL Image Sets]**. I fönstret Bilduppsättning drar du bilderna till sidan för att komponera bilduppsättningen. Ordna, lägg till och ta bort bilder efter behov.
 
 Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set).
 
@@ -51,7 +63,7 @@ Administratörer kan skapa eller ändra förinställningar för bildspelsvisning
 
 Du kan lägga till eller redigera visningsprogramförinställningar på skärmen Programinställningar.
 
-Se [Skapa och redigera visningsprogramförinställningar](application-setup.md#adding-and-editing-viewer-presets).
+Se [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
 ## 4. Förhandsvisa en bilduppsättning
 
@@ -65,9 +77,9 @@ När du publicerar en bilduppsättning placeras den på Adobe Dynamic Media Clas
 
 >[!NOTE]
 >
->Det här steget är inte nödvändigt om du valde **[!UICONTROL Publish after save]** (standard) när du skapade och sparade bilduppsättningen.
+>Detta steg är inte nödvändigt om du har valt **[!UICONTROL Publish after save]** (standard) när du skapade och sparade bilduppsättningen.
 
-Välj ikonen **[!UICONTROL Mark for Publish]** till vänster om namnet i panelen Bläddra. Välj sedan **[!UICONTROL Publish]**. Välj **[!UICONTROL Submit Publish]** på sidan Publicera.
+Välj **[!UICONTROL Mark for Publish]** till vänster om namnet på panelen Bläddra. Välj sedan **[!UICONTROL Publish]**. På sidan Publicera väljer du **[!UICONTROL Submit Publish]**.
 
 Se [Publicera filer](publishing-files.md#publishing-files).
 

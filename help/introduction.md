@@ -5,7 +5,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
+source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Se även följande utbildningsvideor:
 * [Snabbstart: Integrera Adobe Dynamic Media Classic-analyser](/help/quick-start-integrating-dmc-analytics.md)
 * [Snabbstart: Media Portal](/help/quick-start-media-portal-administration.md)
 * [Snabbstart: Blandade medieuppsättningar](/help/quick-start-mixed-media-sets.md)
-* [Snabbstart: Rotationsset](/help/quick-start-spin-sets.md)
+* [Snabbstart: Snurra uppsättningar](/help/quick-start-spin-sets.md)
 * [Snabbstart: Färgruteuppsättningar](/help/quick-start-swatch-sets.md)
 * [Snabbstart: Integration med Target Standard/Premium](/help/quick-start-target-integration.md)
 * [Snabbstart: Grundläggande om mallar](/help/quick-start-template-basics.md)

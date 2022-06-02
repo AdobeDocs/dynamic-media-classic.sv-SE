@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
    + [Publiceringsinställningar](publish-setup.md)
    + [Video SEO (sökmotoroptimering)](video-seo-search-engine-optimization.md)
    + [Administrationsinställningar](administration-setup.md)
-+ Medieportal {#media-portal}
++ Media Portal {#media-portal}
    + [Systemkrav för Media Portal i Adobe Dynamic Media Classic](system-requirements-media-portal.md)
    + [Snabbstart: Media Portal](quick-start-media-portal-administration.md)
    + [Användarroller för mediaportal](media-portal-user-roles.md)
@@ -55,10 +55,11 @@ ht-degree: 0%
    + [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.md)
    + [Effektivare användning av metadata](making-efficient-metadata.md)
    + [Anpassa skärmen Media Portal](customizing-media-portal-screen.md)
-+ Överför och publicera resurser {#upload-publish}
++ Överföra och publicera resurser {#upload-publish}
    + [Överföra och publicera resurser](about-asset-upload-publish.md)
    + [Överför filer](uploading-files.md)
    + [Publicera filer](publishing-files.md)
+   + [Dynamic Media bästa praxis och tvingande begränsningar för tillgångstyper](best-practices-enforced-limits.md)
    + [Testa resurser innan du gör dem offentliga](testing-assets-making-them-public.md)
    + [Kontrollera jobbfiler](checking-job-files.md)
 + Hantera resurser {#managing-assets}
@@ -109,7 +110,7 @@ ht-degree: 0%
    + [Visa bilduppsättningar](viewing-image-sets.md)
    + [Automatisera generering av bilduppsättning](automated-image-set-generation.md)
    + [Länka en bilduppsättning till en webbsida](linking-image-set-web-page.md)
-+ Uppsättningar med färgrutor {#swatch-sets}
++ Färgruteuppsättningar {#swatch-sets}
    + [Snabbstart: Färgruteuppsättningar](quick-start-swatch-sets.md)
    + [Inkludera zoommål och bildscheman i uppsättningar av färgrutor](including-zoom-targets-image-maps-swatch-sets.md)
    + [Förbered färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md)
@@ -146,7 +147,7 @@ ht-degree: 0%
    + [Skapa en blandad medieuppsättning](creating-mixed-media-set.md)
    + [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md)
    + [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentkit {#analytics-kit}
++ Adobe Analytics instrumentpaket {#analytics-kit}
    + [Snabbstart: Integrera Adobe Dynamic Media Classic med Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Logga in på Adobe Analytics](log-analytics.md)
    + [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md)
