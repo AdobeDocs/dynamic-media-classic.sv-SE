@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: fe765d1acfa37e9d13f5ef1b655f8cf04195a8a6
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,12 @@ När du skapar en uppsättning **[!UICONTROL Publish after save]** påverkar upp
 
 Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
->[!NOTE]
->
->När du skapar en bilduppsättning rekommenderar Adobe följande riktlinjer för god praxis och tvingande gränser.
->
->* Antal duplicerade resurser per bilduppsättning
-   >   * Bästa praxis: 20
-   >   * Tvingad gräns: 20
-> * Maximalt antal sidor per bilduppsättning
-   >   * Bästa praxis: 1000
-   >   * Gräns för utförd: 1000
+När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och tillämpar följande begränsningar:
 
+| Gränstyp för bilduppsättning | Bästa praxis | Begränsning har implementerats | Ändringar av begränsningen 31 december 2022 |
+| --- | --- | --- | --- |
+| Antal dubblettresurser per uppsättning | Inga dubbletter | 100 | 20 |
+| Maximalt antal bilder per uppsättning | 5-10 bilder per uppsättning | 1000 |
 
 **Så här skapar du en bilduppsättning:**
 

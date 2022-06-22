@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
    + [Överföra och publicera resurser](about-asset-upload-publish.md)
    + [Överför filer](uploading-files.md)
    + [Publicera filer](publishing-files.md)
-   + [Dynamic Media bästa praxis och tvingande begränsningar för tillgångstyper](best-practices-enforced-limits.md)
+   + [Dynamic Media begränsningar](limitations.md)
    + [Testa resurser innan du gör dem offentliga](testing-assets-making-them-public.md)
    + [Kontrollera jobbfiler](checking-job-files.md)
 + Hantera resurser {#managing-assets}

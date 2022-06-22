@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,20 @@ ht-degree: 0%
 
 Vanligtvis är Adobe PDF-filer källa för en e-katalog. Dessa filer innehåller all bildinformation, teckensnitt och vektorgrafik. Du kan även skapa en e-katalog med bilder. När du har förberett dina PDF-filer för överföring väljer du **[!UICONTROL Upload]** för att börja ladda upp PDF.
 
+När du överför en PDF för sidextrahering använder Adobe följande gräns:
+
+| Begränsningstyp för PDF | Implementerad gräns | Ändringar av begränsningen 31 december 2022 |
+| --- | --- | --- |
+| Högsta antal sidor för PDF som ska övervägas för extrahering | 5000 (för nya överföringar) | 100 |
+
+<!-- 
 >[!NOTE]
 >
->När du överför en PDF för sidextrahering lägger Adobe till följande riktlinjer för bästa praxis och tvingande gräns.
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* Maximalt antal sidor per PDF som ska extraheras
-   >   * Bästa praxis: 100
-   >   * Tvingad gräns: 1000 (för uppdateringsöverföringar)
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## Förbered dina PDF-filer {#preparing-your-pdf-files}
 

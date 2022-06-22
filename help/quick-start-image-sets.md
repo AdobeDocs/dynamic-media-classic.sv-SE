@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '652'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,12 @@ I Image Set Viewer finns zoomningsverktyg som gör att du kan undersöka bilder 
 
 Se [Bild- och snurruppsättningar: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) utbildningsvideo.
 
->[!NOTE]
->
->När du skapar en bilduppsättning rekommenderar Adobe följande riktlinjer för god praxis och tvingande gränser.
->
->* Antal duplicerade resurser per bilduppsättning
-   >   * Bästa praxis: 20
-   >   * Tvingad gräns: 20
->* Maximalt antal sidor per bilduppsättning
-   >   * Bästa praxis: 1000
-   >   * Gräns för utförd: 1000
+När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och tillämpar följande begränsningar:
 
+| Gränstyp för bilduppsättning | Bästa praxis | Begränsning har implementerats | Ändringar av begränsningen 31 december 2022 |
+| --- | --- | --- | --- |
+| Antal dubblettresurser per uppsättning | Inga dubbletter | 100 | 20 |
+| Maximalt antal bilder per uppsättning | 5-10 bilder per uppsättning | 1000 |
 
 Följande snabbstart för bilduppsättningar är utformat för att du snabbt ska komma igång med hjälp av Image Set-tekniker i Adobe Dynamic Media Classic.
 

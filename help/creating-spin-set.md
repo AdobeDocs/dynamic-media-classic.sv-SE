@@ -10,9 +10,9 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -48,15 +48,11 @@ När du skapar en uppsättning **[!UICONTROL Publish after save]** påverkar upp
 
 Se även [Publicera resurser manuellt](publishing-files.md#manually-publishing-assets) och [Avpublicera resurser manuellt](publishing-files.md#manually-unpublishing-assets).
 
->[!NOTE]
->
->När du skapar en snurrsuppsättning rekommenderar Adobe följande riktlinjer för bästa praxis och tvingande gräns.
->
->* Maximalt antal rader/kolumner per tvådimensionell rotationsuppsättning
-   > 
-   >   * Bästa praxis: 1000
-   >   * Tvingad gräns: 1000
+När du skapar en snurrsuppsättning rekommenderar Adobe följande bästa praxis och tillämpar följande gräns:
 
+| Begränsningstyp för snurra uppsättning | Bästa praxis | Implementerad gräns |
+| --- | --- | --- |
+| Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
 
 När du har sparat en snurruppsättning kan du använda Förhandsvisning i Build: På sidan med rotationsuppsättningen ser du hur din snurruppsättning ser ut i standardvisningsprogrammet.
 
