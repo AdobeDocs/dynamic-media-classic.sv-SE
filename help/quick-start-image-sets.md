@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och t
 | --- | --- | --- | --- |
 | Antal dubblettresurser per uppsättning | Inga dubbletter | 100 | 20 |
 | Maximalt antal bilder per uppsättning | 5-10 bilder per uppsättning | 1000 |
+
+Se även [Dynamic Media begränsningar](/help/limitations.md).
 
 Följande snabbstart för bilduppsättningar är utformat för att du snabbt ska komma igång med hjälp av Image Set-tekniker i Adobe Dynamic Media Classic.
 

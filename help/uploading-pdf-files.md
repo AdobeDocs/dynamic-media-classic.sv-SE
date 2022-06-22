@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ När du överför en PDF för sidextrahering använder Adobe följande gräns:
 | Begränsningstyp för PDF | Implementerad gräns | Ändringar av begränsningen 31 december 2022 |
 | --- | --- | --- |
 | Högsta antal sidor för PDF som ska övervägas för extrahering | 5000 (för nya överföringar) | 100 |
+
+Se även [Dynamic Media begränsningar](/help/limitations.md).
 
 <!-- 
 >[!NOTE]

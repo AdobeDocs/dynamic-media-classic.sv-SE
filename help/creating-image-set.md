@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och t
 | --- | --- | --- | --- |
 | Antal dubblettresurser per uppsättning | Inga dubbletter | 100 | 20 |
 | Maximalt antal bilder per uppsättning | 5-10 bilder per uppsättning | 1000 |
+
+Se även [Dynamic Media begränsningar](/help/limitations.md).
 
 **Så här skapar du en bilduppsättning:**
 
