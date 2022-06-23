@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ PDF-filer (Portable Document Format) används oftast i Adobe Dynamic Media Class
 
 När du överför en PDF för sidextrahering använder Adobe följande gräns:
 
-| Begränsningstyp för PDF | Implementerad gräns | Ändringar av begränsningen 31 december 2022 |
+| Begränsningstyp | Begränsning har införts | Ändring till begränsning den 31 december 2022 |
 | --- | --- | --- |
-| Högsta antal sidor för PDF som ska övervägas för extrahering | 5000 (för nya överföringar) | 100 |
+| Högsta antal sidor för PDF som ska övervägas för extrahering | 5000 (för nya överföringar) | 100 (för alla PDF) |
 
 Se även [Dynamic Media begränsningar](/help/limitations.md).
 

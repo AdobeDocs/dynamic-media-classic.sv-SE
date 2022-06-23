@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och tillämpar följande begränsningar:
 
-| Gränstyp för bilduppsättning | Bästa praxis | Begränsning har implementerats | Ändringar av begränsningen 31 december 2022 |
-| --- | --- | --- | --- |
-| Antal dubblettresurser per uppsättning | Inga dubbletter | 100 | 20 |
+| Begränsningstyp | Bästa praxis | Begränsning har införts |
+| --- | --- | --- |
+| Antal dubblettresurser per uppsättning | Inga dubbletter | 20 |
 | Maximalt antal bilder per uppsättning | 5-10 bilder per uppsättning | 1000 |
 
 Se även [Dynamic Media begränsningar](/help/limitations.md).

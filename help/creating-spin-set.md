@@ -10,7 +10,7 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually-publishing-a
 
 När du skapar en snurrsuppsättning rekommenderar Adobe följande bästa praxis och tillämpar följande gräns:
 
-| Begränsningstyp för snurra uppsättning | Bästa praxis | Implementerad gräns |
+| Begränsningstyp för snurra uppsättning | Bästa praxis | Begränsning har införts |
 | --- | --- | --- |
 | Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
 

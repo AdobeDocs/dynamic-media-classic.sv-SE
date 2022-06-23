@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vanligtvis är Adobe PDF-filer källa för en e-katalog. Dessa filer innehåller
 
 När du överför en PDF för sidextrahering använder Adobe följande gräns:
 
-| Begränsningstyp för PDF | Implementerad gräns | Ändringar av begränsningen 31 december 2022 |
+| Begränsningstyp för PDF | Begränsning har införts | Ändring till begränsning den 31 december 2022 |
 | --- | --- | --- |
 | Högsta antal sidor för PDF som ska övervägas för extrahering | 5000 (för nya överföringar) | 100 |
 
