@@ -3,11 +3,10 @@ cloud: Experience Cloud
 solution: Dynamic Media Classic
 type: Documentation
 feature-set: Experience Manager Assets
-git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.sv-SE
-translation-type: tm+mt
+git-repo: https://github.com/AdobeDocs/dynamic-media-classic.sv-SE
 source-git-commit: 94f0166a975b681eef355ada47750a33f2d2e65f
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '111'
 ht-degree: 0%
 
 ---
