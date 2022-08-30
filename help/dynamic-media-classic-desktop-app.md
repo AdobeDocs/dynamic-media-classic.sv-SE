@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
 workflow-type: tm+mt
-source-wordcount: '1934'
+source-wordcount: '1944'
 ht-degree: 0%
 
 ---
@@ -185,11 +185,12 @@ Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media C
 
 ## Hämta och *silent* installera den senaste Adobe Dynamic Media Classic-appen på Windows® {#install-silent-windows-dmc-app}
 
-Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 Se även:
 
 * [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows®](#installation-dmc-app)
+
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen på macOS](#install-silent-mac-dmc-app)
 
 Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media Classic på Windows®:
@@ -212,7 +213,7 @@ Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media C
 
    `adobe-dynamic-media-classic-20.22.1.exe /s /f1"C:\Setup.iss"`
 
-   Information om kommandoradsparametrar finns på [Command-Line-parametrar för Setup.exe och Update.exe.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   Information om kommandoradsparametrar finns på [Kommandoradsparametrarna Setup.exe och Update.exe](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters).
 
 1. När du öppnar programmet visas den nya Adobe Dynamic Media Classic Sign-in-sidan:
 
