@@ -10,16 +10,16 @@ discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 5ed38982f3a8a2912a11530589212a024fda798c
 workflow-type: tm+mt
-source-wordcount: '71'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Exportera källvideo och kodade videoklipp{#exporting-source-and-encoded-videos}
 
-I panelen Bläddra heter källvideofilmer&quot;Överordnad Video&quot;. Kodade videofilmer har etiketten&quot;Video&quot;. Du kan exportera källvideofilmer och primära videofilmer. Om du vill exportera videofiler markerar du dem i panelen Bläddra och går till **[!UICONTROL File]** > **[!UICONTROL Export]**.
+Källvideor är märkta i panelen Bläddra *Överordnad video*. Kodade videofilmer är märkta *Video*. Du kan exportera primära videoklipp och videoklipp. Om du vill exportera videofiler markerar du dem i panelen Bläddra och går till **[!UICONTROL File]** > **[!UICONTROL Export]**.
 
 Se [Exportera resurser från Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
