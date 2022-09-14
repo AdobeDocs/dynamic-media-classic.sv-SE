@@ -2,7 +2,7 @@
 title: Länka en mall till en webbsida
 description: Lär dig hur du länkar en mall till en webbsida i Adobe Dynamic Media Classic.
 uuid: f111ef06-4afc-454c-86ce-5d640236d40b
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Länka en mall till en webbsida{#linking-a-template-to-a-web-page}
 
-Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en mall aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till mallen på Dynamic Media Image Servers. Du kan klistra in den här URL:en i en webbläsare för testning.
+Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en mall aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till mallen på Dynamic Media Image-servrar. Du kan klistra in den här URL:en i en webbläsare för testning.
 
 Om du vill placera URL-strängar på webbsidor och i program kopierar du dem från Adobe Dynamic Media Classic. Om du vill hämta en mall-URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn). Välj sedan en bildförinställning och klicka på knappen Kopiera URL.
 
@@ -31,13 +31,13 @@ Om du vill placera URL-strängar på webbsidor och i program kopierar du dem fr�
 
 Du kan hämta en mall-URL-sträng som genereras av en bildförinställning från skärmen Förhandsvisa mall. När du har kopierat URL:en markeras den i Urklipp så att du kan klistra in den efter behov. Så här hämtar du en mall-URL-sträng som genererats med en bildförinställning från sidan Förhandsvisa mall:
 
-1. Välj mallens rollover **[!UICONTROL Preview]**-knapp eller gå till **[!UICONTROL File]** > **[!UICONTROL Preview]**.
+1. Välj mallens överrullning **[!UICONTROL Preview]** eller gå till **[!UICONTROL File]** > **[!UICONTROL Preview]**.
 1. Använd förinställningens menyer och välj den bildförinställning som du vill leverera mallbilden med. På sidan Förhandsgranska visas hur mallen ser ut när den levereras från servern.
 1. Välj **[!UICONTROL Copy URL]** så att du kan kopiera URL:en till Urklipp.
 
 ## Lägga till mall-URL:er på webbsidan {#adding-template-urls-to-your-web-page}
 
-Om du vill lägga till en mall på en webbsida ska du rådfråga webbsidans utvecklingsteam och ändra taggen `<IMG>` i HTML-webbsideskoden. Använd URL-strängen för Adobe Dynamic Media Classic för att göra en begäran till Dynamic Media Image Servers. Handelsmotorn eller den dynamiska webbsideskoden infogar mallbilden med den storlek och formateringsspecifikation som definieras av den bildförinställning som du väljer för mallen.
+Om du vill lägga till en mall på en webbsida kontaktar du webbsidans utvecklingsteam för att ändra `<IMG>` -taggen i HTML webbsideskod. Använd Adobe Dynamic Media Classic URL-sträng för att göra en begäran till Dynamic Media Image Servers. Handelsmotorn eller den dynamiska webbsideskoden infogar mallbilden med den storlek och formateringsspecifikation som definieras av den bildförinställning som du väljer för mallen.
 
 >[!MORELIKETHIS]
 >

@@ -1,16 +1,16 @@
 ---
 title: Dynamic Media begränsningar
-description: 'Lär dig mer om de effektivaste strategierna och de tvingande gränserna när du skapar en bilduppsättning eller en snurruppsättning, eller överför en PDF. Läs också om webbläsarkombinationer och operativsystemkombinationer som inte stöds för Dynamic Media Viewer. '
-contentOwner: admin
+description: Lär dig mer om de effektivaste strategierna och de tvingande gränserna när du skapar en bilduppsättning eller en snurruppsättning, eller överför en PDF. Läs också om webbläsarkombinationer och operativsystemkombinationer som inte stöds för Dynamic Media Viewer.
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: ec840640b1131a56c1261f22b7638e53dac1bce8
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Adobe Dynamic Media Viewer stöder inte följande kombinationer av webbläsare o
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-## Stöd för TLS 1.0 och 1.1 upphör {#tls}
+## Stöd för Transport Layer Security 1.0 och 1.1 har upphört {#tls}
 
 <!-- CQDOC-19433 -->
 

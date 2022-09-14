@@ -1,16 +1,16 @@
 ---
 title: Publicera filer
-description: '"Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-samtal från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program."'
-contentOwner: admin
+description: "Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-samtal från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program."
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic spårar publiceringsjobb på jobbsidan. Du kan grans
 
 >[!NOTE]
 >
->Resurser som du publicerar på nytt (du har publicerat dem tidigare) visas inte direkt på webbplatsen på grund av webb-cachningsmekanismen i leveransnätverket (CDN). Se [Återpublicerade resurser och CDN-förseningar](publishing-files.md#republished_assets_and_cdn_delays).
+>Resurser som du publicerar på nytt (du har publicerat dem tidigare) visas inte direkt på webbplatsen på grund av webb-cachningsfunktionen i leveransnätverket (CDN). Se [Återpublicerade resurser och CDN-förseningar](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Skapa ett engångspubliceringsjobb {#creating-a-one-time-publish-job}
 
@@ -144,7 +144,7 @@ Publicerade resurser visas i användargränssnittet med en rund, grön ikon med 
 
 ## Hämta en medias publiceringshistorik {#getting-an-asset-s-publish-history}
 
-Det senaste datumet när en resurs publicerades visas i detaljvyn högst upp på panelen. Du kan få mer information om publiceringshistoriken genom att öppna panelen Historik och publicerade servrar i detaljvyn. Därifrån kan du se när resursen publicerades och till vilka servrar den publicerades.
+Det senaste datumet då en resurs publicerades visas i detaljvyn högst upp på panelen. Du kan få mer information om publiceringshistoriken genom att öppna panelen Historik och publicerade servrar i detaljvyn. Därifrån kan du se när resursen publicerades och till vilka servrar den publicerades.
 
 ## Återpublicerade resurser och CDN-förseningar {#republished-assets-and-cdn-delays}
 

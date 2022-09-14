@@ -2,23 +2,23 @@
 title: Ta bort en överförd resurs
 description: Lär dig hur du tar bort en överförd resurs i Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
 
 # Ta bort en överförd resurs{#deleting-an-uploaded-asset}
 
-Du kan använda parametern `delete` i det här formatet för att ta bort en resurs:
+Du kan använda `delete` parameter i det här formatet för att ta bort en resurs:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

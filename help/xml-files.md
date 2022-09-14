@@ -1,13 +1,13 @@
 ---
 title: XML-filer
 description: Webbplatser som använder ett XML-baserat system för att hantera bilder och bildinformation kan överföra XML-filer till Adobe Dynamic Media Classic. Läs mer om XML-filer.
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 6eaecd25-7de3-492c-81e0-86a78145feb0
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%

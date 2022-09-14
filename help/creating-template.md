@@ -2,7 +2,7 @@
 title: Skapa en mall
 description: Lär dig hur du skapar en mall i Adobe Dynamic Media Classic.
 uuid: c762224b-7c6c-4434-bada-c26570079645
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3307'
+source-wordcount: '3310'
 ht-degree: 0%
 
 ---
@@ -21,22 +21,22 @@ ht-degree: 0%
 
 Om du vill skapa en mall går du till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer. På den här sidan kan du lägga till bild- och textlager. Du kan också ändra ordning på lager, ändra storlek och position för lager och använda skugg- och glödeffekter på bilder och text.
 
-Se även [Utbildningsvideon Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Se även [Grundläggande om mallar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) utbildningsvideo.
 
 >[!NOTE]
 >
->Om du redigerar en mall som har skapats i en tidigare version av Adobe Dynamic Media Classic blir du tillfrågad när du sparar&quot;Vill du lägga till ett arbetsytelager?&quot;. Välj **[!UICONTROL No]** om du inte vill lägga till ett baslager. Om du av misstag väljer **[!UICONTROL Yes]** tar du bort modifieringarna `&allowCanvasPrompt` och `&layer=0` i URL:en och trycker på **[!UICONTROL Enter]** eller **[!UICONTROL Return]**.
+>Om du redigerar en mall som har skapats i en tidigare version av Adobe Dynamic Media Classic blir du tillfrågad när du sparar&quot;Vill du lägga till ett arbetsytelager?&quot;. Välj **[!UICONTROL No]** för att undvika att lägga till ett baslager. Om du råkar markera **[!UICONTROL Yes]**, ta bort `&allowCanvasPrompt` och `&layer=0` modifierare i URL och tryck på **[!UICONTROL Enter]** eller **[!UICONTROL Return]**.
 
 ## Skapa den ursprungliga mallen {#creating-the-initial-template}
 
-När du skapar en malluppsättning påverkar **[!UICONTROL Publish after save]**-alternativet uppsättningen och anger medlemmar på följande sätt:
+När du skapar en malluppsättning **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
 | **[!UICONTROL Publish after save]** markerat alternativ innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
+Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
 Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL Save As]** och ange ett nytt namn i dialogrutan Spara som.
 
@@ -44,13 +44,13 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 
 1. Använd någon av följande metoder för att skapa en ursprunglig mall:
 
-   * **Markera PSD eller bilderna först**  - På panelen Bläddra väljer du PSD-filen eller bilderna som du vill använda för mallen, går till  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**.
+   * **Markera PSD eller bilder först** - På panelen Bläddra väljer du PSD-filen eller bilderna som du vill använda för mallen. Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**.
 
-   * **Starta från mallskärmen**  - Gå till  **[!UICONTROL Build]** >  **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer.
+   * **Starta från mallskärmen** - Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer.
 
 1. I dialogrutan Ange storlek på arbetsyta anger du bredd- och höjdmått för mallen.
 1. Markera en mapp i resursbiblioteket och dra PSD-filen eller bilderna som du vill använda för mallen till mallskärmen.
-1. När du är klar ser du till att **[!UICONTROL Publish after save]** är markerat (standard) nära sidans nedre högra hörn.
+1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**.
 1. Välj en mapp där du vill lagra mallen, ange ett namn för mallen och välj **[!UICONTROL Submit]**.
 
@@ -58,7 +58,7 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 
 ## Redigera en malluppsättning {#editing-a-template-set}
 
-Oavsett om du redigerar en publicerad uppsättning eller en opublicerad malluppsättning påverkar alternativet **[!UICONTROL Publish after save]** uppsättningen och anger medlemmar på följande sätt:
+Oavsett om du redigerar en publicerad uppsättning eller en opublicerad malluppsättning **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
 | Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
@@ -67,25 +67,25 @@ Oavsett om du redigerar en publicerad uppsättning eller en opublicerad mallupps
 | Nej | Ja | Publicerad | Publicerad |
 | Nej | Nej | Opublicerad | Befintliga uppsättningsmedlemmar och nya uppsättningsmedlemmar som du har lagt till under redigeringen behåller sina publicerade eller opublicerade tillstånd. |
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
+Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
 **Så här redigerar du en malluppsättning:**
 
-1. I stödrastervyn bläddrar du till en malluppsättning och väljer **[!UICONTROL Edit]** nedanför bilden.
+1. I stödrastervyn bläddrar du till en malluppsättning och väljer sedan under bilden **[!UICONTROL Edit]**.
 1. Ändra mallen efter behov.
-1. Se till att **[!UICONTROL Publish after save]** är markerat (standard) när du är klar med redigeringen, nära sidans nedre högra hörn.
-1. Välj **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och välj sedan **[!UICONTROL Save]**.
+1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
+1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer **[!UICONTROL Save]**.
 
 ## Ta bort en mall {#deleting-a-template}
 
 När du tar bort en malluppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
 
-Se även [Publicera resurser](publishing-files.md#manually_publishing_assets) och [Manuellt avpublicera resurser](publishing-files.md#manually_unpublishing_assets).
+Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
 **Så här tar du bort en mall:**
 
 1. Välj en eller flera mallar i Stödrastervisning, listvy eller detaljvy.
-1. I det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
+1. På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
 
 ## Förstå mallskärmen {#understanding-the-template-screen}
 
@@ -105,7 +105,7 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
    >[!NOTE]
    >
-   >Textredigeraren v4.2 planeras att tas bort som ett alternativ i Adobe Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. Alternativet **[!UICONTROL Word Wrap]** kommer att införlivas i en framtida version av textredigeraren.
+   >Textredigeraren v4.2 planeras att tas bort som ett alternativ i Adobe Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. The **[!UICONTROL Word Wrap]** kommer att ingå i en framtida version av textredigeraren.
 
 * **[!UICONTROL Designer and Developer]** - Välj det alternativ som bäst beskriver din roll.
 
@@ -127,14 +127,14 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
 ## Skapa ett textlager {#creating-a-text-layer}
 
-1. Välj verktyget **[!UICONTROL Text]**.
+1. Välj **[!UICONTROL Text]** verktyg.
 1. Dra för att skapa en textruta på arbetsytan eller på en bild.
 1. På textskärmen som öppnas lägger du till text genom att göra något av följande på fliken Förhandsgranska:
 
    * Skriv text i textrutan. Välj Kopiera anpassa text så att texten får plats i textrutan.
    * Klistra in text från Urklipp i textrutan.
 
-1. Välj **[!UICONTROL Apply]** och stäng sedan textskärmen.
+1. Välj **[!UICONTROL Apply]** och stänger sedan textskärmen.
 
 ### Formatera text {#format-text}
 
@@ -146,13 +146,13 @@ Så här formaterar du text i ett textlager:
 
    * **[!UICONTROL Font]** - Välj ett teckensnitt på teckensnittsmenyn. Om ett teckensnitt som du vill använda inte visas på menyn kan du överföra det till Adobe Dynamic Media Classic. Se Teckensnitt.
 
-   * **[!UICONTROL Font Size]** - Välj en teckenstorlek på menyn, skriv en specifik storlek i rutan eller markera  **[!UICONTROL Up]** eller  **[!UICONTROL Down]** pilarna för att öka eller minska storleken med två punkter.
+   * **[!UICONTROL Font Size]** - Välj en teckenstorlek på menyn, skriv en specifik storlek i rutan eller välj **[!UICONTROL Up]** eller **[!UICONTROL Down]** om du vill öka eller minska storleken med två punkter.
 
    * **[!UICONTROL Color]** - Välj en textfärg.
 
-   * **[!UICONTROL Bold]**,  **[!UICONTROL Italic]** eller  **[!UICONTROL Underline]** - Markera texten och markera sedan ikonen för den typ av formatering som du vill använda på texten.
+   * **[!UICONTROL Bold]**, **[!UICONTROL Italic]**, eller **[!UICONTROL Underline]** - Markera texten och markera sedan ikonen för den typ av formatering som du vill använda på texten.
 
-   * **[!UICONTROL All Caps]**,  **[!UICONTROL Superscript]** eller  **[!UICONTROL Subscript]** - Markera texten och markera sedan ikonen för den typ av formatering som du vill använda på texten.
+   * **[!UICONTROL All Caps]**, **[!UICONTROL Superscript]**, eller **[!UICONTROL Subscript]** - Markera texten och markera sedan ikonen för den typ av formatering som du vill använda på texten.
 
    * **[!UICONTROL Alignment]** - Välj en justeringsknapp för att vänsterjustera, centrera eller högerjustera text i textlagret.
 
@@ -218,12 +218,12 @@ Så här formaterar du text i ett textlager:
 Informationen på fliken Källa i textredigeraren är till för din referens. Redigera bara texten om du är bekant med att redigera källkod.
 
 1. Dubbelklicka på namnet på textrutan med den text du vill redigera i listan Lager. Textredigeraren öppnas.
-1. Om du vill visa källkoden för texten i textredigeraren väljer du fliken **[!UICONTROL Source]** i textredigeraren.
+1. Om du vill visa källkoden för texten i textredigeraren markerar du **[!UICONTROL Source]** i textredigeraren.
 1. Visa eller redigera texten efter behov.
 
    Ändringarna förblir intakta om du växlar fram och tillbaka mellan förhandsvisnings- och källvyn.
 
-1. Välj **[!UICONTROL Apply]** om du vill återge redigeringarna.
+1. Välj **[!UICONTROL Apply]** för att återge redigeringarna.
 
 ## Arbeta med lager {#working-with-layers}
 
@@ -248,29 +248,29 @@ Lagren måste vara tillräckligt små för att få plats på arbetsytan. Du kan 
 >
 >Adobe Dynamic Media Classic rekommenderar att du skapar en bildförinställning som har exakt samma storlek som mallen. Genom att matcha storleken på förinställningen för bild med mallstorleken kan du vara säker på att mallens slutliga utdatastorlek och skärpealternativ ställs in korrekt. När du har skapat den här bildförinställningen kan du välja den på menyn Använd förinställning på skärmen Förhandsvisa mall. På skärmen visas hur bilden ser ut när den levereras från servern. Se [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets).
 
-* **Ändra storlek på ett lager** - Om du vill ändra storlek på ett lager eller arbetsytan markerar du lagret eller arbetsytan i listan Lager och använder någon av följande tekniker:
+* **Ändra storlek på ett lager** - Om du vill ändra storlek på ett lager eller arbetsytan markerar du lagret eller arbetsytan i listan Lager och använder någon av dessa tekniker:
 
-* **Ändra storlek**  manuellt - Markera och dra i ett hörn på lagret eller arbetsytan. Med textlager kan du också dra en sida av lagret. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen).
+* **Ändra storlek manuellt** - Markera och dra i ett hörn på lagret eller arbetsytan. Med textlager kan du också dra en sida av lagret. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen).
 
-* **Ange mått**  för lagerstorlek - Ange pixelmått i textrutorna B (bredd) och H (höjd) i området Lageregenskaper.
+* **Ange mått för lagerstorlek** - Ange pixelmått i textrutorna B (bredd) och H (höjd) i området Lageregenskaper.
 
 Förutom att ändra storlek på ett lager kan du lägga ut det. Om du vill göra det anger du en utfyllnadsmätning i rutan Vänster, Höger, Upptill och Nedtill i området Lageregenskaper. Utfyllnad lägger till en marginal i det aktuella lagret för att förskjuta den från omkretsen av dess baslager. Utfyllnaden är användbar om du lägger till en skugga eller yttre glöd och vill göra effekten mer synlig. Utfyllnad ökar storleken på ett lager och visar dess bakgrundsfärg i det utökade utfyllnadsområdet. Baslagret flyttar sig automatiskt i förhållande till lagrets nya storlek. Om det aktuella lagret till exempel är centrerat på baslagret flyttas det längre till höger om baslagret om du utökar lagrets vänstra sida.
 
-* **Ändra position för ett lager** - Om du vill ändra position för ett lager på arbetsytan markerar du lagrets namn i listan Lager och använder någon av följande tekniker:
+* **Ändra position för ett lager** - Om du vill ändra positionen för ett lager på arbetsytan markerar du lagrets namn i listan Lager och använder någon av dessa tekniker:
 
-* **Ändra position**  manuellt - Flytta pekaren nära, men inte över, en lagergräns, och när du ser den fyrhövdade pilmarkören markerar du och börjar dra.
+* **Ändra position manuellt** - Flytta pekaren nära, men inte över, en lagergräns, och när du ser den fyrhövdade pilmarkören markerar du och börjar dra.
 
-* **Ange förskjutningsmått**  för position - Ange förskjutningsmått för X och Y i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för fästpunkten i pixlar.
+* **Ange förskjutningsmått för position** - Ange X- och Y-förskjutningsmått i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för ankarpunkten i pixlar.
 
 * **Rotera ett lager** - I rutan Rotera visas vinkeln som lagret roterades till. Om du vill rotera ett lager markerar du lagrets namn i listan Lager och använder någon av följande tekniker:
 
-* **Manuellt rotera**  - Flytta markören nära, men inte över, ett hörn av lagret. När du ser rotationsmarkören drar du i hörnet av lagret. Håll ned Skift medan du drar om du vill rotera i steg om 15 grader.
+* **Rotera manuellt** - Flytta markören nära, men inte över, ett hörn av lagret. När du ser rotationsmarkören drar du i hörnet av lagret. Håll ned Skift medan du drar om du vill rotera i steg om 15 grader.
 
-* **Ange ett gradmått**  - Ange antalet grader för att rotera lagret. Rotationen sker medurs; Om du vill rotera moturs anger du ett negativt tal.
+* **Ange ett gradmått** - Ange hur många grader lagret ska roteras. Rotationen sker medurs; Om du vill rotera moturs anger du ett negativt tal.
 
 **Dölja ett lager eller en lagereffekt:**
 
-Du kan dölja ett lager eller en lagereffekt genom att markera ögonikonen bredvid ett lagernamn eller effektnamn. Dolda lager visas inte i förhandsvisningar eller utdata. Lagerinformationen tas inte bort från URL:en. I stället läggs `hide=1` till i URL:en för att se att lagret är dolt. Exempel:
+Du kan dölja ett lager eller en lagereffekt genom att markera ögonikonen bredvid ett lagernamn eller effektnamn. Dolda lager visas inte i förhandsvisningar eller utdata. Lagerinformationen tas inte bort från URL:en. Istället `hide=1` läggs till i URL:en för att notera att lagret är dolt. Exempel:
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 
@@ -280,13 +280,13 @@ Du kan dölja ett lager eller en lagereffekt genom att markera ögonikonen bredv
 
 Om du vill välja bakgrundsfärg, opacitet och blandningsläge för ett lager eller arbetsytan markerar du lagret eller arbetsytan och använder följande tekniker:
 
-* **Förgrundsfärg** - Markera  **[!UICONTROL Foreground Color]** och välj en färgruta om du vill ändra färgen på skuggan eller glöden. Du kan också ange en färgvärdesparameter i rutan. Bakgrundsfärgen används bara för lager som använder genomskinlighet. Det gäller till exempel ett delvis genomskinligt lager i en pristagg eller bakgrunden i ett textfält. Lager som består av en PSD-, TIFF- eller PNG-bild med genomskinlighet aktiverat kan ha genomskinliga bakgrunder.
+* **Förgrundsfärg** - Välj **[!UICONTROL Foreground Color]** och väljer en färgruta för att ändra färgen på skuggan eller glöden. Du kan också ange en färgvärdesparameter i rutan. Bakgrundsfärgen används bara för lager som använder genomskinlighet. Det gäller till exempel ett delvis genomskinligt lager i en pristagg eller bakgrunden i ett textfält. Lager som består av en PSD-, TIFF- eller PNG-bild med genomskinlighet aktiverat kan ha genomskinliga bakgrunder.
 
-* **Bakgrundsfärg** - Markera  **[!UICONTROL Background Color]** och välj en färgruta om du vill ändra färgen på utfyllnadsområdena.
+* **Bakgrundsfärg** - Välj **[!UICONTROL Background Color]** och välj en färgruta för att ändra färgen på utfyllnadsområdena.
 
-* **Opacitet**  - Dra opacitetsreglaget för att göra ett lager genomskinligt så att en del av den underliggande bilden syns igenom. Inställningen på 100 procent är ogenomskinlig. 0 är genomskinligt.
+* **Opacitet** - Dra opacitetsreglaget för att göra ett lager genomskinligt så att en del av den underliggande bilden syns igenom. Inställningen på 100 procent är ogenomskinlig. 0 är genomskinligt.
 
-* **Blandningsläge** - Om du vill simulera ett av de blandningslägen som är tillgängliga i Photoshop väljer du ett alternativ. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm. De här alternativen är tillgängliga för lager, inte för arbetsytan.
+* **Blandningsläge** - Om du vill simulera något av de blandningslägen som är tillgängliga i Photoshop väljer du ett alternativ. Alternativen är Normal, Lös upp, Ljusare, Mörkare, Multiplicera och Skärm. De här alternativen är tillgängliga för lager, inte för arbetsytan.
 
 ## Använd skugg- och glödeffekter på lager {#using-shadow-and-glow-effects-on-layers}
 
@@ -307,7 +307,7 @@ När du har använt en skugg- eller glödeffekt kan du justera dess storlek, fä
 
    * **[!UICONTROL Inner Glow]** - Använder en glödeffekt inuti alla kanter i lagret.
 
-Ett effektnamn visas i listan Lager när du har använt en effekt. Om du vill ta bort en effekt markerar du dess namn i listan Lager och väljer **[!UICONTROL Delete]**.
+Ett effektnamn visas i listan Lager när du har använt en effekt. Om du vill ta bort en effekt markerar du dess namn i listan Lager och väljer sedan **[!UICONTROL Delete]**.
 
 >[!NOTE]
 >
@@ -331,7 +331,7 @@ Om du vill justera en skugg- eller glödeffekt börjar du med att markera dess n
 
 ## Maskeringslager {#masking-layers}
 
-I lagerlistan finns en maskknapp som anger hur masken eller alfakanalen i ett lager ska användas. Med knappen Mask kan du använda effekten av ett bakgrundslager på ett visst lager eller på hela det överordnade lagret i mallen. Markera ett lager i listan Lager och välj **[!UICONTROL Mask]** för att bläddra igenom dessa lägen:
+I lagerlistan finns en maskknapp som anger hur masken eller alfakanalen i ett lager ska användas. Med knappen Mask kan du använda effekten av ett bakgrundslager på ett visst lager eller på hela det överordnade lagret i mallen. Markera ett lager i listan Lager och markera **[!UICONTROL Mask]** för att bläddra igenom dessa lägen:
 
 * Lagrets bakgrund är ogenomskinlig.
 * Lagerinnehållet inverteras och lagrets bakgrund fylls med solid svart.

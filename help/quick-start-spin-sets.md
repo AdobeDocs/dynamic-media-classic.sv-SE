@@ -1,8 +1,8 @@
 ---
-title: '"Snabbstart: Snurra uppsättningar"'
+title: "Snabbstart: Snurra uppsättningar"
 description: En introduktion och Snabb start till snurra uppsättning som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,16 +10,16 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '811'
 ht-degree: 0%
 
 ---
 
 # Snabbstart: Snurra uppsättningar{#quick-start-spin-sets}
 
-Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. En snurra uppsättning simulerar en 360-gradig visningsupplevelse. Adobe Dynamic Media Classic erbjuder endimensionella snurruppsättningar där tittarna kan rotera ett objekt och tvådimensionella snurruppsättningar där tittarna kan rotera och vända objektet. Dessutom kan man zooma och panorera med några enkla musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
+Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram de viktigaste visuella detaljerna från vilken vinkel som helst. En snurra uppsättning simulerar en 360-gradig visningsupplevelse. Adobe Dynamic Media Classic erbjuder endimensionella snurruppsättningar där tittarna kan rotera ett objekt och tvådimensionella snurruppsättningar där tittarna kan rotera och vända objektet. Dessutom kan man zooma och panorera med ett par musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
 
 ![Bilder för en snurra uppsättning.](/help/assets/spin_set.png)
 

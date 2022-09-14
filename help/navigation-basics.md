@@ -2,7 +2,7 @@
 title: Navigeringsgrunder
 description: Läs om hur du navigerar i användargränssnittet i Adobe Dynamic Media Classic.
 uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
@@ -10,7 +10,7 @@ discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation bar, Asset Library, Asset Filters tab, Browse Panel/Build Panel och Media Cart (endast Media Portal).
 
-![Navigation ](/help/assets/gs_navigation_basics_popup_popup.png)
-*basicsMain Adobe Dynamic Media Classic*
-*areasA) Global Navigation bar B) Asset Library panel C) Asset Filters tab D) Browse panel E) Media Cart (endast Media Portal)*
+![Navigeringsgrunder](/help/assets/gs_navigation_basics_popup_popup.png)
+*Adobe Dynamic Media Classic viktigaste områden*
+*A) Global Navigation bar B) Resursbibliotek, panel C) Resursfilter, flik D) Bläddra, panel E) Mediekarta (endast Media Portal)*
 
 ## Globalt navigeringsfält {#global-navigation-bar}
 
@@ -57,21 +57,21 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 Använd resursbiblioteket för att ordna de resurser du arbetar med. Du kan skapa mappar och undermappar för att ordna dina resurser i resursbiblioteket.
 
-Överst på panelen Resursbibliotek finns kommandon för att hitta resurser. Du kan söka efter resurser och filtrera för att hitta resurser. Välj ikonen **[!UICONTROL Trash]** längst ned i resursbiblioteket om du vill undersöka resurser som du har tagit bort.
+Överst på panelen Resursbibliotek finns kommandon för att hitta resurser. Du kan söka efter resurser och filtrera för att hitta resurser. Välj **[!UICONTROL Trash]** ikonen längst ned i resursbiblioteket om du vill undersöka resurser som du har tagit bort.
 
 >[!NOTE]
 >
->Du kan välja **[!UICONTROL Asset Library]**-kontroller för att öppna eller stänga resursbiblioteket och få mer plats att arbeta på skärmen. Välj kontrollen **[!UICONTROL Expand]**/**[!UICONTROL Collapse]** för att utöka eller stänga panelen. Dessa kontroller finns till vänster på panelen.
+>Du kan välja **[!UICONTROL Asset Library]** för att öppna eller stänga resursbiblioteket och få mer plats att arbeta på skärmen. Välj **[!UICONTROL Expand]**/**[!UICONTROL Collapse]** om du vill expandera eller stänga panelen. Dessa kontroller finns till vänster på panelen.
 
 ## Panelen Bläddra/byggepanel {#browse-panel-build-panel}
 
 På panelen Bläddra/bygg kan du göra mycket av ditt arbete. Vilka funktioner som är tillgängliga på den här panelen beror på om du är i bläddringsläge eller byggläge.
 
-* **[!UICONTROL Browse mode]** - Om du vill visa och arbeta med innehållet i en mapp på panelen Bläddra väljer du en mapp i resursbiblioteket. På den här panelen finns menyerna **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]** och **[!UICONTROL Sort]** för att arbeta med resurser. Du kan också visa resurser på olika sätt genom att flytta skjutreglaget eller välja **[!UICONTROL Grid View]**, **[!UICONTROL List View]** eller **[!UICONTROL Detail View]**. Om du väljer **[!UICONTROL Detail View]** eller dubbelklickar på en resurs öppnas resursen i detaljvyn, där du kan utföra resursberoende filåtgärder.
+* **[!UICONTROL Browse mode]** - Om du vill visa och arbeta med innehållet i en mapp på panelen Bläddra väljer du en mapp i resursbiblioteket. Den här panelen erbjuder **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]** och **[!UICONTROL Sort]** menyer för att arbeta med resurser. Du kan också visa resurser på olika sätt genom att flytta reglaget eller välja **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. Markera **[!UICONTROL Detail View]** Om du dubbelklickar på en resurs öppnas resursen i detaljvyn, där du kan utföra resursberoende filåtgärder.
 
-* **[!UICONTROL Build mode]** - Välj  **[!UICONTROL Build]** och välj sedan ett alternativ så att du kan börja skapa en e-katalog, bilduppsättning, snurra uppsättning eller något av flera andra tillgängliga alternativ på menyn Skapa. Sidan Skapa öppnas. Du kan välja de resurser som du vill arbeta med innan eller efter att du aktiverar byggläget.
+* **[!UICONTROL Build mode]** - Välj **[!UICONTROL Build]** väljer du sedan ett alternativ så att du kan börja skapa en e-katalog, bilduppsättning, snurra uppsättning eller något av flera andra tillgängliga alternativ på menyn Skapa. Sidan Skapa öppnas. Du kan välja de resurser som du vill arbeta med innan eller efter att du aktiverar byggläget.
 
-Se även [Utbildningsvideon Navigation basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
+Se även [Navigeringsgrunder](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) utbildningsvideo.
 
 >[!MORELIKETHIS]
 >

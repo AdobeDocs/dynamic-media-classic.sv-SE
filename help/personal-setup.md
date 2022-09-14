@@ -1,8 +1,8 @@
 ---
 title: Personliga inställningar
-description: Alla användare kan ändra inställningarna på skärmen Personliga inställningar i Adobe Dynamic Media Classic.
+description: Alla användare kan ändra inställningarna på installationsskärmen för Adobe Dynamic Media Classic.
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
@@ -10,22 +10,22 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
 
 # Personliga inställningar {#personal-setup}
 
-Alla användare kan ändra inställningarna på skärmen Personliga inställningar. Du öppnar skärmen Personliga inställningar genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+Alla användare kan ändra inställningarna på skärmen Personliga inställningar. Öppna skärmen Personliga inställningar på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 
 >[!NOTE]
 >
 >På skärmen Personliga inställningar visas vilken användarroll du har i Adobe Dynamic Media Classic: Företagsadministratör, administratör eller användare.
 
-Inställningarna för personliga inställningar styr standardbeteendet för panelen Bläddra, hur du tar emot e-post och lösenordsinställningar. Kom ihåg att välja **[!UICONTROL Save]** när du har ändrat de här inställningarna.
+Inställningarna för personliga inställningar styr standardbeteendet för panelen Bläddra, hur du tar emot e-post och lösenordsinställningar. Kom ihåg att markera **[!UICONTROL Save]** när du har ändrat dessa inställningar.
 
 ## Min kontoinformation
 
@@ -33,8 +33,8 @@ Identifierar kontonamn, namn, användarnamn (e-postadress) och tilldelad använd
 
 ## Skrivbord
 
-* **Rensa bildcache**  - Tar bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn.
-* **Rensa resurscache**  - Tar bort alla Adobe Dynamic Media-cachelagrade resursfiler från datorn.
+* **Rensa bildcache** - Tar bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn.
+* **Rensa resurscache** - Tar bort alla resursfiler i Adobe Dynamic Media från datorn.
 
 Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cachen manuellt direkt från filsystemet. Navigera till följande beroende på operativsystem:
 
@@ -45,8 +45,8 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 **Så här installerar du Adobe Dynamic Media Creative Suite Extension:**
 
-1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** i verktygsfältet i Adobe Dynamic Media Classic, under Creative Suite Extension, välj **[!UICONTROL Download Now]** för att hämta `s7csxs.zxp`-filen.
-1. Välj länkarna **[!UICONTROL Installation]** och **[!UICONTROL System Requirements]** om du vill ha mer information om tillägget.
+1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, under Creative Suite Extension, markera **[!UICONTROL Download Now]** för att ladda ned `s7csxs.zxp` -fil.
+1. Välj **[!UICONTROL Installation]** och **[!UICONTROL System Requirements]** länkar för mer information om tillägget.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -85,23 +85,23 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
    Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Du kan också använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än att inkludera användardefinierade fält.
 
-   Se [Avancerad sökning](searching-assets.md#conducting_an_advanced_search).
+   Se [Använda avancerad sökning](searching-assets.md#conducting_an_advanced_search).
 
    Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Basic Search Type]** - Du kan välja mellan två alternativ:  **[!UICONTROL Contains]** söker igenom hela strängen efter det angivna värdet,  **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än  **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som ställs in i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** av administratören.
+* **[!UICONTROL Basic Search Type]** - Du kan välja mellan två alternativ: **[!UICONTROL Contains]** söker igenom hela strängen efter det angivna värdet, **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som är inställd i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** av administratören.
 * **[!UICONTROL Show Command Feedback]** - Välj att aktivera visning av kommandobegäranden till servern, avmarkera för att stänga av.
 * **[!UICONTROL Show Dialog During Export]** - Välj det här alternativet om du vill visa en popup-dialogruta under en export. Om du avmarkerar (inaktiverar) det här alternativet kan du fortfarande gå till sidan Jobb för att hämta resultaten av din export.
 
 ## E-post
 
-* **[!UICONTROL Email Options]** - Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben har slutförts. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+* **[!UICONTROL Email Options]** - Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben är slutförda. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
 * **[!UICONTROL Email Scope]** - Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
 * **[!UICONTROL Email Types]** - Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
 
 ## Språk
 
-* **[!UICONTROL Preferred Language]** - Anger vilket språk som ska användas för gränssnittet.
+* **[!UICONTROL Preferred Language]** - Bestämmer vilket språk du vill använda för gränssnittet.
 
 ## Lösenord
 

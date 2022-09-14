@@ -1,8 +1,8 @@
 ---
 title: Konfigurera förinställningar för Snurra uppsättning för visningsprogram
-description: Läs om hur du ställer in visningsförinställningar för rotationsuppsättning i Adobe Dynamic Media Classic.
+description: Lär dig hur du ställer in visningsförinställningar för rotationsuppsättning i Adobe Dynamic Media Classic.
 uuid: e095f989-f3df-46ea-be62-812922805dc0
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,37 +10,37 @@ discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
 
 # Konfigurera förinställningar för Snurra uppsättning för visningsprogram{#setting-up-spin-set-viewer-presets}
 
-Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. Adobe Dynamic Media Classic innehåller förinställningar för rotationsuppsättningen. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
+Använd de förinställda inställningarna för visningsprogrammet för att ange visningsprogrammens format, beteende och utseende. Adobe Dynamic Media Classic levereras med förinställningar för rotationslistan. Om du är administratör kan du även skapa egna förinställningar för Snurra in-visning. Du kan konfigurera en förinställning för Snurra visningsprogram med olika färger, kanter, teckensnitt och bildinställningar.
 
 **Så här skapar du en förinställning för Snurra uppsättning:**
 
-1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global Navigation.
+1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Gör något av följande:
 
-   * Om du vill skapa en förinställning väljer du **[!UICONTROL Add]**, väljer en plattform i dialogrutan Lägg till visningsförinställning och väljer sedan **[!UICONTROL Spin Set Viewer]**.
-   * Om du vill redigera en befintlig förinställning för Snurra in visningsprogram markerar du förinställningen och väljer sedan **[!UICONTROL Edit]**.
+   * Om du vill skapa en förinställning väljer du **[!UICONTROL Add]**, välj en plattform i dialogrutan Lägg till visningsförinställning och välj sedan **[!UICONTROL Spin Set Viewer]**.
+   * Om du vill redigera en befintlig förinställning för Snapin Set Viewer markerar du förinställningen och väljer sedan **[!UICONTROL Edit]**.
 
 1. På sidan Konfigurera visningsprogram skriver du ett namn i rutan Förinställningsnamn för förinställningen för Snurra uppsättning.
-1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ väljer du ikonen **[!UICONTROL Info Tip]** bredvid alternativet.
+1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ väljer du **[!UICONTROL Info Tip]** -ikonen bredvid alternativet.
 
    På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
 1. Välj **[!UICONTROL Save]**.
 
-Välj **[!UICONTROL Make Default]** om du vill göra den förinställning för snurrningsvisning som du skapade till företagets standardinställning för att visa snurruppsättningar.
+Välj **[!UICONTROL Make Default]** om du vill göra den förinställning för Snurra uppsättning för visning som du skapade till företagets standardinställning för att visa snurra uppsättningar.
 
 Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers).
 
-Om du vill ta bort en förinställning för Snurra uppsättning för visningsprogram markerar du den på sidan Visningsförinställningar och väljer sedan **[!UICONTROL Delete]**.
+Om du vill ta bort en förinställning för Snurra uppsättning för visningsprogram markerar du den på sidan med visningsförinställningar och väljer sedan **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

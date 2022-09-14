@@ -2,7 +2,7 @@
 title: Beskära en bild
 description: Lär dig beskära en bild i Adobe Dynamic Media Classic.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,7 +10,7 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -31,11 +31,11 @@ Du kan beskära en bild för att ta bort tomt utrymme runt den eller beskära et
 
 Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant.
 
-1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer sedan **[!UICONTROL Crop]** eller visar den i panelen Bläddra i detaljvyn och väljer knappen **[!UICONTROL Crop]**.
+1. Beskära en bild genom att markera överrullningen **[!UICONTROL Edit]** och sedan markera **[!UICONTROL Crop]** eller visa den i panelen Bläddra i detaljvyn och markera **[!UICONTROL Crop]** -knappen.
 1. Gör något av följande på sidan Beskärningsredigerare:
 
-   * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Välj menyn **[!UICONTROL Corner]** i dialogrutan **[!UICONTROL Auto Crop By Color]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]**-inställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
-   * Om du vill trimma genomskinliga pixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Ange en toleransinställning mellan 0 och 1 i dialogrutan **[!UICONTROL Auto Crop By Transparency]**. Inställningen 0 beskär bara pixlar om de är genomskinliga. Siffror närmare 1 ger större genomskinlighet. Välj **[!UICONTROL Crop]**.
+   * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. I **[!UICONTROL Auto Crop By Color]** väljer du **[!UICONTROL Corner]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]** inställning från 0 till 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
+   * Om du vill trimma genomskinliga pixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. I **[!UICONTROL Auto Crop By Transparency]** anger du en toleransinställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de är genomskinliga. Siffror närmare 1 ger större genomskinlighet. Välj **[!UICONTROL Crop]**.
 
 1. Välj **[!UICONTROL Save]**.
 
@@ -45,9 +45,9 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 
 ## Markera ett område att beskära {#select-an-area-to-crop}
 
-1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer **[!UICONTROL Crop]** eller visar den i panelen Bläddra i detaljvyn och väljer **[!UICONTROL Crop]**.
+1. Beskära en bild genom att markera överrullningen **[!UICONTROL Edit]** och välj **[!UICONTROL Crop]** eller visa den i panelen Bläddra i detaljvyn och markera **[!UICONTROL Crop]**.
 
-1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Vad som än visas i rutan är vad som återstår efter att du har valt **[!UICONTROL Save]** och beskär bilden.
+1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Vad som än visas i rutan är vad som återstår efter att du har valt **[!UICONTROL Save]** och beskära bilden.
 1. Justera beskärningsområdet genom att göra något av följande:
 
    * Dra en sida eller ett hörn av rutan. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen) för beskärningsrutan.
@@ -64,5 +64,5 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 >
 >* [Alternativ för bildredigering vid överföring](image-editing-options-upload.md#image-editing-options-at-upload)
 >* [Beskära tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Beskära från sidorna på PDF-sidorna](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Beskär från sidorna på PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
 

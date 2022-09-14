@@ -1,15 +1,15 @@
 ---
 title: Hämta information om diskanvändning
-description: Läs om hur du får information om diskanvändning i Adobe Dynamic Media Classic.
+description: Lär dig hur du får information om diskanvändning i Adobe Dynamic Media Classic.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Hämta information om diskanvändning {#getting-disk-usage-information}
 
-Du kan använda parametern `disk_info` för att hämta information om ett företags diskutrymmesanvändning, vilket visas i följande exempel:
+Du kan använda `disk_info` parameter för att hämta information om ett företags diskutrymmesanvändning, vilket visas i följande exempel:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

@@ -2,7 +2,7 @@
 title: Dela resursändringar med kollegor i realtid
 description: Lär dig hur du kan dela resursändringar med andra i realtid i Adobe Dynamic Media Classic.
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,9 +10,9 @@ discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,6 @@ När en ändring har gjorts i den ursprungliga klienten uppdateras alla peer-kli
 
 När du loggar in uppmanas du att tillåta eller neka peer-uppdateringar. Du kan&quot;komma ihåg&quot; valet så att du bara uppmanas en gång. Ta bort den aktuella platsen från panelen P2P-nätverk i Globala inställningar för att ta bort ditt val.
 
-Om du redigerar en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer **[!UICONTROL Yes]** ignoreras alla ändringar som gjorts i resursen och den uppdaterade resursen importeras. Om du väljer **[!UICONTROL No]** ändras inte resursen i byggaren eller redigeraren och alla ändringar du har gjort sparas i den sessionen.
+Om du redigerar en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer **[!UICONTROL Yes]**, tar byggaren eller redigeraren bort ändringar som gjorts i resursen och importerar den uppdaterade resursen. Om du väljer **[!UICONTROL No]**, är resursen oförändrad i byggaren eller redigeraren och alla ändringar som du har gjort kvarstår under den sessionen.
 
 När du sparar resursen visas ett meddelande om att det finns en nyare version och du tillfrågas om du vill skriva över resursen med dina ändringar.

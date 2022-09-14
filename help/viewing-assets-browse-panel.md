@@ -2,7 +2,7 @@
 title: Visa resurser i panelen Bläddra
 description: Lär dig hur du använder panelen Bläddra för att visa resurser i Adobe Dynamic Media Classic.
 uuid: 677b1838-0bbe-4922-92a5-6e7d9030edb9
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,7 +10,7 @@ discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Du kan ändra visningen av resurser i panelen Bläddra genom att välja knappen Visa:
 
-* **Stödrastervisning**  - I närheten av det övre högra hörnet av skärmen Adobe Dynamic Media Classic väljer du  **[!UICONTROL Grid View]** ikon för att visa resurser i miniatyrformat i ett stödraster. I Stödrastervisning kan du dra skjutreglaget för miniatyrbilder om du vill ändra storlek på miniatyrbilderna.
+* **Stödrastervisning** - I skärmens övre högra hörn väljer du **[!UICONTROL Grid View]** om du vill visa resurser i miniatyrformat i ett rutnät. I Stödrastervisning kan du dra skjutreglaget för miniatyrbilder om du vill ändra storlek på miniatyrbilderna.
 
-* **Listvy**  - I närheten av det övre högra hörnet av skärmen Adobe Dynamic Media Classic väljer du  **[!UICONTROL List View]** ikon för att visa resurser i en lista. Listan innehåller namn, typ, skapandedatum och senaste ändringsdatum för varje resurs. Beroende på vilken typ av resurs du arbetar med får du även annan information. Du kan till exempel se en bilds mått och filstorlek.
+* **Listvy** - I skärmens övre högra hörn väljer du **[!UICONTROL List View]** om du vill visa resurser i en lista. Listan innehåller namn, typ, skapandedatum och senaste ändringsdatum för varje resurs. Beroende på vilken typ av resurs du arbetar med får du även annan information. Du kan till exempel se en bilds mått och filstorlek.
 
-* **Detaljvy**  - Välj en resurs. I närheten av det övre högra hörnet av skärmen Adobe Dynamic Media Classic väljer du **[!UICONTROL Detail View]**-ikonen för att undersöka resursen i detaljvyn. Du kan också dubbelklicka på en resurs eller markera den och gå till **[!UICONTROL File]** > **[!UICONTROL Details]** för att se den i detaljvyn. Om administratören har angett inställningen Visa URL visas URL-adresser för alla resurser i detaljvyn; URL:erna är dock bara aktiva efter att resursen har publicerats.
+* **Detaljvy** - Välj en resurs. I skärmens övre högra hörn väljer du **[!UICONTROL Detail View]** om du vill undersöka resursen i detaljvyn. Du kan också dubbelklicka på en resurs eller markera den och gå till **[!UICONTROL File]** > **[!UICONTROL Details]** om du vill se den i detaljvyn. Om administratören har angett inställningen Visa URL visas URL-adresser för alla resurser i detaljvyn; URL:erna är dock bara aktiva efter att resursen har publicerats.
 
 >[!TIP]
 >

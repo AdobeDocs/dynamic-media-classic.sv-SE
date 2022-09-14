@@ -1,8 +1,8 @@
 ---
 title: Alternativ för finjustering av bilder vid överföring
-description: Läs mer om de alternativ för finjustering av bilder som är tillgängliga vid överföringen i Adobe Dynamic Media Classic.
+description: Lär dig mer om de alternativ för finjustering som är tillgängliga vid överföringen i Adobe Dynamic Media Classic.
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -28,27 +28,27 @@ När du överför bildfiler, inklusive AI-, EPS- och PSD-filer, kan du utföra f
 * Öka skärpan i bilder med oskarpa maskningsalternativ
 * Blockera bakgrund
 
-Dessa alternativ finns på sidan Överför under rubriken **[!UICONTROL Imaging Edit Options]**.
+Dessa alternativ finns på sidan Överför under **[!UICONTROL Imaging Edit Options]** rubrik.
 
 ## Beskära tomt utrymme från bilder
 
-Om du vill beskära pixlar med tomt utrymme automatiskt från en bild väljer du **[!UICONTROL Crop Options]** i dialogrutan Alternativ för överföringsjobb. Välj **[!UICONTROL Trim]** i listrutan **[!UICONTROL Crop]**. Välj sedan följande alternativ:
+Om du vill beskära pixlar med tomt utrymme automatiskt från en bild väljer du alternativet för överföring i dialogrutan Alternativ för överföringsjobb **[!UICONTROL Crop Options]**. I **[!UICONTROL Crop]** nedrullningsbar lista, välja **[!UICONTROL Trim]**. Välj sedan följande alternativ:
 
 * **[!UICONTROL Trim Away Based On]** - Välj i den här listrutan om du vill beskära baserat på färg eller genomskinlighet:
 
-   * **[!UICONTROL Color]** - Välj  **[!UICONTROL Color]** alternativet. I listrutan **[!UICONTROL Corner]** väljer du sedan hörnet av bilden med den färg som bäst motsvarar den vitfärgen som du vill beskära.
+   * **[!UICONTROL Color]** - Välj **[!UICONTROL Color]** alternativ. Sedan, från **[!UICONTROL Corner]** i den nedrullningsbara listan markerar du hörnet på bilden med den färg som bäst motsvarar den vita färgen som du vill beskära.
 
    * **[!UICONTROL Transparency]** - Välj alternativet Genomskinlighet.
 
 * **[!UICONTROL Tolerance]** - Dra skjutreglaget för att ange en tolerans mellan 0 och 1:
 
-   * **Trimma baserat på färg** - Ange 0 om du bara vill beskära pixlar om de exakt matchar den färg som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
+   * **Trimma baserat på färg** - Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
 
-   * **Trimma baserat på genomskinlighet**  - Ange 0 om pixlarna bara ska beskäras om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
+   * **Trimma baserat på genomskinlighet** - Ange 0 om pixlarna bara ska beskäras om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
 
 ## Beskär manuellt från bildsidorna
 
-Om du vill beskära manuellt från sidorna av en bild väljer du Beskär-menyn och sedan Manuell. Ange sedan antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Om bilden till exempel visar 150 ppi och du anger 75 i textrutorna Överkant, Höger, Underkant och Vänster beskärs en halv tum från varje sida.
+Om du vill beskära manuellt från sidorna av en bild väljer du Beskär-menyn och sedan Manuell. Ange sedan antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Om bilden till exempel visar 150 ppi och du anger 75 i textrutorna Överkant, Höger, Underkant och Vänster, 0,5 tum. beskärs från varje sida.
 
 ## Välja en färgprofil
 
@@ -58,13 +58,13 @@ Välj en färgmodell för bilden genom att välja ett färgprofilalternativ:
 
 * **[!UICONTROL Keep Original Color Space]** - Behåller den ursprungliga färgrymden.
 
-* **[!UICONTROL Custom From]** >  **[!UICONTROL To]** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
 ## Skapa en mask från en urklippsbana
 
-Om du vill skapa en mask för bilden baserat på dess urklippsbaneinformation väljer du **[!UICONTROL Create Mask From Clipping Path]**. Det här alternativet gäller bilder som skapats med bildredigeringsprogram där en urklippsbana har skapats.
+Om du vill skapa en mask för bilden baserat på dess urklippsbaneinformation markerar du **[!UICONTROL Create Mask From Clipping Path]**. Det här alternativet gäller bilder som skapats med bildredigeringsprogram där en urklippsbana har skapats.
 
 ## Öka skärpan i en bild med Oskarp mask
 
@@ -76,7 +76,7 @@ Under Oskarp mask anger du önskade alternativ. Inställningsalternativen beskri
 
 | Oskarp mask, alternativ | Beskrivning |
 | --- | --- |
-| Belopp | Styr mängden kontrast som används på kantpixlar.<br><br>Tänk på det som intensiteten i effekten. Den största skillnaden mellan mängdvärdena för Oskarp mask i Adobe Dynamic Media Classic och mängdvärdena i Adobe Photoshop är att Photoshop har ett intervall på 1 till 500 %. I Adobe Dynamic Media Classic är värdet mellan 0,0 och 5,0. Värdet 5.0 i Adobe Dynamic Media Classic motsvarar 500 % i Photoshop. värdet 0,9 motsvarar 90 % och så vidare. |
+| Belopp | Styr mängden kontrast som används på kantpixlar.<br><br>Tänk på det som intensiteten i effekten. Den största skillnaden mellan mängden oskarp mask i Adobe Dynamic Media Classic och mängden värden i Adobe Photoshop är att Photoshop har ett intervall på 1 till 500 %. I Adobe Dynamic Media Classic är värdeintervallet 0,0 till 5,0. Värdet 5.0 i Adobe Dynamic Media Classic motsvarar 500 % i Photoshop. värdet 0,9 motsvarar 90 % och så vidare. |
 | Radie | Styr radien för effekten. <br><br>Värdeintervallet är 0-250. Effekten körs på alla pixlar i en bild och strålar ut från alla pixlar i alla riktningar. Radien mäts i pixlar. Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar anger du en radie på två pixlar för bilden på 2 000 x 2 000 pixlar. Ange sedan radien 1 pixel på bilden med 500 x 500 pixlar. Ett större värde används för en bild som har fler pixlar. |
 | Tröskelvärde | Tröskelvärde är ett kontrastintervall som ignoreras när filtret Oskarp mask används. Den här effekten är viktig så att inget &quot;brus&quot; uppstår i en bild när filtret används. Värdeintervallet är 0-255, vilket är antalet intensitetssteg i en gråskalebild. 0=svart, 128=50% grått och 255=vitt.<br><br>Ett tröskelvärde på 12 ignorerar t.ex. små variationer i hudtonens ljusstyrka för att undvika att lägga till brus, men ändå ger kantkontrast till kontrastområden som där ögonfransarna möts av hud.<br><br>Om du t.ex. har ett foto av någons ansikte kommer Oskarp mask att påverka de kontrastrika delarna av bilden. Till exempel där ögonfransar och hud möts för att skapa ett tydligt kontrastområde och den utjämnade huden. Även den jämnaste huden uppvisar subtila förändringar i intensitetsvärden. Om du inte använder ett tröskelvärde framhäver filtret dessa subtila ändringar i hudpixlar. I sin tur skapas en högljudd och oönskad effekt medan kontrasten på ögonfransarna ökar, vilket ökar skärpan.<br><br>För att undvika det här problemet introduceras ett tröskelvärde som instruerar filtret att ignorera pixlar som inte förändrar kontrasten dramatiskt, som mjuk hud. <br><br>Lägg märke till texturen bredvid dragkedjan i zippargrafiken som visades tidigare. Bildbrus visas eftersom tröskelvärdena var för låga för att undertrycka bruset. |
 | Monokrom | Markera för att få bildintensiteten oskarp mask (intensitet).<br><br>Avmarkera alternativet om du vill skapa en oskarp mask för varje färgkomponent separat. |
@@ -92,8 +92,8 @@ Du kan använda Blockera bakgrund för att automatiskt ta bort bakgrunden i en b
 | Alternativ för Spara ur bakgrund | Beskrivning |
 | --- | --- |
 | Blockera bakgrund | Välj om du vill aktivera eller aktivera funktionen Blockera bakgrund och alternativen. |
-| Hörn | Obligatoriskt.<br>Hörnet på bilden som används för att definiera bakgrundsfärgen som ska blockeras.<br>Du kan välja mellan  <b>Övre vänster, Nedre vänster, Övre höger och Nedre höger</b>. |
-| Fyllningsmetod | Obligatoriskt. <br>Styr pixelgenomskinlighet från den hörnplats som du anger.<br>Du kan välja bland följande fyllningsmetoder:<br> ・  <b>Flood Fill</b> - gör alla pixlar som är genomskinliga och som matchar det hörn du har angett och som är anslutet till det.<br>・  <b>Matcha pixlar</b> - gör alla matchande pixlar genomskinliga, oavsett var de är placerade i bilden. |
+| Hörn | Obligatoriskt.<br>Hörnet på bilden som används för att definiera bakgrundsfärgen som ska blockeras.<br>Du kan välja mellan <b>Övre vänster, Nedre vänster, Övre höger eller Nedre höger</b>. |
+| Fyllningsmetod | Obligatoriskt. <br>Styr pixelgenomskinlighet från den hörnplats som du anger.<br>Du kan välja bland följande fyllningsmetoder:<br>・ <b>Flood Fill</b> - gör alla pixlar genomskinliga som matchar det hörn du har angett och som är kopplat till det.<br>・ <b>Matcha pixlar</b> - gör alla matchande pixlar genomskinliga, oavsett var de finns i bilden. |
 | Tolerans | Valfritt.<br>Styr den tillåtna variationen i pixelfärgmatchning baserat på den hörnplats som du anger.<br>Använd värdet 0,0 om du vill matcha pixelfärgerna exakt, eller använd värdet 1,0 om du vill tillåta den största variationen. |
 
 >[!MORELIKETHIS]

@@ -2,7 +2,7 @@
 title: Skapa mallparametrar
 description: Lär dig hur du skapar mallparametrar i Adobe Dynamic Media Classic.
 uuid: d17168a8-4776-4761-b022-8258d5997604
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,9 +10,9 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ När du skapar mallparametrar deklarerar du i själva verket vilka delar av mall
 
 I textlagerparametrar kan du också göra textsträngen till ett dynamiskt fält som är länkat till värden i en databas. Att kunna länka text till en databas är användbart i kampanjer. Du kan anpassa mallbilder så att de visar klient- eller kundnamn. Du kan även länka en textlagerparameter till en prisdatabas för att visa priset på ett objekt i en mallbild.
 
-Du kan referera till en parameter mer än en gång. Använd kombinationsrutan för varje kommando i parameterdialogrutan för att välja en parameter som matchar det aktuella kommandot. Alla storleksparametrar är till exempel tillgängliga för kommandot `size=`. Du kan tilldela om parameterreferensen till en parameter som redan finns i kombinationsrutan och ändra namnet till något som inte finns i kombinationsrutan. I det senare fallet måste namnet vara unikt. I annat fall visas ett fel om att parametern finns. När du tar bort en parameterreferens tas parametern bort från URL:en om den inte refereras någon annanstans. När du ändrar standardvärdet för en textparameter uppdateras alla referenser till den parametern. Uppdateringen visas i lagertabellen, i mallåtergivningen och i URL:en. När du ändrar ett lagerattribut genom att ändra storlekshandtag eller ange värden i egenskapspanelen uppdateras parametervärdet och alla referenser till parametern uppdateras. Om du till exempel har parametriserat storleken på två lager med en parameter, uppdateras båda lagerstorlekarna när någon av lagerstorlekarna ändras. När du förhandsgranskar en mall och ändrar en parameter uppdateras alla referenser till den parametern.
+Du kan referera till en parameter mer än en gång. Använd kombinationsrutan för varje kommando i parameterdialogrutan för att välja en parameter som matchar det aktuella kommandot. Alla storleksparametrar är till exempel tillgängliga för `size=` -kommando. Du kan tilldela om parameterreferensen till en parameter som redan finns i kombinationsrutan och ändra namnet till något som inte finns i kombinationsrutan. I det senare fallet måste namnet vara unikt. I annat fall visas ett fel om att parametern finns. När du tar bort en parameterreferens tas parametern bort från URL:en om den inte refereras någon annanstans. När du ändrar standardvärdet för en textparameter uppdateras alla referenser till den parametern. Uppdateringen visas i lagertabellen, i mallåtergivningen och i URL:en. När du ändrar ett lagerattribut genom att ändra storlekshandtag eller ange värden i egenskapspanelen uppdateras parametervärdet och alla referenser till parametern uppdateras. Om du till exempel har parametriserat storleken på två lager med en parameter, uppdateras båda lagerstorlekarna när någon av lagerstorlekarna ändras. När du förhandsgranskar en mall och ändrar en parameter uppdateras alla referenser till den parametern.
 
-Se även [Utbildningsvideon Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Se även [Grundläggande om mallar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) utbildningsvideo.
 
 ## Parametrisera ett lager {#parameterizing-a-layer}
 
@@ -35,21 +35,21 @@ Följ de här stegen för att skapa mallparametrar för varje lager i mallen:
 
 1. I listan Lager väljer du knappen Parametrar bredvid namnet på det lager som du vill skapa parametrar för. Skärmen Parametrar öppnas. Den visar namnen på varje parameter i lagret, dess värde och typ.
 1. Välj alternativet På bredvid namnet på varje parameter som du vill ta med i mallbilden.
-1. Välj **[!UICONTROL Close]** om du vill stänga parameterskärmen.
+1. Välj **[!UICONTROL Close]** för att avsluta parameterskärmen.
 
 >[!NOTE]
 >
->Du kan byta namn på parametrar på parameterskärmen. Om du byter namn på en parameter blir det enklare att identifiera parametern i URL-strängar och lättare att använda som databasvärde. Om du vill byta namn på en parameter markerar du dess **[!UICONTROL On]**-alternativ, markerar dess namn och anger ett nytt namn i fältet Namn.
+>Du kan byta namn på parametrar på parameterskärmen. Om du byter namn på en parameter blir det enklare att identifiera parametern i URL-strängar och lättare att använda som databasvärde. Om du vill byta namn på en parameter markerar du dess **[!UICONTROL On]** markerar du namnet och anger ett nytt namn i fältet Namn.
 
-Om du vill visa en lista över de parametrar du har skapat för mallen väljer du knappen Parametersammanfattning på mallskärmen. Skärmen Parametersammanfattning öppnas. Namnet på varje lager visas och om du har skapat parametrar för ett lager visas parameternamn och värden.
+Om du vill visa en lista över de parametrar som du har skapat för mallen väljer du knappen Parametersammanfattning på mallskärmen. Skärmen Parametersammanfattning öppnas. Namnet på varje lager visas och om du har skapat parametrar för ett lager visas parameternamn och värden.
 
 ## Skapa dynamiska textparametrar {#creating-dynamic-text-parameters}
 
 För textlager kan du också göra textsträngen till ett dynamiskt fält länkat till ett databasvärde. Följ de här stegen:
 
 1. På mallskärmen väljer du knappen Parametrar bredvid namnet på textlagret som du vill skapa dynamiska textparametrar för. Sidan Parametrar öppnas.
-1. Välj alternativet **[!UICONTROL On]** bredvid namnet på textattributet (textAttr).
-1. Välj fliken **[!UICONTROL Text]** på skärmen Parametrar.
+1. Välj **[!UICONTROL On]** bredvid textattributets namn (textAttr).
+1. Välj **[!UICONTROL Text]** i fönstret Parametrar.
 1. Välj **[!UICONTROL Add Parameter]**. Ett standardparameternamn visas. Du kan ersätta det här namnet genom att markera det och skriva över det. Den aktuella textsträngen blir parameterns nya namn.
 1. Välj **[!UICONTROL Close]** för att stänga sidan Parametrar.
 

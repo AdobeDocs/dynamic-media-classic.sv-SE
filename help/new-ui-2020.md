@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 705409e8c63dbc6cc6c336b9733c0090af84f4f7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Se [Adobe Dynamic Media Classic-datorprogram](/help/dynamic-media-classic-deskto
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_Hur fungerar det nya datorprogrammet?_**
-När du har hämtat, installerat och startat skrivbordsappen visas en uppdaterad inloggningsupplevelse. Genom att ange ditt befintliga användarnamn och lösenord och välja rätt server baserat på din region, kan du logga in på Adobe Dynamic Media Classic. Den övergripande upplevelsen är densamma som den välbekanta webbläsarversionen du är van vid. Från skrivbordsappen får du tillgång till Adobe Dynamic Media Classic produktions- och mellanlagringsmiljöer. Du kan även komma åt Media Portal om du är inloggad för den här funktionen.
+När du har hämtat, installerat och startat skrivbordsappen visas en uppdaterad inloggningsupplevelse. Genom att ange ditt befintliga användarnamn och lösenord och välja rätt server baserat på din region, kan du logga in på Adobe Dynamic Media Classic. Den övergripande upplevelsen är densamma som den välbekanta webbläsarversionen som du är van vid. Från skrivbordsappen får du tillgång till Adobe Dynamic Media Classic produktions- och mellanlagringsmiljöer. Du kan även komma åt Media Portal om du är inloggad för den här funktionen.
 
 >[!IMPORTANT]
 >
@@ -101,7 +101,7 @@ Adobe Dynamic Media Classic är en kraftfull och funktionsrik lösning som utfor
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 +++**_Jag är intresserad av att lära mig mer om att uppgradera till Adobe Dynamic Media med Adobe Experience Manager Assets. Var finns mer information?_**
-Om du vill veta mer om fördelarna med att uppgradera till nästa generation av multimedieredigering, publicering och dynamisk leverans kan du besöka [Adobe Dynamic Media uppgraderingsportal](https://exploreadobe.com/dynamic-media-upgrade/).
+Om du vill veta mer om fördelarna med att uppgradera till nästa generation av multimedieredigering, publicering och dynamisk leverans kan du besöka [Adobe Dynamic Media portal för uppgradering](https://exploreadobe.com/dynamic-media-upgrade/).
 +++
 
 >[!MORELIKETHIS]

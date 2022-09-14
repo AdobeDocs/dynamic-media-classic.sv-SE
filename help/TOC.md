@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -79,8 +79,8 @@ ht-degree: 0%
    + [Organisera ditt arbete med projekt](organizing-projects.md)
 + Bildstorlek {#image-sizing}
    + [Snabbstart: Bildstorlek](quick-start-image-sizing.md)
-   + [Överför överordnad bilder](uploading-master-images.md)
-   + [Publicera överordnad bilder](publishing-master-images.md)
+   + [Överför primära bilder](uploading-master-images.md)
+   + [Publicera primära bilder](publishing-master-images.md)
    + [Konfigurera bildförinställningar](setting-image-presets.md)
    + [Länka URL:er till ditt webbprogram](linking-urls-web-application.md)
 + Zooma {#zoom}
@@ -166,7 +166,7 @@ ht-degree: 0%
    + [Ta bort en överförd resurs](deleting-uploaded-asset.md)
    + [Hämta information om diskanvändning](getting-disk-usage-information.md)
    + [Överföra en rasterbildsresurs](uploading-image-asset-or-vector.md)
-+ Överordnad filer {#master-files}
++ Primära filer {#master-files}
    + [Bästa tillvägagångssätt för att optimera bildkvaliteten](best-practices-optimizing-quality-images.md)
    + [Redigera bilder](editing-images.md)
    + [Skapa bildscheman](creating-image-maps.md)

@@ -1,8 +1,8 @@
 ---
-title: '"Snabbstart: Media Portal"'
+title: "Snabbstart: Media Portal"
 description: En introduktion och en snabbstart till Media Portal som hjälper dig att komma igång snabbt med Media Portal-teknik och -administration i Adobe Dynamic Media Classic.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -65,9 +65,9 @@ Se [Användarroller för mediaportal](media-portal-user-roles.md#media_portal_us
 
 ## 5. Ange exportalternativ
 
-Medieportalanvändare kan, när de exporterar filer, formatera om filerna och exportera överordnad originalfiler - om du ger dem tillstånd att göra det. Som administratör bestämmer du hur användare ska exportera filer.
+Medieportalanvändare kan, när de exporterar filer, formatera om filerna och exportera ursprungliga primära filer - om du ger dem behörighet att göra det. Som administratör bestämmer du hur användare ska exportera filer.
 
-Se [Ange vilka exportalternativ som är tillgängliga för användare av Media Portal](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Se [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Skapa bildförinställningar
 
@@ -79,7 +79,7 @@ Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.m
 
 Metadata beskriver och identifierar en fil. används för att söka efter och ordna resurser. Du kan skapa metadataförinställningar för att vara säker på att metadata anges korrekt och att metadatafält som kräver data fylls i. En metadataförinställning är en fördefinierad uppsättning metadataposter. Du kan också skapa metadatafält som unikt beskriver de filer du arbetar med.
 
-Se [Använda metadata på ett effektivare sätt](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
+Se [Effektivare användning av metadata](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
 ## 8. Anpassa sidan Media Portal
 

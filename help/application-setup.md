@@ -1,16 +1,16 @@
 ---
 title: Programinställningar
 description: Lär dig hur du konfigurerar programområdet i Adobe Dynamic Media Classic. I programområdet kan du ange allmänna inställningar, skapa inställningar för bild, visningsprogram och videokodning, definiera standardvisningsprogram och -metadata, publiceringsinställningar och SEO-inställningar för video. Du kan också använda området för att ställa in gruppuppsättningsförinställningar för att automatisera genereringen av 2D-snurruppsättningar.
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 121081e90b68357f7602924cd6ced0c0256b378f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '10717'
+source-wordcount: '10713'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ När du skapar ett konto tillhandahåller Adobe Dynamic Media Classic automatisk
 
 Se även [Testa tjänsten för säker testning](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL Published Server Name]** - Den här servern är CDN-servern (Live Content Deliver Network) som används i alla systemgenererade URL-anrop som är specifika för ditt konto. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en supporttekniker från Adobe Dynamic Media Classic.
+* **[!UICONTROL Published Server Name]** - Den här servern är den CDN-server (Content Deliver Network) som används för alla systemgenererade URL-anrop som är specifika för ditt konto. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en supporttekniker från Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Origin Server Name]** - Den här servern används endast för kvalitetstestning. Ändra inte det här servernamnet om du inte har fått instruktioner om att göra det av en supporttekniker från Adobe Dynamic Media Classic.
 
@@ -85,11 +85,11 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
 * **[!UICONTROL Show Encoded Videos]** - Avmarkerat (av) som standard.
 
-   Om du snabbt vill söka efter och bläddra efter videofilmer i Adobe Dynamic Media Classic utan att behöva navigera bland flera kodade derivat av samma videofil låter du det här alternativet vara avmarkerat (standard). Endast den Överordnad videominiatyrbilden (den källvideo som du överförde och använde för att skapa derivat) och den överordnade miniatyrbilden för adaptiva videouppsättningar (som innehåller de underordnade varianterna för den kodade videouppsättningen) visas.
+   Om du snabbt vill söka efter och bläddra efter videofilmer i Adobe Dynamic Media Classic utan att behöva navigera bland flera kodade derivat av samma videofil låter du det här alternativet vara avmarkerat (standard). Endast den primära videominiatyrbilden (den källvideo som du överförde och använde för att skapa derivat) och den överordnade miniatyrbilden för den anpassade videouppsättningen (som innehåller de underordnade derivaten för den kodade videouppsättningen) visas.
 
-   Du kan dock fortfarande komma åt enskilda kodade videoklipp från den Överordnad videon eller den adaptiva videouppsättningen. Om du vill göra det dubbelklickar du på miniatyrbilden för videon för att öppna detaljvyn. Välj sedan **[!UICONTROL Encoded Videos]** i den högra panelen så att du kan komma åt alla underordnade videor.
+   Du kan dock fortfarande komma åt enskilda kodade videoklipp från den primära videon eller den adaptiva videouppsättningen. Om du vill göra det dubbelklickar du på miniatyrbilden för videon för att öppna detaljvyn. Välj sedan **[!UICONTROL Encoded Videos]** i den högra panelen så att du kan komma åt alla underordnade videor.
 
-   Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]** för att skapa mer kodade underordnade videor direkt från en adaptiv videouppsättning. Adobe Dynamic Media Classic hittar automatiskt den&quot;överordnade&quot; Överordnad videon i den adaptiva videouppsättningen och använder den som källvideo för transkodning. När du sparar de nya enskilda kodade videofilmerna visas de dock inte när du söker efter eller bläddrar. De är dock fortfarande tillgängliga på fliken Kodade videoklipp i detaljvyn.
+   Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]** för att skapa mer kodade underordnade videor direkt från en adaptiv videouppsättning. Adobe Dynamic Media Classic hittar automatiskt den&quot;överordnade&quot; primära videon i den adaptiva videouppsättningen och använder den som källvideo för transkodning. När du sparar de nya enskilda kodade videofilmerna visas de dock inte när du söker efter eller bläddrar. De är dock fortfarande tillgängliga på fliken Kodade videoklipp i detaljvyn.
 
    Se [Överför och koda om videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -131,7 +131,7 @@ Se även [Standardalternativ för överföringsjobb](https://s7d5.scene7.com/s7v
 
 ### Image Map Editor, to Application
 
-* **[!UICONTROL Default Image Mapping HREF]** - Definierar den standard-URL som används för HREF-kolumnen i bildmappningen. Den här URL:en är den standardadress du ser när du skapar bildscheman.
+* **[!UICONTROL Default Image Mapping HREF]** - Definierar den standard-URL som används för HREF-kolumnen i bildmappningen. Den här URL:en är den standardadress som visas när du skapar bildscheman.
 
 * **[!UICONTROL Default Image Mapping Template]** - Definierar JavaScript-standard för HREF-mallen vid bildmappning. Du kan ange att egen kod ska köras här när du väljer ett bildschema.
 
@@ -153,7 +153,7 @@ Om du avmarkerar det här alternativet behandlas alla bilder med samma filnamn s
 
 ## Bildförinställningar {#image-presets}
 
-Skärmen Bildförinställningar används för att skapa och redigera bildförinställningar. Med bildförinställningar kan Adobe Dynamic Media Classic leverera bilder dynamiskt i olika storlekar från samma överordnad bild. Varje bildförinställning representerar en fördefinierad samling kommandon för storleksändring och formatering för visning av bilder. När du skapar en bildförinställning väljer du en storlek för bildleverans. Du kan också välja formateringskommandon så att bildens utseende optimeras när bilden levereras för visning.
+Skärmen Bildförinställningar används för att skapa och redigera bildförinställningar. Med bildförinställningar kan Adobe Dynamic Media Classic leverera bilder dynamiskt i olika storlekar från samma primära bild. Varje bildförinställning representerar en fördefinierad samling kommandon för storleksändring och formatering för visning av bilder. När du skapar en bildförinställning väljer du en storlek för bildleverans. Du kan också välja formateringskommandon så att bildens utseende optimeras när bilden levereras för visning.
 
 Administratörer kan skapa förinställningar för att exportera resurser. Användarna kan välja en förinställning när de exporterar bilder, vilket även innebär att bilderna formateras om enligt de specifikationer som administratören anger.
 
@@ -262,7 +262,7 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 ## Aktivera eller inaktivera anpassade videoförinställningar {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic har förinställningar för adaptiv videokodning. Det är en överordnad lista med förinställningar som kombinerar både 16:9-förinställningar för adaptiv video och 4:3-förinställningar för adaptiv video till en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
+Adobe Dynamic Media Classic har förinställningar för adaptiv videokodning. Det är en primär lista med förinställningar som kombinerar både 16:9-förinställningar för adaptiv video och 4:3-förinställningar för adaptiv video i en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
 
 Endast kodningsförinställningar för adaptiv video aktiveras (aktiverat eller aktiverat) som standard. Du kan avaktivera den om du vill. Inaktiva förinställningar för adaptiv video visas inte som ett valbart alternativ i delen eVideo i dialogrutan Alternativ för överföringsjobb.
 
@@ -310,7 +310,7 @@ Välj en kodningsförinställning i det nedre högra hörnet på sidan Överför
       * Välj en kodningsförinställning baserat på upplösningsstorleken och bandbredden som du vill spela upp videon med.
       * Du kan välja Adaptiv videokodning och en eller flera kodningsförinställningar per video. Du kan till exempel koda en fil för både dator och mobil i ett överföringsjobb.
 
-När du har valt **[!UICONTROL Start Upload]**, överförs den ursprungliga överordnad videofilen och kodade filer genereras från den överordnad filen.
+När du har valt **[!UICONTROL Start Upload]**, överförs den ursprungliga primära videofilen och kodade filer genereras från den primära filen.
 
 ### Om alternativ för kodningsförinställningar {#about-encoding-preset-options}
 
@@ -344,7 +344,7 @@ En förinställning för kodning som fungerar med alla proportioner så att du k
 
 ### Videoförinställningar för Adaptiv videokodning (16:9 eller 4:3) {#adaptive-video-encoding-or-video-presets}
 
-Dessa adaptiva videokodningsförinställningar kombinerar en serie individuella kodningsförinställningar som väljs automatiskt utifrån proportionerna för den video du överförde. Om du till exempel överför en 4:3-video kodas den automatiskt med alla fem 4:3-förinställningar som finns i den överordnad förinställningslistan i **Adaptiv videokodning (16:9 eller 4:3)** alternativ.
+Dessa adaptiva videokodningsförinställningar kombinerar en serie individuella kodningsförinställningar som väljs automatiskt utifrån proportionerna för den video du överförde. Om du till exempel överför en 4:3-video kodas den automatiskt med alla fem 4:3-förinställningar som finns i den primära förinställningslistan i **Adaptiv videokodning (16:9 eller 4:3)** alternativ.
 
 Mer information om parametrar för kodningsalternativ finns i [Om alternativ för kodningsförinställningar](application-setup.md#about_encoding_preset_options).
 
@@ -462,7 +462,7 @@ Administratörer kan skapa och anpassa följande typer av visningsförinställni
 
 * **[!UICONTROL Spin Set Viewer]** - Ger flera vyer av en bild så att användare kan vrida objektet för att undersöka olika sidor och vinklar.
 
-* **Video Viewer** - Visar videoklipp med källfilens upplösning eller en anpassad storlek. Adobe Dynamic Media Classic innehåller många fördefinierade visningsförinställningar för uppspelning av video, och om du är administratör kan du skapa anpassade förinställningar för visningsprogrammet för video. Det finns mer än ett dussin olika inställningar för att konfigurera Video Viewer. Du kan konfigurera dess storlek, för- och bakgrundsfärg, video- och ljudkontroller, förloppsindikator, användargränssnittets skal, sociala funktioner och hjälp.
+* **Video Viewer** - Visar videoklipp med källfilens upplösning eller en anpassad storlek. Adobe Dynamic Media Classic innehåller många fördefinierade visningsförinställningar för uppspelning av video, och om du är administratör kan du skapa anpassade förinställningar för visningsprogrammet för video. Det finns mer än 12 olika inställningar för att konfigurera Video Viewer. Du kan konfigurera dess storlek, för- och bakgrundsfärg, video- och ljudkontroller, förloppsindikator, användargränssnittets skal, sociala funktioner och hjälp.
 
 * **[!UICONTROL Zoom Viewers]** - Du kan välja mellan tre olika typer av zoomvisningsprogram:
 
@@ -525,7 +525,7 @@ Se [Versionsinformation om Adobe-visningsprogrammet](https://experienceleague.ad
 
 Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video.
 
-* Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande: [Videoformat som stöds på BlackBerry®](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande: [Videoformat som stöds på BlackBerry®](https://developers.blackberry.com/us/en)
 * Du kan även hitta Windows®-enheter som stöder det här videoformatet på följande: [Videoformat som stöds på Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet PC | BlackBerry® Smartphone | Windows® Phone |
@@ -629,7 +629,7 @@ Se även [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7vie
 
 Du kan exportera en befintlig HTML5-visningsförinställning som du kan använda som grund för att skapa en visningsförinställning för HTML5. Det här exportalternativet är användbart eftersom du inte behöver skapa visningsprogrammet från grunden. I stället exporterar du en förinställning som ser ut och beter sig ungefär som du vill ha den, och sedan kan du använda den som utgångspunkt för att göra designjusteringar.
 
-Alla standardförinställda CSS-filer för visningsprogram i Adobe Dynamic Media Classic använder relativa bildvisningssökvägar som pekar på resurser på `Scene7SharedAssets`. Följande är till exempel en relativ sökväg till en bildresurs i en CSS-fil för visningsförinställningar i
+Alla förinställda CSS-filer i visningsprogrammet som är standard i Adobe Dynamic Media Classic använder relativa sökvägar för bildvisning som pekar på resurser på `Scene7SharedAssets`. Följande är till exempel en relativ sökväg till en bildresurs i en CSS-fil för visningsförinställningar i
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
@@ -951,7 +951,7 @@ Se även [Skapa en förinställning för gruppuppsättning](application-setup.md
 
 Det finns inget minsta eller högsta antal rader eller kolumner som du måste ha i en rotationsuppsättning med flera axlar.
 
-Anta till exempel att du vill skapa en fleraxelsnurra med namnet *spin-2dspin*. Du har en uppsättning bilder med snurra uppsättningar som innehåller tre rader, med 12 bilder per rad. Bilderna får följande namn:
+Anta till exempel att du vill skapa en fleraxelsnurvuppsättning med namnet *spin-2dspin*. Du har en uppsättning bilder med snurra uppsättningar som innehåller tre rader, med 12 bilder per rad. Bilderna får följande namn:
 
 ```as3
 spin-01-01
@@ -1009,7 +1009,7 @@ När snurruppsättningen överförs och publiceras aktiverar du namnet på det t
 
    >[!NOTE]
    >
-   >Om kombinationen av reguljära uttryck för rader och kolumner inte kan avgöra resursens position i den flerdimensionella rotationsuppsättningsarrayen, läggs resursen inte till i uppsättningen och ett fel loggas.
+   >Om kombinationen av reguljära uttryck i rader och kolumner inte kan avgöra resursens position i den flerdimensionella rotationsmängdsarrayen, läggs resursen inte till i uppsättningen och ett fel loggas.
 
 1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Definiera också var bilduppsättningen ska skapas i mappstrukturen för Adobe Dynamic Media Classic.
 

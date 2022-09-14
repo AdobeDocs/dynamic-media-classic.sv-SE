@@ -1,8 +1,8 @@
 ---
 title: Hantera innehållsvariationer
-description: Läs om hur du hanterar innehållsvariationer i Adobe Dynamic Media Classic.
+description: Lär dig hur du hanterar innehållsvariationer i Adobe Dynamic Media Classic.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -29,8 +29,8 @@ Du kan använda valfri URL för bildförinställningar i listan. URL:er för bil
 
 1. Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
 1. Välj en mall i verktyget och välj sedan **[!UICONTROL Add/Preview]**.
-1. Ändra mallegenskaperna och välj **[!UICONTROL Save As]** om du vill skapa en annan version.
-1. Skriv ett namn och välj sedan **[!UICONTROL Save]**.
+1. Ändra mallegenskaperna och välj **[!UICONTROL Save As]** för att skapa en ny version.
+1. Skriv ett namn och välj **[!UICONTROL Save]**.
 
    Både resursen och mallen måste publiceras.
 

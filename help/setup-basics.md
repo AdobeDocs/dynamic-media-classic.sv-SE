@@ -1,8 +1,8 @@
 ---
-title: 'Grundläggande om inställningar '
+title: Grundläggande om inställningar
 description: Lär dig hur du använder installationsskärmen för att ange dina personliga inställningar i Adobe Dynamic Media Classic. Om du är administratör konfigurerar du företagsinställningarna.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
@@ -10,7 +10,7 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -19,18 +19,18 @@ ht-degree: 0%
 
 # Grundläggande om inställningar{#setup-basics}
 
-Använd sidan Adobe Dynamic Media Classic Setup för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Om du vill öppna en inställningssida väljer du **[!UICONTROL Setup]** i fältet Global navigering.
+Använd sidan Adobe Dynamic Media Classic Setup för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Om du vill öppna en inställningssida väljer du **[!UICONTROL Setup]**.
 
 Vilka inställningar som är tillgängliga på den här sidan beror på din status som användare eller administratör:
 
-* Användare har endast åtkomst till **[!UICONTROL Personal Setup]** och kontona för de företag där de är medlemmar. de inte kan utföra några administrativa uppgifter.
-* Administratörer kan komma åt **[!UICONTROL Personal Setup]** och visa och administrera sina egna företagskonton. De kan också utföra alla programkonfigurationsfunktioner och alla administrationsfunktioner, inklusive lägga till administratörer och användare.
+* Användare kan bara komma åt **[!UICONTROL Personal Setup]** och räkenskaperna för de bolag som de är medlemmar i, de inte kan utföra några administrativa uppgifter.
+* Administratörer har åtkomst **[!UICONTROL Personal Setup]** och visa och administrera sina egna företagskonton. De kan också utföra alla programkonfigurationsfunktioner och alla administrationsfunktioner, inklusive lägga till administratörer och användare.
 
-Administratörer kan också konfigurera bildförinställningar och visningsförinställningar på **[!UICONTROL Setup]**-sidan:
+Administratörer kan också konfigurera bildförinställningar och visningsförinställningar i dialogrutan **[!UICONTROL Setup]** sida:
 
-* **Bildförinställningar**  - Bildförinställningar är sparade format för visning av primära bilder i olika storlekar och format.
+* **Bildförinställningar** - Bildförinställningar är sparade format för visning av primära bilder i olika storlekar och format.
 
-* **Förinställningar**  för visningsprogram - Förinställningarna för visningsprogram avgör hur du ser multimedia när du ser dem i ett visningsprogram.
+* **Förinställningar för visningsprogram** - Visningsförinställningarna bestämmer hur du ser dina multimedia när du ser dem i ett visningsprogram.
 
 >[!MORELIKETHIS]
 >

@@ -2,7 +2,7 @@
 title: Anpassa skärmen Media Portal
 description: Lär dig hur du anpassar Media Portal-skärmen i Adobe Dynamic Media Classic.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Med formatinställningarna för Media Portal kan du märka upp Media Portal-skärmen med företagets logotyp och färger. Använd formatinställningarna för att lägga företagets varumärke på Media Portal.
 
-Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]** om du vill komma åt formatinställningarna. Se till att du väljer **[!UICONTROL Save]** för att spara inställningarna när du har gjort dem. Du kan välja **[!UICONTROL Restore]** om du vill återställa standardinställningarna. När du gör dina val visas hur de visas på panelen Förhandsvisa.
+Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]**. Se till att du väljer **[!UICONTROL Save]** om du vill spara inställningarna när du har gjort dem. Du kan välja **[!UICONTROL Restore]** för att återställa standardinställningarna. När du gör dina val visas hur de visas på panelen Förhandsvisa.
 
-* **[!UICONTROL Logo]** - Markera  **[!UICONTROL Browse]** och välj sedan en bild i fönstret Välj logotypbild.
+* **[!UICONTROL Logo]** - Välj **[!UICONTROL Browse]** och välj sedan en bild i fönstret Välj logotypbild.
 
 * **[!UICONTROL Application]** - Skapa en övertoningsfärgblandning genom att göra val på menyerna Bakgrundsövertoningsfärger.
 
@@ -39,7 +39,7 @@ Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICO
 
 * **[!UICONTROL Progress Bar]** - Välj en färg för fältet som anger förloppet för överföringar och nedladdningar.
 
-För att Media Portal-användare ska kunna se de formatinställningar som du har valt måste de lägga till `?company=(company name)` till den URL som de kommer åt Media Portal med. Om du till exempel vill se formatinställningar kan du använda Media Portal-användare som har åtkomst till portalföretaget på följande plats:
+För att Media Portal-användare ska kunna se de formatinställningar som du har valt måste de lägga till `?company=(company name)` till den URL som de använder för att komma åt Media Portal. Om du till exempel vill se formatinställningar kan du använda Media Portal-användare som har åtkomst till portalföretaget på följande plats:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -51,4 +51,4 @@ Om du tar med företagsnamnet i URL:en kan Media Portal identifiera vilket före
 
 Du kan lära dig mer om hur du kommunicerar URL-ändringar med Media Portal-användare och hur du konfigurerar ett välkomstmeddelande så att nya användare får rätt URL för Media Portal.
 
-Se [Konfigurera välkomstmeddelandet för Media Portal-användare](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
+Se [Konfigurera e-postmeddelandet med välkomstmeddelanden för Media Portal-användare](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).

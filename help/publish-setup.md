@@ -1,40 +1,40 @@
 ---
 title: Publiceringsinställningar
-description: Med publiceringsinställningarna kan du bestämma hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program.
-contentOwner: admin
+description: Med inställningarna för publiceringsinställningar kan du bestämma hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program.
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '2345'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
 
 # Publiceringsinställningar {#publish-setup}
 
-Inställningarna på sidan Publiceringsinställningar avgör hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program. Om ingen inställning har angetts levererar Adobe Dynamic Media Classic-servern en resurs enligt standardinställningen på en publiceringsinställningssida. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på sidan Bildserver.
+Inställningarna på sidan Publiceringsinställningar avgör hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program. Om ingen inställning har angetts levererar Adobe Dynamic Media Classic-servern en resurs enligt en standardinställning på en publiceringsinställningssida. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på sidan Bildserver.
 
 Administratörer kan ändra standardinställningarna på sidorna Image Server, Image Renderer och Vinjettering för att skapa standardinställningar för att leverera resurser från servrar.
 
-Öppna sidorna Publiceringsinställningar genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
+Om du vill öppna sidorna Publiceringsinställningar går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
 
 >[!NOTE]
 >
->Publiceringsinstallationssidorna är till för erfarna webbplatsutvecklare och programmerare. Adobe Dynamic Media Classic förutsätter att användare som ändrar inställningar på dessa sidor är bekanta med Adobe Dynamic Media Classic, HTTP-protokollets standarder och konventioner samt grundläggande bildbehandlingsteknik.
+>Publiceringsinstallationssidorna är till för erfarna webbplatsutvecklare och programmerare. Adobe Dynamic Media Classic förutsätter att användare som ändrar inställningar på dessa sidor känner till Adobe Dynamic Media Classic, HTTP-protokollets standarder och konventioner samt grundläggande bildbehandlingsteknik.
 
 ## Bildserver {#image-server}
 
 Sidan Image Server används för att ange standardinställningar för att leverera bilder från bildservrar. Inställningarna är tillgängliga i dessa fem kategorier (se sidan Image Server för mer ingående beskrivningar av inställningarna).
 
-Ändra dessa inställningar endast med hjälp av en Adobe Dynamic Media Classic-supportperson.
+Ändra dessa inställningar endast med hjälp av en supportperson från Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Catalog Management]** - De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista över allt innehåll som publiceras till bildservern tillsammans med sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
 
-* **[!UICONTROL Request Attributes]** - De här inställningarna begränsar antalet bilder som kan levereras från servern. Till exempel är *maximum* **[!UICONTROL Reply Image Size Limit]** **[!UICONTROL Width]** 5000 och **[!UICONTROL Height]** 5000.
+* **[!UICONTROL Request Attributes]** - De här inställningarna begränsar antalet bilder som kan levereras från servern. Till exempel *maximum* **[!UICONTROL Reply Image Size Limit]** är **[!UICONTROL Width]** 5000 och **[!UICONTROL Height]** 5000.
 
 * **[!UICONTROL Default Request Attributes]** - De här inställningarna gäller standardutseendet för bilder.
 
@@ -51,17 +51,17 @@ Sidan Image Server används för att ange standardinställningar för att levere
    Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning genom att lägga till de översatta textsträngarna för det språk du vill använda.
 
    >[!NOTE]
-   > [Använd Admin Console för att skapa ett supportärende om du vill ställa in alternativ för lokaliseringsstöd.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) I ditt supportärende, begär du hjälp med konfiguration.
+   > Så här ställer du in alternativ för lokaliseringsstöd: [Använd Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med konfiguration.
 
-   Mer information om hur du konfigurerar **[!UICONTROL Localization Support]** finns i [Att tänka på när du konfigurerar lokalisering av resurser](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+   Mer information om konfiguration **[!UICONTROL Localization Support]**, se [Att tänka på när lokalisering av resurser konfigureras](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Att tänka på när lokalisering av resurser konfigureras {#considerations-when-setting-up-localization-of-assets}
 
 >[!NOTE]
 >
->Om du vill ställa in alternativ för lokaliseringsstöd i Adobe Dynamic Media Classic, till exempel fältet för språkinställningar, [använder du Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) I ditt supportärende, begär du hjälp med konfiguration.
+>Om du vill ställa in alternativ för lokaliseringsstöd i Adobe Dynamic Media Classic, t.ex. fältet Lokalkarta, [Använd Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med konfiguration.
 
-Ett vanligt sätt att använda Adobe Dynamic Media Classic är att hantera produktbilder på e-handelswebbplatser. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast gäller skillnaderna några delar av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över bara skillnaderna är en stor insats och motsäger den enda överordnad tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Adobe Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
+Ett vanligt sätt att använda Adobe Dynamic Media Classic är att hantera produktbilder på webbplatser för e-handel. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast gäller skillnaderna några delar av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över bara skillnaderna är en stor insats och motsäger den enda primära tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Adobe Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
 
 #### Hur resurser lokaliseras
 
@@ -71,11 +71,11 @@ Språkinställningen för en IS-begäran (Image Serving) identifieras med följa
 
 Det här kommandot accepterar en sträng för språk-ID (locId) som inte är skiftlägeskänslig. Språk-ID:t är vanligtvis en 2-6-teckensträng som består av bokstäver och&quot;_&quot;.
 
-IS stöder godtyckliga utskrivbara ASCII-strängar. Kommandot `locale=` har ett globalt omfång, vilket innebär att det tillämpas på hela begäran, inklusive alla kapslade IS- och IR-begäranden, refererade mallar och bildlager. Det finns inte stöd för flera språkområden per begäran, t.ex. olika språkområden för varje lager. Det går dock att tillåta explicita åsidosättningar i kapslade begäranden.
+IS stöder godtyckliga utskrivbara ASCII-strängar. The `locale=` -kommandot har ett globalt omfång, vilket innebär att det tillämpas på hela begäran, inklusive alla kapslade IS- och IR-begäranden, refererade mallar och bildlager. Det finns inte stöd för flera språkområden per begäran, t.ex. olika språkområden för varje lager. Det går dock att tillåta explicita åsidosättningar i kapslade begäranden.
 
-Om `locale=` inte anges skickas `attribute::DefaultLocale` till översättningsmotorerna. Begränsad indatavalidering används för `locale=`-värdet. Tomma `locale=`-värden tillåts. Eftersom `locale=` har ett globalt omfång anges `attribute::DefaultLocale` av huvudkatalogen för hela begäran.
+If `locale=` har inte angetts, `attribute::DefaultLocale` skickas till översättningsmotorerna. Begränsad indatavalidering används för `locale=` värde. Tom `locale=` värden tillåts. För `locale=` har ett globalt omfång, `attribute::DefaultLocale` anges av huvudkatalogen för hela begäran.
 
-Några av fördelarna med att använda `locale=` och `attribute::DefaultLocale` är följande:
+Några av fördelarna med att använda `locale=` och `attribute::DefaultLocale` inkludera följande:
 
 * Dela innehåll för flera språkområden.
 * Använd språkspecifikt innehåll med generiska ID:n.
@@ -97,47 +97,47 @@ Några av fördelarna med att använda `locale=` och `attribute::DefaultLocale` 
 
 #### Implementera resurslokalisering
 
-Adobe Dynamic Media Classic och Image Serving har ett gränssnitt för lokalisering av bilder och statiskt innehåll.
+Adobe Dynamic Media Classic och Image Serving har ett gränssnitt som möjliggör lokalisering av bilder och statiskt innehåll.
 
 Utan lokalisering ser en Image Server-URL ut så här:
 
 `https://server/is/image/company/image`
 
-Vid lokalisering lägger en Image Server-URL till parametern `locale=` i sökvägen, som i följande exempel:
+Med lokalisering lägger en Image Server-URL till `locale=` -parameter till sökvägen, som i följande:
 
 `https://server/is/image/company/image?locale=de_DE`
 
-När http-anropet tas emot av Image Server tolkas parametern `locale=` via fältet `localeMap` i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]** gruppen.
+När http-anropet tas emot av Image Server, `locale=` parametern tolkas genom `localeMap` fält hittades i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]** grupp.
 
 Fältet Lokalkarta innehåller en lista med poster som separeras med lodsymbolen (|).
 
-Varje post består av en kommaavgränsad lista med värden. Det första värdet är det sökvärde som skickas av parametern `locale=`. De återstående värdena är suffix-/ersättningsvärden som sedan testas tills ett resultat har skapats i en befintlig bild.
+Varje post består av en kommaavgränsad lista med värden. Det första värdet är sökvärdet som skickas av `locale=` parameter. De återstående värdena är suffix-/ersättningsvärden som sedan testas tills ett resultat har skapats i en befintlig bild.
 
-Om ett suffixvärde eller ett ersättningsvärde används beror på inställningen för Global Locale i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]** gruppen.
+Om ett suffixvärde eller ett ersättningsvärde används beror på inställningen för globalt språk i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]** grupp.
 
 >[!NOTE]
 >
->Inställningen Global Locale är bara möjlig om du anger den via API:t, inte i Adobe Dynamic Media Classic-gränssnittet.
+>Inställningen Global Locale är bara möjlig när du anger den via API:t, inte i Adobe Dynamic Media Classic-gränssnittet.
 
 **Exempel på suffix:**
 
 | URL | localeMap-ID:n | Resultat |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observera att GlobalLocale inte har definierats. Språkinställningsparametern de_DE matchas mot den första posten i `localeMap`. Det första motsvarande värdet _DE läggs till som ett suffix till resursen image_DE och ett försök görs att hitta det på bildservern. Om den hittas på servern returneras den. I annat fall används det andra värdet &quot;&quot; som suffix, vilket resulterar i att själva bilden returneras. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observera att GlobalLocale inte har definierats. Språkparametern de_DE matchas mot den första posten i `localeMap`. Det första motsvarande värdet _DE läggs till som ett suffix till resursen image_DE och ett försök görs att hitta det på bildservern. Om den hittas på servern returneras den. I annat fall används det andra värdet &quot;&quot; som suffix, vilket resulterar i att själva bilden returneras. |
 
 **Exempel på ersättning:**
 
-| URL | `GlobalLocale` och  `localeMap` ID | Resultat |
+| URL | `GlobalLocale` och `localeMap` ID | Resultat |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | I ersättningsexemplet ovan anges GlobalLocale till main. Språkinställningsparametern de_DE matchas mot den första posten i `localeMap`. Delsträngen GlobalLocale hittas och ersätts med det första motsvarande värdet `de` i `localeMap`: `image-de-01`. Om den hittas på Image Server returneras den. Om inte ersätts det andra värdet, vilket resulterar i `image-main-01`. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | I ersättningsexemplet ovan anges GlobalLocale till main. Språkparametern de_DE matchas mot den första posten i `localeMap`. Delsträngen GlobalLocale hittas och ersätts med det första motsvarande värdet `de` i `localeMap`: `image-de-01`. Om den hittas på Image Server returneras den. Om inte ersätts det andra värdet, vilket resulterar i `image-main-01`. |
 
 Om ingen språkinställning har definierats i URL:en tar Image Server DefaultLocale, om den är definierad, och tillämpar den på URL:en.
 
-Om en okänd eller tom språkområdesparameter anges med `locale=` genomsöks `localeMap` efter det tomma värdet &quot;som börjar med,&quot;. Det är viktigt att ha ett standardspråk för okända språk.
+Om en okänd eller tom språkparameter anges `locale=`och sedan `localeMap` skannas efter det tomma värdet &quot;som börjar med,&quot;. Det är viktigt att ha ett standardspråk för okända språk.
 
 #### Om defaultImage
 
-Bildservern försöker att välja det begärda språket, det ena efter det andra. Om ingen matchning hittas används språkalternativen för defaultImage och den matchande versionen returneras. Därför måste varje språkområde innehålla ett alternativ för bilden utan lokalisering, eller så är lokaliserade defaultImage-versioner tillgängliga i Adobe Dynamic Media Classic.
+Bildservern försöker att välja det begärda språket, det ena efter det andra. Om ingen matchning hittas används språkalternativen för defaultImage och den matchande versionen returneras. Därför måste varje språkinställning innehålla ett alternativ för bilden utan lokalisering, eller lokaliserade defaultImage-versioner är tillgängliga i Adobe Dynamic Media Classic.
 
 #### Scenarier för att hitta localeMap
 
@@ -145,7 +145,7 @@ Anta att du vill ha stöd för följande språk:
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-Du mappar dessa språkinställningar till suffixen `_E`, `_G` och `_F` för engelska, tyska respektive franska. För alla exempel är det allmänna ID:t för indatabilden `myImg`.
+Du mappar de här språkinställningarna till suffixen `_E`, `_G`och `_F`, för engelska, tyska och franska. För alla exempel är det generiska indatabilds-ID:t `myImg`.
 
 ##### Standardbeteende för att hitta localeMap
 
@@ -172,7 +172,7 @@ Du kan mappa okända språk till specifika ID:n eller till generiska ID:n. Du ka
 | fr | myImg_F, myImg |
 | Alla andra | myImg_E, myImg |
 
-Du kan också ha ett dedikerat locSuffix, till exempel U, bara för okända språkinställningar, och tvinga till standardbilden om det inte finns någon `_U`, som i följande exempel:
+Du kan också ha ett dedikerat locSuffix, till exempel U, för okända språk, och tvinga till standardbilden om inget `_U` finns, som i följande:
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,U`
 
@@ -184,7 +184,7 @@ Du kan också mappa direkt till det generiska ID:t, som i följande exempel:
 
 Det är ofta önskvärt att gruppera språkområden, t.ex. europeiska, Mellanöstern och Nordamerika, för att ta hänsyn till regionala standarder, t.ex. hudexponering. Du kan uppnå den här effekten med en sökning på flera nivåer.
 
-Anta i det här exemplet att du vill ha stöd för samlingar för väst- och Mellanöstern-användning. Båda samlingarna är baserade på den generiska bildsamlingen, och båda lägger till eller ändrar vissa bilder. Båda samlingarna har sedan förfinats ytterligare för specifika språkområden, till exempel `m1, m2` för två mellanöstra varianter och `w1, w2,` och `w3` för tre västerländska språkområden, förutom att bilder delas för `w1` och `w3`. Okända språk mappas endast till den generiska samlingen och har inte tillgång till språkspecifika bilder. Så här skulle kartan se ut:
+Anta att du vill ha stöd för samlingar för västerländsk och mellanöstern. Båda samlingarna är baserade på den generiska bildsamlingen, och båda lägger till eller ändrar vissa bilder. Båda samlingarna förfinas sedan ytterligare för specifika språkområden, som `m1, m2` för två varianter från Mellanöstern, och `w1, w2,` och `w3` för tre västerländska språk, förutom att bilder delas för `w1` och `w3`. Okända språk mappas endast till den generiska samlingen och har inte tillgång till språkspecifika bilder. Så här skulle kartan se ut:
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -198,9 +198,9 @@ Anta i det här exemplet att du vill ha stöd för samlingar för väst- och Mel
 
 ##### Hitta språkinställningskartan genom att söka efter specifika ID:n
 
-Vissa namngivningskonventioner för bilder stöder inte generiska bild-ID:n. De generiska ID:n från begäran måste mappas till ett specifikt ID i katalogen. Det finns dock instanser där det exakta specifika ID:t inte är känt.
+Vissa namngivningskonventioner stöder inte generiska bild-ID:n. De generiska ID:n från begäran måste mappas till ett specifikt ID i katalogen. Det finns dock instanser där det exakta specifika ID:t inte är känt.
 
-Om du använder det första exemplet som bas kan bilder för alla språk ha suffixen `_1`, `_2` eller `_3`. Bilder som är specifika för franska språk kan ha suffixen `_22` eller `_23`. Och bilder som är specifika för tyska språk kan ha suffixen `_470` eller `_480`.
+Om du använder det första exemplet som bas kan bilder för alla språk ha suffixen `_1`, `_2`, eller `_3`. Bilder som är specifika för franska språk kan ha suffixen `_22` eller `_23` suffix. Och bilder som är specifika för tyska språk kan ha suffixen `_470` eller `_480`.
 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
@@ -214,13 +214,13 @@ Om du använder det första exemplet som bas kan bilder för alla språk ha suff
 
 * Lokaliseringen är begränsad till ID-baserade tillgångsanrop och kan inte användas för sökvägsbaserade resursanrop. När videoklipp med språkområde anropas måste de därför anropas som företag/tillgångs-ID. ingen fullständig sökväg till videon. Du kan inte använda rtmp vid lokalisering eftersom den metoden endast är avsedd för sökvägsbaserade videoanrop.
 * Du kan inte använda en uppsättning med blandade media som innehåller en enda video när localeMap är aktivt, annars misslyckas anropet till innehållet i uppsättningen. Du kan lösa det här problemet genom att lägga till en enda video i en adaptiv videouppsättning. Lägg sedan till den adaptiva videouppsättningen i en blandad medieuppsättning.
-* Vissa förfrågningar är inte lokaliserade, till exempel förfrågningar om innehållet i en adaptiv videouppsättning. Om du tänker använda adaptiva videouppsättningar med lokalisering, ska du därför placera den adaptiva videouppsättningen i en blandad mediamängd. Anropa sedan uppsättningen till ett visningsprogram för blandade media med parametern `locale=`.
+* Vissa förfrågningar är inte lokaliserade, till exempel förfrågningar om innehållet i en adaptiv videouppsättning. Om du tänker använda adaptiva videouppsättningar med lokalisering, ska du därför placera den adaptiva videouppsättningen i en blandad mediamängd. Anropa sedan uppsättningen till ett visningsprogram för blandade media med `locale=` parameter.
 
 ## Bildåtergivning {#image-renderer}
 
-Sidan Bildåtergivning används för att ange standardinställningar för att leverera bilduppsättningar från bildåtergivningsservrar. Inställningarna är tillgängliga i dessa fem kategorier (mer information om inställningarna finns på sidan Image Server):
+Sidan Bildåtergivning används för att ange standardinställningar för att leverera bilduppsättningar från bildåtergivningsservrar. Inställningarna är tillgängliga i följande fem kategorier (mer information om inställningarna finns på sidan Image Server):
 
-* **[!UICONTROL Catalog Management]** - De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogfilen interagerar. Adobe Dynamic Media Classic Render Server URL-anrop görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra dessa inställningar endast med hjälp av en Adobe Dynamic Media Classic-supportperson.
+* **[!UICONTROL Catalog Management]** - De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogfilen interagerar. Adobe Dynamic Media Classic Render Server URL-anrop görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra dessa inställningar endast med hjälp av en supportperson från Adobe Dynamic Media Classic.
 
 * **[!UICONTROL Session Attributes]** - De här inställningarna anger felparametrar, URL:en för relativa bild-URL:er och om objektöverlappning tillåts.
 

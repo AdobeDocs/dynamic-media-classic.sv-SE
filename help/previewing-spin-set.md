@@ -1,8 +1,8 @@
 ---
 title: Förhandsgranska en snurra uppsättning
-description: Lär dig hur du förhandsvisar en snurruppsättning i Adobe Dynamic Media Classic.
+description: Lär dig hur du förhandsgranskar en snurruppsättning i Adobe Dynamic Media Classic.
 uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,16 +10,16 @@ discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # Förhandsgranska en snurra uppsättning{#previewing-a-spin-set}
 
-Du kan använda visningsprogramlistan om du vill förhandsgranska hur en resurs visas på en viss visningstypsplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogram som du har valt att förhandsgranska är inte alla plattformar tillgängliga i visningsprogramlistan.
+Du kan använda visningsprogramlistan om du vill förhandsvisa hur en resurs visas på en viss visningstypsplattform, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogram som du har valt att förhandsgranska är inte alla plattformar tillgängliga i visningsprogramlistan.
 
 Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers).
 
@@ -31,9 +31,9 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 1. Navigera i resursmapparna som innehåller den snurra uppsättning som du vill förhandsgranska med ett visningsprogram i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser, under miniatyrbilden, går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Markera **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en resurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** på samma verktygsfält.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser, under miniatyrbilden, går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL List View]**. I fönstret Resurser väljer du en resurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
 1. I fönstret Visningsprogramlista i tabellen väljer du en visningsprogramlänk för att förhandsgranska resursen i det valda visningsprogrammet.
 1. Stäng visningsprogrammet som visas.

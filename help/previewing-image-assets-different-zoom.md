@@ -2,7 +2,7 @@
 title: Förhandsgranska bildresurser med olika zoomningsvisningsprogram
 description: Lär dig hur du förhandsvisar bildresurser med olika zoomningsvisningsprogram i Adobe Dynamic Media Classic.
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
@@ -10,9 +10,9 @@ discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,9 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 1. Navigera i resursmapparna som innehåller bilder som du vill förhandsgranska med ett zoomvisningsprogram i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Markera **[!UICONTROL Grid View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser, under miniatyrbilden, går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Markera **[!UICONTROL List View]** ovanför fönstret Resurser, till höger om verktygsfältet. I fönstret Resurser väljer du en resurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Markera **[!UICONTROL Detail View]** ovanför fönstret Resurser, till höger om verktygsfältet. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** på samma verktygsfält.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser, under miniatyrbilden, går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL List View]**. I fönstret Resurser väljer du en resurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
 1. I fönstret Visningsprogramlista i tabellen väljer du en visningsprogramlänk för att förhandsgranska resursen i det valda visningsprogrammet.
 1. Stäng visningsprogrammet som visas.

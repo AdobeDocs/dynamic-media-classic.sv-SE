@@ -1,8 +1,8 @@
 ---
 title: Hantera innehåll i informationspanelen i e-kataloger
-description: Lär dig hur du hanterar innehåll i panelen Info i e-kataloger i Adobe Dynamic Media Classic.
+description: Lär dig hur du hanterar innehåll i informationspanelen i e-kataloger i Adobe Dynamic Media Classic.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,7 +10,7 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Förutom att använda bildschematext för överrullningar i e-kataloger kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
 
-Du kan hantera InfoPanel-inställningar och data med följande funktioner i Adobe Dynamic Media Classic:
+Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Adobe Dynamic Media Classic:
 
 * I inställningspanelen i InfoPanel kan du ange vilken mall som ska användas för att visa Info-paneltexten, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om e-kataloger ska publiceras automatiskt.
 * Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i InfoPanel-överrullningstexten och schemalägga tider för uppdatering av informationen.
@@ -34,12 +34,12 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 
 >[!NOTE]
 >
->Du kan också ställa in svarsmallen i visningsförinställningen. Om du vill använda svarsmallen i visningsförinställningen i stället lägger du till `fmt=1` i slutet av informationsserverns URL i visningsförinställningen.
+>Du kan också ställa in svarsmallen i visningsförinställningen. Om du vill använda svarsmallen i visningsförinställningen i stället lägger du till `fmt=1` till slutet av informationsserverns URL i visningsförinställningen.
 >
->Se [Konfigurera eCatalog Viewer-förinställningar](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
+>Se [Konfigurera förinställningar för eCatalog Viewer](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
 1. Dubbelklicka på din e-katalog så att den öppnas i detaljvyn.
-1. Välj panelen **[!UICONTROL InfoPanel Setup]**.
+1. Välj **[!UICONTROL InfoPanel Setup]** -panelen.
 1. Välj en svarsmall:
 
    * Välj en förinställning på menyn Svarsmall. XML-koden för malldesignen visas i rutan Användarmall.
@@ -59,17 +59,17 @@ Du kan använda en kommaavgränsad värdefil (CSV) eller tabbavgränsad fil (TXT
 
 Tänk på följande när du formaterar källinnehåll:
 
-* Se till att tabb- och kommaavgränsade data innehåller så många kolumner som behövs för överrullningsmallen.
+* Se till att tabb- och kommaavgränsade data innehåller så många kolumner som behövs för rollover-mallen.
 * Se till att det första objektet eller datakolumnen är rollover-identifieraren (associerad med rollover_key-värdet från URL:erna för bildschemat).
 * Kontrollera att varje tabbavgränsat eller kommaavgränsat objekt efter identifieraren är det objekt som du vill ersätta i svarsmallen. Den första kolumnen ersätts alltså med $1$, den andra kolumnen med $2$ och så vidare.
 
 ### Importera CSV-innehåll till e-kataloger från en externt värdbaserad plats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Dubbelklicka på e-katalogen så att den öppnas i detaljvyn.
-1. Välj panelen **[!UICONTROL InfoPanel Datafeed]**.
+1. Välj **[!UICONTROL InfoPanel Datafeed]** -panelen.
 1. Ange URL:en för CSV-filen i rutan Plats för extern värdbaserad CSV-fil. Du kan klistra in URL-adressen i det här fältet eller skriva den direkt.
-1. (Valfritt) Ange en tid för att uppdatera innehållet med hjälp av menyerna för schemauppdatering och välj **[!UICONTROL Add]**. Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i rutan Uppdateringstider. (Om du vill ta bort en tid markerar du den och väljer **[!UICONTROL Delete]**.)
-1. (Valfritt) Välj **[!UICONTROL Run Update Now]** om du vill uppdatera innehållet omedelbart.
+1. (Valfritt) Ange en tid för att uppdatera innehållet med hjälp av menyerna Schemauppdatering och välj **[!UICONTROL Add]**. Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i rutan Uppdateringstider. (Om du vill ta bort en tid markerar du den och väljer **[!UICONTROL Delete]**.)
+1. (Valfritt) Välj **[!UICONTROL Run Update Now]** för att uppdatera innehållet omedelbart.
 
 ### Importera en tabbavgränsad fil eller CSV-fil {#import-a-tab-delimited-or-csv-file}
 
@@ -84,18 +84,18 @@ Last Modified Date:
  -->
 
 1. Dubbelklicka på e-katalogen så att den öppnas i detaljvyn.
-1. Välj panelen **[!UICONTROL InfoPanel Setup]**.
+1. Välj **[!UICONTROL InfoPanel Setup]** -panelen.
 1. Välj **[!UICONTROL Upload S7Info Content]**.
-1. Välj **[!UICONTROL Browse]**, markera den tabbavgränsade TXT-, CSV- eller SSV-fil som du vill använda och välj **[!UICONTROL Open]**.
+1. Välj **[!UICONTROL Browse]** markerar du den tabbavgränsade TXT-, CSV- eller SSV-fil som du vill använda och väljer **[!UICONTROL Open]**.
 1. Välj **[!UICONTROL Upload]**.
 
-Adobe Dynamic Media Classic skickar ett e-postmeddelande till dig med information om överföringen lyckades eller inte.
+Adobe Dynamic Media Classic skickar ett e-postmeddelande till dig som talar om huruvida överföringen lyckades eller inte.
 
 ## Förhandsgranska överrullningsnyckeltext för en bildschema {#preview-rollover-key-text-for-an-image-map}
 
 På skärmen Karta sidor kan du snabbt och enkelt visa text i panelen Info för bildscheman på en viss sida i din eCatalog.
 
-1. Välj knappen för att placera katalogen över **[!UICONTROL Edit]**.
+1. Välj katalogens överrullning **[!UICONTROL Edit]** -knappen.
 1. Välj **[!UICONTROL Map Pages]**.
 1. Överst i tabellen till höger på skärmen väljer du **[!UICONTROL Info Panel]** på menyn Visa.
 

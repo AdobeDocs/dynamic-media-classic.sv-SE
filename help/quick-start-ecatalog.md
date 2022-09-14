@@ -1,8 +1,8 @@
 ---
-title: '"Snabbstart: eCatalogs"'
+title: "Snabbstart: eCatalogs"
 description: En introduktion och en snabbstart till e-kataloger som hjälper dig att komma igång snabbt med eCatalog-tekniken i Adobe Dynamic Media Classic.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,9 +10,9 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ När du skapar en e-katalog kan du ordna sidorna eller uppslagen i den ordning d
 >
 >Nu kan du skapa e-kataloger i Adobe Dynamic Media Classic.
 
-Den här eCatalog-snabbstarten är utformad för att hjälpa dig komma igång snabbt med e-kataloger. Följ steg 1 till 7. Efter varje steg finns en korsreferens till en ämnesrubrik där du kan hitta mer information.
+Den här eCatalog-snabbstarten är utformad för att hjälpa dig komma igång snabbt med e-kataloger. Följ steg 1 till 7. Efter varje steg finns det en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
 ## 1. Överför PDF-filer
 

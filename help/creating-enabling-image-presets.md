@@ -1,8 +1,8 @@
 ---
 title: Skapa och aktivera bildförinställningar
-description: Läs om hur du skapar och aktiverar bildförinställningar i Adobe Dynamic Media Classic.
+description: Lär dig hur du skapar och aktiverar bildförinställningar i Adobe Dynamic Media Classic.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -31,10 +31,10 @@ Följande begränsningar gäller när du exporterar bildresurser:
 
 >[!NOTE]
 >
->Dessa begränsningar gäller endast export av härledda bildresurser, inte export av överordnad filer.
+>Dessa begränsningar gäller endast export av härledda bildresurser, inte export av primära filer.
 
-Mer information om hur du skapar bildförinställningar finns i [Bildförinställningar](application-setup.md#image_presets).
+Information om hur du skapar bildförinställningar finns i [Bildförinställningar](application-setup.md#image_presets).
 
 Information om hur du gör det möjligt för användare att välja bildförinställningar när de exporterar filer finns i [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-Om du vill välja vilka bildförinställningar som ska vara tillgängliga för medlemmarna i en grupp går du till [Välja åtkomstbehörigheter för bildförinställningar för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
+Om du vill välja vilka bildförinställningar som ska vara tillgängliga för medlemmarna i en grupp går du till [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).

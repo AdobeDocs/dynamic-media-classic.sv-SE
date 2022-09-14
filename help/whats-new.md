@@ -1,14 +1,14 @@
 ---
 title: Nyheter
-description: Läs om nyheterna i Adobe Dynamic Media Classic i den aktuella versionsinformationen.
-contentOwner: admin
+description: Läs mer om nya Adobe Dynamic Media Classic i den aktuella versionsinformationen.
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 94cfb748-30f9-4a8b-9576-3b4775964d04
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 0%
@@ -17,4 +17,4 @@ ht-degree: 0%
 
 # Nyheter {#what-s-new}
 
-Om du vill läsa den senaste versionsinformationen om Adobe Dynamic Media Classic, inklusive nya funktioner, förbättringar och korrigeringar, läser du [Adobe Dynamic Media Classic Release Notes](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+Information om den senaste versionen av Adobe Dynamic Media Classic, inklusive nya funktioner, förbättringar och korrigeringar, finns i [Versionsinformation för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).

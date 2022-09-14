@@ -1,8 +1,8 @@
 ---
 title: Teckensnitt
-description: Läs om hur du använder teckensnitt i Adobe Dynamic Media Classic.
+description: Lär dig hur du använder teckensnitt i Adobe Dynamic Media Classic.
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
@@ -10,7 +10,7 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
@@ -29,15 +29,15 @@ Adobe Dynamic Media Classic stöder följande teckensnittstyper:
 * OpenType-/PostScript-teckensnitt
 * PhotoFonts
 
-När en teckensnittsfil har överförts kan du ändra dess Adobe Dynamic Media Classic-ID, teckensnittsnamn och typinformation på skärmen Redigera information.
+När en teckensnittsfil har överförts kan du ändra dess Adobe Dynamic Media Classic-id, teckensnittsnamn och typinformation på skärmen Redigera information.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Adobe Dynamic Media Classic behöver dessa teckensnittsformat för att kunna bearbeta begäranden. Du bör även överföra alla PostScript-/Adobe Type1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
+>Adobe Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Adobe Dynamic Media Classic behöver de här teckensnittsformaten för att kunna bearbeta begäranden. Du bör även överföra alla PostScript-/Adobe Type1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
 
 ## Överför teckensnittsfiler {#uploading-font-files}
 
-Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i alla Adobe Dynamic Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
+Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i alla Adobe Dynamic Media Classic-mappar. Se [Överför filer](uploading-files.md#uploading_your_files).
 
 ## Redigera teckensnittsfilinformation {#editing-font-file-information}
 

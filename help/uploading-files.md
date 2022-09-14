@@ -2,16 +2,16 @@
 title: Överför filer
 description: Lär dig hur du överför filer i Adobe Dynamic Media Classic.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3714'
+source-wordcount: '3717'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Följande filtyper kan publiceras:
 * Ljudfiler
 * CSS
 * JavaScript (när företaget har konfigurerats med sin egen domän)
-* Överordnad video
+* Primär video
 * PDF (när PDF har markerats för publicering efter överföring, för att undvika att alla PDF levereras för eCatalog/PDF)
 * PrX-video
 * SVG
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classic har inte möjlighet att generera en förhandsgranskn
 
 Eftersom filnamnstillägg tas bort från filnamn under överföringsprocessen tillåter inte systemet att filer har samma rotnamn. I Adobe Dynamic Media Classic-systemet blir filnamnet minus filtillägget resurs-ID för resursen. Därför kan två resurser inte ha samma namn.
 
-Se till att alla användare på företaget förstår följande regler för filnamngivning:
+Se till att alla användare på företaget förstår följande regler för att namnge filer:
 
 * Tillgångs-ID:n med samma exakta namn tillåts inte i systemet.
 * Resurs-ID:n är skiftlägeskänsliga.
 * Ett tips är att se till att resurs-ID:n inte innehåller blanksteg (t.ex. svart jacka.tif och blå jpg). Adobe Dynamic Media Classic ASCII kodar blanksteg i resursnamn när resursnamn används för att skapa URL-strängar. Dessa ASCII-koder är svåra att läsa, vilket kan göra det svårare att läsa URL:er.
 * Språkspecifika tecken får användas i filnamn. Följande tecken får dock inte användas i filnamn:
 
-   \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; {} %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    Om ett filnamn innehåller ett eller flera av ovanstående tecken tas tecknen bort från filnamnet vid överföringen.
 
@@ -279,7 +279,7 @@ Se [Förinställningar för gruppuppsättning](application-setup.md#batch_set_pr
 
 När du överför objekt med FTP kan du schemalägga ett efterföljande jobb så att det börjar när överföringen är klar. Om andra jobb är schemalagda att starta, köas det jobb som du schemalägger här efter dem.
 
-Det nya jobbet skickar ett meddelande till den adress du anger så att koden på den platsen kan utlösas. Det här uppföljningspubliceringsjobbet använder samma namn som överföringsjobbet, men med texten *Pub_* läggs till i början.
+Det nya jobbet skickar ett meddelande till den adress som du anger så att koden på den platsen kan utlösas. Det här uppföljningspubliceringsjobbet använder samma namn som överföringsjobbet, men med texten *Pub_* läggs till i början.
 
 **Så här utför du en överföring med ett annat jobb:**
 

@@ -1,8 +1,8 @@
 ---
-title: '"Snabbstart: Grundläggande om mallar"'
+title: "Snabbstart: Grundläggande om mallar"
 description: En introduktion och snabbstart till mallgrunder som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -25,7 +25,7 @@ En mall kan innehålla valfritt antal bildlager och textlager. Du kan konvertera
 
 På sidan Parametrar kan du konvertera alla delar av en mall till adresserbara parametrar. Om du gör det kan du ändra vilken bild i lager som ska användas eller vilket textvärde som ska användas i mallen. Parametrar skickas med URL-strängen så att du kan ändra alla parametrar för att dynamiskt anpassa svarsbilden som genereras från bildservern.
 
-Se även [Utbildningsvideon Template Basics](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Se även [Grundläggande om mallar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) utbildningsvideo.
 
 Den här snabbstarten är utformad för att du snabbt ska komma igång med mallgrunderna.
 
@@ -33,18 +33,18 @@ Den här snabbstarten är utformad för att du snabbt ska komma igång med mallg
 
 Börja med att ladda upp PSD-filen eller bildfilen för mallen. Adobe Dynamic Media Classic har stöd för många bildfilsformat förutom PSD, men förlustfria TIFF- och PNG-bilder rekommenderas för mallar eftersom de möjliggör genomskinlighet.
 
-Om du använder en PSD-fil för att skapa mallen väljer du **[!UICONTROL Create Template]** i dialogrutan **[!UICONTROL Upload Job Options]** när du överför PSD-filen. Välj också ett **[!UICONTROL Layer Naming]**-alternativ så att Adobe Dynamic Media Classic vet hur man namnger PSD-lager när de överförs till Adobe Dynamic Media Classic.
+Om du använder en PSD-fil för att bygga mallen väljer du **[!UICONTROL Create Template]** på **[!UICONTROL Upload Job Options]** när du överför PSD-filen. Välj även en **[!UICONTROL Layer Naming]** så att Adobe Dynamic Media Classic vet hur man namnger PSD-lager när de överförs till Adobe Dynamic Media Classic.
 
 Om du använder bildfiler kan du beskära bilderna och även skapa en mask från urklippsbanor i bilderna när du överför dem.
 
-I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp i Adobe Dynamic Media Classic. Se [Överför mallfiler](uploading-template-files.md#uploading_template_files).
+Välj **[!UICONTROL Upload]** om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför mallfiler](uploading-template-files.md#uploading_template_files).
 
 ## 2. Skapa en mall
 
-Om du vill skapa en mall från en PSD-fil väljer du **[!UICONTROL Create Template]** när du överför filen. Om du vill skapa en mall från bilder går du till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]** i fältet Global navigering och anger mått för bredd och höjd för arbetsytan. I det övre högra hörnet av sidan väljer du antingen **[!UICONTROL Designer]** eller **[!UICONTROL Developer]** och drar bilder till mallsidan. Du kan också markera bilderna *innan* du går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. På mallsidan finns verktyg för:
+Om du vill skapa en mall från en PSD-fil väljer du **[!UICONTROL Create Template]** när du överför filen. Om du vill skapa en mall från bilder går du till navigeringsfältet Global **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**, anger du en bredd- och höjdmätning för arbetsytan. I sidans övre högra hörn väljer du antingen **[!UICONTROL Designer]** eller **[!UICONTROL Developer]** och dra bilder till mallsidan. Du kan också välja bilderna *före* du går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. På mallsidan finns verktyg för:
 
 * Lägga till bildlager. Om du vill lägga till ett lager drar du en bild till mallsidan.
-* Lägga till textlager. Välj ikonen **[!UICONTROL Text tool]**. Dra pekaren för att skapa en ruta för textlagret; formatera texten med verktyg på textsidan.
+* Lägga till textlager. Välj **[!UICONTROL Text tool]** ikon. Dra pekaren för att skapa en ruta för textlagret; formatera texten med verktyg på textsidan.
 * Ändra storlek och position för lager.
 * Ändra lagerordningen.
 * Använda skugg- och glödeffekter på bild- och textlager.
@@ -63,7 +63,7 @@ När du publicerar mallen placeras den på Dynamic Media Image-servrar så att d
 
 Glöm inte att publicera alla bilder som är kopplade till mallen.
 
-Om du vill publicera en mall markerar du den för publicering och väljer **[!UICONTROL Publish]** i fältet Global navigering. Välj sedan **[!UICONTROL Submit Publish]**. Se [Publicera mallar](publishing-templates.md#publishing_templates).
+Om du vill publicera en mall markerar du den för publicering och markerar den i fältet Global navigering **[!UICONTROL Publish]**. Välj sedan **[!UICONTROL Submit Publish]**. Se [Publiceringsmallar](publishing-templates.md#publishing_templates).
 
 ## 5. Länka en mall till en webbsida
 

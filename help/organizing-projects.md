@@ -2,7 +2,7 @@
 title: Organisera ditt arbete med projekt
 description: Lär dig hur du organiserar ditt arbete med projekt i Adobe Dynamic Media Classic.
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
@@ -10,9 +10,9 @@ discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -27,19 +27,19 @@ Du kan skapa ett projekt när du överför filer eller skapar projekt på panele
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic rekommenderar att du ordnar resurser med metadata i stället för med projekt. Se [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md).
+>Adobe Dynamic Media Classic rekommenderar att du organiserar resurser med metadata i stället för med projekt. Se [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md).
 
 >[!NOTE]
 >
->För att du ska kunna ordna resurser i projekt måste administratören ha konfigurerat dig så att du kan använda dem. Om du inte ser något avsnitt i projektmappen längst ned i resursbiblioteket är den här metoden för att ordna resurser inte tillgänglig för dig. Se [Allmänna inställningar för program](application-setup.md#general-settings).
+>För att du ska kunna ordna resurser i projekt måste administratören ha konfigurerat dig så att du kan använda dem. Om du inte ser något avsnitt i projektmappen längst ned i resursbiblioteket är den här metoden för att ordna resurser inte tillgänglig för dig. Se [Allmänna inställningar för programmet](application-setup.md#general-settings).
 
 ## Skapa en projektmapp {#creating-a-project-folder}
 
 Du kan skapa en projektmapp som börjar i resursbiblioteket eller när du överför filer till Adobe Dynamic Media Classic:
 
-* **I resursbiblioteket**  - Bläddra längst ned i resursbiblioteket till avsnittet Projekt och markera sedan  **[!UICONTROL Add Project]**. Ange ett namn för projektet.
+* **I resursbiblioteket** - Bläddra längst ned i resursbiblioteket, till avsnittet Projekt och markera sedan **[!UICONTROL Add Project]**. Ange ett namn för projektet.
 
-* **När du överför filer**  - På skärmen Överför går du till  **[!UICONTROL Add to Project]** >  **[!UICONTROL Create Project]**. Ange ett namn för projektet.
+* **Vid överföring av filer** - På skärmen Överför går du till **[!UICONTROL Add to Project]** > **[!UICONTROL Create Project]**. Ange ett namn för projektet.
 
 >[!NOTE]
 >
@@ -49,16 +49,16 @@ Du kan skapa en projektmapp som börjar i resursbiblioteket eller när du överf
 
 Gör något av följande om du vill visa, ta bort eller byta namn på en projektmapp:
 
-* **Bläddra i innehåll** - Markera namnet på mappen i resursbiblioteket. Dess resurser visas i panelen Bläddra.
+* **Bläddra i innehåll** - Välj namnet på mappen i resursbiblioteket. Dess resurser visas i panelen Bläddra.
 
-* **Tar bort projektmappar** - Markera projektmappen och välj sedan  **[!UICONTROL Remove Project]**. När du tar bort resurser från en projektmapp tas de inte bort från Adobe Dynamic Media Classic. resurserna finns kvar i de ursprungliga mappar där de lagras.
+* **Tar bort projektmappar** - Välj projektmappen och sedan **[!UICONTROL Remove Project]**. När du tar bort resurser från en projektmapp tas de inte bort från Adobe Dynamic Media Classic. resurserna finns kvar i de ursprungliga mappar där de lagras.
 
-* **Byta namn på projektmappar**  - Dubbelklicka på namnet på mappen på resurspanelen och ange ett nytt namn.
+* **Byter namn på projektmappar** - Dubbelklicka på namnet på mappen på resurspanelen och ange ett nytt namn.
 
 ## Lägga till resurser i en projektmapp {#adding-assets-to-a-project-folder}
 
-Du kan lägga till bilder i en projektmapp med början på panelen Bläddra eller när du överför filer till Adobe Dynamic Media Classic:
+Du kan lägga till bilder i en projektmapp från och med panelen Bläddra eller när du överför filer till Adobe Dynamic Media Classic:
 
-* **Från panelen**  Bläddra - Markera resurserna och dra dem till en projektmapp. Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Välj ett projektmappsnamn i dialogrutan Välj projekt och välj sedan **[!UICONTROL Submit]**.
+* **Från panelen Bläddra** - Markera resurserna och dra dem till en projektmapp. Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Välj ett projektmappsnamn i dialogrutan Välj projekt och välj sedan **[!UICONTROL Submit]**.
 
-* **När du överför filer**  - På sidan Överför väljer du  **[!UICONTROL Job Options]**. Välj **[!UICONTROL Projects]** i dialogrutan Alternativ för överföringsjobb och välj sedan ett projektnamn.
+* **Vid överföring av filer** - På sidan Överför väljer du **[!UICONTROL Job Options]**. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Projects]** och välj sedan ett projektnamn.

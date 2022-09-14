@@ -2,7 +2,7 @@
 title: Arbeta med PDF
 description: Lär dig hur du arbetar med PDF i Adobe Dynamic Media Classic.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -95,4 +95,4 @@ Du kan ta bort skrivarmärken manuellt från sidorna i en PDF-fil när du överf
 1. Välj **[!UICONTROL Manual]**.
 1. Ange pixelinställningar i textrutorna Överkant, Höger, Underkant och Vänster om du vill beskära från sidans överkant, underkant och sidor.
 
-Hur mycket av sidan som beskärs beror på inställningen för Upplösning PX/tum som du anger för PDF-filen. Om du t.ex. anger 150 (standardvärdet) som inställningen Upplösning PX/tum och beskär 75 pixlar från sidorna beskärs en halv tum. vid 150 pixlar per tum är 75 pixlar lika med en halv tum.
+Hur mycket av sidan som beskärs beror på inställningen för Upplösning PX/tum som du anger för PDF-filen. Anta till exempel att du anger 150 (standard) som upplösnings-PX/tum-inställning. Sedan beskär du 75 pixlar från sidorna. I så fall 0,5 tum. beskärs. Vid 150 pixlar per tum är 75 pixlar lika med en halv tum.

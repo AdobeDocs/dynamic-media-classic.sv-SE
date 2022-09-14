@@ -1,16 +1,16 @@
 ---
 title: Logga in på och ut från Adobe Dynamic Media Classic
-description: Läs om hur du loggar in på och ut från Adobe Dynamic Media Classic och ansluter till en produktionsmiljöserver i Nordamerika (NA) eller Europa, Mellanöstern, Afrika (EMEA) eller Asien-Stillahavsområdet (APAC).
-contentOwner: admin
+description: Läs om hur du loggar in på och ut från Adobe Dynamic Media Classic och ansluter till en produktionsmiljöserver i Nordamerika (NA), eller i Europa, Mellanöstern, Afrika (EMEA) eller Asien-Stillahavsområdet (APAC).
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,19 @@ ht-degree: 0%
 
 # Logga in på Adobe Dynamic Media Classic {#dmc-sign-in}
 
-Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic:
+Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic-datorprogrammet:
 
-* **Användarnamn**  - Du använder din e-postadress som inloggningsnamn.
+* **Användarnamn** - Du använder din e-postadress som inloggningsnamn.
 
 * **Lösenord** - Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Adobe Dynamic Media Classic eller från Adobe Dynamic Media Classic-administratören. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
 
-1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
+1. Öppna Adobe Dynamic Media Classic-programmet.
 
-   ![Adobe Dynamic Media Classic-inloggning](/help/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic logga in](/help/assets/dmclassic-login1.png)
 
-1. Ange din e-postadress i fältet **[!UICONTROL User Name]**.
-1. Skriv lösenordet i fältet **[!UICONTROL Password]**.
-1. Välj en server i listrutan **[!UICONTROL Server]**.
+1. I **[!UICONTROL User Name]** anger du din e-postadress.
+1. I **[!UICONTROL Password]** anger du lösenordet.
+1. I **[!UICONTROL Server]** väljer du en server.
 Använd följande mappning för att välja den produktionsmiljö som du vill använda.
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
@@ -44,7 +44,7 @@ Använd följande mappning för att välja den produktionsmiljö som du vill anv
 
 ## Logga ut från Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. I det övre högra hörnet av Adobe Dynamic Media Classic väljer du **[!UICONTROL Sign out]** och sedan **[!UICONTROL Sign out]** igen.
+1. I det övre högra hörnet av Adobe Dynamic Media Classic-datorprogrammet väljer du **[!UICONTROL Sign out]** och sedan markera **[!UICONTROL Sign out]** igen.
 
 >[!MORELIKETHIS]
 >

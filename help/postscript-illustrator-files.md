@@ -2,7 +2,7 @@
 title: Arbeta med PostScript- och Illustrator-filer
 description: Lär dig hur du arbetar med PostScript- och Illustrator-filer i Adobe Dynamic Media Classic.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 Du kan använda Adobe PostScript®- (EPS) och Adobe® Illustrator®-filer (AI) i Adobe Dynamic Media Classic. I Adobe Dynamic Media Classic finns kommandon för att konfigurera de här filerna när du överför dem.
 
-När du överför bildfiler från PostScript (EPS) eller Illustrator (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Formateringsalternativ för PostScript- och Illustrator-filer finns på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Överför jobbalternativ.
+När du överför PostScript-bildfiler (EPS) eller Illustrator-bildfiler (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Formateringsalternativ för PostScript- och Illustrator-filer finns på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Överför jobbalternativ.
 
-* **[!UICONTROL Processing]** - Välj  **[!UICONTROL Rasterize]** att konvertera vektorgrafik i filen till bitmappsformat.
+* **[!UICONTROL Processing]** - Välj **[!UICONTROL Rasterize]** om du vill konvertera vektorgrafik i filen till bitmappsformat.
 
 * **[!UICONTROL Maintain Transparent Background In Rendered Image]** - Bevarar filens genomskinlighet i bakgrunden.
 
 * **[!UICONTROL Resolution]** - Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
 
-* **[!UICONTROL Color Space]** - Markera  **[!UICONTROL Color Space]** menyn och välj en färgrymd:
+* **[!UICONTROL Color Space]** - Välj **[!UICONTROL Color Space]** och välja en färgrymd:
 
    * **[!UICONTROL Detect Automatically]** - Behåller filens färgrymd.
 
-   * **[!UICONTROL Force As RGB]** - Konverterar till RGB-färgmodellen.
+   * **[!UICONTROL Force As RGB]** - Konverterar till färgmodellen RGB.
 
    * **[!UICONTROL Force As CMYK]** - Konverterar till CMYK-färgmodellen.
 

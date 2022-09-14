@@ -1,15 +1,15 @@
 ---
 title: Överföra en rasterbildsresurs
 description: Lär dig hur du överför en rasterbildsresurs till Adobe Dynamic Media Classic
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '982'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Innan du kan överföra en bildresurs måste du först begära en delad hemlig n
 
 >[!IMPORTANT]
 >
->Stödet för nya eller befintliga UGC-vektorresurser i Adobe Dynamic Media Classic upphörde den 30 september 2021.
+>Stöd för nya eller befintliga UGC-vektorresurser i Adobe Dynamic Media Classic upphörde den 30 september 2021.
 
 ## Begär en delad hemlig nyckel {#requesting-a-shared-secret-key}
 
@@ -30,17 +30,17 @@ I e-postmeddelandet anger du det företagsnamn som du vill använda för att öv
 
 ## Hämta överföringstoken {#retrieving-the-upload-token}
 
-*Överföringstoken* säkerställer att ingen kan använda samma delade hemliga nyckel för att överföra resurser. Den ser till att överföringen är giltig och kommer från en betrodd källa.
+The *överföringstoken* säkerställer att ingen kan använda samma delade hemliga nyckel för att överföra resurser. Den ser till att överföringen är giltig och kommer från en betrodd källa.
 
 Överföringstoken är en alfanumerisk sträng som bara är tillgänglig under en viss tidsperiod. Använd följande URL:er och ersätt din delade hemliga nyckel så att du kan hämta överföringstoken.
 
 * Rasterbild
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`I det här exemplet är nyckeln med delad hemlighet  `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`I det här exemplet är nyckeln med delad hemlighet `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-Som standard upphör överföringstoken att gälla fem minuter (300 sekunder) efter att du har hämtat den. Om du vill ha mer tid tar du med `expires` i URL:en och den tid du behöver i sekunder. Följande exempelbild-URL hämtar till exempel en överföringstoken som är giltig i 1 800 sekunder:
+Som standard upphör överföringstoken att gälla fem minuter (300 sekunder) efter att du har hämtat den. Om du vill ha mer tid kan du inkludera `expires` i URL:en och hur länge du behöver det i sekunder. Följande exempelbild-URL hämtar till exempel en överföringstoken som är giltig i 1 800 sekunder:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -86,11 +86,11 @@ Du kan använda följande fält i fråge-URL-strängen för att hämta en överf
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
 **Tillåtna HTTP-metoder:**
-`GET` och  `POST`
+`GET` och `POST`
 
 Du kan nu överföra en bildresurs.
 
-Se [Överför en bildresurs](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+Se [Överföra en bildresurs](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## Överföra en rasterbildsresurs {#uploading-an-image-asset}
 
@@ -100,11 +100,11 @@ När du har hämtat en överföringstoken som är giltig under en viss tid kan d
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-Fälten `upload_token` och `company_name` är obligatoriska.
+The `upload_token` och `company_name` fält är obligatoriska.
 
 Se [Hämta överföringstoken](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Se [Hämta en delad-hemlig nyckel](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Se [Hämta en delad hemlig nyckel](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Du kan också skicka andra valfria värden som URL-frågesträngar, som i det här exemplet:
 
@@ -112,7 +112,7 @@ Du kan också skicka andra valfria värden som URL-frågesträngar, som i det h�
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-Parametern `file_limit` anger gränsen för filstorlek i byte. Parametern `file_exts` anger de filnamnstillägg som tillåts för överföring. Båda dessa värden är valfria.
+The `file_limit` -parametern anger gränsen för filstorlek i byte. The `file_exts` parameter anger de filnamnstillägg som tillåts för överföring. Båda dessa värden är valfria.
 
 I programmet anges en global gräns för filstorlek och tillåtna filnamnstillägg. Om det du skickar i begäran är en delmängd av de globala gränserna respekteras det. De globala begränsningarna är följande:
 
@@ -121,7 +121,7 @@ I programmet anges en global gräns för filstorlek och tillåtna filnamnstillä
 | Filstorlek för alla klienter | 20 MB |
 | Bildfilformat som stöds för överföring | BMP, GIF, JPG, PNG, PSD, TIFF |
 
-Med följande HTML-formulär kan en användare överföra en resurs. I formuläret uppmanas användaren att ange följande information:
+I följande HTML-formulär kan en användare överföra en resurs. I formuläret uppmanas användaren att ange följande information:
 
 * Ett företagsnamn.
 * En överföringstoken.
@@ -129,12 +129,12 @@ Med följande HTML-formulär kan en användare överföra en resurs. I formulär
 * En lista med filnamnstillägg.
 * Anger om färgprofilen och filnamnet som är associerade med resursen ska bevaras.
 * Om du vill använda Blockera bakgrund. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod.
-Se Spara ur bakgrund i [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+Se Blockera bakgrund i [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 * Namnet på filen som ska överföras.
 
-Du kan visa HTML-källkoden som är kopplad till formuläret ovan genom att välja [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Du kan visa källkoden för HTML som är kopplad till formuläret ovan genom att välja [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-I Firefox högerklickar du i webbläsarfönstret och väljer **[!UICONTROL View Page Source]**. Koden visar motsvarande URL-frågesträng och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
+I Firefox högerklickar du i webbläsarfönstret och väljer sedan **[!UICONTROL View Page Source]**. Koden visar den motsvarande URL-frågesträngen och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
 
 Om du vill visa XML-svaret i Internet Explorer går du till **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svaret i Firefox går du till **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Firefox rekommenderas för visning av XML-svar.
 
@@ -162,7 +162,7 @@ Nedan följer ett exempelsvar från en slutförd överföring:
 
 >[!NOTE]
 >
->Den överförda resursen (JPG, GIF o.s.v.) konverteras till PTIFF-format och svaret skickar en direktlänk till den PTIFF-resursen.
+>Den överförda resursen (JPG, GIF och så vidare) konverteras till PTIFF-format och svaret skickar en direkt länk till den PTIFF-resursen.
 
 Resursen är som vilken annan ImageServing-resurs som helst. du kan använda bearbetningsfrågor på den. Följande URL begär till exempel en resurs som är utsträckt till den angivna bredden och höjden.
 

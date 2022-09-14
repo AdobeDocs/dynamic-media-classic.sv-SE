@@ -2,7 +2,7 @@
 title: Logga in på Adobe Analytics
 description: Lär dig hur du loggar in på Adobe Analytics från Adobe Dynamic Media Classic.
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -32,14 +32,14 @@ När du loggar in kan du ange ditt Experience Cloud-Org-ID för att använda den
 Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe Analytics OAuth-integrering med Dynamic Media Classic görs vanligtvis bara en gång per användare.
 
 1. Åtkomst [Adobe Developer Console](https://developer.adobe.com/console). Se till att ditt konto har administratörsbehörighet för organisationen som integreringen krävs för.
-1. I den nedrullningsbara listan i det övre högra hörnet av hemsidan väljer du önskat företag. (Skärmbilden nedan är endast avsedd för information. det faktiska företagsnamnet du väljer kan variera.)
+1. I den nedrullningsbara listan i det övre högra hörnet av hemsidan väljer du önskat företag. (Skärmbilden nedan är endast avsedd för information. det faktiska företagsnamnet som du väljer kan variera.)
 
    ![Skapa ett nytt projekt](assets/analytics-oauth1.png)
 
 1. Gör något av följande:
 
    * Överst på sidan, från **[!UICONTROL Home]** flik, välja **[!UICONTROL Create new project]**.
-   * Överst på sidan, från **[!UICONTROL Projects]** -fliken. I närheten av sidans högra hörn väljer du **[!UICONTROL Create new project]**.
+   * Överst på sidan, från **[!UICONTROL Projects]** -fliken. Välj i närheten av sidans högra hörn **[!UICONTROL Create new project]**.
 
 1. Välj **[!UICONTROL Add API]**.
 1. På **[!UICONTROL Add an API]** sida, markera **[!UICONTROL Adobe Analytics]**.
@@ -73,7 +73,6 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 >* En ny rapport läggs till i Analytics och användaren vill börja skicka data till den nya rapporten.
 >* Spårningsservern uppdateras i Adobe Analytics.
 >* En ny spårningsvariabel introduceras i en rapport och du vill länka en specifik visningsprogramvariabel i Dynamic Media Classic-användargränssnittet till den nya Analytics-variabeln.
-
 >
 
 

@@ -1,8 +1,8 @@
 ---
 title: Inkludera zoommål och bildscheman i bilduppsättningar
-description: Lär dig hur du inkluderar zoommål och bildscheman i Bilduppsättningar i Dynamic Media Classic.
+description: Lär dig hur du inkluderar zoommål och bildscheman i Bilduppsättningar i Adobe Dynamic Media Classic.
 uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
@@ -10,9 +10,9 @@ discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '165'
 ht-degree: 0%
 
 ---
