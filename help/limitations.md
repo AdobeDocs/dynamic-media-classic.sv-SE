@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 04dde89c9dddac51c03367a8b2bec5ccb324a10c
+source-git-commit: 35ae9a73c6dc662d8902de423a51c04db54fe4e5
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '236'
+ht-degree: 2%
 
 ---
 
@@ -28,13 +28,13 @@ Det här avsnittet innehåller följande avsnitt:
 
 När du skapar en snurra uppsättning eller en bilduppsättning, eller överför PDF för sidextrahering, rekommenderar Adobe följande metodtips och tillämpar följande begränsningar:
 
-| Resurs - begränsningstyp | Bästa praxis | Begränsning har införts | Ändring till begränsning den 31 december 2022 |
-| --- | --- | --- | --- |
-| **Bild** - Antal smarta beskärningar per bild | 5 | 100 | Ej tillämpligt |
-| **Alla uppsättningar** - Antal dubblettresurser per uppsättning | Inga dubbletter | 20 | Ej tillämpligt |
-| **Alla uppsättningar** - Maximalt antal resurser per uppsättning | 5-10 bilder per uppsättning | 1000 | Ej tillämpligt |
-| **Snurra uppsättning** - Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 | Ej tillämpligt |
-| **PDF** - Maximalt antal sidor för PDF som ska användas för extrahering |  | 5000 (för nya överföringar) | 100 (för alla PDF) |
+| Resurs - begränsningstyp | Bästa praxis | Begränsning har införts |
+| --- | --- | --- |
+| **Bild** - Antal smarta beskärningar per bild | 5 | 100 |
+| **Alla uppsättningar** - Antal dubblettresurser per uppsättning | Inga dubbletter | 20 |
+| **Alla uppsättningar** - Maximalt antal resurser per uppsättning | 5-10 bilder per uppsättning | 1000 |
+| **Snurra uppsättning** - Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
+| **PDF** - Maximalt antal sidor för PDF som ska användas för extrahering |  | 100 (för alla PDF) |
 
 <!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
 
