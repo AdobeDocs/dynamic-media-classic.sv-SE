@@ -10,9 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: dc1ec666b208cec8fffe836d64ed501f6ccf4e7b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -34,12 +34,12 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 * **Beskärningsalternativ** - Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** att automatiskt beskära tomrum från kanterna av en PSD-fil, välj **[!UICONTROL Manual]** för att beskära sidor av filen PSD:
 
    * **[!UICONTROL Trim]** - Välj **[!UICONTROL Trim Away Based On]** och väljer **[!UICONTROL Color]** eller **[!UICONTROL Transparency]**.
+   Om du väljer **[!UICONTROL Color]** väljer du menyn Hörn och väljer hörnet på PSD med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 
-      Om du väljer **[!UICONTROL Color]** väljer du menyn Hörn och väljer hörnet på PSD med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
-
-      Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixlar endast om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
+   Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixlar endast om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
 
    * **[!UICONTROL Manual]** - Ange antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Om bilden till exempel visar 150 ppi och du anger 75 i textrutorna Överkant, Höger, Underkant och Vänster, 0,5 tum. beskärs från varje sida av bilden.
+
 
 * **Alternativ för färgprofil** - Finns under **[!UICONTROL Color Profile Options]**.
 
@@ -72,6 +72,10 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 ## Visa och redigera lager i en PSD-fil {#viewing-and-editing-layers-in-a-psd-file}
 
 Om du valde alternativet Behåll lager när du överförde PSD, delade Adobe Dynamic Media Classic bort de enskilda lagren i resurser. Du kan visa och redigera de objektlager som tillhör en PSD-fil genom att öppna filen i panelen Bläddra i detaljvyn.
+
+>[!NOTE]
+>
+>Adobe Dynamic Media Classic har stöd för upp till fem nivåer i en kapslad lagergrupp.
 
 1. Dubbelklicka på den fullständiga PSD-filen på panelen Bläddra. Filen öppnas i detaljvyn.
 
