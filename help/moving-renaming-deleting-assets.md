@@ -10,9 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Du kan flytta, byta namn på och ta bort resurser från panelen Bläddra. Du kan
 
 Du kan flytta resurser till olika mappar i panelen Bläddra.
 
+**Så här flyttar du resurser:**
+
 1. Markera resursen eller resurserna på panelen Bläddra och gör något av följande:
 
    * Visa mappen som du vill flytta resurserna till i resursbiblioteket och dra resurserna till mappen.
@@ -35,9 +37,7 @@ Du kan flytta resurser till olika mappar i panelen Bläddra.
 1. Markera resursen i panelen Bläddra och gör något av följande:
 
    * Markera namnet, skriv in ett nytt namn och tryck på **[!UICONTROL Enter]** eller välj någon annanstans än i namnet.
-   * Gå till **[!UICONTROL File]** > **[!UICONTROL Rename]**. Namnet på resursen markeras. Ange ett nytt namn och tryck på **[!UICONTROL Enter]**.
-
-Se till att du inte anger namnet på en befintlig Adobe Dynamic Media Classic-resurs.
+   * Gå till **[!UICONTROL File]** > **[!UICONTROL Rename]**. Namnet på resursen markeras. Ange ett nytt namn och tryck på **[!UICONTROL Enter]**. Se till att du inte anger namnet på en befintlig Adobe Dynamic Media Classic-resurs.
 
 ## Ta bort resurser {#delete-assets}
 
@@ -45,9 +45,13 @@ Du kan ta bort markerade resurser på panelen Bläddra och ta bort hela mappar. 
 
 När du tar bort en resurs tas även alla resurser som härletts från den bort. Om du t.ex. tar bort en bild som du har skapat zoommål för tas även zoommålen bort tillsammans med bilden.
 
->[!NOTE]
+Zoommål, bildattribut och historikposter tas bort permanent när du tar bort de resurser som de härleds från. De flyttas inte tillsammans med resursen till papperskorgen. de inte kan återställas från papperskorgen.
+
+>[!IMPORTANT]
 >
->Zoommål, bildattribut och historikposter tas bort permanent när du tar bort de resurser som de härleds från. De flyttas inte tillsammans med resursen till papperskorgen. de inte kan återställas från papperskorgen.
+>Massborttagning är en intensiv åtgärd. Se till att du kör massborttagningar sekventiellt i stället för som samtidiga, tunga raderingsåtgärder. Adobe rekommenderar att du begränsar borttagningsåtgärderna till 5 000 eller färre borttagningar av resurser per timme. Ett tal större än 5000 per timme kan orsaka hastighetsbegränsning.
+
+**Så här tar du bort resurser:**
 
 1. Gör något av följande:
 
@@ -56,9 +60,7 @@ När du tar bort en resurs tas även alla resurser som härletts från den bort.
 
       Om du tar bort en mapp tas mappen, alla resurser i mappen och alla resurser i dess undermappar bort.
 
->[!NOTE]
->
->Adobe Dynamic Media Classic rekommenderar att du skriver över resursfiler i stället för att ta bort dem, om du vill ersätta en resursfil med en annan med samma namn.
+Adobe Dynamic Media Classic rekommenderar att du skriver över resursfiler i stället för att ta bort dem, om du vill ersätta en resursfil med en annan med samma namn.
 
 ## Ta bort flera resurser med en textfil {#delete-multiple-assets-with-a-text-file}
 
