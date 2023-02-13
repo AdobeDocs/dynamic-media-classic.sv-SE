@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 779f152007ee7ec797c3206765c1d103e384962e
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 # Adobe Dynamic Media Classic Guide {#using}
 
 + [Adobe Dynamic Media Classic Guide](home.md)
-+ [Självstudiekurs om bästa praxis för Adobe Dynamic Media-klassen](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [NYTT Adobe Dynamic Media Classic inloggningsupplevelse är nu tillgänglig](new-ui-2020.md)
 + [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
