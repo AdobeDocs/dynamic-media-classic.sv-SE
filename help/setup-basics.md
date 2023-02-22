@@ -10,7 +10,7 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 532d4ec9515b561682678d3a0140096c8b3deae8
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Vilka inställningar som är tillgängliga på den här sidan beror på din stat
 * Användare kan bara komma åt **[!UICONTROL Personal Setup]** och räkenskaperna för de bolag som de är medlemmar i, de inte kan utföra några administrativa uppgifter.
 * Administratörer har åtkomst **[!UICONTROL Personal Setup]** och visa och administrera sina egna företagskonton. De kan också utföra alla programkonfigurationsfunktioner och alla administrationsfunktioner, inklusive lägga till administratörer och användare.
 
-Administratörer kan också konfigurera bildförinställningar och visningsförinställningar i dialogrutan **[!UICONTROL Setup]** sida:
+Administratörer kan också konfigurera bildförinställningar och visningsprogramförinställningar i **[!UICONTROL Setup]** sida:
 
 * **Bildförinställningar** - Bildförinställningar är sparade format för visning av primära bilder i olika storlekar och format.
 
-* **Förinställningar för visningsprogram** - Visningsförinställningarna bestämmer hur du ser dina multimedia när du ser dem i ett visningsprogram.
+* **Förinställningar för visningsprogram** - Förinställningarna för visningsprogrammet avgör hur du ser dina multimedia när du ser dem i ett visningsprogram.
 
 >[!MORELIKETHIS]
 >
