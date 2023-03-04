@@ -3,9 +3,9 @@ title: Vanliga frågor om uppgradering
 description: Vanliga frågor och svar när du uppgraderar från [!DNL Adobe Dynamic Media Classic] datorprogram till [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] Resurser.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Aktuell [!DNL Dynamic Media Classic] (tidigare Scene7) kunder som också har [!D
 +++
 
 +++**Hur startar jag uppgraderingsprocessen?**
-Kontakta din Adobe CSM-representant (Customer Service Management) eller [e-post s7support@adobe.com](mailto:s7support@adobe.com) med ämnesraden `[!DNL Dynamic Media] Upgrade Program`.
+Kontakta Adobe Account Team eller [e-post s7support@adobe.com](mailto:s7support@adobe.com) med ämnesraden `[!DNL Dynamic Media] Upgrade Program`.
 
 +++
 
@@ -90,7 +90,7 @@ Tiden för uppgraderingsprocessen varierar beroende på flera faktorer, bland an
 +++
 
 +++**Är det någon skillnad i licenskostnad?**
-Kontakta din Adobe CSM-representant för mer information om prissättningen.
+Kontakta Adobe Account Team för mer information om priser.
 
 +++
 
@@ -195,7 +195,7 @@ Adobe utför en automatisk validering av alla resurser som flyttas till [!DNL Dy
 +++
 
 +++**Finns det något SLA för [!DNL Dynamic Media]?**
-Ja. Kontakta din CSM-representant för Adobe om du vill ha mer information.
+Ja. Kontakta Adobe Account Team för mer information.
 
 +++
 
@@ -251,7 +251,7 @@ Telefon: 1-800-898-9743 (USA) | +44 (0)20 35641782 (Storbritannien) | +81-3-6743
 +++**Var kan jag lära mig mer om betalda utbildningsalternativ?**
 Se [Adobe Digital Learning Services](https://learning.adobe.com).
 
-Kontakta din Adobe CSM-representant för anpassad eller individuell utbildning.
+Kontakta din Adobe Account Team-representant för anpassad eller individuell utbildning.
 
 +++
 
