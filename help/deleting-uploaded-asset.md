@@ -1,5 +1,5 @@
 ---
-title: Ta bort en överförd resurs
+title: Ta bort en överförd rasterbildsresurs
 description: Lär dig hur du tar bort en överförd resurs i Adobe Dynamic Media Classic.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,9 +9,9 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,10 @@ Du kan använda följande fält i URL-frågesträngen för att ta bort en resurs
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>Från och med 1 maj 2023 är UGC-rasterresurser i Dynamic Media Classic tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
+
+>[!NOTE]
 >
 >Stöd för nya eller befintliga UGC-vektorbildresurser i Adobe Dynamic Media Classic upphörde den 30 september 2021.
 

@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 Innan du kan överföra en bildresurs måste du först begära en delad hemlig nyckel. Du använder den här delade hemliga nyckeln för att hämta en överföringstoken. Du använder sedan överföringstoken för att överföra rasterbildsresurser.
 
 >[!IMPORTANT]
+>
+>Från och med 1 maj 2023 är UGC-rasterresurser i Dynamic Media Classic tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
+
+>[!NOTE]
 >
 >Stöd för nya eller befintliga UGC-vektorresurser i Adobe Dynamic Media Classic upphörde den 30 september 2021.
 
