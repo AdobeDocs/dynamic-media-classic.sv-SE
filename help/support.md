@@ -1,5 +1,5 @@
 ---
-title: Support
+title: Supportalternativ för Adobe Dynamic Media Classic
 description: Läs om supportalternativen för Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 2f0e3955347643a6f08487115928513efc9e8e91
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
