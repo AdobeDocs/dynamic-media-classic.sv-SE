@@ -60,7 +60,7 @@ När du skapar bildscheman kan du göra något av följande:
 
 1. Om du vill visa överrullningstext när användare flyttar pekaren över bildschemat anger du texten i listan Bildschema. I listan Bildschema väljer du **[!UICONTROL Show]** meny och välj **[!UICONTROL Rollover Text]**. Ange sedan den text som du vill att användarna ska se på skärmen. Du kan skriva texten i en ordbehandlare och kopiera den till textfältet Över.
 
-1. Om du vill att en annan åtgärdseffekt ska inträffa när användaren flyttar musen över en bildschema definierar du åtgärden. I listrutan **[!UICONTROL Show]** väljer du **[!UICONTROL Other Actions]**. Ange åtgärdens attribut. (Gå till **[!UICONTROL Show]** > **[!UICONTROL Both]** om du vill skapa överrullningstext och en åtgärd för en bildschema.)
+1. Om du vill att en annan åtgärdseffekt ska inträffa när användaren flyttar musen över en bildschema definierar du åtgärden. I **[!UICONTROL Show]** nedrullningsbar lista, välja **[!UICONTROL Other Actions]**. Ange åtgärdens attribut. (Gå till **[!UICONTROL Show]** > **[!UICONTROL Both]** om du vill skapa överrullningstext och en åtgärd för en bildschema.)
 
    Se [Definiera andra åtgärder för bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
 
@@ -140,7 +140,7 @@ URL-mallen fungerar genom att ersätta innehållet i URL-kolumnen i listan Bilds
 Javascript:loadProduct(‘$$’);void(0);
 ```
 
-Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg bara till de värden som ändras i URL-kolumnen i listan Bildschema. Exempel:
+Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg bara till de värden som ändras i URL-kolumnen i listan Bildschema. Till exempel:
 
 * URL-mall - `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * URL-värde - `product.htm`
@@ -212,7 +212,7 @@ Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 1. Upprepa steg 2 till 6 för alla bildscheman som du vill skapa.
 1. Exportera filen som PDF.
 1. Överför PDF till Adobe Dynamic Media Classic.
-1. I **[!UICONTROL PDF Options]** väljer du **[!UICONTROL Extract Links]**.
+1. I **[!UICONTROL PDF Options]**, markera **[!UICONTROL Extract Links]**.
 
 ### Skapa bildscheman i Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 

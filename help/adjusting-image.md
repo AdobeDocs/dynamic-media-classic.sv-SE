@@ -45,7 +45,7 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
    * Om du vill spara bilden som en ny överordnad bild väljer du **[!UICONTROL Save As]**.
 
-      I listrutan  väljer du **[!UICONTROL Save as new master]**.
+      Välj **[!UICONTROL Save as new master]**.
 I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
 Välj **[!UICONTROL Save]**.
 

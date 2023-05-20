@@ -33,7 +33,7 @@ När du publicerar placeras din e-katalog och PDF på Dynamic Media bildservrar 
 
    Om du har konfigurerat din e-katalog så att tittarna kan göra nyckelordssökningar kontrollerar du att nyckelordsdata är publicerade. I dialogrutan Publicera väljer du **[!UICONTROL Advanced]**. Från **[!UICONTROL Publish]** nedrullningsbar meny, välja **[!UICONTROL Full w/ Search Data]**. Det här alternativet är markerat som standard.
 
-1. Klicka på **[!UICONTROL Submit Publish]**.
+1. Klicka **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >

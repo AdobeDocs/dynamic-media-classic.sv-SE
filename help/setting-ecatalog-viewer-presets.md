@@ -52,7 +52,7 @@ Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du mås
 
 >[!NOTE]
 >
->Om du vill använda den här svarsmallen i stället för mallen som är definierad i själva e-katalogen lägger du till `fmt=1` till slutet av informationsserverns URL. Exempel: `https://.../$3$/$4$/$1$/?FMT=1`.
+>Om du vill använda den här svarsmallen i stället för mallen som är definierad i själva e-katalogen lägger du till `fmt=1` till slutet av informationsserverns URL. Till exempel: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Välj **[!UICONTROL Save]**.
 1. Välj **[!UICONTROL Default]** om du vill att den visningsförinställning för eCatalog som du skapade ska vara den som används för att visa e-kataloger på webbsidan.

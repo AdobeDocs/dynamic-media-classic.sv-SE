@@ -13,7 +13,7 @@ exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '1590'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Se även [Bädda in videovisningsprogrammet på en webbsida](deploying-video-web
 
 ## Bädda in videovisningsprogrammet på en webbsida {#embedding-the-video-viewer-on-a-web-page}
 
-Använd funktionen Bädda in kod när du vill spela upp videon som är inbäddad på webbsidan. Du kopierar inbäddningskoden till Urklipp så att du kan klistra in den på webbsidorna. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
+Använd funktionen Bädda in kod när du vill spela upp videon som är inbäddad på webbsidan. Du kopierar inbäddningskoden till Urklipp så att du kan klistra in den på dina webbsidor. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 

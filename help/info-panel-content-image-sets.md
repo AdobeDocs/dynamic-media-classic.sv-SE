@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Förutom att använda bildschematext för överrullningar i bilduppsättningar kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
 
-Du kan hantera InfoPanel-inställningar och data med följande funktioner i Adobe Dynamic Media Classic:
+Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Adobe Dynamic Media Classic:
 
 * I inställningspanelen i InfoPanel kan du ange den mall som används för att visa informationspanelens text, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om bilduppsättningen ska publiceras automatiskt.
 * Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i informationspanelens överrullningstext och schemalägga tider för uppdatering av informationen.
@@ -33,11 +33,11 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 
 **Så här ställer du in en svarsmall för bilduppsättningar:**
 
-1. Dubbelklicka på din bilduppsättning så att den öppnas i detaljvyn.
+1. Dubbelklicka på bilduppsättningen så att den öppnas i detaljvyn.
 1. Välj **[!UICONTROL InfoPanel Setup]**.
 1. Gör något av följande i listrutan Svarsmall:
 
-   * Välj **[!UICONTROL Default]** om du vill använda standardsvaret. XML-koden för malldesignen visas nedtonad i textrutan Användarmall.
+   * Om du vill använda standardsvaret väljer du **[!UICONTROL Default]**. XML-koden för malldesignen visas nedtonad i textrutan Användarmall.
    * Om du vill skapa en egen svarsmall väljer du **[!UICONTROL Custom]**. Skriv XML-malldefinitionen i textrutan Användarmall. Du kan använda standardmallen som redan är definierad i textrutan som bas för ditt eget svar.
 
 1. (Valfritt) I rutan Standardsvar skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för ett bildschema. Om systemet till exempel får ett företagsnamn och ett bilduppsättningsnamn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
@@ -46,12 +46,12 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
    * Ange ett lägre värde om data uppdateras ofta under dagen.
    * Ange ett högre värde om data är relativt stabila och inte behöver uppdateras ofta under dagen. Standardvärdet är tio timmar.
 
-1. Välj **[!UICONTROL Upload]** om du vill överföra innehållet i informationspanelen, baserat på rollover_key-värden, till s7info.
-1. I dialogrutan S7Info Upload bläddrar du till filen som du vill använda och väljer **[!UICONTROL Upload]**.
+1. Välj **[!UICONTROL Upload]** om du vill överföra innehåll i informationspanelen, baserat på rollover_key-värden, till s7info.
+1. I dialogrutan S7Info Upload bläddrar du till filen som du vill använda och väljer sedan **[!UICONTROL Upload]**.
 
-   Filformat som stöds är TAB-avgränsade filer med UTF-16-kodning och CSV-filer med ASCII-kodning. För CSV-filer måste icke-ASCII-tecken vara HTML-kodade.
+   Filformat som stöds är TAB-avgränsade filer med UTF-16-kodning och CSV-filer med ASCII-kodning. För CSV-filer måste tecken som inte är ASCII-tecken vara HTML-kodade.
 
-1. Välj **[!UICONTROL Publish]** på InfoPanel Setup-panelen.
+1. På InfoPanel Setup-panelen väljer du **[!UICONTROL Publish]**.
 
 ## Importera källinnehåll för Info-panelen i Bilduppsättningar {#import-source-content-for-the-info-panel-in-image-sets}
 
@@ -72,4 +72,4 @@ Tänk på följande när du formaterar källinnehåll:
 
    Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i textrutan Uppdateringstider. Om du vill ta bort en schemalagd tid markerar du den och väljer **[!UICONTROL Delete]**.
 
-1. (Valfritt) Välj **[!UICONTROL Run Update]** om du vill uppdatera innehållet omedelbart.
+1. (Valfritt) Välj **[!UICONTROL Run Update]** för att uppdatera innehållet omedelbart.

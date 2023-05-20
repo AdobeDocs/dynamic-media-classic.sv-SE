@@ -3,13 +3,13 @@ title: Beredskap för uppgradering
 description: En checklista för beredskap för uppgradering när du vill gå vidare från [!DNL Adobe Dynamic Media Classic] till [!DNL Dynamic Media] på [!DNL Adobe Experience Manager].
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
+source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
 
 ---
-
 
 # Checklista för beredskap för uppgradering
 

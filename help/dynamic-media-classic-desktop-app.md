@@ -269,11 +269,11 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Tips och tricks
 
-**_Jag kan inte se Media Cart-panelen på Adobe Dynamic Media Classic landningssida._**<br>I Adobe Dynamic Media Classic: tryck **[!UICONTROL Setup > Personal Setup]**. Kontrollera att **[!UICONTROL Show MediaPortal Features]**är markerat (markerat). Tryck på&#x200B;**[!UICONTROL Save > Close]**.
+**_Jag kan inte se Media Cart-panelen på Adobe Dynamic Media Classic landningssida._**<br>I Adobe Dynamic Media Classic: tryck **[!UICONTROL Setup > Personal Setup]**. Kontrollera att **[!UICONTROL Show MediaPortal Features]**är markerat (markerat). Tryck **[!UICONTROL Save > Close]**.
 
 **_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I datorprogrammet har Adobe introducerat en **[!UICONTROL Refresh]**ikonen i verktygsfältet, till höger om **[!UICONTROL Select None]**-knappen. Tryck på&#x200B;**[!UICONTROL Refresh]**om du vill se den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
 
 ![Ikonen Uppdatera](/help/assets/refresh-icon1.png)
 *Ikonen Uppdatera*
 
-**_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br>Tryck på&#x200B;**[!UICONTROL Upload > Job Options > Batch Set Presets]**. Se till att relevant **[!UICONTROL Batch Set Preset]**är aktiverat. Klicka på&#x200B;**[!UICONTROL Save and Submit upload]**.
+**_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br>Tryck **[!UICONTROL Upload > Job Options > Batch Set Presets]**. Se till att relevant **[!UICONTROL Batch Set Preset]**är aktiverat. Klicka **[!UICONTROL Save and Submit upload]**.

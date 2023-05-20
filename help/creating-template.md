@@ -260,7 +260,7 @@ Förutom att ändra storlek på ett lager kan du lägga ut det. Om du vill göra
 
 * **Ändra position manuellt** - Flytta pekaren nära, men inte över, en lagergräns, och när du ser den fyrhövdade pilmarkören markerar du och börjar dra.
 
-* **Ange förskjutningsmått för position** - Ange X- och Y-förskjutningsmått i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för ankarpunkten i pixlar.
+* **Ange förskjutningsmått för position** - Ange X- och Y-förskjutningsmått i textrutorna X och Y. Dessa mått representerar x-, y-förskjutningen för fästpunkten i pixlar.
 
 * **Rotera ett lager** - I rutan Rotera visas vinkeln som lagret roterades till. Om du vill rotera ett lager markerar du lagrets namn i listan Lager och använder någon av följande tekniker:
 
@@ -270,7 +270,7 @@ Förutom att ändra storlek på ett lager kan du lägga ut det. Om du vill göra
 
 **Dölja ett lager eller en lagereffekt:**
 
-Du kan dölja ett lager eller en lagereffekt genom att markera ögonikonen bredvid ett lagernamn eller effektnamn. Dolda lager visas inte i förhandsvisningar eller utdata. Lagerinformationen tas inte bort från URL:en. Istället `hide=1` läggs till i URL:en för att notera att lagret är dolt. Exempel:
+Du kan dölja ett lager eller en lagereffekt genom att markera ögonikonen bredvid ett lagernamn eller effektnamn. Dolda lager visas inte i förhandsvisningar eller utdata. Lagerinformationen tas inte bort från URL:en. Istället `hide=1` läggs till i URL:en för att notera att lagret är dolt. Till exempel:
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&effect=-1&.effect=Drop Shadow&blendmode`
 

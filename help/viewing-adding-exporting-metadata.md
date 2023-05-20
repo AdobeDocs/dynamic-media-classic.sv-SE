@@ -113,7 +113,7 @@ En metadataimportfil som innehåller värdet `Hello\, World!,back\\slash,foo` fo
 
 XML-importen accepterar endast giltig XML. När du importerar XMP- eller metadataschfält läggs namnområdesprefixet till och fungerar här som ett XMP-namnutrymme. Detta namnutrymme måste deklareras. I taggen på den översta nivån.
 
-Exempel:
+Till exempel:
 
 ```as3
 <ips> 
@@ -139,7 +139,7 @@ Med metadata som importerats från en tabbavgränsad fil eller XML-fil kan du by
 
 Om du vill byta namn på en bilds Adobe Dynamic Media Classic-ID lägger du till en kolumn med etiketten *newipsid* till den tabbavgränsade filen eller lägg till ett fält med namnet `new_vc_objectname` till XML-data.
 
-Exempel:
+Till exempel:
 
 |  | newipsid |
 | --- | --- |

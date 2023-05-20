@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Överföra och publicera resurser {#about-uploading-and-publishing-assets}
 
-Ditt arbete i Adobe Dynamic Media Classic finns i tre huvudområden:
+Ditt arbete i Adobe Dynamic Media Classic ligger inom tre grundläggande områden:
 
 * Överför filresurser till Adobe Dynamic Media Classic.
 * Hantera dina filer så att du kan använda dem för att skapa medieresurser.
 * Publicera dina resursfiler på en Dynamic Media Classic-server så att de kan skickas till din webbplats och ditt program.
 
-När du överför resursfiler till Adobe Dynamic Media Classic och publicerar resursfiler till Adobe Dynamic Media Classic-servrar registreras dessa filöverföringar på **[!UICONTROL Jobs]**-sidan. Du kan gå till den här sidan för att spåra och övervaka dina överförings- och publiceringsaktiviteter.
+När du överför resursfiler till Adobe Dynamic Media Classic och när du publicerar resursfiler på Adobe Dynamic Media Classic-servrar registreras dessa filöverföringar i systemet **[!UICONTROL Jobs]** sida. Du kan gå till den här sidan för att spåra och övervaka dina överförings- och publiceringsaktiviteter.
 
 >[!NOTE]
 >

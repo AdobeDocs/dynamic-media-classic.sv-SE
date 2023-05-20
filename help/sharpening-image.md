@@ -67,7 +67,7 @@ Välj **[!UICONTROL Sharpening]** och välj ett alternativ:
 
 * **Skärpa** - Kör ett enkelt skärpesteg för filen när den har ändrat storlek. Den liknar filtret &quot;Skärpa&quot; i Adobe Photoshop och stöder alla användarparametrar. Normalt använder du det här filtret eller **[!UICONTROL Unsharp Mask]**, men inte båda. Det är en god praxis att inte rekommendera den här metoden, men den kan kompensera för oskärpa. (URL: `op_sharpen`)
 
-* **Oskarp mask** - Du kan finjustera en skärpefiltereffekt på den nedsamplade bilden. Du kan styra intensiteten för effekten, radien för effekten (mätt i pixlar) och ett tröskelvärde för kontrast som ignoreras. Effekten har samma alternativ som filtret Oskarp mask i Photoshop. (URL: `op_usm`)
+* **Oskarp mask** - Du kan finjustera en skärpefiltereffekt på den nedsamplade bilden. Du kan styra intensiteten för effekten, radien för effekten (mätt i pixlar) och ett tröskelvärde för kontrast som ignoreras. Effekten har samma alternativ som Photoshop&quot;Oskarp mask&quot;-filter. (URL: `op_usm`)
 
 Välj följande alternativ så att du kan finjustera skärpan med Oskarp mask:
 

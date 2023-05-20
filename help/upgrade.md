@@ -3,13 +3,13 @@ title: Uppgradera från Adobe [!DNL Dynamic Media Classic] till [!DNL Dynamic Me
 description: Uppgradera från [!DNL Adobe Dynamic Media Classic] till [!DNL Dynamic Media] på [!DNL Adobe Experience Manager]. Läs om de viktigaste fördelarna och funktionerna i [!DNL Dynamic Media]. Granska jämförelsen av funktioner, frågor och svar om uppgradering och beredskapskontrolllistan.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 25e4f0d893c5963b648d75f65d099bca09e0f72f
+exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
+source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
 
 ---
-
 
 # Varför uppgradera till [!DNL Dynamic Media]?
 
@@ -55,16 +55,3 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Support dygnet runt, alla dagar, året om, 99,95 % SLA, Adobe Professional Services.
 * Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 petabyte trafik per månad och över 500 miljoner mediefiler i hantering, 60 % ökning av trafiken år för år.
-
-
-
-
-
-
-
-
-
-
-
-
-

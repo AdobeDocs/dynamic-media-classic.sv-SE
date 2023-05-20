@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic - utbildningsvideor
-description: Adobe Dynamic Media Classic - utbildningsvideor om hur du kommer igång, Dynamic Imaging, video, mediaportal, mallar samt redigering och rendering av bilder.
+title: Adobe Dynamic Media Classic utbildningsvideor
+description: Adobe Dynamic Media Classic utbildningsvideor om hur du kommer igång, Dynamic Imaging, video, mediaportal, mallar samt redigering och rendering av bilder.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic - utbildningsvideor {#training-videos}
+# Adobe Dynamic Media Classic utbildningsvideor {#training-videos}
 
-Adobe Dynamic Media Classic - utbildningsvideor om hur du kommer igång, Dynamic Imaging, video, mediaportal, mallar samt redigering och rendering av bilder.
+Adobe Dynamic Media Classic utbildningsvideor om hur du kommer igång, Dynamic Imaging, video, mediaportal, mallar samt redigering och rendering av bilder.
 
 ## Kom igång {#get-started-training}
 

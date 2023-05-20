@@ -3,13 +3,13 @@ title: Vanliga frågor om uppgradering
 description: Vanliga frågor och svar när du uppgraderar från [!DNL Adobe Dynamic Media Classic] datorprogram till [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] Resurser.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
+source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 0%
 
 ---
-
 
 # Frågor och svar om uppgradering från [!DNL Dynamic Media Classic] till [!DNL Dynamic Media]
 

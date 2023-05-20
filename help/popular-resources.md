@@ -8,7 +8,7 @@ exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 * [Referenshandbok för Adobe-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
 * [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [API för bildleverans och bildåtergivning](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
+* [Image Serving and Image Rendering API](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)
 
 ## Adobe Dynamic Media Classic Newsletters, Tutorials och webbinarier
 

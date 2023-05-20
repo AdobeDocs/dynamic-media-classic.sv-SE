@@ -13,7 +13,7 @@ exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 10%
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ Du kan skapa egna bildförinställningar om du är företagsadministratör. Du k
 
    Adobe Dynamic Media Classic rekommenderar att du börjar med följande alternativ:
 
-   * **[!UICONTROL Format]** - Välj JPEG eller något annat format som passar dina behov. Alla webbläsare har stöd för JPEG-bildformatet. Det ger en bra balans mellan små filstorlekar och bildkvalitet. I bilder med JPEG-format används dock förstörande komprimering, som kan ge upphov till oönskade bildartefakter om komprimeringsinställningen är för låg. Därför rekommenderar Adobe Dynamic Media Classic att du ställer in komprimeringskvaliteten (på skjutreglaget) på 75. Den här inställningen ger en bra balans mellan bildkvalitet och liten filstorlek.
+   * **[!UICONTROL Format]** - Välj JPEG eller något annat format som passar dina behov. Alla webbläsare har stöd för bildformatet JPEG. den ger en bra balans mellan små filstorlekar och bildkvalitet. JPEG-formatbilder använder dock ett förlustkomprimeringsschema som kan ge upphov till oönskade bildartefakter om komprimeringsinställningen är för låg. Därför rekommenderar Adobe Dynamic Media Classic att du ställer in komprimeringskvaliteten (på skjutreglaget) på 75. Den här inställningen ger en bra balans mellan bildkvalitet och liten filstorlek.
 
    * **[!UICONTROL Sharpening]** - Välj inte Skärpa (det här skärpefiltret ger mindre kontroll än **[!UICONTROL Unsharp Masking]** inställningar).
 
@@ -56,7 +56,7 @@ Du kan skapa egna bildförinställningar om du är företagsadministratör. Du k
 
    | Förinställningstyp | Storlek | USM: Belopp | USM: Radie | USM: Tröskelvärde |
    | --- | --- | --- | --- | --- |
-   | Korsförsäljning (miniatyrbild) | 75 x 75 | 1.5 | 0,8 | 5 |
+   | Korsförsäljning (miniatyrbild) | 75 x 75 | 1.5 | 0.8 | 5 |
    | Miniatyrbild | 150 x 150 | 1.1 | 1 | 5 |
    | Huvud | 350 x 350 | 1 | 1 | 6 |
    | Förstora | 500 x 500 | 1.2 | 1.2 | 5 |

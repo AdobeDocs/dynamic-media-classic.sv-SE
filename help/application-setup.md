@@ -11,7 +11,7 @@ exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '10713'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -69,7 +69,7 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
    När du har valt en mall för CDN-validering och gjort en begäran om ogiltig CDN visas en indikator i användargränssnittet. Du får en uppskattning av hur lång tid det tar att rensa cachen.
 
-   Om flera bilder är markerade i Adobe Dynamic Media Classic när du går till **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**, refereras varje bild till i den sparade mallens URL. Därför kan du definiera en mall för Ovalidering av CDN som refererar till varje URL som finns på webbplatsen (t.ex. produktinformation och sökresultat). När du sedan väljer en eller flera bilder som ska ogiltigförklaras från cachen fylls gränssnittet automatiskt i med URL:erna.
+   Om flera bilder är markerade i Adobe Dynamic Media Classic när du går till **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**, refereras varje bild till i den sparade mallens URL. Därför kan du definiera en mall för Ovalidering av CDN som refererar till varje URL som finns på webbplatsen (t.ex. produktinformation och sökresultat). När du sedan väljer en eller flera bilder som ska ogiltigförklaras från cachen fyller URL-adresserna automatiskt i gränssnittet.
 
    Se [Cachelagring av innehåll](dmc-platform-overview.md#content_caching).
 
@@ -550,7 +550,7 @@ Följande tabell visar vilka mobilvisningsgester som stöds på enheter med iOS,
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
-### Om skärmen med visningsförinställningar {#about-the-viewer-preset-screen}
+### Om skärmen för visningsförinställningar {#about-the-viewer-preset-screen}
 
 Skapa och hantera visningsförinställningar på skärmen Förinställningar för visningsprogram. Om du vill öppna den här skärmen går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
@@ -976,10 +976,10 @@ När snurruppsättningen överförs och publiceras aktiverar du namnet på det t
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**. **[!UICONTROL View Form]**, som anges i det övre högra hörnet på detaljsidan, är standardvyn.
 1. På panelen Förinställningslista väljer du **[!UICONTROL Add]** om du vill aktivera definitionsfälten på panelen Detaljer till höger på sidan.
 1. Skriv ett namn på förinställningen i fältet Förinställningsnamn på panelen Detaljer.
-1. I listrutan Gruppuppsättningstyp väljer du **[!UICONTROL Asset Set]**.
+1. Välj **[!UICONTROL Asset Set]**.
 1. I listrutan Undertyp väljer du **[!UICONTROL Multi-Axis Spin Set]**.
 1. Expandera **[!UICONTROL Asset Naming Conventions]** och sedan i listrutan Namnge filer väljer du **[!UICONTROL Custom]**.
-1. Använd attributen **[!UICONTROL Match]** och eventuellt **[!UICONTROL Base Name]** för att definiera ett reguljärt uttryck för namngivning av bildresurser som utgör grupperingen.
+1. Använd **[!UICONTROL Match]** och, om så önskas, **[!UICONTROL Base Name]** attribut för att definiera ett reguljärt uttryck för namngivning av bildresurser som utgör grupperingen.
 
    Det reguljära uttrycket för literal Match kan till exempel se ut så här:
 

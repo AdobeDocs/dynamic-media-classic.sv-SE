@@ -13,7 +13,7 @@ exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '841'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -99,4 +99,4 @@ På skärmen Karta sidor kan du snabbt och enkelt visa text i panelen Info för 
 1. Välj **[!UICONTROL Map Pages]**.
 1. Överst i tabellen till höger på skärmen väljer du **[!UICONTROL Info Panel]** på menyn Visa.
 
-   Övergångstexten visas bredvid alla bildscheman som innehåller text på informationspanelen.
+   Överrullningstexten visas bredvid varje bildschema som innehåller text på informationspanelen.
