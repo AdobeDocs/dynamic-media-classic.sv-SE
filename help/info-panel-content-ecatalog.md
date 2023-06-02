@@ -10,9 +10,9 @@ discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Ado
 
 * I inställningspanelen i InfoPanel kan du ange vilken mall som ska användas för att visa Info-paneltexten, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om e-kataloger ska publiceras automatiskt.
 * Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i InfoPanel-överrullningstexten och schemalägga tider för uppdatering av informationen.
-* I dialogrutan Importera metadata (hämtas från vyn Kartsidor) kan du importera en tabbavgränsad TXT-fil som innehåller överrullningstextinformation. Du kan använda det här TXT-alternativet eller dataflödespanelen med CSV-filalternativet för överrullningstexten.
+* I dialogrutan Importera metadata (hämtas från vyn Kartsidor) kan du importera en tabbavgränsad TXT-fil som innehåller överrullningstextinformation. Du kan använda det här TXT-alternativet eller Datafeed-panelen med CSV-filalternativet för överrullningstexten.
 * Vyn Kartsidor innehåller ett alternativ för att förhandsgranska XML-filen som visas för specifika bildscheman.
 
 ## Konfigurera en svarsmall för e-kataloger {#set-up-a-response-template-for-ecatalogs}
@@ -66,7 +66,7 @@ Tänk på följande när du formaterar källinnehåll:
 ### Importera CSV-innehåll till e-kataloger från en externt värdbaserad plats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Dubbelklicka på e-katalogen så att den öppnas i detaljvyn.
-1. Välj **[!UICONTROL InfoPanel Data feed]** -panelen.
+1. Välj **[!UICONTROL InfoPanel Datafeed]** -panelen.
 1. Ange URL:en för CSV-filen i rutan Plats för extern värdbaserad CSV-fil. Du kan klistra in URL-adressen i det här fältet eller skriva den direkt.
 1. (Valfritt) Ange en tid för att uppdatera innehållet med hjälp av menyerna Schemauppdatering och välj **[!UICONTROL Add]**. Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i rutan Uppdateringstider. (Om du vill ta bort en tid markerar du den och väljer **[!UICONTROL Delete]**.)
 1. (Valfritt) Välj **[!UICONTROL Run Update Now]** för att uppdatera innehållet omedelbart.

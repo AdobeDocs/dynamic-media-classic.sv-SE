@@ -10,7 +10,7 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
@@ -66,7 +66,7 @@ Tänk på följande när du formaterar källinnehåll:
 ### Importera CSV-innehåll till bilduppsättningar från en extern värdplats {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Dubbelklicka på bilduppsättningen så att den öppnas i detaljvyn.
-1. Välj **[!UICONTROL InfoPanel Data feed]**.
+1. Välj **[!UICONTROL InfoPanel Datafeed]**.
 1. I textfältet Externt hosted CSV file location (HTTP) anger du URL:en till CSV-filen.
 1. (Valfritt) I fälten Schemalägg uppdatering anger du en tid för att uppdatera innehållet och väljer sedan **[!UICONTROL Add]**.
 

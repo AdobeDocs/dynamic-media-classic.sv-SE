@@ -10,7 +10,7 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här verktygen är tillgängliga genom att klicka på överrullningen **[!UICONTROL Edit]** och i panelen Bläddra i detaljvyn. Du kan göra följande bildredigeringsåtgärder i Adobe Dynamic Media Classic:
 
-* **Skapa bildscheman** - Om du vill skapa ett bildschema väljer du kommandot Bild eller **[!UICONTROL Image Map]** -knappen. En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/creating-image-maps.md).
+* **Skapa bildscheman** - Om du vill skapa ett bildschema väljer du kommandot Bild eller **[!UICONTROL Image Map]** -knappen. En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet, som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/creating-image-maps.md).
 
 * **Skapa zoommål** - Om du vill skapa miniatyrbildsmål väljer du kommandot Zoommål eller **[!UICONTROL Zoom Targets]** -knappen. Användarna kan välja ett miniatyrbildsmål i Zoomvisningsprogrammet för att zooma direkt till en viss del av bilden. Se [Skapa zoommål för guidad zoomning](/help/creating-zoom-targets-guided-zoom.md).
 
