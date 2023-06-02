@@ -9,7 +9,7 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '3862'
 ht-degree: 1%
@@ -108,7 +108,7 @@ I följande tabell visas videofiltyper (med tillåtna videokodekar) som du kan k
    | M2V | MPEG-2 ES |
    | M4V | H.264 |
    | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-   | MP4 | H.264/MPEG-4 AVC |
+   | MP4 | H.264 / MPEG-4 AVC |
    | MPEG | MPEG-2 SS |
    | MPG | MPEG-2 SS |
    | MTS | MPEG-2 |
@@ -145,7 +145,7 @@ I följande tabell beskrivs rekommenderad storlek, proportioner och lägsta bith
 
 ### Hämta metadata för en fil {#obtaining-a-file-s-metadata}
 
-Du kan hämta metadata för en fil genom att visa dess metadata i Adobe Dynamic Media Classic, med ett videoredigeringsverktyg eller med ett program som utformats för att hämta metadata. Nedan följer instruktioner om hur du använder MediaInfo, ett tredjepartsprogram, för att hämta videofilens metadata:
+Du kan hämta filens metadata genom att visa dess metadata i Adobe Dynamic Media Classic, med ett videoredigeringsverktyg eller med ett program som utformats för att hämta metadata. Nedan följer instruktioner om hur du använder MediaInfo, ett tredjepartsprogram, för att hämta videofilens metadata:
 
 1. Gå till den här webbsidan: [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo).
 1. Välj och hämta installationsprogrammet för den grafiska användargränssnittsversionen och följ installationsanvisningarna.
@@ -155,7 +155,7 @@ Du kan hämta metadata för en fil genom att visa dess metadata i Adobe Dynamic 
 
 När du väljer eller skapar en förinställning för videokodning för den primära videofilen måste du se till att förinställningen har samma proportioner som den primära videofilen. The *proportioner* är förhållandet mellan bredden och videons höjd.
 
-Om du vill bestämma proportionerna för en videofil hämtar du filens metadata och noterar filens bredd och höjd (se [Hämta metadata för en fil](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Använd sedan den här formeln för att bestämma proportionerna:
+Om du vill ta reda på videofilens proportioner hämtar du filens metadata och noterar filens bredd och höjd (se [Hämta metadata för en fil](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Använd sedan den här formeln för att bestämma proportionerna:
 
 width/height = aspect ratio
 
@@ -178,7 +178,7 @@ The *datahastighet* (kallas även *bithastighet*) är mängden data som kodas f�
 >
 >Eftersom förlustgivande komprimering används för alla kodekar är datahastigheten den viktigaste faktorn i videokvaliteten. Ju mer du komprimerar en videofil desto sämre blir kvaliteten. Därför är alla andra egenskaper lika (upplösning, bildrutefrekvens och kodek), ju lägre datahastighet, desto lägre kvalitet får den komprimerade filen.
 
-När du väljer en förinställning för videokodning måste du tänka på att ta hänsyn till målanvändarens anslutningshastighet. Välj en förinställning med en datahastighet som är 80 % av den hastigheten. Om målanvändarens anslutningshastighet till exempel är 1 000 kbit/s är den bästa förinställningen en med en videodatahastighet på 800 kbit/s.
+När du väljer en förinställning för videokodning måste du tänka på att ta hänsyn till målanvändarens anslutningshastighet. Välj en förinställning med en datahastighet som är 80 % av den hastigheten. Om målanvändarens anslutningshastighet till exempel är 1000 kbit/s är den bästa förinställningen en med en videodatahastighet på 800 kbit/s.
 
 I den här tabellen beskrivs datahastigheten för typiska anslutningshastigheter.
 

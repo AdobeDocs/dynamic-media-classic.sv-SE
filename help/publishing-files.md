@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1682'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Se [Använd ett överförings- eller publiceringsjobb som utlösare](checking-jo
 
 Du kan avbryta ett pågående publiceringsjobb. Om du är administratör kan du dessutom avbryta ett pågående publiceringsjobb från företagets jobbsida.
 
-Om du vill avbryta ett publiceringsjobb går du till sidan Jobb och väljer **[!UICONTROL Cancel]**. På fliken Schemalagda på sidan Jobb kan du pausa eller återuppta ett jobb genom att avmarkera eller markera kryssrutan i kolumnen Aktiv för jobbet.
+Om du vill avbryta ett publiceringsjobb går du till sidan Jobb och väljer **[!UICONTROL Cancel]**. På fliken Schemalagda på sidan Jobb kan du pausa eller återuppta ett jobb genom att avmarkera eller markera kryssrutan i jobbkolumnen.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Publicerade resurser visas i användargränssnittet med en rund, grön ikon med 
 
    * I Stödrastervisning, listvy eller detaljvy väljer du den runda, gröna bockmarkeringsikonen till vänster om resursens namn.
 
-## Hämta en medias publiceringshistorik {#getting-an-asset-s-publish-history}
+## Hämta publiceringshistorik för en resurs {#getting-an-asset-s-publish-history}
 
 Det senaste datumet då en resurs publicerades visas i detaljvyn högst upp på panelen. Du kan få mer information om publiceringshistoriken genom att öppna panelen Historik och publicerade servrar i detaljvyn. Därifrån kan du se när resursen publicerades och till vilka servrar den publicerades.
 

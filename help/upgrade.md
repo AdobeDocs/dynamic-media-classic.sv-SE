@@ -4,9 +4,9 @@ description: Uppgradera från [!DNL Adobe Dynamic Media Classic] till [!DNL Dyna
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 | Enkel redigering | Skapa, anpassa och lansera avancerat material snabbt utan behov av teknisk hjälp. |
 | Intuitivt gränssnitt | Redigera bildvisningsprogram och videospelare med ett lättanvänt WYSIWYG-gränssnitt (What You See It What You Get). |
 | Media som kan köpas | Skapa bilder, videor och bilder som kan köpas via klickbara länkar. |
-| Skalbar CDN | Få tillgång till det ledande nätverket Content Delivery Network (CDN) med beprövad skala och prestanda för alla behov. |
+| Skalbart CDN (Content Delivery Network) | Få tillgång till det bästa i klassen CDN med beprövad skala och prestanda för att tillgodose alla behov. |
 | Dynamic Imaging | Med en enda primär fil kan du automatiskt generera och publicera ett obegränsat antal versioner, ändra storlek, format, upplösning, beskärning eller effekt. |
 | Dynamisk video | Storleksbaserad video storleksanpassas automatiskt för alla skärmar och strömmas adaptivt för att säkerställa en konsekvent och högkvalitativ användarupplevelse. |
 | Personalisering | Skapa och publicera enkelt [!DNL Dynamic Media] interaktiva upplevelser som produktkonfiguratorer, personaliserade banners och e-postmeddelanden. |
@@ -54,4 +54,4 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 * Starka prestanda i rapporten 2016 Online Video Platform.
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Support dygnet runt, alla dagar, året om, 99,95 % SLA, Adobe Professional Services.
-* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 petabyte trafik per månad och över 500 miljoner mediefiler i hantering, 60 % ökning av trafiken år för år.
+* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5-petabyte trafik per månad och över 500 miljoner mediefiler i hantering, 60 % ökning av trafiken år för år.

@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 0%
@@ -66,7 +66,7 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
    Följande Windows®-enheter har stöd för det här videoformatet:
 
-   Se [Videoformat som stöds på Windows® Phone](https://docs.microsoft.com/en-us/).
+   Se [Videoformat som stöds på Windows® Phone](https://learn.microsoft.com/en-us/).
 
 * Spela upp videon med Adobe Dynamic Media Classic Viewer Presets, inklusive följande:
 

@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
 
-* Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
+* Redigera bild **[!UICONTROL Save]** knapparna var icke-funktionella.
 * I Set editors **[!UICONTROL Close]**, **[!UICONTROL Save]** och **[!UICONTROL Save As]** inaktiveras knapparna när du har bläddrat resurser i **[!UICONTROL Add Assets]** -panelen.
 * **[!UICONTROL Play]** knappen i vyn Videodetalj fungerade inte.
 * Det gick inte att ange `d` och `e` in **[!UICONTROL Username]** och **[!UICONTROL Password]** fält när du kör macOS Monterey.
@@ -89,7 +89,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 Se även:
 
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen på Mac](#install-silent-mac-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows®](#install-silent-windows-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows](#install-silent-windows-dmc-app)
 
 1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
@@ -108,7 +108,7 @@ Se även:
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -147,8 +147,8 @@ Se även:
 
 Se även:
 
-* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows®](#installation-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows®](#install-silent-windows-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows](#installation-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows](#install-silent-windows-dmc-app)
 
 Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet på macOS:
 
@@ -189,7 +189,7 @@ Kommandot som du använder är för en grundläggande tyst MSI-installation. Ins
 
 Se även:
 
-* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows®](#installation-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows](#installation-dmc-app)
 
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen på macOS](#install-silent-mac-dmc-app)
 

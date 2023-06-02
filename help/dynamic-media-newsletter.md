@@ -5,9 +5,9 @@ keywords: dynamiska medier;nyhetsbrev;produktuppdateringar;tips och tricks;event
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
 
    I detta nummer:
 
-   * Utforska tre sätt som er investering i multimedia kan hjälpa er i dessa utmanande tider.
+   * Utforska tre sätt som er investering i multimedia kan hjälpa er på i dessa svåra tider.
    * Anmäl dig till webbinariet för att lära dig hur du gör sidan ljusare med Smart Imaging.
    * Titta på on-demand-webbinariet SKill Builder för Adobe Dynamic Media Classic.
    * Se Dynamic Media sessioner från Online Adobe Summit 2020.

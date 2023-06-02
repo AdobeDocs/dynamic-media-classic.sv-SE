@@ -4,9 +4,9 @@ description: Vanliga frågor och svar när du uppgraderar från [!DNL Adobe Dyna
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
-source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1532'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 * Hantering av digitala resurser på företagsnivå med robust stöd för metadata, smart sökning, ljuslåda och samlingar, versionskontroll och säker delning av resurser som kan användas av leverantörer, partners och franchisetes Granska och godkänn-arbetsflöden för material i process.
 * Enkelt att använda och använda med det nya användargränssnittet.
 * Skapa köpbara/interaktiva medieupplevelser med bilder och video som ökar konverteringsgraden och ökar användarnas engagemang och nöjdhet.
-* Kombinera kampanjresurser med produktinformation för att effektivisera klick till kundvagn.
+* Effektivisera klick till kundvagn genom att kombinera kampanjresurser med produktinformation.
 * Skapa, justera, märk upp och distribuera enkelt interaktiva visningsprogram med WYSIWYG Viewer Designer.
 * Leverera optimerad multimedia för [!DNL Experience Cloud] lösningar.
 * Integration med [!DNL Experience Cloud] för avancerad materialanalys, målgruppsanpassning och återanvändning av resurser över alla kontaktytor för marknadsföring. Dessa kontaktytor inkluderar [!DNL Adobe Campaign] för e-post, [!DNL Adobe Social] för sociala kanaler, och [!DNL Experience Manager] Webbplatser för responsiva webb- och mobilappar.
@@ -43,7 +43,7 @@ Ja, [!DNL Dynamic Media] använder Adobe, leveransnätverk i toppskiktet.
 
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Stöd för 24/7/265, 99,95 % SLA.
-* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 petabyte trafik per månad och över 500 miljoner mediefiler i ledning, 60 % ökning av trafiken per år.
+* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5-PB-trafik per månad och över 500 miljoner mediefiler i hantering, 60 % ökning av trafiken per år.
 
 +++
 
@@ -175,7 +175,7 @@ Adobe fortsätter att stödja och upprätthålla fullt ut [!DNL Dynamic Media Cl
 +++
 
 +++**Hur mycket lagringsutrymme som [!DNL Dynamic Media]?**
-60 gigabyte lagringsutrymme ingår. Du kan köpa ytterligare lagringsutrymme i block om 250 GB. Kontrollera avtalsinformationen för att få aktuell lagringstilldelning.
+Lagring på 60 GB ingår. Du kan köpa ytterligare lagringsutrymme i block om 250 GB. Kontrollera avtalsinformationen för att få aktuell lagringstilldelning.
 
 +++
 
@@ -204,8 +204,8 @@ Ja. Du kan använda ditt eget CDN med [!DNL Dynamic Media].
 
 +++
 
-+++**Gör [!DNL Dynamic Media] har jag de funktioner jag behöver uppgradera? Vilka funktioner är tillgängliga med [!DNL Dynamic Media] på [!DNL Experience Manager] Resurser?**
-Se [Funktionsjämförelse](/help/upgrade-feature-comparison.md) sida med mer information.
++++**Gör [!DNL Dynamic Media] har jag de funktioner jag måste uppgradera? Vilka funktioner är tillgängliga med [!DNL Dynamic Media] på [!DNL Experience Manager] Resurser?**
+Se [Funktionsjämförelse](/help/upgrade-feature-comparison.md) sida.
 
 +++
 
@@ -216,7 +216,7 @@ Kunder som behöver följande kan även fortsättningsvis ha tillgång till [!DN
 * Bildmallar.
 * eCatalogs.
 
-Se även [Funktionsjämförelse](/help/upgrade-feature-comparison.md) sida med mer information.
+Se även [Funktionsjämförelse](/help/upgrade-feature-comparison.md) sida.
 
 +++
 

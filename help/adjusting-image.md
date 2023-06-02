@@ -10,7 +10,7 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -43,7 +43,7 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
       Välj **[!UICONTROL Replace original]** och sedan markera **[!UICONTROL Save]**.
 
-   * Om du vill spara bilden som en ny överordnad bild väljer du **[!UICONTROL Save As]**.
+   * Om du vill spara bilden som en ny primär bild väljer du **[!UICONTROL Save As]**.
 
       Välj **[!UICONTROL Save as new master]**.
 I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
@@ -51,7 +51,7 @@ Välj **[!UICONTROL Save]**.
 
    * Spara bilden som en annan vy av den primära bilden. du kan skapa ett alias för det. Välj **[!UICONTROL Save As]**.
 
-      I **[!UICONTROL Save As]** i listrutan väljer **[!UICONTROL Save as another view of master]**.
+      I **[!UICONTROL Save As]** väljer du **[!UICONTROL Save as another view of master]**.
 I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
 Välj **[!UICONTROL Save]**.
 
@@ -63,7 +63,7 @@ När du har justerat en bild kan du spara den som en annan vy av den primära bi
 
 1. I stödrastervyn eller listvyn i **[!UICONTROL Edit]** bredvid en bild som du vill skapa ett alias för väljer du **[!UICONTROL Adjust]**.
 1. Välj **[!UICONTROL Save As]**.
-1. I **[!UICONTROL Save As]** i listrutan väljer **[!UICONTROL Save as additional view of master]**.
+1. I **[!UICONTROL Save As]** väljer du **[!UICONTROL Save as additional view of master]**.
 1. I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den utjämnade bilden.
 1. I **[!UICONTROL File Name]** anger du namnet som du vill använda för aliaset.
 1. Välj **[!UICONTROL Save]**.
