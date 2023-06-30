@@ -10,7 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1590'
 ht-degree: 0%
@@ -61,15 +63,15 @@ Se även [Bädda in videovisningsprogrammet på en webbsida](deploying-video-web
    * Välj **[!UICONTROL Grid View]** eller **[!UICONTROL List View]**. Dubbelklicka på videominiatyrbilden för en enskild resurs i panelen Resursbläddring för att öppna den i detaljvyn. Välj alternativet under HTTP-direktuppspelning på panelen URL:er och Bädda in kod till höger **[!UICONTROL Copy URL]** till höger om det visningsprogram du vill använda. Ett tips är att kopiera URL:en som är kopplad till `Universal_HTML5_Video` visningsprogram.
    * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resurssökning och gå sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**. Ett tips är att kopiera URL:en som är kopplad till `Universal_HTML5_Video` visningsprogram.
+     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**. Ett tips är att kopiera URL:en som är kopplad till `Universal_HTML5_Video` visningsprogram.
 
    * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**. Ett tips är att kopiera URL:en som är kopplad till `Universal_HTML5_Video` visningsprogram.
+     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**. Ett tips är att kopiera URL:en som är kopplad till `Universal_HTML5_Video` visningsprogram.
 
    * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**. Ett tips är att kopiera URL:en som är kopplad till `Universal_HTML5_Video` visningsprogram.
+     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**. Ett tips är att kopiera URL:en som är kopplad till `Universal_HTML5_Video` visningsprogram.
 
 1. Klistra in HTML5-videons URL-länk på din webbplats och mobilwebbplats.
 
@@ -88,15 +90,15 @@ Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deployi
    * Välj **[!UICONTROL Grid View]** eller **[!UICONTROL List View]**. Dubbelklicka på videominiatyrbilden för en enskild resurs i panelen Resursbläddring för att öppna den i detaljvyn. Välj alternativet under HTTP-direktuppspelning på panelen URL:er och Bädda in kod till höger **[!UICONTROL Embed Code]** till höger om det visningsprogram du vill använda. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
    * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resursbläddring och välj sedan en miniatyrbild under videon. **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
+     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
 
    * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
+     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
 
    * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
+     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
 
 1. I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
 
@@ -119,15 +121,15 @@ Om du inte använder videospelaren Adobe Dynamic Media Classic HTML 5, utan vill
 
 * Ersätt `"S7 video thumbnail URL"` med videons miniatyrbilds-URL, som är videons miniatyrbild som en användare ser innan de spelar upp videon.
 
-   Se [Hämta URL-adresser för videominiatyrbilder](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  Se [Hämta URL-adresser för videominiatyrbilder](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * Ersätt `"S7 OGG video asset URL (no player)"` med videons progressiva URL för OGG-video.
 
-   Se [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Se [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * Ersätt `"S7 MP4 mobile progressive video asset URL (no player)"` med videons mobila progressiva URL.
 
-   Se [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  Se [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## Distribuera video med en videospelare från tredje part {#deploying-video-using-a-third-party-video-player}
 
@@ -140,28 +142,28 @@ Om du använder en videospelare från tredje part eller en anpassad videospelare
 
 * Generera en URL för direktuppspelad HLS-video (flerbithastighet)
 
-   På **[!UICONTROL Application General Settings]** sida, på **[!UICONTROL Servers]** grupp, i **[!UICONTROL Published Server Name]** textfält, konstruera den direkta URL:en. Använd följande syntax: `server/is/content/company/folder/filename.m3u8`
+  På **[!UICONTROL Application General Settings]** sida, på **[!UICONTROL Servers]** grupp, i **[!UICONTROL Published Server Name]** textfält, konstruera den direkta URL:en. Använd följande syntax: `server/is/content/company/folder/filename.m3u8`
 
-   Anta till exempel att namnet på den publicerade servern är `https://s7d9.scene7.com/.` Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
-   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
+  Anta till exempel att namnet på den publicerade servern är `https://s7d9.scene7.com/.` Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
+  `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * Generera en URL för direktuppspelad HLS-video (enkelbithastighet)
 
-   På **[!UICONTROL Application General Settings]** sida, på **[!UICONTROL Servers]** grupp, i **[!UICONTROL HLS Streaming Server Name]** i textfältet, konstruera den direkta URL:en med följande syntax:
+  På **[!UICONTROL Application General Settings]** sida, på **[!UICONTROL Servers]** grupp, i **[!UICONTROL HLS Streaming Server Name]** i textfältet, konstruera den direkta URL:en med följande syntax:
 
-   `server/company/folder/filename.ext.m3u8`
+  `server/company/folder/filename.ext.m3u8`
 
-   Anta till exempel att namnet på servern för HLS-direktuppspelning är `https://s7mbrstream.scene7.com/hls-vod/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
-   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
+  Anta till exempel att namnet på servern för HLS-direktuppspelning är `https://s7mbrstream.scene7.com/hls-vod/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
+  `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Generera en URL för direkt progressiv video
 
-   På **[!UICONTROL Application General Settings]** sida, på **[!UICONTROL Servers]** grupp, i **[!UICONTROL Progressive Video Server Name]** i textfältet konstruerar du den direkta eVideo-URL:en med följande syntax:
+  På **[!UICONTROL Application General Settings]** sida, på **[!UICONTROL Servers]** grupp, i **[!UICONTROL Progressive Video Server Name]** i textfältet konstruerar du den direkta eVideo-URL:en med följande syntax:
 
-   `server/company/folder/filename`
+  `server/company/folder/filename`
 
-   Anta till exempel att namnet på den progressiva videoservern är `https://s7d9.scene7.com/is/content/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
-   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
+  Anta till exempel att namnet på den progressiva videoservern är `https://s7d9.scene7.com/is/content/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
+  `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## Arbeta med videominiatyrer {#working-with-video-thumbnails}
 

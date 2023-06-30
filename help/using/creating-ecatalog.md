@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 0%
@@ -42,9 +44,9 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
    * **Starta från eCatalog-skärmen** - Gå till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Markera en mapp i resursbiblioteket och dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
 
-      >[!NOTE]
-      >
-      >Om du vill visa objekten i resursbiblioteket efter namn i stället för efter miniatyrbild, väljer du alternativet Namn för standardvyn för resursbibliotek i Personliga inställningar.
+     >[!NOTE]
+     >
+     >Om du vill visa objekten i resursbiblioteket efter namn i stället för efter miniatyrbild, väljer du alternativet Namn för standardvyn för resursbibliotek i Personliga inställningar.
 
 1. Välj en övergripande layout för din eCatalog. Välj **[!UICONTROL 1 Up]** för enstaka sidor, **[!UICONTROL 2 Up]** för uppslag med dubbla sidor, eller **[!UICONTROL Custom]** för uppslag med fler än två sidor. I **[!UICONTROL Change eCatalog Layout]** väljer du **[!UICONTROL All Spreads]** alternativ och markera **[!UICONTROL OK]**.
 1. Du kan också ändra layouten för enskilda sidor eller uppslag genom att markera dem och sedan välja **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]**, eller **[!UICONTROL Custom]** -knappen. I **[!UICONTROL Change eCatalog Layout]** väljer du **[!UICONTROL Selected Spreads]** alternativ och markera **[!UICONTROL OK]**.

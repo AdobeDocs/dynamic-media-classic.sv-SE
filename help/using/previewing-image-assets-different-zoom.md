@@ -10,7 +10,9 @@ discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: bc83a94d-540a-46ad-aae0-e4a32ee9a302
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -43,4 +45,3 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 >
 >* [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
 >* [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers)
-

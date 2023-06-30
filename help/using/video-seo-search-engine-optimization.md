@@ -10,7 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -94,7 +96,7 @@ Se [Metadatavyer](application-setup.md#metadata_views).
    * Om du vill spara inställningarna utan att generera XML-filen väljer du **[!UICONTROL Save]**.
    * Om du vill spara och generera filen väljer du **[!UICONTROL Save & Generate]**.
 
-      XML-filen genereras och registreras i jobbloggen. Webbplatskarta för video (video-sitemap) och RSS-flöden (Media RSS) (mrss-feed) lagras i företagets rotmapp.
+     XML-filen genereras och registreras i jobbloggen. Webbplatskarta för video (video-sitemap) och RSS-flöden (Media RSS) (mrss-feed) lagras i företagets rotmapp.
 
 >[!NOTE]
 >

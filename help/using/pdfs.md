@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -81,12 +83,12 @@ Se även [ICC-profiler](/help/using/icc-profiles.md#icc_profiles).
       * **[!UICONTROL Color]** - Välj alternativet Färg. Välj sedan **[!UICONTROL Corner]** och väljer hörnet på PDF med den färg som bäst motsvarar den färgen på tomrummet som du vill beskära.
 
       * **[!UICONTROL Transparency]** - Välj alternativet Genomskinlighet.
+
    * **[!UICONTROL Tolerance]** - Dra skjutreglaget för att ange en tolerans mellan 0 och 1.
 
    * **[!UICONTROL Trimming based on color]** - Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du markerade i hörnet av PDF. Nummer som ligger närmare 1 ger större färgskillnader.
 
    * **[!UICONTROL Trimming based on transparency]** - Ange 0 om pixlarna bara ska beskäras om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
-
 
 ## Beskär från sidorna på PDF {#cropping-from-the-sides-of-pdf-pages}
 

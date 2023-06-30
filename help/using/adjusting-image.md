@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -41,17 +43,17 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
    * Om du vill ersätta originalbilden väljer du **[!UICONTROL Save As]**.
 
-      Välj **[!UICONTROL Replace original]** och sedan markera **[!UICONTROL Save]**.
+     Välj **[!UICONTROL Replace original]** och sedan markera **[!UICONTROL Save]**.
 
    * Om du vill spara bilden som en ny överordnad bild väljer du **[!UICONTROL Save As]**.
 
-      Välj **[!UICONTROL Save as new master]**.
+     Välj **[!UICONTROL Save as new master]**.
 I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
 Välj **[!UICONTROL Save]**.
 
    * Spara bilden som en annan vy av den primära bilden. du kan skapa ett alias för det. Välj **[!UICONTROL Save As]**.
 
-      I **[!UICONTROL Save As]** i listrutan väljer **[!UICONTROL Save as another view of master]**.
+     I **[!UICONTROL Save As]** i listrutan väljer **[!UICONTROL Save as another view of master]**.
 I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
 Välj **[!UICONTROL Save]**.
 

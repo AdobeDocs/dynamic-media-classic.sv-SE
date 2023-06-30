@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -38,7 +40,7 @@ Förbered dina PDF-filer innan du överför dem till Adobe Dynamic Media Classic
 * Om du vill att tittarna ska söka i din e-katalog med nyckelord, ta reda på om dina PDF-filer är förenklade. Du kan inte extrahera sökord från sammanslagna PDF-filer. Om du vill ta reda på om en PDF är förenklad kan du försöka markera text i den. Om du inte kan markera text förenklas PDF och visningsprogrammen kan inte söka efter nyckelord i din eCatalog.
 * Eftersom de ska skrivas ut innehåller PDF vanligtvis CMYK-bilder. Som standard kan Adobe Dynamic Media Classic identifiera dessa CMYK-bilder på ett intelligent sätt och konvertera dem med en intern CMYK-färgprofil. Om du vill använda en egen färgprofil för att konvertera CMYK-bilder kan du göra det.
 
-   Se [ICC-profiler (International Color Consortium)](icc-profiles.md#icc_profiles).
+  Se [ICC-profiler (International Color Consortium)](icc-profiles.md#icc_profiles).
 
 ## Överföringsalternativ för PDF {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ Markera de filer som du vill överföra och välj sedan dessa *bästa praxis* Al
 
 * **Färgrymd** - I dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL PDF Options]**. Välj **[!UICONTROL Detect automatically]**. PDF som skapas för utskrift är vanligtvis i CMYK. PDF för onlinevisning är RGB. Om båda färgmodellerna används i ett PDF kan du välja en viss färgmodell genom att välja Använd som RGB eller Använd som CMYK. PDF använder båda färgmodellerna, till exempel när sidgrafik använder en CMYK-färgmodell, men RGB används i bilderna. Om du överförde en ICC-profil visas dess namn på menyn Färgrymd och du kan välja den där.
 
-   Se [ICC-profiler (International Color Consortium)](/help/using/icc-profiles.md).
+  Se [ICC-profiler (International Color Consortium)](/help/using/icc-profiles.md).
 
 * **Alternativ för färgprofil** - I dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL Color Profile Options]** och välj sedan ett färgprofilsalternativ:
 

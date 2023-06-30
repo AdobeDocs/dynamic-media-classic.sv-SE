@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1944'
 ht-degree: 0%
@@ -56,11 +58,11 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 * Skrivbordsappen slutar svara, vanligtvis efter Set-åtgärder.
 * Automatiskt aktiverat begärandefunktionalitet och låsläge under **[!UICONTROL Test Image Serving]**.
 
-   Se [Testa tjänsten för säker testning](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  Se [Testa tjänsten för säker testning](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * Uppdaterad autentiseringsmekanism med Adobe Analytics. Relevant för nya integreringar eller om vissa Analytics-variabler måste uppdateras inifrån Dynamic Media Classic-datorprogrammet.
 
-   Se [Logga in på Adobe Analytics](/help/using/log-analytics.md) för uppdaterade steg.
+  Se [Logga in på Adobe Analytics](/help/using/log-analytics.md) för uppdaterade steg.
 
 ## Korrigeringar i version 20.21.2 {#minor-release}
 
@@ -99,11 +101,11 @@ Se även:
 
       * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
       * [Windows (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+
    * Den tidigare versionen finns på följande webbplats:
 
       * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
-
 
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
@@ -118,12 +120,12 @@ Se även:
 
    * **macOS** -I **[!UICONTROL Drag & drop to install]** dialogruta, dra **[!UICONTROL Adobe Dynamic Media Classic]** och släppa **[!UICONTROL Applications]**.
 
-      ![Dra och släpp installation på macOS](/help/using/assets/dragondrop-install1.png)
+     ![Dra och släpp installation på macOS](/help/using/assets/dragondrop-install1.png)
 
    * I **[!UICONTROL Applications]** trycker du på ikonen Adobe Dynamic Media Classic.
    * Tryck på **[!UICONTROL Open]** för att öppna Adobe Dynamic Media Classic-datorprogrammet.
 
-      ![Öppna hämtat program](/help/using/assets/open-dmclassicapp1.png)
+     ![Öppna hämtat program](/help/using/assets/open-dmclassicapp1.png)
 
    * **Windows** - Kör installationsprogrammets binärfil och följ instruktionerna på skärmen för att installera skrivbordsappen.
 
@@ -263,7 +265,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 * I appen Adobe Dynamic Media Classic väljer du det nya företaget i listrutan för företag.
 * Tryck på när popup-fönstret visas **[!UICONTROL OK]** för att logga ut och stänga appen.
 
-   ![Starta om appen om du vill använda det nya företaget](/help/using/assets/dmclassic-new-company1.png)
+  ![Starta om appen om du vill använda det nya företaget](/help/using/assets/dmclassic-new-company1.png)
 
 * Starta om Adobe Dynamic Media Classic och logga sedan in som vanligt för att arbeta med det nya företaget.
 

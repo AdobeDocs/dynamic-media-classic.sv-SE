@@ -10,7 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -34,7 +36,7 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
 
    * **Polygonkarta** - Välj verktyget Polygonbildschema och markera sedan så många gånger som behövs runt bildens omkrets. När du väljer det här alternativet ritar Adobe Dynamic Media Classic kanterna på bildschemat.
 
-      När du har ritat en bildschema ger Adobe Dynamic Media Classic den ett namn i listan Bildschema. För att bilda namnet lägger Adobe Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
+     När du har ritat en bildschema ger Adobe Dynamic Media Classic den ett namn i listan Bildschema. För att bilda namnet lägger Adobe Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
 
 1. (Valfritt) I listan Bildschema i dialogrutan [!UICONTROL Name] kan du ange ett nytt namn för bildschemat. Använd inte blanksteg i det namn du anger.
 1. Du kan låta tittarna öppna en ny webbsida när de väljer Bildschema. Ange webbsidans URL i URL-kolumnen på listpanelen Bildschema.
@@ -77,23 +79,23 @@ Använd följande tekniker för att redigera eCatalog-bildscheman från och med 
 
 * **Justera positionen** - Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhörig pil drar du hela bildschemat till en ny plats.
 
-   Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Ändra form och storlek** - Om du vill ändra storlek på ett rektangulärt bildschema väljer du panoreringsverktyget. Flytta sedan pekaren över en kantlinje eller ett hörn och dra när du ser den dubbelriktade pilikonen. Dra i ett fyrkantigt markeringshandtag om du vill ändra storlek på ett flersidigt bildschema. Om du vill skapa ett markeringshandtag markerar du kanten på bildschemat och drar.
 
-   Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
+  Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
 * **Ta bort bildscheman** - Välj panoreringsverktyget, markera bildschemat och markera det sedan **[!UICONTROL Delete]**.
 
-   Om du vill ta bort alla bildscheman från en e-katalog väljer du **[!UICONTROL Order Pages]** och sedan välja **[!UICONTROL Clear Maps]**.
+  Om du vill ta bort alla bildscheman från en e-katalog väljer du **[!UICONTROL Order Pages]** och sedan välja **[!UICONTROL Clear Maps]**.
 
 * **Hantera överlappande bildscheman** - Dra om du vill ändra ordningen på bildscheman i listan Bildschema.
 
-   Se [Hantera överlappande bildscheman](creating-image-maps.md#handling_overlapping_image_maps).
+  Se [Hantera överlappande bildscheman](creating-image-maps.md#handling_overlapping_image_maps).
 
 * **Kopiera bildscheman till andra sidor** - Välj **[!UICONTROL Copy Maps To]** (Kontrollera att du är på fliken Kartsidor). På skärmen Välj bilder markerar du den eller de sidor där du vill kopiera bildscheman och väljer **[!UICONTROL Select]**.
 
-   Se [Kopiera bildscheman till andra bilder](creating-image-maps.md#copying_image_maps).
+  Se [Kopiera bildscheman till andra bilder](creating-image-maps.md#copying_image_maps).
 
 >[!NOTE]
 >

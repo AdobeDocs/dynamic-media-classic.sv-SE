@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Show File Size]** - Visar filstorleken för en resurs när du bläddrar.
 * **[!UICONTROL Include UDFs in Search]** - För att förbättra systemprestanda för de flesta metadatasökningar som du kör, avmarkerat (standard).
 
-   Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Du kan också använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än att inkludera användardefinierade fält.
+  Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Du kan också använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än att inkludera användardefinierade fält.
 
-   Se [Använda avancerad sökning](searching-assets.md#conducting_an_advanced_search).
+  Se [Använda avancerad sökning](searching-assets.md#conducting_an_advanced_search).
 
-   Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
+  Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
 
 * **[!UICONTROL Basic Search Type]** - Du kan välja mellan två alternativ: **[!UICONTROL Contains]** söker igenom hela strängen efter det angivna värdet, **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som är inställd i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** av administratören.
 * **[!UICONTROL Show Command Feedback]** - Välj att aktivera visning av kommandobegäranden till servern, avmarkera för att stänga av.

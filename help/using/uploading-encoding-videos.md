@@ -9,7 +9,9 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3862'
 ht-degree: 1%
@@ -26,7 +28,7 @@ Om du vill skapa en enda video eller adaptiva videouppsättningar för webben el
    * HTTP Live Streaming (Apple direktuppspelningsprotokoll).
    * Progressiv leverans av video till mobila enheter med Android™, BlackBerry® och Windows®
 
-   Adobe Dynamic Media Classic har två arbetsflöden för överföring av videofiler:
+  Adobe Dynamic Media Classic har två arbetsflöden för överföring av videofiler:
 
 * **Förkodade videoklipp** - Du överför MP4-filer direkt till Adobe Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
 
@@ -34,13 +36,13 @@ Om du vill skapa en enda video eller adaptiva videouppsättningar för webben el
 
    * Kontrollera att de primära källvideofiler som du vill koda stöds.
 
-      Se [Videofiltyper som stöds för kodning](uploading-encoding-videos.md#supported-video-file-types-for-encoding).
+     Se [Videofiltyper som stöds för kodning](uploading-encoding-videos.md#supported-video-file-types-for-encoding).
 
    * Välj en förinställning för videokodning.
 
-      Se [Videoförinställningar för kodning av videofiler](application-setup.md#video-presets-for-encoding-video-files).
+     Se [Videoförinställningar för kodning av videofiler](application-setup.md#video-presets-for-encoding-video-files).
 
-      Se [Bästa tillvägagångssätt för videokodning](uploading-encoding-videos.md#best-practices-for-video-encoding).
+     Se [Bästa tillvägagångssätt för videokodning](uploading-encoding-videos.md#best-practices-for-video-encoding).
 
 Adobe Dynamic Media Classic genererar även videominiatyrer. Du kan lära dig mer om videominiatyrbilder, hur du hämtar deras URL-adresser och ändrar affischramar.
 
@@ -98,28 +100,28 @@ I följande tabell visas videofiltyper (med tillåtna videokodekar) som du kan k
 
 * **Videokodekar** - En videokodek beskriver den algoritm som en video kodas med. En videospelare avkodar videon enligt dess kodek och visar sedan en serie bilder, eller bildrutor, på skärmen. Kodekar minimerar mängden information som videofiler behöver för att kunna lagra videon. I stället för information om varje enskild bildruta sparas bara information om skillnaderna mellan en bildruta och nästa. Eftersom de flesta videoklipp inte ändras så mycket från en bildruta till nästa, kan du använda codecenheter för hög komprimeringshastighet, vilket ger mindre filstorlekar.
 
-   | Videofilformat | Videokodekar |
-   | --- | --- |
-   | 3GP | H.263, H.264 |
-   | AVI | DivX, DV |
-   | M2P | MPEG-2 PS |
-   | M2T | MPEG-2 TS |
-   | M2TS | MPEG-2 TS |
-   | M2V | MPEG-2 ES |
-   | M4V | H.264 |
-   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-   | MP4 | H.264/MPEG-4 AVC |
-   | MPEG | MPEG-2 SS |
-   | MPG | MPEG-2 SS |
-   | MTS | MPEG-2 |
-   | ProRes | APCN, APCS, APCO, APCH, AP4H |
-   | TS | DVCPro 50 |
-   | VOB | MPEG-2 |
-   | WMV/ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
+  | Videofilformat | Videokodekar |
+  | --- | --- |
+  | 3GP | H.263, H.264 |
+  | AVI | DivX, DV |
+  | M2P | MPEG-2 PS |
+  | M2T | MPEG-2 TS |
+  | M2TS | MPEG-2 TS |
+  | M2V | MPEG-2 ES |
+  | M4V | H.264 |
+  | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
+  | MP4 | H.264/MPEG-4 AVC |
+  | MPEG | MPEG-2 SS |
+  | MPG | MPEG-2 SS |
+  | MTS | MPEG-2 |
+  | ProRes | APCN, APCS, APCO, APCH, AP4H |
+  | TS | DVCPro 50 |
+  | VOB | MPEG-2 |
+  | WMV/ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
 
-   >[!NOTE]
-   >
-   >På jobbskärmen visas ett varningsmeddelande om du överför och försöker koda en videofil, men filen avvisas eftersom den innehåller en inkompatibel kodek eller filbehållare. Mer information finns i [Kontrollera jobbfiler](checking-job-files.md).
+  >[!NOTE]
+  >
+  >På jobbskärmen visas ett varningsmeddelande om du överför och försöker koda en videofil, men filen avvisas eftersom den innehåller en inkompatibel kodek eller filbehållare. Mer information finns i [Kontrollera jobbfiler](checking-job-files.md).
 
 ## Bästa tillvägagångssätt för videokodning {#best-practices-for-video-encoding}
 
@@ -316,9 +318,9 @@ De aktiverade videoförinställningarna visas i dialogrutan Alternativ för öve
    * Om du vill aktivera en videoförinställning markerar du rutan bredvid ett förinställningsnamn under kolumnen Aktiv på sidan med förinställningar.
    * Om du vill inaktivera en videoförinställning avmarkerar du rutan bredvid de videoförinställningar som du vill göra inaktiva.
 
-      >[!NOTE]
-      >
-      >Inaktiva videoförinställningar visas inte i dialogrutan Alternativ för överföringsjobb.
+     >[!NOTE]
+     >
+     >Inaktiva videoförinställningar visas inte i dialogrutan Alternativ för överföringsjobb.
 
 1. Välj **[!UICONTROL Close]**.
 
@@ -341,7 +343,7 @@ Adobe Dynamic Media Classic har angett maxgränser för måldatahastighet, uppl�
    * Välj **[!UICONTROL Add]** så att du kan lägga till en videoförinställning.
    * Välj en videoförinställning. Välj **[!UICONTROL Edit]**.
 
-      Du kan inte redigera fördefinierade Adobe Dynamic Media Classic-förinställningar; du bara kan skapa en förinställning från en befintlig förinställning genom att välja **[!UICONTROL Save As]**.
+     Du kan inte redigera fördefinierade Adobe Dynamic Media Classic-förinställningar; du bara kan skapa en förinställning från en befintlig förinställning genom att välja **[!UICONTROL Save As]**.
 
 1. På sidan Lägg till videoförinställning eller på sidan Redigera videoförinställning anger du önskade alternativ för videoförinställning.
 
@@ -379,4 +381,3 @@ Administratörer kan ta bort anpassade videoförinställningar. Videoförinstäl
 >* [Överföra och koda videoklipp](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 >* [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo
-

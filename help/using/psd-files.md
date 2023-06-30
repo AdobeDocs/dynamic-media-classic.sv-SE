@@ -10,7 +10,9 @@ discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 0%
@@ -34,12 +36,12 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 * **Beskärningsalternativ** - Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** att automatiskt beskära tomrum från kanterna av en PSD-fil, välj **[!UICONTROL Manual]** för att beskära sidor av filen PSD:
 
    * **[!UICONTROL Trim]** - Välj **[!UICONTROL Trim Away Based On]** och väljer **[!UICONTROL Color]** eller **[!UICONTROL Transparency]**.
-   Om du väljer **[!UICONTROL Color]** väljer du menyn Hörn och väljer hörnet på PSD med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 
-   Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixlar endast om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
+  Om du väljer **[!UICONTROL Color]** väljer du menyn Hörn och väljer hörnet på PSD med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
+
+  Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixlar endast om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
 
    * **[!UICONTROL Manual]** - Ange antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Om bilden till exempel visar 150 ppi och du anger 75 i textrutorna Överkant, Höger, Underkant och Vänster, 0,5 tum. beskärs från varje sida av bilden.
-
 
 * **Alternativ för färgprofil** - Finns under **[!UICONTROL Color Profile Options]**.
 
@@ -66,8 +68,8 @@ De här alternativen är tillgängliga när du överför PSD-filer:
       * **[!UICONTROL Photoshop and layer number]** - Namnger bilderna efter deras lagernummer i filen PSD och ignorerar de ursprungliga lagernamnen. Bilderna får samma namn som Photoshop-filnamnet och ett nummer i det tillagda lagret. Det andra lagret i en fil med namnet `Spring Ad.psd` är namngiven `Spring Ad_2` även om det har ett icke-standardnamn i Photoshop.
 
       * **[!UICONTROL Photoshop and layer name]** - Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn. Ett lager med namnet `Price Tag` i en PSD-fil med namnet `SpringAd` är namngiven `Spring Ad_Price Tag`. Ett lager med standardnamnet Lager2 anropas `Spring Ad_2`.
-   * **[!UICONTROL Anchor]** - Ange hur bilder är förankrade i mallar som genereras från lagerkompositionen som skapas från filen PSD. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan ersättningsbilder bäst fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
 
+   * **[!UICONTROL Anchor]** - Ange hur bilder är förankrade i mallar som genereras från lagerkompositionen som skapas från filen PSD. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan ersättningsbilder bäst fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
 
 ## Visa och redigera lager i en PSD-fil {#viewing-and-editing-layers-in-a-psd-file}
 

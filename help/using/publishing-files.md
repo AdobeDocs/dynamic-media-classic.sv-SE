@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -122,7 +124,7 @@ Opublicerade resurser visas i användargränssnittet med en grå, rund ikon med 
 
    * I Stödrastervisning, listvy eller detaljvy använder du standardmetoder för att välja en eller flera opublicerade resurser.
 
-      På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Publish]**.
+     På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Publish]**.
 
    * I Stödrastervisning, listvy eller detaljvy väljer du den grå, runda ikonen med ett snedstreck till vänster om resursens namn.
 
@@ -138,7 +140,7 @@ Publicerade resurser visas i användargränssnittet med en rund, grön ikon med 
 
    * Markera en eller flera publicerade resurser i Stödrastervisning, listvy eller detaljvy.
 
-      På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+     På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
    * I Stödrastervisning, listvy eller detaljvy väljer du den runda, gröna bockmarkeringsikonen till vänster om resursens namn.
 
@@ -162,4 +164,3 @@ Om du vill tömma cachen går du till fältet Global navigering **[!UICONTROL Fi
 >
 >* [Kontrollera jobbfiler](checking-job-files.md)
 >* [Redigera, ta bort, pausa och återuppta återkommande jobb](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-

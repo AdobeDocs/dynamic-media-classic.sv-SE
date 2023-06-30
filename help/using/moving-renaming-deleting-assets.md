@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -58,7 +60,7 @@ Zoommål, bildattribut och historikposter tas bort permanent när du tar bort de
    * Om du vill ta bort en eller flera resurser markerar du resurserna på panelen Bläddra och trycker på **[!UICONTROL Delete]** eller gå till **[!UICONTROL File]** > **[!UICONTROL Delete]**.
    * Om du vill ta bort en mapp markerar du mappen i resursbiblioteket och väljer **[!UICONTROL Remove Folder]**.
 
-      Om du tar bort en mapp tas mappen, alla resurser i mappen och alla resurser i dess undermappar bort.
+     Om du tar bort en mapp tas mappen, alla resurser i mappen och alla resurser i dess undermappar bort.
 
 Adobe Dynamic Media Classic rekommenderar att du skriver över resursfiler i stället för att ta bort dem, om du vill ersätta en resursfil med en annan med samma namn.
 
@@ -81,4 +83,3 @@ När du tar bort resurser med en textfil visas meddelandet&quot;Det går inte at
 >* [Markera resurser på panelen Bläddra](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Förbered dina resurser och mappar för överföring](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Återställ resurser från papperskorgen](trash-folder.md#restoring_assets_from_the_trash_folder)
-

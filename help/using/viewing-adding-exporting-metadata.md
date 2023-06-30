@@ -10,7 +10,9 @@ discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2188'
 ht-degree: 0%
@@ -141,7 +143,7 @@ Om du vill byta namn på en bilds Adobe Dynamic Media Classic-ID lägger du till
 
 Till exempel:
 
-|  | newipsid |
+| | newipsid |
 | --- | --- |
 | testjacka_1 | Jacket_test_1 |
 | testjacka_blå | Jacket_test_2 |
@@ -217,4 +219,3 @@ När egenskapen har strukturen Open Choice eller Closed Choice måste du ange mi
 >
 >* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)
 >* [Metadataförinställningar](application-setup.md#metadata_presets)
-

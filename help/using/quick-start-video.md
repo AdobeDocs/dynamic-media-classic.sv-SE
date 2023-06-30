@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Beginner
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 0%
@@ -49,24 +51,24 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
 * Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i visningsprogrammen Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
 
-   Se [Lägga till bildtexter i video](adding-captions-video.md).
+  Se [Lägga till bildtexter i video](adding-captions-video.md).
 
-   Se [Lägga till kapitelmarkörer i video](adding-chapter-markers-video.md).
+  Se [Lägga till kapitelmarkörer i video](adding-chapter-markers-video.md).
 
 * Ordna, bläddra bland och sök videoklipp med fullt stöd för metadata för effektiv hantering av videomaterial.
 * Leverera adaptiva videouppsättningar till webben, datorer och mobila enheter som iPhone, iPad, Android™, BlackBerry® och Windows®.
 
-   Adaptiv videoströmning stöds på olika iOS-plattformar.
+  Adaptiv videoströmning stöds på olika iOS-plattformar.
 
-   Se den senaste supporten i [Referenshandbok för Adobe-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  Se den senaste supporten i [Referenshandbok för Adobe-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-   Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande webbplats:
+  Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande webbplats:
 
-   Se [Videoformat som stöds på BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  Se [Videoformat som stöds på BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
-   Följande Windows®-enheter har stöd för det här videoformatet:
+  Följande Windows®-enheter har stöd för det här videoformatet:
 
-   Se [Videoformat som stöds på Windows® Phone](https://docs.microsoft.com/en-us/).
+  Se [Videoformat som stöds på Windows® Phone](https://docs.microsoft.com/en-us/).
 
 * Spela upp videon med Adobe Dynamic Media Classic Viewer Presets, inklusive följande:
 
@@ -96,9 +98,9 @@ Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma ig�
 * **Överför förkodade videoklipp** - Om dina videoklipp redan har kodats utanför Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]** för att bläddra bland och ladda upp MP4-videofiler direkt till Adobe Dynamic Media Classic. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till videofilerna. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
 * **Överför primära källvideor** - Om videoklippen inte är kodade väljer du **[!UICONTROL Upload]** för att överföra primära videokällfiler (ej MP4). Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. I **[!UICONTROL Upload Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, markera **[!UICONTROL Adaptive Video]**.
 
-   Med det här önskade alternativet kan du skapa en adaptiv videouppsättning som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
+  Med det här önskade alternativet kan du skapa en adaptiv videouppsättning som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
 
-   Eller i samma **[!UICONTROL Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, expandera **[!UICONTROL Single Encoding Presets]**. Välj enskilda förinställningar för videokodning som du vill använda **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** så att du kan skapa MP4-filer.
+  Eller i samma **[!UICONTROL Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, expandera **[!UICONTROL Single Encoding Presets]**. Välj enskilda förinställningar för videokodning som du vill använda **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** så att du kan skapa MP4-filer.
 
 * Du kan också bearbeta om en primär video med **[!UICONTROL Reprocess]** -funktion. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
 
@@ -134,27 +136,26 @@ Om du vill integrera video på webbplatsen kan du göra något av följande:
 
 * Visa videon i ett eget popup-fönster eller modalt fönster, i vilket fall använder du **[!UICONTROL Copy URL]** -funktion.
 
-   Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Välj **[!UICONTROL Preview]** och sedan markera **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
+  Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Välj **[!UICONTROL Preview]** och sedan markera **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
 
-   När du väljer **[!UICONTROL Copy URL]**, kopieras URL-adressen till Urklipp. Placera den här koden HTML på din webbplats, mobilwebbplats eller i ditt program.
+  När du väljer **[!UICONTROL Copy URL]**, kopieras URL-adressen till Urklipp. Placera den här koden HTML på din webbplats, mobilwebbplats eller i ditt program.
 
-   >[!NOTE]
-   >
-   >URL-adresser aktiveras först när du har publicerat videon eller den adaptiva videouppsättningen.
+  >[!NOTE]
+  >
+  >URL-adresser aktiveras först när du har publicerat videon eller den adaptiva videouppsättningen.
 
 * Visa videon som är inbäddad på webbsidan. I så fall använder du **[!UICONTROL Embed Code]** -funktion.
 
-   Om du vill hämta inbäddningskoden för en video väljer du videon i Stödrastervisning eller Listvy på panelen Bläddra. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Under kolumnen Åtgärder i tabellen väljer du **[!UICONTROL Embed Code]** till höger om `Universal_HTML5_Video`. Det är inte tillåtet att redigera koden.
+  Om du vill hämta inbäddningskoden för en video väljer du videon i Stödrastervisning eller Listvy på panelen Bläddra. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Under kolumnen Åtgärder i tabellen väljer du **[!UICONTROL Embed Code]** till höger om `Universal_HTML5_Video`. Det är inte tillåtet att redigera koden.
 
-   Välj **[!UICONTROL Close]** och klistra in inbäddningskoden på dina webbsidor.
+  Välj **[!UICONTROL Close]** och klistra in inbäddningskoden på dina webbsidor.
 
-   >[!NOTE]
-   >
-   >Inbäddningskoden aktiveras bara när du har publicerat videon eller den adaptiva videouppsättningen.
+  >[!NOTE]
+  >
+  >Inbäddningskoden aktiveras bara när du har publicerat videon eller den adaptiva videouppsättningen.
 
 Se [Distribuera video till webbplatser och mobilsajter](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >
 >* [Bästa tillvägagångssätt för videokodning](uploading-encoding-videos.md#best_practices_for_video_encoding)
-

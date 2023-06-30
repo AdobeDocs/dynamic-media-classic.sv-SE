@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 0%
@@ -75,13 +77,13 @@ Det finns två metoder för bildskärpa som du kan använda:
       * `amount` (0-5, effektens styrka.)
       * `radius` (0-250, bredden på de&quot;skärpelinjer&quot; som ritas runt objektet med skärpa, mätt i pixlar.)
 
-         Kom ihåg att parametrarna `radius` och `amount` arbeta mot varandra. Minska `radius` kan kompenseras genom att öka `amount`. `Radius` ger bättre kontroll när ett lägre värde gör endast kantpixlarna skarpare, medan ett högre värde ökar skärpan för ett större antal pixlar.
+        Kom ihåg att parametrarna `radius` och `amount` arbeta mot varandra. Minska `radius` kan kompenseras genom att öka `amount`. `Radius` ger bättre kontroll när ett lägre värde gör endast kantpixlarna skarpare, medan ett högre värde ökar skärpan för ett större antal pixlar.
 
       * `threshold` (0-255, effektkänslighet.)
 
-         Den här parametern avgör hur annorlunda de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och filtret gör dem skarpare. Tröskelvärdet hjälper dig att undvika att göra områden med liknande färger, som hudtoner, för skarpare. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka för att undvika att lägga till&quot;brus&quot;, medan kantkontrasten läggs till i områden med hög kontrast, till exempel där ögonfransarna möter huden.
+        Den här parametern avgör hur annorlunda de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och filtret gör dem skarpare. Tröskelvärdet hjälper dig att undvika att göra områden med liknande färger, som hudtoner, för skarpare. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka för att undvika att lägga till&quot;brus&quot;, medan kantkontrasten läggs till i områden med hög kontrast, till exempel där ögonfransarna möter huden.
 
-         Mer information om hur du ställer in de här tre parametrarna, inklusive de bästa metoderna att använda med filtret, finns i [Öka skärpan i bilder i Adobe Dynamic Media Classic och Image Server](/help/using/assets/s7_sharpening_images.pdf).
+        Mer information om hur du ställer in de här tre parametrarna, inklusive de bästa metoderna att använda med filtret, finns i [Öka skärpan i bilder i Adobe Dynamic Media Classic och Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
       * Med Adobe Dynamic Media Classic kan du också styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskning används separat på varje färgkomponent med hjälp av värdet `0` eller bildens intensitet/intensitet med hjälp av värdet `1`.
 

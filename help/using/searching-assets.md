@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1373'
 ht-degree: 0%
@@ -113,11 +115,11 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
    * **Välj ett metadatafält** - Välj fältets namn på filtreringsmenyn.
 
-      >[!NOTE]
-      >
-      >Endast namnen på metadatafälten i standardmetadatavyn visas på filtreringsmenyn.
+     >[!NOTE]
+     >
+     >Endast namnen på metadatafälten i standardmetadatavyn visas på filtreringsmenyn.
 
-      Se [Metadatavyer](application-setup.md#metadata_views).
+     Se [Metadatavyer](application-setup.md#metadata_views).
 
    * **Lägg till ett metadatafält** - Välj **[!UICONTROL Add a Panel]**. När panelen visas på filterpanelen väljer du dess **[!UICONTROL Field]** och välj namnet på ett metadatafält på filtreringsmenyn.
 
@@ -127,7 +129,6 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
    * Alla metadatavärden som anges i fältet.
    * För varje metadatavärde, antalet resurser som anges av värdet.
-
 
 1. Upprepa steg 2 så många gånger som behövs för att lista alla metadatafält för filteråtgärden på paneler.
 1. Välj ett metadatavärde att filtrera på på varje panel. Du kan inte markera mer än ett metadatavärde på varje panel.
@@ -172,4 +173,3 @@ Välj **[!UICONTROL Publish Now]** för att starta jobbet. En bekräftelse visas
 >
 >* [Navigeringsgrunder](navigation-basics.md#navigation_basics)
 >* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

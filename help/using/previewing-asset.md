@@ -10,7 +10,9 @@ discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 0%
@@ -68,13 +70,13 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
    * I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]** för ett valt visningsprogram och en viss plattformstyp.
 
-      När du väljer **[!UICONTROL Copy URL]**, kopieras den associerade URL:en automatiskt till Urklipp.
+     När du väljer **[!UICONTROL Copy URL]**, kopieras den associerade URL:en automatiskt till Urklipp.
 
    * I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
-      När du väljer **[!UICONTROL Embed Code]**&#x200B;öppnas fönstret Bädda in kod där du kan granska visningsprogramkoden. Det är inte tillåtet att redigera koden i fönstret. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor.
+     När du väljer **[!UICONTROL Embed Code]**&#x200B;öppnas fönstret Bädda in kod där du kan granska visningsprogramkoden. Det är inte tillåtet att redigera koden i fönstret. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor.
 
-      Stäng den förhandsgranskning som visas.
+     Stäng den förhandsgranskning som visas.
 
 1. I det nedre högra hörnet av fönstret Visningsprogramlista väljer du **[!UICONTROL Close]** för att gå tillbaka till skärmen Resurser.
 

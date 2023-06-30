@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '2340'
 ht-degree: 0%
@@ -48,12 +50,12 @@ Sidan Image Server används för att ange standardinställningar för att levere
 
 * **[!UICONTROL Localization Support]*** - Med dessa inställningar kan du hantera flera språkattribut. Här kan du också ange en sträng för språkområdeskarta så att du kan definiera vilka språk du vill ha stöd för de olika verktygstipsen i visningsprogram.
 
-   Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning genom att lägga till de översatta textsträngarna för det språk du vill använda.
+  Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning genom att lägga till de översatta textsträngarna för det språk du vill använda.
 
-   >[!NOTE]
-   > Så här ställer du in alternativ för lokaliseringsstöd: [Använd Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med konfiguration.
+  >[!NOTE]
+  > Så här ställer du in alternativ för lokaliseringsstöd: [Använd Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med konfiguration.
 
-   Mer information om konfiguration **[!UICONTROL Localization Support]**, se [Att tänka på när lokalisering av resurser konfigureras](publish-setup.md#considerations_when_setting_up_localization_of_assets).
+  Mer information om konfiguration **[!UICONTROL Localization Support]**, se [Att tänka på när lokalisering av resurser konfigureras](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
 ### Att tänka på när lokalisering av resurser konfigureras {#considerations-when-setting-up-localization-of-assets}
 

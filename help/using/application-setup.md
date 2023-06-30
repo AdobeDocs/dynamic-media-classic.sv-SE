@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '10713'
 ht-degree: 1%
@@ -55,25 +57,25 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
 * **[!UICONTROL CDN Invalidation Template]** - Anger den mall som används för att ogiltigförklara CDN-cachen (Content Delivery Network).
 
-   Anta att du anger en bild-URL (inklusive bildförinställningar eller modifierare) som refererar till `<ID>`i stället för ett specifikt bild-ID, som i följande exempel:
+  Anta att du anger en bild-URL (inklusive bildförinställningar eller modifierare) som refererar till `<ID>`i stället för ett specifikt bild-ID, som i följande exempel:
 
-   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+  `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-   Om mallen bara innehåller `<ID>`fyller Adobe Dynamic Media Classic sedan i `https://<server>/is/image`, där `<server>` är namnet på den publiceringsserver som definieras i Allmänna inställningar.
+  Om mallen bara innehåller `<ID>`fyller Adobe Dynamic Media Classic sedan i `https://<server>/is/image`, där `<server>` är namnet på den publiceringsserver som definieras i Allmänna inställningar.
 
-   Ställa in mallen för invalidering av CDN, markera en bild med namnet Backpack_B och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]** resulterar i följande genererade URL i CDN-gränssnittet Ovalidate:
+  Ställa in mallen för invalidering av CDN, markera en bild med namnet Backpack_B och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]** resulterar i följande genererade URL i CDN-gränssnittet Ovalidate:
 
-   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+  `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-   I listrutan URL väljer du **[!UICONTROL Continue]** för att rensa cachen för det specifika bild-URL-anropet. Du kan också lägga till URL-adresser genom att skriva eller klistra in dem i URL-listrutan; du inte behöver ange mallen i förväg.
+  I listrutan URL väljer du **[!UICONTROL Continue]** för att rensa cachen för det specifika bild-URL-anropet. Du kan också lägga till URL-adresser genom att skriva eller klistra in dem i URL-listrutan; du inte behöver ange mallen i förväg.
 
-   När du har valt en mall för CDN-validering och gjort en begäran om ogiltig CDN visas en indikator i användargränssnittet. Du får en uppskattning av hur lång tid det tar att rensa cachen.
+  När du har valt en mall för CDN-validering och gjort en begäran om ogiltig CDN visas en indikator i användargränssnittet. Du får en uppskattning av hur lång tid det tar att rensa cachen.
 
-   Om flera bilder är markerade i Adobe Dynamic Media Classic när du går till **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**, refereras varje bild till i den sparade mallens URL. Därför kan du definiera en mall för Ovalidering av CDN som refererar till varje URL som finns på webbplatsen (t.ex. produktinformation och sökresultat). När du sedan väljer en eller flera bilder som ska ogiltigförklaras från cachen fyller URL-adresserna automatiskt i gränssnittet.
+  Om flera bilder är markerade i Adobe Dynamic Media Classic när du går till **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**, refereras varje bild till i den sparade mallens URL. Därför kan du definiera en mall för Ovalidering av CDN som refererar till varje URL som finns på webbplatsen (t.ex. produktinformation och sökresultat). När du sedan väljer en eller flera bilder som ska ogiltigförklaras från cachen fyller URL-adresserna automatiskt i gränssnittet.
 
-   Se [Cachelagring av innehåll](dmc-platform-overview.md#content_caching).
+  Se [Cachelagring av innehåll](dmc-platform-overview.md#content_caching).
 
-   Se [Återpublicerade resurser och CDN-förseningar](publishing-files.md#republished_assets_and_cdn_delays).
+  Se [Återpublicerade resurser och CDN-förseningar](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Bläddra
 
@@ -85,21 +87,21 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
 * **[!UICONTROL Show Encoded Videos]** - Avmarkerat (av) som standard.
 
-   Om du snabbt vill söka efter och bläddra efter videofilmer i Adobe Dynamic Media Classic utan att behöva navigera bland flera kodade derivat av samma videofil låter du det här alternativet vara avmarkerat (standard). Endast den primära videominiatyrbilden (den källvideo som du överförde och använde för att skapa derivat) och den överordnade miniatyrbilden för den anpassade videouppsättningen (som innehåller de underordnade derivaten för den kodade videouppsättningen) visas.
+  Om du snabbt vill söka efter och bläddra efter videofilmer i Adobe Dynamic Media Classic utan att behöva navigera bland flera kodade derivat av samma videofil låter du det här alternativet vara avmarkerat (standard). Endast den primära videominiatyrbilden (den källvideo som du överförde och använde för att skapa derivat) och den överordnade miniatyrbilden för den anpassade videouppsättningen (som innehåller de underordnade derivaten för den kodade videouppsättningen) visas.
 
-   Du kan dock fortfarande komma åt enskilda kodade videoklipp från den primära videon eller den adaptiva videouppsättningen. Om du vill göra det dubbelklickar du på miniatyrbilden för videon för att öppna detaljvyn. Välj sedan **[!UICONTROL Encoded Videos]** i den högra panelen så att du kan komma åt alla underordnade videor.
+  Du kan dock fortfarande komma åt enskilda kodade videoklipp från den primära videon eller den adaptiva videouppsättningen. Om du vill göra det dubbelklickar du på miniatyrbilden för videon för att öppna detaljvyn. Välj sedan **[!UICONTROL Encoded Videos]** i den högra panelen så att du kan komma åt alla underordnade videor.
 
-   Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]** för att skapa mer kodade underordnade videor direkt från en adaptiv videouppsättning. Adobe Dynamic Media Classic hittar automatiskt den&quot;överordnade&quot; primära videon i den adaptiva videouppsättningen och använder den som källvideo för transkodning. När du sparar de nya enskilda kodade videofilmerna visas de dock inte när du söker efter eller bläddrar. De är dock fortfarande tillgängliga på fliken Kodade videoklipp i detaljvyn.
+  Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]** för att skapa mer kodade underordnade videor direkt från en adaptiv videouppsättning. Adobe Dynamic Media Classic hittar automatiskt den&quot;överordnade&quot; primära videon i den adaptiva videouppsättningen och använder den som källvideo för transkodning. När du sparar de nya enskilda kodade videofilmerna visas de dock inte när du söker efter eller bläddrar. De är dock fortfarande tillgängliga på fliken Kodade videoklipp i detaljvyn.
 
-   Se [Överför och koda om videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Se [Överför och koda om videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-   Välj **[!UICONTROL Show Encoded Videos]**.
+  Välj **[!UICONTROL Show Encoded Videos]**.
 
-   Det finns vissa åtgärder på menyn Skapa som bara fungerar, eller eventuellt fungerar, med enskilda videor. Den här funktionen gör det nödvändigt att visa alla kodade videoderivat som du kan välja mellan, oavsett hur du anger **[!UICONTROL Show Encoded Videos]**. Skapa-åtgärderna som åsidosätter **[!UICONTROL Show Encoded Videos]** ange include **[!UICONTROL Adaptive Video Sets]** och **[!UICONTROL eCatalogs]**.
+  Det finns vissa åtgärder på menyn Skapa som bara fungerar, eller eventuellt fungerar, med enskilda videor. Den här funktionen gör det nödvändigt att visa alla kodade videoderivat som du kan välja mellan, oavsett hur du anger **[!UICONTROL Show Encoded Videos]**. Skapa-åtgärderna som åsidosätter **[!UICONTROL Show Encoded Videos]** ange include **[!UICONTROL Adaptive Video Sets]** och **[!UICONTROL eCatalogs]**.
 
-   >[!NOTE]
-   >
-   >Om du inte använde Adobe Dynamic Media Classic för att överföra och koda videoresurser visar Adobe Dynamic Media Classic alla dina enskilda kodade videor, även om det här alternativet är avmarkerat.
+  >[!NOTE]
+  >
+  >Om du inte använde Adobe Dynamic Media Classic för att överföra och koda videoresurser visar Adobe Dynamic Media Classic alla dina enskilda kodade videor, även om det här alternativet är avmarkerat.
 
 * **[!UICONTROL Show Refresh Subfolders Button]** - Aktivera och inaktivera visningen av knappen Uppdatera för undermappar.
 
@@ -198,22 +200,22 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
       * **[!UICONTROL Number Of Colors]** - Dra skjutreglaget för att ange 2-255.
 
       * **[!UICONTROL Color List]** - Ange en kommaavgränsad lista. För vitt, grått och svart anger du `000000,888888,ffffff`.
+
    * Alternativ för JPEG
 
       * **[!UICONTROL Quality]** - Styr komprimeringsnivån för JPEG. Den här inställningen påverkar både filstorlek och bildkvalitet. Kvalitetsskalan JPEG är 1-100.
 
       * **[!UICONTROL Enable JPG Chrominance Downsampling]** - Eftersom ögat är mindre känsligt för högfrekvent färginformation än högfrekvent luminans delas bildinformationen i JPEG i luminans och färgkomponenter. När en JPEG-bild komprimeras lämnas luminanskomponenten i full upplösning, medan färgkomponenterna nedsamplas genom att medelvärdet av alla pixelgrupper ökas. Nedsampling minskar datavolymen med en halv eller en tredjedel utan att det påverkar den upplevda kvaliteten. Nedsampling kan inte användas för gråskalebilder. Den här tekniken minskar mängden komprimering som är användbar för bilder med hög kontrast (till exempel bilder med överlagrad text).
+
    * Alternativ för PDF och TIFF
 
       * **[!UICONTROL Compression]** - Välj en komprimeringsalgoritm.
-
-
 
 * **[!UICONTROL Colorspace]** - Välj en färgrymd.
 
 * **[!UICONTROL Sharpening]** - Välj alternativet Aktivera enkel skärpa om du vill använda ett grundläggande skärpefilter på bilden när all skalning har gjorts. Skärpa kan kompensera för oskärpa som kan uppstå när du visar en bild i en annan storlek.
 
-   Mer information om skärpa, omsamplingslägen och oskarp maskning finns i [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image). Se även [Skärpa](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) utbildningsvideo.
+  Mer information om skärpa, omsamplingslägen och oskarp maskning finns i [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image). Se även [Skärpa](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) utbildningsvideo.
 
 * **[!UICONTROL Resample Mode]** - Välj ett alternativ för omsamplingsläge. Dessa alternativ gör bilden skarpare när den nedsamplas:
 
@@ -239,7 +241,7 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 * **[!UICONTROL Output Color Profile]** - Välj **[!UICONTROL Use Default]** eller någon av de ICC-färgprofiler som finns på Adobe Dynamic Media Classic.
 
-   Se även [ICC-profiler](icc-profiles.md#icc_profiles).
+  Se även [ICC-profiler](icc-profiles.md#icc_profiles).
 
 * **[!UICONTROL Rendering Intent]** - Välj ett alternativ om du vill åsidosätta färgprofilens standardåtergivningsmetod. Använd det här alternativet när en av ICC-standardprofilerna är målfärgrymden för en färgkonvertering. En utdataenhet (skrivare eller bildskärm) kännetecknas av den här profilen och den angivna återgivningsmetoden är giltig för den här profilen.
 
@@ -292,19 +294,19 @@ Välj en kodningsförinställning i det nedre högra hörnet på sidan Överför
 
    * **[!UICONTROL Adaptive Video]** - En enda kodningsförinställning som fungerar med alla proportioner för att skapa videor som ska skickas till mobilen, surfplattan och datorn. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner bevaras.
 
-      Den här flexibiliteten med automatisk skalförändring är också tillgänglig som standard när du skapar en egen förinställning för videokodning.
+     Den här flexibiliteten med automatisk skalförändring är också tillgänglig som standard när du skapar en egen förinställning för videokodning.
 
-      Se [Lägga till eller redigera en förinställning för videokodning](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
+     Se [Lägga till eller redigera en förinställning för videokodning](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
    * **[!UICONTROL Adaptive Video Encoding (16:9 or 4:3)]** - Skapa videor med både 16:9- och 4:3-format för datorer, mobiler (iPhone, iPad, Android™) och surfplattor (iPad, Android™). Alla optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
 
-      Se [Videoförinställningar för Adaptiv videokodning (16:9 eller 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
+     Se [Videoförinställningar för Adaptiv videokodning (16:9 eller 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
    * **[!UICONTROL Single Encoding Presets]**
 
-      >[!NOTE]
-      >
-      >Om du vill leverera video till iPad kan du välja en Mobile-kodningsförinställning eller en kodningsförinställning för Tablet. Förinställningar för surfplattor är särskilt utformade för iPad, vanligtvis med högre upplösning och kvalitet för att dra nytta av den större skärmstorleken och bandbreddsanslutningen. För att kunna leverera videofiler som är kodade med en Tablet-förinställning måste du inkludera enhetsidentifieringskod på din mobila webbplats eller i ditt mobila program. Den här koden växlar mellan en iPhone- eller iPad-videoupplevelse, beroende på uppspelningsenheten. Att välja en Mobile-förinställning för att leverera videofiler till iPad är ett enklare arbetsflöde. Orsaken är att du kan använda samma videofil för både iPhone och iPad. Kvaliteten standardiseras dock med iPhone med lägre upplösning.
+     >[!NOTE]
+     >
+     >Om du vill leverera video till iPad kan du välja en Mobile-kodningsförinställning eller en kodningsförinställning för Tablet. Förinställningar för surfplattor är särskilt utformade för iPad, vanligtvis med högre upplösning och kvalitet för att dra nytta av den större skärmstorleken och bandbreddsanslutningen. För att kunna leverera videofiler som är kodade med en Tablet-förinställning måste du inkludera enhetsidentifieringskod på din mobila webbplats eller i ditt mobila program. Den här koden växlar mellan en iPhone- eller iPad-videoupplevelse, beroende på uppspelningsenheten. Att välja en Mobile-förinställning för att leverera videofiler till iPad är ett enklare arbetsflöde. Orsaken är att du kan använda samma videofil för både iPhone och iPad. Kvaliteten standardiseras dock med iPhone med lägre upplösning.
 
       * I gruppen Kodningsförinställningar väljer du Namn eller Storlek i listrutan Sortera kodningsförinställningar om du vill sortera förinställningar efter namn eller upplösning.
       * Välj en kodningsförinställning baserat på upplösningsstorleken och bandbredden som du vill spela upp videon med.
@@ -558,29 +560,29 @@ Skärmen Förinställningar för visningsprogram innehåller verktyg för följa
 
 * **Lägga till en förinställning** - Välj **[!UICONTROL Add]** och gör dina val i dialogrutan Lägg till visningsförinställning.
 
-       Se [Lägg till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Se [Lägg till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Redigera en förinställning** - Välj en förinställning och sedan **[!UICONTROL Edit]**.
 
-       Se [Lägg till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
-   
+      Se [Lägg till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
+  
 * **Ta bort en förinställning** - Välj en förinställning och sedan **[!UICONTROL Delete]**.
 
 * **Exportera en förinställning** - Välj en visningsförinställning för HTML5 och välj sedan **[!UICONTROL Export]** om du vill hämta visningsprogramskalet så att du kan använda det som grund för att skapa och lägga till en annan visningsförinställning.
 
-       Se [Exportera en HTML5-visningsförinställning](application-setup.md#exporting_an_html5_viewer_preset).
-   
+      Se [Exportera en HTML5-visningsförinställning](application-setup.md#exporting_an_html5_viewer_preset).
+  
 * **Filtrera listan med visningsförinställningar** - Använd dessa verktyg för att filtrera listan:
 
-       * Öppna listrutan **Aktiv/Inaktiv** och välj ett alternativ för att visa aktiva förinställningar, inaktiva förinställningar eller alla förinställningar.
-       * Öppna listrutan **Viewer** och välj ett alternativ för att endast visa visningsprogram av en viss typ. Välj **[!UICONTROL All Viewers]** för att se alla tittare.
-   
+      * Öppna listrutan **Aktiv/Inaktiv** och välj ett alternativ för att visa aktiva förinställningar, inaktiva förinställningar eller alla förinställningar.
+      * Öppna listrutan **Viewer** och välj ett alternativ för att endast visa visningsprogram av en viss typ. Välj **[!UICONTROL All Viewers]** för att se alla tittare.
+  
 * **Sortera förinställningar** - Välj en kolumnrubrik (**[!UICONTROL Active]**, **[!UICONTROL Type]**, **[!UICONTROL Preset]**, eller **[!UICONTROL Platform]**) för att sortera listan i en kolumn. Välj en kolumnrubrik en andra gång om du vill sortera listan i fallande (eller stigande) ordning.
 
 * **Aktivera och inaktivera förinställningar** - Välj en förinställning och markera sedan dess aktiva alternativ för att aktivera eller inaktivera den.
 
-       Se [Aktivera eller inaktivera visningsprogramförinställningar](application-setup.md#activating_or_deactivating_viewer_presets).
-   
+      Se [Aktivera eller inaktivera visningsprogramförinställningar](application-setup.md#activating_or_deactivating_viewer_presets).
+  
 >[!NOTE]
 >
 >Välj **[!UICONTROL Preview]** till höger på sidan Förinställningar för visningsprogram, så att du kan se hur en resurs ser ut i den förinställning för visningsprogrammet som du har valt. Om du vill se en annan resurs väljer du **[!UICONTROL Browse]** på sidan Förinställningar för visningsprogram och välj en annan resurs i dialogrutan Välj förhandsgranskning av resurs.
@@ -603,12 +605,12 @@ Se även [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7vie
 
    * **Lägg till** - I verktygsfältet väljer du **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform och väljer en medieresurstyp.
 
-          Välj **[!UICONTROL Save As]** när du har skapat visningsförinställningen.
-      
+         Välj **[!UICONTROL Save As]** när du har skapat visningsförinställningen.
+     
    * **Lägg till genom att starta från en befintlig visningsprogramförinställning** - Markera en förinställning för Videovisning i tabellen och välj sedan **[!UICONTROL Edit]** i verktygsfältet.
 
-          När du har konfigurerat om Video Viewer väljer du **[!UICONTROL Save As]** om du vill spara förinställningen med ett annat namn i textfältet Förinställningsnamn.
-      
+         När du har konfigurerat om Video Viewer väljer du **[!UICONTROL Save As]** om du vill spara förinställningen med ett annat namn i textfältet Förinställningsnamn.
+     
    * **Redigera** - Välj en befintlig visningsförinställning och välj sedan **[!UICONTROL Edit]**.
 
 1. Ange eller redigera förinställningsnamnet i fältet Förinställningsnamn på skärmen Konfigurera visningsprogram.
@@ -696,9 +698,11 @@ URL:en kopieras till Urklipp. Du kan använda den om det behövs i HTML-koden f�
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
 
    * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
 
    * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
 
 ### Kopiera inbäddningskoden för en visningsförinställning {#copying-the-embed-code-of-a-viewer-preset}
@@ -718,9 +722,11 @@ Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
    * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
    * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
 1. I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
@@ -848,9 +854,9 @@ Ett effektivt sätt att använda användardefinierade metadatafält är att för
 
    * **[!UICONTROL Applies To]** - Du kan också välja en resurstyp om du vill att metadatafältet bara ska gälla för en viss typ av resurs.
 
-      >[!NOTE]
-      >
-      >Välj en **[!UICONTROL Applies To]** bör du vara försiktig eftersom du inte kan ändra **[!UICONTROL Applies To]** när du har skapat ett användardefinierat fält. Med Adobe Dynamic Media Classic kan du redigera namn, typ och standardvärde för ett användardefinierat fält, men inte för **[!UICONTROL Applies To]** inställning. *
+     >[!NOTE]
+     >
+     >Välj en **[!UICONTROL Applies To]** bör du vara försiktig eftersom du inte kan ändra **[!UICONTROL Applies To]** när du har skapat ett användardefinierat fält. Med Adobe Dynamic Media Classic kan du redigera namn, typ och standardvärde för ett användardefinierat fält, men inte för **[!UICONTROL Applies To]** inställning. *
 
 1. Välj **[!UICONTROL Save]** när du har skapat metadatafältet.
 
@@ -1024,4 +1030,3 @@ När snurruppsättningen överförs och publiceras aktiverar du namnet på det t
 >* [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets)
 >* [Visa, lägga till och exportera metadata](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 >* [Kontrollera jobbfiler](checking-job-files.md#checking_job_files)
-

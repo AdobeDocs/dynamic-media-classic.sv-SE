@@ -10,7 +10,9 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 0%
@@ -72,14 +74,14 @@ Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/Video
 1. Lägg till eller redigera en visningsförinställning för att visa video:
 
    * **Lägg till** - Välj **[!UICONTROL Add]** i verktygsfältet. I dialogrutan Lägg till visningsförinställning väljer du en plattform och ett visningsprogram i respektive listruta och väljer sedan **[!UICONTROL Add]**.
+
    Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
    * **Lägg till genom att starta från en befintlig visningsförinställning** - Markera en förinställning för Videovisning i tabellen och välj sedan **[!UICONTROL Edit]** i verktygsfältet.
+
    När du har konfigurerat om Video Viewer väljer du **[!UICONTROL Save As]** om du vill spara förinställningen med ett annat namn i textfältet Förinställningsnamn.
 
    * **Redigera** - Välj en förinställning för Video Viewer och välj sedan **[!UICONTROL Edit]**.
-
-
 
 1. Ange eller redigera förinställningsnamnet i fältet Förinställningsnamn på sidan Konfigurera visningsprogram.
 1. Ange de återstående alternativen som du vill ha.
@@ -95,4 +97,3 @@ Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/Video
 >
 >* [Bästa tillvägagångssätt för videokodning](uploading-encoding-videos.md#best_practices_for_video_encoding)
 >* [Arbeta med förinställningar för videokodning](uploading-encoding-videos.md#working_with_video_encoding_presets)
-

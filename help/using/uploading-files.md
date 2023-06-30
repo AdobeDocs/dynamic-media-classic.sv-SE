@@ -9,7 +9,9 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3717'
 ht-degree: 0%
@@ -121,9 +123,9 @@ Se till att alla användare på företaget förstår följande regler för att n
 * Ett tips är att se till att resurs-ID:n inte innehåller blanksteg (t.ex. svart jacka.tif och blå jpg). Adobe Dynamic Media Classic ASCII kodar blanksteg i resursnamn när resursnamn används för att skapa URL-strängar. Dessa ASCII-koder är svåra att läsa, vilket kan göra det svårare att läsa URL:er.
 * Språkspecifika tecken får användas i filnamn. Följande tecken får dock inte användas i filnamn:
 
-   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
-   Om ett filnamn innehåller ett eller flera av ovanstående tecken tas tecknen bort från filnamnet vid överföringen.
+  Om ett filnamn innehåller ett eller flera av ovanstående tecken tas tecknen bort från filnamnet vid överföringen.
 
 Vanligtvis kan ett filnamn för en resurs vara samma som dess artikelnummer, produkt-SKU eller annat namn som i följande exempel:
 
@@ -209,7 +211,7 @@ När du överför filer kan du välja mellan följande alternativ i dialogrutan 
 
 * **JOBB** - Välj **[!UICONTROL JOB]** om du vill välja alternativ som påverkar hela överföringsjobbet.
 
-   Du kan också välja *standard* alternativ för att överföra jobb med **[!UICONTROL Default Upload Options]** i Allmänna inställningar. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** anger du sedan de standardalternativ du vill använda.
+  Du kan också välja *standard* alternativ för att överföra jobb med **[!UICONTROL Default Upload Options]** i Allmänna inställningar. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** anger du sedan de standardalternativ du vill använda.
 
    * **[!UICONTROL When]** - Det här alternativet är bara tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken.
       * **[!UICONTROL One-Time]** - Ange ett överföringsjobb som körs en gång. Alternativen är följande:
@@ -220,6 +222,7 @@ När du överför filer kan du välja mellan följande alternativ i dialogrutan 
          * **[!UICONTROL Weekly]** - Välj en specifik veckodag och tid som du vill att jobbet ska köras.
          * **[!UICONTROL Monthly]** - Välj en specifik dag i månaden eller dagen i veckan, inklusive starttiden, som du vill att jobbet ska köras.
          * **[!UICONTROL Custom]** - Anpassa tidsintervallet för överföring eller publicering enligt dina egna specifikationer. Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+
    * **[!UICONTROL Publish After Uploading]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** -fliken eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du automatiskt vill publicera de resurser som du överför. När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är även tillgängligt på sidan Överför.
 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** -fliken eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är även tillgängligt på sidan Överför. Namnet på det här alternativet kan vara annorlunda, beroende på inställningarna i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
@@ -232,7 +235,6 @@ Välj det här alternativet om du vill överföra undermappar till mappen som du
 
    * **[!UICONTROL Process metadata files]** - Endast tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill överföra en tabbavgränsad fil eller XML-fil för att lägga till metadata i flera resurser.
 Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
-
 
 * **Beskärningsalternativ** - Om du vill beskära pixlar med tomt utrymme automatiskt från en bild öppnar du **[!UICONTROL Crop]** meny, välja **[!UICONTROL Manual]** och ange pixelmått i de övre, högra, nedre och vänstra textfälten för att beskära från sidorna. Du kan också välja **[!UICONTROL Trim]** på menyn Beskär och välj följande alternativ:
 
@@ -307,4 +309,3 @@ Det nya jobbet skickar ett meddelande till den adress som du anger så att koden
 >* [Arbeta med resursmappar](asset-folders.md#working_with_asset_folders)
 >* [Hantera återkommande överförings- och publiceringsjobb](checking-job-files.md#handling_recurring_upload_and_publish_jobs)
 >* [Använd ett överförings- eller publiceringsjobb som utlösare](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger)
-

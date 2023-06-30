@@ -10,7 +10,9 @@ discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -45,4 +47,3 @@ Om du vill ta bort en förinställning för Snurra uppsättning för visningspro
 >[!MORELIKETHIS]
 >
 >* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)
-

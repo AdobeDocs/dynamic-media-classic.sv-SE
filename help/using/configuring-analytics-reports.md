@@ -10,7 +10,9 @@ discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -70,8 +72,8 @@ I följande tabell beskrivs de visningsprogramhändelser som du kan lägga till 
 | SWAP | **X**  (eCatalog, Flyout, SpinSet, Video, Zoom) | När en användare väljer en annan miniatyrbild för att visa en annan bild. |
 | OBJEKT | **X**  (eCatalog) | I visningsprogram som stöder bildscheman där överrullningar definieras, när en användare håller pekaren över en bildschema för att läsa överrullningstexten. |
 | HREF | **X**  (eCatalog) | I visningsprogram som stöder bildscheman väljer en användare en URL i en bildschema. |
-| MÅL |  | När en användare väljer ett zoommål för att zooma in en del av en bild i målvisningsprogram. |
-| SÖK |  | I e-kataloger, när en användare gör en ordsökning. |
+| MÅL | | När en användare väljer ett zoommål för att zooma in en del av en bild i målvisningsprogram. |
+| SÖK | | I e-kataloger, när en användare gör en ordsökning. |
 | SPELA | **X**  (Video) | När en användare väljer Spela upp för att börja spela upp en video i videovisningsprogram.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md). |
 | PAUS | **X** (Video) | I videovisningsprogram, när en användare väljer **[!UICONTROL Pause]** för att frysa en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md). |
 | STOP | **X** (Video) | I videovisningsprogram, när en användare väljer **[!UICONTROL Stop]** om du vill sluta spela upp en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md). |

@@ -10,7 +10,9 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 0%
@@ -153,4 +155,3 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 >[!MORELIKETHIS]
 >
 >* [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters)
-

@@ -10,7 +10,9 @@ discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -42,4 +44,3 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 >[!MORELIKETHIS]
 >
 >* [Konfigurera förinställningar för eCatalog Viewer](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets)
-

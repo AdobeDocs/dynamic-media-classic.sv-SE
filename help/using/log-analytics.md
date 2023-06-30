@@ -10,7 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%
@@ -75,7 +77,6 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 >* En ny spårningsvariabel introduceras i en rapport och du vill länka en specifik visningsprogramvariabel i Dynamic Media Classic-användargränssnittet till den nya Analytics-variabeln.
 >
 
-
 1. Nära det övre högra hörnet av Adobe Dynamic Media Classic-programmet går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
 1. I den vänstra panelen, under **[!UICONTROL Application Setup]**, markera **[!UICONTROL Adobe Analytics]**.
 1. På **[!UICONTROL Adobe Analytics Configuration]** sida, markera **[!UICONTROL Adobe Analytics Login]**.
@@ -105,4 +106,3 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 >[!MORELIKETHIS]
 >
 >* [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
-

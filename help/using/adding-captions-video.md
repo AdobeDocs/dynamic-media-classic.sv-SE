@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
@@ -56,18 +58,18 @@ Se [Hantera statiskt innehåll (inte bildinnehåll)](https://experienceleague.ad
 
    * Om du vill visa en popup-video väljer du **[!UICONTROL Copy URL]** till höger om namnet.
 
-      Lägg till den kopierade URL:en för videon med följande syntax så att du kan koppla den till den kopierade URL:en till bildtextfilen:
+     Lägg till den kopierade URL:en för videon med följande syntax så att du kan koppla den till den kopierade URL:en till bildtextfilen:
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Anteckna `,1` i slutet av bildtextens URL-sökväg. Omedelbart efter filnamnstillägget VTT i sökvägen kan du aktivera eller inaktivera knappen för undertexter i videospelarfältet genom att ställa in på `1` eller `0`, respektive.
+     Anteckna `,1` i slutet av bildtextens URL-sökväg. Omedelbart efter filnamnstillägget VTT i sökvägen kan du aktivera eller inaktivera knappen för undertexter i videospelarfältet genom att ställa in på `1` eller `0`, respektive.
 
    * Om du vill visa en inbäddad video väljer du **[!UICONTROL Embed Code]** till höger om namnet.
 
-      I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
+     I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
 
-      För HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, eller `Universal_HTML5_MixedMedia_light` visningsprogram, lägga till den kopierade inbäddningskoden med följande:
+     För HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, eller `Universal_HTML5_MixedMedia_light` visningsprogram, lägga till den kopierade inbäddningskoden med följande:
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Anteckna `,1` i slutet av URL-sökvägen. Omedelbart efter filnamnstillägget VTT i URL-sökvägen kan du aktivera eller inaktivera bildtextknappen i videospelarfältet genom att ställa in på `1` eller `0`, respektive.
+     Anteckna `,1` i slutet av URL-sökvägen. Omedelbart efter filnamnstillägget VTT i URL-sökvägen kan du aktivera eller inaktivera bildtextknappen i videospelarfältet genom att ställa in på `1` eller `0`, respektive.

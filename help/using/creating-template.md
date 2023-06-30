@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3310'
 ht-degree: 0%
@@ -103,9 +105,9 @@ Använd de här verktygen på mallskärmen för att skapa mallar:
 
 * **[!UICONTROL Text Editor v4.3 and Text Editor v4.2]** - Du kan välja att använda den senaste och mest avancerade textredigeraren, textredigeraren v4.3 eller den tidigare textredigeraren, textredigeraren v4.2. När du skapar mallar väljs textredigeraren v4.3 som standard. När du redigerar äldre mallar väljs textredigeraren v4.2 som standard. Textredigeraren v4.3 stöder för närvarande inte automatisk radbrytning, så när du redigerar äldre mallar som använder automatisk radbrytning bör du använda textredigeraren v4.2 för att behålla mallens återgivning helt intakt. Om den äldre mallen inte använder automatisk radbrytning kan du välja textredigeraren v4.3 för att utnyttja alla nya funktioner som den har. Du kan till exempel öka marginalerna, minska marginalerna, ange text i versaler och kopiera textpassning.
 
-   >[!NOTE]
-   >
-   >Textredigeraren v4.2 planeras att tas bort som ett alternativ i Adobe Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. The **[!UICONTROL Word Wrap]** kommer att ingå i en framtida version av textredigeraren.
+  >[!NOTE]
+  >
+  >Textredigeraren v4.2 planeras att tas bort som ett alternativ i Adobe Dynamic Media Classic, så vi rekommenderar att du använder textredigeraren 4.3 när det är möjligt. The **[!UICONTROL Word Wrap]** kommer att ingå i en framtida version av textredigeraren.
 
 * **[!UICONTROL Designer and Developer]** - Välj det alternativ som bäst beskriver din roll.
 

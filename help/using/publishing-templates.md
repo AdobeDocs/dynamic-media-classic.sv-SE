@@ -10,7 +10,9 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -37,4 +39,3 @@ Om du vill publicera mallar på Dynamic Media Image Servers (Image-servrar) väl
 >
 >* [Markera resurser för publicering](publishing-files.md#publish_after_uploading)
 >* [Skapa ett publiceringsjobb](publishing-files.md#creating_a_publish_job)
-

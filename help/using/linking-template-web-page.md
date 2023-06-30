@@ -10,7 +10,9 @@ discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Content Management, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 0%
@@ -42,4 +44,3 @@ Om du vill lägga till en mall på en webbsida kontaktar du webbsidans utvecklin
 >[!MORELIKETHIS]
 >
 >* [Lägga till dynamiska bilder på webbsidan](linking-urls-web-application.md#adding_dynamic_images_to_your_web_page)
-
