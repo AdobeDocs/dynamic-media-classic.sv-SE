@@ -12,9 +12,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,14 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 
 **Så här förhandsgranskar du videofilmer i ett videovisningsprogram:**
 
-1. Välj i listrutan Visa i panelen Resursbibliotek på vänster sida **[!UICONTROL Video]** (enkodade videoklipp) eller **[!UICONTROL Adaptive Video Set]**. När kodningsförinställningen Adaptiv video används resulterar det i en uppsättning kodade videor med flera bithastigheter.
+1. Välj i listrutan Visa i panelen Resursbibliotek på vänster sida **[!UICONTROL Video]** (enkodade videor) eller **[!UICONTROL Adaptive Video Set]**. När kodningsförinställningen Adaptiv video används resulterar det i en uppsättning kodade videor med flera bithastigheter.
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster för att välja den video som du vill förhandsgranska.
 1. Gör något av följande
 
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL List View]**. Håll markören över en resurs i fönstret Resurser och välj sedan **[!UICONTROL Preview]**.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser, i ett miniatyrbildsfönster för en resurs, väljer du **[!UICONTROL Preview]**.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser väljer du i ett miniatyrbildsfönster **[!UICONTROL Preview]**.
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. I samma verktygsfält väljer du **[!UICONTROL Preview]**.
-   * Välj en resurs i fönstret Resurser. I verktygsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Preview]**.
+   * Välj en resurs i fönstret Resurser. Gå till verktygsfältet **[!UICONTROL File]** > **[!UICONTROL Preview]**.
 
 1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
 1. Välj **[!UICONTROL Preview]** så att du kan granska resursen i det valda visningsprogrammet.
@@ -47,7 +47,7 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 
 ## Arbeta med förinställningar för visningsprogram för video {#working-with-video-viewer-presets}
 
-Användare ser videoklipp i Video Viewer. Hur visningsprogrammet för video beter sig, hur det ser ut och hur dess uppspelningskontroller fungerar beror på vilken visningsförinställning du väljer för att spela upp videon. Du väljer en visningsförinställning på förhandsgranskningsskärmen. När du har valt en förinställning kan du hämta URL-adressen eller inbäddningskoden för att spela upp videon med den visningsförinställning du har valt.
+Användare ser videoklipp i Video Viewer. Hur visningsprogrammet för video beter sig, hur det ser ut och hur dess uppspelningskontroller fungerar beror på vilken visningsförinställning du väljer för att spela upp videon. Du väljer en visningsförinställning på förhandsgranskningsskärmen. När du har valt en förinställning kan du hämta URL-adressen, eller inbäddningskoden, för att spela upp videon med den visningsförinställning du har valt.
 
 Adobe Dynamic Media Classic innehåller många fördefinierade visningsförinställningar för uppspelning av video, och om du är administratör kan du skapa anpassade visningsförinställningar. Det finns mer än 12 olika inställningar för att konfigurera Video Viewer. Du kan konfigurera dess storlek, färg, video och ljud, förloppsindikator, användargränssnittets skal och sociala funktioner.
 

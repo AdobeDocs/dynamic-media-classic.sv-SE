@@ -1,17 +1,16 @@
 ---
-source-git-commit: 2e36fc555c7e16406e68d289a97be72b87be8036
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '72'
 ht-degree: 0%
 
 ---
-# Adobe Dynamic Media Classic - dokumentation
+# Adobe Dynamic Media Classic Documentation
 
-Det här är databasen för Adobe Dynamic Media Classic-dokumentation.
+Det här är arkivet för Adobe Dynamic Media Classic-dokumentation.
 
 Dina bidrag till dokumentationen är välkomna. Se följande resurser:
 
-* [contribute.md](contributing.md) En översikt över hur du kan bidra till dokumentationen.
-* [guidelines.md](guidelines.md) För en översikt över vad som förväntas i bidragen och hur du komponerar dina dokumentationsbidrag.
-* [code-of-behavior.md](code-of-conduct.md) En översikt över de beteendestandarder vi förväntar oss när du bidrar till detta dokumentationsprojekt.
+* [contribute.md](contributing.md) En översikt över hur du bidrar till dokumentationen.
+* [riktlinjer.md](guidelines.md) En översikt över vad som förväntas i bidragen och hur du skapar dina dokumentationsbidrag.
+* [uppförandekod.md](code-of-conduct.md) En översikt över beteendestandarder som Adobe förväntar sig när du bidrar till det här dokumentationsprojektet.

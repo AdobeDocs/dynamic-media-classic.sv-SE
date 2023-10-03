@@ -1,11 +1,11 @@
 ---
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
-# Bidra till Adobe Dynamic Media Classic Documentation
+# Bidra till Adobe Dynamic Media Classic-dokumentation
 
 Tack för att du väljer att delta i Adobe Dynamic Media Classic-dokumentationen! Adobe välkomnar bidrag från hela läsarcommunityn och från medarbetare i Adobe.
 
@@ -13,13 +13,13 @@ Den här filen beskriver hur du kan bidra och visar de riktlinjer som ska följa
 
 ## Adobe uppförandekod med öppen källkod
 
-Det här projektet har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md). Genom att bidra till dokumentationen samtycker du till att följa denna uppförandekod. Rapportera otillåtet beteende till [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+Detta projekt har antagit [Adobe uppförandekod med öppen källkod](code-of-conduct.md). Genom att bidra till dokumentationen samtycker du till att följa denna uppförandekod. Rapportera oacceptabla beteenden till [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Riktlinjer för att bidra
 
-Adobe välkomnar alla bidrag för att förbättra dokumentationen, men se till att det ni bidrar till uppfyller vissa riktlinjer och standarder där det är möjligt. Mer information finns i [Riktlinjerna för Contribute to Adobe Dynamic Media Classic Documentation](guidelines.md).
+Adobe välkomnar alla bidrag för att förbättra dokumentationen, men se till att det ni bidrar till uppfyller vissa riktlinjer och standarder där det är möjligt. Granska [Riktlinjer för att bidra till Adobe Dynamic Media Classic-dokumentation](guidelines.md) för mer information.
 
-## Bidra
+## Så här bidrar du
 
 Adobe vill göra det så enkelt som möjligt att lämna in dina bidrag. Du kan bidra på två sätt:
 
@@ -30,7 +30,7 @@ Vilken metod du väljer beror på hur bekväm du själv redigerar dokumentatione
 
 >[!NOTE]
 >
->Bidrag som du skickar omfattas av [användarvillkoren för Adobe.](https://www.adobe.com/legal/terms.html)
+>Bidrag som du skickar in omfattas av [Adobe användarvillkor.](https://www.adobe.com/legal/terms.html)
 
 ### Skapa ett problem {#create-an-issue}
 
@@ -40,9 +40,9 @@ Med hjälp av olika problem kan du enkelt beskriva din idé för förbättring a
 
 ### Skapa en pull-begäran {#create-a-pull-request}
 
-Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en dokumentationsteammedlem. Om du vill göra de föreslagna ändringarna och skapa pull-begäran väljer du **[!UICONTROL Edit this page]** längst upp till höger på navigeringspanelen på en sida.
+Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en dokumentationsteammedlem. Om du vill göra dina föreslagna ändringar och skapa en pull-begäran väljer du **[!UICONTROL Edit this page]** längst upp till höger på navigeringspanelen på en sida.
 
-Alla pull-begäranden måste åtföljas av ett signerat [licensavtal för deltagare eller CLA](https://opensource.adobe.com/cla.html). Det här arbetsflödet ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du skickar bara ett CLA-avtal för Adobe en gång, så om du har skickat ett tidigare är det klart.
+Alla pull-begäranden måste åtföljas av en signerad [licensavtal eller CLA](https://opensource.adobe.com/cla.html). Det här arbetsflödet ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du skickar bara ett CLA-avtal för Adobe en gång, så om du har skickat ett tidigare är det klart.
 
 ### Snabb videointroduktion
 
@@ -52,10 +52,10 @@ Titta på följande video för att få en snabb översikt över hur du skapar pr
 
 ### Bidrag från anställda i Adobe
 
-Om du är anställd i Adobe och har ett bidrag, använd organisationen `AdobeDocs` i företagsgruppen.
+Om du är anställd i Adobe och har ett bidrag använder du `AdobeDocs` i företagsgit.
 
 Adobe välkomnar alla bidrag. Bidrag granskas om de görs i det offentliga arkivet. Det är dock enklare att behandla förfrågningar från anställda i Adobe och de godkänns snabbare i företagsarkivet. Se till att all företagsinformation bara diskuteras i företagets databas.
 
 ## Ytterligare information
 
-Mer information om hur du använder GitHub-redigeringsplattformen finns i [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Se [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) om du vill ha mer information om hur du använder utvecklingsplattformen GitHub.

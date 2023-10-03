@@ -1,21 +1,21 @@
 ---
-source-git-commit: c168511f3fe08a6f0262da758e45117af4bda029
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 # Adobe uppförandekod
 
-## Vår redovisning
+## Adobe Pledge
 
-För att främja en öppen och välkommen miljö lovar vi som medverkande och underhållande att göra vårt deltagande i vårt projekt och vår community till en trakasserfri upplevelse för alla. Detta beteende är sant, oavsett följande:
+I syfte att främja en öppen och välkommen miljö lovar bidragsgivare och underhållare att göra deltagandet i Adobe-projekt och samhället till en trakasserfri upplevelse för alla. Detta beteende är sant, oavsett följande:
 
 * age
 * brödstorlek
 * handikapp
 * etnicitet
-* könsidentitet och -uttryck
+* könsidentitet och uttryck
 * erfarenhetsnivå
 * nationalitet
 * personligt utseende
@@ -23,7 +23,7 @@ För att främja en öppen och välkommen miljö lovar vi som medverkande och un
 * religion
 * sexuell identitet och läggning
 
-## Våra standarder
+## Adobe
 
 Exempel på beteenden som bidrar till att skapa en positiv miljö är:
 
@@ -41,7 +41,7 @@ Exempel på oacceptabla beteenden från deltagarnas sida är:
 * Publicera andras personuppgifter, t.ex. en fysisk eller elektronisk adress, utan uttryckligt tillstånd
 * Annat beteende som rimligen skulle kunna anses olämpligt i yrkesmässig miljö
 
-## Vårt ansvar
+## Adobe
 
 Projektledare ansvarar för att förtydliga standarderna för godtagbart beteende och förväntas vidta lämpliga och rättvisa korrigerande åtgärder som svar på eventuella fall av oacceptabla beteenden.
 
@@ -50,7 +50,7 @@ Projektledare har rätt och ansvar att
 * ta bort eller redigera
 * eller avvisa kommentarer, implementeringar, kod, wiki-redigeringar, utgåvor och andra bidrag
 
-som inte är anpassade till denna uppförandekod. Eller att tillfälligt eller permanent förbjuda medverkande till andra beteenden som de anser vara olämpliga, hotfulla, stötande eller skadliga.
+Inte anpassat till denna uppförandekod. Eller att tillfälligt eller permanent förbjuda medverkande till andra beteenden som de anser vara olämpliga, hotfulla, stötande eller skadliga.
 
 ## Omfång
 
@@ -58,7 +58,7 @@ Denna uppförandekod gäller både inom projektutrymmen och på offentliga plats
 
 ## Verkställande
 
-Fall av missbruk, trakasserier eller på annat sätt oacceptabelt beteende kan rapporteras genom att kontakta projektgruppen på Grp-opensourceoffice@adobe.com. Alla klagomål granskas och utreds. Ett svar ges som bedöms vara nödvändigt och lämpligt med hänsyn till omständigheterna. Projektgruppen är skyldig att upprätthålla sekretess med avseende på rapportören för en incident. Ytterligare information om specifika verkställighetsregler kan bokföras separat.
+Fall av missbruk, trakasserier eller på annat sätt oacceptabelt beteende kan rapporteras genom att kontakta projektgruppen på Grp-opensourceoffice@adobe.com. Alla klagomål granskas och utreds. Ett svar ges som bedöms vara nödvändigt och lämpligt med hänsyn till omständigheterna. Projektgruppen är skyldig att upprätthålla sekretess med avseende på rapportören för en incident. Ytterligare information om specifika efterlevnadspolicyer kan bokföras separat.
 
 Projektledare som inte följer eller tillämpar uppförandekoden i god tro kan drabbas av tillfälliga eller permanenta konsekvenser som fastställs av andra medlemmar i projektets ledarskap.
 

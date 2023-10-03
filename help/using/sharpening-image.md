@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '2232'
+source-wordcount: '2228'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Adobe Dynamic Media Classic rekommenderar att du använder bildförinställninga
 
 Adobe Dynamic Media Classic rekommenderar också att du lägger till skärpa i visningsförinställningar och sedan anropar ett visningsprogram med den förinställningen. På så sätt blir bilderna skarpa och tilltalande i dina visningsprogram.
 
-Oavsett om du använder bildförinställningar och visningsförinställningar, eller någon annan metod för att öka skärpan, är den sista raden att du måste göra bilderna skarpare. Om du inte gör det kan dina bilder (och din webbplats) se mjuka och luddiga ut.
+Oavsett om du använder bildförinställningar och visningsförinställningar, eller någon metod för att öka skärpan, så är den sista raden att du måste göra bilderna skarpare. Om du inte gör det kan dina bilder (och din webbplats) se mjuka och luddiga ut.
 
 >[!NOTE]
 >
->Kommandona Skärpa åsidosätter inställningarna för bildförinställningar, inklusive deras skärpeeffekter. En bildförinställning styr storleken och formateringen som bilder levereras med från Dynamic Media bildservrar. Adobe Dynamic Media Classic rekommenderar att du använder bildförinställningar för att leverera alla bilder så att du kan vara säker på att bilderna får samma storlek och skärpa. När skärpeinställningarna för en enskild bild har ändrats gäller skärpeinställningarna inte längre för bilden. Den levereras utan skärpeinställningar för bildförinställningar.
+>Kommandona Skärpa åsidosätter inställningarna för bildförinställningar, inklusive deras skärpeeffekter. En bildförinställning styr storleken och formateringen som bilder levereras med från Dynamic Media bildservrar. Adobe Dynamic Media Classic rekommenderar att du använder bildförinställningar för att leverera alla bilder så att bilderna levereras med en enhetlig storlek och skärpa. När skärpeinställningarna för en enskild bild har ändrats gäller skärpeinställningarna inte längre för bilden. Den levereras utan skärpeinställningar för bildförinställningar.
 
 Det är ofta nödvändigt att göra bilder skarpare. Adobe Dynamic Media Classic- och bildservrar erbjuder flera olika skärpealternativ. Det är viktigt att du förstår vad skärpa gör i en bild och hur mycket skärpa du behöver. De flesta bilder behöver skärpa, men mängden som krävs beror på bilden.
 
@@ -57,11 +57,11 @@ Om du vill göra en bild skarpare väljer du dess överrullning **[!UICONTROL Ed
 
 I följande tabell visas skärpealternativen för bildservern.
 
-| Namn | URL-protokoll | Värden | Exempel |
+| Namn | URL Protocol | Värden | Exempel |
 | --- | --- | --- | --- |
 | Enkel skärpa | `op_sharpen` | `0` eller `1` | `op_sharpen=1` |
-| Sampla om läge | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Väljer bilinjär standardinterpolation. Snabbaste omsamplingsmetod. vissa aliaseringsartefakter är ofta märkbara.<br>`bicub`: Väljer bikubisk interpolation. Processorintensivare än bilin, men ger skarpare bilder med mindre märkbara aliasfelaktigheter.<br><br>`sharp2`: Väljer en modifierad Lanczos Windows®-funktion som interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad.<br><br>`trilin`: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om sådana finns. Rekommenderas endast när alias är ett problem. Minskar storleken på JPEG på grund av reducerade högfrekventa data. | `resMode=sharp2` |
-| Oskarp mask | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: filterstyrkefaktor (verklig 0...5)<br><br>`radius`: filtrera kernelradien i pixlar (verklig 0...250) <br><br>`threshold`: filtertröskelnivå (int 0...255)<br><br>`monochrome`: ange till `0` för att göra varje färgkomponent oskarp separat, ange `1` till intensitet för oskarp mask-bild (intensitet) | `op_usm=1,1,10,0` |
+| Sampla om läge | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Väljer bilinjär standardinterpolation. Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är ofta märkbara.<br>`bicub`: Väljer bikubisk interpolation. Processorintensivare än bilin, men ger skarpare bilder med mindre märkbara aliasfelaktigheter.<br><br>`sharp2`: Väljer en modifierad Lanczos Windows®-funktion som interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad.<br><br>`trilin`: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om en sådan finns. Rekommenderas endast när kantutjämning är ett problem. Minskar storleken på JPEG på grund av reducerade högfrekventa data. | `resMode=sharp2` |
+| Oskarp mask | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: filterstyrkefaktor (verklig 0...5)<br><br>`radius`: filterkärnradie i pixlar (verklig 0...250) <br><br>`threshold`: filtertröskelnivå (int 0...255)<br><br>`monochrome`: inställd på `0` för att göra varje färgkomponent oskarp separat, ange `1` till intensitet för oskarp mask (intensitet) | `op_usm=1,1,10,0` |
 
 Välj **[!UICONTROL Sharpening]** och välj ett alternativ:
 
@@ -69,7 +69,7 @@ Välj **[!UICONTROL Sharpening]** och välj ett alternativ:
 
 * **Skärpa** - Kör ett enkelt skärpesteg för filen när den har ändrat storlek. Den liknar filtret &quot;Skärpa&quot; i Adobe Photoshop och stöder alla användarparametrar. Normalt använder du det här filtret eller **[!UICONTROL Unsharp Mask]**, men inte båda. Det är en god praxis att inte rekommendera den här metoden, men den kan kompensera för oskärpa. (URL: `op_sharpen`)
 
-* **Oskarp mask** - Du kan finjustera en skärpefiltereffekt på den nedsamplade bilden. Du kan styra intensiteten för effekten, radien för effekten (mätt i pixlar) och ett tröskelvärde för kontrast som ignoreras. Effekten har samma alternativ som Photoshop&quot;Oskarp mask&quot;-filter. (URL: `op_usm`)
+* **Oskarp mask** - Du kan finjustera en skärpefiltereffekt på den nedsamplade bilden. Du kan styra intensiteten för effekten, radien för effekten (mätt i pixlar) och ett tröskelvärde för kontrast som ignoreras. Den här effekten använder samma alternativ som Photoshop Oskarp mask-filter. (URL: `op_usm`)
 
 Välj följande alternativ så att du kan finjustera skärpan med Oskarp mask:
 
@@ -85,9 +85,9 @@ Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2
 
 Tröskelvärdet använder ett värde mellan 0 och 255, vilket är antalet steg för intensitet i en gråskalebild. 0=svart, 128=50% grått och 255=vitt. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka, så att inte brus läggs till, medan kantkontrasten läggs till i kontrastrika områden, till exempel där ögonfransarna möter huden.
 
-Anta att du har ett foto på någons ansikte. Oskarp mask påverkar de delar av bilden som har mest kontrast och utjämnad hud. Även den jämnaste huden uppvisar subtila förändringar i intensitetsvärden. Om du inte använder ett tröskelvärde framhäver filtret dessa små förändringar i hudpixlar, vilket skapar en bruseffekt (troligen inte önskvärd) samtidigt som kontrasten på ögonfransarna ökas, vilket ökar skärpan (troligen önskvärd). För att undvika det här problemet bör du använda ett tröskelvärde som anger för filtret att ignorera pixlar som inte förändrar kontrasten dramatiskt, till exempel mjuk hud. För att undvika brus eller färgreducering av bilder med hudtoner kan du till exempel experimentera med **[!UICONTROL Threshold]** värden två till 20. Standardvärdet **[!UICONTROL Threshold]** värdet 0 gör alla pixlar i bilden skarpare.
+Anta till exempel att du har ett foto på någons ansikte. Oskarp mask påverkar de delar av bilden som har mest kontrast och utjämnad hud. Även den jämnaste huden uppvisar subtila förändringar i intensitetsvärden. Om du inte använder ett tröskelvärde framhäver filtret dessa små förändringar i hudpixlar, vilket skapar en bruseffekt (troligen inte önskvärd) samtidigt som kontrasten på ögonfransarna ökas, vilket ökar skärpan (troligen önskvärd). För att undvika det här problemet bör du använda ett tröskelvärde som anger för filtret att ignorera pixlar som inte förändrar kontrasten dramatiskt, till exempel mjuk hud. För att undvika brus eller färgreducering av bilder med hudtoner kan du till exempel experimentera med **[!UICONTROL Threshold]** värden två till 20. Standardvärdet **[!UICONTROL Threshold]** värdet 0 gör alla pixlar i bilden skarpare.
 
-* **Använd på** - Välj **[!UICONTROL Each Color]** om du vill använda skärpa separat för varje färgkomponent, välj **[!UICONTROL Brightness]** om du vill använda skärpa i bildernas intensitetsområden.
+* **Använd på** - Välj **[!UICONTROL Each Color]** om du vill använda skärpa separat för varje färgkomponent, väljer du **[!UICONTROL Brightness]** om du vill använda skärpa i bildernas intensitetsområden.
 
 **Omsampling**
 
@@ -95,13 +95,13 @@ Välj **[!UICONTROL Resampling]** och välj ett alternativ. Dessa alternativ gö
 
 * **[!UICONTROL None]** - Inaktiverar omsampling.
 
-* **[!UICONTROL Bilinear]** - den snabbaste omsamplingsmetoden, vissa aliaseringsartefakter är märkbara.
+* **[!UICONTROL Bilinear]** - Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är märkbara.
 
 * **[!UICONTROL Bicubic]** - Ökar processoranvändningen på bildservern men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
 
 * **[!UICONTROL Sharpen2]** - Ger något skarpare resultat än **[!UICONTROL Bicubic]**, men till ännu högre CPU-kostnader på Image Server.
 
-* **[!UICONTROL Trilinear]** - Använder både högre och lägre upplösningar om sådana finns. rekommenderas bara när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
+* **[!UICONTROL Trilinear]** - Använder både högre och lägre upplösningar om sådana finns. Rekommenderas endast när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
 
 **Förinställningar för skärpa och bilder**
 
@@ -126,9 +126,9 @@ Alternativen för JPG-kvalitet styr komprimeringsnivån JPG:
 
 **Ange skärpealternativ för hela företaget**
 
-Om du inte använder en bildförinställning eller skickar specifika bildserverskärpeprotokoll längs URL-strängen blir bilden inte skarpare när den nedsamplas. Om skärpan inte är tillräckligt hög kan du ange standardvärden för skärpa, och sedan har alla bilder en viss skärpa.
+Om du inte använder en bildförinställning eller skickar specifika bildserverskärpeprotokoll längs URL-strängen blir bilden inte skarpare när den nedsamplas. Om skärpan inte är tillräckligt hög kan du ange standardvärden för skärpa, och sedan har alla bilder alltid en viss skärpa.
 
-Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du ställer in standardomsamplingsläget till **[!UICONTROL Sharp2]** blir bilden alltid skarpare vid nedsampling.
+Om du vill ange ditt företags standardalternativ för skärpa går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du ställer in standardomsamplingsläget till **[!UICONTROL Sharp2]** blir bilden alltid skarpare vid nedsampling.
 
 **Lägga till skärpa i visningsförinställningar**
 
@@ -140,7 +140,7 @@ Se [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7viewers/h
 
 Alternativet Modifierare (Modifierare) finns i avsnittet Core Settings (Grundinställningar) för alla förinställningar för eCatalog, Spin och Custom Zoom Viewer. Genom att lägga till kommandona för URL-skärpa i rutan Modifierare lägger du till skärpa varje gång som visningsprogrammet anropas med den förinställningen.
 
-Om du vill anropa visningsförinställningen använder du `config=` på visningsprogrammets URL. Här är ett exempel på hur du anropar en bilduppsättning (skor) med en visningsförinställning (`FantasticoZoom2022`):
+Använd kommandot `config=` på visningsprogrammets URL. Här är ett exempel på hur du anropar en bilduppsättning (skor) med en visningsförinställning (`FantasticoZoom2022`):
 
 `https://s7d9.scene7.com/s7viewers/html5/ZoomViewer.html?asset=Scene7SharedAssets/ImageSet-Views-Sample&config=S7train/FantasticoZoom2022`
 
@@ -150,4 +150,4 @@ Förinställningen här gör visningsprogrammet skarpare och ändrar standardska
 
 Den sista, och minst rekommenderade, skärpningsmetoden är att skapa skärpeåsidosättningar bild för bild. Den här metoden åsidosätter skärpan i en bildförinställning med egna specifika värden. Den här metoden åsidosätter emellertid även alla andra skärpemetoder av alla storlekar. Det bästa användningsområdet för den här metoden är om vissa av dina bilder inte har hög upplösning och värdena i Bildförinställningar är för höga för dessa små bilder. I det här fallet kan skärpa per bild behövas.
 
-I Adobe Dynamic Media Classic väljer du en bild, går till detaljvyn (genom att dubbelklicka eller trycka på **[!UICONTROL Detail View]** och **[!UICONTROL Sharpen]**. Ändra en parameter och markera sedan **[!UICONTROL Save]**. Den här processen anger för bildservern att de här skärpeparametrarna ska användas i stället för de kommandon som du anropar i URL:en, till exempel en skärpemodifierare eller bildförinställning. Se till att du publicerar för att se att ändringarna börjar gälla.
+I Adobe Dynamic Media Classic väljer du en bild, går till detaljvyn (genom att dubbelklicka eller trycka på **[!UICONTROL Detail View]** och välj **[!UICONTROL Sharpen]**. Ändra en parameter och markera sedan **[!UICONTROL Save]**. Den här processen anger för bildservern att de här skärpeparametrarna ska användas i stället för de kommandon som du anropar i URL:en, till exempel en skärpemodifierare eller bildförinställning. Se till att du publicerar för att se att ändringarna börjar gälla.

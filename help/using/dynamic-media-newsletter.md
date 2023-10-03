@@ -1,15 +1,15 @@
 ---
 title: Dynamic Media nyhetsbrevarkiv
-description: "Det arkiverade nyhetsbrevet från Experience League var ett månatligt nyhetsbrev. Den har utformats för att hjälpa dig att komma igång med Dynamic Media och Adobe Dynamic Media Classic så att du kan förverkliga ditt värde direkt. De arkiverade nyhetsbreven innehåller värdefulla kunskapsskapande resurser som var tillgängliga i det här enastående nyhetsbrevet som nu har upphört. Arkiverade nyhetsbrev innehåller instruktionsvideor och lösningsöversikter. Det finns också introduktioner till viktiga funktioner och funktioner som förinställningar för bilder, visningsinställningar och videoprofiler."
+description: "Det arkiverade nyhetsbrevet från Experience League var ett månatligt nyhetsbrev. Den har utformats för att hjälpa dig att komma igång med Dynamic Media och Adobe Dynamic Media Classic så att du kan förverkliga ditt värde direkt. De arkiverade nyhetsbreven innehåller värdefulla kunskapsskapande resurser som var tillgängliga i det här nyhetsbrevet som nu har upphört. Arkiverade nyhetsbrev innehåller instruktionsvideor och lösningsöversikter. Det finns också introduktioner till viktiga funktioner och funktioner som förinställningar för bilder, visningsinställningar och videoprofiler."
 keywords: dynamiska medier;nyhetsbrev;produktuppdateringar;tips och tricks;event;customer success;blog;blogs;images;videor;features;capabilities
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -52,9 +52,9 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
 
   I detta nummer:
 
-   * Utforska tre sätt som er investering i multimedia kan hjälpa er i dessa utmanande tider.
+   * Utforska tre sätt som er investering i multimedia kan hjälpa er på i dessa svåra tider.
    * Anmäl dig till webbinariet för att lära dig hur du gör sidan ljusare med Smart Imaging.
-   * Titta på on-demand-webbinariet SKill Builder för Adobe Dynamic Media Classic.
+   * Titta på on demand Builder-webbinariet för Adobe Dynamic Media Classic.
    * Se Dynamic Media sessioner från Online Adobe Summit 2020.
    * Läs mer om Adobe kostnadsfria Adobe Dynamic Media Classic-revisioner.
    * Möt `John Monroe`, Senior Program Manager for Adobe Customer Solutions.
@@ -65,9 +65,9 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
 
    * Delta i nya webbinarier i SKompetensbyggaren och förvandla dem till en Adobe Dynamic Media Classic-expert.
    * Se var du kan hitta Dynamic Media på Adobe Summit 2020.
-   * Upptäck hur du använder Dynamic Media beskärningsmagi.
+   * Se hur du använder Dynamic Media beskärningsmagi.
    * För att du ska få ut mer av Adobe Dynamic Media Classic kan du dra nytta av en kostnadsfri revision från Adobe.
-   * Läs om det nya användargränssnittet för Adobe Dynamic Media Classic.
+   * Läs mer om det nya användargränssnittet för Adobe Dynamic Media Classic.
    * Möt `Georgia Myers`, Senior Manager of Customer Success for Adobe Experience Cloud.
 
 * **[Januari 2020, utgåva 1](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_01_2020_Jan.html)**
@@ -88,9 +88,9 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * Kraftfulla nya säkerhetsfunktioner.
    * Hur Adobe förbereder sig för en lyckad semestersäsong.
    * Dela nyhetsbrevet med dina kollegor för att bygga upp teamets expertis.
-   * Möt `Apoorva Gupta`, Senior Product Manager, Dynamic Media.
+   * Möt `Apoorva Gupta`, Senior Product Manager, Dynamic Media
 
-* **[Oktober 2019, utgåva 10](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html)**
+* **[oktober 2019, utgåva 10](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html)**
 
   I detta nummer:
 
@@ -105,7 +105,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
 
   I detta nummer:
 
-   * Ge era kundupplevelser ett lyft genom att eliminera dessa 9&quot;gotchas&quot;.
+   * Ge er kundupplevelse ett lyft genom att eliminera dessa 9&quot;gotchas&quot;.
    * Se hur Dynamic Media team kan hjälpa er att förbereda er för en dag med större trafik än normalt.
    * En andra chans att fånga två av de senaste webbinarierna i SKill Builder.
    * Titta på on-demand-webbinariet om hur du skyddar dina digitala resurser från piratkopiering.
@@ -117,10 +117,10 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
   I detta nummer:
 
    * Upptäck de användbara funktionerna när du uppgraderar till Dynamic Media.
-   * Läs om en webbinarier som hjälper dig att komma igång med Experience Manager Assets och Dynamic Media.
+   * Läs mer om en webbinarier som är utformad för att hjälpa dig komma igång med Experience Manager Assets och Dynamic Media.
    * Börja din resa och få värde från Dynamic Media på Experience League.
-   * Få en smygtitt på den kraftfulla integrering som kommer i september och som låter er analysera hur besökarna interagerar med ert multimediematerial.
-   * Möt `PieterJan Pieper`, Dynamic Media tekniska support wiz.
+   * Få en smygtitt på den kraftfulla integrering som kommer i september och som gör att ni kan analysera hur besökarna interagerar med ert multimediematerial.
+   * Möt `PieterJan Pieper`, Dynamic Media Technical Support Guru.
 
 * **[Juli 2019, utgåva 07](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
 
@@ -140,7 +140,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * Se videor som belyser hur välbekant det är att uppgradera till Dynamic Media inom Experience Manager Assets.
    * Se videoklipp om hur man gör i Experience League.
    * Läs mer om den kommande Adobe Insider Tour.
-   * Läs om hur ni kan skydda era digitala resurser mot piratkopiering.
+   * Läs om hur ni kan skydda era digitala resurser från att bli piratkopierade.
    * Lär dig mer om AI-driven Smart Crop för bilder.
    * Möt `Alex Thiers`, en av drivkrafterna bakom många av de goda funktionerna och innovationerna inom Dynamic Media och Adobe Dynamic Media Classic.
 
@@ -148,7 +148,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
 
   I detta nummer:
 
-   * Utforska de tio viktigaste dolda funktionerna i Adobe Dynamic Media Classic i ett blogginlägg.
+   * Se de tio viktigaste dolda funktionerna i Adobe Dynamic Media Classic i ett blogginlägg.
    * Se videoklipp om hur man gör i Experience League.
    * Läs mer om den kommande Adobe Insider Tour.
    * Läs en bloggserie i tre delar om du vill uppdatera din multimediestrategi.
@@ -163,5 +163,5 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * Registrera dig för Adobe Dynamic Media Classic Dolda funktioner på webbseminariet.
    * Om du vill få hjälp med att utveckla en multimediestrategi kan du läsa om Adobe on-demand-webbinarier.
    * Läs om användningsexempel och Adobe för multimedia.
-   * ... och mycket mer!
+   * ... och mycket annat!
 

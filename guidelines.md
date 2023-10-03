@@ -1,7 +1,7 @@
 ---
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ## Adobe Dynamic Media Classic Documentation Philosophy
 
-Vi vet att Adobe Dynamic Media Classic-användare arbetar i mycket konkurrensutsatta miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från deras konkurrenter. Därför är det viktigt att Adobe när de levererar avancerade nya verktyg kompletteras med korrekt och tydlig dokumentation. På så sätt kan kunden omedelbart använda sin investering i Adobe Dynamic Media Classic och maximera avkastningen.
+Adobe vet att Adobe Dynamic Media Classic användare arbetar i mycket konkurrensutsatta miljöer och strävar efter att skapa digitala upplevelser som skiljer dem från deras konkurrenter. Därför är det viktigt att Adobe när de levererar avancerade nya verktyg kompletteras med korrekt och tydlig dokumentation. På så sätt kan kunden omedelbart använda sin investering i Adobe Dynamic Media Classic och maximera avkastningen.
 
-Syftet med dokumentationen är att användarna ska få tillgång till aktuell dokumentation så snart som möjligt. Därför prioriterar vi korrekt, användbar dokumentation och strävar efter att kontinuerligt uppdatera och förbättra den.
+Syftet med dokumentationen är att användarna ska få tillgång till aktuell dokumentation så snart som möjligt. Därför prioriterar Adobe korrekt, användbar dokumentation och strävar efter att kontinuerligt uppdatera och förbättra den.
 
 ## Dokumentationsbidrag
 
@@ -19,15 +19,15 @@ I syfte att kontinuerligt förbättra dokumentationen är hela användargruppen 
 
 ## Dokumentationsstandarder
 
-Även om vi välkomnar bidrag till vår dokumentation bör alla bidrag till dokumentationen, antingen i form av en begäran om att tjänsten ska fyllas i eller i form av ett problem, överensstämma med våra standarder för bidrag och dokumentation.
+Adobe välkomnar bidrag till sin dokumentation, men alla bidrag till dokumentationen, antingen i form av en begäran om att tjänsten ska kunna dras in eller en fråga, bör överensstämma med Adobe normer för bidrag och dokumentation.
 
 Bidrag som inte uppfyller dessa standarder kan avvisas.
 
-### Vi dokumenterar standardanvändningsexempel.
+### Adobe-dokument - standardanvändningsexempel.
 
 Dokumentationen innehåller standardanvändningsexempel. Användningsfall som inte omfattas av standardinstallation och standardanvändning av produkten ingår inte i dokumentationen.
 
-### Vi dokumenterar vanligtvis inte buggar eller deras tillfälliga lösningar.
+### Adobe dokumenterar vanligtvis inte buggar eller deras temporära lösningar.
 
 Dokumentationen innehåller standardanvändningsexempel. Av den anledningen dokumenteras inte buggar, effekter orsakade av buggar och tillfälliga lösningar för buggar.
 
@@ -35,7 +35,7 @@ Undantag från den här regeln gäller versionsinformationen där kända problem
 
 ### Dokumentationsbidragen är inte till för att besvara tekniska frågor.
 
-Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, problem och pull-förfrågningar är dock avsedda för *avgifter* endast. De är inte avsedda att besvara frågor om hur du använder Adobe Dynamic Media Classic, implementerar projektet eller löser tekniska problem.
+Alla idéer du kan behöva förbättra dokumentationen är välkomna som bidrag. Kommentarer, problem och förfrågningar är dock avsedda för *avgifter* endast. De är inte avsedda att besvara frågor om hur du använder Adobe Dynamic Media Classic, implementerar projektet eller löser tekniska problem.
 
 Om du har frågor om hur du använder Adobe Dynamic Media Classic eller om tekniska fel ska du rapportera dem via [Experience Cloud Enterprise Support Portal](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) eller diskuteras i [Experience Cloud community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
@@ -43,15 +43,15 @@ Om du har frågor om hur du använder Adobe Dynamic Media Classic eller om tekni
 
 ### Bidragen ska tydligt hänvisa till berörda dokumentationssidor.
 
-Om du skapar ett problem som kan föreslå förbättringar av dokumentationen måste du inkludera länkar till de sidor som påverkas. Om du skapar ett problem med **Redigera den här sidan** på en dokumentationssida skapas problemet automatiskt med en länk till sidan.
+Om du skapar ett problem som kan föreslå förbättringar av dokumentationen måste du inkludera länkar till de sidor som påverkas. Om du skapar ett problem med hjälp av **Redigera den här sidan** på en dokumentationssida skapas problemet automatiskt med en länk till sidan.
 
 Detta gäller inte för pull-begäranden eftersom pull-begäranden refererar till de berörda sidorna.
 
 ## Riktlinjer för dokumentation
 
-Vi ber att eventuella bidrag till vår dokumentation följer vissa riktlinjer för format.
+Adobe begär att eventuella bidrag till dokumentationen ska följa vissa riktlinjer för format.
 
-Genom att följa dessa riktlinjer blir det enklare att granska ditt bidrag och det går därför snabbare att integrera det i vår dokumentation.
+Genom att följa dessa riktlinjer blir det enklare att granska ditt bidrag och det går därför snabbare att integrera det i dokumentationen för Adobe.
 
 ### Språk och format
 
@@ -65,7 +65,7 @@ Kom ihåg att läsarna av dokumentationen finns i hela världen. De kan inte fö
 
 #### Följ Microsoft® Manual of Style
 
-[The Microsoft® Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/) är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och Adobe Dynamic Media Classic-dokumentation följer den här handboken när det är möjligt.
+[The Microsoft® Manual of Style](https://learn.microsoft.com/en-us/style-guide/welcome/) är en kostnadsfri handbok för dokumentationsformat som fokuserar på programvarudokumentation och Adobe Dynamic Media Classic-dokumentation följer den här handboken när det är möjligt.
 
 ### Formatering
 

@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ ht-degree: 0%
 * Hantering av digitala resurser på företagsnivå med robust stöd för metadata, smart sökning, ljuslåda och samlingar, versionskontroll och säker delning av resurser som kan användas av leverantörer, partners och franchisetes Granska och godkänn-arbetsflöden för material i process.
 * Enkelt att använda och använda med det nya användargränssnittet.
 * Skapa köpbara/interaktiva medieupplevelser med bilder och video som ökar konverteringsgraden och ökar användarnas engagemang och nöjdhet.
-* Kombinera kampanjresurser med produktinformation för att effektivisera klick till kundvagn.
+* Kombinera kampanjresurser med produktinformation så att ni kan effektivisera klick till kundvagn.
 * Skapa, justera, märk upp och distribuera enkelt interaktiva visningsprogram med WYSIWYG Viewer Designer.
 * Leverera optimerad multimedia för [!DNL Experience Cloud] lösningar.
-* Integration med [!DNL Experience Cloud] för avancerad materialanalys, målgruppsanpassning och återanvändning av resurser över alla kontaktytor för marknadsföring. Dessa kontaktytor inkluderar [!DNL Adobe Campaign] för e-post, [!DNL Adobe Social] för sociala kanaler, och [!DNL Experience Manager] Webbplatser för responsiva webb- och mobilappar.
+* Integrering med [!DNL Experience Cloud] för avancerad materialanalys, målgruppsanpassning och återanvändning av resurser över alla kontaktytor för marknadsföring. Dessa kontaktytor inkluderar [!DNL Adobe Campaign] för e-post, [!DNL Adobe Social] för sociala kanaler, och [!DNL Experience Manager] Webbplatser för responsiva webb- och mobilappar.
 
 +++
 
@@ -45,7 +45,7 @@ Ja, [!DNL Dynamic Media] använder Adobe, leveransnätverk i toppskiktet.
 
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Stöd för 24/7/265, 99,95 % SLA.
-* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 petabyte trafik per månad och över 500 miljoner mediefiler i ledning, 60 % ökning av trafiken per år.
+* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5-petabyte trafik per månad och över 500 miljoner mediefiler i ledning, 60 % ökning av trafiken per år.
 
 +++
 
@@ -77,17 +77,17 @@ Uppgraderingen hanteras av AGS (Adobe Global Services) och behandlas som ett ser
 +++
 
 +++**Hur lång tid tar uppgraderingsprocessen?**
-Tiden för uppgraderingsprocessen varierar beroende på flera faktorer, bland annat följande: antalet tillgångar och deras storlek. AGS eller Partner hanterar projekttidslinjen.
+Uppgraderingsprocessen varierar beroende på flera faktorer, bland annat, men inte begränsat till: antalet resurser och resursernas storlek. AGS eller Partner hanterar projekttidslinjen.
 
 +++
 
 +++**Hur kontrollerar jag uppgraderingens status?**
-Tiden för uppgraderingsprocessen varierar beroende på flera faktorer, bland annat följande: antalet tillgångar och deras storlek. AGS eller Partner hanterar projekttidslinjen.
+Uppgraderingsprocessen varierar beroende på flera faktorer, bland annat, men inte begränsat till: antalet resurser och resursernas storlek. AGS eller Partner hanterar projekttidslinjen.
 
 +++
 
 +++**Krävs det några avtalsändringar att uppgradera till [!DNL Dynamic Media]?**
-Tiden för uppgraderingsprocessen varierar beroende på flera faktorer, bland annat följande: antalet tillgångar och deras storlek. AGS eller Partner hanterar projekttidslinjen.
+Uppgraderingsprocessen varierar beroende på flera faktorer, bland annat, men inte begränsat till: antalet resurser och resursernas storlek. AGS eller Partner hanterar projekttidslinjen.
 
 +++
 
@@ -132,7 +132,7 @@ Ja. Du kan fortsätta använda [!DNL Dynamic Media Classic] (tidigare Adobe Scen
 
 +++
 
-+++**Måste jag uppdatera mina produktions-URL:er?**
++++**Måste jag uppdatera mina URL:er?**
 Nej. Adobe fortsätter att använda [!DNL Dynamic Media Classic] publicerings- och leveransinfrastruktur i [!DNL Dynamic Media] lösning. Fördelen med detta är att du inte behöver ändra några produktionswebbadresser på dina webbsidor, vilket minimerar riskerna och arbetet med att migrera till [!DNL Dynamic Media].
 
 +++
@@ -152,7 +152,7 @@ Förinställningar och andra inställningar måste återskapas i [!DNL Dynamic M
 +++
 
 +++**Hur konfigurerar jag användare och behörigheter (SSO- eller LDAP-alternativ)?**
-Inställningar måste återskapas inom [!DNL Dynamic Media]. Som en del av serviceprojektet kan AGS eller Partner hjälpa till. Du uppgraderar dock till [!DNL Dynamic Media] ger SSO/LDAP-integrering, vilket gör användarhanteringen effektivare. Dessutom [!DNL Dynamic Media] har robusta roller och privilegier som styr åtkomsten till användarna.
+Inställningarna måste återskapas inom [!DNL Dynamic Media]. Som en del av serviceprojektet kan AGS eller Partner hjälpa till. Du uppgraderar dock till [!DNL Dynamic Media] ger SSO/LDAP-integrering, vilket gör användarhanteringen effektivare. Dessutom [!DNL Dynamic Media] har robusta roller och privilegier som styr åtkomsten till användarna.
 
 +++
 
@@ -161,8 +161,8 @@ Ja. Du behöver inte ändra dina befintliga arbetsflöden för inmatning och kan
 
 +++
 
-+++**Vilka resurser finns för utbildning av nya användare?**
-Utbildning erbjuds via ADLS (Adobe Digital Learning Services). [!DNL Dynamic Media] Funktionerna finns i två kurser: Hantera och leverera digitala resurser och anpassa digitala resurser.
++++**Vilka resurser finns för att utbilda nya användare?**
+Utbildning erbjuds via ADLS (Adobe Digital Learning Services). [!DNL Dynamic Media] finns i två kurser: Hantera och leverera digitala resurser och Anpassa digitala resurser.
 
 +++
 
@@ -177,7 +177,7 @@ Adobe fortsätter att stödja och upprätthålla fullt ut [!DNL Dynamic Media Cl
 +++
 
 +++**Hur mycket lagringsutrymme som [!DNL Dynamic Media]?**
-60 gigabyte lagringsutrymme ingår. Du kan köpa ytterligare lagringsutrymme i block om 250 GB. Kontrollera avtalsinformationen för att få aktuell lagringstilldelning.
+Dynamic Media har 60 GB lagringsutrymme. Du kan köpa ytterligare lagringsutrymme i block om 250 GB. Kontrollera avtalsinformationen så att du kan få aktuell lagringstilldelning.
 
 +++
 
@@ -206,19 +206,19 @@ Ja. Du kan använda ditt eget CDN med [!DNL Dynamic Media].
 
 +++
 
-+++**Gör [!DNL Dynamic Media] har jag de funktioner jag behöver uppgradera? Vilka funktioner är tillgängliga med [!DNL Dynamic Media] på [!DNL Experience Manager] Resurser?**
-Se [Funktionsjämförelse](/help/using/upgrade-feature-comparison.md) sida med mer information.
++++**Gör [!DNL Dynamic Media] har jag de funktioner jag behöver så att jag kan uppgradera? Vilka funktioner är tillgängliga med [!DNL Dynamic Media] på [!DNL Experience Manager] Resurser?**
+Se [Funktionsjämförelse](/help/using/upgrade-feature-comparison.md) sida där du kan lära dig mer.
 
 +++
 
 +++**Vilka funktioner som fortfarande är tillgängliga i [!DNL Dynamic Media Classic]? Kan jag fortfarande uppgradera?**
-Kunder som behöver följande kan även fortsättningsvis ha tillgång till [!DNL Dynamic Media Classic] motordrivna funktioner:
+Kunder som behöver följande kan även fortsättningsvis ha tillgång till [!DNL Dynamic Media Classic] motordrivna funktioner
 
 * Visual configurator (image author, image render).
 * Bildmallar.
 * eCatalogs.
 
-Se även [Funktionsjämförelse](/help/using/upgrade-feature-comparison.md) sida med mer information.
+Se även [Funktionsjämförelse](/help/using/upgrade-feature-comparison.md) sida där du kan lära dig mer.
 
 +++
 

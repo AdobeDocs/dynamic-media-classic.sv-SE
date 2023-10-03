@@ -12,9 +12,9 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Mallgrunder skapas dynamiskt och adresserbara bildfiler i lager, som lageruppbyg
 
 En mall kan innehålla valfritt antal bildlager och textlager. Du kan konvertera en statisk fil som innehåller lager, till exempel en PSD-fil med lager, till en mall och skapa mallar i Adobe Dynamic Media Classic. Du kan skapa textlager i mallar med teckensnitt som du överfört till Adobe Dynamic Media Classic. När du har lagt till text i en mall kan du formatera den genom att ändra dess justering, teckensnitt, teckenstorlek och färg.
 
-På sidan Parametrar kan du konvertera alla delar av en mall till adresserbara parametrar. Om du gör det kan du ändra vilken bild i lager som ska användas eller vilket textvärde som ska användas i mallen. Parametrar skickas med URL-strängen så att du kan ändra alla parametrar för att dynamiskt anpassa svarsbilden som genereras från bildservern.
+På sidan Parametrar kan du konvertera alla delar av en mall till adresserbara parametrar. När du gör det kan du ändra vilken bild i lager som ska användas eller vilket textvärde som ska användas i mallen. Parametrar skickas med URL-strängen så att du kan ändra alla parametrar för att dynamiskt anpassa svarsbilden som genereras från bildservern.
 
 Se även [Grundläggande om mallar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) utbildningsvideo.
 
@@ -39,14 +39,14 @@ Om du använder en PSD-fil för att bygga mallen väljer du **[!UICONTROL Create
 
 Om du använder bildfiler kan du beskära bilderna och även skapa en mask från urklippsbanor i bilderna när du överför dem.
 
-Välj **[!UICONTROL Upload]** om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför mallfiler](uploading-template-files.md#uploading_template_files).
+I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra en PSD-fil eller andra bildfiler från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför mallfiler](uploading-template-files.md#uploading_template_files).
 
 ## 2. Skapa en mall
 
 Om du vill skapa en mall från en PSD-fil väljer du **[!UICONTROL Create Template]** när du överför filen. Om du vill skapa en mall från bilder går du till navigeringsfältet Global **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**, anger du en bredd- och höjdmätning för arbetsytan. I sidans övre högra hörn väljer du antingen **[!UICONTROL Designer]** eller **[!UICONTROL Developer]** och dra bilder till mallsidan. Du kan också välja bilderna *före* du går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. På mallsidan finns verktyg för:
 
-* Lägga till bildlager. Om du vill lägga till ett lager drar du en bild till mallsidan.
-* Lägga till textlager. Välj **[!UICONTROL Text tool]** ikon. Dra pekaren för att skapa en ruta för textlagret; formatera texten med verktyg på textsidan.
+* Lägga till bildlager. Lägg till ett lager genom att dra en bild till mallsidan.
+* Lägga till textlager. Välj **[!UICONTROL Text tool]** -ikon. Dra pekaren för att skapa en ruta för textlagret och formatera sedan texten med verktygen på textsidan.
 * Ändra storlek och position för lager.
 * Ändra lagerordningen.
 * Använda skugg- och glödeffekter på bild- och textlager.
@@ -59,7 +59,7 @@ Nästa steg är att parametrisera lageregenskaperna för att avgöra vilka lager
 
 Om du vill parametrisera ett lager öppnar du mallen på mallsidan och väljer sedan **[!UICONTROL Parameters]** bredvid ett lagernamn. På sidan Parametrar väljer du alternativet bredvid varje parameter som du vill lägga till. Se [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
 
-## 4. Publiceringsmallar
+## 4. Publicera mallar
 
 När du publicerar mallen placeras den på Dynamic Media Image-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. När du publicerar aktiveras även URL:en så att mallen anropas från Dynamic Media Image Servers till din webbplats eller ditt program.
 

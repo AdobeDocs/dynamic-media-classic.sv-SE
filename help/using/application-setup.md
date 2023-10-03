@@ -10,24 +10,24 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '10713'
+source-wordcount: '10711'
 ht-degree: 1%
 
 ---
 
 # Programinställningar{#application-setup}
 
-Du kan använda sidorna Programinställningar för att ange allmänna inställningar, skapa bildförinställningar, videokodningsförinställningar, visningsförinställningar eller för att definiera standardvisningsprogram och metadata. Du kan ställa in gruppuppsättningsförinställningar för att även automatisera genereringen av 2D-snurruppsättningar (till exempel), publiceringsinställningar och video-SEO-inställningar.
+Du kan använda sidorna Programinställningar för att ange allmänna inställningar, skapa bildförinställningar, förinställningar för videokodning, förinställningar för visningsprogram eller för att definiera standardvisningsprogram och metadata. Du kan ställa in gruppuppsättningsförinställningar för att även automatisera genereringen av 2D-snurruppsättningar (till exempel), publiceringsinställningar och video-SEO-inställningar.
 
 >[!NOTE]
 >
->Endast Adobe Dynamic Media Classic-administratörer kan ändra inställningarna på sidan Programinställningar.
+>Endast Adobe Dynamic Media Classic-administratörer kan ändra inställningarna på sidorna i Programinställningar.
 
 ## Allmänna inställningar {#general-settings}
 
-Om du vill öppna sidan Allmänna inställningar för programmet går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
+Om du vill öppna sidan Allmänna inställningar för programmet går du till navigeringsfältet Global **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 
 ### Servrar
 
@@ -41,13 +41,13 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
-* **[!UICONTROL Test&Target Server Name]** - Din Test&amp;Target-URL, till och med .com. Instruktioner om hur du hämtar denna URL finns i Integrera [!DNL Adobe Dynamic Media Classic] med [!DNL Adobe Target Standard/Premium].
+* **[!UICONTROL Test&Target Server Name]** - Din Test&amp;Target-URL, fram till och med .com. Instruktioner om hur du hämtar denna URL finns i Integrera [!DNL Adobe Dynamic Media Classic] med [!DNL Adobe Target Standard/Premium].
 
 <!-- **Test Publish Context Server Name** -->
 
-* **[!UICONTROL iOS Streaming Server Name]** - URL:en till [!DNL Adobe Dynamic Media Classic] iOS direktuppspelningsserver. Den här servern levererar strömmande video till iOS-baserade enheter med HTTP-protokoll.
+* **[!UICONTROL iOS Streaming Server Name]** - URL till [!DNL Adobe Dynamic Media Classic] iOS direktuppspelningsserver Den här servern levererar strömmande video till iOS-baserade enheter med HTTP-protokoll.
 
-* **[!UICONTROL Progressive Video Server Name]** - URL:en till [!DNL Adobe Dynamic Media Classic] progressiv videoserver. Den här servern levererar progressiv video med HTTP-protokoll.
+* **[!UICONTROL Progressive Video Server Name]** - URL till [!DNL Adobe Dynamic Media Classic] progressiv videoserver. Den här servern levererar progressiv video med HTTP-protokoll.
 
 * **[!UICONTROL Show URL for unpublished assets]** - Välj det här alternativet om du vill [!DNL Adobe Dynamic Media Classic] om du vill visa en URL när du förhandsgranskar en resurs, oavsett om den är publicerad eller inte. Om resursen inte publiceras fungerar inte URL:en. Du kan dock använda URL-adressen för planering eller organisering.
 
@@ -67,7 +67,7 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-  I listrutan URL väljer du **[!UICONTROL Continue]** för att rensa cachen för det specifika bild-URL-anropet. Du kan också lägga till URL-adresser genom att skriva eller klistra in dem i URL-listrutan; du inte behöver ange mallen i förväg.
+  Välj i listrutan URL **[!UICONTROL Continue]** för att rensa cachen för det specifika bild-URL-anropet. Du kan också lägga till URL-adresser genom att skriva eller klistra in dem i listrutan URL. Du behöver inte ställa in mallen i förväg.
 
   När du har valt en mall för CDN-validering och gjort en begäran om ogiltig CDN visas en indikator i användargränssnittet. Du får en uppskattning av hur lång tid det tar att rensa cachen.
 
@@ -93,9 +93,9 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
   Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]** för att skapa mer kodade underordnade videor direkt från en adaptiv videouppsättning. Adobe Dynamic Media Classic hittar automatiskt den&quot;överordnade&quot; primära videon i den adaptiva videouppsättningen och använder den som källvideo för transkodning. När du sparar de nya enskilda kodade videofilmerna visas de dock inte när du söker efter eller bläddrar. De är dock fortfarande tillgängliga på fliken Kodade videoklipp i detaljvyn.
 
-  Se [Överför och koda om videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
+  Se [Överför och koda om videor](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-  Välj **[!UICONTROL Show Encoded Videos]**.
+  Om du vill ha fortsatt åtkomst till alla dina kodade videoderivat när du söker och bläddrar väljer du **[!UICONTROL Show Encoded Videos]**.
 
   Det finns vissa åtgärder på menyn Skapa som bara fungerar, eller eventuellt fungerar, med enskilda videor. Den här funktionen gör det nödvändigt att visa alla kodade videoderivat som du kan välja mellan, oavsett hur du anger **[!UICONTROL Show Encoded Videos]**. Skapa-åtgärderna som åsidosätter **[!UICONTROL Show Encoded Videos]** ange include **[!UICONTROL Adaptive Video Sets]** och **[!UICONTROL eCatalogs]**.
 
@@ -105,7 +105,7 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
 * **[!UICONTROL Show Refresh Subfolders Button]** - Aktivera och inaktivera visningen av knappen Uppdatera för undermappar.
 
-### Adobe Dynamic Media Classic FTP-konto
+### ADOBE DYNAMIC MEDIA CLASSIC FTP
 
 * **[!UICONTROL Server]** - Visar din FTP-kontoserver.
 
@@ -115,13 +115,13 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
 Se även [Standardalternativ för överföringsjobb](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) utbildningsvideo.
 
-* **[!UICONTROL Overwrite Images]** - Adobe Dynamic Media Classic tillåter inte att två filer har samma namn. Varje objekts Adobe Dynamic Media Classic-ID (bildnamnet minus filnamnstillägget) måste vara unikt. På grund av den här regeln har dialogrutan Överför ett överskrivningsalternativ. Den exakta effekten av det här alternativet beror på det angivna alternativet Skriv över bilder. De här alternativen anger hur ersättningsbilder överförs: om de ersätter originalbilderna eller blir dubblettbilder. Duplicerade bilder får ett nytt namn med namnet&quot;-1&quot; (till exempel heter stol.tif stol-1.tif). De här alternativen påverkar bilder som har överförts till en annan mapp än den ursprungliga eller bilder med ett annat filnamnstillägg än den ursprungliga (till exempel JPG, TIF eller PNG). Se [Använda alternativet Skriv över bilder](#using-the-overwrite-images-option).
+* **[!UICONTROL Overwrite Images]** - Adobe Dynamic Media Classic tillåter inte att två filer har samma namn. Varje objekts Adobe Dynamic Media Classic-ID (bildnamnet minus filnamnstillägget) måste vara unikt. På grund av den här regeln har dialogrutan Överför ett överskrivningsalternativ. Den exakta effekten av det här alternativet beror på det angivna alternativet Skriv över bilder. Dessa alternativ anger hur ersättningsbilder överförs: om de ersätter originalbilderna eller blir dubblettbilder. Duplicerade bilder får ett nytt namn med namnet&quot;-1&quot; (till exempel heter stol.tif stol-1.tif). De här alternativen påverkar bilder som har överförts till en annan mapp än den ursprungliga eller bilder med ett annat filnamnstillägg än den ursprungliga (till exempel JPG, TIF eller PNG). Se [Använda alternativet Skriv över bilder](#using-the-overwrite-images-option).
 
    * **[!UICONTROL Overwrite in current folder, same base image name/extension]** - Det här alternativet är den striktaste regeln för ersättning. Det kräver att du överför ersättningsbilden till samma mapp som originalbilden och att ersättningsbilden har samma filnamnstillägg som originalbilden. Om dessa krav inte uppfylls skapas en dubblett.
 
    * **[!UICONTROL Overwrite in current folder, same base asset name regardless of extension]** - Kräver att du överför ersättningsbilden till samma mapp som originalet, men filnamnstillägget kan skilja sig från originalet. Till exempel ersätter stol.tif stol.jpg.
 
-   * **[!UICONTROL Overwrite in any folder, same base asset name/extension]** - Kräver att ersättningsbilden har samma filnamnstillägg som originalbilden (t.ex. måste stol.jpg ersätta stol.jpg, inte stol.tif). Du kan dock överföra ersättningsbilden till en annan mapp än den ursprungliga. Den uppdaterade bilden finns i den nya mappen; filen inte längre kan hittas på sin ursprungliga plats
+   * **[!UICONTROL Overwrite in any folder, same base asset name/extension]** - Kräver att ersättningsbilden har samma filnamnstillägg som originalbilden (t.ex. måste stol.jpg ersätta stol.jpg, inte stol.tif). Du kan dock överföra ersättningsbilden till en annan mapp än den ursprungliga. Den uppdaterade bilden finns i den nya mappen. Det går inte längre att hitta filen på den ursprungliga platsen
 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** - Det här alternativet är den mest omfattande ersättningsregeln. Du kan överföra en ersättningsbild till en annan mapp än den ursprungliga, överföra en fil med ett annat filnamnstillägg och ersätta den ursprungliga filen. Om originalfilen finns i en annan mapp finns ersättningsbilden i den nya mappen som den överfördes till.
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic tillåter inte att två filer har samma namn. Varje 
 
 Om du tidigare överförde bilder och sedan ändrade originalfilerna (eller ersatt dem) anger det valda alternativet Skriv över hur Adobe Dynamic Media Classic ska ersätta bilderna. Ingen information om bilden ändras, men den nya bilden ersätter den gamla. Om mappen även innehåller bilder som inte redan finns i Adobe Dynamic Media Classic läggs dessa bilder till.
 
-Använd det här alternativet om de överförda bilderna har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF. Finjustera Adobe Dynamic Media Classic *rift* Justera ICC-färgprofilalternativen i dialogrutan Överför och ladda upp igen med hjälp av funktionen Skriv över.
+Använd det här alternativet om de överförda bilderna har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF. Finjustera Adobe Dynamic Media Classic *ribbor* Justera ICC-färgprofilalternativen i dialogrutan Överför och ladda upp igen med hjälp av funktionen Skriv över.
 
 De Adobe Dynamic Media Classic-ID:n som används för att få åtkomst till bilder från produktionsservrarna härleds från bildens filnamn. Det är viktigt att du använder versaler och gemener i filnamnet, både när du ersätter befintliga filer och när du ersätter de Adobe Dynamic Media Classic-id:n som används för att komma åt bilden. Se till att versaler och gemener används korrekt i filnamn innan du överför till Adobe Dynamic Media Classic för att undvika Adobe Dynamic Media Classic-ID:n som bara skiljer sig åt för samma bild.
 
@@ -159,7 +159,7 @@ Skärmen Bildförinställningar används för att skapa och redigera bildförins
 
 Administratörer kan skapa förinställningar för att exportera resurser. Användarna kan välja en förinställning när de exporterar bilder, vilket även innebär att bilderna formateras om enligt de specifikationer som administratören anger.
 
-Du öppnar skärmen Bildförinställning i fältet Global navigering genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
+Du öppnar skärmen Bildförinställning i fältet Global navigering på **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
 Se [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
 
@@ -219,19 +219,19 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 * **[!UICONTROL Resample Mode]** - Välj ett alternativ för omsamplingsläge. Dessa alternativ gör bilden skarpare när den nedsamplas:
 
-* **[!UICONTROL B-Linear]** - den snabbaste omsamplingsmetoden, vissa aliaseringsartefakter är märkbara.
+* **[!UICONTROL B-Linear]** - Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är märkbara.
 
 * **[!UICONTROL Bi-Cubic]** - Ökar processoranvändningen på bildservern men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
 
 * **[!UICONTROL Sharp2]** - Kan ge något skarpare resultat än alternativet Bikubisk, men till ännu högre processorkostnad på bildservern.
 
-* **[!UICONTROL Tri-Linear]** - Använder både högre och lägre upplösningar, om sådana finns. rekommenderas bara när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
+* **[!UICONTROL Tri-Linear]** - Använder både högre och lägre upplösningar, om sådana finns. Rekommenderas bara när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
 
 * **[!UICONTROL Unsharp Masking]** - Välj följande alternativ för att finjustera skärpan:
 
 * **[!UICONTROL Amount]** - Styr mängden kontrast som används på kantpixlar. Standardvärdet är 1.0. För högupplösta bilder kan du öka den till upp till 5.0. Tänk på Mängd som ett mått på filterintensiteten.
 
-* **[!UICONTROL Radius]** - Anger antalet pixlar runt kantpixlarna som påverkar skärpan. För högupplösta bilder anger du 1 till 2. Med ett lågt värde ökas endast kantpixlarna skärpan. ett högt värde ökar skärpan i ett större antal pixlar. Vilket värde som är korrekt beror på bildens storlek.
+* **[!UICONTROL Radius]** - Anger antalet pixlar runt kantpixlarna som påverkar skärpan. För högupplösta bilder anger du 1 till 2. Med ett lågt värde ökas skärpan endast för kantpixlarna. Med ett högt värde ökas skärpan för ett bredare intervall av pixlar. Vilket värde som är korrekt beror på bildens storlek.
 
 * **[!UICONTROL Threshold]** - Anger det kontrastintervall som ska ignoreras när det oskarpa maskfiltret används. Med andra ord, det här alternativet avgör hur olika de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och blir skarpare. Experimentera med värden mellan 0,02 och 0,2 för att undvika brus. Standardvärdet 6 innebär att skärpan ökas för alla pixlar i bilden.
 
@@ -247,7 +247,7 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 * **[!UICONTROL Embed Profile]** - Välj det här alternativet så att den här profilen används om du öppnar bilden i Adobe® Photoshop®.
 
-* **[!UICONTROL Print Resolution]** - Välj en upplösning för utskrift av den här bilden; 72 pixlar är standard.
+* **[!UICONTROL Print Resolution]** - Välj en upplösning för utskrift av den här bilden. 72 pixlar är standard.
 
 * **[!UICONTROL URL Modifiers]** - Om du föredrar att ange URL-modifierare som definierar bildförinställningen, i stället för inställningarna, anger du modifieringarna här.
 
@@ -268,7 +268,7 @@ Adobe Dynamic Media Classic har förinställningar för adaptiv videokodning. De
 
 Endast kodningsförinställningar för adaptiv video aktiveras (aktiverat eller aktiverat) som standard. Du kan avaktivera den om du vill. Inaktiva förinställningar för adaptiv video visas inte som ett valbart alternativ i delen eVideo i dialogrutan Alternativ för överföringsjobb.
 
-Se [Överföra och koda videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
+Se [Överför och koda videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo.
 
@@ -286,13 +286,13 @@ Välj en kodningsförinställning i det nedre högra hörnet på sidan Överför
 >
 >Förutom &quot;Adaptiv video&quot;, som är aktiverat som standard, kan du inte se alla andra adaptiva video- eller enstaka videokodningsförinställningar i dialogrutan Alternativ för överföringsjobb. Adobe Dynamic Media Classic-administratörer avgör vilka förinställningar för videokodning som visas i dialogrutan Alternativ för överföringsjobb.
 
-* Välj bland följande adaptiva videokodningsförinställningar eller enskilda kodningsförinställningar:
+* Välj bland följande adaptiva videokodningsförinställningar eller enkodningsförinställningar:
 
    * **[!UICONTROL 16:9 Adaptive Video]** - Skapa videor med 16:9-proportioner för leverans till datorer, mobiler (iPhone, iPad, Android™) och surfplattor (iPad, Android™), optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
 
    * **[!UICONTROL 4:3 Adaptive Video]** - Skapa videor med 4:3-proportioner för leverans till datorer, mobiler (iPhone, iPad, Android™) och surfplattor (iPad, Android™), optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
 
-   * **[!UICONTROL Adaptive Video]** - En enda kodningsförinställning som fungerar med alla proportioner för att skapa videor som ska skickas till mobilen, surfplattan och datorn. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner bevaras.
+   * **[!UICONTROL Adaptive Video]** - En förinställning för enskild kodning som fungerar med alla proportioner för att skapa videor som ska skickas till mobilen, surfplattan och datorn. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner bevaras.
 
      Den här flexibiliteten med automatisk skalförändring är också tillgänglig som standard när du skapar en egen förinställning för videokodning.
 
@@ -324,9 +324,9 @@ Parametrarna för de förinställda alternativen för kodning är följande:
 
 * **[!UICONTROL Video bit rate (data rate)]** - Den datamängd som kodas för att skapa en enda sekund av videouppspelning (i kB per sekund).
 
-* **[!UICONTROL Pixel Width/Height]** - Skärmbildens bredddimension i pixlar. skärmbildens höjddimension (i pixlar).
+* **[!UICONTROL Pixel Width/Height]** - Skärmbildens bredddimension i pixlar; skärmbildens höjddimension (i pixlar).
 
-* **[!UICONTROL Frame per second (fps)]** - antalet bildrutor, eller stillbilder, för varje sekund i videon. I USA och Japan spelas de flesta videoklipp in med 29,97 fps. i Europa och Asien (utom Japan) spelas de flesta videoklipp in med 25 bildrutor per sekund. Film filmas med 24 fps.
+* **[!UICONTROL Frame per second (fps)]** - antalet bildrutor, eller stillbilder, för varje sekund i videon. I USA och Japan spelas de flesta videoklipp in med 29,97 fps. I Europa och Asien (utom Japan) spelas de flesta videoklipp in med 25 fps. Film filmas med 24 fps.
 
 * **[!UICONTROL Audio bit rate]** - Den datamängd som kodas för att skapa en enda sekund av ljuduppspelning, i kilobit per sekund.
 
@@ -354,14 +354,14 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativ fö
 
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
-| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android™), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
-| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android™), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
-| 5 | `16:9, 640x360, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelhög upplösning, WiFi |
-| 6 | `4:3, 640x480, Tablet (iPad, Android™), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Samma som källan | 80 | Medelhög upplösning, WiFi |
-| 7 | `16:9, 768x432, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x432_1200K | 1200 | 768x432 | Samma som källan | 96 | Hög upplösning, WiFi |
-| 8 | `4:3, 768x576, Tablet (iPad, Android™), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x576_1200K | 1200 | 768x576 | Samma som källan | 96 | Hög upplösning, WiFi |
+| 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
+| 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
+| 3 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_512x288_600K | 600 | 512x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 4 | `4:3, 384x288, Mobile (iPhone, iPad, Android&trade;), (600 Kbps)` | 700 | _Mobile_384x288_600 | 600 | 384x288 | Samma som källan | 64 | Medelhög upplösning, 3G |
+| 5 | `16:9, 640x360, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medelhög upplösning, WiFi |
+| 6 | `4:3, 640x480, Tablet (iPad, Android&trade;), (800 Kbps)` | 900 | _iPad_640x480_800K | 800 | 640x480 | Samma som källan | 80 | Medelhög upplösning, WiFi |
+| 7 | `16:9, 768x432, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x432_1200K | 1200 | 768x432 | Samma som källan | 96 | Hög upplösning, WiFi |
+| 8 | `4:3, 768x576, Tablet (iPad, Android&trade;), (1200 Kbps)` | 1,5 Mbit/s | _iPad_768x576_1200K | 1200 | 768x576 | Samma som källan | 96 | Hög upplösning, WiFi |
 | 9 | `16:9, 1280x720, Desktop, (2000 Kbps)` | 3,0 Mbit/s | _1280x720_2000K | 2000 | 1280x720 | Samma som källan | 128 | HD, widescreen |
 | 10 | `4:3, 1280x960, Desktop, (2000 Kbps)` | 3,0 Mbit/s | _1280x960_2000K | 2000 kbit/s | 1280x960 | Samma som källan | 128 | HD |
 
@@ -422,7 +422,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 
 >[!NOTE]
 >
->**Flash-visningsprogram - meddelande om att livscykeln upphör** - Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogrammet för Flash.
+>**Flash Viewers End-of-Life Notice** - Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogrammet för Flashar.
 
 A *Visningsförinställning* är en samling inställningar som bestämmer hur användare visar mediefiler på datorskärmar och mobila enheter. Som administratör kan du skapa visningsförinställningar. Inställningarna är tillgängliga för en array med visningskonfigurationsalternativ. Du kan till exempel ändra visningsprogrammets visningsstorlek, zoombeteende, färgscheman, kanter och teckensnitt.
 
@@ -440,7 +440,7 @@ Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-me
 
 Se [Kompatibilitetsmatris för Adobe Dynamic Media Classic Viewer-förinställning](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
-Se [Bästa praxis: Använda videovisningsprogrammet för HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
+Se [Bästa tillvägagångssätt: Använda videovisningsprogrammet för HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
 Beroende på visningsprogrammet kan du lägga till communityfunktioner. Community-funktionerna är bland annat knappen Bädda in, knappen E-post, knappen Länk och knappen Besök webbplats. Med de här knapparna kan personer som använder visningsprogrammen dela visningsprogrammet med andra eller öppna Adobe Dynamic Media Classic webbplats.
 
@@ -460,7 +460,7 @@ Administratörer kan skapa och anpassa följande typer av visningsförinställni
 
 * **[!UICONTROL Swatch Set Viewer]** - Visar en bild i en annan färg, material, struktur, finish eller struktur. Användarna väljer en miniatyrbild för att se variationerna i bilden.
 
-* **[!UICONTROL Mixed Media Set Viewer]** - Visar olika typer av media i ett och samma visningsprogram. Du kan inkludera färgruteuppsättningar, snurruppsättningar, bilder och videoklipp. Du kan ställa in flikar så att de innehåller olika typer av innehåll, till exempel en flik för bilduppsättningar och en flik för videoklipp. Videofilmer som spelas upp från en blandad medieuppsättning använder ett standardvisningsprogram för video med en tidslinje och videokontroller, till exempel Stop, Pause, Rewind och Play. När du ställer in en förinställning för visningsprogrammet för blandad medieuppsättning anger du vilka visningsprogram du vill använda för de olika resurstyperna i din uppsättning med blandade media. Du kan också använda stödrastervisningsprogrammet eller Carousel Viewer för att visa en blandad medieuppsättning.
+* **[!UICONTROL Mixed Media Set Viewer]** - Visar olika typer av media i ett visningsprogram. Du kan inkludera färgruteuppsättningar, snurruppsättningar, bilder och videoklipp. Du kan ställa in flikar så att de innehåller olika typer av innehåll, till exempel en flik för bilduppsättningar och en flik för videoklipp. Videofilmer som spelas upp från en blandad medieuppsättning använder ett standardvisningsprogram för video med en tidslinje och videokontroller, till exempel Stop, Pause, Rewind och Play. När du ställer in en förinställning för visningsprogrammet för blandad medieuppsättning anger du vilka visningsprogram du vill använda för de olika resurstyperna i din uppsättning med blandade media. Du kan också använda stödrastervisningsprogrammet eller Carousel Viewer för att visa en blandad medieuppsättning.
 
 * **[!UICONTROL Spin Set Viewer]** - Ger flera vyer av en bild så att användare kan vrida objektet för att undersöka olika sidor och vinklar.
 
@@ -472,13 +472,13 @@ Administratörer kan skapa och anpassa följande typer av visningsförinställni
 
 * **[!UICONTROL Zoom Viewer: Fly-out]** - Visar en andra bild av det zoomade området bredvid originalbilden. Det finns inga kontroller att använda. Användarna flyttar bara markeringen över det område som de vill visa.
 
-När du fastställer den fullständiga bandbreddsanvändningen för det här visningsprogrammet bör du tänka på att både huvudbilden och den utfällbara bilden visas i visningsprogrammet. Huvudbildens storlek (scenens bredd och höjd) och zoomfaktorn bestämmer den utfällbara bildens storlek. Om du vill förhindra att den utfällbara filstorleken blir för stor ska du balansera dessa två värden: om du har en stor huvudbildstorlek, sänker du zoomfaktorn. (Utfällbar bredd och Utfällbar höjd bestämmer storleken på det utfällbara fönstret, men inte storleken på den utfällbara bild som visas i visningsprogrammet.)
+När du fastställer den fullständiga bandbreddsanvändningen för det här visningsprogrammet bör du tänka på att både huvudbilden och den utfällbara bilden visas i visningsprogrammet. Huvudbildens storlek (scenens bredd och höjd) och zoomfaktorn bestämmer den utfällbara bildens storlek. Om du vill förhindra att den utfällbara filstorleken blir för stor ska du balansera dessa två värden: om du har en stor huvudbildstorlek ska du sänka värdet för zoomfaktor. (Utfällbar bredd och Utfällbar höjd bestämmer storleken på det utfällbara fönstret, men inte storleken på den utfällbara bild som visas i visningsprogrammet.)
 
 Om huvudbildens storlek till exempel är 350 x 350 pixlar, med zoomfaktorn 3, blir den utfällbara bilden 1 050 x 1 050 pixlar. Om huvudbildstorleken är 300 x 300 pixlar, med zoomfaktorn 4, är den utfällbara bilden 1 200 x 1 200 pixlar. Beroende på kvalitetsinställningen för JPEG (rekommenderade inställningar är mellan 80 och 90) kan du minska filstorleken avsevärt. Rekommenderade zoomningsfaktorer är 2,5 till 4, beroende på storleken på huvudbilden.
 
 ### Kompatibilitetsmatris för Adobe Dynamic Media Classic Viewer-förinställning {#scene-viewer-preset-compatibility-matrix}
 
-**Flash-visningsprogram - meddelande om att livscykeln upphör**: Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogramplattformen Flash.
+**Flash Viewers End-of-Life Notice**: Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogrammet för Flashar.
 
 Följande tabell visar vilka förinställningar för Adobe Dynamic Media Classic Viewer som är tillgängliga. Tabellen anger också visningsprogrammets kompatibilitet med datorer och mobila enheter samt vilken teknik som används för varje visningsprogram.
 
@@ -506,7 +506,7 @@ Se [Versionsinformation om Adobe-visningsprogrammet](https://experienceleague.ad
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet PC |
 |--- |--- |--- |--- |--- |--- |--- |
-| Visningsprogram för färgruteuppsättning |  |  |  |  |  |  |
+| Visningsprogram för färgrutor |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
@@ -528,11 +528,11 @@ Se [Versionsinformation om Adobe-visningsprogrammet](https://experienceleague.ad
 Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video.
 
 * Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande: [Videoformat som stöds på BlackBerry®](https://developers.blackberry.com/us/en)
-* Du kan även hitta Windows®-enheter som stöder det här videoformatet på följande: [Videoformat som stöds på Windows® Phone](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
+* Du kan även hitta Windows®-enheter som stöder det här videoformatet på följande: [Videoformat som stöds på Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet PC | BlackBerry® Smartphone | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video(Innehåller stöd för undertextning.) Se [Bästa praxis: Använda videovisningsprogrammet Universal HTML5.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(Innehåller stöd för undertextning.) Se [Bästa tillvägagångssätt: Använda videovisningsprogrammet Universal HTML5.](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(Innehåller stöd för undertexter och sociala medier.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet PC |
@@ -579,7 +579,7 @@ Skärmen Förinställningar för visningsprogram innehåller verktyg för följa
   
 * **Sortera förinställningar** - Välj en kolumnrubrik (**[!UICONTROL Active]**, **[!UICONTROL Type]**, **[!UICONTROL Preset]**, eller **[!UICONTROL Platform]**) för att sortera listan i en kolumn. Välj en kolumnrubrik en andra gång om du vill sortera listan i fallande (eller stigande) ordning.
 
-* **Aktivera och inaktivera förinställningar** - Välj en förinställning och markera sedan dess aktiva alternativ för att aktivera eller inaktivera den.
+* **Aktivera och inaktivera förinställningar** - Välj en förinställning och markera sedan dess aktiva alternativ så att du kan aktivera eller inaktivera den.
 
       Se [Aktivera eller inaktivera visningsprogramförinställningar](application-setup.md#activating_or_deactivating_viewer_presets).
   
@@ -618,7 +618,7 @@ Se även [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7vie
 
    >[!NOTE]
    >
-   >Välj **[!UICONTROL Same As Source]** om du automatiskt vill ändra storlek på Video Viewer till upplösningsstorleken för den kodade videon. Om du väljer det här alternativet kan du inte ange scenens bredd och höjd. I stället kommer dessa alternativ från själva videon. Om du väljer **[!UICONTROL Same As Source]**, ställer du in alternativet Marginalstorlek för att återspegla skalets dimensioner utanför videouppspelningsområdet. Marginalstorleken är pixelhöjden och bredden på videokontrollerna. Du kan använda följande bild för att avgöra vilka marginalstorlekar du vill använda.*
+   >Välj **[!UICONTROL Same As Source]** om du automatiskt vill ändra storlek på Video Viewer till upplösningsstorleken för den kodade videon. Om du väljer det här alternativet kan du inte ange scenens bredd och höjd. I stället kommer dessa alternativ från själva videon. Om du väljer **[!UICONTROL Same As Source]**, ställer du in alternativet Marginalstorlek så att det speglar skalets dimensioner utanför videouppspelningsområdet. Marginalstorleken är pixelhöjden och bredden på videokontrollerna. Du kan använda följande bild för att avgöra vilka marginalstorlekar du vill använda.*
 
    ![Marginalkonfiguration för videovisningsprogram](assets/vs_video_viewer_configure_margin.png)
 
@@ -655,7 +655,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 1. Välj **[!UICONTROL Export]**.
 1. I dialogrutan Exportera markerade resurser väljer du **[!UICONTROL Submit Export]**.
 
-   Efter exporten får du en CSS-fil. Ladda ned och zippa upp filen.
+   Efter exporten får du en CSS-fil. Hämta och zippa upp filen.
 
 1. Öppna CSS-filen i en CSS-redigerare, gör ändringarna och spara sedan filen.
 1. Överför CSS-filen till Adobe Dynamic Media Classic.
@@ -679,7 +679,7 @@ Om du inte inaktiverar visningsförinställningar på skärmen Förinställninga
 **Så här aktiverar eller inaktiverar du visningsförinställningar:**
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
-1. Markera eller avmarkera på sidan Förinställningar för visningsprogram **[!UICONTROL Active]** för att aktivera eller inaktivera visningsförinställningar.
+1. Markera eller avmarkera på sidan Förinställningar för visningsprogram **[!UICONTROL Active]** alternativ för att aktivera eller inaktivera visningsförinställningar.
 
 ### Kopiera URL:en för en visningsförinställning {#copying-the-url-of-a-viewer-preset}
 
@@ -716,7 +716,7 @@ Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 1. Markera resursen på resurspanelen.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. På panelen URL:er till höger väljer du **[!UICONTROL Embed Code]**.
+   * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Välj på panelen URL:er till höger **[!UICONTROL Embed Code]**.
    * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resurssökning och gå sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
@@ -729,7 +729,7 @@ Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
-1. I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
+1. Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
 1. Välj **[!UICONTROL Close]**.
 
 ## Konfigurera standardvisningsprogram {#configuring-default-viewers}
@@ -746,18 +746,18 @@ Du kan använda standardvisningsprogram för att konfigurera standardvisningspro
 
 **Så här konfigurerar du standardvisningsprogram:**
 
-1. Välj **[!UICONTROL Application Setup]**.
-1. Gå till **[!UICONTROL Application Setup]** > **[!UICONTROL Viewers]**
+1. I listrutan Inställningar väljer du **[!UICONTROL Application Setup]**.
+1. I fönstret Setup (Konfigurera) i den vänstra rutan går du till **[!UICONTROL Application Setup]** > **[!UICONTROL Viewers]**
 1. Välj **[!UICONTROL Default Viewers]**.
 1. Välj det visningsprogram som du vill associera med resursens förhandsgranskning i listrutan för varje resurstyp i fönstret Standardvisningsprogram.
 1. I det nedre högra hörnet av fönstret Standardvisningsprogram väljer du **[!UICONTROL Save Settings]**.
-1. Välj **[!UICONTROL Close]** för att återgå till fönstret Resurser.
+1. I det nedre högra hörnet av installationsfönstret väljer du **[!UICONTROL Close]** för att återgå till fönstret Resurser.
 
 ## Metadatavyer {#metadata-views}
 
 *Metadata* är standardiserad information om en tillgång. Du kan använda metadata för att effektivisera arbetsflödet, ordna dina resurser och förbättra sökningen. Adobe Dynamic Media Classic stöder standarderna IPTC (International Press Telecommunications Council) och XMP (extensible metadata platform). Innan användarna visar eller anger metadata om en resurs i detaljvyn kan de öppna menyn Metadatavyer. Därifrån kan de välja den uppsättning metadatafält som de vill visa eller använda för att beskriva resursen.
 
-Adobe Dynamic Media Classic innehåller fördefinierade metadatavyer och administratörer kan skapa egna metadatavyer som användarna kan välja när de anger metadata.
+Adobe Dynamic Media Classic levereras med fördefinierade metadatavyer, och administratörer kan skapa egna metadatavyer som användarna kan välja när de anger metadata.
 
 ### Skapa en metadatavy {#creating-a-metadata-view}
 
@@ -765,11 +765,11 @@ Adobe Dynamic Media Classic innehåller fördefinierade metadatavyer och adminis
 1. Välj **[!UICONTROL Add]**.
 1. Ange ett namn för vyn i textfältet Förinställningsnamn.
 1. (Valfritt) Kontrollera **[!UICONTROL Make Default]** om du vill göra den här vyn till den som användarna ser när de öppnar panelen Metadata i detaljvyn.
-1. (Valfritt) Välj **[!UICONTROL Include UDF]** om du vill inkludera användardefinierade fält i vyn. Användardefinierade fält visas högst upp på panelen Metadata i detaljvyn.
+1. (Valfritt) Välj **[!UICONTROL Include UDF]** om du vill ta med användardefinierade fält i vyn. Användardefinierade fält visas högst upp på panelen Metadata i detaljvyn.
 1. Markera de fält som du vill visa (välj **[!UICONTROL Select All]** för att markera alla fält).
 1. Välj **[!UICONTROL Save]**.
 
-   De markerade kategorierna och fälten för vyn visas på panelen Förhandsgranska.
+   De markerade kategorierna och fälten för vyn visas på förhandsvisningspanelen.
 
 ### Hantera metadatavyer {#managing-metadata-views}
 
@@ -840,7 +840,7 @@ Ett effektivt sätt att använda användardefinierade metadatafält är att för
 
    * **[!UICONTROL Yes/No]** - Ett ja/nej-booleskt värde.
 
-   * **[!UICONTROL Date]** - ett datum. Formatet MM/DD/ÅÅÅÅ accepteras.
+   * **[!UICONTROL Date]** - Ett datum. Formatet MM/DD/ÅÅÅÅ accepteras.
 
    * **[!UICONTROL Filename]** - Namnet på en fil.
 
@@ -872,7 +872,7 @@ Om du vill öppna den här skärmen går du till **[!UICONTROL Setup]** > **[!UI
 
 * **Ta bort ett fält** - Markera fältet och välj **[!UICONTROL Delete]**.
 
-* **Aktivera fält** - Markera eller avmarkera **[!UICONTROL Active]** bredvid namnet på ett fält. Om du har en företagsadministrationsroll visas inte det här alternativet. Eftersom det här alternativet är relaterat till MediaPortal måste du markera (aktivera) Visa MediaPortal-funktioner i Personliga inställningar för att se aktiveringsfälten.
+* **Aktivera fält** - Markera eller avmarkera **[!UICONTROL Active]** bredvid namnet på ett fält. Om du har en företagsadministrationsroll visas inte det här alternativet. Eftersom det här alternativet är relaterat till MediaPortal måste du markera (aktivera) Visa MediaPortal-funktioner i Personliga inställningar för att se de aktiverade fälten.
 
 ## Optimera filer {#optimize-files}
 
@@ -897,7 +897,7 @@ Alla aktiva gruppuppsättningsförinställningar för ett företag visas i dialo
 
 Företagsadministratören skapar en standardnamnkonvention som används i alla förinställda gruppuppsättningar. Den standardnamnkonvention som valts i förinställningsdefinitionen för gruppuppsättning kan vara allt som ditt företag behöver för att gruppgenerera uppsättningar för alla webbplatser. En gruppuppsättningsförinställning skapas för att använda den standardnamnkonvention som du definierar. Du kan skapa så många gruppuppsättningsförinställningar med alternativa, anpassade namnkonventioner som behövs för en viss uppsättning innehåll om det finns ett undantag från den företagsdefinierade standardnamngivningen.
 
-Du behöver inte konfigurera en standardnamnkonvention för att kunna använda funktionen för gruppuppsättningsförinställningar. Du bör emellertid använda en standardnamnkonvention för att definiera så många element i namnkonventionen som du vill gruppera i en uppsättning enligt Adobe. Det underlättar när du skapar gruppuppsättningar.
+Du behöver inte konfigurera en standardnamnkonvention för att kunna använda funktionen för gruppuppsättningsförinställningar. Du bör emellertid använda en standardnamnkonvention för att definiera så många element i namnkonventionen som du vill gruppera i en uppsättning som är standard i Adobe. Det underlättar när du skapar gruppuppsättningar.
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Default Naming]**.
 1. Välj **[!UICONTROL View Form]** eller **[!UICONTROL View Code]** för att ange hur du vill visa och ange information om varje element.
@@ -920,7 +920,7 @@ Det finns två element för definition, Matcha och Basnamn. Med dessa fält kan 
 
 Adobe Dynamic Media Classic använder förinställningar för gruppuppsättningar för att ordna resurser som delar viss gemensam information eller innehåll i uppsättningar med bilder som ska visas i visningsprogram. Förinställda gruppuppsättningar körs automatiskt tillsammans med de resursimporteringsjobb som du schemalägger i Adobe Dynamic Media Classic.
 
-Använd Förinställning för gruppuppsättning för att skapa, redigera och hantera dina gruppuppsättningsförinställningar. Du kan skapa så många förinställningar som behövs för att täcka alla tillgångsimportjobb som du behöver. Det finns två former av förinställda gruppuppsättningsdefinitioner: en för en standardnamnkonvention som du har konfigurerat och en för anpassade namnkonventioner som du skapar direkt.
+Använd Förinställning för gruppuppsättning för att skapa, redigera och hantera dina gruppuppsättningsförinställningar. Du kan skapa så många förinställningar som behövs för att täcka alla tillgångsimportjobb som du behöver. Det finns två typer av förinställda definitioner för gruppuppsättningar: en för en standardnamnkonvention som du har konfigurerat och en för anpassade namnkonventioner som du skapar direkt.
 
 Du kan antingen använda formulärfältsmetoden för att definiera en gruppuppsättningsförinställning eller kodmetoden, som gör att du kan använda reguljära uttryck. Som i **[!UICONTROL Default Naming]** kan du välja **[!UICONTROL Code View]** samtidigt som du definierar i formulärvyn och använder reguljära uttryck för att skapa definitioner. Du kan också avmarkera en vy om du vill använda den ena eller den andra enbart.
 
@@ -943,11 +943,11 @@ Se även [2D-snurruppsättningar](https://s7d5.scene7.com/s7viewers/html5/VideoV
    * Om du vill definiera en namnkonvention när du ställer in förinställningen expanderar du **[!UICONTROL Asset Naming Conventions]** och sedan i listrutan Namnge filer väljer du **[!UICONTROL Custom]**.
 
 1. I Sekvensordning definierar du ordningen för bilderna när uppsättningen har grupperats i Adobe Dynamic Media Classic. Som standard sorteras dina resurser alfanumeriskt. Du kan dock använda en kommaavgränsad lista med reguljära uttryck för att definiera ordningen.
-1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Definiera också var bilduppsättningen ska skapas i mappstrukturen för Adobe Dynamic Media Classic.
+1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande av konvention. Definiera också var bilduppsättningen ska skapas i mappstrukturen för Adobe Dynamic Media Classic.
 
    Om du definierar ett stort antal bilduppsättningar ska du hålla uppsättningarna åtskilda från de mappar som innehåller själva resurserna. Många kunder skapar en mapp för bilduppsättningar och dirigerar om programmet för att placera gruppuppsättningar som genererats här.
 
-1. Välj **[!UICONTROL Save]** på panelen Detaljer.
+1. Välj **[!UICONTROL Save]** på detaljpanelen.
 
 ### Skapa en gruppuppsättningsförinställning för automatisk generering av en 2D-snurpuppsättning {#creating-a-batch-set-preset-for-the-auto-generation-of-a-d-spin-set}
 
@@ -983,7 +983,7 @@ När snurruppsättningen överförs och publiceras aktiverar du namnet på det t
 1. På panelen Förinställningslista väljer du **[!UICONTROL Add]** om du vill aktivera definitionsfälten på panelen Detaljer till höger på sidan.
 1. Skriv ett namn på förinställningen i fältet Förinställningsnamn på panelen Detaljer.
 1. Välj **[!UICONTROL Asset Set]**.
-1. I listrutan Undertyp väljer du **[!UICONTROL Multi-Axis Spin Set]**.
+1. Välj i listrutan Undertyp **[!UICONTROL Multi-Axis Spin Set]**.
 1. Expandera **[!UICONTROL Asset Naming Conventions]** och sedan i listrutan Namnge filer väljer du **[!UICONTROL Custom]**.
 1. Använd **[!UICONTROL Match]** och, om så önskas, **[!UICONTROL Base Name]** attribut för att definiera ett reguljärt uttryck för namngivning av bildresurser som utgör grupperingen.
 
@@ -995,7 +995,7 @@ När snurruppsättningen överförs och publiceras aktiverar du namnet på det t
 
    Använd parentesen för att omsluta rad- eller kolumnpositionen i filnamnet.
 
-   För en rad med ett reguljärt uttryck kan det se ut så här:
+   För radens reguljära uttryck kan det till exempel se ut så här:
 
    `\w+-R([0-9]+)-\w+`
 
@@ -1017,11 +1017,11 @@ När snurruppsättningen överförs och publiceras aktiverar du namnet på det t
    >
    >Om kombinationen av reguljära uttryck i rader och kolumner inte kan avgöra resursens position i den flerdimensionella rotationsmängdsarrayen, läggs resursen inte till i uppsättningen och ett fel loggas.
 
-1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande. Definiera också var bilduppsättningen ska skapas i mappstrukturen för Adobe Dynamic Media Classic.
+1. Ange suffixet eller prefixet till basnamnet som du definierade i konventionen om namngivning av tillgångar för Ange namngivning och skapande av konvention. Definiera också var bilduppsättningen ska skapas i mappstrukturen för Adobe Dynamic Media Classic.
 
    Om du definierar ett stort antal bilduppsättningar ska du hålla uppsättningarna åtskilda från de mappar som innehåller själva resurserna. Många kunder skapar en mapp för bilduppsättningar och dirigerar om programmet för att placera gruppuppsättningar som genererats här.
 
-1. Välj **[!UICONTROL Save]** på panelen Detaljer.
+1. Välj **[!UICONTROL Save]** på detaljpanelen.
 1. Ladda upp och publicera din snurruppsättning som vanligt och se till att du aktiverar namnet på din 2D-snurruppsättning i dialogrutan Alternativ för jobbinläsning under Gruppera förinställningar.
 
 >[!MORELIKETHIS]

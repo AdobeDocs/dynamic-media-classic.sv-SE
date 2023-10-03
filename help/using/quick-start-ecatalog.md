@@ -1,43 +1,41 @@
 ---
 title: "Snabbstart: eCatalogs"
 description: En introduktion och en snabbstart till e-kataloger som hjälper dig att komma igång snabbt med eCatalog-tekniken i Adobe Dynamic Media Classic.
-uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
 
-# Snabbstart: eCatalogs{#quick-start-ecatalogs}
+# Snabbstart: e-kataloger{#quick-start-ecatalogs}
 
 En e-katalog är en digital webbversion av trycksaker, till exempel en katalog, broschyr, flygblad, produkthandbok eller reklamcirkel. En e-katalog visas i ett eCatalog-visningsprogram på en webbplats. Det här visningsprogrammet simulerar upplevelsen av att läsa tryckt material.
 
 Se även följande utbildningsvideor:
 
-* [Snabbstart 1: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
-* [Snabbstart 2: eCatalogs](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+* [Snabbstart 1: e-kataloger](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [Snabbstart 2: e-kataloger](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
 Beroende på vilka inställningar du väljer för din eCatalog kan du göra följande med visningsprogrammet:
 
 * Sök i katalogen efter nyckelord eller nyckelord. Sökresultaten visas som en lista med miniatyrbilder i en sökpanel till vänster i katalogen. Varje klickbar miniatyrbild representerar ett kataloguppslag där den markerade söktermen hittades.
 
-* Dela katalogen via sociala medier, ladda ned katalogen för att visa den offline, aktivera Favoriter för att markera objekt som du snabbt vill återgå till eller skriva ut katalogen.
-* Navigera i katalogen med hjälp av innehållsförteckningen eller sidstödrastervyn. sida framåt eller bakåt genom att klicka på en sidas mittersta kant.
+* Dela katalogen via sociala medier, ladda ned katalogen för att visa den offline, aktivera Favoriter för att markera objekt som du snabbt vill återvända till eller skriv ut katalogen.
+* Navigera i katalogen med hjälp av innehållsförteckningen eller sidstödrastervyn. Gå framåt eller bakåt genom att klicka på en sidas mittersta kant.
 * Zooma in, zooma ut och panorera för att undersöka objekt på en sida.
 * Flytta pekaren över ett sidområde (kallas bildschema) så att du kan se ett popup-fönster med information om ett objekt.
 * Markera ett sidområde så att en ny webbsida med mer information om ett objekt öppnas.
-* Skriv en anteckning och bifoga den till en eCatalog-sida.
+* Skriv en anteckning och bifoga den till en e-katalogsida.
 * Tryck på ikoner för bildschema om du vill starta relaterade webbsidor eller infopaneler i sitt sammanhang.
 * Använd gester, till exempel nypa för att zooma och svepa för att vända sidor.
 * Sök efter objekt med nyckelord.
@@ -62,11 +60,11 @@ Den här eCatalog-snabbstarten är utformad för att hjälpa dig komma igång sn
 
 ## 1. Överför PDF-filer
 
-Adobe PDF-filer är vanligtvis källan till en e-katalog. Eftersom de ska skrivas ut innehåller PDF vanligtvis CMYK-bilder. Adobe Dynamic Media Classic identifierar dessa bilder och konverterar dem med en CMYK-standardfärgprofil. Du måste dock överföra och använda en anpassad färgprofil.
+Adobe PDF-filer är vanligtvis en e-katalogkälla. Eftersom de ska skrivas ut innehåller PDF vanligtvis CMYK-bilder. Adobe Dynamic Media Classic identifierar dessa bilder och konverterar dem med en CMYK-standardfärgprofil. Du måste dock överföra och använda en anpassad färgprofil.
 
-Välj **[!UICONTROL Upload]** om du vill börja överföra PDF-filer eller bilder till din eCatalog. Du kan överföra filer från skrivbordet eller via FTP; FTP rekommenderas om du överför många filer eller filer som är större än 100 MB.
+I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill börja överföra PDF-filer eller bilder till din eCatalog. Du kan överföra filer från skrivbordet eller via FTP. FTP rekommenderas om du överför många filer eller filer som är större än 100 MB.
 
-Under Alternativ för PDF finns på skärmen Överför alternativ som du kan använda för att överföra PDF-filer med rätt upplösning och korrekt färgrymd. En upplösning på 150 pixlar per tum rekommenderas. Du kan välja alternativet Generera eCatalog automatiskt om du vill skapa en e-katalog när du överför en PDF-fil.
+Under Alternativ för PDF finns det alternativ på överföringsskärmen som du kan använda för att överföra PDF-filer med rätt upplösning och korrekt färgrymd. En upplösning på 150 pixlar per tum rekommenderas. Du kan välja alternativet Generera eCatalog automatiskt om du vill skapa en e-katalog när du överför en PDF-fil.
 
 Se [Överför PDF-filer](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -78,7 +76,7 @@ På eCatalog-sidan, på **[!UICONTROL Order Pages]** väljer du ett layoutaltern
 
 Om du vill lägga till sidor markerar du en mapp i resursbiblioteket och drar PDF eller bildfiler från till skärmen Ordna sidor. I stället för standardsidnummer kan du ange egna sidnamn eller importera många sidnamn.
 
-Välj **[!UICONTROL Save]**, ange ett namn för din eCatalog, välja en Adobe Dynamic Media Classic-mapp att lagra den i och markera **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att klicka på **[!UICONTROL Save]**.
+Välj **[!UICONTROL Save]**, ange ett namn för din eCatalog, välja en Adobe Dynamic Media Classic-mapp att lagra den i och markera **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att klicka **[!UICONTROL Save]**.
 
 Se [Skapa en e-katalog](creating-ecatalog.md).
 
@@ -116,9 +114,9 @@ Lägg märke till orientering, färgschema, hur kontrollerna för att ändra sid
 
 Se [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
-## 6. Publicera eCatalog och tillhörande PDF
+## 6. Publicera e-katalog och tillhörande PDF
 
-När du publicerar din e-katalog och tillhörande PDF placeras den på Dynamic Media Image-servrar så att den kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen för din eCatalog. Använd den här URL:en för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
+När du publicerar din e-katalog och tillhörande PDF placeras den på Dynamic Media Image-servrar så att den kan levereras till din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen för din eCatalog. Använd denna URL för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
 
 När du har markerat din e-katalog och PDF för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att starta en publicering. På skärmen Publicera väljer du **[!UICONTROL Submit Publish]**.
 

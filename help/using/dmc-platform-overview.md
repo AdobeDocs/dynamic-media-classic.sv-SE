@@ -12,7 +12,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%
@@ -35,7 +35,7 @@ De viktigaste stegen i Adobe Dynamic Media Classic arbetsflöde är:
 
 * **Publicera och administrera** - Publicera material i Adobe Dynamic Media Classic SaaS-nätverket. Övervaka status för resurser när de publiceras. Administrera användarrättigheter och bevara säkerheten.
 
-* **Serva** - Leverera media från Adobe Dynamic Media Classic SaaS-nätverk till webbsidor, tillämpningar och mobila enheter. mediet är prestandaoptimerat och levereras med CDN-cachning. Adobe Dynamic Media Classic tillhandahåller en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
+* **Serva** - Leverera media från Adobe Dynamic Media Classic SaaS-nätverk till webbsidor, applikationer och mobila enheter. Medierna är prestandaoptimerade och levereras med CDN-cachning. Adobe Dynamic Media Classic tillhandahåller en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
 
 ![Adobe Dynamic Media Classic arbetsflöde](/help/using/assets/gs_workflow.png)
 
@@ -50,4 +50,4 @@ De URL-strängar du skapar med Adobe Dynamic Media Classic innehåller instrukti
 
 ## Cachelagring av innehåll {#content-caching}
 
-De bilder som Adobe Dynamic Media Classic skapar dynamiskt är cachelagrade. oftast är de bilder i JPEG med unika URL-anrop som identifierar dem. Bilderna levereras i leveransnätverket (CDN), ett system med servrar som är sammankopplade på Internet för att leverera innehåll snabbare. Bilderna distribueras från servrar som finns globalt och sedan till datorer. När du implementerar en cachningsmekanism med en CDN-leverantör ändrar du bara servernamnet så att det pekar på den CDN-aktiverade Dynamic Media Image Server. Alla Adobe Dynamic Media Classic-utgåvor innehåller CDN-cache.
+De bilder som Adobe Dynamic Media Classic genererar dynamiskt är cachelagrade, vanligen JPEG-bilder med unika URL-anrop som identifierar dem. Bilderna levereras i leveransnätverket (CDN), ett system med servrar som är sammankopplade på Internet för att leverera innehåll snabbare. Bilderna distribueras från servrar som finns globalt och sedan till datorer. När du implementerar en cachningsmekanism med en CDN-leverantör ändrar du bara servernamnet så att det pekar på den CDN-aktiverade Dynamic Media Image Server. Alla Adobe Dynamic Media Classic-utgåvor innehåller CDN-cache.

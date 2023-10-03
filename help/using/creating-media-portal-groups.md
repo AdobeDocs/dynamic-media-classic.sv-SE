@@ -12,7 +12,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 ## Använd grupper för att begränsa åtkomst till mappar, resurser och bildförinställningar {#using-groups-to-restrict-access-to-folders-assets-and-image-presets}
 
-Om du vill ge åtkomstbehörighet på olika nivåer skapar du grupper. För varje grupp tilldelar du läs-, skriv- och borttagningsbehörigheter till olika mappar och resurser i mappar. Du bestämmer också vilka bildförinställningar som är tillgängliga för gruppen. Sedan tilldelar du användare till grupper. En användare kan vara medlem i mer än en grupp. Gruppkonceptet ger dig flexibilitet att tilldela åtkomst till begränsade uppsättningar av det totala innehållet.
+Om du vill ge åtkomstbehörighet på olika nivåer skapar du grupper. För varje grupp tilldelar du läs-, skriv- och borttagningsbehörigheter till olika mappar och resurser i mappar. Du bestämmer också vilka bildförinställningar som är tillgängliga för gruppen. Sedan tilldelar du användare till grupper. En användare kan vara medlem i flera grupper. Gruppkonceptet ger dig flexibilitet att tilldela åtkomst till begränsade uppsättningar av det totala innehållet.
 
 Om du inte ger en gruppbehörighet till en resurs eller mapp ärver resursen eller mappen de behörigheter som du tilldelade den överordnade mappen (mappen ovanför den i mapphierarkin). Bevilja behörigheter till en överordnad mapp om du vill se till att alla dess underordnade mappar ärver samma behörigheter.
 
 >[!NOTE]
 >
->Användare kan tillhöra mer än en grupp. När en användare tillhör två grupper med olika åtkomstbehörigheter till en mapp får användaren den högsta åtkomstnivån.
+>Användare kan tillhöra flera grupper. När en användare tillhör två grupper med olika åtkomstbehörigheter till en mapp får användaren den högsta åtkomstnivån.
 
 ## Lägg till en grupp {#adding-a-group}
 
