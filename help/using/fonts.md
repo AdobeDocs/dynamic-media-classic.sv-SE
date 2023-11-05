@@ -1,6 +1,6 @@
 ---
-title: Teckensnitt
-description: Lär dig hur du använder teckensnitt i Adobe Dynamic Media Classic.
+title: Typsnitt
+description: Lär dig använda teckensnitt i Adobe Dynamic Media Classic.
 uuid: bddec9c2-8530-4bbd-8db7-1562a347e482
 contentOwner: Rick Brough
 content-type: reference
@@ -12,14 +12,14 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-# Teckensnitt{#fonts}
+# Typsnitt{#fonts}
 
 Ibland kräver Adobe Dynamic Media Classic att du överför en teckensnittsfil för att ange eller återge text i ett visst teckensnitt. Om du till exempel vill använda ett visst teckensnitt för text i ett mallager överför du teckensnittsfilen. Om du vill visa sidnummer för eCatalog Viewer i ett visst teckensnitt överför du teckensnittsfilen.
 
@@ -35,7 +35,7 @@ När en teckensnittsfil har överförts kan du ändra dess Adobe Dynamic Media C
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Adobe Dynamic Media Classic behöver de här teckensnittsformaten för att kunna bearbeta begäranden. Du bör även överföra alla PostScript-/Adobe Type1-filer som är kopplade till ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
+>Adobe Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Adobe Dynamic Media Classic behöver de här teckensnittsformaten för att kunna bearbeta begäranden. Överför alla `PostScript/Adobe Type1` filer som är kopplade till ett teckensnitt rekommenderas också eftersom vissa av dessa teckensnitt innehåller detaljerad kerninginformation.
 
 ## Överför teckensnittsfiler {#uploading-font-files}
 

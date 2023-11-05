@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
    + [Checklista för beredskap för uppgradering](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic Guide](home.md)
 + [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NYTT Adobe Dynamic Media Classic inloggningsupplevelse är nu tillgänglig](new-ui-2020.md)
++ [NYTT Adobe Dynamic Media Classic-inloggning är nu tillgänglig](new-ui-2020.md)
 + [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic-datorprogram - nu tillgängligt](dynamic-media-classic-desktop-app.md)
@@ -51,14 +51,14 @@ ht-degree: 0%
    + [Administrationsinställningar](administration-setup.md)
 + Media Portal {#media-portal}
    + [Systemkrav för Media Portal i Adobe Dynamic Media Classic](system-requirements-media-portal.md)
-   + [Snabbstart: Media Portal](quick-start-media-portal-administration.md)
+   + [Snabbstart: Medieportal](quick-start-media-portal-administration.md)
    + [Användarroller för mediaportal](media-portal-user-roles.md)
    + [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md)
    + [Lägga till och hantera Media Portal-användare](adding-media-portal-users.md)
    + [Hantera FTP-konton](ftp-accounts.md)
    + [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md)
    + [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.md)
-   + [Effektivare användning av metadata](making-efficient-metadata.md)
+   + [Använda metadata effektivare](making-efficient-metadata.md)
    + [Anpassa skärmen Media Portal](customizing-media-portal-screen.md)
 + Överföra och publicera resurser {#upload-publish}
    + [Överföra och publicera resurser](about-asset-upload-publish.md)
@@ -97,7 +97,7 @@ ht-degree: 0%
    + [Publicera zoombilder](publishing-zoom-images.md)
    + [Länka zoomningsvisningsprogram till dina webbsidor](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
-   + [Snabbstart: eCatalogs](quick-start-ecatalog.md)
+   + [Snabbstart: e-kataloger](quick-start-ecatalog.md)
    + [Överför PDF-filer](uploading-pdf-files.md)
    + [Skapa en e-katalog](creating-ecatalog.md)
    + [Skapa eCatalog-bildscheman](creating-ecatalog-image-maps.md)
@@ -115,8 +115,8 @@ ht-degree: 0%
    + [Visa bilduppsättningar](viewing-image-sets.md)
    + [Automatisera generering av bilduppsättning](automated-image-set-generation.md)
    + [Länka en bilduppsättning till en webbsida](linking-image-set-web-page.md)
-+ Färgruteuppsättningar {#swatch-sets}
-   + [Snabbstart: Färgruteuppsättningar](quick-start-swatch-sets.md)
++ Uppsättningar med färgrutor {#swatch-sets}
+   + [Snabbstart: Färgrutor](quick-start-swatch-sets.md)
    + [Inkludera zoommål och bildscheman i uppsättningar av färgrutor](including-zoom-targets-image-maps-swatch-sets.md)
    + [Förbered färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md)
    + [Skapa en färgruteuppsättning](creating-swatch-set.md)
@@ -124,10 +124,10 @@ ht-degree: 0%
    + [Länka en färgruteuppsättning till en webbsida](linking-swatch-set-web-page.md)
 + Snurra uppsättningar {#spin-sets}
    + [Snabbstart: Snurra uppsättningar](quick-start-spin-sets.md)
-   + [Skapa en snurruppsättning](creating-spin-set.md)
+   + [Skapa en snurra uppsättning](creating-spin-set.md)
    + [Förhandsgranska en snurra uppsättning](previewing-spin-set.md)
    + [Publicera en snurruppsättning](publishing-spin-set.md)
-   + [Konfigurera förinställningar för Snurra uppsättning för visningsprogram](setting-spin-set-viewer-presets.md)
+   + [Ställ in förinställningar för Snurra uppsättning för visningsprogram](setting-spin-set-viewer-presets.md)
    + [Länka en snurruppsättning till en webbsida](linking-spin-set-web-page.md)
 + Grundläggande om mallar {#template-basics}
    + [Snabbstart: Grundläggande om mallar](quick-start-template-basics.md)
@@ -139,13 +139,13 @@ ht-degree: 0%
    + [Hantera innehållsvariationer](content-variations.md)
 + Video {#video}
    + [Snabbstart: Video](quick-start-video.md)
-   + [Bästa praxis: Använda videovisningsprogrammet för HTML5](best-practice-using-html5-video.md)
-   + [Överföra och koda videoklipp](uploading-encoding-videos.md)
+   + [Bästa tillvägagångssätt: Använda videovisningsprogrammet för HTML5](best-practice-using-html5-video.md)
+   + [Överför och koda videoklipp](uploading-encoding-videos.md)
    + [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md)
    + [Lägga till bildtexter i video](adding-captions-video.md)
    + [Lägga till kapitelmarkörer i video](adding-chapter-markers-video.md)
    + [Distribuera video till webbplatser och mobilsajter](deploying-video-websites-mobile-sites.md)
-   + [Exportera källvideo och kodade videoklipp](exporting-source-encoded-videos.md)
+   + [Exportera källvideo och kodade videor](exporting-source-encoded-videos.md)
 + Blandade medieuppsättningar {#mixed-media-sets}
    + [Snabbstart: Blandade medieuppsättningar](quick-start-mixed-media-sets.md)
    + [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md)
@@ -184,6 +184,6 @@ ht-degree: 0%
    + [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md)
    + [Arbeta med vinjett, fönsterhölje och kabinettfiler](vignette-window-covering-cabinet-files.md)
 + Supportfiler {#support-files}
-   + [Teckensnitt](fonts.md)
+   + [Typsnitt](fonts.md)
    + [XML-filer](xml-files.md)
    + [ICC-profiler](icc-profiles.md)

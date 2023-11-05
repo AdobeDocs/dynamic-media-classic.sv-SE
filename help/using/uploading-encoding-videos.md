@@ -11,9 +11,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3857'
+source-wordcount: '3846'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ I följande tabell visas videofiltyper (med tillåtna videokodekar) som du kan k
   | M2V | MPEG-2 ES |
   | M4V | H.264 |
   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-  | MP4 | H.264/MPEG-4 AVC |
+  | MP4 | H.264 / MPEG-4 AVC |
   | MPEG | MPEG-2 SS |
   | MPG | MPEG-2 SS |
   | MTS | MPEG-2 |
@@ -170,7 +170,7 @@ I följande tabell beskrivs hur formelresultaten översätts till vanliga altern
 | 1.78 | 16:9 |
 | 0.56 | 9:16 |
 
-En video som till exempel är 1440 bredd x 1080 höjd har proportionerna 1440/1080 eller 1,33. I det här fallet väljer du en förinställning för videokodning med 4:3-proportioner för att koda videofilen.
+En video som till exempel är 1440 bredd × 1080 höjd har proportionerna 1440/1080 eller 1,33. I det här fallet väljer du en förinställning för videokodning med 4:3-proportioner för att koda videofilen.
 
 ### Datahastighet {#data-rate}
 
@@ -193,16 +193,16 @@ I den här tabellen beskrivs datahastigheten för typiska anslutningshastigheter
 
 ### Upplösning {#resolution}
 
-*Upplösning* beskriver en videofils höjd och bredd i pixlar. Den mesta källvideon lagras med hög upplösning (till exempel 1 920 x 1 080). Vid direktuppspelning komprimeras källvideo till en lägre upplösning (640 x 480 eller lägre).
+*Upplösning* beskriver en videofils höjd och bredd i pixlar. Den mesta källvideon lagras med hög upplösning (till exempel 1920 × 1080). Vid direktuppspelning komprimeras källvideo till en lägre upplösning (640 × 480 eller lägre).
 
-Upplösning och datahastighet är två sammankopplade faktorer som avgör videokvaliteten. Om du vill behålla samma videokvalitet måste datahastigheten vara högre ju fler pixlar en videofil har (ju högre upplösning). Ta till exempel antalet pixlar per bildruta i en 320 x 240-upplösning och en 640 x 480-upplösningsvideofil:
+Upplösning och datahastighet är två sammankopplade faktorer som avgör videokvaliteten. Om du vill behålla samma videokvalitet måste datahastigheten vara högre ju fler pixlar en videofil har (ju högre upplösning). Ta till exempel antalet pixlar per bildruta i en 320 × 240-upplösning och en 640 × 480-upplösningsvideofil:
 
 | Upplösning | Pixlar per bildruta |
 | --- | --- |
-| 320 x 240 | 76,800 |
-| 640 x 480 | 307,200 |
+| 320 × 240 | 76,800 |
+| 640 × 480 | 307,200 |
 
-Filen på 640 x 480 har fyra gånger fler pixlar per bildruta. För att uppnå samma datahastighet för dessa två exempelupplösningar tillämpar du fyra gånger komprimeringen på 640 x 480-filen, vilket kan minska videons kvalitet. En videodatahastighet på 250 kbit/s ger därför en högkvalitativ bild med upplösningen 320 x 240, men inte med upplösningen 640 x 480.
+Filen 640 × 480 har fyra gånger fler pixlar per bildruta. För att uppnå samma datahastighet för dessa två exempelupplösningar använder du fyra gånger så hög komprimering på 640 × 480-filen, vilket kan minska videons kvalitet. En videodatahastighet på 250 kbit/s ger därför en högkvalitativ bild med upplösningen 320 × 240, men inte med upplösningen 640 × 480.
 
 >[!NOTE]
 >
@@ -238,14 +238,14 @@ Om du vill beräkna förhållandet dividerar du källbredden med den kodade bred
 
 Om förhållandet är ett heltal betyder det att videon är optimalt skalad. Om den resulterande kvoten inte är ett heltal påverkas videokvaliteten genom att kvarvarande pixelartefakter lämnas kvar på skärmen. Effekten märks mest när videon innehåller text.
 
-Anta till exempel att källvideon är 1 920 x 1 080. I följande tabell ger de tre kodade videoklippen de optimala kodningsinställningarna som kan användas.
+Anta till exempel att källvideon är 1 920 × 1 080. I följande tabell ger de tre kodade videoklippen de optimala kodningsinställningarna som kan användas.
 
-| Videotyp | Bredd x höjd | Breddförhållande | Höjdförhållande |
+| Videotyp | Bredd × höjd | Breddförhållande | Höjdförhållande |
 | --- | --- | --- | --- |
-| Källa | 1920 x 1080 | 1 | 1 |
-| Kodad | 960 x 540 | 2 | 2 |
-| Kodad | 640 x 360 | 3 | 3 |
-| Kodad | 480 x 270 | 4 | 4 |
+| Källa | 1920 × 1080 | 1 | 1 |
+| Kodad | 960 × 540 | 2 | 2 |
+| Kodad | 640 × 360 | 3 | 3 |
+| Kodad | 480 × 270 | 4 | 4 |
 
 ### Kodat videofilformat {#encoded-video-file-format}
 

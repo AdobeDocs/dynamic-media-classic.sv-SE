@@ -1,6 +1,6 @@
 ---
 title: Skapa en e-katalog
-description: Lär dig hur du skapar en e-katalog i Adobe Dynamic Media Classic.
+description: Lär dig skapa en e-katalog i Adobe Dynamic Media Classic.
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
@@ -12,9 +12,9 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,10 @@ Du kan inkludera bildfiler och PDF-filer i din eCatalog.
 
 När du skapar en e-katalog **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Alternativet Publicera efter spara är markerat innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Alternativet Publicera efter spara är markerat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
-| Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
+| Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
 
 Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
@@ -69,7 +69,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 Oavsett om du redigerar en publicerad uppsättning eller en opublicerad uppsättning kan du **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -80,14 +80,14 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 **Så här redigerar du en e-katalog:**
 
-1. Välj eCatalogs rollover **[!UICONTROL Edit]** -knappen.
+1. Välj eCatalogs överrullning **[!UICONTROL Edit]** -knappen.
 1. Gör önskade ändringar.
 1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
-1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.
 
 ## Ta bort en e-katalog {#deleting-an-ecatalog}
 
-När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
+När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller&quot;underordnade&quot;) i uppsättningen påverkas dock inte. De behåller i stället sitt befintliga publicerade eller opublicerade läge.
 
 Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
@@ -104,7 +104,7 @@ Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt eller
 
 >[!NOTE]
 >
->Återställ standardsidrubrikerna på **[!UICONTROL Order Pages]** flik, välja **[!UICONTROL TOC Labels]** och sedan markera **[!UICONTROL Restore Defaults (All)]**.
+>Om du vill återställa standardsidrubrikerna går du till **[!UICONTROL Order Pages]** flik, välja **[!UICONTROL TOC Labels]** och sedan markera **[!UICONTROL Restore Defaults (All)]**.
 
 ### Ange sidnamn manuellt {#manually-entering-page-names}
 
@@ -114,7 +114,7 @@ Om du vill ange sidnamn manuellt, en åt gången, går du till fliken Ordna sido
 
 Du bör importera sidnamn om du har att göra med en e-katalog med många sidor. Du kan importera namnen från en tabbavgränsad fil eller XML-fil.
 
-Innehållsförteckningsetiketten lagras i en bilds fält för användardata. formatera dessa data som en lista över `name=<value>` ` pairs separated by two question marks “??” `. Du kan till exempel ange en etikett för ett innehållsförteckningsfält med namnet `tocEN`, ställer du in användardata för bilden på:
+Innehållsförteckningsetiketten lagras i en bilds användardatafält. Formatera informationen som en lista med `name=<value>` ` pairs separated by two question marks "??" `. Du kan till exempel ange en etikett för ett innehållsförteckningsfält med namnet `tocEN`, ställer du in användardata för bilden på:
 
 `tocEN=&lt;EN_page_label>`
 
@@ -136,4 +136,4 @@ Om du vill importera fältet Användardata till en XML-fil inkluderar du attribu
 </ips>
 ```
 
-Om du vill importera sidnamn från en tabbavgränsad fil eller XML-fil väljer du **[!UICONTROL TOC Labels]** och markera **[!UICONTROL Import]**. I dialogrutan Överför metadata väljer du **[!UICONTROL Browse]** och sedan importera CSV-filen (endast Mac) eller XML-filen som associerar varje sida med ett sidnamn.
+Om du vill importera sidnamn från en tabbavgränsad fil eller XML-fil väljer du **[!UICONTROL TOC Labels]** knapp och markera **[!UICONTROL Import]**. Välj i dialogrutan Överför metadata **[!UICONTROL Browse]** och sedan importera CSV-filen (endast Mac) eller XML-filen som associerar varje sida med ett sidnamn.

@@ -12,7 +12,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 SEO är processen att förbättra trafiken till en webbplats från sökmotorer. Sökmotorer är utmärkta på att samla in information om textbaserat innehåll, men de kan inte hämta in information om video på ett adekvat sätt om de inte får den här informationen.
 
-Med Adobe Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Adobe Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. Dessa XML-filer används för att skicka videoinformation till sökmotorer:
+Med Adobe Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Adobe Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. De här XML-standardfilerna används för att skicka videoinformation till sökmotorer:
 
 * **Webbplatskarta för video** - Informerar Google om exakt var och vad videoinnehållet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor finns i [Alternativ för videowebbplatskartor och videowebbplatskartor](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
@@ -33,7 +33,7 @@ Med Adobe Dynamic Media Classic Video SEO kan du använda videometadata för att
 >
 >Google har stöd för både Video Sitemap och mRSS feed-protokollet för att skicka information till sökmotorer.
 
-Adobe Dynamic Media Classic kan generera videosemappningar och mRSS-flöden från metadata som lagras med varje video. När du skapar videosemappningar och mRSS-flöden bestämmer du vilka metadatafält från videofiler som ska inkluderas. På det här sättet beskriver du dina videoklipp för sökmotorer så att sökmotorer kan dirigera trafik till videoklipp på din webbplats mer exakt
+Adobe Dynamic Media Classic kan generera videosemappningar och mRSS-flöden från metadata som lagras med varje video. När du skapar videosemappningar och mRSS-flöden bestämmer du vilka metadatafält från videofiler som ska inkluderas. På det här sättet beskriver du videoklipp för sökmotorer så att sökmotorer kan dirigera trafik till videofilmer på din webbplats på ett mer exakt sätt.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ I **[!UICONTROL General Setting]** väljer du om du vill generera videosemappnin
 
 När du har valt inställningar väljer du **[!UICONTROL Save]** (eller **[!UICONTROL Save & Generate]**) för att skapa Video Sitemap, mRSS-flöden eller båda.
 
-### Konfigurera allmänna inställningar {#choosing-general-settings}
+### Ställ in allmänna inställningar {#choosing-general-settings}
 
 På **[!UICONTROL Generation Mode]** väljer du ett rapportläge:
 
@@ -67,7 +67,7 @@ På **[!UICONTROL Generation Mode]** väljer du ett rapportläge:
 
 På **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generera automatiskt eller manuellt:
 
-* **Automatiskt läge** - Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS-matning (mRSS) eller båda, varje dag. Välj **[!UICONTROL Mark for Publish]** om du vill att XML-filen som genereras av Adobe Dynamic Media Classic ska markeras automatiskt.
+* **Automatiskt läge** - Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS (mRSS) eller båda, varje dag. Välj **[!UICONTROL Mark for Publish]** om du vill att XML-filen som genereras av Adobe Dynamic Media Classic ska markeras automatiskt.
 
    * **Markera för publicering** Markerar för publicering av XML-filen som genereras.
 
@@ -77,7 +77,7 @@ På **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generera automa
 
    * **Markera för publicering** - Markerar för publicering av XML-filen som genereras.
 
-   * **Tillåt partiell generering** - Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videoklipp. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
+   * **Tillåt partiell generering** - Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videor. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
 
 ### Välja genereringsinställningar {#choosing-generation-settings}
 

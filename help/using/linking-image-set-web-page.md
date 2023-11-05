@@ -1,27 +1,25 @@
 ---
 title: Länka en bilduppsättning till en webbsida
 description: Lär dig hur du länkar en bilduppsättning till en webbsida i Adobe Dynamic Media Classic.
-uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 0%
 
 ---
 
 # Länka en bilduppsättning till en webbsida{#linking-an-image-set-to-a-web-page}
 
-När du har publicerat en bilduppsättning kan du kopiera dess URL eller dess inbäddningskod för användning på din webbplats eller i ditt program. Sedan kan du distribuera URL:en eller klistra in inbäddningskoden om det behövs så att användarna kan visa bilduppsättningen på din webbplats eller i ditt program.
+När du har publicerat en bilduppsättning kan du kopiera dess associerade URL eller dess inbäddningskod för användning på din webbplats eller i ditt program. Sedan kan du distribuera URL:en eller klistra in inbäddningskoden om det behövs så att användarna kan visa bilduppsättningen på din webbplats eller i ditt program.
 
 >[!NOTE]
 >
@@ -62,7 +60,7 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 1. navigera till resursmappen som innehåller den bilduppsättning vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. På panelen URL:er till höger väljer du **[!UICONTROL Embed Code]**.
+   * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Välj på panelen URL:er till höger **[!UICONTROL Embed Code]**.
    * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resurssökning och gå sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
@@ -75,7 +73,7 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
-1. I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
+1. Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
 
    Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 

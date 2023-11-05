@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '634'
 ht-degree: 0%
 
 ---
 
 # Länka en färgruteuppsättning till en webbsida{#linking-a-swatch-set-to-a-web-page}
 
-När du har publicerat en färgruteuppsättning kan du använda dess URL-adress eller inbäddningskod på din webbplats eller i ditt program. Sedan kan du distribuera URL-adressen eller inbäddningskoden efter behov så att användarna kan visa färgruteuppsättningen på din webbplats eller i ditt program.
+När du har publicerat en färgruteuppsättning kan du använda dess associerade URL-adress eller inbäddningskod på webbplatsen eller i programmet. Sedan kan du distribuera URL-adressen eller inbäddningskoden efter behov så att användarna kan visa färgruteuppsättningen på din webbplats eller i ditt program.
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
-1. I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
+1. Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
 
    Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 

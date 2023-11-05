@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 
 | Vad du får med [!DNL Dynamic Media] | Beskrivning |
 | --- | --- |
-| Grundläggande filhantering | Ladda upp en resurs i full storlek och sedan [!DNL Dynamic Media] skapar automatiskt storlekar efter behov. |
+| Primär filhantering | Ladda upp en resurs i full storlek och sedan [!DNL Dynamic Media] skapar automatiskt storlekar efter behov. |
 | Enkel redigering | Skapa, anpassa och lansera avancerat material snabbt utan behov av teknisk hjälp. |
 | Intuitivt gränssnitt | Redigera bildvisningsprogram och videospelare med ett lättanvänt WYSIWYG-gränssnitt (What You See It What You Get). |
 | Media som kan köpas | Skapa bilder, videor och bilder som kan köpas via klickbara länkar. |
@@ -46,9 +46,9 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 
 | Funktion | Beskrivning |
 | --- | --- |
-| Skapa och leverera material snabbare | ・ Samarbete och delad filsynk med [!DNL Adobe Creative Cloud] program.<br>・ Uppfyller alla krav i Dynamic Asset Management: Skapa, samarbeta, hantera och leverera allt i ett och samma program, ett gränssnitt och ett nätverk.<br>・ Hantering av digitala resurser på företagsnivå med robust stöd för metadata, smart sökning, ljusbord och samlingar, versionskontroll och säker delning av resurser som kan användas av leverantörer, partners och franchisetagare<br>・ Granska och godkänn arbetsflöden för resurser som bearbetas. |
+| Skapa och leverera material snabbare | ・ Samarbete och delad filsynk med [!DNL Adobe Creative Cloud] program.<br>・ Uppfyller alla krav i Dynamic Asset Management: Skapa, samarbeta, hantera och leverera i ett och samma program, ett gränssnitt och ett nätverk.<br>・ Hantering av digitala resurser på företagsnivå med robust stöd för metadata, smart sökning, ljusbord och samlingar, versionskontroll och säker delning av resurser som kan användas av leverantörer, partners och franchisetagare<br>・ Granska och godkänn arbetsflöden för resurser som bearbetas. |
 | Easy Interactive Experiences UI Elements | ・ Skapa upplevelser enkelt med icke-tekniska realtidsverktyg.<br>・ Shoppbara/interaktiva media, kombinera kampanjresurser med produktinformation.<br>・ få nöjdare kunder och ökad konverteringsgrad. |
-| Inkluderande arbetsflöde från början till slut | ・ Leverera optimerad multimedia till alla kontaktytor inklusive hela [!DNL Adobe Experience Cloud] lösningar.<br>・ Integration med [!DNL Adobe Experience Cloud] för avancerad tillgångsanalys, målgruppsanpassning och återanvändning av resurser över alla kontaktytor för marknadsföring. Några av dessa kontaktytor är [!DNL Adobe Campaign] för e-post, [!DNL Adobe Social] för sociala kanaler, och [!DNL Adobe Experience Manager] Webbplatser för responsiva webb- och mobilappar. |
+| Inkluderande arbetsflöde från början till slut | ・ Leverera optimerad multimedia till alla kontaktytor, inklusive hela [!DNL Adobe Experience Cloud] lösningar.<br>・ Integration med [!DNL Adobe Experience Cloud] för avancerad tillgångsanalys, målgruppsanpassning och återanvändning av resurser över alla kontaktytor för marknadsföring. Några av dessa kontaktytor är [!DNL Adobe Campaign] för e-post, [!DNL Adobe Social] för sociala kanaler, och [!DNL Adobe Experience Manager] Webbplatser för responsiva webb- och mobilappar. |
 
 ## Varför Adobe?
 
@@ -56,4 +56,4 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 * Starka prestanda i rapporten 2016 Online Video Platform.
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Support dygnet runt, alla dagar, året om, 99,95 % SLA, Adobe Professional Services.
-* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 petabyte trafik per månad och över 500 miljoner mediefiler i hantering, 60 % ökning av trafiken år för år.
+* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 PB-trafik per månad och över 500 miljoner mediefiler i hantering, 60 % ökning av trafiken år för år.

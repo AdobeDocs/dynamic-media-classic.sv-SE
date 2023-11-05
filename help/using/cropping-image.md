@@ -1,20 +1,18 @@
 ---
 title: Beskära en bild
 description: Lär dig beskära en bild i Adobe Dynamic Media Classic.
-uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -36,7 +34,7 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 1. Beskära en bild genom att markera överrullningen **[!UICONTROL Edit]** och sedan markera **[!UICONTROL Crop]** eller visa den i panelen Bläddra i detaljvyn och markera **[!UICONTROL Crop]** -knappen.
 1. Gör något av följande på sidan Beskärningsredigerare:
 
-   * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. I **[!UICONTROL Auto Crop By Color]** väljer du **[!UICONTROL Corner]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]** inställning från 0 till 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
+   * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. I **[!UICONTROL Auto Crop By Color]** väljer du **[!UICONTROL Corner]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan **[!UICONTROL Tolerance]** inställning från 0 till 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
    * Om du vill trimma genomskinliga pixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. I **[!UICONTROL Auto Crop By Transparency]** anger du en toleransinställning mellan 0 och 1. Inställningen 0 beskär bara pixlar om de är genomskinliga. Siffror närmare 1 ger större genomskinlighet. Välj **[!UICONTROL Crop]**.
 
 1. Välj **[!UICONTROL Save]**.

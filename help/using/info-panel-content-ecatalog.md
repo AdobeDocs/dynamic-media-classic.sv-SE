@@ -1,18 +1,16 @@
 ---
 title: Hantera innehåll i informationspanelen i e-kataloger
 description: Lär dig hur du hanterar innehåll i informationspanelen i e-kataloger i Adobe Dynamic Media Classic.
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '841'
 ht-degree: 0%
@@ -32,11 +30,11 @@ Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Ado
 
 ## Konfigurera en svarsmall för e-kataloger {#set-up-a-response-template-for-ecatalogs}
 
-Du kan välja en av tre förinställda svarsmallar för att visa text på en informationspanel. De här förinställda svarsmallarna avgör hur informationen visas på panelen Info: hur många kolumner och rader, teckenstorlek, teckensnitt och så vidare. Du kan välja en förinställd svarsmall eller skapa en egen.
+Du kan välja en av tre förinställda svarsmallar för att visa text på en informationspanel. Dessa förinställda svarsmallar avgör hur informationen visas på panelen Info: hur många kolumner och rader, teckenstorlek, teckensnitt osv. Du kan välja en förinställd svarsmall eller skapa en egen.
 
 >[!NOTE]
 >
->Du kan också ställa in svarsmallen i visningsförinställningen. Om du vill använda svarsmallen i visningsförinställningen i stället lägger du till `fmt=1` till slutet av informationsserverns URL i visningsförinställningen.
+>Du kan också ställa in svarsmallen i visningsförinställningen. Om du vill använda svarsmallen i visningsförinställningen lägger du till `fmt=1` till slutet av informationsserverns URL i visningsförinställningen.
 >
 >Se [Konfigurera förinställningar för eCatalog Viewer](setting-ecatalog-viewer-presets.md#setting_up_ecatalog_viewer_presets).
 
@@ -61,11 +59,11 @@ Du kan använda en kommaavgränsad värdefil (CSV) eller tabbavgränsad fil (TXT
 
 Tänk på följande när du formaterar källinnehåll:
 
-* Se till att tabb- och kommaavgränsade data innehåller så många kolumner som behövs för rollover-mallen.
+* Se till att tabb- och kommaavgränsade data innehåller så många kolumner som behövs för överrullningsmallen.
 * Se till att det första objektet eller datakolumnen är rollover-identifieraren (associerad med rollover_key-värdet från URL:erna för bildschemat).
 * Kontrollera att varje tabbavgränsat eller kommaavgränsat objekt efter identifieraren är det objekt som du vill ersätta i svarsmallen. Den första kolumnen ersätts alltså med $1$, den andra kolumnen med $2$ och så vidare.
 
-### Importera CSV-innehåll till e-kataloger från en externt värdbaserad plats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
+### Importera CSV-innehåll till e-kataloger från en extern värdplats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
 
 1. Dubbelklicka på e-katalogen så att den öppnas i detaljvyn.
 1. Välj **[!UICONTROL InfoPanel Datafeed]** -panelen.

@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '10711'
+source-wordcount: '10703'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Du kan använda sidorna Programinställningar för att ange allmänna inställni
 
 >[!NOTE]
 >
->Endast Adobe Dynamic Media Classic-administratörer kan ändra inställningarna på sidorna i Programinställningar.
+>Endast Adobe Dynamic Media Classic-administratörer kan ändra inställningarna i Programinställningar.
 
 ## Allmänna inställningar {#general-settings}
 
@@ -131,13 +131,13 @@ Se även [Standardalternativ för överföringsjobb](https://s7d5.scene7.com/s7v
 
 * **[!UICONTROL Default Upload Options]** - Öppnar dialogrutan Alternativ för överföring av jobb, där du kan ange standardalternativ för överföring. Mer information om de här alternativen finns i [Överföringsalternativ](/help/using/uploading-files.md#upload_options).
 
-### Image Map Editor, to Application
+### Redigerare för bildschema (till program)
 
 * **[!UICONTROL Default Image Mapping HREF]** - Definierar den standard-URL som används för HREF-kolumnen i bildmappningen. Den här URL:en är den standardadress som visas när du skapar bildscheman.
 
 * **[!UICONTROL Default Image Mapping Template]** - Definierar JavaScript-standard för HREF-mallen vid bildmappning. Du kan ange att egen kod ska köras här när du väljer ett bildschema.
 
-### Andra inställningar, till program
+### Andra inställningar (till program)
 
 * **[!UICONTROL Trash Can Clean Up Warnings]** - Resurser i papperskorgen tas automatiskt bort inom sju dagar. Välj&quot;Skicka e-postmeddelanden innan papperskorgen tas bort automatiskt&quot; om du vill att meddelanden ska skickas till företagsadministratörer när resurser i papperskorgen inte tas bort permanent om fyra dagar. Se [Hantera papperskorgen](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 * **[!UICONTROL Bi-Cubic]** - Ökar processoranvändningen på bildservern men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
 
-* **[!UICONTROL Sharp2]** - Kan ge något skarpare resultat än alternativet Bikubisk, men till ännu högre processorkostnad på bildservern.
+* **[!UICONTROL `Sharp 2`]** - Kan ge något skarpare resultat än alternativet Bikubisk, men till ännu högre processorkostnad på bildservern.
 
 * **[!UICONTROL Tri-Linear]** - Använder både högre och lägre upplösningar, om sådana finns. Rekommenderas bara när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
 
@@ -340,9 +340,9 @@ En förinställning för kodning som fungerar med alla proportioner så att du k
 
 |  | Kodningsförinställningsnamn/knappbeskrivningstext | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | Fps | Bithastighet för ljud (kbit/s) | Recommendations |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | Auto x 360, 800 kbit/s | _Mobile_Autox360p_800K | 800 | Autox360 | Samma som källan | 64 | För mobiler (iPhone, iPad, Android™) |
-| 2 | Auto x 480, 1 400 kbit/s | _Tablet_Autox480p_1400K | 1400 | Autox480 | Samma som källan | 96 | För surfplattor (iPad, Android™) |
-| 3 | Auto x 720, 2 600 kbit/s | _Desktop_Autox720p_2600K | 2600 | Autox720 | Samma som källan | 128 | För datorer |
+| 1 | Auto × 360, 800 kbit/s | _Mobile_Auto×360p_800K | 800 | Auto×360 | Samma som källan | 64 | För mobiler (iPhone, iPad, Android™) |
+| 2 | Auto × 480, 1 400 kbit/s | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | Samma som källan | 96 | För surfplattor (iPad, Android™) |
+| 3 | Auto × 720, 2 600 kbit/s | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | Samma som källan | 128 | För datorer |
 
 ### Videoförinställningar för Adaptiv videokodning (16:9 eller 4:3) {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Alla förinställda CSS-filer i visningsprogrammet som är standard i Adobe Dyna
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-Om du däremot har Viewer CSS-filer på din egen plats, måste du lösa dessa relativa bildsökvägar genom att använda en explicit sökväg till Image Server i din egen miljö. Om du till exempel vill uppdatera den relativa sökvägen ovanför till en explicit sökväg, kan den se ut så här, där `https://s7d1.scene7.com` är den direkta sökvägen till bildservern: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Om du däremot har Viewer CSS-filer på din egen plats, måste du lösa dessa relativa bildsökvägar genom att använda en explicit sökväg till Image Server i din egen miljö. Om du till exempel har uppdaterat den relativa sökvägen ovan till en explicit sökväg kan den se ut så här, där `https://s7d1.scene7.com` är den direkta sökvägen till bildservern: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **Så här exporterar du en visningsförinställning för HTML5:**
 
@@ -926,7 +926,7 @@ Du kan antingen använda formulärfältsmetoden för att definiera en gruppupps�
 
 Se även [Skapa en gruppuppsättningsförinställning för automatisk generering av en 2D-snurpuppsättning](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-Se även [2D-snurruppsättningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) utbildningsvideo.
+Se även [2D-snurra](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) utbildningsvideo.
 
 **Så här skapar du en gruppuppsättningsförinställning:**
 

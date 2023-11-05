@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2223'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ I följande tabell visas skärpealternativen för bildservern.
 | Namn | URL Protocol | Värden | Exempel |
 | --- | --- | --- | --- |
 | Enkel skärpa | `op_sharpen` | `0` eller `1` | `op_sharpen=1` |
-| Sampla om läge | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Väljer bilinjär standardinterpolation. Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är ofta märkbara.<br>`bicub`: Väljer bikubisk interpolation. Processorintensivare än bilin, men ger skarpare bilder med mindre märkbara aliasfelaktigheter.<br><br>`sharp2`: Väljer en modifierad Lanczos Windows®-funktion som interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad.<br><br>`trilin`: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om en sådan finns. Rekommenderas endast när kantutjämning är ett problem. Minskar storleken på JPEG på grund av reducerade högfrekventa data. | `resMode=sharp2` |
+| Sampla om läge | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Väljer bilinjär standardinterpolation. Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är ofta märkbara.<br>`bicub`: Väljer bikubisk interpolation. Mer processorintensivt än `bilin`, men ger skarpare bilder med mindre märkbara aliasing-artefakter.<br><br>`sharp2`: Väljer en modifierad Lanczos Windows®-funktion som interpoleringsalgoritm. Kan ge något tydligare resultat än bikubisk till en högre processorkostnad.<br><br>`trilin`: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om en sådan finns. Rekommenderas endast när kantutjämning är ett problem. Minskar storleken på JPEG på grund av reducerade högfrekventa data. | `resMode=sharp2` |
 | Oskarp mask | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: filterstyrkefaktor (verklig 0...5)<br><br>`radius`: filterkärnradie i pixlar (verklig 0...250) <br><br>`threshold`: filtertröskelnivå (int 0...255)<br><br>`monochrome`: inställd på `0` för att göra varje färgkomponent oskarp separat, ange `1` till intensitet för oskarp mask (intensitet) | `op_usm=1,1,10,0` |
 
 Välj **[!UICONTROL Sharpening]** och välj ett alternativ:
@@ -79,7 +79,7 @@ Välj följande alternativ så att du kan finjustera skärpan med Oskarp mask:
 
 Det bästa radievärdet beror på bildens storlek. Med ett lågt värde ökas skärpan endast för kantpixlarna. Med ett högt värde ökas skärpan för ett större antal pixlar.
 
-Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 x 2 000 pixlar och en bild på 500 x 500 pixlar kan du ange ett radievärde på två pixlar för bilden på 2 000 x 2 000 pixlar. Ange sedan radien 1 pixel i bilden med 500 x 500 pixlar (ett större värde för en bild med fler pixlar).
+Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 × 2 000 pixlar och en bild på 500 × 500 pixlar, kan du ange ett radievärde på två pixlar för bilden på 2 000 × 2 000 pixlar. Ange sedan radien 1 pixel på bilden med 500 × 500 pixlar (ett större värde för en bild med fler pixlar).
 
 * **Tröskelvärde** - Anger det kontrastintervall som ska ignoreras när det oskarpa maskfiltret används. Med det här alternativet anger du hur olika de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och blir skarpare.
 
@@ -99,7 +99,7 @@ Välj **[!UICONTROL Resampling]** och välj ett alternativ. Dessa alternativ gö
 
 * **[!UICONTROL Bicubic]** - Ökar processoranvändningen på bildservern men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
 
-* **[!UICONTROL Sharpen2]** - Ger något skarpare resultat än **[!UICONTROL Bicubic]**, men till ännu högre CPU-kostnader på Image Server.
+* **[!UICONTROL `Sharpen2`]** - Ger något skarpare resultat än **[!UICONTROL Bicubic]**, men till ännu högre CPU-kostnader på Image Server.
 
 * **[!UICONTROL Trilinear]** - Använder både högre och lägre upplösningar om sådana finns. Rekommenderas endast när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
 
@@ -128,7 +128,7 @@ Alternativen för JPG-kvalitet styr komprimeringsnivån JPG:
 
 Om du inte använder en bildförinställning eller skickar specifika bildserverskärpeprotokoll längs URL-strängen blir bilden inte skarpare när den nedsamplas. Om skärpan inte är tillräckligt hög kan du ange standardvärden för skärpa, och sedan har alla bilder alltid en viss skärpa.
 
-Om du vill ange ditt företags standardalternativ för skärpa går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du ställer in standardomsamplingsläget till **[!UICONTROL Sharp2]** blir bilden alltid skarpare vid nedsampling.
+Om du vill ange ditt företags standardalternativ för skärpa går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du ställer in standardomsamplingsläget till **[!UICONTROL `Sharp2`]** blir bilden alltid skarpare vid nedsampling.
 
 **Lägga till skärpa i visningsförinställningar**
 

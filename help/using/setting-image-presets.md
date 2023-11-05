@@ -12,16 +12,16 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 1%
+source-wordcount: '635'
+ht-degree: 2%
 
 ---
 
 # Konfigurera bildförinställningar{#setting-up-image-presets}
 
-Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Om du vill veta hur bildförinställningar fungerar kan du anta att din webbplats kräver att varje produktbild visas i två olika storlekar: 500 x 500 pixlar och 150 x 150 pixlar. Du skapar två bildförinställningar, en som kallas&quot;Förstora&quot; om du vill visa bilder med 500 x 500 pixlar och en som kallas&quot;Miniatyrbild&quot; om du vill visa bilder med 150 x 150 pixlar. Om du vill leverera bilder i storleken &quot;Förstora&quot; och &quot;Miniatyrbild&quot;, söker en Dynamic Media Image Server upp definitionen av Förstora bildförinställning och Förinställning för miniatyrbild. Sedan genererar servern dynamiskt en bild med samma storlek och formateringsspecifikationer som varje bildförinställning.
+Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Om du vill förstå hur bildförinställningar fungerar antar du att webbplatsen kräver att varje produktbild visas i två olika storlekar: 500 × 500 pixlar och 150 × 150 pixlar. Du skapar två bildförinställningar, en som kallas&quot;Förstora&quot; om du vill visa bilder med 500 × 500 pixlar och en som kallas&quot;Miniatyrbild&quot; om du vill visa bilder med 150 × 150 pixlar. Om du vill leverera bilder i storleken &quot;Förstora&quot; och &quot;Miniatyrbild&quot;, söker en Dynamic Media Image Server upp definitionen av Förstora bildförinställning och Förinställning för miniatyrbild. Sedan genererar servern dynamiskt en bild med samma storlek och formateringsspecifikationer som varje bildförinställning.
 
 Adobe Dynamic Media Classic innehåller flera &quot;bästa praxis&quot;-förinställningar som du redan har ställt in för att använda. Administratörer kan även skapa bildförinställningar. Om du vill skapa en bildförinställning kan du börja från början eller så kan du börja från en befintlig och spara den under ett nytt namn.
 
@@ -48,7 +48,7 @@ Du kan skapa egna bildförinställningar om du är företagsadministratör. Du k
 
    Adobe Dynamic Media Classic rekommenderar att du börjar med följande alternativ:
 
-   * **[!UICONTROL Format]** - Välj JPEG eller något annat format som passar dina behov. Alla webbläsare har stöd för bildformatet JPEG. den ger en bra balans mellan små filstorlekar och bildkvalitet. JPEG-formatbilder använder dock ett förlustkomprimeringsschema som kan ge upphov till oönskade bildartefakter om komprimeringsinställningen är för låg. Därför rekommenderar Adobe Dynamic Media Classic att du ställer in komprimeringskvaliteten (på skjutreglaget) på 75. Den här inställningen ger en bra balans mellan bildkvalitet och liten filstorlek.
+   * **[!UICONTROL Format]** - Välj JPEG eller något annat format som passar dina behov. Alla webbläsare har stöd för bildformatet JPEG, vilket ger en bra balans mellan små filstorlekar och bildkvalitet. JPEG-bilder använder dock ett förlustgivande komprimeringsschema som kan ge upphov till oönskade bildartefakter om komprimeringsinställningen är för låg. Därför rekommenderar Adobe Dynamic Media Classic att du ställer in komprimeringskvaliteten (på skjutreglaget) på 75. Den här inställningen ger en bra balans mellan bildkvalitet och liten filstorlek.
 
    * **[!UICONTROL Sharpening]** - Välj inte Skärpa (det här skärpefiltret ger mindre kontroll än **[!UICONTROL Unsharp Masking]** inställningar).
 
@@ -58,14 +58,14 @@ Du kan skapa egna bildförinställningar om du är företagsadministratör. Du k
 
    | Förinställningstyp | Storlek | USM: Belopp | USM: Radie | USM: Tröskelvärde |
    | --- | --- | --- | --- | --- |
-   | Korsförsäljning (miniatyrbild) | 75 x 75 | 1.5 | 0.8 | 5 |
-   | Miniatyrbild | 150 x 150 | 1.1 | 1 | 5 |
-   | Huvud | 350 x 350 | 1 | 1 | 6 |
-   | Förstora | 500 x 500 | 1.2 | 1.2 | 5 |
+   | Korsförsäljning (miniatyrbild) | 75 × 75 | 1.5 | 0.8 | 5 |
+   | Miniatyrbild | 150 × 150 | 1.1 | 1 | 5 |
+   | Huvud | 350 × 350 | 1 | 1 | 6 |
+   | Förstora | 500 × 500 | 1.2 | 1.2 | 5 |
 
 1. Välj **[!UICONTROL Save]**.
 
-Adobe Dynamic Media Classic&quot;best practice&quot;-alternativ för att skapa bildförinställningar som listas här är allmänna rekommendationer. skärpan är mycket subjektiv. Inställningarna för&quot;bästa praxis&quot; baserades på en primär bild på 2 000 x 2 000. inställningarna för större eller mindre primära filer kan vara olika. Om du vill justera inställningarna för Oskarp mask rekommenderar Adobe Dynamic Media Classic följande intervall:
+Adobe Dynamic Media Classic&quot;best practice&quot;-alternativ för att skapa bildförinställningar som listas här är allmänna rekommendationer. Skärpeinställningen är mycket subjektiv. Inställningarna för&quot;bästa praxis&quot; baserades på en primär bild på 2 000 × 2 000. Inställningarna för större eller mindre primärfiler kan vara olika. Om du vill justera inställningarna för Oskarp mask rekommenderar Adobe Dynamic Media Classic följande intervall:
 
 * **[!UICONTROL Amount]** - mellan 0,8 och 1,5.
 

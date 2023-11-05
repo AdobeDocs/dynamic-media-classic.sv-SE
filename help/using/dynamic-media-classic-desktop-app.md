@@ -10,14 +10,14 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1943'
 ht-degree: 0%
 
 ---
 
-# Ute nu: Adobe Dynamic Media Classic-datorprogram {#dynamic-media-classic-desktop-app}
+# Ute nu: Adobe Dynamic Media Classic datorprogram {#dynamic-media-classic-desktop-app}
 
 Adobe Dynamic Media Classic-användare har nu tillgång till en ny datorappsupplevelse som inte längre är beroende av Adobe Flash i webbläsaren.
 
@@ -25,9 +25,9 @@ Den nya appen finns nu för Windows® och macOS.
 
 >[!IMPORTANT]
 >
->Adobe rekommenderar att du installerar den nya Adobe Dynamic Media Classic-appen senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player tas bort den 31 december 2020. Efter detta datum kan du inte logga in på webbläsarversionen av Adobe Dynamic Media Classic användargränssnitt, som är märkt som Adobe Dynamic Media Classic i produkten.
+>Adobe rekommenderar att du installerar den nya Adobe Dynamic Media Classic-appen senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player blir inaktuell den 31 december 2020. Efter detta datum kan du inte logga in på webbläsarversionen av Adobe Dynamic Media Classic användargränssnitt, som är märkt som Adobe Dynamic Media Classic i produkten.
 
-Se Frågor och svar för [Nu finns en ny inloggningsupplevelse för Adobe Dynamic Media Classic.](/help/using/new-ui-2020.md)
+Se Frågor och svar för [Nu finns ny inloggning från Adobe Dynamic Media Classic.](/help/using/new-ui-2020.md)
 
 ## Systemkrav för Adobe Dynamic Media Classic datorprogram {#system-requirements-dmc-app}
 
@@ -47,14 +47,14 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
 
 * Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
-* I Set editors **[!UICONTROL Close]**, **[!UICONTROL Save]** och **[!UICONTROL Save As]** inaktiveras knapparna när du har bläddrat resurser i **[!UICONTROL Add Assets]** -panelen.
+* I Set editors **[!UICONTROL Close]**, **[!UICONTROL Save]** och **[!UICONTROL Save As]** inaktiveras knapparna efter bläddring i **[!UICONTROL Add Assets]** -panelen.
 * **[!UICONTROL Play]** knappen i vyn Videodetalj fungerade inte.
 * Det gick inte att ange `d` och `e` in **[!UICONTROL Username]** och **[!UICONTROL Password]** fält när du kör macOS Monterey.
 * De återstående analys-API:erna flyttades till version 2.0.
 
 ## Korrigeringar i version 20.21.3 {#release-sept2021}
 
-* Brutna miniatyrbilder för resurser som visas efter en viss inaktivitetsperiod i skrivbordsappen.
+* Brutna miniatyrbilder för resurser som visas efter en viss inaktivitetsperiod i datorprogrammet.
 * Skrivbordsappen slutar svara, vanligtvis efter Set-åtgärder.
 * Automatiskt aktiverat begärandefunktionalitet och låsläge under **[!UICONTROL Test Image Serving]**.
 
@@ -66,7 +66,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 
 ## Korrigeringar i version 20.21.2 {#minor-release}
 
-* Känd begränsning i 20.21.1: den **[!UICONTROL Server]** nedrullningsbar lista på inloggningsskärmen var tom.
+* Känd begränsning i 20.21.1: **[!UICONTROL Server]** nedrullningsbar lista på inloggningsskärmen var tom.
 * I **[!UICONTROL Upload Job Options]**, standardvärde för lagernamn under **[!UICONTROL Photoshop Options]**, är nu **[!UICONTROL Photoshop and Layer Name]**. Lager i filen PSD överförs som separata bilder.
    * Det tidigare standardvärdet för **[!UICONTROL Layer name]**, som namnger bilderna efter deras lagernamn eller lagernummer i filen PSD. Lagernumret användes om lagernamnen i PSD-filen var Photoshop standardlagernamn.
    * Det nya standardvärdet för **[!UICONTROL Photoshop and Layer Name]**, namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn.
@@ -77,7 +77,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 
 * Inloggningsproblem på grund av timeout, vilket resulterar i följande meddelande: *Den här användaren kan tilldelas gruppen eller grupperna utan behörighet. Kontakta administratören.*
 * Förinställningar för visningsprogram dupliceras med varje felaktigt lösenordsförsök.
-* Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows®; arbeta som du vill på macOS.)
+* Skrivbordsprogrammet slutar svara på grund av många resurser i rotmappen. (Fast i Windows®; fungerar som du vill i macOS.)
 
 ## Korrigeringar i version 20.20.2 {#previous-version-fixes-desktop-app}
 
@@ -91,11 +91,11 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 Se även:
 
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen på Mac](#install-silent-mac-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows®](#install-silent-windows-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows](#install-silent-windows-dmc-app)
 
 1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
-1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
+1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
    * Den senaste versionen finns på följande webbplats:
 
@@ -110,7 +110,7 @@ Se även:
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -118,7 +118,7 @@ Se även:
 
 1. Gör något av följande beroende på vilket installationsprogram du har laddat ned.
 
-   * **macOS** -I **[!UICONTROL Drag & drop to install]** dialogruta, dra **[!UICONTROL Adobe Dynamic Media Classic]** och släppa **[!UICONTROL Applications]**.
+   * **macOS** -I **[!UICONTROL Drag & drop to install]** dialogruta, dra **[!UICONTROL Adobe Dynamic Media Classic]** och släpp den på **[!UICONTROL Applications]**.
 
      ![Dra och släpp installation på macOS](/help/using/assets/dragondrop-install1.png)
 
@@ -149,14 +149,14 @@ Se även:
 
 Se även:
 
-* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows®](#installation-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows®](#install-silent-windows-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows](#installation-dmc-app)
+* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows](#install-silent-windows-dmc-app)
 
-Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet på macOS:
+Hämta och *silent* installera den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet på macOS:
 
 1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
-1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet för macOS.
+1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet för macOS.
 
    * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
@@ -187,19 +187,19 @@ Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media C
 
 ## Hämta och *silent* installera den senaste Adobe Dynamic Media Classic-appen på Windows® {#install-silent-windows-dmc-app}
 
-Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
+Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Den här svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 Se även:
 
-* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows®](#installation-dmc-app)
+* [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows](#installation-dmc-app)
 
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen på macOS](#install-silent-mac-dmc-app)
 
-Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media Classic på Windows®:
+Hämta och *silent* installera den senaste versionen av Adobe Dynamic Media Classic på Windows®:
 
 1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
-1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
+1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
    * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
@@ -233,9 +233,9 @@ Ladda ned och *silent* installera den senaste versionen av Adobe Dynamic Media C
 
 ## Videogenomgång om hur du använder Adobe Dynamic Media Classic datorprogram {#dmc-app-video-walk-through}
 
-Se en [videoutgång om hur du använder Adobe Dynamic Media Classic datorprogram](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (Längd: 2 minuter (36 sekunder).
+Se en [videoutgång om hur du använder Adobe Dynamic Media Classic datorprogram](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (längd: 2 minuter 36 sekunder).
 
-## Rensa bildcachen och resurscachen på datorn med skrivbordsappen {#clear-cache}
+## Rensa bildcachen och resurscachen på datorn med datorprogrammet {#clear-cache}
 
 1. I Adobe Dynamic Media Classic-datorprogrammet trycker du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. På **[!UICONTROL Personal Setup]** sida, under **[!UICONTROL Desktop]** gör du något av följande:
@@ -254,13 +254,13 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Känd begränsning i Adobe Dynamic Media Classic 20.21.1
 
-* The **[!UICONTROL Server]** nedrullningsbar lista är tom efter uppdatering till Adobe Dynamic Media Classic datorprogram 20.21.1 - Scenario: Du installerar och loggar in på Adobe Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Därefter uppdaterar du till Adobe Dynamic Media Classic 20.21.1. När du försöker logga in visas **[!UICONTROL Server]** nedrullningsbar lista i **[!UICONTROL Sign in to your account]** är tom. Du måste [rensa cacheminnet manuellt](#clear-cache) (se stegen ovan).
+* The **[!UICONTROL Server]** rullgardinsmenyn är tom efter uppdatering till Adobe Dynamic Media Classic datorprogram 20.21.1 - Scenario: Du installerar och loggar in på Adobe Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Uppdatera sedan till Adobe Dynamic Media Classic 20.21.1. När du försöker logga in visas **[!UICONTROL Server]** nedrullningsbar lista i **[!UICONTROL Sign in to your account]** är tom. Du måste [rensa cachen manuellt](#clear-cache) (se stegen ovan).
 
 ## Kända begränsningar i Adobe Dynamic Media Classic 20.20.1 (fast i 20.20.2)
 
 **_Gäller endast Windows® - finns det en begränsning av antalet filer som kan överföras via skrivbordsappens användargränssnitt?_**<br>Ja, högst 150 filer kan överföras åt gången via skrivbordsappens användargränssnitt.
 
-**_Gäller Windows® och macOS - Hur växlar jag mellan företag?_**<br>Så här byter du mellan företag:
+**_Gäller Windows® och macOS - Hur byter jag mellan företag?_**<br>Så här byter du mellan företag:
 
 * I appen Adobe Dynamic Media Classic väljer du det nya företaget i listrutan för företag.
 * Tryck på när popup-fönstret visas **[!UICONTROL OK]** för att logga ut och stänga appen.

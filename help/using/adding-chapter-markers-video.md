@@ -1,27 +1,25 @@
 ---
 title: Lägga till kapitelmarkörer i video
 description: Lär dig hur du lägger till kapitelmarkörer i en videofilm i Adobe Dynamic Media Classic.
-uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
 
 # Lägga till kapitelmarkörer i video {#adding-chapter-markers-to-video}
 
-Du kan göra det enklare att titta på och navigera i videoklipp med långa formulär genom att lägga till kapitelmarkörer i enstaka videor eller i adaptiva videouppsättningar. När en användare spelar upp videon kan han/hon välja kapitelmarkörer på tidslinjen (kallas även videobandskrubber). På så sätt kan de enkelt navigera till sin intressepunkt eller direkt gå till nytt innehåll, demonstrationer, självstudiekurser och så vidare.
+Du kan göra dina videoklipp i långa format enklare att titta på och navigera genom att lägga till kapitelmarkörer i enstaka videor eller i adaptiva videouppsättningar. När en användare spelar upp videon kan han/hon välja kapitelmarkörer på tidslinjen (kallas även videobandspelare). På så sätt kan de enkelt navigera till sin intressepunkt eller direkt gå till nytt innehåll, demonstrationer, självstudiekurser och så vidare.
 
 >[!NOTE]
 >
@@ -31,7 +29,7 @@ Se [Lägga till eller redigera en förinställning för visningsprogram för vid
 
 Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
-Du skapar en kapitellista för videon på ungefär samma sätt som du skapar bildtexter. Det innebär att du skapar en WebVTT-fil. Observera dock att den här filen måste vara separat från alla WebVTT-beskrivningsfiler som du också använder. du kan inte kombinera bildtexter och kapitel i en WebVTT-fil.
+Du skapar en kapitellista för videon på ungefär samma sätt som du skapar bildtexter. Det innebär att du skapar en WebVTT-fil. Observera dock att den här filen måste vara separat från alla WebVTT-beskrivningsfiler som du kan använda. Du kan inte kombinera bildtexter och kapitel i en WebVTT-fil.
 
 Du kan använda följande exempel som exempel på det format du använder för att skapa en WebVTT-fil med kapitelnavigering:
 
@@ -85,8 +83,8 @@ Se [WebVTT: Textspårningsformat för webbvideo](https://w3c.github.io/webvtt/).
 
    * Om du vill visa en inbäddad video väljer du **[!UICONTROL Embed Code]** till höger om namnet.
 
-     I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
+     Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
 
      För HTML5 `Universal_HTML5_Video` visningsprogrammet lägger du till den kopierade inbäddningskoden med följande:
 
-     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

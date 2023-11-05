@@ -1,15 +1,15 @@
 ---
 title: Dynamic Media nyhetsbrevarkiv
-description: "Det arkiverade nyhetsbrevet från Experience League var ett månatligt nyhetsbrev. Den har utformats för att hjälpa dig att komma igång med Dynamic Media och Adobe Dynamic Media Classic så att du kan förverkliga ditt värde direkt. De arkiverade nyhetsbreven innehåller värdefulla kunskapsskapande resurser som var tillgängliga i det här nyhetsbrevet som nu har upphört. Arkiverade nyhetsbrev innehåller instruktionsvideor och lösningsöversikter. Det finns också introduktioner till viktiga funktioner och funktioner som förinställningar för bilder, visningsinställningar och videoprofiler."
+description: Det arkiverade nyhetsbrevet från Experience League var ett månatligt nyhetsbrev som utformats för att hjälpa dig att komma igång med Dynamic Media i AEM och Dynamic Media Classic.
 keywords: dynamiska medier;nyhetsbrev;produktuppdateringar;tips och tricks;event;customer success;blog;blogs;images;videor;features;capabilities
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---

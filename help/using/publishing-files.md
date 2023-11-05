@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1681'
+source-wordcount: '1684'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program.
 
-Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar kommunikationen mellan webbläsare och servrar, vilket ger bättre respons och laddningstider för alla dina Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla era Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
 
 ## Publicera efter överföring {#publish-after-uploading}
 
@@ -33,14 +33,14 @@ Använd dessa tekniker för att markera resurser för publicering:
 
 * **[!UICONTROL Publish After Uploading]** - På sidan Överför väljer du **[!UICONTROL Publish After Uploading]**. Standardläget är ett markerat läge.
 
-* **[!UICONTROL Publish After Uploading]** - I dialogrutan Jobbalternativ väljer du **[!UICONTROL Publish After Uploading]**. Standardläget är ett markerat läge.
+* **[!UICONTROL Publish After Uploading]** - Välj i dialogrutan Jobbalternativ **[!UICONTROL Publish After Uploading]**. Standardläget är ett markerat läge.
 
 Vissa underordnade resurser markeras automatiskt för publicering när deras överordnade objekt markeras för publicering. I den här tabellen visas underordnade resurser som markerats för publicering automatiskt.
 
 | Överordnat objekt (grupp) | Underordnade (medlem) objekt |
 | --- | --- |
 | Bilduppsättningar | Bilder i uppsättningen. |
-| Färgruteuppsättningar | Färgrutor i uppsättningen. |
+| Uppsättningar med färgrutor | Färgrutor i uppsättningen. |
 | Snurra uppsättningar | Bilder i uppsättningen. |
 | Mallar | Mallfiler, sidor och bilder. |
 
@@ -52,7 +52,7 @@ Skapa ett publiceringsjobb för att publicera resurser som du har överfört til
 
 **Så här skapar du ett publiceringsjobb:**
 
-1. Välj **[!UICONTROL Publish]**.
+1. I fältet Global navigering väljer du **[!UICONTROL Publish]**.
 1. I dialogrutan Publicera väljer du om du vill ha ett enstaka eller återkommande publiceringsjobb.
 
    Se [Skapa ett engångspubliceringsjobb](publishing-files.md#creating_a_one_time_publish_job) och [Skapa ett återkommande publiceringsjobb](publishing-files.md#creating_a_recurring_publish_job).
@@ -74,7 +74,7 @@ Adobe Dynamic Media Classic spårar publiceringsjobb på jobbsidan. Du kan grans
 
 Skapa ett engångspubliceringsjobb genom att välja **[!UICONTROL One-Time]** på sidan Publicera.
 
-Om du vill att publiceringsjobbet ska utföras senare väljer du på sidan Publicera **[!UICONTROL One-Time]** väljer **[!UICONTROL Schedule For Later]** nedrullningsbar meny. Använd kalendern och tidsreglaget för att välja dag och tid för publiceringsjobbet.
+Om du vill att publiceringsjobbet ska utföras senare väljer du på sidan Publicera **[!UICONTROL One-Time]** väljer **[!UICONTROL Schedule For Later]** i listrutan. Använd kalendern och tidsreglaget för att välja dag och tid för publiceringsjobbet.
 
 ### Skapa ett återkommande publiceringsjobb {#creating-a-recurring-publish-job}
 
@@ -106,7 +106,7 @@ Se [Använd ett överförings- eller publiceringsjobb som utlösare](checking-jo
 
 Du kan avbryta ett pågående publiceringsjobb. Om du är administratör kan du dessutom avbryta ett pågående publiceringsjobb från företagets jobbsida.
 
-Om du vill avbryta ett publiceringsjobb går du till sidan Jobb och väljer **[!UICONTROL Cancel]**. På fliken Schemalagda på sidan Jobb kan du pausa eller återuppta ett jobb genom att avmarkera eller markera kryssrutan i kolumnen Aktiv för jobbet.
+Om du vill avbryta ett publiceringsjobb går du till sidan Jobb och väljer **[!UICONTROL Cancel]**. På fliken Schemalagda på sidan Jobb kan du pausa eller återuppta ett jobb genom att avmarkera eller markera kryssrutan i jobbkolumnen.
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Om du vill avbryta ett publiceringsjobb går du till sidan Jobb och väljer **[!
 
 Du kan publicera enskilda resurser manuellt i stället för att skapa ett publiceringsjobb. När du publicerar uppsättningar, till exempel en bilduppsättning eller en adaptiv videouppsättning, publiceras uppsättningen (eller &quot;överordnad&quot;) och alla medlemmar (eller &quot;underordnade&quot;) i uppsättningen.
 
-Opublicerade resurser visas i användargränssnittet med en grå, rund ikon med ett snedstreck (opublicerat läge) till vänster om resursens namn. När en resurs har publicerats blir ikonen grön och har en vit bockmarkering i mitten (publicerat läge).
+Opublicerade resurser visas i användargränssnittet med en grå, rund ikon med ett snedstreck (opublicerat läge) till vänster om resursens namn. När en resurs har publicerats blir ikonen grön och har en vit bock i mitten (publicerat läge).
 
 **Så här publicerar du resurser manuellt:**
 
@@ -130,7 +130,7 @@ Opublicerade resurser visas i användargränssnittet med en grå, rund ikon med 
 
 ## Avpublicera resurser manuellt {#manually-unpublishing-assets}
 
-Du kan avpublicera enskilda resurser manuellt. När du avpublicerar uppsättningar, till exempel en uppsättning med färgrutor eller en eCatalog, försätts själva uppsättningen (eller&quot;överordnad&quot;) i ett opublicerat läge. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
+Du kan avpublicera enskilda resurser manuellt. När du avpublicerar uppsättningar, till exempel en uppsättning med färgrutor eller en eCatalog, försätts själva uppsättningen (eller&quot;överordnad&quot;) i ett opublicerat läge. Medlemmarna (eller&quot;underordnade&quot;) i uppsättningen påverkas dock inte. De behåller i stället sitt befintliga publicerade eller opublicerade läge.
 
 Publicerade resurser visas i användargränssnittet med en rund, grön ikon med en vit bock i mitten (publicerat läge) till vänster om resursens namn. När en resurs inte har publicerats blir ikonen grå med ett snedstreck (opublicerat läge),
 
@@ -138,19 +138,19 @@ Publicerade resurser visas i användargränssnittet med en rund, grön ikon med 
 
 1. Gör något av följande:
 
-   * Markera en eller flera publicerade resurser i Stödrastervisning, listvy eller detaljvy.
+   * I Stödrastervisning, listvy eller detaljvy väljer du en eller flera publicerade resurser.
 
      På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
    * I Stödrastervisning, listvy eller detaljvy väljer du den runda, gröna bockmarkeringsikonen till vänster om resursens namn.
 
-## Hämta en medias publiceringshistorik {#getting-an-asset-s-publish-history}
+## Hämta publiceringshistorik för en resurs {#getting-an-asset-s-publish-history}
 
 Det senaste datumet då en resurs publicerades visas i detaljvyn högst upp på panelen. Du kan få mer information om publiceringshistoriken genom att öppna panelen Historik och publicerade servrar i detaljvyn. Därifrån kan du se när resursen publicerades och till vilka servrar den publicerades.
 
 ## Återpublicerade resurser och CDN-förseningar {#republished-assets-and-cdn-delays}
 
-Adobe Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är ett system med datorservrar som är sammankopplade och som på ett transparent sätt samarbetar för att leverera innehåll, särskilt stort medieinnehåll, till slutanvändarna. I CDN-systemet lagras webbinnehåll i webbcacheminnen över Internet (kallas edge cache-nätverk). Webbinnehåll levereras från webbcachen till slutanvändarna för snabbare leveranser.
+Adobe Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är ett system med datorservrar som är sammankopplade och som på ett transparent sätt samarbetar för att leverera innehåll, särskilt stort medieinnehåll, till slutanvändarna. I CDN-systemet lagras webbinnehåll i webbcacheminnen över Internet (kallas edge cache-nätverk). Webbinnehåll levereras från webb-cachen till slutanvändarna för snabbare leveranser.
 
 Första gången någon hämtar en webbsida levereras resurserna till en CDN-webbcache-server. De lagras på den här servern så att nästa gång någon i samma område öppnar webbsidan kan samma cachelagrade innehåll levereras snabbare. Innehållet levereras snabbare eftersom det ligger närmare slutanvändaren. CDN gör att webbsidor visas snabbare. Den minskar behovet av bandbredd på den centrala servern eftersom innehållet levereras från edge cache-nätverket, inte från en central server i varje instans.
 
@@ -158,7 +158,7 @@ Nypublicerat Adobe Dynamic Media Classic-material är tillgängligt direkt för 
 
 Om du vill att dina nypublicerade bildresurser ska vara tillgängliga tidigare än tio timmars fördröjning kan du tömma webcacher på CDN. När du tömmer dessa webbcacher tas gammalt innehåll bort från CDN-webbcachen och ersätts med dina senast publicerade resurser.
 
-Om du vill tömma cachen går du till fältet Global navigering **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**. Alla markerade filer tas bort från cacheminnet. Om det inte finns några publicerbara resurser, eller om du inte är företagsadministratör, är alternativet Ta bort från CDN inte tillgängligt.
+Om du vill tömma cachen går du till fältet Global navigering **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**. Alla markerade filer tas bort från cachen. Om det inte finns några publicerbara resurser, eller om du inte är företagsadministratör, är alternativet Ta bort från CDN inte tillgängligt.
 
 >[!MORELIKETHIS]
 >

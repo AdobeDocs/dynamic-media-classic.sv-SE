@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3717'
+source-wordcount: '3716'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. 
 | Ljud | AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3 |
 | Cascading Style Sheet | CSS |
 | Färgprofiler | ICC, ICM |
-| Teckensnitt | AFM, OTF, PFB, PFM, PhotoFont, TTC, TTF |
+| Typsnitt | AFM, OTF, PFB, PFM, PhotoFont, TTC, TTF |
 | FXG | FXG |
 | Illustrator | AI, FXG |
 | Bilder | BMP, FPX, GIF, JPEG, JPG, PNG, PICT (endast Windows®), TIF, TIFF |
@@ -55,13 +55,13 @@ Stöd för TAR- och ZIP-överföring innehåller en kryssruta för att välja om
 
 ### Bildformat som inte stöds i Dynamic Media {#unsupported-image-formats-dynamic-media}
 
-I följande lista beskrivs de undertyper av rasterbildfilformat som *not* stöds i Dynamic Media.
+I följande lista beskrivs de undertyper av rasterbildfilformat som *not* som stöds i Dynamic Media.
 
 Se även [Identifiera filformat som inte stöds för Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * PNG-filer som har en IDAT-segmentstorlek som är större än 100 MB.
-* PSB-filer.
-* PSD-filer med en annan färgmodell än CMYK, RGB, Gråskala eller Bitmapp stöds inte. Färgrymderna DuoTone, Lab och Indexed stöds inte.
+* PSB-filer
+* PSD-filer med en annan färgrymd än CMYK, RGB, Gråskala eller Bitmapp stöds inte. Färgrymderna DuoTone, Lab och Indexed stöds inte.
 * PSD-filer med ett bitdjup som är större än 16.
 * TIFF-filer med flyttalsdata.
 * TIFF-filer med Lab-färgrymd.
@@ -72,12 +72,12 @@ För att få bästa möjliga resultat med Adobe Dynamic Media Classic bör du an
 
 | Tillgångstyp | Beskrivning/Recommendations |
 | --- | --- |
-| Ljud | Bland indatafilformaten för ljudresurser finns AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3. Du kan koda om ljud till följande format: MP3, AAC och HE-AAC. |
-| Bilder (för Bildstorlek, Zooma, Bilduppsättningar, Snurra uppsättningar) | Bilderna måste ha minst 2 000 pixlar med den längsta storleken. de vanliga bildstorlekarna varierar mellan 1 500 och 2 500 pixlar i den längsta storleken. Vi rekommenderar förlustfria bildformat, inklusive TIFF och PNG-filer. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten. Animate GIF-filer hanteras som annat statiskt innehåll. |
-| eCatalogs | Använd högupplösta PDF-filer som skapats i Adobe Acrobat eller ett Adobe Creative Suite-program som sparats som &quot;tryckoriginal&quot;. PDF innehåller alla teckensnitt, bilder, masker och refererade grafiska element som behövs, antingen som enkelsidiga, dubbelsidiga uppslag eller i ett flersidigt format. Ordna sidorna genom att namnge filerna i alfanumerisk ordning. Placera all PDF för din e-katalog i en enda mapp för att underlätta överföringen. Du kan välja beskärningsalternativ när du överför för att ta bort beskärningsområdet från PDF, inklusive skärmärken, passmärkesmål eller färgfält. De flesta tryckklara PDF-filerna finns i CMYK-färgmodellen, så det är viktigt att du hämtar den ICC-färgprofil för CMYK som används med dina PDF-filer. |
+| Ljud | Indataformat för ljudresurser är AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3. Du kan koda om ljud till följande format: MP3, AAC och HE-AAC. |
+| Bilder (för Bildstorlek, Zooma, Bilduppsättningar, Snurra uppsättningar) | Bilder måste ha minst 2 000 pixlar med den längsta storleken. De typiska bildstorlekarna varierar mellan 1 500 och 2 500 pixlar med den längsta storleken. Vi rekommenderar förlustfria bildformat, inklusive TIFF och PNG-filer. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten. Animate GIF-filer hanteras som annat statiskt innehåll. |
+| eCatalogs | Använd högupplösta PDF-filer som skapats i Adobe Acrobat eller ett Adobe Creative Suite-program som sparats som &quot;tryckoriginal&quot;. PDF innehåller alla teckensnitt, bilder, masker och refererade grafiska element, antingen som enkelsidiga, dubbelsidiga uppslag eller i ett flersidigt format. Ordna sidorna genom att namnge filerna i alfanumerisk ordning. Placera all PDF för din e-katalog i en enda mapp för att underlätta överföringen. Du kan välja beskärningsalternativ när du överför för att ta bort beskärningsområdet från PDF, inklusive skärmärken, registreringsmål eller färgfält. De flesta tryckklara PDF-filerna finns i CMYK-färgmodellen, så det är viktigt att du hämtar den ICC-färgprofil för CMYK som används med dina PDF-filer. |
 | Mallar | Bild- eller layoutdesign med flera lager som kan innehålla text, bilder och lager. Bildlager, textsträngar och attribut, som färg och storlek, kan parametriseras så att variabeldata kan anpassas. Bildkraven för användning i mallar är desamma som för andra bilder. Förbered bilderna i Photoshop eller något annat bildredigeringsprogram. Spara varje bild som en förenklad genomskinlig fil i TIFF- eller PNG-format. Kontrollera att bildupplösningen är lämplig för förväntad användning. Bilder för utskrift är 300 ppi. |
 | Videor | Adobe Dynamic Media Classic stöder videofiler som sparats i formaten OGV och MP4. Du kan omkoda filer till MP4-format vid överföring. Se [Filformat som stöds](#supported-static-file-formats). |
-| Teckensnitt | Överförda TrueType, Type1 (endast Windows®), OpenType®-teckensnitt och PhotoFonts. |
+| Typsnitt | Överförd TrueType, `Type1` (Endast Windows®), OpenType®-teckensnitt och PhotoFonts. |
 | Bilder | Bilder och bildfiler med flera lager. |
 | Bilduppsättningar och färgruteuppsättningar | En uppsättning närliggande bilder som kan visas i ett visningsprogram. |
 | ICC-profiler | En färgprofil som du kan använda för att konvertera en överförd bild från dess källfärgrymd till en annan färgrymd. |
@@ -134,7 +134,7 @@ Vanligtvis kan ett filnamn för en resurs vara samma som dess artikelnummer, pro
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
-### Mappstruktur {#folder-organization-and-structure}
+### Mappordning och struktur {#folder-organization-and-structure}
 
 Ordna och strukturera mappar och undermappar för ditt innehåll i Adobe Dynamic Media Classic innan du överför innehållet till systemet. Planering framåt på det här sättet har två stora fördelar:
 
@@ -147,7 +147,7 @@ Vilken mappnamnsmetod och struktur du väljer för att lagra ditt innehåll på 
 
 **Varumärkesbaserad** - För tillverkare med flera varumärken och detaljhandlare som marknadsför andra varumärken från andra företag, skiljer du filer åt i produktmappar som namngetts för olika varumärken.
 
-**Projektbaserad** - Mappar ordnas efter datum för utrullning/släppning eller projektnamn. Kunder som främst producerar e-kataloger gillar detta.
+**Projektbaserad** - Mappar ordnas efter datum för utrullning/släppning eller projektnamn. Kunder som främst producerar e-kataloger gillar den här metoden.
 
 **Spegling av webbplatsmappens hierarki** - Den här mappstrukturen speglar mappstrukturen för webbplatsen, med mapparna för t.ex. produktkategorier.
 
@@ -178,7 +178,7 @@ Namnet på det här alternativet kan vara annorlunda, beroende på inställninga
 
 1. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Save]**.
 1. I det nedre högra hörnet på sidan Överför väljer du **[!UICONTROL Submit Upload]**.
-Välj **[!UICONTROL Jobs]** på det globala navigeringsfältet. Du kan fortsätta arbeta i Adobe Dynamic Media Classic och när som helst återgå till jobbsidan för att granska ett pågående jobb. Om du vill avbryta ett pågående överföringsjobb väljer du **[!UICONTROL Cancel]** bredvid Varaktighetstiden.
+Om du vill se överföringsförloppet väljer du **[!UICONTROL Jobs]** på det globala navigeringsfältet. Du kan fortsätta arbeta i Adobe Dynamic Media Classic och när som helst återgå till jobbsidan för att granska ett pågående jobb. Om du vill avbryta ett pågående överföringsjobb väljer du **[!UICONTROL Cancel]** bredvid Varaktighetstiden.
 
 ### Överföra filer med fliken VIA FTP {#upload-files-using-via-ftp}
 
@@ -193,7 +193,7 @@ Se [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files).
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 1. (Valfritt) I början av sidan Överför väljer du **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 Namnet på det här alternativet kan vara annorlunda, beroende på inställningarna i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
-1. Valfritt bara tillgängligt om du klickade på **[!UICONTROL VIA FTP]** -fliken. Långt ned på sidan Överför väljer du **[!UICONTROL Uncompress Zip or Tar Files on Upload]** om du automatiskt vill extrahera alla filer från den överförda ZIP- eller TAR-filen. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
+1. Valfritt - endast tillgängligt om du klickade på **[!UICONTROL VIA FTP]** -fliken. Långt ned på sidan Överför väljer du **[!UICONTROL Uncompress Zip or Tar Files on Upload]** om du automatiskt vill extrahera alla filer från den överförda ZIP- eller TAR-filen. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 1. I det nedre högra hörnet av sidan Överför väljer du **[!UICONTROL Job Options]** anger du önskade alternativ.
 
    Se [Överföringsalternativ](uploading-files.md#upload_options).
@@ -211,11 +211,11 @@ När du överför filer kan du välja mellan följande alternativ i dialogrutan 
 
 * **JOBB** - Välj **[!UICONTROL JOB]** om du vill välja alternativ som påverkar hela överföringsjobbet.
 
-  Du kan också välja *standard* alternativ för att överföra jobb med **[!UICONTROL Default Upload Options]** i Allmänna inställningar. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** anger du sedan de standardalternativ du vill använda.
+  Du kan också välja *standard* alternativ för att överföra jobb med hjälp av **[!UICONTROL Default Upload Options]** i Allmänna inställningar. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** anger du sedan de standardalternativ du vill använda.
 
    * **[!UICONTROL When]** - Det här alternativet är bara tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken.
       * **[!UICONTROL One-Time]** - Ange ett överföringsjobb som körs en gång. Alternativen är följande:
-         * **[!UICONTROL Now]** - Kör överföringsjobbet omedelbart efter att du har valt **[!UICONTROL Save]** i dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Submit Upload]** på sidan Överför.
+         * **[!UICONTROL Now]** - Kör överföringsjobbet omedelbart efter att du har valt **[!UICONTROL Save]** i dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL Submit Upload]** på sidan Överför.
          * **[!UICONTROL Schedule For Later]** - Välj året, månaden, dagen och tiden (i 15-minuterssteg) som du vill att överföringsjobbet ska köras.
       * **[!UICONTROL Recurring]** - Ange ett överföringsjobb som körs varje dag, vecka eller månad. Eller anpassa överföringsjobbet efter dina egna specifikationer.
          * **[!UICONTROL Daily]** - Ange den tid du vill att jobbet ska köras varje dag. Om du vill att jobbet bara ska köras måndag till fredag väljer du **[!UICONTROL Weekdays Only]**.
@@ -223,11 +223,11 @@ När du överför filer kan du välja mellan följande alternativ i dialogrutan 
          * **[!UICONTROL Monthly]** - Välj en specifik dag i månaden eller dagen i veckan, inklusive starttiden, som du vill att jobbet ska köras.
          * **[!UICONTROL Custom]** - Anpassa tidsintervallet för överföring eller publicering enligt dina egna specifikationer. Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL Publish After Uploading]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** -fliken eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du automatiskt vill publicera de resurser som du överför. När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är även tillgängligt på sidan Överför.
+   * **[!UICONTROL Publish After Uploading]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du automatiskt vill publicera de resurser som du överför. När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är även tillgängligt på sidan Överför.
 
-   * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** -fliken eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är även tillgängligt på sidan Överför. Namnet på det här alternativet kan vara annorlunda, beroende på inställningarna i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
+   * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är även tillgängligt på sidan Överför. Namnet på det här alternativet kan vara annorlunda, beroende på inställningarna i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
 
-   * **[!UICONTROL Uncompress Zip or Tar Files on Upload]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** -fliken eller **[!UICONTROL VIA FTP]** -fliken.
+   * **[!UICONTROL Uncompress Zip or Tar Files on Upload]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken.
 Välj det här alternativet om du automatiskt vill extrahera alla filer från den överförda ZIP- eller TAR-filen. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 
    * **[!UICONTROL Include subfolders]** - Endast tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken.
@@ -242,31 +242,31 @@ Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-me
       * **[!UICONTROL Color]** - Välj alternativet Färg. Välj sedan menyn Hörn och välj hörnet på bilden med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 Trimma baserat på färg: Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
       * **[!UICONTROL Transparency]** - Välj **[!UICONTROL Transparency]** alternativ.
-Trimma baserat på genomskinlighet: Ange 0 om du bara vill beskära pixlar om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
+Trimma baserat på genomskinlighet: Ange 0 om du bara vill beskära pixlar om de är genomskinliga. Med siffror närmare 1 får du mer genomskinlighet.
       * **[!UICONTROL Tolerance]** - Dra skjutreglaget för att ange en tolerans mellan 0 och 1.
 
 * **Alternativ för färgprofil** - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Adobe Dynamic Media Classic:
 
-   * **[!UICONTROL Default Color Preservation]** - Behåller källbildens färger när bilderna innehåller färgrymdsinformation. det inte finns någon färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
-   * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan någon färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering för att bearbeta begäranden om bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
+   * **[!UICONTROL Default Color Preservation]** - Bevarar källbildens färger när bilderna innehåller färgrymdsinformation. Det finns ingen färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+   * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan någon färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
    * **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Öppnar menyer så att du kan välja en **[!UICONTROL Convert From]** och **[!UICONTROL Convert To]** färgrymd. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Välj bara det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
 * **Bildredigeringsalternativ** - Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
 Se [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **PostScript®** - Du kan rastrera PostScript®, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
+* **Alternativ för PostScript®** - Du kan rastrera PostScript®, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Photoshop** - Du kan skapa mallar från Adobe® Photoshop®-filer, behålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
+* **Photoshop-alternativ** - Du kan skapa mallar från Adobe® Photoshop®-filer, underhålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
 Se [Överföringsalternativ för PSD](psd-files.md#psd_upload_options).
 
 * **Alternativ för PDF** - Du kan rastrera filerna, extrahera sökord och länkar, automatiskt generera en e-katalog, ange upplösningen och välja en färgrymd.
 Se [Överföringsalternativ för PDF](pdfs.md#pdf_upload_options).
 
-* **Illustrator** - Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
+* **Illustrator-alternativ** - Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **EVIDEO-alternativ** - Du kan omkoda en videofil genom att välja en videoförinställning.
+* **EVIDEO** - Du kan omkoda en videofil genom att välja en videoförinställning.
 Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 * **Ytterligare metadata** - Ange nyckelord som beskriver de filer som du tänker överföra. Separera nyckelord med kommatecken. Nyckelord gör det enklare att söka efter resurser.
@@ -288,7 +288,7 @@ Det nya jobbet skickar ett meddelande till den adress som du anger så att koden
 1. Välj **[!UICONTROL Upload]** väljer du **[!UICONTROL VIA FTP]** -fliken.
 1. I det nedre högra hörnet på sidan Överför väljer du **[!UICONTROL Job Options]**.
 1. Expandera dialogrutan Alternativ för överföring av jobb **[!UICONTROL ADVANCED]** -avsnitt.
-1. Välj något av följande från **[!UICONTROL Follow Upload with another job]** nedrullningsbar lista:
+1. Välj något av följande från **[!UICONTROL Follow Upload with another job]** listruta:
 
    * Ingen
    * HTTP-begäran

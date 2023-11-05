@@ -1,6 +1,6 @@
 ---
 title: Arbeta med PSD-filer
-description: Lär dig hur du arbetar med PSD-filer i Adobe Dynamic Media Classic.
+description: Lär dig hur du arbetar med PSD i Adobe Dynamic Media Classic.
 uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: Rick Brough
 content-type: reference
@@ -12,9 +12,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 PSD (Photoshop Document Files) används oftast i Adobe Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en Adobe Dynamic Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på överföringsskärmen).
 
-Adobe Dynamic Media Classic skapar flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall. skapas en bild för varje lager.
+Adobe Dynamic Media Classic skapar flera bilder från en PSD-fil med lager om du använder filen för att skapa en mall. En bild skapas för varje lager.
 
 ## Överföringsalternativ för PSD {#psd-upload-options}
 
@@ -33,13 +33,13 @@ Alternativ för att överföra PSD-filer finns under Photoshop-alternativ i dial
 
 De här alternativen är tillgängliga när du överför PSD-filer:
 
-* **Beskärningsalternativ** - Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** att automatiskt beskära tomrum från kanterna av en PSD-fil, välj **[!UICONTROL Manual]** för att beskära sidor av filen PSD:
+* **Beskärningsalternativ** - Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** om du vill beskära tomt utrymme automatiskt från kanterna på en PSD-fil, markerar **[!UICONTROL Manual]** om du vill beskära sidor av filen PSD:
 
    * **[!UICONTROL Trim]** - Välj **[!UICONTROL Trim Away Based On]** och väljer **[!UICONTROL Color]** eller **[!UICONTROL Transparency]**.
 
   Om du väljer **[!UICONTROL Color]** väljer du menyn Hörn och väljer hörnet på PSD med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 
-  Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 för att beskära pixlar endast om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
+  Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 om pixlarna bara ska beskäras om de är genomskinliga. Om du anger värden som är närmare 1 får du mer genomskinlighet.
 
    * **[!UICONTROL Manual]** - Ange antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Om bilden till exempel visar 150 ppi och du anger 75 i textrutorna Överkant, Höger, Underkant och Vänster, 0,5 tum. beskärs från varje sida av bilden.
 
@@ -53,7 +53,7 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 
 * **Photoshop-alternativ**
 
-   * **[!UICONTROL Maintain Layers]** - Rippar lagren i PSD, om det finns några, till enskilda resurser. Resurslagren förblir kopplade till PSD. Du kan visa dem genom att öppna filen PSD i detaljvyn och välja lagerpanelen. Se Visa och redigera lager i en PSD-fil.
+   * **[!UICONTROL Maintain Layers]** - Rippar lagren i PSD, om det finns några, till enskilda resurser. Resurslagren är fortfarande kopplade till PSD. Du kan visa dem genom att öppna filen PSD i detaljvyn och välja lagerpanelen. Se Visa och redigera lager i en PSD-fil.
 
    * **[!UICONTROL Create Template]** - Skapar en mall från lagren i filen PSD.
 
@@ -65,9 +65,9 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 
       * **[!UICONTROL Layer Name]** - Namnger bilderna efter deras lagernamn i filen PSD. Ett lager med namnet Price Tag i den ursprungliga PSD-filen blir till exempel en bild med namnet Price Tag. Om lagernamnen i filen PSD är Photoshop standardlagernamn (Bakgrund, Lager 1, Lager 2 och så vidare) får bilderna namn efter sina lagernummer i filen PSD. <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop and layer number]** - Namnger bilderna efter deras lagernummer i filen PSD och ignorerar de ursprungliga lagernamnen. Bilderna får samma namn som Photoshop-filnamnet och ett nummer i det tillagda lagret. Det andra lagret i en fil med namnet `Spring Ad.psd` är namngiven `Spring Ad_2` även om det har ett icke-standardnamn i Photoshop.
+      * **[!UICONTROL Photoshop and layer number]** - Namnger bilderna efter deras lagernummer i filen PSD och ignorerar de ursprungliga lagernamnen. Bilderna namnges med Photoshop-filnamnet och ett nummer på lagret som läggs till. Det andra lagret i en fil med namnet `Spring Ad.psd` är namngiven `Spring Ad_2` även om det har ett icke-standardnamn i Photoshop.
 
-      * **[!UICONTROL Photoshop and layer name]** - Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn. Ett lager med namnet `Price Tag` i en PSD-fil med namnet `SpringAd` är namngiven `Spring Ad_Price Tag`. Ett lager med standardnamnet Lager2 anropas `Spring Ad_2`.
+      * **[!UICONTROL Photoshop and layer name]** - Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn. Ett lager med namnet `Price Tag` i en PSD-fil med ett namn `SpringAd` är namngiven `Spring Ad_Price Tag`. Ett lager med standardnamnet Lager2 anropas `Spring Ad_2`.
 
    * **[!UICONTROL Anchor]** - Ange hur bilder är förankrade i mallar som genereras från lagerkompositionen som skapas från filen PSD. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan ersättningsbilder bäst fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
 
@@ -77,7 +77,7 @@ Om du valde alternativet Behåll lager när du överförde PSD, delade Adobe Dyn
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic har stöd för upp till fem nivåer i en kapslad lagergrupp.
+>Adobe Dynamic Media Classic stöder upp till fem nivåer i en kapslad lagergrupp.
 
 1. Dubbelklicka på den fullständiga PSD-filen på panelen Bläddra. Filen öppnas i detaljvyn.
 
@@ -88,12 +88,12 @@ Om du valde alternativet Behåll lager när du överförde PSD, delade Adobe Dyn
 1. Välj **[!UICONTROL Layers]**. Alla lager visas som separata bilder på panelen Lager.
 1. Dubbelklicka på ett lager och gör något av följande:
 
-   * Om du vill skapa ett bildschema på lagret väljer du **[!UICONTROL Image Map]** ikon. (Se [Skapa bildscheman](creating-image-maps.md#creating_image_maps).)
-   * Om du vill skapa zoommål på lagret väljer du **[!UICONTROL Zoom Targets]** ikon. (Se [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
-   * Beskär lagret genom att markera **[!UICONTROL Crop]** ikon. (Se [Beskära en bild](cropping-image.md#cropping_an_image).)
+   * Om du vill skapa ett bildschema på lagret väljer du **[!UICONTROL Image Map]** -ikon. (Se [Skapa bildscheman](creating-image-maps.md#creating_image_maps).)
+   * Om du vill skapa zoommål på lagret väljer du **[!UICONTROL Zoom Targets]** -ikon. (Se [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * Beskär lagret genom att markera **[!UICONTROL Crop]** -ikon. (Se [Beskära en bild](cropping-image.md#cropping_an_image).)
    * Om du vill öka skärpan i lagret markerar du **[!UICONTROL Sharpen]**. (Se [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image).)
    * Justera lagret genom att markera **[!UICONTROL Adjust]**. (Se [Justera en bild](adjusting-image.md#adjusting_an_image).)
 
 1. Välj **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
 1. Om du vill visa eller redigera ett annat lager väljer du en pil längst ned i förhandsgranskningen av lagret.
-1. Om du vill stänga lagerdetaljvyn väljer du **[!UICONTROL Grid View]** ikon.
+1. Om du vill stänga lagerdetaljvyn väljer du **[!UICONTROL Grid View]** -ikon.
