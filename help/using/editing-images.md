@@ -1,6 +1,6 @@
 ---
 title: Redigera bilder
-description: Lär dig hur du redigerar bilder i Adobe Dynamic Media Classic.
+description: Lär dig redigera bilder i Adobe Dynamic Media Classic.
 uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
 contentOwner: Rick Brough
 content-type: reference
@@ -12,7 +12,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Redigera bilder{#editing-images}
 
-Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här verktygen är tillgängliga genom att klicka på överrullningen **[!UICONTROL Edit]** och i panelen Bläddra i detaljvyn. Du kan göra följande bildredigeringsåtgärder i Adobe Dynamic Media Classic:
+Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här verktygen är tillgängliga genom att markera överrullningen **[!UICONTROL Edit]** och i panelen Bläddra i detaljvyn. Du kan göra följande bildredigeringsåtgärder i Adobe Dynamic Media Classic:
 
 * **Skapa bildscheman** - Om du vill skapa ett bildschema väljer du kommandot Bild eller **[!UICONTROL Image Map]** -knappen. En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet, som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/using/creating-image-maps.md).
 
@@ -29,7 +29,7 @@ Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här 
 
 * **Beskära en bild** - Om du vill beskära en bild väljer du kommandot Beskär eller **[!UICONTROL Crop]** -knappen. Se [Beskära en bild](/help/using/cropping-image.md).
 
-* **Öka skärpan i en bild** - Om du vill öka skärpan i en bild och göra konturerna mindre suddiga och mer distinkta väljer du kommandot Skärpa eller **[!UICONTROL Sharpen]** -knappen. Se [Öka skärpan i en bild](/help/using/sharpening-image.md).
+* **Öka skärpan i en bild** - Om du vill öka skärpan i en bild och göra konturerna mindre suddiga och tydligare väljer du kommandot Skärpa eller **[!UICONTROL Sharpen]** -knappen. Se [Öka skärpan i en bild](/help/using/sharpening-image.md).
 
 * **Justera en bild** - Välj kommandot Justera eller **[!UICONTROL Adjust]** för att vända, rotera, göra oskarpa, färglägga eller ändra färgbalansen i en bild. Se [Justera en bild](/help/using/adjusting-image.md).
 

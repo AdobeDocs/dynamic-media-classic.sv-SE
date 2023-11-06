@@ -10,7 +10,7 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -42,7 +42,7 @@ När du har publicerat en uppsättning med blandade media kan du hämta den asso
 
 ## Lägg till URL:er för blandad mediauppsättning på webbsidan {#add-mixed-media-set-urls-to-your-web-page}
 
-Det vanligaste sättet att distribuera en uppsättning med blandade media är att placera en länk (med hjälp av en navigeringsikon) på webbsidan. När du klickar på länken öppnas en dynamisk sida (ASP eller JSP) som visar den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen.
+Det vanligaste sättet att distribuera en uppsättning med blandade media är att placera en länk (med hjälp av en navigeringsikon) på webbsidan. När du väljer det här alternativet öppnas en dynamisk sida (ASP eller JSP) som visar den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen.
 
 ## Kopiera inbäddningskoden för ett visningsprogram för blandad medieuppsättning {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

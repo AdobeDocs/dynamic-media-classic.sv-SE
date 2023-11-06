@@ -12,7 +12,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Snabbstart: Bilduppsättningar{#quick-start-image-sets}
 
-Adobe Dynamic Media Classic Image Sets ger användarna en integrerad visningsupplevelse. I visningsprogrammet för den dynamiska bilduppsättningen kan användare visa olika vyer av ett objekt genom att klicka på en miniatyrbild. Med bilduppsättningar kan du visa alternativa högupplösta vyer av ett objekt.
+Adobe Dynamic Media Classic Image Sets ger användarna en integrerad visningsupplevelse. I visningsprogrammet för den dynamiska bilduppsättningen kan användarna se olika vyer av ett objekt genom att välja en miniatyrbild. Med bilduppsättningar kan du visa alternativa högupplösta vyer av ett objekt.
 
 I Image Set Viewer finns zoomningsverktyg som gör att du kan undersöka bilder noggrant. Om du vill kan du göra guidade zoommål och bildscheman till en del av din bilduppsättning. Bilduppsättningar ger en mer samordnad och intimt tittarupplevelse.
 
@@ -42,7 +42,7 @@ Följande snabbstart för bilduppsättningar är utformat för att du snabbt ska
 
 Börja med att ladda upp bilderna för dina bilduppsättningar. Eftersom användare kan zooma in på bilder i bilduppsättningsvisningsprogrammet måste du ta hänsyn till den här möjligheten när du väljer bilder. Se till att bilderna har en största storlek på minst 2 000 pixlar. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria bilder i TIFF, PNG och EPS rekommenderas.
 
-Välj **[!UICONTROL Upload]** för att överföra filer från datorn till en mapp på Adobe Dynamic Media Classic.
+I fältet Global navigering väljer du **[!UICONTROL Upload]** för att överföra filer från datorn till en mapp på Adobe Dynamic Media Classic.
 
 Se [Förbered bilduppsättningsresurser för överföring](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) och [Överför dina filer](uploading-files.md#uploading-your-files).
 
@@ -56,7 +56,7 @@ Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set).
 
 Se även [Inkludera zoommål och bildscheman i bilduppsättningar](/help/using/including-zoom-targets-image-maps-image-sets.md)
 
-## 3. Förbered bilduppsättningen med visningsförinställningar efter behov
+## 3. Förbered visningsförinställningar för bilduppsättning efter behov
 
 Administratörer kan skapa eller ändra förinställningar för bildspelsvisningsprogrammet. Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram för varje multimedietyp. Använda Zoomvisningsprogrammet: **[!UICONTROL Custom]** > **[!UICONTROL Images]** eller **[!UICONTROL Image Sets]**/**[!UICONTROL Multiple Views]** förinställningar för att visa dina bilduppsättningar.
 

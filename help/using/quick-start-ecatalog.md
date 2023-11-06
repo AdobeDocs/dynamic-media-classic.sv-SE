@@ -10,9 +10,9 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Beroende på vilka inställningar du väljer för din eCatalog kan du göra föl
 * Sök i katalogen efter nyckelord eller nyckelord. Sökresultaten visas som en lista med miniatyrbilder i en sökpanel till vänster i katalogen. Varje klickbar miniatyrbild representerar ett kataloguppslag där den markerade söktermen hittades.
 
 * Dela katalogen via sociala medier, ladda ned katalogen för att visa den offline, aktivera Favoriter för att markera objekt som du snabbt vill återvända till eller skriv ut katalogen.
-* Navigera i katalogen med hjälp av innehållsförteckningen eller sidstödrastervyn. Gå framåt eller bakåt genom att klicka på en sidas mittersta kant.
+* Navigera i katalogen med hjälp av innehållsförteckningen eller sidstödrastervyn. Gå framåt eller bakåt genom att markera en sidas mittersta kant.
 * Zooma in, zooma ut och panorera för att undersöka objekt på en sida.
 * Flytta pekaren över ett sidområde (kallas bildschema) så att du kan se ett popup-fönster med information om ett objekt.
 * Markera ett sidområde så att en ny webbsida med mer information om ett objekt öppnas.
@@ -76,7 +76,7 @@ På eCatalog-sidan, på **[!UICONTROL Order Pages]** väljer du ett layoutaltern
 
 Om du vill lägga till sidor markerar du en mapp i resursbiblioteket och drar PDF eller bildfiler från till skärmen Ordna sidor. I stället för standardsidnummer kan du ange egna sidnamn eller importera många sidnamn.
 
-Välj **[!UICONTROL Save]**, ange ett namn för din eCatalog, välja en Adobe Dynamic Media Classic-mapp att lagra den i och markera **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att klicka **[!UICONTROL Save]**.
+Välj **[!UICONTROL Save]**, ange ett namn för din eCatalog, välja en Adobe Dynamic Media Classic-mapp att lagra den i och markera **[!UICONTROL Save]**. Varje gång du ändrar sidordningen eller redigerar din e-katalog sparar du ändringarna genom att markera **[!UICONTROL Save]**.
 
 Se [Skapa en e-katalog](creating-ecatalog.md).
 

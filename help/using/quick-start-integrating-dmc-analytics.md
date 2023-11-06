@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Analytics är den branschledande produkten som ger marknadsförarna en plats där de kan mäta, analysera och optimera integrerade data från alla onlineinitiativ i flera marknadsföringskanaler.
 
-När du har integrerat Adobe Analytics med Adobe Dynamic Media Classic kan du få rapporter om webbplatsbesökarnas beteende med Adobe Dynamic Media Classic-visningsprogram på din webbplats. När en besökare på en webbplats till exempel klickar på ett zoommål i en Adobe Dynamic Media Classic Zoom Viewer registrerar Adobe Analytics den här åtgärden. Adobe Analytics-rapporter kan samla in kumulativ information om användaraktivitet i Adobe Dynamic Media Classic-visningsprogram.
+När du har integrerat Adobe Analytics med Adobe Dynamic Media Classic kan du få rapporter om webbplatsbesökarnas beteende med Adobe Dynamic Media Classic-visningsprogram på din webbplats. När en besökare på en webbplats väljer ett zoommål i en Adobe Dynamic Media Classic Zoom Viewer registrerar Adobe Analytics den här åtgärden. Adobe Analytics-rapporter kan samla in kumulativ information om användaraktivitet i Adobe Dynamic Media Classic-visningsprogram.
 
 Med Adobe Analytics rapporter kan du få en tydlig bild av kundernas aktivitet på din webbplats. Du kan avgöra vilka produktpresentationer som leder till konvertering och vilka som inte drar till sig kundernas intresse.
 

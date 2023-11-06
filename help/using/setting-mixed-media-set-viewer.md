@@ -12,7 +12,7 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 0%
@@ -56,11 +56,11 @@ Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogramm
 
    * **E-post** - Välj **[!UICONTROL On]** om du vill aktivera en e-postknapp i visningsprogrammet. När användare väljer knappen E-post när de visar uppsättningen öppnas ett e-postmeddelande med länken till uppsättningen.
 
-   * **Bädda in** - Välj **[!UICONTROL Live]**. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Välj **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
+   * **Bädda in** - Välj **[!UICONTROL Live]**. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Om du vill kan du markera **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Länk** - Välj **[!UICONTROL Live]**. Skriv det namn som du vill ska visas i visningsprogrammet för knappen Länk i rutan Länkknappsetikett. Välj **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
+   * **Länk** - Välj **[!UICONTROL Live]**. Skriv det namn som du vill ska visas i visningsprogrammet för knappen Länk i rutan Länkknappsetikett. Om du vill kan du markera **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Besök** - Välj **[!UICONTROL Live]**. I rutan Besök knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Besök. I rutan Besök URL skriver du URL-adressen till den webbplats som du vill öppna när du klickar på länken.
+   * **Besök** - Välj **[!UICONTROL Live]**. I rutan Besök knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Besök. I rutan Besök URL skriver du URL-adressen till den webbplats som du vill öppna när länken är markerad.
 
 1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ väljer du ikonen Tips för information bredvid alternativet.
 

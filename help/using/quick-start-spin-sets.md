@@ -12,7 +12,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett obj
 
 ![Bilder för en snurra uppsättning.](/help/using/assets/spin_set.png)
 
-Du kan även använda snurruppsättningar för bildscheman. En bildschema är ett område i en bild i den snurrande uppsättningen som visar en överrullningspanel med text. När användaren klickar på en bildschema utlöses en åtgärd av något slag. En webbsida startas till exempel så att användaren kan lära sig mer om en produkt. Om du vill peka ut ett bildschema i en snurruppsättning visas en kontur runt själva bildschemat när användaren flyttar muspekaren över den.
+Du kan även använda snurruppsättningar för bildscheman. En bildschema är ett område i en bild i den snurrande uppsättningen som visar en överrullningspanel med text. När användaren väljer en bildschema utlöses en åtgärd av något slag. En webbsida startas till exempel så att användaren kan lära sig mer om en produkt. Om du vill peka ut ett bildschema i en snurruppsättning visas en kontur runt själva bildschemat när användaren flyttar muspekaren över den.
 
 Se [Skapa bildscheman](creating-image-maps.md).
 

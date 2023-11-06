@@ -12,16 +12,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
 
 # Länka URL:er till ditt webbprogram{#linking-urls-to-your-web-application}
 
-Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
+Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
 
 Om du vill placera dessa URL-strängar på dina webbsidor och i dina program kopierar du dem från Adobe Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
 
@@ -66,7 +66,7 @@ I en Dynamic Media Image Server-URL visas instruktioner till servern om hur bild
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
 ```
 
-En URL för bildförinställning innehåller alla modifieringsinstruktioner för att visa bilden med rätt storlek och formateringsspecifikationer. Utan en bildförinställning kan du lägga märke till alla modifieringsinstruktioner efter frågetecknet (?) i den här URL-strängen:
+En URL för bildförinställning innehåller alla modifieringsinstruktioner för att visa bilden med rätt storlek och formateringsspecifikationer. Utan en bildförinställning kan du lägga märke till alla modifieringsinstruktioner efter frågetecknet (?) i denna URL-sträng:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resMode=sharp&op_usm=1.1,0.5,1,0
@@ -80,9 +80,9 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dynamic Media Image Server påträffar delen Image Preset (Bildförinställning) i URL:en `Large` i det här fallet) med hjälp av de inställningar för storlek och formatering som definieras av förinställningen &quot;Stor&quot; bild.
 
-## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
+## Lägga till dynamiska bilder på din webbsida {#adding-dynamic-images-to-your-web-page}
 
-Om du vill lägga till dynamiska bilder på din webbsida `<IMG>` -taggen i webbsideskoden för HTML ändras vanligtvis med Adobe Dynamic Media Classic URL-sträng för att göra en förfrågan till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
+Om du vill lägga till dynamiska bilder på webbsidan `<IMG>` -taggen i webbsideskoden för HTML ändras vanligtvis med Adobe Dynamic Media Classic URL-sträng för att göra en förfrågan till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 
 I stället för det vanliga anropet för att öppna en statisk bild som
 

@@ -9,7 +9,7 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1009'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Som standard upphör överföringstoken att gälla fem minuter (300 sekunder) ef
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-Svaret som lyckades för bilder ser ut ungefär så här:
+Svaret för bilder ser ut ungefär som följande:
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -91,7 +91,7 @@ Du kan använda följande fält i fråge-URL-strängen för att hämta en överf
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
-**Tillåtna HTTP-metoder:**
+**Tillåt HTTP-metoder:**
 `GET` och `POST`
 
 Du kan nu överföra en bildresurs.
@@ -110,7 +110,7 @@ The `upload_token` och `company_name` fält är obligatoriska.
 
 Se [Hämta överföringstoken](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-Se [Hämta en delad hemlig nyckel](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+Se [Hämta en delad-hemlig nyckel](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 Du kan också skicka andra valfria värden som URL-frågesträngar, som i det här exemplet:
 
@@ -140,7 +140,7 @@ Se Blockera bakgrund i [Alternativ för finjustering av bilder vid överföring]
 
 Du kan visa källkoden för HTML som är kopplad till formuläret ovan genom att välja [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-I Firefox högerklickar du i webbläsarfönstret och väljer sedan **[!UICONTROL View Page Source]**. Koden visar den motsvarande URL-frågesträngen och den POST-metod som körs när användaren klickar på **[!UICONTROL Submit]**.
+I Firefox högerklickar du i webbläsarfönstret och väljer sedan **[!UICONTROL View Page Source]**. Koden visar den motsvarande URL-frågesträngen och den POST-metod som körs när användaren väljer **[!UICONTROL Submit]**.
 
 Om du vill visa XML-svaret i Internet Explorer går du till **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svaret i Firefox går du till **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Firefox rekommenderas för visning av XML-svar.
 
@@ -170,7 +170,7 @@ Nedan följer ett exempelsvar från en slutförd överföring:
 >
 >Den överförda resursen (JPG, GIF och så vidare) konverteras till PTIFF-format och svaret skickar en direkt länk till den PTIFF-resursen.
 
-Resursen är som vilken annan ImageServing-resurs som helst. du kan använda bearbetningsfrågor på den. Följande URL begär till exempel en resurs som är utsträckt till den angivna bredden och höjden.
+Resursen är som vilken annan ImageServing-resurs som helst. Du kan använda bearbetningsfrågor på den. Följande URL begär till exempel en resurs som är utsträckt till den angivna bredden och höjden.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -183,7 +183,7 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 | `op` | Obligatoriskt | ladda upp |
 | `upload_token` | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
 | `company_name` | Obligatoriskt | Namnet på det företag som utför överföringen. |
-| `file_limit` | Valfritt | Filstorleksgräns, i byte, för resursen. |
+| `file_limit` | Valfritt | Filstorleksgräns i byte för resursen. |
 | `file_exts` | Valfritt | Lista över tillåtna tillägg för bildresursfilen. |
 | `preserve_colorprofile` | Valfritt | Bevarar inbäddad färgprofil när den överförda filen konverteras till PTIFF-format. Möjliga värden är true eller false. Standardvärdet är false. |
 | `preserve_filename` | Valfritt | Bevarar filnamnet för den överförda resursen. Möjliga värden är true eller false. Standardvärdet är false. |

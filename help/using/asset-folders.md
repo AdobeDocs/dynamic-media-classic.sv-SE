@@ -1,6 +1,6 @@
 ---
 title: Arbeta med resursmappar
-description: Lär dig hur du arbetar med resursmappar i Adobe Dynamic Media Classic.
+description: Lär dig arbeta med resursmappar i Adobe Dynamic Media Classic.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,16 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
 
 # Arbeta med resursmappar{#working-with-asset-folders}
 
-Filresurser i Adobe Dynamic Media Classic sparas i mappar. De här mapparna visas i alfabetisk ordning på panelen Resursbibliotek. Innan du överför filer från datorn eller nätverket till Adobe Dynamic Media Classic uppmanas du att namnge en mapp där filerna ska lagras. Skapa de här mapparna innan du överför några filer.
+Filresurser i Adobe Dynamic Media Classic sparas i mappar. Dessa mappar visas i alfabetisk ordning på panelen Resursbibliotek. Innan du överför filer från datorn eller nätverket till Adobe Dynamic Media Classic uppmanas du att namnge en mapp där filerna ska lagras. Skapa de här mapparna innan du överför några filer.
 
 Se till att du har en mappstruktur och organisation för lagring av dina filer på Adobe Dynamic Media Classic innan du överför filer.
 

@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Om du vill sortera innehållet i en mapp eller sökresultaten som visas i panele
 
 Du kan också välja **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]** om du vill sortera resurser i stigande eller fallande ordning efter de villkor du väljer.
 
-I listvyn kan du sortera genom att klicka på ett kolumnnamn.
+I listvyn kan du sortera genom att välja ett kolumnnamn.
 
 ## Genomför en enkel sökning {#conducting-a-simple-search}
 
@@ -49,7 +49,7 @@ Använd sökfältet i resursbiblioteket för att utföra enkla sökningar. Du ka
 
 1. I resursbiblioteket i **[!UICONTROL Folders]** markerar du mappen som du vill söka i en viss mapp och dess undermappar.
 1. Till vänster om sökfältet i resursbiblioteket väljer du **[!UICONTROL Magnifying Glass]** för att öppna listrutan.
-1. I listrutan väljer du ett alternativ som beskriver hur smal eller bred du vill att sökningen ska vara. Du kan välja **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]**, eller **[!UICONTROL Within Selected Folder & Subfolders]**.
+1. I listrutan väljer du ett alternativ som beskriver hur smal eller bred du vill att sökningen ska vara. Du kan **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]**, eller **[!UICONTROL Within Selected Folder & Subfolders]**.
 1. Ange en sökterm i fältet Sök.
 1. Till höger om sökfältet väljer du **[!UICONTROL Go]** eller tryck **[!UICONTROL Enter]**.
 
@@ -75,7 +75,7 @@ Ange något av följande villkor i den avancerade sökningen:
 
 * **Sökvillkor** - Skapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
 
-   1. I Avancerad sökning, under **[!UICONTROL Search criteria]** och till vänster om **[!UICONTROL Add a Field]** väljer du den nedåtriktade triangelpilen för att öppna listrutan. Välj en metadatavy. Du kan välja **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]**, eller **[!UICONTROL XMP]**.
+   1. I avancerad sökning, under **[!UICONTROL Search criteria]** och till vänster om **[!UICONTROL Add a Field]** väljer du den nedåtriktade triangelpilen för att öppna listrutan. Välj en metadatavy. Du kan **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]**, eller **[!UICONTROL XMP]**.
    1. Välj **[!UICONTROL Add a Field]** och välj ett fältnamn.
    1. Välj en **[!UICONTROL Contains]** alternativ: **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL Ends With]**, eller **[!UICONTROL Equals]**.
    1. För numeriska fält väljer du ett värde eller anger ett anpassat datumintervall.
@@ -83,7 +83,7 @@ Ange något av följande villkor i den avancerade sökningen:
 
 Välj **[!UICONTROL Remove search field]** -ikon (cirkel med &quot;X&quot; inuti) så att sökfältet tas bort.
 
-I det nedre högra hörnet av panelen Avancerad sökning väljer du **[!UICONTROL Search]** för att börja söka. Resultatet av sökningen visas i panelen Bläddra till höger. Du kan ändra alla sökvillkor och välja **[!UICONTROL Search]** för att köra sökningen igen.
+Välj i det nedre högra hörnet av panelen Avancerad sökning **[!UICONTROL Search]** för att börja söka. Resultatet av sökningen visas i panelen Bläddra till höger. Du kan ändra alla sökvillkor och välja **[!UICONTROL Search]** för att köra sökningen igen.
 
 Välj **[!UICONTROL Clear]** om du vill ta bort sökvillkoren och starta en ny sökning. Välj **[!UICONTROL Close]** när du har avslutat sökningen för att stänga sökpanelen.
 
@@ -159,7 +159,7 @@ Om du vill konfigurera metadataservern går du till **[!UICONTROL Setup]** > **[
 
 På sidan Publicera för metadataserver kan du ange följande alternativ:
 
-* **[!UICONTROL Instant Publish]** - Överför automatiskt alla metadataändringar när de görs, inklusive nya resurser, nyckelordsändringar o.s.v.
+* **[!UICONTROL Instant Publish]** - Överför automatiskt alla metadataändringar när de görs, inklusive nya resurser, nyckelordsändringar osv.
 
 * **[!UICONTROL XMP Packet]** - Publicerar XMP. Paketet används inte för sökning, men innehåller den senaste XMP.
 

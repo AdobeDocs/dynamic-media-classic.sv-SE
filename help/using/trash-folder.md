@@ -12,7 +12,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 # Hantera papperskorgen{#managing-the-trash-folder}
 
-Objekt som du tar bort från Adobe Dynamic Media Classic flyttas till papperskorgen. De borttagna filerna finns kvar i mappen i sju dagar tills de återställs eller tas bort permanent. Du kan undersöka borttagna objekt genom att klicka på **[!UICONTROL Trash]** längst ned i resursbiblioteket och när du visar objekt på papperskorgen.
+Objekt som du tar bort från Adobe Dynamic Media Classic flyttas till papperskorgen. De borttagna filerna finns kvar i mappen i sju dagar tills de återställs eller tas bort permanent. Du kan undersöka borttagna objekt genom att välja **[!UICONTROL Trash]** längst ned i resursbiblioteket och när du visar objekt på papperskorgen.
 
 Alla användare kan återställa objekt i papperskorgen till de mappar som de togs bort från. Alla användare kan också tömma papperskorgen på allt innehåll.
 
-Om du tar bort objekt från papperskorgen tas objekt bort permanent från Adobe Dynamic Media Classic. objekt som tas bort från papperskorgen kan inte längre återställas. Mer information om hur du ställer in meddelanden för företagsadministratörer när resurser ska tas bort automatiskt från papperskorgen finns i [Allmänna inställningar för programmet](application-setup.md#general_settings).
+Om du tar bort objekt från papperskorgen tas objekt från Adobe Dynamic Media Classic bort permanent. Objekt som tas bort från papperskorgen kan inte längre återställas. Mer information om hur du ställer in meddelanden för företagsadministratörer när resurser ska tas bort automatiskt från papperskorgen finns i [Allmänna inställningar för programmet](application-setup.md#general_settings).
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ Om du tar bort ett objekt i en mapp placeras objektet i papperskorgen. Följande
 
 ## Återställ resurser från papperskorgen {#restoring-assets-from-the-trash-folder}
 
-Det är inte nödvändigt att den som tagit bort en tillgång återställer den. alla kan återställa resurser från papperskorgen. Resurser som återställs placeras i de mappar som de har tagits bort från. Om mapparna inte längre finns återskapas de av Adobe Dynamic Media Classic och de återställda resurserna placeras i de mappar som du har skapat igen.
+Den som har tagit bort en resurs behöver inte återställa den. Alla kan återställa resurser från papperskorgen. Resurser som återställs placeras i de mappar som de har tagits bort från. Om mapparna inte längre finns återskapas de av Adobe Dynamic Media Classic och de återställda resurserna placeras i de mappar som du har skapat igen.
 
 Så här återställer du resurser från papperskorgen till de mappar som de togs bort från:
 
-1. Längst ned på panelen Resursbibliotek väljer du **[!UICONTROL Trash]** för att öppna papperskorgen.
+1. Längst ned på panelen Resursbibliotek väljer du **[!UICONTROL Trash]** -ikonen för att öppna papperskorgen.
 1. Markera den eller de resurser som du vill återställa.
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Restore from trash]**.
 
@@ -53,7 +53,7 @@ Så här återställer du resurser från papperskorgen till de mappar som de tog
 
 När du tar bort resurser i papperskorgen tas resurserna bort permanent. Resurser tas automatiskt bort från papperskorgen efter sju dagar.
 
-Om du vill ta bort resurser permanent från papperskorgen väljer du **[!UICONTROL Trash]** ikon. Gör något av följande på sidan Papperskorg:
+Om du vill ta bort resurser permanent från papperskorgen väljer du **[!UICONTROL Trash]** -ikon. Gör något av följande på sidan Papperskorg:
 
 * **Ta bort enskilda resurser** - Markera de resurser som du vill ta bort permanent och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
 

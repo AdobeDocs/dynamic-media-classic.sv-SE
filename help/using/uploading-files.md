@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3716'
+source-wordcount: '3722'
 ht-degree: 0%
 
 ---
@@ -193,7 +193,7 @@ Se [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files).
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 1. (Valfritt) I början av sidan Överför väljer du **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 Namnet på det här alternativet kan vara annorlunda, beroende på inställningarna i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
-1. Valfritt - endast tillgängligt om du klickade på **[!UICONTROL VIA FTP]** -fliken. Långt ned på sidan Överför väljer du **[!UICONTROL Uncompress Zip or Tar Files on Upload]** om du automatiskt vill extrahera alla filer från den överförda ZIP- eller TAR-filen. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
+1. Valfritt - endast tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken. Långt ned på sidan Överför väljer du **[!UICONTROL Uncompress Zip or Tar Files on Upload]** om du automatiskt vill extrahera alla filer från den överförda ZIP- eller TAR-filen. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 1. I det nedre högra hörnet av sidan Överför väljer du **[!UICONTROL Job Options]** anger du önskade alternativ.
 
    Se [Överföringsalternativ](uploading-files.md#upload_options).

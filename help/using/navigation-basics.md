@@ -12,16 +12,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
 
 # Navigeringsgrunder{#navigation-basics}
 
-Adobe Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation bar, Asset Library, Asset Filters tab, Browse Panel/Build Panel och Media Cart (endast Media Portal).
+Adobe Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation Bar, Asset Library, Asset Filters tab, Browse Panel/Build Panel och Media Cart (endast Media Portal).
 
 ![Navigeringsgrunder](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *Adobe Dynamic Media Classic viktigaste områden*
@@ -59,7 +59,7 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 Använd resursbiblioteket för att ordna de resurser du arbetar med. Du kan skapa mappar och undermappar för att ordna dina resurser i resursbiblioteket.
 
-Överst på panelen Resursbibliotek finns kommandon för att hitta resurser. Du kan söka efter resurser och filtrera för att hitta resurser. Välj **[!UICONTROL Trash]** ikonen längst ned i resursbiblioteket om du vill undersöka resurser som du har tagit bort.
+Överst på panelen Resursbibliotek finns kommandon för att hitta resurser. Du kan söka efter resurser och filtrera för att hitta resurser. Välj **[!UICONTROL Trash]** längst ned i resursbiblioteket om du vill undersöka resurser som du har tagit bort.
 
 >[!NOTE]
 >

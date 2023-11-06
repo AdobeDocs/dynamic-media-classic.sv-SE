@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1542'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](c
 
 ### Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Om du vill skapa ett anpassat tidsintervall för en överföring (via FTP) eller ett publiceringsjobb går du till sidan Överför eller Publicera **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**. Ange sedan siffror och jokertecken i rutan Regel som beskriver ett tidsintervall för överförings- eller publiceringsjobben som ska återkomma.
+Om du vill skapa ett anpassat tidsintervall för en överföring (via FTP) eller ett publiceringsjobb går du till sidan Överför eller Publicera. **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**. Ange sedan siffror och jokertecken i rutan Regel som beskriver ett tidsintervall för överförings- eller publiceringsjobben som ska återkomma.
 
 Syntaxen för att beskriva anpassade tidsintervall för överföring och publicering i rutan Regel är:
 
@@ -156,6 +156,6 @@ Den här listan innehåller exempel på hur du beskriver tidsintervall i rutan R
 
 ## Använd ett överförings- eller publiceringsjobb som utlösare {#using-an-upload-or-publish-job-as-a-trigger}
 
-När du överför resurser via FTP eller kör ett publiceringsjobb kan du schemalägga ett efterföljande jobb så att det börjar när överföringen är klar. (Om andra jobb är schemalagda att starta, köas jobbet som du schemalägger här bakom dem.) Det nya jobbet skickar ett meddelande till den adress som du anger så att koden på den platsen kan utlösas. Detta uppföljningsjobb får samma namn som det aktuella överföringsjobbet, men med prefixet _Pub.
+När du överför resurser via FTP eller kör ett publiceringsjobb, kan du schemalägga ett efterföljande jobb att börja när överföringen är klar. (Om andra jobb är schemalagda att starta, köas jobbet som du schemalägger här bakom dem.) Det nya jobbet skickar ett meddelande till den adress som du anger så att koden på den platsen kan utlösas. Detta uppföljningsjobb får samma namn som det aktuella överföringsjobbet, men med prefixet _Pub.
 
 Om du vill att ett överförings- eller publiceringsjobb ska utlösa ett annat jobb väljer du **[!UICONTROL Advanced]** på sidan Överför eller Publicera. Ange sedan URL:en i textfältet HTTP-meddelande.

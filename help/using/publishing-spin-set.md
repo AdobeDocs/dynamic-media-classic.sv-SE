@@ -12,7 +12,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -25,7 +25,7 @@ När du publicerar en snurruppsättning placeras bilderna i uppsättningen på D
 
 ## Markera en snurra uppsättning för publicering {#marking-a-spin-set-for-publish}
 
-Markera din snurruppsättning för publicering så att den kan kopieras till Adobe Dynamic Media Classic bildservrar. Du kan markera din snurrsuppsättning för publicering på panelen Bläddra genom att klicka på **[!UICONTROL Mark for Publish]** till vänster om namnet. Alla bilder i uppsättningen markeras för publicering när du markerar själva den nya uppsättningen för publicering.
+Markera din snurruppsättning för publicering så att den kan kopieras till Adobe Dynamic Media Classic bildservrar. Du kan markera din snurrsuppsättning för publicering på panelen Bläddra genom att välja **[!UICONTROL Mark for Publish]** ikonen till vänster om namnet. Alla bilder i uppsättningen markeras för publicering när du markerar själva den nya uppsättningen för publicering.
 
 ## Publicera snurrsuppsättningen {#publishing-the-spin-set}
 

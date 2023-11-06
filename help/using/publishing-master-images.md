@@ -12,7 +12,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -25,11 +25,11 @@ När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers,
 
 ## Markera primära bilder för publicering {#marking-master-images-for-publish}
 
-Primära bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina primära bilder för publicering i panelen Bläddra genom att klicka på **[!UICONTROL Mark for Publish]** ikon. Du kan också markera bilder för publicering när du överför dem till Adobe Dynamic Media Classic.
+Primära bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina primära bilder för publicering i panelen Bläddra genom att välja **[!UICONTROL Mark for Publish]** -ikon. Du kan också markera bilder för publicering när du överför dem till Adobe Dynamic Media Classic.
 
 ## Publicera dina primära bilder {#publishing-your-master-images}
 
-1. Välj **[!UICONTROL Publish]**. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och sedan ange ett namn för publiceringsjobbet
+1. I fältet Global navigering väljer du **[!UICONTROL Publish]**. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och sedan ange ett namn för publiceringsjobbet
 
 1. Välj **[!UICONTROL Submit Publish]**.
 
