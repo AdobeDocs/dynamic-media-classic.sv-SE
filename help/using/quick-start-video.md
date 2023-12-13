@@ -10,9 +10,9 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1391'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
   Se den senaste supporten i [Referenshandbok för Adobe-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-  Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. Du kan hitta BlackBerry®-enheter som stöder det här videoformatet på följande webbplats:
+  Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
-  Se [Videoformat som stöds på BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  <!-- See [Supported video formats on BlackBerry&reg;](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482). -->
 
   Följande Windows®-enheter har stöd för det här videoformatet:
 
-  Se [Videoformat som stöds på Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
+  [Videoformat som stöds på Windows® Phone](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * Spela upp videon med Adobe Dynamic Media Classic Viewer Presets, inklusive följande:
 

@@ -9,9 +9,9 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Se [Hantera statiskt innehåll (inte bildinnehåll)](https://experienceleague.ad
 
    | Typ av visningsprogram | Bildtextfil |
    |--- |--- |
-   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://w3c.github.io/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa bildtextfiler utanför Adobe Dynamic Media Classic. Om du till exempel vill skapa en enkel videobildtextfil utan formatering kan du använda följande kostnadsfria redigerings- och redigeringsverktyg för bildtexter online: <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>Du får bäst resultat om du använder verktyget i Internet Explorer 9 eller senare, Google Chrome eller Safari. <br><br>I verktyget, i <b>Ange URL för videofilen</b> -fält, klistra in URL-adressen till videofilen och markera sedan <b>Läs in</b>. <br><br>Om du till exempel använder en Adobe Dynamic Media Classic-URL för videofilen dubbelklickar du på en enskild videoresurs (inte en adaptiv videouppsättning eller en primär video) för att öppna den i detaljvyn. Expandera URL:er och Bädda in kod i den högra panelen i detaljvyn. Under Mobile-gruppen till höger om Mobile (Progressive) väljer du <b>Kopiera URL</b>. Den här processen ger dig URL:en till själva videofilen som du sedan kan klistra in i <b>Ange URL för videofilen</b> fält. Internet Explorer, Chrome eller Safari kan sedan spela upp videon direkt. Följ nu instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget VTT. <br><br><b>Obs!</b> För globalt stöd för videobeskrivningar på andra språk än engelska kräver WebVTT-standarden att du skapar separata VTT-filer och anropar varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
+   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://w3c.github.io/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns många webbplatser som innehåller både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa WebVTT-bildtextfiler utanför Adobe Dynamic Media Classic. <br><br>Följ instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget VTT. <br><br><b>Obs!</b> För globalt stöd för videobeskrivningar på andra språk än engelska kräver WebVTT-standarden att du skapar separata VTT-filer och anropar varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
 
 1. I Adobe Dynamic Media Classic överför du bildtextfilen WebVTT, DFXP eller SMPTE XML.
 
