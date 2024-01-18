@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
 * **[!UICONTROL Total]** - Antal överförda filer.
 
-* **[!UICONTROL W (warnings)]** - Antal varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Till exempel: `.DS_store` filer (Macintosh) och Thumbs.db-filer (Windows®) innehåller information om hur du visar bildfiler för användare. Varningsposter för dessa filer kan dock ignoreras eftersom de inte gäller hur dessa filer används i Adobe Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
+* **[!UICONTROL W (warnings)]** - Antal varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Till exempel: `.DS_store` filer (Mac) och Thumbs.db-filer (Windows®) innehåller information om hur du visar bildfiler för användare. Varningsposter för dessa filer kan dock ignoreras eftersom de inte gäller hur dessa filer används i Adobe Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
 
 * **[!UICONTROL E (errors)]** - Visar antalet fel i jobbet (om sådana finns). Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om fel.
 

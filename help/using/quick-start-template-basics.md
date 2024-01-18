@@ -12,9 +12,9 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överf
 
 ## 2. Skapa en mall
 
-Om du vill skapa en mall från en PSD-fil väljer du **[!UICONTROL Create Template]** när du överför filen. Om du vill skapa en mall från bilder går du till navigeringsfältet Global **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**, anger du en bredd- och höjdmätning för arbetsytan. I sidans övre högra hörn väljer du antingen **[!UICONTROL Designer]** eller **[!UICONTROL Developer]** och dra bilder till mallsidan. Du kan också välja bilderna *före* du går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. På mallsidan finns verktyg för:
+Om du vill skapa en mall från en PSD-fil väljer du **[!UICONTROL Create Template]** när du överför filen. Om du vill skapa en mall från bilder går du till navigeringsfältet Global **[!UICONTROL Build]** > **[!UICONTROL Template Basics]** anger du en bredd och en höjd för arbetsytan. I sidans övre högra hörn väljer du antingen **[!UICONTROL Designer]** eller **[!UICONTROL Developer]** och dra bilder till mallsidan. Du kan också välja bilderna *före* du går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. På mallsidan finns verktyg för:
 
 * Lägga till bildlager. Lägg till ett lager genom att dra en bild till mallsidan.
 * Lägga till textlager. Välj **[!UICONTROL Text tool]** -ikon. Dra pekaren för att skapa en ruta för textlagret och formatera sedan texten med verktygen på textsidan.

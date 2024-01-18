@@ -10,20 +10,20 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
 
 # Bästa tillvägagångssätt för att optimera bildkvaliteten{#best-practices-for-optimizing-the-quality-of-your-images}
 
-Att optimera bildkvaliteten kan vara en tidskrävande process eftersom många faktorer bidrar till att återge godtagbara resultat. Resultatet är delvis subjektivt eftersom individer upplever olika bildkvalitet. Strukturerade experiment är avgörande.
+Att optimera bildkvaliteten kan ta lång tid. Många faktorer bidrar till att återge godtagbara resultat. Resultatet är delvis subjektivt eftersom individer upplever olika bildkvalitet. Strukturerade experiment är avgörande.
 
 Adobe Dynamic Media Classic innehåller över 100 bildserverkommandon för justering och optimering av bilder och återgivning. Följande riktlinjer kan hjälpa dig att effektivisera processen och uppnå goda resultat snabbt med några viktiga kommandon och bästa metoder.
 
-Se även [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Se även [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 >[!TIP]
 >
@@ -55,7 +55,7 @@ Att minska bildstorleken dynamiskt är en av de vanligaste uppgifterna som Dynam
 * För bildstorlek är det bästa och enklaste sättet att använda `&wid=<value>` och `&hei=<value>` eller bara `&hei=<value>`. Dessa parametrar ställer automatiskt in bildbredden i enlighet med proportionerna.
 * `&resMode=<value>` styr den algoritm som används för nedsampling. Börja med `&resMode=sharp2`. Det här värdet ger den bästa bildkvaliteten. När nedsamplingsvärdet används `=bilin` är snabbare, leder det ofta till aliasing av artefakter.
 
-Ett tips om hur du kan ändra storlek på bilder är att använda `&wid=<value>&hei=<value>&resMode=sharp2` eller `&hei=<value>&resMode=sharp2`
+Ett tips om hur du kan ändra bildstorlek är att använda `&wid=<value>&hei=<value>&resMode=sharp2` eller `&hei=<value>&resMode=sharp2`
 
 ## Bästa tillvägagångssätt för bildskärpa {#best-practices-for-image-sharpening}
 
@@ -65,7 +65,7 @@ Rapport om bästa praxis [Öka skärpan i bilder i Adobe Dynamic Media Classic o
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Med Adobe Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid leverans eller både och. Normalt kan du emellertid skärpa upp bilder med bara en metod eller med en annan, men inte med båda metoderna. Att skärpa bilderna vid leverans, på en URL-adress, ger oftast bäst resultat.
+Med Adobe Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid leverans eller både och. Vanligtvis kan du skärpa upp bilder med bara en metod eller med en annan, men inte med båda metoderna. Att skärpa bilderna vid leverans, på en URL-adress, ger oftast bäst resultat.
 
 Det finns två metoder för bildskärpa som du kan använda:
 
@@ -85,14 +85,14 @@ Det finns två metoder för bildskärpa som du kan använda:
 
         Mer information om hur du ställer in de här tre parametrarna, inklusive de bästa metoderna att använda med filtret, finns i [Öka skärpan i bilder i Adobe Dynamic Media Classic och Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-      * Med Adobe Dynamic Media Classic kan du också styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskning används separat på varje färgkomponent med hjälp av värdet `0` eller bildens intensitet/intensitet med hjälp av värdet `1`.
+      * Med Adobe Dynamic Media Classic kan du även styra en fjärde parameter: monokrom ( `0,1`). Den här parametern avgör om oskarp maskning används separat på varje färgkomponent med hjälp av värdet `0` eller bildens intensitet/intensitet med hjälp av värdet `1`.
 
-Det bästa sättet är att börja med parametern oskarp maskradie. Radie-inställningar som du kan börja med är följande:
+Ett tips är att börja med parametern unsharp mask radius. Radie-inställningar som du kan börja med är följande:
 
 * Webbplats: 0,2-0,3 pixlar
 * Fotografisk utskrift (250-300 ppi): 0,3-0,5 pixlar
 * Offsettryck (266-300 ppi): 0,7-1,0 pixlar
-* Arbetsyteutskrift (150 ppi): 1,5-2,0 pixlar
+* Utskrift på arbetsytan (150 ppi): 1,5-2,0 pixlar
 
 Öka mängden gradvis från 1,75 till 4. Om skärpan fortfarande inte är som du vill ha den ökar du radien med ett decimalkomma och kör mängden igen från 1,75 till 4. Upprepa vid behov.
 
@@ -100,16 +100,16 @@ Lämna den monokroma parameterinställningen på 0.
 
 ## Metodtips för komprimering av JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
 
-* Den här parametern styr kodningskvaliteten för JPG. Ett högre värde innebär en bild av högre kvalitet men en stor filstorlek. Ett lägre värde innebär en bild med lägre kvalitet men mindre filstorlek. Intervallet för den här parametern är 0-100.
-* Om du vill optimera kvaliteten ska du inte ställa in parametervärdet på 100. Skillnaden mellan en inställning på 90 eller 95 och 100 är nästan otydlig, men 100 ökar storleken på bildfilen i onödan. Om du vill optimera kvaliteten men undvika att bildfilerna blir för stora anger du `qlt=` till 90 eller 95.
-* Om du vill optimera för en liten bildfilsstorlek men behålla bildkvaliteten på en acceptabel nivå anger du `qlt=` till 80. Värden under 70 till 75 ger en signifikant försämring av bildkvaliteten.
+* Den här parametern styr kodningskvaliteten för JPG. Ett högre värde innebär en bild med högre kvalitet men en stor filstorlek. Ett lägre värde innebär en bild med lägre kvalitet men mindre filstorlek. Intervallet för parametern är 0-100.
+* Om du vill optimera kvaliteten ska du inte ange parametervärdet 100. Skillnaden mellan en inställning på 90 eller 95 och 100 är nästan otydlig, men 100 ökar storleken på bildfilen i onödan. Om du vill optimera kvaliteten men undvika att bildfilerna blir för stora anger du `qlt=` till 90 eller 95.
+* Om du vill optimera för en liten bildfilsstorlek men behålla bildkvaliteten på en godtagbar nivå anger du `qlt=` till 80. Värden under 70 till 75 ger en signifikant försämring av bildkvaliteten.
 * Det bästa sättet att vara i mitten är att ställa in `qlt=` värdet är 85 om du vill vara kvar i mitten.
 * Använda chroma-flaggan i `qlt=`
 
    * The `qlt=` parametern har en andra inställning som gör att du kan aktivera nedsampling av färgvärden i RGB med hjälp av normalvärdet `,0` (standard), eller inaktivera det med hjälp av värdet `,1`.
    * Börja med att stänga av nedsampling av kromaticitet i RGB ( `,1`). Den här inställningen ger vanligtvis bättre bildkvalitet, särskilt för syntetiska bilder med många skarpa kanter och kontrast.
 
-Ett tips för komprimering i JPG `&qlt=85,0`.
+Ett tips för komprimering med JPG är att använda `&qlt=85,0`.
 
 ## Bästa tillvägagångssätt för storleksändring av JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
@@ -118,7 +118,7 @@ Parametern `jpegSize` är användbart om du vill garantera att en bild inte öve
 * Den här parametern anges i kilobyte ( `jpegSize=<size_in_kilobytes>`). Det definierar den största tillåtna storleken för bildleverans.
 * `&jpegSize=` interagerar med komprimeringsparametern JPG `&qlt=`. Om JPG svarar med den angivna komprimeringsparametern JPG ( `&qlt=`) överstiger inte `jpegSize` värde, returneras bilden med `&qlt=` enligt definition. I annat fall `&qlt=` minskas gradvis tills bilden får plats i den tillåtna maxstorleken eller tills systemet fastställer att den inte får plats och returnerar ett fel.
 
-Som bästa praxis `&jpegSize=` och lägg till parametern `&qlt=` om du levererar JPG-bilder till enheter med begränsat minne.
+Som bästa praxis bör du ange `&jpegSize=` och lägg till parametern `&qlt=` om du levererar JPG-bilder till enheter med begränsat minne.
 
 ## Sammanfattning av bästa praxis {#best-practices-summary}
 

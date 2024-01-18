@@ -1,6 +1,6 @@
 ---
 title: Exportera resurser från Adobe Dynamic Media Classic
-description: Lär dig hur du exporterar resurser från Adobe Dynamic Media Classic.
+description: Lär dig exportera resurser från Adobe Dynamic Media Classic.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
@@ -12,9 +12,9 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic sparar uppgifter om exportjobb på jobbskärmen.
 
    * **[!UICONTROL Conversion]** - Konvertera resursfilen eller originalbilden.
 
-   * **[!UICONTROL Size]** - Du kan välja en standardstorlek. Du kan också välja **[!UICONTROL Other]** från **[!UICONTROL Size]** väljer du önskad måttenhet och anger sedan bredd och höjd.
+   * **[!UICONTROL Size]** - Välj en standardstorlek. Du kan också välja **[!UICONTROL Other]** från **[!UICONTROL Size]** väljer du önskad måttenhet och anger sedan bredd och höjd.
 
      Se även [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 

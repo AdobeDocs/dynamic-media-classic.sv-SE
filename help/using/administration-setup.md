@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic har stöd för flera användarroller. De här roller
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic-användare** kan få tillgång till företag som de har tilldelats, kan inte utföra några administrativa uppgifter.
+**Adobe Dynamic Media Classic-användare** Kan få åtkomst till företag som de har tilldelats; kan inte utföra några administrativa uppgifter.
 
 **Adobe Dynamic Media Classic företagsadministratör** Kan visa och administrera endast sina egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
 
@@ -50,7 +50,7 @@ När du har lagt till en användare skickar Adobe Dynamic Media Classic ett väl
 
    >[!NOTE]
    >
-   >apostrofen (`‘`) tillåts inte i e-postadresser.
+   >apostrofen (`'`) tillåts inte i e-postadresser.
 
 1. Om du vill tilldela användaren en roll väljer du ett rollalternativ.
 
@@ -62,7 +62,7 @@ När du har lagt till en användare skickar Adobe Dynamic Media Classic ett väl
 
    När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Välj **[!UICONTROL Add]** om du vill lägga till användaren i ett företag.
 
-   Alla nya användare får ett slumpmässigt genererat lösenord. -användare måste ändra lösenord första gången de loggar in på Adobe Dynamic Media Classic-datorprogrammet.
+   Alla nya användare får ett slumpmässigt genererat lösenord. Användarna måste ändra lösenord första gången de loggar in på Adobe Dynamic Media Classic datorprogram.
 
    Nya användare får ett välkomstmeddelande när du har lagt till dem. I e-postmeddelandet finns ett tillfälligt lösenord och information om hur du loggar in på Adobe Dynamic Media Classic.
 
@@ -140,7 +140,7 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
 ## Bandbredd och lagring {#bandwidth-storage}
@@ -155,18 +155,18 @@ I följande tabell beskrivs rapporter som du kan generera från sidan Bandbredd 
 
 | Rapport | Information | Använd |
 |:--- |:--- |:--- |
-| Bandbredd | Bandbreddsanvändning | Spåra bandbreddsanvändning per företag över specifika datumintervall för att fastställa trafikmönster. |
+| Bandbredd | Bandbreddsanvändning av företag | Spåra bandbreddsanvändning per företag över specifika datumintervall för att fastställa trafikmönster. |
 | Lagring | Lagringsanvändning | Spåra mängden data som överförts av företaget. |
 | Bildinnehåll | Antalet bildbegäranden per typ | Spåra antalet begäranden och volymer för olika bildtyper. |
 | Domän | Antalet URL-begäranden per domän | Spåra bildanvändningen baserat på domänen för bildbegäran för ett visst företag. (Adobe Dynamic Media Classic kan tillhandahålla mer än en domän per konto. Kontakta teknisk support om du vill ha mer information.) |
 | Videoströmning | Bandbreddsanvändning för direktuppspelad video | Spåra direktuppspelad videoanvändning efter företag över vissa datumintervall för att fastställa trafikmönster. |
-| Videoinnehåll | Spela upp tid för olika videoklipp | Avgör vilka som är de mest visade och minst visade videoklippen. |
+| Videoinnehåll | Spela upp olika videoklipp | Avgör vilka som är de mest visade och minst visade videoklippen. |
 
 Rapporten Bildinnehåll innehåller information om begäranden för följande bildtyper:
 
-* **Bildbegäran** - Begäranden om bilder.
+* **Bildbegäran** - Begär bilder.
 
-* **Begäran om miniatyrbild** - Begär färgrutor eller alternativa bilder i visningsprogram.
+* **Miniatyrbegäran** - Begär färgrutor eller alternativa bilder i visningsprogram.
 
 * **Maskbegäran** - Förfrågningar till bilder som returnerar gråskalemasker.
 
@@ -178,7 +178,7 @@ Rapporten Bildinnehåll innehåller information om begäranden för följande bi
 
 >[!NOTE]
 >
->Videoströmningsrapporten gäller endast direktuppspelade videor. Visningen av progressiva videor spåras inte.
+>Videoströmningsrapporten gäller endast direktuppspelade videor. Det spårar inte visningen av progressiva videor.
 
 ### Generera en rapport {#generating-a-report}
 
@@ -194,7 +194,7 @@ Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän
 
 När du har genererat en rapport på sidan Bandbredd och lagring kan du välja alternativ för att visa information. Du kan välja hur informationen ska visas, visa information i ett diagram eller datarutnät och ange en tidsperiod för att hämta information. I datavyn kan du även sortera information och ordna om kolumner.
 
-* **Visa data i ett diagram eller datarutnät** - Välj **[!UICONTROL Chart View]** för att se data i ett diagram, välj **[!UICONTROL Data View]** för att visa data i ett datarutnät.
+* **Visa data i ett diagram eller datarutnät** - Välj **[!UICONTROL Chart View]** om du vill visa data i ett diagram väljer du **[!UICONTROL Data View]** för att visa data i ett datarutnät.
 
 * **Välj en rapportpresentationstyp** - Välj **[!UICONTROL Summary]**, **[!UICONTROL Daily]**, eller **[!UICONTROL Monthly]** för att organisera data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
 
@@ -202,7 +202,7 @@ När du har genererat en rapport på sidan Bandbredd och lagring kan du välja a
 
 * **Fördefinierad tidsperiod** - Välj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
 
-* **Anpassad tidsperiod** - På menyn Fördefinierad rapport väljer du **[!UICONTROL Custom]**. Välj sedan ett datum på **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
+* **Anpassad tidsperiod** - Välj på menyn Fördefinierad rapport **[!UICONTROL Custom]**. Välj sedan ett datum på **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
 
 * **Sortera data (endast datavyn)** - Om du vill sortera information i en kolumn markerar du kolumnens rubrik. Välj igen om du vill sortera i fallande ordning.
 
@@ -226,7 +226,7 @@ Adobe Dynamic Media Classic-administratörer kan generera bildfelsrapporter. En 
 
    * Om du vill sortera fel efter rubrikinformationen väljer du en rubrik. Som standard sorteras fel efter antal förekomster, från högst till lägst.
    * Flytta markören över svarsfältet för att se det specifika felmeddelandet.
-   * Om du vill se länken till bildens eller hänvisarens webbsida för du markören över URL-fältet eller referensfältet.
+   * Om du vill visa länken till bilden eller referenswebbsidan för du markören över URL-fältet eller referensfältet.
    * Om du vill kopiera länken till den faktiska bilden väljer du **[!UICONTROL URL Copy URL]**. Du kan klistra in länken i ett webbläsarfönster för att gå till bilden och undersöka felet.
    * Om du vill kopiera länken till referenswebbsidan väljer du **[!UICONTROL Referrer Copy URL]**.
 
@@ -238,7 +238,7 @@ De fel som visas gäller det företag som du är inloggad på. Varje fel innehå
 
 * **Antal** - Antalet fel som rapporterats i bilden.
 
-* **Svar** - Det specifika felmeddelandet. Fel är antingen 4xx eller 5xx.
+* **Svar** - Det specifika felmeddelandet. Felen är antingen 4xx eller 5xx.
 
 * **URL:er** - Visar URL:en till bilden på Adobe Dynamic Media Classic.
 

@@ -12,9 +12,9 @@ role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 För att få en så bra upplevelse som möjligt med Adobe Dynamic Media Classic-datorprogrammet bör du kontrollera att ditt system uppfyller följande systemkrav och -förslag:
 
-* Microsoft® Windows® 7 eller senare eller macOS X 10.10 eller senare Macintosh Intel®-processor krävs.
+* Microsoft® Windows® 7 eller senare eller macOS X 10.10 eller senare Mac Intel®-processor krävs.
 * 3 GB RAM eller mer krävs (4 GB eller mer rekommenderas).
 * Färgskärm.
-* Grafikkort med stöd för True Color vid en upplösning på 1 280 x 1 024 eller högre.
-* JAVA-aktiverad webbläsare.
-* Webbläsare som stöds i Windows: Internet Explorer 9.0 eller senare; Firefox 23 eller senare.
-* Webbläsare som stöder Macintosh: Safari 6.0 eller senare, Firefox™ 23 eller senare.
+* Ett grafikkort som stöder True Color med upplösningen 1 280 × 1 024 eller högre.
+* Java-aktiverad webbläsare.
+* Webbläsare som stöds av Windows: Internet Explorer 9.0 eller senare; Firefox 23 eller senare.
+* Webbläsare som stöds av Mac: Safari 6.0 eller senare, Firefox™ 23 eller senare.
 
 >[!MORELIKETHIS]
 >

@@ -12,9 +12,9 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -56,13 +56,13 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
 ## Hämta information i detaljvyn {#getting-information-in-detail-view}
 
-I detaljvyn finns information om en resurs eller fil. Den här informationen om ett objekt visas: mappen där den lagras, dess filnamn, datumet då objektet överfördes till Adobe Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
+I detaljvyn finns information om en resurs eller fil. Här visas information om ett objekt: mappen där det lagras, dess filnamn, datumet då objektet överfördes till Adobe Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
 
-Du kan hämta en resurs-URL i detaljvyn; URL:en är dock inte aktiv förrän du publicerar resursen. För bilder innehåller detaljvyn även en lista med resurser och metadata som skapats, t.ex. zoommål och bilduppsättningar.
+Du kan hämta en resurs-URL i detaljvyn, men URL:en är inte aktiv förrän du publicerar resursen. För bilder innehåller detaljvyn även en lista med resurser och metadata som skapats, t.ex. zoommål och bilduppsättningar.
 
 ## Arbeta med resurser i detaljvyn {#working-with-assets-in-detail-view}
 
-I detaljvyn finns verktyg som du kan använda för att arbeta med den resurs du har öppnat. Vilka verktyg som är tillgängliga beror på vilken typ av resurs du arbetar med, men detaljvyn har alltid dessa funktioner:
+I detaljvyn finns verktyg som du kan använda för att arbeta med resursen som du har öppnat. Vilka verktyg som är tillgängliga beror på vilken typ av resurs du arbetar med, men detaljvyn har alltid dessa funktioner:
 
 * **objekt för publicering** - Välj **[!UICONTROL Publish]** till vänster om namnet, eller gå till **[!UICONTROL File]** > **[!UICONTROL Publish]** eller **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
@@ -80,15 +80,15 @@ Tabellen visar vilka andra alternativ som är tillgängliga med olika typer av r
 
 | Tillgångstyp | Redigera/justera | Förhandsgranska |
 | --- | --- | --- |
-| Bilder | Lägg till bildscheman<br>Lägg till zoommål<br>Beskär<br>Skärpa<br>Skapa justerade vyer | Ja, Zoom- och bildförinställningar |
-| Skåp- och fönsteromfattande bilder | Nej | Miniatyrbild |
-| eCatalogs | Redigera | Ja<br>Info-panelen är också tillgänglig |
-| Teckensnitt | Redigera teckensnittsinformation | Nej |
+| Bilder | Lägg till bildscheman<br>Lägg till zoommål<br>Beskär<br>Skärpa<br>Skapa justerade vyer | Ja, förinställningar för zoomning och bild |
+| Skåp och fönster som täcker bilder | Nej | Miniatyrbild |
+| eCatalogs | Redigera | Ja<br>Informationspanelen är också tillgänglig |
+| Typsnitt | Redigera teckensnittsinformation | Nej |
 | FXG-filer | Redigera | Ja |
 | ICC-profiler | Redigera profilinformation | Nej |
 | Illustrator-filer | Nej (om det inte konverterats till FXG) | Nej |
 | Bilduppsättningar | Redigera | Ja |
-| InDesign-filer | Nej (om det inte konverterats till FXG) | Nej |
+| InDesign | Nej (om det inte konverterats till FXG) | Nej |
 | PDF-filer | Nej | Nej |
 | PSD-filer | Ja för enskilda lager | Ja för enskilda lager |
 | Rotationsset | Redigera | Ja |

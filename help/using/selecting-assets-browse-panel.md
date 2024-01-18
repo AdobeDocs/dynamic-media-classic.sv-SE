@@ -12,7 +12,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Välj en resurs i panelen Bläddra så att du kan arbeta med den. Använd dessa 
 
 * **En enda tillgång** - Markera resursen (genom att dubbelklicka på den öppnas resursen i detaljvyn).
 
-* **Flera resurser** - Ctrl-klicka (Windows®) eller Kommando-klicka (Macintosh) på resurser om du vill markera resurser på olika platser i panelen Bläddra. Skift-klicka (klicka på en resurs och Skift-klicka sedan på en annan) för att markera närliggande resurser.
+* **Flera resurser** - Ctrl-klicka (Windows®) eller Kommando-klicka (Mac) på resurser om du vill markera resurser på olika platser i panelen Bläddra. Skift-klicka (klicka på en resurs och Skift-klicka sedan på en annan) för att markera närliggande resurser.
 
 * **Alla resurser i panelen Bläddra** - Gå till **[!UICONTROL Select]** > **[!UICONTROL All]**.
 

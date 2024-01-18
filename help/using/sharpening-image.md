@@ -12,9 +12,9 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '2154'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Alternativen för JPG-kvalitet styr komprimeringsnivån JPG:
 
 Om du inte använder en bildförinställning eller skickar specifika bildserverskärpeprotokoll längs URL-strängen blir bilden inte skarpare när den nedsamplas. Om skärpan inte är tillräckligt hög kan du ange standardvärden för skärpa, och sedan har alla bilder alltid en viss skärpa.
 
-Om du vill ange ditt företags standardalternativ för skärpa går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du ställer in standardomsamplingsläget till **[!UICONTROL `Sharp2`]** blir bilden alltid skarpare vid nedsampling.
+Om du vill ange ditt företags standardalternativ för skärpa går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du ställer in standardomsamplingsläget till **`Sharp2`** blir bilden alltid skarpare vid nedsampling.
 
 **Lägga till skärpa i visningsförinställningar**
 

@@ -1,20 +1,18 @@
 ---
 title: Hantera innehåll i informationspanelen i bilduppsättningar
 description: Lär dig hur du hanterar innehåll i panelen Info i Bilduppsättningar i Adobe Dynamic Media Classic.
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '755'
 ht-degree: 0%
 
 ---
@@ -26,20 +24,20 @@ Förutom att använda bildschematext för överrullningar i bilduppsättningar k
 Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Adobe Dynamic Media Classic:
 
 * I inställningspanelen i InfoPanel kan du ange den mall som används för att visa informationspanelens text, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om bilduppsättningen ska publiceras automatiskt.
-* Med InfoPanel-datafeed-panelen kan du ange en CSV-fil som innehåller den text som du vill ska visas i informationspanelens överrullningstext och schemalägga tider för uppdatering av informationen.
+* Med dataflödespanelen i InfoPanel kan du ange en CSV-fil som innehåller den text som du vill ska visas i informationspanelens överrullningstext och schemalägga tider för uppdatering av informationen.
 * I dialogrutan Importera metadata kan du importera en tabbavgränsad TXT-fil som innehåller överrullningstextinformation. Du kan använda det här TXT-alternativet eller InfoPanel Data feed-panelen med CSV-filalternativet för överrullningstexten.
 
 ## Konfigurera en svarsmall för bilduppsättningar {#set-up-a-response-template-for-image-sets}
 
-Du kan välja en av tre förinställda svarsmallar för att visa text på en informationspanel. De här förinställda svarsmallarna avgör hur informationen visas på panelen Info: hur många kolumner och rader, teckenstorlek, teckensnitt och så vidare. Du kan välja en förinställd svarsmall eller skapa en egen.
+Du kan välja en av tre förinställda svarsmallar för att visa text på en informationspanel. Dessa förinställda svarsmallar avgör hur informationen visas på panelen Info: hur många kolumner och rader, teckenstorlek, teckensnitt osv. Du kan välja en förinställd svarsmall eller skapa en egen.
 
 **Så här ställer du in en svarsmall för bilduppsättningar:**
 
-1. Dubbelklicka på bilduppsättningen så att den öppnas i detaljvyn.
+1. Dubbelklicka på din bilduppsättning så att den öppnas i detaljvyn.
 1. Välj **[!UICONTROL InfoPanel Setup]**.
 1. Gör något av följande i listrutan Svarsmall:
 
-   * Om du vill använda standardsvaret väljer du **[!UICONTROL Default]**. XML-koden för malldesignen visas nedtonad i textrutan Användarmall.
+   * Välj om du vill använda standardsvaret **[!UICONTROL Default]**. XML-koden för malldesignen visas nedtonad i textrutan Användarmall.
    * Om du vill skapa en egen svarsmall väljer du **[!UICONTROL Custom]**. Skriv XML-malldefinitionen i textrutan Användarmall. Du kan använda standardmallen som redan är definierad i textrutan som bas för ditt eget svar.
 
 1. (Valfritt) I rutan Standardsvar skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för ett bildschema. Om systemet till exempel får ett företagsnamn och ett bilduppsättningsnamn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
@@ -53,7 +51,7 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 
    Filformat som stöds är TAB-avgränsade filer med UTF-16-kodning och CSV-filer med ASCII-kodning. För CSV-filer måste tecken som inte är ASCII-tecken vara HTML-kodade.
 
-1. På InfoPanel Setup-panelen väljer du **[!UICONTROL Publish]**.
+1. På panelen InfoPanel Setup väljer du **[!UICONTROL Publish]**.
 
 ## Importera källinnehåll för Info-panelen i Bilduppsättningar {#import-source-content-for-the-info-panel-in-image-sets}
 
@@ -68,7 +66,7 @@ Tänk på följande när du formaterar källinnehåll:
 ### Importera CSV-innehåll till bilduppsättningar från en extern värdplats {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 
 1. Dubbelklicka på bilduppsättningen så att den öppnas i detaljvyn.
-1. Välj **[!UICONTROL InfoPanel Datafeed]**.
+1. Välj **[!UICONTROL InfoPanel Data feed]**.
 1. I textfältet Externt hosted CSV file location (HTTP) anger du URL:en till CSV-filen.
 1. (Valfritt) I fälten Schemalägg uppdatering anger du en tid för att uppdatera innehållet och väljer sedan **[!UICONTROL Add]**.
 

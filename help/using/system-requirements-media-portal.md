@@ -12,9 +12,9 @@ role: Admin
 exl-id: aa268ff7-c474-409a-af3e-3fd8ae1e6241
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,10 @@ ht-degree: 0%
 
 För att få en så bra upplevelse som möjligt med Adobe Dynamic Media Classic Media Portal bör du kontrollera att datorn uppfyller följande systemkrav och förslag:
 
-* Microsoft® Windows® 7 eller senare eller macOS X 10.6 eller senare krävs för Macintosh Intel®-processor.
+* Microsoft® Windows® 7 eller senare eller macOS X 10.6 eller senare Mac Intel®-processor krävs.
 * 3 GB RAM eller mer krävs (4 GB eller mer rekommenderas).
 * Färgskärm.
-* Grafikkort med stöd för True Color vid en upplösning på 1 280 x 1 024 eller högre.
-* JAVA-aktiverad webbläsare.
-* Webbläsare som stöds i Windows: Internet Explorer 9 eller senare; Firefox 23.0 eller senare.
-* Webbläsare som stöder Macintosh: Safari 6.0 eller senare, Firefox™ 23 eller senare.
+* Ett grafikkort som stöder True Color med upplösningen 1 280 × 1 024 eller högre.
+* Java-aktiverad webbläsare.
+* Webbläsare som stöds av Windows: Internet Explorer 9 eller senare; Firefox 23.0 eller senare.
+* Webbläsare som stöds av Mac: Safari 6.0 eller senare, Firefox™ 23 eller senare.

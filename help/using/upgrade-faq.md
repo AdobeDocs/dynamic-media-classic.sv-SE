@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1563'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Ja, [!DNL Dynamic Media] använder Adobe, leveransnätverk i toppskiktet.
 
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Stöd för 24/7/265, 99,95 % SLA.
-* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 PB-trafik per månad och över 500 miljoner mediefiler i ledning, 60 % ökning av trafiken per år.
+* Beprövad infrastruktur som betjänar över 800 kunder över hela världen, 3,5 petabyte trafik per månad och över 500 miljoner tillgångar i ledning, 60 % ökning av trafiken per år.
 
 +++
 
@@ -113,7 +113,7 @@ Du kan uppgradera när du är redo att utnyttja de nya funktionerna i [!DNL Dyna
 
 +++
 
-+++**Kan jag fortsätta använda [!DNL Dynamic Media Classic] (tidigare Adobe Scene7) efter uppgradering till [!DNL Dynamic Media]?**
++++**Kan jag fortfarande använda [!DNL Dynamic Media Classic] (tidigare Adobe Scene7) efter uppgradering till [!DNL Dynamic Media]?**
 När du har uppgraderat till [!DNL Dynamic Media]bör du bara använda Dynamic Media för bild och video. Du kan fortsätta använda [!DNL Dynamic Media Classic] endast för funktioner som ännu inte är tillgängliga i [!DNL Dynamic Media] inklusive följande:
 
 * Visual configurator (image author, image render).

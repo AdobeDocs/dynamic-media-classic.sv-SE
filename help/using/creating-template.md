@@ -12,9 +12,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3309'
+source-wordcount: '3261'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 
    * **Starta från mallskärmen** - Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer.
 
-1. I dialogrutan Ange storlek på arbetsyta anger du bredd- och höjdmått för mallen.
+1. Ange mallens bredd- och höjdmått i dialogrutan Ange storlek på arbetsyta.
 1. Markera en mapp i resursbiblioteket och dra PSD-filen eller bilderna som du vill använda för mallen till mallskärmen.
 1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**.

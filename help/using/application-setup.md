@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '10703'
+source-wordcount: '10399'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,7 @@ Administratörer kan skapa förinställningar för att exportera resurser. Anvä
 
 Du öppnar skärmen Bildförinställning i fältet Global navigering på **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Se [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+Se [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
 
 ### Skapa och redigera bildförinställningar {#creating-and-editing-image-presets}
 
@@ -193,7 +193,7 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
    * Alternativ för färgkvantifiering i GIF
 
-      * **[!UICONTROL Type]** - Välj Adaptiv (standard), Webb eller Macintosh. Om du väljer **[!UICONTROL GIF With Alpha]**&#x200B;är alternativet Macintosh inte tillgängligt.
+      * **[!UICONTROL Type]** - Välj Adaptiv (standard), Webb eller Mac. Om du väljer **[!UICONTROL GIF With Alpha]**, är alternativet Mac inte tillgängligt.
 
       * **[!UICONTROL Dither]** - Välj Diffusera eller Av.
 
@@ -846,7 +846,7 @@ Ett effektivt sätt att använda användardefinierade metadatafält är att för
 
    * **[!UICONTROL Color]** - Namnet på en färg.
 
-   * **[!UICONTROL Dimension]** - Resursens bredd och höjd.
+   * **[!UICONTROL Dimension]** - tillgångens bredd och höjd.
 
    * **[!UICONTROL Untyped]** - För bakåtkompatibilitet. Markera inte det här alternativet.
 

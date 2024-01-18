@@ -12,7 +12,7 @@ role: User
 exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
@@ -22,5 +22,5 @@ ht-degree: 0%
 # Skriva ut resurser{#printing-assets}
 
 1. Markera den eller de resurser som du vill skriva ut på panelen Bläddra.
-1. Gå till **[!UICONTROL File]** > **[!UICONTROL Print]** eller tryck `Ctrl+P` (Windows®) eller `Command+P` (Macintosh).
+1. Gå till **[!UICONTROL File]** > **[!UICONTROL Print]** eller tryck `Ctrl+P` (Windows®) eller `Command+P` (Mac)
 1. Välj hur många kopior du vill skriva ut i dialogrutan Skriv ut och klicka sedan på **[!UICONTROL Print]**.

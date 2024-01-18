@@ -12,7 +12,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Du kan skapa en projektmapp som börjar i resursbiblioteket eller när du överf
 
 >[!NOTE]
 >
->Projektområdet i resursbiblioteket är en mapplista på en nivå. undermappar tillåts inte.
+>Området Projekt i resursbiblioteket är en mapplista på en nivå. Undermappar tillåts inte.
 
 ## Arbeta med projektmappar {#working-with-project-folders}
 
@@ -53,7 +53,7 @@ Gör något av följande om du vill visa, ta bort eller byta namn på en projekt
 
 * **Bläddra i innehåll** - Välj namnet på mappen i resursbiblioteket. Dess resurser visas i panelen Bläddra.
 
-* **Tar bort projektmappar** - Välj projektmappen och sedan **[!UICONTROL Remove Project]**. När du tar bort resurser från en projektmapp tas de inte bort från Adobe Dynamic Media Classic. resurserna finns kvar i de ursprungliga mappar där de lagras.
+* **Tar bort projektmappar** - Välj projektmappen och sedan **[!UICONTROL Remove Project]**. När du tar bort resurser från en projektmapp tas de inte bort från Adobe Dynamic Media Classic. Resurserna finns kvar i de ursprungliga mappar där de lagras.
 
 * **Byter namn på projektmappar** - Dubbelklicka på namnet på mappen på resurspanelen och ange ett nytt namn.
 
@@ -61,6 +61,6 @@ Gör något av följande om du vill visa, ta bort eller byta namn på en projekt
 
 Du kan lägga till bilder i en projektmapp från och med panelen Bläddra eller när du överför filer till Adobe Dynamic Media Classic:
 
-* **Från panelen Bläddra** - Markera resurserna och dra dem till en projektmapp. Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Välj ett projektmappsnamn i dialogrutan Välj projekt och välj sedan **[!UICONTROL Submit]**.
+* **Från panelen Bläddra** markerar du resurserna och drar dem till en projektmapp. Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Välj ett projektmappsnamn i dialogrutan Välj projekt och välj sedan **[!UICONTROL Submit]**.
 
 * **Vid överföring av filer** - På sidan Överför väljer du **[!UICONTROL Job Options]**. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Projects]** och välj sedan ett projektnamn.

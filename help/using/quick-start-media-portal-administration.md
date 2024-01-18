@@ -12,14 +12,14 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
 
-# Snabbstart: Media Portal{#quick-start-media-portal}
+# Snabbstart: Medieportal{#quick-start-media-portal}
 
 Med Media Portal kan man enkelt skaffa, kontrollera och distribuera godkända mediefiler till externa partners och kanaler samt interna användare i ett företag. Den webbläsarbaserade, självbetjäningsmiljön ger Media Portal-användare administratörskontrollerad&quot;vy&quot; av Adobe Dynamic Media Classic-material så att de enkelt kan komma åt, söka, förhandsgranska och exportera mediefiler i företagsgodkända format.
 
@@ -29,7 +29,7 @@ Se följande utbildningsvideor:
 
 * [Översikt över Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Demo av Media Portal 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Media Portal tour 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
 * [Media Portal tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
@@ -43,7 +43,7 @@ Se [Användarroller för mediaportal](media-portal-user-roles.md#media_portal_us
 
 ## 2. Skapa grupper för att hantera användare
 
-Grupper avgör vilka mappar och filer en användare har åtkomst till, vad användare kan göra i dessa mappar och filer och vilka bildförinställningar som är tillgängliga. Som administratör är din första uppgift att skapa grupper. För varje grupp bestämmer du vilka mappar, filer och medlemmar i gruppen Bildförinställningar som ska ha åtkomst. Bevilja även läs-, skriv- och borttagningsbehörigheter till gruppmedlemmarna. Dessa behörigheter avgör om medlemmar kan bläddra bland, redigera, byta namn på och ta bort mappar och filer som de har åtkomst till.
+Grupper avgör vilka mappar och filer en användare har åtkomst till, vad användare kan göra i de mapparna och filerna och vilka bildförinställningar som är tillgängliga. Som administratör är din första uppgift att skapa grupper. För varje grupp bestämmer du vilka mappar, filer och medlemmar i gruppen Bildförinställningar som ska ha åtkomst. Bevilja även läs-, skriv- och borttagningsbehörigheter till gruppmedlemmarna. Dessa behörigheter avgör om medlemmar kan bläddra bland, redigera, byta namn på och ta bort mappar och filer som de har åtkomst till.
 
 Se [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
@@ -79,7 +79,7 @@ Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.m
 
 ## 7. Skapa metadataförinställningar och användardefinierade metadatafält
 
-Metadata beskriver och identifierar en fil. används för att söka efter och ordna resurser. Du kan skapa metadataförinställningar för att vara säker på att metadata anges korrekt och att metadatafält som kräver data fylls i. En metadataförinställning är en fördefinierad uppsättning metadataposter. Du kan också skapa metadatafält som unikt beskriver de filer du arbetar med.
+Metadata beskriver och identifierar en fil och används för att söka efter och ordna resurser. Du kan skapa metadataförinställningar för att vara säker på att metadata anges korrekt och att metadatafält som kräver data fylls i. En metadataförinställning är en fördefinierad uppsättning metadataposter. Du kan också skapa metadatafält som unikt beskriver de filer du arbetar med.
 
 Se [Effektivare användning av metadata](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
