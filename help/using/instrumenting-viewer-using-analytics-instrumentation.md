@@ -12,9 +12,9 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 Du kan använda Adobe Analytics Instrumentation Kit för att integrera ett HTML5-visningsprogram med Adobe Analytics.
 
-Om du använder någon av de fördefinierade visningsförinställningarna för Adobe Dynamic Media Classic HTML 5 innehåller de redan all implementeringskod som behövs för att skicka data till Adobe Analytics. ingen ytterligare instrumentering krävs av dig.
+Om du använder någon av de fördefinierade Adobe Dynamic Media Classic HTML5-visningsförinställningarna innehåller de redan all implementeringskod för att skicka data till Adobe Analytics. Du behöver ingen ytterligare instrumentering.
 
-## Konfigurera Adobe Analytics tracking från Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Ställ in Adobe Analytics tracking från Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 För alla visningsprogram för HTML5 lägger du till följande JavaScript i behållaren HTML, vanligtvis i &lt;head> element:
 
@@ -33,7 +33,7 @@ För alla visningsprogram för HTML5 lägger du till följande JavaScript i beh�
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-Plats `Adobe Dynamic Media Classic Company ID` är inställt på Adobe Dynamic Media Classic företagsnamn. Och `&preset` är valfritt om inte företagsförinställningsnamnet inte är `companypreset`. I sådana fall kan det `companypreset-1, companypreset-2`och så vidare. Den högre siffran är en nyare instans av förinställningen. Välj **[!UICONTROL Copy URL]** och sedan titta på `preset=`för att hitta namnet på företagets förinställning.
+Plats `Adobe Dynamic Media Classic Company ID` anges som Adobe Dynamic Media Classic företagsnamn. Och `&preset` är valfritt om inte företagsförinställningsnamnet inte är `companypreset`. I sådana fall kan det `companypreset-1, companypreset-2`och så vidare. Den högre siffran är en nyare instans av förinställningen. Om du vill ta reda på rätt namn på företagets förinställda värde väljer du **[!UICONTROL Copy URL]** och sedan titta på `preset=`för att hitta namnet på företagets förinställning.
 
 Nu kan du lägga till en funktion som skickar visningsprogramhändelsen till spårningskoden för Adobe Analytics.
 

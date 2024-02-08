@@ -11,9 +11,9 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,8 @@ Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du mås
 
    * **Redigera en förinställning för eCatalog Viewer** - Välj en visningsförinställning för eCatalog och välj sedan **[!UICONTROL Edit]**. Välj **[!UICONTROL Save As]** när du har skapat förinställningen.
 
-1. Ange ett namn för visningsförinställningen för eCatalog på skärmen Konfigurera visningsprogram.
-1. Ange önskade alternativ på skärmen Konfigurera visningsprogram.
+1. Ange ett namn för visningsförinställningen för eCatalog på sidan Konfigurera visningsprogram.
+1. Ange önskade alternativ på sidan Konfigurera visningsprogram.
 
    välj **[!UICONTROL Info Tip]** -ikonen bredvid alternativet om du vill läsa dess beskrivning.
 

@@ -12,7 +12,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '1560'
 ht-degree: 0%
@@ -131,7 +131,7 @@ I den här tabellen visas tidsökningar, tillåtna värden och jokertecken som s
 I den här tabellen beskrivs de jokertecken som är tillåtna i rutan Regel och hur du använder dem:
 
 | Jokertecken | Namn | Vad det beskriver |
-|--- |--- |--- |
+| --- | --- | --- |
 | `*` | Asterisk | Alla värden (till exempel &quot;varje minut&quot;). |
 | `?` | Frågetecken | Inget specifikt värde (till exempel &quot;någon minut inom den angivna timmen&quot;). |
 | `,` | Komma | Andra värden (till exempel &quot;Måndag och onsdag&quot;). |
@@ -139,7 +139,7 @@ I den här tabellen beskrivs de jokertecken som är tillåtna i rutan Regel och 
 | `/` | Snedstreck | Ökningar (t.ex. &quot;var 15:e minut&quot;). |
 | `L` | Versalt L | Sista&quot;dag i månaden&quot; eller&quot;veckodag&quot; (endast tillgängligt för dessa fält). Om månaden till exempel är januari, schemaläggs jobbet till den 31 januari med ett L-värde för fältet &quot;dag i månaden&quot;. I fältet Veckodag kan du ange det här tecknet enbart för att schemalägga jobbet på lördag. Du kan använda den med ett tal (till exempel `6L`) för att ange sista fredagen i månaden. Ange inte `L` med kommatecken eller bindestreck. |
 | `#` | Nummertecken | &quot;Nth&quot; veckodag i månaden (endast tillgängligt för fältet &quot;day of the week&quot;). Till exempel: `6#3` i fältet &quot;veckodag&quot; anger den tredje fredagen i månaden. The `6` betecknar &quot;fredag&quot; (den sjätte dagen i veckan) och `3` Anger den tredje förekomsten i månaden. |
-| `C` | # Versalt C | Första kalendern &quot;dag i månaden&quot; eller &quot;veckodag&quot; (endast tillgängligt för dessa fält). Ange till exempel värdet `1C` för &quot;dag i månaden&quot; schemaläggs den första dagen i kalendern som infaller den femte eller senare. För veckodagen anger du `1C` schemalägger den första dagen i kalendern som inträffar på eller efter söndag |
+| `C` | # Versalt C | Första kalendern &quot;dag i månaden&quot; eller &quot;veckodag&quot; (endast tillgängligt för dessa fält). Ange till exempel värdet `1C` för &quot;dag i månaden&quot; schemaläggs den första dagen i kalendern som infaller den femte eller senare. För veckodagen anger du `1C` schemalägger den första dagen i kalendern som inträffar på eller efter söndag. |
 
 Den här listan innehåller exempel på hur du beskriver tidsintervall i rutan Regel:
 

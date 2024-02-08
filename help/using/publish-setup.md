@@ -9,9 +9,9 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2343'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -157,8 +157,8 @@ Språk-ID:n mappas till motsvarande suffix. Om det inte finns något språkspeci
 
 | locale= | Utdata-ID att söka efter |
 | --- | --- |
-| en , en_us, en_uk | myImg_E, myImg |
-| de , de_de , de_at | myImg_D, myImg |
+| en, en_us, en_uk | myImg_E, myImg |
+| de, de_de | myImg_D, myImg |
 | fr | myImg_F, myImg |
 | Alla andra | - |
 

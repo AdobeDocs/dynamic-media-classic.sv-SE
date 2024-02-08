@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1073'
+source-wordcount: '1077'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Vissa företag låter dig inte ladda ned och installera programvara och appar ti
 +++
 
 +++**_Kan flera instanser av det nya datorprogrammet vara öppna samtidigt?_**
-Nej, den AIR-teknik som den nya Adobe Dynamic Media Classic-appen byggs på hindrar en användare från att ha flera instanser av appen öppna vid en viss tidpunkt.
+Nej. Den AIR-teknik som den nya Adobe Dynamic Media Classic-datorappen byggs på hindrar en användare från att ha flera instanser av appen öppna samtidigt.
 +++
 
 +++**_Finns det några begränsningar för hur många filer som kan överföras till Adobe Dynamic Media Classic via en lokal dator?_**
@@ -80,7 +80,7 @@ När du använder den nya Adobe Dynamic Media Classic-datorappen i Windows® kan
 +++
 
 +++**_Kräver den nya Adobe Dynamic Media Classic-appen en ny SKU? Är det en licenskostnad?_**
-Du behöver inte ändra SKU eller licens för att använda nya Adobe Dynamic Media Classic-datorprogrammet.
+Nej på båda frågorna. Du behöver inte ändra SKU eller licens för att använda nya Adobe Dynamic Media Classic-datorprogrammet.
 +++
 
 +++**_Hur aktiveras uppgraderingar till Adobe Dynamic Media Classic-datorprogram?_**
