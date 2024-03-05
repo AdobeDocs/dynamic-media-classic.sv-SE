@@ -1,20 +1,18 @@
 ---
 title: "Snabbstart: Bilduppsättningar"
 description: En introduktion och Snabbstart till bilduppsättningar som hjälper dig att komma igång snabbt med hjälp av Image Set-tekniker i Adobe Dynamic Media Classic.
-uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -31,8 +29,10 @@ När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och t
 
 | Begränsningstyp | Bästa praxis | Begränsning har införts |
 | --- | --- | --- |
-| Antal dubblettresurser per uppsättning | Inga dubbletter | 20 |
+| Antal dubblettresurser per uppsättning | Inga dubbletter | 20‡ |
 | Maximalt antal bilder per uppsättning | 5-10 bilder per uppsättning | 1000 |
+
+‡ Bästa praxis är att inte ha duplicerade resurser i en uppsättning. Gränsen är 20 kopior för en enskild resurs. Om du lägger till ytterligare en dubblett för den resursen, inom den uppsättningen, returnerar begäran ett fel eller ignorerar dubbletten.
 
 Se även [Dynamic Media begränsningar](/help/using/limitations.md).
 

@@ -1,20 +1,18 @@
 ---
 title: Skapa en bilduppsättning
 description: Lär dig hur du skapar en bilduppsättning i Adobe Dynamic Media Classic.
-uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -27,10 +25,10 @@ Om du vill skapa en bilduppsättning med flera vyer behöver du bilder som visar
 
 När du skapar en uppsättning **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| **[!UICONTROL Publish after save]** markerat alternativ innan du sparar? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| **[!UICONTROL Publish after save]** markerat alternativ innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
-| Nej | Opublicerad | Ange medlemmar behåller sitt publicerade eller opublicerade läge. |
+| Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
 
 Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
@@ -38,8 +36,10 @@ När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och t
 
 | Begränsningstyp | Bästa praxis | Begränsning har införts |
 | --- | --- | --- |
-| Antal dubblettresurser per uppsättning | Inga dubbletter | 20 |
+| Antal dubblettresurser per uppsättning | Inga dubbletter | 20‡ |
 | Maximalt antal bilder per uppsättning | 5-10 bilder per uppsättning | 1000 |
+
+‡ Bästa praxis är att inte ha duplicerade resurser i en uppsättning. Gränsen är 20 kopior för en enskild resurs. Om du lägger till ytterligare en dubblett för den resursen, inom den uppsättningen, returnerar begäran ett fel eller ignorerar dubbletten.
 
 Se även [Dynamic Media begränsningar](/help/using/limitations.md).
 
@@ -54,13 +54,13 @@ Se även [Dynamic Media begränsningar](/help/using/limitations.md).
 1. Om du vill ändra bildordningen drar du bilderna till nya platser.
 1. I närheten av sidans nedre högra hörn ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, välj en mapp där bilduppsättningen ska lagras, ange ett namn för uppsättningen och markera sedan **[!UICONTROL Save]**.
-1. Välj **[!UICONTROL Preview]** på skärmen Bilduppsättning. Du kan välja miniatyrbilder för färgrutor i bilduppsättningsvisningsprogrammet för att se hur de fungerar.
+1. Om du vill visa din bilduppsättning i bilduppsättningsvisningsprogrammet väljer du **[!UICONTROL Preview]** på skärmen Bilduppsättning. Du kan välja miniatyrbilder för färgrutor i bilduppsättningsvisningsprogrammet för att se hur de fungerar.
 
 ## Redigera en bilduppsättning {#editing-an-image-set}
 
 Oavsett om du redigerar en publicerad eller opublicerad uppsättning kan du **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Status för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -83,7 +83,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 ## Ta bort en bilduppsättning {#deleting-an-image-set}
 
-När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller &quot;barn&quot;) i uppsättningen påverkas dock inte. i stället behåller de sitt befintliga publicerade eller opublicerade läge.
+När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller&quot;underordnade&quot;) i uppsättningen påverkas dock inte. De behåller i stället sitt befintliga publicerade eller opublicerade läge.
 
 Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_assets) och [Avpublicera resurser manuellt](publishing-files.md#manually_unpublishing_assets).
 
