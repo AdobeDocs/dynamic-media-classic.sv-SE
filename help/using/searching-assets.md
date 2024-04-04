@@ -1,18 +1,16 @@
 ---
 title: Sök efter Dynamic Media Classic-resurser
 description: Lär dig söka efter resurser i Adobe Dynamic Media Classic.
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 0%
@@ -81,7 +79,7 @@ Ange något av följande villkor i den avancerade sökningen:
    1. För numeriska fält väljer du ett värde eller anger ett anpassat datumintervall.
    1. (Valfritt) Upprepa steg 1-4 om du vill skapa fler sökfält.
 
-Välj **[!UICONTROL Remove search field]** -ikon (cirkel med &quot;X&quot; inuti) så att sökfältet tas bort.
+Välj **[!UICONTROL Remove a search field]** -ikon (cirkel med &quot;X&quot; inuti) så att sökfältet tas bort.
 
 Välj i det nedre högra hörnet av panelen Avancerad sökning **[!UICONTROL Search]** för att börja söka. Resultatet av sökningen visas i panelen Bläddra till höger. Du kan ändra alla sökvillkor och välja **[!UICONTROL Search]** för att köra sökningen igen.
 
@@ -89,7 +87,7 @@ Välj **[!UICONTROL Clear]** om du vill ta bort sökvillkoren och starta en ny s
 
 ## Filtrera resurser med metadata {#filter-assets-using-metadata}
 
-Filtrera resurser på fliken Filter i resursbiblioteket. Om du vill filtrera resurser använder du metadatavärden som villkor. När du har valt ett metadatafält som du vill filtrera på visas alla metadatavärden som har angetts i det valda fältet på fliken Filter. Här visas även antalet resurser som tilldelats varje värde. I en filteråtgärd på **[!UICONTROL Creator]** metadatafält, **[!UICONTROL Filters]** På fliken visas alla namn som du har angett i **[!UICONTROL Creator]** metadatafält för olika resurser. Den visar också för varje namn antalet resurser som har tilldelats namnet. Sedan väljer du ett metadatavärde för att se alla resurser som har tilldelats det värdet. I exemplet väljer du `Prairie Cat` metadatavärde för att visa alla resurser där namnet `Prairie Cat` har angetts i **[!UICONTROL Creator]** metadatafält. Du kan filtrera med hjälp av mer än ett metadatafält som filtreringskriterium.
+Filtrera resurser på fliken Filter i resursbiblioteket. Om du vill filtrera resurser använder du metadatavärden som villkor. När du har valt ett metadatafält att filtrera på visas alla metadatavärden som har angetts i det valda fältet på fliken Filter. Här visas även antalet resurser som tilldelats varje värde. I en filteråtgärd på **[!UICONTROL Creator]** metadatafält, **[!UICONTROL Filters]** På fliken visas alla namn som du har angett i **[!UICONTROL Creator]** metadatafält för olika resurser. Den visar också för varje namn antalet resurser som har tilldelats namnet. Sedan väljer du ett metadatavärde för att se alla resurser som har tilldelats det värdet. I exemplet väljer du `Prairie Cat` metadatavärde för att visa alla resurser där namnet `Prairie Cat` har angetts i **[!UICONTROL Creator]** metadatafält. Du kan filtrera med hjälp av mer än ett metadatafält som filtreringskriterium.
 
 Du kan spara filteråtgärder för att köra dem många gånger.
 

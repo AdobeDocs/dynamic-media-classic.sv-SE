@@ -1,18 +1,16 @@
 ---
 title: Publiceringsmallar
-description: Lär dig hur du publicerar mallar från Adobe Dynamic Media Classic.
-uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
+description: Lär dig publicera mallar från Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
@@ -29,7 +27,7 @@ När du publicerar mallen placeras den på Dynamic Media Image Servers, där den
 
 ## Markera mallar för publicering {#marking-templates-for-publish}
 
-Mallar och deras supportfiler måste vara markerade för publicering för att de ska kunna placeras på Dynamic Media Image Servers. Du kan markera de här objekten för publicering i panelen Bläddra genom att välja **[!UICONTROL Mark for Publish]** ikon.
+Mallar och deras supportfiler måste vara markerade för publicering för att de ska kunna placeras på Dynamic Media Image Servers. Du kan markera de här objekten för publicering i panelen Bläddra genom att välja **[!UICONTROL Mark for Publish]** -ikon.
 
 ## Publicera mallen {#publishing-your-template}
 

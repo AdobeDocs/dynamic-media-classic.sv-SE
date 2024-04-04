@@ -10,9 +10,9 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ Du kan använda bildmodifieringar i affischbildrutan. Du kan till exempel beskä
 
 Se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Se [Image Serving Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
+Se [Image Serving Guide](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Du kan också ändra videominiatyrbilder genom att lägga till modifierare till URL:er för videominiatyrbilder.
 

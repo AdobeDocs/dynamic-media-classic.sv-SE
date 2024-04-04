@@ -1,24 +1,22 @@
 ---
 title: Hämta information om diskanvändning
 description: Lär dig hur du får information om diskanvändning i Adobe Dynamic Media Classic.
-uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '90'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
-# Hämta information om diskanvändning {#getting-disk-usage-information}
+# Hämta information om diskanvändning {#get-disk-usage-information}
 
 Du kan använda `disk_info` parameter för att hämta information om ett företags diskutrymmesanvändning, vilket visas i följande exempel:
 
@@ -49,7 +47,7 @@ Du kan använda följande fält i URL-frågesträngen för att få information o
 | URL-parameter | Obligatoriskt/valfritt | Värde |
 | --- | --- | --- |
 | op | Obligatoriskt | disk_info |
-| shared_secrets | Obligatoriskt | Den delade hemliga nyckeln för företaget |
+| shared_secrets | Obligatoriskt | Nyckeln som är en delad hemlighet för företaget |
 
 Följande exempelkod hämtar diskinformation för 000Company:
 

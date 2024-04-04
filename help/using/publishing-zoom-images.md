@@ -1,18 +1,16 @@
 ---
 title: Publicera zoombilder
 description: Lär dig hur du publicerar zoombilder från Adobe Dynamic Media Classic.
-uuid: d7e7a474-8af5-46a7-94df-063396f67554
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -25,7 +23,7 @@ När du publicerar placeras dina zoombilder på Dynamic Media bildservrar så at
 
 ## Markera bilder för publicering {#marking-images-for-publish}
 
-Bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera bilderna för publicering i panelen Bläddra genom att välja **[!UICONTROL Mark for Publish]** ikon. Du kan också markera bilder för publicering när du överför dem.
+Bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina bilder för publicering i panelen Bläddra genom att välja **[!UICONTROL Mark for Publish]** -ikon. Du kan också markera bilder för publicering när du överför dem.
 
 ## Publicera bilderna {#publishing-the-images}
 

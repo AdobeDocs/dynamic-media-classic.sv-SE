@@ -1,6 +1,6 @@
 ---
 title: Programinställningar
-description: Lär dig hur du konfigurerar programområdet i Adobe Dynamic Media Classic. I programområdet kan du ange allmänna inställningar, skapa inställningar för bild, visningsprogram och videokodning, definiera standardvisningsprogram och -metadata, publiceringsinställningar och SEO-inställningar för video. Du kan också använda området för att ställa in gruppuppsättningsförinställningar för att automatisera genereringen av 2D-snurruppsättningar.
+description: Lär dig hur du konfigurerar programområdet i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10399'
+source-wordcount: '10355'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-  Om mallen bara innehåller `<ID>`fyller Adobe Dynamic Media Classic sedan i `https://<server>/is/image`, där `<server>` är namnet på den publiceringsserver som definieras i Allmänna inställningar.
+  Om mallen bara innehåller `<ID>`fyller Adobe Dynamic Media Classic sedan i `https://<server>/is/image`, där `<server>` är namnet på publiceringsservern som definieras i Allmänna inställningar.
 
   Ställa in mallen för invalidering av CDN, markera en bild med namnet Backpack_B och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]** resulterar i följande genererade URL i CDN-gränssnittet Ovalidate:
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic tillåter inte att två filer har samma namn. Varje 
 
 Om du tidigare överförde bilder och sedan ändrade originalfilerna (eller ersatt dem) anger det valda alternativet Skriv över hur Adobe Dynamic Media Classic ska ersätta bilderna. Ingen information om bilden ändras, men den nya bilden ersätter den gamla. Om mappen även innehåller bilder som inte redan finns i Adobe Dynamic Media Classic läggs dessa bilder till.
 
-Använd det här alternativet om de överförda bilderna har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF. Finjustera Adobe Dynamic Media Classic *ribbor* Justera ICC-färgprofilalternativen i dialogrutan Överför och ladda upp igen med hjälp av funktionen Skriv över.
+Använd det här alternativet om de överförda bilderna har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF. Finjustera Adobe Dynamic Media Classic *ribbor* Justera ICC-färgprofilalternativen i dialogrutan Överför och ladda upp igen med hjälp av överskrivningsfunktionen.
 
 De Adobe Dynamic Media Classic-ID:n som används för att få åtkomst till bilder från produktionsservrarna härleds från bildens filnamn. Det är viktigt att du använder versaler och gemener i filnamnet, både när du ersätter befintliga filer och när du ersätter de Adobe Dynamic Media Classic-id:n som används för att komma åt bilden. Se till att versaler och gemener används korrekt i filnamn innan du överför till Adobe Dynamic Media Classic för att undvika Adobe Dynamic Media Classic-ID:n som bara skiljer sig åt för samma bild.
 
@@ -161,7 +161,7 @@ Administratörer kan skapa förinställningar för att exportera resurser. Anvä
 
 Du öppnar skärmen Bildförinställning i fältet Global navigering på **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Se [Smart bildbehandling](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+Se [Smart bildbehandling](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Skapa och redigera bildförinställningar {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Genom att kombinera följande i en enda spelare:
 
 Du kan nå ut med multimediematerial till både dator-, surfplatte- och mobilanvändare och få en smidig videoupplevelse.
 
-Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) i referenshandboken för visningsprogrammen för Adobe.
+Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) i referenshandboken för visningsprogrammen för Adobe.
 
 Se [Kompatibilitetsmatris för Adobe Dynamic Media Classic Viewer-förinställning](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Se även [Exempel på referensbibliotek för Adobe-visningsprogram](https://land
 
 Olika webbsidor har olika behov. Ibland vill du ha en webbsida som innehåller en länk som öppnar visningsprogrammet för HTML 5 i ett separat webbläsarfönster. I andra fall måste du bädda in HTML5-visningsprogrammet direkt på värdsidan. I det senare fallet har webbsidan förmodligen en statisk layout. Eller så är den&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har HTML5-visningsprogrammen som medföljer Adobe Dynamic Media Classic stöd för både statiska webbsidor och responsiva webbsidor.
 
-Mer information om hur du bäddar in responsiva visningsprogram på dina webbsidor finns i [Om bibliotek för responsiv bild](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [Använd responsivt bildbibliotek](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api)och [Kommandoreferens - Kommandoattribut](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+Mer information om hur du bäddar in responsiva visningsprogram på dina webbsidor finns i [Om bibliotek för responsiv bild](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Använd responsivt bildbibliotek](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api)och [Kommandoreferens - Kommandoattribut](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Förinställningstyper för visningsprogram {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Se även [Exempel på referensbibliotek för Adobe-visningsprogram](https://land
 
 Information om vilka webbläsare och operativsystemversioner som stöds för visningsprogram finns i Viewer Release Notes.
 
-Se [Versionsinformation om Adobe-visningsprogrammet](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+Se [Versionsinformation om Adobe-visningsprogrammet](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet PC |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -613,7 +613,7 @@ Se även [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7vie
      
    * **Redigera** - Välj en befintlig visningsförinställning och välj sedan **[!UICONTROL Edit]**.
 
-1. Ange eller redigera förinställningsnamnet i fältet Förinställningsnamn på sidan Konfigurera visningsprogram.
+1. På sidan Konfigurera visningsprogram anger eller redigerar du förinställningens namn i fältet Förinställningsnamn.
 1. Ange de återstående alternativen som du vill ha.
 
    >[!NOTE]
@@ -732,7 +732,7 @@ Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 1. Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
 1. Välj **[!UICONTROL Close]**.
 
-## Konfigurera standardvisningsprogram {#configuring-default-viewers}
+## Konfigurera standardvisningsprogram {#configure-default-viewers}
 
 Du kan använda standardvisningsprogram för att konfigurera standardvisningsprogrammet som är kopplat till en resurs när du använder Förhandsvisa i Adobe Dynamic Media Classic. Du kan ställa in standardförhandsvisningen för följande resurstyper:
 
@@ -812,7 +812,7 @@ Skapa en metadataförinställning för varje uppsättning metadatavärden som du
 
 En Media Portal-administratör eller en företagsadministratör kan skapa anpassade, användardefinierade metadatafält. Med anpassade fält kan du ordna resurser i Adobe Dynamic Media Classic. Du kan markera fälten som aktiva, efter behov. När du aktiverar det här alternativet visas namnen på dessa anpassade metadatafält på panelen Metadata i detaljvyn. Användare kan ange information i användardefinierade metadatafält för att beskriva resurser. Användarna kan också göra ett användardefinierat metadatafält till ett villkor i sökningar.
 
-Ett effektivt sätt att använda användardefinierade metadatafält är att fördröja aktiveringstiden för en mediefil för en viss start eller försäljning. Du definierar ett aktiveringsfält baserat på typ *Datum*. Sedan använder du **[!UICONTROL Metadata]** i detaljvyn eller **[!UICONTROL File]** > **[!UICONTROL Edit Info]** kan du ange när resursen ska aktiveras. Adobe Dynamic Media Classic kontrollerar publiceringsstatusen för en resurs och publiceringshistoriken. Om det inte är inom aktiveringstiden visas publiceringsstatusen som Inte publicerad.
+Ett effektivt sätt att använda användardefinierade metadatafält är att fördröja aktiveringstiden för en mediefil för en viss start eller försäljning. Du definierar ett aktiveringsfält baserat på typ *Datum*. Sedan använder du **[!UICONTROL Metadata]** i detaljvyn eller **[!UICONTROL File]** > **[!UICONTROL Edit Info]** kan du ange när resursen ska aktiveras. Adobe Dynamic Media Classic kontrollerar publiceringsstatus för en resurs och publiceringshistorik. Om det inte är inom aktiveringstiden visas publiceringsstatusen som Inte publicerad.
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ Du behöver inte konfigurera en standardnamnkonvention för att kunna använda f
 
 Du kan också använda Visa kod utan några formulärfält. I den här vyn skapar du namnkonventionens definitioner helt med hjälp av reguljära uttryck.
 
-Det finns två element för definition, Matcha och Basnamn. Med dessa fält kan du definiera alla element i en namnkonvention och identifiera den del av konventionen som används för att namnge den uppsättning i vilken de finns. Ett företags personliga namnkonvention kan använda en eller flera definitionsrader för vart och ett av dessa element. Du kan använda så många rader för din unika definition och gruppera dem i distinkta element, t.ex. för Huvudbild, Färgelement, Alternativa vyer och Färgruteelement.
+Det finns två element för definition, Matcha och Basnamn. Dessa fält är alla element som du har definierat för en namnkonvention och identifierar den del av konventionen som används för att namnge den uppsättning i vilken de finns. Ett företags personliga namnkonvention kan använda en eller flera definitionsrader för vart och ett av dessa element. Du kan använda så många rader för din unika definition och gruppera dem i distinkta element, t.ex. för Huvudbild, Färgelement, Alternativa vyer och Färgruteelement.
 
 ### Skapa en förinställning för gruppuppsättning {#creating-a-batch-set-preset}
 

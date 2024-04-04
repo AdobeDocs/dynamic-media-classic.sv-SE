@@ -1,6 +1,6 @@
 ---
 title: Överföra en rasterbildsresurs
-description: Lär dig hur du överför en rasterbildsresurs till Adobe Dynamic Media Classic
+description: Lär dig hur du överför en rasterbildsresurs till Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 The `file_limit` -parametern anger gränsen för filstorlek i byte. The `file_exts` parameter anger de filnamnstillägg som tillåts för överföring. Båda dessa värden är valfria.
 
-I programmet anges en global gräns för filstorlek och tillåtna filnamnstillägg. Om det du skickar i begäran är en delmängd av de globala gränserna respekteras det. De globala begränsningarna är följande:
+I programmet anges en global gräns för filstorlek och tillåtna filnamnstillägg. Om det du skickade i begäran är en delmängd av de globala begränsningarna, respekteras det. De globala begränsningarna är följande:
 
 | Global gräns | Värde |
 | --- | --- |
@@ -138,9 +138,9 @@ I följande HTML-formulär kan en användare överföra en resurs. I formuläret
 Se Blockera bakgrund i [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 * Namnet på filen som ska överföras.
 
-Du kan visa källkoden för HTML som är kopplad till formuläret ovan genom att välja [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Du kan visa källkoden för HTML som är kopplad till formuläret ovan genom att markera [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-I Firefox högerklickar du i webbläsarfönstret och väljer sedan **[!UICONTROL View Page Source]**. Koden visar den motsvarande URL-frågesträngen och den POST-metod som körs när användaren väljer **[!UICONTROL Submit]**.
+I Firefox högerklickar du i webbläsarfönstret och väljer sedan **[!UICONTROL View Page Source]**. Koden visar motsvarande URL-frågesträng och den POST som körs när användaren väljer **[!UICONTROL Submit]**.
 
 Om du vill visa XML-svaret i Internet Explorer går du till **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svaret i Firefox går du till **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Firefox rekommenderas för visning av XML-svar.
 
@@ -237,7 +237,7 @@ Du kan använda följande fält i URL-frågesträngen för att begära informati
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
 | --- | --- | --- |
 | `op` | Obligatoriskt | image_info |
-| `shared_secret` | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
+| `shared_secret` | Obligatoriskt | Nyckeln som är delad hemlighet för företaget. |
 | `image_name` | Obligatoriskt | Bildens namn. |
 
 **Exempel-URL:**

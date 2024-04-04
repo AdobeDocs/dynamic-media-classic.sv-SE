@@ -10,9 +10,9 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Dina webbplatser och program har åtkomst till Dynamic Media Image Server-inneh�
 
 Vanligtvis zoomar besökarna bilder på en webbplats genom att först välja en zoomningsikon (ofta visas bilden av ett förstoringsglas). Om du väljer den här ikonen öppnas en dynamisk webbsida (ASP eller JSP) som visar bilden i ett popup-fönster. I popup-fönstret kan besökarna zooma in bilden.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i referenshandboken för visningsprogrammen för Adobe](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i referenshandboken för visningsprogrammen för Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopiera den inbäddade kopian av ett Zoom-visningsprogram {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -71,7 +71,7 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för det valda 
 
      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
 
-1. I dialogrutan Bädda in kod väljer du **[!UICONTROL Copy to Clipboard]**.
+1. Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
 
    Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 

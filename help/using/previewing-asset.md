@@ -1,20 +1,18 @@
 ---
 title: Förhandsgranska en resurs
 description: Lär dig hur du förhandsgranskar en resurs i Adobe Dynamic Media Classic.
-uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -31,7 +29,7 @@ Se även [Exempel på referensbibliotek för Adobe-visningsprogram](https://land
 
 **Så här förhandsgranskar du en resurs:**
 
-1. Gå till resursmapparna som innehåller resursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
+1. Gå till resursmappen som innehåller resursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**.
@@ -53,7 +51,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
 **Så här förhandsgranskar du en resurs baserat på visningsprogrammets plattformstyp:**
 
-1. Gå till resursmapparna som innehåller resursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
+1. Gå till resursmappen som innehåller resursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser väljer du en enskild resurs och går sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
@@ -65,10 +63,10 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
    Stäng den förhandsgranskning som visas.
 
-1. (Valfritt) I listrutan URL-kodning för att kopiera URL-generering i visningsprogramlistan längst ned väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
+1. (Valfritt) I listrutan URL-kodning för att kopiera URL-generering i visningsprogramlistan längst ned väljer du den URL-kodning som ska användas för resursens URL när den kopieras.
 1. (Valfritt) Gör något av följande:
 
-   * I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]** för ett valt visningsprogram och en viss plattformstyp.
+   * I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]** för ett valt visningsprogram och plattformstyp.
 
      När du väljer **[!UICONTROL Copy URL]**, kopieras den associerade URL:en automatiskt till Urklipp.
 
@@ -82,7 +80,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
 ## Förhandsvisa en bildresurs baserat på dess bildförinställning {#previewing-an-image-asset-based-on-its-image-preset}
 
-Du kan förhandsgranska en bildresurs baserat på bildförinställningen för att ta reda på hur bilden ser ut när den levereras dynamiskt till webbplatsen eller programmet i olika storlekar.
+Du kan förhandsgranska en bildresurs baserat på bildförinställningen för att ta reda på hur bilden ser ut när den levereras dynamiskt till din webbplats eller ditt program i olika storlekar.
 
 En bildförinställning är en samling fördefinierade inställningar som ändrar storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
 
@@ -92,7 +90,7 @@ Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.m
 
 **Så här förhandsvisar du en bildresurs baserat på dess bildförinställning:**
 
-1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
+1. Gå till resursmappen som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser väljer du en enda bildresurs och går sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
@@ -101,7 +99,7 @@ Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.m
 
 1. I fönstret Bildförinställningslista i tabellen markerar du namnet på en förinställningstyp vars bildresurs du vill förhandsgranska infogat i den högra rutan.
 1. (Valfritt) I fönstret Bildförinställningslista i dialogrutan **[!UICONTROL URL Encoding for Copy URL Generation]** nedrullningsbar lista längst ned väljer du den URL-kodning som ska användas på bildresursens URL när den kopieras.
-1. (Valfritt) I fönstret Bildförinställningslista i det övre högra hörnet av förhandsvisningsrutan väljer du **[!UICONTROL Copy URL]** för den valda förinställningstypen.
+1. (Valfritt) I fönstret Bildförinställningslista i det övre högra hörnet av förhandsgranskningsfönstret väljer du **[!UICONTROL Copy URL]** för den valda förinställningstypen.
 
    När du väljer **[!UICONTROL Copy URL]**, kopieras den associerade URL:en automatiskt till Urklipp.
 

@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1893'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Den nya appen finns nu för Windows® och macOS.
 >
 >Adobe rekommenderar att du installerar den nya Adobe Dynamic Media Classic-appen senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player blir inaktuell den 31 december 2020. Efter detta datum kan du inte logga in på webbläsarversionen av Adobe Dynamic Media Classic användargränssnitt, som är märkt som Adobe Dynamic Media Classic i produkten.
 
-Se Frågor och svar för [Nu finns ny inloggning från Adobe Dynamic Media Classic.](/help/using/new-ui-2020.md)
+Se Frågor och svar för [Nu finns nya Adobe Dynamic Media Classic-inloggningar.](/help/using/new-ui-2020.md)
 
 ## Systemkrav för Adobe Dynamic Media Classic datorprogram {#system-requirements-dmc-app}
 
@@ -46,7 +46,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
 
-* Bildredigering **[!UICONTROL Save]** knapparna var icke-funktionella.
+* När du redigerar en bild **[!UICONTROL Save]** knapparna var icke-funktionella.
 * I Set editors **[!UICONTROL Close]**, **[!UICONTROL Save]** och **[!UICONTROL Save As]** inaktiveras knapparna efter bläddring i **[!UICONTROL Add Assets]** -panelen.
 * **[!UICONTROL Play]** knappen i vyn Videodetalj fungerade inte.
 * Det gick inte att ange `d` och `e` in **[!UICONTROL Username]** och **[!UICONTROL Password]** fält när du kör macOS Monterey.
@@ -233,7 +233,7 @@ Hämta och *silent* installera den senaste versionen av Adobe Dynamic Media Clas
 
 ## Videogenomgång om hur du använder Adobe Dynamic Media Classic datorprogram {#dmc-app-video-walk-through}
 
-Se en [videoutgång om hur du använder Adobe Dynamic Media Classic datorprogram](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (längd: 2 minuter 36 sekunder).
+Se en [videoutgång om hur du använder Adobe Dynamic Media Classic datorprogram](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (längd: 2 minuter 36 sekunder).
 
 ## Rensa bildcachen och resurscachen på datorn med datorprogrammet {#clear-cache}
 
@@ -252,7 +252,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
    * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Känd begränsning i Adobe Dynamic Media Classic 20.21.1
+## Kända begränsningar i Adobe Dynamic Media Classic 20.21.1
 
 * The **[!UICONTROL Server]** rullgardinsmenyn är tom efter uppdatering till Adobe Dynamic Media Classic datorprogram 20.21.1 - Scenario: Du installerar och loggar in på Adobe Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Uppdatera sedan till Adobe Dynamic Media Classic 20.21.1. När du försöker logga in visas **[!UICONTROL Server]** nedrullningsbar lista i **[!UICONTROL Sign in to your account]** är tom. Du måste [rensa cachen manuellt](#clear-cache) (se stegen ovan).
 

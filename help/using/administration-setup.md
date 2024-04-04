@@ -1,19 +1,17 @@
 ---
 title: Administrationsinställningar
 description: Lär dig hur du ställer in administrationsdelen av Adobe Dynamic Media Classic.
-uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1846'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -66,11 +64,11 @@ När du har lagt till en användare skickar Adobe Dynamic Media Classic ett väl
 
    Nya användare får ett välkomstmeddelande när du har lagt till dem. I e-postmeddelandet finns ett tillfälligt lösenord och information om hur du loggar in på Adobe Dynamic Media Classic.
 
-   Om användaren inte får välkomstmeddelandet kan du be dem gå till inloggningssidan för Adobe Dynamic Media Classic (https://s7sps1.scene7.com) och välja **[!UICONTROL Forgot My Password]**. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
+   Om användaren inte får välkomstmeddelandet ber du dem gå till Adobe Dynamic Media Classic inloggningssida (https://s7sps1.scene7.com) och välja **[!UICONTROL Forgot My Password]**. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
 
    När du lägger till nya Media Portal-användare kan du även gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]** väljer **[!UICONTROL Upload User List]** och väljer en CSV-fil som inte innehåller fler än 500 användare.
 
-### Ta bort en användare {#deleting-a-user}
+### Ta bort en användare {#delet-a-user}
 
 Du kan ta bort användare från Adobe Dynamic Media Classic genom att göra dem ogiltiga. Ogiltiga användare tas bort från systemet och alla konton.
 

@@ -1,18 +1,16 @@
 ---
 title: Publicera primära bilder
 description: Lär dig hur du publicerar primära bilder från Adobe Dynamic Media Classic.
-uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -29,7 +27,7 @@ Primära bilder måste markeras för publicering för att de ska kunna kopieras 
 
 ## Publicera dina primära bilder {#publishing-your-master-images}
 
-1. I fältet Global navigering väljer du **[!UICONTROL Publish]**. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och sedan ange ett namn för publiceringsjobbet
+1. I fältet Global navigering väljer du **[!UICONTROL Publish]**. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och ange sedan eventuellt ett namn för publiceringsjobbet
 
 1. Välj **[!UICONTROL Submit Publish]**.
 

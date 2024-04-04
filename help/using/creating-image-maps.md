@@ -1,20 +1,18 @@
 ---
 title: Skapa bildscheman
-description: Lär dig hur du skapar bildscheman i Adobe Dynamic Media Classic.
-uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
+description: Lär dig skapa bildscheman i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2354'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -30,7 +28,7 @@ När du skapar bildscheman kan du göra något av följande:
 * Ange överrullningstext.
 * Ange JavaScript och URL:er för att starta webbsidor.
 * Skapa URL-mallar för bildscheman.
-* Kopiera bildscheman till andra bilder, eCatalog-sidor eller SpinSets.
+* Kopiera bildscheman till andra bilder, e-katalogsidor eller SpinSets.
 * Exportera bildscheman till CSV eller till XML.
 * Importera bildmetadata från en tabbavgränsad fil eller från en XML-fil.
 * Definiera andra åtgärder enligt World Wide Web Consortium.
@@ -69,7 +67,7 @@ När du skapar bildscheman kan du göra något av följande:
 1. (Valfritt) Gör något av följande:
 
    * Om du vill förhandsgranska bildscheman väljer du **[!UICONTROL Preview]**.
-   * Om du vill ta bort ett bildschema eller en polygonhörnpunkt markerar du en form i bilden och väljer sedan **[!UICONTROL Delete]**. Du kan också välja att välja **[!UICONTROL Clear Maps]** om du vill ta bort bildscheman från alla sidor.
+   * Om du vill ta bort ett bildschema eller en polygonhörnpunkt markerar du en form i bilden och väljer sedan **[!UICONTROL Delete]**. Du kan också välja alternativet för att beställa sidor för en e-katalog på fliken Ordna sidor **[!UICONTROL Clear Maps]** om du vill ta bort bildscheman från alla sidor.
    * Om du tillfälligt vill ta bort en bildschema från en bild, en bild i en SpinSet eller en eCatalog-sida utan att ta bort den, avmarkerar du motsvarande På-alternativ i listan Bildschema.
 
 1. Välj **[!UICONTROL Save]**.
@@ -96,14 +94,14 @@ Om bilden eller eCatalog-sidan innehåller mer än en bildschema och kartorna ö
 
 ### Importera data för bildschema {#importing-image-map-data}
 
-I stället för att ange bildschemadata på varje sida kan du importera data för bilden, den nya uppsättningen eller eCatalog till fönstret Kartsammanfattning. Du importerar bildschemadata i form av en tabbavgränsad fil eller XML DTD. Fälten i filen måste vara i den ordning som visas i fönstret Mappningssammanfattning: Namn, etiketter för innehållsförteckning, kartor, URL:er, överrullningstext, andra åtgärder och söksträngar. Om du importerar data från bildschemat slipper du problem med att ange data i listan Bildschema när du skapar bildschemat.
+I stället för att ange bildschemadata på varje sida kan du importera data för bilden, den nya uppsättningen eller eCatalog till fönstret Kartsammanfattning. Du importerar bildschemadata i form av en tabbavgränsad fil eller XML DTD. Fälten i filen måste vara i den ordning som visas i fönstret Kartsammanfattning: Namn, Innehållsförteckningsetiketter, Kartor, URL:er, Överrullningstext, Andra åtgärder och Söksträngar. Om du importerar data från bildschemat slipper du problem med att ange data i listan Bildschema när du skapar bildschemat.
 
 **Så här importerar du data för bildschema:**
 
 1. Gå till redigeringssidan för bildscheman (för bilder eller bilder i SpinSets) eller fliken Kartsidor på redigeringsskärmen för eCatalog.
 1. Välj **[!UICONTROL Import Metadata]**.
 1. I dialogrutan Överför metadata väljer du Bild eller Bildschema för att överföra metadata från den önskade resursegenskapstypen.
-1. Välj den typ av fil du vill skapa i listrutan Generera fil.
+1. I `Generate File` väljer du vilken typ av fil du vill skapa.
 1. (Valfritt) Välj **[!UICONTROL Generate]** om du vill förhandsgranska den resulterande informationen baserat på vilken typ av fil du vill skapa. Välj **[!UICONTROL Close]** för att återgå till dialogrutan Överför metadata.
 1. Bläddra till filen som du vill överföra. Ange namnet på den genererade filen i textfältet Filnamn.
 1. (Valfritt) I fältet Jobbnamn anger du ett namn för metadataöverföringsjobbet.
@@ -136,17 +134,17 @@ Du kan definiera en URL-mall (kallas även Href-mall) för att göra det enklare
 
 ### Om URL-mallar {#about-url-templates}
 
-URL-mallen fungerar genom att ersätta innehållet i URL-kolumnen i listan Bildschema med dubbla dollartecken (&quot;$$&quot;) i mallen:
+URL-mallen fungerar genom att ersätta innehållet i URL-kolumnen i listan Bildschema med dollartecknen (&#39;$$&#39;) i mallen:
 
 ```as3
-Javascript:loadProduct(‘$$’);void(0);
+Javascript:loadProduct('$$');void(0);
 ```
 
 Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg bara till de värden som ändras i URL-kolumnen i listan Bildschema. Till exempel:
 
-* URL-mall - `javascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* URL-mall - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * URL-värde - `product.htm`
-* Faktisk URL genererad - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
+* Faktisk URL genererad - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Som standard innehåller URL-mallen en Adobe Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` som öppnar ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Adobe Dynamic Media Classic-hanterare:
 
@@ -194,7 +192,7 @@ Välj **[!UICONTROL Show]** meny och välj **[!UICONTROL Both]** om du vill att 
 
 Du kan skapa bildscheman när du utformar din e-katalog i Adobe Acrobat eller Adobe InDesign.
 
-I Adobe Acrobat eller Adobe InDesign skapar du hyperlänksreferenser där du vill att bildscheman ska visas och anger URL-adresser för bildschemat. Om du markerar alternativet Extrahera länkar när du överför PDF-filen till Adobe Dynamic Media Classic konverteras länkarna automatiskt till Bildscheman.
+I Adobe Acrobat eller Adobe InDesign skapar du hyperlänksreferenser där du vill att bildscheman ska visas och anger URL-adresser för bildschemat. Om du markerar alternativet Extrahera länkar när du överför PDF-filen till Adobe Dynamic Media Classic konverteras länkarna automatiskt till bildscheman.
 
 Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 
@@ -205,7 +203,7 @@ Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 1. Välj **[!UICONTROL New Hyperlink]** på panelmenyn.
 1. I dialogrutan Ny hyperlänk går du till **[!UICONTROL Link To]** meny, välja **[!UICONTROL URL]**.
 1. Skriv eller klistra in produkt-ID:t i rutan URL.
-1. Välj **[!UICONTROL OK]**. (Adobe Dynamic Media Classic slutför URL:en med URL-mallen för bildschema.)
+1. Välj **[!UICONTROL OK]**. (Adobe Dynamic Media Classic slutför URL:en med hjälp av URL-mallen för bildschema.)
 
    >[!NOTE]
    >

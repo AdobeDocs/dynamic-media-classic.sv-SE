@@ -1,6 +1,6 @@
 ---
 title: "Snabbstart: Integrera Adobe Dynamic Media Classic och Adobe Analytics"
-description: En introduktion och snabbstart om hur du kan integrera Adobe Dynamic Media Classic och Adobe Analytics för att snabbt komma igång.
+description: En introduktion och snabbstart om hur du integrerar Adobe Dynamic Media Classic och Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ När du har integrerat Adobe Analytics med Adobe Dynamic Media Classic kan du f�
 
 Med Adobe Analytics rapporter kan du få en tydlig bild av kundernas aktivitet på din webbplats. Du kan avgöra vilka produktpresentationer som leder till konvertering och vilka som inte drar till sig kundernas intresse.
 
-Se även [Mät video i Adobe Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+Se även [Mät video i Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Se [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md#conf
 
 ## 3. Publicera dina Adobe Dynamic Media Classic-visningsprogram
 
-Publicera dina Adobe Dynamic Media Classic-visningsprogram så att visningsprogrammen (med kod för att spåra användaraktiviteter i Adobe Analytics-rapporter) läses in på Adobe Dynamic Media Classic-servrar. När du har publicerat den här informationen ingår den i visningsprogrammen och kan användas för analyser av Adobe Analytics.
+Publicera dina Adobe Dynamic Media Classic-visningsprogram så att visningsprogrammen (med kod för att spåra användaraktiviteter i Adobe Analytics-rapporter) läses in på Adobe Dynamic Media Classic-servrar. När du har publicerat den här informationen ingår den i visningsprogrammen och kan användas för analys av Adobe Analytics.
 
 Se [Publicera konfigurationsinformation](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

@@ -1,20 +1,18 @@
 ---
 title: Alternativ för finjustering av bilder vid överföring
 description: Lär dig mer om de alternativ för finjustering som är tillgängliga vid överföringen i Adobe Dynamic Media Classic.
-uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
@@ -80,7 +78,7 @@ Under Oskarp mask anger du önskade alternativ. Inställningsalternativen beskri
 | --- | --- |
 | Belopp | Styr mängden kontrast som används på kantpixlar.<br><br>Tänk på det som intensiteten i effekten. Den största skillnaden mellan mängden oskarp mask i Adobe Dynamic Media Classic och mängden värden i Adobe Photoshop är att Photoshop har ett intervall på 1 till 500 %. I Adobe Dynamic Media Classic är värdeintervallet 0,0 till 5,0. Värdet 5.0 i Adobe Dynamic Media Classic motsvarar 500 % i Photoshop, värdet 0,9 motsvarar 90 % och så vidare. |
 | Radie | Styr radien för effekten. <br><br>Värdet är 0-250. Effekten körs på alla pixlar i en bild och strålar ut från alla pixlar i alla riktningar. Radien mäts i pixlar. Om du till exempel vill få en liknande skärpeeffekt för en bild på 2 000 × 2 000 pixlar och en bild på 500 × 500 pixlar, skulle du ange en radie på två pixlar för bilden på 2 000 × 2 000 pixlar. Ange sedan radien 1 pixel på bilden med 500 × 500 pixlar. Ett större värde används för en bild som har fler pixlar. |
-| Tröskelvärde | Tröskelvärde är ett kontrastintervall som ignoreras när filtret Oskarp mask används. Den här effekten är viktig så att inget &quot;brus&quot; uppstår i en bild när filtret används. Värdeintervallet är 0-255, vilket är antalet intensitetssteg i en gråskalebild. 0=svart, 128=50% grått och 255=vitt.<br><br>Ett tröskelvärde på 12 ignorerar t.ex. små variationer i hudtonens ljusstyrka för att undvika att lägga till brus, men ändå ger kantkontrast till kontrastområden som där ögonfransarna möts av hud.<br><br>Om du t.ex. har ett foto av någons ansikte kommer Oskarp mask att påverka de kontrastrika delarna av bilden. Till exempel där ögonfransar och hud möts för att skapa ett tydligt kontrastområde och den utjämnade huden. Även den jämnaste huden uppvisar subtila förändringar i intensitetsvärden. Om du inte använder ett tröskelvärde framhäver filtret dessa subtila ändringar i hudpixlar. I sin tur skapas en högljudd och oönskad effekt medan kontrasten på ögonfransarna ökar, vilket ökar skärpan.<br><br>För att undvika det här problemet introduceras ett tröskelvärde som instruerar filtret att ignorera pixlar som inte förändrar kontrasten dramatiskt, som mjuk hud. <br><br>Lägg märke till texturen bredvid dragkedjan i zippargrafiken som visades tidigare. Bildbrus visas eftersom tröskelvärdena var för låga för att undertrycka bruset. |
+| Tröskelvärde | Tröskelvärde är ett kontrastintervall som ignoreras när filtret Oskarp mask används. Den här effekten är viktig så att inget &quot;brus&quot; uppstår i en bild när filtret används. Värdeintervallet är 0-255, vilket är antalet intensitetssteg i en gråskalebild. 0=svart, 128=50% grått och 255=vitt.<br><br>Ett tröskelvärde på 12 ignorerar t.ex. små variationer i hudtonens ljusstyrka för att undvika att lägga till brus, men ändå ger kantkontrast till kontrastområden som där ögonfransarna möts av hud.<br><br>Om du t.ex. har ett foto av någons ansikte kommer Oskarp mask att påverka de kontrastrika delarna av bilden. Till exempel där ögonfransar och hud möts för att skapa ett tydligt kontrastområde och den utjämnade huden. Även den jämnaste huden uppvisar subtila förändringar i intensitetsvärden. Om du inte använder ett tröskelvärde framhäver filtret dessa subtila ändringar i hudpixlar. I sin tur skapas en högljudd och oönskad effekt medan kontrasten på ögonfransarna ökar, vilket ökar skärpan.<br><br>För att undvika det här problemet introduceras ett tröskelvärde som instruerar filtret att ignorera pixlar som inte förändrar kontrasten dramatiskt, som mjuk hud. <br><br>Lägg märke till texturen bredvid dragkedjan i zippargrafiken som visades tidigare. Bildbrus visas eftersom tröskelvärdena är för låga för att undertrycka bruset. |
 | Monokrom | Markera för att få bildintensiteten oskarp mask (intensitet).<br><br>Avmarkera alternativet om du vill skapa en oskarp mask för varje färgkomponent separat. |
 
 Se även [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image).

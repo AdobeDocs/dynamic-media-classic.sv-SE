@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
-# Lägga till bildtexter i video {#adding-captions-to-video}
+# Lägga till bildtexter i video {#add-captions-to-video}
 
 Du kan utöka räckvidden för dina videor till globala marknader genom att lägga till bildtexter till enskilda videor eller till adaptiva videouppsättningar. Genom att lägga till bildtext undviker du behovet av att duplicera ljudet, eller behovet av att använda inbyggda högtalare för att spela in ljudet igen för varje språk. Videon spelas upp på det språk den spelades in på. Undertexter på främmande språk visas så att personer på olika språk fortfarande kan förstå ljuddelen.
 
@@ -38,7 +38,7 @@ Se även [Lägga till och redigera visningsprogramförinställningar](applicatio
 
 Adobe Dynamic Media Classic kan konvertera bildtextfiler till JSON-format (JavaScript Object Notation). Den här konverteringen innebär att du kan bädda in JSON-texten på en webbsida som en dold men fullständig utskrift av videon. Sökmotorerna kan sedan crawla och indexera innehållet så att videoklippen blir lättare att hitta och ge kunderna mer information om videoinnehållet.
 
-Se [Hantera statiskt innehåll (inte bildinnehåll)](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) i *Hjälp om Adobe Image Serving API* om du vill ha mer information om hur du använder JSON-funktionen i en URL.
+Se [Hantera statiskt innehåll (inte bildinnehåll)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) i *Hjälp om Adobe Image Serving API* om du vill ha mer information om hur du använder JSON-funktionen i en URL.
 
 **Så här lägger du till bildtexter i videon:**
 
@@ -52,7 +52,7 @@ Se [Hantera statiskt innehåll (inte bildinnehåll)](https://experienceleague.ad
 
    Se [Överför filer](uploading-files.md#uploading_files).
 
-1. Gå till resursmappen som innehåller den videofil som du vill associera med bildtextfilen som du överförde i panelen Resursbibliotek på vänster sida.
+1. Gå till resursmappen som innehåller den videofil som ska associeras med den bildtextfil som du överförde i panelen Resursbibliotek på vänster sida.
 1. Välj en enskild videoresurs i panelen Resursbläddring och välj sedan under miniatyrbilden för resursen **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 1. I tabellen Viewer List kan du hitta visningsprogrammet HTML 5 med namnet **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, eller **Universal_HTML5_MixedMedia_light** gör du något av följande:
 

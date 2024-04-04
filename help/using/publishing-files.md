@@ -1,6 +1,6 @@
 ---
 title: Publicera filer
-description: "Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-samtal från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program."
+description: Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program.
 
-Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla era Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen levereras sedan via HTTP/2-protokollet. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla era Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicera efter överföring {#publish-after-uploading}
 
@@ -48,12 +48,12 @@ Härledda bilder markeras också automatiskt för publicering när deras överor
 
 ## Skapa ett publiceringsjobb {#creating-a-publish-job}
 
-Skapa ett publiceringsjobb för att publicera resurser som du har överfört till Adobe Dynamic Media Classic-servrar, men du vill inte publicera dem automatiskt än. Du kan göra en engångspublicering eller schemalägga jobb som ska återkomma regelbundet. Adobe Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
+Skapa ett publiceringsjobb för att publicera resurser som du har överfört till Adobe Dynamic Media Classic-servrar, men du vill inte publicera dem automatiskt än. Du kan göra en engångspublicering eller schemalägga jobb som ska upprepas regelbundet. Adobe Dynamic Media Classic erbjuder avancerade publiceringsalternativ för publicering på specifika servrar och alternativ för publicering av material som redan har publicerats.
 
 **Så här skapar du ett publiceringsjobb:**
 
 1. I fältet Global navigering väljer du **[!UICONTROL Publish]**.
-1. I dialogrutan Publicera väljer du om du vill ha ett enstaka eller återkommande publiceringsjobb.
+1. I dialogrutan Publicera väljer du om du vill ha ett engångs- eller återkommande publiceringsjobb.
 
    Se [Skapa ett engångspubliceringsjobb](publishing-files.md#creating_a_one_time_publish_job) och [Skapa ett återkommande publiceringsjobb](publishing-files.md#creating_a_recurring_publish_job).
 
@@ -68,17 +68,17 @@ Adobe Dynamic Media Classic spårar publiceringsjobb på jobbsidan. Du kan grans
 
 >[!NOTE]
 >
->Resurser som du publicerar på nytt (du har publicerat dem tidigare) visas inte direkt på webbplatsen på grund av webb-cachningsfunktionen i leveransnätverket (CDN). Se [Återpublicerade resurser och CDN-förseningar](publishing-files.md#republished_assets_and_cdn_delays).
+>Resurser som du har publicerat på nytt (du har publicerat dem tidigare) visas inte direkt på webbplatsen på grund av funktionen för webbaserad cachelagring i leveransnätverket (CDN). Se [Återpublicerade resurser och CDN-förseningar](publishing-files.md#republished_assets_and_cdn_delays).
 
 ### Skapa ett engångspubliceringsjobb {#creating-a-one-time-publish-job}
 
-Skapa ett engångspubliceringsjobb genom att välja **[!UICONTROL One-Time]** på sidan Publicera.
+Skapa ett engångspubliceringsjobb genom att välja **[!UICONTROL One-Time]** på publiceringssidan.
 
-Om du vill att publiceringsjobbet ska utföras senare väljer du på sidan Publicera **[!UICONTROL One-Time]** väljer **[!UICONTROL Schedule For Later]** i listrutan. Använd kalendern och tidsreglaget för att välja dag och tid för publiceringsjobbet.
+Om du vill att publiceringsjobbet ska utföras senare väljer du på publiceringssidan **[!UICONTROL One-Time]**. Välj **[!UICONTROL Schedule For Later]**. Använd kalendern och tidsreglaget för att välja dag och tid för publiceringsjobbet.
 
 ### Skapa ett återkommande publiceringsjobb {#creating-a-recurring-publish-job}
 
-Skapa ett återkommande publiceringsjobb genom att välja **[!UICONTROL Recurring]** på sidan Publicera.
+Skapa ett återkommande publiceringsjobb genom att välja **[!UICONTROL Recurring]** på publiceringssidan.
 
 Välj sedan alternativet Upprepa för **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]**, eller **[!UICONTROL Custom]** anger du sedan när du vill att publiceringsjobbet ska återkomma. Adobe Dynamic Media Classic presenterar kalenderverktyg för schemaläggning av det återkommande publiceringsjobbet. Du kan välja **[!UICONTROL Custom]** och ange en regel i textfältet Regel för att beskriva ett anpassat jobbintervall.
 
@@ -90,7 +90,7 @@ Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](c
 
 ### Avancerade publiceringsalternativ {#advanced-publish-options}
 
-Du kan visa de avancerade alternativen på sidan Publicera och välja följande alternativ för att hantera ett publiceringsjobb:
+Du kan visa de avancerade alternativen på publiceringssidan och välja följande alternativ för att hantera ett publiceringsjobb:
 
 * **[!UICONTROL Publish To]** - Om du bara vill publicera resurser på en viss server väljer du en servertyp.
 
@@ -102,7 +102,7 @@ Du kan visa de avancerade alternativen på sidan Publicera och välja följande 
 
 Se [Använd ett överförings- eller publiceringsjobb som utlösare](checking-job-files.md#using_an_upload_or_publish_job_as_a_trigger).)
 
-## Avbryt ett publiceringsjobb {#canceling-a-publish-job}
+## Avbryta ett publiceringsjobb {#canceling-a-publish-job}
 
 Du kan avbryta ett pågående publiceringsjobb. Om du är administratör kan du dessutom avbryta ett pågående publiceringsjobb från företagets jobbsida.
 

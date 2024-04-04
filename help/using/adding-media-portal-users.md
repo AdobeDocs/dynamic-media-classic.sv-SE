@@ -1,27 +1,25 @@
 ---
 title: Lägga till och hantera Media Portal-användare
 description: Lär dig hur du lägger till och hanterar Media Portal-användare i Adobe Dynamic Media Classic.
-uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
 
 # Lägga till och hantera Media Portal-användare{#adding-and-managing-media-portal-users}
 
-Som administratör kan du lägga till och hantera användare, bestämma om de ska kunna ändra lösenord, redigera användarinformation och överföra användarlistor. Dessa åtgärder utförs på skärmen Användaradministration. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+Som administratör kan du lägga till och hantera användare, bestämma om de ska kunna ändra lösenord, redigera användarinformation och överföra användarlistor. Dessa åtgärder utförs på skärmen Användaradministration. Om du vill komma åt den här skärmen går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 
 >[!NOTE]
 >
@@ -42,8 +40,8 @@ Användare, medarbetare och medverkande på Media Portal får ett välkomstmedde
 ## Lägg till en mediaportanvändare {#adding-a-media-portal-user}
 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. På sidan Användaradministration väljer du **Lägg till**.
-1. I dialogrutan Lägg till användare anger du användarens förnamn, efternamn och e-postadress på panelen Användarinformation och väljer sedan **[!UICONTROL Next]**.
+1. Välj på sidan Användaradministration **Lägg till**.
+1. I **[!UICONTROL `Add User`]** på panelen Användarinformation anger du användarens förnamn, efternamn och e-postadress och väljer sedan **[!UICONTROL Next]**.
 1. På panelen Företag/Roll i listrutan Företag väljer du ett eller flera företag för användaren.
 1. Välj en mediaportal-roll i rolllistan och välj sedan **[!UICONTROL Next]**.
 
@@ -65,11 +63,11 @@ När du har lagt till en användare skickas ett välkomstmeddelande till använd
 
 Om du har flera användare att lägga till kan du överföra en användarlista. Användarna läggs automatiskt till i det valda kontot.
 
-Skapa användarlistan som en CSV-fil (kommaavgränsade värden) med användarinformationen. När listan har överförts läggs användarna i listan automatiskt till i kontot med sina angivna grupptilldelningar. Ett välkomstmeddelande skickas till varje ny användare, inklusive en länk till Media Portal och ett tillfälligt lösenord.
+Skapa användarlistan som en CSV-fil (kommaavgränsade värden) som innehåller användarinformationen. När listan har överförts läggs användarna i listan automatiskt till i kontot med sina angivna grupptilldelningar. Ett välkomstmeddelande skickas till varje ny användare, inklusive en länk till Media Portal och ett tillfälligt lösenord.
 
-### Skapa CSV-filen {#creating-the-csv-file}
+### Skapa CSV-filen {#create-the-csv-file}
 
-Skapa en CSV-fil (filename.csv) som överensstämmer med följande format och fält. Den första raden i filen måste innehålla de kolumnrubriker som anges i denna tabell. Du kan ordna kolumnerna efter behov. Alla kolumner är obligatoriska.
+Skapa en CSV-fil (filename.csv) som överensstämmer med följande format och fält. Den första raden i filen måste innehålla kolumnrubrikerna i tabellen. Du kan ordna kolumnerna efter behov. Alla kolumner är obligatoriska.
 
 | Kolumnnamn | Beskrivning |
 |--- |--- |
@@ -80,7 +78,7 @@ Skapa en CSV-fil (filename.csv) som överensstämmer med följande format och f�
 | Användarroll | MediaPortalAdminMediaPortalUserMediaPortalContributorMediaPortalContributorAnvändare |
 | Grupper | Lista över en eller flera kontogruppstilldelningar för varje användare, avgränsade med kommatecken. Du anger gruppen genom att ange kontonamnet som prefix, avgränsat med snedstreck (/). Exempel: PortalCo/IT, där PortalCo är kontot och IT är gruppen i PortalCo-kontot. |
 
-I följande exempeltabell visas hur du utformar en CSV-fil:
+I följande exempelkalkylblad visas hur du utformar en CSV-fil:
 
 | Förnamn | Efternamn | E-post | Lösenord | Användarroll | Grupper |
 |--- |--- |--- |--- |--- |--- |
@@ -105,7 +103,7 @@ Du kan visa namn och e-postadresser för Media Portal-användare i ett popup-fö
 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
 1. I **[!UICONTROL By User Role]** nedrullningsbar lista, välj namnet på en användarroll för Media Portal och välj **[!UICONTROL Refresh]** för att visa namnen på en klass av Media Portal-användare.
-1. Välj **[!UICONTROL Popup List]**. Kopiera och klistra in den här listan.
+1. Välj **[!UICONTROL Popup List]**. Kopiera och klistra in listan.
 
 ## Konfigurera e-postmeddelandet med välkomstmeddelanden för Media Portal-användare {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
@@ -115,7 +113,7 @@ Du kan skicka ett välkomstmeddelande när du lägger till nya användare, medar
 1. På skärmen Inställningar för användaradministration väljer du **[!UICONTROL Email Settings]**.
 1. Ange någon av följande inställningar i dialogrutan E-postinställningar:
 
-   * **[!UICONTROL Send Email]** - Avmarkera det här alternativet om du inte vill informera nya användare via e-post om att du har registrerat dem.
+   * **[!UICONTROL Send Email]** - Avmarkera det här alternativet om du vill informera nya användare via e-post om att du har registrerat dem.
 
    * **[!UICONTROL Default Password]** - Ange ett tillfälligt lösenord för nya användare eller lämna fältet tomt om du vill att Adobe Dynamic Media Classic ska generera slumpmässiga lösenord. Användarna uppmanas att ändra lösenord första gången de loggar in.
 

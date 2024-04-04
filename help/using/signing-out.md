@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Logga in på Adobe Dynamic Media Classic {#dmc-sign-in}
+# Logga in på Adobe Dynamic Media Classic {#dmc-signin}
 
 Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic-datorprogrammet:
 
@@ -27,7 +27,7 @@ Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic-
 
 * **Lösenord** - Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Adobe Dynamic Media Classic eller från Adobe Dynamic Media Classic-administratören. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
 
-1. Öppna Adobe Dynamic Media Classic-programmet.
+1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
 
    ![Adobe Dynamic Media Classic logga in](/help/using/assets/dmclassic-login1.png)
 
@@ -39,7 +39,7 @@ Använd följande mappning för att välja den produktionsmiljö som du vill anv
    | Webbläsarens URL | Servernamn för skrivbordsapp |
    | --- | --- |
    | https://s7sps1.scene7.com/ | Produktion i Nordamerika |
-   | https://s7sps3.scene7.com/ | EMEA-produktion (Europa, Mellanöstern och Afrika) |
+   | https://s7sps3.scene7.com/ | EMEA (Europa, Mellanöstern och Afrika) |
    | https://s7sps5.scene7.com/ | APAC-produktion (Asien-Stillahavsområdet) |
 
 1. Välj **[!UICONTROL Sign in]**.

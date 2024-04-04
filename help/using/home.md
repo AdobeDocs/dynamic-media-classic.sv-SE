@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Välkommen till hjälpen för Adobe Dynamic Media Classic. Här har du tillgång till alla tillgängliga resurser för att lära dig mer om hur du använder Adobe Dynamic Media Classic (tidigare Scene7).
 
-## Ny inloggning från Adobe Dynamic Media Classic tillgänglig 30 juni 2020
+## Ny Adobe Dynamic Media Classic-inloggning tillgänglig 30 juni 2020
 
 Den 30 juni 2020 fick Dynamic Media Classic-användare tillgång till en ny inloggning som inte längre är beroende av Adobe Flash-teknik i webbläsaren.
 
@@ -26,13 +26,13 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från 7 maj 2020.
 
 ## Dynamic Media Developer Resources
 
-* [Startsida för Dynamic Media Developer Resources](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) - Innehåller referenshandbok för visningsprogram, API för bildserver/bildåtergivning, API för bildproduktionssystem och Adobe Dynamic Media Classic versionsinformation.
+* [Startsida för Dynamic Media Developer Resources](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources) - Innehåller referenshandbok för visningsprogram, API för bildserver/bildåtergivning, API för bildproduktionssystem och Adobe Dynamic Media Classic versionsinformation.
 * [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) - Innehåller visningsprogramexempel för video, köpbara medier, blandade medier, snurpset, inline-zoom, bild- och färgruteuppsättningar samt flygblad.
 
 ## Adobe Dynamic Media Classic användarresurser
 
 * [Dynamic Media Monthly Newsletter](dynamic-media-newsletter.md)
-* [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guide: Best Practices Guide for Sharpening Images](/help/using/assets/s7_sharpening_images.pdf)
 * [Guide: How Adobe Dynamic Media Classic supports SEO](/help/using/assets/s7_seo.pdf) - Dagens sökmotorer gör det möjligt att söka efter webbplatser och bilder. Adobe Dynamic Media Classic stöder arbetet med att göra bilderna sökmotorvänliga så att mer trafik dirigeras till Adobe Dynamic Media Classic webbplats. Den här guiden i PDF ger dig de bakgrunds- och implementeringsrekommendationer som behövs för att det ska hända.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

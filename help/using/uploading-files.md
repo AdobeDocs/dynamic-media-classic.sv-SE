@@ -1,19 +1,17 @@
 ---
 title: Överför filer
 description: Lär dig hur du överför filer i Adobe Dynamic Media Classic.
-uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3665'
+source-wordcount: '3658'
 ht-degree: 0%
 
 ---
@@ -104,7 +102,7 @@ Följande filtyper kan publiceras:
 * CSS
 * JavaScript (när företaget har konfigurerats med sin egen domän)
 * Primär video
-* PDF (när PDF har markerats för publicering efter överföring, för att undvika att alla PDF levereras för eCatalog/PDF)
+* PDF (när PDF har markerats för publicering efter överföring, för att undvika leverans av alla PDF för eCatalog/PDF)
 * PrX-video
 * SVG
 * XML
@@ -166,8 +164,8 @@ Med Adobe Dynamic Media Classic Desktop kan du överföra filer och mappar genom
 1. I Adobe Dynamic Media Classic Desktop-programmet väljer du **[!UICONTROL Upload]**.
 1. På sidan Överför väljer du **[!UICONTROL From Desktop]** -fliken.
 1. Till vänster på sidan Överför, på sidan **[!UICONTROL Select Files for Upload]** område, markera **[!UICONTROL Browse]** för att markera de filer eller mappar som du vill överföra och sedan markera **[!UICONTROL Open]**.
-1. Till höger på sidan Överför finns **Välj mappmål** navigera till en målmapp där du vill lägga till de överförda filerna eller mapparna.
-1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Eller så använder du det standardnamn som genereras av Adobe Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status. Se [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files).
+1. Till höger på sidan Upload (Överför) visas den valda **Mappmål** navigera till en målmapp där du vill lägga till de överförda filerna eller mapparna.
+1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Eller så använder du det standardnamn som genereras av Adobe Dynamic Media Classic. Överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status. Se [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) I början av sidan Överför väljer du **[!UICONTROL Publish After Uploading]** om du automatiskt vill publicera de resurser som du överför.
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 1. (Valfritt) I början av sidan Överför väljer du **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
@@ -186,8 +184,8 @@ Om du vill se överföringsförloppet väljer du **[!UICONTROL Jobs]** på det g
 1. I Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]**.
 1. På sidan Överför väljer du **[!UICONTROL VIA FTP]** -fliken.
 1. Till vänster på sidan Överför, på sidan **[!UICONTROL Choose FTP Folder For Upload]** väljer du en FTP-mapp som du vill överföra filer från.
-1. Till höger på sidan Överför finns **[!UICONTROL Choose Adobe Dynamic Media Folder Destination]** väljer du en målmapp i Adobe Dynamic Media Classic.
-1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Eller så använder du det standardnamn som genereras av Adobe Dynamic Media Classic. Jobbet och andra överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
+1. Till höger på sidan Upload (Överför) visas den valda **[!UICONTROL Adobe Dynamic Media Folder Destination]** väljer du en målmapp i Adobe Dynamic Media Classic.
+1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Eller så använder du det standardnamn som genereras av Adobe Dynamic Media Classic. Överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status.
 Se [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) I början av sidan Överför väljer du **[!UICONTROL Publish After Upload]** om du automatiskt vill publicera de resurser som du överför.
 När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
@@ -248,7 +246,7 @@ Trimma baserat på genomskinlighet: Ange 0 om du bara vill beskära pixlar om de
 * **Alternativ för färgprofil** - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Adobe Dynamic Media Classic:
 
    * **[!UICONTROL Default Color Preservation]** - Bevarar källbildens färger när bilderna innehåller färgrymdsinformation. Det finns ingen färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
-   * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan någon färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgen i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
+   * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan någon färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgerna i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
    * **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Öppnar menyer så att du kan välja en **[!UICONTROL Convert From]** och **[!UICONTROL Convert To]** färgrymd. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Välj bara det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
 * **Bildredigeringsalternativ** - Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
@@ -269,8 +267,9 @@ Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.m
 * **EVIDEO** - Du kan omkoda en videofil genom att välja en videoförinställning.
 Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Ytterligare metadata** - Ange nyckelord som beskriver de filer som du tänker överföra. Separera nyckelord med kommatecken. Nyckelord gör det enklare att söka efter resurser.
-Se [Utföra en avancerad sökning](searching-assets.md#conducting_an_advanced_search). Se även [Överför nyckelord](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) utbildningsvideo.
+* **Fler metadata** - Ange nyckelord som beskriver de filer som du tänker överföra. Separera nyckelord med kommatecken. Nyckelord gör det enklare att söka efter resurser.
+Se [Utföra en avancerad sökning](searching-assets.md#conducting_an_advanced_search).
+Se även [Överför nyckelord](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) utbildningsvideo.
 
 * **Förinställningar för gruppuppsättning** - Om du vill skapa en bilduppsättning, snurruppsättning eller färgruteuppsättning från de överförda filerna väljer du **[!UICONTROL Active]** -kolumnen för den förinställning som du vill använda. Du kan markera flera förinställningar. Du skapar förinställningarna på sidan Programinställningar/Gruppera förinställningar.
 Se [Förinställningar för gruppuppsättning](application-setup.md#batch_set_presets).
@@ -279,7 +278,7 @@ Se [Förinställningar för gruppuppsättning](application-setup.md#batch_set_pr
 
 ## Följ en överföring med ett annat jobb {#follow-an-upload-with-another-job}
 
-När du överför objekt med FTP kan du schemalägga ett efterföljande jobb så att det börjar när överföringen är klar. Om andra jobb är schemalagda att starta, köas det jobb som du schemalägger här efter dem.
+När du överför objekt med FTP kan du schemalägga ett efterföljande jobb så att det börjar när överföringen är klar. Om andra jobb är schemalagda att starta, köas de jobb som du schemalägger här efter dem.
 
 Det nya jobbet skickar ett meddelande till den adress som du anger så att koden på den platsen kan utlösas. Det här uppföljningspubliceringsjobbet använder samma namn som överföringsjobbet, men med texten *Pub_* läggs till i början.
 

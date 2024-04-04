@@ -9,9 +9,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '3882'
+source-wordcount: '3883'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Gör något av följande.
 1. I fältet Global navigering väljer du **[!UICONTROL Upload]**.
 1. På sidan Överför väljer du **[!UICONTROL From Desktop]** -fliken.
 1. På sidan Överför finns **[!UICONTROL Select Files for Upload]** panel, markera **[!UICONTROL Browse]**, navigera till en MP4-videofil och välj **[!UICONTROL Open]**.
-1. I **[!UICONTROL Choose Folder Destination]** väljer du en mapp för den överförda filen.
+1. I det valda **[!UICONTROL Folder Destination]** väljer du en mapp för den överförda filen.
 1. Kontrollera att på sidan Överför **[!UICONTROL Publish After Uploading]** är markerad.
 1. Välj **[!UICONTROL Submit Upload]**.
 
@@ -64,7 +64,7 @@ Gör något av följande.
 1. I fältet Global navigering väljer du **[!UICONTROL Upload]**.
 1. På sidan Överför väljer du **[!UICONTROL From Desktop]** -fliken.
 1. I **[!UICONTROL Select Files to Upload]** panel, markera **[!UICONTROL Browse]**, navigera till en primär källvideofil och välj **[!UICONTROL Open]**.
-1. I **[!UICONTROL Choose Folder Destination]** väljer du en mapp för den överförda filen.
+1. I det valda **[!UICONTROL Folder Destination]** väljer du en mapp för den överförda filen.
 1. Välj i det nedre högra hörnet på sidan **[!UICONTROL Job Options]**,
 1. Expandera i dialogrutan Alternativ för överföring av jobb **[!UICONTROL EVideo Options]** gör du något av följande:
 
@@ -78,7 +78,7 @@ Se [Videokodningsförinställningar för datorer](application-setup.md#desktop-v
 *Om du vill koda om en videofil som du överfört tidigare*
 
 1. I Adobe Dynamic Media Classic navigerar du till videon på panelen Bläddra och markerar den.
-1. Gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.
+1. Gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.&quot;
 1. Expandera i dialogrutan Bearbeta resurser **[!UICONTROL EVideo Options]** gör du något av följande:
    * Det bästa sättet är att använda följande metod. Välj **Adaptiv video**.
 Se [Adaptiv video (standard)](application-setup.md#adaptive-video-default).
@@ -351,7 +351,7 @@ Adobe Dynamic Media Classic har angett maxgränser för måldatahastighet, uppl�
    | --- | --- |
    | Förinställningsnamn | Ange ett beskrivande namn för videoförinställningen. Det namn du anger visas i dialogrutan Alternativ för överföringsjobb, där användarna väljer alternativ för omkodning. |
    | Beskrivning | Beskriv videoförinställningen. Det du anger visas som ett verktygstips när du flyttar pekaren över namnet på förinställningen i dialogrutan Alternativ för överföringsjobb där användarna väljer omkodningsalternativ. |
-   | Uppspelningsenhet | Välj den enhet som videon ska spelas upp på. Alternativen är Dator (stationära datorer), Mobil (iPhone, iPad, Android™) eller Tablet (endast iPad). Den här inställningen avgör automatiskt vilken video- och ljudkodek som används vid kodningen. |
+   | Uppspelningsenhet | Välj den enhet som videon ska spelas upp på. Alternativen är Dator (stationära datorer), Mobil (iPhone, iPad, Android™) eller Tablet (endast iPad). Den här inställningen bestämmer automatiskt vilken video- och ljudkodek som ska användas vid kodningen. |
    | Måldatahastighet | Ange den genomsnittliga internetanslutningshastigheten (i kilobit per sekund) för målslutanvändaren. Du kan ange hastigheten eller dra reglaget för att ange den. I spektrumet för användaranslutningshastighet visas typiska hastigheter för bredband, DSL, mobiler och fjärranslutningar. Den här inställningen bestämmer automatiskt den kombinerade video- och ljuddatahastigheten. Med andra ord den datamängd som kodas för att utgöra en sekund av videouppspelningen. Ju högre datahastighet, desto bättre kvalitet får videon. För höga datahastigheter resulterar dock i stora filstorlekar som skapar en underordnad visningsupplevelse för användare med låg bandbredd. Det bästa sättet är att hitta en balans mellan höga och låga datahastigheter. Rikta in dig på att skapa en bra uppspelningsupplevelse utan att ge alienera användare med smala bandbredder. |
    | Proportioner | Proportionerna är proportionerna mellan videons bredd och höjd. De två första proportionerna som anges nedan används ofta för att visa video vågrätt:<ul><li> 4:3 - Används för nästan allt tv-sändningsinnehåll med standarddefinition.</li><li>16:9 - Används för nästan allt bredbildsinnehåll och alla filmer på HDTV (High-Definition Television).</li><li>Skala automatiskt - (standard) En förinställning för enkel kodning som fungerar med alla proportioner för att skapa videor som ska skickas till mobiler, surfplattor och datorer. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner (bredd-/höjdförhållande) bevaras.</li><li>Anpassad - Används när du vill definiera en videostorlek som inte är standard.</li><li>De proportioner du väljer avgör inställningarna för bredd och höjd för upplösningsstorleken. Bredd- och höjdvärdet skalas automatiskt till rätt proportioner.</li></ul> |
    | Upplösningsstorlek | Upplösningsstorleken, uttryckt som antalet pixlar breda och antalet pixlar höga, avgör storleken. Ange ett bredd- och höjdvärde i pixlar eller dra reglaget för att ange dessa värden. I upplösningsspektrumet visas vanliga upplösningsstorlekar. Breddvärdet och höjdvärdet följer automatiskt de proportioner som du har valt. Om du till exempel väljer 4:3 som proportioner och anger 400 som bredd, anges 300 automatiskt som höjd. Om du valde Skala automatiskt för inställningen Proportioner, ställs värdet för Bredd för upplösningsstorleken automatiskt in på Auto. Välj **[!UICONTROL Preview]** så att du kan öppna ett webbläsarfönster och se dina upplösningsalternativ där. |
@@ -363,7 +363,7 @@ Adobe Dynamic Media Classic har angett maxgränser för måldatahastighet, uppl�
    * Välj **[!UICONTROL Save]** om du har lagt till eller redigerat en videoförinställning.
    * Välj **[!UICONTROL Save As]** om du har lagt till en videoförinställning genom att starta från en befintlig förinställning.
 
-### Ta bort en förinställning för videokodning {#deleting-a-video-encoding-preset}
+### Ta bort en förinställning för videokodning {#delete-a-video-encoding-preset}
 
 Administratörer kan ta bort anpassade videoförinställningar. Videoförinställningar som medföljer Adobe Dynamic Media Classic kan inte tas bort.
 

@@ -9,9 +9,9 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2322'
 ht-degree: 0%
 
 ---
@@ -123,15 +123,15 @@ Om ett suffixvärde eller ett ersättningsvärde används beror på inställning
 
 **Exempel på suffix:**
 
-| URL | localeMap-ID | Resultat |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | Observera att GlobalLocale inte har definierats. Språkparametern de_DE matchas mot den första posten i `localeMap`. Det första motsvarande värdet _DE läggs till som ett suffix till resursen image_DE och ett försök görs att hitta det på bildservern. Om den hittas på servern returneras den. I annat fall används det andra värdet &quot;&quot; som suffix, vilket resulterar i att själva bilden returneras. |
+| URL | localeMap-ID | Resultat | Anteckningar |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | Observera att GlobalLocale inte har definierats. Språkparametern de_DE matchas mot den första posten i `localeMap`. Det första motsvarande värdet _DE läggs till som ett suffix till resursen image_DE och ett försök görs att hitta det på bildservern. Om den hittas på servern returneras den. I annat fall används det andra värdet &quot;&quot; som suffix, vilket resulterar i att själva bilden returneras. |
 
 **Exempel på ersättning:**
 
-| URL | `GlobalLocale` och `localeMap` ID | Resultat |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | I ersättningsexemplet ovan anges GlobalLocale till main. Språkparametern de_DE matchas mot den första posten i `localeMap`. Delsträngen GlobalLocale hittas och ersätts med det första motsvarande värdet `de` i `localeMap`: `image-de-01`. Om den hittas på Image Server returneras den. Om inte ersätts det andra värdet, vilket resulterar i `image-main-01`. |
+| URL | `GlobalLocale` och `localeMap` ID | Resultat | Anteckningar |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | I ersättningsexemplet ovan anges GlobalLocale till main. Språkparametern de_DE matchas mot den första posten i `localeMap`. Delsträngen GlobalLocale hittas och ersätts med det första motsvarande värdet `de` i `localeMap`: `image-de-01`. Om den hittas på Image Server returneras den. Om inte ersätts det andra värdet, vilket resulterar i `image-main-01`. |
 
 Om ingen språkinställning har definierats i URL:en tar Image Server DefaultLocale, om den är definierad, och tillämpar den på URL:en.
 

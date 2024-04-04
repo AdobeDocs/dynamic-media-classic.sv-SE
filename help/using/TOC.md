@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ ht-degree: 0%
    + [Jämförelse av funktioner](upgrade-feature-comparison.md)
    + [Checklista för beredskap för uppgradering](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic Guide](home.md)
-+ [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [NYTT Adobe Dynamic Media Classic-inloggning är nu tillgänglig](new-ui-2020.md)
++ [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [NYTT Inloggningsloggen för Adobe Dynamic Media Classic är nu tillgänglig](new-ui-2020.md)
 + [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic-datorprogram - nu tillgängligt](dynamic-media-classic-desktop-app.md)
@@ -182,7 +182,7 @@ ht-degree: 0%
    + [Arbeta med PDF](pdfs.md)
    + [Arbeta med PSD-filer](psd-files.md)
    + [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md)
-   + [Arbeta med vinjett, fönsterhölje och kabinettfiler](vignette-window-covering-cabinet-files.md)
+   + [Arbeta med vinjetter, fönsteromslag och kabinettfiler](vignette-window-covering-cabinet-files.md)
 + Supportfiler {#support-files}
    + [Typsnitt](fonts.md)
    + [XML-filer](xml-files.md)
