@@ -1,20 +1,18 @@
 ---
 title: Publicera konfigurationsinformation för Adobe Analytics
 description: Lär dig hur du publicerar konfigurationsinformation för Adobe Analytics från Adobe Dynamic Media Classic.
-uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
@@ -33,5 +31,5 @@ Se [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md#conf
 
 **Så här publicerar du konfigurationsinformation:**
 
-1. Välj **[!UICONTROL Publish]**.
-1. I dialogrutan Publicera väljer du **[!UICONTROL Submit Publish]**.
+1. I fältet Global navigering väljer du **[!UICONTROL Publish]**.
+1. I **[!UICONTROL `Publish`]** väljer **[!UICONTROL Submit Publish]**.

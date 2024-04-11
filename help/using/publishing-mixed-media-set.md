@@ -1,20 +1,18 @@
 ---
 title: Publicera en blandad medieuppsättning
 description: Lär dig hur du publicerar en uppsättning med blandade media från Adobe Dynamic Media Classic.
-uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -25,7 +23,7 @@ Skapa ett publiceringsjobb för att publicera en uppsättning med blandade media
 
 >[!NOTE]
 >
->Blandade medieuppsättningar kräver att du publicerar till **Videoserver** och även **Bildserver**. Du använder **Videoserver** för att publicera de faktiska videoklipp du har markerat för publicering. Och du använder **Bildserver** för att publicera relaterade resurser, till exempel videominiatyrbilder, och ange information för alla adaptiva videouppsättningar.
+>Blandade medieuppsättningar kräver att du publicerar till **Videoserver** och även **Bildserver**. Använd **Videoserver** för att publicera de faktiska videoklippen som du har markerat för publicering. Och du använder **Bildserver** för att publicera relaterade resurser, till exempel videominiatyrbilder, och ange information för alla adaptiva videouppsättningar.
 
 Adobe Dynamic Media Classic spårar publiceringsjobb på jobbskärmen.
 
@@ -45,10 +43,10 @@ Last Modified Date:
 
 1. Gör något av följande:
 
-   * Välj **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
+   * Välj i panelen Bläddra **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
    * På skärmen Överför väljer du **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
 
-1. Välj **[!UICONTROL Publish]**.
+1. I fältet Global navigering väljer du **[!UICONTROL Publish]**.
 1. Ange önskade schemaläggningsalternativ.
 1. (Valfritt) I dialogrutan **[!UICONTROL Job Name]** anger du ett namn för publiceringsjobbet.
 1. I **[!UICONTROL Advanced]** alternativ, i **[!UICONTROL Publish To]** nedrullningsbar lista, välja **[!UICONTROL Video Server]**.

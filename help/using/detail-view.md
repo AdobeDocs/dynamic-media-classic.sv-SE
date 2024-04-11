@@ -1,18 +1,16 @@
 ---
 title: Arbeta i detaljvyn
 description: Lär dig hur du arbetar i detaljvyn i Adobe Dynamic Media Classic.
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -56,15 +54,15 @@ Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den 
 
 ## Hämta information i detaljvyn {#getting-information-in-detail-view}
 
-I detaljvyn finns information om en resurs eller fil. Här visas information om ett objekt: mappen där det lagras, dess filnamn, datumet då objektet överfördes till Adobe Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
+I detaljvyn finns information om en resurs eller fil. Den här informationen visas om ett objekt: den mapp där det lagras, dess filnamn, det datum då objektet överfördes till Adobe Dynamic Media Classic och dess publiceringshistorik. Du kan också visa och redigera metadata och lägga till nyckelord för en resurs i detaljvyn.
 
-Du kan hämta en resurs-URL i detaljvyn, men URL:en är inte aktiv förrän du publicerar resursen. För bilder innehåller detaljvyn även en lista med resurser och metadata som skapats, t.ex. zoommål och bilduppsättningar.
+Du kan hämta en resurs-URL i detaljvyn, men URL:en är inte aktiv förrän du publicerar resursen. För bilder innehåller detaljvyn även en lista med inbyggda och härledda resurser och metadata, som zoommål och bilduppsättningar.
 
 ## Arbeta med resurser i detaljvyn {#working-with-assets-in-detail-view}
 
 I detaljvyn finns verktyg som du kan använda för att arbeta med resursen som du har öppnat. Vilka verktyg som är tillgängliga beror på vilken typ av resurs du arbetar med, men detaljvyn har alltid dessa funktioner:
 
-* **objekt för publicering** - Välj **[!UICONTROL Publish]** till vänster om namnet, eller gå till **[!UICONTROL File]** > **[!UICONTROL Publish]** eller **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+* **objekt för publicering** - Välj **[!UICONTROL `Publish`]** till vänster om namnet, eller gå till **[!UICONTROL File]** > **[!UICONTROL Publish]** eller **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
 * **Byt namn på resursen** - Markera namnet och ange ett nytt namn.
 

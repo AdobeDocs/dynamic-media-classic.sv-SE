@@ -1,20 +1,18 @@
 ---
 title: Redigera bilder
 description: Lär dig redigera bilder i Adobe Dynamic Media Classic.
-uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här verktygen är tillgängliga genom att markera överrullningen **[!UICONTROL Edit]** och i panelen Bläddra i detaljvyn. Du kan göra följande bildredigeringsåtgärder i Adobe Dynamic Media Classic:
 
-* **Skapa bildscheman** - Om du vill skapa ett bildschema väljer du kommandot Bild eller **[!UICONTROL Image Map]** -knappen. En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet, som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/using/creating-image-maps.md).
+* **Skapa bildscheman** - Om du vill skapa ett bildschema väljer du kommandot Bild eller **[!UICONTROL Image Map]** -knappen. En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/using/creating-image-maps.md).
 
 * **Skapa zoommål** - Om du vill skapa miniatyrbildsmål väljer du kommandot Zoommål eller **[!UICONTROL Zoom Targets]** -knappen. Användarna kan välja ett miniatyrbildsmål i Zoomvisningsprogrammet för att zooma direkt till en viss del av bilden. Se [Skapa zoommål för guidad zoomning](/help/using/creating-zoom-targets-guided-zoom.md).
 
@@ -31,7 +29,7 @@ Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här 
 
 * **Öka skärpan i en bild** - Om du vill öka skärpan i en bild och göra konturerna mindre suddiga och tydligare väljer du kommandot Skärpa eller **[!UICONTROL Sharpen]** -knappen. Se [Öka skärpan i en bild](/help/using/sharpening-image.md).
 
-* **Justera en bild** - Välj kommandot Justera eller **[!UICONTROL Adjust]** för att vända, rotera, göra oskarpa, färglägga eller ändra färgbalansen i en bild. Se [Justera en bild](/help/using/adjusting-image.md).
+* **Justera en bild** - Välj `Adjust` kommandot eller **[!UICONTROL Adjust]** för att vända, rotera, göra oskarpa, färglägga eller ändra färgbalansen i en bild. Se [Justera en bild](/help/using/adjusting-image.md).
 
 * **Redigera lager** - Om du vill visa enskilda, redigerbara lager i en PSD-fil markerar du **[!UICONTROL Layers]** -fliken. När du överför en PSD-fil överförs alla lager separat som separata filer så att du kan redigera dem i Adobe Dynamic Media Classic.
 

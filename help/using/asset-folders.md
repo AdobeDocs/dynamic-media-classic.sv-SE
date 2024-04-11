@@ -1,20 +1,18 @@
 ---
 title: Arbeta med resursmappar
 description: Lär dig arbeta med resursmappar i Adobe Dynamic Media Classic.
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -41,10 +39,10 @@ I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resur
 >
 >Du kan dölja eller visa resursbiblioteket genom att välja **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** till vänster. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.
 
-## Skapa mappar {#creating-folders}
+## Skapa mappar
 
 1. I resursbiblioteket markerar du den mapp du vill skapa en mapp i.
-1. Välj **[!UICONTROL Add Folder]** -knappen. Den här ikonen visas högst upp i mapplistan.
+1. Välj **[!UICONTROL `Add Folder`]** -knappen. Den här ikonen visas högst upp i mapplistan.
 1. Ange ett beskrivande namn för den nya mappen eller undermappen genom att skriva in den i fältet bredvid mappikonen.
 
    >[!NOTE]
@@ -55,7 +53,7 @@ I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resur
 
 Markera en mapp och använd dessa tekniker för att ta bort eller byta namn på den:
 
-* **Ta bort** - Välj **[!UICONTROL Remove Folder]** -knappen. Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
+* **Ta bort** - Välj **[!UICONTROL `Remove Folder`]** -knappen. Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
 
 * **Byt namn** - Dubbelklicka på namnet och ange ett nytt namn.
 

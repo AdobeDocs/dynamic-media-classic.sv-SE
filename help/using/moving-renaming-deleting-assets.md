@@ -1,20 +1,18 @@
 ---
 title: Flytta, byta namn på och ta bort resurser
 description: Lär dig hur du flyttar, byter namn på och tar bort resurser i Adobe Dynamic Media Classic.
-uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -45,13 +43,13 @@ Du kan flytta resurser till olika mappar i panelen Bläddra.
 
 Du kan ta bort markerade resurser på panelen Bläddra och ta bort hela mappar. Borttagna resurser och mappar flyttas till papperskorgen, där de finns kvar i sju dagar innan de tas bort permanent.
 
-När du tar bort en resurs tas även alla resurser som härletts från den bort. Om du t.ex. tar bort en bild som du har skapat zoommål för tas även zoommålen bort tillsammans med bilden.
+När du tar bort en resurs tas även alla resurser som är härledda från den bort. Om du t.ex. tar bort en bild som du har skapat zoommål för tas även zoommålen bort tillsammans med bilden.
 
-Zoommål, bildattribut och historikposter tas bort permanent när du tar bort de resurser som de härleds från. De flyttas inte tillsammans med resursen till papperskorgen. de inte kan återställas från papperskorgen.
+Zoommål, bildattribut och historikposter tas bort permanent när du tar bort de resurser som de härleds från. De flyttas inte tillsammans med resursen till papperskorgen utan kan inte återställas från papperskorgen.
 
 >[!IMPORTANT]
 >
->Massborttagning är en intensiv åtgärd. Se till att du kör massborttagningar sekventiellt i stället för som samtidiga, tunga raderingsåtgärder. Adobe rekommenderar att du begränsar borttagningsåtgärderna till 5 000 eller färre borttagningar av resurser per timme. Ett tal större än 5000 per timme kan orsaka hastighetsbegränsning.
+>Massborttagning är en intensiv åtgärd. Se till att du kör massborttagningar sekventiellt i stället för som samtidiga, tunga raderingsåtgärder. Adobe rekommenderar att du begränsar borttagningsåtgärder till 5 000 eller färre borttagningar av resurser per timme. Ett tal som är större än 5000 per timme kan orsaka hastighetsbegränsning.
 
 **Så här tar du bort resurser:**
 
@@ -73,7 +71,7 @@ Skapa en lista med Adobe Dynamic Media Classic-id:n och spara den som en textfil
 När du har skapat listan följer du de här stegen för att använda den för att ta bort resurser:
 
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Delete Asset List]**.
-1. I dialogrutan Ta bort resurs bläddrar du till eller skriver sökvägen till textfilen med listan över resurser som du vill ta bort.
+1. I **[!UICONTROL Deleted Asset list]** , bläddra eller ange sökvägen till textfilen med listan över resurser som du vill ta bort.
 1. Välj **[!UICONTROL Delete]**.
 
 När du tar bort resurser med en textfil visas meddelandet&quot;Det går inte att validera de här posterna i listan:&quot; om något Adobe Dynamic Media Classic-ID inte finns med i listan. Listan med poster visas också. Adobe Dynamic Media Classic genererar dock inget fel på jobbsidan.

@@ -1,19 +1,17 @@
 ---
 title: Ta bort en överförd rasterbildsresurs
 description: Lär dig hur du tar bort en överförd resurs i Adobe Dynamic Media Classic.
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '136'
 ht-degree: 0%
 
 ---
@@ -49,7 +47,7 @@ Du kan använda följande fält i URL-frågesträngen för att ta bort en resurs
 | URL-parameter | Obligatoriskt/valfritt | Värde |
 | --- | --- | --- |
 | `op` | Obligatoriskt | delete |
-| `shared_secret` | Obligatoriskt | Den delade hemliga nyckeln för företaget. |
+| `shared_secret` | Obligatoriskt | Nyckeln som är en delad hemlighet för företaget. |
 | `image_name` | Obligatoriskt | Namnet på resursen som ska tas bort. |
 
 <!-- <li>For Vector:fxg_name</li> -->

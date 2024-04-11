@@ -10,7 +10,7 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Hantera innehåll i informationspanelen i bilduppsättningar{#managing-info-panel-content-in-image-sets}
 
-Förutom att använda bildschematext för överrullningar i bilduppsättningar kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
+Förutom att använda bildschematext för överrullningar i bilduppsättningar kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidscachning och schemaläggning av innehållsuppdateringar.
 
 Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Adobe Dynamic Media Classic:
 
@@ -46,7 +46,7 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
    * Ange ett lägre värde om data uppdateras ofta under dagen.
    * Ange ett högre värde om data är relativt stabila och inte behöver uppdateras ofta under dagen. Standardvärdet är tio timmar.
 
-1. Välj **[!UICONTROL Upload]** om du vill överföra innehåll i informationspanelen, baserat på rollover_key-värden, till s7info.
+1. Välj **[!UICONTROL Upload]** om du vill överföra innehåll i informationspanelen, baserat på rollover_key-värdet, till s7info.
 1. I dialogrutan S7Info Upload bläddrar du till filen som du vill använda och väljer sedan **[!UICONTROL Upload]**.
 
    Filformat som stöds är TAB-avgränsade filer med UTF-16-kodning och CSV-filer med ASCII-kodning. För CSV-filer måste tecken som inte är ASCII-tecken vara HTML-kodade.
@@ -68,7 +68,7 @@ Tänk på följande när du formaterar källinnehåll:
 1. Dubbelklicka på bilduppsättningen så att den öppnas i detaljvyn.
 1. Välj **[!UICONTROL InfoPanel Data feed]**.
 1. I textfältet Externt hosted CSV file location (HTTP) anger du URL:en till CSV-filen.
-1. (Valfritt) I fälten Schemalägg uppdatering anger du en tid för att uppdatera innehållet och väljer sedan **[!UICONTROL Add]**.
+1. (Valfritt) I fältet Schemalägg uppdatering anger du en tid för att uppdatera innehållet och väljer sedan **[!UICONTROL Add]**.
 
    Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i textrutan Uppdateringstider. Om du vill ta bort en schemalagd tid markerar du den och väljer **[!UICONTROL Delete]**.
 

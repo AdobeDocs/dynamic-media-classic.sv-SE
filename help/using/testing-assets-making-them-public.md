@@ -1,20 +1,18 @@
 ---
 title: Testa resurser innan du gör dem offentliga
 description: Lär dig hur du testar resurser i Adobe Dynamic Media Classic innan du publicerar dem.
-uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -28,14 +26,14 @@ Med Säker testning kan du förhandsgranska testversionen av webbplatsen med opu
 Om du vill kan du skapa en staging-miljö i stället för att göra resurserna allmänt tillgängliga av följande skäl:
 
 * Förhandsgranska webbplatser innan den offentliga lanseringen (testwebbplatsen).
-* Tjäna resurser som kräver begränsad åtkomst, till exempel e-kataloger som visar priser i B2B-webbprogram.
+* Tjäna resurser som kräver begränsad åtkomst, t.ex. e-kataloger som visar priser i B2B-webbprogram.
 * Använd material bakom en brandvägg som en del av produktinformationshanteringssystemet, kundtjänstprogrammet, utbildningswebbplatsen osv.
 
 >[!NOTE]
 >
 >Säker testning påverkar inte åtkomsten till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic säkerhet är konsekvent och kräver de vanliga inloggningsuppgifterna för åtkomst till Adobe Dynamic Media Classic och relaterade webbtjänster.
 
-## Så här fungerar säkra tester {#how-secure-testing-works}
+## Så här fungerar säker testning {#how-secure-testing-works}
 
 De flesta företag använder internet bakom en brandvägg. Tillgång till Internet är möjlig via vissa vägar och vanligtvis via ett begränsat antal offentliga IP-adresser.
 
@@ -51,7 +49,7 @@ Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker
 >
 >Tjänster för säker testning använder katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning blir därför alla överförda resurser i Adobe Dynamic Media Classic omedelbart tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring.
 
-Tjänster för säker testning stöder för närvarande följande resurstyper och funktioner:
+Tjänster för säker testning har för närvarande stöd för följande resurstyper och funktioner:
 
 <!-- 
 
@@ -59,12 +57,12 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>Added videos to list below 9/11/2012. Moved “Render Server requests” from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
+<p>Added videos to list below 9/11/2012. Moved "Render Server requests" from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
 
  -->
 
 * Bilder.
-* Vinjetter (renderingsserverbegäranden).
+* Vinjetter (renderingsserverförfrågningar).
 * Rendera serverförfrågningar (stöds, men måste begäras uttryckligen av kunden).
 * Uppsättningar, inklusive bilduppsättningar, eCatalog, renderingsuppsättningar och medieuppsättningar.
 * Adobe Dynamic Media Classic multimedievisningsprogram som standard.
@@ -100,13 +98,13 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>RB: Rewrote entire steps under “Prepare your account” 9/10/2012</p>
+<p>RB: Rewrote entire steps under "Prepare your account" 9/10/2012</p>
 
  -->
 
 1. Kontakta Adobe kundtjänst och begär att de aktiverar säker testning på ditt konto.
 1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
-1. På sidan Image Server Publish (Image Server Publish) i **[!UICONTROL Publish Context]** nedrullningsbar lista, välja **[!UICONTROL Test Image Serving]**.
+1. På sidan Image Server Publish (Image Server Publish) i **[!UICONTROL `Publish Context`]** nedrullningsbar lista, välja **[!UICONTROL Test Image Serving]**.
 1. För klientadressfiltret väljer du **[!UICONTROL Add]**.
 1. Markera kryssrutan så att adressen är aktiverad (påslagen) och skriv sedan en IP-adress och nätmask i respektive textfält.
 
@@ -122,7 +120,7 @@ Last Modified Date:
 
    Se [Överför filer](uploading-files.md#uploading_files).
 
-1. Se till att vissa bilder är markerade för publicering och att andra är omarkerade och skicka sedan publiceringsjobbet.
+1. Se till att några av bilderna är markerade för publicering och att andra är omarkerade och skicka sedan publiceringsjobbet.
 
    Se [Publicera filer](publishing-files.md#publishing_files).
 
