@@ -1,19 +1,17 @@
 ---
 title: Om användargenererat innehåll i Adobe Dynamic Media Classic
 description: En introduktion till användargenererat innehåll.
-uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
-discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 0%
 
 Att använda UGC (användargenererat innehåll) består av att överföra resurser till en dedikerad Adobe Dynamic Media Classic-lagringsplats och utföra relaterade åtgärder.
 
-UGC stöder rasterbildfilformaten BMP, GIF, JPG, PNG, PSD och TIFF.
+UGC har stöd för rasterbildfilformaten BMP, GIF, JPG, PNG, PSD och TIFF.
 
 >[!IMPORTANT]
 >
@@ -39,6 +37,6 @@ Innan du överför resurser får du en delad hemlig nyckel. Använd den här nyc
 När du har hämtat en delad hemlig nyckel och överfört token kan du utföra följande åtgärder för användargenererat innehåll:
 
 * Överför en resurs.
-* Hämta metadata för bildresurser.
+* Hämta metadata för bildobjekt.
 * Ta bort en överförd resurs.
 * Hämta information om hur mycket diskutrymme ett företag använder.

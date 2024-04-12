@@ -1,20 +1,18 @@
 ---
 title: Förhandsgranska videoklipp i ett videovisningsprogram
 description: Lär dig hur du förhandsgranskar videoklipp i ett visningsprogram för video.
-uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -36,7 +34,7 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. I samma verktygsfält väljer du **[!UICONTROL Preview]**.
    * Välj en resurs i fönstret Resurser. Gå till verktygsfältet **[!UICONTROL File]** > **[!UICONTROL Preview]**.
 
-1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som du vill använda på resursens URL när den kopieras.
+1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som ska användas för resursens URL när den kopieras.
 1. Välj **[!UICONTROL Preview]** så att du kan granska resursen i det valda visningsprogrammet.
 1. Stäng visningsprogrammet som visas.
 1. Välj **[!UICONTROL Close]** för att gå tillbaka till skärmen Resurser.
@@ -83,7 +81,7 @@ Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/Video
 
    * **Redigera** - Välj en förinställning för Video Viewer och välj sedan **[!UICONTROL Edit]**.
 
-1. Ange eller redigera förinställningsnamnet i fältet Förinställningsnamn på sidan Konfigurera visningsprogram.
+1. I `Configure Viewer` i fältet Förinställningsnamn anger eller redigerar du förinställningens namn.
 1. Ange de återstående alternativen som du vill ha.
 
    Om du vill visa en beskrivning av ett alternativ väljer du dess ikon för informationsruta.

@@ -1,19 +1,17 @@
 ---
 title: Ange exportalternativ som är tillgängliga för Media Portal-användare
 description: Lär dig hur du anger exportalternativ som är tillgängliga för Media Portal-användare i Adobe Dynamic Media Classic.
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -38,7 +36,7 @@ Se även [Exportera resurser från Adobe Dynamic Media Classic](exporting-assets
 
      När **[!UICONTROL pixels]** väljs från **[!UICONTROL Size]** i den nedrullningsbara listan får bildens bredd × höjd inte överstiga 100 miljoner pixlar. Storleken är lika med 10 000 × 10 000 pixlar för en fyrkantig bild, eller ungefär 8 000 × 12 000 pixlar för en bild med 2x3-proportioner. Den här storleksbegränsningen gäller inte om du exporterar ursprungliga primära bilder.
 
-     Avmarkera det här alternativet om du vill att användare ska hämta filer utan att formatera om dem när de hämtas.
+     Avmarkera det här alternativet om användare vill hämta filer utan att formatera om dem när de hämtas.
 
    * **Aktivera export av originalet** - Gör att du kan exportera ursprungliga primära bilder. I **[!UICONTROL Export Selected Assets]** -panelen kan användarna öppna **[!UICONTROL Conversion]** nedrullningsbar meny och välj **[!UICONTROL Export Original]** när du vill exportera originalfiler. Avmarkera det här alternativet om du vill tvinga användarna att välja en bildförinställning eller välja konverteringsalternativ när de exporterar bilder.
 

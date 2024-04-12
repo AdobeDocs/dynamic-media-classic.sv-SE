@@ -10,9 +10,9 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1437'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Adobe PDF-filer är vanligtvis en e-katalogkälla. Eftersom de ska skrivas ut in
 
 I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill börja överföra PDF-filer eller bilder till din eCatalog. Du kan överföra filer från skrivbordet eller via FTP. FTP rekommenderas om du överför många filer eller filer som är större än 100 MB.
 
-Under Alternativ för PDF finns det alternativ på överföringsskärmen som du kan använda för att överföra PDF-filer med rätt upplösning och korrekt färgrymd. En upplösning på 150 pixlar per tum rekommenderas. Du kan välja alternativet Generera eCatalog automatiskt om du vill skapa en e-katalog när du överför en PDF-fil.
+Under Alternativ för PDF finns det alternativ på överföringsskärmen som du kan använda för att överföra PDF-filer med rätt upplösning och korrekt färgrymd. En upplösning på 150 pixlar per tum rekommenderas. Du kan välja alternativet **[!UICONTROL Auto-Generate eCatalog]** för att skapa en e-katalog när du överför en PDF-fil.
 
 Se [Överför PDF-filer](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -118,7 +118,7 @@ Se [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalo
 
 När du publicerar din e-katalog och tillhörande PDF placeras den på Dynamic Media Image-servrar så att den kan levereras till din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen för din eCatalog. Använd denna URL för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
 
-När du har markerat din e-katalog och PDF för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att starta en publicering. På skärmen Publicera väljer du **[!UICONTROL Submit Publish]**.
+När du har markerat din e-katalog och PDF för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att starta en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
 
 Se [Publicera e-kataloger och tillhörande PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

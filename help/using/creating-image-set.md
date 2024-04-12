@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 0%
@@ -81,7 +81,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp för uppsättningen, anger ett namn för uppsättningen och väljer **[!UICONTROL Save]**.
 
-## Ta bort en bilduppsättning {#deleting-an-image-set}
+## Ta bort en bilduppsättning
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller&quot;underordnade&quot;) i uppsättningen påverkas dock inte. De behåller i stället sitt befintliga publicerade eller opublicerade läge.
 

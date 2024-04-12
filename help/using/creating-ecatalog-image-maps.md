@@ -1,18 +1,16 @@
 ---
 title: Skapa eCatalog-bildscheman
-description: Lär dig hur du skapar eCatalog-bildscheman i Adobe Dynamic Media Classic.
-uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
+description: Lär dig hur du skapar e-katalogbildscheman i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 0%
@@ -27,7 +25,7 @@ En bildschema är ett område på en eCatalog-sida som du kan rulla över med mu
 
 För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog. Den här skärmen består av området Bildschema där eCatalog-sidor visas och, till höger, listan Bildschema. När du skapar bildscheman anges deras namn i listan Bildschema.
 
-1. Välj eCatalogs rollover **[!UICONTROL Edit]** -knappen.
+1. Välj eCatalogs överrullning **[!UICONTROL Edit]** -knappen.
 1. Välj **[!UICONTROL Map Pages]**.
 1. Till vänster på skärmen Kartsidor markerar du den sida du vill ha.
 1. I området Bildschema ritar du ett rektangulärt eller flersidigt bildschema:
@@ -45,8 +43,8 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
 
 Se [Använd en mall för att ange JavaScript och URL:er](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
-1. (Valfritt) I listrutan Visa väljer du **[!UICONTROL Rollover Text]** och ange sedan den text som du vill att användarna ska se på skärmen när de flyttar pekarna över bildschemat.
-1. (Valfritt) I listrutan Visa väljer du **[!UICONTROL Other Actions]** och anger ett attribut som utlöser en oskärpa eller fokusåtgärd när användarna flyttar pekarna över en bildschema.
+1. (Valfritt) Välj i listrutan Visa **[!UICONTROL Rollover Text]** och ange sedan den text som du vill att användarna ska se på skärmen när de flyttar pekarna över bildschemat.
+1. (Valfritt) Välj i listrutan Visa **[!UICONTROL Other Actions]** och anger ett attribut som utlöser en oskärpa eller fokusåtgärd när användarna flyttar pekarna över en bildschema.
 
    Se [Definiera andra åtgärder för bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
 
@@ -67,9 +65,9 @@ Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildsche
 
    Se [Rita eCatalog-bildscheman](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
-1. I listrutan Visa väljer du **[!UICONTROL Rich Media]**.
+1. Välj i listrutan Visa **[!UICONTROL Rich Media]**.
 1. I panelen Lägg till resurser till vänster navigerar du till en mapp som innehåller den rotationsuppsättning eller videoresurs (MP4-format) som du vill bädda in.
-1. Dra resursen till bildschemat.
+1. Dra resursen till bildkartan.
 1. (Valfritt) I listpanelen Bildschema, under **[!UICONTROL Tool Tip]** kolumnrubriken anger du den text som du vill att tittarna ska se på skärmen när de flyttar sin pekare över bildschemat.
 1. Välj **[!UICONTROL Save]**.
 
@@ -114,11 +112,11 @@ Om du vill visa fönstret Mappningssammanfattning väljer du alternativet på fl
    På skärmen Sammanfattning av kartor visas hur många bildscheman, URL:er, beskrivningar av rollover-text och andra åtgärder som finns i din eCatalog.
 
 1. Om det finns överrullningsnyckelfel väljer du felet i **[!UICONTROL Rollover_Key Error]** för att se vad som måste ändras i kalkylbladet för att rätta till felet. Du kan markera och kopiera texten från det här meddelandet och klistra in den i kalkylbladet.
-1. Välj **[!UICONTROL Preview]** så att du kan granska en sida i eCatalog Viewer; välj X för att stänga fönstret Sammanfattning och gå tillbaka till skärmen Karta sidor, eller markera **[!UICONTROL Close]** för att återgå till Bläddra.
+1. Välj **[!UICONTROL Preview]** så att du kan granska en sida i eCatalog Viewer; markera krysset för att stänga fönstret Sammanfattning och gå tillbaka till skärmen Karta sidor, eller markera **[!UICONTROL Close]** för att återgå till Bläddra.
 
 ### Importera data för bildschema {#import-image-map-data}
 
-I stället för att ange bildschemadata på varje sida kan du importera data för hela eCatalog till fönstret Kartsammanfattning. Du importerar bildschemadata i form av en tabbavgränsad fil eller XML DTD. Fälten i filen måste vara i den ordning som visas i fönstret Mappningssammanfattning: Namn, etiketter för innehållsförteckning, kartor, URL:er, överrullningstext, andra åtgärder och söksträngar. Om du importerar data från bildschemat slipper du problem med att ange data i listan Bildschema när du skapar bildschemat.
+I stället för att ange bildschemadata på varje sida kan du importera data för hela eCatalog till fönstret Sammanfattning av kartor. Du importerar bildschemadata i form av en tabbavgränsad fil eller XML DTD. Fälten i filen måste vara i den ordning som visas i fönstret Kartsammanfattning: Namn, Innehållsförteckningsetiketter, Kartor, URL:er, Överrullningstext, Andra åtgärder och Söksträngar. Om du importerar data från bildschemat slipper du problem med att ange data i listan Bildschema när du skapar bildschemat.
 
 >[!NOTE]
 >

@@ -1,20 +1,18 @@
 ---
 title: Skapa zoommål för guidad zoomning
 description: Lär dig hur du skapar zoommål för guidad zoomning i Adobe Dynamic Media Classic.
-uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -76,7 +74,7 @@ Om du vill skapa ett zoommål öppnar du sidan för zoommålredigeraren och gör
 
 ### Redigera zoommål {#editing-zoom-targets}
 
-Om du vill redigera zoommål använder du följande tekniker på sidan Zoommålredigerare:
+Om du vill redigera zoommål använder du följande tekniker på sidan för redigering av zoommål:
 
 * **Flytta** - Välj mål med knappen Välj mål (pilen). Dra sedan målet till en annan plats.
 
@@ -88,7 +86,7 @@ Om du vill redigera zoommål använder du följande tekniker på sidan Zoommålr
 
 ### Kopiera zoommål {#copying-zoom-targets}
 
-Du kan kopiera zoommål från en bild till en annan. Kopiera mål när två bilder har liknande innehåll och deras zoommål hör till samma platser. Så här kopierar du zoommål till en annan bild:
+Du kan kopiera zoommål från en bild till en annan. Kopiera mål när två bilder har liknande innehåll och deras zoommål finns på samma platser. Så här kopierar du zoommål till en annan bild:
 
 1. Öppna bilden med de zoommål som du vill kopiera i zoommålredigeraren.
 1. Välj **[!UICONTROL Copy Targets To]**.

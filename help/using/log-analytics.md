@@ -5,13 +5,12 @@ contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -48,9 +47,9 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 
    ![Lägg till ett API](assets/analytics-oauth2.png)
 
-1. På **[!UICONTROL Configure API]** sida, markera **[!UICONTROL USER AUTHENTICATION OAuth]**.
+1. På **[!UICONTROL `Configure API`]** sida, markera **[!UICONTROL USER AUTHENTICATION OAuth]**.
 1. I det nedre högra hörnet av sidan väljer du **[!UICONTROL Next]**.
-1. På **[!UICONTROL Configure API]** sida, markera **[!UICONTROL OAUTH 2.0 Web]**.
+1. På **[!UICONTROL `Configure API`]** sida, markera **[!UICONTROL OAUTH 2.0 Web]**.
 1. I **[!UICONTROL Default redirect URI]** anger du följande sökväg exakt som den visas i textfältet:
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
@@ -69,7 +68,7 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 
 >[!NOTE]
 >
->När du har konfigurerat Adobe Analytics i Dynamic Media Classic första gången behöver du bara göra om konfigurationen i följande fall:
+>Efter din första konfiguration av Adobe Analytics i Dynamic Media Classic är den enda gången du måste göra om konfigurationen i följande fall:
 >
 >* En ny rapport läggs till i Analytics och användaren vill börja skicka data till den nya rapporten.
 >* Spårningsservern uppdateras i Adobe Analytics.

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Med hjälp av olika problem kan du enkelt beskriva din idé för förbättring a
 
 Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en dokumentationsteammedlem. Om du vill göra dina föreslagna ändringar och skapa en pull-begäran väljer du **[!UICONTROL Edit this page]** längst upp till höger på navigeringspanelen på en sida.
 
-Alla pull-begäranden måste åtföljas av en signerad [licensavtal eller CLA](https://opensource.adobe.com/cla.html). Det här arbetsflödet ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du skickar bara ett CLA-avtal för Adobe en gång, så om du har skickat ett tidigare är det klart.
+Alla pull-begäranden måste åtföljas av en signerad [licensavtal eller CLA](https://opensource.adobe.com/cla.html). Det här arbetsflödet ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du skickar bara ett Adobe CLA en gång, så om du har skickat ett tidigare är det klart.
 
 ### Snabb videointroduktion
 
@@ -58,4 +58,4 @@ Adobe välkomnar alla bidrag. Bidrag granskas om de görs i det offentliga arkiv
 
 ## Ytterligare information
 
-Se [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) om du vill ha mer information om hur du använder utvecklingsplattformen GitHub.
+Se [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) om du vill ha mer information om hur du använder utvecklingsplattformen GitHub.

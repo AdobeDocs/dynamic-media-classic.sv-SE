@@ -1,20 +1,18 @@
 ---
 title: Adobe Dynamic Media Classic - programöversikt
 description: En översikt över Adobe Dynamic Media Classic och hela arbetsflödesprocessen.
-uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -43,7 +41,7 @@ De viktigaste stegen i Adobe Dynamic Media Classic arbetsflöde är:
 
 Adobe Dynamic Media Classic skiljer sig i grunden från andra system eftersom du kan använda Adobe Dynamic Media Classic för att leverera media dynamiskt från enskilda primära resurser och URL-anrop.
 
-De URL-strängar du skapar med Adobe Dynamic Media Classic innehåller instruktioner som talar om för servern hur resursen ska visas när den levereras. Samma primära bild kan till exempel visas i olika storlekar, format, vikter, färger och zoomningsvyer. Som en del av arbetet med att skapa och publicera mediematerial med Adobe Dynamic Media Classic kan du visuellt konfigurera effekterna. När du gör det skapar du URL-anrop som talar om för servern hur den primära resursen ska visas för program.
+De URL-strängar som du har skapat med Adobe Dynamic Media Classic innehåller instruktioner som talar om för servern hur resursen ska visas när den levereras. Samma primära bild kan till exempel visas i olika storlekar, format, vikter, färger och zoomningsvyer. Som en del av arbetet med att skapa och publicera mediematerial med Adobe Dynamic Media Classic kan du visuellt konfigurera effekterna. När du gör det skapar du URL-anrop som talar om för servern hur den primära resursen ska visas för program.
 
 ![Adobe Dynamic Media Classic kan leverera samma primära bild till olika medier i olika storlekar och format.](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic ser till att enhetliga upplevelser av hög kvalitet levereras till alla skärmar, oavsett storlek och bandbredd.*

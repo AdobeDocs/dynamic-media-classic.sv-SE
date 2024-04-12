@@ -10,7 +10,7 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
@@ -33,7 +33,7 @@ När du publicerar placeras din e-katalog och PDF på Dynamic Media bildservrar 
 
    Om du har konfigurerat din e-katalog så att tittarna kan göra nyckelordssökningar kontrollerar du att nyckelordsdata är publicerade. I dialogrutan Publicera väljer du **[!UICONTROL Advanced]**. Från **[!UICONTROL Publish]** nedrullningsbar meny, välja **[!UICONTROL Full w/ Search Data]**. Det här alternativet är markerat som standard.
 
-1. Klicka **[!UICONTROL Submit Publish]**.
+1. Välj **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >

@@ -1,20 +1,18 @@
 ---
 title: Öka skärpan i en bild
 description: Lär dig hur du ökar skärpan i en bild i Adobe Dynamic Media Classic.
-uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '2154'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
@@ -99,7 +97,7 @@ Välj **[!UICONTROL Resampling]** och välj ett alternativ. Dessa alternativ gö
 
 * **[!UICONTROL Bicubic]** - Ökar processoranvändningen på bildservern men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
 
-* **[!UICONTROL `Sharpen2`]** - Ger något skarpare resultat än **[!UICONTROL Bicubic]**, men till ännu högre CPU-kostnader på Image Server.
+* **[!UICONTROL `Sharpen 2`]** - Ger något skarpare resultat än **[!UICONTROL Bicubic]**, men till ännu högre CPU-kostnader på Image Server.
 
 * **[!UICONTROL Trilinear]** - Använder både högre och lägre upplösningar om sådana finns. Rekommenderas endast när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
 
@@ -126,13 +124,13 @@ Alternativen för JPG-kvalitet styr komprimeringsnivån JPG:
 
 **Ange skärpealternativ för hela företaget**
 
-Om du inte använder en bildförinställning eller skickar specifika bildserverskärpeprotokoll längs URL-strängen blir bilden inte skarpare när den nedsamplas. Om skärpan inte är tillräckligt hög kan du ange standardvärden för skärpa, och sedan har alla bilder alltid en viss skärpa.
+Om du inte använde en bildförinställning eller skickade specifika skärpeprotokoll för Image Server längs URL-strängen blir bilden inte skarpare när den nedsamplas. Om skärpan inte är tillräckligt hög kan du ange standardvärden för skärpan så att alla bilder alltid har en viss skärpa.
 
 Om du vill ange ditt företags standardalternativ för skärpa går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**. Om du ställer in standardomsamplingsläget till **`Sharp2`** blir bilden alltid skarpare vid nedsampling.
 
 **Lägga till skärpa i visningsförinställningar**
 
-Om du inte lägger till bildmodifieringar för skärpa i förinställningen kan den lilla inledande inläsningsbilden se mjuk ut eftersom den nedsamplas så att den passar i visningsfönstret utan att skärpan ökas.
+Om du inte har lagt till bildmodifieringar för skärpa i förinställningen kan den lilla inledande inläsningsbilden se mjuk ut eftersom den nedsamplas så att den passar i visningsfönstret utan att skärpan ökas.
 
 Med visningsförinställningar (t.ex. bildförinställningar) kan du centralisera flera alternativ till en plats, inklusive val av skal och visningsalternativ (t.ex. en Skriv ut-knapp eller styra hastigheten på zoomanimeringen). Förinställningar för visningsprogram finns i samma avsnitt som Bildförinställningar, under **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Viewer Presets]**.
 

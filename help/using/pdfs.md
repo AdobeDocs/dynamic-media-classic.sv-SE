@@ -1,27 +1,25 @@
 ---
 title: Arbeta med PDF
-description: Lär dig hur du arbetar med PDF i Adobe Dynamic Media Classic.
-uuid: 26d70d28-9393-49b1-9051-d70456deca67
+description: Lär dig arbeta med PDF i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '674'
 ht-degree: 0%
 
 ---
 
 # Arbeta med PDF{#working-with-pdfs}
 
-PDF-filer (Portable Document Format) används oftast i Adobe Dynamic Media Classic för att skapa e-kataloger. När du överför en PDF-fil rastreras eller rips sidorna som standard så att de kan användas för att skapa multimedia.
+PDF-filer (Portable Document Format) används oftast i Adobe Dynamic Media Classic för att skapa e-kataloger. När du överför en PDF-fil rastreras eller rips sidorna som standard, så att sidorna kan användas för att skapa multimedia.
 
 När du överför en PDF för sidextrahering använder Adobe följande gräns:
 
@@ -33,7 +31,7 @@ Se även [Dynamic Media begränsningar](/help/using/limitations.md).
 
 ## Överföringsalternativ för PDF {#pdf-upload-options}
 
-När du överför en PDF-fil kan du formatera den på olika sätt. Du beskär sidorna, extraherar sökord, anger en pixel per tum-upplösning och väljer en färgrymd. PDF-filer innehåller ofta en ytmarginal, skärmärken, passmärken och andra skrivarmärken. Du kan beskära dessa märken från sidorna när du överför en PDF-fil.
+När du överför en PDF-fil kan du formatera den på olika sätt. Du beskär sidorna, extraherar sökord, anger pixlar per tum och väljer en färgrymd. PDF-filer innehåller ofta en ytmarginal, skärmärken, passmärken och andra skrivarmärken. Du kan beskära dessa märken från sidorna när du överför en PDF-fil.
 
 Alternativ för att överföra PDF-filer finns på sidan Överför under Alternativ för PDF.
 
@@ -65,7 +63,7 @@ Välj menyn Färgrymd och välj en färgrymd för filen PDF. De flesta PDF-filer
 
 ### Alternativ för färgprofil
 
-* **[!UICONTROL Convert To sRGB]** - Konverterar till sRGB (Standard Red Green Blue). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+* **[!UICONTROL Convert To sRGB]** - Konverterar till sRGB (Standard Red Green Blue). sRGB är den rekommenderade färgrymden för visning av bilder på en webbsida.
 
 * **[!UICONTROL Keep Original Color Space]** - Behåller den ursprungliga färgrymden.
 
@@ -88,13 +86,13 @@ Se även [ICC-profiler](/help/using/icc-profiles.md#icc_profiles).
 
    * **[!UICONTROL Trimming based on color]** - Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du markerade i hörnet av PDF. Nummer som ligger närmare 1 ger större färgskillnader.
 
-   * **[!UICONTROL Trimming based on transparency]** - Ange 0 om pixlarna bara ska beskäras om de är genomskinliga. siffror närmare 1 ger större genomskinlighet.
+   * **[!UICONTROL Trimming based on transparency]** - Ange 0 om du bara vill beskära pixlar om de är genomskinliga. Med siffror närmare 1 får du mer genomskinlighet.
 
 ## Beskär från sidorna på PDF {#cropping-from-the-sides-of-pdf-pages}
 
 Du kan ta bort skrivarmärken manuellt från sidorna i en PDF-fil när du överför den.
 
-1. Välj **[!UICONTROL Manual]**.
+1. Välj på menyn Beskär **[!UICONTROL Manual]**.
 1. Ange pixelinställningar i textrutorna Överkant, Höger, Underkant och Vänster om du vill beskära från sidans överkant, underkant och sidor.
 
 Hur mycket av sidan som beskärs beror på inställningen för Upplösning PX/tum som du anger för PDF-filen. Anta till exempel att du anger 150 (standard) som upplösnings-PX/tum-inställning. Sedan beskär du 75 pixlar från sidorna. I så fall 0,5 tum. beskärs. Vid 150 pixlar per tum är 75 pixlar lika med en halv tum.

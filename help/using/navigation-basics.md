@@ -1,20 +1,18 @@
 ---
 title: Navigeringsgrunder
 description: Läs om hur du navigerar i användargränssnittet i Adobe Dynamic Media Classic.
-uuid: ee143695-e42d-479d-b907-fe61ef6cfc0f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 825b8949-f961-4ef9-828c-07349013d40d
 feature: Dynamic Media Classic
 role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
@@ -59,7 +57,7 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 Använd resursbiblioteket för att ordna de resurser du arbetar med. Du kan skapa mappar och undermappar för att ordna dina resurser i resursbiblioteket.
 
-Överst på panelen Resursbibliotek finns kommandon för att hitta resurser. Du kan söka efter resurser och filtrera för att hitta resurser. Välj **[!UICONTROL Trash]** längst ned i resursbiblioteket om du vill undersöka resurser som du har tagit bort.
+Överst på panelen Resursbibliotek finns kommandon för att hitta resurser. Du kan söka efter resurser och filtrera för att hitta resurser. Om du vill undersöka resurser som du har tagit bort väljer du **[!UICONTROL Trash]** längst ned i resursbiblioteket.
 
 >[!NOTE]
 >

@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
 # Hantera innehåll i informationspanelen i e-kataloger{#managing-info-panel-content-in-ecatalogs}
 
-Förutom att använda bildschematext för överrullningar i e-kataloger kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel med hjälp av tidsbestämd cachning och schemaläggning av innehållsuppdateringar.
+Förutom att använda bildschematext för överrullningar i e-kataloger kan du använda en informationspanel för att lägga till större mängder överrullningstext, inklusive länkar. Du kan också hantera InfoPanel genom att använda cachelagring som är tidsbestämd och schemalägga innehållsuppdateringar.
 
 Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Adobe Dynamic Media Classic:
 
@@ -68,7 +68,7 @@ Tänk på följande när du formaterar källinnehåll:
 1. Dubbelklicka på e-katalogen så att den öppnas i detaljvyn.
 1. Välj **[!UICONTROL InfoPanel Data feed]** -panelen.
 1. Ange URL:en för CSV-filen i rutan Plats för extern värdbaserad CSV-fil. Du kan klistra in URL-adressen i det här fältet eller skriva den direkt.
-1. (Valfritt) Ange en tid för att uppdatera innehållet med hjälp av menyerna Schemauppdatering och välj **[!UICONTROL Add]**. Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i rutan Uppdateringstider. (Om du vill ta bort en tid markerar du den och väljer **[!UICONTROL Delete]**.)
+1. (Valfritt) Ange en tid för att uppdatera innehållet med hjälp av menyn Schemauppdatering och välj **[!UICONTROL Add]**. Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i rutan Uppdateringstider. (Om du vill ta bort en tid markerar du den och väljer **[!UICONTROL Delete]**.)
 1. (Valfritt) Välj **[!UICONTROL Run Update Now]** för att uppdatera innehållet omedelbart.
 
 ### Importera en tabbavgränsad fil eller CSV-fil {#import-a-tab-delimited-or-csv-file}

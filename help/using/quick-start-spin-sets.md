@@ -1,20 +1,18 @@
 ---
 title: "Snabbstart: Snurra uppsättningar"
 description: En introduktion och Snabb start till snurra uppsättning som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
@@ -65,7 +63,7 @@ Se [Redigera en snurra uppsättning](creating-spin-set.md#editing-a-spin-set).
 
 Administratörer kan skapa förinställningar för Snurra uppsättning för visningsprogram. De här förinställningarna bestämmer hur visningsprogrammet för snurra uppsättning ser ut. Om du vill ställa in en ny förinställning för Snurra uppsättning för visning går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
-På sidan Visningsförinställningar väljer du **[!UICONTROL Add]** väljer **[!UICONTROL Spin Set Viewer]** i listrutan och välj **[!UICONTROL Add]**. Välj alternativ på sidan Konfigurera visningsprogram och välj sedan **[!UICONTROL Save]**.
+På sidan Visningsförinställningar väljer du **[!UICONTROL Add]** väljer **[!UICONTROL Spin Set Viewer]** i listrutan och välj **[!UICONTROL Add]**. Välj alternativ i dialogrutan `Configure Viewer` sida och sedan välja **[!UICONTROL Save]**.
 
 Se [Ställ in snurra Ställ in visningsförinställningar](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ Se [Förhandsgranska en snurra uppsättning](previewing-spin-set.md#previewing-a
 
 När du publicerar en snurruppsättning placeras den på Adobe Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image-servrar till din webbplats eller ditt program.
 
-Om du vill publicera en snurruppsättning markerar du den för publicering genom att välja **[!UICONTROL Mark for Publish]** -ikonen bredvid namnet på panelen Bläddra. I fältet Global navigering väljer du **[!UICONTROL Publish]** för att starta en publicering. På skärmen Publicera väljer du **[!UICONTROL Submit Publish]**.
+Om du vill publicera en snurruppsättning markerar du den för publicering genom att välja **[!UICONTROL Mark for Publish]** -ikonen bredvid namnet på panelen Bläddra. I fältet Global navigering väljer du **[!UICONTROL Publish]** för att starta en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
 
 Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set).
 

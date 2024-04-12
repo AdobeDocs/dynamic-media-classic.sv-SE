@@ -1,27 +1,25 @@
 ---
 title: Skapa mallparametrar
-description: Lär dig hur du skapar mallparametrar i Adobe Dynamic Media Classic.
-uuid: d17168a8-4776-4761-b022-8258d5997604
+description: Lär dig skapa mallparametrar i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
 
 # Skapa mallparametrar{#creating-template-parameters}
 
-Med parametrar kan du använda mallar med maximal flexibilitet; kan du anpassa en mallbild dynamiskt. Du kan bestämma vilka text- och bildlager som ska ingå i mallen och vilka parametrar som ska visas i varje lager. Om du till exempel vill rikta uppmärksamheten mot en produkt som är på rea kan du skapa ett textlager som är på rea. Du kan senare ta bort det här lagret men behålla resten av mallbilden genom att ta bort parametern Vid försäljning.
+Med parametrar kan du använda mallar med maximal flexibilitet. Du kan anpassa en mallbild dynamiskt. Du kan bestämma vilka text- och bildlager som ska ingå i mallen och vilka parametrar som ska visas i varje lager. Om du till exempel vill rikta uppmärksamheten mot en produkt som är på rea kan du skapa ett textlager som är på rea. Du kan senare ta bort det här lagret men behålla resten av mallbilden genom att ta bort parametern Vid försäljning.
 
 När du skapar mallparametrar deklarerar du i själva verket vilka delar av mallen som ska anropas i en URL-sträng. En URL som konstruerats med parametrar visar dessa objekt i URL-strängen. När parametrar visas kan du skapa anpassade resultat utifrån hur mallbilden dynamiskt skapas från Image Server. På så sätt kan du ändra en mall dynamiskt eftersom du kan anropa vissa eller alla dess parametrar i en URL.
 
@@ -35,7 +33,7 @@ Se även [Grundläggande om mallar](https://s7d5.scene7.com/s7viewers/html5/Vide
 
 Följ de här stegen för att skapa mallparametrar för varje lager i mallen:
 
-1. I listan Lager väljer du knappen Parametrar bredvid namnet på det lager som du vill skapa parametrar för. Skärmen Parametrar öppnas. Den visar namnen på varje parameter i lagret, dess värde och typ.
+1. I listan Lager väljer du knappen Parametrar bredvid namnet på det lager som du vill skapa parametrar för. Skärmen Parametrar öppnas. Den visar namnet på varje parameter i lagret, dess värde och typ.
 1. Välj alternativet På bredvid namnet på varje parameter som du vill ta med i mallbilden.
 1. Välj **[!UICONTROL Close]** för att avsluta parameterskärmen.
 
@@ -43,7 +41,7 @@ Följ de här stegen för att skapa mallparametrar för varje lager i mallen:
 >
 >Du kan byta namn på parametrar på parameterskärmen. Om du byter namn på en parameter blir det enklare att identifiera parametern i URL-strängar och lättare att använda som databasvärde. Om du vill byta namn på en parameter markerar du dess **[!UICONTROL On]** markerar du namnet och anger ett nytt namn i fältet Namn.
 
-Om du vill visa en lista över de parametrar som du har skapat för mallen väljer du knappen Parametersammanfattning på mallskärmen. Skärmen Parametersammanfattning öppnas. Namnet på varje lager visas och om du har skapat parametrar för ett lager visas parameternamn och värden.
+Om du vill visa en lista över de parametrar som du har skapat för mallen väljer du knappen Parametersammanfattning på mallskärmen. På skärmen Parametersammanfattning visas namnet på varje lager. Om du har skapat parametrar för ett lager visas parameternamn och värden.
 
 ## Skapa dynamiska textparametrar {#creating-dynamic-text-parameters}
 

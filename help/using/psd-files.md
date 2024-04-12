@@ -1,20 +1,18 @@
 ---
 title: Arbeta med PSD-filer
 description: Lär dig hur du arbetar med PSD i Adobe Dynamic Media Classic.
-uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -73,7 +71,7 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 
 ## Visa och redigera lager i en PSD-fil {#viewing-and-editing-layers-in-a-psd-file}
 
-Om du valde alternativet Behåll lager när du överförde PSD, delade Adobe Dynamic Media Classic bort de enskilda lagren i resurser. Du kan visa och redigera de objektlager som tillhör en PSD-fil genom att öppna filen i panelen Bläddra i detaljvyn.
+Om du valde alternativet **[!UICONTROL Maintain Layers]** när du överförde PSD, delade Adobe Dynamic Media Classic upp de enskilda lagren i resurser. Du kan visa och redigera de objektlager som tillhör en PSD-fil genom att öppna filen i panelen Bläddra i detaljvyn.
 
 >[!NOTE]
 >

@@ -1,7 +1,6 @@
 ---
 title: "Snabbstart: Bildstorlek"
 description: En introduktion och Snabbstart till Bildstorlek som hjälper dig att komma igång snabbt med tekniker för bildstorlek i Adobe Dynamic Media Classic.
-uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,12 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 feature: Dynamic Media Classic,Asset Management
 role: User
-exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -37,7 +36,7 @@ Följande snabbstart för bildstorlekar är utformad för att hjälpa dig att ko
 
 Börja med att ladda upp dina primära bilder till Adobe Dynamic Media Classic. När det gäller storlek rekommenderar Adobe Dynamic Media Classic att du använder bilder som är den största storlek du förväntar dig på din webbplats eller i ditt program. Om du till exempel vill att tittarna ska zooma bilder överför du bilder som är minst 2 000 pixlar stora. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF- och PNG-bilder rekommenderas.
 
-Välj **[!UICONTROL Upload]** för att överföra filer från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför primära bilder](uploading-master-images.md#uploading_master_images).
+I fältet Global navigering väljer du **[!UICONTROL Upload]** för att överföra filer från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför primära bilder](uploading-master-images.md#uploading_master_images).
 
 ## 2. Konfigurera bildförinställningar
 
@@ -51,7 +50,7 @@ Den bildförinställning du skapar läggs till på menyn Bildförinställning p�
 
 Nästa steg är att förhandsvisa de bildförinställningar som administratören har ställt in med olika förinställda storlekar.
 
-Om du vill utforska förinställningarna går du till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]** och sedan bläddra till en bildförinställning.
+Om du vill utforska bildförinställningar går du till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]** och sedan bläddra till en bildförinställning.
 
 Experimentera med olika bildförinställningar. Ta reda på hur bilden ser ut när den levereras dynamiskt till din webbplats eller ditt program i olika storlekar.
 
@@ -64,7 +63,7 @@ Publicera dina primära bildfiler för två viktiga syften:
 * Publicera dina primära bilder på Dynamic Media Image Servers så att bilderna dynamiskt kan levereras till din webbplats och tillämpning.
 * När du publicerar aktiveras URL-strängarna för att anropa bilder från Dynamic Media Image Servers till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera de URL-adresser som genererats av Adobe Dynamic Media Classic där det behövs på webbplatsen eller i programmet.
 
-Välj **[!UICONTROL Publish]** för att starta ett publiceringsjobb. I dialogrutan Publicera väljer du **[!UICONTROL Submit Publish]**. Se [Publicera primära bilder](publishing-master-images.md#publishing_master_images).
+I fältet Global navigering väljer du **[!UICONTROL Publish]** för att starta ett publiceringsjobb. I dialogrutan Publicera väljer du **[!UICONTROL Submit Publish]**. Se [Publicera primära bilder](publishing-master-images.md#publishing_master_images).
 
 ## 5. Länka URL:er till ditt webbprogram
 

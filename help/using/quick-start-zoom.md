@@ -1,20 +1,18 @@
 ---
 title: "Snabbstart: Zooma"
 description: En introduktion och Snabbstart till zoom som hjälper dig att komma igång snabbt.
-uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -33,38 +31,38 @@ Följande Zoom-snabbstart är utformad för att du snabbt ska komma igång med z
 
 ## 1. Överför zoombilder
 
-Börja med att ladda upp dina zoombilder till Adobe Dynamic Media Classic. För optimal zoomning rekommenderar Adobe Dynamic Media Classic att bilderna har minst 2 000 pixlar i den längsta storleken.
+Börja med att ladda upp dina zoombilder till Adobe Dynamic Media Classic. För optimal zoomning rekommenderar Adobe Dynamic Media Classic att bilderna är minst 2 000 pixlar långa.
 
-Välj **[!UICONTROL Upload]** för att överföra bilder från datorn eller nätverket till en mapp på Adobe Dynamic Media Classic. Se [Överför zoombilder](uploading-zoom-images.md#uploading_zoom_images).
+I fältet Global navigering väljer du **[!UICONTROL Upload]** för att överföra bilder från datorn eller nätverket till en mapp på Adobe Dynamic Media Classic. Se [Överför zoombilder](uploading-zoom-images.md#uploading_zoom_images).
 
 ## 2. Skapa zoommål för guidad zoomning
 
-Zoommål är ett sätt för dig att markera specifika delar av en bild. Du kan till exempel rikta uppmärksamheten mot de delar av en bild som gör den unik eller distinkt. I zoomvisningsfönstret visas zoommål i form av miniatyrbilder på bildens sida. Om du väljer en av dessa zoommålminiatyrer zoomas automatiskt en del av bilden som du anger.
+Med zoomningsmål kan du markera specifika delar av en bild. Du kan till exempel rikta uppmärksamheten mot de delar av en bild som gör den unik eller distinkt. I zoomvisningsfönstret visas zoommål i form av miniatyrbilder på bildens sida. Om du väljer en av dessa zoommålminiatyrer zoomas automatiskt en del av bilden som du anger.
 
 Om du vill skapa ett zoommål väljer du **[!UICONTROL Edit]** och väljer Zoommål eller öppnar en bild i panelen Bläddra i detaljvyn och väljer **[!UICONTROL Zoom Targets]**. Använd sedan zoomverktygen på sidan Zoommålredigerare så att du kan isolera en del av bilden som ett mål. Se [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
-## 3. Konfigurera förinställningar för Zoomvisningsprogram
+## 3. Konfigurera förinställningar för zoomvisningsprogrammet
 
-Förinställningarna för zoomvisningsprogrammet bestämmer hur zoomningsvisningsprogrammen ska se ut och fungera. Om du är administratör kan du konfigurera förinställningar för zoomvisningsprogrammet. Adobe Dynamic Media Classic levereras även med standardförinställningarna för zoomvisningsprogrammet.
+Förinställningarna för zoomvisningsprogrammet bestämmer hur zoomningsvisningsprogrammen ska se ut och fungera. Om du är administratör kan du ange förinställningar för zoomvisningsprogrammet. I Adobe Dynamic Media Classic finns även standardförinställningar för zoomvisningsprogrammet.
 
-Om du vill skapa en förinställning för zoomvisningsprogrammet går du till navigeringsfältet Global **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. På sidan Förinställningar för visningsprogram väljer du **[!UICONTROL Add]**, väljer en plattform och ett zoomvisningsprogram och väljer sedan **[!UICONTROL Add]**. Välj sedan alternativ på sidan Konfigurera visningsprogram.
+Om du vill skapa en förinställning för zoomvisningsprogrammet går du till navigeringsfältet Global **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. På sidan Visningsförinställningar väljer du **[!UICONTROL Add]**, väljer en plattform och ett zoomvisningsprogram och väljer sedan **[!UICONTROL Add]**. Välj sedan alternativ på `Configure Viewer` sida.
 
 Adobe Dynamic Media Classic erbjuder **[!UICONTROL Zoom Viewer Preset]** alternativ som gör att du kan välja knappstil och det övergripande utseendet på visningsprogrammet. Du kan också anpassa zoominställningarna för webbplatsen. Se [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
-## 4. Förhandsgranska bilder med Zoomvisningsprogrammet
+## 4. Förhandsvisa bilder med Zoomvisningsprogrammet
 
 Du kan förhandsvisa bilder i ett zoomvisningsprogram för att se vad zoomupplevelsen är när bilder zoomas.
 
-Om du vill utforska olika förinställningar för Zoomvisning och hur de visar zoomupplevelsen markerar du en bild i panelen Bläddra och väljer **[!UICONTROL Preview]**. Gå till **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** och välj sedan en förinställning med zoommenyerna.
+Om du vill utforska olika förinställningar för Zoomvisning och hur de visar zoomupplevelsen markerar du en bild i panelen Bläddra och väljer **[!UICONTROL Preview]**. Gå till **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** och välj sedan en förinställning med menyn Zooma.
 
 Zoomknappar visas. Du kan se hur zoombilderna ser ut på webbplatsen. Markera zoomknapparna (och zoomningsmålen) så att du kan testa inställningarna för den förinställning för Zoomvisning som du har valt. Se [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publicera zoombilder
 
-När du publicerar dina zoombilder placeras de på Dynamic Media bildservrar så att de kan levereras till din webbplats och tillämpning. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängar. Dessa URL-strängar anropar zoombilder från Dynamic Media Image Servers till din webbplats eller ditt program.
+När du publicerar dina zoombilder placeras de på Dynamic Media Image Servers så att de kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängar. Dessa URL-strängar anropar zoombilder från Dynamic Media Image Servers till din webbplats eller ditt program.
 
-Välj **[!UICONTROL Publish]**. I dialogrutan Publicera väljer du **[!UICONTROL Submit Publish]**. Se [Publicera zoombilder](publishing-zoom-images.md#publishing_zoom_images).
+I fältet Global navigering väljer du **[!UICONTROL Publish]**. I dialogrutan Publicera väljer du **[!UICONTROL Submit Publish]**. Se [Publicera zoombilder](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Länka zoomningsvisningsprogram till webbsidan
 
-Adobe Dynamic Media Classic skapar de URL-bildtextsträngar som behövs för att zooma bilder och aktiverar dem när du publicerar bilder på Dynamic Media bildservrar. Du kan kopiera dessa URL-strängar från **[!UICONTROL Preview]** sida. När du har kopierat URL-strängarna är de tillgängliga för dina webbplatser och program. Se [Länka zoomningsvisningsprogram till webbsidan](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic skapar de URL-bildtextsträngar som behövs för att zooma bilder och aktiverar dem när du publicerar bilder på Dynamic Media bildservrar. Du kan kopiera dessa URL-strängar från **[!UICONTROL Preview]** sida. När du har kopierat URL-strängarna är de tillgängliga för dina webbplatser och program. Se [Länka zoomningsvisningsprogram till din webbsida](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

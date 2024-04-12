@@ -1,20 +1,18 @@
 ---
 title: Länka URL:er till ditt webbprogram
 description: Lär dig hur du länkar URL:er till webbprogram från Adobe Dynamic Media Classic.
-uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -35,20 +33,20 @@ Du kan hämta en URL-sträng som genereras av en bildförinställning från för
 
 ### Hämta en URL för bildförinställning från förhandsvisning {#obtaining-an-image-preset-url-from-preview}
 
-1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
+1. Navigera till resursmappen som innehåller bildresursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser väljer du en enda bildresurs och går sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL List View]**. I fönstret Resurser väljer du en enda bildresurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
-1. (Valfritt) I listrutan Bildförinställning väljer du den URL-kodning som du vill använda på bildresursens URL när den kopieras i URL-kodningslistan för kopiering av URL-generering.
+1. (Valfritt) I listrutan Bildförinställning väljer du den URL-kodning som ska användas för bildresursens URL när den kopieras i URL-kodningslistan för kopiering av URL-generering.
 1. I fönstret Bildförinställningslista i det övre högra hörnet av förhandsgranskningsfönstret väljer du **[!UICONTROL Copy URL]** för den valda förinställningstypen.
 1. I det nedre högra hörnet av fönstret Bildförinställningslista väljer du **[!UICONTROL Close]** för att gå tillbaka till skärmen Resurser.
 
 ### Hämta en URL för bildförinställning från panelen Bläddra {#obtaining-an-image-preset-url-from-the-browse-panel}
 
-1. Gå till resursmapparna som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
+1. Gå till resursmappen som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser väljer du en enda bildresurs.
 1. Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**.
 1. Välj **[!UICONTROL URLs]** på panelen till höger på skärmen så att du kan visa listan med bildförinställningar.
@@ -93,7 +91,7 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 Nu använder du `<IMG>`-tagg som ersätter referensen till en statisk bild med ett Image Preset-anrop till Adobe Dynamic Media Classic-plattformen. Ett exempelanrop ser ut så här:
 
 ```as3
-img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
+img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
 I det här exemplet &quot;söker en Dynamic Media Image Server upp&quot; definitionen av `$thumbnail$` och skapar dynamiskt rätt bild med de storleks- och formateringsspecifikationer som definieras av `thumbnail`Bildförinställning. I en URL-sträng är alla objekt utom produktbildens filnamn ( `backpack_trns` i det här fallet) är vanligtvis maskinkopplade för sidmallen. Det enda elementet som infogas automatiskt i sidmallen från e-handelsservern är bildens IPS-ID eller namn.

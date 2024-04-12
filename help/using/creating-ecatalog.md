@@ -1,20 +1,18 @@
 ---
 title: Skapa en e-katalog
 description: Lär dig skapa en e-katalog i Adobe Dynamic Media Classic.
-uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -56,7 +54,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
    * **Knappen Flytta till** - Markera en sida eller ett uppslag, markera **[!UICONTROL Move To]** och väljer sidan på menyn som du vill att sidan ska visas före.
 
-   * **Sekvensnr** - I listvyn anger du sidnummer i fälten Sekvensnummer.
+   * **Sekvensnr** - I listvyn anger du sidnummer i fälten för sekvensnummer.
 
 1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**.
@@ -85,7 +83,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.
 
-## Ta bort en e-katalog {#deleting-an-ecatalog}
+## Ta bort en e-katalog
 
 När du tar bort en uppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller&quot;underordnade&quot;) i uppsättningen påverkas dock inte. De behåller i stället sitt befintliga publicerade eller opublicerade läge.
 

@@ -1,20 +1,18 @@
 ---
 title: Video SEO (sökmotoroptimering)
 description: Lär dig hur du konfigurerar SEO-inställningar för video i Adobe Dynamic Media Classic.
-uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -43,9 +41,9 @@ Adobe Dynamic Media Classic skapar rapporter om webbplatskartor för video och m
 
 >[!NOTE]
 >
->För Video Sitemaps och mRSS-flöden hämtar Adobe Dynamic Media Classic endast metadata från videoklipp som har markerats för publicering. Markera videoklipp för publicering för att inkludera deras metadata i webbplatskartor för video och mRSS-flöden.
+>För Video Sitemaps och mRSS-flöden hämtar Adobe Dynamic Media Classic endast metadata från videoklipp som har markerats för publicering. Markera videoklipp för publicering för att inkludera deras metadata i videosemappningar och mRSS-flöden.
 
-## Välj SEO-inställningar för video {#choosing-video-seo-settings}
+## Välj SEO-inställningar för video
 
 Välj SEO-inställningar för video för webbplatskartor och mRSS-flöden på **[!UICONTROL Video Search Engine Optimization Settings]** sida. Om du vill öppna den här sidan går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**.
 

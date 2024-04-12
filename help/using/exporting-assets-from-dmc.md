@@ -1,18 +1,16 @@
 ---
 title: Exportera resurser från Adobe Dynamic Media Classic
 description: Lär dig exportera resurser från Adobe Dynamic Media Classic.
-uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -25,7 +23,7 @@ Du kan spara resurser som du har redigerat i Adobe Dynamic Media Classic på en 
 
 Den komprimerade ZIP-filen har en maximal filstorlek på 1 GB för exportjobbet. Du får dessutom högst 500 totala resurser per exportjobb.
 
-Adobe Dynamic Media Classic sparar uppgifter om exportjobb på jobbskärmen.
+Adobe Dynamic Media Classic sparar uppgifter om exportering av jobb på jobbskärmen.
 
 **Så här exporterar du resurser från Adobe Dynamic Media Classic:**
 

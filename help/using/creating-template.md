@@ -1,25 +1,23 @@
 ---
 title: Skapa en mall
 description: Lär dig skapa en mall i Adobe Dynamic Media Classic.
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3259'
 ht-degree: 0%
 
 ---
 
-# Skapa en mall {#creating-a-template}
+# Skapa en mall
 
 Gå till om du vill skapa en mall **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer. På den här sidan kan du lägga till bild- och textlager. Du kan också ändra ordning på lager, ändra storlek och position för lager och använda skugg- och glödeffekter på bilder och text.
 
@@ -78,7 +76,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.
 
-## Ta bort en mall {#deleting-a-template}
+## Ta bort en mall
 
 När du tar bort en malluppsättning flyttas själva uppsättningen till papperskorgen. Medlemmarna (eller&quot;underordnade&quot;) i uppsättningen påverkas dock inte. De behåller i stället sitt befintliga publicerade eller opublicerade läge.
 
@@ -278,7 +276,7 @@ Du kan dölja ett lager eller en lagereffekt genom att markera ögonikonen bredv
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### Bestämma bakgrundsfärg, opacitet och blandningsläge {#determining-the-background-color-opacity-and-blend-mode}
+### Bestämma bakgrundsfärg, opacitet och blandningsläge
 
 Om du vill välja bakgrundsfärg, opacitet och blandningsläge för ett lager eller arbetsytan markerar du lagret eller arbetsytan och använder följande tekniker:
 
@@ -299,7 +297,7 @@ När du har använt en skugg- eller glödeffekt kan du justera dess storlek, fä
 ### Använda en skugg- eller glödeffekt på ett lager {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. Markera ett lager i listan Lager.
-1. Välj menyn Lägg till effekt och välj ett alternativ:
+1. Välj **[!UICONTROL `Add Effect`]** och välj ett alternativ:
 
    * **[!UICONTROL Drop Shadow]** - Använder en skugga på lagrets nedre och högra sida.
 

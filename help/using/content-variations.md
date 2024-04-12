@@ -1,18 +1,16 @@
 ---
 title: Hantera innehållsvariationer
-description: Lär dig hur du hanterar innehållsvariationer i Adobe Dynamic Media Classic.
-uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
+description: Lär dig hantera innehållsvariationer i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -27,7 +25,7 @@ Skapa en malluppsättning för att hantera varianter av en mall. Du kan styra vi
 
 Universella URL:er används för att visa mallvariationen som visas på sidan, baserat på den ordning som de listas i uppsättningen. Mallen högst upp i malluppsättningslistan publiceras alltid.
 
-Du kan använda valfri URL för bildförinställningar i listan. URL:er för bildförinställningar fungerar som universella URL:er. Det kan finnas mer än en URL för bildförinställning.
+Du kan använda valfri URL för bildförinställningar i listan. Förinställda URL:er för bilder fungerar som universella URL:er. Det kan finnas mer än en URL för bildförinställning.
 
 1. Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
 1. Välj en mall i verktyget och välj sedan **[!UICONTROL Add/Preview]**.

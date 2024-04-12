@@ -1,18 +1,16 @@
 ---
 title: Skapa och hantera medieportalgrupper
 description: Lär dig hur du skapar och hanterar medieportalgrupper i Adobe Dynamic Media Classic.
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 Om du vill ge åtkomstbehörighet på olika nivåer skapar du grupper. För varje grupp tilldelar du läs-, skriv- och borttagningsbehörigheter till olika mappar och resurser i mappar. Du bestämmer också vilka bildförinställningar som är tillgängliga för gruppen. Sedan tilldelar du användare till grupper. En användare kan vara medlem i flera grupper. Gruppkonceptet ger dig flexibilitet att tilldela åtkomst till begränsade uppsättningar av det totala innehållet.
 
-Om du inte ger en gruppbehörighet till en resurs eller mapp ärver resursen eller mappen de behörigheter som du tilldelade den överordnade mappen (mappen ovanför den i mapphierarkin). Bevilja behörigheter till en överordnad mapp om du vill se till att alla dess underordnade mappar ärver samma behörigheter.
+Om du inte ger en grupp behörighet till en resurs eller mapp ärver resursen eller mappen de behörigheter som du tilldelade den överordnade mappen (mappen ovanför den i mapphierarkin). Bevilja behörigheter till en överordnad mapp om du vill se till att alla dess underordnade mappar ärver samma behörigheter.
 
 >[!NOTE]
 >
@@ -77,7 +75,7 @@ Om du inte ger en gruppbehörighet till en resurs eller mapp ärver resursen ell
 >
 >Åtkomsträttigheter fastställs när du markerar en ruta. När du tilldelar rättigheter till en mapp får dess undermappar och alla filer i den samma rättigheter som den överordnade mappen. Du kan dock ange olika behörigheter för enskilda undermappar och resursfiler.
 
-## Välj åtkomstbehörighet för bildförinställning för en grupp {#choosing-image-preset-access-permissions-for-a-group}
+## Välj åtkomstbehörighet för bildförinställning för en grupp
 
 Välj åtkomstbehörighet för bildförinställningar för en grupp om du vill ange vilka bildförinställningar som är tillgängliga för gruppmedlemmar när de exporterar resurser med Media Portal.
 

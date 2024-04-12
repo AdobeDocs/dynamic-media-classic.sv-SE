@@ -1,18 +1,16 @@
 ---
 title: Hantera papperskorgen
 description: Lär dig hur du hanterar papperskorgen.
-uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 # Hantera papperskorgen{#managing-the-trash-folder}
 
-Objekt som du tar bort från Adobe Dynamic Media Classic flyttas till papperskorgen. De borttagna filerna finns kvar i mappen i sju dagar tills de återställs eller tas bort permanent. Du kan undersöka borttagna objekt genom att välja **[!UICONTROL Trash]** längst ned i resursbiblioteket och när du visar objekt på papperskorgen.
+Objekt som du tar bort från Adobe Dynamic Media Classic flyttas till papperskorgen. Dessa borttagna objekt finns kvar i mappen i sju dagar tills de återställs eller tas bort permanent. Du kan undersöka borttagna objekt genom att välja **[!UICONTROL Trash]** längst ned i resursbiblioteket och när du visar objekt på papperskorgen.
 
 Alla användare kan återställa objekt i papperskorgen till de mappar som de togs bort från. Alla användare kan också tömma papperskorgen på allt innehåll.
 
@@ -35,7 +33,7 @@ Om du tar bort objekt från papperskorgen tas objekt från Adobe Dynamic Media C
 
 Om du tar bort ett objekt i en mapp placeras objektet i papperskorgen. Följande händer när du tar bort ett objekt och flyttar det till papperskorgen:
 
-* Objektet har tagits bort från dina Adobe Dynamic Media Classic-mappar, men det går inte att tilldela det till en annan resurs medan det finns kvar i papperskorgen. Om du försöker överföra en resurs med samma namn som en fil i papperskorgen lägger Adobe Dynamic Media Classic till ett nummer i resursens namn.
+* Objektet tas bort från din Adobe Dynamic Media Classic-mapp, men det går inte att tilldela det till en annan resurs medan det finns kvar i papperskorgen. Om du försöker överföra en resurs med samma namn som en fil i papperskorgen lägger Adobe Dynamic Media Classic till ett nummer i resursens namn.
 * Objektet kan inte publiceras. Även om objektet markerades för publicering när du tog bort det publiceras det inte.
 * Objektet finns kvar i papperskorgen tills det återställs, om sju dagar eller någon väljer **[!UICONTROL Empty the Trash]** -kommando. Efter sju dagar tas objektet bort permanent vid en automatisk rensning.
 

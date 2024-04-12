@@ -1,7 +1,7 @@
 ---
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Inte anpassat till denna uppförandekod. Eller att tillfälligt eller permanent 
 
 ## Omfång
 
-Denna uppförandekod gäller både inom projektutrymmen och på offentliga platser när en person representerar projektet eller dess community. Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress för projektet, publicera via ett officiellt konto för sociala medier eller agera som utsedd representant vid ett online- eller offlineevenemang. Projektledarna kan närmare definiera och klargöra hur ett projekt ska visas.
+Denna uppförandekod gäller både inom projektutrymmen och på offentliga platser när en person representerar projektet eller dess community. Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress för projektet eller att publicera via ett officiellt konto för sociala medier. Det innefattar också att agera som utsedd representant vid online- eller offlineevenemang. Projektledarna kan närmare definiera och klargöra hur ett projekt ska visas.
 
 ## Verkställande
 

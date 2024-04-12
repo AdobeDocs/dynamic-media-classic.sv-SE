@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Se [WebVTT: Textspårningsformat för webbvideo](https://w3c.github.io/webvtt/).
 
    Se [Överför filer](uploading-files.md#uploading_files).
 
-1. Navigera till resursmappen som innehåller den videofil som du vill associera med den överförda kapitelfilen i panelen Resursbibliotek på vänster sida.
+1. Navigera till resursmappen som innehåller den videofil som ska associeras med den överförda kapitelfilen på panelen Resursbibliotek på vänster sida.
 1. Välj en enskild videoresurs i panelen Resursbläddring och välj sedan under miniatyrbilden för resursen **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 1. I tabellen Viewer List kan du hitta visningsprogrammet HTML 5 med namnet **Univeral_HTML5_Video** och gör sedan något av följande:
 

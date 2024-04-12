@@ -1,27 +1,25 @@
 ---
 title: Konfigurera bildförinställningar
 description: Lär dig hur du ställer in bildförinställningar i Adobe Dynamic Media Classic.
-uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 2%
+source-wordcount: '654'
+ht-degree: 1%
 
 ---
 
 # Konfigurera bildförinställningar{#setting-up-image-presets}
 
-Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Om du vill förstå hur bildförinställningar fungerar antar du att webbplatsen kräver att varje produktbild visas i två olika storlekar: 500 × 500 pixlar och 150 × 150 pixlar. Du skapar två bildförinställningar, en som kallas&quot;Förstora&quot; om du vill visa bilder med 500 × 500 pixlar och en som kallas&quot;Miniatyrbild&quot; om du vill visa bilder med 150 × 150 pixlar. Om du vill leverera bilder i storleken &quot;Förstora&quot; och &quot;Miniatyrbild&quot;, söker en Dynamic Media Image Server upp definitionen av Förstora bildförinställning och Förinställning för miniatyrbild. Sedan genererar servern dynamiskt en bild med samma storlek och formateringsspecifikationer som varje bildförinställning.
+Precis som ett makro är en bildförinställning en fördefinierad samling kommandon för storleksändring och formatering som sparats under ett namn. Om du vill förstå hur bildförinställningar fungerar antar du att webbplatsen kräver att varje produktbild visas i två olika storlekar: 500 × 500 pixlar och 150 × 150 pixlar. Du skapar två bildförinställningar, en som kallas&quot;Förstora&quot; om du vill visa bilder med 500 × 500 pixlar och en som kallas&quot;Miniatyrbild&quot; om du vill visa bilder med 150 × 150 pixlar. Om du vill leverera bilder i storleken &quot;Förstora&quot; och &quot;Miniatyrbild&quot;, söker en Dynamic Media Image Server upp definitionen för &quot;Förstora bildförinställning&quot; och &quot;Förinställning för miniatyrbild&quot;. Sedan genererar servern dynamiskt en bild med samma storlek och formateringsspecifikationer som varje bildförinställning.
 
 Adobe Dynamic Media Classic innehåller flera &quot;bästa praxis&quot;-förinställningar som du redan har ställt in för att använda. Administratörer kan även skapa bildförinställningar. Om du vill skapa en bildförinställning kan du börja från början eller så kan du börja från en befintlig och spara den under ett nytt namn.
 
@@ -58,10 +56,10 @@ Du kan skapa egna bildförinställningar om du är företagsadministratör. Du k
 
    | Förinställningstyp | Storlek | USM: Belopp | USM: Radie | USM: Tröskelvärde |
    | --- | --- | --- | --- | --- |
-   | Korsförsäljning (miniatyrbild) | 75 × 75 | 1.5 | 0.8 | 5 |
-   | Miniatyrbild | 150 × 150 | 1.1 | 1 | 5 |
+   | Korsförsäljning (miniatyrbild) | 75 × 75 | 1,5 | 0,8 | 5 |
+   | Miniatyrbild | 150 × 150 | 1,1 | 1 | 5 |
    | Huvud | 350 × 350 | 1 | 1 | 6 |
-   | Förstora | 500 × 500 | 1.2 | 1.2 | 5 |
+   | Förstora | 500 × 500 | 1,2 | 1,2 | 5 |
 
 1. Välj **[!UICONTROL Save]**.
 

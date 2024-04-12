@@ -1,18 +1,16 @@
 ---
 title: Justera en bild
 description: Lär dig justera en bild i Adobe Dynamic Media Classic.
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -59,13 +57,13 @@ Välj **[!UICONTROL Save]**.
 
 ## Skapa ett alias för en bild {#creating-an-alias-for-an-image}
 
-När du har justerat en bild kan du spara den som en annan vy av den primära bilden. Om du vill göra det kan du skapa ett alias för bilden med **[!UICONTROL Save as additional view of primary]** -funktion.
+När du har justerat en bild kan du spara den som en annan vy av den primära bilden. Om du vill göra det kan du skapa ett alias för bilden med **[!UICONTROL Save as another view of primary]** -funktion.
 
 **Så här skapar du ett alias för en bild:**
 
 1. I stödrastervyn eller listvyn i **[!UICONTROL Edit]** bredvid en bild som du vill skapa ett alias för väljer du **[!UICONTROL Adjust]**.
 1. Välj i det nedre högra hörnet på sidan **[!UICONTROL Save As]**.
-1. Från listrutan i dialogrutan **[!UICONTROL Save As]** väljer **[!UICONTROL Save as additional view of primary]**.
+1. Från listrutan i dialogrutan **[!UICONTROL Save As]** väljer **[!UICONTROL Save as another view of primary]**.
 1. I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den utjämnade bilden.
 1. I **[!UICONTROL File Name]** anger du namnet som du vill använda för aliaset.
 1. Välj **[!UICONTROL Save]**.
