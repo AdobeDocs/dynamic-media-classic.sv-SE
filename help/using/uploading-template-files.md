@@ -1,18 +1,16 @@
 ---
 title: Överför mallfiler
 description: Lär dig hur du överför mallfiler i Adobe Dynamic Media Classic.
-uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -25,7 +23,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic rekommenderar att du använder genomskinliga TIFF- eller PSD-bilder i mallarna i exakt den storlek som du vill visa dem på webbplatsen. När du publicerar mallen anropar du bilden med en bildförinställning som också har samma storlek. Tänk på storleken för att se till att mallens storlek inte ändras (samplas om) med en storlek som är större eller mindre än den storlek som mallen är avsedd för.
+>Adobe Dynamic Media Classic rekommenderar att du använder genomskinliga bilder i TIFF eller PSD i mallarna i exakt den storlek som du vill visa dem på din webbplats. När du publicerar mallen anropar du bilden med en bildförinställning som också har samma storlek. Tänk på storleken för att se till att mallens storlek inte ändras (samplas om) med en storlek som är större eller mindre än den storlek som mallen är avsedd för.
 
 Mallar kan skapas från Adobe Photoshop PSD-filer eller bildfiler.
 

@@ -1,18 +1,16 @@
 ---
 title: Hantera FTP-konton
-description: Lär dig hur du hanterar FTP-konton i Adobe Dynamic Media Classic.
-uuid: c9410f44-14bf-4f55-a199-f0f0de459219
+description: Lär dig hantera FTP-konton i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 # Hantera FTP-konton{#managing-ftp-accounts}
 
-Endast Media Portal-administratörer kan administrera och hantera FTP-konton. Dessutom är det bara användare som har rollen *Media Portal Contributor-User* eller *Media Portal Contributor* kan överföra digitala resurser.
+Endast Media Portal-administratörer kan administrera och hantera FTP-konton. Dessutom är det bara användare med rollen *Media Portal Contributor-User* eller *Media Portal Contributor* kan överföra digitala resurser.
 
 Kom ihåg att du kan aktivera eller inaktivera befintliga Media Portal-användare via sidan Användaradministration i Administrationsinställningar.
 

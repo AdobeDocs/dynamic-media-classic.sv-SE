@@ -1,18 +1,16 @@
 ---
 title: Multimedia
 description: Läs om de olika verktygen i Adobe Dynamic Media Classic som kan hjälpa dig att skapa multimedia.
-uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -41,8 +39,8 @@ Se [Snabbstart: Blandade medieuppsättningar](/help/using/quick-start-mixed-medi
 * **Snurra uppsättningar** - Sekvensbilder som ska roteras vågrätt. Med Snurra uppsättningar kan besökare vända sig till en annan sida och visa dem. Du kan skapa endimensionella och tvådimensionella snurruppsättningar.
 Se [Snabbstart: Snurra uppsättningar](/help/using/quick-start-spin-sets.md).
 
-* **Färgruteuppsättningar** - En interaktiv shoppingupplevelse där användarna kan se produkter i olika färger och mönster. Du kan kombinera zoomning, flera vyer och färgrutor för en integrerad visningsupplevelse.
-Se [Snabbstart: Färgruteuppsättningar](/help/using/quick-start-swatch-sets.md).
+* **Uppsättningar med färgrutor** - En interaktiv shoppingupplevelse där användarna kan se produkter i olika färger och mönster. Du kan kombinera zoomning, flera vyer och färgrutor för en integrerad visningsupplevelse.
+Se [Snabbstart: Färgrutor](/help/using/quick-start-swatch-sets.md).
 
 * **Grundläggande om mallar** - Skapa datadrivna mallar som kombinerar teckensnitt, bilder och grafik för monogrammering, onlineanpassning och kampanjer. Till exempel lagerförsäljning eller annan reklamgrafik på produktbilder eller placera kundnamnen på T-shirts eller kaffemuggar. Kunderna kan se sina namn i e-postmeddelanden eller tryckta broschyrer som du skickar till dem.
 Se [Snabbstart: Grundläggande om mallar](/help/using/quick-start-template-basics.md).

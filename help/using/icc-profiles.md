@@ -1,18 +1,16 @@
 ---
 title: ICC-profiler (International Color Consortium)
 description: Läs om ICC-profiler i Adobe Dynamic Media Classic.
-uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
-discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -41,7 +39,7 @@ Om du vill undersöka en ICC-profil markerar du den på panelen Bläddra och vis
 
 * **[!UICONTROL Profile Class]** - ICC (International Color Consortium) definierar varje klass så att den omfattar en typ av program. Indataprofiler gäller till exempel enheter som digitalkameror och skannrar, och utdataprofiler gäller för skrivare.
 
-* **[!UICONTROL Color Space Type]** - Det här talet är profilens&quot;indatafärgrymd&quot;, enligt ICC:n. Färgrymdtypen definierar antalet komponenter i färgrymden och tolkningen av dessa komponenter. RGB är till exempel en färgrymd med tre komponenter: röd, grön och blå. Färgrymdstypen definierar inte de särskilda färgegenskaperna för färgrymden (t.ex. de kromatoriska egenskaperna för primärfärgerna).
+* **[!UICONTROL Color Space Type]** - Det här talet är profilens&quot;indatafärgrymd&quot;, enligt ICC:ns definition. Färgrymdtypen definierar antalet komponenter i färgrymden och tolkningen av dessa komponenter. RGB är till exempel en färgrymd med tre komponenter: röd, grön och blå. Färgrymdstypen definierar inte de särskilda färgegenskaperna för färgrymden (t.ex. de kromatoriska egenskaperna för primärfärgerna).
 
 * **[!UICONTROL PCS Type]** - Den här PCS-typen är profilens utdatafärgrymd - profilens anslutningsmodell. En färgprofil kan till exempel konvertera RGB till PCS, som sedan konverterar den till CMYK.
 

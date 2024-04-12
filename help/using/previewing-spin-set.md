@@ -1,18 +1,16 @@
 ---
 title: Förhandsgranska en snurra uppsättning
 description: Lär dig hur du förhandsgranskar en snurruppsättning i Adobe Dynamic Media Classic.
-uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -33,7 +31,7 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 1. Navigera i resursmapparna som innehåller den snurra uppsättning som du vill förhandsgranska med ett visningsprogram i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser, under miniatyrbilden, går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. Gå till fönstret Resurser, under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL List View]**. I fönstret Resurser väljer du en resurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
