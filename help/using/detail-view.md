@@ -10,16 +10,16 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Arbeta i detaljvyn{#working-in-detail-view}
 
-Du kan arbeta med och lära dig mer om en resurs genom att öppna den i detaljvyn. I detaljvyn ser du resursstorlek, attribut, derivat och metadata. Du ser också om och när resursen publicerades och du kan hämta URL:en för publicerade resurser. Beroende på resurstypen kan du förhandsgranska den i olika storlekar, zooma in den och utföra skärpeåtgärder, beskärningsåtgärder och andra formateringsåtgärder.
+Du kan arbeta med och lära dig mer om en resurs genom att öppna den i detaljvyn. I detaljvyn ser du resursstorlek, attribut, derivat och metadata. Du kan också se om och när resursen publicerades och du kan hämta URL:en för publicerade resurser. Beroende på resurstypen kan du förhandsgranska den i olika storlekar, zooma in den och utföra skärpeåtgärder, beskärningsåtgärder och andra formateringsåtgärder.
 
 <!-- 
 
@@ -40,17 +40,17 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## Öppna en resurs i detaljvyn {#open-an-asset-in-detail-view}
 
-Om du vill granska, förhandsgranska eller arbeta med en resurs kan du visa den i detaljvyn.
+Du kan visa en resurs i detaljvyn så att du kan granska, förhandsgranska eller arbeta med den.
 
 1. Gör något av följande i panelen Bläddra:
 
-   * Markera resursen. I Adobe Dynamic Media Classic övre högra hörn väljer du **[!UICONTROL Detail View]** ikon .
+   * Markera resursen. I Adobe Dynamic Media Classic övre högra hörn väljer du **[!UICONTROL Detail View]** -ikon.
    * Dubbelklicka på resursen.
    * Markera resursen och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
->Du kan gå från resurs till resurs i samma mapp i detaljvyn genom att välja **[!UICONTROL Previous Asset]** eller **[!UICONTROL Next Asset]**. De här knapparna finns i det övre högra hörnet i detaljvyn.
+>Du kan gå från resurs till resurs i samma mapp i detaljvyn. Klicka bara **[!UICONTROL Previous Asset]** eller **[!UICONTROL Next Asset]**. De här knapparna finns i det övre högra hörnet i detaljvyn.
 
 ## Hämta information i detaljvyn {#getting-information-in-detail-view}
 
@@ -62,15 +62,15 @@ Du kan hämta en resurs-URL i detaljvyn, men URL:en är inte aktiv förrän du p
 
 I detaljvyn finns verktyg som du kan använda för att arbeta med resursen som du har öppnat. Vilka verktyg som är tillgängliga beror på vilken typ av resurs du arbetar med, men detaljvyn har alltid dessa funktioner:
 
-* **objekt för publicering** - Välj **[!UICONTROL `Publish`]** till vänster om namnet, eller gå till **[!UICONTROL File]** > **[!UICONTROL Publish]** eller **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+* **objekt för publicering**: Välj **[!UICONTROL `Publish`]** till vänster om namnet, eller gå till **[!UICONTROL File]** > **[!UICONTROL Publish]** eller **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
-* **Byt namn på resursen** - Markera namnet och ange ett nytt namn.
+* **Byt namn på resursen**: Markera namnet och ange ett nytt namn.
 
-* **Redigera och lägga till metadata** - Välj panelen Metadata och ändra efter behov. Se [Visa, lägga till och exportera metadata](/help/using/viewing-adding-exporting-metadata.md).
+* **Redigera och lägga till metadata**: Välj panelen Metadata och ändra efter behov. Se [Visa, lägga till och exportera metadata](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Redigera och lägga till nyckelord** - Välj Nyckelord och lägg till eller ta bort dem efter behov. Se [Lägga till eller redigera nyckelord](/help/using/viewing-adding-exporting-metadata.md).
+* **Redigera och lägga till nyckelord**: Välj Nyckelord och lägg till eller ta bort dem efter behov. Se [Lägga till eller redigera nyckelord](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Ta bort resursen** - Gå till **[!UICONTROL File]** > **[!UICONTROL Delete]**.
+* **Ta bort resursen**: Gå till **[!UICONTROL File]** > **[!UICONTROL Delete]**.
 
 För diskreta filer - t.ex. bilder, bilduppsättningar och teckensnitt - kan du visa publicerings- och redigeringshistorik och kontrollera jobbinformation i detaljvyn.
 

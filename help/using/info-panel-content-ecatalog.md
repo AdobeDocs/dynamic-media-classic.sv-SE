@@ -10,9 +10,9 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,10 @@ Förutom att använda bildschematext för överrullningar i e-kataloger kan du a
 
 Du kan hantera InfoPanel-konfigurationen och data med följande funktioner i Adobe Dynamic Media Classic:
 
-* I inställningspanelen i InfoPanel kan du ange vilken mall som ska användas för att visa Info-paneltexten, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om e-kataloger ska publiceras automatiskt.
-* Med dataflödespanelen i InfoPanel kan du ange en CSV-fil som innehåller den text som du vill ska visas i InfoPanel-överrullningstexten och schemalägga tider för uppdatering av informationen.
-* I dialogrutan Importera metadata (hämtas från vyn Kartsidor) kan du importera en tabbavgränsad TXT-fil som innehåller överrullningstextinformation. Du kan använda det här TXT-alternativet eller dataflödespanelen med CSV-filalternativet för överrullningstexten.
-* Vyn Kartsidor innehåller ett alternativ för att förhandsgranska XML-filen som visas för specifika bildscheman.
+* På InfoPanel-inställningspanelen kan du ange vilken mall som ska användas för att visa Info-paneltexten, ett standardsvar på fel och det antal timmar som informationen cachelagras. Dessutom kan du ange om e-kataloger ska publiceras automatiskt.
+* På dataflödespanelen i InfoPanel kan du ange en CSV-fil som innehåller den text som du vill ska visas i InfoPanel-överrullningstexten och schemalägga tider för uppdatering av informationen.
+* I dialogrutan Importera metadata (som du kommer åt från vyn Kartsidor) kan du importera en tabbavgränsad TXT-fil som innehåller överrullningstextinformation. Du kan använda det här TXT-alternativet eller dataflödespanelen med CSV-filalternativet för överrullningstexten.
+* I vyn Kartsidor finns ett alternativ för att förhandsgranska XML-filen som visas för specifika bildscheman.
 
 ## Konfigurera en svarsmall för e-kataloger {#set-up-a-response-template-for-ecatalogs}
 
@@ -45,7 +45,7 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
    * Välj en förinställning på menyn Svarsmall. XML-koden för malldesignen visas i rutan Användarmall.
    * Om du vill skapa en egen svarsmall väljer du **[!UICONTROL Custom]**. Skriv XML-malldefinitionen i rutan Användarmall. Du kan använda de förinställda mallarna som bas för dina egna.
 
-1. (Valfritt) I rutan Standardsvar skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för ett bildschema. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
+1. (Valfritt) I rutan Standardsvar skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för en bildschema. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
 1. I rutan Svarets TTL anger du antalet timmar du vill vänta innan data cachelagras:
 
    * Ange ett lägre värde om data uppdateras ofta under en dag.
@@ -55,12 +55,12 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 
 ## Importera källinnehåll för Info-panelen i e-kataloger {#import-source-content-for-the-info-panel-in-ecatalogs}
 
-Du kan använda en kommaavgränsad värdefil (CSV) eller tabbavgränsad fil (TXT) för källtexten för en informationspanel för en e-katalog. Tabbavgränsade filer måste använda UTF16-kodning (Unicode). Du importerar de olika filtyperna på olika sätt.
+Du kan använda en kommaavgränsad värdefil (CSV) eller tabbavgränsad fil (TXT) för källtexten för en informationspanel för en e-katalog. Tabbavgränsade filer måste använda UTF16-kodning (Unicode). Du kan importera de olika filtyperna på olika sätt.
 
 Tänk på följande när du formaterar källinnehåll:
 
 * Se till att tabb- och kommaavgränsade data innehåller så många kolumner som behövs för överrullningsmallen.
-* Se till att det första objektet eller datakolumnen är rollover-identifieraren (associerad med rollover_key-värdet från URL:erna för bildschemat).
+* Se till att det första objektet eller datakolumnen är rollover-identifieraren (associerad med rollover_key-värdet från Image Map-URL:erna).
 * Kontrollera att varje tabbavgränsat eller kommaavgränsat objekt efter identifieraren är det objekt som du vill ersätta i svarsmallen. Den första kolumnen ersätts alltså med $1$, den andra kolumnen med $2$ och så vidare.
 
 ### Importera CSV-innehåll till e-kataloger från en extern värdplats {#import-csv-content-into-ecatalogs-from-an-externally-hosted-location}
@@ -69,7 +69,7 @@ Tänk på följande när du formaterar källinnehåll:
 1. Välj **[!UICONTROL InfoPanel Data feed]** -panelen.
 1. Ange URL:en för CSV-filen i rutan Plats för extern värdbaserad CSV-fil. Du kan klistra in URL-adressen i det här fältet eller skriva den direkt.
 1. (Valfritt) Ange en tid för att uppdatera innehållet med hjälp av menyn Schemauppdatering och välj **[!UICONTROL Add]**. Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i rutan Uppdateringstider. (Om du vill ta bort en tid markerar du den och väljer **[!UICONTROL Delete]**.)
-1. (Valfritt) Välj **[!UICONTROL Run Update Now]** för att uppdatera innehållet omedelbart.
+1. (Valfritt) Välj **[!UICONTROL Run Update Now]** så att du kan uppdatera innehållet direkt.
 
 ### Importera en tabbavgränsad fil eller CSV-fil {#import-a-tab-delimited-or-csv-file}
 
@@ -97,6 +97,6 @@ På skärmen Karta sidor kan du snabbt och enkelt visa text i panelen Info för 
 
 1. Välj katalogens överrullning **[!UICONTROL Edit]** -knappen.
 1. Välj **[!UICONTROL Map Pages]**.
-1. Överst i tabellen till höger på skärmen väljer du **[!UICONTROL Info Panel]** på menyn Visa.
+1. Överst i tabellen, på skärmens högra sida, väljer du **[!UICONTROL Info Panel]** på menyn Visa.
 
    Överrullningstexten visas bredvid varje bildschema som innehåller text på informationspanelen.

@@ -10,9 +10,9 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -23,21 +23,21 @@ Adobe Dynamic Media Classic Video är en totallösning som gör det enkelt att p
 
 På en mobilenhet från iOS identifieras t.ex. en bandbredd som 3G, 4G eller Wi-Fi. Sedan väljs automatiskt rätt kodad video bland de olika videobithastigheterna i den adaptiva videouppsättningen. Videon strömmas till datorer, mobila enheter eller surfplattor.
 
-Dessutom ändras videokvaliteten dynamiskt automatiskt om nätverksförhållandena ändras på datorn eller den mobila enheten. Om en kund går över till helskärmsläge på en stationär dator svarar den adaptiva videouppsättningen med en bättre upplösning, vilket förbättrar kundens tittarupplevelse. Med adaptiva videouppsättningar får du bästa möjliga uppspelning för kunder som spelar upp Adobe Dynamic Media Classic-video på flera skärmar och enheter.
+Dessutom ändras videokvaliteten dynamiskt automatiskt om nätverksförhållandena ändras på datorn eller den mobila enheten. Om en kund går över till helskärmsläge på en stationär dator svarar den adaptiva videouppsättningen med en bättre upplösning, vilket förbättrar kundens tittarupplevelse. Med adaptiva videouppsättningar får du bästa möjliga uppspelning. Det passar bäst för kunder som spelar Adobe Dynamic Media Classic Video på olika skärmar och enheter.
 
 Den logik som en videospelare använder för att avgöra vilken kodad video som ska spelas upp eller väljas under uppspelningen baseras på följande algoritm:
 
-1. Videospelaren läser in det inledande videofragmentet baserat på den bithastighet som ligger närmast värdet som är inställt för&quot;inledande bithastighet&quot; i spelaren.
+1. Videospelaren läser in det inledande videofragmentet baserat på den bithastighet som ligger närmast värdet som är inställt för&quot;inledande bithastighet&quot; i själva spelaren.
 1. Videospelaren växlar baserat på ändringar av bandbreddshastigheten med följande kriterier:
 
    1. Spelaren väljer den högsta bandbreddsströmmen under eller lika med den beräknade bandbredden.
-   1. Spelaren hanterar bara 80 % av den tillgängliga bandbredden. Men om man byter till en högre nivå är det mer försiktigt att bara 70 % undviker överskattningar och omedelbart måste byta tillbaka.
+   1. Spelaren hanterar bara 80 % av den tillgängliga bandbredden. Men om den byter upp sig är det mer försiktigt med bara 70 % för att undvika överskattning och omedelbart byta tillbaka.
 
 Se algoritmens logik på [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) för teknisk information om det.
 
 För hantering av enstaka videor och adaptiva videouppsättningar har Adobe Dynamic Media Classic stöd för följande:
 
-* Överföra video från ett antal videoformat och ljudformat som stöds och koda video till MP4 H.264-format för uppspelning på flera skärmar. Du kan använda fördefinierade videoförinställningar för Adobe Dynamic Media Classic, enskilda videokodningsförinställningar eller anpassa din egen kodning för att styra videons kvalitet och storlek.
+* Överföra video från flera videoformat som stöds. Och ladda upp ljudformat och koda video till MP4 H.264-format för uppspelning på flera skärmar. Du kan använda fördefinierade Adobe Dynamic Media Classic Adaptive Video-förinställningar, enskilda videokodningsförinställningar eller anpassa din egen kodning för att styra videons kvalitet och storlek.
 
 Se [Aktivera eller inaktivera anpassade videoförinställningar](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
@@ -51,9 +51,9 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
 * Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i visningsprogrammen Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
 
-  Se [Lägga till bildtexter i video](adding-captions-video.md).
+  Se [Lägga till bildtexter i en video](adding-captions-video.md).
 
-  Se [Lägga till kapitelmarkörer i video](adding-chapter-markers-video.md).
+  Se [Lägga till kapitelmarkörer i en video](adding-chapter-markers-video.md).
 
 * Ordna, bläddra bland och sök videoklipp med fullt stöd för metadata för effektiv hantering av videomaterial.
 * Leverera adaptiva videouppsättningar till webben, datorer och mobila enheter som iPhone, iPad, Android™, BlackBerry® och Windows®.
@@ -72,7 +72,7 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
 * Spela upp videon med Adobe Dynamic Media Classic Viewer Presets, inklusive följande:
 
-   * Enstaka videovisningsprogram.
+   * Enstaka videoredigeringsprogram.
    * Visningsprogram för blandade media som kombinerar både video- och bildinnehåll.
 
 * Konfigurera videospelare för att tillgodose era varumärkesbehov.
@@ -89,18 +89,18 @@ Se följande utbildningsvideor:
 
 **Snabbstart**
 
-Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma igång snabbt med anpassningsbara videouppsättningar i Adobe Dynamic Media Classic. Efter varje steg finns det en korsreferens till en ämnesrubrik där du kan hitta mer information.
+Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma igång snabbt med adaptiva videouppsättningar i Adobe Dynamic Media Classic. Efter varje steg finns det en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
 ## 1. Överför och koda videoklipp
 
 Överför och generera adaptiva videouppsättningar i något av följande två scenarier:
 
-* **Överför förkodade videoklipp** - Om dina videoklipp redan har kodats utanför Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]** för att bläddra bland och ladda upp MP4-videofiler direkt till Adobe Dynamic Media Classic. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till dina videofiler. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
-* **Överför primära källvideor** - Om videoklippen inte är kodade väljer du **[!UICONTROL Upload]** för att överföra primära videokällfiler (ej MP4). Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. I **[!UICONTROL Upload Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, markera **[!UICONTROL Adaptive Video]**.
+* **Överför förkodade videoklipp**: Om dina videofilmer redan har kodats externt från Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]**. Bläddra och ladda upp MP4-videofiler direkt till Adobe Dynamic Media Classic. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till dina videofiler. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
+* **Överför primära källvideor**: Om videoklippen inte är kodade väljer du **[!UICONTROL Upload]** för att överföra primära videokällfiler (ej MP4). Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. I **[!UICONTROL Upload Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, markera **[!UICONTROL Adaptive Video]**.
 
-  Med det här alternativet kan du skapa adaptiva videouppsättningar som automatiskt tillämpar rätt kodningsförinställning på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
+  Med det här alternativet kan du skapa adaptiva videouppsättningar. Den korrekta kodningsförinställningen används automatiskt på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för den video som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
 
-  Eller i samma **[!UICONTROL Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, expandera **[!UICONTROL Single Encoding Presets]**. Välj enskilda förinställningar för videokodning som du vill använda **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** så att du kan skapa MP4-filer.
+  Eller i samma **[!UICONTROL Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, expandera **[!UICONTROL Single Encoding Presets]**. Välj de enskilda förinställningar för videokodning som du vill använda. Du kan välja **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** för att skapa MP4-filer.
 
 * Du kan också bearbeta om en primär video med **[!UICONTROL Reprocessing]** -funktion. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
 
@@ -116,7 +116,7 @@ Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.m
 
 ## 2. Förhandsgranska videoklipp i ett videovisningsprogram
 
-Om du vill se hur en video spelas upp för slutanvändare på en dator, på din webbplats eller på en mobil enhet väljer du videon i panelen Bläddra och sedan väljer du **[!UICONTROL Preview]**.
+Om du vill se hur en video spelas upp för slutanvändare på en dator, på din webbplats eller på en mobil enhet väljer du videon på panelen Bläddra. Välj sedan **[!UICONTROL Preview]**.
 
 Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
@@ -152,7 +152,7 @@ Om du vill integrera video på webbplatsen kan du göra något av följande:
 
   >[!NOTE]
   >
-  >Inbäddningskoden aktiveras bara när du har publicerat videon eller den adaptiva videouppsättningen.
+  >Inbäddningskoden aktiveras först när du har publicerat videon eller den adaptiva videouppsättningen.
 
 Se [Distribuera video till webbplatser och mobilsajter](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 

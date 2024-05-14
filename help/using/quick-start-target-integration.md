@@ -10,18 +10,18 @@ role: Data Engineer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # Snabbstart: Integrering med Adobe Target Standard/Premium{#quick-start-target-integration}
 
-Med Adobe Target Standard/Premium får marknadsförarna kontroll direkt för att snabbt och kontinuerligt köra flera A/B-tester och multivariata tester, mäta effektiviteten och öka relevansen av onlinematerial genom segmentering, målinriktning och Automated Personalization.
+Adobe Target Standard/Premium ger marknadsförarna direkt kontroll. Om du gör det kan du snabbt och kontinuerligt köra flera A/B- och multivariata tester och mäta effektiviteten. Och det kan göra onlinematerialet mer relevant genom segmentering, målinriktning och Automated Personalization.
 
-Med Adobe Dynamic Media Classic kan ni skapa erbjudanden och uppsättningar för Adobe Target Standard/Premium-kampanjer. Du kan till exempel skapa en erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Adobe Target Standard/Premium avgöra vilken mediefil som ger bättre konverteringshöjning. Du kan skapa erbjudanden och uppsättningar från en grundmall eller från enskilda bilder. När erbjudandet har skickats vidare eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Adobe Target Standard/Premium köra kampanjer. Dessa kampanjer avgör vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
+Med Adobe Dynamic Media Classic kan ni skapa erbjudanden och erbjudanden för Adobe Target Standard/Premium-kampanjer. Du kan till exempel skapa en Erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Adobe Target Standard eller Premium avgöra vilken mediefil som ger bättre konverteringshöjning. Du kan skapa erbjudanden och erbjudandeuppsättningar från en grundmall eller från enskilda bilder. När erbjudandeuppsättningen har överförts eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Adobe Target Standard/Premium köra kampanjer. Dessa kampanjer avgör vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
 
 Använd erbjudanden om Adobe Target Standard/Premium HTML för större anpassning av dynamiskt Adobe Dynamic Media Classic-innehåll. Se [Adobe Target Standard/Premium - produktdokumentation](https://experienceleague.adobe.com/en/docs/target) för mer information.
 
@@ -29,7 +29,7 @@ Använd erbjudanden om Adobe Target Standard/Premium HTML för större anpassnin
 >
 >Du måste ha ett giltigt Adobe Target Standard-/Premium-konto för att kunna använda Adobe Target Standard/Premium med Adobe Dynamic Media Classic.
 
-Den här snabbstarten är utformad för att du snabbt ska komma igång med Adobe Target Standard/Premium HTML. Följ steg 1 till 3. Efter varje steg finns det en korsreferens till en ämnesrubrik där du kan hitta mer information.
+Den här snabbstarten är utformad för att du snabbt ska komma igång med Adobe Target Standard/Premium HTML Offer Sets. Följ steg 1 till 3. Efter varje steg finns det en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
 ## 1. Ange din Adobe Target Standard/Premium-URL på sidan med allmänna inställningar för programmet
 
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic behöver din Adobe Target Standard/Premium-URL för 
 
 ## 2. Skapa erbjudandeuppsättningen
 
-Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du skapar uppsättningar med erbjudanden från HTML på sidan Test&amp;Target-erbjudanden. Om du vill öppna den här sidan markerar du mallen eller bilderna och går sedan till fältet Global navigering **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
+Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du kan skapa HTML-erbjudandeuppsättningar på sidan Test&amp;Target-erbjudandeuppsättning. Om du vill öppna den här sidan markerar du mallen eller bilderna och går sedan till fältet Global navigering **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
 
 Välj om du vill skapa ett erbjudande med en mall **[!UICONTROL Add & Preview]**. Ändra parametervärden på sidan Lägg till och förhandsvisa.
 
 Om du vill skapa ett erbjudande med bilder drar du bilderna till sidan Test&amp;Target Offer Set. Välj **[!UICONTROL Preview]** och välj en bildförinställning för en bild eller alla bilder i erbjudandeuppsättningen.
 
-Spara erbjudandet när du skapat det.
+Spara erbjudandeuppsättningen när du har skapat den.
 
 Se [Skapa en erbjudandeuppsättning](creating-offer-set.md#creating_an_offer_set).
 

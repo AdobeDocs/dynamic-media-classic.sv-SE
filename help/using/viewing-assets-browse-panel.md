@@ -10,9 +10,9 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: c7e500d8112779147e9dfcdd46ad335b1a997fe8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

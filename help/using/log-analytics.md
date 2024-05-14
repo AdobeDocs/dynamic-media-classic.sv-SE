@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
 
 # Logga in på Adobe Analytics{#log-in-to-adobe-analytics}
 
-Innan du loggar in för att konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics rapportvariabler med Adobe Dynamic Media Classic-händelser kontrollerar du att du är medlem i gruppen Web Service Access i Adobe Analytics. Medlemmar i den här gruppen kan komma åt alla rapporter i de angivna rapportsviterna via Experience Cloud Web Services-API:t oavsett vilka behörigheter som anges i gränssnittet. Om du vill lägga till en medlem i gruppen går du till Adobe Analytics **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+Kontrollera att du är medlem i webbtjänståtkomstgruppen i Adobe Analytics. Gör det innan du loggar in för att konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics rapportvariabler med Adobe Dynamic Media Classic-händelser. Medlemmar i den här gruppen har åtkomst till alla rapporter i de angivna rapportsviterna. Gör det med Experience Cloud Web Services API, oavsett vilka behörigheter som har angetts i gränssnittet. Om du vill lägga till en medlem i gruppen går du till Adobe Analytics **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
 
 När du loggar in kan du ange ditt Experience Cloud-Org-ID för att använda den senaste videoanalysimplementeringen. Om du väljer att inte ange ditt ID fungerar ändå videorapportering. Det kan dock leda till att data inte integreras korrekt med andra data för klienten från andra Adobe Dynamic Media Classic.
 
@@ -38,8 +38,8 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 
 1. Gör något av följande:
 
-   * Överst på sidan, från **[!UICONTROL Home]** flik, välja **[!UICONTROL Create new project]**.
-   * Överst på sidan, från **[!UICONTROL Projects]** -fliken. Välj i närheten av sidans högra hörn **[!UICONTROL Create new project]**.
+   * Överst på sidan, från **[!UICONTROL Home]** flik, välja **[!UICONTROL Create a new project]**.
+   * Överst på sidan, från **[!UICONTROL Projects]** -fliken. Välj i närheten av sidans högra hörn **[!UICONTROL Create a new project]**.
 
 1. På projektsidan väljer du **[!UICONTROL Add API]**.
 1. På **[!UICONTROL Add an API]** sida, markera **[!UICONTROL Adobe Analytics]**.
@@ -62,7 +62,7 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 1. På navigeringspanelen till vänster på Adobe Analytics-sidan, under **[!UICONTROL Credentials]**, markera **[!UICONTROL OAuth Web]**.
 1. Under **[!UICONTROL Credential details]** gör du följande:
    * Under **[!UICONTROL Client ID]**, markera **[!UICONTROL Copy]** för att kopiera värdet. Du behöver det här värdet för den efterföljande Analytics-konfigurationen i Dynamic Media Classic-datorprogrammet som ska följas.
-   * Under **[!UICONTROL Client Secret]**, markera **[!UICONTROL Retrieve client secret]** för att visa det associerade värdet. Välj **[!UICONTROL Copy]** för att kopiera värdet. Du behöver det här värdet för den efterföljande Adobe Analytics-konfigurationen i Dynamic Media Classic-skrivbordsprogram som ska följas.
+   * Under **[!UICONTROL Client Secret]**, markera **[!UICONTROL Retrieve client secret]** för att visa det associerade värdet. Välj **[!UICONTROL Copy]** för att kopiera värdet. Du behöver det här värdet för den efterföljande Adobe Analytics-konfigurationen i Dynamic Media Classic-datorprogrammet som ska följas.
 
 ## Konfigurera Adobe Analytics i Adobe Dynamic Media Classic {#configure-analytics-in-dmc}
 

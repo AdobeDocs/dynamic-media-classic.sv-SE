@@ -10,9 +10,9 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,6 @@ Se [Publicera filer](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic skapar URL-anrop för bilduppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningsskärmen.
 
-Markera bilduppsättningen och välj sedan **[!UICONTROL Preview]**. Välj nu en förinställning för bilduppsättningsvisningsprogrammet och välj sedan **[!UICONTROL Copy URL]**.
+Markera bilduppsättningen och välj sedan **[!UICONTROL Preview]**. Välj nu en förinställning för bilduppsättningsvisningsprogrammet och klicka sedan på **[!UICONTROL Copy URL]** -knappen.
 
-Se [Länka en bilduppsättning till en webbsida](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+Se [Länka bilduppsättningen till en webbsida](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).

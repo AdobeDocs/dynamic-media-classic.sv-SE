@@ -9,16 +9,16 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # Lägga till bildtexter i video {#add-captions-to-video}
 
-Du kan utöka räckvidden för dina videor till globala marknader genom att lägga till bildtexter till enskilda videor eller till adaptiva videouppsättningar. Genom att lägga till bildtext undviker du behovet av att duplicera ljudet, eller behovet av att använda inbyggda högtalare för att spela in ljudet igen för varje språk. Videon spelas upp på det språk den spelades in på. Undertexter på främmande språk visas så att personer på olika språk fortfarande kan förstå ljuddelen.
+Nå ut till globala marknader med dina videor. Du kan göra det genom att lägga till bildtext till enskilda videoklipp eller adaptiva videouppsättningar. Genom att lägga till bildtext undviker du behovet av att duplicera ljudet, eller behovet av att använda inbyggda högtalare för att spela in ljudet igen för varje språk. Videon spelas upp på det språk den spelades in på. Undertexter på främmande språk visas så att personer på olika språk fortfarande kan förstå ljuddelen.
 
 Bildtext ger också bättre tillgänglighet genom att använda undertexter för personer som är döva eller hörselskadade.
 
@@ -38,15 +38,15 @@ Se även [Lägga till och redigera visningsprogramförinställningar](applicatio
 
 Adobe Dynamic Media Classic kan konvertera bildtextfiler till JSON-format (JavaScript Object Notation). Den här konverteringen innebär att du kan bädda in JSON-texten på en webbsida som en dold men fullständig utskrift av videon. Sökmotorerna kan sedan crawla och indexera innehållet så att videoklippen blir lättare att hitta och ge kunderna mer information om videoinnehållet.
 
-Se [Hantera statiskt innehåll (inte bildinnehåll)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) i *Hjälp om Adobe Image Serving API* om du vill ha mer information om hur du använder JSON-funktionen i en URL.
+Se [Hantera statiskt innehåll (inte bildinnehåll)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) in om du vill ha mer information om hur du använder JSON-funktionen i en URL.
 
-**Så här lägger du till bildtexter i videon:**
+**Så här lägger du till beskrivningar i en video:**
 
 1. Använd ett tredjepartsprogram utanför Adobe Dynamic Media Classic för att skapa videobeskrivningsfilen baserat på vilken typ av visningsprogram du använder.
 
    | Typ av visningsprogram | Bildtextfil |
    |--- |--- |
-   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är .vtt. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://w3c.github.io/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns många webbplatser som innehåller både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa WebVTT-bildtextfiler utanför Adobe Dynamic Media Classic. <br><br>Följ instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget VTT. <br><br><b>Obs!</b> För globalt stöd för videobeskrivningar på andra språk än engelska kräver WebVTT-standarden att du skapar separata VTT-filer och anropar varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
+   | HTML5 | Om du använder ett HTML5-videovisningsprogram måste bildtextfilen som du skapar följa standarden WebVTT (Web Video Text Tracks). Bildtextens filnamnstillägg är `.VTT`. Du kan läsa mer om bildtextstandarden WebVTT.<br><br>[Se WebVTT](https://w3c.github.io/webvtt/): Textspårningsformatet för webbvideo. <br><br>Det finns många webbplatser som innehåller både kostnadsfria och kostnadsfria verktyg och tjänster som du kan använda för att skapa WebVTT-bildtextfiler. <br><br>Följ instruktionerna på skärmen för att skapa och spara WebVTT-filen. När du är klar kopierar du bildtextfilens innehåll och klistrar in det i en vanlig textredigerare och sparar det med filnamnstillägget VTT. <br><br><b>Obs!</b> För globalt stöd för videobeskrivningar på andra språk än engelska krävs att du skapar separata `.VTT` filer och samtal för varje språk som du vill ha stöd för. <br><br>I allmänhet vill du ge bildtexten ett namn som är detsamma som videofilen och bifoga den med bildtexter. Genom att göra det kan det hjälpa dig att automatisera genereringen av video-URL:er med ditt befintliga system för hantering av webbinnehåll. |
 
 1. I Adobe Dynamic Media Classic överför du bildtextfilen WebVTT, DFXP eller SMPTE XML.
 

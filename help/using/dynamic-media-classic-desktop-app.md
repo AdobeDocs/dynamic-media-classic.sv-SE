@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1902'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 
 * När du redigerar en bild **[!UICONTROL Save]** knapparna var icke-funktionella.
 * I Set editors **[!UICONTROL Close]**, **[!UICONTROL Save]** och **[!UICONTROL Save As]** inaktiveras knapparna efter bläddring i **[!UICONTROL Add Assets]** -panelen.
-* **[!UICONTROL Play]** knappen i vyn Videodetalj fungerade inte.
+* The **[!UICONTROL Play]** knappen i vyn Videodetalj fungerade inte.
 * Det gick inte att ange `d` och `e` in **[!UICONTROL Username]** och **[!UICONTROL Password]** fält när du kör macOS Monterey.
 * De återstående analys-API:erna flyttades till version 2.0.
 
@@ -58,7 +58,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 * Skrivbordsappen slutar svara, vanligtvis efter Set-åtgärder.
 * Automatiskt aktiverat begärandefunktionalitet och låsläge under **[!UICONTROL Test Image Serving]**.
 
-  Se [Testa tjänsten för säker testning](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  Se [Tjänsten för säker testning](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * Uppdaterad autentiseringsmekanism med Adobe Analytics. Relevant för nya integreringar eller om vissa Analytics-variabler måste uppdateras inifrån Dynamic Media Classic-datorprogrammet.
 
@@ -67,7 +67,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 ## Korrigeringar i version 20.21.2 {#minor-release}
 
 * Känd begränsning i 20.21.1: **[!UICONTROL Server]** nedrullningsbar lista på inloggningsskärmen var tom.
-* I **[!UICONTROL Upload Job Options]**, standardvärde för lagernamn under **[!UICONTROL Photoshop Options]**, är nu **[!UICONTROL Photoshop and Layer Name]**. Lager i filen PSD överförs som separata bilder.
+* I **[!UICONTROL Upload Job Options]**, standardvärdet för lagernamnet under **[!UICONTROL Photoshop Options]**, är nu **[!UICONTROL Photoshop and Layer Name]**. Lager i filen PSD överförs som separata bilder.
    * Det tidigare standardvärdet för **[!UICONTROL Layer name]**, som namnger bilderna efter deras lagernamn eller lagernummer i filen PSD. Lagernumret användes om lagernamnen i PSD-filen var Photoshop standardlagernamn.
    * Det nya standardvärdet för **[!UICONTROL Photoshop and Layer Name]**, namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn.
    * Eftersom lagerbilder i Adobe Dynamic Media Classic nu har unika namn kommer inga uppdateringar att göras av befintliga PSD eller mallar (som delar lagernamn i de ursprungliga PSD-filerna).
@@ -91,11 +91,11 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 Se även:
 
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen på Mac](#install-silent-mac-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows](#install-silent-windows-dmc-app)
+* [Hämta och tyst installera den senaste Adobe Dynamic Media Classic-appen på Windows](#install-silent-windows-dmc-app)
 
 1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
-1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
+1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
    * Den senaste versionen finns på följande webbplats:
 
@@ -145,14 +145,14 @@ Se även:
 
 1. När du har loggat in kan du se hur webbläsargränssnittet fungerar. Du kan fortsätta din dagliga Adobe Dynamic Media Classic-aktivitet som vanligt i skrivbordsappen.
 
-## Hämta och *silent* installera den senaste Adobe Dynamic Media Classic-appen på macOS {#install-silent-mac-dmc-app}
+## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-appen på macOS {#install-silent-mac-dmc-app}
 
 Se även:
 
 * [Hämta och installera den senaste Adobe Dynamic Media Classic-appen på Mac eller Windows](#installation-dmc-app)
-* [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen för Windows](#install-silent-windows-dmc-app)
+* [Hämta och tyst installera den senaste Adobe Dynamic Media Classic-appen på Windows](#install-silent-windows-dmc-app)
 
-Hämta och *silent* installera den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet på macOS:
+Hämta och *tyst* installera den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet på macOS:
 
 1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
@@ -185,7 +185,7 @@ Hämta och *silent* installera den senaste versionen av Adobe Dynamic Media Clas
    | EMEA-produktion (Europa, Mellanöstern och Afrika) | https://s7sps3.scene7.com/ |
    | APAC-produktion (Asien-Stillahavsområdet) | https://s7sps5.scene7.com/ |
 
-## Hämta och *silent* installera den senaste Adobe Dynamic Media Classic-appen på Windows® {#install-silent-windows-dmc-app}
+## Hämta och *tyst* installera den senaste Adobe Dynamic Media Classic-appen på Windows® {#install-silent-windows-dmc-app}
 
 Kommandot som du använder är för en grundläggande tyst MSI-installation. Installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet är dock ett MSI-installationsprogram för InstallShield. När du kör installationsprogrammet i inspelningsläge registreras all användarinteraktion i en svarsfil. Den här svarsfilen används sedan för en tyst installation enligt beskrivningen i [Köra installationer i tyst läge](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -195,11 +195,11 @@ Se även:
 
 * [Ladda ned och tyst installera den senaste Adobe Dynamic Media Classic-appen på macOS](#install-silent-mac-dmc-app)
 
-Hämta och *silent* installera den senaste versionen av Adobe Dynamic Media Classic på Windows®:
+Hämta och *tyst* installera den senaste versionen av Adobe Dynamic Media Classic-datorprogrammet i Windows®:
 
 1. Avinstallera alla äldre versioner av Adobe Dynamic Media Classic-datorprogram på datorn.
 
-1. Ladda ned det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
+1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
    * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
@@ -254,7 +254,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Kända begränsningar i Adobe Dynamic Media Classic 20.21.1
 
-* The **[!UICONTROL Server]** rullgardinsmenyn är tom efter uppdatering till Adobe Dynamic Media Classic datorprogram 20.21.1 - Scenario: Du installerar och loggar in på Adobe Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Uppdatera sedan till Adobe Dynamic Media Classic 20.21.1. När du försöker logga in visas **[!UICONTROL Server]** nedrullningsbar lista i **[!UICONTROL Sign in to your account]** är tom. Du måste [rensa cachen manuellt](#clear-cache) (se stegen ovan).
+* The **[!UICONTROL Server]** rullgardinsmenyn är tom efter uppdatering till Adobe Dynamic Media Classic datorprogram 20.21.1 - Scenario: Du installerar och loggar in på Adobe Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Uppdatera sedan till Adobe Dynamic Media Classic 20.21.1. När du försöker logga in visas **[!UICONTROL Server]** nedrullningsbar lista i **[!UICONTROL Sign-in to your account]** är tom. Du måste [rensa cachen manuellt](#clear-cache) (se stegen ovan).
 
 ## Kända begränsningar i Adobe Dynamic Media Classic 20.20.1 (fast i 20.20.2)
 

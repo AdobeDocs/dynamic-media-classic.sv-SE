@@ -1,28 +1,28 @@
 ---
 title: Hjälp om Adobe Dynamic Media Classic
-description: Välkommen till Adobe Dynamic Media Classic, det ledande medieoberoende publiceringssystemet för on-demand för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial för alla enheter och skärmar.
+description: Adobe Dynamic Media Classic är det ledande medieoberoende publiceringssystemet on-demand. Du kan överföra, hantera, förbättra och publicera dynamiskt multimediematerial till alla enheter och skärmar.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
 
 # Hjälp om Adobe Dynamic Media Classic {#scene7-overview}
 
-Välkommen till Adobe Dynamic Media Classic, det ledande medieoberoende publiceringssystemet för on-demand för att ladda upp, hantera, förbättra och publicera dynamiskt multimediematerial för alla enheter och skärmar. Adobe Dynamic Media Classic lösningar omfattar följande:
+Adobe Dynamic Media Classic är det ledande medieoberoende publiceringssystemet on-demand. Du kan överföra, hantera, förbättra och publicera dynamiskt multimediematerial till alla enheter och skärmar. Adobe Dynamic Media Classic lösningar omfattar följande:
 
 * Dynamic Imaging: Redigera, formatera och ändra storlek i realtid, interaktiv zoom och panorering; färg `swatching` och textur `swatching`, 360-graders rotation; bildmallar; multimediavisare.
 * eCatalogs: Skapa, länka till hotspot, sök-aktiverade, publicera och leverera dynamiskt betjänade onlinekataloger till konfigurerbara visningsprogram.
 * Media Portal: En självserverande miljö som ger portalanvändare administratörskontrollerad&quot;vy&quot; i Adobe Dynamic Media Classic-material så att de enkelt kan ladda upp, söka, förhandsgranska och exportera material.
 * eVideo: Ladda upp färdiga videor i valfritt format, hantera, redigera, skapa aktiveringspunkter och videomallar, publicera och strömma till konfigurerbara videovisningsprogram
-* Visual Configurators: Realtidsåtergivningsteknik som möjliggör visuell onlinekonfiguration för personalisering och anpassningseffekter som realtidsåtergivning av färgstrukturer, ytor, mönster, monogram och graveringar i produktbilder eller scener.
+* Visual Configurators: Realtidsåtergivningsteknik som möjliggör visuell onlinekonfiguration för personaliserings- och anpassningseffekter. Effekter som återgivning i realtid av färger, strukturer, ytor, mönster, monogram och graveringar i produktbilder eller scener.
 * Målgruppsanpassad e-post och tryck: Leverera visuellt målinriktade, personaliserade e-postkampanjer kopplade till kundprofil, produkt- och kanaldatabaser.
 
 Se även följande utbildningsvideor:

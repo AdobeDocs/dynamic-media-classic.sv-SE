@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 
 ## Viktiga fördelar och funktioner i [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] är den naturliga utvecklingen av [!DNL Dynamic Media Classic] och erbjuder avancerade verktyg för framtagning, publicering och leverans, inklusive förstklassig leverans med ett innovativt, användarorienterat gränssnitt som främjar moderna arbetsflöden.
+[!DNL Dynamic Media] är den naturliga utvecklingen av [!DNL Dynamic Media Classic]. Här finns verktyg för framtagning, publicering och leverans av multimediematerial. Den innehåller även förstklassiga leveranser med ett innovativt, användarcentrerat gränssnitt som främjar moderna arbetsflöden i verkligheten.
 
 * Smidig, enhetlig upplevelse och integrering med [!DNL Adobe Experience Manager]: Konfigurera och dynamiskt leverera multimediematerial från en enda butik
 * Ny marknadsföringscentrerad användarupplevelse som gör det enkelt att skapa och leverera multimediematerial
@@ -52,7 +52,7 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på den 
 
 ## Varför Adobe?
 
-* Den största positiva flytten i Forrester WAVE-rapporten om digitala resurser.
+* Den största positiva förändringen i rapporten Forrester WAVE.
 * Starka prestanda i rapporten 2016 Online Video Platform.
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Support dygnet runt, alla dagar, året om, 99,95 % SLA, Adobe Professional Services.

@@ -10,9 +10,9 @@ role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ Detaljerade anvisningar om hur du överför bilder finns i [Överför filer](upl
 
 **Förbered bilderna för zoomning:**
 
-Förbered dina zoombilder innan du överför dem för att utnyttja Adobe Dynamic Media Classic zoomfunktioner på bästa sätt:
+Förbered dina zoombilder innan du överför dem för att utnyttja Adobe Dynamic Media Classic zoomfunktioner bäst:
 
-* **Bildstorlek** - Adobe Dynamic Media Classic rekommenderar att du använder bildfiler som är minst 2 000 pixlar i den längsta storleken. På så sätt syns bilderna tydligt när användarna zoomar dem.
+* **Bildstorlek**: Adobe Dynamic Media Classic rekommenderar att du använder bildfiler som är minst 2 000 pixlar i den längsta storleken. På så sätt syns bilderna tydligt när användarna zoomar dem.
 
-* **Filformat** - Adobe Dynamic Media Classic har stöd för alla standardformat för bildfiler, inklusive TIFF, BMP, JPEG, PSD, GIF och EPS. Vi rekommenderar förlustfria bildformat - TIFF och PNG. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten.
+* **Filformat**: Adobe Dynamic Media Classic har stöd för alla standardbildfilformat. Formaten är TIFF, BMP, JPEG, PSD, GIF och EPS. Förlustfria bildformat - TIFF och PNG - rekommenderas. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten.
 
-* **Färgmodell** - RGB är färgrymden för webbbildspresentationer. CMYK-bilder konverteras automatiskt till RGB när du överför dem. Vi rekommenderar att du överför CMYK-bilder som har en inbäddad ICC-färgprofil för konvertering till RGB. Se även ICC-profiler.
+* **Färgmodell**: RGB är färgrymden för webbbildspresentationer. CMYK-bilder konverteras automatiskt till RGB när du överför dem. Vi rekommenderar att du överför CMYK-bilder som har en inbäddad ICC-färgprofil för konvertering till RGB. Se även ICC-profiler.
 
 >[!MORELIKETHIS]
 >

@@ -1,5 +1,5 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -27,7 +27,7 @@ I syfte att främja en öppen och välkommen miljö lovar bidragsgivare och unde
 
 Exempel på beteenden som bidrar till att skapa en positiv miljö är:
 
-* Välkomstspråk och inkluderande språk
+* Använda ett välkommet och inkluderande språk
 * Olika åsikter och erfarenheter respekteras
 * Ta väl emot konstruktiv kritik
 * Fokusera på vad som är bäst för communityn
@@ -39,7 +39,7 @@ Exempel på oacceptabla beteenden från deltagarnas sida är:
 * Trollning, förolämpande/nedsättande kommentarer samt personliga eller politiska angrepp
 * Offentliga eller privata trakasserier
 * Publicera andras personuppgifter, t.ex. en fysisk eller elektronisk adress, utan uttryckligt tillstånd
-* Annat beteende som rimligen skulle kunna anses olämpligt i yrkesmässig miljö
+* Annat beteende som rimligen kan anses olämpligt i yrkesmässig miljö
 
 ## Adobe
 
@@ -54,7 +54,8 @@ Inte anpassat till denna uppförandekod. Eller att tillfälligt eller permanent 
 
 ## Omfång
 
-Denna uppförandekod gäller både inom projektutrymmen och på offentliga platser när en person representerar projektet eller dess community. Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress för projektet eller att publicera via ett officiellt konto för sociala medier. Det innefattar också att agera som utsedd representant vid online- eller offlineevenemang. Projektledarna kan närmare definiera och klargöra hur ett projekt ska visas.
+Denna uppförandekod gäller både inom projektutrymmen och på offentliga platser när en person representerar projektet eller dess community.
+Exempel på hur du representerar ett projekt eller en community är att använda en officiell e-postadress för projektet eller att publicera via ett officiellt konto för sociala medier. Det innefattar också att agera som utsedd representant vid online- eller offlineevenemang. Projektledarna kan ytterligare definiera och förtydliga representationen av ett projekt.
 
 ## Verkställande
 
