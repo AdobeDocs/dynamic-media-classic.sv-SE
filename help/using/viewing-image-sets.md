@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
 
 # Visa bilduppsättningar{#viewing-image-sets}
 
-Du kan visa dina bilduppsättningar i förhandsgranskningsfönstret med dina tillgängliga förinställningar. Du använder ett zoomvisningsprogram: Anpassad visningsförinställning för bilduppsättningar.
+Du kan visa dina bilduppsättningar i förhandsgranskningsfönstret med dina tillgängliga förinställningar. Du kan använda ett zoomvisningsprogram: Anpassad visningsförinställning för bilduppsättningar.
 
 Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram. Administratörer kan skapa eller ändra visningsförinställningarna.
 
@@ -34,7 +34,7 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
    * **Redigera** - Visa namnet på en förinställning, markera den och sedan markera **[!UICONTROL Edit]**.
 
-1. På `Configure Viewer` skriver du ett namn på förinställningen för färgruteuppsättningen i textfältet Förinställningsnamn.
+1. På `Configure Viewer` skriver du ett namn för färgrutans visningsförinställning i textfältet Förinställningsnamn.
 1. Välj alternativ i dialogrutan `Configure Viewer` sida.
 
    Om du vill visa en beskrivning av ett alternativ väljer du **[!UICONTROL Info Tip]** till höger om alternativet.
@@ -49,7 +49,7 @@ Du kan använda Förhandsvisa för att se hur en resurs ser ut i en viss visning
 
 1. På panelen Resursbibliotek till vänster i **[!UICONTROL Show]** nedrullningsbar lista, välja **[!UICONTROL Image Set]**.
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster och markera den bilduppsättning som du vill förhandsgranska.
-1. Gör något av följande
+1. Gör något av följande:
 
    * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du **[!UICONTROL List View]** -ikon. Håll markören över en resurs i fönstret Resurser och välj sedan **[!UICONTROL Preview]** (inte listrutan Förhandsgranska).
    * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du **[!UICONTROL Grid View]** -ikon. I fönstret Resurser väljer du i ett miniatyrbildsfönster **[!UICONTROL Preview]** (inte listrutan Förhandsgranska).

@@ -1,7 +1,7 @@
 ---
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Med hjälp av olika problem kan du enkelt beskriva din idé för förbättring a
 
 ### Skapa en pull-begäran {#create-a-pull-request}
 
-Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Dragningsbegäranden gör att du kan göra egna ändringar i dokumentationen, som sedan granskas för att inkluderas av en dokumentationsteammedlem. Om du vill göra dina föreslagna ändringar och skapa en pull-begäran väljer du **[!UICONTROL Edit this page]** längst upp till höger på navigeringspanelen på en sida.
+Om du ser ett problem och vet exakt hur du löser det kan du skapa en pull-begäran. Med pull-begäranden kan du göra egna ändringar i dokumentationen och en dokumentationsteammedlem granskar den för inkludering. Om du vill göra dina föreslagna ändringar och skapa en pull-begäran väljer du **[!UICONTROL Edit this page]** längst upp till höger på navigeringspanelen på en sida.
 
-Alla pull-begäranden måste åtföljas av en signerad [licensavtal eller CLA](https://opensource.adobe.com/cla.html). Det här arbetsflödet ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du skickar bara ett Adobe CLA en gång, så om du har skickat ett tidigare är det klart.
+En signerad [licensavtal eller CLA](https://opensource.adobe.com/cla.html) måste åtfölja alla förfrågningar om utdragning. Det här arbetsflödet ger Adobe tillstånd att återdistribuera dina bidrag som en del av projektet. Du kan bara skicka ett Adobe CLA en gång, så om du har skickat ett tidigare är det klart.
 
 ### Snabb videointroduktion
 

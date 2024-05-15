@@ -10,9 +10,9 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Med projekt kan du ordna resurser på ett sekundärt sätt, oberoende av i vilka mappar de lagras. En resurs kan bara placeras i en mapp, men den kan kopieras till mer än en projektmapp för organisationsändamål.
 
-När du har skapat en projektmapp kan du placera resurser i den. Resurser i ett projekt är emellertid i själva verket pekare till mappen Resursbibliotek där resurserna lagras. Du kan placera en resurs i mer än ett projekt. En bild av en oskärpa kan till exempel placeras i projektmapparna &quot;Blusar&quot; och &quot;Fall Collection&quot;.
+När du har skapat en projektmapp kan du placera resurser i den. Resurser i ett projekt är i själva verket pekare till resurbiblioteksmappen där resurserna lagras. Du kan placera en resurs i mer än ett projekt. En bild av en oskärpa kan till exempel placeras i projektmapparna &quot;Blusar&quot; och &quot;Fall Collection&quot;.
 
 Du kan skapa ett projekt när du överför filer eller skapar projekt på panelen Resursbibliotek.
 

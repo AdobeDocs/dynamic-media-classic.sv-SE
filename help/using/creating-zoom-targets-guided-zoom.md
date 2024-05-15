@@ -10,9 +10,9 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Zoommål vägleder tittarna till vissa delar av en bild. Förutom att zooma frit
 
 ![Skapa zoommål för guidad zoomning](/help/using/assets/zo_guided_zoom.png)
 
-## Om zoomningsmål {#about-zoom-targets}
+## Om zoommål {#about-zoom-targets}
 
 Den maximala zoomprocenten för zoommål är 100 procent. Den minsta zoomprocenten varierar beroende på en kombination av visningsprogrammets storlek och bildstorleken, vilket visas i följande tabell:
 
@@ -32,7 +32,7 @@ Den maximala zoomprocenten för zoommål är 100 procent. Den minsta zoomprocent
 | Stor | Mindre | Mindre minimum |
 | Liten | Större | Större minimum |
 
-Du kan ändra storleken på Zoomvisningsprogrammet så att den matchar storleken som används på webbsidan. Om du vill ändra inställningen permanent kan du ändra visningsprogrammets storlek på installationsskärmen (om du är administratör). Se [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Du kan ändra storleken på Zoomvisningsprogrammet så att den matchar storleken som används på webbsidan. Du kan ändra den här inställningen permanent genom att ändra visningsprogrammets storlek på installationsskärmen (om du är administratör). Se [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Skapa och redigera zoommål {#creating-and-editing-zoom-targets}
 
@@ -70,11 +70,11 @@ Om du vill skapa ett zoommål öppnar du sidan för zoommålredigeraren och gör
 
 >[!NOTE]
 >
->Om du vill se hur dina zoommål ser ut i ett zoomvisningsprogram väljer du **[!UICONTROL Preview]** på skärmen för zoommålredigeraren och välj ett zoomvisningsprogram på förhandsgranskningsskärmen. Mer information om den här skärmen finns på [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+>Om du vill se hur dina zoommål ser ut i ett zoomvisningsprogram väljer du **[!UICONTROL Preview]** i fönstret Zoom Target Editor. Välj sedan ett zoomvisningsprogram på förhandsgranskningsskärmen. Mer information om den här skärmen finns på [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ### Redigera zoommål {#editing-zoom-targets}
 
-Om du vill redigera zoommål använder du följande tekniker på sidan för redigering av zoommål:
+Om du vill redigera zoommål använder du följande tekniker på sidan Zoommålredigerare:
 
 * **Flytta** - Välj mål med knappen Välj mål (pilen). Dra sedan målet till en annan plats.
 

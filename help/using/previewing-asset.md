@@ -10,9 +10,9 @@ role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
    Stäng den förhandsgranskning som visas.
 
-1. (Valfritt) I listrutan URL-kodning för att kopiera URL-generering i visningsprogramlistan längst ned väljer du den URL-kodning som ska användas för resursens URL när den kopieras.
+1. (Valfritt) Välj URL-kodning längst ned i listrutan URL-kodning för att kopiera URL-generering i visningsprogramlistan. Den här kodningen används på resursens URL när den kopieras.
 1. (Valfritt) Gör något av följande:
 
    * I fönstret Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]** för ett valt visningsprogram och plattformstyp.
@@ -82,7 +82,7 @@ För en viss visningsprogramplattform kan du i visningsprogramlistefönstret se 
 
 Du kan förhandsgranska en bildresurs baserat på bildförinställningen för att ta reda på hur bilden ser ut när den levereras dynamiskt till din webbplats eller ditt program i olika storlekar.
 
-En bildförinställning är en samling fördefinierade inställningar som ändrar storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
+En bildförinställning är en samling fördefinierade inställningar. De här inställningarna ändrar storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
 
 Se [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets).
 
@@ -98,7 +98,8 @@ Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.m
    * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
 
 1. I fönstret Bildförinställningslista i tabellen markerar du namnet på en förinställningstyp vars bildresurs du vill förhandsgranska infogat i den högra rutan.
-1. (Valfritt) I fönstret Bildförinställningslista i dialogrutan **[!UICONTROL URL Encoding for Copy URL Generation]** nedrullningsbar lista längst ned väljer du den URL-kodning som ska användas på bildresursens URL när den kopieras.
+1. (Valfritt) I fönstret Bildförinställningslista i dialogrutan **[!UICONTROL URL Encoding for Copy URL Generation]** nedrullningsbar lista längst ned.
+1. Välj den URL-kodning som ska användas på bildresursens URL när den kopieras.
 1. (Valfritt) I fönstret Bildförinställningslista i det övre högra hörnet av förhandsgranskningsfönstret väljer du **[!UICONTROL Copy URL]** för den valda förinställningstypen.
 
    När du väljer **[!UICONTROL Copy URL]**, kopieras den associerade URL:en automatiskt till Urklipp.

@@ -1,6 +1,6 @@
 ---
 title: Skapa eCatalog-bildscheman
-description: Lär dig hur du skapar e-katalogbildscheman i Adobe Dynamic Media Classic.
+description: Lär dig hur du skapar eCatalog Image Maps i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,20 +10,20 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
 
 # Skapa eCatalog-bildscheman{#creating-ecatalog-image-maps}
 
-En bildschema är ett område på en eCatalog-sida som du kan rulla över med musen eller välja att aktivera åtgärder av olika slag. När du till exempel flyttar pekaren över ett bildschema visas en beskrivning av ett objekts överrullningstext. När du väljer en bildschema initieras en annan åtgärd. Du kan till exempel öppna en webbsida så att tittarna kan lära sig mer om ett objekt eller köpa det, eller så kan du starta en video för att se ett objekt som används.
+En bildschema är ett område på en eCatalog-sida som du kan rulla över med musen eller välja att aktivera åtgärder av olika slag. När du flyttar pekaren över ett bildschema visas t.ex. en beskrivning av ett objekts överrullningstext. När du väljer en bildschema initieras en annan åtgärd. Du kan till exempel öppna en webbsida så att tittarna kan lära sig mer om ett objekt eller köpa det, eller så kan du starta en video för att se ett objekt som används.
 
 ## Rita eCatalog-bildscheman {#drawing-ecatalog-image-maps}
 
-För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog. Den här skärmen består av området Bildschema där eCatalog-sidor visas och, till höger, listan Bildschema. När du skapar bildscheman anges deras namn i listan Bildschema.
+För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog. Den här skärmen består av området Bildschema där eCatalog-sidor visas och, till höger, listan Bildschema. När du skapar bildscheman anges namnen i listan Bildschema.
 
 1. Välj eCatalogs överrullning **[!UICONTROL Edit]** -knappen.
 1. Välj **[!UICONTROL Map Pages]**.
@@ -51,7 +51,7 @@ Se [Använd en mall för att ange JavaScript och URL:er](creating-image-maps.md#
 1. Välj **[!UICONTROL Save]**.
 1. (Valfritt) Välj **[!UICONTROL Preview]** om du vill visa e-katalogen med standardförinställningen för eCatalog Viewer.
 
-Om du vill ta bort en bildschema markerar du dess namn i listan Bildschema och väljer **[!UICONTROL Delete]**. Om du tillfälligt vill inaktivera ett bildschema på en sida utan att ta bort bildschemat, avmarkerar du alternativet På på panelen Bildschema.
+Om du vill ta bort en bildschema markerar du dess namn i listan Bildschema och väljer **[!UICONTROL Delete]**. Du kan tillfälligt inaktivera en bildschema på en sida utan att ta bort bildschemat. Välj alternativet Bildscheman på i listpanelen Bildschema.
 
 ## Bädda in multimedia i en e-katalog {#embedding-rich-media-in-an-ecatalog}
 
@@ -75,7 +75,7 @@ Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildsche
 
 Använd följande tekniker för att redigera eCatalog-bildscheman från och med på fliken Kartsidor i eCatalog-skärmen:
 
-* **Justera positionen** - Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhörig pil drar du hela bildschemat till en ny plats.
+* **Justera positionen** - Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhårig pil drar du hela bildschemat till en ny plats.
 
   Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -97,7 +97,7 @@ Använd följande tekniker för att redigera eCatalog-bildscheman från och med 
 
 >[!NOTE]
 >
->Förutom att kopiera bildscheman till olika sidor i en e-katalog kan du kopiera alla bildscheman i en e-katalog till en annan e-katalog. Se [Kopiera bildscheman mellan e-kataloger](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>När du kopierar bildscheman till olika sidor i en e-katalog kan du kopiera alla bildscheman i en e-katalog till en annan e-katalog. Se [Kopiera bildscheman och andra e-kataloger](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## Granska och importera data från bildschemat {#reviewing-and-importing-image-map-data}
 
@@ -112,7 +112,7 @@ Om du vill visa fönstret Mappningssammanfattning väljer du alternativet på fl
    På skärmen Sammanfattning av kartor visas hur många bildscheman, URL:er, beskrivningar av rollover-text och andra åtgärder som finns i din eCatalog.
 
 1. Om det finns överrullningsnyckelfel väljer du felet i **[!UICONTROL Rollover_Key Error]** för att se vad som måste ändras i kalkylbladet för att rätta till felet. Du kan markera och kopiera texten från det här meddelandet och klistra in den i kalkylbladet.
-1. Välj **[!UICONTROL Preview]** så att du kan granska en sida i eCatalog Viewer; markera krysset för att stänga fönstret Sammanfattning och gå tillbaka till skärmen Karta sidor, eller markera **[!UICONTROL Close]** för att återgå till Bläddra.
+1. Välj **[!UICONTROL Preview]** så att du kan granska en sida i eCatalog Viewer. Markera krysset för att stänga fönstret Sammanfattning och gå tillbaka till skärmen Karta sidor, eller välj **[!UICONTROL Close]** för att återgå till Bläddra.
 
 ### Importera data för bildschema {#import-image-map-data}
 
@@ -129,7 +129,7 @@ Från och med fönstret Kartsammanfattning följer du de här stegen för att im
 1. Skriv ett namn på filen i fältet Jobbnamn (var noga med att behålla filtillägget).
 1. Välj **[!UICONTROL Upload]**.
 
-## Kopiera bildscheman mellan e-kataloger {#copying-image-maps-between-ecatalogs}
+## Kopiera bildscheman och andra e-kataloger {#copying-image-maps-between-ecatalogs}
 
 Du kan kopiera alla bildscheman i en e-katalog till en annan e-katalog. Att kopiera bildscheman på det här sättet är ett bekvämt sätt att kopiera bildscheman mellan översättningar på främmande språk i samma eCatalog. För att kopieringen ska lyckas rekommenderar Adobe Dynamic Media Classic att du kopierar mellan e-kataloger med samma antal sidor och samma bilder.
 
@@ -143,4 +143,4 @@ Så här kopierar du alla bildscheman i en e-katalog till en annan eCatalog:
 1. På fliken Ordna sidor väljer du **[!UICONTROL Copy Maps]**.
 1. I dialogrutan Välj resurs markerar du den e-katalog där du vill kopiera bildscheman och väljer sedan **[!UICONTROL Select]**.
 
-Ett varningsmeddelande visas i Adobe Dynamic Media Classic om målkatalogen (den eCatalog som du kopierar bildscheman till) har ett annat antal sidor eller bilder med en annan storlek. Välj **[!UICONTROL Continue]** om du vill kopiera bildscheman trots varningen.
+Adobe Dynamic Media Classic visar ett varningsmeddelande om den målkatalog som du kopierar bildscheman från har ett annat antal sidor eller bilder som har en annan storlek. Välj **[!UICONTROL Continue]** om du vill kopiera bildscheman trots varningen.

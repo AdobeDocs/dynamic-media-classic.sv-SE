@@ -10,7 +10,7 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -33,9 +33,9 @@ I fältet Global navigering väljer du **[!UICONTROL Upload]** för att överfö
 
 Se [Överför dina filer](uploading-files.md#uploading-your-files).
 
-## 2. Skapa medieuppsättningar som ska användas i den blandade medieuppsättningen
+## 2. Skapa medieuppsättningar för användning i den blandade medieuppsättningen
 
-Du kan lägga till bilder, bilduppsättningar, färgruteuppsättningar, snurruppsättningar och videoklipp i din uppsättning med blandade media. Förbered medieuppsättningarna innan du lägger till dem i den blandade medieuppsättningen.
+Du kan lägga till bilder, bilduppsättningar, färgruteuppsättningar, snurruppsättningar och videoklipp i den blandade medieuppsättningen. Förbered medieuppsättningarna innan du lägger till dem i den blandade medieuppsättningen.
 
 Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set), [Skapa en färgruteuppsättning](creating-swatch-set.md#creating-a-swatch-set)och [Skapa en snurra uppsättning](creating-spin-set.md#creating-a-spin-set).
 
@@ -45,11 +45,11 @@ I fältet Global Navigation går du till **[!UICONTROL Build]** > **[!UICONTROL 
 
 Se [Skapa en blandad medieuppsättning](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## 4. Konfigurera förinställningar för visningsprogrammet för blandade media
+## 4. Konfigurera förinställningar för blandad medievisning
 
-Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra förinställningar för visningsprogrammet för blandad medieuppsättning.
+Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra visningsförinställningar för blandad medieuppsättning.
 
-När du konfigurerar en visningsförinställning för blandad medieuppsättning lägger du till visningsförinställningarna för alla andra resurser i uppsättningen. Om din uppsättning med blandade media innehåller videoklipp lägger du till en förinställning för visningsprogrammet för video i förinställningen för visningsprogrammet för blandade media. Du kan också lägga till ett ljudspår i visningsprogrammet. Det här ljudspåret spelas upp när visningsprogrammet är öppet, men spelas inte upp när en video är aktiv.
+När du konfigurerar en visningsförinställning för blandad medieuppsättning lägger du till visningsförinställningarna för alla andra resurser i uppsättningen. Om din uppsättning med blandade media innehåller videoklipp lägger du till en förinställning för visningsprogrammet för video i visningsförinställningen för den blandade medieuppsättningen. Du kan också lägga till ett ljudspår i visningsprogrammet. Det här ljudspåret spelas upp när visningsprogrammet är öppet, men spelas inte upp när en video är aktiv.
 
 Se [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) och [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -73,4 +73,4 @@ Se [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md#publis
 
 Adobe Dynamic Media Classic aktiverar URL-anrop för blandade medieuppsättningar när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
-Markera den blandade medieuppsättningen och välj sedan **[!UICONTROL Preview]**. Välj en visningsförinställning för blandad medieuppsättning på förhandsgranskningssidan och välj sedan en **[!UICONTROL Copy URL]**. Se [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).
+Markera den blandade medieuppsättningen och välj sedan **[!UICONTROL Preview]**. Välj en visningsförinställning för blandad medieuppsättning på sidan Förhandsvisa och välj sedan alternativet **[!UICONTROL Copy URL]**. Se [Länka blandade medieuppsättningar till webbsidor](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page).

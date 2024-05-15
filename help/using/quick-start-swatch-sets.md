@@ -10,9 +10,9 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Se [Skapa och redigera visningsförinställningar](application-setup.md#adding-a
 
 ## 4. Förhandsvisa en färgruteuppsättning
 
-Markera färgruteuppsättningen i panelen Bläddra och välj sedan **[!UICONTROL Preview]**. Din färgruteuppsättning visas på den här sidan. Markera miniatyrbilds- och färgruteikonerna så att du kan granska färgruteuppsättningen i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
+Markera färgruteuppsättningen i panelen Bläddra och välj sedan **[!UICONTROL Preview]**. Din uppsättning med färgrutor visas på den här sidan. Markera miniatyrbilds- och färgruteikonerna så att du kan granska färgruteuppsättningen i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
 
 Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
@@ -57,4 +57,4 @@ Se [Publicera filer](publishing-files.md#publishing-files).
 
 Adobe Dynamic Media Classic skapar URL-anrop för färgruteuppsättningar och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 
-Markera färgruteuppsättningen och välj sedan knappen Förhandsvisa. Förhandsgranskningssidan öppnas. Markera en förinställning för färgruteuppsättning och välj knappen Kopiera URL. Se [Länka en färgruteuppsättning till en webbsida](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).
+Markera färgruteuppsättningen och välj sedan knappen Förhandsvisa. Förhandsgranskningssidan öppnas. Markera en förinställning för färgruteuppsättning och välj knappen Kopiera URL. Se [Länka färgruteuppsättningar till webbsidor](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page).

@@ -9,9 +9,9 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '2322'
+source-wordcount: '2318'
 ht-degree: 0%
 
 ---
@@ -34,23 +34,23 @@ Sidan Image Server används för att ange standardinställningar för att levere
 
 Ändra dessa inställningar endast med hjälp av en supportperson från Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Catalog Management]** - De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista över allt innehåll som publiceras till bildservern tillsammans med sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
+* **[!UICONTROL Catalog Management]**: De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogen interagerar. Till skillnad från de flesta webbservrar går URL-anrop till Dynamic Media Image Server till en manifest- eller katalogfil i stället för till en bildfil. Katalogfilen (som inte ska blandas ihop med en e-katalog) innehåller en lista med allt innehåll som publiceras till Image Server. Den innehåller också sökvägen till varje bild. Om du har ett Digimarc-ID anger du din användarinformation i avsnittet Användarinformation för Digimarc.
 
-* **[!UICONTROL Request Attributes]** - De här inställningarna begränsar antalet bilder som kan levereras från servern. Till exempel *maximum* **[!UICONTROL Reply Image Size Limit]** är **[!UICONTROL Width]** 5000 och **[!UICONTROL Height]** 5000.
+* **[!UICONTROL Request Attributes]**: De här inställningarna begränsar antalet bilder som kan levereras från servern. Till exempel *maximum* **[!UICONTROL Reply Image Size Limit]** är **[!UICONTROL Width]** 5000 och **[!UICONTROL Height]** 5000.
 
-* **[!UICONTROL Default Request Attributes]** - De här inställningarna gäller standardutseendet för bilder.
+* **[!UICONTROL Default Request Attributes]**: De här inställningarna gäller standardutseendet för bilder.
 
-* **[!UICONTROL Common Thumbnail Attributes]** - De här inställningarna gäller för miniatyrbildernas standardutseende och -justering.
+* **[!UICONTROL Common Thumbnail Attributes]**: De här inställningarna gäller för miniatyrbildernas standardutseende och -justering.
 
-* **[!UICONTROL Defaults for Catalog Fields]** - De här inställningarna gäller bildernas upplösning och standardtyp av miniatyrbilder.
+* **[!UICONTROL Defaults for Catalog Fields]**: De här inställningarna gäller bildernas upplösning och standardtyp av miniatyrbilder.
 
-* **[!UICONTROL Color Management Attributes]** - De här inställningarna avgör vilka ICC-färgprofiler som används.
+* **[!UICONTROL Color Management Attributes]**: De här inställningarna avgör vilka ICC-färgprofiler som används.
 
-* **[!UICONTROL Compatibility Attributes]** - Den här inställningen gör att inledande och avslutande stycken i textlager kan hanteras som de var i version 3.6 för bakåtkompatibilitet.
+* **[!UICONTROL Compatibility Attributes]**: Den här inställningen gör att inledande och avslutande stycken i textlager kan hanteras som de var i version 3.6 för bakåtkompatibilitet.
 
-* **[!UICONTROL Localization Support]*** - Dessa inställningar gör att du kan hantera flera språkattribut. Här kan du också ange en sträng för språkområdeskarta så att du kan definiera vilka språk du vill ha stöd för de olika verktygstipsen i visningsprogram.
+* **[!UICONTROL Localization Support]**: Med dessa inställningar kan du hantera flera språkattribut. Här kan du också ange en sträng för språkområdeskarta så att du kan definiera vilka språk du vill ha stöd för de olika verktygstipsen i visningsprogram.
 
-  Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning genom att lägga till de översatta textsträngarna för det språk du vill använda.
+  Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning. Lägg bara till de översatta textsträngarna för det språk du vill ha.
 
   >[!NOTE]
   > Om du vill konfigurera alternativ för lokaliseringsstöd [Använd Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med konfiguration.
@@ -63,7 +63,7 @@ Sidan Image Server används för att ange standardinställningar för att levere
 >
 >Om du vill ställa in alternativ för lokaliseringsstöd i Adobe Dynamic Media Classic, t.ex. fältet Lokalkarta, [Använd Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med konfiguration.
 
-Ett vanligt sätt att använda Adobe Dynamic Media Classic är att hantera produktbilder på webbplatser för e-handel. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast gäller skillnaderna några delar av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över endast skillnaderna är en stor insats och motsäger den enda primära tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Adobe Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
+Ett vanligt sätt att använda Adobe Dynamic Media Classic är att hantera produktbilder på webbplatser med e-Commerce. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast gäller skillnaderna några delar av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över endast skillnaderna är en stor insats och motsäger den enda primära tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Adobe Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
 
 #### Hur resurser lokaliseras
 
@@ -71,7 +71,7 @@ Språkinställningen för en IS-begäran (Image Serving) identifieras med följa
 
 `locale=`
 
-Det här kommandot accepterar en sträng för språk-ID (locId) som inte är skiftlägeskänslig. Språk-ID:t är vanligtvis en 2-6-teckensträng som består av bokstäver och&quot;_&quot;.
+Det här kommandot accepterar en sträng för språk-ID (locId) som inte är skiftlägeskänslig. Språk-ID:t är vanligtvis en 2-6-teckensträng som består av bokstäver och &quot;`_`.&quot;
 
 IS stöder godtyckliga utskrivbara ASCII-strängar. The `locale=` -kommandot har ett globalt omfång, vilket innebär att det tillämpas på hela begäran, inklusive alla kapslade IS- och IR-begäranden, refererade mallar och bildlager. Det finns inte stöd för flera språkområden per begäran, t.ex. olika språkområden för varje lager. Det går dock att tillåta explicita åsidosättningar i kapslade begäranden.
 
@@ -95,7 +95,7 @@ Några av fördelarna med att använda `locale=` och `attribute::DefaultLocale` 
 | --- | --- |
 | Lokalisering av visningsprogram | När statiska innehållskataloger har implementerats styrs lokaliseringen helt och hållet med parametern locale=, som bifogas alla begäranden som görs till IS. Konfigurationsposter, skal, välkomstskärmar och så vidare, kan ha språkspecifika varianter eller inte. Rätt innehåll tillhandahålls av IS utan att användaren behöver veta vilket innehåll som är lokaliserat och vilka ID:n det är. |
 | Bilder och video | Flernationella företag har ofta en blandning av generiskt och språkspecifikt innehåll. Med den här funktionen kan en referens till en bild eller video vara allmän och IS visar det språkspecifika innehållet om det är tillgängligt. |
-| Bilduppsättningar och medieuppsättningar | Hela bilduppsättningen kan vara annorlunda för vissa språk, t.ex. när en eCatalog är annorlunda, med översättningen från en allmän till en språkområdesspecifik bilduppsättning som hanteras av visningsprogrammet. Oftast kan enskilda ID:n i en generisk uppsättning referera till innehåll som är lokaliserat. De flesta foton i en enhet kan till exempel vara desamma på alla språk, förutom fotot på kontrollpanelen. IS översätter automatiskt ID:n, så du behöver inte generera språkspecifika bilduppsättningar. |
+| Bilduppsättningar och medieuppsättningar | Hela bilduppsättningen kan vara annorlunda för vissa språk, till exempel när en eCatalog är annorlunda, med översättningen från en allmän till en språkområdesspecifik bilduppsättning som hanteras av visningsprogrammet. Oftast kan enskilda ID:n i en generisk uppsättning referera till innehåll som är lokaliserat. De flesta foton i en enhet kan till exempel vara desamma på alla språk, förutom fotot på kontrollpanelen. IS översätter ID:n automatiskt, så du behöver inte generera språkspecifika bilduppsättningar. |
 
 #### Implementera resurslokalisering
 
@@ -113,7 +113,7 @@ När http-anropet tas emot av Image Server, `locale=` parametern tolkas genom `l
 
 Fältet Lokalkarta innehåller en lista med poster som separeras med lodsymbolen (|).
 
-Varje post består av en kommaavgränsad lista med värden. Det första värdet är sökvärdet som skickas av `locale=` parameter. De återstående värdena är suffix-/ersättningsvärden som sedan testas tills ett resultat har skapats i en befintlig bild.
+Varje post består av en kommaavgränsad lista med värden. Det första värdet är sökvärdet som skickas via `locale=` parameter. De återstående värdena är suffix-/ersättningsvärden som sedan testas tills ett resultat har skapats i en befintlig bild.
 
 Om ett suffixvärde eller ett ersättningsvärde används beror på inställningen för globalt språk i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Localization Support]** grupp.
 
@@ -135,7 +135,7 @@ Om ett suffixvärde eller ett ersättningsvärde används beror på inställning
 
 Om ingen språkinställning har definierats i URL:en tar Image Server DefaultLocale, om den är definierad, och tillämpar den på URL:en.
 
-Om en okänd eller tom språkparameter anges med `locale=`och sedan `localeMap` skannas efter det tomma värdet &quot;som börjar med,&quot;. Det är viktigt att ha ett standardspråk för okända språk.
+Om en okänd eller tom språkparameter anges med `locale=`och sedan `localeMap` skannas efter det tomma värdet &quot;som börjar med&quot;. Det är viktigt att ha ett standardspråk för okända språk.
 
 #### Om defaultImage
 
@@ -147,11 +147,11 @@ Anta att du vill ha stöd för följande språk:
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-Du mappar dessa språkområden till suffixen `_E`, `_G`och `_F`, för engelska, tyska och franska. För alla exempel är det allmänna indatabilds-ID:t `myImg`.
+Du mappar dessa språkområden till suffixen `_E` (engelska), `_G` (tyska), och `_F` (franska). För alla exempel är det allmänna indatabilds-ID:t `myImg`.
 
 ##### Standardbeteende för att hitta localeMap
 
-Språk-ID:n mappas till motsvarande suffix. Om det inte finns något språkspecifikt ID i katalogen görs ett försök att använda det generiska ID:t. Observera de tomma locSuffix-värdena som mappar till det generiska ID:t.
+Språk-ID:n mappas till motsvarande suffix. Om det inte finns något språkspecifikt ID i katalogen görs ett försök att använda det generiska ID:t. Observera de tomma locSuffix-värdena som mappas till det generiska ID:t.
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
@@ -164,7 +164,7 @@ Språk-ID:n mappas till motsvarande suffix. Om det inte finns något språkspeci
 
 ##### Söka efter localeMap när språkinställningen är okänd
 
-Du kan mappa okända språk till specifika ID:n eller till generiska ID:n. Du kan till exempel mappa okända språk till engelska ID:n, eller om de inte finns, till allmänna ID:n.
+Du kan mappa okända språk till specifika ID:n eller till generiska ID:n. Du kan till exempel mappa okända språkinställningar till engelska ID:n, eller om de inte finns, till allmänna ID:n.
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
@@ -186,7 +186,7 @@ Du kan också mappa direkt till det generiska ID:t, som i följande exempel:
 
 Det är ofta önskvärt att gruppera språkområden, t.ex. europeiska, Mellanöstern och Nordamerika, för att ta hänsyn till regionala standarder, t.ex. hudexponering. Du kan uppnå den här effekten med en sökning på flera nivåer.
 
-Anta i det här exemplet att du vill ha stöd för samlingar för väst- och Mellanöstern-användning. Båda samlingarna är baserade på den generiska bildsamlingen, och båda lägger till eller ändrar vissa bilder. Båda samlingarna förfinas sedan ytterligare för specifika språkområden, som `m1, m2` för två varianter från Mellanöstern, och `w1, w2,` och `w3` för tre västerländska språk, förutom att bilder delas för `w1` och `w3`. Okända språk mappas endast till den generiska samlingen och har inte tillgång till språkspecifika bilder. Så här skulle kartan se ut:
+Anta till exempel att du vill ha stöd för samlingar för västerländsk och mellanöstern. Båda samlingarna är baserade på den generiska bildsamlingen, och båda lägger till eller ändrar vissa bilder. Båda samlingarna förfinas sedan ytterligare för specifika språkområden. Till exempel: `m1, m2` för två varianter från Mellanöstern, och `w1, w2,` och `w3` för tre västerländska språk, förutom att bilder delas för `w1` och `w3`. Okända språk mappas endast till den generiska samlingen och har inte tillgång till språkspecifika bilder. Så här skulle kartan se ut:
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -214,7 +214,7 @@ Om du använder det första exemplet som bas kan bilder för alla språk ha suff
 
 ##### Viktiga överväganden vid implementering av lokaliseringsstöd
 
-* Lokaliseringen är begränsad till ID-baserade resursanrop och kan inte användas för sökvägsbaserade resursanrop. När du anropar videoklipp med språkområde måste det därför anropas som företags-ID eller resurs-ID. Ingen fullständig sökväg till videon. Du kan inte använda rtmp vid lokalisering eftersom den metoden endast är avsedd för sökvägsbaserade videoanrop.
+* Lokaliseringen är begränsad till ID-baserade resursanrop och kan inte användas för sökvägsbaserade resursanrop. När du anropar videoklipp med språkområde måste det därför anropas som företags-ID eller resurs-ID. Ingen fullständig sökväg till videon. Du kan inte använda `RTMP` med lokalisering eftersom den metoden endast är avsedd för sökvägsbaserade videoanrop.
 * Du kan inte använda en uppsättning med blandade media som innehåller en enda video när localeMap är aktivt, annars misslyckas anropet till innehållet i uppsättningen. Du kan lösa det här problemet genom att lägga till en enda video i en adaptiv videouppsättning. Lägg sedan till den adaptiva videouppsättningen i en blandad medieuppsättning.
 * Vissa förfrågningar är inte lokaliserade, till exempel förfrågningar om innehållet i en adaptiv videouppsättning. Om du tänker använda adaptiva videouppsättningar med lokalisering, ska du därför placera den adaptiva videouppsättningen i en blandad mediamängd. Anropa sedan uppsättningen till ett visningsprogram för blandade media med `locale=` parameter.
 

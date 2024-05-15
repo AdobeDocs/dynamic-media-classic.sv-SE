@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -27,9 +27,9 @@ Se följande utbildningsvideor:
 
 * [Översikt över Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Media Portal tour 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Media Portal Tour 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [Media Portal tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Media Portal Tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 Följande snabbstart är utformad för att du snabbt ska komma igång med Media Portal-administration. I slutet av varje steg väljer du ämneslänken om du vill veta mer.
 
@@ -47,13 +47,13 @@ Se [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md#creati
 
 ## 3. Lägg till användare
 
-När du lägger till en användare tilldelar du användaren en roll (användare, medarbetare eller användarmedarbetare). Du kan även tilldela användaren till en eller flera grupper. Om du vill lägga till användare snabbare kan du överföra en användarlista i form av en CSV-fil. Nya användare får ett välkomstmeddelande och instruktioner om hur de loggar in på Media Portal.
+När du lägger till en användare tilldelar du användaren en roll (användare, medarbetare eller användarmedarbetare). Du kan också tilldela användaren till en eller flera grupper. Om du vill lägga till användare snabbare kan du överföra en användarlista i form av en CSV-fil. Nya användare får ett välkomstmeddelande och instruktioner om hur de loggar in på Media Portal.
 
 Se [Lägga till och hantera Media Portal-användare](adding-media-portal-users.md#adding_and_managing_media_portal_users).
 
 ## 4. Hantera FTP-konton
 
-Du kan ha separata FTP-konton som är kopplade till Media Portal och som är mappade till en viss mapp i ditt Adobe Dynamic Media Classic-konto. Den här typen av funktionalitet innebär att du kan tillåta användare att överföra digitala resurser till ditt konto med hjälp av separata FTP-konton.
+Du kan ha separata FTP-konton som är kopplade till Media Portal. De kan mappas till en viss mapp på ditt Adobe Dynamic Media Classic-konto. Den här typen av funktionalitet innebär att du kan tillåta användare att överföra digitala resurser till ditt konto med hjälp av separata FTP-konton.
 
 Se [Hantera FTP-konton](ftp-accounts.md#managing_ftp_accounts).
 
@@ -71,13 +71,13 @@ Se [Ange exportalternativ som är tillgängliga för Media Portal-användare](sp
 
 ## 6. Skapa bildförinställningar
 
-En bildförinställning är en samling fördefinierade inställningar som ändrar storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras. Du kan skapa bildförinställningar för att styra hur bilder formateras om när användare exporterar dem.
+En bildförinställning är en samling fördefinierade inställningar. Dessa inställningar kan ändra storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras. Du kan skapa bildförinställningar för att styra hur bilder formateras om när användare exporterar dem.
 
 Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
 ## 7. Skapa metadataförinställningar och användardefinierade metadatafält
 
-Metadata beskriver och identifierar en fil och används för att söka efter och ordna resurser. Du kan skapa metadataförinställningar för att vara säker på att metadata anges korrekt och att metadatafält som kräver data fylls i. En metadataförinställning är en fördefinierad uppsättning metadataposter. Du kan också skapa metadatafält som unikt beskriver de filer du arbetar med.
+Metadata beskriver och identifierar en fil. Det används för att söka efter och ordna resurser. Du kan skapa metadataförinställningar för att vara säker på att du anger metadata korrekt och att alla metadatafält som kräver data fylls i. En metadataförinställning är en fördefinierad uppsättning metadataposter. Du kan också skapa metadatafält som unikt beskriver de filer du arbetar med.
 
 Se [Effektivare användning av metadata](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 

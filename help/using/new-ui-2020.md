@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -84,10 +84,10 @@ Nej på båda frågorna. Du behöver inte ändra SKU eller licens för att anvä
 +++
 
 +++**_Hur aktiveras uppgraderingar till Adobe Dynamic Media Classic-datorprogram?_**
-Efter lanseringen av Adobe Dynamic Media Classic-datorprogrammet den 30 juni 2020 måste Adobe ladda ned den nya versionen och installera som vanligt (ersätt den befintliga appen i **[!UICONTROL Applications]**). Du meddelas om den nya versionen via ditt Adobe-kontoteam och ett meddelande om en uppgradering i appen som meddelar användare om en uppgradering.
+Efter lanseringen av Adobe Dynamic Media Classic-datorprogrammet den 30 juni 2020 måste Adobe ladda ned och installera den nya versionen (ersätt den befintliga appen i **[!UICONTROL Applications]**). Du meddelas om den nya versionen via ditt Adobe-kontoteam och ett meddelande om en uppgradering i appen som meddelar användare om en uppgradering.
 +++
 
-+++**_Hur får jag hjälp med eventuella problem jag har med Adobe Dynamic Media Classic datorprogram?_**
++++**_Hur får jag hjälp med eventuella problem jag har med Adobe Dynamic Media Classic-datorprogrammet?_**
 Kontakta Adobe Support om du har problem med appen.
 +++
 

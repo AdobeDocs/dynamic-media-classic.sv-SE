@@ -10,9 +10,9 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Alternativ för att överföra PDF-filer finns på sidan Överför under Alterna
 
 **[!UICONTROL Rasterize]** - (Standard) Rippar sidorna i filen PDF och konverterar vektorgrafik till bitmappsbilder. Välj det här alternativet om du vill skapa en e-katalog.
 
-**[!UICONTROL Extract Search Words]** - Extraherar ord från PDF-filen så att filen kan genomsökas efter nyckelord i en eCatalog Viewer.
+**[!UICONTROL Extract Search Words]** - Extraherar ord från PDF-filen så att nyckelorden i filen kan sökas igenom i en eCatalog Viewer.
 
 **[!UICONTROL Extract Links]** - Extraherar länkar från PDF-filerna och konverterar dem till Image Maps som används i en eCatalog Viewer.
 
@@ -73,7 +73,9 @@ Se även [ICC-profiler](/help/using/icc-profiles.md#icc_profiles).
 
 ## Beskära tomt utrymme från en PDF-fil {#cropping-white-space-from-a-pdf-file}
 
-1. Om du vill beskära pixlar med tomt utrymme automatiskt från en PDF-fil när du överför den väljer du Beskär-menyn och sedan Beskär.
+Du kan beskära pixlar med tomt utrymme automatiskt från en PDF-fil när du överför den.
+
+1. Välj menyn Beskär och välj Rensa.
 1. Ange följande alternativ:
 
    * **[!UICONTROL Trim Away Based On]** - Välj om du vill beskära baserat på färg eller genomskinlighet:

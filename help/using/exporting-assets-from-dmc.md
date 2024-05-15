@@ -10,7 +10,7 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic sparar uppgifter om exportering av jobb på jobbskä
 
    * **[!UICONTROL Job Name]** - Du kan tilldela ett jobbnamn till exporten.
 
-   * **[!UICONTROL Send Email To]** - Du kan även ange en e-postadress om du tänker skicka resurserna via e-post. I e-postmeddelandet visas den URL där mottagaren kan gå för att hämta resurserna.
+   * **[!UICONTROL Send Email To]** - Valfritt. Ange en e-postadress om du tänker skicka resurserna via e-post. I e-postmeddelandet visas den URL där mottagaren kan gå för att hämta resurserna.
 
 1. Välj **[!UICONTROL Export]**.
 
