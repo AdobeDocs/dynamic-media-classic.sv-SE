@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
 
 # Dela resursändringar med kollegor i realtid{#sharing-asset-changes-with-peers-in-real-time}
 
-Om flera kopior av Adobe Dynamic Media Classic körs på flera datorer i samma företag uppdateras följande åtgärder från alla Adobe Dynamic Media Classic-klienter i realtid med alla peer-klienter:
+Anta att du har flera kopior av Adobe Dynamic Media Classic som körs på datorer i samma företag. I sådana fall uppdateras följande åtgärder från alla Dynamic Media Classic-klienter i realtid med alla peer-klienter:
 
 * Redigera en resurs (byggare, bildredigerare osv.)
 * Byta namn på en resurs

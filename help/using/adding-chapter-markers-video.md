@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -51,17 +51,17 @@ Cost-efficient access to rapidly evolving technology.
 
 I exemplet ovan `Chapter 1` är referensidentifieraren och är valfri. Referenstiden för `00:00:000 --> 01:04:364` anger kapitlets starttid och sluttid, i 00:00:000-format. De sista tre siffrorna är millisekunder och kan lämnas som 000 om du vill. Kapiteltiteln för `The bicycle store behind it all` är den faktiska beskrivningen av kapitlets innehåll. Referensidentifieraren, startreferenstiden och kapiteltiteln visas alla i ett popup-fönster i videospelaren när pekaren placeras över en visuell referenspunkt i videons tidslinje.
 
-Eftersom du använder ett HTML5-videovisningsprogram bör du kontrollera att den kapitelfil du skapar följer standarden WebVTT (Web Video Text Tracks). Kapitelfilnamnstillägget är .VTT. Du kan läsa mer om bildtextstandarden WebVTT.
+Eftersom du använder ett HTML5-videovisningsprogram bör du kontrollera att den kapitelfil du skapar följer standarden WebVTT (Web Video Text Tracks). Kapitelfiltillägget är `.VTT`. Du kan läsa mer om bildtextstandarden WebVTT.
 
 Se [WebVTT: Textspårningsformat för webbvideo](https://w3c.github.io/webvtt/).
 
-**Så här lägger du till kapitelmarkörer i video:**
+**Så här lägger du till kapitelmarkörer i en video:**
 
 1. Skapa en videokapitelfil med en enkel textredigerare utanför Adobe Dynamic Media Classic.
 
    >[!NOTE]
    >
-   >För globalt stöd för videokapitel på andra språk än engelska kräver WebVTT-standarden att du skapar separata VTT-filer och anropar varje språk som du vill ha stöd för.
+   >För globalt stöd för videokapitel på andra språk än engelska kräver WebVTT-standarden att du skapar separata `.VTT` filer och samtal för varje språk som du vill ha stöd för.
 
 1. Spara VTT-filen i UTF8-kodning så att du slipper problem med teckenåtergivning i kapiteltiteltexten.
 

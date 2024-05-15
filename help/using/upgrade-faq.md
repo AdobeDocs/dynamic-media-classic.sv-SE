@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,16 @@ ht-degree: 0%
 +++**Vilka är de viktigaste fördelarna med att uppgradera till [!DNL Dynamic Media]?**
 
 * Samarbete och delad filsynkronisering med [!DNL Adobe Creative Cloud] program.
-* Hantering av digitala resurser på företagsnivå med robust stöd för metadata, smart sökning, ljuslåda och samlingar, versionskontroll och säker delning av resurser som kan användas av leverantörer, partners och franchisetes Granska och godkänn-arbetsflöden för material i process.
+* Digital resurshantering på företagsnivå med:
+   * stöd för robusta metadata
+   * smart sökning
+   * ljuslåda och samlingar
+   * versionskontroll
+   * säker resursdelning för användning av leverantörer, partners och franchisetagare
+* Granska och godkänn arbetsflöden för resurser som bearbetas.
 * Enkelt att använda och använda med det nya användargränssnittet.
 * Skapa köpbara/interaktiva medieupplevelser med bilder och video som ökar konverteringsgraden och ökar användarnas engagemang och nöjdhet.
-* Kombinera kampanjresurser med produktinformation så att ni kan effektivisera klick till kundvagn.
+* Kombinera kampanjresurser med produktinformation så att ni kan effektivisera klickningen i kundvagnen.
 * Skapa, justera, märk upp och distribuera enkelt interaktiva visningsprogram med WYSIWYG Viewer Designer.
 * Leverera optimerad multimedia för [!DNL Experience Cloud] lösningar.
 * Integrering med [!DNL Experience Cloud] för avancerad materialanalys, målgruppsanpassning och återanvändning av resurser över alla kontaktytor för marknadsföring. Dessa kontaktytor inkluderar [!DNL Adobe Campaign] för e-post, [!DNL Adobe Social] för sociala kanaler, och [!DNL Experience Manager] Webbplatser för responsiva webb- och mobilappar.
@@ -57,7 +63,7 @@ Adobe ändrade namnet på Adobe Scene7 till [!DNL Dynamic Media Classic].
 ## Uppgraderingsprocess och verktyg
 
 +++**Vilka har rätt att uppgradera?**
-Aktuell [!DNL Dynamic Media Classic] (tidigare Scene7) kunder som också har [!DNL Experience Manager].
+Kunder som för närvarande har [!DNL Dynamic Media Classic] (tidigare Scene7) och har [!DNL Experience Manager].
 
 +++
 
@@ -67,7 +73,7 @@ Kontakta Adobe Account Team eller [e-post s7support@adobe.com](mailto:s7support@
 +++
 
 +++**Hur hanteras uppgraderingsprocessen?**
-Uppgraderingen hanteras av AGS (Adobe Global Services) och behandlas som ett serviceprojekt. Adobe kan endast migrera resurserna. Kunden, AGS eller Partner ansvarar för alla andra uppgraderingsaspekter och steg. På en sammanfattningsnivå innehåller en uppgraderingsplan följande:
+AGS (Adobe Global Services) hanterar uppgraderingen och behandlar den som ett serviceprojekt. Adobe kan endast migrera resurserna. Kunden, AGS eller Partner ansvarar för alla andra uppgraderingsaspekter och steg. På en sammanfattningsnivå innehåller en uppgraderingsplan följande:
 
 * Tillhandahåll företag-/användarkonton.
 * Replikera resurser från [!DNL Dynamic Media Classic] (tidigare Scene7) till [!DNL Dynamic Media] komponent i [!DNL Experience Manager] Resurser (tillhandahålls av Adobe via ett automatiserat uppgraderingsverktyg).
@@ -107,7 +113,7 @@ Nej. The [checklista för beredskap](/help/using/upgrade-readiness.md) innehåll
 +++
 
 +++**Måste jag uppgradera?**
-Nej. Adobe fortsätter att stödja och upprätthålla fullt ut [!DNL Dynamic Media Classic] (kundefterfrågade felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
+Nej. Adobe stöder och underhåller fullt ut [!DNL Dynamic Media Classic] (kundefterfrågade felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
 
 Du kan uppgradera när du är redo att utnyttja de nya funktionerna i [!DNL Dynamic Media].
 
@@ -123,7 +129,7 @@ När du har uppgraderat till [!DNL Dynamic Media]bör du bara använda Dynamic M
 +++
 
 +++**Vilka verktyg tillhandahåller Adobe för att automatisera uppgraderingsprocessen?**
-För uppgraderingsprogrammets första start har Adobe verktyg för att automatiskt flytta resurser från [!DNL Dynamic Media Classic] till [!DNL Dynamic Media] in [!DNL Experience Manager] Resurser.
+För uppgraderingsprogrammets första start har Adobe verktyg som automatiskt kan flytta resurser från [!DNL Dynamic Media Classic] till [!DNL Dynamic Media] in [!DNL Experience Manager] Resurser.
 
 +++
 
@@ -133,12 +139,12 @@ Ja. Du kan fortsätta använda [!DNL Dynamic Media Classic] (tidigare Adobe Scen
 +++
 
 +++**Måste jag uppdatera mina URL:er?**
-Nej. Adobe fortsätter att använda [!DNL Dynamic Media Classic] publicerings- och leveransinfrastruktur i [!DNL Dynamic Media] lösning. Fördelen med detta är att du inte behöver ändra några produktionswebbadresser på dina webbsidor, vilket minimerar riskerna och arbetet med att migrera till [!DNL Dynamic Media].
+Nej. Adobe fortsätter att använda [!DNL Dynamic Media Classic] publicerings- och leveransinfrastruktur i [!DNL Dynamic Media] lösning. Fördelen med det här arbetssättet är att du inte behöver ändra några produktionswebbadresser på dina webbsidor, vilket minimerar riskerna och arbetet med att migrera till [!DNL Dynamic Media].
 
 +++
 
 +++**Måste jag skriva om API-integreringar och andra automatiseringsskript?**
-Nej. Adobe fortsätter att använda [!DNL Dynamic Media Classic] publicerings- och leveransinfrastruktur i [!DNL Dynamic Media] lösning. Dessutom replikeras alla resurser till [!DNL Dynamic Media Classic]. Fördelen med detta är att du inte behöver skriva om några API-baserade integreringar eller automatiseringsskript, vilket minimerar riskerna och arbetet med att migrera till [!DNL Dynamic Media].
+Nej. Adobe fortsätter att använda [!DNL Dynamic Media Classic] publicerings- och leveransinfrastruktur i [!DNL Dynamic Media] lösning. Dessutom replikeras alla resurser till [!DNL Dynamic Media Classic]. Fördelen med detta är att du inte behöver skriva om några API-baserade integreringar eller automatiseringsskript, vilket minimerar riskerna och arbetet med att gå över till [!DNL Dynamic Media].
 
 +++
 
@@ -172,7 +178,7 @@ Ja. Adobe har datacentraler i Nordamerika, Europa och Asien-Stillahavsområdet.
 +++
 
 +++**Hur lång tid tar [!DNL Dynamic Media Classic] kommer du att existera som en fristående produkt?**
-Adobe fortsätter att stödja och upprätthålla fullt ut [!DNL Dynamic Media Classic] (kundefterfrågade felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
+Adobe stöder och underhåller fullt ut [!DNL Dynamic Media Classic] (kundefterfrågade felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
 
 +++
 
@@ -182,7 +188,12 @@ Dynamic Media har 60 GB lagringsutrymme. Du kan köpa ytterligare lagringsutrymm
 +++
 
 +++**Vilket mätvärde används för att mäta [!DNL Dynamic Media] användning?**
-Sidvisningar per månad (PVM). Sidvy innebär en vy av ett e-postmeddelande eller en webbsida på en webbplats. Det innehåller även programskärmsvyer, programskärmslägen, mobilwebbsidor och sidor för sociala nätverk. Sidvyer visas varje gång en webbsida läses in eller uppdateras, ett program läses in eller när innehållet återges eller visas via ett öppet eller visat e-postmeddelande.
+Sidvisningar per månad (PVM). Sidvy innebär en vy av ett e-postmeddelande eller en webbsida på en webbplats. Det innehåller även programskärmsvyer, programskärmslägen, mobilwebbsidor och sidor för sociala nätverk. Sidvyer visas:
+
+* Varje gång en webbsida läses in eller uppdateras
+* När ett program läses in
+* När innehåll återges
+* Visas via ett öppnat eller visat e-postmeddelande
 
 +++
 

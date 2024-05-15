@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Om du bara vill visa filer av en viss typ när du bläddrar, går du till resurs
 
 >[!NOTE]
 >
->Om du inte ser panelen Resursbibliotek till vänster väljer du den högra triangelpilen till vänster, halvvägs nedåt i Adobe Dynamic Media Classic-fönstret, för att öppna resursbiblioteket.)
+>Om du inte ser panelen Resursbibliotek till vänster klickar du på den högra triangelpilen till vänster, halvvägs nedåt i Dynamic Media Classic-fönstret, för att öppna resursbiblioteket.
 
 ## Sortera filer i panelen Bläddra {#sorting-files-in-the-browse-panel}
 
-Om du vill sortera innehållet i en mapp eller sökresultaten som visas i panelen Bläddra till höger väljer du alternativet i fältet Global navigering **[!UICONTROL Sort]** och välj sedan ett alternativ. Alternativen är **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]** och **[!UICONTROL Last Modified]**.
+Du kan sortera innehållet i en mapp eller sökresultaten som visas i panelen Bläddra till höger. I fältet Global navigering väljer du **[!UICONTROL Sort]** och välj sedan ett alternativ. Alternativen är **[!UICONTROL Name]**, **[!UICONTROL Size (KB)]**, **[!UICONTROL Type]**, **[!UICONTROL Date Created]** och **[!UICONTROL Last Modified]**.
 
 Du kan också välja **[!UICONTROL Ascending]** eller **[!UICONTROL Descending]** om du vill sortera resurser i stigande eller fallande ordning efter de villkor du väljer.
 
@@ -63,7 +63,7 @@ I resursbiblioteket, direkt under sökfältet, väljer du **[!UICONTROL Advanced
 
 Ange något av följande villkor i den avancerade sökningen:
 
-* **Filtrera efter resurstyp** - Begränsa sökningen till en resurstyp genom att välja en resurstyp på menyn.
+* **Filtrera efter resurstyp** - Begränsa sökningen till en resurstyp. Välj en resurstyp på menyn.
 
 * **Filer och mappar** - Välj var du vill söka: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]**, eller **[!UICONTROL Within Selected Folder & Subfolders]**.
 
@@ -109,7 +109,7 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
    Se [Spara, upprepa och ta bort filteråtgärder](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
-1. Välj **[!UICONTROL Field]** Följ sedan dessa instruktioner på en panel så att du kan visa filtermenyn och skapa filteråtgärden:
+1. Klicka **[!UICONTROL Field]** Följ sedan dessa instruktioner på en panel så att du kan visa filtermenyn och skapa filteråtgärden:
 
    * **Välj ett metadatafält** - Välj fältets namn på filtreringsmenyn.
 
@@ -125,7 +125,7 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
    När du väljer ett metadatafält visas följande på panelen:
 
-   * Alla metadatavärden som anges i fältet.
+   * Alla metadatavärden anges i fältet.
    * För varje metadatavärde, antalet resurser som anges av värdet.
 
 1. Upprepa steg 2 så många gånger som behövs för att lista alla metadatafält för filteråtgärden på paneler.
@@ -135,7 +135,7 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
    >[!NOTE]
    >
-   >Om du tillfälligt vill ta bort ett fält från filteråtgärden markerar du **[!UICONTROL Deselect All]**. Det här alternativet visas högst upp på varje panel, ovanför metadatavärden.
+   >Ta bort ett fält tillfälligt från filteråtgärden genom att klicka på **[!UICONTROL Deselect All]**. Det här alternativet visas högst upp på varje panel, ovanför metadatavärden.
 
 1. (Valfritt) Om du vill spara filteråtgärden och kunna köra den senare väljer du **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** och ange sedan ett namn i **[!UICONTROL Save]** -dialogrutan.
 

@@ -10,9 +10,9 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här 
 
 * **Skapa bildscheman** - Om du vill skapa ett bildschema väljer du kommandot Bild eller **[!UICONTROL Image Map]** -knappen. En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/using/creating-image-maps.md).
 
-* **Skapa zoommål** - Om du vill skapa miniatyrbildsmål väljer du kommandot Zoommål eller **[!UICONTROL Zoom Targets]** -knappen. Användarna kan välja ett miniatyrbildsmål i Zoomvisningsprogrammet för att zooma direkt till en viss del av bilden. Se [Skapa zoommål för guidad zoomning](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Skapa zoommål** - Om du vill skapa mål för miniatyrbilder väljer du kommandot Zoommål eller kommandot **[!UICONTROL Zoom Targets]** -knappen. Användarna kan välja ett miniatyrbildsmål i Zoomvisningsprogrammet för att zooma direkt till en viss del av bilden. Se [Skapa zoommål för guidad zoomning](/help/using/creating-zoom-targets-guided-zoom.md).
 
 * **Beskära en bild** - Om du vill beskära en bild väljer du kommandot Beskär eller **[!UICONTROL Crop]** -knappen. Se [Beskära en bild](/help/using/cropping-image.md).
 
-* **Öka skärpan i en bild** - Om du vill öka skärpan i en bild och göra konturerna mindre suddiga och tydligare väljer du kommandot Skärpa eller **[!UICONTROL Sharpen]** -knappen. Se [Öka skärpan i en bild](/help/using/sharpening-image.md).
+* **Öka skärpan i en bild** - Gör bildkonturerna mindre suddiga genom att välja kommandot Skärpa eller **[!UICONTROL Sharpen]** -knappen. Se [Öka skärpan i en bild](/help/using/sharpening-image.md).
 
 * **Justera en bild** - Välj `Adjust` kommandot eller **[!UICONTROL Adjust]** för att vända, rotera, göra oskarpa, färglägga eller ändra färgbalansen i en bild. Se [Justera en bild](/help/using/adjusting-image.md).
 

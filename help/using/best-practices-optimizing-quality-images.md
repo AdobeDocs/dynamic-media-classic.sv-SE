@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,8 @@ Se även [Smart bildbehandling](https://experienceleague.adobe.com/en/docs/exper
 >
 >Prova och upptäck fördelarna med Dynamic Media bildmodifierare och Smart Imaging med Dynamic Media [_Ögonblicksbild_](https://snapshot.scene7.com/).
 >
-> Ögonblicksbild är ett visuellt demonstrationsverktyg som är utformat för att illustrera styrkan hos Dynamic Media för optimerad och dynamisk bildleverans. Experimentera med testbilder eller Dynamic Media-URL:er för att visuellt se resultatet av olika bildmodifierare i Dynamic Media och optimera smarta bilder för följande:
+> Ögonblicksbild är ett visuellt demonstrationsverktyg som är utformat för att illustrera styrkan hos Dynamic Media för optimerad och dynamisk bildleverans. Experimentera med testbilder eller Dynamic Media-URL:er, så att du kan se resultatet av olika bildmodifierare i Dynamic Media och optimera smarta bilder för följande:
+>
 >* Filstorlek (med WebP- och AVIF-leverans)
 >* Nätverksbandbredd
 >* DPR (Device Pixel Ratio)
@@ -69,7 +70,7 @@ Med Adobe Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid lev
 
 Det finns två metoder för bildskärpa som du kan använda:
 
-* Enkel skärpa ( `&op_sharpen`) - Precis som det skärpefilter som används i Photoshop, tillämpar enkel skärpa den grundläggande skärpan på den slutliga vyn av bilden efter den dynamiska storleksändringen. Den här metoden kan dock inte konfigureras av användaren. Det bästa är att inte använda `&op_sharpen` om det inte är nödvändigt.
+* Enkel skärpa ( `&op_sharpen`) - Precis som det skärpefilter som används i Photoshop, tillämpar enkel skärpa den grundläggande skärpan på den slutliga vyn av bilden efter den dynamiska storleksändringen. Den här metoden kan dock inte konfigureras av användaren. Det bästa är att undvika att använda `&op_sharpen` om det inte är nödvändigt.
 * Oskarp maskering ( `&op_USM`) - Oskarp maskning är ett branschstandardfilter för skärpa. Det bästa sättet är att göra bilder skarpare med oskarp maskering enligt riktlinjerna nedan. Med Oskarp maskning kan du styra följande tre parametrar:
 
    * `&op_sharpen=amount,radius,threshold`
@@ -81,7 +82,7 @@ Det finns två metoder för bildskärpa som du kan använda:
 
       * `threshold` (0-255, effektkänslighet.)
 
-        Den här parametern avgör hur annorlunda de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och filtret gör dem skarpare. Tröskelvärdet hjälper dig att undvika att göra områden med liknande färger, som hudtoner, för skarpare. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka för att undvika att lägga till&quot;brus&quot;, medan kantkontrasten läggs till i områden med hög kontrast, till exempel där ögonfransarna möter huden.
+        Den här parametern avgör hur annorlunda de pixlar som ska göras skarpare måste vara från det omgivande området innan de betraktas som kantpixlar och filtret gör dem skarpare. Tröskelvärdet hjälper dig att undvika att göra områden med liknande färger, som hudtoner, för skarpare. Ett tröskelvärde på 12 ignorerar till exempel små variationer i hudtonens ljusstyrka för att undvika att lägga till&quot;brus&quot;, samtidigt som kantkontrasten läggs till i områden med hög kontrast, till exempel där ögonfransarna möter huden.
 
         Mer information om hur du ställer in de här tre parametrarna, inklusive de bästa metoderna att använda med filtret, finns i [Öka skärpan i bilder i Adobe Dynamic Media Classic och Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
@@ -98,10 +99,10 @@ Ett tips är att börja med parametern unsharp mask radius. Radie-inställningar
 
 Lämna den monokroma parameterinställningen på 0.
 
-## Metodtips för komprimering av JPEG (&amp;qlt=) {#best-practices-for-jpeg-compression-qlt}
+## Bästa tillvägagångssätt för komprimering av JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
 * Den här parametern styr kodningskvaliteten för JPG. Ett högre värde innebär en bild med högre kvalitet men en stor filstorlek. Ett lägre värde innebär en bild med lägre kvalitet men mindre filstorlek. Intervallet för parametern är 0-100.
-* Om du vill optimera kvaliteten ska du inte ange parametervärdet 100. Skillnaden mellan en inställning på 90 eller 95 och 100 är nästan otydlig, men 100 ökar storleken på bildfilen i onödan. Om du vill optimera kvaliteten men undvika att bildfilerna blir för stora anger du `qlt=` till 90 eller 95.
+* Om du vill optimera kvaliteten ska du inte ange parametervärdet 100. Skillnaden mellan en inställning på 90 eller 95 och 100 är nästan osynlig. Men 100 ökar storleken på bildfilen i onödan. Om du vill optimera kvaliteten men undvika att bildfilerna blir för stora anger du `qlt=` till 90 eller 95.
 * Om du vill optimera för en liten bildfilsstorlek men behålla bildkvaliteten på en godtagbar nivå anger du `qlt=` till 80. Värden under 70 till 75 ger en signifikant försämring av bildkvaliteten.
 * Det bästa sättet att vara i mitten är att ställa in `qlt=` värdet är 85 om du vill vara kvar i mitten.
 * Använda chroma-flaggan i `qlt=`
@@ -116,13 +117,13 @@ Ett tips för komprimering med JPG är att använda `&qlt=85,0`.
 Parametern `jpegSize` är användbart om du vill garantera att en bild inte överskrider en viss storlek för leverans till enheter som har begränsat minne.
 
 * Den här parametern anges i kilobyte ( `jpegSize=<size_in_kilobytes>`). Det definierar den största tillåtna storleken för bildleverans.
-* `&jpegSize=` interagerar med komprimeringsparametern JPG `&qlt=`. Om JPG svarar med den angivna komprimeringsparametern JPG ( `&qlt=`) överstiger inte `jpegSize` värde, returneras bilden med `&qlt=` enligt definition. I annat fall `&qlt=` minskas gradvis tills bilden får plats i den tillåtna maxstorleken eller tills systemet fastställer att den inte får plats och returnerar ett fel.
+* `&jpegSize=` interagerar med komprimeringsparametern JPG `&qlt=`. Om JPG svarar med den angivna komprimeringsparametern JPG ( `&qlt=`) överstiger inte `jpegSize` värde, returneras bilden med `&qlt=` enligt definition. I annat fall `&qlt=` minskas gradvis tills bilden får plats i den tillåtna maxstorleken. Eller tills systemet avgör att det inte får plats och returnerar ett fel.
 
 Som bästa praxis bör du ange `&jpegSize=` och lägg till parametern `&qlt=` om du levererar JPG-bilder till enheter med begränsat minne.
 
 ## Sammanfattning av bästa praxis {#best-practices-summary}
 
-Det bästa sättet att uppnå en hög bildkvalitet och liten filstorlek är att börja med följande kombination av parametrar:
+Det bästa sättet att uppnå hög bildkvalitet och liten filstorlek är att börja med följande kombination av parametrar:
 
 `fmt=jpg&qlt=85,0&resMode=sharp2&op_usm=1.75,0.3,2,0`
 

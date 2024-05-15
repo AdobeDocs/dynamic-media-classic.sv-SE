@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '957'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Alternativ för att överföra PSD-filer finns under Photoshop-alternativ i dial
 
 De här alternativen är tillgängliga när du överför PSD-filer:
 
-* **Beskärningsalternativ** - Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** om du vill beskära tomt utrymme automatiskt från kanterna på en PSD-fil, markerar **[!UICONTROL Manual]** om du vill beskära sidor av filen PSD:
+* **Beskärningsalternativ** - Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** så att du automatiskt kan beskära tomt utrymme från kanterna på en PSD-fil. Välj **[!UICONTROL Manual]** för att beskära sidorna i filen PSD:
 
    * **[!UICONTROL Trim]** - Välj **[!UICONTROL Trim Away Based On]** och väljer **[!UICONTROL Color]** eller **[!UICONTROL Transparency]**.
 
@@ -39,7 +39,7 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 
   Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 om pixlarna bara ska beskäras om de är genomskinliga. Om du anger värden som är närmare 1 får du mer genomskinlighet.
 
-   * **[!UICONTROL Manual]** - Ange antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Om bilden till exempel visar 150 ppi och du anger 75 i textrutorna Överkant, Höger, Underkant och Vänster, 0,5 tum. beskärs från varje sida av bilden.
+   * **[!UICONTROL Manual]** - Ange antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Anta att bilden visar 150 ppi. Sedan anger du 75 i textrutorna Överkant, Höger, Underkant och Vänster. Varje sida av bilden beskärs, 0,5 tum.
 
 * **Alternativ för färgprofil** - Finns under **[!UICONTROL Color Profile Options]**.
 
@@ -67,7 +67,7 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 
       * **[!UICONTROL Photoshop and layer name]** - Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn. Ett lager med namnet `Price Tag` i en PSD-fil med ett namn `SpringAd` är namngiven `Spring Ad_Price Tag`. Ett lager med standardnamnet Lager2 anropas `Spring Ad_2`.
 
-   * **[!UICONTROL Anchor]** - Ange hur bilder är förankrade i mallar som genereras från lagerkompositionen som skapas från filen PSD. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan ersättningsbilder bäst fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
+   * **[!UICONTROL Anchor]** - Ange hur bilder är förankrade i mallar som genereras från lagerkompositionen som skapas från filen PSD. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan du ersätta bilder som bäst kan fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
 
 ## Visa och redigera lager i en PSD-fil {#viewing-and-editing-layers-in-a-psd-file}
 
@@ -86,9 +86,9 @@ Om du valde alternativet **[!UICONTROL Maintain Layers]** när du överförde PS
 1. Välj **[!UICONTROL Layers]**. Alla lager visas som separata bilder på panelen Lager.
 1. Dubbelklicka på ett lager och gör något av följande:
 
-   * Om du vill skapa ett bildschema på lagret väljer du **[!UICONTROL Image Map]** -ikon. (Se [Skapa bildscheman](creating-image-maps.md#creating_image_maps).)
+   * Om du vill skapa ett bildschema på lagret markerar du **[!UICONTROL Image Map]** -ikon. (Se [Skapa bildscheman](creating-image-maps.md#creating_image_maps).)
    * Om du vill skapa zoommål på lagret väljer du **[!UICONTROL Zoom Targets]** -ikon. (Se [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
-   * Beskär lagret genom att markera **[!UICONTROL Crop]** -ikon. (Se [Beskära en bild](cropping-image.md#cropping_an_image).)
+   * Om du vill beskära lagret väljer du **[!UICONTROL Crop]** -ikon. (Se [Beskära en bild](cropping-image.md#cropping_an_image).)
    * Om du vill öka skärpan i lagret markerar du **[!UICONTROL Sharpen]**. (Se [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image).)
    * Justera lagret genom att markera **[!UICONTROL Adjust]**. (Se [Justera en bild](adjusting-image.md#adjusting_an_image).)
 
