@@ -10,16 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Länka zoomningsvisningsprogram till dina webbsidor{#linking-zoom-viewers-to-your-web-pages}
 
-Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive primära bilder och associerade zoommål, och förinställningar för Zoom Viewer, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Adobe Dynamic Media Classic.
+Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar eller inbäddad kod. Den åtkomsten inkluderar primära bilder och associerade zoommål. Det innehåller även förinställningar för Zoom Viewer. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -53,9 +53,9 @@ Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i refe
 
 Med funktionen Bädda in kod kan du granska visningsprogramkoden för det valda zoomvisningsprogrammet. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
-**Så här kopierar du inbäddningskoden för ett Zoom-visningsprogram:**
+**Så här kopierar du inbäddningskod för ett zoomvisningsprogram:**
 
-1. navigera till resursmappen som innehåller Zoom-visningsprogrammet vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
+1. navigera till resursmappen som innehåller zoomvisningsprogrammet vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Embed Code]** till höger om det visningsprogram du vill använda.

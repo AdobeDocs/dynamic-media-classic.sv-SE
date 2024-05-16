@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från 7 maj 2020.
    * Image Serving/Image Rendering API
    * API för bildproduktionssystem
    * och Adobe Dynamic Media Classic versionsinformation
-* [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html): Innehåller visningsprogramexempel för video, köpbara medier, blandade medier, snurpset, inline-zoom, bild- och färgruteuppsättningar samt flygblad.
+* [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html): Innehåller visningsprogramexempel för video, köpbara medier, blandade medier, snurpuppsättningar, inline-zoom, bilder och färgruteuppsättningar samt utfällbara menyer.
 
 ## Adobe Dynamic Media Classic användarresurser
 
@@ -40,7 +40,7 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från 7 maj 2020.
 * [Guide: Best Practices Guide for Sharpening Images](/help/using/assets/s7_sharpening_images.pdf)
 * [Guide: How Adobe Dynamic Media Classic supports SEO](/help/using/assets/s7_seo.pdf): I dagens sökmotorer kan du söka efter webbplatser och bilder. Adobe Dynamic Media Classic stöder arbetet med att göra bilderna sökmotorvänliga så att mer trafik dirigeras till Adobe Dynamic Media Classic webbplats. Den här guiden i PDF ger dig de bakgrunds- och implementeringsrekommendationer som behövs för att det ska hända.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [Webbinarium: Best Practices Leverera interaktiva upplevelser med Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): Lär dig hur du hämtar innehåll in och ut från Adobe Dynamic Media Classic och konfigurerar bildförinställningar för optimala prestanda och en optimal upplevelse. Du kan även läsa mer om förinställningar för visningsprogram och cachelagringskonfigurationer.
+* [Webbinarium: Best Practices to Deliver Interactive Experiences with Adobe Dynamic Media Classic](https://seminars.adobeconnect.com/p7wb8ej3u6d/): Lär dig hur du hämtar innehåll in och ut från Adobe Dynamic Media Classic och konfigurerar bildförinställningar för optimala prestanda och en optimal upplevelse. Du kan även läsa mer om förinställningar för visningsprogram och cachelagringskonfigurationer.
 * [Webbinarium: Maximera avkastningen på dina resurser](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Lär dig branschens bästa metoder för att leverera multimedia på webbplatser och i mobilappar. I det här webbinariet visar Adobe exempel och demonstrationer hur du kan leverera video effektivt på olika enheter. Lär dig hur ni kan leverera dynamisk kreativ information i era marknadsföringskampanjer. Eller öka konverteringsgraden genom att köpa bilder, stilguider eller lookbook.
 * [Webbinarium: Snabba upp leveranscykeln](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): En introduktion och demonstration av Adobe Experience Manager Assets: On Demand, nästa generation av plattform för multimediehantering och -leverans. Lär dig samarbeta och dela resurser mellan kreatörer och marknadsförare för att effektivisera resursgranskningsprocesserna. Lär dig de bästa sätten så att du kan hantera metadata för resurser effektivt. På så sätt blir det enkelt att hitta, använda, återanvända och dela material. Lär dig även hur du kan leverera interaktiva multimedieupplevelser över flera kanaler.
 * [Webbinarium: Design för mobiloptimering](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): Med Adobe Dynamic Media Classic kan ni effektivt leverera multimedia till alla enheter. Lär dig hur du utformar och levererar bild- och videoupplevelser som är effektiva i olika mobilappar och responsiva sajter.

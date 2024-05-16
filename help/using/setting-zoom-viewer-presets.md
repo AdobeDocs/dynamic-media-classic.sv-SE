@@ -10,16 +10,16 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # Konfigurera förinställningar för Zoomvisningsprogram{#setting-up-zoom-viewer-presets}
 
-Förinställningarna för zoomvisningsprogrammet bestämmer stilen, beteendet och utseendet för zoomningsvisningsprogrammen. Adobe Dynamic Media Classic erbjuder många alternativ för att anpassa och skala visningsprogram. Adobe Dynamic Media Classic levereras med standardförinställningar för grundläggande (snabb), utfällbar och anpassad zoomningsvisning. Om du är administratör kan du skapa förinställningar för zoomvisning i företaget eller redigera en standardförinställning och spara den med ett nytt namn.
+Zoomvisningsförinställningarna avgör stil, beteende och utseende för dina zoomningsvisningsprogram. Adobe Dynamic Media Classic erbjuder många alternativ för att anpassa och skala visningsprogram. Adobe Dynamic Media Classic levereras med standardförinställningar för grundläggande (snabb), utfällbar och anpassad zoomningsvisning. Om du är administratör kan du skapa förinställningar för zoomvisning i företaget eller redigera en standardförinställning och spara den med ett nytt namn.
 
 Alla zoomningsvisningsprogram har knappar för att zooma in, zooma ut, panorera och återställa bilden till det ursprungliga läget efter zoomning. Hur de här knapparna ser ut och hur själva fönstret visas beror på vad du har valt för Zoom Viewer Presets. Du kan konfigurera en förinställning för Zoomvisningsprogram med olika färger, kanter, teckensnitt och bildinställningar. När du konfigurerar ett visningsprogram för guidad zoomning kan du även välja var du vill placera zoommålen. Zoommål är de miniatyrbilder som användarna klickar på för att zooma till de områden som du anger.
 

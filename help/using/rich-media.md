@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,13 @@ Se [Snabbstart: eCatalog](/help/using/quick-start-ecatalog.md).
 * **eVideo**: Leverera högkvalitativa videoupplevelser till flera skärmar, inklusive stationära datorer, mobilenheter och surfplattor. Använd fördefinierade kodningsförinställningar för Adobe Dynamic Media Classic eller anpassa kodningen för att styra videons kvalitet och storlek. Ordna, bläddra bland och sök videoklipp med fullt stöd för metadata för effektiv hantering av videomaterial.
 Se [Snabbstart: Video i Adobe Dynamic Media Classic](/help/using/quick-start-video.md).
 
-* **Bildscheman**: Hantera bilder dynamiskt i alla storlekar och format på webbplatsen. I stället för att manuellt skapa många bilder i olika storlekar, använder du bara en primär bild. När Adobe Dynamic Media Classic levererar den begärda bilden optimeras bilden för resultat av högsta kvalitet i storlek, format, vikt, kvalitet och skärpa.
+* **Bildscheman**: Hantera bilder dynamiskt i alla storlekar och format på webbplatsen. I stället för att manuellt skapa många bilder i olika storlekar behöver du bara använda en primär bild. När Adobe Dynamic Media Classic levererar den begärda bilden optimeras bilden för resultat av högsta kvalitet i storlek, format, vikt, kvalitet och skärpa.
 Se [Snabbstart: Bildstorlek](/help/using/quick-start-image-sizing.md).
 
 * **Bilduppsättningar**: Leverera en interaktiv shoppingupplevelse där användarna kan se produkter i olika vyer. Du kan kombinera zoomning, flera vyer och färgrutor för en integrerad visningsupplevelse.
 Se [Snabbstart: Bilduppsättningar](/help/using/quick-start-image-sets.md).
 
-* **Blandade medieuppsättningar**: Tillhandahåller en blandning av bilduppsättningar, snurruppsättningar, färgruteuppsättningar, zoommål, video och ljud i en och samma presentation. Du kan ställa in uppsättningar med blandade media med flikar för att separera video från bilder. Du kan också ange var och hur du vill visa färgrutor och zoomningsmål och ge användarna en fullständig multimediavy av dina produkter eller tjänster.
+* **Blandade medieuppsättningar**: Tillhandahåller en blandning av bilduppsättningar, snurpuppsättningar, färgruteuppsättningar, zoommål, video och ljud i en och samma presentation. Du kan ställa in uppsättningar med blandade media med flikar för att separera video från bilder. Du kan också ange var och hur du vill visa färgrutor och zoommål och ge användarna en fullständig multimediavy av dina produkter eller tjänster.
 Se [Snabbstart: Blandade medieuppsättningar](/help/using/quick-start-mixed-media-sets.md).
 
 * **Snurra uppsättningar**: Sekvensbilder som roteras vågrätt. Med Snurra uppsättningar kan besökare vända sig till en annan sida och visa dem. Du kan skapa endimensionella och tvådimensionella snurruppsättningar.

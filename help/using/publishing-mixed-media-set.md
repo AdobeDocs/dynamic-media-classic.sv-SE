@@ -10,9 +10,9 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Last Modified Date:
 
 1. Gör något av följande:
 
-   * Välj i panelen Bläddra **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
+   * Välj **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
    * På skärmen Överför väljer du **[!UICONTROL Mark For Publish]** bredvid varje filnamn som du vill publicera.
 
 1. I fältet Global navigering väljer du **[!UICONTROL Publish]**.

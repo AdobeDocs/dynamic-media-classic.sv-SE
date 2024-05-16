@@ -10,16 +10,16 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
 
 # Navigeringsgrunder{#navigation-basics}
 
-Adobe Dynamic Media Classic-skärmen innehåller tre huvudområden: Global Navigation Bar, Asset Library, Asset Filters tab, Browse Panel/Build Panel och Media Cart (endast Media Portal).
+På Adobe Dynamic Media Classic-skärmen finns tre huvudområden: Global Navigation Bar, Asset Library, Asset Filters tab, Browse panel/Build Panel och Media Cart (endast Media Portal).
 
 ![Navigeringsgrunder](/help/using/assets/gs_navigation_basics_popup_popup.png)
 *Adobe Dynamic Media Classic viktigaste områden*
@@ -63,11 +63,11 @@ Använd resursbiblioteket för att ordna de resurser du arbetar med. Du kan skap
 >
 >Du kan välja **[!UICONTROL Asset Library]** för att öppna eller stänga resursbiblioteket och få mer plats att arbeta på skärmen. Välj **[!UICONTROL Expand]**/**[!UICONTROL Collapse]** om du vill expandera eller stänga panelen. Dessa kontroller finns till vänster på panelen.
 
-## Panelen Bläddra/byggepanel {#browse-panel-build-panel}
+## Panelen Bläddra/panelen Bygg {#browse-panel-build-panel}
 
 På panelen Bläddra/bygg kan du göra mycket av ditt arbete. Vilka funktioner som är tillgängliga på den här panelen beror på om du är i bläddringsläge eller byggläge.
 
-* **[!UICONTROL Browse mode]**: Om du vill visa och arbeta med innehållet i en mapp på panelen Bläddra väljer du en mapp i resursbiblioteket. Den här panelen erbjuder **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]** och **[!UICONTROL Sort]** menyer för att arbeta med resurser. Du kan också visa resurser på olika sätt genom att flytta reglaget eller välja **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. Markera **[!UICONTROL Detail View]** Om du dubbelklickar på en resurs öppnas resursen i detaljvyn, där du kan utföra resursberoende filåtgärder.
+* **[!UICONTROL Browse mode]**: Du kan visa och arbeta med innehållet i en mapp på panelen Bläddra. Välj en mapp i resursbiblioteket. Den här panelen erbjuder **[!UICONTROL File]**, **[!UICONTROL Preview]**, **[!UICONTROL Select All]**, **[!UICONTROL Select None]** och **[!UICONTROL Sort]** menyer för att arbeta med resurser. Du kan också visa resurser på olika sätt genom att flytta reglaget eller välja **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. Markera **[!UICONTROL Detail View]** Om du dubbelklickar på en resurs öppnas resursen i detaljvyn, där du kan utföra resursberoende filåtgärder.
 
 * **[!UICONTROL Build mode]**: Välj **[!UICONTROL Build]** väljer du sedan ett alternativ så att du kan börja skapa en e-katalog, bilduppsättning, snurra uppsättning eller något av flera andra tillgängliga alternativ på menyn Skapa. Sidan Skapa öppnas. Du kan välja de resurser som du vill arbeta med innan eller efter att du aktiverar byggläget.
 

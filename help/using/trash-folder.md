@@ -10,9 +10,9 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Om du tar bort objekt från papperskorgen tas objekt från Adobe Dynamic Media C
 
 >[!NOTE]
 >
->Resurser som har flyttats till papperskorgen registreras fortfarande i Adobe Dynamic Media Classic. Om du försöker överföra en fil som har samma namn som en borttagen fil i papperskorgen hanterar Adobe Dynamic Media Classic den resurs som du vill överföra som en dubblettresurs. Därför läggs ett tal till efter namnet.
+>Resurser som har flyttats till papperskorgen registreras fortfarande i Adobe Dynamic Media Classic. Anta till exempel att du försöker överföra en fil som har samma namn som en borttagen fil i papperskorgen. Adobe Dynamic Media Classic behandlar den resurs som du vill överföra som en dubblettresurs. I så fall läggs ett tal till efter namnet.
 
 ## Om papperskorgen {#about-the-trash-folder}
 
@@ -51,9 +51,9 @@ Så här återställer du resurser från papperskorgen till de mappar som de tog
 
 När du tar bort resurser i papperskorgen tas resurserna bort permanent. Resurser tas automatiskt bort från papperskorgen efter sju dagar.
 
-Om du vill ta bort resurser permanent från papperskorgen väljer du **[!UICONTROL Trash]** -ikon. Gör något av följande på sidan Papperskorg:
+Du kan ta bort resurser permanent från papperskorgen genom att välja **[!UICONTROL Trash]** -ikon. Gör något av följande på sidan Papperskorg:
 
-* **Ta bort enskilda resurser**: Markera de resurser som du vill ta bort permanent och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
+* **Ta bort enskilda resurser**: Du kan ta bort resurser permanent. Välj de resurser du vill använda och klicka sedan på **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
 
 * **Tar bort alla resurser**: Gå till **[!UICONTROL File]** > **[!UICONTROL Empty trash]**.
 

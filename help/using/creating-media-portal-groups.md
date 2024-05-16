@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '791'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Om du inte ger en grupp behörighet till en resurs eller mapp ärver resursen el
 
    Se [Fastställa åtkomstbehörigheter för en grupp](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Om du vill välja vilka bildförinställningar som är tillgängliga för gruppen väljer du **[!UICONTROL Image Preset Access Permissions]** och välj Bildförinställningar som gruppen kan använda.
+1. Du kan välja vilka bildförinställningar som är tillgängliga för gruppen. Klicka bara på **[!UICONTROL Image Preset Access Permissions]** och välj Bildförinställningar som gruppen kan använda.
 
    Se [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
@@ -56,7 +56,7 @@ Om du inte ger en grupp behörighet till en resurs eller mapp ärver resursen el
    * Om du vill redigera en grupps behörigheter markerar du gruppen och väljer **[!UICONTROL Edit]**.
 
 1. I dialogrutan Lägg till grupp eller Redigera grupp väljer du **[!UICONTROL Asset Access Permissions]** -fliken. Till höger på fliken finns rutor för att ange läs-, skriv- och borttagningsbehörigheter för mappar och resurser. Du kan expandera och komprimera mappar och undermappar i den vänstra rutan.
-1. Om du vill tilldela rättigheter till mappar eller enskilda resurser markerar du mappen i den vänstra rutan. Mappinnehållet visas i den högra rutan. Tilldela sedan rättigheter för gruppen genom att markera rutorna för motsvarande filer eller mappar i den högra rutan.
+1. Om du vill tilldela rättigheter till mappar eller enskilda resurser markerar du mappen i den vänstra rutan. Mappinnehållet visas i den högra rutan. Tilldela sedan rättigheter för gruppen genom att markera rutorna för motsvarande filer. Du kan också markera mapparna i den högra rutan.
 
    Den här tabellen mappar olika uppgifter till att läsa, skriva och ta bort behörigheter.
 
@@ -98,6 +98,6 @@ Se även [Ange exportalternativ som är tillgängliga för Media Portal-använda
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Markera en grupp på sidan Grupplista och redigera eller ta bort den.
 
-   **Redigera en grupp**: Välj **[!UICONTROL Edit]** och välj sedan alternativ i dialogrutan Redigera grupp.
+   **Redigera en grupp**: Välj **[!UICONTROL Edit]** och välj sedan alternativen i dialogrutan Redigera grupp.
 
    **Ta bort en grupp**: Välj **[!UICONTROL Delete]**.

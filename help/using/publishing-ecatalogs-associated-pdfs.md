@@ -10,9 +10,9 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ När du publicerar placeras din e-katalog och PDF på Dynamic Media bildservrar 
 
 >[!NOTE]
 >
->Se till att din e-katalog och PDF finns i samma mapp och att de har markerats för publicering på panelen Bläddra eller sidan Resursinformation innan du publicerar dem.
+>Se till att din e-katalog och PDF finns i samma mapp. Kontrollera att de är markerade för publicering på panelen Bläddra eller sidan Resursinformation innan du publicerar dem.
 
 **Så här publicerar du e-kataloger och tillhörande PDF:**
 

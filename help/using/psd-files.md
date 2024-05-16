@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ De här alternativen är tillgängliga när du överför PSD-filer:
 
 ## Visa och redigera lager i en PSD-fil {#viewing-and-editing-layers-in-a-psd-file}
 
-Om du valde alternativet **[!UICONTROL Maintain Layers]** när du överförde PSD, delade Adobe Dynamic Media Classic upp de enskilda lagren i resurser. Du kan visa och redigera de objektlager som tillhör en PSD-fil genom att öppna filen i panelen Bläddra i detaljvyn.
+Om du valde alternativet **[!UICONTROL Maintain Layers]** när du överförde PSD, delade Adobe Dynamic Media Classic upp de enskilda lagren i resurser. Du kan visa och redigera de objektlager som hör till en PSD-fil genom att öppna filen i panelen Bläddra i detaljvyn.
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Om du valde alternativet **[!UICONTROL Maintain Layers]** när du överförde PS
 1. Välj **[!UICONTROL Layers]**. Alla lager visas som separata bilder på panelen Lager.
 1. Dubbelklicka på ett lager och gör något av följande:
 
-   * Om du vill skapa ett bildschema på lagret markerar du **[!UICONTROL Image Map]** -ikon. (Se [Skapa bildscheman](creating-image-maps.md#creating_image_maps).)
+   * Om du vill skapa en bildschema på lagret väljer du **[!UICONTROL Image Map]** -ikon. (Se [Skapa bildscheman](creating-image-maps.md#creating_image_maps).)
    * Om du vill skapa zoommål på lagret väljer du **[!UICONTROL Zoom Targets]** -ikon. (Se [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
    * Om du vill beskära lagret väljer du **[!UICONTROL Crop]** -ikon. (Se [Beskära en bild](cropping-image.md#cropping_an_image).)
    * Om du vill öka skärpan i lagret markerar du **[!UICONTROL Sharpen]**. (Se [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image).)

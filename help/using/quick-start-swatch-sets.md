@@ -10,7 +10,7 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Se [Skapa och redigera visningsförinställningar](application-setup.md#adding-a
 
 ## 4. Förhandsvisa en färgruteuppsättning
 
-Markera färgruteuppsättningen i panelen Bläddra och välj sedan **[!UICONTROL Preview]**. Din uppsättning med färgrutor visas på den här sidan. Markera miniatyrbilds- och färgruteikonerna så att du kan granska färgruteuppsättningen i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
+Markera färgruteuppsättningen på panelen Bläddra och välj sedan **[!UICONTROL Preview]**. Din uppsättning med färgrutor visas på den här sidan. Markera miniatyrbilds- och färgruteikonerna så att du kan granska färgruteuppsättningen i det valda visningsprogrammet. Du kan välja olika visningsprogram på menyn Förinställningar.
 
 Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 

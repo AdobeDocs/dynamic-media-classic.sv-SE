@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Tabellen visar vilka andra alternativ som är tillgängliga med olika typer av r
 | InDesign | Nej (om det inte konverterats till FXG) | Nej |
 | PDF-filer | Nej | Nej |
 | PSD-filer | Ja för enskilda lager | Ja för enskilda lager |
-| Rotationsset | Redigera | Ja |
+| Snurra uppsättningar | Redigera | Ja |
 | SVG-filer | Nej | Nej |
 | Mallar | Redigera | Ja |
 | Videor | Nej | Ja |

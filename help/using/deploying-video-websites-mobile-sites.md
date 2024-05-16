@@ -10,9 +10,9 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Genom att publicera en video kan Adobe Dynamic Media Classic-servrar leverera vi
 
 Det finns två olika metoder som du kan använda för att publicera video:
 
-* **Publicera videoklipp automatiskt och direkt vid överföring**: Som en del av videoöverföringen kan Adobe Dynamic Media Classic automatiskt publicera videor när de överförs och kodas. Denna möjlighet att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
+* **Publicera videoklipp automatiskt och direkt vid överföring**: Som en del av videoöverföringen kan Adobe Dynamic Media Classic automatiskt publicera videor när de överförs och kodas. Denna möjlighet till omedelbar publicering innebär att man inte behöver publicera videor separat efter detta.
 
 * **Publicera video manuellt efter överföring**: Om du inte vill publicera videoklipp direkt kan du när som helst publicera videoklipp manuellt.
 
@@ -75,14 +75,14 @@ Se även [Bädda in videovisningsprogrammet på en webbsida](deploying-video-web
 
 ## Bädda in videovisningsprogrammet på en webbsida {#embedding-the-video-viewer-on-a-web-page}
 
-Använd funktionen Bädda in kod när du vill spela upp videon som är inbäddad på webbsidan. Du kopierar inbäddningskoden till Urklipp så att du kan klistra in den på dina webbsidor. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
+Använd funktionen Bädda in kod när du vill spela upp videon som är inbäddad på webbsidan. Du kopierar den inbäddade koden till Urklipp så att du kan klistra in den på dina webbsidor. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 **Så här bäddar du in videovisningsprogrammet på en webbsida:**
 
 1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Video]**, eller **[!UICONTROL Adaptive Video Set]**.
-1. navigera till resursmappen som innehåller den video- eller adaptiva videouppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
+1. navigera till resursmappen som innehåller den video- eller adaptiva videouppsättning vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]** eller **[!UICONTROL List View]**. Dubbelklicka på videominiatyrbilden för en enskild resurs i panelen Resursbläddring för att öppna den i detaljvyn. Välj alternativet under HTTP-direktuppspelning på panelen URL:er och Bädda in kod till höger **[!UICONTROL Embed Code]** till höger om det visningsprogram du vill använda. Välj **[!UICONTROL Embed Code]** som är associerad med `Universal_HTML5_Video` visningsprogram.
@@ -103,11 +103,11 @@ Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deployi
    Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 1. välj **[!UICONTROL Close]**.
-1. Klistra in inbäddningskoden på dina webbsidor.
+1. Klistra in inbäddad kod på dina webbsidor.
 
 ### Implementera inbäddningskod för att använda HTML 5-video med MP4-videoresurser {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Om du inte använder videospelaren Adobe Dynamic Media Classic HTML 5, utan vill använda den inbyggda HTML5 `<video>` -tagg med MP4-videoresurser kan du använda följande exempel på inbäddningskod:
+Du kanske inte vill använda videospelaren Adobe Dynamic Media Classic HTML 5. Om du vill använda den inbyggda HTML5 `<video>` -tagg med MP4-videoresurser kan du använda följande Embed Code-exempel:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -117,7 +117,7 @@ Om du inte använder videospelaren Adobe Dynamic Media Classic HTML 5, utan vill
 </video>
 ```
 
-* Ersätt `"S7 video thumbnail URL"` med videons miniatyrbilds-URL, som är videons miniatyrbild som en användare ser innan de spelar upp videon.
+* Ersätt `"S7 video thumbnail URL"` med videons miniatyrbilds-URL som är videons miniatyrbild som en användare ser innan de spelar upp videon.
 
   Se [Hämta URL-adresser för videominiatyrbilder](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
@@ -131,7 +131,7 @@ Om du inte använder videospelaren Adobe Dynamic Media Classic HTML 5, utan vill
 
 ## Distribuera video med en videospelare från tredje part {#deploying-video-using-a-third-party-video-player}
 
-Om du använder en videospelare från tredje part eller en anpassad videospelare i stället för ett Dynamic Media Classic-videovisningsprogram, får du en direkt video-URL som fungerar för HLS-videoströmning med flera bithastigheter eller progressiv nedladdning.
+Om du använder videospelare från tredje part eller en anpassad videospelare i stället för ett Dynamic Media Classic-videovisningsprogram, får du en direkt video-URL som fungerar för HLS-videoströmning med flera bithastigheter eller progressiv nedladdning.
 
 **Så här distribuerar du video med en videospelare från tredje part:**
 

@@ -9,9 +9,9 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Innan du kan överföra en bildresurs måste du först begära en delad hemlig n
 
 ## Begär en delad hemlig nyckel {#requesting-a-shared-secret-key}
 
-Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) Begär en delad hemlig nyckel i ditt supportfall.
+Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I fallet med teknisk support begär du en delad hemlig nyckel.
 
 I e-postmeddelandet anger du det företagsnamn som du vill använda för att överföra bildresurser. När du har fått nyckeln från Adobe Dynamic Media Classic sparar du den lokalt för framtida bruk.
 
@@ -134,7 +134,7 @@ I följande HTML-formulär kan en användare överföra en resurs. I formuläret
 * En gräns för filstorlek.
 * En lista med filnamnstillägg.
 * Anger om färgprofilen och filnamnet som är associerade med resursen ska bevaras.
-* Om du vill använda Blockera bakgrund. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod.
+* Om en blockerad bakgrund ska användas. Om du aktiverar Blockera bakgrund anger du hörn-, tolerans- och fyllningsmetod.
 Se Blockera bakgrund i [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 * Namnet på filen som ska överföras.
 
@@ -181,7 +181,7 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 | URL-parameter | Obligatoriskt eller valfritt | Värde |
 | --- | --- | --- |
 | `op` | Obligatoriskt | ladda upp |
-| `upload_token` | Obligatoriskt | Överför token för den delade hemliga nyckeln som är associerad med företaget. |
+| `upload_token` | Obligatoriskt | Överför en token för den delade hemliga nyckeln som är associerad med företaget. |
 | `company_name` | Obligatoriskt | Namnet på det företag som utför överföringen. |
 | `file_limit` | Valfritt | Filstorleksgräns i byte för resursen. |
 | `file_exts` | Valfritt | Lista över tillåtna tillägg för bildresursfilen. |

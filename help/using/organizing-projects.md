@@ -10,7 +10,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Gör något av följande om du vill visa, ta bort eller byta namn på en projekt
 
 ## Lägga till resurser i en projektmapp {#adding-assets-to-a-project-folder}
 
-Du kan lägga till bilder i en projektmapp från och med panelen Bläddra eller när du överför filer till Adobe Dynamic Media Classic:
+Du kan lägga till bilder i en projektmapp med början på panelen Bläddra eller när du överför filer till Adobe Dynamic Media Classic:
 
 * **Från panelen Bläddra** markerar du resurserna och drar dem till en projektmapp. Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Välj ett projektmappsnamn i dialogrutan Välj projekt och välj sedan **[!UICONTROL Submit]**.
 

@@ -10,24 +10,24 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
 # Skapa en e-katalog {#creating-an-ecatalog}
 
-När du skapar en e-katalog måste du beställa sidorna, välja sidlayout och länka sidorna genom att rita bildscheman och ange överrullnings- och hypertextlänksdata. Du kan också anpassa innehållsförteckningen så att användarna ser sidnamn i stället för sidnummer i eCatalog Viewer.
+När du skapar en e-katalog måste du beställa sidorna, välja sidlayout och länka sidorna genom att rita bildscheman. Det kräver också att du anger rollover- och hypertextlänksdata. Du kan också anpassa innehållsförteckningen så att användarna ser sidnamn i stället för sidnummer i eCatalog Viewer.
 
 ## Skapa en e-katalog {#create}
 
 Du kan inkludera bildfiler och PDF-filer i din eCatalog.
 
-När du skapar en e-katalog **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+När du skapar en e-katalog **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Alternativet Publicera efter spara är markerat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Vill du publicera efter att ha sparat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
@@ -40,7 +40,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
    * **Markera filerna först**: Välj filer på panelen Bläddra och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
 
-   * **Starta från eCatalog-skärmen**: Gå till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Markera en mapp i resursbiblioteket och dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
+   * **Starta från eCatalog-skärmen**: Gå till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Välj en mapp i resursbiblioteket. Dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
 
      >[!NOTE]
      >
@@ -56,7 +56,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
    * **Sekvensnr**: I listvyn anger du sidnummer i fälten för sekvensnummer.
 
-1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after save]** är markerat (standard).
+1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after a save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**.
 1. I dialogrutan Spara väljer du en mapp där din eCatalog ska lagras. I fältet Filnamn anger du namnet på rotationsuppsättningen.
 1. Välj **[!UICONTROL Save]**.
@@ -65,9 +65,9 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 ## Redigera en e-katalog {#editing-an-ecatalog}
 
-Oavsett om du redigerar en publicerad uppsättning eller en opublicerad uppsättning kan du **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+Oavsett om du redigerar en publicerad uppsättning eller en opublicerad uppsättning kan du **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Har du redan publicerat? | Alternativet Publicera efter spara är markerat innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | Alternativet&quot;Publicera efter att du har sparat&quot; är markerat innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -80,7 +80,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 1. Välj eCatalogs överrullning **[!UICONTROL Edit]** -knappen.
 1. Gör önskade ändringar.
-1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
+1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.
 
 ## Ta bort en e-katalog
@@ -98,7 +98,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 Adobe Dynamic Media Classic tillhandahåller standardsidnummer i din eCatalog på fliken Ordna sidor på skärmen eCatalog. För anpassade sidnamn kan du ändra de sidetiketter som utgör innehållsförteckningen. Vi rekommenderar att du byter namn på framsidan och baksidan. Försättsbladet kan t.ex. vara &quot;Omslag&quot; i stället för &quot;Sida 0-1&quot;.
 
-Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt eller genom att importera sidnamnen från en CSV-fil (endast Mac) eller XML-fil.
+Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt. Du kan också importera sidnamnen från en CSV-fil (endast Mac) eller en XML-fil.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt eller
 
 ### Ange sidnamn manuellt {#manually-entering-page-names}
 
-Om du vill ange sidnamn manuellt, en åt gången, går du till fliken Ordna sidor på skärmen för eCatalog. I sidnummerfältet anger du sedan ett namn för varje sida som du vill namnge.
+Ange sidnamn manuellt en i taget genom att gå till fliken Ordna sidor på skärmen eCatalog. I sidnummerfältet anger du sedan ett namn för varje sida som du vill namnge.
 
 ### Importera sidnamn {#importing-page-names}
 

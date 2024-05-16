@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Söka efter resurser i Adobe Dynamic Media Classic{#searching-assets}
 
-Om du vill söka efter filresurser i Adobe Dynamic Media Classic kan du visa resurser efter typ, sortera resurser på panelen Bläddra, utföra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
+Om du vill söka efter filresurser i Adobe Dynamic Media Classic kan du visa resurser efter typ, sortera resurser i panelen Bläddra, utföra en enkel sökning, utföra en avancerad sökning och filtrera efter resurser.
 
 >[!NOTE]
 >

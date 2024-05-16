@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -23,25 +23,25 @@ Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt s�
 
 >[!NOTE]
 >
->Tidigare versioner av Adobe Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Adobe Dynamic Media Classic kan du inte spara den endimensionella snurra uppsättningen utan att först spara den under ett annat namn. Välj **[!UICONTROL Save As]** i fönstret för att ange ett nytt namn så att du kan redigera det i Adobe Dynamic Media Classic.
+>Tidigare versioner av Adobe Dynamic Media Classic hade inte tvådimensionella snurruppsättningar. Om du har skapat en snurra uppsättning i en tidigare version av Adobe Dynamic Media Classic kan du spara den under ett annat namn och sedan spara den endimensionella snurra uppsättningen. Välj **[!UICONTROL Save As]** i fönstret för att ange ett nytt namn så att du kan redigera det i Adobe Dynamic Media Classic.
 
 ## Riktlinjer för fotografering av snurra uppsättningsbilder {#guidelines-for-shooting-spin-set-images}
 
 Ju fler bilder du har i en snurra desto bättre blir effekten av att snurra. Om du inkluderar många bilder i uppsättningen ökar dock tiden det tar för bilderna att läsas in. Adobe Dynamic Media Classic rekommenderar följande riktlinjer för att ta bilder för användning i snurra uppsättningar:
 
-* Använd minst 8-12 bilder i en endimensionell snurra och 16-24 bilder i en tvådimensionell snurra.
+* Använd minst 8-12 bilder i en endimensionell snurruppsättning och 16-24 bilder i en tvådimensionell snurra uppsättning.
 * Använd ett icke-förstörande format; TIFF och PNG rekommenderas.
 * Maskera alla bilder så att objektet visas på en helt vit eller annan högkontrastbakgrund. Du kan också lägga till skuggor.
 * Se till att produktinformationen är väl belyst och i fokus.
-* Ta snurra bilder till modekläder med mannequin eller modell. Ofta är mannequin antingen maskerat (med hjälp av en glasmannequin) eller en stiliserad mannequin/form visas i bilden. Du kan skapa en snurra på modellen genom att definiera antalet vinklar. Markera varje vinkel med band på golvet så att du kan vägleda modellen till steg och titta i riktningen för varje tagning.
+* Ta snurra bilder till modekläder med mannequin eller modell. Ofta är mannequin antingen maskerat (med hjälp av en glasmannequin) eller en stiliserad mannequin/form visas i bilden. Du kan skapa en snurruppsättning i modellen genom att definiera antalet vinklar. Markera varje vinkel med band på golvet så att du kan vägleda modellen till steg och titta i riktningen för varje tagning.
 
 ## Skapa en snurra uppsättning {#create}
 
 Den ordning i vilken rotationsrutan skapas eller skapas i Adobe Dynamic Media Classic är viktig. Beroende på hur du ordnar resurserna när du drar och släpper bilder i rutnätet på sidan Snurra uppsättning, snurrar den i en viss riktning. Därför är den ordning i vilken resursen visas visuellt i byggaren hur resursen snurras när en användare flyttar muspekaren eller flyttar fingret, från vänster till höger.
 
-När du skapar en uppsättning **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+När du skapar en uppsättning **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| **[!UICONTROL Publish after save]** markerat alternativ innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| **[!UICONTROL Publish after a save]** markerat alternativ innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
@@ -63,7 +63,7 @@ När du har sparat en snurruppsättning kan du använda Förhandsvisning på sid
 1. På **[!UICONTROL Build]** nedrullningsbar meny, välja **[!UICONTROL Spin Sets]**.
 1. Ange antalet rader och celler som du vill ha i dialogrutan Ange storlek för snurra.
 
-   Om du vill skapa en endimensionell snurruppsättning markerar du endast en rad.
+   Om du vill skapa en endimensionell snurra uppsättning markerar du endast en rad.
 
    Om du vill skapa en tvådimensionell snurra uppsättning markerar du två eller flera rader.
 
@@ -76,9 +76,9 @@ När du har sparat en snurruppsättning kan du använda Förhandsvisning på sid
 
 ## Redigera en snurra uppsättning {#editing-a-spin-set}
 
-Oavsett om du redigerar en publicerad uppsättning eller en opublicerad uppsättning kan du **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+Oavsett om du redigerar en publicerad uppsättning eller en opublicerad uppsättning kan du **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | **[!UICONTROL Publish after a save]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -100,7 +100,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually-publishing-a
 
    * **Lägga till rader och celler**: Ange en siffra i rutorna Rader och Celler för att bestämma antalet rader och antalet celler i varje rad.
 
-1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
+1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.
 
 ## Ta bort en snurruppsättning

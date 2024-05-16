@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Du kan flytta resurser till olika mappar i panelen Bläddra.
 
 ## Byt namn på resurser {#rename-assets}
 
-1. Markera resursen i panelen Bläddra och gör något av följande:
+1. Markera resursen på panelen Bläddra och gör något av följande:
 
    * Markera namnet, skriv in ett nytt namn och tryck på **[!UICONTROL Enter]** eller välj någon annanstans än i namnet.
    * Gå till **[!UICONTROL File]** > **[!UICONTROL Rename]**. Namnet på resursen markeras. Ange ett nytt namn och tryck på **[!UICONTROL Enter]**. Se till att du inte anger namnet på en befintlig Adobe Dynamic Media Classic-resurs.
@@ -43,7 +43,7 @@ Du kan flytta resurser till olika mappar i panelen Bläddra.
 
 Du kan ta bort markerade resurser på panelen Bläddra och ta bort hela mappar. Borttagna resurser och mappar flyttas till papperskorgen, där de finns kvar i sju dagar innan de tas bort permanent.
 
-När du tar bort en resurs tas även alla resurser som är härledda från den bort. Om du t.ex. tar bort en bild som du har skapat zoommål för tas även zoommålen bort tillsammans med bilden.
+När du tar bort en resurs tas även alla resurser som är härledda från den bort. Om du t.ex. tar bort en bild som du har skapat zoommål för tas zoommålen bort tillsammans med bilden.
 
 Zoommål, bildattribut och historikposter tas bort permanent när du tar bort de resurser som de härleds från. De flyttas inte tillsammans med resursen till papperskorgen utan kan inte återställas från papperskorgen.
 
@@ -71,7 +71,7 @@ Skapa en lista med Adobe Dynamic Media Classic-id:n och spara den som en textfil
 När du har skapat listan följer du de här stegen för att använda den för att ta bort resurser:
 
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Delete Asset List]**.
-1. I **[!UICONTROL Deleted Asset list]** , bläddra eller ange sökvägen till textfilen med listan över resurser som du vill ta bort.
+1. I **[!UICONTROL Deleted Asset list]** anger du sökvägen till textfilen med listan över resurser som du vill ta bort.
 1. Välj **[!UICONTROL Delete]**.
 
 När du tar bort resurser med en textfil visas meddelandet&quot;Det går inte att validera de här posterna i listan:&quot; om något Adobe Dynamic Media Classic-ID inte finns med i listan. Listan med poster visas också. Adobe Dynamic Media Classic genererar dock inget fel på jobbsidan.

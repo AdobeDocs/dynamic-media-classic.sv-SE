@@ -10,7 +10,7 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 1. I beskärningsredigeraren placerar du den del av bilden som du inte vill beskära i beskärningsrutan. Vad som än visas i rutan är vad som återstår efter att du har valt **[!UICONTROL Save]** och beskära bilden.
 1. Justera beskärningsområdet genom att göra något av följande:
 
-   * Dra en sida eller ett hörn av rutan. Håll ned Skift-tangenten när du drar om du vill ändra storlek men behålla proportionerna (formen) för beskärningsrutan.
+   * Dra en sida eller ett hörn av rutan. Håll ned Skift-tangenten när du drar om du vill ändra storleken men behålla proportionerna (formen) för beskärningsrutan.
    * Ange pixelmått i rutorna Storlek.
    * Dra för att flytta beskärningsrutan. Flytta pekaren innanför rutans kant. När du ser den fyrhövdade pilen drar du rutan till en ny plats i bilden.
 

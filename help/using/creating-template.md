@@ -10,7 +10,7 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '3261'
 ht-degree: 0%
@@ -29,9 +29,9 @@ Se även [Grundläggande om mallar](https://s7d5.scene7.com/s7viewers/html5/Vide
 
 ## Skapa den ursprungliga mallen {#creating-the-initial-template}
 
-När du skapar en malluppsättning **[!UICONTROL Publish after saving]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+När du skapar en malluppsättning **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| **[!UICONTROL Publish after saving]** markerat alternativ innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| **[!UICONTROL Publish after a save]** markerat alternativ innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
@@ -50,7 +50,7 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 
 1. Ange mallens bredd- och höjdmått i dialogrutan Ange storlek på arbetsyta.
 1. Markera en mapp i resursbiblioteket och dra PSD-filen eller bilderna som du vill använda för mallen till mallskärmen.
-1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after saving]** är markerat (standard).
+1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after a save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**.
 1. Välj en mapp där du vill lagra mallen, ange ett namn för mallen och välj **[!UICONTROL Submit]**.
 
@@ -58,9 +58,9 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, välj **[!UICONTROL
 
 ## Redigera en malluppsättning {#editing-a-template-set}
 
-Oavsett om du redigerar en publicerad uppsättning eller en opublicerad malluppsättning **[!UICONTROL Publish after saving]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+Oavsett om du redigerar en publicerad uppsättning eller en opublicerad malluppsättning **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Har du redan publicerat? | **[!UICONTROL Publish after saving]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | **[!UICONTROL Publish after a save]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -73,7 +73,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 1. I stödrastervyn bläddrar du till en malluppsättning och väljer sedan under bilden **[!UICONTROL Edit]**.
 1. Ändra mallen efter behov.
-1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after saving]** är markerat (standard).
+1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.
 
 ## Ta bort en mall

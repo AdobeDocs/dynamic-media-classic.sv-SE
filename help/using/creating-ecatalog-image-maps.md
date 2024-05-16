@@ -10,7 +10,7 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Om du vill ta bort en bildschema markerar du dess namn i listan Bildschema och v
 
 ## Bädda in multimedia i en e-katalog {#embedding-rich-media-in-an-ecatalog}
 
-Med alternativet Multimedia i eCatalog kan du lägga till videoklipp i MP4-format eller snurruppsättningar i bildscheman som du har lagt till i en e-katalog. När en användare väljer området Bildschema i eCatalog visas den tillhörande rotationsuppsättningen eller videon. Den här funktionen är särskilt användbar om du vill att kunderna ska se ett objekt som används eller se ett objekt från olika vinklar och perspektiv.
+Du kan använda alternativet Multimedia i eCatalog för att lägga till videoklipp i MP4-format eller Snurra uppsättningar i bildscheman som du har lagt till i en e-katalog. När en användare väljer området för bildschema i eCatalog visas den tillhörande snurrsuppsättningen eller videon. Den här funktionen är särskilt användbar om du vill att kunderna ska se ett objekt som används eller se ett objekt från olika vinklar och perspektiv.
 
 Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildschemat så att de vet vad de väljer.
 
@@ -66,7 +66,7 @@ Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildsche
    Se [Rita eCatalog-bildscheman](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. Välj i listrutan Visa **[!UICONTROL Rich Media]**.
-1. I panelen Lägg till resurser till vänster navigerar du till en mapp som innehåller den rotationsuppsättning eller videoresurs (MP4-format) som du vill bädda in.
+1. I panelen Lägg till resurser till vänster navigerar du till en mapp som innehåller den snurra uppsättning eller videouppsättning (MP4-format) som du vill bädda in.
 1. Dra resursen till bildkartan.
 1. (Valfritt) I listpanelen Bildschema, under **[!UICONTROL Tool Tip]** kolumnrubriken anger du den text som du vill att tittarna ska se på skärmen när de flyttar sin pekare över bildschemat.
 1. Välj **[!UICONTROL Save]**.

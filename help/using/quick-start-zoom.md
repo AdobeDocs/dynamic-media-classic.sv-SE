@@ -10,7 +10,7 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -37,7 +37,7 @@ I fältet Global navigering väljer du **[!UICONTROL Upload]** för att överfö
 
 ## 2. Skapa zoommål för guidad zoomning
 
-Med zoomningsmål kan du markera specifika delar av en bild. Du kan till exempel rikta uppmärksamheten mot de delar av en bild som gör den unik eller distinkt. I zoomvisningsfönstret visas zoommål i form av miniatyrbilder på bildens sida. Om du väljer en av dessa zoommålminiatyrer zoomas automatiskt en del av bilden som du anger.
+Med zoomningsmål kan du markera specifika delar av en bild. Du kan till exempel rikta uppmärksamheten mot de delar av en bild som gör den unik eller distinkt. Zoommål visas i form av miniatyrbilder på bildens sida i zoomvisningsfönstret. Om du väljer en av dessa zoommålminiatyrer zoomas automatiskt en del av bilden som du anger.
 
 Om du vill skapa ett zoommål väljer du **[!UICONTROL Edit]** och väljer Zoommål eller öppnar en bild i panelen Bläddra i detaljvyn och väljer **[!UICONTROL Zoom Targets]**. Använd sedan zoomverktygen på sidan Zoommålredigerare så att du kan isolera en del av bilden som ett mål. Se [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
@@ -55,7 +55,7 @@ Du kan förhandsvisa bilder i ett zoomvisningsprogram för att se vad zoomupplev
 
 Om du vill utforska olika förinställningar för Zoomvisning och hur de visar zoomupplevelsen markerar du en bild i panelen Bläddra och väljer **[!UICONTROL Preview]**. Gå till **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** och välj sedan en förinställning med menyn Zooma.
 
-Zoomknappar visas. Du ser hur zoombilderna ser ut på webbplatsen. Markera zoomknapparna (och zoomningsmålen) så att du kan testa inställningarna för den förinställning för Zoomvisning som du har valt. Se [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Zoomknappar visas. Du ser hur zoombilderna ser ut på webbplatsen. Markera zoomknapparna (och zoommålenheterna) så att du kan testa inställningarna för den förinställning för Zoomvisningsprogrammet som du har valt. Se [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publicera zoombilder
 

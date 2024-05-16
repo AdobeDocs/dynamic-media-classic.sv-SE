@@ -10,9 +10,9 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Med en snurra uppsättning kan du simulera hur det ser ut när du vrider ett objekt för att undersöka det. Med snurra uppsättningar kan du visa objekt från vilken vinkel som helst och få fram viktiga visuella detaljer från vilken vinkel som helst. Med en snurra uppsättning simuleras en 360-graders visningsupplevelse. Adobe Dynamic Media Classic erbjuder endimensionella snurruppsättningar där tittarna kan rotera ett objekt och tvådimensionella snurruppsättningar där tittarna kan rotera och vända objektet. Dessutom kan man zooma och panorera med ett par musklick. På så sätt kan användare undersöka ett objekt närmare från en viss betraktningsvinkel.
 
-![Bilder för en snurra uppsättning.](/help/using/assets/spin_set.png)
+![Bilder för en snurruppsättning.](/help/using/assets/spin_set.png)
 
-Du kan även använda snurruppsättningar för bildscheman. En bildschema är ett område i en bild i den snurrande uppsättningen som visar en överrullningspanel med text. När användaren väljer en bildschema utlöses en åtgärd av något slag. En webbsida startas till exempel så att användaren kan lära sig mer om en produkt. Om du vill peka ut ett bildschema i en snurruppsättning visas en kontur runt själva bildschemat när användaren flyttar muspekaren över den.
+Du kan även använda snurruppsättningar för bildscheman. En bildschema är ett område i en bild i den snurrande uppsättningen som visar en överrullningspanel med text. När användaren väljer en bildschema utlöses en åtgärd av något slag. En webbsida startas till exempel så att användaren kan lära sig mer om en produkt. Om du vill peka ut en bildschema i en snurruppsättning visas en kontur runt själva bildschemat när användaren flyttar muspekaren över den.
 
 Se [Skapa bildscheman](creating-image-maps.md).
 
@@ -55,7 +55,7 @@ Se [Skapa en snurra uppsättning](creating-spin-set.md#creating-a-spin-set).
 
 ## 3. Redigera en snurruppsättning
 
-Om du vill redigera en snurruppsättning går du till fältet Global navigering **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Markera en snurra och välj sedan **[!UICONTROL Edit]**. Lägg till, ta bort och ändra placeringen av bilder. Du kan ändra placeringen av rader i tvådimensionella snurruppsättningar.
+Om du vill redigera en snurruppsättning går du till fältet Global navigering **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. Markera en snurra uppsättning och välj sedan **[!UICONTROL Edit]**. Lägg till, ta bort och ändra placeringen av bilder. Du kan ändra radplaceringen i tvådimensionella snurruppsättningar.
 
 Se [Redigera en snurra uppsättning](creating-spin-set.md#editing-a-spin-set).
 
@@ -69,7 +69,7 @@ Se [Ställ in snurra Ställ in visningsförinställningar](setting-spin-set-view
 
 ## 5. Förhandsgranska en snurruppsättning
 
-Välj din snurruppsättning på panelen Bläddra och välj sedan **[!UICONTROL Preview]**. Håll ned musknappen på förhandsgranskningssidan och dra pekaren åt vänster eller höger för att se objektet&quot;snurra&quot; visuellt.
+Välj din snurra uppsättning på panelen Bläddra och välj sedan **[!UICONTROL Preview]**. Håll ned musknappen på förhandsgranskningssidan och dra pekaren åt vänster eller höger för att se objektet&quot;snurra&quot; visuellt.
 
 Se [Förhandsgranska en snurra uppsättning](previewing-spin-set.md#previewing-a-spin-set).
 
@@ -77,7 +77,7 @@ Se [Förhandsgranska en snurra uppsättning](previewing-spin-set.md#previewing-a
 
 När du publicerar en snurruppsättning placeras den på Adobe Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image Servers till din webbplats eller ditt program.
 
-Om du vill publicera en snurruppsättning markerar du den för publicering genom att välja **[!UICONTROL Mark for Publish]** -ikonen bredvid namnet på panelen Bläddra. I fältet Global navigering väljer du **[!UICONTROL Publish]** för att starta en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
+Om du vill publicera en snurruppsättning markerar du den för publicering genom att välja **[!UICONTROL Mark for Publish]** bredvid namnet på panelen Bläddra. I fältet Global navigering väljer du **[!UICONTROL Publish]** för att starta en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
 
 Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set).
 

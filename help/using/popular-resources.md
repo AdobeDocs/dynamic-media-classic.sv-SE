@@ -7,7 +7,7 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 0%

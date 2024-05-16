@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -76,7 +76,7 @@ När du publicerar en bilduppsättning placeras den på Adobe Dynamic Media Clas
 
 >[!NOTE]
 >
->Detta steg är inte nödvändigt om du har valt **[!UICONTROL Publish after save]** (standard) när du skapade och sparade bilduppsättningen.
+>Detta steg är inte nödvändigt om du har valt **[!UICONTROL Publish after a save]** (standard) när du skapade och sparade bilduppsättningen.
 
 Välj **[!UICONTROL Mark for Publish]** till vänster om namnet på panelen Bläddra. Välj sedan **[!UICONTROL Publish]**. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
 

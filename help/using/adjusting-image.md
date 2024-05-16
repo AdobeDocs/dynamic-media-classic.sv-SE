@@ -10,7 +10,7 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '516'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
    * Om du vill spara bilden som en ny primär bild väljer du **[!UICONTROL Save As]**.
 
-     Välj **[!UICONTROL Save as new primary]**.
+     Välj **[!UICONTROL Save as a new primary]**.
 I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
 Välj **[!UICONTROL Save]**.
 
@@ -57,7 +57,7 @@ Välj **[!UICONTROL Save]**.
 
 ## Skapa ett alias för en bild {#creating-an-alias-for-an-image}
 
-När du har justerat en bild kan du spara den som en annan vy av den primära bilden. Om du vill göra det kan du skapa ett alias för bilden med **[!UICONTROL Save as another view of primary]** -funktion.
+När du har justerat en bild kan du spara den som en annan vy av den primära bilden. Om du vill göra det kan du skapa ett alias för bilden med **[!UICONTROL Save as another view of the primary]** -funktion.
 
 **Så här skapar du ett alias för en bild:**
 

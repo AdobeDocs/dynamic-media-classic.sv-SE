@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -72,9 +72,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Webbläsare
 
-* **[!UICONTROL Thumbnail Size]**: Bestämmer standardstorleken för miniatyrbilder i Stödrastervisning på panelen Bläddra.
+* **[!UICONTROL Thumbnail Size]**: Bestämmer standardstorleken för miniatyrbilder i Stödrastervisning i panelen Bläddra.
 * **[!UICONTROL Default Asset Library View]**: Avgör om resurserna i resursbiblioteket för uppsättningar visas som miniatyrer eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
-* **[!UICONTROL Default Browse Sort Order]**: Bestämmer i vilken ordning som resurser visas som standard på panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
+* **[!UICONTROL Default Browse Sort Order]**: Bestämmer i vilken ordning som resurser visas som standard i panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
 * **[!UICONTROL Default Browse Location]**: Gör att du kan ange att bläddringsplatsen ska vara standard, den senast öppnade mappen eller en viss plats som du kan navigera till och identifiera. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
 * **[!UICONTROL Default Browse View]**: Avgör om stödrastervyn eller listvyn är standardvyn som du ser när du först öppnar panelen Bläddra.
 * **[!UICONTROL Splash Screen Display]**: Avgör om det visas några välkomstskärmar, inklusive välkomstvälkomstskärmen.
@@ -83,7 +83,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL Show File Size]**: Visar filstorleken för en resurs när du bläddrar.
 * **[!UICONTROL Include UDFs in Search]**: För att förbättra systemprestanda för de flesta metadatasökningar som du kör avmarkerat (standard).
 
-  Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Alternativt kan du använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än att inkludera användardefinierade fält.
+  Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Alternativt kan du använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än om du inkluderar användardefinierade fält.
 
   Se [Använda avancerad sökning](searching-assets.md#conducting_an_advanced_search).
 
@@ -107,7 +107,7 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 * **[!UICONTROL Current Password]**: Ange lösenordet för ditt nuvarande lösenord.
 * **[!UICONTROL New Password]**: Ange ett nytt, giltigt lösenord. Lösenordet måste uppfylla följande krav:
-   * Var mellan 8 och 25 tecken lång.
+   * Det måste vara mellan 8 och 25 tecken långt.
    * Innehåller minst en gemen.
    * Innehåller minst en versal.
    * Innehåller minst en siffra.

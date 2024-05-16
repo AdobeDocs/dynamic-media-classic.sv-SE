@@ -10,9 +10,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '814'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dyna
 
 ## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
 
-Om du vill lägga till dynamiska bilder på webbsidan `<IMG>` -taggen i webbsideskoden för HTML ändras vanligtvis med Adobe Dynamic Media Classic URL-sträng för att göra en förfrågan till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
+När du lägger till dynamiska bilder på en webbsida `<IMG>` -taggen i HTML-sidkoden ändras vanligtvis med Adobe Dynamic Media Classic URL-sträng för att göra en förfrågan till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 
 I stället för det vanliga anropet för att öppna en statisk bild som
 

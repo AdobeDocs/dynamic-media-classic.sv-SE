@@ -10,9 +10,9 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Mer information och kodexempel finns i [Bädda in HTML5 eCatalog Viewer i refere
 
 Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda e-katalogen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
-**Så här kopierar du inbäddningskoden för ett eCatalog-visningsprogram:**
+**Så här kopierar du inbäddningskod för ett eCatalog-visningsprogram:**
 
 1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Catalog]**.
 1. navigera till resursmappen som innehåller den eCatalog vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.

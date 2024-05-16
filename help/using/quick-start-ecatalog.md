@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Beroende på vilka inställningar du väljer för din eCatalog kan du göra föl
 * Flytta pekaren över ett sidområde (kallas bildschema) så att du kan se ett popup-fönster med information om ett objekt.
 * Markera ett sidområde så att en ny webbsida öppnas med mer information om ett objekt.
 * Skriv en anteckning och bifoga den till en e-katalogsida.
-* Tryck på ikoner för bildschema om du vill starta relaterade webbsidor eller informationspaneler i sitt sammanhang.
+* Tryck på ikonerna för bildschema om du vill starta relaterade webbsidor eller infopaneler i sitt sammanhang.
 * Använd gester, till exempel nypa för att zooma och svepa för att vända sidor.
 * Sök efter objekt med nyckelord.
 
@@ -92,7 +92,7 @@ Se [Skapa eCatalog-bildscheman](creating-ecatalog-image-maps.md#creating-ecatalo
 
 Se [Använd bildscheman för att bädda in multimedia i en e-katalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-Du kan ställa in och hantera bildschematexten med hjälp av inställningarna i panelen Info på eCatalog-skärmen.
+Du kan ställa in och hantera bildschematexten med hjälp av inställningarna i panelen Info på skärmen för eCatalog.
 
 Se [Hantera innehåll i informationspanelen i e-kataloger](/help/using/info-panel-content-ecatalog.md).
 
@@ -118,7 +118,7 @@ Se [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalo
 
 När du publicerar din e-katalog och tillhörande PDF placeras den på Dynamic Media bildservrar så att den kan levereras till din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen för din eCatalog. Använd denna URL för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
 
-När du har markerat din e-katalog och PDF för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att starta en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
+När du har markerat din e-katalog och PDF för publicering på panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att initiera en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
 
 Se [Publicera e-kataloger och tillhörande PDF](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
