@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic-datorprogram - nu tillgängligt {#new-ui-2020}
+# Adobe Dynamic Media Classic-datorprogram: Ute nu {#new-ui-2020}
 
 Se [Adobe Dynamic Media Classic datorprogram](/help/using/dynamic-media-classic-desktop-app.md) om du vill se systemkraven hämtar och installerar du det nya programmet och loggar sedan in på det.
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic-användare har nu tillgång till en ny inloggning so
 ## Vanliga frågor
 
 +++**_Kommer webbläsarna att ha någon effekt på Adobe Dynamic Media Classic (tidigare Scene7) när de slutar stödja Adobe Flash den 31 december 2020?_**
-Adobe Flash Player var en webbläsarplugin som gjorde att webbläsare kunde använda innehåll som utvecklats på Adobe Flash Platform. Adobe Dynamic Media Classic webbgränssnitt (nu med etiketten [!DNL Scene7 Publishing System] eller [!DNL SPS] i produkten) som krävs för Flashen Player Adobe. När Adobe Flash är borttagen den 31 december 2020 kommer Adobe Dynamic Media Classic-kunder inte längre att kunna logga in i webbanvändargränssnittet. På grund av den här förändringen har Adobe försett kunderna med ett skrivbordsprogram som ersätter webbläsarupplevelsen.
+Adobe Flash Player var en webbläsarplugin som gjorde att webbläsare kunde använda material som utvecklats i Adobe Flash Platform. Adobe Dynamic Media Classic webbgränssnitt (nu med etiketten [!DNL Scene7 Publishing System] eller [!DNL SPS] i produkten) som krävs för Flashen Player Adobe. När Adobe Flash är borttagen den 31 december 2020 kommer Adobe Dynamic Media Classic-kunder inte längre att kunna logga in i webbgränssnittet. På grund av den här förändringen har Adobe försett kunderna med ett skrivbordsprogram som ersätter webbläsarupplevelsen.
 +++
 
 +++**_Hur får jag tillgång till det nya datorprogrammet?_**
@@ -110,4 +110,4 @@ Om du vill veta mer om fördelarna med att uppgradera till nästa generation av 
 >* [Logga in på och ut från Adobe Dynamic Media Classic datorprogram](/help/using/signing-out.md)
 >* [Hämta och installera Adobe Dynamic Media Classic datorprogram](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

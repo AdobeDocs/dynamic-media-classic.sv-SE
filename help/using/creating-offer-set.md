@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Adobe Dynamic Media Classic har verktyg för redigering och framtagning av erbju
 
 Skapa en erbjudandeuppsättning av följande typer av erbjudandeuppsättningar:
 
-* **Bilder** - Du kan sätta ihop bilder för en uppsättning erbjudanden. Varje bild har ett eget erbjudande.
+* **Bilder**: Du kan sätta ihop bilder för en erbjudandeuppsättning. Varje bild har ett eget erbjudande.
 
-* **Bildmall** - Du kan parametrisera bildmallar i Adobe Dynamic Media Classic med **[!UICONTROL Build]** > Mallgrunder. Med hjälp av parametrar kan mallkomponenter - texten i textramar och de olika bilderna - bytas ut och anpassas. För en erbjudandeuppsättning kan du till exempel använda mallparametrar för att skapa varianter på samma bild i din erbjudandeuppsättning. Mer information om hur du skapar och parametriserar bildmallar finns i [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
+* **Bildmall**: Du kan parametrisera bildmallar i Adobe Dynamic Media Classic med **[!UICONTROL Build]** > Mallgrunder. Med hjälp av parametrar kan mallkomponenter - texten i textramar och de olika bilderna - bytas ut och anpassas. För en erbjudandeuppsättning kan du till exempel använda mallparametrar för att skapa varianter på samma bild i din erbjudandeuppsättning. Mer information om hur du skapar och parametriserar bildmallar finns i [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
 
 Se även [Grundläggande om mallar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) utbildningsvideo.
 
-* **Video** - Du kan sammanställa video för ett erbjudande. Varje video är ett separat erbjudande i uppsättningen.
+* **Video**: Du kan samla ihop video för ett erbjudande. Varje video är ett separat erbjudande i uppsättningen.
 
 ## Skapa en erbjudandeuppsättning med en parametriserad mall {#creating-an-offer-set-with-a-parameterized-template}
 
@@ -93,9 +93,9 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 1. Sammanställ bilder eller videor för uppsättningen. Starta i fönstret Test&amp;Target Offer Set eller i Stödrastervisning eller listvy och använd någon av följande metoder:
 
-   * **Test&amp;Target Offer Set screen** - Gå till **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**. Dra bilder eller videoklipp till skärmen. Om du vill skapa olika storlekar för videoklipp eller bilder drar du i flera kopior av bilden eller videon och anger varje storlek för sig.
+   * **Test&amp;Target Offer Set screen**: Gå till **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**. Dra bilder eller videoklipp till skärmen. Om du vill skapa olika storlekar för videoklipp eller bilder drar du i flera kopior av bilden eller videon och anger varje storlek för sig.
 
-   * **Stödrastervisning eller listvy** - Markera bilderna eller videoklippen och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
+   * **Stödrastervisning eller listvy**: Välj bilder eller videoklipp och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
 
 1. Du kan också markera en bild eller video och välja **[!UICONTROL Preview]**. På sidan Förhandsvisningserbjudanden kan du ändra storlek och utseende för den bild eller video som du har valt. Eller så kan du ändra alla bilder eller videor i erbjudandeuppsättningen.
 
@@ -127,10 +127,10 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 1. Om du vill redigera en erbjudandeuppsättning visar du erbjudandeuppsättningen i Stödrastervisning eller listvy och väljer sedan dess **[!UICONTROL Edit]** överrullningsknapp.
 1. Gör något av följande på sidan Test&amp;Target Offer Set:
 
-   * **Ta bort ett erbjudande** - Välj erbjudandet och välj sedan **[!UICONTROL Delete]** för att ta bort ett erbjudande från uppsättningen.
-   * **Lägga till ett erbjudande** - Hur du lägger till ett erbjudande beror på vilken typ av erbjudande du arbetar med:
-      * **Mallar** - Välj **[!UICONTROL Add & Preview]** och på sidan Lägg till och förhandsgranska erbjudanden skapar du ett annat erbjudande.
-      * **Bilder och videor** - Dra en bild eller video till sidan Test&amp;Target Offer Set.
+   * **Ta bort ett erbjudande**: Välj erbjudandet och välj sedan **[!UICONTROL Delete]** för att ta bort ett erbjudande från uppsättningen.
+   * **Lägga till ett erbjudande**: Hur du lägger till ett erbjudande beror på vilken typ av erbjudande du arbetar med:
+      * **Mallar**: Välj **[!UICONTROL Add & Preview]** och på sidan Lägg till och förhandsgranska erbjudanden skapar du ett annat erbjudande.
+      * **Bilder och videor**: Dra en bild eller video till sidan Test&amp;Target Offer Set.
 
    >[!NOTE]
    >

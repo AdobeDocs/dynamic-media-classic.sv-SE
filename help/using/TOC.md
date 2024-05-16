@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic Guide
 breadcrumb-title: Dynamic Media Classic Guide
 user-guide-description: Läs mer om hur du använder Adobe Dynamic Media Classic
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 + [NYTT Inloggningsloggen för Adobe Dynamic Media Classic är nu tillgänglig](new-ui-2020.md)
 + [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
 + Nu kommer Adobe Dynamic Media Classic {#intro}
-   + [Adobe Dynamic Media Classic-datorprogram - nu tillgängligt](dynamic-media-classic-desktop-app.md)
+   + [Adobe Dynamic Media Classic-datorprogram: Ute nu](dynamic-media-classic-desktop-app.md)
    + [Om Adobe Dynamic Media Classic Hjälp](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
    + [Nyheter](whats-new.md)
@@ -87,7 +87,7 @@ ht-degree: 0%
    + [Överför primära bilder](uploading-master-images.md)
    + [Publicera primära bilder](publishing-master-images.md)
    + [Konfigurera bildförinställningar](setting-image-presets.md)
-   + [Länka URL:er till ditt webbprogram](linking-urls-web-application.md)
+   + [Länka URL:er till webbprogrammet](linking-urls-web-application.md)
 + Zooma {#zoom}
    + [Snabbstart: Zooma](quick-start-zoom.md)
    + [Överför zoombilder](uploading-zoom-images.md)

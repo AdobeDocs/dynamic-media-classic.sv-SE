@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic-datorprogram - nu tillgängligt
-description: Läs mer om Adobe Dynamic Media Classic desktop-program.
+title: Adobe Dynamic Media Classic desktop
+description: Läs mer om Adobe Dynamic Media Classic desktop-program som nu finns.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: afc347201b13c3b91ec5e1bd3ac5304442772f8d
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1903'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Upgrade notification inom Adobe Dynamic Media Classic desktop application is not
 
 ## Fixed in the latest release (20.22.2) macOS only {#release-feb2022}
 
-* macOS Monterey - filöverföringssidan har frysts vid efterföljande överföringar. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
+* macOS Monterey: Filöverföringssidan låses vid efterföljande överföringar. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## Korrigeringar i den senaste versionen (20.22.1) {#release-jan2022}
 
@@ -99,21 +99,21 @@ Se även:
 
    * Den senaste versionen finns på följande webbplats:
 
-      * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+      * [macOS (.DMG): Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE): Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * Den tidigare versionen finns på följande webbplats:
 
-      * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+      * [macOS (.DMG): Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+      * [Windows® (.EXE): Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
-<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
+<!--         * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
-<!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+<!--    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+        * [Windows&reg; (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
-<!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-        * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
+<!--    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+        * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
 
 
 1. Gör något av följande beroende på vilket installationsprogram du har laddat ned.
@@ -158,7 +158,7 @@ Hämta och *tyst* installera den senaste versionen av Adobe Dynamic Media Classi
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet för macOS.
 
-   * [macOS (.DMG) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+   * [macOS (.DMG): Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. Montera den hämtade diskavbildningen (.DMG) på en monteringsplats med följande kommando:
 
@@ -168,7 +168,7 @@ Hämta och *tyst* installera den senaste versionen av Adobe Dynamic Media Classi
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-   Unmount DMG - hdiutil detach <mount_point_path>
+   Unmount DMG: hdiutil detach <mount_point_path>
    ```
 
 1. När du öppnar programmet visas den nya Adobe Dynamic Media Classic Sign-in-sidan:
@@ -201,7 +201,7 @@ Hämta och *tyst* installera den senaste versionen av Adobe Dynamic Media Classi
 
 1. Hämta det senaste installationsprogrammet för Adobe Dynamic Media Classic-datorprogrammet.
 
-   * [Windows® (.EXE) - nedladdning](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * [Windows® (.EXE): Ladda ned](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
 1. Kör installationsprogrammet i postläge med följande kommando:
 
@@ -254,7 +254,7 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Kända begränsningar i Adobe Dynamic Media Classic 20.21.1
 
-* The **[!UICONTROL Server]** rullgardinsmenyn är tom efter uppdatering till Adobe Dynamic Media Classic datorprogram 20.21.1 - Scenario: Du installerar och loggar in på Adobe Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Uppdatera sedan till Adobe Dynamic Media Classic 20.21.1. När du försöker logga in visas **[!UICONTROL Server]** nedrullningsbar lista i **[!UICONTROL Sign-in to your account]** är tom. Du måste [rensa cachen manuellt](#clear-cache) (se stegen ovan).
+* The **[!UICONTROL Server]** rullgardinsmenyn är tom efter uppdatering till Adobe Dynamic Media Classic datorprogram 20.21.1: Scenario: Du installerar och loggar in på Adobe Dynamic Media Classic 20.20.1 eller 20.20.2 och stänger sedan programmet. Uppdatera sedan till Adobe Dynamic Media Classic 20.21.1. När du försöker logga in visas **[!UICONTROL Server]** nedrullningsbar lista i **[!UICONTROL Sign-in to your account]** är tom. Du måste [rensa cachen manuellt](#clear-cache) (se stegen ovan).
 
 ## Kända begränsningar i Adobe Dynamic Media Classic 20.20.1 (fast i 20.20.2)
 

@@ -10,7 +10,7 @@ role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Den maximala zoomprocenten för zoommål är 100 procent. Den minsta zoomprocent
 | Stor | Mindre | Mindre minimum |
 | Liten | Större | Större minimum |
 
-Du kan ändra storleken på Zoomvisningsprogrammet så att den matchar storleken som används på webbsidan. Du kan ändra den här inställningen permanent genom att ändra visningsprogrammets storlek på installationsskärmen (om du är administratör). Se [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
+Du kan ändra storleken på Zoom Viewer så att den matchar storleken som används på webbsidan. Du kan ändra den här inställningen permanent genom att ändra visningsprogrammets storlek på installationsskärmen (om du är administratör). Se [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
 ## Skapa och redigera zoommål {#creating-and-editing-zoom-targets}
 
@@ -53,9 +53,9 @@ Om du vill skapa ett zoommål öppnar du sidan för zoommålredigeraren och gör
 
 1. Välj **[!UICONTROL Select Target]** (pil) och sedan välja det zoommål som du skapade och justera målets storlek och position.
 
-   * **Ändra storlek** - Flytta pekaren över ett hörn av zoommålet och dra för att förstora eller förminska målet.
+   * **Ändra storlek**: Flytta pekaren över ett hörn av zoommålet och dra för att förstora eller förminska målet.
 
-   * **Position** - Flytta pekaren över zoommålet och dra den till en annan plats.
+   * **Position**: Flytta pekaren över zoommålet och dra den till en annan plats.
 
 1. Ange ett namn för zoommålet i rutan Namn.
 
@@ -76,13 +76,13 @@ Om du vill skapa ett zoommål öppnar du sidan för zoommålredigeraren och gör
 
 Om du vill redigera zoommål använder du följande tekniker på sidan Zoommålredigerare:
 
-* **Flytta** - Välj mål med knappen Välj mål (pilen). Dra sedan målet till en annan plats.
+* **Flytta**: Välj mål med knappen Välj mål (pilen). Dra sedan målet till en annan plats.
 
-* **Ändra storlek** - Välj mål med knappen Välj mål (pilen). Om du vill förstora eller förminska målet flyttar du pekaren över ett hörn av zoommålet och drar.
+* **Ändra storlek**: Välj mål med knappen Välj mål (pilen). Om du vill förstora eller förminska målet flyttar du pekaren över ett hörn av zoommålet och drar.
 
-* **Ta bort** - Välj målets miniatyrbild till höger på skärmen. Välj sedan **[!UICONTROL Delete Target]**.
+* **Ta bort**: Välj målets miniatyrbild till höger på skärmen. Välj sedan **[!UICONTROL Delete Target]**.
 
-* **Byter namn** - Välj målets miniatyrbild till höger på skärmen. Ange sedan ett namn i dialogrutan **[!UICONTROL Name]** textfält och markera **[!UICONTROL Save]**.
+* **Byter namn**: Välj målets miniatyrbild till höger på skärmen. Ange sedan ett namn i dialogrutan **[!UICONTROL Name]** textfält och markera **[!UICONTROL Save]**.
 
 ### Kopiera zoommål {#copying-zoom-targets}
 

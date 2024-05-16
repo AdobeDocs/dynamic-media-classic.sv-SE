@@ -10,7 +10,7 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '825'
 ht-degree: 0%
@@ -55,14 +55,14 @@ Du kan förhandsvisa bilder i ett zoomvisningsprogram för att se vad zoomupplev
 
 Om du vill utforska olika förinställningar för Zoomvisning och hur de visar zoomupplevelsen markerar du en bild i panelen Bläddra och väljer **[!UICONTROL Preview]**. Gå till **[!UICONTROL Presets]** > **[!UICONTROL Zoom]** och välj sedan en förinställning med menyn Zooma.
 
-Zoomknappar visas. Du kan se hur zoombilderna ser ut på webbplatsen. Markera zoomknapparna (och zoomningsmålen) så att du kan testa inställningarna för den förinställning för Zoomvisning som du har valt. Se [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+Zoomknappar visas. Du ser hur zoombilderna ser ut på webbplatsen. Markera zoomknapparna (och zoomningsmålen) så att du kan testa inställningarna för den förinställning för Zoomvisning som du har valt. Se [Förhandsvisa bilder med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. Publicera zoombilder
 
-När du publicerar dina zoombilder placeras de på Dynamic Media Image Servers så att de kan levereras till din webbplats och ditt program. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängar. Dessa URL-strängar anropar zoombilder från Dynamic Media Image Servers till din webbplats eller ditt program.
+När du publicerar dina zoombilder placeras de på Dynamic Media bildservrar så att de kan levereras till din webbplats och tillämpning. Som en del av publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängar. Dessa URL-strängar anropar zoombilder från Dynamic Media Image Servers till din webbplats eller ditt program.
 
 I fältet Global navigering väljer du **[!UICONTROL Publish]**. I dialogrutan Publicera väljer du **[!UICONTROL Submit Publish]**. Se [Publicera zoombilder](publishing-zoom-images.md#publishing_zoom_images).
 
 ## 6. Länka zoomningsvisningsprogram till webbsidan
 
-Adobe Dynamic Media Classic skapar de URL-bildtextsträngar som behövs för att zooma bilder och aktiverar dem när du publicerar bilder på Dynamic Media bildservrar. Du kan kopiera dessa URL-strängar från **[!UICONTROL Preview]** sida. När du har kopierat URL-strängarna är de tillgängliga för dina webbplatser och program. Se [Länka zoomningsvisningsprogram till din webbsida](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic skapar de URL-bildtextsträngar som behövs för att zooma bilder och aktiverar dem när du publicerar bilder på Dynamic Media bildservrar. Du kan kopiera dessa URL-strängar från **[!UICONTROL Preview]** sida. När du har kopierat URL-strängarna är de tillgängliga för dina webbplatser och program. Se [Länka zoomningsvisningsprogram till webbsidan](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

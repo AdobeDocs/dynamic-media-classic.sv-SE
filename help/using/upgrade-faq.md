@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -139,7 +139,7 @@ Ja. Du kan fortsätta använda [!DNL Dynamic Media Classic] (tidigare Adobe Scen
 +++
 
 +++**Måste jag uppdatera mina URL:er?**
-Nej. Adobe fortsätter att använda [!DNL Dynamic Media Classic] publicerings- och leveransinfrastruktur i [!DNL Dynamic Media] lösning. Fördelen med det här arbetssättet är att du inte behöver ändra några produktionswebbadresser på dina webbsidor, vilket minimerar riskerna och arbetet med att migrera till [!DNL Dynamic Media].
+Nej. Adobe fortsätter att använda [!DNL Dynamic Media Classic] publicerings- och leveransinfrastruktur i [!DNL Dynamic Media] lösning. Fördelen med detta är att du inte behöver ändra några produktionsadresser på webbsidorna, vilket minimerar riskerna och arbetet med att gå över till [!DNL Dynamic Media].
 
 +++
 
@@ -188,7 +188,7 @@ Dynamic Media har 60 GB lagringsutrymme. Du kan köpa ytterligare lagringsutrymm
 +++
 
 +++**Vilket mätvärde används för att mäta [!DNL Dynamic Media] användning?**
-Sidvisningar per månad (PVM). Sidvy innebär en vy av ett e-postmeddelande eller en webbsida på en webbplats. Det innehåller även programskärmsvyer, programskärmslägen, mobilwebbsidor och sidor för sociala nätverk. Sidvyer visas:
+Sidvisningar per månad (PVM). Sidvy innebär en vy av ett e-postmeddelande eller en webbsida på en webbplats. Den innehåller även skärmvyer för applikationer, programskärmslägen, mobilwebbsidor och sidor för sociala nätverk. Sidvyer visas:
 
 * Varje gång en webbsida läses in eller uppdateras
 * När ett program läses in

@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Nyhetsbrevet från Dynamic Media från Experience League har utformats för att hjälpa dig att komma igång med Dynamic Media och Adobe Dynamic Media Classic så att du snabbt kan börja inse värdet.
 
-I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga upp din kunskap, som instruktionsvideor och lösningsöversikter. Det finns även introduktioner till viktiga funktioner som bildförinställningar, visningsförinställningar och videoprofiler.
+I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga upp din kunskap, som instruktionsvideor och lösningsöversikter. Det finns även introduktioner till viktiga funktioner och funktioner som förinställningar för bilder, visningsförinställningar och videoprofiler.
 
 <!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
@@ -107,7 +107,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
 
    * Ge er kundupplevelse ett lyft genom att eliminera dessa 9&quot;gotchas&quot;.
    * Se hur Dynamic Media team kan hjälpa er att förbereda er för en dag med större trafik än normalt.
-   * En andra chans att fånga två av de senaste webbinarierna i SKill Builder.
+   * En andra chans att fånga två av de senaste SKill Builder Webinars.
    * Titta på on-demand-webbinariet om hur du skyddar dina digitala resurser från piratkopiering.
    * Möt `Bridget Roman`, Senior Product Marketing Manager för Experience Manager Assets.
    * Kom igång med Dynamic Media och Adobe Dynamic Media Classic i Experience League.
@@ -126,7 +126,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
 
   I detta nummer:
 
-   * Resurser och information som gör att ni kan hantera era värdefulla resurser på ett korrekt sätt och leverera upplevelser som får besökarna att komma tillbaka.
+   * Resurser och information som gör att ni kan hantera era värdefulla resurser på rätt sätt så att ni tryggt kan leverera upplevelser som får besökarna att komma tillbaka.
    * Läs om ett kommande webbinarium om hur du skyddar dina digitala resurser.
    * Nästa steg på informationsfyllda Adobe Insider Tour.
    * Spännande funktioner finns när du har Dynamic Media i Experience Manager Assets (Experience Manager Assets).
@@ -142,7 +142,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * Läs mer om den kommande Adobe Insider Tour.
    * Läs om hur ni kan skydda era digitala resurser från att bli piratkopierade.
    * Lär dig mer om AI-driven Smart Crop för bilder.
-   * Möt `Alex Thiers`, en av drivkrafterna bakom många av de goda funktionerna och innovationerna inom Dynamic Media och Adobe Dynamic Media Classic.
+   * Möt `Alex Thiers`, en drivkraft bakom många av de fantastiska funktionerna och innovationerna i Dynamic Media på AEM och Adobe Dynamic Media Classic.
 
 * **[maj 2019, utgåva 05](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 

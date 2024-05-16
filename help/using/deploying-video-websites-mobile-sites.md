@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 0%
@@ -31,9 +31,9 @@ Genom att publicera en video kan Adobe Dynamic Media Classic-servrar leverera vi
 
 Det finns två olika metoder som du kan använda för att publicera video:
 
-* **Publicera videoklipp automatiskt och direkt vid överföring** - Som en del av videoöverföringen kan Adobe Dynamic Media Classic automatiskt publicera videor när de överförs och kodas. Denna möjlighet att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
+* **Publicera videoklipp automatiskt och direkt vid överföring**: Som en del av videoöverföringen kan Adobe Dynamic Media Classic automatiskt publicera videor när de överförs och kodas. Denna möjlighet att publicera direkt innebär att man inte behöver publicera videor separat efter det att man gjort det.
 
-* **Publicera video manuellt efter överföring** - Om du inte vill publicera videoklipp direkt kan du publicera videoklipp manuellt när du vill.
+* **Publicera video manuellt efter överföring**: Om du inte vill publicera videoklipp direkt kan du när som helst publicera videoklipp manuellt.
 
 När du har publicerat videofilmer aktiverar Adobe Dynamic Media Classic URL-strängarna för HTML-sidan eller programkoden.
 
@@ -185,7 +185,7 @@ The *affischruta* är den första bildrutan som visas i videovisningsprogram inn
 
 Du kan använda bildmodifieringar i affischbildrutan. Du kan till exempel beskära affischramen eller göra den genomskinlig. Om du vill ändra affischbildrutan öppnar du konfigurationsskärmen för videovisningsprogrammet och anger modifierare i avsnittet Förhandsvisningsbildsmodifierare.
 
-Se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
+Se [Lägga till eller redigera en förinställning för visningsprogrammet för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
 Se [Image Serving Guide](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 

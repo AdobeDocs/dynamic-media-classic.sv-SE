@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -38,9 +38,9 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 1. Gör något av följande:
 
-   * **Markera bilderna först** - Markera bilderna i panelen Bläddra och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**.
+   * **Markera bilderna först**: Markera bilderna i panelen Bläddra och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**.
 
-   * **Starta från skärmen Uppsättning med färgrutor** - Gå till **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Markera en mapp i resursbiblioteket och dra bilderna till avsnittet Vyer på sidan Uppsättning med färgrutor.
+   * **Starta från skärmen Uppsättning med färgrutor**: Gå till **[!UICONTROL Build]** > **[!UICONTROL Swatch Sets]**. Markera en mapp i resursbiblioteket och dra bilderna till avsnittet Vyer på sidan Uppsättning med färgrutor.
 
 1. Dra färgrutefärger, mönster eller lapp till platshållarrutan för färgrutor på sidan Uppsättning med färgrutor.
 

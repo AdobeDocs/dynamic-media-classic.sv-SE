@@ -1,6 +1,6 @@
 ---
 title: Dynamic Media begränsningar
-description: "Lär dig mer om de effektivaste strategierna och de tvingande gränserna när du skapar en bilduppsättning eller en snurruppsättning, eller överför en PDF. Läs också om webbläsare och operativsystemkombinationer som inte stöds för Dynamic Media."
+description: "Lär dig mer om de effektivaste strategierna och de tvingande gränserna när du skapar en bilduppsättning eller en snurruppsättning, eller överför en PDF. Läs också om webbläsarkombinationer och operativsystemkombinationer som inte stöds för Dynamic Media."
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,7 +10,7 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 1%
@@ -30,13 +30,13 @@ Det här avsnittet innehåller följande avsnitt:
 
 När du skapar en snurra uppsättning eller en bilduppsättning, eller överför PDF för sidextrahering, rekommenderar Adobe följande metodtips och tillämpar följande begränsningar:
 
-| Resurs - begränsningstyp | Bästa praxis | Begränsning har införts |
+| Tillgång: Begränsningstyp | Bästa praxis | Begränsning har införts |
 | --- | --- | --- |
-| **Bild** - Antal smarta beskärningar per bild | 5 | 100 |
-| **Alla uppsättningar** - Antal dubblettresurser per uppsättning | Inga dubbletter | 20‡ |
-| **Alla uppsättningar** - Maximalt antal resurser per uppsättning | 5-10 bilder per uppsättning | 1000 |
-| **Rotation** - Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
-| **PDF** - Maximalt antal sidor för PDF som ska användas för extrahering |  | 100 (för alla PDF) |
+| **Bild**: Antal smarta beskärningar per bild | 5 | 100 |
+| **Alla uppsättningar**: Antal duplicerade resurser per uppsättning | Inga dubbletter | 20‡ |
+| **Alla uppsättningar**: Maximalt antal resurser per uppsättning | 5-10 bilder per uppsättning | 1000 |
+| **Rotation**: Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
+| **PDF**: Maximalt antal sidor för PDF som ska tas i beaktande för extrahering |  | 100 (för alla PDF) |
 
 ‡ Bästa praxis är att inte ha duplicerade resurser i en uppsättning. Gränsen är 20 kopior för en enskild resurs. Om du lägger till ytterligare en dubblett för den resursen, inom den uppsättningen, returnerar begäran ett fel eller ignorerar dubbletten.
 

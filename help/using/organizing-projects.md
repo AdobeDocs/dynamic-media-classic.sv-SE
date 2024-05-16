@@ -10,7 +10,7 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%
@@ -37,9 +37,9 @@ Du kan skapa ett projekt när du överför filer eller skapar projekt på panele
 
 Du kan skapa en projektmapp som börjar i resursbiblioteket eller när du överför filer till Adobe Dynamic Media Classic:
 
-* **I resursbiblioteket** - Bläddra längst ned i resursbiblioteket, till avsnittet Projekt och markera sedan **[!UICONTROL Add Project]**. Ange ett namn för projektet.
+* **I resursbiblioteket**: Bläddra längst ned i resursbiblioteket till avsnittet Projekt och markera sedan **[!UICONTROL Add Project]**. Ange ett namn för projektet.
 
-* **Vid överföring av filer** - På skärmen Överför går du till **[!UICONTROL Add to Project]** > **[!UICONTROL Create Project]**. Ange ett namn för projektet.
+* **Vid överföring av filer**: På skärmen Överför går du till **[!UICONTROL Add to Project]** > **[!UICONTROL Create Project]**. Ange ett namn för projektet.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Du kan skapa en projektmapp som börjar i resursbiblioteket eller när du överf
 
 Gör något av följande om du vill visa, ta bort eller byta namn på en projektmapp:
 
-* **Bläddra i innehåll** - Välj namnet på mappen i resursbiblioteket. Dess resurser visas i panelen Bläddra.
+* **Bläddra i innehåll**: Välj namnet på mappen i resursbiblioteket. Dess resurser visas i panelen Bläddra.
 
-* **Tar bort projektmappar** - Välj projektmappen och sedan **[!UICONTROL Remove Project]**. När du tar bort resurser från en projektmapp tas de inte bort från Adobe Dynamic Media Classic. Resurserna finns kvar i de ursprungliga mappar där de lagras.
+* **Tar bort projektmappar**: Välj projektmappen och sedan **[!UICONTROL Remove Project]**. När du tar bort resurser från en projektmapp tas de inte bort från Adobe Dynamic Media Classic. Resurserna finns kvar i de ursprungliga mappar där de lagras.
 
-* **Byter namn på projektmappar** - Dubbelklicka på namnet på mappen på resurspanelen och ange ett nytt namn.
+* **Byter namn på projektmappar**: Dubbelklicka på namnet på mappen på resurspanelen och ange ett nytt namn.
 
 ## Lägga till resurser i en projektmapp {#adding-assets-to-a-project-folder}
 
@@ -61,4 +61,4 @@ Du kan lägga till bilder i en projektmapp från och med panelen Bläddra eller 
 
 * **Från panelen Bläddra** markerar du resurserna och drar dem till en projektmapp. Du kan också gå till **[!UICONTROL File]** > **[!UICONTROL Add To Project]**. Välj ett projektmappsnamn i dialogrutan Välj projekt och välj sedan **[!UICONTROL Submit]**.
 
-* **Vid överföring av filer** - På sidan Överför väljer du **[!UICONTROL Job Options]**. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Projects]** och välj sedan ett projektnamn.
+* **Vid överföring av filer**: På sidan Överför väljer du **[!UICONTROL Job Options]**. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Projects]** och välj sedan ett projektnamn.

@@ -10,7 +10,7 @@ role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -23,18 +23,18 @@ Du kan använda Adobe PostScript®- (EPS) och Adobe® Illustrator®-filer (AI) i
 
 När du överför PostScript-bildfiler (EPS) eller Illustrator-bildfiler (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Formateringsalternativ för PostScript- och Illustrator-filer finns på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Överför jobbalternativ.
 
-* **[!UICONTROL Processing]** - Välj **[!UICONTROL Rasterize]** om du vill konvertera vektorgrafik i filen till bitmappsformat.
+* **[!UICONTROL Processing]**: Välj **[!UICONTROL Rasterize]** om du vill konvertera vektorgrafik i filen till bitmappsformat.
 
-* **[!UICONTROL Maintain Transparent Background In Rendered Image]** - Bevarar filens genomskinlighet i bakgrunden.
+* **[!UICONTROL Maintain Transparent Background In Rendered Image]**: Bevarar filens genomskinlighet i bakgrunden.
 
-* **[!UICONTROL Resolution]** - Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
+* **[!UICONTROL Resolution]**: Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
 
-* **[!UICONTROL Color Space]** - Välj **[!UICONTROL Color Space]** och välja en färgrymd:
+* **[!UICONTROL Color Space]**: Välj **[!UICONTROL Color Space]** och välja en färgrymd:
 
-   * **[!UICONTROL Detect Automatically]** - Behåller filens färgrymd.
+   * **[!UICONTROL Detect Automatically]**: Behåller filens färgrymd.
 
-   * **[!UICONTROL Force As RGB]** - Konverterar till färgmodellen RGB.
+   * **[!UICONTROL Force As RGB]**: Konverterar till färgmodellen RGB.
 
-   * **[!UICONTROL Force As CMYK]** - Konverterar till CMYK-färgmodellen.
+   * **[!UICONTROL Force As CMYK]**: Konverterar till CMYK-färgmodellen.
 
-   * **[!UICONTROL Force As Grayscale]** - Konverterar till färgmodellen Gråskala.
+   * **[!UICONTROL Force As Grayscale]**: Konverterar till färgmodellen Gråskala.

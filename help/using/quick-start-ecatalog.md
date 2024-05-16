@@ -10,7 +10,7 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1437'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Snabbstart: e-kataloger{#quick-start-ecatalogs}
 
-En e-katalog är en digital webbversion av trycksaker, till exempel en katalog, broschyr, flygblad, produkthandbok eller reklamcirkel. En e-katalog visas i ett eCatalog-visningsprogram på en webbplats. Det här visningsprogrammet simulerar upplevelsen av att läsa tryckt material.
+En e-katalog är en digital webbversion av trycksaker - t.ex. en katalog, broschyr, flygblad, produkthandbok eller reklamcirkulär. En e-katalog visas i ett eCatalog Viewer på en webbplats. Det här visningsprogrammet simulerar upplevelsen av att läsa tryckt material.
 
 Se även följande utbildningsvideor:
 
@@ -34,9 +34,9 @@ Beroende på vilka inställningar du väljer för din eCatalog kan du göra föl
 * Navigera i katalogen med hjälp av innehållsförteckningen eller sidstödrastervyn. Gå framåt eller bakåt genom att markera en sidas mittersta kant.
 * Zooma in, zooma ut och panorera för att undersöka objekt på en sida.
 * Flytta pekaren över ett sidområde (kallas bildschema) så att du kan se ett popup-fönster med information om ett objekt.
-* Markera ett sidområde så att en ny webbsida med mer information om ett objekt öppnas.
+* Markera ett sidområde så att en ny webbsida öppnas med mer information om ett objekt.
 * Skriv en anteckning och bifoga den till en e-katalogsida.
-* Tryck på ikoner för bildschema om du vill starta relaterade webbsidor eller infopaneler i sitt sammanhang.
+* Tryck på ikoner för bildschema om du vill starta relaterade webbsidor eller informationspaneler i sitt sammanhang.
 * Använd gester, till exempel nypa för att zooma och svepa för att vända sidor.
 * Sök efter objekt med nyckelord.
 
@@ -44,11 +44,11 @@ Beroende på vilka inställningar du väljer för din eCatalog kan du göra föl
 
 Om du vill skapa en e-katalog använder du vanligtvis högupplösta PDF-filer som skapats i Adobe Acrobat eller något annat utskriftsprogram, men du kan också skapa en e-katalog från bildfiler.
 
-När du skapar en e-katalog kan du ordna sidorna eller uppslagen i den ordning du vill. Du kan också deklarera om du vill ha enstaka sidor, dubbelsidiga uppslag eller flersidiga uppslag. Du kan skapa bildscheman för sidområden så att visningsprogrammen t.ex. kan markera ett område på sidan och öppna en ny sida på webbplatsen. Du kan hantera den överrullningstext som visas med InfoPanel-inställningarna på eCatalog-skärmen. Du kan också konfigurera eCatalog Viewer genom att välja bland fler än 100 olika konfigurationsalternativ. Du kan anpassa funktionerna och utseendet på visningsprogrammet för just din publik.
+När du skapar en e-katalog kan du ordna sidorna eller uppslagen i den ordning du vill. Du kan också deklarera om du vill ha enstaka sidor, dubbelsidiga uppslag eller flersidiga uppslag. Du kan skapa bildscheman för sidområden så att de som tittar kan välja ett område på sidan och öppna en ny sida på webbplatsen. Du kan hantera den överrullningstext som visas med InfoPanel-inställningarna på eCatalog-skärmen. Du kan också konfigurera eCatalog Viewer genom att välja bland fler än 100 olika konfigurationsalternativ. Du kan anpassa funktionerna och utseendet på visningsprogrammet för just din publik.
 
 >[!NOTE]
 >
->Om du använder läget Dynamic Media - Scene7 och vill använda e-kataloger redigerar du `pdfbrochure` värde i CRXDE Lite. Om du vill göra det går du till Adobe Experience Manager **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. Navigera till navigeringsträdet i den vänstra panelen `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Om du använder Dynamic Media: Scene7 och vill använda e-kataloger redigerar du `pdfbrochure` värde i CRXDE Lite. Om du vill göra det går du till Adobe Experience Manager **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**. Navigera till navigeringsträdet i den vänstra panelen `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >I den nedre högra rutan, i **[!UICONTROL Properties]** väljer du `jobParam` rad. Ange värdet för `pdfbrochure` från `false` till `true`. Som i `pdfbrochure=true`
 >
@@ -116,7 +116,7 @@ Se [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalo
 
 ## 6. Publicera e-katalog och tillhörande PDF
 
-När du publicerar din e-katalog och tillhörande PDF placeras den på Dynamic Media Image-servrar så att den kan levereras till din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen för din eCatalog. Använd denna URL för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
+När du publicerar din e-katalog och tillhörande PDF placeras den på Dynamic Media bildservrar så att den kan levereras till din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen för din eCatalog. Använd denna URL för att anropa eCatalog från Dynamic Media Image Servers till din webbplats eller ditt program.
 
 När du har markerat din e-katalog och PDF för publicering i panelen Bläddra väljer du knappen Publicera i fältet Global navigering för att starta en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
 

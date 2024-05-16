@@ -10,7 +10,7 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Du kan göra dina videoklipp i långa format enklare att titta på och navigera 
 >
 >Den videospelare som används måste ha stöd för kapitelmarkörer.
 
-Se [Lägga till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) om du vill konfigurera kapitelnavigeringsreferenspunkter och kapiteltitelns popup-text för `Universal_HTML5_Video` visningsprogram (HTML5).
+Se [Lägga till eller redigera en förinställning för visningsprogrammet för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) om du vill konfigurera kapitelnavigeringsreferenspunkter och kapiteltitelns popup-text för `Universal_HTML5_Video` visningsprogram (HTML5).
 
 Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 

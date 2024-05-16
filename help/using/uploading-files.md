@@ -9,7 +9,7 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -141,13 +141,13 @@ Ordna och strukturera mappar och undermappar för ditt innehåll i Adobe Dynamic
 
 Vilken mappnamnsmetod och struktur du väljer för att lagra ditt innehåll på Adobe Dynamic Media Classic beror på organisationens behov. Här följer några exempel på mappstrukturer:
 
-**SKU-baserad** - Mappar namnges enligt SKU:er eller artikelnummer. Separata mappar skapas till exempel för alla serier med 0-, 20- och 30-tal.
+**SKU-baserad**: Mappar namnges enligt SKU:er eller artikelnummer. Separata mappar skapas till exempel för alla serier med 0-, 20- och 30-tal.
 
-**Varumärkesbaserad** - För tillverkare med flera varumärken och detaljhandlare som marknadsför andra varumärken från andra företag, skiljer du filer åt i produktmappar som namngetts för olika varumärken.
+**Varumärkesbaserad**: För tillverkare med flera varumärken och detaljhandlare som marknadsför andra varumärken från andra företag, skiljer du filer åt i produktmappar som namngetts för olika varumärken.
 
-**Projektbaserad** - Mappar ordnas efter datum för utrullning/släppning eller projektnamn. Kunder som främst producerar e-kataloger gillar den här metoden.
+**Projektbaserad**: Mappar ordnas efter datum för utrullning/släppning eller projektnamn. Kunder som främst producerar e-kataloger gillar den här metoden.
 
-**Spegling av webbplatsmappens hierarki** - Den här mappstrukturen speglar mappstrukturen för webbplatsen, med mapparna för t.ex. produktkategorier.
+**Spegling av hierarkin för webbplatsmappar**: Mappstrukturen speglar webbplatsens mappstruktur, med mappnamnen för till exempel produktkategorier.
 
 ## Om att överföra filer {#uploading-your-files}
 
@@ -207,74 +207,74 @@ Om du vill avbryta ett pågående överföringsjobb väljer du **[!UICONTROL Can
 
 När du överför filer kan du välja mellan följande alternativ i dialogrutan Alternativ för överföringsjobb:
 
-* **JOBB** - Välj **[!UICONTROL JOB]** om du vill välja alternativ som påverkar hela överföringsjobbet.
+* **JOBB**: Välj **[!UICONTROL JOB]** om du vill välja alternativ som påverkar hela överföringsjobbet.
 
   Du kan också välja *standard* alternativ för att överföra jobb med hjälp av **[!UICONTROL Default Upload Options]** i Allmänna inställningar. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Default Upload Options]** anger du sedan de standardalternativ du vill använda.
 
-   * **[!UICONTROL When]** - Det här alternativet är bara tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken.
-      * **[!UICONTROL One-Time]** - Ange ett överföringsjobb som körs en gång. Alternativen är följande:
-         * **[!UICONTROL Now]** - Kör överföringsjobbet omedelbart efter att du har valt **[!UICONTROL Save]** i dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL Submit Upload]** på sidan Överför.
-         * **[!UICONTROL Schedule For Later]** - Välj året, månaden, dagen och tiden (i 15-minuterssteg) som du vill att överföringsjobbet ska köras.
-      * **[!UICONTROL Recurring]** - Ange ett överföringsjobb som körs varje dag, vecka eller månad. Eller anpassa överföringsjobbet efter dina egna specifikationer.
-         * **[!UICONTROL Daily]** - Ange den tid du vill att jobbet ska köras varje dag. Om du vill att jobbet bara ska köras måndag till fredag väljer du **[!UICONTROL Weekdays Only]**.
-         * **[!UICONTROL Weekly]** - Välj en specifik veckodag och tid som du vill att jobbet ska köras.
-         * **[!UICONTROL Monthly]** - Välj en specifik dag i månaden eller dagen i veckan, inklusive starttiden, som du vill att jobbet ska köras.
-         * **[!UICONTROL Custom]** - Anpassa tidsintervallet för överföring eller publicering enligt dina egna specifikationer. Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
+   * **[!UICONTROL When]**: Det här alternativet är bara tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken.
+      * **[!UICONTROL One-Time]**: Ange ett överföringsjobb som körs en gång. Alternativen är följande:
+         * **[!UICONTROL Now]**: Kör överföringsjobbet omedelbart efter att du har valt **[!UICONTROL Save]** i dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL Submit Upload]** på sidan Överför.
+         * **[!UICONTROL Schedule For Later]**: Välj året, månaden, dagen och tiden (i 15-minuterssteg) som du vill att överföringsjobbet ska köras.
+      * **[!UICONTROL Recurring]**: Ange ett överföringsjobb som körs varje dag, vecka eller månad. Eller anpassa överföringsjobbet efter dina egna specifikationer.
+         * **[!UICONTROL Daily]**: Ange den tid som du vill att jobbet ska köras varje dag. Om du vill att jobbet bara ska köras måndag till fredag väljer du **[!UICONTROL Weekdays Only]**.
+         * **[!UICONTROL Weekly]**: Välj en specifik veckodag och tid som du vill att jobbet ska köras.
+         * **[!UICONTROL Monthly]**: Välj en specifik dag i månaden eller dagen i veckan, inklusive starttiden, som du vill att jobbet ska köras.
+         * **[!UICONTROL Custom]**: Anpassa ett tidsintervall för överföring eller publicering enligt dina egna specifikationer. Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval).
 
-   * **[!UICONTROL Publish After Uploading]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du automatiskt vill publicera de resurser som du överför. När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är även tillgängligt på sidan Överför.
+   * **[!UICONTROL Publish After Uploading]**: Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du automatiskt vill publicera de resurser som du överför. När du publicerar filer skickas filer till liveservrar. URL:er för dessa filer kan sedan användas på externa webbplatser och i externa program. Det här alternativet är även tillgängligt på sidan Överför.
 
-   * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är även tillgängligt på sidan Överför. Namnet på det här alternativet kan vara annorlunda, beroende på inställningarna i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
+   * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]**: Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill att de filer du överför ska ersätta befintliga filer med samma namn. Det här alternativet är även tillgängligt på sidan Överför. Namnet på det här alternativet kan vara annorlunda, beroende på inställningarna i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** > **[!UICONTROL Upload to Application]** > **[!UICONTROL Overwrite Images]**.
 
-   * **[!UICONTROL Uncompress Zip or Tar Files on Upload]** - Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken.
+   * **[!UICONTROL Uncompress Zip or Tar Files on Upload]**: Tillgängligt om du har valt **[!UICONTROL FROM DESKTOP]** eller **[!UICONTROL VIA FTP]** -fliken.
 Välj det här alternativet om du automatiskt vill extrahera alla filer från den överförda ZIP- eller TAR-filen. Det här alternativet är också tillgängligt i dialogrutan Jobbalternativ.
 
-   * **[!UICONTROL Include subfolders]** - Endast tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken.
+   * **[!UICONTROL Include subfolders]**: Endast tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken.
 Välj det här alternativet om du vill överföra undermappar till mappen som du vill överföra. Namnen på mappen och dess undermappar som du överför anges automatiskt i Adobe Dynamic Media Classic.
 
-   * **[!UICONTROL Process metadata files]** - Endast tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill överföra en tabbavgränsad fil eller XML-fil för att lägga till metadata i flera resurser.
+   * **[!UICONTROL Process metadata files]**: Endast tillgängligt om du har valt **[!UICONTROL VIA FTP]** -fliken. Välj det här alternativet om du vill överföra en tabbavgränsad fil eller XML-fil för att lägga till metadata i flera resurser.
 Se [Importera metadata (via FTP)](viewing-adding-exporting-metadata.md#import-metadata).
 
-* **Beskärningsalternativ** - Om du vill beskära pixlar med tomt utrymme automatiskt från en bild öppnar du **[!UICONTROL Crop]** meny, välja **[!UICONTROL Manual]** och ange pixelmått i de övre, högra, nedre och vänstra textfälten för att beskära från sidorna. Du kan också välja **[!UICONTROL Trim]** på menyn Beskär och välj följande alternativ:
+* **Beskärningsalternativ**: Om du vill beskära pixlar med tomt utrymme automatiskt från en bild öppnar du **[!UICONTROL Crop]** meny, välja **[!UICONTROL Manual]** och ange pixelmått i de övre, högra, nedre och vänstra textfälten för att beskära från sidorna. Du kan också välja **[!UICONTROL Trim]** på menyn Beskär och välj följande alternativ:
 
-   * **[!UICONTROL Trim Away Based On]** - Välj om du vill beskära baserat på färg eller genomskinlighet:
-      * **[!UICONTROL Color]** - Välj alternativet Färg. Välj sedan menyn Hörn och välj hörnet på bilden med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
+   * **[!UICONTROL Trim Away Based On]**: Välj om du vill beskära baserat på färg eller genomskinlighet:
+      * **[!UICONTROL Color]**: Välj alternativet Färg. Välj sedan menyn Hörn och välj hörnet på bilden med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 Trimma baserat på färg: Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
-      * **[!UICONTROL Transparency]** - Välj **[!UICONTROL Transparency]** alternativ.
+      * **[!UICONTROL Transparency]**: Välj **[!UICONTROL Transparency]** alternativ.
 Trimma baserat på genomskinlighet: Ange 0 om du bara vill beskära pixlar om de är genomskinliga. Med siffror närmare 1 får du mer genomskinlighet.
-      * **[!UICONTROL Tolerance]** - Dra skjutreglaget för att ange en tolerans mellan 0 och 1.
+      * **[!UICONTROL Tolerance]**: Dra skjutreglaget för att ange en tolerans mellan 0 och 1.
 
-* **Alternativ för färgprofil** - Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Adobe Dynamic Media Classic:
+* **Alternativ för färgprofil**: Välj en färgkonvertering när du skapar optimerade filer som används för dynamisk leverans i Adobe Dynamic Media Classic:
 
-   * **[!UICONTROL Default Color Preservation]** - Bevarar källbildens färger när bilderna innehåller färgrymdsinformation. Det finns ingen färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
-   * **[!UICONTROL Keep Original Color Space]** - Bevarar de ursprungliga färgerna utan någon färgkonvertering vid den tidpunkt då du tar bilden till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgerna i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
-   * **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Öppnar menyer så att du kan välja en **[!UICONTROL Convert From]** och **[!UICONTROL Convert To]** färgrymd. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Välj bara det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
+   * **[!UICONTROL Default Color Preservation]**: Behåller källbildens färger när bilderna innehåller färgrymdsinformation. Det finns ingen färgkonvertering. Nästan alla bilder idag har rätt färgprofil inbäddad. Om en CMYK-källbild inte innehåller någon inbäddad färgprofil konverteras färgerna till sRGB-färgrymden (standard röd grön). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+   * **[!UICONTROL Keep Original Color Space]**: Bevarar de ursprungliga färgerna utan någon färgkonvertering vid den tidpunkt då de hämtas till Adobe Dynamic Media Classic. För bilder utan inbäddad färgprofil görs all nödvändig färgkonvertering till processförfrågningar för bilden med hjälp av standardfärgprofilerna som konfigurerats i publiceringsinställningarna. Dessa färgprofiler justeras inte alltid mot färgerna i de filer som skapas med det här alternativet. Därför bör du använda alternativet Standardfärgbevaring.
+   * **[!UICONTROL Custom From]** > **[!UICONTROL To]**: Öppnar menyer så att du kan välja en **[!UICONTROL Convert From]** och **[!UICONTROL Convert To]** färgrymd. Det här avancerade alternativet åsidosätter eventuell färginformation som är inbäddad i källfilen. Välj bara det här alternativet när alla bilder som du skickar in innehåller felaktiga eller saknade färgprofildata.
 
-* **Bildredigeringsalternativ** - Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
+* **Bildredigeringsalternativ**: Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
 Se [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **Alternativ för PostScript®** - Du kan rastrera PostScript®, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
+* **Alternativ för PostScript®**: Du kan rastrera PostScript®, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **Photoshop-alternativ** - Du kan skapa mallar från Adobe® Photoshop®-filer, underhålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
+* **Photoshop-alternativ**: Du kan skapa mallar från Adobe® Photoshop®-filer, behålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
 Se [Överföringsalternativ för PSD](psd-files.md#psd_upload_options).
 
-* **Alternativ för PDF** - Du kan rastrera filerna, extrahera sökord och länkar, automatiskt generera en e-katalog, ange upplösningen och välja en färgrymd.
+* **Alternativ för PDF**: Du kan rastrera filerna, extrahera sökord och länkar, automatiskt generera en e-katalog, ange upplösningen och välja en färgrymd.
 Se [Överföringsalternativ för PDF](pdfs.md#pdf_upload_options).
 
-* **Illustrator-alternativ** - Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
+* **Illustrator-alternativ**: Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
-* **EVIDEO** - Du kan omkoda en videofil genom att välja en videoförinställning.
+* **EVIDEO**: Du kan omkoda en videofil genom att välja en videoförinställning.
 Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **Fler metadata** - Ange nyckelord som beskriver de filer som du tänker överföra. Separera nyckelord med kommatecken. Nyckelord gör det enklare att söka efter resurser.
+* **Fler metadata**: Ange nyckelord som beskriver de filer som du vill överföra. Separera nyckelord med kommatecken. Nyckelord gör det enklare att söka efter resurser.
 Se [Utföra en avancerad sökning](searching-assets.md#conducting_an_advanced_search).
 Se även [Överför nyckelord](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) utbildningsvideo.
 
-* **Förinställningar för gruppuppsättning** - Om du vill skapa en bilduppsättning, snurruppsättning eller färgruteuppsättning från de överförda filerna väljer du **[!UICONTROL Active]** -kolumnen för den förinställning som du vill använda. Du kan markera flera förinställningar. Du skapar förinställningarna på sidan Programinställningar/Gruppera förinställningar.
+* **Förinställningar för gruppuppsättning**: Om du vill skapa en bilduppsättning, snurruppsättning eller färgruteuppsättning från de överförda filerna väljer du **[!UICONTROL Active]** -kolumnen för den förinställning som du vill använda. Du kan markera flera förinställningar. Du skapar förinställningarna på sidan Programinställningar/Gruppera förinställningar.
 Se [Förinställningar för gruppuppsättning](application-setup.md#batch_set_presets).
 
-* **Avancerat** - Se [Följ en överföring med ett annat jobb](uploading-files.md#follow-an-upload-with-another-job).
+* **Avancerat**: Se [Följ en överföring med ett annat jobb](uploading-files.md#follow-an-upload-with-another-job).
 
 ## Följ en överföring med ett annat jobb {#follow-an-upload-with-another-job}
 

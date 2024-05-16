@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 0%
@@ -101,15 +101,15 @@ Du kan filtrera och sortera användarlistan för att hitta användare. Alla anv�
 
 Du kan använda följande tekniker för filtrering av användarlistor:
 
-* **Filtrera efter grupp** - Välj **[!UICONTROL By Group]** och välj ett alternativ för att begränsa listan till användare i en grupp.
+* **Filtrera efter grupp**: Välj **[!UICONTROL By Group]** och välj ett alternativ för att begränsa listan till användare i en grupp.
 
-* **Filtrera efter användarroll** - Välj **[!UICONTROL By User Role]** och välj ett alternativ som begränsar listan till användare eller administratörer av olika typer.
+* **Filtrera efter användarroll**: Välj **[!UICONTROL By User Role]** och välj ett alternativ som begränsar listan till användare eller administratörer av olika typer.
 
-* **Filtrera efter fältnamn** - Välj **[!UICONTROL Enable Filter By Field]**. Välj sedan **[!UICONTROL By Field Name]** väljer du en kolumn för filtrering av listan, väljer menyn Filtertecken och väljer en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Om du vill se hela listan avmarkerar du **[!UICONTROL Enable Filter By Field]** alternativ.
+* **Filtrera efter fältnamn**: Välj **[!UICONTROL Enable Filter By Field]**. Välj sedan **[!UICONTROL By Field Name]** väljer du en kolumn för filtrering av listan, väljer menyn Filtertecken och väljer en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Om du vill se hela listan avmarkerar du **[!UICONTROL Enable Filter By Field]** alternativ.
 
-* **Filtrera bort ogiltiga användare** - Avmarkera **[!UICONTROL Include Invalid]**. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton som du administrerar.
+* **Filtrera bort ogiltiga användare**: Avmarkera **[!UICONTROL Include Invalid]**. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton som du administrerar.
 
-* **Sortera efter kolumnrubrik** - Välj en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-post, efter användarroll eller efter giltig/ogiltig status.
+* **Sortera efter kolumnrubrik**: Välj en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress, efter användarroll eller efter giltig/ogiltig status.
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
@@ -162,17 +162,17 @@ I följande tabell beskrivs rapporter som du kan generera från sidan Bandbredd 
 
 Rapporten Bildinnehåll innehåller information om begäranden för följande bildtyper:
 
-* **Bildbegäran** - Begär bilder.
+* **Bildbegäran**: Begäran om bilder.
 
-* **Miniatyrbegäran** - Begär färgrutor eller alternativa bilder i visningsprogram.
+* **Miniatyrbegäran**: Begär färgruta eller alternativa bilder i visningsprogram.
 
-* **Maskbegäran** - Förfrågningar till bilder som returnerar gråskalemasker.
+* **Maskbegäran**: Förfrågningar till bilder som returnerar gråskalemasker.
 
-* **Begäran om visningsruta** - Bildbegäranden som läses in av ett visningsprogram.
+* **Begäran om visningsruta**: Bildbegäranden som läses in av ett visningsprogram.
 
-* **Förfrågan om värdeobjekt** - Begäran om bildåtergivning som returnerar en bild med angivna objekt i de begärda vinjetteringarna.
+* **Förfrågan om värdeobjekt**: Begäran om bildåtergivning som returnerar en bild med angivna objekt i de begärda vinjetterna.
 
-* **Förfrågan om värdeinformation** - Begäran om bildåtergivning som returnerar information om begärda vinjetter.
+* **Förfrågan om värdeinformation**: Begäran om bildåtergivning som returnerar information om begärda vinjetter.
 
 >[!NOTE]
 >
@@ -192,27 +192,27 @@ Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän
 
 När du har genererat en rapport på sidan Bandbredd och lagring kan du välja alternativ för att visa information. Du kan välja hur informationen ska visas, visa information i ett diagram eller datarutnät och ange en tidsperiod för att hämta information. I datavyn kan du även sortera information och ordna om kolumner.
 
-* **Visa data i ett diagram eller datarutnät** - Välj **[!UICONTROL Chart View]** om du vill visa data i ett diagram väljer du **[!UICONTROL Data View]** för att visa data i ett datarutnät.
+* **Visa data i ett diagram eller datarutnät**: Välj **[!UICONTROL Chart View]** om du vill visa data i ett diagram väljer du **[!UICONTROL Data View]** för att visa data i ett datarutnät.
 
-* **Välj en rapportpresentationstyp** - Välj **[!UICONTROL Summary]**, **[!UICONTROL Daily]**, eller **[!UICONTROL Monthly]** för att organisera data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
+* **Välj en rapportpresentationstyp**: Välj **[!UICONTROL Summary]**, **[!UICONTROL Daily]**, eller **[!UICONTROL Monthly]** för att organisera data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
 
-* **Ange en tidsperiod** - Välj alternativ för att definiera en tidsperiod för rapporten och välj sedan **[!UICONTROL Update]** efter att du har definierat en tidsperiod:
+* **Ange en tidsperiod**: Välj alternativ för att definiera en tidsperiod för rapporten och välj sedan **[!UICONTROL Update]** efter att du har definierat en tidsperiod:
 
-* **Fördefinierad tidsperiod** - Välj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
+* **Fördefinierad tidsperiod**: Välj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
 
-* **Anpassad tidsperiod** - Välj på menyn Fördefinierad rapport **[!UICONTROL Custom]**. Välj sedan ett datum på **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
+* **Anpassad tidsperiod**: På den fördefinierade rapportmenyn väljer du **[!UICONTROL Custom]**. Välj sedan ett datum på **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
 
-* **Sortera data (endast datavyn)** - Om du vill sortera information i en kolumn markerar du kolumnens rubrik. Välj igen om du vill sortera i fallande ordning.
+* **Sortera data (endast datavyn)**: Om du vill sortera information i en kolumn markerar du kolumnens rubrik. Välj igen om du vill sortera i fallande ordning.
 
-* **Ordna om kolumner (endast datavyn)** - Om du vill flytta en kolumn till en annan plats i datarutnätet drar du i rubriken.
+* **Ordna om kolumner (endast datavyn)**: Om du vill flytta en kolumn till en annan plats i datarutnätet drar du i rubriken.
 
 ### Exportera och skriv ut rapporter {#exporting-and-printing-reports}
 
 När du har genererat en rapport kan du exportera dess data för användning i kalkylblad och andra program. Du kan också skriva ut rapporter.
 
-* **Exportera rapportdata** - Sortera och ordna data efter behov i datavyn. Öppna sedan **[!UICONTROL Export]** och välj ett format: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]**, eller **[!UICONTROL HTML Formatted]**. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
+* **Exportera rapportdata**: I datavyn kan du sortera och ordna data efter behov. Öppna sedan **[!UICONTROL Export]** och välj ett format: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]**, eller **[!UICONTROL HTML Formatted]**. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
 
-* **Skriva ut en rapport** - Välj **[!UICONTROL Print]** väljer du önskade alternativ i dialogrutan Skriv ut och väljer sedan **[!UICONTROL OK]**.
+* **Skriva ut en rapport**: Välj **[!UICONTROL Print]** väljer du önskade alternativ i dialogrutan Skriv ut och väljer sedan **[!UICONTROL OK]**.
 
 ## Bildfel {#image-errors}
 
@@ -224,22 +224,22 @@ Adobe Dynamic Media Classic-administratörer kan generera bildfelsrapporter. En 
 
    * Om du vill sortera fel efter rubrikinformationen väljer du en rubrik. Som standard sorteras fel efter antal förekomster, från högst till lägst.
    * Flytta markören över svarsfältet för att se det specifika felmeddelandet.
-   * Om du vill visa länken till bilden eller referenswebbsidan för du markören över URL-fältet eller referensfältet.
+   * Om du vill se länken till bilden eller referenswebbsidan för webbsidan, flyttar du markören över URL-fältet eller referensfältet.
    * Om du vill kopiera länken till den faktiska bilden väljer du **[!UICONTROL URL Copy URL]**. Du kan klistra in länken i ett webbläsarfönster för att gå till bilden och undersöka felet.
    * Om du vill kopiera länken till referenswebbsidan väljer du **[!UICONTROL Referrer Copy URL]**.
 
 De fel som visas gäller det företag som du är inloggad på. Varje fel innehåller följande information:
 
-* **Bild-ID** - ID för den felaktiga bilden.
+* **Bild-ID**: ID för den felaktiga bilden.
 
-* **Tid** - Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, under de senaste 24 timmarna.
+* **Tid**: Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, under de senaste 24 timmarna.
 
-* **Antal** - Antalet fel som rapporterats i bilden.
+* **Antal**: Antalet fel som rapporterats i bilden.
 
-* **Svar** - Det specifika felmeddelandet. Felen är antingen 4xx eller 5xx.
+* **Svar**: Felmeddelandet. Felen är antingen 4xx eller 5xx.
 
-* **URL:er** - Visar URL:en till bilden på Adobe Dynamic Media Classic.
+* **URL:er**: Visar URL:en till bilden på Adobe Dynamic Media Classic.
 
-* **Referent** - Anger URL:en för den webbplats som den ursprungliga begäran kom från. Referenten kan vara vilken webbplats som helst som har en länk till bilden.
+* **Referent**: Anger URL:en för den webbplats som den ursprungliga begäran kom från. Referenten kan vara vilken webbplats som helst som har en länk till bilden.
 
 URL- och referenskolumnerna har en associerad Kopiera-URL för att förenkla testningen.

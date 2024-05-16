@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -92,13 +92,13 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually-publishing-a
 1. Markera rotationslistens överrullning **[!UICONTROL Edit]** -knappen.
 1. Gör något av följande:
 
-   * **Ta bort bilder** - Markera bilden och välj sedan **[!UICONTROL Delete]**.
+   * **Ta bort bilder**: Markera bilden och välj sedan **[!UICONTROL Delete]**.
 
-   * **Lägga till bilder** - Dra bilden till en cell.
+   * **Lägga till bilder**: Dra bilden till en cell.
 
-   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)** - Markera en radväljarruta (till vänster om raden) och markera sedan **[!UICONTROL Move Row Down]** eller **[!UICONTROL Move Row Up]**.
+   * **Ändra ordning på rader (tvådimensionella snurruppsättningar)**: Markera en radväljarruta (till vänster om raden) och markera sedan **[!UICONTROL Move Row Down]** eller **[!UICONTROL Move Row Up]**.
 
-   * **Lägga till rader och celler** - Ange en siffra i rutorna Rader och Celler för att bestämma antalet rader och antalet celler i varje rad.
+   * **Lägga till rader och celler**: Ange en siffra i rutorna Rader och Celler för att bestämma antalet rader och antalet celler i varje rad.
 
 1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.

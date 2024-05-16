@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -33,8 +33,8 @@ Identifierar kontonamn, namn, användarnamn (e-postadress) och tilldelad använd
 
 ## Skrivbord
 
-* **Rensa bildcache** - Tar bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn.
-* **Rensa resurscache** - Tar bort alla resursfiler i Adobe Dynamic Media från datorn.
+* **Rensa bildcache**: Tar bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn.
+* **Rensa resurscache**: Tar bort alla resursfiler i Adobe Dynamic Media från datorn.
 
 Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cachen manuellt direkt från filsystemet. Navigera till följande beroende på operativsystem:
 
@@ -72,16 +72,16 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Webbläsare
 
-* **[!UICONTROL Thumbnail Size]** - Anger standardstorleken för miniatyrbilder i Stödrastervisning i panelen Bläddra.
-* **[!UICONTROL Default Asset Library View]** - Avgör om resurserna i resursbiblioteket för uppsättningar visas som miniatyrer eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
-* **[!UICONTROL Default Browse Sort Order]** - Anger i vilken ordning resurser visas som standard på panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
-* **[!UICONTROL Default Browse Location]** - Gör att du kan ange att bläddringsplatsen ska vara standard, den senast öppnade mappen eller till en viss plats som du navigerar till och identifierar. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
-* **[!UICONTROL Default Browse View]** - Avgör om Stödrastervisning eller Listvy är standardvyn som du ser när du först öppnar panelen Bläddra.
-* **[!UICONTROL Splash Screen Display]** - Avgör om du ser några välkomstskärmar, inklusive välkomstvälkomstskärmen.
-* **[!UICONTROL Show ToolTips]** - Anger om verktygstips ska visas när du flyttar pekaren över knappar, menyer och navigeringslänkar. Verktygstips beskriver gränssnittsobjekt på skärmen.
-* **[!UICONTROL Checkerboard Background]** - Visar ett schackbrädlager bakom bilder så att du enkelt kan se de genomskinliga områdena i en bild som har en alfakanal.
-* **[!UICONTROL Show File Size]** - Visar filstorleken för en resurs när du bläddrar.
-* **[!UICONTROL Include UDFs in Search]** - För att förbättra systemprestanda för de flesta metadatasökningar som du kör, avmarkerat (standard).
+* **[!UICONTROL Thumbnail Size]**: Bestämmer standardstorleken för miniatyrbilder i Stödrastervisning på panelen Bläddra.
+* **[!UICONTROL Default Asset Library View]**: Avgör om resurserna i resursbiblioteket för uppsättningar visas som miniatyrer eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
+* **[!UICONTROL Default Browse Sort Order]**: Bestämmer i vilken ordning som resurser visas som standard på panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
+* **[!UICONTROL Default Browse Location]**: Gör att du kan ange att bläddringsplatsen ska vara standard, den senast öppnade mappen eller en viss plats som du kan navigera till och identifiera. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
+* **[!UICONTROL Default Browse View]**: Avgör om stödrastervyn eller listvyn är standardvyn som du ser när du först öppnar panelen Bläddra.
+* **[!UICONTROL Splash Screen Display]**: Avgör om det visas några välkomstskärmar, inklusive välkomstvälkomstskärmen.
+* **[!UICONTROL Show ToolTips]**: Avgör om verktygstips ska visas när du flyttar pekaren över knappar, menyer och navigeringslänkar. Verktygstips beskriver gränssnittsobjekt på skärmen.
+* **[!UICONTROL Checkerboard Background]**: Visar ett schackbrädlager bakom bilder, så att du enkelt kan se de genomskinliga områdena i en bild som har en alfakanal.
+* **[!UICONTROL Show File Size]**: Visar filstorleken för en resurs när du bläddrar.
+* **[!UICONTROL Include UDFs in Search]**: För att förbättra systemprestanda för de flesta metadatasökningar som du kör avmarkerat (standard).
 
   Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Alternativt kan du använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än att inkludera användardefinierade fält.
 
@@ -89,28 +89,28 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
   Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Basic Search Type]** - Du kan välja mellan två alternativ: **[!UICONTROL Contains]** söker igenom hela strängen efter det angivna värdet, **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som är inställd i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** av administratören.
-* **[!UICONTROL Show Command Feedback]** - Välj det här alternativet om du vill aktivera visning av kommandobegäranden för servern. Avmarkera alternativet om du vill stänga av.
-* **[!UICONTROL Show Dialog During Export]** - Välj det här alternativet om du vill visa en popup-dialogruta under en export. Om du avmarkerar (inaktiverar) det här alternativet kan du fortfarande gå till sidan Jobb för att hämta resultaten av din export.
+* **[!UICONTROL Basic Search Type]**: Du kan välja mellan två alternativ: **[!UICONTROL Contains]** söker igenom hela strängen efter det angivna värdet, **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som är inställd i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** av administratören.
+* **[!UICONTROL Show Command Feedback]**: Välj att aktivera visning av kommandobegäranden till servern och avmarkera för att stänga av.
+* **[!UICONTROL Show Dialog During Export]**: Välj det här alternativet om du vill visa en popup-dialogruta under en export. Om du avmarkerar (inaktiverar) det här alternativet kan du fortfarande gå till sidan Jobb för att hämta resultaten av din export.
 
 ## E-post
 
-* **[!UICONTROL Email Options]** - Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben är slutförda. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
-* **[!UICONTROL Email Scope]** - Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
-* **[!UICONTROL Email Types]** - Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
+* **[!UICONTROL Email Options]**: Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben är klara. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+* **[!UICONTROL Email Scope]**: Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller endast e-post om överförings- och publiceringsjobb som du initierar.
+* **[!UICONTROL Email Types]**: Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
 
 ## Språk
 
-* **[!UICONTROL Preferred Language]** - Bestämmer vilket språk du vill använda för gränssnittet.
+* **[!UICONTROL Preferred Language]**: Bestämmer vilket språk som ska användas för gränssnittet.
 
 ## Lösenord
 
-* **[!UICONTROL Current Password]** - Ange lösenordet för ditt nuvarande lösenord.
-* **[!UICONTROL New Password]** - Ange ett nytt, giltigt lösenord. Lösenordet måste uppfylla följande krav:
+* **[!UICONTROL Current Password]**: Ange lösenordet för ditt nuvarande lösenord.
+* **[!UICONTROL New Password]**: Ange ett nytt, giltigt lösenord. Lösenordet måste uppfylla följande krav:
    * Var mellan 8 och 25 tecken lång.
    * Innehåller minst en gemen.
    * Innehåller minst en versal.
    * Innehåller minst en siffra.
-   * Innehåller minst ett av följande specialtecken: `# $ & - _ : { }`
-* **[!UICONTROL Re-Type Password]** - Ange det nya lösenordet igen för att bekräfta att du har angett det korrekt.
-* **[!UICONTROL Password Expiration]** - Anger om ditt lösenord upphör att gälla efter 72 dagar som en säkerhetsåtgärd. Om du väljer Ja ombeds du skapa ett lösenord efter 72 dagar.
+   * Innehåller minst ett av följande specialtecken: `# $ &: _ : { }`
+* **[!UICONTROL Re-Type Password]**: Ange det nya lösenordet igen för att bekräfta att du har angett det korrekt.
+* **[!UICONTROL Password Expiration]**: Fastställer om ditt lösenord upphör att gälla efter 72 dagar som en säkerhetsåtgärd. Om du väljer Ja ombeds du skapa ett lösenord efter 72 dagar.

@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 0%
@@ -113,24 +113,24 @@ Du kan skicka ett välkomstmeddelande när du lägger till nya användare, medar
 1. På skärmen Inställningar för användaradministration väljer du **[!UICONTROL Email Settings]**.
 1. Ange någon av följande inställningar i dialogrutan E-postinställningar:
 
-   * **[!UICONTROL Send Email]** - Avmarkera det här alternativet om du vill informera nya användare via e-post om att du har registrerat dem.
+   * **[!UICONTROL Send Email]**: Avmarkera det här alternativet om du vill informera nya användare via e-post om att du har registrerat dem.
 
-   * **[!UICONTROL Default Password]** - Ange ett tillfälligt lösenord för nya användare eller lämna fältet tomt om du vill att Adobe Dynamic Media Classic ska generera slumpmässiga lösenord. Användarna uppmanas att ändra lösenord första gången de loggar in.
+   * **[!UICONTROL Default Password]**: Ange ett tillfälligt lösenord för nya användare, eller lämna fältet tomt om du vill att Adobe Dynamic Media Classic ska generera slumpmässiga lösenord. Användarna uppmanas att ändra lösenord första gången de loggar in.
 
-   * **[!UICONTROL Replacement URL]** - Ange en annan URL än standardadressen om dina användare öppnar Adobe Dynamic Media Classic via en annan URL.
+   * **[!UICONTROL Replacement URL]**: Ange en annan URL än standardadressen om användarna öppnar Adobe Dynamic Media Classic via en annan URL.
 
 ## Andra användarhanteringsåtgärder {#other-user-management-tasks}
 
 Med början på skärmen Inställningar för användaradministration kan du även göra följande:
 
-* **[!UICONTROL Filter and sort the user list]** - Filtrera listan med Media Portal-användare för att hitta användare.
+* **[!UICONTROL Filter and sort the user list]**: Filtrera listan med Media Portal-användare för att hitta användare.
 
-* **[!UICONTROL Delete users]** - Ta bort en användare från listan.
+* **[!UICONTROL Delete users]**: Ta bort en användare från listan.
 
-* **[!UICONTROL Activate and deactivate users]** - hindra en användare från att komma åt mappar.
+* **[!UICONTROL Activate and deactivate users]**: Gör så att en användare inte kan komma åt mappar.
 
-* **[!UICONTROL Edit user information]** - Ange aktuell information om en användare.
+* **[!UICONTROL Edit user information]**: Ange aktuell information om en användare.
 
-* **[!UICONTROL Create user-defined fields]** - Skapa anpassade, användardefinierade metadatafält som hjälper dig att ordna resurser i Adobe Dynamic Media Classic. Fälten kan också aktiveras eller inaktiveras vid behov.
+* **[!UICONTROL Create user-defined fields]**: Skapa anpassade, användardefinierade metadatafält som hjälper dig att ordna resurser i Adobe Dynamic Media Classic. Fälten kan också aktiveras eller inaktiveras vid behov.
 
 Se [Användardefinierade fält](application-setup.md#user_defined_fields).

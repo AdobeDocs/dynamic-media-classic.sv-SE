@@ -9,7 +9,7 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Svaret för bilder ser ut ungefär som följande:
 <scene7> 
     <user_generated_content> 
         <response> 
-        <serviceName>User Generated Content - Images</serviceName> 
+        <serviceName>User Generated Content: Images</serviceName> 
         <version>1.0.0</version> 
         <operationName>get_uploadtoken</operationName> 
         <serviceStatus>SUCCESS</serviceStatus> 
@@ -151,7 +151,7 @@ Nedan följer ett exempelsvar från en slutförd överföring:
 <scene7> 
     <user_generated_content> 
         <response> 
-            <serviceName>User Generated Content - Images</serviceName> 
+            <serviceName>User Generated Content: Images</serviceName> 
             <version>1.0.0</version> 
             <operationName>upload</operationName> 
             <serviceStatus>SUCCESS</serviceStatus> 
@@ -215,7 +215,7 @@ Ett exempel på ett lyckat svar ser ut ungefär så här:
 <scene7> 
     <user_generated_content> 
         <response> 
-            <serviceName>User Generated Content - Images</serviceName> 
+            <serviceName>User Generated Content: Images</serviceName> 
             <version>1.0.0</version> 
             <operationName>image_info</operationName> 
             <serviceStatus>SUCCESS</serviceStatus> 

@@ -9,18 +9,18 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '3883'
+source-wordcount: '3886'
 ht-degree: 0%
 
 ---
 
 # Överför och koda videoklipp{#uploading-and-encoding-videos}
 
-Om du vill skapa en enda video eller adaptiva videouppsättningar för webben eller mobila enheter överför du först dina primära videofiler till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic kodar videoklipp till MP4-format och publicerar video i följande filformat:
+Om du vill skapa en video eller adaptiva videouppsättningar för webben eller mobila enheter måste du först överföra dina primära videofiler till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic kodar videoklipp till MP4-format och publicerar video i följande filformat:
 
-* **MP4** - Adobe Dynamic Media Classic rekommenderar MP4 som det rekommenderade videofilformatet. Använd MP4-filer för följande:
+* **MP4**: Adobe Dynamic Media Classic rekommenderar MP4 som det rekommenderade videofilformatet. Använd MP4-filer för följande:
 
    * HTTP Dynamic Streaming på stationära datorer.
    * HTTP Live Streaming (Apple direktuppspelningsprotokoll).
@@ -28,9 +28,9 @@ Om du vill skapa en enda video eller adaptiva videouppsättningar för webben el
 
   Adobe Dynamic Media Classic har två arbetsflöden för överföring av videofiler:
 
-* **Förkodade videoklipp** - Du överför MP4-filer direkt till Adobe Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
+* **Förkodade videoklipp**: Du överför MP4-filer direkt till Adobe Dynamic Media Classic. Med det här arbetsflödet kodas inte filer när du överför dem. Filerna är förkodade för att kunna skickas till datorn och till mobila enheter.
 
-* **Videoklipp med primär källa** - Överför primära källvideofiler och koda dessa filer till MP4-filer vid överföring. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Adobe Dynamic Media Classic stöder kodning av videofiler i många format.
+* **Videoklipp med primär källa**: Överför primära källvideofiler och koda dessa filer till MP4-filer vid överföring. Kodade videor får etiketten&quot;Video&quot; i panelen Bläddra. Adobe Dynamic Media Classic stöder kodning av videofiler i många format.
 
    * Kontrollera att de primära källvideofiler som du vill koda stöds.
 
@@ -68,7 +68,7 @@ Gör något av följande.
 1. Välj i det nedre högra hörnet på sidan **[!UICONTROL Job Options]**,
 1. Expandera i dialogrutan Alternativ för överföring av jobb **[!UICONTROL EVideo Options]** gör du något av följande:
 
-   * Bästa sättet är att välja **[!UICONTROL Adaptive Video Encoding]**. Se [Adaptiv video (standard)](application-setup.md#adaptive-video-default).
+   * Det bästa sättet är att välja **[!UICONTROL Adaptive Video Encoding]**. Se [Adaptiv video (standard)](application-setup.md#adaptive-video-default).
    * Valfritt. Om du vill använda enskilda kodningsinställningar expanderar du **[!UICONTROL Single Encoding Presets]**och välj sedan de kodningsalternativ som du vill använda för Skrivbord, Mobil och Surfplatta.
 Se [Videokodningsförinställningar för datorer](application-setup.md#desktop-video-encoding-presets), [Förinställningar för kodning av mobilvideo](application-setup.md#mobile-video-encoding-presets), [Videokodningsförinställningar för surfplattor](application-setup.md#tablet-video-encoding-presets).
 1. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Save]**.
@@ -78,7 +78,7 @@ Se [Videokodningsförinställningar för datorer](application-setup.md#desktop-v
 *Om du vill koda om en videofil som du överfört tidigare*
 
 1. I Adobe Dynamic Media Classic navigerar du till videon på panelen Bläddra och markerar den.
-1. Gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.&quot;
+1. Gå till **[!UICONTROL File]** > **[!UICONTROL Reprocess]**.
 1. Expandera i dialogrutan Bearbeta resurser **[!UICONTROL EVideo Options]** gör du något av följande:
    * Det bästa sättet är att använda följande metod. Välj **Adaptiv video**.
 Se [Adaptiv video (standard)](application-setup.md#adaptive-video-default).
@@ -86,7 +86,7 @@ Se [Adaptiv video (standard)](application-setup.md#adaptive-video-default).
 Se [Videokodningsförinställningar för datorer](application-setup.md#desktop-video-encoding-presets), [Förinställningar för kodning av mobilvideo](application-setup.md#mobile-video-encoding-presets), [Videokodningsförinställningar för surfplattor](application-setup.md#tablet-video-encoding-presets).
 1. I dialogrutan Bearbeta resurser väljer du **[!UICONTROL Submit]**.
 
-När du använder förinställningen Adaptiv videokodning eller använder flera enkodningsförinställningar blir resultatet en adaptiv videouppsättning som automatiskt skapas med flera videokodningar. Du kan också skapa en adaptiv videouppsättning manuellt genom att markera enskilda videoklipp.
+När du använder en adaptiv videokodningsförinställning eller flera enkodningsförinställningar blir resultatet en adaptiv videouppsättning som automatiskt skapas med flera videokodningar. Du kan också skapa en adaptiv videouppsättning manuellt genom att markera enskilda videoklipp.
 
 Endast MP4- och M4V-filtyper skapas när du genererar en adaptiv videouppsättning automatiskt eller manuellt.
 
@@ -94,9 +94,9 @@ Endast MP4- och M4V-filtyper skapas när du genererar en adaptiv videouppsättni
 
 I följande tabell visas videofiltyper (med tillåtna videokodekar) som du kan koda till MP4- eller OGV-format när du överför filer. I tabellen visas filformat och kodekar:
 
-* **Videofilformat** - Ungefär som en ZIP-fil avgör videofilformatet hur filerna finns i videofilen. En videofil innehåller vanligtvis flera spår - ett videospår (utan ljud) och ett eller flera ljudspår (utan video) - som är sammankopplade och synkroniserade. Videofilformatet avgör hur dessa olika dataspår och metadata ordnas.
+* **Videofilformat**: Ungefär som en ZIP-fil avgör videofilformatet hur filerna finns i videofilen. En videofil innehåller vanligtvis flera spår - ett videospår (utan ljud) och ett eller flera ljudspår (utan video) - som är sammankopplade och synkroniserade. Videofilformatet avgör hur dessa olika dataspår och metadata ordnas.
 
-* **Videokodekar** - En videokodek beskriver den algoritm som en video kodas med. En videospelare avkodar videon enligt dess kodek och visar sedan en serie bilder, eller bildrutor, på skärmen. Kodekar minimerar mängden information som videofiler behöver för att kunna lagra videon. I stället för information om varje enskild bildruta sparas bara information om skillnaderna mellan en bildruta och nästa. Eftersom de flesta videoklipp inte ändras så mycket från en bildruta till nästa, kan du använda codecenheter för hög komprimeringshastighet, vilket ger mindre filstorlekar.
+* **Videokodekar**: En videokodek beskriver den algoritm som en video kodas med. En videospelare avkodar videon enligt dess kodek och visar sedan en serie bilder, eller bildrutor, på skärmen. Kodekar minimerar mängden information som videofiler behöver för att kunna lagra videon. I stället för information om varje enskild bildruta sparas bara information om skillnaderna mellan en bildruta och nästa. Eftersom de flesta videoklipp inte ändras så mycket från en bildruta till nästa, kan du använda codecenheter för hög komprimeringshastighet, vilket ger mindre filstorlekar.
 
   | Videofilformat | Videokodekar |
   | --- | --- |
@@ -108,14 +108,14 @@ I följande tabell visas videofiltyper (med tillåtna videokodekar) som du kan k
   | M2V | MPEG-2 ES |
   | M4V | H.264 |
   | MOV | DV, DVCPro 50, H.261, H.263, H.264, Sorenson Video 1 |
-  | MP4 | H.264 / MPEG-4 AVC |
+  | MP4 | `H.264/MPEG-4` AVC |
   | MPEG | MPEG-2 SS |
   | MPG | MPEG-2 SS |
   | MTS | MPEG-2 |
   | ProRes | APCN, APCS, APCO, APCH, AP4H |
   | TS | DVCPro 50 |
   | VOB | MPEG-2 |
-  | WMV/ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
+  | WMV / ASF | VC-1, Windows® Media Video 7, Windows® Media Video 8 |
 
   >[!NOTE]
   >
@@ -140,8 +140,8 @@ I följande tabell beskrivs rekommenderad storlek, proportioner och lägsta bith
 | Storlek | Proportioner | Minsta bithastighet |
 | --- | --- | --- |
 | 1024 x 768 | 4:3 | 4 500 kbit/s för de flesta videofilmer. |
-| 1280 x 720 | 16:9 | 3 000 - 6 000 kbit/s, beroende på mängden rörelse i videon. |
-| 1920 x 1080 | 16:9 | 6000 - 8 000 kbit/s, beroende på mängden rörelse i videon. |
+| 1280 x 720 | 16:9 | 3000: 6 000 kbit/s, beroende på mängden rörelse i videon. |
+| 1920 x 1080 | 16:9 | 6000: 8 000 kbit/s, beroende på mängden rörelse i videon. |
 
 ### Hämta metadata för en fil {#obtaining-a-file-s-metadata}
 
@@ -157,7 +157,7 @@ När du väljer eller skapar en förinställning för videokodning för den prim
 
 Om du vill ta reda på videofilens proportioner hämtar du filens metadata och noterar filens bredd och höjd (se [Hämta metadata för en fil](uploading-encoding-videos.md#obtaining_a_file_s_metadata)). Använd sedan den här formeln för att bestämma proportionerna:
 
-width/height = aspect ratio
+Bredd/höjd = Proportioner
 
 I följande tabell beskrivs hur formelresultaten översätts till vanliga alternativ för proportioner:
 
@@ -222,11 +222,11 @@ När du väljer (eller skapar) en förinställning för videokodning för den pr
 | 720p | 720 | Stor skärm |
 | 1080p | 1080 | Stor HD-skärm |
 
-### Fps (bildrutor per sekund) {#fps-frames-per-second}
+### FPS (bildrutor per sekund) {#fps-frames-per-second}
 
-I USA och Japan spelas de flesta videoklipp in med 29,97 bildrutor per sekund (fps). I Europa spelas de flesta videoklipp in med 25 fps. Film filmas med 24 fps.
+I USA och Japan spelas de flesta videoklipp in med 29,97 bildrutor per sekund (fps). I Europa spelas de flesta videoklipp in med 25 bildrutor per sekund (fps). Filmen spelas in i 24 bildrutor/s.
 
-Välj en förinställning för videokodning som matchar fps-hastigheten för den primära videofilen. Om din primära video till exempel är 25 fps väljer du en kodningsförinställning med 25 fps. Som standard används den primära videofilens fps för alla anpassade kodningar. Därför behöver du inte uttryckligen ange fps-inställningen när du skapar en förinställning för videokodning.
+Välj en förinställning för videokodning som matchar FPS-hastigheten för den primära videofilen. Om den primära videon till exempel är 25 bildrutor/s väljer du en kodningsförinställning med 25 bildrutor/s. Som standard används den primära videofilens bildrutefrekvens i alla anpassade kodningar. Därför behöver du inte ange FPS-inställningen när du skapar en förinställning för videokodning.
 
 ### Videokodningsdimensioner {#video-encoding-dimensions}
 
@@ -251,7 +251,7 @@ Adobe Dynamic Media Classic rekommenderar att du använder MP4 H.264-videokodnin
 
 ## Arbeta med förinställningar för videokodning {#working-with-video-encoding-presets}
 
-Primära videofiler som skapats med videoproduktionsutrustning och videoredigeringsprogram är ofta för stora och har inte rätt format för leverans till onlinedestinationer. Om du vill konvertera digital video till rätt format och specifikationer för uppspelning på olika skärmar kan du *trancode* videofiler (en process som också kallas *kodning*). Under kodningen komprimeras videon till en mindre, effektiv filstorlek för optimal distribution till webben och mobila enheter.
+Primära videofiler som skapats med videoproduktionsutrustning och videoredigeringsprogram är ofta för stora och har inte rätt format för leverans till onlinedestinationer. Om du vill konvertera digital video till rätt format och specifikationer för uppspelning på olika skärmar kan du *trancode* videofiler (en process som också kallas *kodning*). Under kodningen komprimeras videon till en mindre, effektiv filstorlek. Det gör det för optimal distribution till webben och mobila enheter.
 
 Se [Överför och koda videoklipp](uploading-encoding-videos.md#uploading-and-encoding-videos).
 
@@ -313,7 +313,7 @@ De aktiverade videoförinställningarna visas i dialogrutan Alternativ för öve
 
 1. Gör något av följande:
 
-   * Om du vill aktivera en videoförinställning markerar du rutan bredvid ett förinställningsnamn under kolumnen Aktiv på sidan med förinställningar.
+   * Om du vill aktivera en videoförinställning markerar du rutan bredvid ett förinställningsnamn under kolumnen Aktiv på sidan Förinställningar.
    * Om du vill inaktivera en videoförinställning avmarkerar du rutan bredvid den videoförinställning som du vill göra inaktiv.
 
      >[!NOTE]
@@ -326,7 +326,7 @@ De aktiverade videoförinställningarna visas i dialogrutan Alternativ för öve
 
 Du kan skapa egna videoförinställningar med en enda kodning och lägga till dem i tabellen Videoförinställningar. Du kan också ändra alla fördefinierade videoförinställningar för enskild kodning som medföljer Adobe Dynamic Media Classic, förutsatt att du sparar den redigerade förinställningen med ett nytt namn.
 
-Adobe Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösningshöjd och upplösningsbredd för att säkerställa en korrekt uppspelningsupplevelse. Varningsmeddelanden visas om du överskrider följande gränser:
+Adobe Dynamic Media Classic har angett maxgränser för måldatahastighet, upplösningshöjd och upplösningsbredd för att säkerställa en korrekt uppspelningsupplevelse. Varningsmeddelanden visas om du överskrider dessa gränser, som är följande:
 
 * För datoruppspelning är gränserna: (Bredd/16) &#42; (Höjd/16) &lt; 8192.
 * För mobiluppspelning är gränserna: (bredd/16) &#42; (Höjd/16) &lt; 660; måldatahastighet &lt; 4000.
@@ -350,10 +350,10 @@ Adobe Dynamic Media Classic har angett maxgränser för måldatahastighet, uppl�
    | Videoförinställning, alternativ | Beskrivning |
    | --- | --- |
    | Förinställningsnamn | Ange ett beskrivande namn för videoförinställningen. Det namn du anger visas i dialogrutan Alternativ för överföringsjobb, där användarna väljer alternativ för omkodning. |
-   | Beskrivning | Beskriv videoförinställningen. Det du anger visas som ett verktygstips när du flyttar pekaren över namnet på förinställningen i dialogrutan Alternativ för överföringsjobb där användarna väljer omkodningsalternativ. |
+   | Beskrivning | Beskriv videoförinställningen. Det du anger visas som ett verktygstips. När användare väljer omkodningsalternativ visas verktygstipset när de flyttar pekaren över namnet på förinställningen i dialogrutan Alternativ för överföringsjobb. |
    | Uppspelningsenhet | Välj den enhet som videon ska spelas upp på. Alternativen är Dator (stationära datorer), Mobil (iPhone, iPad, Android™) eller Tablet (endast iPad). Den här inställningen bestämmer automatiskt vilken video- och ljudkodek som ska användas vid kodningen. |
-   | Måldatahastighet | Ange den genomsnittliga internetanslutningshastigheten (i kilobit per sekund) för målslutanvändaren. Du kan ange hastigheten eller dra reglaget för att ange den. I spektrumet för användaranslutningshastighet visas typiska hastigheter för bredband, DSL, mobiler och fjärranslutningar. Den här inställningen bestämmer automatiskt den kombinerade video- och ljuddatahastigheten. Med andra ord den datamängd som kodas för att utgöra en sekund av videouppspelningen. Ju högre datahastighet, desto bättre kvalitet får videon. För höga datahastigheter resulterar dock i stora filstorlekar som skapar en underordnad visningsupplevelse för användare med låg bandbredd. Det bästa sättet är att hitta en balans mellan höga och låga datahastigheter. Rikta in dig på att skapa en bra uppspelningsupplevelse utan att ge alienera användare med smala bandbredder. |
-   | Proportioner | Proportionerna är proportionerna mellan videons bredd och höjd. De två första proportionerna som anges nedan används ofta för att visa video vågrätt:<ul><li> 4:3 - Används för nästan allt tv-sändningsinnehåll med standarddefinition.</li><li>16:9 - Används för nästan allt bredbildsinnehåll och alla filmer på HDTV (High-Definition Television).</li><li>Skala automatiskt - (standard) En förinställning för enkel kodning som fungerar med alla proportioner för att skapa videor som ska skickas till mobiler, surfplattor och datorer. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner (bredd-/höjdförhållande) bevaras.</li><li>Anpassad - Används när du vill definiera en videostorlek som inte är standard.</li><li>De proportioner du väljer avgör inställningarna för bredd och höjd för upplösningsstorleken. Bredd- och höjdvärdet skalas automatiskt till rätt proportioner.</li></ul> |
+   | Måldatahastighet | Ange den genomsnittliga internetanslutningshastigheten (i kilobit per sekund) för målslutanvändaren. Du kan ange hastigheten eller dra reglaget för att ange den. I spektrumet för användaranslutningshastighet visas typiska hastigheter för bredband, DSL, mobiler och fjärranslutningar. Den här inställningen bestämmer automatiskt den kombinerade video- och ljuddatahastigheten. Med andra ord den datamängd som kodas för att utgöra en sekund av videouppspelningen. Ju högre datahastighet, desto bättre kvalitet får videon. För höga datahastigheter resulterar dock i stora filstorlekar som skapar en underordnad visningsupplevelse för användare med låg bandbredd. Det bästa sättet är att hitta en balans mellan höga och låga datahastigheter. Försök att skapa en bra uppspelningsupplevelse utan att alienera användare som har smala bandbredder. |
+   | Proportioner | Proportionerna är proportionerna mellan videons bredd och höjd. De två första proportionerna som anges nedan används ofta för att visa video vågrätt:<ul><li> 4:3: Används för nästan alla tv-sändningar med standarddefinition.</li><li>16:9: Används för nästan allt bredbildsmaterial och filmer på HDTV (High-Definition Television).</li><li>Skala automatiskt: (Standard) En förinställning för enkel kodning som fungerar med alla proportioner för att skapa videor som ska skickas till mobilen, surfplattan och datorn. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner (bredd-/höjdförhållande) bevaras.</li><li>Anpassad: Används när du vill definiera en videostorlek som inte är standard.</li><li>De proportioner du väljer avgör inställningarna för bredd och höjd för upplösningsstorleken. Bredd- och höjdvärdet skalas automatiskt till rätt proportioner.</li></ul> |
    | Upplösningsstorlek | Upplösningsstorleken, uttryckt som antalet pixlar breda och antalet pixlar höga, avgör storleken. Ange ett bredd- och höjdvärde i pixlar eller dra reglaget för att ange dessa värden. I upplösningsspektrumet visas vanliga upplösningsstorlekar. Breddvärdet och höjdvärdet följer automatiskt de proportioner som du har valt. Om du till exempel väljer 4:3 som proportioner och anger 400 som bredd, anges 300 automatiskt som höjd. Om du valde Skala automatiskt för inställningen Proportioner, ställs värdet för Bredd för upplösningsstorleken automatiskt in på Auto. Välj **[!UICONTROL Preview]** så att du kan öppna ett webbläsarfönster och se dina upplösningsalternativ där. |
    | Koda filsuffix | Ange ett suffix. Det här suffixet läggs till i den kodade videofilen. Du kan skriva ett bindestreck och ett understreck i namnet. Blanksteg och specialtecken tillåts inte. |
    | Andra inställningar | Adobe Dynamic Media Classic fastställer automatiskt alla andra kodningsinställningar enligt riktlinjerna för bästa praxis. |

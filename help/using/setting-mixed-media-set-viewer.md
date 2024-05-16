@@ -10,7 +10,7 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Visningsförinställningarna för den blandade medieuppsättningen avgör formatet, beteendet och utseendet på huvudvisningsprogrammet. När du konfigurerar en förinställning anger du vilka andra visningsprogram du vill ska visas i visningsprogrammet för blandade media. Om du t.ex. har inkluderat en bilduppsättning i din uppsättning med blandade media anger du en förinställning för bilduppsättningsvisningsprogrammet för visningsprogrammet för den blandade medieuppsättningen.
 
-Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogrammet för den blandade medieuppsättningen. Med funktionen Bädda in läggs en länk till visningsprogrammet som gör att användarna kan kopiera den kod som krävs för att visa visningsprogrammet på en extern sida (till exempel en blogg, en webbplats eller en social nätverksplats). Länkfunktionen tillhandahåller URL:en till visningsprogrammet, så att användare kan länka tillbaka till det här visningsprogrammet. Besöksfunktionen tillhandahåller en länk till den webbplats du anger.
+Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogrammet för den blandade medieuppsättningen. Med funktionen Bädda in läggs en länk till visningsprogrammet som gör att användarna kan kopiera den kod som krävs för att visa visningsprogrammet på en extern sida (till exempel en blogg, en webbplats eller en social nätverksplats). Länkfunktionen tillhandahåller URL:en till visningsprogrammet, så att användare kan länka tillbaka till det här visningsprogrammet. Besöksfunktionen är en länk till den webbplats du anger.
 
 1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Gör något av följande på sidan Förinställningar för visningsprogram:
@@ -44,7 +44,7 @@ Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogramm
 
    Den nya visningsförinställningen visas i listan.
 
-1. Upprepa steg 6-9 för alla visningsprogramförinställningar som du vill lägga till.
+1. Upprepa steg 6: 9 för alla visningsprogramförinställningar som du vill lägga till.
 1. Om du vill redigera förinställningslistan gör du något av följande:
 
    * Om du vill ta bort en förinställning från listan markerar du den och väljer sedan **[!UICONTROL Delete]**.
@@ -52,13 +52,13 @@ Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogramm
 
 1. Om du vill lägga till communityfunktioner (Bädda in, Länk, Besök) i visningsprogrammet anger du alternativ för något av följande:
 
-   * **E-post** - Välj **[!UICONTROL On]** om du vill aktivera en e-postknapp i visningsprogrammet. När användare väljer knappen E-post när de visar uppsättningen öppnas ett e-postmeddelande med länken till uppsättningen.
+   * **E-post**: Välj **[!UICONTROL On]** om du vill aktivera en e-postknapp i visningsprogrammet. När användare väljer knappen E-post när de visar uppsättningen öppnas ett e-postmeddelande med länken till uppsättningen.
 
-   * **Bädda in** - Välj **[!UICONTROL Live]**. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Om du vill kan du markera **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
+   * **Bädda in**: Välj **[!UICONTROL Live]**. I rutan Bädda in knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Bädda in. Om du vill kan du markera **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Länk** - Välj **[!UICONTROL Live]**. Skriv det namn som du vill ska visas i visningsprogrammet för knappen Länk i rutan Länkknappsetikett. Om du vill kan du markera **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
+   * **Länk**: Välj **[!UICONTROL Live]**. Skriv det namn som du vill ska visas i visningsprogrammet för knappen Länk i rutan Länkknappsetikett. Om du vill kan du markera **[!UICONTROL Browse]** för att hitta och välja ett anpassat skal för knappen.
 
-   * **Besök** - Välj **[!UICONTROL Live]**. I rutan Besök knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Besök. I rutan Besök URL skriver du URL-adressen till den webbplats som du vill öppna när länken är markerad.
+   * **Besök**: Välj **[!UICONTROL Live]**. I rutan Besök knappetikett skriver du det namn som du vill ska visas i visningsprogrammet för knappen Besök. I rutan Besök URL skriver du URL-adressen till den webbplats som du vill öppna när länken är markerad.
 
 1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ väljer du ikonen Tips för information bredvid alternativet.
 

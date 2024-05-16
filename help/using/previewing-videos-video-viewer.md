@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Se [Lägga till och redigera visningsprogramförinställningar](application-setu
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic är ett praktiskt sätt att förhandsgranska MP4-video på datorn. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det som visas i datorförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen och väljer **[!UICONTROL Copy URL]** och ange den URL-adressen i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilsajter](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic är ett praktiskt sätt att förhandsgranska MP4-video på datorn. Använd den här metoden för att förhandsgranska mobilt innehåll på datorn utan att fysiskt testa det på mobila enheter. Tänk dock på att det som visas i datorförhandsvisningen inte på ett realistiskt sätt visar hur uppspelningen ser ut på den mobila enheten. Om du vill förhandsgranska hur videon ser ut och spelas upp på en mobil enhet går du till förhandsgranskningsskärmen och väljer **[!UICONTROL Copy URL]** och ange den URL:en i webbläsaren på en mobil enhet. Mer information finns i [Distribuera video till webbplatser och mobilsajter](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## Arbeta med förinställningar för visningsprogram för video {#working-with-video-viewer-presets}
 
@@ -53,7 +53,7 @@ Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-vi
 
 Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo.
 
-### Lägga till eller redigera en förinställning för visningsprogram för video {#adding-or-editing-a-video-viewer-preset}
+### Lägga till eller redigera en förinställning för visningsprogrammet för video {#adding-or-editing-a-video-viewer-preset}
 
 Du kan använda visningsförinställningar för att visa olika typer av visningsprogram och deras fördefinierade inställningar. Du kan också lägga till och redigera egna anpassade visningsprogramförinställningar eller redigera befintliga visningsprogramförinställningar som medföljer Adobe Dynamic Media Classic.
 
@@ -63,7 +63,7 @@ Se [Förinställningar för visningsprogram](application-setup.md#viewer_presets
 
 Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo.
 
-**Så här lägger du till eller redigerar en förinställning för visningsprogram för video:**
+**Så här lägger du till eller redigerar en förinställning för visningsprogrammet för video:**
 
 1. Nära Adobe Dynamic Media Classic övre högra hörn går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 
@@ -71,15 +71,15 @@ Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/Video
 
 1. Lägg till eller redigera en visningsförinställning för att visa video:
 
-   * **Lägg till** - Välj **[!UICONTROL Add]** i verktygsfältet. I dialogrutan Lägg till visningsförinställning väljer du en plattform och ett visningsprogram i respektive listruta och väljer sedan **[!UICONTROL Add]**.
+   * **Lägg till**: Välj **[!UICONTROL Add]** i verktygsfältet. I dialogrutan Lägg till visningsförinställning väljer du en plattform och ett visningsprogram i respektive listruta och väljer sedan **[!UICONTROL Add]**.
 
    Se även [Lägga till och redigera visningsprogramförinställningar](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **Lägg till genom att starta från en befintlig visningsförinställning** - Markera en förinställning för Videovisning i tabellen och välj sedan **[!UICONTROL Edit]** i verktygsfältet.
+   * **Lägg till genom att starta från en befintlig visningsförinställning**: I tabellen väljer du en förinställning för Video Viewer och sedan väljer du **[!UICONTROL Edit]** i verktygsfältet.
 
    När du har konfigurerat om Video Viewer väljer du **[!UICONTROL Save As]** om du vill spara förinställningen med ett annat namn i textfältet Förinställningsnamn.
 
-   * **Redigera** - Välj en förinställning för Video Viewer och välj sedan **[!UICONTROL Edit]**.
+   * **Redigera**: Välj en förinställning för Video Viewer och välj sedan **[!UICONTROL Edit]**.
 
 1. I `Configure Viewer` i fältet Förinställningsnamn anger eller redigerar du förinställningens namn.
 1. Ange de återstående alternativen som du vill ha.

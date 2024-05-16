@@ -10,7 +10,7 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -37,13 +37,13 @@ Alternativ för att överföra PDF-filer finns på sidan Överför under Alterna
 
 ### Bearbetningsalternativ
 
-**[!UICONTROL Rasterize]** - (Standard) Rippar sidorna i filen PDF och konverterar vektorgrafik till bitmappsbilder. Välj det här alternativet om du vill skapa en e-katalog.
+**[!UICONTROL Rasterize]**: (Standard) Rippar sidorna i filen PDF och konverterar vektorgrafik till bitmappsbilder. Välj det här alternativet om du vill skapa en e-katalog.
 
-**[!UICONTROL Extract Search Words]** - Extraherar ord från PDF-filen så att nyckelorden i filen kan sökas igenom i en eCatalog Viewer.
+**[!UICONTROL Extract Search Words]**: Extraherar ord från PDF-filen så att nyckelorden i filen kan sökas igenom i en eCatalog Viewer.
 
-**[!UICONTROL Extract Links]** - Extraherar länkar från PDF-filerna och konverterar dem till Image Maps som används i en eCatalog Viewer.
+**[!UICONTROL Extract Links]**: Extraherar länkar från PDF-filerna och konverterar dem till bildscheman som används i en eCatalog Viewer.
 
-**[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]** - Skapar automatiskt en e-katalog från PDF-filen. eCatalog namnges efter den överförda PDF-filen. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
+**[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]**: Skapar automatiskt en e-katalog från PDF-filen. eCatalog namnges efter den överförda PDF-filen. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
 
 ### Upplösning
 
@@ -53,21 +53,21 @@ Anger upplösningsinställningen. Den här inställningen avgör hur många pixl
 
 Välj menyn Färgrymd och välj en färgrymd för filen PDF. De flesta PDF-filer har både RGB och CMYK-färgbilder. Färgrymden RGB är att föredra när du vill visa bilden online.
 
-* **[!UICONTROL Detect Automatically]** - Behåller färgrymden för PDF-filen.
+* **[!UICONTROL Detect Automatically]**: Behåller färgrymden för filen PDF.
 
-* **[!UICONTROL Force As RGB]** - Konverterar till färgmodellen RGB.
+* **[!UICONTROL Force As RGB]**: Konverterar till färgmodellen RGB.
 
-* **[!UICONTROL Force As CMYK]** - Konverterar till CMYK-färgmodellen.
+* **[!UICONTROL Force As CMYK]**: Konverterar till CMYK-färgmodellen.
 
-* **[!UICONTROL Force As Grayscale]** - Konverterar till färgmodellen Gråskala.
+* **[!UICONTROL Force As Grayscale]**: Konverterar till färgmodellen Gråskala.
 
 ### Alternativ för färgprofil
 
-* **[!UICONTROL Convert To sRGB]** - Konverterar till sRGB (Standard Red Green Blue). sRGB är den rekommenderade färgrymden för visning av bilder på en webbsida.
+* **[!UICONTROL Convert To sRGB]**: Konverterar till sRGB (Standard Red Green Blue). sRGB är den rekommenderade färgrymden för visning av bilder på en webbsida.
 
-* **[!UICONTROL Keep Original Color Space]** - Behåller den ursprungliga färgrymden.
+* **[!UICONTROL Keep Original Color Space]**: Behåller den ursprungliga färgrymden.
 
-* **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** > **[!UICONTROL To]**: Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
 
 Se även [ICC-profiler](/help/using/icc-profiles.md#icc_profiles).
 
@@ -78,17 +78,17 @@ Du kan beskära pixlar med tomt utrymme automatiskt från en PDF-fil när du öv
 1. Välj menyn Beskär och välj Rensa.
 1. Ange följande alternativ:
 
-   * **[!UICONTROL Trim Away Based On]** - Välj om du vill beskära baserat på färg eller genomskinlighet:
+   * **[!UICONTROL Trim Away Based On]**: Välj om du vill beskära baserat på färg eller genomskinlighet:
 
-      * **[!UICONTROL Color]** - Välj alternativet Färg. Välj sedan **[!UICONTROL Corner]** och väljer hörnet på PDF med den färg som bäst motsvarar den färgen på tomrummet som du vill beskära.
+      * **[!UICONTROL Color]**: Välj alternativet Färg. Välj sedan **[!UICONTROL Corner]** och väljer hörnet på PDF med den färg som bäst motsvarar den färgen på tomrummet som du vill beskära.
 
-      * **[!UICONTROL Transparency]** - Välj alternativet Genomskinlighet.
+      * **[!UICONTROL Transparency]**: Välj alternativet Genomskinlighet.
 
-   * **[!UICONTROL Tolerance]** - Dra skjutreglaget för att ange en tolerans mellan 0 och 1.
+   * **[!UICONTROL Tolerance]**: Dra skjutreglaget för att ange en tolerans mellan 0 och 1.
 
-   * **[!UICONTROL Trimming based on color]** - Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du markerade i hörnet av PDF. Nummer som ligger närmare 1 ger större färgskillnader.
+   * **[!UICONTROL Trimming based on color]**: Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i hörnet av PDF. Nummer som ligger närmare 1 ger större färgskillnader.
 
-   * **[!UICONTROL Trimming based on transparency]** - Ange 0 om du bara vill beskära pixlar om de är genomskinliga. Med siffror närmare 1 får du mer genomskinlighet.
+   * **[!UICONTROL Trimming based on transparency]**: Ange 0 om du bara vill beskära pixlar om de är genomskinliga. Med siffror närmare 1 får du mer genomskinlighet.
 
 ## Beskär från sidorna på PDF {#cropping-from-the-sides-of-pdf-pages}
 

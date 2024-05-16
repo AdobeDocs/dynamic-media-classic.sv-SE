@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -23,21 +23,21 @@ Med Media Portal-stilinställningarna kan du märka upp Media Portal-skärmen me
 
 Om du vill komma åt formatinställningarna går du till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Style Settings]**. Se till att du väljer **[!UICONTROL Save]** om du vill spara inställningarna när du har gjort dem. Du kan välja **[!UICONTROL Restore]** för att återställa standardinställningarna. När du gör dina val visas hur de visas på panelen Förhandsvisa.
 
-* **[!UICONTROL Logo]** - Välj **[!UICONTROL Browse]** och välj sedan en bild i fönstret Välj logotypbild.
+* **[!UICONTROL Logo]**: Välj **[!UICONTROL Browse]** och välj sedan en bild i fönstret Välj logotypbild.
 
-* **[!UICONTROL Application]** - Skapa en övertoningsfärgblandning genom att göra val på menyerna för bakgrundsövertoningsfärger.
+* **[!UICONTROL Application]**: Skapa en övertoningsfärgblandning genom att göra val på menyerna för bakgrundsövertoningsfärger.
 
-* **[!UICONTROL Tree]** - Välj en överrullningsfärg (den färg som visas när du flyttar pekaren över ett objekt) och en markeringsfärg (den färg som visas när du markerar ett objekt).
+* **[!UICONTROL Tree]**: Välj en överrullningsfärg (den färg som visas när du flyttar pekaren över ett objekt) och en markeringsfärg (den färg som visas när du markerar ett objekt).
 
-* **[!UICONTROL Accordion]** - Välj bakgrundsfärger, kantlinjeformat, överrullning och valda färger för dragspelet som visas på skärmens högra sida i detaljvyn.
+* **[!UICONTROL Accordion]**: Välj bakgrundsfärger, kantlinjeformat, överrullning och valda färger för dragspelet som visas till höger på skärmen i detaljvyn.
 
-* **[!UICONTROL Accordion Header]** - Välj om du vill skapa text i dragspelsrubrikens fetstil.
+* **[!UICONTROL Accordion Header]**: Välj om du vill skapa text i dragspelsrubrikens fetstil.
 
-* **[!UICONTROL Datagrid]** - Välj färger för rubrikraden i datarutnätet.
+* **[!UICONTROL Datagrid]**: Välj färger för rubrikraden i datarutnät.
 
-* **[!UICONTROL Alert]** - Välj en bakgrundsfärg för varningsmeddelanderutor.
+* **[!UICONTROL Alert]**: Välj en bakgrundsfärg för varningsmeddelanderutor.
 
-* **[!UICONTROL Progress Bar]** - Välj en färg för fältet som anger förloppet för överföringar och nedladdningar.
+* **[!UICONTROL Progress Bar]**: Välj en färg för fältet som anger förloppet för överföringar och hämtningar.
 
 För att Media Portal-användare ska kunna se de formatinställningar som du har valt måste de lägga till `?company=(company name)` till den URL som de använder för att komma åt Media Portal. Om du till exempel vill se formatinställningar kan du använda Media Portal-användare som har åtkomst till PortalCo-företaget på följande plats:
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Du kan visa de avancerade alternativen på publiceringssidan och välja följand
 
 * **[!UICONTROL Publish To]**: Om du bara vill publicera resurser på en viss server väljer du en servertyp.
 
-* **[!UICONTROL Publish]** - Som standard publicerar Adobe Dynamic Media Classic bara resurser som är nya och som inte har publicerats tidigare (alternativet Nytt sedan senaste publicering). Du kan dock välja **[!UICONTROL Full Publish]** så att du också kan publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj **[!UICONTROL Full w/ Search Data]** om du publicerar en e-katalog och du vill att läsarna ska kunna söka i den med nyckelord.
+* **[!UICONTROL Publish]**: Som standard publicerar Adobe Dynamic Media Classic bara resurser som är nya och som inte har publicerats tidigare (alternativet Ny sedan senaste publicering). Du kan dock välja **[!UICONTROL Full Publish]** så att du också kan publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj **[!UICONTROL Full w/ Search Data]** om du publicerar en e-katalog och du vill att läsarna ska kunna söka i den med nyckelord.
 
 * **[!UICONTROL Run Job As]**: Välj ett användarnamn i listan. Du kan sortera jobb efter användarnamn på sidan Jobb. Genom att välja ett namn associerar du ett publiceringsjobb med en användare.
 
@@ -150,13 +150,13 @@ Det senaste datumet då en resurs publicerades visas i detaljvyn högst upp på 
 
 ## Återpublicerade resurser och CDN-förseningar {#republished-assets-and-cdn-delays}
 
-Adobe Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är ett system med datorservrar som är sammankopplade och som på ett transparent sätt samarbetar för att leverera innehåll, särskilt stort medieinnehåll, till slutanvändarna. I CDN-systemet lagras webbinnehåll i webbcacheminnen över Internet (kallas edge cache-nätverk). Webbinnehåll levereras från webbcachen till slutanvändarna för snabbare leveranser.
+Adobe Dynamic Media Classic-resurser distribueras i leveransnätverket (CDN). CDN är ett system med datorservrar som är sammankopplade och som på ett transparent sätt samarbetar för att leverera innehåll, särskilt stort medieinnehåll, till slutanvändarna. I CDN-systemet lagras webbinnehåll i cacheminnen på Internet (kallas edge cache-nätverk). Webbinnehåll levereras från webbcachen till slutanvändarna för snabbare leveranser.
 
 Första gången någon hämtar en webbsida levereras resurserna till en CDN-webbcache-server. Den här servern lagrar dem så att nästa gång någon i samma område öppnar webbsidan, levereras samma cachelagrade innehåll snabbare. Innehållet levereras snabbare eftersom det ligger närmare slutanvändaren. CDN gör att webbsidor visas snabbare. Den minskar behovet av bandbredd på den centrala servern eftersom innehållet levereras från edge cache-nätverket, inte från en central server i varje instans.
 
-Nypublicerat Adobe Dynamic Media Classic-material är tillgängligt direkt för slutanvändaren och fyller snabbt i edge cache-nätverket. Nypublicerat innehåll, d.v.s. bilder som har samma namn som bilder som tidigare publicerats på en bildserver, uppdateras inte i CDN på upp till tio timmar. I stället ser slutanvändarna vad som finns i ett webbcacheminne i CDN-nätverket. Därför verkar dina återpublicerade Adobe Dynamic Media Classic-resurser inte visas för slutanvändarna på tio timmar.
+Nypublicerat Adobe Dynamic Media Classic-material är tillgängligt direkt för slutanvändaren och fyller snabbt i edge cache-nätverket. Nypublicerat innehåll, d.v.s. bilder som har samma namn som bilder som tidigare publicerats till en Image Server, uppdateras inte i CDN på upp till tio timmar. I stället ser slutanvändarna vad som finns i en webbcache i CDN-nätverket. Därför verkar dina återpublicerade Adobe Dynamic Media Classic-resurser inte visas för slutanvändarna på tio timmar.
 
-Om du vill att dina nypublicerade bildresurser ska vara tillgängliga tidigare än tio timmars fördröjning kan du tömma webcacher på CDN. När du tömmer dessa webbcacher tas gammalt innehåll bort från CDN-webbcachen och ersätts med dina senast publicerade resurser.
+Om du vill att dina nypublicerade bildresurser ska vara tillgängliga tidigare än tio timmars fördröjning kan du tömma webbinarier på CDN. När du tömmer dessa webb-cacher tas gammalt innehåll bort från CDN-webbcachen och ersätts med dina senast publicerade resurser.
 
 Om du vill tömma cachen går du till fältet Global navigering **[!UICONTROL File]** > **[!UICONTROL Invalidate CDN]**. Alla markerade filer tas bort från cachen. Om det inte finns några publicerbara resurser, eller om du inte är företagsadministratör, är alternativet Ta bort från CDN inte tillgängligt.
 

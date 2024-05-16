@@ -10,7 +10,7 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Länka en e-katalog till en webbsida{#linking-an-ecatalog-to-a-web-page}
 
-Dina webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive e-kataloger, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller den inbäddade koden för din eCatalog på dina webbsidor och i dina program kopierar du den från Adobe Dynamic Media Classic.
+Dina webbplatser och tillämpningar har åtkomst till Dynamic Media Image Server-innehåll, inklusive e-kataloger, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller den inbäddade koden för din eCatalog på dina webbsidor och i dina webbprogram kopierar du den från Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Dina webbplatser och program har åtkomst till Dynamic Media Image Server-inneh�
 
      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **Kopiera URL**.
 
-## Lägga till eCatalog-URL:er på din webbsida {#adding-ecatalog-urls-to-your-web-page}
+## Lägga till eCatalog-URL:er på webbsidan {#adding-ecatalog-urls-to-your-web-page}
 
 Det vanligaste sättet att distribuera en e-katalog är att placera en länk i form av en försättssida med en eCatalog-miniatyrbild på webbsidan. Samarbeta med IT-avdelningen för att säkerställa att e-katalogen öppnas i ett rent, centrerat popup-fönster. Be IT-avdelningen att inte visa verktygsfältet och adressfältet i webbläsaren.
 
@@ -52,7 +52,7 @@ Mer information och kodexempel finns i [Bädda in HTML5 eCatalog Viewer i refere
 
 ## Kopiera inbäddningskoden för ett eCatalog-visningsprogram {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda e-katalogen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
+Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda e-katalogen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 **Så här kopierar du inbäddningskoden för ett eCatalog-visningsprogram:**
 

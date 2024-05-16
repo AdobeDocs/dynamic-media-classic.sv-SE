@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -47,9 +47,9 @@ Se även [Dynamic Media begränsningar](/help/using/limitations.md).
 
 1. Gör något av följande:
 
-   * **Markera bilderna först** - På panelen Bläddra väljer du de bilder du vill använda i din bilduppsättning, går till **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
+   * **Markera bilderna först**: På panelen Bläddra väljer du de bilder du vill använda i bilduppsättningen. Gå till **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
 
-   * **Starta från skärmen Bilduppsättning** - Gå till **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**. Skärmen Bilduppsättning öppnas. Markera en mapp i resursbiblioteket och dra bilderna som du vill använda i bilduppsättningen till skärmen Bilduppsättning.
+   * **Starta från skärmen Bilduppsättning**: Gå till **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**. Skärmen Bilduppsättning öppnas. Markera en mapp i resursbiblioteket och dra bilderna som du vill använda i bilduppsättningen till skärmen Bilduppsättning.
 
 1. Om du vill ändra bildordningen drar du bilderna till nya platser.
 1. I närheten av sidans nedre högra hörn ser du till att **[!UICONTROL Publish after save]** är markerat (standard).

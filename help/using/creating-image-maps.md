@@ -10,7 +10,7 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 0%
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg bara till de värden som ändras i URL-kolumnen i listan Bildschema. Till exempel:
 
-* URL-mall - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* URL-värde - `product.htm`
-* Faktisk URL genererad - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* URL-mall: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* URL-värde: `product.htm`
+* Faktisk URL som genererats: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 Som standard innehåller URL-mallen en Adobe Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` som öppnar ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Adobe Dynamic Media Classic-hanterare:
 
@@ -181,7 +181,7 @@ Du kan välja **[!UICONTROL Show]** meny och välj **[!UICONTROL Other Actions]*
 
 * **`accesskey`**: Startar en åtgärd när användaren trycker på en angiven tangent på tangentbordet.
 
-* **`onfocus`**: Startar en händelse när bildschemat får fokus - av markören, genom att trycka på tabbtangenten eller genom att trycka på en åtkomsttangent. Du kan till exempel starta en webbsida när bildschemat får fokus och stänga den när bildkartan förlorar fokus.
+* **`onfocus`**: Startar en händelse när bildschemat får fokus - av markören, genom att trycka på tabbtangenten eller genom att trycka på en åtkomsttangent. Du kan till exempel starta en webbsida när bildschemat får fokus och stänga den när bildschemat inte får fokus.
 
 * **`onblur`**: Startar en händelse när bildschemat förlorar fokus, antingen med markören eller med tabbtangenten.
 

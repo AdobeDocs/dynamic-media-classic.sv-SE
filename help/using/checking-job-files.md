@@ -10,7 +10,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 0%
@@ -33,25 +33,25 @@ Välj **[!UICONTROL Jobs]** i fältet Global navigering så att sidan Jobb öppn
 
 Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
-* **[!UICONTROL Job Type]** - En ikon anger jobbtypen: Överför och Publicera är de vanligaste jobbtyperna.
+* **[!UICONTROL Job Type]**: En ikon anger jobbtypen: Överför och Publicera är de vanligaste jobbtyperna.
 
-* **[!UICONTROL Job Name]** - Jobbets namn. Namnet innehåller den användardefinierade delen av namnet samt datum och tid.
+* **[!UICONTROL Job Name]**: Jobbets namn. Namnet innehåller den användardefinierade delen av namnet samt datum och tid.
 
-* **[!UICONTROL Started]** - När jobbet påbörjades.
+* **[!UICONTROL Started]**: När jobbet påbörjas.
 
-* **[!UICONTROL Total]** - Antal överförda filer.
+* **[!UICONTROL Total]**: Antal överförda filer.
 
-* **[!UICONTROL W (warnings)]** - Antal varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Till exempel: `.DS_store` filer (Mac) och Thumbs.db-filer (Windows®) innehåller information om hur du visar bildfiler för användare. Varningsposter för dessa filer kan dock ignoreras eftersom de inte gäller hur dessa filer används i Adobe Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
+* **[!UICONTROL W (warnings)]**: Antal varningar i jobbet (om sådana finns). Varningar indikerar problem med jobbet som inte påverkade det övergripande jobbslutförandet. Dessa varningar kan vanligtvis ignoreras eftersom de rapporterar om dolda filer. Till exempel: `.DS_store` filer (Mac) och Thumbs.db-filer (Windows®) innehåller information om hur du visar bildfiler för användare. Varningsposter för dessa filer kan dock ignoreras eftersom de inte gäller hur dessa filer används i Adobe Dynamic Media Classic. Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om varningar.
 
-* **[!UICONTROL E (errors)]** - Visar antalet fel i jobbet (om sådana finns). Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om fel.
+* **[!UICONTROL E (errors)]**: Visar antalet fel i jobbet (om det finns några). Du kan dubbelklicka på ett jobbnamn för att få detaljerad information om fel.
 
-* **[!UICONTROL Duration]** - Hur lång tid det tog att slutföra jobbet.
+* **[!UICONTROL Duration]**: Hur lång tid det tog att slutföra jobbet.
 
-* **[!UICONTROL Status]** - Visar status för jobbet.
+* **[!UICONTROL Status]**: Visar jobbets status.
 
-* **[!UICONTROL Destination]** - För överföringsjobb, företagsnamnet och mappen som filerna överfördes till. Den här kategorin gäller inte för jobb för publicering.
+* **[!UICONTROL Destination]**: För överföringsjobb, företagsnamnet och mappen som filerna överfördes till. Den här kategorin gäller inte för jobb för publicering.
 
-* **[!UICONTROL Submitted By]** - Visar vem som överförde resurserna.
+* **[!UICONTROL Submitted By]**: Listar som överförde resurserna.
 
 >[!NOTE]
 >
@@ -61,13 +61,13 @@ Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
 Använd följande tekniker för att sortera jobb eller ändra vyn på fliken Historik på sidan Jobb:
 
-* **[!UICONTROL Sorting]** - Välj ett kolumnnamn om du vill sortera listan efter en viss kolumn. Du kan välja växeln bredvid kolumnnamnet för att sortera i fallande eller stigande ordning.
+* **[!UICONTROL Sorting]**: Välj ett kolumnnamn om du vill sortera listan efter en viss kolumn. Du kan välja växeln bredvid kolumnnamnet för att sortera i fallande eller stigande ordning.
 
-* **[!UICONTROL Date Range]** - Välj **[!UICONTROL Date Range]** och välj ett alternativ för att begränsa listan med jobb till aktuellt datum, föregående vecka eller föregående månad. Välj **[!UICONTROL Custom Date Range]** anger du sedan ett specifikt datumintervall.
+* **[!UICONTROL Date Range]**: Välj **[!UICONTROL Date Range]** och välj ett alternativ för att begränsa listan med jobb till aktuellt datum, föregående vecka eller föregående månad. Välj **[!UICONTROL Custom Date Range]** anger du sedan ett specifikt datumintervall.
 
-* **[!UICONTROL Job Type]** - Välj **[!UICONTROL Job Type]** meny och välj **[!UICONTROL Publish]** eller **[!UICONTROL Upload]** för att begränsa listan till publiceringsjobb eller överföringsjobb. Välj **[!UICONTROL All]** för att se båda typerna av jobb.
+* **[!UICONTROL Job Type]**: Välj **[!UICONTROL Job Type]** meny och välj **[!UICONTROL Publish]** eller **[!UICONTROL Upload]** för att begränsa listan till publiceringsjobb eller överföringsjobb. Välj **[!UICONTROL All]** för att se båda typerna av jobb.
 
-* **[!UICONTROL Show]** - Gå till **[!UICONTROL Show]** > **[!UICONTROL My Jobs]** eller **[!UICONTROL Show]** > **[!UICONTROL All Jobs]** för att begränsa listan till jobb som du beställt eller jobb som personer i ditt företag beställt.
+* **[!UICONTROL Show]**: Gå till **[!UICONTROL Show]** > **[!UICONTROL My Jobs]** eller **[!UICONTROL Show]** > **[!UICONTROL All Jobs]** för att begränsa listan till jobb som du beställt eller jobb som personer i ditt företag beställt.
 
 ## Visa eller kopiera eller skriv ut en jobbdetaljrapport {#viewing-copying-or-printing-a-job-details-report}
 
@@ -93,13 +93,13 @@ Välj knappen Jobb i fältet Global navigering och välj på sidan Jobb **[!UICO
 
 Välj ett återkommande jobb på sidan Jobb och följ dessa instruktioner om du vill redigera eller ta bort det:
 
-* **Redigera ett återkommande jobb** - Välj **[!UICONTROL Edit]** och ange schemainformation i dialogrutan Redigera schemalagt jobb. Om du vill att jobbet ska återkomma med valfritt intervall går du till **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**.
+* **Redigera ett återkommande jobb**: Välj **[!UICONTROL Edit]** och ange schemainformation i dialogrutan Redigera schemalagt jobb. Om du vill att jobbet ska återkomma med valfritt intervall går du till **[!UICONTROL Repeat]** > **[!UICONTROL Custom]**.
 
 Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
-* **Ta bort ett återkommande jobb** - Välj **[!UICONTROL Delete]** -knappen.
+* **Ta bort ett återkommande jobb**: Välj **[!UICONTROL Delete]** -knappen.
 
-* **Pausa (och återuppta) ett återkommande jobb** - Avmarkera kryssrutan i kolumnen Aktiv om du vill pausa ett jobb. Markera kryssrutan om du vill återuppta ett pausat jobb.
+* **Pausa (och återuppta) ett återkommande jobb**: Avmarkera kryssrutan i kolumnen Aktiv om du vill pausa ett jobb. Markera kryssrutan om du vill återuppta ett pausat jobb.
 
 ### Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb {#creating-a-custom-upload-or-publish-job-time-interval}
 
@@ -117,13 +117,13 @@ I den här tabellen visas tidsökningar, tillåtna värden och jokertecken som s
 
 | Tidsökningar | Tillåtna värden | Kommentar | Jokertecken stöds |
 |--- |--- |--- |--- |
-| Sekunder | 0-59 |  | `, - * /` |
-| Minuter | 0-59 |  | `, - * /` |
-| Timmar | 0-23 | Observera användningen av en 24-timmarsklocka. | `, - * /` |
-| Dag i månaden | 1-31 | Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en `?` jokertecken. | `, - * / ? L C` |
-| Månad | 1-12 eller jan, feb, mar, apr, maj, jun, jul, aug, sep, sep, okt, nov, dec | Värdena är skiftlägeskänsliga. | `, - * /` |
-| Veckodag | Mån, Tue, Wed, Thu, Fri, Sat, Sun | Värdena är skiftlägeskänsliga. Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en `?` jokertecken. | `, - * / ? L C #` |
-| År (valfritt) | Tom eller 1970-2099 |  | `, - * /` |
+| Sekunder | 0-59 |  | `,: * /` |
+| Minuter | 0-59 |  | `,: * /` |
+| Timmar | 0-23 | Observera användningen av en 24-timmarsklocka. | `,: * /` |
+| Dag i månaden | 1-31 | Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en `?` jokertecken. | `,: * / ? L C` |
+| Månad | 1-12 eller jan, feb, mar, apr, maj, jun, jul, aug, sep, sep, okt, nov, dec | Värdena är skiftlägeskänsliga. | `,: * /` |
+| Veckodag | Mån, Tue, Wed, Thu, Fri, Sat, Sun | Värdena är skiftlägeskänsliga. Du kan inte ange ett numeriskt värde för både&quot;dag i månaden&quot; och&quot;dag i veckan&quot;. Ett av dessa fält måste ha en `?` jokertecken. | `,: * / ? L C #` |
+| År (valfritt) | Tom eller 1970-2099 |  | `,: * /` |
 
 
 I den här tabellen beskrivs de jokertecken som är tillåtna i rutan Regel och hur du använder dem:

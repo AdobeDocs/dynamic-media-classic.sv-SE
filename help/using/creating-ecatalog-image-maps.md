@@ -10,7 +10,7 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 0%
@@ -30,9 +30,9 @@ För e-kataloger ritar du bildscheman på fliken Kartsidor på skärmen eCatalog
 1. Till vänster på skärmen Kartsidor markerar du den sida du vill ha.
 1. I området Bildschema ritar du ett rektangulärt eller flersidigt bildschema:
 
-   * **Rektangulär karta** - Välj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln.
+   * **Rektangulär karta**: Välj verktyget Rektangelbildschema och dra på sidan för att skapa rektangeln.
 
-   * **Polygonkarta** - Välj verktyget Polygonbildschema och markera sedan så många gånger som behövs runt bildens omkrets. När du väljer det här alternativet ritar Adobe Dynamic Media Classic kanterna på bildschemat.
+   * **Polygonkarta**: Välj verktyget Polygonbildschema och markera sedan så många gånger som behövs runt bildens omkrets. När du väljer det här alternativet ritar Adobe Dynamic Media Classic kanterna på bildschemat.
 
      När du har ritat en bildschema ger Adobe Dynamic Media Classic den ett namn i listan Bildschema. För att bilda namnet lägger Adobe Dynamic Media Classic till ett sekventiellt nummer till namnet på den eCatalog-sida där du arbetar.
 
@@ -75,23 +75,23 @@ Du kan också visa verktygstipstext när kunderna flyttar pekarna över bildsche
 
 Använd följande tekniker för att redigera eCatalog-bildscheman från och med på fliken Kartsidor i eCatalog-skärmen:
 
-* **Justera positionen** - Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhårig pil drar du hela bildschemat till en ny plats.
+* **Justera positionen**: Välj panoreringsverktyget och flytta pekaren nära, men inte över, kartkanten. När pekaren visar en fyrhårig pil drar du hela bildschemat till en ny plats.
 
   Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Ändra form och storlek** - Om du vill ändra storlek på ett rektangulärt bildschema väljer du panoreringsverktyget. Flytta sedan pekaren över en kantlinje eller ett hörn och dra när du ser den dubbelriktade pilikonen. Dra i ett fyrkantigt markeringshandtag om du vill ändra storlek på ett flersidigt bildschema. Om du vill skapa ett markeringshandtag markerar du kanten på bildschemat och drar.
+* **Ändra form och storlek**: Om du vill ändra storlek på ett rektangulärt bildschema väljer du panoreringsverktyget. Flytta sedan pekaren över en kantlinje eller ett hörn och dra när du ser den dubbelriktade pilikonen. Dra i ett fyrkantigt markeringshandtag om du vill ändra storlek på ett flersidigt bildschema. Om du vill skapa ett markeringshandtag markerar du kanten på bildschemat och drar.
 
   Se [Justera placering, form och storlek för bildscheman](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
-* **Ta bort bildscheman** - Välj panoreringsverktyget, markera bildschemat och markera det sedan **[!UICONTROL Delete]**.
+* **Ta bort bildscheman**: Välj panoreringsverktyget, markera bildschemat och markera det sedan **[!UICONTROL Delete]**.
 
   Om du vill ta bort alla bildscheman från en e-katalog väljer du **[!UICONTROL Order Pages]** och sedan välja **[!UICONTROL Clear Maps]**.
 
-* **Hantera överlappande bildscheman** - Dra om du vill ändra ordningen på bildscheman i listan Bildschema.
+* **Hantera överlappande bildscheman**: Dra för att ändra ordningen på bildscheman i listan Bildschema.
 
   Se [Hantera överlappande bildscheman](creating-image-maps.md#handling_overlapping_image_maps).
 
-* **Kopiera bildscheman till andra sidor** - Välj **[!UICONTROL Copy Maps To]** (Kontrollera att du är på fliken Kartsidor). På skärmen Välj bilder markerar du den eller de sidor där du vill kopiera bildscheman och väljer **[!UICONTROL Select]**.
+* **Kopiera bildscheman till andra sidor**: Välj **[!UICONTROL Copy Maps To]** (Kontrollera att du är på fliken Kartsidor). På skärmen Välj bilder markerar du den eller de sidor där du vill kopiera bildscheman och väljer **[!UICONTROL Select]**.
 
   Se [Kopiera bildscheman till andra bilder](creating-image-maps.md#copying_image_maps).
 

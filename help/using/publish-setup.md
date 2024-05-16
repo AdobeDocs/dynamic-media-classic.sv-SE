@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2318'
 ht-degree: 0%
@@ -160,7 +160,7 @@ Språk-ID:n mappas till motsvarande suffix. Om det inte finns något språkspeci
 | en, en_us, en_uk | myImg_E, myImg |
 | de, de_de | myImg_D, myImg |
 | fr | myImg_F, myImg |
-| Alla andra | - |
+| Alla andra | : |
 
 ##### Söka efter localeMap när språkinställningen är okänd
 
@@ -222,15 +222,15 @@ Om du använder det första exemplet som bas kan bilder för alla språk ha suff
 
 Sidan Bildåtergivning används för att ange standardinställningar för att leverera bilduppsättningar från bildåtergivningsservrar. Inställningarna är tillgängliga i följande fem kategorier (mer information om inställningarna finns på sidan Image Server):
 
-* **[!UICONTROL Catalog Management]** - De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogfilen interagerar. Adobe Dynamic Media Classic Render Server URL-anrop görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra dessa inställningar endast med hjälp av en supportperson från Adobe Dynamic Media Classic.
+* **[!UICONTROL Catalog Management]**: De här inställningarna avgör hur Adobe Dynamic Media Classic och katalogfilen interagerar. Adobe Dynamic Media Classic Render Server URL-anrop görs till katalogen, som i sin tur anropar för att leverera bilder från servern. Ändra dessa inställningar endast med hjälp av en supportperson från Adobe Dynamic Media Classic.
 
-* **[!UICONTROL Session Attributes]** - De här inställningarna anger felparametrar, URL:en för relativa bild-URL:er och om objektöverlappning tillåts.
+* **[!UICONTROL Session Attributes]**: De här inställningarna anger felparametrar, URL:er för relativa bild-URL:er och om objektöverlappning tillåts.
 
-* **[!UICONTROL Default Material Attributes]** - De här inställningarna anger standardinställningar för upplösning och skärpa för bilder.
+* **[!UICONTROL Default Material Attributes]**: De här inställningarna anger standardinställningar för upplösning och skärpa för bilder.
 
-* **[!UICONTROL Response Image Attributes]** - De här inställningarna gäller standardutseendet för bilder.
+* **[!UICONTROL Response Image Attributes]**: De här inställningarna gäller standardutseendet för bilder.
 
-* **[!UICONTROL Color Management Attributes]** - De här inställningarna gäller standardfärginställningarna för bilder.
+* **[!UICONTROL Color Management Attributes]**: De här inställningarna gäller standardfärginställningarna för bilder.
 
 ## Vinjett {#vignette}
 

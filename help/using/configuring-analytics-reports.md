@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 0%
@@ -105,8 +105,8 @@ I följande tabell beskrivs Adobe Dynamic Media Classic-variabler:
 
 På skärmen Adobe Analytics Configuration kan du aktivera, redigera och ta bort visningsprogramhändelser:
 
-* **Aktivera** - Välj **[!UICONTROL Enable]** för att aktivera eller **[!UICONTROL Disable]** för att inaktivera en vald visningsprogramhändelse.
+* **Aktivera**: Välj **[!UICONTROL Enable]** för att aktivera eller **[!UICONTROL Disable]** för att inaktivera en vald visningsprogramhändelse.
 
-* **Redigera** - Välj en visningsprogramhändelse och välj **[!UICONTROL View/Edit]** Grå variabelknapp. I listrutorna Adobe Dynamic Media Classic-variabel och Adobe Analytics-variabel väljer du en annan variabel i respektive lista. Mer information finns i [Tilldela Adobe Analytics-variabler till Adobe Dynamic Media Classic Viewer-händelser och -variabler](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Redigera**: Välj en visningsprogramhändelse och välj **[!UICONTROL View/Edit]** Grå variabelknapp. I listrutorna Adobe Dynamic Media Classic-variabel och Adobe Analytics-variabel väljer du en annan variabel i respektive lista. Mer information finns i [Tilldela Adobe Analytics-variabler till Adobe Dynamic Media Classic Viewer-händelser och -variabler](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Ta bort** - Välj en visningsprogramhändelse och välj **[!UICONTROL View/Edit]** Grå variabelknapp. Välj **[!UICONTROL Delete]**.
+* **Ta bort**: Välj en visningsprogramhändelse och välj **[!UICONTROL View/Edit]** Grå variabelknapp. Välj **[!UICONTROL Delete]**.

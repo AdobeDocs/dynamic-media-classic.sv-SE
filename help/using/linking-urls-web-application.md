@@ -1,5 +1,5 @@
 ---
-title: Länka URL:er till ditt webbprogram
+title: Länka URL:er till webbprogrammet
 description: Lär dig hur du länkar URL:er till webbprogram från Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,18 +10,18 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
-# Länka URL:er till ditt webbprogram{#linking-urls-to-your-web-application}
+# Länka URL:er till webbprogrammet{#linking-urls-to-your-web-application}
 
 Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
 
-Om du vill placera dessa URL-strängar på dina webbsidor och i dina program kopierar du dem från Adobe Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
+Om du vill montera dessa URL-strängar på webbsidor och i program kopierar du dem från Adobe Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
 
 ## Hämta en URL för bildförinställning {#obtaining-an-image-preset-url}
 
@@ -78,7 +78,7 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 
 Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dynamic Media Image Server påträffar delen Image Preset (Bildförinställning) i URL:en `Large` i det här fallet) med hjälp av de inställningar för storlek och formatering som definieras av förinställningen &quot;Stor&quot; bild.
 
-## Lägga till dynamiska bilder på din webbsida {#adding-dynamic-images-to-your-web-page}
+## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
 
 Om du vill lägga till dynamiska bilder på webbsidan `<IMG>` -taggen i webbsideskoden för HTML ändras vanligtvis med Adobe Dynamic Media Classic URL-sträng för att göra en förfrågan till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 

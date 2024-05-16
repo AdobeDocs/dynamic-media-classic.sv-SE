@@ -10,7 +10,7 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Länka en färgruteuppsättning till en webbsida{#linking-a-swatch-set-to-a-web-page}
 
-När du har publicerat en färgruteuppsättning kan du använda dess associerade URL-adress eller inbäddningskod på webbplatsen eller i programmet. Sedan kan du distribuera URL-adressen eller inbäddningskoden efter behov så att användarna kan visa färgruteuppsättningen på din webbplats eller i ditt program.
+När du har publicerat en färgruteuppsättning kan du använda dess associerade URL-adress eller inbäddningskod på din webbplats eller ditt program. Sedan kan du distribuera URL-adressen eller inbäddningskoden efter behov så att användarna kan visa färgruteuppsättningen på din webbplats eller i ditt program.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ När du har publicerat en färgruteuppsättning kan du använda dess associerade
 
      På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
 
-## Lägg till färgruteuppsättningar av URL:er till din webbsida {#adding-swatch-set-urls-to-your-web-page}
+## Lägg till färgruteuppsättningar av URL:er till webbsidan {#adding-swatch-set-urls-to-your-web-page}
 
 Det vanligaste sättet att distribuera färgruteuppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du väljer det här alternativet öppnas en dynamisk sida (ASP eller JSP) som visar uppsättningen med färgrutor i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
@@ -52,7 +52,7 @@ Mer information och kodexempel finns i [Inbäddning av zoomvisningsprogrammet HT
 
 ## Kopiera inbäddningskoden för ett visningsprogram för färgrutor {#copying-the-embed-code-of-a-swatch-set-viewer}
 
-Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda uppsättningen med färgrutor. Du kan också kopiera koden till Urklipp så att du kan klistra in den på dina webbsidor för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
+Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda uppsättningen med färgrutor. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 **Så här kopierar du inbäddningskoden för ett visningsprogram för färgrutor:**
 

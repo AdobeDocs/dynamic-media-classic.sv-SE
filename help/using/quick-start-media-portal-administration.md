@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Med Media Portal kan man enkelt skaffa, kontrollera och distribuera godkända mediefiler till externa partners och kanaler samt interna användare i ett företag. Den webbläsarbaserade, självbetjäningsmiljön ger Media Portal-användare administratörskontrollerad&quot;vy&quot; av Adobe Dynamic Media Classic-material så att de enkelt kan komma åt, söka, förhandsgranska och exportera mediefiler i företagsgodkända format.
 
-Som administratör kan du styra hur användare visar, får åtkomst till och använder resurser i Media Portal. Dessutom kan ni anpassa Media Portal-gränssnittet så att det passar er webbplats och ert varumärke. Du kan ange teckensnitt, teckenfärg, teckenstorlek och inkludera märkeselement som logotyper i Media Portal-gränssnittet.
+Som administratör kan du styra hur användare visar, får åtkomst till och använder resurser i Media Portal. Dessutom kan du anpassa Media Portal-gränssnittet så att det passar webbplatsen och varumärket. Du kan ange teckensnitt, teckenfärg, teckenstorlek och inkludera märkeselement som logotyper i Media Portal-gränssnittet.
 
 Se följande utbildningsvideor:
 
@@ -35,7 +35,7 @@ Följande snabbstart är utformad för att du snabbt ska komma igång med Media 
 
 ## 1. Förstå användarroller i Media Portal
 
-Media Portal-användare har tre roller - användare, medarbetare och medarbetare. Varje roll kan utföra olika uppgifter. En medarbetare kan till exempel byta namn på och ta bort filer och mappar, men en användare kan inte göra det. Förstå de olika rollerna så att du förstår vilka ansvarsområden du ger dem när du lägger till användare.
+Media Portal-användare har tre roller: användare, medarbetare och medarbetare. Varje roll kan utföra olika uppgifter. En medarbetare kan till exempel byta namn på och ta bort filer och mappar, men en användare kan inte göra det. Förstå de olika rollerna så att du förstår vilka ansvarsområden du ger dem när du lägger till användare.
 
 Se [Användarroller för mediaportal](media-portal-user-roles.md#media_portal_user_roles).
 

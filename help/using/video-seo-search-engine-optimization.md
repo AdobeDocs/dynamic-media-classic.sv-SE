@@ -10,7 +10,7 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 0%
@@ -23,9 +23,9 @@ SEO är processen att förbättra trafiken till en webbplats från sökmotorer. 
 
 Med Adobe Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Adobe Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. De här XML-standardfilerna används för att skicka videoinformation till sökmotorer:
 
-* **Webbplatskarta för video** - Informerar Google om exakt var och vad videoinnehållet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor finns i [Alternativ för videowebbplatskartor och videowebbplatskartor](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Webbplatskarta för video**: Informerar Google om exakt var och vad videoinnehållet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor finns i [Alternativ för videowebbplatskartor och videowebbplatskartor](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **mRSS-feed (Media Really Simple Syndication)** - Används av innehållsutgivare för att skicka mediefiler till Yahoo! Videosökning. Mer information om mRSS-flöden finns i [Alternativ för videowebbplatskartor och videowebbplatskartor](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **mRSS-feed (Media Really Simple Syndication)**: Används av innehållsutgivare för att skicka mediefiler till Yahoo! Videosökning. Mer information om mRSS-flöden finns i [Alternativ för videowebbplatskartor och videowebbplatskartor](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
@@ -55,27 +55,27 @@ När du har valt inställningar väljer du **[!UICONTROL Save]** (eller **[!UICO
 
 På **[!UICONTROL Generation Mode]** väljer du ett rapportläge:
 
-* **Webbplatskarta för video** - Skapa en webbplatskarta för video.
+* **Webbplatskarta för video**: Skapa en webbplatskarta för video.
 
-* **mRSS-feed** - Skapa en mRSS-matning (Media RSS).
+* **mRSS-feed**: Skapa en Media RSS-feed (mRSS).
 
-* **Båda** - Skapa båda typerna av XML-filer.
+* **Båda**: Skapa båda typerna av XML-filer.
 
-* **Av** - Välj det här alternativet om du vill sluta generera video-platskartor och media-RSS-flöden (mRSS).
+* **Av**: Välj det här alternativet om du vill sluta generera RSS-flöden (Video Sitemaps) och Media RSS-flöden (Media RSS).
 
 På **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generera automatiskt eller manuellt:
 
-* **Automatiskt läge** - Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS (mRSS) eller båda, varje dag. Välj **[!UICONTROL Mark for Publish]** om du vill att XML-filen som genereras av Adobe Dynamic Media Classic ska markeras automatiskt.
+* **Automatiskt läge**: Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, en Media RSS-matning (mRSS) eller båda, varje dag. Välj **[!UICONTROL Mark for Publish]** om du vill att XML-filen som genereras av Adobe Dynamic Media Classic ska markeras automatiskt.
 
    * **Markera för publicering** Markerar för publicering av XML-filen som genereras.
 
-* **Manuellt läge** - Adobe Dynamic Media Classic genererar videowebbplatskartan, Media RSS-matning (mRSS) eller båda, när du väljer **[!UICONTROL Generate]** eller **[!UICONTROL Save & Generate]** på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
+* **Manuellt läge**: Adobe Dynamic Media Classic genererar videowebbplatskartan, Media RSS-matning (mRSS) eller båda, när du väljer **[!UICONTROL Generate]** eller **[!UICONTROL Save & Generate]** på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
 
-   * **Inga ytterligare inställningar** - Markerar inte för publicering av XML-filen som genereras.
+   * **Inga ytterligare inställningar**: Markerar inte för publicering av XML-filen som genereras.
 
-   * **Markera för publicering** - Markerar för publicering av XML-filen som genereras.
+   * **Markera för publicering**: Märken för publicering av XML-filen som genereras.
 
-   * **Tillåt partiell generering** - Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videor. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
+   * **Tillåt partiell generering**: Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videor. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
 
 ### Välja genereringsinställningar {#choosing-generation-settings}
 

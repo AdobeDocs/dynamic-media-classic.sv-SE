@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -98,6 +98,6 @@ Se även [Ange exportalternativ som är tillgängliga för Media Portal-använda
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Markera en grupp på sidan Grupplista och redigera eller ta bort den.
 
-   **Redigera en grupp** - Välj **[!UICONTROL Edit]** och välj sedan alternativ i dialogrutan Redigera grupp.
+   **Redigera en grupp**: Välj **[!UICONTROL Edit]** och välj sedan alternativ i dialogrutan Redigera grupp.
 
-   **Ta bort en grupp** - Välj **[!UICONTROL Delete]**.
+   **Ta bort en grupp**: Välj **[!UICONTROL Delete]**.

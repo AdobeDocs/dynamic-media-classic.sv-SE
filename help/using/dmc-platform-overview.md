@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 0%
@@ -27,13 +27,13 @@ Se även [Plattformsöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoView
 
 De viktigaste stegen i Adobe Dynamic Media Classic arbetsflöde är:
 
-* **Överför och hantera dina resurser** - Överför mediefiler till Adobe Dynamic Media Classic. Du kan ordna, bläddra bland och söka efter resurser i systemet. Du kan också använda metadata för resurser.
+* **Överför och hantera dina resurser**: Överför mediefiler till Adobe Dynamic Media Classic. Du kan ordna, bläddra bland och söka efter resurser i systemet. Du kan också använda metadata för resurser.
 
-* **Skapa multimedia** - Skapa olika konfigurationer av dina resurser, t.ex. eCatalogs, Image Sets, Spin Sets, Swatch Sets, Mixed Media Sets, Basic Templates och FXG Templates.
+* **Skapa multimedia**: Skapa olika konfigurationer av dina resurser, t.ex. eCatalogs, Image Sets, Spin Sets, Swatch Sets, Mixed Media Sets, Basic Templates och FXG Templates.
 
-* **Publicera och administrera** - Publicera material i Adobe Dynamic Media Classic SaaS-nätverket. Övervaka status för resurser när de publiceras. Administrera användarrättigheter och bevara säkerheten.
+* **Publicera och administrera**: Publicera resurser i Adobe Dynamic Media Classic SaaS-nätverket. Övervaka status för resurser när de publiceras. Administrera användarrättigheter och bevara säkerheten.
 
-* **Serva** - Leverera media från Adobe Dynamic Media Classic SaaS-nätverk till webbsidor, applikationer och mobila enheter. Medierna är prestandaoptimerade och levereras med CDN-cachning. Adobe Dynamic Media Classic tillhandahåller en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
+* **Serva**: Leverera media från Adobe Dynamic Media Classic SaaS-nätverk till webbsidor, tillämpningar och mobila enheter. Medierna är prestandaoptimerade och levereras med CDN-cachning. Adobe Dynamic Media Classic tillhandahåller en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
 
 ![Adobe Dynamic Media Classic arbetsflöde](/help/using/assets/gs_workflow.png)
 

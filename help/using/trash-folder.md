@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -53,9 +53,9 @@ När du tar bort resurser i papperskorgen tas resurserna bort permanent. Resurse
 
 Om du vill ta bort resurser permanent från papperskorgen väljer du **[!UICONTROL Trash]** -ikon. Gör något av följande på sidan Papperskorg:
 
-* **Ta bort enskilda resurser** - Markera de resurser som du vill ta bort permanent och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
+* **Ta bort enskilda resurser**: Markera de resurser som du vill ta bort permanent och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Empty From Trash]**.
 
-* **Tar bort alla resurser** - Gå till **[!UICONTROL File]** > **[!UICONTROL Empty trash]**.
+* **Tar bort alla resurser**: Gå till **[!UICONTROL File]** > **[!UICONTROL Empty trash]**.
 
 >[!MORELIKETHIS]
 >

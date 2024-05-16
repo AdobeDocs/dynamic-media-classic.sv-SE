@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%
@@ -30,9 +30,9 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Skapa eller redigera en visningsförinställning på sidan Förinställningar för visningsprogram genom att göra något av följande:
 
-   * **Skapa** - Välj **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du **[!UICONTROL Zoom Viewer]** och sedan markera **[!UICONTROL Add]**. Du kan också skapa en förinställning för Zoomvisningsprogram genom att utgå från en befintlig förinställning. Visa namnet på förinställningen, markera den och välj **[!UICONTROL Edit]**. På `Configure Viewer` anger du ett nytt namn för förinställningen.
+   * **Skapa**: Välj **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du **[!UICONTROL Zoom Viewer]** och sedan markera **[!UICONTROL Add]**. Du kan också skapa en förinställning för Zoomvisningsprogram genom att utgå från en befintlig förinställning. Visa namnet på förinställningen, markera den och välj **[!UICONTROL Edit]**. På `Configure Viewer` anger du ett nytt namn för förinställningen.
 
-   * **Redigera** - Visa namnet på en förinställning, markera den och sedan markera **[!UICONTROL Edit]**.
+   * **Redigera**: Visa namnet på en förinställning, markera den och markera den **[!UICONTROL Edit]**.
 
 1. På `Configure Viewer` skriver du ett namn för färgrutans visningsförinställning i textfältet Förinställningsnamn.
 1. Välj alternativ i dialogrutan `Configure Viewer` sida.

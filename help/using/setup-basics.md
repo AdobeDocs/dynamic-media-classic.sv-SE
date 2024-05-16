@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
@@ -26,11 +26,11 @@ Vilka inställningar som är tillgängliga på den här sidan beror på din stat
 * Användare kan bara komma åt **[!UICONTROL Personal Setup]** och räkenskaperna för de bolag de är medlemmar i; de får inte utföra några administrativa uppgifter.
 * Administratörer har åtkomst **[!UICONTROL Personal Setup]** och visa och administrera sina egna företagskonton. De kan också utföra alla programkonfigurationsfunktioner och alla administrationsfunktioner, inklusive lägga till administratörer och användare.
 
-Administratörer kan också konfigurera bildförinställningar och visningsprogramförinställningar i **[!UICONTROL Setup]** sida:
+Administratörer kan också konfigurera förinställningar för bilder och visningsprogram i dialogrutan **[!UICONTROL Setup]** sida:
 
-* **Bildförinställningar** - Bildförinställningar är sparade format för visning av primära bilder i olika storlekar och format.
+* **Bildförinställningar**: Bildförinställningar är sparade format för visning av primära bilder i olika storlekar och format.
 
-* **Förinställningar för visningsprogram** - Förinställningarna för visningsprogrammet avgör hur du ser dina multimedia när du ser dem i ett visningsprogram.
+* **Förinställningar för visningsprogram**: Visningsförinställningarna bestämmer hur du ser dina multimedia när du ser dem i ett visningsprogram.
 
 >[!MORELIKETHIS]
 >

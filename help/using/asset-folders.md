@@ -10,7 +10,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -27,13 +27,13 @@ Se till att du har en mappstruktur och organisation för lagring av dina filer p
 
 I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resursbiblioteket visas dess innehåll på panelen Bläddra. Använd de här teknikerna för att söka efter mappar i mappträdet:
 
-* **Visa undermappar** - Välj **[!UICONTROL Expand Folder]** om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
+* **Visa undermappar**: Välj **[!UICONTROL Expand Folder]** om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
 
-* **Flytta en mapp** - Du kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att markera **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
+* **Flytta en mapp**: Du kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att markera **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
 
-* **Dölj mappar** - Välj **[!UICONTROL Collapse Folder]** om du vill dölja undermappar så att de inte visas. Den här ikonen finns till vänster om mappnamn.
+* **Dölj mappar**: Välj **[!UICONTROL Collapse Folder]** om du vill dölja undermappar så att de inte visas. Den här ikonen finns till vänster om mappnamn.
 
-* **Öppna en mapp** - Markera en mapp om du vill visa dess innehåll på panelen Bläddra.
+* **Öppna en mapp**: Välj en mapp om du vill visa dess innehåll på panelen Bläddra.
 
 >[!TIP]
 >
@@ -43,7 +43,7 @@ I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resur
 
 1. I resursbiblioteket markerar du den mapp du vill skapa en mapp i.
 1. Välj **[!UICONTROL `Add Folder`]** -knappen. Den här ikonen visas högst upp i mapplistan.
-1. Ange ett beskrivande namn för den nya mappen eller undermappen genom att skriva in den i fältet bredvid mappikonen.
+1. Ange ett beskrivande namn för den nya mappen eller undermappen. Skriv in den i fältet bredvid mappikonen.
 
    >[!NOTE]
    >
@@ -53,9 +53,9 @@ I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resur
 
 Markera en mapp och använd dessa tekniker för att ta bort eller byta namn på den:
 
-* **Ta bort** - Välj **[!UICONTROL `Remove Folder`]** -knappen. Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
+* **Ta bort**: Välj **[!UICONTROL `Remove Folder`]** -knappen. Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
 
-* **Byt namn** - Dubbelklicka på namnet och ange ett nytt namn.
+* **Byt namn**: Dubbelklicka på namnet och ange ett nytt namn.
 
 >[!NOTE]
 >

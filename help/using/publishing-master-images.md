@@ -10,7 +10,7 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Publicera primära bilder{#publishing-master-images}
 
-När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers, där de är tillgängliga för din webbplats och ditt program. Under publiceringsprocessen aktiverar dessutom Adobe Dynamic Media Classic de URL-strängar du behöver för din webbplats och ditt program.
+När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers, där de är tillgängliga för din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic dessutom de URL-strängar du behöver för din webbplats och ditt program.
 
 ## Markera primära bilder för publicering {#marking-master-images-for-publish}
 

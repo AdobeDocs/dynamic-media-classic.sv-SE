@@ -10,7 +10,7 @@ role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -34,17 +34,17 @@ Dessa alternativ finns på sidan Överför under **[!UICONTROL Imaging Edit Opti
 
 Du kan beskära pixlar med tomt utrymme automatiskt från en bild. I dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL Crop Options]**. I **[!UICONTROL Crop]** nedrullningsbar lista, välja **[!UICONTROL Trim]**. Välj sedan följande alternativ:
 
-* **[!UICONTROL Trim Away Based On]** - Välj i den här listrutan om du vill beskära baserat på färg eller genomskinlighet:
+* **[!UICONTROL Trim Away Based On]**: I den här listrutan väljer du om du vill beskära baserat på färg eller genomskinlighet:
 
-   * **[!UICONTROL Color]** - Välj **[!UICONTROL Color]** alternativ. Sedan, från **[!UICONTROL Corner]** i den nedrullningsbara listan markerar du hörnet på bilden med den färg som bäst motsvarar den vita färgen som du vill beskära.
+   * **[!UICONTROL Color]**: Välj **[!UICONTROL Color]** alternativ. Sedan, från **[!UICONTROL Corner]** i den nedrullningsbara listan markerar du hörnet på bilden med den färg som bäst motsvarar den vita färgen som du vill beskära.
 
-   * **[!UICONTROL Transparency]** - Välj alternativet Genomskinlighet.
+   * **[!UICONTROL Transparency]**: Välj alternativet Genomskinlighet.
 
-* **[!UICONTROL Tolerance]** - Dra skjutreglaget för att ange en tolerans mellan 0 och 1:
+* **[!UICONTROL Tolerance]**: Dra skjutreglaget för att ange en tolerans mellan 0 och 1:
 
-   * **Trimma baserat på färg** - Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
+   * **Trimma baserat på färg**: Ange 0 om du bara vill beskära pixlar om de exakt matchar färgen som du valde i hörnet av bilden. Nummer som ligger närmare 1 ger större färgskillnader.
 
-   * **Trimma baserat på genomskinlighet** - Ange 0 om du bara vill beskära pixlar om de är genomskinliga. Med siffror närmare 1 får du mer genomskinlighet.
+   * **Trimma baserat på genomskinlighet**: Ange 0 om du bara vill beskära pixlar om de är genomskinliga. Med siffror närmare 1 får du mer genomskinlighet.
 
 ## Beskär manuellt från bildsidorna
 
@@ -54,11 +54,11 @@ Om du vill beskära manuellt från sidorna av en bild väljer du Beskär-menyn o
 
 Välj en färgmodell för bilden genom att välja ett färgprofilalternativ:
 
-* **[!UICONTROL Convert To sRGB]** - Konverterar till sRGB (Standard Red Green Blue). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
+* **[!UICONTROL Convert To sRGB]**: Konverterar till sRGB (Standard Red Green Blue). sRGB är den rekommenderade färgrymden för visning av bilder på webbsidor.
 
-* **[!UICONTROL Keep Original Color Space]** - Behåller den ursprungliga färgrymden.
+* **[!UICONTROL Keep Original Color Space]**: Behåller den ursprungliga färgrymden.
 
-* **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
+* **[!UICONTROL Custom From]** > **[!UICONTROL To]**: Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic.
 
 Se [ICC-profiler](icc-profiles.md#icc_profiles).
 
@@ -93,7 +93,7 @@ Använd Blockera bakgrund så att du automatiskt kan ta bort bakgrunden i en bil
 | --- | --- |
 | Blockera bakgrund | Välj om du vill aktivera eller aktivera funktionen Blockera bakgrund och alternativen. |
 | Hörn | Obligatoriskt.<br>Hörnet på bilden som används för att definiera bakgrundsfärgen som ska blockeras.<br>Du kan välja mellan <b>Övre vänster, Nedre vänster, Övre höger eller Nedre höger</b>. |
-| Fyllningsmetod | Obligatoriskt. <br>Styr pixelgenomskinlighet från den hörnplats som du anger.<br>Du kan välja bland följande fyllningsmetoder:<br>・ <b>Flood Fill</b> - gör alla pixlar genomskinliga som matchar det hörn du har angett och som är kopplat till det.<br>・ <b>Matcha pixlar</b> - gör alla matchande pixlar genomskinliga, oavsett var de finns i bilden. |
+| Fyllningsmetod | Obligatoriskt. <br>Styr pixelgenomskinlighet från den hörnplats som du anger.<br>Du kan välja bland följande fyllningsmetoder:<br>・ <b>Flood Fill</b>: gör alla pixlar genomskinliga som matchar det hörn du har angett och som är anslutet till det.<br>・ <b>Matcha pixlar</b>: gör alla matchande pixlar genomskinliga, oavsett var de finns i bilden. |
 | Ttolerans | Valfritt.<br>Styr den tillåtna variationen i pixelfärgmatchning baserat på den hörnplats som du anger.<br>Använd värdet 0,0 om du vill matcha pixelfärgerna exakt. Du kan också använda värdet 1,0 för att få största möjliga variation. |
 
 >[!MORELIKETHIS]

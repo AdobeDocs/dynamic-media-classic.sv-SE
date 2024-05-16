@@ -10,9 +10,9 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ Om du vill kan du skapa en staging-miljö i stället för att göra resurserna a
 
 * Förhandsgranska webbplatser innan den offentliga lanseringen (testwebbplatsen).
 * Tjäna resurser som kräver begränsad åtkomst, t.ex. e-kataloger som visar priser i B2B-webbprogram.
-* Använd material bakom en brandvägg som en del av produktinformationshanteringssystemet, kundtjänstprogrammet, utbildningswebbplatsen osv.
+* Använd material bakom en brandvägg som en del av ett produktinformationshanteringssystem, en kundtjänstapplikation, en utbildningssajt med mera.
 
 >[!NOTE]
 >
->Säker testning påverkar inte åtkomsten till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic säkerhet är konsekvent och kräver de vanliga inloggningsuppgifterna för åtkomst till Adobe Dynamic Media Classic och relaterade webbtjänster.
+>Säker testning påverkar inte åtkomsten till Adobe Dynamic Media Classic. Adobe Dynamic Media Classic säkerhet är enhetlig och kräver de vanliga inloggningsuppgifterna för Adobe Dynamic Media Classic och tillhörande webbtjänster.
 
 ## Så här fungerar säker testning {#how-secure-testing-works}
 
@@ -43,11 +43,11 @@ Med Secure Testing skapar Adobe Dynamic Media Classic en dedikerad Image Server 
 
 Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, t.ex. offentlig Dynamic Media Image Server-trafik. Begäranden till tjänsten för säker testning har en något högre fördröjning än de offentliga Dynamic Media Image-servrarna.
 
-Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker testning, utan att behöva publicera. På så sätt kan du köra en förhandsvisning innan resurser publiceras på den offentliga bildservern.
+Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker testning, utan att behöva publicera. På så sätt kan du köra en förhandsgranskning innan resurser publiceras till deras offentliga Image Server.
 
 >[!NOTE]
 >
->Tjänster för säker testning använder katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning blir därför alla överförda resurser i Adobe Dynamic Media Classic omedelbart tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring.
+>Tjänster för säker testning använder katalogservern som är konfigurerad med en intern publiceringskontext. Om ditt företag är konfigurerat att publicera till Säker testning är alla överförda resurser i Adobe Dynamic Media Classic omedelbart tillgängliga på säkra testningstjänster. Den här funktionen är sann oavsett om resurserna har markerats för publicering vid överföring.
 
 Tjänster för säker testning har för närvarande stöd för följande resurstyper och funktioner:
 
@@ -63,7 +63,7 @@ Last Modified Date:
 
 * Bilder.
 * Vinjetter (renderingsserverförfrågningar).
-* Rendera serverförfrågningar (stöds, men måste begäras uttryckligen av kunden).
+* Rendera serverförfrågningar (stöds, men kunden måste uttryckligen begära det).
 * Uppsättningar, inklusive bilduppsättningar, eCatalog, renderingsuppsättningar och medieuppsättningar.
 * Adobe Dynamic Media Classic multimedievisningsprogram som standard.
 * Adobe Dynamic Media Classic OnDemand JSP pages.
@@ -88,7 +88,7 @@ Testa tjänsten Secure Testing så att du kan vara säker på att den fungerar s
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### Förbered ditt konto
 
@@ -133,8 +133,8 @@ Kontakta Adobe Care om servernamnet saknas eller om URL:erna till inte fungerar.
 
 Du behöver två varianter av en webbplats som länkar de publicerade och opublicerade resurserna:
 
-* Offentlig version - Länka resurser med din traditionella Adobe Dynamic Media Classic URL-syntax.
-* Mellanlagringsversion - Länka resurser med samma syntax men med namnet på platsen för säker testning.
+* Offentlig version: Länka resurser med din traditionella Adobe Dynamic Media Classic URL-syntax.
+* Mellanlagringsversion: Länka resurser med samma syntax men med namnet på platsen för säker testning.
 
 ### Kör testerna
 

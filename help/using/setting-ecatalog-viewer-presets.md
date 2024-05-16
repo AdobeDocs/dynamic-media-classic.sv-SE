@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -29,9 +29,9 @@ Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du mås
 1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
 1. Skapa en visningsförinställning för eCatalog genom att starta en ny förinställning eller genom att starta från en befintlig visningsförinställning för eCatalog:
 
-   * **Skapa en förinställning för eCatalog Viewer** - Välj **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer eCatalog Viewer och sedan **[!UICONTROL Add]**.
+   * **Skapa en förinställning för eCatalog Viewer**: Välj **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer eCatalog Viewer och sedan **[!UICONTROL Add]**.
 
-   * **Redigera en förinställning för eCatalog Viewer** - Välj en visningsförinställning för eCatalog och välj sedan **[!UICONTROL Edit]**. Välj **[!UICONTROL Save As]** när du har skapat förinställningen.
+   * **Redigera en förinställning för eCatalog Viewer**: Välj en visningsförinställning för eCatalog och välj sedan **[!UICONTROL Edit]**. Välj **[!UICONTROL Save As]** när du har skapat förinställningen.
 
 1. På `Configure Viewer` anger du ett namn för visningsförinställningen för eCatalog.
 1. På `Configure Viewer` anger du önskade alternativ.

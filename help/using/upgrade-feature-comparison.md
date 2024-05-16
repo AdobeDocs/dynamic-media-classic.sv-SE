@@ -6,16 +6,16 @@ role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
 
 # Jämförelse av funktioner
 
-En funktionsjämförelsetabell mellan [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Resurser och [!DNL Adobe Dynamic Media Classic] datorprogram. ✓: funktionen är tillgänglig i eller tillsammans med programvaran. ett&quot;-&quot; betyder att det inte är det.
+En funktionsjämförelse mellan [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Resurser och [!DNL Adobe Dynamic Media Classic] datorprogram. En &quot;✓&quot; betyder att funktionen är tillgänglig i eller med programmet, en &quot;-&quot; betyder att den inte är det.
 
 | Funktion | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Klassisk] |
 | :--- | :---: | :---: |
@@ -23,7 +23,7 @@ En funktionsjämförelsetabell mellan [!DNL Dynamic Media] in [!DNL Adobe Experi
 | Avancerad bildbearbetning | ✓ | ✓ |
 | Avancerad video (bildtexter, SEO) | ✓ | ✓ |
 | API:er | ✓ | ✓ |
-| Automatiserad uppsättningsgenerering | ✓ | ✓ |
+| Generering av automatisk uppsättning | ✓ | ✓ |
 | CDN-integrering | ✓ | ✓ |
 | Dynamic Imaging | ✓ | ✓ |
 | eCatalogs | ✓<br>*Resurser + InDesign Server* | ✓ |
@@ -42,14 +42,14 @@ En funktionsjämförelsetabell mellan [!DNL Dynamic Media] in [!DNL Adobe Experi
 | Viewer Integration med Analytics | ✓ | ✓ |
 | 1:1-mallar | ✓<br>*Personaliserat mediepaket* | ✓ |
 | Visual Configurator<br>(produktanpassning) | ✓<br>*Personaliserat mediepaket* | ✓ |
-| 3D - Experience Manager Sites<br>WCM-komponent | ✓ | - |
-| 3D - Interactive Experience Viewer | ✓ | - |
-| 3D - Publicera AR/VR och centrala 3D-filer | ✓ | - |
-| Carousels | ✓ | - |
-| Inköpbara/interaktiva media - bilder | ✓ | - |
-| Inköpbara/interaktiva media - video | ✓ | - |
-| Smart beskärning - bilder | ✓ | - |
-| Smart beskärning - video | ✓ | - |
-| Markering av videominiatyr | ✓ | - |
-| Viewer Designer | ✓ | - |
-| YouTube Publish | ✓ | - |
+| 3D: Experience Manager Sites<br>WCM-komponent | ✓ | : |
+| 3D: Interaktiv Experience Viewer | ✓ | : |
+| 3D: Publicera AR/VR och viktiga 3D-filer | ✓ | : |
+| Carousels | ✓ | : |
+| Shoppingbara/interaktiva media: bilder | ✓ | : |
+| Shoppingbara/interaktiva media: Video | ✓ | : |
+| Smart beskärning: bilder | ✓ | : |
+| Smart beskärning: Video | ✓ | : |
+| Markering av videominiatyr | ✓ | : |
+| Viewer Designer | ✓ | : |
+| YouTube Publish | ✓ | : |

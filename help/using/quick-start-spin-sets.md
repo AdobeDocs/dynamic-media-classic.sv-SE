@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Se [Förhandsgranska en snurra uppsättning](previewing-spin-set.md#previewing-a
 
 ## 6. Publicera en snurruppsättning
 
-När du publicerar en snurruppsättning placeras den på Adobe Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image-servrar till din webbplats eller ditt program.
+När du publicerar en snurruppsättning placeras den på Adobe Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image Servers till din webbplats eller ditt program.
 
 Om du vill publicera en snurruppsättning markerar du den för publicering genom att välja **[!UICONTROL Mark for Publish]** -ikonen bredvid namnet på panelen Bläddra. I fältet Global navigering väljer du **[!UICONTROL Publish]** för att starta en publicering. På publiceringssidan väljer du **[!UICONTROL Submit Publish]**.
 

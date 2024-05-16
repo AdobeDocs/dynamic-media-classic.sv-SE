@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic-datorprogrammet:
 
-* **Användarnamn** - Du använder din e-postadress som inloggningsnamn.
+* **Användarnamn**: Du använder din e-postadress som inloggningsnamn.
 
-* **Lösenord** - Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Adobe Dynamic Media Classic eller från Adobe Dynamic Media Classic-administratören. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
+* **Lösenord**: Du får ditt tillfälliga lösenord i ett välkomstmeddelande från Adobe Dynamic Media Classic eller från Adobe Dynamic Media Classic-administratören. Första gången du loggar in uppmanas du att ändra det här tillfälliga lösenordet.
 
 1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
 

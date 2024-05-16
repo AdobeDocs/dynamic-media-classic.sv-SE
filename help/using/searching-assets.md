@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 0%
@@ -63,15 +63,15 @@ I resursbiblioteket, direkt under sökfältet, väljer du **[!UICONTROL Advanced
 
 Ange något av följande villkor i den avancerade sökningen:
 
-* **Filtrera efter resurstyp** - Begränsa sökningen till en resurstyp. Välj en resurstyp på menyn.
+* **Filtrera efter resurstyp**: Begränsa sökningen till en resurstyp. Välj en resurstyp på menyn.
 
-* **Filer och mappar** - Välj var du vill söka: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]**, eller **[!UICONTROL Within Selected Folder & Subfolders]**.
+* **Filer och mappar**: Välj var du vill söka: **[!UICONTROL Within All Files & Folders]**, **[!UICONTROL Within Selected Folder]**, eller **[!UICONTROL Within Selected Folder & Subfolders]**.
 
-* **Alla publiceringslägen** - Sök efter filer som har markerats som klara för publicering, som inte har markerats som klara för publicering eller alla filer.
+* **Alla publiceringslägen**: Sök efter filer som har markerats som klara för publicering, som inte har markerats som klara för publicering eller alla filer.
 
-* **Villkor** - Om du anger metadatavillkor för sökning väljer du om sökningen måste matcha alla villkor (en ALL-sökning) eller något villkor (en OR-sökning).
+* **Villkor**: Om du anger metadatavillkor för sökning väljer du om sökningen måste matcha alla villkor (en ALL-sökning) eller något villkor (en OR-sökning).
 
-* **Sökvillkor** - Skapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
+* **Sökvillkor**: Skapa ett eller flera sökfält för sökning av metadata. Så här skapar du sökfält:
 
    1. I avancerad sökning, under **[!UICONTROL Search criteria]** och till vänster om **[!UICONTROL Add a Field]** väljer du den nedåtriktade triangelpilen för att öppna listrutan. Välj en metadatavy. Du kan **[!UICONTROL All properties with values]**, **[!UICONTROL Compact View]**, **[!UICONTROL IPTC]**, **[!UICONTROL Metadata Server Publish Fields]**, eller **[!UICONTROL XMP]**.
    1. Välj **[!UICONTROL Add a Field]** och välj ett fältnamn.
@@ -111,7 +111,7 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
 1. Klicka **[!UICONTROL Field]** Följ sedan dessa instruktioner på en panel så att du kan visa filtermenyn och skapa filteråtgärden:
 
-   * **Välj ett metadatafält** - Välj fältets namn på filtreringsmenyn.
+   * **Välj ett metadatafält**: Markera fältets namn på filtreringsmenyn.
 
      >[!NOTE]
      >
@@ -119,9 +119,9 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
      Se [Metadatavyer](application-setup.md#metadata_views).
 
-   * **Lägg till ett metadatafält** - Välj **[!UICONTROL Add a Panel]**. När panelen visas på filterpanelen väljer du dess **[!UICONTROL Field]** och välj namnet på ett metadatafält på filtreringsmenyn.
+   * **Lägg till ett metadatafält**: Välj **[!UICONTROL Add a Panel]**. När panelen visas på filterpanelen väljer du dess **[!UICONTROL Field]** och välj namnet på ett metadatafält på filtreringsmenyn.
 
-   * **Ta bort ett metadatafält** - Välj **[!UICONTROL Remove This Panel]** på filtreringsmenyn.
+   * **Ta bort ett metadatafält**: Välj **[!UICONTROL Remove This Panel]** på filtreringsmenyn.
 
    När du väljer ett metadatafält visas följande på panelen:
 
@@ -143,11 +143,11 @@ Följ de här stegen för att hitta resurser genom att filtrera med deras metada
 
 Följ dessa instruktioner på fliken Filter så att du kan spara, upprepa och ta bort filteråtgärder:
 
-* **Spara en filteråtgärd** - Gå till **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** och ange sedan ett namn i **[!UICONTROL Save]** -dialogrutan.
+* **Spara en filteråtgärd**: Gå till **[!UICONTROL Select Preset]** > **[!UICONTROL Save Current As New Presets]** och ange sedan ett namn i **[!UICONTROL Save]** -dialogrutan.
 
-* **Upprepa en filteråtgärd** - Välj **[!UICONTROL Select Preset]** och välj namnet på en filteråtgärd på menyn. I menyn visas filteråtgärder som du har sparat.
+* **Upprepa en filteråtgärd**: Välj **[!UICONTROL Select Preset]** och välj namnet på en filteråtgärd på menyn. I menyn visas filteråtgärder som du har sparat.
 
-* **Ta bort en filteråtgärd från menyn Välj förinställning** - Kör filteråtgärden. Gå sedan till **[!UICONTROL Select Preset]** > **[!UICONTROL Delete Preset]** på menyn.
+* **Ta bort en filteråtgärd från menyn Välj förinställning**: Kör filteråtgärden. Gå sedan till **[!UICONTROL Select Preset]** > **[!UICONTROL Delete Preset]** på menyn.
 
 ## Använda metadataservern {#using-the-metadata-server}
 
@@ -157,13 +157,13 @@ Om du vill konfigurera metadataservern går du till **[!UICONTROL Setup]** > **[
 
 På sidan Publicera för metadataserver kan du ange följande alternativ:
 
-* **[!UICONTROL Instant Publish]** - Överför automatiskt alla metadataändringar när de görs, inklusive nya resurser, nyckelordsändringar osv.
+* **[!UICONTROL Instant Publish]**: Överför automatiskt alla metadataändringar när de görs, inklusive nya resurser, nyckelordsändringar osv.
 
-* **[!UICONTROL XMP Packet]** - Publicerar XMP. Paketet används inte för sökning, men innehåller den senaste XMP.
+* **[!UICONTROL XMP Packet]**: XMP publiceras. Paketet används inte för sökning, men innehåller den senaste XMP.
 
-* **[!UICONTROL Keywords]** - Publicerar dina nyckelord till metadataservern för användning i sökningar.
+* **[!UICONTROL Keywords]**: Publicerar dina nyckelord till metadataservern för användning i sökningar.
 
-* **[!UICONTROL Metadata Server Publish Fields]** - Markera de fält som ska inkluderas i metadata. Med det här alternativet kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
+* **[!UICONTROL Metadata Server Publish Fields]**: Markera de fält som ska inkluderas i metadata. Med det här alternativet kan du avgöra hur mycket information om dina resurser som är tillgänglig för allmänheten. Dessa fält visas också i metadatavyer, men kan bara ändras på metadataservern.
 
 Välj **[!UICONTROL Publish Now]** för att starta jobbet. En bekräftelse visas som talar om att jobbet har startat.
 

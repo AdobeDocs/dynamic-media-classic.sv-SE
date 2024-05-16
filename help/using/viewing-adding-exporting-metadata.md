@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2154'
 ht-degree: 0%
@@ -31,11 +31,11 @@ Mer information om inbäddade metadata finns i [Extensible Metadata Platform](ht
 
 Om du vill visa metadata för en resurs öppnar du resursen i detaljvyn och trycker på panelen Metadata. Om du vill välja en uppsättning metadatafält väljer du ett alternativ på menyn Metadatavy. Adobe Dynamic Media Classic erbjuder följande metadatavyer:
 
-* **Kompakt vy** - En grundläggande lista med värden.
+* **Kompakt vy**: En grundläggande lista med värden.
 
-* **IPTC** - Värden enligt International Press Telecommunications Council.
+* **IPTC**: Värden enligt International Press Telecommunications Council.
 
-* **XMP** - Värden som definieras av det utökningsbara metadataprogrammet.
+* **XMP**: Värden som definieras av det utökningsbara metadataprogrammet.
 
 Administratörer kan skapa metadatavyer. De här vyerna visas även på menyn Metadatavyer.
 
@@ -185,13 +185,13 @@ Systemet genererar automatiskt ett anpassat schema för användardefinierade fä
 
 Metadata Schema Editor är ett grafiskt sätt att lägga till eller redigera ett anpassat företagsschema i Adobe Dynamic Media Classic. Ett prefix, ett namnutrymme och en lista med egenskaper definierar ett schema.
 
-* **[!UICONTROL Name]** - Schemats gränssnittsnamn. Används för att identifiera egenskaperna i metadatavyer och avancerad sökning. Liknar XMP avsnitt som Basic, IPTC, PDF.
+* **[!UICONTROL Name]**: Schemats gränssnittsnamn. Används för att identifiera egenskaperna i metadatavyer och avancerad sökning. Liknar XMP avsnitt som Basic, IPTC, PDF.
 
-* **[!UICONTROL Prefix]** - Tekniskt unikt ID för schemat. Begränsat till bokstäverna a-z och A-Z. Prefixet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används när metadata för en resurs lagras i XMP och i databasen. Prefixet identifierar enkelt metadatafält i metadatasökning på metadataservern eller import.
+* **[!UICONTROL Prefix]**: Tekniskt unikt ID för schemat. Begränsat till bokstäverna a-z och A-Z. Prefixet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används när metadata för en resurs lagras i XMP och i databasen. Prefixet identifierar enkelt metadatafält i metadatasökning på metadataservern eller import.
 
-* **[!UICONTROL Namespace]** - Teknisk unik identifierare för schemat, vanligtvis en URL i formuläret `https://your.company.com/name/version/`. Se listan med standardscheman för exempel. Namnutrymmet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används för att lagra metadata i XMP.
+* **[!UICONTROL Namespace]**: Teknisk unik identifierare för schemat, vanligtvis en URL i formuläret `https://your.company.com/name/version/`. Se listan med standardscheman för exempel. Namnutrymmet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används för att lagra metadata i XMP.
 
-* **[!UICONTROL Description]** - Beskrivning av schemat i fri form.
+* **[!UICONTROL Description]**: Beskrivning av schemat i fritt format.
 
 >[!NOTE]
 >

@@ -10,7 +10,7 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 0%
@@ -38,9 +38,9 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 1. Börja skapa din e-katalog med någon av följande tekniker:
 
-   * **Markera filerna först** - Markera filer på panelen Bläddra och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
+   * **Markera filerna först**: Välj filer på panelen Bläddra och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
 
-   * **Starta från eCatalog-skärmen** - Gå till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Markera en mapp i resursbiblioteket och dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
+   * **Starta från eCatalog-skärmen**: Gå till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Markera en mapp i resursbiblioteket och dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
 
      >[!NOTE]
      >
@@ -50,11 +50,11 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 1. Du kan också ändra layouten för enskilda sidor eller uppslag genom att markera dem och sedan välja **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]**, eller **[!UICONTROL Custom]** -knappen. I **[!UICONTROL Change eCatalog Layout]** väljer du **[!UICONTROL Selected Spreads]** alternativ och markera **[!UICONTROL OK]**.
 1. Ändra ordning på sidorna efter behov med någon av följande tekniker:
 
-   * **Dra** - Dra en sida eller ett uppslag till en ny plats. Det lodräta strecket visar var sidan flyttas.
+   * **Dra**: Dra en sida eller ett uppslag till en ny plats. Det lodräta strecket visar var sidan flyttas.
 
-   * **Knappen Flytta till** - Markera en sida eller ett uppslag, markera **[!UICONTROL Move To]** och väljer sidan på menyn som du vill att sidan ska visas före.
+   * **Knappen Flytta till**: Markera en sida eller ett uppslag, markera **[!UICONTROL Move To]** och väljer sidan på menyn som du vill att sidan ska visas före.
 
-   * **Sekvensnr** - I listvyn anger du sidnummer i fälten för sekvensnummer.
+   * **Sekvensnr**: I listvyn anger du sidnummer i fälten för sekvensnummer.
 
 1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**.

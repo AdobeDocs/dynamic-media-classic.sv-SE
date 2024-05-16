@@ -10,7 +10,7 @@ role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Bästa tillvägagångssätt för att använda videovisningsprogrammet för HTML5{#best-practice-using-the-html-video-viewer}
 
-Förinställningarna för videovisningsprogrammet i Adobe Dynamic Media Classic HTML 5 är robusta videospelare. På designsidan av spelaren kan du skapa hela videospelarens funktionalitet med standardverktyg för webbutveckling. Du kan till exempel utforma knapparna, kontrollerna och den anpassade bakgrunden för förhandsvisningsbilder med HTML5 och CSS så att du kan nå dina kunder med ett anpassat utseende.
+Förinställningarna för videovisningsprogrammet i Adobe Dynamic Media Classic HTML 5 är robusta videospelare. På designsidan av spelaren kan du skapa hela videouppspelarens funktionalitet med standardverktyg för webbutveckling. Du kan till exempel utforma knapparna, kontrollerna och den anpassade bakgrunden för förhandsvisningsbilder med HTML5 och CSS så att du kan nå dina kunder med ett anpassat utseende.
 
 På visningsprogrammets uppspelningssida identifieras webbläsarens videokapacitet automatiskt. Sedan visas videon med HLS (HTTP Live Streaming), som också kallas adaptiv videoströmning. Om leveransmetoden inte finns används HTML5 progressiv i stället.
 

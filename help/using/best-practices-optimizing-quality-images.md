@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 0%
@@ -70,8 +70,8 @@ Med Adobe Dynamic Media Classic kan du öka skärpan i bilder vid intag, vid lev
 
 Det finns två metoder för bildskärpa som du kan använda:
 
-* Enkel skärpa ( `&op_sharpen`) - Precis som det skärpefilter som används i Photoshop, tillämpar enkel skärpa den grundläggande skärpan på den slutliga vyn av bilden efter den dynamiska storleksändringen. Den här metoden kan dock inte konfigureras av användaren. Det bästa är att undvika att använda `&op_sharpen` om det inte är nödvändigt.
-* Oskarp maskering ( `&op_USM`) - Oskarp maskning är ett branschstandardfilter för skärpa. Det bästa sättet är att göra bilder skarpare med oskarp maskering enligt riktlinjerna nedan. Med Oskarp maskning kan du styra följande tre parametrar:
+* Enkel skärpa ( `&op_sharpen`): Precis som det skärpefilter som används i Photoshop, tillämpar enkel skärpa den grundläggande skärpan på den slutliga vyn av bilden efter den dynamiska storleksändringen. Den här metoden kan dock inte konfigureras av användaren. Det bästa är att undvika att använda `&op_sharpen` om det inte är nödvändigt.
+* Oskarp maskering ( `&op_USM`): Oskarp maskning är ett branschstandardfilter för skärpa. Det bästa sättet är att göra bilder skarpare med oskarp maskering enligt riktlinjerna nedan. Med Oskarp maskning kan du styra följande tre parametrar:
 
    * `&op_sharpen=amount,radius,threshold`
 

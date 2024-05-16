@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -45,24 +45,24 @@ Du kan ändra ID-namnet för ett teckensnitt och dess typinformation. Att redige
 
 I panelen Bläddra markerar du den teckensnittsfil som du vill redigera i detaljvyn och väljer Arkiv > Redigera information. Skärmen Redigera information öppnas. Välj följande alternativ och välj sedan **[!UICONTROL Submit]**.
 
-* **[!UICONTROL Font Name]** - Det här namnet identifierar teckensnittet när det publiceras.
+* **[!UICONTROL Font Name]**: Det här namnet identifierar teckensnittet när det publiceras.
 
-* **[!UICONTROL PostScript Name]** - Det här namnet är det fullständiga PostScript-namnet för teckensnittet. Det anger vanligtvis bredden eller formatet.
+* **[!UICONTROL PostScript Name]**: Det här namnet är det fullständiga PostScript-namnet för teckensnittet. Det anger vanligtvis bredden eller formatet.
 
-* **[!UICONTROL RTF Name]** - Det här namnet visas på en snabbmeny i RTF-redigeraren där malltextlager skapas.
+* **[!UICONTROL RTF Name]**: Det här namnet visas på en snabbmeny i RTF-redigeraren där malltextlager skapas.
 
-* **[!UICONTROL Font Family Name]** - Det här namnet visar teckensnittsnamnet utan tecken på format, bredd eller teckensnittstyp.
+* **[!UICONTROL Font Family Name]**: Det här namnet visar teckensnittsnamnet utan tecken på format, bredd eller teckensnittstyp.
 
-* **[!UICONTROL Font Style]** - Alternativen är Normal, Fet, Kursiv och Fet-Kursiv.
+* **[!UICONTROL Font Style]**: Alternativen är Normal, Fet, Kursiv och Fet-Kursiv.
 
-* **[!UICONTROL Font Type]** - Alternativen är TrueType och Adobe Type 1. Om du anropar teckensnitten med ett annat namn kan du ange det.
+* **[!UICONTROL Font Type]**: Alternativen är TrueType och Adobe Type 1. Om du anropar teckensnitten med ett annat namn kan du ange det.
 
-* **[!UICONTROL Font Type Abbreviation]** - Alternativen är följande:
+* **[!UICONTROL Font Type Abbreviation]**: Alternativen är följande:
 
-   * **[!UICONTROL TTF]** - TrueType-teckensnittsfiler som används för PDF/PostScript-återgivning och bildvisning.
+   * **[!UICONTROL TTF]**: TrueType-teckensnittsfiler används för PDF/PostScript-återgivning och bildvisning.
 
-   * **[!UICONTROL AFM]** - Adobe PostScript teckensnittsfiler som innehåller Adobe-teckensnittsmått och som används för bildvisning.
+   * **[!UICONTROL AFM]**: Adobe PostScript teckensnittsfiler som innehåller Adobe-teckensnittsmått och som används för bildvisning.
 
-   * **[!UICONTROL PFM]** - Adobe PostScript teckensnittsfiler som innehåller binär teckensnittsmätningsinformation.
+   * **[!UICONTROL PFM]**: Adobe PostScript teckensnittsfiler som innehåller binär teckensnittsmått.
 
-   * **[!UICONTROL PFB]** - Adobe PostScript teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
+   * **[!UICONTROL PFB]**: Adobe PostScript teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.

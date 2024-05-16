@@ -10,7 +10,7 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '957'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Arbeta med PSD-filer{#working-with-psd-files}
 
-<!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)** - Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on web pages. -->
+<!--   USED TO BE AN OPTION UNDER COLOR PROFILE OPTIONS * **Convert To sRGB (default)**: Converts to sRGB (Standard Red Green Blue). sRGB is the recommended color space for displaying images on Web pages. -->
 
 PSD (Photoshop Document Files) används oftast i Adobe Dynamic Media Classic för att skapa mallar. När du överför en PSD-fil kan du skapa en Adobe Dynamic Media Classic-mall automatiskt från filen (välj alternativet Skapa mall på överföringsskärmen).
 
@@ -31,43 +31,43 @@ Alternativ för att överföra PSD-filer finns under Photoshop-alternativ i dial
 
 De här alternativen är tillgängliga när du överför PSD-filer:
 
-* **Beskärningsalternativ** - Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** så att du automatiskt kan beskära tomt utrymme från kanterna på en PSD-fil. Välj **[!UICONTROL Manual]** för att beskära sidorna i filen PSD:
+* **Beskärningsalternativ**: Finns under **[!UICONTROL Crop Options]**. Välj **[!UICONTROL Trim]** så att du automatiskt kan beskära tomt utrymme från kanterna på en PSD-fil. Välj **[!UICONTROL Manual]** för att beskära sidorna i filen PSD:
 
-   * **[!UICONTROL Trim]** - Välj **[!UICONTROL Trim Away Based On]** och väljer **[!UICONTROL Color]** eller **[!UICONTROL Transparency]**.
+   * **[!UICONTROL Trim]**: Välj **[!UICONTROL Trim Away Based On]** och väljer **[!UICONTROL Color]** eller **[!UICONTROL Transparency]**.
 
   Om du väljer **[!UICONTROL Color]** väljer du menyn Hörn och väljer hörnet på PSD med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 
   Dra skjutreglaget för att ange en tolerans mellan 0 och 1. Om du vill trimma baserat på färg anger du 0 för att beskära pixlar endast om de exakt matchar färgen som du markerade i hörnet av PSD. Nummer som ligger närmare 1 ger större färgskillnader. Om du vill trimma baserat på genomskinlighet anger du 0 om pixlarna bara ska beskäras om de är genomskinliga. Om du anger värden som är närmare 1 får du mer genomskinlighet.
 
-   * **[!UICONTROL Manual]** - Ange antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Anta att bilden visar 150 ppi. Sedan anger du 75 i textrutorna Överkant, Höger, Underkant och Vänster. Varje sida av bilden beskärs, 0,5 tum.
+   * **[!UICONTROL Manual]**: Ange antalet pixlar att beskära från en sida eller från varje sida av bilden. Hur mycket av bilden som beskärs beror på bildfilens ppi-inställning (pixlar per tum). Anta att bilden visar 150 ppi. Sedan anger du 75 i textrutorna Överkant, Höger, Underkant och Vänster. Varje sida av bilden beskärs, 0,5 tum.
 
-* **Alternativ för färgprofil** - Finns under **[!UICONTROL Color Profile Options]**.
+* **Alternativ för färgprofil**: Finns under **[!UICONTROL Color Profile Options]**.
 
    * **[!UICONTROL Default Color Preservation]**
 
-   * **[!UICONTROL Keep Original Color Space]** - Behåller bildens ursprungliga färgrymd.
+   * **[!UICONTROL Keep Original Color Space]**: Behåller bildens ursprungliga färgrymd.
 
-   * **[!UICONTROL Custom From]** > **[!UICONTROL To]** - Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic. Se [ICC-profiler](/help/using/icc-profiles.md).
+   * **[!UICONTROL Custom From]** > **[!UICONTROL To]**: Öppnar menyer så att du kan välja färgmodellen Konvertera från och Konvertera till. Du kan välja en standardfärgmodell för Photoshop eller en färgmodell som du har överfört till Adobe Dynamic Media Classic. Se [ICC-profiler](/help/using/icc-profiles.md).
 
 * **Photoshop-alternativ**
 
-   * **[!UICONTROL Maintain Layers]** - Rippar lagren i PSD, om det finns några, till enskilda resurser. Resurslagren är fortfarande kopplade till PSD. Du kan visa dem genom att öppna filen PSD i detaljvyn och välja lagerpanelen. Se Visa och redigera lager i en PSD-fil.
+   * **[!UICONTROL Maintain Layers]**: Rippar lagren i PSD, om det finns några, till enskilda resurser. Resurslagren är fortfarande kopplade till PSD. Du kan visa dem genom att öppna filen PSD i detaljvyn och välja lagerpanelen. Se Visa och redigera lager i en PSD-fil.
 
-   * **[!UICONTROL Create Template]** - Skapar en mall från lagren i filen PSD.
+   * **[!UICONTROL Create Template]**: Skapar en mall från lagren i filen PSD.
 
-   * **[!UICONTROL Extract Text]** - Extraherar texten så att användare kan söka efter text i ett visningsprogram.
+   * **[!UICONTROL Extract Text]**: Extraherar texten så att användare kan söka efter text i ett visningsprogram.
 
-   * **[!UICONTROL Extend Layers To Background Size]** - Utökar storleken på överlappade bildlager till storleken på bakgrundslagret.
+   * **[!UICONTROL Extend Layers To Background Size]**: Utökar storleken på överlappade bildlager till storleken på bakgrundslagret.
 
-   * **[!UICONTROL Layer Naming]** - Lager i filen PSD överförs som separata bilder. Om du vill namnge bilderna i Adobe Dynamic Media Classic väljer du bland följande alternativ:
+   * **[!UICONTROL Layer Naming]**: Lager i filen PSD överförs som separata bilder. Om du vill namnge bilderna i Adobe Dynamic Media Classic väljer du bland följande alternativ:
 
-      * **[!UICONTROL Layer Name]** - Namnger bilderna efter deras lagernamn i filen PSD. Ett lager med namnet Price Tag i den ursprungliga PSD-filen blir till exempel en bild med namnet Price Tag. Om lagernamnen i filen PSD är Photoshop standardlagernamn (Bakgrund, Lager 1, Lager 2 och så vidare) får bilderna namn efter sina lagernummer i filen PSD. <!-- not their default layer names -->
+      * **[!UICONTROL Layer Name]**: Namnger bilderna efter deras lagernamn i filen PSD. Ett lager med namnet Price Tag i den ursprungliga PSD-filen blir till exempel en bild med namnet Price Tag. Om lagernamnen i filen PSD är Photoshop standardlagernamn (Bakgrund, Lager 1, Lager 2 och så vidare) får bilderna namn efter sina lagernummer i filen PSD. <!-- not their default layer names -->
 
-      * **[!UICONTROL Photoshop and layer number]** - Namnger bilderna efter deras lagernummer i filen PSD och ignorerar de ursprungliga lagernamnen. Bilderna namnges med Photoshop-filnamnet och ett nummer på lagret som läggs till. Det andra lagret i en fil med namnet `Spring Ad.psd` är namngiven `Spring Ad_2` även om det har ett icke-standardnamn i Photoshop.
+      * **[!UICONTROL Photoshop and layer number]**: Namnger bilderna efter deras lagernummer i filen PSD och ignorerar de ursprungliga lagernamnen. Bilderna namnges med Photoshop-filnamnet och ett nummer på lagret som läggs till. Det andra lagret i en fil med namnet `Spring Ad.psd` är namngiven `Spring Ad_2` även om det har ett icke-standardnamn i Photoshop.
 
-      * **[!UICONTROL Photoshop and layer name]** - Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn. Ett lager med namnet `Price Tag` i en PSD-fil med ett namn `SpringAd` är namngiven `Spring Ad_Price Tag`. Ett lager med standardnamnet Lager2 anropas `Spring Ad_2`.
+      * **[!UICONTROL Photoshop and layer name]**: Namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn. Ett lager med namnet `Price Tag` i en PSD-fil med ett namn `SpringAd` är namngiven `Spring Ad_Price Tag`. Ett lager med standardnamnet Lager2 anropas `Spring Ad_2`.
 
-   * **[!UICONTROL Anchor]** - Ange hur bilder är förankrade i mallar som genereras från lagerkompositionen som skapas från filen PSD. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan du ersätta bilder som bäst kan fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
+   * **[!UICONTROL Anchor]**: Ange hur bilder är förankrade i mallar som genereras från lagerkompositionen som skapas från filen PSD. Som standard är ankarpunkten i mitten. Med en central ankarpunkt kan du ersätta bilder som bäst kan fylla samma område, oavsett ersättningsbildens proportioner. Bilder med en annan aspekt som ersätter den här bilden upptar i själva verket samma utrymme när de refererar till mallen och använder parameterersättning. Ändra till en annan inställning om ditt program kräver att ersättningsbilderna fyller ut det tilldelade utrymmet i mallen.
 
 ## Visa och redigera lager i en PSD-fil {#viewing-and-editing-layers-in-a-psd-file}
 
