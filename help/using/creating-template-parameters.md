@@ -10,9 +10,9 @@ role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -59,4 +59,4 @@ Om du vill att parameternamnet ska använda ett databasvärde lägger du till f�
 ?$_2(parameter name)=(database value)
 ```
 
-Parameternamnet ersätts av namn i ett databasfält eller Java™-kod som t.ex. anger det aktuella priset för en artikel eller ett kundnamn.
+Namnen i ett databasfält eller Java™-koden ersätter parameternamnen. Den här funktionaliteten anger till exempel det aktuella priset på en artikel eller ett kundnamn.

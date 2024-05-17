@@ -10,7 +10,7 @@ role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Använd de förinställda inställningarna för visningsprogrammet för att ange
 1. Gör något av följande:
 
    * Om du vill skapa en förinställning väljer du **[!UICONTROL Add]**, välj en plattform i dialogrutan Lägg till visningsförinställning och välj sedan **[!UICONTROL Spin Set Viewer]**.
-   * Om du vill redigera en befintlig förinställning för Snapin Set Viewer markerar du förinställningen och väljer sedan **[!UICONTROL Edit]**.
+   * Om du vill redigera en befintlig förinställning för Snurra uppsättning väljer du förinställningen och sedan **[!UICONTROL Edit]**.
 
 1. På `Configure Viewer` skriver du ett namn i rutan Förinställningsnamn för visningsförinställningen för den nya uppsättningen.
 1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ väljer du **[!UICONTROL Info Tip]** -ikonen bredvid alternativet.

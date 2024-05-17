@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 00591bdbe721035e25d3dea245a2110f978d19aa
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Om du vill komma åt formatinställningarna går du till **[!UICONTROL Setup]** 
 
 * **[!UICONTROL Application]**: Skapa en övertoningsfärgblandning genom att göra val på menyerna för bakgrundsövertoningsfärger.
 
-* **[!UICONTROL Tree]**: Välj en överrullningsfärg (den färg som visas när du flyttar pekaren över ett objekt) och en markeringsfärg (den färg som visas när du markerar ett objekt).
+* **[!UICONTROL Tree]**: Välj en överrullningsfärg och markeringsfärg.
 
 * **[!UICONTROL Accordion]**: Välj bakgrundsfärger, kantlinjeformat, överrullning och valda färger för dragspelet som visas till höger på skärmen i detaljvyn.
 

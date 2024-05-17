@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Som administratör kan du lägga till och hantera användare, bestämma om de sk
 
 >[!NOTE]
 >
->Innan du lägger till användare måste du konfigurera grupper för att administrera dem. Med Media Portal kan du inte lägga till en användare utan att tilldela användaren till en eller flera grupper. Mer information finns i [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>Innan du lägger till användare måste du konfigurera grupper för att administrera dem. Med Media Portal kan du lägga till en användare genom att tilldela användaren till en eller flera grupper. Mer information finns i [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## Administration av lösenord för Media Portal {#handling-media-portal-passwords}
 

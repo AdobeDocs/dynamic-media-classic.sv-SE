@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # Kontrollera jobbfiler{#checking-job-files}
 
-Adobe Dynamic Media Classic erbjuder jobbsidan för att övervaka filöverföringar till Adobe Dynamic Media Classic och filer som du publicerar på Adobe Dynamic Media Classic-servrar. Du kan granska överförings- och publiceringsjobb på jobbsidan, kontrollera status för jobb och avbryta publiceringsjobb från den här sidan. Du kan också schemalägga överförings- och publiceringsjobb.
+Adobe Dynamic Media Classic erbjuder jobbsidan för att övervaka filöverföringar till Adobe Dynamic Media Classic och filer som du publicerar på Adobe Dynamic Media Classic-servrar. Du kan granska, överföra och publicera jobb på sidan Jobs, kontrollera status för jobb och avbryta publiceringsjobb från den här sidan. Du kan också schemalägga överförings- och publiceringsjobb.
 
 När du överför resurser visas en snurrande ikon bredvid menyn Jobb, som anger att ett jobb pågår och hur många filer som bearbetas. Du kan markera ikonen om du vill visa mer information om det aktiva jobbet.
 
@@ -49,7 +49,7 @@ Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
 * **[!UICONTROL Status]**: Visar jobbets status.
 
-* **[!UICONTROL Destination]**: För överföringsjobb, företagsnamnet och mappen som filerna överfördes till. Den här kategorin gäller inte för jobb för publicering.
+* **[!UICONTROL Destination]**: För överföringsjobb är målet företagets namn och mapp som filerna överfördes till. Den här kategorin gäller inte för jobb för publicering.
 
 * **[!UICONTROL Submitted By]**: Listar som överförde resurserna.
 
