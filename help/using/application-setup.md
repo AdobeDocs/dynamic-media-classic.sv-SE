@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '10352'
+source-wordcount: '10351'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Se även [Testa tjänsten för säker testning](testing-assets-making-them-publi
 
 * **[!UICONTROL Progressive Video Server Name]**: URL till [!DNL Adobe Dynamic Media Classic] progressiv videoserver. Den här servern levererar progressiv video med HTTP-protokollet.
 
-* **[!UICONTROL Show URL for unpublished assets]**: Välj det här alternativet om du vill [!DNL Adobe Dynamic Media Classic] om du vill visa en URL när du förhandsgranskar en resurs, oavsett om den är publicerad eller inte. Om resursen inte publiceras fungerar inte URL:en. Du kan dock använda URL-adressen för planering eller organisering.
+* **[!UICONTROL Show URL for unpublished assets]**: Välj det här alternativet om du vill [!DNL Adobe Dynamic Media Classic] om du vill visa en URL när du förhandsvisar en resurs, publicerad eller inte. Om resursen inte publiceras fungerar inte URL:en. Du kan dock använda URL-adressen för planering eller organisering.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -117,11 +117,11 @@ Se även [Alternativ för överföringsjobb](https://s7d5.scene7.com/s7viewers/h
 
 * **[!UICONTROL Overwrite Images]**: Adobe Dynamic Media Classic tillåter inte att två filer har samma namn. Varje objekts Adobe Dynamic Media Classic-ID (bildnamnet minus filnamnstillägget) måste vara unikt. På grund av den här regeln har dialogrutan Överför ett överskrivningsalternativ. Den exakta effekten av det här alternativet beror på det angivna alternativet Skriv över bilder. Dessa alternativ anger hur ersättningsbilder överförs: om de ersätter originalbilderna eller blir dubblettbilder. Duplicerade bilder får ett nytt namn med namnet&quot;-1&quot; (till exempel heter stol.tif stol-1.tif). De här alternativen påverkar bilder som har överförts till en annan mapp än den ursprungliga eller bilder med ett annat filnamnstillägg än den ursprungliga (till exempel JPG, TIF eller PNG). Se [Använda alternativet Skriv över bilder](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL Overwrite in current folder, same base image name/extension]**: Det här alternativet är den striktaste regeln för ersättning. Det kräver att du överför ersättningsbilden till samma mapp som originalbilden och att ersättningsbilden har samma filnamnstillägg som originalbilden. Om dessa krav inte uppfylls skapas en dubblett.
+   * **[!UICONTROL Overwrite in current folder, same base image name or extension]**: Det här alternativet är den striktaste regeln för ersättning. Det kräver att du överför ersättningsbilden till samma mapp som originalbilden och att ersättningsbilden har samma filnamnstillägg som originalbilden. Om dessa krav inte uppfylls skapas en dubblett.
 
    * **[!UICONTROL Overwrite in current folder, same base asset name regardless of extension]**: Du måste överföra ersättningsbilden till samma mapp som originalet, men filnamnstillägget kan skilja sig från originalet. Till exempel ersätter stol.tif stol.jpg.
 
-   * **[!UICONTROL Overwrite in any folder, same base asset name/extension]**: Kräver att ersättningsbilden har samma filnamnstillägg som den ursprungliga bilden (t.ex. måste stol.jpg ersätta stol.jpg, inte stol.tif). Du kan dock överföra ersättningsbilden till en annan mapp än den ursprungliga. Den uppdaterade bilden finns i den nya mappen. Det går inte längre att hitta filen på den ursprungliga platsen
+   * **[!UICONTROL Overwrite in any folder, same base asset name or extension]**: Kräver att ersättningsbilden har samma filnamnstillägg som den ursprungliga bilden. Till exempel måste stol.jpg ersätta stol.jpg, inte stol.tif). Du kan dock överföra ersättningsbilden till en annan mapp än den ursprungliga. Den uppdaterade bilden finns i den nya mappen. Det går inte längre att hitta filen på den ursprungliga platsen
 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]**: Det här alternativet är den mest omfattande ersättningsregeln. Du kan överföra en ersättningsbild till en annan mapp än den ursprungliga, överföra en fil med ett annat filnamnstillägg och ersätta den ursprungliga filen. Om originalfilen finns i en annan mapp finns ersättningsbilden i den nya mappen som den överfördes till.
 
@@ -135,7 +135,7 @@ Se även [Alternativ för överföringsjobb](https://s7d5.scene7.com/s7viewers/h
 
 * **[!UICONTROL Default Image Mapping HREF]**: Definierar den standard-URL som används för HREF-kolumnen i bildmappningen. Den här URL:en är den standardadress som visas när du skapar bildscheman.
 
-* **[!UICONTROL Default Image Mapping Template]**: Definierar JavaScript-standard för HREF-mallen vid bildmappning. Du kan ange att en anpassad kod ska köras när du väljer ett bildschema här.
+* **[!UICONTROL Default Image Mapping Template]**: Definierar JavaScript-standard för HREF-mallen vid bildmappning. Du kan ange att en anpassad kod ska köras när du väljer en bildschema här.
 
 ### Andra inställningar (till program)
 
@@ -713,13 +713,13 @@ URL:en kopieras till Urklipp. Du kan använda den om det behövs i HTML-koden f�
 
    På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
 
-### Kopiera inbäddningskoden för en visningsförinställning {#copying-the-embed-code-of-a-viewer-preset}
+### Kopiera inbäddningskod för en visningsförinställning {#copying-the-embed-code-of-a-viewer-preset}
 
 Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda visningsförinställningen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet.
 
 Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
-**Så här kopierar du inbäddningskoden för en visningsförinställning:**
+**Så här kopierar du den inbäddade koden för en visningsförinställning:**
 
 1. Markera resursen på panelen Resursbläddring.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:

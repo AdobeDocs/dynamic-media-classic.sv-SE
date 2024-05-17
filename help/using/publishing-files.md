@@ -10,7 +10,7 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program.
 
-Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddningskod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen använder HTTP/2-protokollet för att leverera den. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla era Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddad kod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen använder HTTP/2-protokollet för att leverera den. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla era Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## Publicera efter överföring {#publish-after-uploading}
 

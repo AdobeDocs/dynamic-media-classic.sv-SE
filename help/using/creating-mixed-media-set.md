@@ -9,9 +9,9 @@ role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Skapa en blandad medieuppsättning när du vill kombinera flera typer av visning
 
 När du skapar en uppsättning **Publicera efter spara** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Alternativet Publicera efter spara är markerat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Vill du publicera efter att ha sparat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
@@ -44,11 +44,11 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 1. Gör något av följande:
 
-   * Om du vill lägga till ett ljudspår drar du en ljudfil från resursbiblioteket till rutan Ljudspår. Ljudspåret spelas upp när bilder visas. Det stoppas när video spelas upp.
+   * Om du vill lägga till ett ljudspår drar du en ljudfil från resursbiblioteket till rutan Ljudspår. Ljudspåret spelas upp när bilder visas. Den stoppas när en video spelas upp.
    * Om du vill ändra ordningen på uppsättningar drar du dem till nya platser på skärmen med blandade medieuppsättningar. Ordningen på uppsättningarna på skärmen avgör i vilken ordning användarna ser uppsättningar i visningsprogrammet för den blandade medieuppsättningen.
    * (Valfritt) Om du vill lägga till en anpassad miniatyrbild som representerar en video i visningsprogrammet drar du en bildfil från resursbiblioteket till platshållarrutan för miniatyrbilder.
 
-1. I närheten av sidans nedre högra hörn ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
+1. I närheten av sidans nedre högra hörn ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]**.
 1. Välj en mapp för lagring av den blandade medieuppsättningen och ange sedan ett namn för uppsättningen.
 1. Välj **[!UICONTROL Save]**.
@@ -57,11 +57,11 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 ## Redigera en blandad medieuppsättning {#edit-a-mixed-media-set}
 
-Du kan redigera en uppsättning med blandade media. Om du vill redigera en uppsättning i en uppsättning med blandade media öppnar du den uppsättningen separat, redigerar den och sparar den. Redigeringarna visas i uppsättningen med blandade media.
+Du kan redigera en uppsättning med blandade media. Om du vill redigera en uppsättning i en uppsättning med blandade media öppnar du den uppsättningen separat, redigerar den och sparar den. Redigeringarna visas i den blandade medieuppsättningen.
 
-Oavsett om du redigerar en publicerad eller opublicerad uppsättning kan du **[!UICONTROL Publish after save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+Oavsett om du redigerar en publicerad eller opublicerad uppsättning kan du **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
 
-| Har du redan publicerat? | **[!UICONTROL Publish after save]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | **[!UICONTROL Publish after a save]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- |--- |--- |--- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -78,7 +78,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
    * Om du vill ta bort objekt markerar du dem och väljer **[!UICONTROL Delete]**.
    * Om du vill ändra ordning på objekten drar du dem till nya platser.
 
-1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, ser du till att **[!UICONTROL Publish after save]** är markerat (standard).
+1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
 1. Välj **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
 
 ## Ta bort en blandad medieuppsättning

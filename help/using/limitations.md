@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Det här avsnittet innehåller följande avsnitt:
 
 ## Dynamic Media bästa praxis och tvingande begränsningar för tillgångstyper {#best-practice-enforced-limits}
 
-När du skapar en snurra uppsättning eller en bilduppsättning, eller överför PDF för sidextrahering, rekommenderar Adobe följande metodtips och tillämpar följande begränsningar:
+När du skapar en snurra uppsättning eller en bilduppsättning, eller överför PDF för sidextrahering, rekommenderar Adobe följande metodtips. Adobe tillämpar även följande begränsningar:
 
 | Tillgång: Begränsningstyp | Bästa praxis | Begränsning har införts |
 | --- | --- | --- |

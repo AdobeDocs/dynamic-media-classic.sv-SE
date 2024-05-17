@@ -10,7 +10,7 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Länka en färgruteuppsättning till en webbsida{#linking-a-swatch-set-to-a-web-page}
 
-När du har publicerat en färgruteuppsättning kan du använda dess associerade URL-adress eller inbäddningskod på din webbplats eller ditt program. Sedan kan du distribuera URL-adressen eller inbäddningskoden efter behov så att användarna kan visa färgruteuppsättningen på din webbplats eller i ditt program.
+När du har publicerat en uppsättning med färgrutor kan du använda den associerade URL:en eller den inbäddade koden på webbplatsen eller i programmet. Sedan kan du distribuera URL:en eller inbäddningskoden efter behov så att användarna kan visa färgruteuppsättningen på din webbplats eller i ditt program.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ När du har publicerat en färgruteuppsättning kan du använda dess associerade
 ## Kopiera en URL för färgruteuppsättning {#copying-a-swatch-set-url}
 
 1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Swatch Set]**.
-1. navigera till resursmappen som innehåller den färgruteuppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
+1. navigera till resursmappen som innehåller den färgruteuppsättning vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Copy URL]** till höger om det visningsprogram du vill använda.
@@ -50,14 +50,14 @@ Det vanligaste sättet att distribuera färgruteuppsättningar är att placera e
 
 Mer information och kodexempel finns i [Inbäddning av zoomvisningsprogrammet HTML5 i referenshandboken för visningsprogrammen för Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
-## Kopiera inbäddningskoden för ett visningsprogram för färgrutor {#copying-the-embed-code-of-a-swatch-set-viewer}
+## Kopiera inbäddningskod för ett visningsprogram för färgrutor {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda uppsättningen med färgrutor. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
-**Så här kopierar du inbäddningskoden för ett visningsprogram för färgrutor:**
+**Så här kopierar du inbäddningskod för ett visningsprogram för färgrutor:**
 
 1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Swatch Set]**.
-1. navigera till resursmappen som innehåller den färgruteuppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
+1. navigera till resursmappen som innehåller den färgruteuppsättning vars inbäddningskod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Embed Code]** till höger om det visningsprogram du vill använda.

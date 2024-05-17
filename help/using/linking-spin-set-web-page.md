@@ -10,7 +10,7 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, 
 ## Kopiera en URL för en snurruppsättning {#copying-a-spin-set-url}
 
 1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Spin Set]**.
-1. navigera till resursmappen som innehåller den snurra uppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
+1. navigera till resursmappen som innehåller den snurpuppsättning vars inbäddade kod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Copy URL]** till höger om det visningsprogram du vill använda.
@@ -54,14 +54,14 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 I det här exemplet på URL-syntax (länken är inte live), lägg märke till ett SKU-nummer ( `sku=backpack_spin`). Strängen efter `sku=` är namnet på rotationsuppsättningen ( `backpack spin`).
 
-## Kopiera inbäddningskoden för ett visningsprogram för sned uppsättning {#copying-the-embed-code-of-a-spin-set-viewer}
+## Kopiera inbäddningskoden för ett visningsprogram för snurra uppsättningar {#copying-the-embed-code-of-a-spin-set-viewer}
 
 Med hjälp av funktionen Bädda in kod kan du granska visningsprogramkoden för den valda rotationsuppsättningen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
 **Så här kopierar du inbäddningskoden för ett visningsprogram för en sned uppsättning:**
 
 1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Spin Set]**.
-1. navigera till resursmappen som innehåller den snurra uppsättning vars inbäddningskod du vill kopiera i resurspanelen till vänster.
+1. navigera till resursmappen som innehåller den snurpuppsättning vars inbäddade kod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Embed Code]** till höger om det visningsprogram du vill använda.

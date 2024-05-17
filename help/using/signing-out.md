@@ -1,6 +1,6 @@
 ---
 title: Logga in på och ut från Adobe Dynamic Media Classic
-description: Läs om hur du loggar in på och ut från Adobe Dynamic Media Classic och ansluter till en produktionsmiljöserver i Nordamerika (NA), eller i Europa, Mellanöstern, Afrika (EMEA) eller Asien-Stillahavsområdet (APAC).
+description: Läs om hur du loggar in på och ut från Adobe Dynamic Media Classic. Lär dig även hur du ansluter till en produktionsserver i Nordamerika (NA), Europa, Mellanöstern, Afrika (EMEA) eller Asien-Stillahavsområdet (APAC).
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
