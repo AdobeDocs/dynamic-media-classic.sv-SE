@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,6 @@ När du rapporterar problem till den tekniska supporten ska du inkludera följan
 * Adobe Dynamic Media Classic företagsnamn.
 * Ditt namn, telefonnummer och e-postadress.
 * Adobe Dynamic Media Classic, plattform och version.
-* Problembeskrivning och de steg som krävs för att återskapa problemet.
+* Beskrivning av problemet och de åtgärder som krävs för att återskapa problemet.
 * Felmeddelande, om det finns något.
 * Webbläsartyp och version, om tillämpligt.

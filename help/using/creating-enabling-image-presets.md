@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
 
 # Skapa och aktivera bildförinställningar{#creating-and-enabling-image-presets}
 
-När användare exporterar bildresurser med Media Portal kan de välja en bildförinställning i dialogrutan Exportera markerade resurser. En bildförinställning är en samling fördefinierade inställningar som ändrar storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
+När användare exporterar bildresurser med Media Portal kan de välja en bildförinställning i dialogrutan Exportera markerade resurser. En bildförinställning är en samling fördefinierade inställningar. Dessa inställningar kan ändra storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
 
 Administratörer för Media Portal kan skapa bildförinställningar som styr hur bilder formateras om när de exporteras. Bildförinställningar formaterar bilderna enligt ditt företags specifikationer när användare exporterar bilder från Adobe Dynamic Media Classic. I stället för att bara formatera om bilder exporterar användarna dem till de exakta specifikationerna för en bildförinställning.
 

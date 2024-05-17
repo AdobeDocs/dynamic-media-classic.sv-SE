@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du mås
    | `$2$` | frame | Sekvensnumret för den bildruta som visas i bilduppsättningen. |
    | `$3$` | bildrot | Det första sökvägselementet i det första objektet som anges i bildkommandot (vanligtvis bildkatalog-ID:t för den katalogpost som anger bilduppsättningen). |
 
-1. (Valfritt) I dialogrutan **[!UICONTROL Info Panel Settings]**, i **[!UICONTROL Response Template]** skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för ett bildschema. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
+1. (Valfritt) I dialogrutan **[!UICONTROL Info Panel Settings]**, i **[!UICONTROL Response Template]** skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för en bildschema. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
 
 >[!NOTE]
 >

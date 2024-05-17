@@ -9,9 +9,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1850'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Administrationsinställningar{#administration-setup}
 
-Skärmerna Administrationsinstallationer används för att administrera Adobe Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Adobe Dynamic Media Classic och kommunicera via e-post med användare.
+Skärmerna Administrationsinstallationer används för att administrera Adobe Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Adobe Dynamic Media Classic och kommunicera via e-post med andra användare.
 
 1. Gå till Administrationsinställningar **Inställningar** > **Personliga inställningar** > **Administrationsinställningar**.
 
@@ -28,7 +28,7 @@ Skärmerna Administrationsinstallationer används för att administrera Adobe Dy
 
 Alla Adobe Dynamic Media Classic-användare tilldelas en roll som avgör vilka behörigheter de har och vilka rättigheter de har för funktioner i Adobe Dynamic Media Classic. Administratörerna bestämmer vilka roller och ansvarsområden de har för de företag de är tilldelade.
 
-Vanligtvis konfigurerar Adobe Dynamic Media Classic den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören ställer sedan in och administrerar Adobe Dynamic Media Classic-användare.
+Vanligtvis konfigurerar Adobe Dynamic Media Classic den första uppsättningen företag och tilldelar en företagsadministratör. Företagsadministratören konfigurerar och administrerar sedan Adobe Dynamic Media Classic-användare.
 
 Adobe Dynamic Media Classic har stöd för flera användarroller. De här rollerna har åtkomst till företag som har konfigurerats för Adobe Dynamic Media Classic:
 
@@ -109,7 +109,7 @@ Du kan använda följande tekniker för filtrering av användarlistor:
 
 * **Filtrera bort ogiltiga användare**: Avmarkera **[!UICONTROL Include Invalid]**. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton som du administrerar.
 
-* **Sortera efter kolumnrubrik**: Välj en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress, efter användarroll eller efter giltig/ogiltig status.
+* **Sortera efter kolumnrubrik**: Välj en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-post. Eller sortera efter användarroll eller efter giltig/ogiltig status.
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
@@ -170,9 +170,9 @@ Rapporten Bildinnehåll innehåller information om begäranden för följande bi
 
 * **Begäran om visningsruta**: Bildbegäranden som läses in av ett visningsprogram.
 
-* **Förfrågan om värdeobjekt**: Begäran om bildåtergivning som returnerar en bild med angivna objekt i de begärda vinjetterna.
+* **VNT-objektbegäran**: Begäran om bildåtergivning som returnerar en bild med angivna objekt i de begärda vinjetterna.
 
-* **Förfrågan om värdeinformation**: Begäran om bildåtergivning som returnerar information om begärda vinjetter.
+* **Begäran om VNT-information**: Begäran om bildåtergivning som returnerar information om begärda vinjetter.
 
 >[!NOTE]
 >
@@ -202,7 +202,7 @@ När du har genererat en rapport på sidan Bandbredd och lagring kan du välja a
 
 * **Anpassad tidsperiod**: På den fördefinierade rapportmenyn väljer du **[!UICONTROL Custom]**. Välj sedan ett datum på **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
 
-* **Sortera data (endast datavyn)**: Om du vill sortera information i en kolumn markerar du kolumnens rubrik. Välj igen om du vill sortera i fallande ordning.
+* **Sortera data (endast datavyn)**: Sortera information i en kolumn. Markera kolumnrubriken. Välj igen om du vill sortera i fallande ordning.
 
 * **Ordna om kolumner (endast datavyn)**: Om du vill flytta en kolumn till en annan plats i datarutnätet drar du i rubriken.
 

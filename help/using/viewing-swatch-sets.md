@@ -10,16 +10,16 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
 
 # Visa färgruteuppsättningar{#viewing-swatch-sets}
 
-Du kan visa dina färgruteuppsättningar i förhandsgranskningsfönstret med dina tillgängliga förinställningar. Du använder ett zoomvisningsprogram: Anpassad visningsförinställning för färgruteuppsättningar.
+Du kan visa dina färgruteuppsättningar i förhandsgranskningsfönstret med dina tillgängliga förinställningar. Du kan använda ett zoomvisningsprogram: Anpassad visningsförinställning för färgruteuppsättningar.
 
 Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram. Administratörer kan skapa eller ändra visningsförinställningarna.
 
