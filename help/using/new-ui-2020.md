@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2868'
 ht-degree: 0%
@@ -125,7 +125,6 @@ Nya bildtexter stöds med formaten WebVTT och Adobe VTT. Dessutom stöds tillagd
 1. Navigera till den överförda videoresursen som du vill lägga till flera bildtexter och ljudspår.
 1. Välj videoresurs i resursurvalsläget, antingen från listvyn eller kortvyn.
 1. I verktygsfältet väljer du ikonen Egenskaper (en cirkel med &quot;i&quot;).
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. På videons egenskapssida väljer du **[!UICONTROL Captions & Audio Tracks]** -fliken.
 
    >[!TIP]
@@ -135,8 +134,6 @@ Nya bildtexter stöds med formaten WebVTT och Adobe VTT. Dessutom stöds tillagd
    >* Eller så måste videon bearbetas på nytt av Dynamic Media. I så fall, se [Bearbeta Dynamic Media-resurser igen i en mapp].
    >
    >När du har slutfört någon av ovanstående åtgärder går du tillbaka till dessa steg.
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. Så här lägger du till ett eller flera ljudspår i en video:
    1. Välj **[!UICONTROL Upload Audio Tracks]**.
@@ -165,7 +162,6 @@ Nya bildtexter stöds med formaten WebVTT och Adobe VTT. Dessutom stöds tillagd
    | **Alternativ 2** | Jag vill att AI ska generera bildtextfiler på flera språk.<br>Se **Alternativ 2** i steg 8 nedan. |
    | **Alternativ 3** | Texten i en bildtextfil (.vtt) måste korrigeras, laddas upp igen för att ersätta den gamla .vtt-filen och sedan få AI att översätta den korrigerade filen.<br>Se **Alternativ 3** i steg 8 nedan. |
 
-
 +++**Alternativ 1:** *Jag har mina egna bildtextfiler som finns på de språk jag vill använda.*
 
    1. Klicka på i sidans övre högra hörn **[!UICONTROL Create Caption]** > **[!UICONTROL Upload files]**.
@@ -189,7 +185,6 @@ Nya bildtexter stöds med formaten WebVTT och Adobe VTT. Dessutom stöds tillagd
 
    1. Om du valde **[!UICONTROL Save & Close]** i föregående steg, i stället för att markera **[!UICONTROL Save]** kan du fortfarande visa de överförda filernas bearbetningsstatus. Se [Visa livscykelstatus för överförda beskrivnings- och ljudspårsfiler].
    1. Fortsätt till steg 9.
-
 +++
 
 +++**Alternativ 2:** *Jag vill att AI ska generera bildtextfiler på flera språk.*
@@ -218,7 +213,6 @@ Nya bildtexter stöds med formaten WebVTT och Adobe VTT. Dessutom stöds tillagd
 
       Du kan ändra eller redigera vissa bildtextmetadata senare om det behövs. När videon publiceras återspeglas dessa metadatadetaljer i offentliga URL:er i publicerade videor.
    1. Fortsätt till steg 9.
-
 +++
 
 +++**Alternativ 3:** *Texten i en bildtextfil (.vtt) måste korrigeras, laddas upp igen för att ersätta den gamla .vtt-filen och sedan få AI att översätta den korrigerade filen.*
@@ -248,7 +242,6 @@ Nya bildtexter stöds med formaten WebVTT och Adobe VTT. Dessutom stöds tillagd
       Du kan ändra eller redigera vissa bildtextmetadata senare om det behövs. När videon publiceras återspeglas dessa metadatadetaljer i offentliga URL:er i publicerade videor.
 
    1. Fortsätt till steg 9.
-
 +++
 
 1. (Valfritt) Förhandsgranska videon innan du publicerar för att kontrollera att beskrivningarna och ljudet fungerar som förväntat. Se [Förhandsgranska en video med flera bildtexter och ljudspår].
