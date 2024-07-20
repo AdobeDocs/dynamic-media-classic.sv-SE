@@ -31,5 +31,5 @@ För att få en så bra upplevelse som möjligt med Adobe Dynamic Media Classic-
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media begränsningar](/help/using/limitations.md)
+>* [Dynamic Media-begränsningar](/help/using/limitations.md)
 

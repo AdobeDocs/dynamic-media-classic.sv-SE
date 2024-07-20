@@ -19,10 +19,10 @@ ht-degree: 0%
 
 # Exportera källvideo och kodade videor{#exporting-source-and-encoded-videos}
 
-Källvideor är märkta i panelen Bläddra *Primär video*. Kodade videofilmer är märkta *Video*. Du kan exportera primära videofilmer och videofilmer. Om du vill exportera videofiler markerar du dem i panelen Bläddra och går till **[!UICONTROL File]** > **[!UICONTROL Export]**.
+I panelen Bläddra heter källvideoklipp *Primär video*. Kodade videoklipp har etiketten *Video*. Du kan exportera primära videofilmer och videofilmer. Om du vill exportera videofiler markerar du dem på panelen Bläddra och går till **[!UICONTROL File]** > **[!UICONTROL Export]**.
 
 Se [Exportera resurser från Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
 >[!MORELIKETHIS]
 >
->* [Överför och koda videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos)
+>* [Överför och koda videofilmer](uploading-encoding-videos.md#uploading_and_encoding_videos)

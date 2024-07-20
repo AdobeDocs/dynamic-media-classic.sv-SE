@@ -30,13 +30,13 @@ Du kan flytta resurser till olika mappar i panelen Bläddra.
 1. Markera resursen eller resurserna på panelen Bläddra och gör något av följande:
 
    * Visa mappen som du vill flytta resurserna till i resursbiblioteket och dra resurserna till mappen.
-   * Gå till **[!UICONTROL File]** > **[!UICONTROL Move]**, väljer en mapp i fönstret Flytta resurser och väljer **[!UICONTROL Move]**.
+   * Gå till **[!UICONTROL File]** > **[!UICONTROL Move]**, markera en mapp i fönstret Flytta Assets och välj **[!UICONTROL Move]**.
 
 ## Byt namn på resurser {#rename-assets}
 
 1. Markera resursen på panelen Bläddra och gör något av följande:
 
-   * Markera namnet, skriv in ett nytt namn och tryck på **[!UICONTROL Enter]** eller välj någon annanstans än i namnet.
+   * Markera namnet, skriv in ett nytt namn och tryck på **[!UICONTROL Enter]** eller välj ett annat namn.
    * Gå till **[!UICONTROL File]** > **[!UICONTROL Rename]**. Namnet på resursen markeras. Ange ett nytt namn och tryck på **[!UICONTROL Enter]**. Se till att du inte anger namnet på en befintlig Adobe Dynamic Media Classic-resurs.
 
 ## Ta bort resurser {#delete-assets}
@@ -55,7 +55,7 @@ Zoommål, bildattribut och historikposter tas bort permanent när du tar bort de
 
 1. Gör något av följande:
 
-   * Om du vill ta bort en eller flera resurser markerar du resurserna på panelen Bläddra och trycker på **[!UICONTROL Delete]** eller gå till **[!UICONTROL File]** > **[!UICONTROL Delete]**.
+   * Om du vill ta bort en eller flera resurser markerar du resurserna på panelen Bläddra och trycker på **[!UICONTROL Delete]** eller går till **[!UICONTROL File]** > **[!UICONTROL Delete]**.
    * Om du vill ta bort en mapp markerar du mappen i resursbiblioteket och väljer **[!UICONTROL Remove Folder]**.
 
      Om du tar bort en mapp tas mappen, alla resurser i mappen och alla resurser i dess undermappar bort.
@@ -71,13 +71,13 @@ Skapa en lista med Adobe Dynamic Media Classic-id:n och spara den som en textfil
 När du har skapat listan följer du de här stegen för att använda den för att ta bort resurser:
 
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Delete Asset List]**.
-1. I **[!UICONTROL Deleted Asset list]** anger du sökvägen till textfilen med listan över resurser som du vill ta bort.
+1. I dialogrutan **[!UICONTROL Deleted Asset list]** anger du sökvägen till textfilen med listan över resurser som du vill ta bort.
 1. Välj **[!UICONTROL Delete]**.
 
 När du tar bort resurser med en textfil visas meddelandet&quot;Det går inte att validera de här posterna i listan:&quot; om något Adobe Dynamic Media Classic-ID inte finns med i listan. Listan med poster visas också. Adobe Dynamic Media Classic genererar dock inget fel på jobbsidan.
 
 >[!MORELIKETHIS]
 >
->* [Markera resurser på panelen Bläddra](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [Välj resurser på panelen Bläddra](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [Förbered dina resurser och mappar för överföring](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [Återställ resurser från papperskorgen](trash-folder.md#restoring_assets_from_the_trash_folder)

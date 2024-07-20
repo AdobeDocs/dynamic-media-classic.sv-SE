@@ -31,7 +31,7 @@ Last Modified Date:
 
 Du kan automatisera genereringen av uppsättningar som ett oberoende jobb som inte är beroende av en överföring.
 
-**Så här automatiserar du genereringen av bilduppsättningar:**
+**Så här automatiserar du genereringen av bilduppsättningen:**
 
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Generate Set]**.
 1. Ange ett jobbnamn i dialogrutan Generera uppsättning.

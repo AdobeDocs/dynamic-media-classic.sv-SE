@@ -24,4 +24,4 @@ ht-degree: 0%
 1. Stäng av alla händelser på Adobe Analytics konfigurationssida i Adobe Dynamic Media Classic.
 1. Spara och publicera.
 
-De här stegen inaktiverar stödet för Adobe Dynamic Media Classic och för URL:er som hämtas från **[!UICONTROL CopyURL]** -funktion. Om du implementerar anpassad spårning kan du inaktivera Adobe Analytics-spårning som konfigurering på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.
+De här stegen inaktiverar stödet för Adobe Dynamic Media Classic och för URL:er som hämtas från funktionen **[!UICONTROL CopyURL]**. Om du implementerar anpassad spårning kan du inaktivera Adobe Analytics-spårning som konfigurering på konfigurationssidan för att förhindra konflikter med den anpassade implementeringen.

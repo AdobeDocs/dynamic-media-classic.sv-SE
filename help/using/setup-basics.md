@@ -19,22 +19,22 @@ ht-degree: 0%
 
 # Grundläggande om inställningar{#setup-basics}
 
-Använd sidan Adobe Dynamic Media Classic Setup för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Om du vill öppna en inställningssida väljer du **[!UICONTROL Setup]**.
+Använd sidan Adobe Dynamic Media Classic Setup för att ange dina personliga inställningar. Om du är administratör konfigurerar du företagsinställningarna. Om du vill öppna en inställningssida väljer du **[!UICONTROL Setup]** i fältet Global navigering.
 
 Vilka inställningar som är tillgängliga på den här sidan beror på din status som användare eller administratör:
 
-* Användare kan bara komma åt **[!UICONTROL Personal Setup]** och räkenskaperna för de bolag de är medlemmar i; de får inte utföra några administrativa uppgifter.
-* Administratörer har åtkomst **[!UICONTROL Personal Setup]** och visa och administrera sina egna företagskonton. De kan också utföra alla programkonfigurationsfunktioner och alla administrationsfunktioner, inklusive lägga till administratörer och användare.
+* Användare kan bara komma åt **[!UICONTROL Personal Setup]** och kontona för företag som de är medlemmar i. De kan inte utföra några administrativa uppgifter.
+* Administratörer kan komma åt **[!UICONTROL Personal Setup]** och visa och administrera sina egna företagskonton. De kan också utföra alla programkonfigurationsfunktioner och alla administrationsfunktioner, inklusive lägga till administratörer och användare.
 
-Administratörer kan också konfigurera förinställningar för bilder och visningsprogram i dialogrutan **[!UICONTROL Setup]** sida:
+Administratörer kan också konfigurera förinställningar för bildförinställningar och visningsprogram på sidan **[!UICONTROL Setup]**:
 
 * **Bildförinställningar**: Bildförinställningar är sparade format för visning av primära bilder i olika storlekar och format.
 
-* **Förinställningar för visningsprogram**: Visningsförinställningarna bestämmer hur du ser dina multimedia när du ser dem i ett visningsprogram.
+* **Förinställningar för visningsprogram**: Förinställningarna för visningsprogram avgör hur du ser dina multimedia när du ser dem i ett visningsprogram.
 
 >[!MORELIKETHIS]
 >
->* [Utbildningsvideo för grundläggande konfiguration](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
->* [Adobe Dynamic Media Classic användarroller och -behörigheter](administration-setup.md#user_administration)
+>* [Utbildningsvideo för grundkonfiguration](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
+>* [Adobe Dynamic Media Classic användarroller och behörigheter](administration-setup.md#user_administration)
 >* [Bildförinställningar](application-setup.md#image_presets)
 >* [Förinställningar för visningsprogram](application-setup.md#viewer_presets)

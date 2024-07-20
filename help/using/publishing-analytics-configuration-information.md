@@ -1,5 +1,5 @@
 ---
-title: Publicera konfigurationsinformation för Adobe Analytics
+title: Konfigurationsinformation för Publish Adobe Analytics
 description: Lär dig hur du publicerar konfigurationsinformation för Adobe Analytics från Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 ---
 
-# Publicera konfigurationsinformation för Adobe Analytics{#publishing-adobe-analytics-configuration-information}
+# Konfigurationsinformation för Publish Adobe Analytics{#publishing-adobe-analytics-configuration-information}
 
-Publicera dina Adobe Dynamic Media Classic-visningsprogram så att information om hur du konfigurerar Adobe Analytics-rapporter skickas till Adobe Dynamic Media Classic-servrar. Den här informationen är inbäddad i visningsprogram. Publicering är nödvändigt för att informationen i visningsprogrammen ska vara tillgänglig på Adobe Dynamic Media Classic-servrar. Från servrarna kan den vidarebefordras till Adobe Analytics efter att användare har utfört en aktivitet på tittarna.
+Publish dina Adobe Dynamic Media Classic-visningsprogram så att information om hur du konfigurerar Adobe Analytics-rapporter skickas till Adobe Dynamic Media Classic-servrar. Den här informationen är inbäddad i visningsprogram. Publicering är nödvändigt för att informationen i visningsprogrammen ska vara tillgänglig på Adobe Dynamic Media Classic-servrar. Från servrarna kan den vidarebefordras till Adobe Analytics efter att användare har utfört en aktivitet på tittarna.
 
 >[!NOTE]
 >
@@ -31,5 +31,5 @@ Se [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md#conf
 
 **Så här publicerar du konfigurationsinformation:**
 
-1. I fältet Global navigering väljer du **[!UICONTROL Publish]**.
-1. I **[!UICONTROL `Publish`]** väljer **[!UICONTROL Submit Publish]**.
+1. Välj **[!UICONTROL Publish]** i fältet Global navigering.
+1. Välj **[!UICONTROL Submit Publish]** i dialogrutan **[!UICONTROL `Publish`]**.

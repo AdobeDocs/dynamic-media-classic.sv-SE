@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Ta bort en överförd resurs{#deleting-an-uploaded-asset}
 
-Du kan använda `delete` parameter i det här formatet för att ta bort en resurs:
+Du kan använda parametern `delete` i det här formatet för att ta bort en resurs:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

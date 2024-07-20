@@ -27,7 +27,7 @@ Alla zoomningsvisningsprogram har knappar för att zooma in, zooma ut, panorera 
 
 Adobe Dynamic Media Classic har följande förinställningar för Zoom Viewer:
 
-* **Zoomvisningsprogram: Grundläggande**: Ger en grundläggande zoom på originalbilden.
+* **Zoomvisningsprogram: Grundläggande**: Ger en enkel zoom på originalbilden.
 
 * **Zoomvisningsprogram: Flyg ut**: Visar en andra bild av det zoomade området bredvid den ursprungliga bilden. Det finns inga kontroller att använda. Användarna flyttar bara markeringen över det område som de vill visa.
 
@@ -37,29 +37,29 @@ Om huvudbildens storlek till exempel är 350 x 350 pixlar, med zoomfaktorn 3, bl
 
 Adobe Dynamic Media Classic rekommenderar följande parametrar för de utfällbara förinställningarna för Zoom Viewer:
 
-* **Förstorad bildstorlek**: Cirka 1 500 gånger 1 500 pixlar, får inte överskrida 2 000 gånger 2 000 pixlar.
+* **Förstorad bildstorlek**: Ungefär 1 500 x 1 500 pixlar, inte över 2 000 gånger 2 000 pixlar.
 
-* **Bildstorlek**: 100 kB eller lägre, får inte överskrida 150 kB (komprimera filen så att den hålls under 150 kB).
+* **Bildstorlek**: 100 kB eller mindre, får inte överskrida 150 kB (komprimera filen så att den hålls under 150 kB).
 
 * **Zoomvisningsprogram: Anpassad**: Tillhandahåller guidad eller oguidad zoomning med bilder, bilduppsättningar med flera vyer eller färgruteuppsättningar.
 
 ## Skapa och redigera förinställningar för Zoomvisningsprogram {#creating-and-editing-zoom-viewer-presets}
 
-1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering.
 1. Gör något av följande:
 
-   * **Skapa en förinställning**: Välj **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer ett zoomvisningsprogram och väljer sedan **[!UICONTROL Add]**. Ange ett namn för förinställningen i rutan Förinställningsnamn.
+   * **Skapa en förinställning**: Välj **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer ett zoomvisningsprogram och sedan **[!UICONTROL Add]**. Ange ett namn för förinställningen i rutan Förinställningsnamn.
 
-   * **Redigera en förinställning**: Välj en förinställning för Zoomvisningsprogram och välj sedan **[!UICONTROL Edit]**.
+   * **Redigera en förinställning**: Välj en förinställning för zoomvisningsprogrammet och välj sedan **[!UICONTROL Edit]**.
 
 1. Ange önskade inställningar.
 
-   Om du vill visa en beskrivning av ett alternativ väljer du **[!UICONTROL Info Tip]** -ikonen bredvid alternativet.
+   Om du vill visa en beskrivning av ett alternativ väljer du ikonen **[!UICONTROL Info Tip]** bredvid alternativet.
 
    På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
 1. Välj **[!UICONTROL Save]** eller **[!UICONTROL Save As]**.
-1. Granska den förinställning för zoomvisningsprogram eller den förinställning för guidad zoomningsvisning som du skapade på sidan Förinställningar för visningsprogram för visningsprogram. Om det behöver justeras väljer du **[!UICONTROL Edit]**, ändra inställningarna på `Configure Viewer` sida och sedan markera **[!UICONTROL Save]**.
+1. Granska den förinställning för zoomvisningsprogram eller den förinställning för guidad zoomningsvisning som du skapade på sidan Förinställningar för visningsprogram för visningsprogram. Om det behöver justeras markerar du **[!UICONTROL Edit]**, ändrar inställningarna på sidan `Configure Viewer` och väljer sedan **[!UICONTROL Save]**.
 
 Mer information om hur du hanterar visningsförinställningar på skärmen Förinställningar för visningsprogram finns i [Förinställningar för visningsprogram](application-setup.md#viewer_presets).
 

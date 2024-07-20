@@ -20,6 +20,6 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic erbjuder resursbiblioteket för hantering av resurser. Resursbiblioteket innehåller de mappar där du lagrar dina resursfiler. Om du väljer en mapp i resursbiblioteket visas innehållet i mappen på panelen Bläddra. Du kan visa objekt i panelen Bläddra i stödraster-, list- eller detaljvyn. När du vill fokusera på en enskild resurs dubbelklickar du på den i panelen Bläddra för att visa den i detaljvyn.
 
-På panelen Bläddra finns verktyg för att visa, välja och hitta. Panelen innehåller även funktioner för att förhandsgranska, flytta, byta namn på och ta bort resurser. Resurser som du tar bort placeras i papperskorgen. Du kan återställa resurser från den här mappen.
+På panelen Bläddra finns verktyg för att visa, välja och hitta. Panelen innehåller även funktioner för att förhandsgranska, flytta, byta namn på och ta bort resurser. Assets som du tar bort placeras i papperskorgen. Du kan återställa resurser från den här mappen.
 
 När du vill undersöka eller arbeta med en resurs öppnar du den i detaljvyn. Du kan spela in metadata i detaljvyn för att göra det enklare att hitta och arbeta med en resurs.

@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Med Adobe Analytics hjärttaktsbaserade videorapportering behöver du inte längre aktivera de fyra videovisningsprogramhändelserna (Play, Pause, Stop, Milestone) när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML 5 och blandade media. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter.
 
-* En introduktion till direktuppspelande media och mätning av pulsslag finns på [Om Adobe Analytics per contenuti in streaming](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+* En introduktion till direktuppspelningsmedia och&quot;pulsslagsmätning&quot; finns i [Om Adobe Analytics per contenuti in streaming](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 * Integreringen av Adobe Analytics videorapporter med Adobe Dynamic Media Classic har stöd för lösningsvariabler, men inte för anpassade variabler.
 
-  Se [Parametrar för ljud och video](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters) för mer information om lösningsvariabler och anpassade variabler.
+  Mer information om lösningsvariabler och anpassade variabler finns i [Ljud- och videoparametrar](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters).
 
 * Färdiga segment med 1-minutersintervall stöds. Anpassad segmentrapportering, t.ex. kunddefinierade milstolpar som baseras på tidsökningar, % milstolpar eller milstolpar för förskjutning, stöds inte.
 
-  Mer information om krav och inställningar för direktuppspelningsmedia finns i [Mät strömmande media i Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+  Mer information om krav och konfiguration för direktuppspelningsmedia finns i [Mät direktuppspelningsmedia i Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 * Mer information om anpassade variabler och lösningsvariabler finns i [Aktivera medierapporter](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-reports/media-reports-enable#media-reports).
 

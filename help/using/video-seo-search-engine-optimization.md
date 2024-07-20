@@ -23,9 +23,9 @@ SEO är processen att förbättra trafiken till en webbplats från sökmotorer. 
 
 Med Adobe Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Adobe Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. De här XML-standardfilerna används för att skicka videoinformation till sökmotorer:
 
-* **Webbplatskarta för video**: Informerar Google om exakt var och vad videoinnehållet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor för video finns i [Alternativ för videowebbplatskartor och videowebbplatskartor](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Webbplatskarta för video**: Informerar Google exakt var och vad videoinnehållet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor för video finns i [Alternativ för webbplatskartor för video](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
-* **mRSS-feed (Media Really Simple Syndication)**: Används av innehållsutgivare för att skicka mediefiler till Yahoo! Videosökning. Mer information om mRSS-flöden finns i [Alternativ för videowebbplatskartor och videowebbplatskartor](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **mRSS-flöde (Media Really Simple Syndication)**: Används av innehållsutgivare för att skicka mediefiler till Yahoo! Videosökning. Mer information om mRSS-flöden finns i [Webbplatskartor för video och alternativ för videoplatskarta](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
 
 >[!NOTE]
 >
@@ -45,15 +45,15 @@ Adobe Dynamic Media Classic skapar rapporter om webbplatskartor för video och m
 
 ## Välj SEO-inställningar för video
 
-Välj SEO-inställningar för video för webbplatskartor och mRSS-flöden på **[!UICONTROL Video Search Engine Optimization Settings]** sida. Om du vill öppna den här sidan går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**.
+Välj SEO-inställningar för video för webbplatskartor och mRSS-flöden på sidan **[!UICONTROL Video Search Engine Optimization Settings]**. Om du vill öppna den här sidan går du till fältet Global navigering och går till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Settings]**.
 
-I **[!UICONTROL General Setting]** väljer du om du vill generera videosemappningar, mRSS-flöden eller både och. I **[!UICONTROL Generation Settings]** mappa metadatafält till indatafält.
+I området **[!UICONTROL General Setting]** väljer du om du vill generera webbplatskartor för video, mRSS-flöden eller både och. Mappa metadatafält till indatafält i området **[!UICONTROL Generation Settings]**.
 
-När du har valt inställningar väljer du **[!UICONTROL Save]** (eller **[!UICONTROL Save & Generate]**) för att skapa Video Sitemap, mRSS-flöden eller båda.
+När du har valt inställningar väljer du **[!UICONTROL Save]** (eller **[!UICONTROL Save & Generate]**) för att skapa videosemap, mRSS-flöden eller båda.
 
 ### Ställ in allmänna inställningar {#choosing-general-settings}
 
-På **[!UICONTROL Generation Mode]** väljer du ett rapportläge:
+Välj ett rapportläge i listrutan **[!UICONTROL Generation Mode]**:
 
 * **Webbplatskarta för video**: Skapa en webbplatskarta för video.
 
@@ -61,21 +61,21 @@ På **[!UICONTROL Generation Mode]** väljer du ett rapportläge:
 
 * **Båda**: Skapa båda typerna av XML-filer.
 
-* **Av**: Välj det här alternativet om du vill sluta generera RSS-flöden (Video Sitemaps) och Media RSS-flöden (Media RSS).
+* **Av**: Välj det här alternativet om du vill sluta generera video-platskartor och media-RSS-flöden (mRSS).
 
-På **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generera automatiskt eller manuellt:
+I listrutan **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generera automatiskt eller manuellt:
 
-* **Automatiskt läge**: Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, en Media RSS-matning (mRSS) eller båda, varje dag. Välj **[!UICONTROL Mark for Publish]** så att du automatiskt kan markera XML-filen som genereras av Adobe Dynamic Media Classic.
+* **Automatiskt läge**: Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS-feed (mRSS) eller båda, varje dag. Välj alternativet **[!UICONTROL Mark for Publish]** så att du automatiskt kan markera för publicering av XML-filen som genereras av Adobe Dynamic Media Classic.
 
-   * **Markera för publicering** Markerar för publicering av XML-filen som genereras.
+   * **Markera för Publish** om du vill publicera XML-filen som genereras.
 
-* **Manuellt läge**: Adobe Dynamic Media Classic genererar videowebbplatskartan, Media RSS-matning (mRSS) eller båda, när du väljer **[!UICONTROL Generate]** eller **[!UICONTROL Save & Generate]** på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
+* **Manuellt läge**: Adobe Dynamic Media Classic genererar Video Sitemap, Media RSS-matning (mRSS) eller både och när du väljer **[!UICONTROL Generate]** eller **[!UICONTROL Save & Generate]** på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
 
    * **Inga ytterligare inställningar**: Markerar inte för publicering av XML-filen som genereras.
 
-   * **Markera för publicering**: Märken för publicering av XML-filen som genereras.
+   * **Markera för Publish**: Markerar för publicering av XML-filen som genereras.
 
-   * **Tillåt partiell generering**: Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videor. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
+   * **Tillåt partiell generering**: Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videofilmer. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
 
 ### Välja genereringsinställningar {#choosing-generation-settings}
 
@@ -98,7 +98,7 @@ Se [Metadatavyer](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
->Publicera webbplatskartan för video eller mRSS-flöden innan du kan skicka den till sökmotorer. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera XML-filerna för publicering, om det behövs, och välj **[!UICONTROL Publish]**.
+>Publish the Video Sitemap or mRSS feed before you can submit it to search engines. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera dessa XML-filer för publicering, om det behövs, och välj **[!UICONTROL Publish]**.
 
 ## Skicka videowebbplatskartor och RSS-feed-filer till en sökmotor {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
@@ -111,6 +111,6 @@ Kopiera en av dessa URL:er till sökmotorns webbmaster-verktyg för att skicka d
 
 ## Visa SEO-rapporter för video {#viewing-video-seo-reports}
 
-Visa SEO-rapporter för video på sidan för optimeringsrapport för videosökmotor. Om du vill öppna den här sidan går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]**.
+Visa SEO-rapporter för video på sidan för optimeringsrapport för videosökmotor. Om du vill öppna den här sidan går du till fältet Global navigering och går till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Video SEO]** > **[!UICONTROL Reports]**.
 
 Om fel uppstår när en rapport genereras visas de på rapportsidan.

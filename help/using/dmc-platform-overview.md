@@ -21,21 +21,21 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic är en integrerad miljö för hantering, publicering och hantering av multimedia. Multimedia kan levereras till alla marknadsförings- och säljkanaler. Dessa kanaler omfattar webben, trycksaker, e-postkampanjer, webbportaler, datorer och enheter.
 
-Se även [Plattformsöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) utbildningsvideo.
+Se även utbildningsvideon [Plattformsöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS).
 
 ## Arbetsflödesprocess {#workflow-process}
 
 De viktigaste stegen i Adobe Dynamic Media Classic arbetsflöde är:
 
-* **Överför och hantera dina resurser**: Överför mediefiler till Adobe Dynamic Media Classic. Du kan ordna, bläddra bland och söka efter resurser i systemet. Du kan också använda metadata för resurser.
+* **Överför och hantera dina mediefiler**: Överför dina mediefiler till Adobe Dynamic Media Classic. Du kan ordna, bläddra bland och söka efter resurser i systemet. Du kan också använda metadata för resurser.
 
-* **Skapa multimedia**: Skapa olika konfigurationer av dina resurser, t.ex. eCatalogs, Image Sets, Spin Sets, Swatch Sets, Mixed Media Sets, Basic Templates och FXG Templates.
+* **Skapa multimedia**: Skapa olika konfigurationer av dina resurser, till exempel eCatalogs, Image Sets, Spin Sets, Swatch Sets, Mixed Media Sets, Basic Templates och FXG Templates.
 
-* **Publicera och administrera**: Publicera resurser i Adobe Dynamic Media Classic SaaS-nätverket. Övervaka status för resurser när de publiceras. Administrera användarrättigheter och bevara säkerheten.
+* **Publish och administratör**: Publish-resurser till Adobe Dynamic Media Classic SaaS-nätverket. Övervaka status för resurser när de publiceras. Administrera användarrättigheter och bevara säkerheten.
 
-* **Serva**: Leverera media från Adobe Dynamic Media Classic SaaS-nätverk till webbsidor, tillämpningar och mobila enheter. Medierna är prestandaoptimerade och levereras med CDN-cachning. Adobe Dynamic Media Classic tillhandahåller en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
+* **Server**: Leverera media från Adobe Dynamic Media Classic SaaS-nätverk till webbsidor, program och mobila enheter. Mediet är prestandaoptimerat och levereras med CDN-cachning. Adobe Dynamic Media Classic tillhandahåller en URL för varje resurs. När du har publicerat resursen blir URL-adressen aktiv.
 
-![Adobe Dynamic Media Classic arbetsflöde](/help/using/assets/gs_workflow.png)
+![Adobe Dynamic Media Classic arbetsflödesprocess](/help/using/assets/gs_workflow.png)
 
 ## Enstaka primära bilder och enstaka URL-anrop {#single-master-images-and-single-url-calls}
 

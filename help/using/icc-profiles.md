@@ -23,7 +23,7 @@ En ICC-profil (International Color Consortium) är en fil som beskriver hur du k
 
 I Adobe Dynamic Media Classic kan du välja en ICC-profil för att konvertera bilder till en annan färgrymd när du överför bilderna. Alla Photoshop ICC-standardprofiler är som standard tillgängliga i Adobe Dynamic Media Classic. Om du vill visa namnen på färgprofiler på skärmen Överför väljer du menyn Färgprofil. Välj sedan Egen från > Till och välj ett ICC-profilnamn på menyerna Konverterad från och Konverterad till.
 
-Se [Alternativ för bildredigering vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
+Se [Bildredigeringsalternativ vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 
 Förutom att använda ICC-standardprofilerna kan du överföra andra ICC-profiler till Adobe Dynamic Media Classic och göra dem tillgängliga för konvertering av färgrymd. Växla till detaljvyn på panelen Bläddra för att undersöka profilklassen, färgrymdstypen och PCS-typen för en ICC-profil.
 
@@ -31,7 +31,7 @@ Förutom att använda ICC-standardprofilerna kan du överföra andra ICC-profile
 
 Överför ICC-profiler med samma tekniker som du använder för att överföra filer. Du kan spara ICC-profiler i alla Adobe Dynamic Media Classic-mappar.
 
-Se [Överför dina filer](uploading-files.md#uploading_your_files).
+Se [Överför filer](uploading-files.md#uploading_your_files).
 
 ## Undersök en ICC-profil {#examining-an-icc-profile}
 
@@ -41,6 +41,6 @@ Om du vill undersöka en ICC-profil markerar du den på panelen Bläddra och vis
 
 * **[!UICONTROL Color Space Type]**: Det här talet är profilens&quot;indatafärgrymd&quot;, enligt ICC:n. Färgrymdtypen definierar antalet komponenter i färgrymden och tolkningen av dessa komponenter. RGB är till exempel en färgrymd med tre komponenter: röd, grön och blå. Färgrymdstypen definierar inte de särskilda färgegenskaperna för färgrymden (t.ex. de kromatoriska egenskaperna för primärfärgerna).
 
-* **[!UICONTROL PCS Type]**: Den här PCS-typen är profilens utdatafärgrymd - profilens anslutningsmodell. En färgprofil kan till exempel konvertera RGB till PCS, som sedan konverterar den till CMYK.
+* **[!UICONTROL PCS Type]**: Den här PCS-typen är profilens utdatafärgrymd - profilens anslutningsrymd. En färgprofil kan till exempel konvertera RGB till PCS, som sedan konverterar den till CMYK.
 
 För indata-, visnings- eller utdataprofiler som är användbara för att lägga till märkord i färger eller bilder är PCS-typen antingen XYZ eller Lab. Tolka den här profilen som motsvarande specifika färgrymd som definieras i ICC-specifikationen.

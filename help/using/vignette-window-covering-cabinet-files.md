@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Arbeta med vinjett, fönsterhölje och kabinettfiler{#working-with-vignette-window-covering-and-cabinet-files}
 
-Användare av Adobe Dynamic Media Classic Image Authoring Tool kan *use* vinjetter (VNT-filer), fönsteromslag (VNW-filer) och skåp (VNC-filer). Dessa filer kan inte skapas eller redigeras i Adobe Dynamic Media Classic.
+Användare av Adobe Dynamic Media Classic Image Authoring-verktyget kan *använda* vinjetter (VNT-filer), fönsteromslag (VNW-filer) och skåp (VNC-filer). Dessa filer kan inte skapas eller redigeras i Adobe Dynamic Media Classic.
 
 Vinjetter, fönsteromslag och skåp är bilder som har skapats. Med ett annat Adobe Dynamic Media Classic-program, Bildredigering, maskerar du objekt i en bild så att användarna kan se samma bild i olika texturer eller färger. Användare ser t.ex. en soffa med olika typer av trä, ett fönster med olika fönsterbehandlingar eller ett skåp med olika typer av trä.
 

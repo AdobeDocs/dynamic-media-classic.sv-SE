@@ -25,11 +25,11 @@ Som administratör kan du styra hur användare visar, får åtkomst till och anv
 
 Se följande utbildningsvideor:
 
-* [Översikt över Media Portal](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+* [Översikt över medieportalen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Media Portal Tour 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Demo av mediaportal ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [Media Portal Tour 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Demo av mediaportal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 Följande snabbstart är utformad för att du snabbt ska komma igång med Media Portal-administration. I slutet av varje steg väljer du ämneslänken om du vill veta mer.
 
@@ -67,7 +67,7 @@ Se [Användarroller för mediaportal](media-portal-user-roles.md#media_portal_us
 
 Medieportalanvändare kan, när de exporterar filer, formatera om filerna och exportera ursprungliga primära filer - om du ger dem behörighet att göra det. Som administratör bestämmer du hur användare ska exportera filer.
 
-Se [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Se [Ange tillgängliga exportalternativ för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
 ## 6. Skapa bildförinställningar
 
@@ -79,7 +79,7 @@ Se [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.m
 
 Metadata beskriver och identifierar en fil. Det används för att söka efter och ordna resurser. Du kan skapa metadataförinställningar för att vara säker på att du anger metadata korrekt och att alla metadatafält som kräver data fylls i. En metadataförinställning är en fördefinierad uppsättning metadataposter. Du kan också skapa metadatafält som unikt beskriver de filer du arbetar med.
 
-Se [Effektivare användning av metadata](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
+Se [Använda metadata mer effektivt](making-efficient-metadata.md#making_more_efficient_use_of_metadata).
 
 ## 8. Anpassa sidan Media Portal
 

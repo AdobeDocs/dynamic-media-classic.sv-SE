@@ -27,16 +27,16 @@ Adobe Dynamic Media Classic levereras med standardförinställningar för visnin
 
 Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
-1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering.
 1. Gör något av följande:
 
-   * Om du vill skapa en förinställning väljer du **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du **[!UICONTROL Swatch Set Viewer]** väljer **[!UICONTROL Add]**.
+   * Välj **[!UICONTROL Add]** om du vill skapa en förinställning. I dialogrutan Lägg till visningsförinställning väljer du **[!UICONTROL Swatch Set Viewer]** i listrutan Visare och sedan **[!UICONTROL Add]**.
    * Om du vill redigera en befintlig förinställning för Ställ in visningsprogram för färgrutor markerar du förinställningen och väljer sedan **[!UICONTROL Edit]**.
 
-1. På `Configure Viewer` skriver du ett namn på förinställningen för färgruteuppsättningen i textfältet Förinställningsnamn.
-1. Välj alternativ på `Configure Viewer` sida.
+1. På sidan `Configure Viewer` skriver du ett namn på förinställningen för färgruteuppsättningen i textfältet Förinställningsnamn.
+1. Välj alternativ på sidan `Configure Viewer`.
 
-   Om du vill visa en beskrivning av ett alternativ väljer du **[!UICONTROL Info Tip]** till höger om alternativet.
+   Om du vill visa en beskrivning av ett alternativ väljer du ikonen **[!UICONTROL Info Tip]** till höger om alternativet.
 
    På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
@@ -46,13 +46,13 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
 Du kan använda Förhandsvisa för att se hur en resurs ser ut i en viss visningsprogramtyp, till exempel HTML5. Beroende på resurstypen och tillhörande visningsprogram som du har valt att förhandsgranska, är inte alla visningsprogramplattformar tillgängliga i förhandsvisningen.
 
-1. På panelen Resursbibliotek till vänster i **[!UICONTROL Show]** väljer du en färgruteuppsättningsbaserad resurstyp, till exempel **[!UICONTROL Swatch Set]**.
+1. Välj en färgruteuppsättningsbaserad resurstyp, till exempel **[!UICONTROL Swatch Set]**, i den nedrullningsbara listan **[!UICONTROL Show]** på panelen Resursbibliotek på vänster sida.
 1. På panelen Resursbibliotek till vänster navigerar du i de resursmappar som innehåller den färgruteuppsättning som du vill förhandsgranska med ett visningsprogram.
 1. Gör något av följande:
 
-   * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du **[!UICONTROL List View]** -ikon. Håll markören över en resurs i fönstret Resurser och välj sedan **[!UICONTROL Preview]** (inte listrutan Förhandsgranska).
-   * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du **[!UICONTROL Grid View]** -ikon. I fönstret Resurser väljer du i ett miniatyrbildsfönster **[!UICONTROL Preview]** (inte listrutan Förhandsgranska).
-   * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du **[!UICONTROL Detail View]** -ikon. I samma verktygsfält väljer du **[!UICONTROL Preview]** (inte listrutan Förhandsgranska).
+   * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du ikonen **[!UICONTROL List View]**. Håll markören över en resurs i fönstret Resurser och välj sedan **[!UICONTROL Preview]** (inte den nedrullningsbara listan Förhandsvisa).
+   * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du ikonen **[!UICONTROL Grid View]**. I fönstret Resurser väljer du **[!UICONTROL Preview]** i ett miniatyrbildsfönster för en resurs (inte den nedrullningsbara listan Förhandsvisa).
+   * I det övre högra hörnet av Adobe Dynamic Media Classic-fönstret väljer du ikonen **[!UICONTROL Detail View]**. Välj **[!UICONTROL Preview]** i samma verktygsfält (inte den nedrullningsbara listan Förhandsvisa).
 
 1. (Valfritt) I förhandsgranskningsfönstret, i listrutan längst ned, väljer du den URL-kodning som ska användas på resursens URL när den kopieras.
 1. Om du vill förhandsgranska resursen i det valda visningsprogrammet väljer du en visningsprogramlänk.
@@ -60,7 +60,7 @@ Du kan använda Förhandsvisa för att se hur en resurs ser ut i en viss visning
    När du väljer en viss visningsprogramlänk kopieras den associerade URL:en automatiskt till Urklipp.
 
 1. Om du vill gå tillbaka till förhandsgranskningssökaren stänger du det visningsprogram som visas.
-1. Välj **[!UICONTROL Close]** för att gå tillbaka till Assets-sidan.
+1. Välj **[!UICONTROL Close]** om du vill gå tillbaka till Assets-sidan.
 
 >[!MORELIKETHIS]
 >

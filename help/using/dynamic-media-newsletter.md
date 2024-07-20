@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# ![Dynamic Media Newsletter logo](/help/using/assets/dynamic-media-newsletter-logo.png)
+# ![Dynamic Media Newsletter, logotyp](/help/using/assets/dynamic-media-newsletter-logo.png)
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * Titta på on demand Builder-webbinariet för Adobe Dynamic Media Classic.
    * Se Dynamic Media sessioner från Online Adobe Summit 2020.
    * Läs mer om Adobe kostnadsfria Adobe Dynamic Media Classic-revisioner.
-   * Möt `John Monroe`, Senior Program Manager for Adobe Customer Solutions.
+   * Möt `John Monroe`, Senior Program Manager för Adobe kundlösningar.
 
 * **[Februari 2020, utgåva 2](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
@@ -88,9 +88,9 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * Kraftfulla nya säkerhetsfunktioner.
    * Hur Adobe förbereder sig för en lyckad semestersäsong.
    * Dela nyhetsbrevet med dina kollegor för att bygga upp teamets expertis.
-   * Möt `Apoorva Gupta`, Senior Product Manager, Dynamic Media
+   * Möt `Apoorva Gupta`, Senior Product Manager, Dynamic Media.
 
-* **[oktober 2019, utgåva 10](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html)**
+* **[Oktober 2019, utgåva 10](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_10_2019_Oct.html)**
 
   I detta nummer:
 
@@ -98,7 +98,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * En infografik med tips för häpnadsväckande resultat från högkvalitativa bilder och videor.
    * En CMSwire-artikel som hjälper er att förstå hur ni uppdaterar er multimediestrategi för att uppfylla dagens kunders förväntningar.
    * Tillgång till on-demand-webbinariet på Dynamic Media från serien SKill Builder.
-   * Möt `Nick Peters`, Manager, Site Reliable Engineering, Adobe Experience Manager.
+   * Träffa `Nick Peters`, chef, Site Reliable Engineering, Adobe Experience Manager.
    * Kom igång med Dynamic Media och Adobe Dynamic Media Classic i Experience League.
 
 * **[September 2019, utgåva 09](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html)**
@@ -120,7 +120,7 @@ I det här arkiverade nyhetsbrevet hittar du värdefulla resurser för att bygga
    * Läs mer om en webbinarier som är utformad för att hjälpa dig komma igång med Experience Manager Assets och Dynamic Media.
    * Börja din resa och få värde från Dynamic Media på Experience League.
    * Få en smygtitt på den kraftfulla integrering som kommer i september och som gör att ni kan analysera hur besökarna interagerar med ert multimediematerial.
-   * Möt `PieterJan Pieper`, Dynamic Media Technical Support Guru.
+   * Träffa `PieterJan Pieper`, Dynamic Media tekniska supportguru.
 
 * **[Juli 2019, utgåva 07](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
 

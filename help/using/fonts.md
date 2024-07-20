@@ -33,11 +33,11 @@ När en teckensnittsfil har överförts kan du ändra dess Adobe Dynamic Media C
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Adobe Dynamic Media Classic behöver de här teckensnittsformaten för att kunna bearbeta begäranden. Överför alla `PostScript/Adobe Type1` filer som är kopplade till ett teckensnitt rekommenderas också eftersom vissa av dessa teckensnitt innehåller detaljerad kerninginformation.
+>Adobe Dynamic Media Classic rekommenderar att du överför alla teckensnittsformat (fet, kursiv, fet/kursiv och normal) om du tänker använda teckensnitt i mallager. Adobe Dynamic Media Classic behöver de här teckensnittsformaten för att kunna bearbeta begäranden. Vi rekommenderar att du överför alla `PostScript/Adobe Type1`-filer som är associerade med ett teckensnitt eftersom vissa av teckensnitten innehåller detaljerad kerninginformation.
 
 ## Överför teckensnittsfiler {#uploading-font-files}
 
-Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i alla Adobe Dynamic Media Classic-mappar. Se [Överför filer](uploading-files.md#uploading_your_files).
+Överför teckensnittsfiler med samma tekniker som du använder för att överföra andra filer. Du kan spara teckensnittsfiler i alla Adobe Dynamic Media Classic-mappar. Se [Överföra filer](uploading-files.md#uploading_your_files).
 
 ## Redigera teckensnittsfilinformation {#editing-font-file-information}
 
@@ -51,7 +51,7 @@ I panelen Bläddra markerar du den teckensnittsfil som du vill redigera i detalj
 
 * **[!UICONTROL RTF Name]**: Det här namnet visas på en snabbmeny i RTF-redigeraren där malltextlager skapas.
 
-* **[!UICONTROL Font Family Name]**: Det här namnet visar teckensnittsnamnet utan tecken på format, bredd eller teckensnittstyp.
+* **[!UICONTROL Font Family Name]**: Det här namnet visar teckensnittsnamnet utan indikator för format, bredd eller teckensnittstyp.
 
 * **[!UICONTROL Font Style]**: Alternativen är Normal, Fet, Kursiv och Fet-Kursiv.
 
@@ -59,10 +59,10 @@ I panelen Bläddra markerar du den teckensnittsfil som du vill redigera i detalj
 
 * **[!UICONTROL Font Type Abbreviation]**: Alternativen är följande:
 
-   * **[!UICONTROL TTF]**: TrueType-teckensnittsfiler används för PDF/PostScript-återgivning och bildvisning.
+   * **[!UICONTROL TTF]**: TrueType-teckensnittsfiler används för återgivning och visning av PDF/PostScript-bilder.
 
-   * **[!UICONTROL AFM]**: Adobe PostScript teckensnittsfiler som innehåller Adobe-teckensnittsmått och som används för bildvisning.
+   * **[!UICONTROL AFM]**: Adobe PostScript teckensnittsfiler som innehåller Adobe-teckensnittsmått och används för bildvisning.
 
    * **[!UICONTROL PFM]**: Adobe PostScript teckensnittsfiler som innehåller binär teckensnittsmått.
 
-   * **[!UICONTROL PFB]**: Adobe PostScript teckensnittsfiler som innehåller binär teckensnittskonturinformation och används för PDF/PostScript-återgivning och bildvisning.
+   * **[!UICONTROL PFB]**: Adobe PostScript teckensnittsfiler som innehåller information om binär teckensnittskontur och används för PDF/PostScript-återgivning och bildvisning.

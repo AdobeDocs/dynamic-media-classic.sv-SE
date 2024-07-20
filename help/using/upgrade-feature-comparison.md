@@ -1,6 +1,6 @@
 ---
 title: Jämförelse av funktioner
-description: Jämförelsetabell mellan [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Resurser och [!DNL Adobe Dynamic Media Classic] datorprogram.
+description: Jämförelsetabell för funktioner mellan [!DNL Dynamic Media] i [!DNL Adobe Experience Manager] Assets och [!DNL Adobe Dynamic Media Classic] datorprogrammet.
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Jämförelse av funktioner
 
-En funktionsjämförelse mellan [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] Resurser och [!DNL Adobe Dynamic Media Classic] datorprogram. En &quot;✓&quot; betyder att funktionen är tillgänglig i eller med programmet, en &quot;-&quot; betyder att den inte är det.
+En funktionsjämförelsetabell mellan [!DNL Dynamic Media] i [!DNL Adobe Experience Manager] Assets och [!DNL Adobe Dynamic Media Classic] för skrivbordsprogram. En &quot;✓&quot; betyder att funktionen är tillgänglig i eller med programmet, en &quot;-&quot; betyder att den inte är det.
 
 | Funktion | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Klassisk] |
 | :--- | :---: | :---: |
@@ -26,30 +26,30 @@ En funktionsjämförelse mellan [!DNL Dynamic Media] in [!DNL Adobe Experience M
 | Generering av automatisk uppsättning | ✓ | ✓ |
 | CDN-integrering | ✓ | ✓ |
 | Dynamic Imaging | ✓ | ✓ |
-| eCatalogs | ✓<br>*Resurser + InDesign Server* | ✓ |
-| Publicera direkt | ✓ | ✓ |
+| eCatalogs | ✓<br>*Assets + InDesign Server* | ✓ |
+| Publish | ✓ | ✓ |
 | Interaktiva visningsprogram | ✓ | ✓ |
 | Manifestfiler | ✓ | ✓ |
-| Media Portal | ✓<br>*Känd som&quot;Brand Portal&quot;* | ✓ |
+| Media Portal | ✓<br>*Känd som &quot;Brand Portal&quot;* | ✓ |
 | Regeluppsättningar | ✓ | ✓ |
 | Säker förhandsvisning | ✓ | ✓ |
-| Uppsättningar (bild, snurra, blandade media) | ✓<br>*Inga fleraxelsmellanrum* | ✓ |
+| Uppsättningar (bild, snurra, blandade media) | ✓<br>*Inga multiaxelavstånd* | ✓ |
 | Smart bildbehandling | ✓ | ✓ |
-| Statisk innehållsleverans<br>(PDF, GIT och så vidare) | ✓ | ✓ |
+| Statisk innehållsleverans <br> (PDF, GIT osv.) | ✓ | ✓ |
 | Videoleverans (adaptiv) | ✓ | ✓ |
 | Videokodning | ✓ | ✓ |
 | Hjälpmedel för visningsprogram | ✓ | ✓ |
 | Viewer Integration med Analytics | ✓ | ✓ |
 | 1:1-mallar | ✓<br>*Personaliserat mediepaket* | ✓ |
-| Visual Configurator<br>(produktanpassning) | ✓<br>*Personaliserat mediepaket* | ✓ |
+| Visual Configurator<br> (produktanpassning) | ✓<br>*Personaliserat mediepaket* | ✓ |
 | 3D: Experience Manager Sites<br>WCM-komponent | ✓ | : |
 | 3D: Interaktiv Experience Viewer | ✓ | : |
-| 3D: Publicera AR/VR och viktiga 3D-filer | ✓ | : |
+| 3D: Publish AR/VR och centrala 3D-filer | ✓ | : |
 | Carousels | ✓ | : |
 | Shoppingbara/interaktiva media: bilder | ✓ | : |
 | Shoppingbara/interaktiva media: Video | ✓ | : |
 | Smart beskärning: bilder | ✓ | : |
 | Smart beskärning: Video | ✓ | : |
 | Markering av videominiatyr | ✓ | : |
-| Viewer Designer | ✓ | : |
+| Designer för visningsprogram | ✓ | : |
 | YouTube Publish | ✓ | : |

@@ -23,7 +23,7 @@ Adobe Target Standard/Premium ger marknadsförarna direkt kontroll. Om du gör d
 
 Med Adobe Dynamic Media Classic kan ni skapa erbjudanden och erbjudanden för Adobe Target Standard/Premium-kampanjer. Du kan till exempel skapa en Erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Adobe Target Standard eller Premium avgöra vilken mediefil som ger bättre konverteringshöjning. Du kan skapa erbjudanden och erbjudandeuppsättningar från en grundmall eller från enskilda bilder. När erbjudandeuppsättningen har överförts eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Adobe Target Standard/Premium köra kampanjer. Dessa kampanjer avgör vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
 
-Använd erbjudanden om Adobe Target Standard/Premium HTML för större anpassning av dynamiskt Adobe Dynamic Media Classic-innehåll. Se [Adobe Target Standard/Premium - produktdokumentation](https://experienceleague.adobe.com/en/docs/target) för mer information.
+Använd erbjudanden om Adobe Target Standard/Premium HTML för större anpassning av dynamiskt Adobe Dynamic Media Classic-innehåll. Mer information finns i [produktdokumentationen för Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target).
 
 >[!NOTE]
 >
@@ -33,13 +33,13 @@ Den här snabbstarten är utformad för att du snabbt ska komma igång med Adobe
 
 ## 1. Ange din Adobe Target Standard/Premium-URL på sidan med allmänna inställningar för programmet
 
-Adobe Dynamic Media Classic behöver din Adobe Target Standard/Premium-URL för att kunna integreras med Adobe Target Standard/Premium. Kopiera delen av din Adobe Target Standard/Premium-URL till och med `.com`och ange det i Adobe Dynamic Media Classic **[!UICONTROL Application General Settings]** sida, på **[!UICONTROL Servers]** grupp, **[!UICONTROL Test&Target Server Name]** textfält. Se [Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
+Adobe Dynamic Media Classic behöver din Adobe Target Standard/Premium-URL för att kunna integreras med Adobe Target Standard/Premium. Kopiera delen av din Adobe Target Standard/Premium-URL till och med `.com` och ange den på Adobe Dynamic Media Classic **[!UICONTROL Application General Settings]** -sidan i textfältet **[!UICONTROL Test&Target Server Name]** i gruppen **[!UICONTROL Servers]** . Se [Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
 ## 2. Skapa erbjudandeuppsättningen
 
-Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du kan skapa HTML-erbjudandeuppsättningar på sidan Test&amp;Target-erbjudandeuppsättning. Om du vill öppna den här sidan markerar du mallen eller bilderna och går sedan till fältet Global navigering **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]**.
+Använd en parametriserad mall eller bilder för att skapa en erbjudandeuppsättning. Du kan skapa HTML-erbjudandeuppsättningar på sidan Test&amp;Target-erbjudandeuppsättning. Om du vill öppna den här sidan markerar du mallen eller bilderna och går sedan till **[!UICONTROL Build]** > **[!UICONTROL Test&Target Offer Set]** i fältet Global navigering.
 
-Välj om du vill skapa ett erbjudande med en mall **[!UICONTROL Add & Preview]**. Ändra parametervärden på sidan Lägg till och förhandsvisa.
+Om du vill skapa ett erbjudande med en mall väljer du **[!UICONTROL Add & Preview]**. Ändra parametervärden på sidan Lägg till och förhandsvisa.
 
 Om du vill skapa ett erbjudande med bilder drar du bilderna till sidan Test&amp;Target Offer Set. Välj **[!UICONTROL Preview]** och välj en bildförinställning för en bild eller alla bilder i erbjudandeuppsättningen.
 
@@ -49,4 +49,4 @@ Se [Skapa en erbjudandeuppsättning](creating-offer-set.md#creating_an_offer_set
 
 ## 3. Skicka erbjudandet till Adobe Target Standard/Premium
 
-På sidan Test&amp;Target Offer Set (Ange erbjudanden) väljer du **[!UICONTROL Push Offers]** och ange dina inloggningsuppgifter i dialogrutan Test&amp;Target-inloggning. Se [Erbjudandet gäller Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Välj **[!UICONTROL Push Offers]** på sidan Test&amp;Target Offer Set och ange dina inloggningsuppgifter i dialogrutan Test&amp;Target Login. Se [Skicka erbjudanden till Adobe Target Standard/Premium](pushing-offer-sets-target.md#pushing_offer_sets_to_target).

@@ -28,13 +28,13 @@ Adobe Dynamic Media Classic sparar uppgifter om exportering av jobb på jobbskä
 **Så här exporterar du resurser från Adobe Dynamic Media Classic:**
 
 1. Markera de resurser som du vill exportera och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Export]**.
-1. I fönstret Exportera markerade resurser klickar du på **[!UICONTROL Image Options]** och ange sedan något av följande alternativ (administratörer avgör vilka alternativ som är tillgängliga för användarna):
+1. I fönstret Exportera markerade Assets klickar du på **[!UICONTROL Image Options]** och anger sedan något av följande alternativ (administratörer avgör vilka alternativ som är tillgängliga för användarna):
 
    * **[!UICONTROL Presets]**: Om du vill kan du välja en bildförinställning för att formatera resursen när du exporterar den. Om du väljer en bildförinställning är de andra formateringsalternativen inte tillgängliga eftersom resursen använder de format som definieras i bildförinställningen.
 
-   * **[!UICONTROL Conversion]**: Konvertera resursfilen eller originalbilden.
+   * **[!UICONTROL Conversion]**: Konvertera resursfilen eller den ursprungliga bilden.
 
-   * **[!UICONTROL Size]**: Du kan välja en standardstorlek. Du kan också välja **[!UICONTROL Other]** från **[!UICONTROL Size]** väljer du önskad måttenhet och anger sedan bredd och höjd.
+   * **[!UICONTROL Size]**: Välj en standardstorlek. Du kan också välja **[!UICONTROL Other]** i listrutan **[!UICONTROL Size]**, välja önskad måttenhet och sedan ange bredd och höjd.
 
      Se även [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 

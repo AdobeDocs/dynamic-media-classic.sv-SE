@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Hämta information om diskanvändning {#get-disk-usage-information}
 
-Du kan använda `disk_info` parameter för att hämta information om ett företags diskutrymmesanvändning, vilket visas i följande exempel:
+Du kan använda parametern `disk_info` för att hämta information om ett företags diskutrymmesanvändning, vilket visas i följande exempel:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

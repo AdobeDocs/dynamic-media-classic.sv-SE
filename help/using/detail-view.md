@@ -32,7 +32,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
  -->
 
 ![Detaljvy](/help/using/assets/image_0.img.png)
-*Detaljvy med panelen Resursbibliotek dold från vyn till vänster.*
+*Detaljvy med resurspanelen dold från vänster sida.*
 
 >[!NOTE]
 >
@@ -44,13 +44,13 @@ Du kan visa en resurs i detaljvyn så att du kan granska, förhandsgranska eller
 
 1. Gör något av följande i panelen Bläddra:
 
-   * Markera resursen. I Adobe Dynamic Media Classic övre högra hörn väljer du **[!UICONTROL Detail View]** -ikon.
+   * Markera resursen. I närheten av det övre högra hörnet av Adobe Dynamic Media Classic väljer du ikonen **[!UICONTROL Detail View]**.
    * Dubbelklicka på resursen.
    * Markera resursen och gå sedan till **[!UICONTROL File]** > **[!UICONTROL Details]**.
 
 >[!NOTE]
 >
->Du kan gå från resurs till resurs i samma mapp i detaljvyn. Klicka bara **[!UICONTROL Previous Asset]** eller **[!UICONTROL Next Asset]**. De här knapparna finns i det övre högra hörnet i detaljvyn.
+>Du kan gå från resurs till resurs i samma mapp i detaljvyn. Klicka bara på **[!UICONTROL Previous Asset]** eller **[!UICONTROL Next Asset]**. De här knapparna finns i det övre högra hörnet i detaljvyn.
 
 ## Hämta information i detaljvyn {#getting-information-in-detail-view}
 
@@ -62,13 +62,13 @@ Du kan hämta en resurs-URL i detaljvyn, men URL:en är inte aktiv förrän du p
 
 I detaljvyn finns verktyg som du kan använda för att arbeta med resursen som du har öppnat. Vilka verktyg som är tillgängliga beror på vilken typ av resurs du arbetar med, men detaljvyn har alltid dessa funktioner:
 
-* **objekt för publicering**: Välj **[!UICONTROL `Publish`]** till vänster om namnet, eller gå till **[!UICONTROL File]** > **[!UICONTROL Publish]** eller **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
+* **objekt för publicering**: Välj ikonen **[!UICONTROL `Publish`]** till vänster om namnet eller gå till **[!UICONTROL File]** > **[!UICONTROL Publish]** eller **[!UICONTROL File]** > **[!UICONTROL Unpublish]**.
 
 * **Byt namn på resursen**: Markera namnet och ange ett nytt namn.
 
-* **Redigera och lägga till metadata**: Välj panelen Metadata och ändra efter behov. Se [Visa, lägga till och exportera metadata](/help/using/viewing-adding-exporting-metadata.md).
+* **Redigera och lägg till metadata**: Välj panelen Metadata och ändra efter behov. Se [Visa, lägga till och exportera metadata](/help/using/viewing-adding-exporting-metadata.md).
 
-* **Redigera och lägga till nyckelord**: Välj Nyckelord och lägg till eller ta bort dem efter behov. Se [Lägga till eller redigera nyckelord](/help/using/viewing-adding-exporting-metadata.md).
+* **Redigera och lägg till nyckelord**: Markera nyckelord och lägg till eller ta bort dem efter behov. Se [Lägg till eller redigera nyckelord](/help/using/viewing-adding-exporting-metadata.md).
 
 * **Ta bort resursen**: Gå till **[!UICONTROL File]** > **[!UICONTROL Delete]**.
 
@@ -78,9 +78,9 @@ Tabellen visar vilka andra alternativ som är tillgängliga med olika typer av r
 
 | Tillgångstyp | Redigera/justera | Förhandsgranska |
 | --- | --- | --- |
-| Bilder | Lägg till bildscheman<br>Lägg till zoommål<br>Beskär<br>Skärpa<br>Skapa justerade vyer | Ja, förinställningar för zoomning och bild |
+| Bilder | Lägg till bildscheman<br>Lägg till zoommål<br>Beskär<br>Öka skärpan<br>Skapa justerade vyer | Ja, förinställningar för zoomning och bild |
 | Skåp och fönster som täcker bilder | Nej | Miniatyrbild |
-| eCatalogs | Redigera | Ja<br>Informationspanelen är också tillgänglig |
+| eCatalogs | Redigera | Ja<br>Panelen Info är också tillgänglig |
 | Typsnitt | Redigera teckensnittsinformation | Nej |
 | FXG-filer | Redigera | Ja |
 | ICC-profiler | Redigera profilinformation | Nej |

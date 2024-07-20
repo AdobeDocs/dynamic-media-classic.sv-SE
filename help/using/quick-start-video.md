@@ -33,7 +33,7 @@ Den logik som en videospelare använder för att avgöra vilken kodad video som 
    1. Spelaren väljer den högsta bandbreddsströmmen under eller lika med den beräknade bandbredden.
    1. Spelaren hanterar bara 80 % av den tillgängliga bandbredden. Men om den byter upp sig är det mer försiktigt med bara 70 % för att undvika överskattning och omedelbart byta tillbaka.
 
-Se algoritmens logik på [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) för teknisk information om det.
+Information om algoritmens logik finns på [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp).
 
 För hantering av enstaka videor och adaptiva videouppsättningar har Adobe Dynamic Media Classic stöd för följande:
 
@@ -41,13 +41,13 @@ För hantering av enstaka videor och adaptiva videouppsättningar har Adobe Dyna
 
 Se [Aktivera eller inaktivera anpassade videoförinställningar](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo.
+Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
 >[!NOTE]
 >
->Primära videoklipp/källvideoklipp och annan video i källformat är *not* läggs till i en adaptiv videouppsättning.
+>Primära videoklipp/källvideoklipp och andra videofilmer i källformat läggs *inte* till i en adaptiv videouppsättning.
 
 * Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i visningsprogrammen Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
 
@@ -60,7 +60,7 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
   Adaptiv videoströmning stöds på olika iOS-plattformar.
 
-  Se den senaste supporten i [Referenshandbok för Adobe-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+  Se det senaste stödet i [referenshandboken för visningsprogram för Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -83,7 +83,7 @@ Se följande utbildningsvideor:
 
 * [Förhandsgranskning av MP4-video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [MP4-videouppladdning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [MP4-videoöverföring](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
 * [Översikt över direktuppspelning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
@@ -95,14 +95,14 @@ Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma ig�
 
 Överför och generera adaptiva videouppsättningar i något av följande två scenarier:
 
-* **Överför förkodade videoklipp**: Om dina videofilmer redan har kodats externt från Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]**. Bläddra och ladda upp MP4-videofiler direkt till Adobe Dynamic Media Classic. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till dina videofiler. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
-* **Överför primära källvideor**: Om videoklippen inte är kodade väljer du **[!UICONTROL Upload]** för att överföra primära videokällfiler (ej MP4). Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. I **[!UICONTROL Upload Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, markera **[!UICONTROL Adaptive Video]**.
+* **Överför förkodade videoklipp**: Om dina videoklipp redan har kodats externt från Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]** i det globala navigeringsfältet. Bläddra och ladda upp MP4-videofiler direkt till Adobe Dynamic Media Classic. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till dina videofiler. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
+* **Överför primära källvideoklipp**: Om dina videoklipp inte är kodade väljer du **[!UICONTROL Upload]** i fältet Global navigering för att överföra primära videokällfiler (inte MP4). Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. Välj **[!UICONTROL Adaptive Video]** under **[!UICONTROL EVideo Options]** i dialogrutan **[!UICONTROL Upload Job Options]**.
 
   Med det här alternativet kan du skapa adaptiva videouppsättningar. Den korrekta kodningsförinställningen används automatiskt på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för den video som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
 
-  Eller i samma **[!UICONTROL Job Options]** dialogruta, under **[!UICONTROL EVideo Options]**, expandera **[!UICONTROL Single Encoding Presets]**. Välj de enskilda förinställningar för videokodning som du vill använda. Du kan välja **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** för att skapa MP4-filer.
+  Eller expandera **[!UICONTROL Single Encoding Presets]** under **[!UICONTROL EVideo Options]** i samma **[!UICONTROL Job Options]**-dialogruta. Välj de enskilda förinställningar för videokodning som du vill använda. Du kan välja **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** om du vill skapa MP4-filer.
 
-* Du kan också bearbeta om en primär video med **[!UICONTROL Reprocessing]** -funktion. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
+* Du kan också bearbeta om en primär video med funktionen **[!UICONTROL Reprocessing]**. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
 
 Se [Överför och koda videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
@@ -124,37 +124,37 @@ Du kan spela upp videon på förhandsgranskningssidan. Du kan också välja olik
 
 **Valfritt**
 
-Anpassning av visningsförinställningar: Adobe Dynamic Media Classic har fördefinierade visningsförinställningar för videoutgång. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Om du vill öppna den här sidan går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
+Anpassning av visningsförinställningar: Adobe Dynamic Media Classic har fördefinierade visningsförinställningar för videoutgång. Dessa förinställningar avgör hur visningsprogrammet ser ut och hur uppspelningskontrollerna fungerar. Administratörer kan lägga till och hantera visningsförinställningar från sidan Förinställningar för visningsprogram för att anpassa visningsprogrammet. Om du vill öppna den här sidan går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i det övre högra hörnet av Adobe Dynamic Media Classic. På sidan Förinställningar för visningsprogram finns kommandon för att lägga till, redigera, ta bort och aktivera visningsförinställningar.
 
-Se [Arbeta med förinställningar för Video Viewer](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
+Se [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-Se även [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo.
+Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 ## 3. Lägg ut videor på webbplatser och mobilsajter
 
 Om du vill integrera video på webbplatsen kan du göra något av följande:
 
-* Visa videon i ett eget popup-fönster eller modalt fönster, i vilket fall använder du **[!UICONTROL Copy URL]** -funktion.
+* Visa videon i ett eget popup-fönster eller modalt fönster. I så fall använder du funktionen **[!UICONTROL Copy URL]**.
 
-  Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Välj **[!UICONTROL Preview]** och sedan markera **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
+  Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Välj **[!UICONTROL Preview]** och välj sedan **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
 
-  När du väljer **[!UICONTROL Copy URL]**, kopieras URL-adressen till Urklipp. Placera den här koden HTML på din webbplats, mobilwebbplats eller i ditt program.
+  När du väljer **[!UICONTROL Copy URL]** kopieras URL:en till Urklipp. Placera den här koden HTML på din webbplats, mobilwebbplats eller i ditt program.
 
   >[!NOTE]
   >
   >URL-adresser aktiveras först när du har publicerat videon eller den adaptiva videouppsättningen.
 
-* Visa videon som är inbäddad på webbsidan. I så fall använder du **[!UICONTROL Embed Code]** -funktion.
+* Visa videon som är inbäddad på webbsidan. I så fall använder du funktionen **[!UICONTROL Embed Code]**.
 
-  Om du vill hämta inbäddningskoden för en video väljer du videon i Stödrastervisning eller Listvy på panelen Bläddra. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Under kolumnen Åtgärder i tabellen väljer du **[!UICONTROL Embed Code]** till höger om `Universal_HTML5_Video`. Det är inte tillåtet att redigera koden.
+  Om du vill hämta inbäddningskoden för en video väljer du videon i Stödrastervisning eller Listvy på panelen Bläddra. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**. Under åtgärdskolumnen i tabellen väljer du **[!UICONTROL Embed Code]** till höger om `Universal_HTML5_Video`. Det är inte tillåtet att redigera koden.
 
-  Välj **[!UICONTROL Close]** och klistra in den inbäddade koden på en eller flera av dina webbsidor.
+  Markera **[!UICONTROL Close]** och klistra in den inbäddade koden på en eller flera av dina webbsidor.
 
   >[!NOTE]
   >
   >Inbäddningskoden aktiveras först när du har publicerat videon eller den adaptiva videouppsättningen.
 
-Se [Distribuera video till webbplatser och mobilsajter](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+Se [Distribuera video till webbplatser och mobilwebbplatser](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >

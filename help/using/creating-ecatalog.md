@@ -25,9 +25,9 @@ När du skapar en e-katalog måste du beställa sidorna, välja sidlayout och l�
 
 Du kan inkludera bildfiler och PDF-filer i din eCatalog.
 
-När du skapar en e-katalog **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+När du skapar en e-katalog påverkar alternativet **[!UICONTROL Publish after a save]** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
-| Vill du publicera efter att ha sparat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Alternativet&quot;Publish after a save&quot; är valt innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
@@ -38,36 +38,36 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 1. Börja skapa din e-katalog med någon av följande tekniker:
 
-   * **Markera filerna först**: Välj filer på panelen Bläddra och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
+   * **Markera filerna först**: Markera filerna på panelen Bläddra och gå sedan till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**.
 
-   * **Starta från eCatalog-skärmen**: Gå till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Välj en mapp i resursbiblioteket. Dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
+   * **Starta från e-katalogskärmen**: Gå till **[!UICONTROL Build]** > **[!UICONTROL eCatalogs]**. Välj en mapp i resursbiblioteket. Dra filer från mappen till fliken Ordna sidor på eCatalog-sidan.
 
      >[!NOTE]
      >
      >Om du vill visa objekten i resursbiblioteket efter namn i stället för efter miniatyrbild, väljer du alternativet Namn för standardvyn för resursbibliotek i Personliga inställningar.
 
-1. Välj en övergripande layout för din eCatalog. Välj **[!UICONTROL 1 Up]** för enstaka sidor, **[!UICONTROL 2 Up]** för uppslag med dubbla sidor, eller **[!UICONTROL Custom]** för uppslag med fler än två sidor. I **[!UICONTROL Change eCatalog Layout]** väljer du **[!UICONTROL All Spreads]** alternativ och markera **[!UICONTROL OK]**.
-1. Du kan också ändra layouten för enskilda sidor eller uppslag genom att markera dem och sedan välja **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]**, eller **[!UICONTROL Custom]** -knappen. I **[!UICONTROL Change eCatalog Layout]** väljer du **[!UICONTROL Selected Spreads]** alternativ och markera **[!UICONTROL OK]**.
+1. Välj en övergripande layout för din eCatalog. Välj **[!UICONTROL 1 Up]** för enstaka sidor, **[!UICONTROL 2 Up]** för uppslag med dubbla sidor eller **[!UICONTROL Custom]** för uppslag med fler än två sidor. I dialogrutan **[!UICONTROL Change eCatalog Layout]** markerar du **[!UICONTROL All Spreads]**-alternativen och väljer **[!UICONTROL OK]**.
+1. Du kan också ändra layouten för enskilda sidor eller uppslag genom att markera dem och sedan välja **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** eller **[!UICONTROL Custom]** . I dialogrutan **[!UICONTROL Change eCatalog Layout]** markerar du **[!UICONTROL Selected Spreads]**-alternativen och väljer **[!UICONTROL OK]**.
 1. Ändra ordning på sidorna efter behov med någon av följande tekniker:
 
    * **Dra**: Dra en sida eller ett uppslag till en ny plats. Det lodräta strecket visar var sidan flyttas.
 
-   * **Knappen Flytta till**: Markera en sida eller ett uppslag, markera **[!UICONTROL Move To]** och väljer sidan på menyn som du vill att sidan ska visas före.
+   * **Flytta till-knapp**: Markera en sida eller ett uppslag, markera **[!UICONTROL Move To]** och välj sidan på menyn som du vill att sidan ska visas före.
 
-   * **Sekvensnr**: I listvyn anger du sidnummer i fälten för sekvensnummer.
+   * **Sekvens #**: I listvyn anger du sidnummer i fälten för sekvensnummer.
 
-1. När du är klar ser du till att du ser till att **[!UICONTROL Publish after a save]** är markerat (standard).
+1. När du är klar ser du till att **[!UICONTROL Publish after a save]** är markerat (standard) nära sidans nedre högra hörn.
 1. Välj **[!UICONTROL Save]**.
 1. I dialogrutan Spara väljer du en mapp där din eCatalog ska lagras. I fältet Filnamn anger du namnet på rotationsuppsättningen.
 1. Välj **[!UICONTROL Save]**.
 
-   Du kan förhandsgranska din e-katalog genom att välja **[!UICONTROL Preview]**.
+   Du kan förhandsgranska din e-katalog genom att välja **[!UICONTROL Preview]** när du har sparat den.
 
 ## Redigera en e-katalog {#editing-an-ecatalog}
 
-Oavsett om du redigerar en publicerad uppsättning eller en opublicerad uppsättning kan du **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **[!UICONTROL Publish after a save]** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
-| Har du redan publicerat? | Alternativet&quot;Publicera efter att du har sparat&quot; är markerat innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | Om du väljer&quot;Publish när du har sparat&quot; innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -78,10 +78,10 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 **Så här redigerar du en e-katalog:**
 
-1. Välj eCatalogs överrullning **[!UICONTROL Edit]** -knappen.
+1. Markera eCatalogs överrullningsknapp **[!UICONTROL Edit]**.
 1. Gör önskade ändringar.
-1. När du är klar med redigeringen, nära det nedre högra hörnet på sidan, ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
-1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp, anger ett namn för uppsättningen och väljer sedan **[!UICONTROL Save]**.
+1. När du är klar med redigeringen kontrollerar du att **[!UICONTROL Publish after a save]** är markerat (standard) nära sidans nedre högra hörn.
+1. Välj **[!UICONTROL Save]**, markera en lagringsmapp, ange ett namn för uppsättningen och välj sedan **[!UICONTROL Save]**.
 
 ## Ta bort en e-katalog
 
@@ -92,7 +92,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 **Så här tar du bort en e-katalog:**
 
 1. Markera en eller flera e-kataloger i Stödrastervisning, listvy eller detaljvy.
-1. På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
+1. Gå till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]** i det globala navigeringsfältet.
 
 ## Anpassa innehållsförteckningen {#customizing-the-table-of-contents-toc}
 
@@ -102,7 +102,7 @@ Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt. Du k
 
 >[!NOTE]
 >
->Om du vill återställa standardsidrubrikerna går du till **[!UICONTROL Order Pages]** flik, välja **[!UICONTROL TOC Labels]** och sedan markera **[!UICONTROL Restore Defaults (All)]**.
+>Om du vill återställa standardsidrubrikerna väljer du **[!UICONTROL TOC Labels]** på fliken **[!UICONTROL Order Pages]** och sedan **[!UICONTROL Restore Defaults (All)]**.
 
 ### Ange sidnamn manuellt {#manually-entering-page-names}
 
@@ -112,11 +112,11 @@ Ange sidnamn manuellt en i taget genom att gå till fliken Ordna sidor på skär
 
 Du bör importera sidnamn om du har att göra med en e-katalog med många sidor. Du kan importera namnen från en tabbavgränsad fil eller XML-fil.
 
-Innehållsförteckningsetiketten lagras i en bilds användardatafält. Formatera informationen som en lista med `name=<value>` ` pairs separated by two question marks "??" `. Du kan till exempel ange en etikett för ett innehållsförteckningsfält med namnet `tocEN`, ställer du in användardata för bilden på:
+Innehållsförteckningsetiketten lagras i en bilds användardatafält. Formatera informationen som en lista med `name=<value>` ` pairs separated by two question marks "??" `. Om du till exempel vill ange en etikett för ett innehållsförteckningsfält med namnet `tocEN` anger du användardata för bilden till:
 
 `tocEN=&lt;EN_page_label>`
 
-Ange separata etiketter för innehållsförteckningsfält med namn `tocEN` och `tocFR`:
+Så här anger du separata etiketter för innehållsförteckningsfält med namnen `tocEN` och `tocFR`:
 
 `tocEN=&lt;EN_page_label>??tocFR=&lt;FR_page_label>`
 
@@ -134,4 +134,4 @@ Om du vill importera fältet Användardata till en XML-fil inkluderar du attribu
 </ips>
 ```
 
-Om du vill importera sidnamn från en tabbavgränsad fil eller XML-fil väljer du **[!UICONTROL TOC Labels]** knapp och markera **[!UICONTROL Import]**. Välj i dialogrutan Överför metadata **[!UICONTROL Browse]** och sedan importera CSV-filen (endast Mac) eller XML-filen som associerar varje sida med ett sidnamn.
+Om du vill importera sidnamn från en tabbavgränsad fil eller XML-fil markerar du knappen **[!UICONTROL TOC Labels]** och väljer **[!UICONTROL Import]**. I dialogrutan Överför metadata väljer du **[!UICONTROL Browse]** och importerar sedan CSV-filen (endast Mac) eller XML-filen som associerar varje sida med ett sidnamn.

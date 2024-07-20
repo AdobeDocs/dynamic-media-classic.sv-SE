@@ -29,14 +29,14 @@ Du kan använda valfri URL för bildförinställning i listan. URL:er för bildf
 
 1. Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Sets]**.
 1. Välj en mall i verktyget och välj sedan **[!UICONTROL Add/Preview]**.
-1. Ändra mallegenskaperna och välj **[!UICONTROL Save As]** för att skapa en ny version.
-1. Skriv ett namn och välj **[!UICONTROL Save]**.
+1. Ändra mallegenskaperna och välj **[!UICONTROL Save As]** om du vill skapa en annan version.
+1. Skriv ett namn och välj sedan **[!UICONTROL Save]**.
 
    Både resursen och mallen måste publiceras.
 
 1. Gå till sidan Detalj för att hämta en kopia-URL från avsnittet URL:er.
 
-Du kan flytta en mall i mallordningen (till exempel högst upp i listan) genom att dra den till dess nya plats. Publicera igen för att skicka den nya ordern.
+Du kan flytta en mall i mallordningen (till exempel högst upp i listan) genom att dra den till dess nya plats. Publish igen för att skicka in den nya ordern.
 
 >[!NOTE]
 >

@@ -27,57 +27,57 @@ Webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, 
 
 ## Kopiera en URL för en snurruppsättning {#copying-a-spin-set-url}
 
-1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Spin Set]**.
+1. Välj **[!UICONTROL Spin Set]** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den snurpuppsättning vars inbäddade kod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Copy URL]** till höger om det visningsprogram du vill använda.
-   * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resurssökning och gå sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
+     Välj **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL List View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
+     Välj **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]** eller **[!UICONTROL Detail View]**. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
+     Välj **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
 ## Lägg till URL-adresser för snurruppsättning på webbsidan {#adding-spin-set-urls-to-your-web-page}
 
-Snurra uppsättningar används som alla zoomningsvisningsprogram via en dynamisk sida (ASP eller JSP) som visar snurra uppsättningar i ett zoomfönster. URL-anropet till Adobe Dynamic Media Classic-plattformen följer samma protokoll i zoomvisningsprogrammet. Namnet på visningsförinställningen beror dock på den förinställning som administratören har definierat som förinställning för rotationsuppsättningen. I följande exempel på icke-aktiv URL-syntax finns ett förinställningsnamn med namnet `viewer.jsp` och SKU-parametern är nu Spin Set-namnet:
+Snurra uppsättningar används som alla zoomningsvisningsprogram via en dynamisk sida (ASP eller JSP) som visar snurra uppsättningar i ett zoomfönster. URL-anropet till Adobe Dynamic Media Classic-plattformen följer samma protokoll i zoomvisningsprogrammet. Namnet på visningsförinställningen beror dock på den förinställning som administratören har definierat som förinställning för rotationsuppsättningen. I följande exempel på icke-aktiv URL-syntax ingår ett förinställningsnamn med namnet `viewer.jsp` och SKU-parametern är nu namnet på den aktiva uppsättningen:
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-I det här exemplet på URL-syntax (länken är inte live), lägg märke till ett SKU-nummer ( `sku=backpack_spin`). Strängen efter `sku=` är namnet på rotationsuppsättningen ( `backpack spin`).
+Lägg märke till ett SKU-nummer ( `sku=backpack_spin`) i det här exemplet på URL-syntax (länken är inte aktiv). Strängen efter `sku=` är namnet på rotationsuppsättningen ( `backpack spin`).
 
 ## Kopiera inbäddningskoden för ett visningsprogram för snurra uppsättningar {#copying-the-embed-code-of-a-spin-set-viewer}
 
 Med hjälp av funktionen Bädda in kod kan du granska visningsprogramkoden för den valda rotationsuppsättningen. Du kan också kopiera koden till Urklipp så att du kan klistra in den på webbsidorna för att distribuera visningsprogrammet. Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
-**Så här kopierar du inbäddningskoden för ett visningsprogram för en sned uppsättning:**
+**Så här kopierar du inbäddningskoden för ett visningsprogram för en snurruppsättning:**
 
-1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Spin Set]**.
+1. Välj **[!UICONTROL Spin Set]** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den snurpuppsättning vars inbäddade kod du vill kopiera i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Embed Code]** till höger om det visningsprogram du vill använda.
-   * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resurssökning och gå sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
+     Välj **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL List View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
+     Välj **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]** eller **[!UICONTROL Detail View]**. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
+     Välj **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-1. Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
+1. Välj **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
    Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 

@@ -25,9 +25,9 @@ Teknisk support är utformad för att uppfylla behoven i alla typer av företag.
 | --- | --- |
 | Ärendegräns | Obegränsat. |
 | Kontrollera systemstatus för Adobe | [Adobe Dynamic Media Classic systemstatus](https://status.adobe.com/products/1175). |
-| Hittar du inget svar? | [Öppna en biljett för att få hjälp från supporten](https://experienceleague.adobe.com/?support-solution=General#support). |
-| Community Forum | [Experience Manager forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA (servicenivåavtal) | [Supporttjänster / Villkor](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Hittar du inget svar? | [Öppna ett supportärende](https://experienceleague.adobe.com/?support-solution=General#support) om du vill ha hjälp från supporten. |
+| Community Forum | [Experience Manager-community](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| SLA (servicenivåavtal) | [Supporttjänster/Villkor](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | Användare som stöds | Upp till tio användare per organisation kan utses till Användare som stöds, som kan öppna ärenden med kundtjänst. |
 | Kostnadsfria videor med webbutbildningar och instruktioner | Ingår. |
 | Telefonsupport | <ul><li>USA och Kanada: 0200-810 329 </li><li>[Telefonnummer för andra regioner](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |

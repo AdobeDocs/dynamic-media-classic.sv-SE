@@ -23,15 +23,15 @@ Visningsförinställningarna för den blandade medieuppsättningen avgör format
 
 Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogrammet för den blandade medieuppsättningen. Med funktionen Bädda in läggs en länk till visningsprogrammet som gör att användarna kan kopiera den kod som krävs för att visa visningsprogrammet på en extern sida (till exempel en blogg, en webbplats eller en social nätverksplats). Länkfunktionen tillhandahåller URL:en till visningsprogrammet, så att användare kan länka tillbaka till det här visningsprogrammet. Besöksfunktionen är en länk till den webbplats du anger.
 
-1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering.
 1. Gör något av följande på sidan Förinställningar för visningsprogram:
 
-   * Om du vill skapa en förinställning väljer du **[!UICONTROL Add]**. Välj en plattform i dialogrutan Lägg till visningsförinställning. Klicka sedan på **[!UICONTROL Mixed Media Set Viewer]** > **[!UICONTROL Add]**.
+   * Välj **[!UICONTROL Add]** om du vill skapa en förinställning. Välj en plattform i dialogrutan Lägg till visningsförinställning. Klicka sedan på **[!UICONTROL Mixed Media Set Viewer]** > **[!UICONTROL Add]**.
    * Om du vill redigera en visningsförinställning för en blandad medieuppsättning markerar du den och väljer sedan **[!UICONTROL Edit]**.
 
 1. Skriv ett namn i rutan Förinställningsnamn för visningsförinställningen för den blandade medieuppsättningen på sidan för Configuration Viewer.
 1. Ange **[!UICONTROL Tabs]** eller **[!UICONTROL No Tabs]**. Flikar separerar objekt efter typ, t.ex. videoklipp, färgrutor och snurruppsättningar. När du inte anger några flikar visas alla objekt på en rad i förhandsgranskningsfönstret.
-1. I **[!UICONTROL Name]** anger du ett namn för det visningsprogram som du vill lägga till.
+1. I rutan **[!UICONTROL Name]** anger du ett namn för det visningsprogram som du vill lägga till.
 
    Om du till exempel lägger till en färgruteuppsättning i din uppsättning med blandade media skriver du `Swatch Set A`.
 
@@ -48,7 +48,7 @@ Du kan välja att ta med alla eller vissa communityfunktioner i visningsprogramm
 1. Om du vill redigera förinställningslistan gör du något av följande:
 
    * Om du vill ta bort en förinställning från listan markerar du den och väljer sedan **[!UICONTROL Delete]**.
-   * Om du vill ändra ordning på förinställningarna i listan markerar du en förinställning och väljer sedan den blå **[!UICONTROL Up]** eller **[!UICONTROL Down]** pil.
+   * Om du vill ändra ordning på förinställningarna i listan markerar du en förinställning och väljer den blå **[!UICONTROL Up]**- eller **[!UICONTROL Down]**-pilen.
 
 1. Om du vill lägga till communityfunktioner (Bädda in, Länk, Besök) i visningsprogrammet anger du alternativ för något av följande:
 

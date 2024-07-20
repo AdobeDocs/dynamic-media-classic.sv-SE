@@ -33,10 +33,10 @@ När du skapar en snurra uppsättning eller en bilduppsättning, eller överför
 | Tillgång: Begränsningstyp | Bästa praxis | Begränsning har införts |
 | --- | --- | --- |
 | **Bild**: Antal smarta beskärningar per bild | 5 | 100 |
-| **Alla uppsättningar**: Antal duplicerade resurser per uppsättning | Inga dubbletter | 20‡ |
+| **Alla uppsättningar**: Antal dubblettresurser per uppsättning | Inga dubbletter | 20‡ |
 | **Alla uppsättningar**: Maximalt antal resurser per uppsättning | 5-10 bilder per uppsättning | 1000 |
-| **Rotation**: Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
-| **PDF**: Maximalt antal sidor för PDF som ska tas i beaktande för extrahering |  | 100 (för alla PDF) |
+| **Snurra uppsättning**: Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
+| **PDF**: Maximalt antal sidor för en PDF som ska tas i beaktande för extrahering |  | 100 (för alla PDF) |
 
 ‡ Bästa praxis är att inte ha duplicerade resurser i en uppsättning. Gränsen är 20 kopior för en enskild resurs. Om du lägger till ytterligare en dubblett för den resursen, inom den uppsättningen, returnerar begäran ett fel eller ignorerar dubbletten.
 

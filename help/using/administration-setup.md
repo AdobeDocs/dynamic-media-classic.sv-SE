@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Skärmerna Administrationsinstallationer används för att administrera Adobe Dynamic Media Classic-användare. Använd dessa skärmar för att göra det möjligt för användare att arbeta i Adobe Dynamic Media Classic och kommunicera via e-post med andra användare.
 
-1. Gå till Administrationsinställningar **Inställningar** > **Personliga inställningar** > **Administrationsinställningar**.
+1. Gå till **Inställningar** > **Personliga inställningar** > **Administrationsinställningar** om du vill visa alternativen för administrationsinställningar.
 
 ## Användaradministration {#user-administration}
 
@@ -34,9 +34,9 @@ Adobe Dynamic Media Classic har stöd för flera användarroller. De här roller
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Adobe Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic-användare** Kan få åtkomst till företag som de har tilldelats; kan inte utföra några administrativa uppgifter.
+**Adobe Dynamic Media Classic-användare** Kan komma åt företag som de har tilldelats. Det går inte att utföra några administrativa åtgärder.
 
-**Adobe Dynamic Media Classic företagsadministratör** Kan visa och administrera endast sina egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
+**Adobe Dynamic Media Classic företagsadministratör** Kan endast visa och administrera egna företag. En företagsadministratör kan också utföra alla administrationsfunktioner, inklusive att lägga till administratörer och användare. En företagsadministratör kan lägga till en användare i DMC-företagets administratörskonton. (Den här rollen är standardanvändarrollen.)
 
 När du har lagt till en användare skickar Adobe Dynamic Media Classic ett välkomstmeddelande till användaren. Meddelandet innehåller ett lösenord och Adobe Dynamic Media Classic URL.
 
@@ -48,15 +48,15 @@ När du har lagt till en användare skickar Adobe Dynamic Media Classic ett väl
 
    >[!NOTE]
    >
-   >apostrofen (`'`) tillåts inte i e-postadresser.
+   >Apostrofen (`'`) tillåts inte i e-postadresser.
 
 1. Om du vill tilldela användaren en roll väljer du ett rollalternativ.
 
-   Se [Adobe Dynamic Media Classic användarroller och -behörigheter](administration-setup.md#user_administration).
+   Se [Adobe Dynamic Media Classic användarroller och behörigheter](administration-setup.md#user_administration).
 
 1. Om du vill lägga till en användare till ett företag väljer du ett företagsnamn.
-1. Om du vill lägga till användaren i en grupp (om du lägger till en Media Portal-användare eller -medarbetare) väljer du **[!UICONTROL Next]** och lägga till användaren.
-1. Välj **[!UICONTROL Save]** för att slutföra användarinställningarna.
+1. Om du vill lägga till användaren i en grupp (om du lägger till en Media Portal-användare eller -medarbetare) väljer du **[!UICONTROL Next]** och lägger till användaren.
+1. Välj **[!UICONTROL Save]** för att slutföra användarkonfigurationen.
 
    När du har sparat en fråga om du vill lägga till en användare i ett annat företag. Välj **[!UICONTROL Add]** om du vill lägga till användaren i ett företag.
 
@@ -66,7 +66,7 @@ När du har lagt till en användare skickar Adobe Dynamic Media Classic ett väl
 
    Om användaren inte får välkomstmeddelandet ber du dem gå till Adobe Dynamic Media Classic inloggningssida (https://s7sps1.scene7.com) och välja **[!UICONTROL Forgot My Password]**. Lösenordet återställs och ett nytt e-postmeddelande skickas. Om användaren inte får e-postmeddelandet och inte finns i sin skräppostmapp kontaktar du teknisk support.
 
-   När du lägger till nya Media Portal-användare kan du även gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]** väljer **[!UICONTROL Upload User List]** och väljer en CSV-fil som inte innehåller fler än 500 användare.
+   När du lägger till nya Media Portal-användare kan du också gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL User Administration]**, markera **[!UICONTROL Upload User List]** och välja en CSV-fil som inte innehåller fler än 500 användare.
 
 ### Ta bort en användare {#delet-a-user}
 
@@ -82,7 +82,7 @@ Du kan ta bort användare från Adobe Dynamic Media Classic genom att göra dem 
 Användare som har inaktiverats har inte längre behörighet att ange kontot som visas högst upp på menyn Välj konton att komma åt.
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. I användarlistan markerar eller avmarkerar du **[!UICONTROL Active]** bredvid användarens namn.
+1. Markera eller avmarkera alternativet **[!UICONTROL Active]** bredvid användarens namn i användarlistan.
 
 ### Redigera användarinformation {#editing-user-information}
 
@@ -92,7 +92,7 @@ Vilken användarinformation du kan redigera beror på din roll som administratö
 1. Välj en användare i listan och välj sedan **[!UICONTROL Edit]**.
 1. Markera den post i tabellen som visar det företag du försöker ändra behörigheter eller åtkomst för och välj sedan **[!UICONTROL Manage Company]**.
 1. Välj användarroll.
-1. Om du vill ändra användarens gruppmedlemskap (om du redigerar eller lägger till en Media Portal-användare eller -medarbetare) väljer du **[!UICONTROL Next]** och redigera gruppmedlemskapet.
+1. Om du vill ändra användarens gruppmedlemskap (om du redigerar eller lägger till en Media Portal-användare eller -medarbetare) väljer du **[!UICONTROL Next]** och redigerar gruppmedlemskapet.
 1. Välj **[!UICONTROL Save]**.
 
 ### Filtrera och sortera användarlistan {#filtering-and-sorting-the-user-list}
@@ -101,15 +101,15 @@ Du kan filtrera och sortera användarlistan för att hitta användare. Alla anv�
 
 Du kan använda följande tekniker för filtrering av användarlistor:
 
-* **Filtrera efter grupp**: Välj **[!UICONTROL By Group]** och välj ett alternativ för att begränsa listan till användare i en grupp.
+* **Filtrera efter grupp**: Välj menyn **[!UICONTROL By Group]** och välj ett alternativ för att begränsa listan till användare i en grupp.
 
-* **Filtrera efter användarroll**: Välj **[!UICONTROL By User Role]** och välj ett alternativ som begränsar listan till användare eller administratörer av olika typer.
+* **Filtrera efter användarroll**: Välj menyn **[!UICONTROL By User Role]** och välj ett alternativ för att begränsa listan till användare eller administratörer av olika typer.
 
-* **Filtrera efter fältnamn**: Välj **[!UICONTROL Enable Filter By Field]**. Välj sedan **[!UICONTROL By Field Name]** väljer du en kolumn för filtrering av listan, väljer menyn Filtertecken och väljer en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Om du vill se hela listan avmarkerar du **[!UICONTROL Enable Filter By Field]** alternativ.
+* **Filtrera efter fältnamn**: Välj **[!UICONTROL Enable Filter By Field]**. Välj sedan menyn **[!UICONTROL By Field Name]**, välj en kolumn för filtrering av listan, välj menyn Filtrera tecken och välj en bokstav. Listan filtreras på en av kolumnerna med den bokstav du väljer. Om du vill visa den fullständiga listan avmarkerar du alternativet **[!UICONTROL Enable Filter By Field]**.
 
 * **Filtrera bort ogiltiga användare**: Avmarkera **[!UICONTROL Include Invalid]**. Sökresultaten visar endast användare som finns i systemet. Ogiltiga användare har tagits bort från systemet och de konton som du administrerar.
 
-* **Sortera efter kolumnrubrik**: Välj en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-post. Eller sortera efter användarroll eller efter giltig/ogiltig status.
+* **Sortera efter kolumnrubrik**: Välj en rubrik om du vill sortera alla användare efter status, i bokstavsordning efter förnamn, efternamn eller e-postadress. Eller sortera efter användarroll eller efter giltig/ogiltig status.
 
 Om du har många användare kan du begränsa storleken på listan genom att välja menyn Maximal liststorlek och välja ett tal.
 
@@ -145,7 +145,7 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
 Adobe Dynamic Media Classic-administratörer kan generera bandbredd, lagring och andra typer av rapporter för de företag de administrerar. Rapporterna finns på sidan Bandbredd och lagring.
 
-Öppna den här sidan genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**. Expandera **[!UICONTROL Administration Setup]** och sedan markera **[!UICONTROL Bandwidth & Storage]**.
+Öppna den här sidan genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**. Expandera **[!UICONTROL Administration Setup]** och välj sedan **[!UICONTROL Bandwidth & Storage]**.
 
 ### Typ av rapporter {#types-of-reports}
 
@@ -164,15 +164,15 @@ Rapporten Bildinnehåll innehåller information om begäranden för följande bi
 
 * **Bildbegäran**: Begäran om bilder.
 
-* **Miniatyrbegäran**: Begär färgruta eller alternativa bilder i visningsprogram.
+* **Miniatyrbildsbegäran**: Begäranden för färgruta eller alternativa bilder i visningsprogram.
 
-* **Maskbegäran**: Förfrågningar till bilder som returnerar gråskalemasker.
+* **Maskbegäran**: Förfrågningar om bilder som returnerar gråskalemasker.
 
-* **Begäran om visningsruta**: Bildbegäranden som läses in av ett visningsprogram.
+* **Begäran om visningsprogrampanel**: Bildbegäranden som läses in av ett visningsprogram.
 
-* **VNT-objektbegäran**: Begäran om bildåtergivning som returnerar en bild med angivna objekt i de begärda vinjetterna.
+* **VNT-objektbegäran**: Bildåtergivningsbegäranden som returnerar en bild med angivna objekt i de begärda vinjetteringarna.
 
-* **Begäran om VNT-information**: Begäran om bildåtergivning som returnerar information om begärda vinjetter.
+* **VNT-informationsbegäran**: Bildåtergivningsbegäranden som returnerar information om begärda vinjetter.
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Expandera Administrationsinställningar och välj sedan **[!UICONTROL Bandwidth & Storage]**.
-1. Välj en flik: **[!UICONTROL Bandwidth]**, **[!UICONTROL Storage]**, **[!UICONTROL Image Content]**, **[!UICONTROL Domain]**, **[!UICONTROL Video Streaming]**, eller **[!UICONTROL Video Content]**.
+1. Välj en flik: **[!UICONTROL Bandwidth]**, **[!UICONTROL Storage]**, **[!UICONTROL Image Content]**, **[!UICONTROL Domain]**, **[!UICONTROL Video Streaming]** eller **[!UICONTROL Video Content]**.
 
    Se [Typ av rapporter](administration-setup.md#types_of_reports).
 
@@ -192,27 +192,27 @@ Så här genererar du en rapport över bandbredd, lagring, bildinnehåll, domän
 
 När du har genererat en rapport på sidan Bandbredd och lagring kan du välja alternativ för att visa information. Du kan välja hur informationen ska visas, visa information i ett diagram eller datarutnät och ange en tidsperiod för att hämta information. I datavyn kan du även sortera information och ordna om kolumner.
 
-* **Visa data i ett diagram eller datarutnät**: Välj **[!UICONTROL Chart View]** om du vill visa data i ett diagram väljer du **[!UICONTROL Data View]** för att visa data i ett datarutnät.
+* **Visa data i ett diagram eller datarutnät**: Markera **[!UICONTROL Chart View]** om du vill visa data i ett diagram. Välj **[!UICONTROL Data View]** om du vill visa data i ett datarutnät.
 
-* **Välj en rapportpresentationstyp**: Välj **[!UICONTROL Summary]**, **[!UICONTROL Daily]**, eller **[!UICONTROL Monthly]** för att organisera data i sammanfattningsform, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
+* **Välj en rapportpresentationstyp**: På menyn Typ av rapport väljer du **[!UICONTROL Summary]**, **[!UICONTROL Daily]** eller **[!UICONTROL Monthly]** för att ordna data i sammanfattningsformat, per dag eller per månad. Det här alternativet finns inte i alla rapporter.
 
 * **Ange en tidsperiod**: Välj alternativ för att definiera en tidsperiod för rapporten och välj sedan **[!UICONTROL Update]** efter att du har definierat en tidsperiod:
 
 * **Fördefinierad tidsperiod**: Välj ett alternativ på menyn Fördefinierad rapport. Välj till exempel Sista månaden för att hämta data från föregående månad.
 
-* **Anpassad tidsperiod**: På den fördefinierade rapportmenyn väljer du **[!UICONTROL Custom]**. Välj sedan ett datum på **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # of Months (eller # or Days). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
+* **Anpassad tidsperiod**: Välj **[!UICONTROL Custom]** på menyn Fördefinierad rapport. Välj sedan ett datum på menyn **[!UICONTROL Start Month]** (eller **[!UICONTROL Start Date]**) och ett datum på menyn # av månader (eller # eller dagar). I Domän- och videoinnehållsrapporter kan du välja ett specifikt start- och slutdatum för att hämta rapportinformation.
 
 * **Sortera data (endast datavyn)**: Sortera information i en kolumn. Markera kolumnrubriken. Välj igen om du vill sortera i fallande ordning.
 
-* **Ordna om kolumner (endast datavyn)**: Om du vill flytta en kolumn till en annan plats i datarutnätet drar du i rubriken.
+* **Ordna om kolumner (endast datavyn)**: Dra rubriken om du vill flytta en kolumn till en annan plats i datarutnätet.
 
 ### Exportera och skriv ut rapporter {#exporting-and-printing-reports}
 
 När du har genererat en rapport kan du exportera dess data för användning i kalkylblad och andra program. Du kan också skriva ut rapporter.
 
-* **Exportera rapportdata**: I datavyn kan du sortera och ordna data efter behov. Öppna sedan **[!UICONTROL Export]** och välj ett format: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]**, eller **[!UICONTROL HTML Formatted]**. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
+* **Exportera rapportdata**: Sortera och ordna data i datavyn efter behov. Öppna sedan menyn **[!UICONTROL Export]** och välj ett format: **[!UICONTROL Tab Delimited]**, **[!UICONTROL Comma Separated]** eller **[!UICONTROL HTML Formatted]**. Data kopieras till Urklipp i det format du väljer. Nu kan du klistra in data i ett kalkylblad eller program.
 
-* **Skriva ut en rapport**: Välj **[!UICONTROL Print]** väljer du önskade alternativ i dialogrutan Skriv ut och väljer sedan **[!UICONTROL OK]**.
+* **Skriv ut en rapport**: Välj **[!UICONTROL Print]**, välj önskade alternativ i dialogrutan Skriv ut och välj sedan **[!UICONTROL OK]**.
 
 ## Bildfel {#image-errors}
 
@@ -232,11 +232,11 @@ De fel som visas gäller det företag som du är inloggad på. Varje fel innehå
 
 * **Bild-ID**: ID för den felaktiga bilden.
 
-* **Tid**: Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, under de senaste 24 timmarna.
+* **Tid**: Tidsintervallet för den första gången som felet rapporterades till den senaste gången felet rapporterades, inom de senaste 24 timmarna.
 
-* **Antal**: Antalet fel som rapporterats i bilden.
+* **Antal**: Antalet rapporterade fel i bilden.
 
-* **Svar**: Felmeddelandet. Felen är antingen 4xx eller 5xx.
+* **Svar**: Det specifika felmeddelandet. Felen är antingen 4xx eller 5xx.
 
 * **URL:er**: Visar URL:en till bilden på Adobe Dynamic Media Classic.
 

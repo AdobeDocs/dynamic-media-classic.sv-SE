@@ -27,13 +27,13 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
 1. Markera bildens redigeringsknapp för överrullning och välj Justera, eller dubbelklicka på bilden i panelen Bläddra så att den öppnas i detaljvyn.
 1. Välj en storlek och en bildförinställning (längst ned i fönstret).
-1. Använda kommandona till höger i dialogrutan `Adjust Editor` så att du kan justera bilden:
+1. Använd kommandona till höger i fönstret `Adjust Editor` så att du kan justera bilden:
 
    * Använd alternativen Vänd för att vända en bild vågrätt eller lodrätt.
    * Använd skjutreglaget Rotera för att rotera bilden. Du kan ange värden i fältet Rotera om du vill rotera en bild. Positiva värden roterar det medsols och negativa värden roterar det motsols.
    * Använd reglaget Oskärpa eller motsvarande ruta för att göra en bild oskarp. Ju högre värde, desto suddigare blir bilden.
    * Använd alternativen Kontrast, Intensitet, Mättnad, Nyans och Färgbalans för att justera färg och intensitet. Dessa effekter är kumulativa. Till exempel läggs ändringar i inställningarna för Magenta/Grönt till i ändringarna av nyansinställningarna.
-   * Använd `Colorize` alternativ för att färglägga en bild samtidigt som skuggor och högdagrar bevaras. Ändringar av färgalternativen är också kumulativa. På menyn Intensitet väljer du **[!UICONTROL No Compensation]** så att du inaktiverar automatisk ljusstyrkekompensation. Ange kontrastvärdet 0 om du vill bevara det ursprungliga bildens kontrastintervall, eller ange ett kontrastintervall med ett värde som är större än 0. Värdet 100 maximerar kontrasten. Normala värden ligger i intervallet 30-70.
+   * Använd alternativen för `Colorize` om du vill färglägga en bild samtidigt som skuggor och högdagrar bevaras. Ändringar av färgalternativen är också kumulativa. Välj **[!UICONTROL No Compensation]** på menyn Intensitet så att du inaktiverar automatisk intensitetskompensation. Ange kontrastvärdet 0 om du vill bevara det ursprungliga bildens kontrastintervall, eller ange ett kontrastintervall med ett värde som är större än 0. Värdet 100 maximerar kontrasten. Normala värden ligger i intervallet 30-70.
 
 1. När du har justerat bilden gör du något av följande:
 
@@ -41,29 +41,29 @@ Se även [Skapa ett alias för en bild](adjusting-image.md#creating_an_alias_for
 
    * Om du vill ersätta originalbilden väljer du **[!UICONTROL Save As]**.
 
-     Välj **[!UICONTROL Replace original]** och sedan markera **[!UICONTROL Save]**.
+     I listrutan väljer du **[!UICONTROL Replace original]** och sedan **[!UICONTROL Save]**.
 
    * Om du vill spara bilden som en ny primär bild väljer du **[!UICONTROL Save As]**.
 
-     Välj **[!UICONTROL Save as a new primary]**.
-I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
+     Välj **[!UICONTROL Save as a new primary]** i listrutan.
+I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill att den nya primära bilden ska sparas.
 Välj **[!UICONTROL Save]**.
 
    * Spara bilden som en annan vy av den primära bilden. du kan skapa ett alias för det. Välj **[!UICONTROL Save As]**.
 
-     Från listrutan i dialogrutan **[!UICONTROL Save As]** väljer **[!UICONTROL Save as another view of primary]**.
-I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den nya primära bilden.
+     Välj **[!UICONTROL Save as another view of primary]** i listrutan i dialogrutan **[!UICONTROL Save As]**.
+I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill att den nya primära bilden ska sparas.
 Välj **[!UICONTROL Save]**.
 
 ## Skapa ett alias för en bild {#creating-an-alias-for-an-image}
 
-När du har justerat en bild kan du spara den som en annan vy av den primära bilden. Om du vill göra det kan du skapa ett alias för bilden med **[!UICONTROL Save as another view of the primary]** -funktion.
+När du har justerat en bild kan du spara den som en annan vy av den primära bilden. Om du vill göra det kan du skapa ett alias för bilden med funktionen **[!UICONTROL Save as another view of the primary]**.
 
 **Så här skapar du ett alias för en bild:**
 
-1. I stödrastervyn eller listvyn i **[!UICONTROL Edit]** bredvid en bild som du vill skapa ett alias för väljer du **[!UICONTROL Adjust]**.
-1. Välj i det nedre högra hörnet på sidan **[!UICONTROL Save As]**.
-1. Från listrutan i dialogrutan **[!UICONTROL Save As]** väljer **[!UICONTROL Save as another view of primary]**.
-1. I **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den utjämnade bilden.
-1. I **[!UICONTROL File Name]** anger du namnet som du vill använda för aliaset.
+1. Välj **[!UICONTROL Adjust]** i rutnätsvyn eller listvyn i listrutan **[!UICONTROL Edit]** bredvid en bild som du vill skapa ett alias för.
+1. Välj **[!UICONTROL Save As]** i sidans nedre högra hörn.
+1. Välj **[!UICONTROL Save as another view of primary]** i listrutan i dialogrutan **[!UICONTROL Save As]**.
+1. I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den utjämnade bilden.
+1. I fältet **[!UICONTROL File Name]** anger du namnet som du vill använda för aliaset.
 1. Välj **[!UICONTROL Save]**.

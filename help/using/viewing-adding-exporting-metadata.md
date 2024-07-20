@@ -33,13 +33,13 @@ Om du vill visa metadata för en resurs öppnar du resursen i detaljvyn och tryc
 
 * **Kompakt vy**: En grundläggande lista med värden.
 
-* **IPTC**: Värden enligt International Press Telecommunications Council.
+* **IPTC**: Värden som definierats av International Press Telecommunications Council.
 
 * **XMP**: Värden som definieras av det utökningsbara metadataprogrammet.
 
 Administratörer kan skapa metadatavyer. De här vyerna visas även på menyn Metadatavyer.
 
-Se [Metadatavyer](application-setup.md#metadata_views) om du vill ha information om hur du skapar metadatavyer.
+Mer information om hur du skapar metadatavyer finns i [Metadatavyer](application-setup.md#metadata_views).
 
 ## Ange metadata för en resurs manuellt {#manually-enter-metadata-for-an-asset}
 
@@ -65,14 +65,14 @@ Om du har lagt till nyckelord till andra filer under den här sessionen, eller o
 1. Välj **[!UICONTROL Keywords]**.
 1. Gör något av följande om du vill lägga till nyckelord:
 
-   * Skriv ett nyckelord i textrutan och markera **[!UICONTROL Add]**.
-   * Markera ett nyckelord i **[!UICONTROL Keyword Suggestions]** tabell.
+   * Skriv ett nyckelord i textrutan och välj **[!UICONTROL Add]**.
+   * Markera ett nyckelord i tabellen **[!UICONTROL Keyword Suggestions]**.
 
 1. Om du vill ta bort ett nyckelord markerar du det och väljer **[!UICONTROL Remove]**. Det går vidare till tabellen Nyckelordsförslag.
 
 >[!NOTE]
 >
->Du kan lägga till nyckelord till filer när du överför dem till Adobe Dynamic Media Classic. I dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL More Metadata]** och ange nyckelord.
+>Du kan lägga till nyckelord till filer när du överför dem till Adobe Dynamic Media Classic. I dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL More Metadata]** och anger nyckelord.
 >Se [Överföringsalternativ](uploading-files.md#upload_options).
 
 ## Importera metadata {#import-metadata}
@@ -88,8 +88,8 @@ Mer information om standardiserade egenskaper finns på [Adobe XMP Developer Cen
 
 1. På panelen Bläddra väljer du de bilder som du vill lägga till metadata för från den tabbavgränsade filen eller XML-filen.
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Import Metadata]**.
-1. I **[!UICONTROL Upload Metadata]** väljer **[!UICONTROL Browse]**.
-1. I **[!UICONTROL Select files to upload]** markerar du den tabbavgränsade filen eller XML-filen med metadata.
+1. Välj **[!UICONTROL Browse]** i dialogrutan **[!UICONTROL Upload Metadata]**.
+1. I dialogrutan **[!UICONTROL Select files to upload]** väljer du den tabbavgränsade eller XML-fil som innehåller metadata.
 1. Ange ett jobbnamn.
 1. Välj **[!UICONTROL Upload]**.
 
@@ -97,17 +97,17 @@ Mer information om standardiserade egenskaper finns på [Adobe XMP Developer Cen
 
 Tänk på följande när du identifierar olika metadatatyper som ska importeras:
 
-* Namn på användardefinierade fält identifieras som skapade i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL User-Defined fields]**. Använd `Generate file` för att få en lista över alla definierade UDF-filer i rätt importformat.
-* XMP metadataegenskaper måste ha det relaterade XMP-prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Det XMP prefixet finns i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]** redigerare. De tekniska namnen finns i dokumentationen för det relaterade XMP schemat. XMP egenskapsnamn visas inte i `Generate file` -funktion.
-* Egenskaper för metadataschema måste ha det relaterade prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Prefixet och egenskapsnamnen definieras i metadataschredigeraren. Namn på metadataschemaegenskaper visas inte i `Generate file` -funktion.
+* Namn på användardefinierade fält identifieras som skapade i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL User-Defined fields]**. Använd funktionen `Generate file` för att få en lista över alla definierade UDF-filer i rätt importformat.
+* XMP metadataegenskaper måste ha det relaterade XMP-prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Det XMP prefixet finns i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**-redigeraren. De tekniska namnen finns i dokumentationen för det relaterade XMP schemat. XMP egenskapsnamn visas inte i funktionen `Generate file`.
+* Egenskaper för metadataschema måste ha det relaterade prefixet före (egenskap-) namnet. Ett kolon avgränsar prefixet och namnet. Prefixet och egenskapsnamnen definieras i metadataschredigeraren. Namnen på metadataschemaegenskaperna visas inte i funktionen `Generate file`.
 
-Egenskapen XMP för nyckelord är till exempel det XMP schemat &quot;Dublin Core&quot; med prefixet `dc` och `subject` är det tekniska XMP. Prefixet och det tekniska XMP namnet kombineras i `dc:subject` fullständigt egenskapsnamn. I importformatet för XML-metadata `dc.subject` måste vara egenskapsnamnet. I det tabbavgränsade importformatet måste det vara kolumnrubriken.
+Till exempel: Egenskapen XMP för nyckelord är det XMP schemat &quot;Dublin Core&quot; med prefixet `dc` och `subject` är det tekniska XMP. Prefixet och det tekniska XMP namnet kombineras till det fullständiga egenskapsnamnet för `dc:subject`. I XML-metadataimportformatet måste `dc.subject` vara egenskapsnamnet. I det tabbavgränsade importformatet måste det vara kolumnrubriken.
 
 ### Importera nyckelord
 
 Nyckelord kan importeras som kommaavgränsade listor. Om ett kommatecken visas i något av de enskilda värdena kan du undvika det genom att använda ett omvänt snedstreck (\). Ett literalt omvänt snedstreck är det vanliga dubbla snedstrecket (\\).
 
-En metadataimportfil som innehåller värdet `Hello\, World!,back\\slash,foo` for `dc:subject` anger tre XMP nyckelord för resursen: `Hello, World!,` `back\slash,` och `foo`.
+En metadataimportfil som innehåller värdet `Hello\, World!,back\\slash,foo` för `dc:subject` anger till exempel tre XMP nyckelord för resursen: `Hello, World!,` `back\slash,` och `foo`.
 
 ### Importera metadata för XMP och metadatamatchema XMP filer
 
@@ -131,13 +131,13 @@ Du kan importera metadata för flera filer. Du anger metadata i en tabbavgränsa
 
 Kontrollera att data i den tabbavgränsade filen eller XML-filen har rätt format. På den första raden anger du ID-fältet följt av namnen på metadatafälten som ska ändras. I varje efterföljande rad anger du ett resurs-ID-namn följt av metadatavärden. Fält som inte finns med i den tabbavgränsade filen eller XML-filen ändras inte.
 
-I fältet Global navigering väljer du **[!UICONTROL Upload]**. Om du vill importera metadata på sidan Överför väljer du **[!UICONTROL Via FTP]** tabbtangenten och sedan välja **[!UICONTROL Job Options]**. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Job]** väljer du **[!UICONTROL Process metadata files]** kryssruta.
+Välj **[!UICONTROL Upload]** i fältet Global navigering. Om du vill importera metadata på sidan Överför väljer du fliken **[!UICONTROL Via FTP]** och sedan **[!UICONTROL Job Options]**. I dialogrutan Alternativ för överföring av jobb markerar du **[!UICONTROL Job]** och markerar sedan kryssrutan **[!UICONTROL Process metadata files]**.
 
 ## Döp om ID:n i grupp med hjälp av metadata {#batch-rename-ids-using-metadata}
 
 Med metadata som importerats från en tabbavgränsad fil eller XML-fil kan du byta namn på Adobe Dynamic Media Classic-ID:n. Importerade metadata används bara för de bilder som anges i själva metadatafilen. Det spelar ingen roll om bilder är markerade på panelen Bläddra.
 
-Om du vill byta namn på en bilds Adobe Dynamic Media Classic-ID lägger du till en kolumn med etiketten *newipsid* till den tabbavgränsade filen eller lägg till ett fält med namnet `new_vc_objectname` till XML-data.
+Om du vill byta namn på en bilds Adobe Dynamic Media Classic-ID lägger du till en kolumn med namnet *newipsid* i den tabbavgränsade filen eller lägger till ett fält med namnet `new_vc_objectname` i XML-data.
 
 Till exempel:
 
@@ -154,14 +154,14 @@ I Adobe Dynamic Media Classic finns ett kommando för att skapa en mall för att
 
 1. Välj bildresurser med metadatafält som du vill använda för mallen.
 1. Gå till **[!UICONTROL File]** > **[!UICONTROL Import Metadata]**.
-1. För **[!UICONTROL Asset Properties Type]**, markera **[!UICONTROL Image]**.
-1. Från **[!UICONTROL `Generate File`]** nedrullningsbar lista, välja **[!UICONTROL Tab-delimited Template]**, **[!UICONTROL Asset's XML Metadata]**, eller **[!UICONTROL XML DTD]**.
+1. För **[!UICONTROL Asset Properties Type]** väljer du **[!UICONTROL Image]**.
+1. Välj **[!UICONTROL Tab-delimited Template]**, **[!UICONTROL Asset's XML Metadata]** eller **[!UICONTROL XML DTD]** i listrutan **[!UICONTROL `Generate File`]**.
 1. Välj **[!UICONTROL Generate]**.
 1. Kopiera data i dialogrutan som visas. Använd dessa data för att konstruera mallen.
 
 ## Arbeta med metadatascheman {#working-with-metadata-schemas}
 
-En företagsadministratör kan visa en lista med alla tillgängliga scheman. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]**.
+En företagsadministratör kan visa en lista med alla tillgängliga scheman. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Metadata]** > **[!UICONTROL Metadata Schema]** i fältet Global navigering.
 
 Till att börja med är listan med globala standardscheman som XMP dold. De kan visas med hjälp av kryssrutan längst ned i listan.
 
@@ -187,11 +187,11 @@ Metadata Schema Editor är ett grafiskt sätt att lägga till eller redigera ett
 
 * **[!UICONTROL Name]**: Schemats gränssnittsnamn. Används för att identifiera egenskaperna i metadatavyer och avancerad sökning. Liknar XMP avsnitt som Basic, IPTC, PDF.
 
-* **[!UICONTROL Prefix]**: Tekniskt unikt ID för schemat. Begränsat till bokstäverna a-z och A-Z. Prefixet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används när metadata för en resurs lagras i XMP och i databasen. Prefixet identifierar enkelt metadatafält i metadatasökning på metadataservern eller import.
+* **[!UICONTROL Prefix]**: Teknisk unik identifierare för schemat. Begränsat till bokstäverna a-z och A-Z. Prefixet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används när metadata för en resurs lagras i XMP och i databasen. Prefixet identifierar enkelt metadatafält i metadatasökning på metadataservern eller import.
 
-* **[!UICONTROL Namespace]**: Teknisk unik identifierare för schemat, vanligtvis en URL i formuläret `https://your.company.com/name/version/`. Se listan med standardscheman för exempel. Namnutrymmet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används för att lagra metadata i XMP.
+* **[!UICONTROL Namespace]**: Teknisk unik identifierare för schemat, vanligtvis en URL i formatet `https://your.company.com/name/version/`. Se listan med standardscheman för exempel. Namnutrymmet visas inte i Adobe Dynamic Media Classic-gränssnittet, men används för att lagra metadata i XMP.
 
-* **[!UICONTROL Description]**: Beskrivning av schemat i fritt format.
+* **[!UICONTROL Description]**: Beskrivning av schemat i fri form.
 
 >[!NOTE]
 >
@@ -201,7 +201,7 @@ Egenskaper beskriver de metadata som kan lagras med det här schemat i XMP. En e
 
 | Egenskap | Beskrivning |
 | --- | --- |
-| ID | Teknisk identifierare för den här egenskapen. ID:t visas inte i Adobe Dynamic Media Classic-gränssnittet, men används när metadata för en resurs lagras i XMP och i databasen. ID:t används för att skapa sökfrågor på metadataservern. ID:t har vissa begränsningar som: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>När du har skapat det går det inte att ändra ID:t. |
+| ID | Teknisk identifierare för den här egenskapen. ID:t visas inte i Adobe Dynamic Media Classic-gränssnittet, men används när metadata för en resurs lagras i XMP och i databasen. ID:t används för att skapa sökfrågor på metadataservern. ID:t har vissa begränsningar som: `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>När det har skapats går det inte att ändra ID:t. |
 | Etikett | Användargränssnittsnamn för den här egenskapen. |
 | Struktur | Bestämmer egenskapens typ tillsammans med datatypen. Strukturen kan vara någon av:<ul><li>Enkel typ: ett värde för datatypen</li><li>Sekvens: en lista med värden av samma datatyp</li><li>Öppna alternativ: markera ett objekt i en lista med fördefinierade värden eller ange text. Det kan bara vara av datatypen String eller Integer</li><li>Stängt alternativ: välj ett objekt i en lista med fördefinierade värden (ett popup-fönster eller kombinationsruta)</li></ul> |
 | Datatyp | Välj bland följande tillgängliga typer: <ul><li>Sträng</li><li>Heltal</li><li>Float</li><li>Ja/Nej (booleskt)</li><li>Datum</li></ul> |

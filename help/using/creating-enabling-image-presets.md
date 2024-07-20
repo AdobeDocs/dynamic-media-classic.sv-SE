@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Skapa och aktivera bildförinställningar{#creating-and-enabling-image-presets}
 
-När användare exporterar bildresurser med Media Portal kan de välja en bildförinställning i dialogrutan Exportera markerade resurser. En bildförinställning är en samling fördefinierade inställningar. Dessa inställningar kan ändra storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
+När användare exporterar bildresurser med Media Portal kan de välja en bildförinställning i dialogrutan Exportera markerade Assets. En bildförinställning är en samling fördefinierade inställningar. Dessa inställningar kan ändra storlek, bildkvalitet, format, upplösning och andra aspekter av en bilds utseende när den exporteras.
 
 Administratörer för Media Portal kan skapa bildförinställningar som styr hur bilder formateras om när de exporteras. Bildförinställningar formaterar bilderna enligt ditt företags specifikationer när användare exporterar bilder från Adobe Dynamic Media Classic. I stället för att bara formatera om bilder exporterar användarna dem till de exakta specifikationerna för en bildförinställning.
 
@@ -33,8 +33,8 @@ Följande begränsningar gäller när du exporterar bildresurser:
 >
 >Dessa begränsningar gäller endast export av härledda bildresurser, inte export av primära filer.
 
-Information om hur du skapar bildförinställningar finns i [Bildförinställningar](application-setup.md#image_presets).
+Mer information om hur du skapar bildförinställningar finns i [Bildförinställningar](application-setup.md#image_presets).
 
-Om du vill att användare ska kunna välja bildförinställningar när de exporterar filer läser du [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+Information om hur du gör det möjligt för användare att välja bildförinställningar när de exporterar filer finns i [Ange exportalternativ som är tillgängliga för Media Portal-användare](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
-Om du vill välja vilka bildförinställningar som ska vara tillgängliga för medlemmarna i en grupp går du till [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
+Om du vill välja vilka bildförinställningar som ska vara tillgängliga för medlemmarna i en grupp går du till [Välja åtkomstbehörigheter för bildförinställningar för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).

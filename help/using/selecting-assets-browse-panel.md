@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Markera en resurs i panelen Bläddra så att du kan arbeta med den. Använd dessa tekniker för att välja resurser:
 
-* **En enda tillgång**: Markera resursen (genom att dubbelklicka på den öppnas resursen i detaljvyn).
+* **En enskild resurs**: Markera resursen (genom att dubbelklicka öppnas resursen i detaljvyn).
 
 * **Flera resurser**: Ctrl-klicka (Windows®) eller Kommando-klicka (Mac) på resurser om du vill markera resurser på olika platser i panelen Bläddra. Skift-klicka (klicka på en resurs och Skift-klicka sedan på en annan) för att markera närliggande resurser.
 

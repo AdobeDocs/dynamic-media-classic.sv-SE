@@ -26,36 +26,36 @@ Förinställningar för eCatalog Viewer ger många inställningar för att gå f
 
 Följ de här stegen för att skapa en eCatalog Viewer-förinställning (du måste vara administratör):
 
-1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering.
 1. Skapa en visningsförinställning för eCatalog genom att starta en ny förinställning eller genom att starta från en befintlig visningsförinställning för eCatalog:
 
    * **Skapa en förinställning för eCatalog Viewer**: Välj **[!UICONTROL Add]**. I dialogrutan Lägg till visningsförinställning väljer du en plattform, väljer eCatalog Viewer och sedan **[!UICONTROL Add]**.
 
-   * **Redigera en förinställning för eCatalog Viewer**: Välj en visningsförinställning för eCatalog och välj sedan **[!UICONTROL Edit]**. Välj **[!UICONTROL Save As]** när du har skapat förinställningen.
+   * **Redigera en eCatalog Viewer-förinställning**: Välj en visningsförinställning för eCatalog och välj sedan **[!UICONTROL Edit]**. Välj **[!UICONTROL Save As]** när du har skapat förinställningen.
 
-1. På `Configure Viewer` anger du ett namn för visningsförinställningen för eCatalog.
-1. På `Configure Viewer` anger du önskade alternativ.
+1. Ange ett namn för visningsförinställningen för eCatalog på sidan `Configure Viewer`.
+1. Ange önskade alternativ på sidan `Configure Viewer`.
 
-   välj **[!UICONTROL Info Tip]** -ikonen bredvid alternativet om du vill läsa dess beskrivning.
+   markera ikonen **[!UICONTROL Info Tip]** bredvid alternativet om du vill läsa dess beskrivning.
 
    På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
-1. (Valfritt) I dialogrutan **[!UICONTROL Info Panel Settings]**, **[!UICONTROL Information Server URL]** kan innehålla följande speciella tokens som används av användaren:
+1. (Valfritt) I **[!UICONTROL Info Panel Settings]** kan alternativet **[!UICONTROL Information Server URL]** innehålla följande specialvariabler, som används av visningsprogrammet:
 
    | Token | Ersatt med | Anteckningar |
    | --- | --- | --- |
-   | `$1$` | rollover_key-värde | Objektidentifieraren från `<area>` kartelementet. |
+   | `$1$` | rollover_key-värde | Objektidentifieraren från mappningens `<area>`-element. |
    | `$2$` | frame | Sekvensnumret för den bildruta som visas i bilduppsättningen. |
    | `$3$` | bildrot | Det första sökvägselementet i det första objektet som anges i bildkommandot (vanligtvis bildkatalog-ID:t för den katalogpost som anger bilduppsättningen). |
 
-1. (Valfritt) I dialogrutan **[!UICONTROL Info Panel Settings]**, i **[!UICONTROL Response Template]** skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för en bildschema. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
+1. (Valfritt) I rutan **[!UICONTROL Info Panel Settings]**, i **[!UICONTROL Response Template]**, skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel vid hämtning av information för en bildschema. Om systemet till exempel tar emot ett företagsnamn och ett eCatalog-namn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
 
 >[!NOTE]
 >
->Om du vill använda den här svarsmallen i stället för mallen som är definierad i själva e-katalogen lägger du till `fmt=1` till slutet av informationsserverns URL. Till exempel: `https://.../$3$/$4$/$1$/?FMT=1`.
+>Om du vill använda den här svarsmallen i stället för mallen som är definierad i själva e-katalogen lägger du till `fmt=1` i slutet av informationsserverns URL. Till exempel: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. Välj **[!UICONTROL Save]**.
-1. Välj **[!UICONTROL Default]** så att den visningsförinställning för eCatalog som du skapade används för att visa e-kataloger på webbsidan.
+1. Välj **[!UICONTROL Default]** så att den visningsförinställning för eCatalog som du skapade är den som används för att visa e-kataloger på webbsidan.
 
 Om du vill ta bort en visningsförinställning för eCatalog markerar du den på skärmen med visningsförinställningar och väljer **[!UICONTROL Delete]**.
 

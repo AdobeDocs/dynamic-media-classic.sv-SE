@@ -31,15 +31,15 @@ Se [Förhandsgranska en resurs](previewing-asset.md#previewing_an_asset).
 1. Navigera i resursmapparna som innehåller bilder som du vill förhandsgranska med ett zoomvisningsprogram i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. Gå till fönstret Resurser, under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL List View]**. I fönstret Resurser väljer du en resurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför Assets-fönstret väljer du **[!UICONTROL Grid View]** till höger om verktygsfältet. I fönstret Resurser, under miniatyrbilden, går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför Assets-fönstret väljer du **[!UICONTROL List View]** till höger om verktygsfältet. Markera en resurs i fönstret Resurser och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Ovanför Assets-fönstret väljer du **[!UICONTROL Detail View]** till höger om verktygsfältet. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
 1. I fönstret Visningsprogramlista i tabellen väljer du en visningsprogramlänk för att förhandsgranska resursen i det valda visningsprogrammet.
 1. Stäng visningsprogrammet som visas.
-1. I det nedre högra hörnet av fönstret Visningsprogramlista väljer du **[!UICONTROL Close]** för att gå tillbaka till skärmen Resurser.
+1. I det nedre högra hörnet av fönstret Visningsprogramlista väljer du **[!UICONTROL Close]** om du vill gå tillbaka till Assets-skärmen.
 
 >[!MORELIKETHIS]
 >
->* [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
+>* [Konfigurera förinställningar för zoomvisningsprogrammet](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets)
 >* [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers)

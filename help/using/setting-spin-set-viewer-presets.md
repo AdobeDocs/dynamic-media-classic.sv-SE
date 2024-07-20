@@ -23,24 +23,24 @@ Använd de förinställda inställningarna för visningsprogrammet för att ange
 
 **Så här skapar du en förinställning för Snurra uppsättning:**
 
-1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering.
 1. Gör något av följande:
 
-   * Om du vill skapa en förinställning väljer du **[!UICONTROL Add]**, välj en plattform i dialogrutan Lägg till visningsförinställning och välj sedan **[!UICONTROL Spin Set Viewer]**.
-   * Om du vill redigera en befintlig förinställning för Snurra uppsättning väljer du förinställningen och sedan **[!UICONTROL Edit]**.
+   * Om du vill skapa en förinställning väljer du **[!UICONTROL Add]**, väljer en plattform i dialogrutan Lägg till visningsförinställning och väljer sedan **[!UICONTROL Spin Set Viewer]**.
+   * Om du vill redigera en befintlig förinställning för Snurra uppsättning för visningsprogram markerar du förinställningen och väljer sedan **[!UICONTROL Edit]**.
 
-1. På `Configure Viewer` skriver du ett namn i rutan Förinställningsnamn för visningsförinställningen för den nya uppsättningen.
-1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ väljer du **[!UICONTROL Info Tip]** -ikonen bredvid alternativet.
+1. På sidan `Configure Viewer` skriver du ett namn i rutan Förinställningsnamn för visningsförinställningen för den nya uppsättningen.
+1. Ange andra alternativ efter behov. Om du vill visa en beskrivning av ett alternativ väljer du ikonen **[!UICONTROL Info Tip]** bredvid alternativet.
 
    På sidan Förhandsgranska visas visningsprogrammet när du uppdaterar och ändrar inställningar.
 
 1. Välj **[!UICONTROL Save]**.
 
-Välj **[!UICONTROL Make Default]** om du vill göra den förinställning för Snurra uppsättning för visning som du skapade till företagets standardinställning för att visa snurra uppsättningar.
+Välj **[!UICONTROL Make Default]** om du vill göra den förinställning för snurrningsvisning som du skapade till företagets standardinställning för att visa snurruppsättningar.
 
 Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_default_viewers).
 
-Om du vill ta bort en förinställning för Snurra uppsättning för visningsprogram markerar du den på sidan med visningsförinställningar och väljer sedan **[!UICONTROL Delete]**.
+Om du vill ta bort en förinställning för Snurra uppsättning för visningsprogram markerar du den på sidan Visningsförinställningar och väljer sedan **[!UICONTROL Delete]**.
 
 >[!MORELIKETHIS]
 >

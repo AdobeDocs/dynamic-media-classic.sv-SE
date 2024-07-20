@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Personliga inställningar {#personal-setup}
 
-Alla användare kan ändra inställningarna på skärmen Personliga inställningar. Öppna skärmen Personliga inställningar på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
+Alla användare kan ändra inställningarna på skärmen Personliga inställningar. Öppna skärmen Personliga inställningar genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 
 >[!NOTE]
 >
 >På skärmen Personliga inställningar visas vilken användarroll du har i Adobe Dynamic Media Classic: Företagsadministratör, Administratör eller Användare.
 
-Inställningarna för personliga inställningar styr standardbeteendet för panelen Bläddra, hur du tar emot e-post och lösenordsinställningar. Kom ihåg att markera **[!UICONTROL Save]** när du har ändrat dessa inställningar.
+Inställningarna för personliga inställningar styr standardbeteendet för panelen Bläddra, hur du tar emot e-post och lösenordsinställningar. Kom ihåg att markera **[!UICONTROL Save]** när du har ändrat de här inställningarna.
 
 ## Min kontoinformation
 
@@ -43,10 +43,10 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Creative Suite-tillägg
 
-**Så här installerar du Adobe Dynamic Media Creative Suite Extension:**
+**Så här installerar du tillägget Adobe Dynamic Media Creative Suite:**
 
-1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**, under Creative Suite Extension, markera **[!UICONTROL Download Now]** för att ladda ned `s7csxs.zxp` -fil.
-1. Välj **[!UICONTROL Installation]** och **[!UICONTROL System Requirements]** länkar om du vill ha mer information om tillägget.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** i verktygsfältet i Adobe Dynamic Media Classic och välj **[!UICONTROL Download Now]** under Creative Suite Extension för att hämta `s7csxs.zxp`-filen.
+1. Markera länkarna **[!UICONTROL Installation]** och **[!UICONTROL System Requirements]** om du vill ha mer information om tillägget.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
@@ -72,36 +72,36 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## Webbläsare
 
-* **[!UICONTROL Thumbnail Size]**: Bestämmer standardstorleken för miniatyrbilder i Stödrastervisning i panelen Bläddra.
-* **[!UICONTROL Default Asset Library View]**: Avgör om resurserna i resursbiblioteket för uppsättningar visas som miniatyrer eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
-* **[!UICONTROL Default Browse Sort Order]**: Bestämmer i vilken ordning som resurser visas som standard i panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
-* **[!UICONTROL Default Browse Location]**: Gör att du kan ange att bläddringsplatsen ska vara standard, den senast öppnade mappen eller en viss plats som du kan navigera till och identifiera. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
-* **[!UICONTROL Default Browse View]**: Avgör om stödrastervyn eller listvyn är standardvyn som du ser när du först öppnar panelen Bläddra.
-* **[!UICONTROL Splash Screen Display]**: Avgör om det visas några välkomstskärmar, inklusive välkomstvälkomstskärmen.
-* **[!UICONTROL Show ToolTips]**: Avgör om verktygstips ska visas när du flyttar pekaren över knappar, menyer och navigeringslänkar. Verktygstips beskriver gränssnittsobjekt på skärmen.
+* **[!UICONTROL Thumbnail Size]**: Anger standardstorleken för miniatyrbilder i Stödrastervisning i panelen Bläddra.
+* **[!UICONTROL Default Asset Library View]**: Avgör om resurserna i resursbiblioteket för uppsättningar visas som miniatyrbilder eller efter namn. Om du arbetar med stora mängder resurser i resursbiblioteket kan du visa resurserna efter namn. Om du till exempel skapar en stor e-katalog med många PDF-filer kan du visa resurserna efter namn för att göra listan kortare.
+* **[!UICONTROL Default Browse Sort Order]**: Anger i vilken ordning resurser visas som standard i panelen Bläddra. Välj ett sorteringsvillkor på menyn och om du vill ha en stigande eller fallande sortering.
+* **[!UICONTROL Default Browse Location]**: Gör att du kan ange bläddringsplatsen till standardplatsen, den senast bläddrade mappen eller till en specifik plats som du navigerar till och identifierar. Du kan också ange bläddringsplats för att sortera filerna och mapparna i stigande eller fallande ordning.
+* **[!UICONTROL Default Browse View]**: Avgör om Stödrastervisning eller Listvy är standardvyn som du ser när du först öppnar panelen Bläddra.
+* **[!UICONTROL Splash Screen Display]**: Avgör om du ser några välkomstskärmar, inklusive välkomstvälkomstskärmen.
+* **[!UICONTROL Show ToolTips]**: Anger om verktygstips ska visas när du flyttar pekaren över knappar, menyer och navigeringslänkar. Verktygstips beskriver gränssnittsobjekt på skärmen.
 * **[!UICONTROL Checkerboard Background]**: Visar ett schackbrädlager bakom bilder, så att du enkelt kan se de genomskinliga områdena i en bild som har en alfakanal.
 * **[!UICONTROL Show File Size]**: Visar filstorleken för en resurs när du bläddrar.
-* **[!UICONTROL Include UDFs in Search]**: För att förbättra systemprestanda för de flesta metadatasökningar som du kör avmarkerat (standard).
+* **[!UICONTROL Include UDFs in Search]**: Avmarkerat (standard) om du vill förbättra systemprestanda för de flesta metadatasökningar som du kör.
 
   Om de flesta av dina metadatasökningar har nytta av att inkludera användardefinierade fält kan du välja det här alternativet för att aktivera det. Alternativt kan du använda Avancerad sökning för att få en mer riktad och snabbare sökupplevelse än om du inkluderar användardefinierade fält.
 
-  Se [Använda avancerad sökning](searching-assets.md#conducting_an_advanced_search).
+  Se [Avancerad sökning](searching-assets.md#conducting_an_advanced_search).
 
   Se även [Användardefinierade fält](application-setup.md#user_defined_fields).
 
-* **[!UICONTROL Basic Search Type]**: Du kan välja mellan två alternativ: **[!UICONTROL Contains]** söker igenom hela strängen efter det angivna värdet, **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som är inställd i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]** av administratören.
-* **[!UICONTROL Show Command Feedback]**: Välj att aktivera visning av kommandobegäranden till servern och avmarkera för att stänga av.
+* **[!UICONTROL Basic Search Type]**: Du kan välja mellan två alternativ: **[!UICONTROL Contains]** söker i den fullständiga strängen efter det angivna värdet; **[!UICONTROL StartsWith]** söker från början av strängen och returnerar resultat snabbare än **[!UICONTROL Contains]**. Båda alternativen åsidosätter standardinställningen som ställs in av administratören i **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Application General Settings]**.
+* **[!UICONTROL Show Command Feedback]**: Välj det här alternativet om du vill aktivera visning av kommandobegäranden på servern. Avmarkera alternativet om du vill stänga av.
 * **[!UICONTROL Show Dialog During Export]**: Välj det här alternativet om du vill visa en popup-dialogruta under en export. Om du avmarkerar (inaktiverar) det här alternativet kan du fortfarande gå till sidan Jobb för att hämta resultaten av din export.
 
 ## E-post
 
-* **[!UICONTROL Email Options]**: Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben är klara. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
-* **[!UICONTROL Email Scope]**: Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller endast e-post om överförings- och publiceringsjobb som du initierar.
+* **[!UICONTROL Email Options]**: Välj hur du vill att Adobe Dynamic Media Classic ska informera dig via e-post när överförings- och publiceringsjobben har slutförts. Du kan bara få meddelanden om slutförda jobb om varningar eller fel inträffar.
+* **[!UICONTROL Email Scope]**: Avgör om du får alla jobbmeddelanden via e-post till ditt företag eller bara e-post om överförings- och publiceringsjobb som du initierar.
 * **[!UICONTROL Email Types]**: Avgör om du får information när överföringsjobb och publiceringsjobb har slutförts.
 
 ## Språk
 
-* **[!UICONTROL Preferred Language]**: Bestämmer vilket språk som ska användas för gränssnittet.
+* **[!UICONTROL Preferred Language]**: Anger vilket språk som ska användas för gränssnittet.
 
 ## Lösenord
 
@@ -113,4 +113,4 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
    * Innehåller minst en siffra.
    * Innehåller minst ett av följande specialtecken: `# $ &: _ : { }`
 * **[!UICONTROL Re-Type Password]**: Ange det nya lösenordet igen för att bekräfta att du har angett det korrekt.
-* **[!UICONTROL Password Expiration]**: Fastställer om ditt lösenord upphör att gälla efter 72 dagar som en säkerhetsåtgärd. Om du väljer Ja ombeds du skapa ett lösenord efter 72 dagar.
+* **[!UICONTROL Password Expiration]**: Anger om ditt lösenord upphör att gälla efter 72 dagar som en säkerhetsåtgärd. Om du väljer Ja ombeds du skapa ett lösenord efter 72 dagar.

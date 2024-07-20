@@ -37,7 +37,7 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
 1. Välj **[!UICONTROL InfoPanel Setup]**.
 1. Gör något av följande i listrutan Svarsmall:
 
-   * Välj om du vill använda standardsvaret **[!UICONTROL Default]**. XML-koden för malldesignen visas nedtonad i textrutan Användarmall.
+   * Välj **[!UICONTROL Default]** om du vill använda standardsvaret. XML-koden för malldesignen visas nedtonad i textrutan Användarmall.
    * Om du vill skapa en egen svarsmall väljer du **[!UICONTROL Custom]**. Skriv XML-malldefinitionen i textrutan Användarmall. Du kan använda standardmallen som redan är definierad i textrutan som bas för ditt eget svar.
 
 1. (Valfritt) I rutan Standardsvar skriver du den text som du vill ska visas om Adobe Dynamic Media Classic stöter på ett fel när information hämtas för en bildschema. Om systemet till exempel får ett företagsnamn och ett bilduppsättningsnamn, men ingen rollover-identifierare, visas det här meddelandet för användaren.
@@ -46,12 +46,12 @@ Du kan välja en av tre förinställda svarsmallar för att visa text på en inf
    * Ange ett lägre värde om data uppdateras ofta under dagen.
    * Ange ett högre värde om data är relativt stabila och inte behöver uppdateras ofta under dagen. Standardvärdet är tio timmar.
 
-1. Välj **[!UICONTROL Upload]** om du vill överföra innehåll i panelen Info, baserat på rollover_key-värdet, till s7info.
+1. Välj **[!UICONTROL Upload]** om du vill överföra innehållet i informationspanelen, baserat på rollover_key-värdet, till s7info.
 1. I dialogrutan S7Info Upload bläddrar du till filen som du vill använda och väljer sedan **[!UICONTROL Upload]**.
 
    Filformat som stöds är TAB-avgränsade filer med UTF-16-kodning och CSV-filer med ASCII-kodning. För CSV-filer måste tecken som inte är ASCII-tecken vara HTML-kodade.
 
-1. På panelen InfoPanel Setup väljer du **[!UICONTROL Publish]**.
+1. Välj **[!UICONTROL Publish]** på InfoPanel-inställningspanelen.
 
 ## Importera källinnehåll för Info-panelen i Bilduppsättningar {#import-source-content-for-the-info-panel-in-image-sets}
 
@@ -70,6 +70,6 @@ Tänk på följande när du formaterar källinnehåll:
 1. I textfältet Externt hosted CSV file location (HTTP) anger du URL:en till CSV-filen.
 1. (Valfritt) I fältet Schemalägg uppdatering anger du en tid för att uppdatera innehållet och väljer sedan **[!UICONTROL Add]**.
 
-   Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i textrutan Uppdateringstider. Om du vill ta bort en schemalagd tid markerar du den och väljer **[!UICONTROL Delete]**.
+   Du kan välja flera gånger för uppdatering. Varje uppdateringstid visas i textrutan Uppdateringstider. Om du vill ta bort en schemalagd tid markerar du den och väljer sedan **[!UICONTROL Delete]**.
 
-1. (Valfritt) Välj **[!UICONTROL Run Update]** så att du kan uppdatera innehållet direkt.
+1. (Valfritt) Välj **[!UICONTROL Run Update]** så att du kan uppdatera innehållet omedelbart.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Lägga till och hantera Media Portal-användare{#adding-and-managing-media-portal-users}
 
-Som administratör kan du lägga till och hantera användare, bestämma om de ska kunna ändra lösenord, redigera användarinformation och överföra användarlistor. Dessa åtgärder utförs på skärmen Användaradministration. Om du vill komma åt den här skärmen går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
+Som administratör kan du lägga till och hantera användare, bestämma om de ska kunna ändra lösenord, redigera användarinformation och överföra användarlistor. Dessa åtgärder utförs på skärmen Användaradministration. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]** för att komma åt den här skärmen.
 
 >[!NOTE]
 >
@@ -30,20 +30,20 @@ Som administratör kan du lägga till och hantera användare, bestämma om de sk
 Användare, medarbetare och medverkande på Media Portal får ett välkomstmeddelande med ett lösenord när du registrerar dem. Administratörer kan bestämma om Media Portal-användare ska kunna ändra det här lösenordet.
 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL General Settings]**.
-1. Markera eller avmarkera på sidan Allmänna inställningar **[!UICONTROL Allow Media Portal user to change Password]**.
+1. Markera eller avmarkera **[!UICONTROL Allow Media Portal user to change Password]** på sidan Allmänna inställningar.
 1. Välj **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Användare av Media Portal som får ändra lösenord kan göra det genom att markera **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** och ändra lösenord på skärmen Personliga inställningar.
+>Medieportalanvändare som får ändra lösenord kan göra det genom att välja **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** och ändra lösenord på skärmen Personliga inställningar.
 
 ## Lägg till en mediaportanvändare {#adding-a-media-portal-user}
 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. Välj på sidan Användaradministration **Lägg till**.
-1. I **[!UICONTROL `Add User`]** på panelen Användarinformation anger du användarens förnamn, efternamn och e-postadress och väljer sedan **[!UICONTROL Next]**.
+1. Välj **Lägg till** på sidan Användaradministration.
+1. I dialogrutan **[!UICONTROL `Add User`]** anger du användarens förnamn, efternamn och e-postadress på panelen Användarinformation och väljer sedan **[!UICONTROL Next]**.
 1. På panelen Företag/Roll i listrutan Företag väljer du ett eller flera företag för användaren.
-1. Välj en mediaportal-roll i rolllistan och välj sedan **[!UICONTROL Next]**.
+1. I rolllistan väljer du en mediaportalroll och sedan **[!UICONTROL Next]**.
 
    Se [Användarroller för mediaportal](media-portal-user-roles.md#media_portal_user_roles).
 
@@ -51,9 +51,9 @@ Användare, medarbetare och medverkande på Media Portal får ett välkomstmedde
 
    Se [Skapa och hantera medieportalgrupper](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
-1. (Valfritt) Välj **[!UICONTROL Email Settings]** om du vill välja e-postinställningar som skiljer sig från standardinställningarna.
+1. (Valfritt) Välj **[!UICONTROL Email Settings]** om du vill välja andra e-postinställningar än standardinställningarna.
 
-   Se [Konfigurera e-postmeddelandet med välkomstmeddelanden för Media Portal-användare](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
+   Se [Konfigurera välkomstmeddelandet för Media Portal-användare](adding-media-portal-users.md#setting_up_the_welcome_e_mail_message_for_media_portal_users).
 
 1. Välj **[!UICONTROL Add User]**.
 
@@ -89,7 +89,7 @@ I följande exempelkalkylblad visas hur du utformar en CSV-fil:
 
 1. Öppna skärmen Inställningar för användaradministration.
 1. Välj **[!UICONTROL Upload User List]**.
-1. I dialogrutan Välj fil som ska överföras väljer du CSV-filen och väljer sedan **[!UICONTROL Open]**.
+1. I dialogrutan Välj fil som ska överföras markerar du CSV-filen och väljer sedan **[!UICONTROL Open]**.
 
 Varje användare i listan läggs automatiskt till i de angivna grupperna. Ett välkomstmeddelande skickas till varje.
 
@@ -102,7 +102,7 @@ Varje användare i listan läggs automatiskt till i de angivna grupperna. Ett v�
 Du kan visa namn och e-postadresser för Media Portal-användare i ett popup-fönster. Den här listan är användbar om du vill klippa ut och klistra in användarnamn och adresser för användning utanför Media Portal.
 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. I **[!UICONTROL By User Role]** nedrullningsbar lista, välj namnet på en användarroll för Media Portal och välj **[!UICONTROL Refresh]** för att visa namnen på en klass av Media Portal-användare.
+1. I listrutan **[!UICONTROL By User Role]** väljer du namnet på en användarroll för Media Portal och väljer **[!UICONTROL Refresh]** för att visa namnen på en klass av Media Portal-användare.
 1. Välj **[!UICONTROL Popup List]**. Kopiera och klistra in listan.
 
 ## Konfigurera e-postmeddelandet med välkomstmeddelanden för Media Portal-användare {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
@@ -110,14 +110,14 @@ Du kan visa namn och e-postadresser för Media Portal-användare i ett popup-fö
 Du kan skicka ett välkomstmeddelande när du lägger till nya användare, medarbetare och medverkande på Media Portal. Du kan konfigurera det här e-postmeddelandet eller be Adobe Dynamic Media Classic att inte skicka det.
 
 1. Navigera till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Administration Setup]** > **[!UICONTROL User Administration]**.
-1. På skärmen Inställningar för användaradministration väljer du **[!UICONTROL Email Settings]**.
+1. Välj **[!UICONTROL Email Settings]** på skärmen Inställningar för användaradministration.
 1. Ange någon av följande inställningar i dialogrutan E-postinställningar:
 
    * **[!UICONTROL Send Email]**: Avmarkera det här alternativet om du vill informera nya användare via e-post om att du har registrerat dem.
 
-   * **[!UICONTROL Default Password]**: Ange ett tillfälligt lösenord för nya användare, eller lämna fältet tomt om du vill att Adobe Dynamic Media Classic ska generera slumpmässiga lösenord. Användarna uppmanas att ändra lösenord första gången de loggar in.
+   * **[!UICONTROL Default Password]**: Ange ett tillfälligt lösenord för nya användare eller lämna fältet tomt om du vill att Adobe Dynamic Media Classic ska generera slumpmässiga lösenord. Användarna uppmanas att ändra lösenord första gången de loggar in.
 
-   * **[!UICONTROL Replacement URL]**: Ange en annan URL än standardadressen om användarna öppnar Adobe Dynamic Media Classic via en annan URL.
+   * **[!UICONTROL Replacement URL]**: Ange en annan URL än standardadressen om dina användare öppnar Adobe Dynamic Media Classic via en annan URL.
 
 ## Andra användarhanteringsåtgärder {#other-user-management-tasks}
 
@@ -131,6 +131,6 @@ Med början på skärmen Inställningar för användaradministration kan du äve
 
 * **[!UICONTROL Edit user information]**: Ange aktuell information om en användare.
 
-* **[!UICONTROL Create user-defined fields]**: Skapa anpassade, användardefinierade metadatafält som hjälper dig att ordna resurser i Adobe Dynamic Media Classic. Fälten kan också aktiveras eller inaktiveras vid behov.
+* **[!UICONTROL Create user-defined fields]**: Skapa anpassade, användardefinierade metadatafält så att de kan hjälpa dig att ordna resurser i Adobe Dynamic Media Classic. Fälten kan också aktiveras eller inaktiveras vid behov.
 
 Se [Användardefinierade fält](application-setup.md#user_defined_fields).

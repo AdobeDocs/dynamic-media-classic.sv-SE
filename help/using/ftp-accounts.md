@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Hantera FTP-konton{#managing-ftp-accounts}
 
-Endast Media Portal-administratörer kan administrera och hantera FTP-konton. Dessutom är det bara användare med rollen *Media Portal Contributor-User* eller *Media Portal Contributor* kan överföra digitala resurser.
+Endast Media Portal-administratörer kan administrera och hantera FTP-konton. Dessutom kan bara användare med rollen *Media Portal Contributor-User* eller *Media Portal Contributor* överföra digitala resurser.
 
 Kom ihåg att du kan aktivera eller inaktivera befintliga Media Portal-användare via sidan Användaradministration i Administrationsinställningar.
 
@@ -30,7 +30,7 @@ Se [Aktivera eller inaktivera användare](administration-setup.md#activating_or_
 
    Om en användare inte finns med i listan måste du lägga till dem som en Media Portal Admin, en Media Portal Contributor-User eller en Media Portal Contributor via Administrationskonfiguration. När du har lagt till användaren med rätt roll är användarnamnet tillgängligt i listrutan.
 
-   Se [Lägg till en mediaportanvändare](adding-media-portal-users.md#adding_a_media_portal_user).
+   Se [Lägga till en mediaportalanvändare](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. I fälten Lösenord och Bekräfta skriver du lösenordet till FTP-kontot.
 1. Välj **[!UICONTROL Save]** om du vill lägga till kontot i tabellen Befintliga konton.

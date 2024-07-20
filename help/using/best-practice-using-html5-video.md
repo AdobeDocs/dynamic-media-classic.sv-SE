@@ -31,9 +31,9 @@ Genom att kombinera följande funktioner i en enda spelare:
 
 Du kan göra multimediematerialet tillgängligt för både dator- och mobilanvändare. Du får också en smidig videoupplevelse.
 
-Se även [Om HTML5-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) i referenshandboken för visningsprogrammen för Adobe.
+Se även [Om visningsprogram för HTML5](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) i referenshandboken för visningsprogram för Adobe.
 
-Se även [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) utbildningsvideo.
+Se även utbildningsvideon [Visningsförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 ## Spela upp video på stationära datorer och mobila enheter med Adobe Dynamic Media Classic Video Viewer {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
@@ -49,7 +49,7 @@ I följande tabell beskrivs enheten, webbläsaren och uppspelningsmetoden för v
 | Skrivbord | Internet Explorer 11+ | HLS-videoströmning. |
 | Skrivbord | Firefox 23-44 | Progressiv hämtning. |
 | Skrivbord | Firefox 45 eller senare | HLS-videoströmning. |
-| Skrivbord | Krom | HLS-videoströmning. |
+| Skrivbord | Chrome | HLS-videoströmning. |
 | Skrivbord | Safari (Mac) | HLS-videoströmning. |
 | Mobil | Chrome (Android™ 6 eller tidigare) | Progressiv hämtning. |
 | Mobil | Chrome (Android™ 7 eller senare) | HLS-videoströmning. |

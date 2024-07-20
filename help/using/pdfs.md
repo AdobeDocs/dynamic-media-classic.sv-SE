@@ -27,7 +27,7 @@ När du överför en PDF för sidextrahering använder Adobe följande gräns:
 | --- | --- | --- |
 | Högsta antal sidor för PDF som ska övervägas för extrahering | 5000 (för nya överföringar) | 100 (för alla PDF) |
 
-Se även [Dynamic Media begränsningar](/help/using/limitations.md).
+Se även [Dynamic Media-begränsningar](/help/using/limitations.md).
 
 ## Överföringsalternativ för PDF {#pdf-upload-options}
 
@@ -43,7 +43,7 @@ Alternativ för att överföra PDF-filer finns på sidan Överför under Alterna
 
 **[!UICONTROL Extract Links]**: Extraherar länkar från PDF-filerna och konverterar dem till bildscheman som används i en eCatalog Viewer.
 
-**[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]**: Skapar automatiskt en e-katalog från PDF-filen. eCatalog namnges efter den överförda PDF-filen. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
+**[!UICONTROL Auto-Generate eCatalog With Multi-page PDF]**: Skapar automatiskt en e-katalog från filen PDF. eCatalog namnges efter den överförda PDF-filen. (Det här alternativet är bara tillgängligt om du rastrerar PDF-filen när du överför den.)
 
 ### Upplösning
 
@@ -53,17 +53,17 @@ Anger upplösningsinställningen. Den här inställningen avgör hur många pixl
 
 Välj menyn Färgrymd och välj en färgrymd för filen PDF. De flesta PDF-filer har både RGB och CMYK-färgbilder. Färgrymden RGB är att föredra när du vill visa bilden online.
 
-* **[!UICONTROL Detect Automatically]**: Behåller färgrymden för filen PDF.
+* **[!UICONTROL Detect Automatically]**: Behåller färgrymden för PDF-filen.
 
 * **[!UICONTROL Force As RGB]**: Konverterar till färgmodellen RGB.
 
 * **[!UICONTROL Force As CMYK]**: Konverterar till CMYK-färgmodellen.
 
-* **[!UICONTROL Force As Grayscale]**: Konverterar till färgmodellen Gråskala.
+* **[!UICONTROL Force As Grayscale]**: Konverterar till gråskalefärgrymden.
 
 ### Alternativ för färgprofil
 
-* **[!UICONTROL Convert To sRGB]**: Konverterar till sRGB (Standard Red Green Blue). sRGB är den rekommenderade färgrymden för visning av bilder på en webbsida.
+* **[!UICONTROL Convert To sRGB]**: Konverterar till sRGB (röd standardgrön blå). sRGB är den rekommenderade färgrymden för visning av bilder på en webbsida.
 
 * **[!UICONTROL Keep Original Color Space]**: Behåller den ursprungliga färgrymden.
 
@@ -80,7 +80,7 @@ Du kan beskära pixlar med tomt utrymme automatiskt från en PDF-fil när du öv
 
    * **[!UICONTROL Trim Away Based On]**: Välj om du vill beskära baserat på färg eller genomskinlighet:
 
-      * **[!UICONTROL Color]**: Välj alternativet Färg. Välj sedan **[!UICONTROL Corner]** och väljer hörnet på PDF med den färg som bäst motsvarar den färgen på tomrummet som du vill beskära.
+      * **[!UICONTROL Color]**: Välj alternativet Färg. Välj sedan menyn **[!UICONTROL Corner]** och välj hörnet på PDF med den färg som bäst motsvarar den tomrumsfärg som du vill beskära.
 
       * **[!UICONTROL Transparency]**: Välj alternativet Genomskinlighet.
 
@@ -94,7 +94,7 @@ Du kan beskära pixlar med tomt utrymme automatiskt från en PDF-fil när du öv
 
 Du kan ta bort skrivarmärken manuellt från sidorna i en PDF-fil när du överför den.
 
-1. Välj på menyn Beskär **[!UICONTROL Manual]**.
+1. Välj **[!UICONTROL Manual]** på menyn Beskär.
 1. Ange pixelinställningar i textrutorna Överkant, Höger, Underkant och Vänster om du vill beskära från sidans överkant, underkant och sidor.
 
 Hur mycket av sidan som beskärs beror på inställningen för Upplösning PX/tum som du anger för PDF-filen. Anta till exempel att du anger 150 (standard) som upplösnings-PX/tum-inställning. Sedan beskär du 75 pixlar från sidorna. I så fall 0,5 tum. beskärs. Vid 150 pixlar per tum är 75 pixlar lika med en halv tum.

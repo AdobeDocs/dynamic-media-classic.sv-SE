@@ -36,27 +36,27 @@ Du kan hämta en URL-sträng som genereras av en bildförinställning från för
 1. Navigera till resursmappen som innehåller bildresursen som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande:
 
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser väljer du en enda bildresurs och går sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL List View]**. I fönstret Resurser väljer du en enda bildresurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
-   * Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Ovanför Assets-fönstret väljer du **[!UICONTROL Grid View]** till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och går sedan till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** under miniatyrbilden.
+   * Ovanför Assets-fönstret väljer du **[!UICONTROL List View]** till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs och går sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]**.
+   * Ovanför Assets-fönstret väljer du **[!UICONTROL Detail View]** till höger om verktygsfältet. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Image Preset List]** i samma verktygsfält.
 
 1. (Valfritt) I listrutan Bildförinställning väljer du den URL-kodning som ska användas för bildresursens URL när den kopieras i URL-kodningslistan för kopiering av URL-generering.
-1. I fönstret Bildförinställningslista i det övre högra hörnet av förhandsgranskningsfönstret väljer du **[!UICONTROL Copy URL]** för den valda förinställningstypen.
-1. I det nedre högra hörnet av fönstret Bildförinställningslista väljer du **[!UICONTROL Close]** för att gå tillbaka till skärmen Resurser.
+1. Välj **[!UICONTROL Copy URL]** som den valda förinställningstypen i det övre högra hörnet i förhandsgranskningsfönstret i fönstret Bildförinställningslista.
+1. I det nedre högra hörnet av fönstret Bildförinställningslista väljer du **[!UICONTROL Close]** om du vill gå tillbaka till Assets-skärmen.
 
 ### Hämta en URL för bildförinställning från panelen Bläddra {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. Gå till resursmappen som innehåller den bildresurs som du vill förhandsgranska i panelen Resursbibliotek på vänster sida.
-1. Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Grid View]**. I fönstret Resurser väljer du en enda bildresurs.
-1. Ovanför fönstret Resurser, till höger om verktygsfältet, väljer du **[!UICONTROL Detail View]**.
+1. Ovanför Assets-fönstret väljer du **[!UICONTROL Grid View]** till höger om verktygsfältet. I fönstret Resurser väljer du en enda bildresurs.
+1. Ovanför Assets-fönstret väljer du **[!UICONTROL Detail View]** till höger om verktygsfältet.
 1. Välj **[!UICONTROL URLs]** på panelen till höger på skärmen så att du kan visa listan med bildförinställningar.
-1. Välj **[!UICONTROL Copy URL]** länk bredvid namnet på bildförinställningen med den URL som du vill kopiera till Urklipp.
+1. Välj länken **[!UICONTROL Copy URL]** bredvid namnet på bildförinställningen med den URL som du vill kopiera till Urklipp.
 
 ## Om URL-strängar för bildförinställning {#about-image-preset-url-strings}
 
 Ett URL-anrop för att ändra bildstorlek till Dynamic Media Image Servers har följande grundläggande syntax:
 
-*bana*/*namn på bildserver*/*kontonamn*/*bildnamn*?*modifier1*&amp;*modifier2*&amp;...
+*sökväg*/*namn på bildserver*/*kontonamn*/*bildnamn*?*modifier1*&amp;*modifier2*&amp;...
 
 I en Dynamic Media Image Server-URL visas instruktioner till servern om hur bilden ska visas efter frågetecknet (?). Det här URL-anropet ger t.ex. en bild med namnet &quot;backpack&quot; och bredden 250 pixlar:
 
@@ -76,11 +76,11 @@ I en URL-sträng som skapas med en bildförinställning visas namnet på bildfö
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dynamic Media Image Server påträffar delen Image Preset (Bildförinställning) i URL:en `Large` i det här fallet) med hjälp av de inställningar för storlek och formatering som definieras av förinställningen &quot;Stor&quot; bild.
+Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dynamic Media Image Server stöter på delen Bildförinställning i URL:en (i det här fallet `Large`) och använder de storleks- och formateringsanvisningar som definieras av den stora förinställningen.
 
 ## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
 
-När du lägger till dynamiska bilder på en webbsida `<IMG>` -taggen i HTML-sidkoden ändras vanligtvis med Adobe Dynamic Media Classic URL-sträng för att göra en förfrågan till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
+När du lägger till dynamiska bilder på din webbsida ändras taggen `<IMG>` i HTML-sidkoden vanligtvis med hjälp av Adobe Dynamic Media Classic URL-sträng för att göra en begäran till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 
 I stället för det vanliga anropet för att öppna en statisk bild som
 
@@ -88,10 +88,10 @@ I stället för det vanliga anropet för att öppna en statisk bild som
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-Nu använder du `<IMG>`-tagg som ersätter referensen till en statisk bild med ett Image Preset-anrop till Adobe Dynamic Media Classic-plattformen. Ett exempelanrop ser ut så här:
+Du använder nu taggen `<IMG>` för att ersätta referensen till en statisk bild med ett Image Preset-anrop till Adobe Dynamic Media Classic-plattformen. Ett exempelanrop ser ut så här:
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-I det här exemplet &quot;söker en Dynamic Media Image Server upp&quot; definitionen av `$thumbnail$` och skapar dynamiskt rätt bild med de storleks- och formateringsspecifikationer som definieras av `thumbnail`Bildförinställning. I en URL-sträng är alla objekt utom produktbildens filnamn ( `backpack_trns` i det här fallet) är vanligtvis maskinkopplade för sidmallen. Det enda elementet som infogas automatiskt i sidmallen från e-handelsservern är bildens IPS-ID eller namn.
+I det här exemplet söker en Dynamic Media Image Server upp definitionen av `$thumbnail$` och skapar dynamiskt rätt bild med de storleks- och formateringsspecifikationer som definieras av `thumbnail`Image Preset. I en URL-sträng är alla objekt utom produktbildens filnamn ( `backpack_trns` i det här fallet) vanligtvis hårdkopplade för sidmallen. Det enda elementet som infogas automatiskt i sidmallen från e-handelsservern är bildens IPS-ID eller namn.

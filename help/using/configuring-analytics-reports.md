@@ -29,15 +29,15 @@ Förutom att associera visningsprogramhändelser med variabler innehåller konfi
 
 Se [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-Se [Publicera konfigurationsinformation](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Se [Konfigurationsinformation för Publish](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
 ## Tilldela Adobe Analytics-variabler till Adobe Dynamic Media Classic Viewer-händelser och -variabler {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
 Använd Adobe Analytics konfigurationsskärm för att associera visningsprogramhändelser med Adobe Analytics-variabler och Adobe Dynamic Media Classic-variabler. För varje visningsprogramhändelse väljer du en Adobe Analytics-variabel och en Adobe Dynamic Media Classic-variabel. Instruktioner om hur du öppnar skärmen Adobe Analytics Configuration finns i [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-**Så här tilldelar du Adobe Analytics-variabler till Adobe Dynamic Media Classic Viewer-händelser och -variabler:**
+**Så här tilldelar du Adobe Analytics-variabler till Adobe Dynamic Media Classic-visningsprogramhändelser och -variabler:**
 
-1. När du har loggat in på Adobe Analytics från Dynamic Media Classic och valt en rapportsvit aktiverar du en visningsprogramhändelse på konfigurationssidan för Adobe Analytics i den högra tabellkolumnen genom att välja **[!UICONTROL Enable]**.
+1. När du har loggat in på Adobe Analytics inifrån Dynamic Media Classic och valt en rapportsvit aktiverar du en visningsprogramhändelse på konfigurationssidan för Adobe Analytics i den högra tabellkolumnen genom att välja **[!UICONTROL Enable]**.
 1. Under kolumnen Variabler visar du variabelparet genom att markera pilknappen för önskad visningsprogramhändelse.
 
    Se [Viewer-händelser](configuring-analytics-reports.md#viewer_events).
@@ -47,13 +47,13 @@ Använd Adobe Analytics konfigurationsskärm för att associera visningsprogramh
    Se [Adobe Dynamic Media Classic-variabler](configuring-analytics-reports.md#scene7_variables).
 
 1. Lägg till en Adobe Analytics-variabel.
-1. (Valfritt) Om du vill lägga till ytterligare ett variabelpar väljer du **[!UICONTROL Add]**.
+1. (Valfritt) Om du vill lägga till ett till variabelpar väljer du **[!UICONTROL Add]**.
 1. Välj **[!UICONTROL Save]**.
 
-   När du har valt **[!UICONTROL Save]**, visningsprogramhändelsen, dess Adobe Analytics-variabel och dess Adobe Dynamic Media Classic-variabel visas på skärmen för Adobe Analytics Configuration.
+   När du har valt **[!UICONTROL Save]** visas visningsprogramhändelsen, dess Adobe Analytics-variabel och dess Adobe Dynamic Media Classic-variabel på skärmen Konfigurera i Adobe Analytics.
 
-1. Välj i det nedre högra hörnet **[!UICONTROL Close]**.
-1. Gå till **[!UICONTROL Publish]** > **[!UICONTROL Submit Publish]** för att köra en Image Serving-publicering.
+1. Välj **[!UICONTROL Close]** i det nedre högra hörnet.
+1. Gå till **[!UICONTROL Publish]** > **[!UICONTROL Submit Publish]** om du vill köra en Image Serving-publicering.
 
    Publicering är nödvändigt för att informationen i visningsprogrammen ska vara tillgänglig på Adobe Dynamic Media Classic-servrar.
 
@@ -72,18 +72,18 @@ I följande tabell beskrivs de visningsprogramhändelser som du kan lägga till 
 | HREF | **X** (eCatalog) | I visningsprogram som stöder bildscheman väljer en användare en URL i en bildschema. |
 | MÅL | | När en användare väljer ett zoommål för att zooma in en del av en bild i målvisningsprogram. |
 | SÖK | | I eCatalogs, när en användare gör en ordsökning. |
-| SPELA | **X** (Video) | När en användare väljer Spela upp för att börja spela upp en video i videovisningsprogram.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md). |
-| PAUS | **X** (Video) | I videovisningsprogram, när en användare väljer **[!UICONTROL Pause]** för att frysa en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md). |
-| STOP | **X** (Video) | I videovisningsprogram, när en användare väljer **[!UICONTROL Stop]** om du vill sluta spela upp en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md). |
-| MILESTON | **X** (Video) | I videovisningsprogram genereras milstolpehändelser när användaren tittar på 0, 25, 50, 75 eller 100 procent av videon.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md). |
-| FÄRGRUTA | **X** (Utfällbar, Zooma) | Den här visningsprogramhändelsen mappas till PAGE-visningsprogramhändelsen i Adobe Dynamic Media Classic. |
+| SPELA | **X** (video) | När en användare väljer Spela upp för att börja spela upp en video i videovisningsprogram.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
+| PAUS | **X** (video) | I videovisningsprogram när en användare väljer **[!UICONTROL Pause]** för att frysa en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
+| STOP | **X** (video) | I videovisningsprogram när en användare väljer **[!UICONTROL Stop]** för att sluta spela upp en video.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
+| MILESTON | **X** (video) | I videovisningsprogram genereras milstolpehändelser när användaren tittar på 0, 25, 50, 75 eller 100 procent av videon.<br><br>**Obs!** Om du använder Adobe Analytics pulsslagsbaserade videorapportering behöver du inte mappa några variabler till den här visningsprogramhändelsen när du konfigurerar Adobe Analytics i Adobe Dynamic Media Classic. Videopulsslag fungerar med färdiga visningsprogram för Adobe Dynamic Media Classic HTML5 och MixedMedia. Videospelaren genererar spårningsdata för visning i Adobe Analytics videorapporter. Se [Aktivera Adobe Analytics-videorapporter](enabling-analytics-video-reports.md). |
+| FÄRGRUTA | **X** (utfällbar, zoomad) | Den här visningsprogramhändelsen mappas till PAGE-visningsprogramhändelsen i Adobe Dynamic Media Classic. |
 | ZOOMA | **X** (eCatalog, SpinSet, Zoom) | Inte spårad av Adobe Analytics. |
 | PAN | **X** (eCatalog, SpinSet, Zoom) | Inte spårad av Adobe Analytics. |
 | SPIN | **X** (SpinSet) | Inte spårad av Adobe Analytics. |
 
 ### Adobe Dynamic Media Classic-variabler {#scene-variables}
 
-För varje visningsprogramhändelse på konfigurationsskärmen i Adobe Analytics väljer du en Adobe Analytics-variabel och en *Adobe Dynamic Media Classic-variabel*. Adobe Dynamic Media Classic-variabler representerar data som du kan hämta för en rapport. Till exempel `searchTerm` variabellistor nyckelord som används i eCatalog-sökningar.
+För varje visningsprogramhändelse på konfigurationsskärmen i Adobe Analytics väljer du en Adobe Analytics-variabel och en *Adobe Dynamic Media Classic-variabel* . Adobe Dynamic Media Classic-variabler representerar data som du kan hämta för en rapport. Variabeln `searchTerm` visar till exempel nyckelord som används i eCatalog-sökningar.
 
 I följande tabell beskrivs Adobe Dynamic Media Classic-variabler:
 
@@ -105,8 +105,8 @@ I följande tabell beskrivs Adobe Dynamic Media Classic-variabler:
 
 På skärmen Adobe Analytics Configuration kan du aktivera, redigera och ta bort visningsprogramhändelser:
 
-* **Aktivera**: Välj **[!UICONTROL Enable]** för att aktivera eller **[!UICONTROL Disable]** för att inaktivera en vald visningsprogramhändelse.
+* **Aktivera**: Välj **[!UICONTROL Enable]** om du vill aktivera eller **[!UICONTROL Disable]** om du vill inaktivera en vald visningsprogramhändelse.
 
-* **Redigera**: Välj en visningsprogramhändelse och välj **[!UICONTROL View/Edit]** Grå variabelknapp. I listrutorna Adobe Dynamic Media Classic-variabel och Adobe Analytics-variabel väljer du en annan variabel i respektive lista. Mer information finns i [Tilldela Adobe Analytics-variabler till Adobe Dynamic Media Classic Viewer-händelser och -variabler](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **Redigera**: Markera en visningsprogramhändelse och välj den grå knappen **[!UICONTROL View/Edit]** Variabler. I listrutorna Adobe Dynamic Media Classic-variabel och Adobe Analytics-variabel väljer du en annan variabel i respektive lista. Mer information finns i [Tilldela Adobe Analytics-variabler till Adobe Dynamic Media Classic Viewer-händelser och variabler](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **Ta bort**: Välj en visningsprogramhändelse och välj **[!UICONTROL View/Edit]** Grå variabelknapp. Välj **[!UICONTROL Delete]**.
+* **Ta bort**: Markera en visningsprogramhändelse och välj den grå knappen **[!UICONTROL View/Edit]** Variabler. Välj **[!UICONTROL Delete]**.

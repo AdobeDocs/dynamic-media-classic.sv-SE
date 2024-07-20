@@ -37,13 +37,13 @@ Om du inte ger en grupp behörighet till en resurs eller mapp ärver resursen el
 1. Välj **[!UICONTROL Add]**.
 1. Ange ett namn för gruppen i rutan Gruppnamn i dialogrutan Lägg till grupp och välj sedan **[!UICONTROL Add Group]**.
 1. Om du vill kan du markera rutorna bredvid namnen på användarna som ska läggas till i den nya gruppen.
-1. Om du vill ange åtkomstbehörigheter nu väljer du **[!UICONTROL Asset Access Permissions]** och sedan ange önskade alternativ.
+1. Om du vill ange åtkomstbehörigheter nu väljer du fliken **[!UICONTROL Asset Access Permissions]** och anger sedan önskade alternativ.
 
-   Se [Fastställa åtkomstbehörigheter för en grupp](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
+   Se [Upprätta åtkomstbehörigheter för en grupp](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group).
 
-1. Du kan välja vilka bildförinställningar som är tillgängliga för gruppen. Klicka bara på **[!UICONTROL Image Preset Access Permissions]** och välj Bildförinställningar som gruppen kan använda.
+1. Du kan välja vilka bildförinställningar som är tillgängliga för gruppen. Klicka bara på fliken **[!UICONTROL Image Preset Access Permissions]** och välj Bildförinställningar som gruppen kan använda.
 
-   Se [Välj åtkomstbehörighet för bildförinställning för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
+   Se [Välja åtkomstbehörighet till bildförinställningar för en grupp](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group).
 
 1. Välj **[!UICONTROL Close]**.
 
@@ -52,10 +52,10 @@ Om du inte ger en grupp behörighet till en resurs eller mapp ärver resursen el
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Gör något av följande på sidan med grupplistan:
 
-   * Om du vill lägga till en grupp och ange behörigheter väljer du **[!UICONTROL Add]**. Ange ett namn för gruppen i dialogrutan Lägg till grupp och välj **[!UICONTROL Add Group]** och lägga till användare i gruppen.
-   * Om du vill redigera en grupps behörigheter markerar du gruppen och väljer **[!UICONTROL Edit]**.
+   * Om du vill lägga till en grupp och ange behörigheter väljer du **[!UICONTROL Add]**. I dialogrutan Lägg till grupp anger du ett namn för gruppen, väljer **[!UICONTROL Add Group]** och lägger till användare i gruppen.
+   * Om du vill redigera en grupps behörigheter markerar du gruppen och väljer sedan **[!UICONTROL Edit]**.
 
-1. I dialogrutan Lägg till grupp eller Redigera grupp väljer du **[!UICONTROL Asset Access Permissions]** -fliken. Till höger på fliken finns rutor för att ange läs-, skriv- och borttagningsbehörigheter för mappar och resurser. Du kan expandera och komprimera mappar och undermappar i den vänstra rutan.
+1. Välj fliken **[!UICONTROL Asset Access Permissions]** i dialogrutan Lägg till grupp eller Redigera grupp. Till höger på fliken finns rutor för att ange läs-, skriv- och borttagningsbehörigheter för mappar och resurser. Du kan expandera och komprimera mappar och undermappar i den vänstra rutan.
 1. Om du vill tilldela rättigheter till mappar eller enskilda resurser markerar du mappen i den vänstra rutan. Mappinnehållet visas i den högra rutan. Tilldela sedan rättigheter för gruppen genom att markera rutorna för motsvarande filer. Du kan också markera mapparna i den högra rutan.
 
    Den här tabellen mappar olika uppgifter till att läsa, skriva och ta bort behörigheter.
@@ -86,10 +86,10 @@ Se även [Ange exportalternativ som är tillgängliga för Media Portal-använda
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Gör något av följande på sidan med grupplistan:
 
-   * Om du vill lägga till en grupp och ange vilka bildförinställningar som är tillgängliga för gruppen väljer du **[!UICONTROL Add]**. Ange ett namn för gruppen i dialogrutan Lägg till grupp och välj **[!UICONTROL Add Group]** och lägga till användare i gruppen.
+   * Om du vill lägga till en grupp och ange vilka bildförinställningar som är tillgängliga för gruppen väljer du **[!UICONTROL Add]**. I dialogrutan Lägg till grupp anger du ett namn för gruppen, väljer **[!UICONTROL Add Group]** och lägger till användare i gruppen.
    * Om du vill redigera bildförinställningsalternativen för en grupp markerar du gruppen och väljer sedan **[!UICONTROL Edit]**.
 
-1. I dialogrutan Lägg till grupp eller Redigera grupp väljer du **[!UICONTROL Image Preset Access Permissions]** -fliken.
+1. Välj fliken **[!UICONTROL Image Preset Access Permissions]** i dialogrutan Lägg till grupp eller Redigera grupp.
 1. Om du vill ange vilka förinställningar som är tillgängliga för Media Portal-användare när de exporterar resurser markerar eller avmarkerar du Bildförinställningar.
 1. Välj **[!UICONTROL Close]**.
 
@@ -98,6 +98,6 @@ Se även [Ange exportalternativ som är tillgängliga för Media Portal-använda
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Media Portal Setup]** > **[!UICONTROL Groups]**.
 1. Markera en grupp på sidan Grupplista och redigera eller ta bort den.
 
-   **Redigera en grupp**: Välj **[!UICONTROL Edit]** och välj sedan alternativen i dialogrutan Redigera grupp.
+   **Redigera en grupp**: Markera **[!UICONTROL Edit]** och välj sedan alternativen i dialogrutan Redigera grupp.
 
    **Ta bort en grupp**: Välj **[!UICONTROL Delete]**.

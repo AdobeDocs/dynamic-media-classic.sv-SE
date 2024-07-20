@@ -20,5 +20,5 @@ ht-degree: 0%
 # Skriva ut resurser{#printing-assets}
 
 1. På panelen Bläddra väljer du den resurs eller de resurser som du vill skriva ut.
-1. Gå till **[!UICONTROL File]** > **[!UICONTROL Print]** eller tryck `Ctrl+P` (Windows®) eller `Command+P` (Mac)
-1. Välj hur många kopior du vill skriva ut i dialogrutan Skriv ut och klicka sedan på **[!UICONTROL Print]**.
+1. Gå till **[!UICONTROL File]** > **[!UICONTROL Print]** eller tryck på `Ctrl+P` (Windows®) eller `Command+P` (Mac).
+1. I dialogrutan Skriv ut väljer du hur många kopior du vill skriva ut och klickar sedan på **[!UICONTROL Print]**.

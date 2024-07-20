@@ -32,6 +32,6 @@ När en ändring har gjorts i den ursprungliga klienten uppdateras alla peer-kli
 
 När du loggade in uppmanades du att tillåta eller neka peer-uppdateringar. Du kan&quot;komma ihåg&quot; valet så att du bara får en fråga en gång. Ta bort den aktuella platsen från panelen P2P-nätverk i Globala inställningar för att ta bort ditt val.
 
-Om du redigerade en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer **[!UICONTROL Yes]**, tar byggaren eller redigeraren bort ändringar som gjorts i resursen och importerar den uppdaterade resursen. Om du valde **[!UICONTROL No]**, är resursen oförändrad i byggaren eller redigeraren och alla ändringar som du har gjort kvarstår under den sessionen.
+Om du redigerade en resurs som har ändrats av en peer-dator uppmanas du att importera ändringen till byggaren eller redigeraren. Om du väljer **[!UICONTROL Yes]** ignoreras alla ändringar som gjorts i resursen och den uppdaterade resursen importeras. Om du väljer **[!UICONTROL No]** ändras resursen inte i byggaren eller redigeraren och eventuella ändringar som du har gjort sparas i den sessionen.
 
 När du sparade resursen fick du ett meddelande om att det finns en nyare version och tillfrågades om du vill skriva över resursen med dina ändringar.

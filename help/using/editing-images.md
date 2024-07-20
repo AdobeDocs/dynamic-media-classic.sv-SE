@@ -19,18 +19,18 @@ ht-degree: 0%
 
 # Redigera bilder{#editing-images}
 
-Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här verktygen är tillgängliga genom att markera överrullningen **[!UICONTROL Edit]** och i panelen Bläddra i detaljvyn. Du kan göra följande bildredigeringsåtgärder i Adobe Dynamic Media Classic:
+Adobe Dynamic Media Classic har många verktyg för multimediaeffekter. De här verktygen är tillgängliga genom att du markerar överrullningsknappen **[!UICONTROL Edit]** och i panelen Bläddra i detaljvyn. Du kan göra följande bildredigeringsåtgärder i Adobe Dynamic Media Classic:
 
-* **Skapa bildscheman**: Om du vill skapa ett bildschema väljer du kommandot Bild eller **[!UICONTROL Image Map]** -knappen. En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/using/creating-image-maps.md).
+* **Skapa bildscheman**: Om du vill skapa ett bildschema väljer du kommandot Bild eller knappen **[!UICONTROL Image Map]** . En bildschema är en aktiveringspunkt på en bild, en eCatalog-sida eller en bild i en SpinSet som visar en panel med överrullningstext. Användarna kan välja en bildkarta för att öppna en ny webbsida. Se [Skapa bildscheman](/help/using/creating-image-maps.md).
 
-* **Skapa zoommål**: Om du vill skapa mål för miniatyrbilder väljer du kommandot Zoommål eller kommandot **[!UICONTROL Zoom Targets]** -knappen. Användarna kan välja ett miniatyrbildsmål i Zoomvisningsprogrammet för att zooma direkt till en viss del av bilden. Se [Skapa zoommål för guidad zoomning](/help/using/creating-zoom-targets-guided-zoom.md).
+* **Skapa zoommål**: Om du vill skapa miniatyrbildsmål väljer du kommandot Zoommål eller knappen **[!UICONTROL Zoom Targets]** . Användarna kan välja ett miniatyrbildsmål i Zoomvisningsprogrammet för att zooma direkt till en viss del av bilden. Se [Skapa zoommål för guidad zoomning](/help/using/creating-zoom-targets-guided-zoom.md).
 
-* **Beskära en bild**: Om du vill beskära en bild väljer du kommandot Beskär eller **[!UICONTROL Crop]** -knappen. Se [Beskära en bild](/help/using/cropping-image.md).
+* **Beskär en bild**: Om du vill beskära en bild väljer du kommandot Beskär eller knappen **[!UICONTROL Crop]** . Se [Beskära en bild](/help/using/cropping-image.md).
 
-* **Öka skärpan i en bild**: Göra konturerna i en bild mindre oskarpa genom att välja kommandot Skärpa eller **[!UICONTROL Sharpen]** -knappen. Se [Öka skärpan i en bild](/help/using/sharpening-image.md).
+* **Öka skärpan i en bild**: Gör konturerna i en bild mindre oskarpa genom att välja kommandot Skärpa eller knappen **[!UICONTROL Sharpen]** . Se [Öka skärpan i en bild](/help/using/sharpening-image.md).
 
-* **Justera en bild**: Välj `Adjust` kommandot eller **[!UICONTROL Adjust]** för att vända, rotera, göra oskarpa, färglägga eller ändra färgbalansen i en bild. Se [Justera en bild](/help/using/adjusting-image.md).
+* **Justera en bild**: Välj kommandot `Adjust` eller knappen **[!UICONTROL Adjust]** om du vill vända, rotera, göra oskärpa, färglägga eller ändra färgbalansen i en bild. Se [Justera en bild](/help/using/adjusting-image.md).
 
-* **Redigera lager**: Om du vill visa enskilda, redigerbara lager i en PSD-fil väljer du **[!UICONTROL Layers]** -fliken. När du överför en PSD-fil överförs alla lager separat som separata filer så att du kan redigera dem i Adobe Dynamic Media Classic.
+* **Redigera lager**: Om du vill visa enskilda, redigerbara lager i en PSD-fil väljer du fliken **[!UICONTROL Layers]** . När du överför en PSD-fil överförs alla lager separat som separata filer så att du kan redigera dem i Adobe Dynamic Media Classic.
 
 Förutom att använda dessa verktyg för att redigera bilder kan du redigera bilder när du överför dem till Adobe Dynamic Media Classic. Du kan till exempel beskära bilder, skapa en mask från en urklippsbana och välja en färgprofil för en bild medan du överför den.

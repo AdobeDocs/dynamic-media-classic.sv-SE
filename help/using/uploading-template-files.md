@@ -29,7 +29,7 @@ Mallar kan skapas från Adobe Photoshop PSD-filer eller bildfiler.
 
 Detaljerade instruktioner om hur du överför filer finns i [Överför filer](uploading-files.md#uploading_files). Tänk på följande när du överför mallfiler:
 
-* Om du överför en PSD-fil kan du skapa en mall utifrån den. Adobe Dynamic Media Classic skapar en separat bild för varje lager i PSD. I dialogrutan Alternativ för överföringsjobb väljer du **[!UICONTROL Photoshop Options]** och markera **[!UICONTROL Maintain Layers]** och **[!UICONTROL Create Template]**. Välj sedan ett alternativ på menyn **[!UICONTROL Layer Naming]** nedrullningsbar lista för att namnge de bilder som Adobe Dynamic Media Classic skapar från lager i PSD.
+* Om du överför en PSD-fil kan du skapa en mall utifrån den. Adobe Dynamic Media Classic skapar en separat bild för varje lager i PSD. I dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL Photoshop Options]** och sedan **[!UICONTROL Maintain Layers]** och **[!UICONTROL Create Template]**. Välj sedan ett alternativ i listrutan **[!UICONTROL Layer Naming]** för att namnge de bilder som Adobe Dynamic Media Classic skapar från lager i PSD.
 Se [Överföringsalternativ för PSD](psd-files.md#psd_upload_options).
 <!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
 See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->

@@ -37,7 +37,7 @@ Om du vill kan du skapa en staging-miljö i stället för att göra resurserna a
 
 De flesta företag använder internet bakom en brandvägg. Tillgång till Internet är möjlig via vissa vägar och vanligtvis via ett begränsat antal offentliga IP-adresser.
 
-I företagsnätverket kan du räkna ut din offentliga IP-adress med webbplatser som [https://www.whatismyip.com](https://www.whatismyip.com/) eller begär den här informationen från IT-avdelningen.
+Från ditt företagsnätverk kan du ta reda på din offentliga IP-adress med hjälp av webbplatser som [https://www.whatismyip.com](https://www.whatismyip.com/) eller begära den här informationen från företagets IT-organisation.
 
 Med Secure Testing skapar Adobe Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna applikationer. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Adobe Dynamic Media Classic företagsadministratör konfigurerar den godkända listan över IP-adresser för företagets säkra testmiljö.
 
@@ -103,26 +103,26 @@ Last Modified Date:
  -->
 
 1. Kontakta Adobe kundtjänst och begär att de aktiverar säker testning på ditt konto.
-1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
-1. På sidan Image Server Publish (Image Server Publish) i **[!UICONTROL `Publish Context`]** nedrullningsbar lista, välja **[!UICONTROL Test Image Serving]**.
-1. För klientadressfiltret väljer du **[!UICONTROL Add]**.
+1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** i fältet Global Navigation.
+1. På sidan Image Server Publish väljer du **[!UICONTROL Test Image Serving]** i listrutan **[!UICONTROL `Publish Context`]**.
+1. Välj **[!UICONTROL Add]** för klientadressfiltret.
 1. Markera kryssrutan så att adressen är aktiverad (påslagen) och skriv sedan en IP-adress och nätmask i respektive textfält.
 
    >[!NOTE]
    >
-   >Om du lägger till en enda IP-adress och nätmask kan den adressen göra tillgångsanrop. Andra IP-adresser och nätmasker som du lägger till har dock inte rätt att göra resursanrop. Överväg därför att inaktivera (inaktivera) kryssrutan i steget ovan för att inaktivera möjligheten att ange en IP-adress och nätmask. Om man gör det på ett så effektivt sätt kan *alla* IP-adresser för att göra tillgångsanrop, och de visas alla.
+   >Om du lägger till en enda IP-adress och nätmask kan den adressen göra tillgångsanrop. Andra IP-adresser och nätmasker som du lägger till har dock inte rätt att göra resursanrop. Överväg därför att inaktivera (inaktivera) kryssrutan i steget ovan för att inaktivera möjligheten att ange en IP-adress och nätmask. Om du gör det så effektivt kan *alla* IP-adresser göra tillgångsanrop, och de visas alla.
 
 1. Gör något av följande:
    * Upprepa de två föregående stegen om du måste lägga till fler IP-adresser.
    * Fortsätt till nästa steg.
-1. Längst ned till vänster på Image Server Publish-sidan väljer du **[!UICONTROL Save]**
+1. Längst ned till vänster på Image Server-Publish-sidan väljer du **[!UICONTROL Save]**
 1. Ladda upp bilderna till ditt Adobe Dynamic Media Classic-konto.
 
    Se [Överför filer](uploading-files.md#uploading_files).
 
 1. Se till att några av bilderna är markerade för publicering och att andra är omarkerade och skicka sedan publiceringsjobbet.
 
-   Se [Publicera filer](publishing-files.md#publishing_files).
+   Se [Publish-filer](publishing-files.md#publishing_files).
 
 1. Bestäm namnet på tjänsten för säker testning genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 1. På sidan Allmänna inställningar för programmet, under gruppen Servrar, söker du efter namnet till höger om **[!UICONTROL Test Publish Context Server Name]**.

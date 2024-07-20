@@ -25,7 +25,7 @@ ht-degree: 0%
 + [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NYTT Inloggningsloggen för Adobe Dynamic Media Classic är nu tillgänglig](new-ui-2020.md)
 + [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
-+ Nu kommer Adobe Dynamic Media Classic {#intro}
++ Vi presenterar Adobe Dynamic Media Classic {#intro}
    + [Adobe Dynamic Media Classic-datorprogram: Ute nu](dynamic-media-classic-desktop-app.md)
    + [Om Adobe Dynamic Media Classic Hjälp](introduction.md)
    + [Resurser för utvecklare](developer-resources.md)
@@ -46,10 +46,10 @@ ht-degree: 0%
 + Konfigurera {#setup}
    + [Personliga inställningar](personal-setup.md)
    + [Programinställningar](application-setup.md)
-   + [Publiceringsinställningar](publish-setup.md)
+   + [Publish Setup](publish-setup.md)
    + [Video SEO (sökmotoroptimering)](video-seo-search-engine-optimization.md)
    + [Administrationsinställningar](administration-setup.md)
-+ Media Portal {#media-portal}
++ Medieportal {#media-portal}
    + [Systemkrav för Media Portal i Adobe Dynamic Media Classic](system-requirements-media-portal.md)
    + [Snabbstart: Medieportal](quick-start-media-portal-administration.md)
    + [Användarroller för mediaportal](media-portal-user-roles.md)
@@ -60,10 +60,10 @@ ht-degree: 0%
    + [Skapa och aktivera bildförinställningar](creating-enabling-image-presets.md)
    + [Använda metadata effektivare](making-efficient-metadata.md)
    + [Anpassa skärmen Media Portal](customizing-media-portal-screen.md)
-+ Överföra och publicera resurser {#upload-publish}
++ Överför och publicera resurser {#upload-publish}
    + [Överföra och publicera resurser](about-asset-upload-publish.md)
    + [Överför filer](uploading-files.md)
-   + [Publicera filer](publishing-files.md)
+   + [Publish-filer](publishing-files.md)
    + [Dynamic Media begränsningar](limitations.md)
    + [Testa resurser innan du gör dem offentliga](testing-assets-making-them-public.md)
    + [Kontrollera jobbfiler](checking-job-files.md)
@@ -85,7 +85,7 @@ ht-degree: 0%
 + Bildstorlek {#image-sizing}
    + [Snabbstart: Bildstorlek](quick-start-image-sizing.md)
    + [Överför primära bilder](uploading-master-images.md)
-   + [Publicera primära bilder](publishing-master-images.md)
+   + [Publish primära bilder](publishing-master-images.md)
    + [Konfigurera bildförinställningar](setting-image-presets.md)
    + [Länka URL:er till webbprogrammet](linking-urls-web-application.md)
 + Zooma {#zoom}
@@ -94,7 +94,7 @@ ht-degree: 0%
    + [Skapa zoommål för guidad zoomning](creating-zoom-targets-guided-zoom.md)
    + [Konfigurera förinställningar för Zoomvisningsprogram](setting-zoom-viewer-presets.md)
    + [Förhandsgranska bildresurser med olika zoomningsvisningsprogram](previewing-image-assets-different-zoom.md)
-   + [Publicera zoombilder](publishing-zoom-images.md)
+   + [Publish zoombilder](publishing-zoom-images.md)
    + [Länka zoomningsvisningsprogram till dina webbsidor](linking-zoom-viewers-web-pages.md)
 + eCatalogs {#ecatalogs}
    + [Snabbstart: e-kataloger](quick-start-ecatalog.md)
@@ -104,7 +104,7 @@ ht-degree: 0%
    + [Hantera innehåll i informationspanelen i e-kataloger](info-panel-content-ecatalog.md)
    + [Konfigurera förinställningar för eCatalog Viewer](setting-ecatalog-viewer-presets.md)
    + [Förhandsgranska e-kataloger i eCatalog Viewer](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Publicera e-kataloger och tillhörande PDF](publishing-ecatalogs-associated-pdfs.md)
+   + [Publish eCatalogs och tillhörande PDF](publishing-ecatalogs-associated-pdfs.md)
    + [Länka en e-katalog till en webbsida](linking-ecatalog-web-page.md)
 + Bilduppsättningar {#image-sets}
    + [Snabbstart: Bilduppsättningar](quick-start-image-sets.md)
@@ -115,7 +115,7 @@ ht-degree: 0%
    + [Visa bilduppsättningar](viewing-image-sets.md)
    + [Automatisera generering av bilduppsättning](automated-image-set-generation.md)
    + [Länka en bilduppsättning till en webbsida](linking-image-set-web-page.md)
-+ Uppsättningar med färgrutor {#swatch-sets}
++ Färgruteuppsättningar {#swatch-sets}
    + [Snabbstart: Färgrutor](quick-start-swatch-sets.md)
    + [Inkludera zoommål och bildscheman i uppsättningar av färgrutor](including-zoom-targets-image-maps-swatch-sets.md)
    + [Förbered färgrutor Ange resurser för överföring](preparing-swatch-set-assets-upload.md)
@@ -126,7 +126,7 @@ ht-degree: 0%
    + [Snabbstart: Snurra uppsättningar](quick-start-spin-sets.md)
    + [Skapa en snurra uppsättning](creating-spin-set.md)
    + [Förhandsgranska en snurra uppsättning](previewing-spin-set.md)
-   + [Publicera en snurruppsättning](publishing-spin-set.md)
+   + [Publish a Spin Set](publishing-spin-set.md)
    + [Ställ in förinställningar för Snurra uppsättning för visningsprogram](setting-spin-set-viewer-presets.md)
    + [Länka en snurruppsättning till en webbsida](linking-spin-set-web-page.md)
 + Grundläggande om mallar {#template-basics}
@@ -134,7 +134,7 @@ ht-degree: 0%
    + [Överför mallfiler](uploading-template-files.md)
    + [Skapa en mall](creating-template.md)
    + [Skapa mallparametrar](creating-template-parameters.md)
-   + [Publiceringsmallar](publishing-templates.md)
+   + [Publish-mallar](publishing-templates.md)
    + [Länka en mall till en webbsida](linking-template-web-page.md)
    + [Hantera innehållsvariationer](content-variations.md)
 + Video {#video}
@@ -150,9 +150,9 @@ ht-degree: 0%
    + [Snabbstart: Blandade medieuppsättningar](quick-start-mixed-media-sets.md)
    + [Konfigurera en visningsförinställning för blandad medieuppsättning](setting-mixed-media-set-viewer.md)
    + [Skapa en blandad medieuppsättning](creating-mixed-media-set.md)
-   + [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md)
+   + [Publish a Mixed Media Set](publishing-mixed-media-set.md)
    + [Länka en blandad medieuppsättning till en webbsida](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentpaket {#analytics-kit}
++ Adobe Analytics instrumentation Kit {#analytics-kit}
    + [Snabbstart: Integrera Adobe Dynamic Media Classic med Adobe Analytics](quick-start-integrating-dmc-analytics.md)
    + [Logga in på Adobe Analytics](log-analytics.md)
    + [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md)
@@ -160,8 +160,8 @@ ht-degree: 0%
    + [Inaktivera spårning av Adobe Analytics](disabling-analytics-tracking.md)
    + [Testa integrationen genom att visa en Adobe Analytics-rapport](testing-integration-viewing-analytics-report.md)
    + [Aktivera Adobe Analytics videorapporter](enabling-analytics-video-reports.md)
-   + [Publicera konfigurationsinformation för Adobe Analytics](publishing-analytics-configuration-information.md)
-+ Integrering med Adobe Target Standard/Premium {#target-classic}
+   + [Konfigurationsinformation för Publish Adobe Analytics](publishing-analytics-configuration-information.md)
++ Integrering av Adobe Target Standard/Premium {#target-classic}
    + [Snabbstart: Integrering med Adobe Target Standard/Premium](quick-start-target-integration.md)
    + [Integrera Adobe Dynamic Media Classic med Adobe Target Standard/Premium](integrating-dmc-with-target.md)
    + [Skapa en erbjudandeuppsättning](creating-offer-set.md)

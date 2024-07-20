@@ -29,11 +29,11 @@ Kontrollera att du har följande innan du använder Adobe Dynamic Media Classic-
 
 1. Öppna Adobe Dynamic Media Classic-datorprogrammet.
 
-   ![Adobe Dynamic Media Classic logga in](/help/using/assets/dmclassic-login1.png)
+   ![Adobe Dynamic Media Classic-inloggning](/help/using/assets/dmclassic-login1.png)
 
-1. I **[!UICONTROL User Name]** anger du din e-postadress.
-1. I **[!UICONTROL Password]** anger du lösenordet.
-1. I **[!UICONTROL Server]** väljer du en server.
+1. Ange din e-postadress i fältet **[!UICONTROL User Name]**.
+1. Skriv lösenordet i fältet **[!UICONTROL Password]**.
+1. Välj en server i listrutan **[!UICONTROL Server]**.
 Använd följande mappning för att välja den produktionsmiljö som du vill använda.
 
    | Webbläsarens URL | Servernamn för skrivbordsapp |
@@ -46,7 +46,7 @@ Använd följande mappning för att välja den produktionsmiljö som du vill anv
 
 ## Logga ut från Adobe Dynamic Media Classic {#dmc-sign-out}
 
-1. I det övre högra hörnet av Adobe Dynamic Media Classic-datorprogrammet väljer du **[!UICONTROL Sign out]** och sedan markera **[!UICONTROL Sign out]** igen.
+1. I det övre högra hörnet av Adobe Dynamic Media Classic-datorprogrammet väljer du **[!UICONTROL Sign out]** och sedan **[!UICONTROL Sign out]** igen.
 
 >[!MORELIKETHIS]
 >

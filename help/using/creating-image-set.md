@@ -23,9 +23,9 @@ Om du vill skapa en bilduppsättning med flera vyer behöver du bilder som visar
 
 ## Skapa en bilduppsättning {#create}
 
-När du skapar en uppsättning **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+När du skapar en uppsättning påverkar alternativet **[!UICONTROL Publish after a save]** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
-| **[!UICONTROL `Publish after a save`]** markerat alternativ innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| **[!UICONTROL `Publish after a save`]** alternativ markerat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
@@ -41,26 +41,26 @@ När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och t
 
 ‡ Bästa praxis är att inte ha duplicerade resurser i en uppsättning. Gränsen är 20 kopior för en enskild resurs. Om du i uppsättningen lägger till en annan dubblett för den resursen returnerar begäran ett fel eller ignorerar dubbletten.
 
-Se även [Dynamic Media begränsningar](/help/using/limitations.md).
+Se även [Dynamic Media-begränsningar](/help/using/limitations.md).
 
 **Så här skapar du en bilduppsättning:**
 
 1. Gör något av följande:
 
-   * **Markera bilderna först**: På panelen Bläddra väljer du de bilder du vill använda i din bilduppsättning, går till **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
+   * **Markera först bilderna**: På panelen Bläddra väljer du de bilder du vill använda i din bilduppsättning, går till **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**.
 
    * **Starta från skärmen Bilduppsättning**: Gå till **[!UICONTROL Build]** > **[!UICONTROL Image Sets]**. Skärmen Bilduppsättning öppnas. Markera en mapp i resursbiblioteket och dra bilderna som du vill använda i bilduppsättningen till skärmen Bilduppsättning.
 
 1. Om du vill ändra bildordningen drar du bilderna till nya platser.
-1. I närheten av sidans nedre högra hörn ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
-1. Välj **[!UICONTROL Save]**, välj en mapp där bilduppsättningen ska lagras, ange ett namn för uppsättningen och markera sedan **[!UICONTROL Save]**.
+1. Kontrollera att **[!UICONTROL Publish after a save]** är markerat (standard) nära sidans nedre högra hörn.
+1. Välj **[!UICONTROL Save]**, välj en mapp där du vill lagra din bilduppsättning, ange ett namn för uppsättningen och välj sedan **[!UICONTROL Save]**.
 1. Om du vill visa din bilduppsättning i bilduppsättningsvisningsprogrammet väljer du **[!UICONTROL Preview]** på skärmen Bilduppsättning. Du kan välja miniatyrbilder för färgrutor i bilduppsättningsvisningsprogrammet för att se hur de fungerar.
 
 ## Redigera en bilduppsättning {#editing-an-image-set}
 
-Oavsett om du redigerar en publicerad eller opublicerad uppsättning kan du **[!UICONTROL Publish after a save]** påverkar uppsättningen och medlemmarna i uppsättningen på följande sätt:
+Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **[!UICONTROL Publish after a save]** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
-| Har du redan publicerat? | **[!UICONTROL `Publish after a save`]** är du markerad innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | **[!UICONTROL `Publish after a save`]** alternativ markerat innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -71,15 +71,15 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 **Så här redigerar du en bilduppsättning:**
 
-1. I stödrastervyn bläddrar du till en ImageSet och väljer sedan under bilden **[!UICONTROL Edit]**.
+1. I stödrastervyn bläddrar du till en ImageSet och väljer **[!UICONTROL Edit]** nedanför bilden.
 1. Gör något av följande:
 
-   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till resurser till bilduppsättningens **[!UICONTROL Views]** sida.
-   * Om du vill ta bort en bild markerar du den och väljer **[!UICONTROL Delete]** i verktygsfältet.
+   * Om du vill lägga till en bild (publicerad eller opublicerad) drar du den från en mapp i Lägg till Assets till bilduppsättningens **[!UICONTROL Views]**-sida.
+   * Om du vill ta bort en bild markerar du den och väljer sedan **[!UICONTROL Delete]** i verktygsfältet.
    * Om du vill ändra ordning på bilderna drar du en bild till en ny plats.
 
-1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, ser du till att **[!UICONTROL Publish after a save]** är markerat (standard).
-1. Välj **[!UICONTROL Save]**, väljer en lagringsmapp för uppsättningen, anger ett namn för uppsättningen och väljer **[!UICONTROL Save]**.
+1. När du är klar med redigeringen av uppsättningen, nära sidans nedre högra hörn, kontrollerar du att **[!UICONTROL Publish after a save]** är markerat (standard).
+1. Välj **[!UICONTROL Save]**, markera en lagringsmapp för uppsättningen, ange ett namn för uppsättningen och välj sedan **[!UICONTROL Save]**.
 
 ## Ta bort en bilduppsättning
 
@@ -90,4 +90,4 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 **Så här tar du bort en bilduppsättning:**
 
 1. I Stödrastervisning, listvy eller detaljvy väljer du en eller flera bilduppsättningar.
-1. På det globala navigeringsfältet går du till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]**.
+1. Gå till **[!UICONTROL File]** > **[!UICONTROL Delete]** > **[!UICONTROL Delete]** i det globala navigeringsfältet.

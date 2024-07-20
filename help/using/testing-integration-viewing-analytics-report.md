@@ -27,9 +27,9 @@ När du har skapat de nödvändiga variablerna i Adobe Analytics, länkat dem ti
 
    Om du till exempel vill mäta vanliga alternativa vyer i en bilduppsättning förhandsgranskar du en bilduppsättning och klickar på de olika miniatyrbilderna.
 
-1. I Adobe Analytics: **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > [Namn på säljare]väljer du ditt trafikproxynamn i menyalternativen.
+1. I Adobe Analytics går du till **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > [Namn på erbjudande] och väljer ditt trafikproppsnamn i menyalternativen.
 
-   Om du till exempel vill komma åt **[!UICONTROL LoadAsset]** för exempelkontot är rätt menyval **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Om du har fler än tio anpassade utkast visas även andra menyalternativ.
+   Om du till exempel vill få åtkomst till **[!UICONTROL LoadAsset]**-satsen i exempelkontot är rätt menyval **[!UICONTROL Custom Traffic]** > **[!UICONTROL Custom Traffic 1-10]** > **[!UICONTROL LoadAsset]**. Om du har fler än tio anpassade utkast visas även andra menyalternativ.
 
 1. Visa diagram som skapats av Adobe Analytics. Det här diagrammet är vanligtvis bara data för ett enskilt mått. Om du också vill veta vilken resurs som dessa data är associerade med, kan du hämta resursuppgifter för den här händelsen. Det är till exempel ofta praktiskt att veta vilken video som bara visas till 50 % eller vilken bild i en uppsättning som är populär.
 

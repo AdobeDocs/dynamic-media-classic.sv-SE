@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic är det ledande medieoberoende publiceringssystemet on-demand. Du kan överföra, hantera, förbättra och publicera dynamiskt multimediematerial till alla enheter och skärmar. Adobe Dynamic Media Classic lösningar omfattar följande:
 
-* Dynamic Imaging: Redigera, formatera och ändra storlek i realtid, interaktiv zoom och panorering; färg `swatching` och textur `swatching`, 360-graders rotation; bildmallar; multimediavisare.
+* Dynamic Imaging: Redigering, formatering och storleksändring i realtid, interaktiv zoom och panorering, färg `swatching` och textur `swatching`, 360-gradersrotation, bildmallar, multimediavisare.
 * eCatalogs: Skapa, länka till hotspot, sök-aktiverade, publicera och leverera dynamiskt betjänade onlinekataloger till konfigurerbara visningsprogram.
 * Media Portal: En självserverande miljö som ger portalanvändare administratörskontrollerad&quot;vy&quot; i Adobe Dynamic Media Classic-material så att de enkelt kan ladda upp, söka, förhandsgranska och exportera material.
 * eVideo: Ladda upp färdiga videor i valfritt format, hantera, redigera, skapa aktiveringspunkter och videomallar, publicera och strömma till konfigurerbara videovisningsprogram
@@ -28,7 +28,7 @@ Adobe Dynamic Media Classic är det ledande medieoberoende publiceringssystemet 
 Se även följande utbildningsvideor:
 
 * [Introduktion](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/570_Introduction_converted%20renamed_Getting%20Started-AVS)
-* [Vad är Adobe Dynamic Media Classic?](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/577_What%20is%20Scene7_converted%20renamed_Getting%20Started-AVS)
+* [Vad är Adobe Dynamic Media Classic](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/577_What%20is%20Scene7_converted%20renamed_Getting%20Started-AVS)
 * [Plattformsöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS)
 
 ## Viktiga resurser
@@ -42,7 +42,7 @@ Se även följande utbildningsvideor:
 * [Snabbstart: Blandade medieuppsättningar](/help/using/quick-start-mixed-media-sets.md)
 * [Snabbstart: Snurra uppsättningar](/help/using/quick-start-spin-sets.md)
 * [Snabbstart: Färgrutor](/help/using/quick-start-swatch-sets.md)
-* [Snabbstart: Integrering med Target Standard/Premium](/help/using/quick-start-target-integration.md)
+* [Snabbstart: Target Standard/Premium-integrering](/help/using/quick-start-target-integration.md)
 * [Snabbstart: Grundläggande om mallar](/help/using/quick-start-template-basics.md)
 * [Snabbstart: Video](/help/using/quick-start-video.md)
 * [Snabbstart: Zooma](/help/using/quick-start-zoom.md)

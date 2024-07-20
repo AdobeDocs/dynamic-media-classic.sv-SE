@@ -38,11 +38,11 @@ När du skapar bildscheman kan du göra något av följande:
 
 1. Gör något av följande:
 
-   * Om du arbetar med en bild i stödrastervyn eller listvyn väljer du i listrutan Redigera **[!UICONTROL Image Map]**. Du kan också öppna den i detaljvyn och sedan välja **[!UICONTROL Image Map]** ovanför bilden.
+   * Om du arbetar med en bild i stödrastervyn eller listvyn väljer du **[!UICONTROL Image Map]** i listrutan Redigera. Du kan också öppna den i detaljvyn och sedan välja **[!UICONTROL Image Map]** ovanför bilden.
    * Om du arbetar med en SpinSet i stödrastervyn eller listvyn väljer du **[!UICONTROL Edit]**. Du kan också öppna den i detaljvyn och sedan välja **[!UICONTROL Edit]**. Välj en bildresurs och välj sedan **[!UICONTROL Image Map]**.
-   * Om du arbetar med en e-katalog väljer du i Stödrastervisning, Listvy eller Detaljvy **[!UICONTROL Edit]**. Välj **[!UICONTROL Map Pages]** -fliken.
+   * Om du arbetar med en e-katalog väljer du **[!UICONTROL Edit]** i stödrastervyn, listvyn eller detaljvyn. Välj fliken **[!UICONTROL Map Pages]**.
 
-   ![Bildschema - illustration](assets/ma_image_map.png)
+   ![Bildschemaillustration](assets/ma_image_map.png)
 
 1. Rita ett rektangulärt eller polygonalt (flersidigt) bildschema:
 
@@ -58,16 +58,16 @@ När du skapar bildscheman kan du göra något av följande:
 
    Se [för att ange JavaScript och URL:er](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls).
 
-1. Om du vill visa överrullningstext när användare flyttar pekaren över bildschemat anger du texten i listan Bildschema. I listan Bildschema väljer du **[!UICONTROL Show]** meny och välj **[!UICONTROL Rollover Text]**. Ange sedan den text som du vill att användarna ska se på skärmen. Du kan skriva texten i en ordbehandlare och kopiera den till textfältet Över.
+1. Om du vill visa överrullningstext när användare flyttar pekaren över bildschemat anger du texten i listan Bildschema. Välj menyn **[!UICONTROL Show]** i listan Bildschema och välj **[!UICONTROL Rollover Text]**. Ange sedan den text som du vill att användarna ska se på skärmen. Du kan skriva texten i en ordbehandlare och kopiera den till textfältet Över.
 
-1. Om du vill att en annan åtgärdseffekt ska inträffa när användaren flyttar musen över en bildschema definierar du åtgärden. I **[!UICONTROL Show]** nedrullningsbar lista, välja **[!UICONTROL Other Actions]**. Ange åtgärdens attribut. (Gå till **[!UICONTROL Show]** > **[!UICONTROL Both]** om du vill skapa överrullningstext och en åtgärd för en bildschema.)
+1. Om du vill att en annan åtgärdseffekt ska inträffa när användaren flyttar musen över en bildschema definierar du åtgärden. Välj **[!UICONTROL Other Actions]** i listrutan **[!UICONTROL Show]**. Ange åtgärdens attribut. (Gå till **[!UICONTROL Show]** > **[!UICONTROL Both]** om du vill skapa överrullningstext och en åtgärd för en bildschema.)
 
    Se [Definiera andra åtgärder för bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
 
 1. (Valfritt) Gör något av följande:
 
    * Om du vill förhandsgranska bildscheman väljer du **[!UICONTROL Preview]**.
-   * Om du vill ta bort ett bildschema eller en polygonhörnpunkt markerar du en form i bilden och väljer sedan **[!UICONTROL Delete]**. Du kan också välja alternativet för att beställa sidor för en e-katalog på fliken Ordna sidor **[!UICONTROL Clear Maps]** om du vill ta bort bildscheman från alla sidor.
+   * Om du vill ta bort en bildschema eller polygonhörnpunkt markerar du en form på bilden och väljer sedan **[!UICONTROL Delete]**. Eller, för en e-katalog, på fliken Ordna sidor väljer du **[!UICONTROL Clear Maps]** om du vill ta bort bildscheman från alla sidor.
    * Så här tar du bort en
       * Bildschema från en bild
       * en bild i en SpinSet
@@ -79,17 +79,17 @@ När du skapar bildscheman kan du göra något av följande:
 
 ### Justera placering, form och storlek för bildscheman {#adjusting-the-position-shape-and-size-of-image-maps}
 
-Om du vill ändra placering, form och storlek för ett bildschema väljer du knappen Bildschema. Välj sedan **[!UICONTROL Pan]** och följ dessa instruktioner:
+Om du vill ändra placering, form och storlek för ett bildschema väljer du knappen Bildschema. Välj sedan verktyget **[!UICONTROL Pan]** och följ dessa instruktioner:
 
 * **Ändra position**: Flytta pekaren nära, men inte över, kanten på bildschemat. När du ser ikonen med fyra pilar drar du kartan till en ny plats.
 
-* **Ändra storlek och form**: Hur du ändrar form och storlek på ett bildschema beror på om du arbetar med ett rektangulärt eller polygonalt bildschema:
+* **Ändra storlek och form**: Hur du ändrar form och storlek på ett bildschema beror på om du arbetar med ett rektangulärt eller polygonbildschema:
 
 >[!TIP]
 >
 >Du kan dra storleksreglaget längst ned på skärmen för att ändra vyer och få en bättre överblick över din bildschema.
 
-* **Rektangulärt bildschema**: Flytta pekaren över en sida eller ett hörn i bildschemat. När du ser den dubbelriktade pilikonen börjar du dra. Håll ned Skift-tangenten när du drar om du vill ändra storleken men behålla proportionerna (formen).
+* **Rektangulär bildschema**: Flytta pekaren över en sida eller ett hörn i bildschemat. När du ser den dubbelriktade pilikonen börjar du dra. Håll ned Skift-tangenten när du drar om du vill ändra storleken men behålla proportionerna (formen).
 
 * **Polygonbildschema**: Dra ett fyrkantigt markeringshandtag. Om du vill skapa ett markeringshandtag markerar du kanten på bildschemat och börjar dra.
 
@@ -101,20 +101,20 @@ Om bilden eller eCatalog-sidan innehåller mer än en bildschema och kartorna ö
 
 I stället för att ange bildschemadata på varje sida kan du importera data för bilden, den nya uppsättningen eller eCatalog till fönstret Kartsammanfattning. Du importerar bildschemadata i form av en tabbavgränsad fil eller XML DTD. Fälten i filen måste vara i den ordning som visas i fönstret Kartsammanfattning: Namn, Innehållsförteckningsetiketter, Kartor, URL:er, Överrullningstext, Andra åtgärder och Söksträngar. Om du importerar data från bildschemat slipper du problem med att ange data i listan Bildschema när du skapar bildschemat.
 
-**Så här importerar du data för bildschema:**
+**Så här importerar du bildschemadata:**
 
 1. Gå till redigeringssidan för bildscheman (för bilder eller bilder i SpinSets) eller fliken Kartsidor på redigeringsskärmen för eCatalog.
 1. Välj **[!UICONTROL Import Metadata]**.
 1. I dialogrutan Överför metadata väljer du Bild eller Bildschema för att överföra metadata från den önskade resursegenskapstypen.
-1. I `Generate File` väljer du vilken typ av fil du vill skapa.
-1. (Valfritt) Välj **[!UICONTROL Generate]** om du vill förhandsgranska den resulterande informationen baserat på vilken typ av fil du vill skapa. Välj **[!UICONTROL Close]** för att återgå till dialogrutan Överför metadata.
+1. I listrutan `Generate File` väljer du vilken typ av fil du vill skapa.
+1. (Valfritt) Välj **[!UICONTROL Generate]** om du vill förhandsgranska resultatdata baserat på vilken typ av fil du vill skapa. Välj **[!UICONTROL Close]** om du vill återgå till dialogrutan Överför metadata.
 1. Bläddra till filen som du vill överföra. Ange namnet på den genererade filen i textfältet Filnamn.
 1. (Valfritt) I fältet Jobbnamn anger du ett namn för metadataöverföringsjobbet.
 1. Välj **[!UICONTROL Upload]**.
 
 ### Kopiera bildscheman {#copying-image-maps}
 
-Du kan kopiera bildscheman från en bild eller en eCatalog-sida till en annan. Använd **[!UICONTROL Copy Image Map]** för att få ett försprång. Du kan också kopiera bildscheman för att återskapa dem i bilder eller på sidor som delar en layout- eller mappningsstruktur.
+Du kan kopiera bildscheman från en bild eller en eCatalog-sida till en annan. Använd **[!UICONTROL Copy Image Map]** om du vill få ett försprång att börja skapa dem. Du kan också kopiera bildscheman för att återskapa dem i bilder eller på sidor som delar en layout- eller mappningsstruktur.
 
 Om du till exempel kopierar bildscheman i en eCatalog kan du enkelt kopiera alla bildscheman mellan olika språkversioner av samma eCatalog. Det bästa resultatet får du om du kopierar mellan e-kataloger med samma antal sidor och samma bilder. Om den eCatalog som du kopierar till redan innehåller bildscheman tas dessa bildscheman bort när kopian görs.
 
@@ -131,7 +131,7 @@ Om du till exempel kopierar bildscheman i en eCatalog kan du enkelt kopiera alla
 
 ## Använd en mall för att ange JavaScript och URL:er {#using-a-template-to-enter-javascript-and-urls}
 
-Du kan definiera en URL-mall (kallas även Href-mall) för att göra det enklare och effektivare att ange URL:er för bildschema. Definiera en URL-mall om de flesta URL:er för bildschemat har ett gemensamt, fast format. Genom att ange den del av URL-adressen som är fast som URL-mall behöver du inte ange den här delen av URL-adressen varje gång du skapar en bildschema. URL-mallen kan även innehålla JavaScript-kommandon, sökvägsnamn och parametrar. Som standard innehåller URL-mallen en Adobe Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` som öppnar bilden i ett nytt fönster.
+Du kan definiera en URL-mall (kallas även Href-mall) för att göra det enklare och effektivare att ange URL:er för bildschema. Definiera en URL-mall om de flesta URL:er för bildschemat har ett gemensamt, fast format. Genom att ange den del av URL-adressen som är fast som URL-mall behöver du inte ange den här delen av URL-adressen varje gång du skapar en bildschema. URL-mallen kan även innehålla JavaScript-kommandon, sökvägsnamn och parametrar. Som standard innehåller URL-mallen en egen Adobe Dynamic Media Classic JavaScript-hanterare, `loadProduct`, som öppnar bilden i ett nytt fönster.
 
 >[!NOTE]
 >
@@ -149,11 +149,11 @@ Du placerar alla värden som inte ändras mellan bildscheman i URL-mallen. Lägg
 
 * URL-mall: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
 * URL-värde: `product.htm`
-* Faktisk URL som genererats: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* Faktisk URL genererad: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
-Som standard innehåller URL-mallen en Adobe Dynamic Media Classic JavaScript-hanterare som kallas `loadProduct` som öppnar ett nytt fönster med URL-målet. Du kan dock använda vilken JavaScript-kod som helst för att ersätta den här JavaScript-hanteraren eller använda någon av följande Adobe Dynamic Media Classic-hanterare:
+Som standard innehåller URL-mallen en Adobe Dynamic Media Classic JavaScript-hanterare med namnet `loadProduct` som öppnar ett nytt fönster med URL-målet. Du kan dock använda valfri JavaScript-kod för att ersätta den här JavaScript-hanteraren eller använda någon av följande Adobe Dynamic Media Classic-hanterare:
 
-* `loadProductCW`: Visar det URL-mål som anges i URL-kolumnen i det aktuella fönstret. Hanteraren är främst avsedd för e-kataloger som är integrerade på en sida på en webbplats.
+* `loadProductCW`: Visar URL-målet som anges i URL-kolumnen i det aktuella fönstret. Hanteraren är främst avsedd för e-kataloger som är integrerade på en sida på en webbplats.
 
 * `loadProductPW`: Visar URL-målet som anges i URL-kolumnen i det överordnade fönstret (sidan som öppnade det aktuella fönstret). Det aktuella fönstret förblir öppet, men det överordnade fönstret ändras så att URL-målet visas.
 
@@ -164,34 +164,34 @@ Som standard innehåller URL-mallen en Adobe Dynamic Media Classic JavaScript-ha
 ### Skapa en URL-mall {#creating-a-url-template}
 
 1. Välj Redigera bredvid alternativet URL-mall på skärmen i Kartredigeraren (bilder eller SpinSets) eller på fliken Kartsidor på skärmen eCatalog (eCatalogs). Dialogrutan Redigera kartmall öppnas.
-1. Ange JavaScript-koden och den fullständiga URL:en (med variabeldelen ersatt med dollartecken) [$$]). Du kan klistra in koden genom att högerklicka och välja **[!UICONTROL Paste]**.
+1. Ange JavaScript-koden och den fullständiga URL:en (med variabeldelen ersatt av dollartecken [$]). Du kan klistra in koden genom att högerklicka och välja **[!UICONTROL Paste]**.
 1. Välj **[!UICONTROL Save]**.
 
 ### Hantera URL-mallar {#handling-url-templates}
 
 På mallredigeringssidan (bilder och SpinSets) och fliken Kartsidor på eCatalog-skärmen (eCatalogs) finns följande kommandon för hantering av URL-mallar:
 
-* **URL-mallsalternativ**: Välj alternativet URL-mall för att använda URL-mallen på alla bildscheman på en bild- eller eCatalog-sida.
+* **URL-mallalternativ**: Välj alternativet URL-mall om du vill använda URL-mallen på alla bildscheman på en bild- eller eCatalog-sida.
 
 * **Mallalternativ**: Avmarkera ett mallalternativ i listan URL-bildschema om du inte vill att en enskild bildschema ska använda URL-mallen.
 
 ## Definiera andra åtgärder för bildscheman {#defining-other-actions-for-image-maps}
 
-Du kan välja **[!UICONTROL Show]** meny och välj **[!UICONTROL Other Actions]** för att aktivera andra åtgärder än överrullningstext och webbsidor som öppnas. När användaren flyttar pekaren över ett bildschema kan du initiera en åtgärd. Dessa åtgärder är attribut som definieras för Image Maps på klientsidan av specifikationerna för World Wide Web Consortium HTML. De omfattar följande:
+Du kan välja menyn **[!UICONTROL Show]** och välja **[!UICONTROL Other Actions]** om du vill utlösa andra åtgärder än överrullningstext och webbsidor som öppnas. När användaren flyttar pekaren över ett bildschema kan du initiera en åtgärd. Dessa åtgärder är attribut som definieras för Image Maps på klientsidan av specifikationerna för World Wide Web Consortium HTML. De omfattar följande:
 
 * **`accesskey`**: Startar en åtgärd när användaren trycker på en angiven tangent på tangentbordet.
 
-* **`onfocus`**: Startar en händelse när bildschemat får fokus - av markören, genom att trycka på tabbtangenten eller genom att trycka på en åtkomsttangent. Du kan till exempel starta en webbsida när bildschemat får fokus och stänga den när bildschemat inte får fokus.
+* **`onfocus`**: Startar en händelse när bildschemat får fokus - av markören, genom att tabba eller genom att trycka på en åtkomsttangent. Du kan till exempel starta en webbsida när bildschemat får fokus och stänga den när bildschemat inte får fokus.
 
-* **`onblur`**: Startar en händelse när bildschemat förlorar fokus, antingen med markören eller med tabbtangenten.
+* **`onblur`**: Startar en händelse när bildschemat förlorar fokus, antingen av markören eller genom tabbning.
 
-**Så här definierar du andra åtgärder för bildscheman:**
+**Definiera andra åtgärder för bildscheman:**
 
-1. På skärmen Kartredigeraren (bilder och SpinSets) eller på fliken Kartsidor på skärmen eCatalog (eCatalogs) väljer du **[!UICONTROL Show]** meny och välj **[!UICONTROL Other Actions]**.
+1. På kartredigerarens skärm (bilder och SpinSets) eller på fliken Kartsidor på eCatalog-skärmen (eCatalogs) väljer du **[!UICONTROL Show]**-menyn och sedan **[!UICONTROL Other Actions]**.
 1. Använd den syntax som anges i specifikationerna för World Wide Web Consortium HTML för att lägga till attribut som stöds i kolumnen Andra åtgärder i listan Bildschema.
 1. Välj **[!UICONTROL Save]**.
 
-Välj **[!UICONTROL Show]** meny och välj **[!UICONTROL Both]** om du vill att en bildschema ska innehålla överrullningstext och en åtgärd.
+Välj menyn **[!UICONTROL Show]** och välj **[!UICONTROL Both]** om du vill att en bildschema ska innehålla överrullningstext och en åtgärd.
 
 ## Skapa bildscheman i Adobe Acrobat eller Adobe InDesign {#creating-image-maps-in-adobe-acrobat-or-adobe-indesign}
 
@@ -203,10 +203,10 @@ Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 
 ### Skapa bildscheman i Adobe InDesign {#to-create-image-maps-in-adobe-indesign}
 
-1. I Adobe InDesign går du till **[!UICONTROL Windows®]** > **[!UICONTROL Interactive]** > **[!UICONTROL Hyperlinks]**.
+1. Gå till **[!UICONTROL Windows®]** > **[!UICONTROL Interactive]** > **[!UICONTROL Hyperlinks]** i Adobe InDesign.
 1. På panelen Hyperlänkar markerar du den text, ram eller grafik som du vill göra till en bildschema.
 1. Välj **[!UICONTROL New Hyperlink]** på panelmenyn.
-1. I dialogrutan Ny hyperlänk går du till **[!UICONTROL Link To]** väljer du **[!UICONTROL URL]**.
+1. Välj **[!UICONTROL URL]** på menyn **[!UICONTROL Link To]** i dialogrutan Ny hyperlänk.
 1. Skriv eller klistra in produkt-ID:t i rutan URL.
 1. Välj **[!UICONTROL OK]**. (Adobe Dynamic Media Classic slutför URL:en med hjälp av URL-mallen för bildschema.)
 
@@ -217,20 +217,20 @@ Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 1. Upprepa steg 2 till 6 för alla bildscheman som du vill skapa.
 1. Exportera filen som PDF.
 1. Överför PDF till Adobe Dynamic Media Classic.
-1. I **[!UICONTROL PDF Options]**, markera **[!UICONTROL Extract Links]**.
+1. I **[!UICONTROL PDF Options]** väljer du **[!UICONTROL Extract Links]**.
 
 ### Skapa bildscheman i Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
 
-1. I Adobe Acrobat går du till **[!UICONTROL Tools]** > **[!UICONTROL Advanced Editing]** > **[!UICONTROL Link Tool]**.
+1. Gå till **[!UICONTROL Tools]** > **[!UICONTROL Advanced Editing]** > **[!UICONTROL Link Tool]** i Adobe Acrobat.
 1. Dra för att skapa bildschemat.
-1. I rutan Skapa länk väljer du **[!UICONTROL Custom Link]** och markera **[!UICONTROL Next]**.
+1. Markera **[!UICONTROL Custom Link]** i rutan Skapa länk och välj **[!UICONTROL Next]**.
 
 >[!NOTE]
 >
 >Du behöver inte ange utseendealternativ i Adobe Acrobat. Du kan ange utseende i Adobe Dynamic Media Classic.
 
-1. I rutan Länkegenskaper väljer du **[!UICONTROL Actions]**.
-1. Välj **[!UICONTROL Open A Web Link]** på Välj åtgärd-menyn och välj sedan **[!UICONTROL Add]**.
+1. Välj **[!UICONTROL Actions]** i rutan Länkegenskaper.
+1. Välj **[!UICONTROL Open A Web Link]** på menyn Välj åtgärd och välj sedan **[!UICONTROL Add]**.
 1. Ange produkt-ID för bildschemat i rutan Redigera URL och välj **[!UICONTROL OK]**. (Adobe Dynamic Media Classic slutför URL:en med hjälp av URL-mallen för bildschema.)
 1. Upprepa steg 1 till 7 för alla bildscheman som du vill skapa.
 1. Spara filen.

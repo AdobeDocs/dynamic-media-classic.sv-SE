@@ -38,17 +38,17 @@ Du kan skapa egna bildförinställningar om du är företagsadministratör. Du k
 1. Gör något av följande:
 
    * **Skapa en bildförinställning**: Välj **[!UICONTROL Add]**.
-   * **Redigera en bildförinställning**: Bläddra till den bildförinställning som är mest lik den som du vill skapa och välj sedan **[!UICONTROL Edit]**.
+   * **Redigera en bildförinställning**: Bläddra till den bildförinställning som är mest lik den du vill skapa och välj sedan **[!UICONTROL Edit]**.
 
 1. Ange ett namn för bildförinställningen.
 1. Ange mått för bredd och höjd i pixlar. Dessa mått bestämmer storleken som bilderna levereras med.
-1. Fyll i skärmen Lägg till förinställning eller Redigera förinställning. Mer information finns i [Alternativ för bildförinställning](application-setup.md#image_preset_options).
+1. Fyll i skärmen Lägg till förinställning eller Redigera förinställning. Mer information finns i [Alternativ för bildförinställningar](application-setup.md#image_preset_options).
 
    Adobe Dynamic Media Classic rekommenderar att du börjar med följande alternativ:
 
    * **[!UICONTROL Format]**: Välj JPEG eller ett annat format som uppfyller dina krav. Alla webbläsare har stöd för bildformatet JPEG, vilket ger en bra balans mellan små filstorlekar och bildkvalitet. JPEG-bilder använder dock ett förlustgivande komprimeringsschema som kan ge upphov till oönskade bildartefakter om komprimeringsinställningen är för låg. Därför rekommenderar Adobe Dynamic Media Classic att du ställer in komprimeringskvaliteten (på skjutreglaget) på 75. Den här inställningen ger en bra balans mellan bildkvalitet och liten filstorlek.
 
-   * **[!UICONTROL Sharpening]**: Välj inte Skärpa (det här skärpefiltret ger mindre kontroll än **[!UICONTROL Unsharp Masking]** inställningar).
+   * **[!UICONTROL Sharpening]**: Välj inte Skärpa (det här skärpefiltret ger mindre kontroll än **[!UICONTROL Unsharp Masking]** -inställningarna).
 
    * **[!UICONTROL Resample Mode]**: Välj **[!UICONTROL Bi-Cubic]**.
 
@@ -69,7 +69,7 @@ Adobe Dynamic Media Classic&quot;best practice&quot;-alternativ för att skapa b
 
 * **[!UICONTROL Radius]**: Mellan `.6` och `2`.
 
-* **[!UICONTROL Threshold]**: Från `1` via `6`.
+* **[!UICONTROL Threshold]**: Från `1` till `6`.
 
 Om du vill ta bort en bildförinställning markerar du den på skärmen Bildförinställningar och väljer sedan **[!UICONTROL Delete]**.
 
@@ -77,4 +77,4 @@ Om du vill ta bort en bildförinställning markerar du den på skärmen Bildför
 >
 >* [Skapa och redigera bildförinställningar](application-setup.md#creating_and_editing_image_presets)
 >* [Alternativ för bildförinställning](application-setup.md#image_preset_options)
->* [Förhandsvisa en bildresurs baserat på dess bildförinställning](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+>* [Förhandsgranska en bildresurs baserat på bildförinställningen](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)

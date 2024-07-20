@@ -27,33 +27,33 @@ Se till att du har en mappstruktur och organisation för lagring av dina filer p
 
 I resursbiblioteket visas filer i ett mappträd. När du väljer en mapp i resursbiblioteket visas dess innehåll på panelen Bläddra. Använd de här teknikerna för att söka efter mappar i mappträdet:
 
-* **Visa undermappar**: Välj **[!UICONTROL Expand Folder]** om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
+* **Visa undermappar**: Välj ikonen **[!UICONTROL Expand Folder]** om du vill visa undermapparna i en mapp. Den här ikonen finns till vänster om mappnamn.
 
-* **Flytta en mapp**: Du kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att markera **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
+* **Flytta en mapp**: Du kan flytta en mapp genom att dra den och släppa den på den nya platsen, eller genom att välja **[!UICONTROL File]** > **[!UICONTROL Move Folder]**.
 
-* **Dölj mappar**: Välj **[!UICONTROL Collapse Folder]** om du vill dölja undermappar så att de inte visas. Den här ikonen finns till vänster om mappnamn.
+* **Dölj mappar**: Välj ikonen **[!UICONTROL Collapse Folder]** om du vill dölja undermappar så att de inte visas. Den här ikonen finns till vänster om mappnamn.
 
-* **Öppna en mapp**: Välj en mapp om du vill visa dess innehåll på panelen Bläddra.
+* **Öppna en mapp**: Välj en mapp om du vill visa dess innehåll i panelen Bläddra.
 
 >[!TIP]
 >
->Du kan dölja eller visa resursbiblioteket genom att välja **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** till vänster. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.
+>Du kan dölja eller visa resursbiblioteket genom att välja kontrollen **[!UICONTROL Expand]** eller **[!UICONTROL Collapse]** till vänster. Komprimera panelen Resursbibliotek när du behöver mer utrymme att arbeta i panelen Bläddra.
 
 ## Skapa mappar
 
 1. I resursbiblioteket markerar du den mapp du vill skapa en mapp i.
-1. Välj **[!UICONTROL `Add Folder`]** -knappen. Den här ikonen visas högst upp i mapplistan.
+1. Välj knappen **[!UICONTROL `Add Folder`]**. Den här ikonen visas högst upp i mapplistan.
 1. Ange ett beskrivande namn för den nya mappen eller undermappen. Skriv in den i fältet bredvid mappikonen.
 
    >[!NOTE]
    >
-   >Du kan också skapa mappar i Adobe Dynamic Media Classic när du överför filer via FTP. Markera **[!UICONTROL Include Subfolders]** när du överför via FTP replikeras mappstrukturen på datorn i systemet. Filer och undermappar på datorn eller i nätverket replikeras i resursbiblioteket och de resurser du överför placeras i dessa mappar.
+   >Du kan också skapa mappar i Adobe Dynamic Media Classic när du överför filer via FTP. Om du väljer alternativet **[!UICONTROL Include Subfolders]** när du överför via FTP replikeras mappstrukturen på datorn i systemet. Filer och undermappar på datorn eller i nätverket replikeras i resursbiblioteket och de resurser du överför placeras i dessa mappar.
 
 ## Ta bort och byta namn på mappar {#deleting-and-renaming-folders}
 
 Markera en mapp och använd dessa tekniker för att ta bort eller byta namn på den:
 
-* **Ta bort**: Välj **[!UICONTROL `Remove Folder`]** -knappen. Resurser i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
+* **Ta bort**: Välj knappen **[!UICONTROL `Remove Folder`]**. Assets i en borttagen mapp placeras i papperskorgen. Du kan återställa dem därifrån.
 
 * **Byt namn**: Dubbelklicka på namnet och ange ett nytt namn.
 

@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Du kan använda Adobe PostScript®- (EPS) och Adobe® Illustrator®-filer (AI) i Adobe Dynamic Media Classic. I Adobe Dynamic Media Classic finns kommandon för att konfigurera de här filerna när du överför dem.
 
-När du överför PostScript-bildfiler (EPS) eller Illustrator-bildfiler (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Formateringsalternativ för PostScript- och Illustrator-filer finns på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Överför jobbalternativ.
+När du överför PostScript- (EPS) eller Illustrator-bildfiler (AI) kan du formatera dem på olika sätt. Du kan rastrera filerna, konvertera dem till FXG för mallpublicering, behålla den genomskinliga bakgrunden, välja en upplösning och välja en färgrymd. Formateringsalternativ för PostScript- och Illustrator-filer finns på överföringsskärmen under PostScript-alternativ och Illustrator-alternativ i rutan Alternativ för överföringsjobb.
 
 * **[!UICONTROL Processing]**: Välj **[!UICONTROL Rasterize]** om du vill konvertera vektorgrafiken i filen till bitmappsformat.
 
-* **[!UICONTROL Maintain Transparent Background In Rendered Image]**: Bevarar filens genomskinlighet i bakgrunden.
+* **[!UICONTROL Maintain Transparent Background In Rendered Image]**: Behåller filens bakgrundsgenomskinlighet.
 
 * **[!UICONTROL Resolution]**: Anger upplösningsinställningen. Den här inställningen avgör hur många pixlar som visas per tum i filen.
 
-* **[!UICONTROL Color Space]**: Välj **[!UICONTROL Color Space]** och välja en färgrymd:
+* **[!UICONTROL Color Space]**: Välj menyn **[!UICONTROL Color Space]** och välj en färgrymd:
 
    * **[!UICONTROL Detect Automatically]**: Behåller filens färgrymd.
 
@@ -37,4 +37,4 @@ När du överför PostScript-bildfiler (EPS) eller Illustrator-bildfiler (AI) ka
 
    * **[!UICONTROL Force As CMYK]**: Konverterar till CMYK-färgmodellen.
 
-   * **[!UICONTROL Force As Grayscale]**: Konverterar till färgmodellen Gråskala.
+   * **[!UICONTROL Force As Grayscale]**: Konverterar till gråskalefärgrymden.

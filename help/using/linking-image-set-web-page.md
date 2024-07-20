@@ -27,28 +27,28 @@ När du har publicerat en bilduppsättning kan du kopiera dess associerade URL e
 
 ## Kopiera en URL för bilduppsättning {#copying-an-image-set-url}
 
-1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Image Set]**.
+1. Välj **[!UICONTROL Image Set]** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den bilduppsättning vars inbäddade kod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
    * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. I panelen URL:er och panelen Bädda in kod till höger väljer du **[!UICONTROL Copy URL]** till höger om det visningsprogram du vill använda.
-   * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resurssökning och gå sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
+     Välj **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL List View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
+     Välj **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]**, eller **[!UICONTROL Detail View]**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**, **[!UICONTROL List View]** eller **[!UICONTROL Detail View]**. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Copy URL]**.
+     Välj **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
 ## Lägga till URL:er för bilduppsättning på webbsidan {#adding-image-set-urls-to-your-web-page}
 
 Det vanligaste sättet att distribuera bilduppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du väljer det här alternativet öppnas en dynamisk sida (JSP) som visar bilduppsättningen i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Zoom Viewer i referenshandboken för visningsprogrammen för Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Mer information och kodexempel finns i [Embed HTML5 Zoom Viewer (Bädda in zoom Viewer) i referenshandboken för Adobe Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopiera inbäddningskoden för en bilduppsättningsvisare {#copying-the-embed-code-of-an-image-set-viewer}
 
@@ -56,24 +56,24 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
 **Så här kopierar du inbäddningskoden för ett visningsprogram för bilduppsättning:**
 
-1. Välj i listrutan Visa på panelen Resurser **[!UICONTROL Image Set]**.
+1. Välj **[!UICONTROL Image Set]** i listrutan Visa på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den bilduppsättning vars inbäddade kod du vill kopiera i panelen Resursbibliotek på vänster sida.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
-   * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Välj på panelen URL:er till höger **[!UICONTROL Embed Code]**.
-   * Välj **[!UICONTROL Grid View]**. Markera en resurs i panelen Resurssökning och gå sedan till under miniatyrbilden **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**. Dubbelklicka på en enskild resurs på panelen Resursbläddring för att öppna den i detaljvyn. Välj **[!UICONTROL Embed Code]** på panelen URL:er till höger.
+   * Välj **[!UICONTROL Grid View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
+     Välj **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL List View]**. Välj en resurs i panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL List View]**. Markera en enskild resurs på panelen Resursbläddring och gå sedan till höger om miniatyrbilden till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
+     Välj **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-   * Välj **[!UICONTROL Grid View]**, **Listvy**, eller **Detaljvy**. På samma verktygsfält går du till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]**.
+   * Välj **[!UICONTROL Grid View]**, **listvy** eller **detaljvy**. Gå till **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** i samma verktygsfält.
 
-     På sidan Visningsprogramlista, under kolumnen Åtgärder i tabellen, väljer du **[!UICONTROL Embed Code]**.
+     Välj **[!UICONTROL Embed Code]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista.
 
-1. Välj i dialogrutan Bädda in kod **[!UICONTROL Copy to Clipboard]**.
+1. Välj **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
    Det är inte tillåtet att redigera koden i dialogrutan Bädda in kod.
 
@@ -81,4 +81,4 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
 >[!MORELIKETHIS]
 >
->* [Publicera](publishing-files.md#publishing_files)
+>* [Publish](publishing-files.md#publishing_files)

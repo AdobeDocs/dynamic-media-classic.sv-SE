@@ -27,18 +27,18 @@ Följande två begränsningar gäller om du exporterar bildresurser som en anvä
 
 Se även [Exportera resurser från Adobe Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
-**Så här anger du exportalternativ som är tillgängliga för användare av Media Portal:**
+**Så här anger du tillgängliga exportalternativ för Media Portal-användare:**
 
-1. I fältet Global Navigation går du till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]** i fältet Global navigering.
 1. Välj något av följande i fönstret Bildförinställningar:
 
-   * **Aktivera användardefinierad konvertering**: När det här alternativet är markerat kan användarna välja ett annat alternativ på menyn **[!UICONTROL Size]** nedrullningsbar lista i fönstret Exportera markerade resurser. Användarna kan sedan välja en måttenhet som pixlar eller centimeter och sedan ange önskad bredd och höjd. När de exporterar eller hämtar dessa filer formateras bildfilerna om.
+   * **Aktivera användardefinierad konvertering**: När det här alternativet är markerat kan användare välja en annan i listrutan **[!UICONTROL Size]** i fönstret Exportera markerad Assets. Användarna kan sedan välja en måttenhet som pixlar eller centimeter och sedan ange önskad bredd och höjd. När de exporterar eller hämtar dessa filer formateras bildfilerna om.
 
-     När **[!UICONTROL pixels]** väljs från **[!UICONTROL Size]** i den nedrullningsbara listan får bildens bredd × höjd inte överstiga 100 miljoner pixlar. Storleken är lika med 10 000 × 10 000 pixlar för en fyrkantig bild, eller ungefär 8 000 × 12 000 pixlar för en bild med 2x3-proportioner. Den här storleksbegränsningen gäller inte om du exporterar ursprungliga primära bilder.
+     När **[!UICONTROL pixels]** väljs från listrutan **[!UICONTROL Size]** får bildens bredd × höjd inte överstiga 100 miljoner pixlar. Storleken är lika med 10 000 × 10 000 pixlar för en fyrkantig bild, eller ungefär 8 000 × 12 000 pixlar för en bild med 2x3-proportioner. Den här storleksbegränsningen gäller inte om du exporterar ursprungliga primära bilder.
 
      Avmarkera det här alternativet om användare vill hämta filer utan att formatera om dem när de hämtas.
 
-   * **Aktivera export av originalet**: Gör att du kan exportera ursprungliga primära bilder. I **[!UICONTROL Export Selected Assets]** -panelen kan användarna öppna **[!UICONTROL Conversion]** nedrullningsbar meny och välj **[!UICONTROL Export Original]** när du vill exportera originalfiler. Avmarkera det här alternativet om du vill tvinga användarna att välja en bildförinställning eller välja konverteringsalternativ när de exporterar bilder.
+   * **Aktivera export av ursprungliga foton**: Gör att du kan exportera ursprungliga primära bilder. På panelen **[!UICONTROL Export Selected Assets]** kan användare öppna den nedrullningsbara menyn **[!UICONTROL Conversion]** och välja **[!UICONTROL Export Original]** för att exportera originalfilerna. Avmarkera det här alternativet om du vill tvinga användarna att välja en bildförinställning eller välja konverteringsalternativ när de exporterar bilder.
 
 >[!MORELIKETHIS]
 >
