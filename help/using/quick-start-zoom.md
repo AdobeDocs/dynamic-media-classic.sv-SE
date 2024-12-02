@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Zooma"
+title: 'Snabbstart: Zooma'
 description: En introduktion och Snabbstart till zoom som hjälper dig att komma igång snabbt.
 contentOwner: Rick Brough
 content-type: reference

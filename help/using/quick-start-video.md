@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Video i Adobe Dynamic Media Classic"
+title: 'Snabbstart: Video i Adobe Dynamic Media Classic'
 description: En introduktion och snabbstart till Adobe Dynamic Media Classic Video som hjälper dig att komma igång snabbt.
 contentOwner: Rick Brough
 content-type: reference

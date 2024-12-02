@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Adobe Target Standard/Premium-integrering"
+title: 'Snabbstart: Integrering med Adobe Target Standard/Premium'
 description: En introduktion och snabbstart till Adobe Target Standard/Premium som hjälper dig att komma igång snabbt med integreringsteknikerna Adobe Target Standard/Premium i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

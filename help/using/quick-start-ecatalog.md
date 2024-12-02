@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: eCatalogs"
+title: 'Snabbstart: e-kataloger'
 description: En introduktion och en snabbstart till e-kataloger som hjälper dig att komma igång snabbt med eCatalog-tekniken i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

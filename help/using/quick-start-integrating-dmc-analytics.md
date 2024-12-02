@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Integrera Adobe Dynamic Media Classic och Adobe Analytics"
+title: 'Snabbstart: Integrera Adobe Dynamic Media Classic och Adobe Analytics'
 description: En introduktion och snabbstart om hur du integrerar Adobe Dynamic Media Classic och Adobe Analytics.
 contentOwner: Rick Brough
 content-type: reference

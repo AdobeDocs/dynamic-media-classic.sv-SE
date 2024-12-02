@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Snurra uppsättningar"
+title: 'Snabbstart: Snurra uppsättningar'
 description: En introduktion och Snabb start till snurra uppsättning som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

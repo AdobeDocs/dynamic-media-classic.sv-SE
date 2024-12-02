@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Blandad medieuppsättning"
+title: 'Snabbstart: Blandad medieuppsättning'
 description: En introduktion och snabbstart av blandade medieuppsättningar som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

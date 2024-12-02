@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Bilduppsättningar"
+title: 'Snabbstart: Bilduppsättningar'
 description: En introduktion och Snabbstart till bilduppsättningar som hjälper dig att komma igång snabbt med hjälp av Image Set-tekniker i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

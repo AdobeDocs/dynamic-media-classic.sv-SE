@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Bildstorlek"
+title: 'Snabbstart: Bildstorlek'
 description: En introduktion och Snabbstart till Bildstorlek som hjälper dig att komma igång snabbt med tekniker för bildstorlek i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

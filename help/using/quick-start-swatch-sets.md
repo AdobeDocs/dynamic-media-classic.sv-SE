@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Färgrutor"
+title: 'Snabbstart: Färgrutor'
 description: En introduktion och Quick Start to Swatch Set som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference

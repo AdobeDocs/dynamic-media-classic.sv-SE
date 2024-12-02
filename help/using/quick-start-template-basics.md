@@ -1,5 +1,5 @@
 ---
-title: "Snabbstart: Grundläggande om mallar"
+title: 'Snabbstart: Grundläggande om mallar'
 description: En introduktion och snabbstart till mallgrunder som hjälper dig att komma igång snabbt i Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
