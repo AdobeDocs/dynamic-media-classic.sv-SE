@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3647'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Innan du överför resurser till Adobe Dynamic Media Classic måste du kontrolle
 
 ### Filformat som stöds {#supported-asset-file-formats}
 
-I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. Mer information om vilka Camera Raw filer som stöds finns i [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
+I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. Mer information om vilka Camera Raw-filer som stöds finns i [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Resursfilformat | Beskrivning |
 | --- | --- |
@@ -55,8 +55,6 @@ Stöd för TAR- och ZIP-överföring innehåller en kryssruta för att välja om
 
 I följande lista beskrivs de undertyper av rasterbildfilformat som *inte* stöds i Dynamic Media.
 
-Se även [Identifiera filformat som inte stöds för Dynamic Media](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
-
 * PNG-filer som har en IDAT-segmentstorlek som är större än 100 MB.
 * PSB-filer
 * PSD-filer med en annan färgrymd än CMYK, RGB, Gråskala eller Bitmapp stöds inte. Färgrymderna DuoTone, Lab och Indexed stöds inte.
@@ -68,11 +66,11 @@ Se även [Identifiera filformat som inte stöds för Dynamic Media](https://help
 
 För att få bästa möjliga resultat med Adobe Dynamic Media Classic bör du använda de rekommenderade filformaten och storlekarna. I den här tabellen visas resurstyper, vissa med rekommenderade format och filstorlekar för resurser som används ofta.
 
-| Tillgångstyp | Beskrivning/Recommendations |
+| Tillgångstyp | Beskrivning/rekommendationer |
 | --- | --- |
 | Ljud | Indataformat för ljudresurser är AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3. Du kan koda om ljud till följande format: MP3, AAC och HE-AAC. |
-| Bilder (för Bildstorlek, Zooma, Bilduppsättningar, Snurra uppsättningar) | Bilder måste ha minst 2 000 pixlar med den längsta storleken. De typiska bildstorlekarna varierar mellan 1 500 och 2 500 pixlar med den längsta storleken. Vi rekommenderar förlustfria bildformat, inklusive TIFF och PNG-filer. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten. Animate GIF-filer hanteras som annat statiskt innehåll. |
-| eCatalogs | Använd högupplösta PDF-filer som skapats i Adobe Acrobat eller ett Adobe Creative Suite-program som sparats som &quot;tryckoriginal&quot;. PDF innehåller alla teckensnitt, bilder och masker som behövs. Dessutom kan du inkludera alla nödvändiga grafiska element som refereras, antingen som enkelsidiga, dubbelsidiga uppslag eller i ett flersidigt format. Ordna sidorna genom att namnge filerna i alfanumerisk ordning. Placera all PDF för din e-katalog i en enda mapp för att underlätta överföringen. Du kan välja beskärningsalternativ när du överför för att ta bort beskärningsområdet från PDF, inklusive skärmärken, registreringsmål eller färgfält. De flesta tryckklara PDF-filerna finns i CMYK-färgmodellen, så det är viktigt att du hämtar den ICC-färgprofil för CMYK som används med dina PDF-filer. |
+| Bilder (för Bildstorlek, Zooma, Bilduppsättningar, Snurra uppsättningar) | Bilder måste ha minst 2 000 pixlar med den längsta storleken. De typiska bildstorlekarna varierar mellan 1 500 och 2 500 pixlar med den längsta storleken. Vi rekommenderar förlustfria bildformat, inklusive TIFF- och PNG-filer. Om du använder en JPEG-bild bör du använda inställningarna av högsta kvalitet. Animate GIF-filer hanteras som annat statiskt innehåll. |
+| eCatalogs | Använd högupplösta PDF-filer som skapats i Adobe Acrobat eller ett Adobe Creative Suite-program som sparats som &quot;tryckoriginal&quot;. PDF-filerna innehåller alla teckensnitt, bilder och masker som behövs. Dessutom kan du inkludera alla nödvändiga grafiska element som refereras, antingen som enkelsidiga, dubbelsidiga uppslag eller i ett flersidigt format. Ordna sidorna genom att namnge filerna i alfanumerisk ordning. Placera alla PDF-filer för din e-katalog i en enda mapp för att underlätta överföringen. Du kan välja beskärningsalternativ när du överför för att ta bort beskärningsområdet från PDF-filer, inklusive skärmärken, registreringsmål eller färgfält. De flesta tryckfärdiga PDF-filer finns i CMYK-färgmodellen, så det är viktigt att du hämtar den ICC-färgprofil för CMYK som används med dina PDF-filer. |
 | Mallar | Bild- eller layoutdesign med flera lager som kan innehålla text, bilder och lager. Bildlager, textsträngar och attribut, som färg och storlek, kan parametriseras så att variabeldata kan anpassas. Bildkraven för användning i mallar är desamma som för andra bilder. Förbered bilderna i Photoshop eller något annat bildredigeringsprogram. Spara varje bild som en förenklad genomskinlig fil i TIFF- eller PNG-format. Kontrollera att bildupplösningen är lämplig för förväntad användning. Bilder för utskrift är 300 ppi. |
 | Videor | Adobe Dynamic Media Classic stöder videofiler som sparats i formaten OGV och MP4. Du kan omkoda filer till MP4-format vid överföring. Se [Filformat som stöds](#supported-static-file-formats). |
 | Typsnitt | TrueType, `Type1` (endast Windows®), OpenType®-teckensnitt och PhotoFonts har överförts. |
@@ -84,16 +82,16 @@ För att få bästa möjliga resultat med Adobe Dynamic Media Classic bör du an
 | FXG-filer | Upplösningsoberoende grafikformatfiler som du kan använda för att skapa anpassningsbara mallar för utskrift, webb, e-post, dator och enheter. |
 | SVG-filer | Skalbara vektorgrafikfiler som Image Serving-servrar kan återge. |
 | XML-filer | Filer som definierar förbearbetningsregler som används för att ändra sökväg och frågedelar för begäranden. |
-| Cascading Style Sheet-filer. | Överför CSS-skal för anpassning av visningsprogram för HTML5. |
-| JavaScript-filer | JavaScript-filer används för visningsprograminstrumentering för kontoinformation. Adobe Security rekommenderar att den här resurstypen endast används för klientkonton som har en separat domän som används för leverans (för att undvika serveröverskridande skript). |
+| Cascading Style Sheet-filer. | Överför CSS-skal för anpassning av HTML5-visningsprogram. |
+| JavaScript-filer | JavaScript-filer används för visningsprograminstrumentering för kontoinformation. Adobe Security rekommenderar den här resurstypen endast för klientkonton som har en separat domän som används för leverans (för att undvika serveröverskridande skript). |
 
 >[!NOTE]
 >
->När du överför bildfiler och PDF till Adobe Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF är de filer som senare publiceras till Dynamic Media Image Servers. Adobe Dynamic Media Classic använder filformatet Pyramid Tiff eftersom det innehåller olika zoomförhållanden som möjliggör snabb zoomning när det visas med Adobe Dynamic Media Classic zoomningsvisningsprogram.
+>När du överför bildfiler och PDF-filer till Adobe Dynamic Media Classic konverteras dessa källfiler till P-TIFF-filer (Pyramid TIFF). Dessa P-TIFF-filer är de filer som senare publiceras till dynamiska mediabildsservrar. Adobe Dynamic Media Classic använder filformatet Pyramid Tiff eftersom det innehåller olika zoomförhållanden som möjliggör snabb zoomning när det visas med Adobe Dynamic Media Classic zoomningsvisningsprogram.
 
 ### Statiska filformat som stöds {#supported-static-file-formats}
 
-Adobe Dynamic Media Classic stöder flera statiska filformat. Statiskt innehåll är alla resurser som publiceras i befintligt skick, till exempel CSS, PDF, SVG och XML.
+Adobe Dynamic Media Classic stöder flera statiska filformat. Statiskt innehåll är alla resurser som publiceras i befintligt skick, t.ex. CSS, PDF, SVG och XML.
 
 Följande filtyper kan publiceras:
 
@@ -102,7 +100,7 @@ Följande filtyper kan publiceras:
 * CSS
 * JavaScript (när företaget är konfigurerat med sin egen domän)
 * Primär video
-* PDF (när PDF har markerats för publicering efter överföring, för att undvika leverans av alla PDF för eCatalog/PDF)
+* PDF (när PDF har markerats för publicering efter överföring, för att undvika att alla PDF-filer levereras för det befintliga eCatalog/PDF-arbetsflödet)
 * PrX-video
 * SVG
 * XML
@@ -252,14 +250,14 @@ Trimma baserat på genomskinlighet: Ange 0 om du bara vill beskära pixlar om de
 * **Bildredigeringsalternativ**: Du kan bevara urklippsmaskerna &lt;> i bilder och välja en färgprofil.
 Se [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **Alternativ för PostScript®**: Du kan rastrera PostScript®, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
+* **PostScript®-alternativ**: Du kan rastrera PostScript®-filer, beskära filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Photoshop-alternativ**: Du kan skapa mallar från Adobe® Photoshop®-filer, behålla lager, ange hur lager ska namnges, extrahera text och ange hur bilder ska förankras i mallar.
-Se [Överföringsalternativ för PSD](psd-files.md#psd_upload_options).
+Se [PSD överföringsalternativ](psd-files.md#psd_upload_options).
 
-* **Alternativ för PDF**: Du kan rastrera filerna, extrahera sökord och länkar, generera en e-katalog automatiskt, ange upplösningen och välja en färgrymd.
-Se [Överföringsalternativ för PDF](pdfs.md#pdf_upload_options).
+* **PDF-alternativ**: Du kan rastrera filerna, extrahera sökord och länkar, generera en e-katalog automatiskt, ange upplösningen och välja en färgrymd.
+Se [PDF överföringsalternativ](pdfs.md#pdf_upload_options).
 
 * **Illustrator-alternativ**: Du kan rastrera Adobe Illustrator®-filer, behålla genomskinliga bakgrunder, välja en upplösning och välja en färgrymd.
 Se [Arbeta med PostScript- och Illustrator-filer](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
@@ -292,7 +290,7 @@ Det nya jobbet skickar ett meddelande till den adress som du anger så att koden
    * Ingen
    * HTTP-begäran
    * Image Serving Publish
-   * Publish för bildåtergivning
+   * Publicera bildåtergivning
    * Video Publish
 
 1. Ange HTTP-adressen.
