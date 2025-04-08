@@ -9,7 +9,7 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: fc2138cc9fd08cb4ce7466724af03f0901edebf3
+source-git-commit: dd799969ff9fd2638537254ae928a598eec627a3
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 0%
@@ -153,9 +153,9 @@ I följande tabell beskrivs rapporter som du kan generera från sidan Bandbredd 
 
 | Rapport | Information | Använd |
 | --- | --- | --- |
-| Bandbredd | | <!-- CQDOC-22504 --> **VIKTIGT**: Fliken Bandbredd stöds inte längre. Även om den fortfarande visas i användargränssnittet är bandbreddsdata inte tillgängliga och alla värden visas som `0`. |
+| Bandbredd | | **VIKTIGT**: Fliken Bandbredd stöds inte längre. Även om den fortfarande visas i användargränssnittet är bandbreddsdata inte tillgängliga och alla värden visas som `0`. |
 | Lagring | Lagringsanvändning | Spåra mängden data som överförts av företaget. |
-| Bildinnehåll | Visar det totala antalet träffar och den totala volymen för bildleverans, uppdelat efter begärandetyp och undertyp. | Spåra antalet förfrågningar och volymer för olika bildtyper, inklusive mått från andra resurser än videoresurser. <!-- CQDOC-22504 --> |
+| Bildinnehåll | Visar det totala antalet träffar och den totala volymen för bildleverans, uppdelat efter begärandetyp och undertyp. | Spåra antalet förfrågningar och volymer för olika bildtyper, inklusive mått från andra resurser än videoresurser. |
 | Domän | Antalet URL-begäranden per domän | Spåra bildanvändningen baserat på domänen för bildbegäran för ett visst företag. (Adobe Dynamic Media Classic kan tillhandahålla mer än en domän per konto. Kontakta teknisk support om du vill ha mer information.) |
 | Videoströmning | Bandbreddsanvändning för direktuppspelad video | Spåra direktuppspelad videoanvändning efter företag över vissa datumintervall för att fastställa trafikmönster. |
 | Videoinnehåll | Spela upp olika videoklipp | Avgör vilka som är de mest visade och minst visade videoklippen. |
