@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 4601442c2d51d50a2712eee7fd8e5110b43fb2a0
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 * Ett användargränssnitt och en plattform för hantering av bilder och video.
 * Innovativa marknadsföringsfunktioner.
-* Adobe och beprövad leveransplattform.
+* Adobe robusta och beprövade leveransplattform.
 * Smidig enhetlighet med [!DNL Experience Manager] Assets.
 
 +++
@@ -47,7 +47,7 @@ ht-degree: 0%
 +++
 
 +++**Använder [!DNL Dynamic Media] det befintliga Adobe CDN (Content Delivery Network)?**
-Ja, [!DNL Dynamic Media] använder ett robust leveransnätverk på toppnivå i Adobe.
+Ja, [!DNL Dynamic Media] använder Adobe stabila leveransnätverk i toppskiktet.
 
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Stöd för 24/7/265, 99,95 % SLA.
@@ -56,7 +56,7 @@ Ja, [!DNL Dynamic Media] använder ett robust leveransnätverk på toppnivå i A
 +++
 
 +++**Vad är [!DNL Dynamic Media Classic]? Byter Adobe namn på Adobe Scene7?**
-Adobe har ändrat namnet på Adobe Scene7 till [!DNL Dynamic Media Classic].
+Adobe har ändrat namnet på Adobe Scene7 till [!DNL Dynamic Media Classic] .
 
 +++
 
@@ -73,7 +73,7 @@ Kontakta Adobe Account Team eller [mejla s7support@adobe.com](mailto:s7support@a
 +++
 
 +++**Hur hanteras uppgraderingsprocessen?**
-AGS (Adobe Global Services) hanterar uppgraderingen och behandlar den som ett serviceprojekt. Adobe kan endast migrera resurserna. Kunden, AGS eller Partner ansvarar för alla andra uppgraderingsaspekter och steg. På en sammanfattningsnivå innehåller en uppgraderingsplan följande:
+AGS (Adobe Global Services) hanterar uppgraderingen och behandlar den som ett serviceprojekt. Adobe erbjuder endast migrering av resurserna. Kunden, AGS eller Partner ansvarar för alla andra uppgraderingsaspekter och steg. På en sammanfattningsnivå innehåller en uppgraderingsplan följande:
 
 * Tillhandahåll företag-/användarkonton.
 * Replikera resurser från [!DNL Dynamic Media Classic] (tidigare Scene7) till [!DNL Dynamic Media]-komponenten i [!DNL Experience Manager] Assets (tillhandahålls av Adobe via ett automatiskt uppgraderingsverktyg).
@@ -98,7 +98,7 @@ Uppgraderingsprocessen varierar beroende på flera faktorer, bland annat, men in
 +++
 
 +++**Är det någon skillnad i licenskostnad?**
-Kontakta Adobe Account Team för mer information om priser.
+Kontakta Adobe Account Team för mer information om prissättningen.
 
 +++
 
@@ -113,7 +113,7 @@ Nej. Kontrolllistan [beredskap](/help/using/upgrade-readiness.md) innehåller ob
 +++
 
 +++**Måste jag uppgradera?**
-Nej. Adobe stöder och underhåller [!DNL Dynamic Media Classic] (kundbegärda felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) fullt ut nu och i framtiden.
+Nej. Adobe stöder och underhåller fullt ut [!DNL Dynamic Media Classic] (kundbegärda felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
 
 Du kan uppgradera när du är redo att dra nytta av de nya funktionerna i [!DNL Dynamic Media].
 
@@ -173,17 +173,17 @@ Utbildning erbjuds via ADLS (Adobe Digital Learning Services). [!DNL Dynamic Med
 +++
 
 +++**Är [!DNL Dynamic Media] tillgängligt för alla platser?**
-Ja. Adobe har datacentraler i Nordamerika, Europa och Asien-Stillahavsområdet.
+Ja. Adobe har datacentraler i Nordamerika, Europa och Stillahavsområdet.
 
 +++
 
 +++**Hur länge kommer [!DNL Dynamic Media Classic] att finnas som en fristående produkt?**
-Adobe stöder och underhåller [!DNL Dynamic Media Classic] fullt ut (kundefterfrågade felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
+Adobe stöder och underhåller fullt ut [!DNL Dynamic Media Classic] (kundefterfrågade felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
 
 +++
 
 +++**Hur mycket lagringsutrymme ingår i [!DNL Dynamic Media]?**
-Dynamic Media har 60 GB lagringsutrymme. Du kan köpa ytterligare lagringsutrymme i block om 250 GB. Kontrollera avtalsinformationen så att du kan få aktuell lagringstilldelning.
+Dynamic Media levereras med 60 GB lagringsutrymme. Du kan köpa ytterligare lagringsutrymme i block om 250 GB. Kontrollera avtalsinformationen så att du kan få aktuell lagringstilldelning.
 
 +++
 
@@ -207,7 +207,7 @@ Adobe utför en automatisk validering av alla resurser som flyttas till [!DNL Dy
 
 +++
 
-+++**Finns det ett SLA för [!DNL Dynamic Media]?**
++++**Finns det någon SLA för [!DNL Dynamic Media]?**
 Ja. Kontakta Adobe Account Team för mer information.
 
 +++
@@ -241,12 +241,12 @@ Se även sidan [Funktionsjämförelse](/help/using/upgrade-feature-comparison.md
 ## Konsulttjänster
 
 +++**Kan jag slutföra uppgraderingsprocessen själv?**
-Nej. Samarbeta med er Adobe-representant och AGS för att se vad uppgraderingen omfattar.
+Nej. Samarbeta med er Adobe-representant och AGS för att göra uppgraderingen möjlig.
 
 +++
 
 +++**Hur ser tjänsteprojektet ut?**
-Adobe samarbetar med dig för att planera projektet. Adobe ansvarar för etablering och konfigurering av konton, replikering av resurser, testning och validering.
+Adobe samarbetar med er för att planera projektet. Adobe ansvarar för etablering och konfigurering av konton, replikering av resurser, testning och validering.
 
 Kunderna är främst ansvariga för förändringshantering, inklusive utbildningsanvändare, redigeringsprocesser och utrullning av nya funktioner.
 
@@ -270,8 +270,7 @@ Kontakta din Adobe Account Team-representant för anpassad eller individuell utb
 
 ## Ytterligare resurser
 
-+++**Var
-Kan jag läsa mer om [!DNL Dynamic Media] och dess funktioner?**
++++**Var kan jag läsa mer om [!DNL Dynamic Media] och dess funktioner?**
 Mer information om [!DNL Dynamic Media] finns i [[!DNL Dynamic Media] mikrosite ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) .
 
 +++
