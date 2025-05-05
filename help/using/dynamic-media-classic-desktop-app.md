@@ -271,11 +271,11 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Tips och tricks
 
-**_Jag kan inte se Media Cart-panelen på Adobe Dynamic Media Classic landningssida._**<br>Tryck på&#x200B;**[!UICONTROL Setup > Personal Setup]**i Adobe Dynamic Media Classic. Kontrollera att **[!UICONTROL Show MediaPortal Features]**är markerat i webbläsaravsnittet. Tryck på&#x200B;**[!UICONTROL Save > Close]**.
+**_Jag kan inte se Media Cart-panelen på Adobe Dynamic Media Classic landningssida._**<br>Tryck på&#x200B;**[!UICONTROL Setup > Personal Setup]**&#x200B;i Adobe Dynamic Media Classic. Kontrollera att **[!UICONTROL Show MediaPortal Features]**&#x200B;är markerat i webbläsaravsnittet. Tryck på&#x200B;**[!UICONTROL Save > Close]**.
 
-**_Publish-tillstånd (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har Adobe introducerat en **[!UICONTROL Refresh]**-ikon i verktygsfältet till höger om knappen **[!UICONTROL Select None]**. Tryck på ikonen **[!UICONTROL Refresh]**för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
+**_Publish-tillstånd (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har Adobe introducerat en **[!UICONTROL Refresh]**-ikon i verktygsfältet till höger om knappen **[!UICONTROL Select None]**. Tryck på ikonen **[!UICONTROL Refresh]**&#x200B;för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
 
 ![Ikonen Uppdatera](/help/using/assets/refresh-icon1.png)
 *Ikonen Uppdatera*
 
-**_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br>Tryck på&#x200B;**[!UICONTROL Upload > Job Options > Batch Set Presets]**. Kontrollera att relevant **[!UICONTROL Batch Set Preset]**är aktiverat. Klicka på&#x200B;**[!UICONTROL Save and Submit upload]**.
+**_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br>Tryck på&#x200B;**[!UICONTROL Upload > Job Options > Batch Set Presets]**. Kontrollera att relevant **[!UICONTROL Batch Set Preset]**&#x200B;är aktiverat. Klicka på&#x200B;**[!UICONTROL Save and Submit upload]**.
