@@ -30,7 +30,7 @@ Innan du kan överföra en bildresurs måste du först begära en delad hemlig n
 
 ## Begär en delad hemlig nyckel {#requesting-a-shared-secret-key}
 
-Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I fallet med teknisk support begär du en delad-hemlig nyckel.
+Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) I fallet med teknisk support begär du en delad-hemlig nyckel.
 
 I e-postmeddelandet anger du det företagsnamn som du vill använda för att överföra bildresurser. När du har fått nyckeln från Adobe Dynamic Media Classic sparar du den lokalt för framtida bruk.
 

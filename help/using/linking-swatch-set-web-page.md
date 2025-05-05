@@ -48,7 +48,7 @@ När du har publicerat en uppsättning med färgrutor kan du använda den associ
 
 Det vanligaste sättet att distribuera färgruteuppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du väljer det här alternativet öppnas en dynamisk sida (ASP eller JSP) som visar uppsättningen med färgrutor i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Inbäddning av zoomvisningsprogrammet HTML5 i referenshandboken för visningsprogrammen för Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Mer information och kodexempel finns i [Inbäddning av zoomvisningsprogrammet HTML5 i referenshandboken för visningsprogrammen för Adobe](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopiera inbäddningskod för ett visningsprogram för färgrutor {#copying-the-embed-code-of-a-swatch-set-viewer}
 

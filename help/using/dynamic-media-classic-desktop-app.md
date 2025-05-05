@@ -233,7 +233,7 @@ Så här hämtar och *tyst* installerar du den senaste versionen av Adobe Dynami
 
 ## Videogenomgång om hur du använder Adobe Dynamic Media Classic datorprogram {#dmc-app-video-walk-through}
 
-Titta på en [videogenomgång om hur du använder Adobe Dynamic Media Classic-datorprogrammet](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (längd: 2 minuter 36 sekunder).
+Titta på en [videogenomgång om hur du använder Adobe Dynamic Media Classic-datorprogrammet](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (längd: 2 minuter 36 sekunder).
 
 ## Rensa bildcachen och resurscachen på datorn med datorprogrammet {#clear-cache}
 

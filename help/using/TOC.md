@@ -22,7 +22,7 @@ ht-degree: 0%
    + [Jämförelse av funktioner](upgrade-feature-comparison.md)
    + [Checklista för beredskap för uppgradering](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic Guide](home.md)
-+ [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [NYTT Inloggningsloggen för Adobe Dynamic Media Classic är nu tillgänglig](new-ui-2020.md)
 + [Adobe Dynamic Media nyhetsbrevarkiv från Experience League](dynamic-media-newsletter.md)
 + Vi presenterar Adobe Dynamic Media Classic {#intro}

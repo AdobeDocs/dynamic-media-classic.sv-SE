@@ -48,7 +48,7 @@ När du har publicerat en bilduppsättning kan du kopiera dess associerade URL e
 
 Det vanligaste sättet att distribuera bilduppsättningar är att placera en länk (via en navigeringsikon) på webbsidan. När du väljer det här alternativet öppnas en dynamisk sida (JSP) som visar bilduppsättningen i ett popup-fönster för zoomning. Zoomlänken öppnar ett popup-fönster som innehåller den faktiska zoomfunktionen.
 
-Mer information och kodexempel finns i [Embed HTML5 Zoom Viewer (Bädda in zoom Viewer) i referenshandboken för Adobe Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Mer information och kodexempel finns i [Embed HTML5 Zoom Viewer (Bädda in zoom Viewer) i referenshandboken för Adobe Viewer](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopiera inbäddningskoden för en bilduppsättningsvisare {#copying-the-embed-code-of-an-image-set-viewer}
 

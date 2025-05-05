@@ -161,7 +161,7 @@ Administratörer kan skapa förinställningar för att exportera resurser. Anvä
 
 Du öppnar skärmen Bildförinställning i fältet Global navigering genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Se [Smart bildbehandling](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Se [Smart bildbehandling](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Skapa och redigera bildförinställningar {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Genom att kombinera följande i en enda spelare:
 
 Du kan nå ut med multimediematerial till både dator-, surfplatte- och mobilanvändare och få en smidig videoupplevelse.
 
-Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) i referenshandboken för Adobe-visningsprogram.
+Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) i referenshandboken för Adobe-visningsprogram.
 
 Se [Kompatibilitetsmatris för förinställningar för Adobe Dynamic Media Classic Viewer](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Se även [Exempel på referensbibliotek för visningsprogram i Adobe](https://la
 
 Olika webbsidor har olika behov. Ibland vill du ha en webbsida som innehåller en länk som öppnar visningsprogrammet för HTML 5 i ett separat webbläsarfönster. I andra fall måste du bädda in HTML5-visningsprogrammet direkt på värdsidan. I det senare fallet har webbsidan förmodligen en statisk layout. Eller så är den&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har de HTML5-visningsprogram som medföljer Adobe Dynamic Media Classic stöd för både statiska webbsidor och responsiva webbsidor.
 
-Mer information om hur du bäddar in responsiva visningsprogram på dina webbsidor finns i [Om bibliotek för responsiv bild](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Använd bibliotek för responsiv bild](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) och [Kommandoreferens: Kommandoattribut](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Mer information om hur du bäddar in responsiva visningsprogram på dina webbsidor finns i [Om bibliotek för responsiv bild](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Använd bibliotek för responsiv bild](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) och [Kommandoreferens: Kommandoattribut](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Förinställningstyper för visningsprogram {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Se även [Exempel på referensbibliotek för visningsprogram i Adobe](https://la
 
 Information om vilka webbläsare och operativsystemversioner som stöds för visningsprogram finns i versionsinformationen för visningsprogram.
 
-Se [Referensinformation för visningsprogram för Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Se [Referensinformation för visningsprogram för Adobe](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources).
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet PC |
 |--- |--- |--- |--- |--- |--- |--- |

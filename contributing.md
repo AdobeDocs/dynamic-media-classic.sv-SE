@@ -58,4 +58,4 @@ Adobe välkomnar alla bidrag. Bidrag granskas om de görs i det offentliga arkiv
 
 ## Ytterligare information
 
-Se [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) om du vill ha mer information om hur du använder utvecklingsplattformen GitHub.
+Se [Adobe Docs Contributor Guide](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction) om du vill ha mer information om hur du använder utvecklingsplattformen GitHub.

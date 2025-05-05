@@ -25,7 +25,7 @@ När du har integrerat Adobe Analytics med Adobe Dynamic Media Classic kan du f�
 
 Med Adobe Analytics rapporter kan du få en tydlig bild av kundernas aktivitet på din webbplats. Du kan avgöra vilka produktpresentationer som leder till konvertering och vilka som inte drar till sig kundernas intresse.
 
-Se även [Mäta video i Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+Se även [Mäta video i Adobe Analytics](https://experienceleague.adobe.com/sv/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >

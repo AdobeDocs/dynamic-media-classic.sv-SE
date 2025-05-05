@@ -187,7 +187,7 @@ Du kan använda bildmodifieringar i affischbildrutan. Du kan till exempel beskä
 
 Se [Lägg till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Se [Guiden Skapa bild](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Se [Guiden Skapa bild](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Du kan också ändra videominiatyrbilder genom att lägga till modifierare till URL:er för videominiatyrbilder.
 

@@ -23,7 +23,7 @@ Adobe Target Standard/Premium ger marknadsförarna direkt kontroll. Om du gör d
 
 Med Adobe Dynamic Media Classic kan ni skapa erbjudanden och erbjudanden för Adobe Target Standard/Premium-kampanjer. Du kan till exempel skapa en Erbjudandeuppsättning med tre varianter av samma mediefil. Sedan kan du låta Adobe Target Standard eller Premium avgöra vilken mediefil som ger bättre konverteringshöjning. Du kan skapa erbjudanden och erbjudandeuppsättningar från en grundmall eller från enskilda bilder. När erbjudandeuppsättningen har överförts eller sparats till Adobe Target Standard/Premium, där erbjudandena är kopplade till kartonger och upplevelser, kan Adobe Target Standard/Premium köra kampanjer. Dessa kampanjer avgör vilken typ av webbplats som troligen fungerar bäst för klickningar och konvertering.
 
-Använd erbjudanden om Adobe Target Standard/Premium HTML för större anpassning av dynamiskt Adobe Dynamic Media Classic-innehåll. Mer information finns i [produktdokumentationen för Adobe Target Standard/Premium](https://experienceleague.adobe.com/en/docs/target).
+Använd erbjudanden om Adobe Target Standard/Premium HTML för större anpassning av dynamiskt Adobe Dynamic Media Classic-innehåll. Mer information finns i [produktdokumentationen för Adobe Target Standard/Premium](https://experienceleague.adobe.com/sv/docs/target).
 
 >[!NOTE]
 >

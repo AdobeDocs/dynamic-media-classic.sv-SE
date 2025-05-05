@@ -26,7 +26,7 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från 7 maj 2020.
 
 ## Dynamic Media Developer Resources
 
-* [Startsida för Dynamic Media Developer Resources](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): Innehåller:
+* [Startsida för Dynamic Media Developer Resources](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources): Innehåller:
    * Referenshandbok för visningsprogram
    * Image Serving/Image Rendering API
    * API för bildproduktionssystem
@@ -36,7 +36,7 @@ Se [Vanliga frågor](new-ui-2020.md). Nya uppdateringar från 7 maj 2020.
 ## Adobe Dynamic Media Classic användarresurser
 
 * [Dynamic Media Monthly Newsletter](dynamic-media-newsletter.md)
-* [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Guide: Best Practices Guide for Sharpening Images](/help/using/assets/s7_sharpening_images.pdf)
 * [Guide: How Adobe Dynamic Media Classic supports SEO](/help/using/assets/s7_seo.pdf): Search engines today enable search for websites and images. Adobe Dynamic Media Classic stöder arbetet med att göra bilderna sökmotorvänliga så att mer trafik dirigeras till Adobe Dynamic Media Classic webbplats. Den här guiden i PDF ger dig de bakgrunds- och implementeringsrekommendationer som behövs för att det ska hända.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

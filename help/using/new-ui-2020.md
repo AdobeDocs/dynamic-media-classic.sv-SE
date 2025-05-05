@@ -94,12 +94,12 @@ Kontakta Adobe Support om du har problem med appen.
 +++**_Jag vill försäkra mig om att jag optimerar min multimediestrategi. Hur kan jag lära mig mer om Adobe Dynamic Media Classic?_**
 Adobe Dynamic Media Classic är en kraftfull och funktionsrik lösning som utformats för att förbättra dina multimediestrategier. Se till att du utforskar följande praktiska resurser så att du kan utnyttja alla funktioner:
 
-* [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Självstudiekurs om bästa praxis för Adobe Dynamic Media Classic](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe blogginlägg](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Dynamic Media Newsletter Archives](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media Newsletter Archives](https://experienceleague.adobe.com/sv/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=sv-SE), and the complementary audit program. -->
 
 +++**_Jag vill veta mer om att uppgradera till Adobe Dynamic Media med Adobe Experience Manager Assets. Var finns mer information?_**
 Om du vill veta mer om fördelarna med att uppgradera till nästa generation av multimedia-redigering, publicering och dynamisk leverans kan du gå till [Adobe Dynamic Media-portalen för uppgradering](/help/using/upgrade.md) .
