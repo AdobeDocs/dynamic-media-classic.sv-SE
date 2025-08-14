@@ -73,7 +73,7 @@ Om du har lagt till nyckelord till andra filer under den här sessionen, eller o
 >[!NOTE]
 >
 >Du kan lägga till nyckelord till filer när du överför dem till Adobe Dynamic Media Classic. I dialogrutan Alternativ för överföring av jobb väljer du **[!UICONTROL More Metadata]** och anger nyckelord.
->>Se [Överföringsalternativ](uploading-files.md#upload_options).
+>&#x200B;>Se [Överföringsalternativ](uploading-files.md#upload_options).
 
 ## Importera metadata {#import-metadata}
 
@@ -82,7 +82,7 @@ I stället för att manuellt ange metadata för en resurs i taget kan du importe
 >[!NOTE]
 >
 >Du kan skapa en mall för att ange metadata så att de kan importeras på rätt sätt till Adobe Dynamic Media Classic. När du har skapat mallen kan du använda den för att ange metadata.
->>Se [Skapa en mall för att ange metadata som ska överföras](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
+>&#x200B;>Se [Skapa en mall för att ange metadata som ska överföras](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload).
 
 Mer information om standardiserade egenskaper finns på [Adobe XMP Developer Center](https://www.adobe.com/devnet/xmp.html).
 
