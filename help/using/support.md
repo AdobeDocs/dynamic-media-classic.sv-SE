@@ -25,14 +25,14 @@ Teknisk support är utformad för att uppfylla behoven i alla typer av företag.
 | --- | --- |
 | Ärendegräns | Obegränsat. |
 | Kontrollera Adobe systemstatus | [Adobe Dynamic Media Classic systemstatus](https://status.adobe.com/products/1175). |
-| Hittar du inget svar? | [Öppna ett supportärende](https://experienceleague.adobe.com/?support-solution=General#support) om du vill ha hjälp från supporten. |
+| Hittar du inget svar? | [Öppna ett supportärende](https://experienceleague.adobe.com/sv?support-solution=General#support) om du vill ha hjälp från supporten. |
 | Community Forum | [Experience Manager Community-forum](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
-| SLA (servicenivåavtal) | [Supporttjänster/Villkor](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| SLA (servicenivåavtal) | [Supporttjänster/Villkor](https://helpx.adobe.com/se/support/programs/support-policies-terms-conditions.html). |
 | Användare som stöds | Upp till tio användare per organisation kan utses till Användare som stöds, som kan öppna ärenden med kundtjänst. |
 | Kostnadsfria videor med webbutbildningar och instruktioner | Ingår. |
-| Telefonsupport | <ul><li>USA och Kanada: 0200-810 329 </li><li>[Telefonnummer för andra regioner](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
+| Telefonsupport | <ul><li>USA och Kanada: 0200-810 329 </li><li>[Telefonnummer för andra regioner](https://experienceleague.adobe.com/sv?support-tab=home#support). </li></ul> |
 
-<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
+<!-- |Create a support case| [https://helpx.adobe.com/se/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/se/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 När du rapporterar problem till den tekniska supporten ska du inkludera följande information:
 

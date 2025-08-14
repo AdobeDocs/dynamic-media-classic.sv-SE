@@ -26,7 +26,7 @@ Innan du överför resurser till Adobe Dynamic Media Classic måste du kontrolle
 
 ### Filformat som stöds {#supported-asset-file-formats}
 
-I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. Mer information om vilka Camera Raw-filer som stöds finns i [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
+I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. Mer information om vilka Camera Raw-filer som stöds finns i [https://helpx.adobe.com/se/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/se/camera-raw/using/supported-cameras.html).
 
 | Resursfilformat | Beskrivning |
 | --- | --- |

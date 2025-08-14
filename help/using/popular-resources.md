@@ -18,14 +18,14 @@ ht-degree: 0%
 
 ## Adobe Dynamic Media Classic tekniska dokumentation
 
-* [Versionsinformation](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [Versionsinformation](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [Användarhandbok](introduction.md)
 
 ## Adobe Dynamic Media Classic Developer Resources
 
-* [Referenshandbok för Adobe-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Referenshandbok för Adobe-visningsprogram](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources)
 * [Exempel på visningsprogrambibliotek](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [Bildserver och API för bildåtergivning](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Bildserver och API för bildåtergivning](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classic nyhetsbrev, självstudiekurser och webbinarier
 
@@ -42,6 +42,6 @@ ht-degree: 0%
 ## Adobe Dynamic Media Classic Training
 
 Gå [här](https://training.adobe.com/training/courses.html#product=adobe-scene7) om du vill se de kurser som finns.
-[Adobe Dynamic Media Classic utbildningsvideor](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
+[Adobe Dynamic Media Classic utbildningsvideor](https://experienceleague.adobe.com/sv/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
 Se alla populära resurser som är tillgängliga för [Adobe Dynamic Media Classic](home.md).

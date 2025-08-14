@@ -60,7 +60,7 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
   Adaptiv videoströmning stöds på olika iOS-plattformar.
 
-  Se det senaste stödet i [referenshandboken för Adobe-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+  Se det senaste stödet i [referenshandboken för Adobe-visningsprogram](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 

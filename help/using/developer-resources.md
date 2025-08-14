@@ -20,26 +20,26 @@ ht-degree: 0%
 
 Referenshandböcker till visningsprogram, Image Serving och Image Rendering samt Image Production System beskriver http-protokollen för dessa servermoduler. Webbutvecklare som vill anpassa sig ytterligare och använda Adobe Dynamic Media Classic multimedia för en webbplats eller för ett anpassat program kan använda dessa guider. Användaren måste känna till Dynamic Media Classic datorprogram, http-protokollets allmänna standarder och konventioner samt grundläggande bildterminologi.
 
-Se även [Resurser för dynamisk mediautvecklare](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+Se även [Resurser för dynamisk mediautvecklare](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources).
 
 ## Tittare {#viewers-guide}
 
 | Dokument | Webbadress |
 | --- | --- |
-| Referenshandbok för visningsprogram och versionsinformation | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/homeviewers) |
+| Referenshandbok för visningsprogram och versionsinformation | [https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/library/homeviewers](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/library/homeviewers) |
 | Exempel på visningsprogrambibliotek | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
 ## API för bildserver/bildåtergivning (IS/IR) {#is-ir-api-guide}
 
 | Dokument | Webbadress |
 | --- | --- |
-| Referenshandbok för API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
+| Referenshandbok för API | [https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/homeisir](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/homeisir) |
 
 ## API för bildproduktionssystem (IPS) {#ips-api-guide}
 
 | Dokument | Webbadress |
 | --- | --- |
-| Referenshandbok för API | [https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
+| Referenshandbok för API | [https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-production-api/c-overview](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-production-api/c-overview) |
 
 <!-- ## Image Authoring {#ia}
 

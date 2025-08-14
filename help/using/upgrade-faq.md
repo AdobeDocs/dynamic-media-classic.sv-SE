@@ -255,7 +255,7 @@ Kunderna är främst ansvariga för förändringshantering, inklusive utbildning
 ## Support och utbildning
 
 +++**Hur får jag support?**
-Kundtjänst dygnet runt, alla dagar. [Kontakta teknisk support](https://experienceleague.adobe.com/?support-solution=General#support).
+Kundtjänst dygnet runt, alla dagar. [Kontakta teknisk support](https://experienceleague.adobe.com/sv?support-solution=General#support).
 
 Telefon: 1-800-898-9743 (USA) | +44 (0)20 35641782 (Storbritannien) | +81-3-6743-9632 (Japan)
 
