@@ -22,7 +22,7 @@ Innan du kan överföra en bildresurs måste du först begära en delad hemlig n
 
 >[!IMPORTANT]
 >
->Från och med 1 maj 2023 kommer UGC-resurser i Dynamic Media att vara tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
+>Från och med 1 maj 2023 är UGC-resurser i Dynamic Media tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Innan du kan överföra en bildresurs måste du först begära en delad hemlig n
 
 ## Begär en delad hemlig nyckel {#requesting-a-shared-secret-key}
 
-Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) I fallet med teknisk support begär du en delad-hemlig nyckel.
+Begär en *delad-hemlig nyckel* av [med Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I fallet med teknisk support begär du en delad-hemlig nyckel.
 
 I e-postmeddelandet anger du det företagsnamn som du vill använda för att överföra bildresurser. När du har fått nyckeln från Adobe Dynamic Media Classic sparar du den lokalt för framtida bruk.
 
@@ -138,9 +138,9 @@ I följande HTML-formulär kan en användare överföra en resurs. I formuläret
 Se Blockera bakgrund i [Alternativ för finjustering av bilder vid överföring](image-editing-options-upload.md#image-editing-options-at-upload).
 * Namnet på filen som ska överföras.
 
-Du kan visa källkoden för HTML som är kopplad till formuläret ovan genom att välja [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+Du kan visa HTML-källkoden som är kopplad till formuläret ovan genom att välja [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Högerklicka i webbläsarfönstret i Firefox och välj sedan **[!UICONTROL View Page Source]**. Koden visar motsvarande URL-frågesträng och den POST som körs när användaren väljer **[!UICONTROL Submit]**.
+Högerklicka i webbläsarfönstret i Firefox och välj sedan **[!UICONTROL View Page Source]**. Koden visar motsvarande URL-frågesträng och POST-metoden som körs när användaren väljer **[!UICONTROL Submit]**.
 
 Om du vill visa XML-svaret i Internet Explorer går du till **[!UICONTROL View]** > **[!UICONTROL Source]**. Om du vill visa XML-svaret i Firefox går du till **[!UICONTROL Tools]** > **[!UICONTROL Browser Tools]** > **[!UICONTROL Web Developer Tools]**. Firefox rekommenderas för visning av XML-svar.
 
@@ -168,7 +168,7 @@ Nedan följer ett exempelsvar från en slutförd överföring:
 
 >[!NOTE]
 >
->Den överförda resursen (JPG, GIF och så vidare) konverteras till PTIFF-format och svaret skickar en direkt länk till den PTIFF-resursen.
+>Den överförda resursen (JPG, GIF och så vidare) konverteras till PTIFF-format och svaret skickar en direktlänk till den PTIFF-resursen.
 
 Resursen är som vilken annan ImageServing-resurs som helst. Du kan använda bearbetningsfrågor på den. Följande URL begär till exempel en resurs som är utsträckt till den angivna bredden och höjden.
 
@@ -190,7 +190,7 @@ Skicka resursen som ska överföras som en multipart-/formulärpost samtidigt so
 
 >[!NOTE]
 >
->Du måste skicka resursen som ska överföras som det enda fältet i en begäran om flera POSTER.
+>Du måste skicka resursen som ska överföras som det enda fältet i en POST-begäran som består av flera delar.
 
 **Exempel-URL:**
 

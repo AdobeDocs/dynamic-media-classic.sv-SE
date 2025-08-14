@@ -45,9 +45,9 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
 ## Förhandsvisa bilduppsättning Assets i ett visningsprogram {#previewing-image-set-assets-in-a-viewer}
 
-Du kan använda Förhandsvisa för att se hur en resurs ser ut i en viss visningsprogramtyp, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogrammet som du har valt att förhandsgranska, är inte alla plattformar tillgängliga i förhandsvisningen.
+Du kan använda Förhandsgranska för att se hur en resurs ser ut i en viss visningsprogramtyp, till exempel HTML5. Beroende på resurstypen och det tillhörande visningsprogrammet som du har valt att förhandsgranska, är inte alla plattformar tillgängliga i förhandsvisningen.
 
-1. Välj **[!UICONTROL Image Set]** i listrutan **[!UICONTROL Show]** på panelen Resursbibliotek på vänster sida.
+1. Välj **[!UICONTROL Show]** i listrutan **[!UICONTROL Image Set]** på panelen Resursbibliotek på vänster sida.
 1. Navigera i resursmapparna på panelen Resursbibliotek till vänster och markera den bilduppsättning som du vill förhandsgranska.
 1. Gör något av följande:
 

@@ -1,5 +1,5 @@
 ---
-title: Publish primära bilder
+title: Publicera primära bilder
 description: Lär dig hur du publicerar primära bilder från Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ---
 
-# Publish primära bilder{#publishing-master-images}
+# Publicera primära bilder{#publishing-master-images}
 
-När du publicerar dina bildfiler publiceras de på Dynamic Media Image Servers, där de är tillgängliga för din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic dessutom de URL-strängar du behöver för din webbplats och ditt program.
+När du publicerar dina bildfiler publiceras de till dynamiska mediabildsservrar, där de är tillgängliga för din webbplats och ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic dessutom de URL-strängar du behöver för din webbplats och ditt program.
 
 ## Markera primära bilder för publicering {#marking-master-images-for-publish}
 
-Primära bilder måste markeras för publicering för att de ska kunna kopieras till Dynamic Media Image Servers. Du kan markera dina primära bilder för publicering på panelen Bläddra genom att välja ikonen **[!UICONTROL Mark for Publish]**. Du kan också markera bilder för publicering när du överför dem till Adobe Dynamic Media Classic.
+Primära bilder måste markeras för publicering för att de ska kunna kopieras till dynamiska mediabildsservrar. Du kan markera dina primära bilder för publicering på panelen Bläddra genom att välja ikonen **[!UICONTROL Mark for Publish]**. Du kan också markera bilder för publicering när du överför dem till Adobe Dynamic Media Classic.
 
-## Publish dina primära bilder {#publishing-your-master-images}
+## Publicera dina primära bilder {#publishing-your-master-images}
 
 1. Välj **[!UICONTROL Publish]** i fältet Global navigering. I dialogrutan Publicera väljer du alternativet När (**[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**) och anger sedan eventuellt ett namn för publiceringsjobbet
 
@@ -37,4 +37,4 @@ Primära bilder måste markeras för publicering för att de ska kunna kopieras 
 
 >[!MORELIKETHIS]
 >
->* [Publish-filer](publishing-files.md#publishing_files)
+>* [Publicera filer](publishing-files.md#publishing_files)

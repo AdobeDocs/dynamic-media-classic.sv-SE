@@ -37,4 +37,4 @@ När du har skapat de nödvändiga variablerna i Adobe Analytics, länkat dem ti
 >
 >Alla Adobe Dynamic Media Classic-visningsprogramdata visas och rapporteras i rapporter om anpassad trafik eller anpassade konverteringsrapporter för Adobe Analytics.
 
-Mer information finns i [Analytics Tutorials](https://experienceleague.adobe.com/sv/docs/analytics-learn/tutorials/overview).
+Mer information finns i [Självstudiekurser för analys](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).

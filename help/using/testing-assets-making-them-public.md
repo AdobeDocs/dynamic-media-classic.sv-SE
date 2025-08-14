@@ -41,7 +41,7 @@ Från ditt företagsnätverk kan du ta reda på din offentliga IP-adress med hj�
 
 Med Secure Testing skapar Adobe Dynamic Media Classic en dedikerad Image Server för testmiljöer eller interna applikationer. Alla förfrågningar till den här servern kontrollerar den ursprungliga IP-adressen. Om den inkommande begäran inte finns i den godkända listan över IP-adresser returneras ett felsvar. Adobe Dynamic Media Classic företagsadministratör konfigurerar den godkända listan över IP-adresser för företagets säkra testmiljö.
 
-Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, t.ex. offentlig Dynamic Media Image Server-trafik. Begäranden till tjänsten för säker testning har en något högre fördröjning än de offentliga Dynamic Media Image-servrarna.
+Eftersom platsen för den ursprungliga begäran måste bekräftas, dirigeras inte trafiken för tjänsten för säker testning via ett nätverk för innehållsdistribution, till exempel offentlig trafik för Dynamic Media Image Server. Begäranden till tjänsten för säker testning har en något högre fördröjning än de offentliga servrarna för dynamiska mediabilder.
 
 Opublicerade resurser är omedelbart tillgängliga från tjänsterna för säker testning, utan att behöva publicera. På så sätt kan du köra en förhandsgranskning innan resurser publiceras till deras offentliga Image Server.
 
@@ -104,7 +104,7 @@ Last Modified Date:
 
 1. Kontakta Adobe kundtjänst och begär att de aktiverar säker testning på ditt konto.
 1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** i fältet Global Navigation.
-1. På sidan Image Server Publish väljer du **[!UICONTROL Test Image Serving]** i listrutan **[!UICONTROL `Publish Context`]**.
+1. Välj **[!UICONTROL `Publish Context`]** i listrutan **[!UICONTROL Test Image Serving]** på sidan för Image Server-publicering.
 1. Välj **[!UICONTROL Add]** för klientadressfiltret.
 1. Markera kryssrutan så att adressen är aktiverad (påslagen) och skriv sedan en IP-adress och nätmask i respektive textfält.
 
@@ -115,19 +115,19 @@ Last Modified Date:
 1. Gör något av följande:
    * Upprepa de två föregående stegen om du måste lägga till fler IP-adresser.
    * Fortsätt till nästa steg.
-1. Längst ned till vänster på Image Server-Publish-sidan väljer du **[!UICONTROL Save]**
+1. Välj **[!UICONTROL Save]** längst ned till vänster på sidan Image Server Publish (Publicera)
 1. Ladda upp bilderna till ditt Adobe Dynamic Media Classic-konto.
 
    Se [Överför filer](uploading-files.md#uploading_files).
 
 1. Se till att några av bilderna är markerade för publicering och att andra är omarkerade och skicka sedan publiceringsjobbet.
 
-   Se [Publish-filer](publishing-files.md#publishing_files).
+   Se [Publicera filer](publishing-files.md#publishing_files).
 
 1. Bestäm namnet på tjänsten för säker testning genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 1. På sidan Allmänna inställningar för programmet, under gruppen Servrar, söker du efter namnet till höger om **[!UICONTROL Test Publish Context Server Name]**.
 
-Kontakta Adobe Care om servernamnet saknas eller om URL:erna till inte fungerar.
+Kontakta Adobe Care om servernamnet saknas eller om URL:erna till servern inte fungerar.
 
 ### Förbered webbplatsvarianter
 

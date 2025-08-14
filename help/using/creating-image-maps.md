@@ -60,7 +60,7 @@ När du skapar bildscheman kan du göra något av följande:
 
 1. Om du vill visa överrullningstext när användare flyttar pekaren över bildschemat anger du texten i listan Bildschema. Välj menyn **[!UICONTROL Show]** i listan Bildschema och välj **[!UICONTROL Rollover Text]**. Ange sedan den text som du vill att användarna ska se på skärmen. Du kan skriva texten i en ordbehandlare och kopiera den till textfältet Över.
 
-1. Om du vill att en annan åtgärdseffekt ska inträffa när användaren flyttar musen över en bildschema definierar du åtgärden. Välj **[!UICONTROL Other Actions]** i listrutan **[!UICONTROL Show]**. Ange åtgärdens attribut. (Gå till **[!UICONTROL Show]** > **[!UICONTROL Both]** om du vill skapa överrullningstext och en åtgärd för en bildschema.)
+1. Om du vill att en annan åtgärdseffekt ska inträffa när användaren flyttar musen över en bildschema definierar du åtgärden. Välj **[!UICONTROL Show]** i listrutan **[!UICONTROL Other Actions]**. Ange åtgärdens attribut. (Gå till **[!UICONTROL Show]** > **[!UICONTROL Both]** om du vill skapa överrullningstext och en åtgärd för en bildschema.)
 
    Se [Definiera andra åtgärder för bildscheman](creating-image-maps.md#defining_other_actions_for_image_maps).
 
@@ -177,7 +177,7 @@ På mallredigeringssidan (bilder och SpinSets) och fliken Kartsidor på eCatalog
 
 ## Definiera andra åtgärder för bildscheman {#defining-other-actions-for-image-maps}
 
-Du kan välja menyn **[!UICONTROL Show]** och välja **[!UICONTROL Other Actions]** om du vill utlösa andra åtgärder än överrullningstext och webbsidor som öppnas. När användaren flyttar pekaren över ett bildschema kan du initiera en åtgärd. Dessa åtgärder är attribut som definieras för Image Maps på klientsidan av specifikationerna för World Wide Web Consortium HTML. De omfattar följande:
+Du kan välja menyn **[!UICONTROL Show]** och välja **[!UICONTROL Other Actions]** om du vill utlösa andra åtgärder än överrullningstext och webbsidor som öppnas. När användaren flyttar pekaren över ett bildschema kan du initiera en åtgärd. Dessa åtgärder är attribut som definieras för Image Maps på klientsidan av specifikationerna i World Wide Web Consortium HTML. De omfattar följande:
 
 * **`accesskey`**: Startar en åtgärd när användaren trycker på en angiven tangent på tangentbordet.
 
@@ -197,7 +197,7 @@ Välj menyn **[!UICONTROL Show]** och välj **[!UICONTROL Both]** om du vill att
 
 Du kan skapa bildscheman när du utformar din e-katalog i Adobe Acrobat eller Adobe InDesign.
 
-I Adobe Acrobat eller Adobe InDesign skapar du hyperlänksreferenser där du vill att bildscheman ska visas och anger URL-adresser för bildschemat. Om du markerar alternativet Extrahera länkar när du överför PDF-filen till Adobe Dynamic Media Classic konverteras länkarna automatiskt till bildscheman.
+I Adobe Acrobat eller Adobe InDesign skapar du hyperlänksreferenser där du vill att bildscheman ska visas och anger URL-adresser för bildschemat. Om du väljer alternativet Extrahera länkar när du överför PDF-filen till Adobe Dynamic Media Classic konverteras länkarna automatiskt till bildscheman.
 
 Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 
@@ -206,7 +206,7 @@ Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 1. Gå till **[!UICONTROL Windows®]** > **[!UICONTROL Interactive]** > **[!UICONTROL Hyperlinks]** i Adobe InDesign.
 1. På panelen Hyperlänkar markerar du den text, ram eller grafik som du vill göra till en bildschema.
 1. Välj **[!UICONTROL New Hyperlink]** på panelmenyn.
-1. Välj **[!UICONTROL URL]** på menyn **[!UICONTROL Link To]** i dialogrutan Ny hyperlänk.
+1. Välj **[!UICONTROL Link To]** på menyn **[!UICONTROL URL]** i dialogrutan Ny hyperlänk.
 1. Skriv eller klistra in produkt-ID:t i rutan URL.
 1. Välj **[!UICONTROL OK]**. (Adobe Dynamic Media Classic slutför URL:en med hjälp av URL-mallen för bildschema.)
 
@@ -215,8 +215,8 @@ Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
    >Du behöver inte ange utseendealternativ i Adobe InDesign. Du kan ange utseende i Adobe Dynamic Media Classic.
 
 1. Upprepa steg 2 till 6 för alla bildscheman som du vill skapa.
-1. Exportera filen som PDF.
-1. Överför PDF till Adobe Dynamic Media Classic.
+1. Exportera filen som en PDF.
+1. Ladda upp PDF till Adobe Dynamic Media Classic.
 1. I **[!UICONTROL PDF Options]** väljer du **[!UICONTROL Extract Links]**.
 
 ### Skapa bildscheman i Adobe Acrobat {#to-create-image-maps-in-adobe-acrobat}
@@ -234,4 +234,4 @@ Mer information finns i hjälpen till Adobe InDesign eller Adobe Acrobat.
 1. Ange produkt-ID för bildschemat i rutan Redigera URL och välj **[!UICONTROL OK]**. (Adobe Dynamic Media Classic slutför URL:en med hjälp av URL-mallen för bildschema.)
 1. Upprepa steg 1 till 7 för alla bildscheman som du vill skapa.
 1. Spara filen.
-1. Överför PDF till Adobe Dynamic Media Classic och välj Extrahera länkar under Alternativ för PDF.
+1. Överför PDF till Adobe Dynamic Media Classic och välj Extrahera länkar i PDF-alternativen.

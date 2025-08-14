@@ -27,7 +27,7 @@ Du kan även använda snurruppsättningar för bildscheman. En bildschema är et
 
 Se [Skapa bildscheman](creating-image-maps.md).
 
-Se [Bild- och snurruppsättningar: utbildningsvideon Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
+Se [Bild- och snurruppsättningar: utbildningsvideon för Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS).
 
 När du skapar en snurrsuppsättning rekommenderar Adobe följande bästa praxis och tillämpar följande begränsningar:
 
@@ -35,11 +35,11 @@ När du skapar en snurrsuppsättning rekommenderar Adobe följande bästa praxis
 | --- | --- | --- |
 | Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
 
-Se även [Dynamic Media-begränsningar](/help/using/limitations.md).
+Se även [Dynamiska mediebegränsningar](/help/using/limitations.md).
 
 Snabbstart för den här snurruppsättningen är utformad för att du snabbt ska komma igång med Spin Set-teknik i Adobe Dynamic Media Classic. Följ steg 1 till 7. I slutet av varje steg kan du välja en ämneslänk och lära dig mer.
 
-## 1. Skapa och överföra bilderna
+## &#x200B;1. Skapa och överföra bilderna
 
 Du behöver minst 8-12 tagningar av ett objekt för en endimensionell snurra och 16-24 för en tvådimensionell snurra uppsättning. Fotografierna måste tas med jämna mellanrum för att ge intryck av att objektet roteras och vändas. Om en endimensionell snurra t.ex. innehåller 12 tagningar roterar du objektet 30° (360/12) för varje tagning.
 
@@ -47,19 +47,19 @@ I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överf
 
 Se [Riktlinjer för fotografering av snurrbilder](creating-spin-set.md#guidelines-for-shooting-spin-set-images).
 
-## 2. Skapa en snurruppsättning
+## &#x200B;2. Skapa en snurruppsättning
 
 Om du vill skapa en snurruppsättning går du till **[!UICONTROL Build]** > **[!UICONTROL Spin Sets]** i fältet Global navigering. I dialogrutan Ange storlek för snurra väljer du hur många rader och celler du vill ha och väljer **[!UICONTROL OK]**. Dra sedan bilderna till rutnätet på sidan Snurra uppsättning.
 
 Se [Skapa en snurruppsättning](creating-spin-set.md#creating-a-spin-set).
 
-## 3. Redigera en snurruppsättning
+## &#x200B;3. Redigera en snurruppsättning
 
 Om du vill redigera en snurruppsättning går du till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** i fältet Global navigering. Välj en snurruppsättning och välj sedan **[!UICONTROL Edit]**. Lägg till, ta bort och ändra placeringen av bilder. Du kan ändra radplaceringen i tvådimensionella snurruppsättningar.
 
 Se [Redigera en snurruppsättning](creating-spin-set.md#editing-a-spin-set).
 
-## 4. Konfigurera förinställningar för Snurra uppsättning för visningsprogram
+## &#x200B;4. Konfigurera förinställningar för Snurra uppsättning för visningsprogram
 
 Administratörer kan skapa förinställningar för Snurra uppsättning för visningsprogram. De här förinställningarna bestämmer hur visningsprogrammet för snurra uppsättning ser ut. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Viewer Presets]** om du vill konfigurera en ny visningsförinställning för rotationsuppsättning i fältet Global navigering.
 
@@ -67,21 +67,21 @@ Välj **[!UICONTROL Add]** på sidan Visningsförinställningar, välj **[!UICON
 
 Se [Ställ in förinställningar för Rotation av uppsättning för visningsprogram](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
-## 5. Förhandsgranska en snurruppsättning
+## &#x200B;5. Förhandsgranska en snurruppsättning
 
 Välj din snurruppsättning på panelen Bläddra och välj sedan **[!UICONTROL Preview]**. Håll ned musknappen på förhandsgranskningssidan och dra pekaren åt vänster eller höger för att se objektet&quot;snurra&quot; visuellt.
 
 Se [Förhandsgranska en snurruppsättning](previewing-spin-set.md#previewing-a-spin-set).
 
-## 6. Publish a Spin Set
+## &#x200B;6. Publicera en snurruppsättning
 
-När du publicerar en snurruppsättning placeras den på Adobe Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den nya uppsättningen från Dynamic Media Image Servers till din webbplats eller ditt program.
+När du publicerar en snurruppsättning placeras den på Adobe Dynamic Media Classic-servrar så att den kan levereras dynamiskt till din webbplats eller ditt program. Den aktiverar även URL-strängen som anropar den snurrande uppsättningen från dynamiska mediabildsservrar till din webbplats eller ditt program.
 
 Om du vill publicera en snurruppsättning markerar du den för publicering genom att markera ikonen **[!UICONTROL Mark for Publish]** bredvid namnet på bläddringspanelen. Välj **[!UICONTROL Publish]** i fältet Global navigering för att initiera en publicering. Välj **[!UICONTROL Submit Publish]** på publiceringssidan.
 
-Se [Publish a Spin Set](publishing-spin-set.md#publishing-a-spin-set).
+Se [Publicera en snurruppsättning](publishing-spin-set.md#publishing-a-spin-set).
 
-## 7. Länka en snurruppsättning till en webbsida
+## &#x200B;7. Länka en snurruppsättning till en webbsida
 
 Adobe Dynamic Media Classic skapar URL-bildtextsträngar för Spin Sets och aktiverar dem när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 

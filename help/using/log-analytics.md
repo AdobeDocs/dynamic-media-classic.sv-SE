@@ -19,9 +19,9 @@ ht-degree: 0%
 
 # Logga in på Adobe Analytics{#log-in-to-adobe-analytics}
 
-Kontrollera att du är medlem i webbtjänståtkomstgruppen i Adobe Analytics. Gör det innan du loggar in för att konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics rapportvariabler med Adobe Dynamic Media Classic-händelser. Medlemmar i den här gruppen har åtkomst till alla rapporter i de angivna rapportsviterna. Gör det med Experience Cloud Web Services API, oavsett vilka behörigheter som har angetts i gränssnittet. Om du vill lägga till en medlem i gruppen går du till **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]** i Adobe Analytics.
+Kontrollera att du är medlem i webbtjänståtkomstgruppen i Adobe Analytics. Gör det innan du loggar in för att konfigurera Adobe Analytics-rapporter och matcha Adobe Analytics rapportvariabler med Adobe Dynamic Media Classic-händelser. Medlemmar i den här gruppen har åtkomst till alla rapporter i de angivna rapportsviterna. Gör det med Experience Cloud Web Services API, oavsett vilka behörigheter som anges i gränssnittet. Om du vill lägga till en medlem i gruppen går du till **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]** i Adobe Analytics.
 
-När du loggar in kan du ange ditt Experience Cloud-Org-ID för att använda den senaste videoanalysimplementeringen. Om du väljer att inte ange ditt ID fungerar ändå videorapportering. Det kan dock leda till att data inte integreras korrekt med andra data för klienten från andra Adobe Dynamic Media Classic.
+När du loggar in kan du ange ditt Experience Cloud Org ID för att använda den senaste videoanalysimplementeringen. Om du väljer att inte ange ditt ID fungerar ändå videorapportering. Det kan dock leda till att data inte integreras korrekt med andra data för klienten från andra Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -38,18 +38,18 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 
 1. Gör något av följande:
 
-   * Högst upp på sidan väljer du **[!UICONTROL Create a new project]** på fliken **[!UICONTROL Home]**.
+   * Högst upp på sidan väljer du **[!UICONTROL Home]** på fliken **[!UICONTROL Create a new project]**.
    * Överst på sidan går du till fliken **[!UICONTROL Projects]**. Välj **[!UICONTROL Create a new project]** nära sidans högra hörn.
 
 1. Välj **[!UICONTROL Add API]** på projektsidan.
-1. Välj **[!UICONTROL Adobe Analytics]** på sidan **[!UICONTROL Add an API]**.
+1. Välj **[!UICONTROL Add an API]** på sidan **[!UICONTROL Adobe Analytics]**.
 1. Välj **[!UICONTROL Next]** i sidans nedre högra hörn.
 
    ![Lägg till ett API](assets/analytics-oauth2.png)
 
-1. Välj **[!UICONTROL USER AUTHENTICATION OAuth]** på sidan **[!UICONTROL `Configure API`]**.
+1. Välj **[!UICONTROL `Configure API`]** på sidan **[!UICONTROL USER AUTHENTICATION OAuth]**.
 1. Välj **[!UICONTROL Next]** i sidans nedre högra hörn.
-1. Välj **[!UICONTROL OAUTH 2.0 Web]** på sidan **[!UICONTROL `Configure API`]**.
+1. Välj **[!UICONTROL `Configure API`]** på sidan **[!UICONTROL OAUTH 2.0 Web]**.
 1. I textfältet **[!UICONTROL Default redirect URI]** anger du följande sökväg exakt som den visas:
 
    `https://exploreadobe.com/dynamic-media-upgrade/`
@@ -76,8 +76,8 @@ Börja med att integrera Dynamic Media Classic med Adobe Analytics OAuth. Adobe 
 >
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** i det övre högra hörnet av Adobe Dynamic Media Classic-datorprogrammet.
-1. Välj **[!UICONTROL Adobe Analytics]** under **[!UICONTROL Application Setup]** på den vänstra panelen.
-1. Välj **[!UICONTROL Adobe Analytics Login]** på sidan **[!UICONTROL Adobe Analytics Configuration]**.
+1. Välj **[!UICONTROL Application Setup]** under **[!UICONTROL Adobe Analytics]** på den vänstra panelen.
+1. Välj **[!UICONTROL Adobe Analytics Configuration]** på sidan **[!UICONTROL Adobe Analytics Login]**.
 1. I dialogrutan **[!UICONTROL Adobe Analytics Login]**, i fältet **[!UICONTROL CLIENT ID]** och fältet **[!UICONTROL CLIENT SECRET]**, klistrar du in respektive värden som du kopierade tidigare.
 1. I dialogrutans nedre högra hörn väljer du **[!UICONTROL Login]** och utför din Adobe IMS-inloggning (Identity Management Services).
 

@@ -75,4 +75,4 @@ Med funktionen Bädda in kod kan du granska visningsprogramkoden för den valda 
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [Publicera](publishing-files.md#publishing_files)

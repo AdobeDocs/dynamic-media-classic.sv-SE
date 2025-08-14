@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Överför primära bilder{#uploading-master-images}
 
-Innan du överför bilder till Adobe Dynamic Media Classic bör du kontrollera att de har den högsta kvalitetsstorleken och formatet. Adobe Dynamic Media Classic rekommenderar att du överför högkvalitativa bilder med ett tillräckligt antal pixlar (från 1 500 till 2 000 pixlar i den långa storleken). Den här storleken tillåter alla Dynamic Imaging som behövs.
+Innan du överför bilder till Adobe Dynamic Media Classic bör du kontrollera att de har den högsta kvalitetsstorleken och formatet. Adobe Dynamic Media Classic rekommenderar att du överför högkvalitativa bilder med ett tillräckligt antal pixlar (från 1 500 till 2 000 pixlar i den långa storleken). Den här storleksändringen tillåter alla Dynamic Imaging som behövs.
 
 Mer information om hur du överför bilder finns i [Överför filer](uploading-files.md#uploading_files).
 
@@ -29,6 +29,6 @@ Förbered dina primära bildfiler innan du överför dem till Adobe Dynamic Medi
 
 * **Bildstorlek**: Skapa de största bilderna som du förväntar dig att använda. De vanliga bildstorlekarna varierar mellan 1 500 och 2 500 pixlar i den längsta storleken. Om du tänker använda zoomfunktionen rekommenderar Adobe Dynamic Media Classic att du använder bilder som är minst 2 000 pixlar i den längsta storleken för att få optimala zoomdetaljer. Adobe Dynamic Media Classic kan återge bilder på upp till 25 megapixlar vardera. Du kan till exempel använda en 5000 × 5000 MP-bild eller någon annan storlekskombination på upp till 25 MP.
 
-* **Filformat**: Adobe Dynamic Media Classic stöder alla standardbildfilformat. Bland dessa format finns TIFF, BMP, JPEG, PSD, GIF och EPS. Förlustfria bildformat - TIFF och PNG - rekommenderas. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten.
+* **Filformat**: Adobe Dynamic Media Classic stöder alla standardbildfilformat. Bland dessa format finns TIFF, BMP, JPEG, PSD, GIF och EPS. Förlustfria bildformat - TIFF och PNG rekommenderas. Om du använder en JPEG-bild bör du använda inställningarna av högsta kvalitet.
 
 * **Färgrymd**: RGB är färgrymden för webbbildspresentationer. CMYK-bilder som ofta används för utskrift konverteras automatiskt till RGB när du överför dem. Vi rekommenderar att du överför CMYK-bilder som har en inbäddad ICC-färgprofil (International Color Consortium) för konvertering till RGB. Se även [ICC-profiler (International Color Consortium)](/help/using/icc-profiles.md).

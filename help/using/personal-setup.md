@@ -34,7 +34,7 @@ Identifierar kontonamn, namn, användarnamn (e-postadress) och tilldelad använd
 ## Skrivbord
 
 * **Rensa bildcache**: Tar bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn.
-* **Rensa resurscache**: Tar bort alla resursfiler i Adobe Dynamic Media från datorn.
+* **Rensa resurscache**: Tar bort alla Adobe Dynamic Media-resursfiler från datorn.
 
 Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cachen manuellt direkt från filsystemet. Navigera till följande beroende på operativsystem:
 
@@ -43,9 +43,9 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Creative Suite-tillägg
 
-**Så här installerar du tillägget Adobe Dynamic Media Creative Suite:**
+**Så här installerar du Adobe Dynamic Media Creative Suite-tillägget:**
 
-1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** i verktygsfältet i Adobe Dynamic Media Classic och välj **[!UICONTROL Download Now]** under Creative Suite Extension för att hämta `s7csxs.zxp`-filen.
+1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]** i verktygsfältet i Adobe Dynamic Media Classic och välj **[!UICONTROL Download Now]** för att hämta `s7csxs.zxp`-filen under Creative Suite-tillägget.
 1. Markera länkarna **[!UICONTROL Installation]** och **[!UICONTROL System Requirements]** om du vill ha mer information om tillägget.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.

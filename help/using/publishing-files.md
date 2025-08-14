@@ -1,6 +1,6 @@
 ---
-title: Publish-filer
-description: Lär dig hur du publicerar dina resurser på Dynamic Media Image Servers.
+title: Publicera filer
+description: Lär dig hur du publicerar dina resurser på dynamiska bildservrar.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 ---
 
-# Publish-filer{#publishing-files}
+# Publicera filer{#publishing-files}
 
-Du publicerar dina resurser på Dynamic Media Image Servers. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program.
+Du publicerar dina resurser på dynamiska mediabildsservrar. Du kan publicera resurser på en enstaka gång eller ordna så att Adobe Dynamic Media Classic publicerar resurser enligt ett återkommande schema. När resurserna har publicerats är de tillgängliga för leverans. Du kan kopiera URL-anropen från Adobe Dynamic Media Classic och lägga till dem på din webbplats eller i ditt program.
 
-Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddad kod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen använder HTTP/2-protokollet för att leverera den. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla era Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/dynamic/http2).
+Adobe Dynamic Media Classic stöder nu leverans av alla bilder och videor via HTTP/2. Det betyder att en publicerad URL eller inbäddad kod för bilden eller videon är tillgänglig för integrering med alla program som accepterar en värdbaserad resurs. Den publicerade resursen använder HTTP/2-protokollet för att leverera den. Den här leveransmetoden förbättrar sättet som webbläsare och servrar kommunicerar på, vilket ger bättre respons och laddningstider för alla era Adobe Dynamic Media Classic-resurser. Se [HTTP2 Delivery of Content FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
-## Publish efter överföring {#publish-after-uploading}
+## Publicera efter överföring {#publish-after-uploading}
 
 Assets är antingen publicerat eller opublicerat. Som standard markeras alla resurser som du överför till Adobe Dynamic Media Classic automatiskt för publicering.
 
-Mer information finns i [Instant Publish Notice PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
+Mer information finns i [Publiceringsmeddelande för publicering, PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
 Använd dessa tekniker för att markera resurser för publicering:
 
@@ -94,7 +94,7 @@ Du kan visa de avancerade alternativen på publiceringssidan och välja följand
 
 * **[!UICONTROL Publish To]**: Välj en servertyp om du bara vill publicera resurser på en viss server.
 
-* **[!UICONTROL Publish]**: Som standard publicerar Adobe Dynamic Media Classic bara resurser som är nya och som inte har publicerats tidigare (alternativet Nytt sedan senaste Publish). Du kan dock välja **[!UICONTROL Full Publish]** så att du även kan publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj **[!UICONTROL Full w/ Search Data]** om du publicerar en e-katalog och du vill att läsarna ska kunna söka efter den med nyckelord.
+* **[!UICONTROL Publish]**: Som standard publicerar Adobe Dynamic Media Classic bara resurser som är nya och som inte har publicerats tidigare (alternativet Ny sedan senaste publicering). Du kan dock välja **[!UICONTROL Full Publish]** så att du även kan publicera resurser som har uppdaterats eller ändrats sedan de publicerades senast. Välj **[!UICONTROL Full w/ Search Data]** om du publicerar en e-katalog och du vill att läsarna ska kunna söka efter den med nyckelord.
 
 * **[!UICONTROL Run Job As]**: Välj ett användarnamn i listan. Du kan sortera jobb efter användarnamn på sidan Jobb. Genom att välja ett namn associerar du ett publiceringsjobb med en användare.
 
@@ -112,7 +112,7 @@ Om du vill avbryta ett publiceringsjobb går du till sidan Jobb och väljer **[!
 >
 >När du har avslutat ett publiceringsjobb ändras dess status till&quot;stoppa&quot; tills jobbet når en punkt där det kan stanna säkert. Det kan ta en stund att avbryta ett publiceringsjobb om jobbet håller på att hämta data från databasen.
 
-## Publish-resurser manuellt {#manually-publishing-assets}
+## Publicera resurser manuellt {#manually-publishing-assets}
 
 Du kan publicera enskilda resurser manuellt i stället för att skapa ett publiceringsjobb. När du publicerar uppsättningar, till exempel en bilduppsättning eller en adaptiv videouppsättning, publiceras uppsättningen (eller &quot;överordnad&quot;) och alla medlemmar (eller &quot;underordnade&quot;) i uppsättningen.
 

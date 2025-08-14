@@ -20,11 +20,11 @@ ht-degree: 0%
 
 Att använda UGC (användargenererat innehåll) består av att överföra resurser till en dedikerad Adobe Dynamic Media Classic-lagringsplats och utföra relaterade åtgärder.
 
-UGC har stöd för rasterbildfilformaten BMP, GIF, JPG, PNG, PSD och TIFF.
+UGC stöder rasterbildfilformaten BMP, GIF, JPG, PNG, PSD och TIFF.
 
 >[!IMPORTANT]
 >
->Från och med 1 maj 2023 kommer UGC-resurser i Dynamic Media att vara tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
+>Från och med 1 maj 2023 är UGC-resurser i Dynamic Media tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 

@@ -19,13 +19,13 @@ Adobe skapade [!DNL Dynamic Media] med dig i åtanke.
 
 Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på de funktioner som du förväntar dig av [!DNL Dynamic Media Classic] (tidigare Scene7). Det ger er organisation nya och förbättrade verktyg för att skapa bättre och mer engagerande upplevelser.
 
-[!DNL Dynamic Media] uppgraderar innehållsupplevelsen med visuella byggare i realtid. Genom att sätta på Adobe försökte, betrodda och skalbara leveransnätverk och kombinerades med det intuitiva [!DNL Adobe Experience Manager]-användargränssnittet, kan [!DNL Dynamic Media] skapa, iterera och leverera engagerande upplevelser på nästa nivå.
+[!DNL Dynamic Media] uppgraderar innehållsupplevelsen med visuella byggare i realtid. Sitter på Adobe testat, betrott och skalbart leveransnätverk tillsammans med det intuitiva [!DNL Adobe Experience Manager]-användargränssnittet, ger [!DNL Dynamic Media] möjlighet att skapa, iterera och leverera engagerande upplevelser på nästa nivå.
 
 | Vad du får med [!DNL Dynamic Media] | Beskrivning |
 | --- | --- |
 | Primär filhantering | Överför en resurs i full storlek och sedan skapar [!DNL Dynamic Media] automatiskt storlekar efter behov. |
 | Enkel redigering | Skapa, anpassa och lansera avancerat material snabbt utan behov av teknisk hjälp. |
-| Intuitivt gränssnitt | Redigera bildvisningsprogram och videospelare med ett lättanvänt WYSIWYG-gränssnitt (What You See It What You Get). |
+| Intuitivt gränssnitt | Redigera bildvisningsprogram och videospelare med ett enkelt WYSIWYG-gränssnitt (What You See It What You Get). |
 | Media som kan köpas | Skapa bilder, videor och bilder som kan köpas via klickbara länkar. |
 | Skalbar CDN | Få tillgång till det ledande nätverket Content Delivery Network (CDN) med beprövad skala och prestanda för alla behov. |
 | Dynamic Imaging | Med en enda primär fil kan du automatiskt generera och publicera ett obegränsat antal versioner, ändra storlek, format, upplösning, beskärning eller effekt. |
@@ -39,7 +39,7 @@ Den nya [!DNL Dynamic Media] på [!DNL Adobe Experience Manager] bygger på de f
 
 * Smidig, enhetlig upplevelse och integrering med [!DNL Adobe Experience Manager]: Konfigurera och leverera dynamiskt innehåll från en butik, en källa
 * Ny marknadsföringscentrerad användarupplevelse som gör det enkelt att skapa och leverera multimediematerial
-* WYSIWYG (What You See Is What You Get) ser ut och fungerar som redigerare för bildvisningsprogram och videospelare.
+* WYSIWYG (What You See Is What You Get) ser ut och känns som samt beteenderedigerare för bildvisningsprogram och videospelare.
 * Skapa och distribuera videoupplevelser som går att köpa och interaktivt, inklusive hotspots för bilder och videor som kan köpas snabbt
 
 ### [!DNL Dynamic Media]-funktioner i [!DNL Experience Manager] Assets

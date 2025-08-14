@@ -41,7 +41,7 @@ När du skapar en bilduppsättning rekommenderar Adobe följande metodtips och t
 
 ‡ Bästa praxis är att inte ha duplicerade resurser i en uppsättning. Gränsen är 20 kopior för en enskild resurs. Om du i uppsättningen lägger till en annan dubblett för den resursen returnerar begäran ett fel eller ignorerar dubbletten.
 
-Se även [Dynamic Media-begränsningar](/help/using/limitations.md).
+Se även [Dynamiska mediebegränsningar](/help/using/limitations.md).
 
 **Så här skapar du en bilduppsättning:**
 

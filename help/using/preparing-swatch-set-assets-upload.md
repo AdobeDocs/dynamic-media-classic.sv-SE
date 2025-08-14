@@ -26,7 +26,7 @@ Om du vill skapa en uppsättning med färgrutor behöver du vinjetter eller olik
 * En svart, brun och grön tagning av samma jacka.
 * En svart, brun och grön färgruta.
 
-Eftersom användare kan zooma bilder i färgruteuppsättningar bör du se till att bilderna har minst 2 000 pixlar i den största dimensionen. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria bilder i TIFF, PNG och EPS rekommenderas.
+Eftersom användare kan zooma bilder i färgruteuppsättningar bör du se till att bilderna har minst 2 000 pixlar i den största dimensionen. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
 
 Detaljerade instruktioner om hur du överför resurser finns i [Överför filer](uploading-files.md#uploading_files).
 

@@ -25,7 +25,7 @@ Anta till exempel att du vill visa bilder av ändpunkter med olika färgskalor. 
 
 ## Skapa en färgruteuppsättning {#create}
 
-När du skapar en uppsättning påverkar alternativet **Publish efter en spara** medlemmarna i uppsättningen och uppsättningen på följande sätt:
+När du skapar en uppsättning påverkar alternativet **Publicera efter en spara** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
 | **[!UICONTROL Publish after a save]** alternativ markerat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |

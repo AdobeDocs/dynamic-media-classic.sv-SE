@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Länka en snurruppsättning till en webbsida{#linking-a-spin-set-to-a-web-page}
 
-Webbplatser och program har åtkomst till Dynamic Media Image Server-innehåll, inklusive snurruppsättningar, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för din snurruppsättning på webbsidor och i program kopierar du den från Adobe Dynamic Media Classic.
+Webbplatser och applikationer har åtkomst till Dynamic Media Image Server-innehåll, inklusive Spin Sets, via URL-strängar eller inbäddad kod. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera URL-strängen eller inbäddningskoden för din snurruppsättning på webbsidor och i program kopierar du den från Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >

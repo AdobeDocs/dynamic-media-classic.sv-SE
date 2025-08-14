@@ -24,9 +24,9 @@ Skapa en blandad medieuppsättning när du vill kombinera flera typer av visning
 
 ## Skapa en blandad medieuppsättning {#create-a-mixed-media-set}
 
-När du skapar en uppsättning påverkar alternativet **Publish efter en spara** medlemmarna i uppsättningen och uppsättningen på följande sätt:
+När du skapar en uppsättning påverkar alternativet **Publicera efter en spara** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
-| Alternativet&quot;Publish after a save&quot; är valt innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Vill du publicera efter att ha sparat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |

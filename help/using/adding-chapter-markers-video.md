@@ -51,7 +51,7 @@ Cost-efficient access to rapidly evolving technology.
 
 I exemplet ovan är `Chapter 1` referensidentifieraren och valfri. Referenstiden för `00:00:000 --> 01:04:364` anger kapitlets start- och sluttid i formatet 0:00:000. De sista tre siffrorna är millisekunder och kan lämnas som 000 om du vill. Kapiteltiteln för `The bicycle store behind it all` är den faktiska beskrivningen av kapitlets innehåll. Referensidentifieraren, startreferenstiden och kapiteltiteln visas alla i ett popup-fönster i videospelaren när pekaren placeras över en visuell referenspunkt i videons tidslinje.
 
-Eftersom du använder ett HTML5-videovisningsprogram bör du kontrollera att den kapitelfil du skapar följer standarden WebVTT (Web Video Text Tracks). Kapitelfiltillägget är `.VTT`. Du kan läsa mer om bildtextstandarden WebVTT.
+Eftersom du använder ett videovisningsprogram för HTML5 bör du kontrollera att den kapitelfil du skapar följer standarden WebVTT (Web Video Text Tracks). Kapitelfiltillägget är `.VTT`. Du kan läsa mer om bildtextstandarden WebVTT.
 
 Se [WebVTT: Textspårningsformatet för webbvideo](https://w3c.github.io/webvtt/).
 
@@ -73,7 +73,7 @@ Se [WebVTT: Textspårningsformatet för webbvideo](https://w3c.github.io/webvtt/
 
 1. Navigera till resursmappen som innehåller den videofil som ska associeras med den överförda kapitelfilen på panelen Resursbibliotek på vänster sida.
 1. Markera en enskild videoresurs på panelen Resursbläddring och välj sedan **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden för resursen.
-1. I tabellen Visningsprogramlista kan du hitta HTML 5-visningsprogrammet med namnet **Univeral_HTML5_Video** och sedan göra något av följande:
+1. I tabellen Viewer List kan du hitta HTML5-visningsprogrammet med namnet **Univeral_HTML5_Video** och sedan göra något av följande:
 
    * Välj **[!UICONTROL Copy URL]** längst till höger om namnet om du vill visa ett videoklipp på popup-skärmen.
 
@@ -85,6 +85,6 @@ Se [WebVTT: Textspårningsformatet för webbvideo](https://w3c.github.io/webvtt/
 
      Välj **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
-     Lägg till den kopierade inbäddningskoden för visningsprogrammet `Universal_HTML5_Video` för HTML5 med följande:
+     För HTML5 `Universal_HTML5_Video`-visningsprogrammet lägger du till den kopierade inbäddningskoden med följande:
 
      `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

@@ -34,7 +34,7 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 1. Om du vill beskära en bild markerar du dess överrullningsknapp **[!UICONTROL Edit]** och väljer sedan **[!UICONTROL Crop]** eller visar den i panelen Bläddra i detaljvyn och väljer knappen **[!UICONTROL Crop]** .
 1. Gör något av följande på sidan Beskärningsredigerare:
 
-   * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Välj menyn **[!UICONTROL Corner]** i dialogrutan **[!UICONTROL Auto Crop By Color]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]**-inställning från 0 till 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
+   * Om du vill trimma färgpixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Color]**. Välj menyn **[!UICONTROL Auto Crop By Color]** i dialogrutan **[!UICONTROL Corner]** och välj ett hörn med bakgrundsfärgen som du vill beskära bort. Ange sedan en **[!UICONTROL Tolerance]**-inställning från 0 till 1. Inställningen 0 beskär bara pixlar om de exakt matchar färgen som du valde i bildens hörn. Nummer som ligger närmare 1 ger större färgskillnader. Välj **[!UICONTROL Crop]**.
    * Om du vill trimma genomskinliga pixlar går du till **[!UICONTROL Trim]** > **[!UICONTROL Transparent]**. Ange en toleransinställning från 0 till 1 i dialogrutan **[!UICONTROL Auto Crop By Transparency]**. Inställningen 0 beskär bara pixlar om de är genomskinliga. Siffror närmare 1 ger större genomskinlighet. Välj **[!UICONTROL Crop]**.
 
 1. Välj **[!UICONTROL Save]**.
@@ -63,5 +63,5 @@ Du kan beskära av de genomskinliga eller enfärgade pixlarna från bildens kant
 >[!MORELIKETHIS]
 >
 >* [Alternativ för bildredigering vid överföring](image-editing-options-upload.md#image-editing-options-at-upload)
->* [Beskär tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
->* [Beskär från sidorna på PDF](pdfs.md#cropping_from_the_sides_of_pdf_pages)
+>* [Beskära tomt utrymme från en PDF-fil](pdfs.md#cropping_white_space_from_a_pdf_file)
+>* [Beskär från sidorna på PDF-sidorna](pdfs.md#cropping_from_the_sides_of_pdf_pages)

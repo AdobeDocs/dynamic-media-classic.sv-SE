@@ -33,7 +33,7 @@ När du överför PostScript- (EPS) eller Illustrator-bildfiler (AI) kan du form
 
    * **[!UICONTROL Detect Automatically]**: Behåller filens färgrymd.
 
-   * **[!UICONTROL Force As RGB]**: Konverterar till färgmodellen RGB.
+   * **[!UICONTROL Force As RGB]**: Konverterar till RGB-färgrymden.
 
    * **[!UICONTROL Force As CMYK]**: Konverterar till CMYK-färgmodellen.
 

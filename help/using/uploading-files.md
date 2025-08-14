@@ -26,7 +26,7 @@ Innan du överför resurser till Adobe Dynamic Media Classic måste du kontrolle
 
 ### Filformat som stöds {#supported-asset-file-formats}
 
-I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. Mer information om vilka Camera Raw-filer som stöds finns i [https://helpx.adobe.com/se/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/se/camera-raw/using/supported-cameras.html).
+I den här tabellen visas de filformat som Adobe Dynamic Media Classic stöder. Mer information om vilka Camera Raw-filer som stöds finns i [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html).
 
 | Resursfilformat | Beskrivning |
 | --- | --- |
@@ -161,7 +161,7 @@ Med Adobe Dynamic Media Classic Desktop kan du överföra filer och mappar genom
 
 1. I Adobe Dynamic Media Classic-datorprogrammet väljer du **[!UICONTROL Upload]** i det globala navigeringsfältet.
 1. På sidan Överför väljer du fliken **[!UICONTROL From Desktop]**.
-1. Till vänster på sidan Överför väljer du **[!UICONTROL Browse]** i området **[!UICONTROL Select Files for Upload]** för att markera de filer eller mappar som du vill överföra och sedan **[!UICONTROL Open]**.
+1. Till vänster på sidan Överför väljer du **[!UICONTROL Select Files for Upload]** i området **[!UICONTROL Browse]** för att markera de filer eller mappar som du vill överföra och sedan **[!UICONTROL Open]**.
 1. Till höger på sidan Överför går du till den målmapp där du vill lägga till de överförda filerna eller mapparna i det valda **Mappdestinationsområdet**.
 1. (Valfritt) Ange det nya namnet på överföringsjobbet i textfältet Jobbnamn längst ned på sidan Överför. Eller så använder du det standardnamn som genereras av Adobe Dynamic Media Classic. Överförings- och publiceringsjobb registreras på sidan Jobs, där du kan kontrollera jobbens status. Se [Kontrollerar jobbfiler](checking-job-files.md#checking_job_files).
 1. (Valfritt) Välj **[!UICONTROL Publish After Uploading]** längst ned på sidan Överför så att du automatiskt kan publicera de resurser som du överför.
@@ -267,7 +267,7 @@ Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.m
 
 * **Fler metadata**: Ange nyckelord som beskriver de filer som du vill överföra. Separera nyckelord med kommatecken. Nyckelord gör det enklare att söka efter resurser.
 Se [Utför en avancerad sökning](searching-assets.md#conducting_an_advanced_search).
-Se även utbildningsvideon [Överför nyckelord](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [Överför nyckelord](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS).
 
 * **Gruppuppsättningsförinställningar**: Om du vill skapa en bilduppsättning, snurpuppsättning eller färgruteuppsättning från de överförda filerna markerar du kolumnen **[!UICONTROL Active]** för den förinställning som du vill använda. Du kan markera flera förinställningar. Du kan skapa förinställningarna på sidan Programinställningar/Gruppera förinställningar.
 Se [Gruppera förinställningar](application-setup.md#batch_set_presets).

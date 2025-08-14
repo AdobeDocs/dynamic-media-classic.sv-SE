@@ -54,7 +54,7 @@ Du kan använda följande fält i URL-frågesträngen för att ta bort en resurs
 
 >[!IMPORTANT]
 >
->Från och med 1 maj 2023 kommer UGC-resurser i Dynamic Media att vara tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
+>Från och med 1 maj 2023 är UGC-resurser i Dynamic Media tillgängliga för användning upp till 60 dagar från överföringsdatumet. Efter 60 dagar tas resurserna bort.
 
 >[!NOTE]
 >

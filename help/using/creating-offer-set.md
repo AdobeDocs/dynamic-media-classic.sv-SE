@@ -41,7 +41,7 @@ Skapa en erbjudandeuppsättning av följande typer av erbjudandeuppsättningar:
 
 * **Bildmall**: Du kan parametrisera bildmallar i Adobe Dynamic Media Classic med kommandot **[!UICONTROL Build]** > Mallar. Med hjälp av parametrar kan mallkomponenter, text i textramar och olika bilder bytas ut och anpassas. För en erbjudandeuppsättning kan du till exempel använda mallparametrar för att skapa variationer på samma bild i din erbjudandeuppsättning. Mer information om hur du skapar och parametriserar bildmallar finns i [Skapa mallparametrar](creating-template-parameters.md#creating_template_parameters).
 
-Se även utbildningsvideon [Mallgrunder](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Se även utbildningsvideon [Mallgrunder](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 * **Video**: Du kan samla ihop video för en erbjudandeuppsättning. Varje video är ett separat erbjudande i uppsättningen.
 

@@ -19,4 +19,4 @@ ht-degree: 0%
 
 # Nyheter {#what-s-new}
 
-Information om den senaste versionen av Adobe Dynamic Media Classic, inklusive nya funktioner, förbättringar och korrigeringar, finns i [Adobe Dynamic Media Classic versionsinformation](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
+Information om den senaste versionen av Adobe Dynamic Media Classic, inklusive nya funktioner, förbättringar och korrigeringar, finns i [Adobe Dynamic Media Classic versionsinformation](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).

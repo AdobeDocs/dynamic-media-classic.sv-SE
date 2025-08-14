@@ -44,9 +44,9 @@ Du kan skapa och anpassa visningsförinställningar efter dina behov.
 
 ## Förhandsvisa färgruteuppsättningar i ett visningsprogram {#previewing-swatch-sets-in-a-viewer}
 
-Du kan använda Förhandsvisa för att se hur en resurs ser ut i en viss visningsprogramtyp, till exempel HTML5. Beroende på resurstypen och tillhörande visningsprogram som du har valt att förhandsgranska, är inte alla visningsprogramplattformar tillgängliga i förhandsvisningen.
+Du kan använda Förhandsgranska för att se hur en resurs ser ut i en viss visningsprogramtyp, till exempel HTML5. Beroende på resurstypen och tillhörande visningsprogram som du har valt att förhandsgranska, är inte alla visningsprogramplattformar tillgängliga i förhandsvisningen.
 
-1. Välj en färgruteuppsättningsbaserad resurstyp, till exempel **[!UICONTROL Swatch Set]**, i den nedrullningsbara listan **[!UICONTROL Show]** på panelen Resursbibliotek på vänster sida.
+1. Välj en färgruteuppsättningsbaserad resurstyp, till exempel **[!UICONTROL Show]**, i den nedrullningsbara listan **[!UICONTROL Swatch Set]** på panelen Resursbibliotek på vänster sida.
 1. På panelen Resursbibliotek till vänster navigerar du i de resursmappar som innehåller den färgruteuppsättning som du vill förhandsgranska med ett visningsprogram.
 1. Gör något av följande:
 

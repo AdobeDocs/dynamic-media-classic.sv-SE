@@ -1,6 +1,6 @@
 ---
-title: Adobe Training Services
-description: Läs mer om Adobe Training Services for Adobe Dynamic Media Classic.
+title: Adobe utbildningstjänster
+description: Läs mer om Adobe utbildningstjänster för Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ---
 
-# Adobe Training Services{#adobe-training-services}
+# Adobe utbildningstjänster{#adobe-training-services}
 
 Dynamic Media Classic erbjuder utbildning i form av videoutbildning, lärarledda workshops, webbseminarier och demonstrationer.
 
-## Adobe Training Services
+## Adobe utbildningstjänster
 
-Adobe Training Services erbjuder en djupgående, skräddarsydd utbildning för din organisation. Utbildningen kan ske i form av lokala universitetsklasser, webbaserade sessioner eller anpassade workshops på plats. Regionala kurser är öppna för alla kunder och hålls regelbundet på olika platser i Nordamerika och EMEA. Anpassade sessioner kan skräddarsys för både nybörjare och avancerade användare, slutanvändare, administratörer och IT-personal.
+Adobe Training Services erbjuder en omfattande, skräddarsydd utbildning för er organisation. Utbildningen kan ske i form av lokala universitetsklasser, webbaserade sessioner eller anpassade workshops på plats. Regionala kurser är öppna för alla kunder och hålls regelbundet på olika platser i Nordamerika och EMEA. Anpassade sessioner kan skräddarsys för både nybörjare och avancerade användare, slutanvändare, administratörer och IT-personal.
 
-Se [Adobe Training Services](https://learning.adobe.com/)
+Se [Adobe utbildningstjänster](https://learning.adobe.com/)
 
 ## Demos
 

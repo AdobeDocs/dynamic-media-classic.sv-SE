@@ -32,7 +32,7 @@ Dessa alternativ finns på sidan Överför under rubriken **[!UICONTROL Imaging 
 
 ## Beskära tomt utrymme från bilder
 
-Du kan beskära pixlar med tomt utrymme automatiskt från en bild. Välj **[!UICONTROL Crop Options]** i dialogrutan Alternativ för överföringsjobb. Välj **[!UICONTROL Trim]** i listrutan **[!UICONTROL Crop]**. Välj sedan följande alternativ:
+Du kan beskära pixlar med tomt utrymme automatiskt från en bild. Välj **[!UICONTROL Crop Options]** i dialogrutan Alternativ för överföringsjobb. Välj **[!UICONTROL Crop]** i listrutan **[!UICONTROL Trim]**. Välj sedan följande alternativ:
 
 * **[!UICONTROL Trim Away Based On]**: Välj om du vill beskära baserat på färg eller genomskinlighet i den här listrutan:
 

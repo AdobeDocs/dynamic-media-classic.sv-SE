@@ -25,7 +25,7 @@ Förinställningar för visningsprogram för blandad media innehåller community
 
 Den här snabbstarten för blandade medieuppsättningar är utformad för att du snabbt ska komma igång med blandad medieuppsättning i Adobe Dynamic Media Classic.
 
-## 1. Överför bilder, färgrutefiler och videofilmer
+## &#x200B;1. Överför bilder, färgrutefiler och videofilmer
 
 Börja med att ladda upp bilder, färgrutefiler och videoklipp till dina blandade medieuppsättningar. Eftersom användare kan zooma in bilder i visningsprogrammet för den blandade medieuppsättningen måste du ta hänsyn till den möjligheten när du väljer bilder. Se till att bilderna har en största storlek på minst 2 000 pixlar.
 
@@ -33,19 +33,19 @@ I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överf
 
 Se [Överför filer](uploading-files.md#uploading-your-files).
 
-## 2. Skapa medieuppsättningar för användning i den blandade medieuppsättningen
+## &#x200B;2. Skapa medieuppsättningar för användning i den blandade medieuppsättningen
 
 Du kan lägga till bilder, bilduppsättningar, färgruteuppsättningar, snurruppsättningar och videoklipp i den blandade medieuppsättningen. Förbered medieuppsättningarna innan du lägger till dem i den blandade medieuppsättningen.
 
 Se [Skapa en bilduppsättning](creating-image-set.md#creating-an-image-set), [Skapa en färgruteuppsättning](creating-swatch-set.md#creating-a-swatch-set) och [Skapa en snurruppsättning](creating-spin-set.md#creating-a-spin-set).
 
-## 3. Skapa en blandad medieuppsättning
+## &#x200B;3. Skapa en blandad medieuppsättning
 
 Gå till **[!UICONTROL Build]** > **[!UICONTROL Mixed Media Sets]** i fältet Global navigering. Dra bilder, färgruteuppsättningar, bilduppsättningar och videofilmer till sidan med blandade medieuppsättningar. Om du vill lägga till ett ljudspår drar du en ljudfil till rutan Ljudspår.
 
 Se [Skapa en blandad medieuppsättning](creating-mixed-media-set.md#creating-a-mixed-media-set).
 
-## 4. Konfigurera förinställningar för blandad medievisning
+## &#x200B;4. Konfigurera förinställningar för blandad medievisning
 
 Adobe Dynamic Media Classic levereras med standardförinställningar för visningsprogram för blandade medieuppsättningar. Administratörer kan skapa eller ändra visningsförinställningar för blandad medieuppsättning.
 
@@ -53,23 +53,23 @@ När du konfigurerar en visningsförinställning för en blandad medieuppsättni
 
 Se [Konfigurera en visningsförinställning för en blandad medieuppsättning](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) och [Skapa och redigera visningsförinställningar](application-setup.md#adding-and-editing-viewer-presets).
 
-Se även utbildningsvideon [Visningsförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [Visningsförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
-## 5. Förhandsgranska en uppsättning med blandade media
+## &#x200B;5. Förhandsgranska en uppsättning med blandade media
 
 Välj knappen **[!UICONTROL Preview]** för den blandade medieuppsättningen. Du kan välja miniatyrbilds- och färgruteikoner för att undersöka den blandade medieuppsättningen i visningsprogrammet för den blandade medieuppsättningen. Du kan välja olika visningsprogram från förinställningsmenyerna.
 
 Se [Förhandsgranska en resurs](previewing-asset.md#previewing-an-asset).
 
-## 6. Publish a Mixed Media Set
+## &#x200B;6. Publicera en blandad medieuppsättning
 
 När du publicerar en blandad medieuppsättning placeras den på Adobe Dynamic Media Classic-servrar och URL-strängen aktiveras.
 
 Blandade medieuppsättningar kräver att du publicerar till **videoservern** och även till **bildservern**. Använd **videoservern** för att publicera de faktiska videoklippen som du har markerat för publicering. Och du använder **bildservern** för att publicera relaterade resurser, till exempel videominiatyrer, och ange information för alla adaptiva videouppsättningar.
 
-Se [Publish en uppsättning med blandade media](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
+Se [Publicera en blandad medieuppsättning](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 
-## 7. Länka en blandad medieuppsättning till en webbsida
+## &#x200B;7. Länka en blandad medieuppsättning till en webbsida
 
 Adobe Dynamic Media Classic aktiverar URL-anrop för blandade medieuppsättningar när du har publicerat dem. Du kan kopiera dessa URL:er från förhandsgranskningssidan.
 

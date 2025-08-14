@@ -23,9 +23,9 @@ SEO är processen att förbättra trafiken till en webbplats från sökmotorer. 
 
 Med Adobe Dynamic Media Classic Video SEO kan du använda videometadata för att ge sökmotorer beskrivningar av videoklipp. Med Adobe Dynamic Media Classic kan du skapa webbplatskartor för video och mRSS-flöden. De här XML-standardfilerna används för att skicka videoinformation till sökmotorer:
 
-* **Webbplatskarta för video**: Informerar Google exakt var och vad videoinnehållet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor för video finns i [Alternativ för webbplatskartor för video](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **Webbplatskarta för video**: Informerar Google exakt var och vad videoinnehållet finns på en webbplats. Så videor är helt sökbara på Google. En webbplatskarta för video kan till exempel ange körningstid och videokategorier. Mer information om webbplatskartor för video finns i [Alternativ för webbplatskartor för video](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
-* **mRSS-flöde (Media Really Simple Syndication)**: Används av innehållsutgivare för att skicka mediefiler till Yahoo! Videosökning. Mer information om mRSS-flöden finns i [Webbplatskartor för video och alternativ för videoplatskarta](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&amp;rd=1).
+* **mRSS-flöde (Media Really Simple Syndication)**: Används av innehållsutgivare för att skicka mediefiler till Yahoo! Videosökning. Mer information om mRSS-flöden finns i [Webbplatskartor för video och alternativ för videoplatskarta](https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps?visit_id=637558394348624754-567115452&rd=1).
 
 >[!NOTE]
 >
@@ -67,13 +67,13 @@ I listrutan **[!UICONTROL Automatic/Manual Mode]** väljer du om du vill generer
 
 * **Automatiskt läge**: Adobe Dynamic Media Classic genererar automatiskt en video-platskarta, media-RSS-feed (mRSS) eller båda, varje dag. Välj alternativet **[!UICONTROL Mark for Publish]** så att du automatiskt kan markera för publicering av XML-filen som genereras av Adobe Dynamic Media Classic.
 
-   * **Markera för Publish** om du vill publicera XML-filen som genereras.
+   * **Markera för publicering**-märken för publicering av XML-filen som genereras.
 
 * **Manuellt läge**: Adobe Dynamic Media Classic genererar Video Sitemap, Media RSS-matning (mRSS) eller både och när du väljer **[!UICONTROL Generate]** eller **[!UICONTROL Save & Generate]** på skärmen Optimeringsinställningar för videosökning. Välj även följande alternativ:
 
    * **Inga ytterligare inställningar**: Markerar inte för publicering av XML-filen som genereras.
 
-   * **Markera för Publish**: Markerar för publicering av XML-filen som genereras.
+   * **Markera för publicering**: Markerar för publicering av XML-filen som genereras.
 
    * **Tillåt partiell generering**: Sökmotorer kan avvisa en XML-fil om den inte innehåller fullständig metadatainformation för alla videofilmer. Med det här alternativet genereras XML-filen även om metadata inte är tillgängliga för vissa videoklipp. En varning registreras på rapportskärmen. Välj det här alternativet om du tänker exportera XML-filen och bearbeta den saknade informationen manuellt.
 
@@ -98,7 +98,7 @@ Se [Metadatavyer](application-setup.md#metadata_views).
 
 >[!NOTE]
 >
->Publish the Video Sitemap or mRSS feed before you can submit it to search engines. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera dessa XML-filer för publicering, om det behövs, och välj **[!UICONTROL Publish]**.
+>Publicera webbplatskartan för video eller mRSS-flöden innan du kan skicka den till sökmotorer. Video Sitemap- och Media RSS-matningsfiler (mRSS) lagras i företagets rotmapp. Markera dessa XML-filer för publicering, om det behövs, och välj **[!UICONTROL Publish]**.
 
 ## Skicka videowebbplatskartor och RSS-feed-filer till en sökmotor {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 

@@ -38,7 +38,7 @@ Se även [Lägg till och redigera visningsförinställningar](application-setup.
 
 Adobe Dynamic Media Classic kan konvertera bildtextfiler till JSON-format (JavaScript Object Notation). Den här konverteringen innebär att du kan bädda in JSON-texten på en webbsida som en dold men fullständig utskrift av videon. Sökmotorerna kan sedan crawla och indexera innehållet så att videoklippen blir lättare att hitta och ge kunderna mer information om videoinnehållet.
 
-Mer information om hur du använder JSON-funktionen i en URL finns i [Servera statiskt (icke-bildinnehåll)](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) i.
+Mer information om hur du använder JSON-funktionen i en URL finns i [Servera statiskt (icke-bildinnehåll)](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) i.
 
 **Så här lägger du till bildtexter i en video:**
 
@@ -54,7 +54,7 @@ Mer information om hur du använder JSON-funktionen i en URL finns i [Servera st
 
 1. Gå till resursmappen som innehåller den videofil som ska associeras med den bildtextfil som du överförde i panelen Resursbibliotek på vänster sida.
 1. Markera en enskild videoresurs på panelen Resursbläddring och välj sedan **[!UICONTROL Preview]** > **[!UICONTROL Viewer List]** under miniatyrbilden för resursen.
-1. I tabellen Visningsprogramlista kan du hitta visningsprogrammet HTML 5 med namnet **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** eller **Universal_HTML5_MixedMedia_light** och sedan göra något av följande:
+1. I tabellen Viewer List kan du hitta HTML5-visningsprogrammet med namnet **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** eller **Universal_HTML5_MixedMedia_light** och sedan göra något av följande:
 
    * Välj **[!UICONTROL Copy URL]** längst till höger om namnet om du vill visa ett videoklipp på popup-skärmen.
 
@@ -68,7 +68,7 @@ Mer information om hur du använder JSON-funktionen i en URL finns i [Servera st
 
      Välj **[!UICONTROL Copy to Clipboard]** i dialogrutan Bädda in kod.
 
-     Lägg till den kopierade inbäddningskoden för visningsprogrammen för HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark` eller `Universal_HTML5_MixedMedia_light` med följande:
+     För visningsprogrammen för HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark` eller `Universal_HTML5_MixedMedia_light` lägger du till den kopierade inbäddningskoden med följande:
 
      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1"`
 

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Om du vill skapa en mall går du till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer. På den här sidan kan du lägga till bild- och textlager. Du kan också ändra ordning på lager, ändra storlek och position för lager och använda skugg- och glödeffekter på bilder och text.
 
-Se även utbildningsvideon [Mallgrunder](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
+Se även utbildningsvideon [Mallgrunder](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Du kan skapa en mall från en befintlig mall. Öppna mallen, markera **[!UICONTR
 
 1. Använd någon av följande metoder för att skapa en ursprunglig mall:
 
-   * **Markera PSD eller bilder först**: På panelen Bläddra väljer du den eller de PSD-filer som du vill använda för mallen, går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**.
+   * **Markera PSD eller bilderna först**: På panelen Bläddra väljer du den eller de PSD-filer som du vill använda för mallen, går till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**.
 
    * **Starta från mallskärmen**: Gå till **[!UICONTROL Build]** > **[!UICONTROL Template Basics]**. Välj antingen Designer eller Developer.
 

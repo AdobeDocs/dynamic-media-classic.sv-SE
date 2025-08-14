@@ -12,7 +12,7 @@ topic: Administration
 level: Intermediate
 source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '10351'
+source-wordcount: '10315'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Se även [Testa tjänsten Secure Testing](testing-assets-making-them-public.md#t
 
 * **[!UICONTROL Show Sample eVideo Content]**: Aktivera eller inaktivera visning av exempelinnehåll för eVideo.
 
-* **[!UICONTROL Show Generated Content]**: I mappar visas innehåll som genererats från en resurs. När en PDF-fil till exempel rastreras när den överförs, skapas en bild för varje sida i den ursprungliga PDF. Om Visa genererat innehåll är markerat visas varje genererad bild när den ursprungliga PDF överförs. Det visas tillsammans med PDF i den mapp som PDF överfördes till.
+* **[!UICONTROL Show Generated Content]**: I mappar visas innehåll som genererats från en resurs. När en PDF-fil till exempel rastreras när den överförs, skapas en bild för varje sida i den ursprungliga PDF-filen i Adobe Dynamic Media Classic. Om Visa genererat innehåll är markerat visas varje genererad bild när den ursprungliga PDF överförs. Det visas tillsammans med PDF i den mapp som PDF överfördes till.
 
 * **[!UICONTROL Show Encoded Videos]**: Avmarkerat (av) som standard.
 
@@ -113,7 +113,7 @@ Se även [Testa tjänsten Secure Testing](testing-assets-making-them-public.md#t
 
 ### Överför till program
 
-Se även [Alternativ för överföringsjobb](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) utbildningsvideo.
+Se även [Alternativ för överföringsjobb](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/569_Default%20Job%20Options_converted%20renamed_Getting%20Started-AVS) utbildningsvideo.
 
 * **[!UICONTROL Overwrite Images]**: Adobe Dynamic Media Classic tillåter inte att två filer har samma namn. Varje objekts Adobe Dynamic Media Classic-ID (bildnamnet minus filnamnstillägget) måste vara unikt. På grund av den här regeln har dialogrutan Överför ett överskrivningsalternativ. Den exakta effekten av det här alternativet beror på det angivna alternativet Skriv över bilder. Dessa alternativ anger hur ersättningsbilder överförs: om de ersätter originalbilderna eller blir dubblettbilder. Duplicerade bilder får ett nytt namn med namnet&quot;-1&quot; (till exempel heter stol.tif stol-1.tif). De här alternativen påverkar bilder som har överförts till en annan mapp än den ursprungliga eller bilder med ett annat filnamnstillägg än den ursprungliga (till exempel JPG, TIF eller PNG). Se [Använda alternativet Skriv över bilder](#using-the-overwrite-images-option).
 
@@ -125,7 +125,7 @@ Se även [Alternativ för överföringsjobb](https://s7d5.scene7.com/s7viewers/h
 
    * **[!UICONTROL Overwrite in any folder, same base asset name regardless of extension]**: Det här alternativet är den mest omfattande ersättningsregeln. Du kan överföra en ersättningsbild till en annan mapp än den ursprungliga, överföra en fil med ett annat filnamnstillägg och ersätta den ursprungliga filen. Om originalfilen finns i en annan mapp finns ersättningsbilden i den nya mappen som den överfördes till.
 
-* **[!UICONTROL Retain Publish]**: Anger om en ersättningsbild som överförs till Adobe Dynamic Media Classic ska behålla inställningen Ready to Publish för den bild den ersätter. Eller så anges inställningen vid överföring.
+* **[!UICONTROL Retain Publish]**: Anger om en ersättningsbild som överförs till Adobe Dynamic Media Classic ska behålla inställningen Klart för publicering för den bild som den ersätter. Eller så anges inställningen vid överföring.
 
 * **[!UICONTROL Default Color Profiles]**: Anger de färgprofiler som används som en del av alternativen för standardfärgprofil när CMYK-bilder läggs till.
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic tillåter inte att två filer har samma namn. Varje 
 
 Om du tidigare överförde bilder och sedan ändrade originalfilerna (eller ersatt dem) anger det valda alternativet Skriv över hur Adobe Dynamic Media Classic ska ersätta bilderna. Ingen information om bilden ändras, men den nya bilden ersätter den gamla. Om mappen även innehåller bilder som inte redan finns i Adobe Dynamic Media Classic läggs dessa bilder till.
 
-Använd det här alternativet om överförda bilder har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF. Du kan finjustera hur Adobe Dynamic Media Classic *rippar* bilden. Du kan också justera ICC-färgprofilalternativen i dialogrutan Överför och överföra igen med hjälp av överskrivningsfunktionen.
+Använd det här alternativet om överförda bilder har ändrats på något sätt (bilden har ändrats) men referensen till bilden är densamma. Skriv över är också användbart när du överför och rippar Adobe® PDF-filer. Du kan finjustera hur Adobe Dynamic Media Classic *rippar* bilden. Du kan också justera ICC-färgprofilalternativen i dialogrutan Överför och överföra igen med hjälp av överskrivningsfunktionen.
 
 De Adobe Dynamic Media Classic-ID:n som används för att få åtkomst till bilder från produktionsservrarna härleds från bildens filnamn. Det är viktigt att du använder versaler och gemener i filnamnet, både när du ersätter befintliga filer och när du ersätter de Adobe Dynamic Media Classic-id:n som används för att komma åt bilden. Det är korrekt att använda filnamn med versaler och gemener innan du överför dem till Adobe Dynamic Media Classic för att undvika Adobe Dynamic Media Classic-ID:n som bara skiljer sig åt för samma bild.
 
@@ -161,7 +161,7 @@ Administratörer kan skapa förinställningar för att exportera resurser. Anvä
 
 Du öppnar skärmen Bildförinställning i fältet Global navigering genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Image Presets]**.
 
-Se [Smart bildbehandling](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Se [Smart bildbehandling](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### Skapa och redigera bildförinställningar {#creating-and-editing-image-presets}
 
@@ -189,7 +189,7 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 * **[!UICONTROL Width and Height]**: Ange storleken som bilden levereras med i pixlar.
 
-* **[!UICONTROL Format]**: Välj ett format på menyn. Om du väljer formatet GIF, JPEG, PDF eller TIFF får du fler alternativ:
+* **[!UICONTROL Format]**: Välj ett format på menyn. Om du väljer GIF-, JPEG-, PDF- eller TIFF-format finns det fler alternativ:
 
    * Alternativ för färgkvantifiering i GIF
 
@@ -201,11 +201,11 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
       * **[!UICONTROL Color List]**: Ange en kommaavgränsad lista. Ange till exempel `000000,888888,ffffff` för vitt, grått och svart.
 
-   * Alternativ för JPEG
+   * JPEG-alternativ
 
-      * **[!UICONTROL Quality]**: Styr komprimeringsnivån JPEG. Den här inställningen påverkar både filstorlek och bildkvalitet. Kvalitetsskalan JPEG är 1-100.
+      * **[!UICONTROL Quality]**: Styr komprimeringsnivån för JPEG. Den här inställningen påverkar både filstorlek och bildkvalitet. JPEG kvalitetsskala är 1-100.
 
-      * **[!UICONTROL Enable JPG Chrominance Downsampling]**: Eftersom ögat är mindre känsligt för högfrekvent färginformation än högfrekvent luminans, delas bildinformation in i luminans och färgkomponenter i JPEG-bilder. När en JPEG-bild komprimeras lämnas luminanskomponenten i full upplösning, medan färgkomponenterna nedsamplas genom att medelvärdet av alla pixelgrupper ökas. Nedsampling minskar datavolymen med en halv eller en tredjedel utan att det påverkar den upplevda kvaliteten. Nedsampling kan inte användas för gråskalebilder. Den här tekniken minskar mängden komprimering som är användbar för bilder med hög kontrast (till exempel bilder med överlagrad text).
+      * **[!UICONTROL Enable JPG Chrominance Downsampling]**: Eftersom ögat är mindre känsligt för högfrekvent färginformation än högfrekvent luminans delas bildinformationen upp i luminans- och färgkomponenter i JPEG-bilder. När en JPEG-bild komprimeras lämnas luminanskomponenten i full upplösning, medan färgkomponenterna nedsamplas genom att medelvärdet av grupper med pixlar ökas. Nedsampling minskar datavolymen med en halv eller en tredjedel utan att det påverkar den upplevda kvaliteten. Nedsampling kan inte användas för gråskalebilder. Den här tekniken minskar mängden komprimering som är användbar för bilder med hög kontrast (till exempel bilder med överlagrad text).
 
    * Alternativ för PDF och TIFF
 
@@ -215,15 +215,15 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 * **[!UICONTROL Sharpening]**: Välj alternativet Aktivera enkel skärpa om du vill använda ett grundläggande skärpefilter på bilden när all skalning har gjorts. Skärpa kan kompensera för oskärpa som kan uppstå när du visar en bild i en annan storlek.
 
-  Mer information om skärpa, omsamplingslägen och oskarp maskning finns i [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image). Se även utbildningsvideon [Skärpa](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
+  Mer information om skärpa, omsamplingslägen och oskarp maskning finns i [Öka skärpan i en bild](sharpening-image.md#sharpening_an_image). Se även utbildningsvideon [Skärpa](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 * **[!UICONTROL Resample Mode]**: Välj ett alternativ för omsamplingsläge. Dessa alternativ gör bilden skarpare när den nedsamplas:
 
 * **[!UICONTROL B-Linear]**: Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är märkbara.
 
-* **[!UICONTROL Bi-Cubic]**: Ökar processoranvändningen på bildservern, men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
+* **[!UICONTROL Bi-Cubic]**: Ökar CPU-användningen på bildservern men ger skarpare bilder med mindre framträdande aliasartefakter.
 
-* **[!UICONTROL `Sharp 2`]**: Kan ge något skarpare resultat än alternativet Bi-Cubic, men till ännu högre processorkostnad på Image Server.
+* **[!UICONTROL `Sharp 2`]**: Kan ge något tydligare resultat än alternativet Bikubisk, men till ännu högre CPU-kostnad på bildservern.
 
 * **[!UICONTROL Tri-Linear]**: Använder både högre och lägre upplösningar, om sådana finns. Rekommenderas bara när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
 
@@ -245,13 +245,13 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 * **[!UICONTROL Rendering Intent]**: Välj ett alternativ om du vill åsidosätta färgprofilens standardåtergivningsmetod. Använd det här alternativet när en av ICC-standardprofilerna är målfärgrymden för en färgkonvertering. Eller så karakteriserar den här profilen utdataenheten (skrivaren eller bildskärmen) och den angivna återgivningsmetoden är giltig för den här profilen.
 
-* **[!UICONTROL Embed Profile]**: Välj det här alternativet så att den här profilen används om du öppnar bilden i Adobe® Photoshop®.
+* **[!UICONTROL Embed Profile]**: Välj det här alternativet så att den här profilen används om du öppnar den här bilden i Adobe® Photoshop®.
 
 * **[!UICONTROL Print Resolution]**: Välj en upplösning för utskrift av den här bilden. 72 pixlar är standardvärdet.
 
 * **[!UICONTROL URL Modifiers]**: Om du föredrar att ange URL-modifierare som definierar bildförinställningen, i stället för inställningarna, anger du modifieringarna här.
 
-* **[!UICONTROL Sample Image URL]**: Visar den &quot;raw&quot;-URL-sträng som Dynamic Media Image Server använder för att leverera bilder med den bildförinställning som du lägger till eller redigerar. Den här URL-strängen kodar alla formatinställningar som du väljer på skärmen Lägg till förinställning eller Redigera förinställning.
+* **[!UICONTROL Sample Image URL]**: Visar den &quot;raw&quot;-URL-sträng som används av Dynamic Media Image Server för att leverera bilder med den bildförinställning som du lägger till eller redigerar. Den här URL-strängen kodar alla formatinställningar som du väljer på skärmen Lägg till förinställning eller Redigera förinställning.
 
 ### Redigera, ta bort eller inaktivera en bildförinställning {#editing-removing-or-deactivating-an-image-preset}
 
@@ -264,13 +264,13 @@ Skärmarna Lägg till förinställning och Redigera förinställning innehåller
 
 ## Aktivera eller inaktivera adaptiva videoförinställningar {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic har förinställningar för adaptiv videokodning. Det är en primär lista med förinställningar som kombinerar både 16:9 adaptiva videoförinställningar och 4:3 adaptiva videoförinställningar i en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
+Adobe Dynamic Media Classic har förinställningar för adaptiv videokodning. Det är en primär lista med förinställningar som kombinerar både 16 :9 adaptiva videoförinställningar och 4:3 adaptiva videoförinställningar i en grupp. Dessa fördefinierade förinställningar återspeglar de vanligaste kodningsinställningarna och är optimerade för uppspelning på mobila målenheter, surfplattor och datorer.
 
 Endast kodningsförinställningar för adaptiv video aktiveras (aktiverat eller aktiverat) som standard. Du kan avaktivera den om du vill. Inaktiva adaptiva videoförinställningar visas inte som ett valbart alternativ i delen eVideo i dialogrutan Alternativ för överföringsjobb.
 
 Se [Överför och koda videoklipp](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
-Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 **Så här aktiverar eller inaktiverar du anpassade videoförinställningar:**
 
@@ -288,9 +288,9 @@ Om du vill välja en kodningsförinställning väljer du **[!UICONTROL Job Optio
 
 * Välj bland följande adaptiva videokodningsförinställningar eller enkodningsförinställningar:
 
-   * **[!UICONTROL 16:9 Adaptive Video]**: Skapa videor med 16:9-proportioner för leverans till datorer, mobiler (iPhone, iPad, Android™) och surfplattor (iPad, Android™), optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
+   * **[!UICONTROL 16:9Adaptiv video]**: Skapa videor med 16 :9-proportioner för leverans till stationära datorer, mobila enheter (iPhone, iPad, Android™) och surfplattor (iPad, Android™), optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
 
-   * **[!UICONTROL 4:3 Adaptive Video]**: Skapa videor med 4:3-proportioner för leverans till datorer, mobiler (iPhone, iPad, Android™) och surfplattor (iPad, Android™), optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
+   * **[!UICONTROL 4:3Adaptiv video]**: Skapa 4:3-videofilmer för leverans till stationära datorer, mobila enheter (iPhone, iPad, Android™) och surfplattor (iPad, Android™), optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
 
    * **[!UICONTROL Adaptive Video]**: En förinställning för enskild kodning som fungerar med alla proportioner för att skapa videor för leverans till mobilen, surfplattan och datorn. Överförda källvideor som är kodade med den här förinställningen har en fast höjd. Bredden skalas dock automatiskt så att videons proportioner bevaras.
 
@@ -298,7 +298,7 @@ Om du vill välja en kodningsförinställning väljer du **[!UICONTROL Job Optio
 
      Se [Lägga till eller redigera en förinställning för videokodning](uploading-encoding-videos.md#adding_or_editing_a_video_encoding_preset).
 
-   * **[!UICONTROL Adaptive Video Encoding (16:9 or 4:3)]**: Skapa videor med 16:9- och 4:3-proportioner för datorer, mobiler (iPhone, iPad, Android™) och surfplattor (iPad, Android™). Alla optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
+   * **[!UICONTROL Adaptive Video Encoding (16:9eller 4:3)]**: Skapa både 16:9- och 4:3-videofilmer för distribution till datorer, mobilenheter (iPhone, iPad, Android™) och surfplattor (iPad, Android™). Alla optimerade med den upplösning och bithastighet som bäst matchar tittarens anslutningshastighet.
 
      Se [Videoförinställningar för adaptiv videokodning (16:9 eller 4:3)](application-setup.md#adaptive_video_encoding_16_9_or_4_3_video_presets).
 
@@ -338,7 +338,7 @@ En förinställning för kodning som fungerar med alla proportioner så att du k
 
 **Adaptiv video (standard)**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Recommendations |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | Auto × 360, 800 kbit/s | _Mobile_Auto×360p_800K | 800 | Auto×360 | Samma som källan | 64 | För mobiler (iPhone, iPad, Android™) |
 | 2 | Auto × 480, 1 400 kbit/s | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | Samma som källan | 96 | För surfplattor (iPad, Android™) |
@@ -350,9 +350,9 @@ Dessa förinställningar för adaptiv videokodning kombinerar en serie individue
 
 Mer information om parametrar för kodningsalternativ finns i [Om alternativ för kodningsförinställningar](application-setup.md#about_encoding_preset_options).
 
-**Förinställningar för adaptiv videokodning (16:9 eller 4:3)**
+**Adaptiv videokodning (16:9 eller 4:3) förinställningar**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Recommendations |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | `16:9, 512x288, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | `4:3, 384x288px, Mobile (iPhone, iPad, Android&trade;), (400 Kbps)` | 500 | _Mobile_384x288_400K | 400 | 384x288 | Samma som källan | 64 | Låg upplösning, 3G |
@@ -373,7 +373,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 
 **H264 Main 3.2: Audio AAC, MP4 file extension**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Recommendations |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 kbit/s) | 500 | _480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
 | 2 | 16:9, 640x360 (800 kbit/s) | 900 | _640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medium widescreen-upplösning |
@@ -382,11 +382,11 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 | 5 | 4:3, 320x240 (400 kbit/s) | 500 | _320x240_400K | 400 | 320x240 | Samma som källan | 64 | Låg upplösning |
 | 6 | 4:3, 480x360 (800 kbit/s) | 900 | _480x360_800K | 800 | 480x360 | Samma som källan | 80 | Medium |
 | 7 | 4:3, 640x480 (1 200 kbit/s) | 1,5 Mbit/s | _640x480_1200K | 1200 | 640x480 | Samma som källan | 96 | Medium - hög upplösning |
-| 8 | 4:3, 1 280 x 960 (2 000 kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 | 1280x960 | Samma som källan | 128 | HD |
+| 8 | 4:3, 1280x960 (2000 kbit/s) | 3,0 Mbit/s | _1280x960_2000K | 2000 | 1280x960 | Samma som källan | 128 | HD |
 
 **OGG Theora Vorbis: OGV-filtillägg**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Recommendations |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videodatahastighet (kbit/s) | Bredd/höjd (pixlar) | FPS | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 480x270 (400 kbit/s), OGG | 500 | _OGG_480x270_400K | 400 | 480x270 | Samma som källan | 64 | Låg widescreen-upplösning |
 | 2 | 16:9, 640x360 (800 kbit/s), OGG | 900 | _OGG_640x360_800K | 800 | 640x360 | Samma som källan | 80 | Medium widescreen-upplösning |
@@ -395,7 +395,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 | 5 | 4:3, 320x240 (400 kbit/s), OGG | 500 | _OGG_320X240_400K | 400 | 320x240 | Samma som källan | 64 | Låg upplösning |
 | 6 | 4:3, 480x360 (800 kbit/s), OGG | 900 | _OGG_480x360_800K | 800 | 480x360 | Samma som källan | 80 | Medium |
 | 7 | 4:3, 640x480 (1 200 kbit/s), OGG | 1,5 Mbit/s | _OGG_640x480_1200K | 1200 | 640x480 | Samma som källan | 96 | Medium - hög upplösning |
-| 8 | 4:3, 1 280 x 960 (2 000 kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x960_2000K | 2000 | 1280x960 | Samma som källan | 128 | HD |
+| 8 | 4:3, 1280x960 (2000 kbit/s), OGG | 3,0 Mbit/s | _OGG_1280x960_2000K | 2000 | 1280x960 | Samma som källan | 128 | HD |
 
 ### Förinställningar för kodning av mobilvideo {#mobile-video-encoding-presets}
 
@@ -405,7 +405,7 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 
 **H264 Originalplan 2.1: Ljud-AAC, MP4-filtillägg**
 
-|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videobithastighet (kbit/s) | Pixelbredd/höjd | FPS | Bithastighet för ljud (kbit/s) | Recommendations |
+|  | Kodningsförinställningsnamn/knappbeskrivningstext | Målanslutningshastighet (kbit/s) | Kodat filsuffix | Videobithastighet (kbit/s) | Pixelbredd/höjd | FPS | Bithastighet för ljud (kbit/s) | Rekommendationer |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 16:9, 512x288, mobil (400 kbit/s) | 500 | _Mobile_512x288_400K | 400 | 512x288 | Samma som källan | 64 | Låg upplösning, 3G |
 | 2 | 16:9, 512x288, mobil (600 kbit/s) | 700 | _Mobile_512x288_600K | 600 | 512x288 | Samma som källan | 64 | Medium upplösning, 3G |
@@ -422,11 +422,11 @@ Mer information om parametrar för kodningsalternativ finns i [Om alternativen f
 
 >[!NOTE]
 >
->**Flash Viewers End-of-Life Notice**: Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogramplattformen för Flash.
+>**Meddelande om att Flash-visningsprogram har upphört att gälla**: Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för Flash-visningsprogramplattformen.
 
 En *visningsförinställning* är en samling inställningar som bestämmer hur användare visar mediefiler på datorskärmar och mobila enheter. Som administratör kan du skapa visningsförinställningar. Inställningarna är tillgängliga för en array med visningskonfigurationsalternativ. Du kan till exempel ändra visningsprogrammets visningsstorlek, zoombeteende, färgscheman, kanter och teckensnitt.
 
-Det bästa sättet är att använda videovisningsprogram i Adobe Dynamic Media Classic HTML 5. De förinställningar som används i videovisningsprogram för HTML5 är robusta videospelare.
+Det bästa sättet är att använda videovisningsprogram i Adobe Dynamic Media Classic HTML5. De förinställningar som används i videovisningsprogram för HTML5 är robusta videospelare.
 
 Genom att kombinera följande i en enda spelare:
 
@@ -436,21 +436,21 @@ Genom att kombinera följande i en enda spelare:
 
 Du kan nå ut med multimediematerial till både dator-, surfplatte- och mobilanvändare och få en smidig videoupplevelse.
 
-Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) i referenshandboken för Adobe-visningsprogram.
+Se [Om HTML5-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) i referenshandboken för Adobe-visningsprogram.
 
 Se [Kompatibilitetsmatris för förinställningar för Adobe Dynamic Media Classic Viewer](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
-Se [Bästa praxis: Använda HTML5-videovisningsprogrammet](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
+Se [Bästa praxis: Använda videovisningsprogrammet för HTML5](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer).
 
 Beroende på visningsprogrammet kan du lägga till communityfunktioner. Community-funktionerna är bland annat knappen Bädda in, knappen E-post, knappen Länk och knappen Besök webbplats. Med de här knapparna kan personer som använder visningsprogrammen dela visningsprogrammet med andra eller öppna Adobe Dynamic Media Classic webbplats.
 
-Se även [Exempel på referensbibliotek för visningsprogram i Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Se även [Exempel på referensbibliotek för Adobe-visningsprogram](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### Stöd för visningsprogram för responsiva webbsidor {#viewer-support-for-responsive-designed-web-pages}
 
-Olika webbsidor har olika behov. Ibland vill du ha en webbsida som innehåller en länk som öppnar visningsprogrammet för HTML 5 i ett separat webbläsarfönster. I andra fall måste du bädda in HTML5-visningsprogrammet direkt på värdsidan. I det senare fallet har webbsidan förmodligen en statisk layout. Eller så är den&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har de HTML5-visningsprogram som medföljer Adobe Dynamic Media Classic stöd för både statiska webbsidor och responsiva webbsidor.
+Olika webbsidor har olika behov. Ibland vill du ha en webbsida som innehåller en länk som öppnar HTML5 Viewer i ett separat webbläsarfönster. I andra fall måste du bädda in HTML5 Viewer direkt på värdsidan. I det senare fallet har webbsidan förmodligen en statisk layout. Eller så är den&quot;responsiv&quot; och visas på olika enheter eller för olika webbläsarfönsterstorlekar. För att tillgodose dessa behov har de HTML5-visningsprogram som medföljer Adobe Dynamic Media Classic stöd för både statiska webbsidor och responsiva webbsidor.
 
-Mer information om hur du bäddar in responsiva visningsprogram på dina webbsidor finns i [Om bibliotek för responsiv bild](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Använd bibliotek för responsiv bild](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) och [Kommandoreferens: Kommandoattribut](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
+Mer information om hur du bäddar in responsiva visningsprogram på dina webbsidor finns i [Om bibliotek för responsiv bild](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [Använd bibliotek för responsiv bild](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) och [Kommandoreferens: Kommandoattribut](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### Förinställningstyper för visningsprogram {#viewer-preset-types}
 
@@ -486,15 +486,15 @@ Om huvudbildens storlek till exempel är 350 x 350 pixlar, med zoomfaktorn 3, bl
 
 ### Kompatibilitetsmatris för Adobe Dynamic Media Classic Viewer-förinställning {#scene-viewer-preset-compatibility-matrix}
 
-**Flash Viewers End-of-Life Notice**: Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för visningsprogramplattformen för Flash.
+**Meddelande om att Flash-visningsprogram har upphört att gälla**: Från och med den 31 januari 2017 upphörde Adobe Dynamic Media Classic officiellt stödet för Flash-visningsprogramplattformen.
 
 Följande tabell visar vilka förinställningar för Adobe Dynamic Media Classic Viewer som är tillgängliga. Tabellen anger också visningsprogrammets kompatibilitet med datorer och mobila enheter samt vilken teknik som används för varje visningsprogram.
 
-Se även [Exempel på referensbibliotek för visningsprogram i Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Se även [Exempel på referensbibliotek för Adobe-visningsprogram](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 Information om vilka webbläsare och operativsystemversioner som stöds för visningsprogram finns i versionsinformationen för visningsprogram.
 
-Se [Referensinformation för visningsprogram för Adobe](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources).
+Se [Referensinformation för Adobe-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | Viewer Technology | Skrivbord | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ Tablet PC |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -597,11 +597,11 @@ Skärmen Förinställningar för visningsprogram innehåller verktyg för följa
 
 ### Lägga till och redigera visningsprogramförinställningar {#adding-and-editing-viewer-presets}
 
-Förutom att lägga till visningsprogramförinställningar genom att använda **[!UICONTROL Add]** i användargränssnittet kan du även använda **[!UICONTROL Export]** för att lägga till en visningsförinställning. Du exporterar helt enkelt en befintlig HTML5-visningsförinställning och använder den som grund för den nya förinställningen.
+Förutom att lägga till visningsprogramförinställningar genom att använda **[!UICONTROL Add]** i användargränssnittet kan du även använda **[!UICONTROL Export]** för att lägga till en visningsförinställning. Du exporterar bara en befintlig HTML5 Viewer-förinställning och använder den som bas för den nya förinställningen.
 
 Se [Exportera förinställningar för HTML5-visningsprogrammet](application-setup.md#exporting_an_html5_viewer_preset).
 
-Se även utbildningsvideon [Visningsförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [Visningsförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 **Så här lägger du till och redigerar visningsprogramförinställningar:**
 
@@ -637,7 +637,7 @@ Se även utbildningsvideon [Visningsförinställningar](https://s7d5.scene7.com/
 
 ### Exportera en HTML5-visningsförinställning {#exporting-an-html-viewer-preset}
 
-Du kan exportera en befintlig HTML5-visningsförinställning som du kan använda som grund för att skapa en visningsförinställning för HTML5. Det här exportalternativet är användbart eftersom du inte behöver skapa visningsprogrammet från grunden. I stället exporterar du en förinställning som ser ut och beter sig ungefär som du vill ha den, och sedan kan du använda den som utgångspunkt för att göra designjusteringar.
+Du kan exportera en befintlig HTML5-visningsförinställning som du kan använda som grund för att skapa en HTML5-visningsförinställning. Det här exportalternativet är användbart eftersom du inte behöver skapa visningsprogrammet från grunden. I stället exporterar du en förinställning som ser ut och beter sig ungefär som du vill ha den, och sedan kan du använda den som utgångspunkt för att göra designjusteringar.
 
 Alla standardinställda CSS-filer för visningsförinställningar i Adobe Dynamic Media Classic använder relativa sökvägar som pekar på resurser på `Scene7SharedAssets`. Följande är till exempel en relativ sökväg till en bildresurs i en CSS-fil för visningsförinställningar i
 
@@ -645,7 +645,7 @@ Alla standardinställda CSS-filer för visningsförinställningar i Adobe Dynami
 
 Om du däremot har Viewer CSS-filer på din egen plats, måste du lösa dessa relativa bildsökvägar genom att använda en explicit sökväg till Image Server i din egen miljö. Om du till exempel har uppdaterat den relativa sökvägen ovan till en explicit sökväg kan den se ut så här, där `https://s7d1.scene7.com` är den direkta sökvägen till din Image-server: `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
-**Så här exporterar du en visningsförinställning för HTML5:**
+**Så här exporterar du en HTML5-visningsförinställning:**
 
 ```as3
 .s7videoviewer .s7fullscreenbutton[state][selected] 
@@ -670,9 +670,9 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
 
    Se [Överför filer](uploading-files.md#uploading_files).
 
-1. Publish CSS-filen till Dynamic Media Image Server.
+1. Publicera CSS-filen på Dynamic Media Image Server.
 
-   Se [Publish-filer](publishing-files.md#publishing_files).
+   Se [Publicera filer](publishing-files.md#publishing_files).
 
 1. Lägg till den nya visningsförinställningen som vanligt. Välj CSS-filen för visningsprogrammet som du överförde.
 
@@ -693,7 +693,7 @@ Om du inte inaktiverar visningsförinställningar på skärmen Förinställninga
 
 När du har publicerat en resurs kan du kopiera en URL för att visa resursen med inställningarna från en visningsförinställning.
 
-URL:en kopieras till Urklipp. Du kan använda den om det behövs i HTML-koden för webbsidan, mobilenheten eller programmet.
+URL:en kopieras till Urklipp. Du kan använda den om det behövs i HTML-koden för din webbsida, mobila enhet eller program.
 
 **Så här kopierar du URL:en för en visningsförinställning:**
 
@@ -763,7 +763,7 @@ Du kan använda standardvisningsprogram för att konfigurera standardvisningspro
 
 ## Metadatavyer {#metadata-views}
 
-*Metadata* är standardiserad information om en resurs. Du kan använda metadata för att effektivisera arbetsflödet, ordna dina resurser och förbättra sökningen. Adobe Dynamic Media Classic stöder standarderna IPTC (International Press Telecommunications Council) och XMP (extensible metadata platform). Innan användarna visar eller anger metadata om en resurs i detaljvyn kan de öppna menyn Metadatavyer. Därifrån kan de välja den uppsättning metadatafält som de vill visa eller använda för att beskriva resursen.
+*Metadata* är standardiserad information om en resurs. Du kan använda metadata för att effektivisera arbetsflödet, ordna dina resurser och förbättra sökningen. Adobe Dynamic Media Classic stöder standarden IPTC (International Press Telecommunications Council) och XMP (extensible metadata platform). Innan användarna visar eller anger metadata om en resurs i detaljvyn kan de öppna menyn Metadatavyer. Därifrån kan de välja den uppsättning metadatafält som de vill visa eller använda för att beskriva resursen.
 
 Adobe Dynamic Media Classic levereras med fördefinierade metadatavyer, och administratörer kan skapa egna metadatavyer som användarna kan välja när de anger metadata.
 
@@ -905,7 +905,7 @@ Alla aktiva gruppuppsättningsförinställningar för ett företag visas i dialo
 
 Företagsadministratören skapar en standardnamnkonvention som används i alla förinställda gruppuppsättningar. Den standardnamnkonvention som valts i definitionen av gruppuppsättningsförinställning kan vara allt som ditt företag behöver för att batchgenerera uppsättningar för alla webbplatser. En förinställning för gruppuppsättning skapas för att använda den namnstandardnamnkonvention som du anger. Du kan skapa så många gruppuppsättningsförinställningar med alternativa, anpassade namnkonventioner som behövs för en viss uppsättning innehåll om det finns ett undantag från den företagsdefinierade standardnamngivningen.
 
-Du behöver inte konfigurera en standardnamnkonvention för att kunna använda funktionen Förinställning för gruppuppsättning. Du bör emellertid använda en standardnamnkonvention för att definiera så många element i namnkonventionen som du vill gruppera i en uppsättning som är standard i Adobe. Om du gör det blir det enklare att skapa gruppuppsättningar.
+Du behöver inte konfigurera en standardnamnkonvention för att kunna använda funktionen Förinställning för gruppuppsättning. Adobe rekommenderar dock att du använder en standardnamnkonvention för att definiera så många element i namnkonventionen som du vill gruppera i en uppsättning. Om du gör det blir det enklare att skapa gruppuppsättningar.
 
 1. Gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Default Naming]**.
 1. Välj **[!UICONTROL View Form]** eller **[!UICONTROL View Code]** för att ange hur du vill visa och ange information om varje element.
@@ -934,7 +934,7 @@ Du kan antingen använda formulärfältets metod för att definiera en gruppupps
 
 Se även [Skapa en gruppuppsättningsförinställning för automatisk generering av en 2D-snurpuppsättning](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-Se även utbildningsvideon [2D Spin Set](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [2D Spin Set](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS).
 
 **Så här skapar du en gruppuppsättningsförinställning:**
 

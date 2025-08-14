@@ -155,11 +155,11 @@ Metadataservern är ett offentligt API som du kan använda för att söka efter 
 
 Om du vill konfigurera metadataservern går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Metadata Server]**.
 
-På Publish-sidan för metadataserver kan du ange följande alternativ:
+På sidan Publicera för metadataserver kan du ange följande alternativ:
 
 * **[!UICONTROL Instant Publish]**: Alla metadataändringar skickas automatiskt när de görs, inklusive nya resurser, nyckelordsändringar och så vidare.
 
-* **[!UICONTROL XMP Packet]**: Publicerar XMP. Paketet används inte för sökning, men innehåller den senaste XMP.
+* **[!UICONTROL XMP Packet]**: Publicerar XMP Packet. Paketet används inte för sökning, utan innehåller den senaste XMP.
 
 * **[!UICONTROL Keywords]**: Publicerar dina nyckelord till metadataservern för användning i sökningar.
 

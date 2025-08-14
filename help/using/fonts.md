@@ -24,9 +24,9 @@ Ibland kräver Adobe Dynamic Media Classic att du överför en teckensnittsfil f
 Adobe Dynamic Media Classic stöder följande teckensnittstyper:
 
 * Alla TrueType-teckensnitt
-* PostScript®
+* PostScript®-teckensnitt
 * OpenType/TrueType-teckensnitt
-* OpenType-/PostScript-teckensnitt
+* OpenType/PostScript-teckensnitt
 * PhotoFonts
 
 När en teckensnittsfil har överförts kan du ändra dess Adobe Dynamic Media Classic-id, teckensnittsnamn och typinformation på skärmen Redigera information.
@@ -59,10 +59,10 @@ I panelen Bläddra markerar du den teckensnittsfil som du vill redigera i detalj
 
 * **[!UICONTROL Font Type Abbreviation]**: Alternativen är följande:
 
-   * **[!UICONTROL TTF]**: TrueType-teckensnittsfiler används för återgivning och visning av PDF/PostScript-bilder.
+   * **[!UICONTROL TTF]**: TrueType-teckensnittsfiler används för PDF/PostScript-återgivning och bildvisning.
 
-   * **[!UICONTROL AFM]**: Adobe PostScript teckensnittsfiler som innehåller Adobe-teckensnittsmått och används för bildvisning.
+   * **[!UICONTROL AFM]**: Adobe PostScript teckensnittsfiler som innehåller information om Adobe teckensnittsmått och används för bildvisning.
 
    * **[!UICONTROL PFM]**: Adobe PostScript teckensnittsfiler som innehåller binär teckensnittsmått.
 
-   * **[!UICONTROL PFB]**: Adobe PostScript teckensnittsfiler som innehåller information om binär teckensnittskontur och används för PDF/PostScript-återgivning och bildvisning.
+   * **[!UICONTROL PFB]**: Adobe PostScript teckensnittsfiler som innehåller information om binära teckensnittskonturer och används för PDF/PostScript-återgivning och bildvisning.

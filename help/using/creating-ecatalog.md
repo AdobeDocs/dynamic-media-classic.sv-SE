@@ -27,7 +27,7 @@ Du kan inkludera bildfiler och PDF-filer i din eCatalog.
 
 När du skapar en e-katalog påverkar alternativet **[!UICONTROL Publish after a save]** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
-| Alternativet&quot;Publish after a save&quot; är valt innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Vill du publicera efter att ha sparat innan du sparar? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- |
 | Ja | Publicerad | Publicerad |
 | Nej | Opublicerad | Ställda medlemmar behåller sitt publicerade eller opublicerade läge. |
@@ -67,7 +67,7 @@ Se även [Publicera resurser manuellt](publishing-files.md#manually_publishing_a
 
 Oavsett om du redigerar en publicerad eller opublicerad uppsättning påverkar alternativet **[!UICONTROL Publish after a save]** medlemmarna i uppsättningen och uppsättningen på följande sätt:
 
-| Har du redan publicerat? | Om du väljer&quot;Publish när du har sparat&quot; innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
+| Har du redan publicerat? | Alternativet&quot;Publicera efter att du har sparat&quot; är markerat innan du sparar redigeringen? | Tillstånd för uppsättning efter sparande | Tillstånd för angivna medlemmar efter att de har sparats |
 | --- | --- | --- | --- |
 | Ja | Ja | Publicerad | Publicerad |
 | Ja | Nej | Publicerad | Befintliga uppsättningsmedlemmar behåller sin publicerade status. Alla nya uppsättningsmedlemmar som du lägger till under redigeringen behåller sin publicerade eller opublicerade status. |
@@ -102,7 +102,7 @@ Du kan skapa en anpassad innehållsförteckning för din eCatalog manuellt. Du k
 
 >[!NOTE]
 >
->Om du vill återställa standardsidrubrikerna väljer du **[!UICONTROL TOC Labels]** på fliken **[!UICONTROL Order Pages]** och sedan **[!UICONTROL Restore Defaults (All)]**.
+>Om du vill återställa standardsidrubrikerna väljer du **[!UICONTROL Order Pages]** på fliken **[!UICONTROL TOC Labels]** och sedan **[!UICONTROL Restore Defaults (All)]**.
 
 ### Ange sidnamn manuellt {#manually-entering-page-names}
 

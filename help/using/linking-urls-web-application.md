@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Länka URL:er till webbprogrammet{#linking-urls-to-your-web-application}
 
-Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på Dynamic Media bildservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
+Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar. När du har publicerat en bild aktiverar Adobe Dynamic Media Classic en URL-sträng som refererar till bildförinställningen på dynamiska mediabildsservrar. Du kan klistra in dessa URL:er i en webbläsare för testning.
 
 Om du vill montera dessa URL-strängar på webbsidor och i program kopierar du dem från Adobe Dynamic Media Classic. Om du vill hämta en URL-sträng som genererats med en bildförinställning går du till förhandsgranskningsskärmen eller panelen Bläddra (i detaljvyn).
 
@@ -54,11 +54,11 @@ Du kan hämta en URL-sträng som genereras av en bildförinställning från för
 
 ## Om URL-strängar för bildförinställning {#about-image-preset-url-strings}
 
-Ett URL-anrop för att ändra bildstorlek till Dynamic Media Image Servers har följande grundläggande syntax:
+Ett URL-anrop för att ändra bildstorlek till dynamiska mediabildsservrar har följande grundläggande syntax:
 
 *sökväg*/*namn på bildserver*/*kontonamn*/*bildnamn*?*modifier1*&amp;*modifier2*&amp;...
 
-I en Dynamic Media Image Server-URL visas instruktioner till servern om hur bilden ska visas efter frågetecknet (?). Det här URL-anropet ger t.ex. en bild med namnet &quot;backpack&quot; och bredden 250 pixlar:
+I en URL för en dynamisk mediabildsserver visas instruktioner till servern om hur bilden ska visas efter frågetecknet (?). Det här URL-anropet ger t.ex. en bild med namnet &quot;backpack&quot; och bredden 250 pixlar:
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -76,11 +76,11 @@ I en URL-sträng som skapas med en bildförinställning visas namnet på bildfö
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-Namn på bildförinställningar i URL:er omges av dollartecken ($). När en Dynamic Media Image Server stöter på delen Bildförinställning i URL:en (i det här fallet `Large`) och använder de storleks- och formateringsanvisningar som definieras av den stora förinställningen.
+Namn på bildförinställningar i URL:er omges av dollartecken ($). När en dynamisk mediabildsserver träffar på delen Bildförinställning i URL:en (i det här fallet `Large`), med hjälp av de storleks- och formateringsanvisningar som definieras av den stora bildförinställningen.
 
 ## Lägga till dynamiska bilder på webbsidan {#adding-dynamic-images-to-your-web-page}
 
-När du lägger till dynamiska bilder på din webbsida ändras taggen `<IMG>` i HTML-sidkoden vanligtvis med hjälp av Adobe Dynamic Media Classic URL-sträng för att göra en begäran till Dynamic Media Image Servers. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
+När du lägger till dynamiska bilder på din webbsida ändras taggen `<IMG>` i din HTML-sidkod vanligtvis med Adobe Dynamic Media Classic URL-sträng för att göra en begäran till Dynamic Media Image-servrar. Den här strängen skapar bilden med den storlek och formateringsspecifikation som definieras av bildförinställningen.
 
 I stället för det vanliga anropet för att öppna en statisk bild som
 
@@ -94,4 +94,4 @@ Du använder nu taggen `<IMG>` för att ersätta referensen till en statisk bild
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-I det här exemplet söker en Dynamic Media Image Server upp definitionen av `$thumbnail$` och skapar dynamiskt rätt bild med de storleks- och formateringsspecifikationer som definieras av `thumbnail`Image Preset. I en URL-sträng är alla objekt utom produktbildens filnamn ( `backpack_trns` i det här fallet) vanligtvis hårdkopplade för sidmallen. Det enda elementet som infogas automatiskt i sidmallen från e-handelsservern är bildens IPS-ID eller namn.
+I det här exemplet söker en dynamisk mediabildsserver upp definitionen av `$thumbnail$` och skapar dynamiskt den lämpliga bilden med de storleks- och formateringsspecifikationer som definieras av `thumbnail`bildförinställningen. I en URL-sträng är alla objekt utom produktbildens filnamn ( `backpack_trns` i det här fallet) vanligtvis hårdkopplade för sidmallen. Det enda elementet som infogas automatiskt i sidmallen från e-handelsservern är bildens IPS-ID eller namn.

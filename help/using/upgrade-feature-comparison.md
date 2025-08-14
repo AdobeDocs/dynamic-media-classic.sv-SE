@@ -8,14 +8,14 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
 
 # Jämförelse av funktioner
 
-En funktionsjämförelsetabell mellan [!DNL Dynamic Media] i [!DNL Adobe Experience Manager] Assets och [!DNL Adobe Dynamic Media Classic] för skrivbordsprogram. En &quot;✓&quot; betyder att funktionen är tillgänglig i eller med programmet, en &quot;-&quot; betyder att den inte är det.
+En funktionsjämförelsetabell mellan [!DNL Dynamic Media] i [!DNL Adobe Experience Manager] Assets och [!DNL Adobe Dynamic Media Classic] för skrivbordsprogram. En ✓ betyder att funktionen är tillgänglig i eller med programmet. Ett - betyder att den inte är det.
 
 | Funktion | [!DNL Dynamic Media] | [!DNL Dynamic Media<br>Klassisk] |
 | :--- | :---: | :---: |
@@ -27,7 +27,7 @@ En funktionsjämförelsetabell mellan [!DNL Dynamic Media] i [!DNL Adobe Experie
 | CDN-integrering | ✓ | ✓ |
 | Dynamic Imaging | ✓ | ✓ |
 | eCatalogs | ✓<br>*Assets + InDesign Server* | ✓ |
-| Publish | ✓ | ✓ |
+| Publicera direkt | ✓ | ✓ |
 | Interaktiva visningsprogram | ✓ | ✓ |
 | Manifestfiler | ✓ | ✓ |
 | Media Portal | ✓<br>*Känd som &quot;Brand Portal&quot;* | ✓ |
@@ -35,16 +35,16 @@ En funktionsjämförelsetabell mellan [!DNL Dynamic Media] i [!DNL Adobe Experie
 | Säker förhandsvisning | ✓ | ✓ |
 | Uppsättningar (bild, snurra, blandade media) | ✓<br>*Inga multiaxelavstånd* | ✓ |
 | Smart bildbehandling | ✓ | ✓ |
-| Statisk innehållsleverans <br> (PDF, GIT osv.) | ✓ | ✓ |
+| Statisk innehållsleverans<br> (PDF, GIT och så vidare) | ✓ | ✓ |
 | Videoleverans (adaptiv) | ✓ | ✓ |
 | Videokodning | ✓ | ✓ |
 | Hjälpmedel för visningsprogram | ✓ | ✓ |
 | Viewer Integration med Analytics | ✓ | ✓ |
-| 1:1-mallar | ✓<br>*Personaliserat mediepaket* | ✓ |
+| 1:1 mallar | ✓<br>*Personaliserat mediepaket* | ✓ |
 | Visual Configurator<br> (produktanpassning) | ✓<br>*Personaliserat mediepaket* | ✓ |
 | 3D: Experience Manager Sites<br>WCM-komponent | ✓ | : |
 | 3D: Interaktiv Experience Viewer | ✓ | : |
-| 3D: Publish AR/VR och centrala 3D-filer | ✓ | : |
+| 3D: Publicera AR/VR och viktiga 3D-filer | ✓ | : |
 | Carousels | ✓ | : |
 | Shoppingbara/interaktiva media: bilder | ✓ | : |
 | Shoppingbara/interaktiva media: Video | ✓ | : |

@@ -12,7 +12,7 @@ topic: Administration, Content Management
 level: Intermediate
 source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Välj **[!UICONTROL Jobs]** i fältet Global navigering så att sidan Jobb öppn
 
 Jobb visas i följande kategorier på fliken Historik på sidan Jobb:
 
-* **[!UICONTROL Job Type]**: En ikon anger jobbtypen: Överför och Publish är de vanligaste jobbtyperna.
+* **[!UICONTROL Job Type]**: En ikon anger jobbtypen: Överför och Publicera är de vanligaste jobbtyperna.
 
 * **[!UICONTROL Job Name]**: Jobbets namn. Namnet innehåller den användardefinierade delen av namnet samt datum och tid.
 
@@ -81,7 +81,7 @@ Du kan kopiera informationen till Urklipp.
 
 ## Hantera återkommande överförings- och publiceringsjobb {#handling-recurring-upload-and-publish-jobs}
 
-Återkommande överförings- och publiceringsjobb som du skapar på sidorna Överför och Publish visas på fliken Schemalagda på sidan Jobb. Du kan redigera och ta bort återkommande jobb på fliken Schemalagda.
+Återkommande överförings- och publiceringsjobb som du skapar på sidorna Överför och Publicera visas på fliken Schemalagda på sidan Jobb. Du kan redigera och ta bort återkommande jobb på fliken Schemalagda.
 
 Markera knappen Jobb i fältet Global navigering och välj fliken **[!UICONTROL Scheduled]** på sidan Jobb så att du kan redigera och ta bort återkommande jobb.
 
@@ -103,13 +103,13 @@ Se [Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb](c
 
 ### Skapa ett anpassat tidsintervall för överföring eller publiceringsjobb {#creating-a-custom-upload-or-publish-job-time-interval}
 
-Om du vill skapa ett anpassat tidsintervall för en överföring (via FTP) eller ett publiceringsjobb går du till **[!UICONTROL Repeat]** > **[!UICONTROL Custom]** på sidan Överför eller Publish. Ange sedan siffror och jokertecken i rutan Regel som beskriver ett tidsintervall för överförings- eller publiceringsjobben som ska återkomma.
+Om du vill skapa ett anpassat tidsintervall för en överföring (via FTP) eller ett publiceringsjobb går du till **[!UICONTROL Repeat]** > **[!UICONTROL Custom]** på sidan Överför eller Publicera. Ange sedan siffror och jokertecken i rutan Regel som beskriver ett tidsintervall för överförings- eller publiceringsjobben som ska återkomma.
 
 Syntaxen för att beskriva anpassade tidsintervall för överföring och publicering i rutan Regel är:
 
 `[seconds]` `[minutes]` `[hour of day]` `[day of month]` `[month]` `[day of week]`
 
-`0 15 10 * * ?` schemalägger till exempel ett jobb vid 10:15.00 varje dag.
+`0 15 10 * * ?` schemalägger till exempel ett jobb på 10:15.00 varje dag.
 
 I följande tabeller och listor beskrivs hur du beskriver ett tidsintervall i rutan Regel.
 
@@ -142,18 +142,18 @@ I den här tabellen beskrivs de jokertecken som är tillåtna i rutan Regel och 
 Den här listan innehåller exempel på hur du beskriver tidsintervall i rutan Regel:
 
 * `0 0 12 * * ?` : Ingen varje dag
-* `0 15 10 ? * *` : 10:15 varje dag
-* `0 0/5 14 * * ?`: Var femte minut mellan kl. 2:00 och kl. 2:55 varje dag
-* `0 0/5 14,18 * * ?` : Var femte minut mellan kl. 2:00 och kl. 2:55 varje dag och var femte minut mellan kl. 6:00 och kl. 6:55 varje dag
-* `0 10,44 14 ? 3` : ons kl. 2:10 och kl. 2:44 varje onsdag i mars
-* `0 15 10 ? *` : mån-fre kl. 10.15 varje veckodag
-* `0 15 10 20 * ?` : Klockan 10.15 den 20 i varje månad
-* `0 15 10 L * ?` : Klockan 10:15 den sista dagen i varje månad
-* `0 15 10 ? * 6L` : Klockan 10.15 den sista fredagen varje månad
-* `0 15 10 * * 6#3` : Klockan 10.15 den tredje fredagen varje månad
+* `0 15 10 ? * *` : 10:15 är varje dag
+* `0 0/5 14 * * ?`: Var femte minut mellan 2:00 och 2:55 varje dag
+* `0 0/5 14,18 * * ?` : Var femte minut mellan 2:00 och 2:55 varje dag och var femte minut mellan 6:00 och 6:55 varje dag
+* `0 10,44 14 ? 3` : ons kl. 2:10 och 2:44 varje onsdag i mars
+* `0 15 10 ? *` : mån-fre klockan 10:15 varje vardag
+* `0 15 10 20 * ?` : Klockan 10:10:00 den 20:e varje månad:15
+* `0 15 10 L * ?` : Kl. 10:15 den sista dagen i varje månad
+* `0 15 10 ? * 6L` : Klockan 10:10:00 den sista fredagen varje månad:15
+* `0 15 10 * * 6#3` : Klockan 10:10:e fredag varje månad:15
 
 ## Använd ett överförings- eller publiceringsjobb som utlösare {#using-an-upload-or-publish-job-as-a-trigger}
 
 När du överför resurser via FTP eller kör ett publiceringsjobb, kan du schemalägga ett efterföljande jobb att börja när överföringen är klar. (Om andra jobb är schemalagda att starta, köas jobbet som du schemalägger här bakom dem.) Det nya jobbet skickar ett meddelande till den adress som du anger så att koden på den platsen kan utlösas. Detta uppföljningsjobb får samma namn som det aktuella överföringsjobbet, men med prefixet _Pub.
 
-Om du vill att ett överförings- eller publiceringsjobb ska utlösa ett annat jobb väljer du **[!UICONTROL Advanced]** på sidan Överför eller Publish. Ange sedan URL:en i textfältet HTTP-meddelande.
+Om du vill att ett överförings- eller publiceringsjobb ska utlösa ett annat jobb väljer du **[!UICONTROL Advanced]** på sidan Överför eller Publicera. Ange sedan URL:en i textfältet HTTP-meddelande.

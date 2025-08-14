@@ -35,7 +35,7 @@ I fältet Global navigering, som finns längst upp på skärmen, finns knappar f
 
 * **[!UICONTROL Build]**: Välj en Build-åtgärd på menyn. Panelen Skapa öppnas så att du kan skapa en resurstyp.
 
-* **[!UICONTROL Publish]**: Öppnar publiceringsskärmen så att du kan publicera mediefiler till Adobe Dynamic Media Image Servers och resten av Adobe Dynamic Media Classic SAAS Infrastructure.
+* **[!UICONTROL Publish]**: Öppnar publiceringsskärmen så att du kan publicera mediefiler till Adobe Dynamic Media Image-servrar och resten av Adobe Dynamic Media Classic SAAS-infrastrukturen.
 
 * **[!UICONTROL Jobs]**: Öppnar skärmen Jobb så att du kan undersöka poster för överförings- och publiceringsjobb.
 
@@ -71,7 +71,7 @@ På panelen Bläddra/bygg kan du göra mycket av ditt arbete. Vilka funktioner s
 
 * **[!UICONTROL Build mode]**: Välj **[!UICONTROL Build]** och välj sedan ett alternativ så att du kan börja skapa en eCatalog, bilduppsättning, snurrsuppsättning eller något av flera andra tillgängliga alternativ på menyn Skapa. Sidan Skapa öppnas. Du kan välja de resurser som du vill arbeta med innan eller efter att du aktiverar byggläget.
 
-Se även utbildningsvideon [Navigeringsgrunder](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
+Se även utbildningsvideon [Navigeringsgrunder](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS).
 
 >[!MORELIKETHIS]
 >

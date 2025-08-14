@@ -30,7 +30,7 @@ Om du vill skapa en effektiv snurra ser du till att du tar bilderna på rätt s�
 Ju fler bilder du har i en snurra desto bättre blir effekten av att snurra. Om du inkluderar många bilder i uppsättningen ökar dock tiden det tar för bilderna att läsas in. Adobe Dynamic Media Classic rekommenderar följande riktlinjer för att ta bilder för användning i snurra uppsättningar:
 
 * Använd minst 8-12 bilder i en endimensionell snurruppsättning och 16-24 bilder i en tvådimensionell snurra uppsättning.
-* Använd ett icke-förstörande format; TIFF och PNG rekommenderas.
+* Använd ett förlustfritt format. TIFF och PNG rekommenderas.
 * Maskera alla bilder så att objektet visas på en helt vit eller annan högkontrastbakgrund. Du kan också lägga till skuggor.
 * Se till att produktinformationen är väl belyst och i fokus.
 * Ta snurra bilder till modekläder med mannequin eller modell. Ofta är mannequin antingen maskerat (med hjälp av en glasmannequin) eller en stiliserad mannequin/form visas i bilden. Du kan skapa en snurruppsättning i modellen genom att definiera antalet vinklar. Markera varje vinkel med band på golvet så att du kan vägleda modellen till steg och titta i riktningen för varje tagning.
@@ -54,13 +54,13 @@ När du skapar en snurrsuppsättning rekommenderar Adobe följande bästa praxis
 | --- | --- | --- |
 | Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
 
-Se även [Dynamic Media-begränsningar](/help/using/limitations.md).
+Se även [Dynamiska mediebegränsningar](/help/using/limitations.md).
 
 När du har sparat en snurruppsättning kan du använda Förhandsvisning på sidan Skapa: snurra uppsättning för att se hur din snurra uppsättning ser ut i standardvisningsprogrammet.
 
 **Så här skapar du en snurruppsättning:**
 
-1. Välj **[!UICONTROL Spin Sets]** i listrutan **[!UICONTROL Build]**.
+1. Välj **[!UICONTROL Build]** i listrutan **[!UICONTROL Spin Sets]**.
 1. Ange antalet rader och celler som du vill ha i dialogrutan Ange storlek för snurra.
 
    Om du vill skapa en endimensionell snurra uppsättning markerar du endast en rad.
@@ -69,7 +69,7 @@ När du har sparat en snurruppsättning kan du använda Förhandsvisning på sid
 
 1. Välj **[!UICONTROL OK]**.
 1. Dra och släpp bilder i rutnätet på skärmen Snurra uppsättning.
-1. När du är klar ser du till att **Publish efter att du sparat** är markerat (standard) nära sidans nedre högra hörn.
+1. När du är klar ser du till att **Publicera när du har sparat** är markerat (standard) nära sidans nedre högra hörn.
 1. Välj **[!UICONTROL Save]**.
 1. I dialogrutan Spara väljer du en mapp för lagring av din snurruppsättning. I fältet Filnamn anger du namnet på rotationsuppsättningen.
 1. Välj **[!UICONTROL Save]**.

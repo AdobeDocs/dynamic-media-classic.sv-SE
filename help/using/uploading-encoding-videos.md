@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3886'
+source-wordcount: '3878'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Gör något av följande.
 
 1. Välj **[!UICONTROL Upload]** i fältet Global navigering.
 1. På sidan Överför väljer du fliken **[!UICONTROL From Desktop]**.
-1. På sidan Överför väljer du **[!UICONTROL Browse]** på panelen **[!UICONTROL Select Files for Upload]**, navigerar till en MP4-videofil och väljer sedan **[!UICONTROL Open]**.
+1. På sidan Överför väljer du **[!UICONTROL Select Files for Upload]** på panelen **[!UICONTROL Browse]**, navigerar till en MP4-videofil och väljer sedan **[!UICONTROL Open]**.
 1. Välj en mapp för den överförda filen på den valda **[!UICONTROL Folder Destination]**-panelen.
 1. Kontrollera att **[!UICONTROL Publish After Uploading]** är markerat på sidan Överför.
 1. Välj **[!UICONTROL Submit Upload]**.
@@ -63,7 +63,7 @@ Gör något av följande.
 
 1. Välj **[!UICONTROL Upload]** i fältet Global navigering.
 1. På sidan Överför väljer du fliken **[!UICONTROL From Desktop]**.
-1. Välj **[!UICONTROL Browse]** på panelen **[!UICONTROL Select Files to Upload]**, navigera till en primär källvideofil och välj sedan **[!UICONTROL Open]**.
+1. Välj **[!UICONTROL Select Files to Upload]** på panelen **[!UICONTROL Browse]**, navigera till en primär källvideofil och välj sedan **[!UICONTROL Open]**.
 1. Välj en mapp för den överförda filen på den valda **[!UICONTROL Folder Destination]**-panelen.
 1. Välj **[!UICONTROL Job Options]** i det nedre högra hörnet på sidan.
 1. Expandera **[!UICONTROL EVideo Options]** i dialogrutan Alternativ för överföringsjobb och gör sedan något av följande:
@@ -168,7 +168,7 @@ I följande tabell beskrivs hur formelresultaten översätts till vanliga altern
 | 1,78 | 16:9 |
 | 0,56 | 9:16 |
 
-En video som till exempel är 1440 bredd × 1080 höjd har proportionerna 1440/1080 eller 1,33. I det här fallet väljer du en förinställning för videokodning med 4:3-proportioner för att koda videofilen.
+En video som till exempel är 1440 bredd × 1080 höjd har proportionerna 1440/1080 eller 1,33. I det här fallet väljer du en förinställning för videokodning med proportionerna 4:3 för att koda videofilen.
 
 ### Datahastighet {#data-rate}
 
@@ -378,4 +378,4 @@ Administratörer kan ta bort anpassade videoförinställningar. Videoförinstäl
 >* [Snabbstart: Video i Adobe Dynamic Media Classic](quick-start-video.md#quick-start-video)
 >* [Överför och koda videofilmer](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo
+>* [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) utbildningsvideo

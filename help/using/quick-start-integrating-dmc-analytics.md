@@ -25,7 +25,7 @@ När du har integrerat Adobe Analytics med Adobe Dynamic Media Classic kan du f�
 
 Med Adobe Analytics rapporter kan du få en tydlig bild av kundernas aktivitet på din webbplats. Du kan avgöra vilka produktpresentationer som leder till konvertering och vilka som inte drar till sig kundernas intresse.
 
-Se även [Mäta video i Adobe Analytics](https://experienceleague.adobe.com/sv/docs/media-analytics/using/media-overview).
+Se även [Mäta video i Adobe Analytics](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Se även [Mäta video i Adobe Analytics](https://experienceleague.adobe.com/sv/d
 
 Snabbstarten är utformad för att du snabbt ska komma igång med Adobe Analytics Instrumentation Kit.
 
-## 1. Logga in på Adobe Analytics med Adobe Dynamic Media Classic och hämta Adobe Analytics rapportvariabler
+## &#x200B;1. Logga in på Adobe Analytics med Adobe Dynamic Media Classic och hämta Adobe Analytics rapportvariabler
 
 >[!NOTE]
 >
@@ -43,9 +43,9 @@ När du har verifierat att du är medlem i webbtjänståtkomstgruppen går du ti
 
 Se [Logga in på Adobe Analytics](log-analytics.md#log_in_to_adobe_analytics).
 
-I dialogrutan Adobe Analytics-inloggning skriver du ditt Experience Cloud Org-ID (valfritt) och dina fullständiga inloggningsuppgifter och väljer sedan **[!UICONTROL Login]**. I listrutan Report Suite väljer du namnet på den rapportserie som du vill använda.
+I dialogrutan Adobe Analytics-inloggning skriver du ditt Experience Cloud Org ID (valfritt) och dina fullständiga inloggningsuppgifter och väljer sedan **[!UICONTROL Login]**. I listrutan Report Suite väljer du namnet på den rapportserie som du vill använda.
 
-## 2. Tilldela Adobe Analytics rapportvariabler till Adobe Dynamic Media Classic viewer-händelser och Adobe Dynamic Media Classic-variabler
+## &#x200B;2. Tilldela Adobe Analytics rapportvariabler till Adobe Dynamic Media Classic viewer-händelser och Adobe Dynamic Media Classic-variabler
 
 På Adobe Analytics konfigurationssida anger du den information du vill ha i Adobe Analytics-rapporter. För varje Adobe Dynamic Media Classic-visningsprogramhändelse som du vill ha information om väljer du en Adobe Analytics-variabel (från rapportsviten) och en Adobe Dynamic Media Classic-variabel.
 
@@ -58,17 +58,17 @@ När du har valt **[!UICONTROL Save]** på Adobe Analytics konfigurationssida in
 
 Se [Konfigurera Adobe Analytics-rapporter](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
 
-## 3. Publish dina Adobe Dynamic Media Classic-tittare
+## &#x200B;3. Publicera dina Adobe Dynamic Media Classic-visningsprogram
 
-Publish dina Adobe Dynamic Media Classic-visningsprogram så att de som tittar på dem (med kod för att spåra användaraktivitet i Adobe Analytics-rapporter) läses in på Adobe Dynamic Media Classic-servrar. När du har publicerat inkluderas den här informationen i visningsprogrammen. Använd den för analys hos Adobe Analytics.
+Publicera dina Adobe Dynamic Media Classic-visningsprogram så att visningsprogrammen (med kod för att spåra användaraktiviteter i Adobe Analytics-rapporter) läses in på Adobe Dynamic Media Classic-servrar. När du har publicerat inkluderas den här informationen i visningsprogrammen. Använd den för analys hos Adobe Analytics.
 
-Se [Konfigurationsinformation för Publish](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+Se [Publicera konfigurationsinformation](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 
-## 4. Lägg Adobe Dynamic Media Classic-tittare på er webbplats
+## &#x200B;4. Lägg Adobe Dynamic Media Classic-tittare på er webbplats
 
 Placera Adobe Dynamic Media Classic-tittarna med Adobe Analytics spårningskod på er webbplats.
 
-## 5. Testa Adobe Analytics-integrationen genom att visa en Adobe Analytics-rapport
+## &#x200B;5. Testa Adobe Analytics-integrationen genom att visa en Adobe Analytics-rapport
 
 Om du vill visa Adobe Analytics-rapporter går du till Adobe Analytics webbplats. På rapportsidan kan du visa data och generera diagram för att mäta användaraktivitet med olika visningsprogram.
 

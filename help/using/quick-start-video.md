@@ -12,7 +12,7 @@ topic: Content Management
 level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1393'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ För hantering av enstaka videor och adaptiva videouppsättningar har Adobe Dyna
 
 Se [Aktivera eller inaktivera anpassade videoförinställningar](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
 När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
@@ -49,7 +49,7 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 >
 >Primära videoklipp/källvideoklipp och andra videofilmer i källformat läggs *inte* till i en adaptiv videouppsättning.
 
-* Bildtext för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i visningsprogrammen Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
+* Bildtexter för video i vyerna Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light samt kapitelnavigering i visningsprogrammen Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark och Universal_HTML5_MixedMedia_light.
 
   Se [Lägga till bildtexter i en video](adding-captions-video.md).
 
@@ -60,7 +60,7 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 
   Adaptiv videoströmning stöds på olika iOS-plattformar.
 
-  Se det senaste stödet i [referenshandboken för visningsprogram för Adobe](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources).
+  Se det senaste stödet i [referenshandboken för Adobe-visningsprogram](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic har stöd för videouppspelning i mobiler för MP4 H.264-video. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -79,28 +79,28 @@ När en adaptiv videouppsättning genereras innehåller den MP4-videor.
 * Integrera video på en webbplats, mobilsajt eller mobilapplikation med en enkel URL eller Embed Code.
 
 Se följande utbildningsvideor:
-* [MP4 - videoöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+* [MP4 - videoöversikt](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [Förhandsgranskning av MP4-video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [Förhandsgranskning av MP4-video](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [MP4-videoöverföring](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [MP4-videoöverföring](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [Översikt över direktuppspelning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [Översikt över direktuppspelning](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **Snabbstart**
 
 Följande steg-för-steg-beskrivning av arbetsflödet hjälper dig att komma igång snabbt med adaptiva videouppsättningar i Adobe Dynamic Media Classic. Efter varje steg finns det en korsreferens till en ämnesrubrik där du kan hitta mer information.
 
-## 1. Överför och koda videoklipp
+## &#x200B;1. Överför och koda videoklipp
 
 Överför och generera adaptiva videouppsättningar i något av följande två scenarier:
 
 * **Överför förkodade videoklipp**: Om dina videoklipp redan har kodats externt från Adobe Dynamic Media Classic väljer du **[!UICONTROL Upload]** i det globala navigeringsfältet. Bläddra och ladda upp MP4-videofiler direkt till Adobe Dynamic Media Classic. Gå sedan till **[!UICONTROL Build]** > **[!UICONTROL Adaptive Video Sets]**. Bläddra till dina videofiler. Dra och släpp de videofiler du vill ha i tabellen Adaptiv videouppsättning och spara sedan uppsättningen.
-* **Överför primära källvideoklipp**: Om dina videoklipp inte är kodade väljer du **[!UICONTROL Upload]** i fältet Global navigering för att överföra primära videokällfiler (inte MP4). Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. Välj **[!UICONTROL Adaptive Video]** under **[!UICONTROL EVideo Options]** i dialogrutan **[!UICONTROL Upload Job Options]**.
+* **Överför primära källvideoklipp**: Om dina videoklipp inte är kodade väljer du **[!UICONTROL Upload]** i fältet Global navigering för att överföra primära videokällfiler (inte MP4). Adobe Dynamic Media Classic kodar dem till MP4-filer åt dig. Välj **[!UICONTROL Upload Job Options]** under **[!UICONTROL EVideo Options]** i dialogrutan **[!UICONTROL Adaptive Video]**.
 
-  Med det här alternativet kan du skapa adaptiva videouppsättningar. Den korrekta kodningsförinställningen används automatiskt på videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för den video som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
+  Med det här alternativet kan du skapa adaptiva videouppsättningar. Den korrekta kodningsförinställningen används automatiskt för videon, oavsett om den är 16:9 eller 4:3, för att matcha dimensionerna för videon som du överförde. När du skickar ditt överföringsjobb skapas automatiskt en adaptiv videouppsättning som innehåller tre videoinställningar med rätt proportioner.
 
-  Eller expandera **[!UICONTROL Single Encoding Presets]** under **[!UICONTROL EVideo Options]** i samma **[!UICONTROL Job Options]**-dialogruta. Välj de enskilda förinställningar för videokodning som du vill använda. Du kan välja **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** om du vill skapa MP4-filer.
+  Eller expandera **[!UICONTROL Job Options]** under **[!UICONTROL EVideo Options]** i samma **[!UICONTROL Single Encoding Presets]**-dialogruta. Välj de enskilda förinställningar för videokodning som du vill använda. Du kan välja **Skrivbord**, **Mobil (iPhone, iPad, Android™)** och **Surfplatta (iPad, Android™)** om du vill skapa MP4-filer.
 
 * Du kan också bearbeta om en primär video med funktionen **[!UICONTROL Reprocessing]**. De nykodade videoklippen läggs till i den befintliga adaptiva videouppsättningen.
 
@@ -114,13 +114,13 @@ Om ytterligare anpassningar behövs kan dock administratörerna skapa videoföri
 
 Se [Arbeta med förinställningar för videokodning](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-## 2. Förhandsgranska videoklipp i ett videovisningsprogram
+## &#x200B;2. Förhandsgranska videoklipp i ett videovisningsprogram
 
 Om du vill se hur en video spelas upp för slutanvändare på en dator, på din webbplats eller på en mobil enhet väljer du videon på panelen Bläddra. Välj sedan **[!UICONTROL Preview]**.
 
 Se [Förhandsgranska videoklipp i ett videovisningsprogram](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
-Du kan spela upp videon på förhandsgranskningssidan. Du kan också välja olika videovisningsprogram för att ta reda på hur videon visas i olika spelare. Det bästa sättet är att använda videospelaren HTML5 för uppspelning på datorer, surfplattor och mobila enheter.
+Du kan spela upp videon på förhandsgranskningssidan. Du kan också välja olika videovisningsprogram för att ta reda på hur videon visas i olika spelare. Ett tips är att använda videospelaren i HTML5 för uppspelning på datorer, surfplattor och mobila enheter.
 
 **Valfritt**
 
@@ -128,9 +128,9 @@ Anpassning av visningsförinställningar: Adobe Dynamic Media Classic har förde
 
 Se [Arbeta med förinställningar för visningsprogram för video](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [Videoförinställningar](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS).
 
-## 3. Lägg ut videor på webbplatser och mobilsajter
+## &#x200B;3. Lägg ut videor på webbplatser och mobilsajter
 
 Om du vill integrera video på webbplatsen kan du göra något av följande:
 
@@ -138,7 +138,7 @@ Om du vill integrera video på webbplatsen kan du göra något av följande:
 
   Om du vill hämta URL-adressen för en video markerar du den i stödrastervyn eller listvyn på panelen Bläddra. Välj **[!UICONTROL Preview]** och välj sedan **[!UICONTROL Copy URL]** till höger om `Universal_HTML5_Viewer`.
 
-  När du väljer **[!UICONTROL Copy URL]** kopieras URL:en till Urklipp. Placera den här koden HTML på din webbplats, mobilwebbplats eller i ditt program.
+  När du väljer **[!UICONTROL Copy URL]** kopieras URL:en till Urklipp. Placera den här koden i HTML för din webbplats, mobilwebbplats eller tillämpning.
 
   >[!NOTE]
   >

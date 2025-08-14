@@ -21,11 +21,11 @@ ht-degree: 0%
 
 Du kan använda Adobe Analytics Instrumentation Kit för att integrera ett HTML5-visningsprogram med Adobe Analytics.
 
-Om du använder någon av de fördefinierade Adobe Dynamic Media Classic HTML5-visningsförinställningarna innehåller de redan all implementeringskod som skickas data till Adobe Analytics. Du behöver inte lägga till fler instrument.
+Om du använder någon av de fördefinierade Adobe Dynamic Media Classic HTML5 Viewer Presets innehåller de redan all implementeringskod som behövs för att skicka data till Adobe Analytics. Du behöver inte lägga till fler instrument.
 
 ## Ställ in Adobe Analytics tracking från Adobe Dynamic Media Classic {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-För alla visningsprogram för HTML5 lägger du till följande JavaScript i behållaren HTML, vanligtvis i elementet &lt;head>:
+För alla HTML5-visningsprogram lägger du till följande JavaScript i HTML-behållaren, vanligtvis i &lt;head>-elementet:
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
@@ -35,7 +35,7 @@ Där `Adobe Dynamic Media Classic Company ID` är inställt på Adobe Dynamic Me
 
 Nu kan du lägga till en funktion som skickar visningsprogramhändelsen till spårningskoden för Adobe Analytics.
 
-Lägg till funktionen `s7ComponentEvent()` i behållaren HTML (eller JSP, eller ASPX eller någon annan):
+Lägg till funktionen `s7ComponentEvent()` i behållaren HTML (eller JSP, eller ASPX eller något annat):
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }

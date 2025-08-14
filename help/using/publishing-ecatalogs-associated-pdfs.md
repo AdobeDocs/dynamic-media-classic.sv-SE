@@ -1,6 +1,6 @@
 ---
-title: Publish eCatalogs och tillhörande PDF
-description: Lär dig hur du publicerar e-kataloger och tillhörande PDF från Adobe Dynamic Media Classic.
+title: Publicera e-kataloger och tillhörande PDF-filer
+description: Lär dig publicera e-kataloger och tillhörande PDF-filer från Adobe Dynamic Media Classic.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,24 +17,24 @@ ht-degree: 0%
 
 ---
 
-# Publish eCatalogs och tillhörande PDF{#publishing-ecatalogs-and-associated-pdfs}
+# Publicera e-kataloger och tillhörande PDF-filer{#publishing-ecatalogs-and-associated-pdfs}
 
-När du publicerar placeras din e-katalog och PDF på Dynamic Media bildservrar så att den kan göras tillgänglig för din webbplats eller ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen. Du kan placera den här URL-strängen i HTML webbsideskoden.
+När du publicerar placeras din e-katalog och PDF på dynamiska mediabaservrar så att de kan göras tillgängliga för din webbplats eller ditt program. Under publiceringsprocessen aktiverar Adobe Dynamic Media Classic URL-strängen. Du kan placera den här URL-strängen i HTML webbsideskod.
 
 >[!NOTE]
 >
 >Se till att din e-katalog och PDF finns i samma mapp. Kontrollera att de är markerade för publicering på panelen Bläddra eller sidan Resursinformation innan du publicerar dem.
 
-**Så här publicerar du e-kataloger och associerade PDF:**
+**Så här publicerar du e-kataloger och associerade PDF-filer:**
 
 1. Välj **[!UICONTROL Publish]** i fältet Global navigering.
 1. På publiceringsskärmen väljer du **[!UICONTROL One-Time]** eller **[!UICONTROL Recurring]**.
 1. (Valfritt) I fältet Jobbnamn anger du ett namn för publiceringsjobbet, men behåller den fördefinierade texten för datum och tid.
 
-   Om du har konfigurerat din e-katalog så att tittarna kan göra nyckelordssökningar kontrollerar du att nyckelordsdata är publicerade. Välj **[!UICONTROL Advanced]** i dialogrutan Publicera. Välj **[!UICONTROL Full w/ Search Data]** i listrutan **[!UICONTROL Publish]**. Det här alternativet är markerat som standard.
+   Om du har konfigurerat din e-katalog så att tittarna kan göra nyckelordssökningar kontrollerar du att nyckelordsdata är publicerade. Välj **[!UICONTROL Advanced]** i dialogrutan Publicera. Välj **[!UICONTROL Publish]** i listrutan **[!UICONTROL Full w/ Search Data]**. Det här alternativet är markerat som standard.
 
 1. Välj **[!UICONTROL Submit Publish]**.
 
 >[!MORELIKETHIS]
 >
->* [Publish-filer](publishing-files.md)
+>* [Publicera filer](publishing-files.md)

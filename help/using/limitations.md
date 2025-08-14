@@ -1,5 +1,5 @@
 ---
-title: Dynamic Media begränsningar
+title: Begränsningar för dynamiska media
 description: Lär dig mer om de effektivaste strategierna och de tvingande gränserna när du skapar en bilduppsättning eller en snurruppsättning, eller överför en PDF. Läs också om webbläsarkombinationer och operativsystemkombinationer som inte stöds för Dynamic Media.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,18 +17,18 @@ ht-degree: 1%
 
 ---
 
-# Dynamic Media-begränsningar
+# Dynamiska mediebegränsningar
 
 I följande avsnitt beskrivs begränsningar i Dynamic Media.
 
 Det här avsnittet innehåller följande avsnitt:
 
-* [Dynamic Media bästa praxis och tvingande begränsningar för tillgångstyper](#best-practice-enforced-limits)
+* [Bästa praxis och tvingande begränsningar av resurstyper från Dynamic Media](#best-practice-enforced-limits)
 * [Webbläsare och operativsystem som inte stöds för Dynamic Media](#unsupported-browser-os)
 
-## Dynamic Media bästa praxis och tvingande begränsningar för tillgångstyper {#best-practice-enforced-limits}
+## Bästa praxis och tvingande begränsningar av resurstyper från Dynamic Media {#best-practice-enforced-limits}
 
-När du skapar en snurra uppsättning eller en bilduppsättning, eller överför PDF för sidextrahering, rekommenderar Adobe följande metodtips. Adobe tillämpar även följande begränsningar:
+När du skapar en snurruppsättning eller en bilduppsättning, eller överför PDF-filer för sidextrahering, rekommenderar Adobe följande metodtips. Adobe tillämpar även följande begränsningar:
 
 | Tillgång: Begränsningstyp | Bästa praxis | Begränsning har införts |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ När du skapar en snurra uppsättning eller en bilduppsättning, eller överför
 | **Alla uppsättningar**: Antal dubblettresurser per uppsättning | Inga dubbletter | 20‡ |
 | **Alla uppsättningar**: Maximalt antal resurser per uppsättning | 5-10 bilder per uppsättning | 1000 |
 | **Snurra uppsättning**: Maximalt antal rader/kolumner per 2D-uppsättning | 12-18 bilder per uppsättning | 1000 |
-| **PDF**: Maximalt antal sidor för en PDF som ska tas i beaktande för extrahering |  | 100 (för alla PDF) |
+| **PDF**: Maximalt antal sidor för en PDF som ska användas för extrahering |  | 100 (för alla PDF-filer) |
 
 ‡ Bästa praxis är att inte ha duplicerade resurser i en uppsättning. Gränsen är 20 kopior för en enskild resurs. Om du lägger till ytterligare en dubblett för den resursen, inom den uppsättningen, returnerar begäran ett fel eller ignorerar dubbletten.
 
@@ -63,7 +63,7 @@ Adobe Dynamic Media stöder inte följande kombinationer av webbläsare och oper
 <!-- CQDOC-19433 (original ticket)
 and CQDOC-19792 (removed as per this ticket December 5, 2022) -->
 
-Från och med den 30 april 2024 upphör Adobe Dynamic Media med stödet för följande:
+Från och med 30 april 2024 upphör stödet för Adobe Dynamic Media för följande:
 
 * SSL (Secure Socket Layer) 2.0
 * SSL 3.0

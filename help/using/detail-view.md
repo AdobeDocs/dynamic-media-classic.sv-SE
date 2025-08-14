@@ -86,7 +86,7 @@ Tabellen visar vilka andra alternativ som är tillgängliga med olika typer av r
 | ICC-profiler | Redigera profilinformation | Nej |
 | Illustrator-filer | Nej (om det inte konverterats till FXG) | Nej |
 | Bilduppsättningar | Redigera | Ja |
-| InDesign | Nej (om det inte konverterats till FXG) | Nej |
+| InDesign-filer | Nej (om det inte konverterats till FXG) | Nej |
 | PDF-filer | Nej | Nej |
 | PSD-filer | Ja för enskilda lager | Ja för enskilda lager |
 | Snurra uppsättningar | Redigera | Ja |

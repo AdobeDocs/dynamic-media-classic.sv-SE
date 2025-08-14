@@ -36,7 +36,7 @@ Du kan använda valfri URL för bildförinställning i listan. URL:er för bildf
 
 1. Gå till sidan Detalj för att hämta en kopia-URL från avsnittet URL:er.
 
-Du kan flytta en mall i mallordningen (till exempel högst upp i listan) genom att dra den till dess nya plats. Publish igen för att skicka in den nya ordern.
+Du kan flytta en mall i mallordningen (till exempel högst upp i listan) genom att dra den till dess nya plats. Publicera igen för att skicka den nya ordern.
 
 >[!NOTE]
 >

@@ -31,9 +31,9 @@ Förbered dina zoombilder innan du överför dem för att utnyttja Adobe Dynamic
 
 * **Bildstorlek**: Adobe Dynamic Media Classic rekommenderar att du använder bildfiler som är minst 2 000 pixlar i den längsta storleken. På så sätt syns bilderna tydligt när användarna zoomar dem.
 
-* **Filformat**: Adobe Dynamic Media Classic stöder alla standardbildfilformat. Formaten är TIFF, BMP, JPEG, PSD, GIF och EPS. Förlustfria bildformat - TIFF och PNG - rekommenderas. Om du använder en JPEG-bild bör du använda inställningarna för den högsta kvaliteten.
+* **Filformat**: Adobe Dynamic Media Classic stöder alla standardbildfilformat. Formaten är TIFF, BMP, JPEG, PSD, GIF och EPS. Förlustfria bildformat - TIFF och PNG rekommenderas. Om du använder en JPEG-bild bör du använda inställningarna av högsta kvalitet.
 
-* **Färgrymd**: RGB är färgrymden för webbbildspresentationer. CMYK-bilder konverteras automatiskt till RGB när du överför dem. Vi rekommenderar att du överför CMYK-bilder som har en inbäddad ICC-färgprofil för konvertering till RGB. Se även ICC-profiler.
+* **Färgrymd**: RGB är färgrymden för webbbildspresentationer. CMYK-bilder konverteras automatiskt till RGB när du överför dem. Du bör överföra CMYK-bilder som har en inbäddad ICC-färgprofil för konvertering till RGB. Se även ICC-profiler.
 
 >[!MORELIKETHIS]
 >

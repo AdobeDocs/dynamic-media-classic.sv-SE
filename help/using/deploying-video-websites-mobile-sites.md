@@ -25,24 +25,24 @@ Webbplatser, mobilsajter och datorprogram har åtkomst till Adobe Dynamic Media 
 >
 >URL:en eller inbäddningskoden är inte aktiv förrän du publicerar resursen.
 
-## Publish video {#publishing-video}
+## Publicera video {#publishing-video}
 
 Genom att publicera en video kan Adobe Dynamic Media Classic-servrar leverera video till webbplatser, mobilsajter och applikationer.
 
 Det finns två olika metoder som du kan använda för att publicera video:
 
-* **Publish-videofilmer automatiskt och omedelbart vid överföring**: Som en del av videoöverföringsprocessen kan Adobe Dynamic Media Classic automatiskt publicera videofilmer när de överförs och kodas. Denna möjlighet till omedelbar publicering innebär att man inte behöver publicera videor separat efter detta.
+* **Publicera videoklipp automatiskt och omedelbart vid överföring**: Som en del av videoöverföringen kan Adobe Dynamic Media Classic automatiskt publicera videoklipp när de överförs och kodas. Denna möjlighet till omedelbar publicering innebär att man inte behöver publicera videor separat efter detta.
 
-* **Publish-video manuellt efter överföring**: Om du inte vill publicera videofilmer direkt kan du publicera videofilmer manuellt när du vill.
+* **Publicera video manuellt efter överföring**: Om du inte vill publicera videoklipp direkt kan du publicera videoklipp manuellt när du vill.
 
-När du har publicerat videofilmer aktiverar Adobe Dynamic Media Classic URL-strängarna för HTML-sidan eller programkoden.
+När du har publicerat videofilmer aktiverar Adobe Dynamic Media Classic URL-strängarna för din HTML-sida eller programkod.
 
 **Så här publicerar du video:**
 
 1. Gör något av följande:
 
    * Om du vill publicera videoklipp automatiskt och omedelbart vid överföring väljer du **[!UICONTROL Publish after uploading]** på sidan Överför. Du är klar. Det finns inga fler steg att slutföra.
-   * Om du vill publicera videoklipp manuellt efter överföringen markerar du videoklippen på panelen Bläddra och väljer sedan **Publish** på fältet Global navigering.
+   * Om du vill publicera videoklipp manuellt efter överföringen markerar du videoklippen på panelen Bläddra och väljer sedan **Publicera** på fältet Global navigering.
 
 ## Länka en video-URL till en mobilwebbplats eller en webbplats {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -54,7 +54,7 @@ Se även [Bädda in visningsprogrammet på en webbsida](deploying-video-websites
 
 **Så här länkar du en video-URL till en mobilwebbplats eller en webbplats:**
 
-1. Välj **[!UICONTROL Video]** eller **[!UICONTROL Adaptive Video Set]** i den nedrullningsbara listan **[!UICONTROL Show]** på panelen Resursbläddring.
+1. Välj **[!UICONTROL Show]** eller **[!UICONTROL Video]** i den nedrullningsbara listan **[!UICONTROL Adaptive Video Set]** på panelen Resursbläddring.
 1. navigera till resursmappen som innehåller den video- eller adaptiva videouppsättning som du vill länka i resurspanelen till vänster.
 1. Gör något av följande ovanför panelen Resurssökning, till höger i verktygsfältet:
 
@@ -71,7 +71,7 @@ Se även [Bädda in visningsprogrammet på en webbsida](deploying-video-websites
 
      Välj **[!UICONTROL Copy URL]** under åtgärdskolumnen i tabellen på sidan Visningsprogramlista. Det är en god idé att kopiera den URL som är associerad med `Universal_HTML5_Video`-visningsprogrammet.
 
-1. Klistra in HTML5-videons URL-länk på din webbplats och mobilwebbplats.
+1. Klistra in HTML5 video-URL-länken på din webbplats och på din mobila webbplats.
 
 ## Bädda in videovisningsprogrammet på en webbsida {#embedding-the-video-viewer-on-a-web-page}
 
@@ -105,9 +105,9 @@ Se även [Länka en video-URL till en mobilwebbplats eller en webbplats](deployi
 1. välj **[!UICONTROL Close]**.
 1. Klistra in inbäddad kod på dina webbsidor.
 
-### Implementera inbäddningskod för att använda HTML 5-video med MP4-videoresurser {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### Implementera inbäddningskod för att använda HTML5-video med MP4-videomaterial {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Du kanske inte vill använda videospelaren Adobe Dynamic Media Classic HTML 5. Om du i stället vill använda den inbyggda HTML5 `<video>`-taggen med MP4-videoresurser kan du använda följande Embed Code-exempel:
+Du kanske inte vill använda videospelaren i Adobe Dynamic Media Classic HTML 5. Om du i stället vill använda den inbyggda HTML5 `<video>`-taggen med MP4-videoresurser kan du använda följande Embed Code-exempel:
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -138,20 +138,20 @@ Om du använder videospelare från tredje part eller en anpassad videospelare i 
 1. I Adobe Dynamic Media Classic går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]** i fältet Global Navigation.
 1. Beroende på vilken typ av URL som du vill använda gör du något av följande:
 
-* Generera en URL för direktuppspelad HLS-video (flerbithastighet)
+* Generera en direktuppspelad video-URL för HLS (flerbithastighet)
 
   Skapa den direkta URL:en på sidan **[!UICONTROL Application General Settings]** i gruppen **[!UICONTROL Servers]** i textfältet **[!UICONTROL Published Server Name]**. Använd följande syntax: `server/is/content/company/folder/filename.m3u8`
 
   Anta till exempel att namnet på den publicerade servern är `https://s7d9.scene7.com/.` Om du använder syntaxen i steg 2 kan den direkta URL:en se ut så här:
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
-* Generera en URL för direktuppspelad HLS-video (enkelbithastighet)
+* Generera en direktsänd HLS-URL för direktuppspelad video (enbithastighet)
 
   På sidan **[!UICONTROL Application General Settings]** i gruppen **[!UICONTROL Servers]** i textfältet **[!UICONTROL HLS Streaming Server Name]** konstruerar du den direkta URL:en med följande syntax:
 
   `server/company/folder/filename.ext.m3u8`
 
-  Anta till exempel att namnet på servern för HLS-direktuppspelning är `https://s7mbrstream.scene7.com/hls-vod/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
+  Anta till exempel att namnet på HLS direktuppspelningsserver är `https://s7mbrstream.scene7.com/hls-vod/`. Med syntaxen i steg 2 kan den direkta URL:en se ut så här:
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * Generera en URL för direkt progressiv video
@@ -175,7 +175,7 @@ Adobe Dynamic Media Classic genererar videominiatyrer automatiskt under överfö
 
 Utför en publiceringsåtgärd för att generera URL:er för videominiatyrer.
 
-Se [Publish-video](deploying-video-websites-mobile-sites.md#publishing_video).
+Se [Publicera video](deploying-video-websites-mobile-sites.md#publishing_video).
 
 Efter publiceringen kan du hämta URL:er för videominiatyrbilder i detaljvyn på panelen URL:er och Bädda in kod. Välj **[!UICONTROL Copy URL]** till höger om videominiatyrbilden så att du kan kopiera den associerade URL:en.
 
@@ -187,10 +187,10 @@ Du kan använda bildmodifieringar i affischbildrutan. Du kan till exempel beskä
 
 Se [Lägg till eller redigera en förinställning för visningsprogram för video](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-Se [Guiden Skapa bild](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
+Se [Guiden Skapa bild](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 Du kan också ändra videominiatyrbilder genom att lägga till modifierare till URL:er för videominiatyrbilder.
 
 >[!MORELIKETHIS]
 >
->* [Publish-filer](publishing-files.md#publishing_files)
+>* [Publicera filer](publishing-files.md#publishing_files)

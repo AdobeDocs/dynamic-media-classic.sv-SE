@@ -1,6 +1,6 @@
 ---
-title: Publish Setup
-description: Med inställningarna i Publish kan du bestämma hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program.
+title: Publiceringsinställningar
+description: Med inställningarna för publiceringsinställningar kan du bestämma hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ---
 
-# Publish Setup {#publish-setup}
+# Publiceringsinställningar {#publish-setup}
 
-Inställningarna på sidan Konfigurera i Publish avgör hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program. Om ingen inställning anges skickar Adobe Dynamic Media Classic-servern en resurs enligt standardinställningen på en Publish-inställningssida. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på sidan Bildserver.
+Inställningarna på sidan Publiceringsinställningar avgör hur resurser levereras som standard från Adobe Dynamic Media Classic-servrar till webbplatser eller program. Om ingen inställning har angetts levererar Adobe Dynamic Media Classic-servern en resurs enligt en standardinställning på en publiceringsinställningssida. En begäran om att leverera en bild som inte innehåller ett upplösningsattribut ger till exempel en bild med inställningen för standardobjektupplösning på sidan Bildserver.
 
 Administratörer kan ändra standardinställningarna på sidorna Image Server, Image Renderer och Vinjettering för att skapa standardinställningar för att leverera resurser från servrar.
 
-Om du vill öppna sidorna i installationsprogrammet för Publish går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
+Öppna sidorna i Publiceringsinställningar genom att gå till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]**.
 
 >[!NOTE]
 >
->Publish installationssidor är till för erfarna webbplatsutvecklare och programmerare. Adobe Dynamic Media Classic förutsätter att användare som ändrar inställningar på dessa sidor känner till Adobe Dynamic Media Classic, HTTP-protokollets standarder och konventioner samt grundläggande bildbehandlingsteknik.
+>Publiceringsinstallationssidorna är till för erfarna webbplatsutvecklare och programmerare. Adobe Dynamic Media Classic förutsätter att användare som ändrar inställningar på dessa sidor känner till Adobe Dynamic Media Classic, HTTP-protokollets standarder och konventioner samt grundläggande bildbehandlingsteknik.
 
 ## Bildserver {#image-server}
 
@@ -53,7 +53,7 @@ Sidan Image Server används för att ange standardinställningar för att levere
   Om du till exempel är ett flernationellt varumärke som säljer i olika länder kan du se till att varje land har ett eget språkspecifikt visningsprogram. Om du vill använda den här funktionen anger du en sträng för språkområdeskarta. Därefter redigerar du verktygstipstexten i en visningsprogramförinställning. Lägg bara till de översatta textsträngarna för det språk du vill ha.
 
   >[!NOTE]
-  > [Använd Admin Console för att skapa ett supportärende om du vill ställa in alternativ för lokaliseringsstöd.](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med installationen.
+  > [Använd Admin Console för att skapa ett supportärende om du vill konfigurera supportalternativ för lokalisering.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med installationen.
 
   Mer information om hur du konfigurerar **[!UICONTROL Localization Support]** finns i [Att tänka på när du konfigurerar lokalisering av resurser](publish-setup.md#considerations_when_setting_up_localization_of_assets).
 
@@ -61,7 +61,7 @@ Sidan Image Server används för att ange standardinställningar för att levere
 
 >[!NOTE]
 >
->Om du vill ställa in alternativ för lokaliseringsstöd i Adobe Dynamic Media Classic, t.ex. fältet för språkområdet, [använder du Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/se/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med installationen.
+>Om du vill ställa in alternativ för lokaliseringsstöd i Adobe Dynamic Media Classic, t.ex. fältet Lokalkarta, [använder du Admin Console för att skapa ett supportärende.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) I ditt supportärende, begär du hjälp med installationen.
 
 Ett vanligt sätt att använda Adobe Dynamic Media Classic är att hantera produktbilder på webbplatser med e-Commerce. Internationella företag står inför utmaningen att resurser för liknande produkter ser annorlunda ut från land till land. Oftast gäller skillnaderna några delar av det totala mediet. Att hantera sådana skillnader genom att kopiera alla tillgångar för vart och ett av länderna och skriva över endast skillnaderna är en stor insats och motsäger den enda primära tillgångsmetaforen. Skillnaderna i resurser kan uppstå, från landspecifika videor med olika ljudspår, till subtila men viktiga skillnader i en strömsladd som används med produkten. Adobe Dynamic Media Classic använder en grundläggande sökfunktion. Du definierar i vilken ordning som resurssuffixen som Image Server söker efter, med utgångspunkt i önskad språkinställning.
 

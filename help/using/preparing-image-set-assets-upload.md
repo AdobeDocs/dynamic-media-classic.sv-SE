@@ -23,7 +23,7 @@ Innan du överför de bilder du behöver för bilduppsättningar till Adobe Dyna
 
 Om du vill skapa en bilduppsättning med flera vyer behöver du bilder som visar ett objekt från olika vypunkter eller visar olika aspekter av samma objekt. Målet är att framhäva de viktiga funktionerna i ett objekt så att läsarna får en fullständig bild av hur det ser ut eller gör.
 
-Eftersom användare kan zooma bilder i bilduppsättningar bör du se till att bilderna har minst 2 000 pixlar i den största dimensionen. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria bilder i TIFF, PNG och EPS rekommenderas.
+Eftersom användare kan zooma bilder i bilduppsättningar bör du se till att bilderna har minst 2 000 pixlar i den största dimensionen. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF-, PNG- och EPS-bilder rekommenderas.
 
 Detaljerade instruktioner om hur du överför resurser finns i [Överför filer](uploading-files.md#uploading_files).
 

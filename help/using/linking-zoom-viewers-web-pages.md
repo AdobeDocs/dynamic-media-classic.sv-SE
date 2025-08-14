@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Länka zoomningsvisningsprogram till dina webbsidor{#linking-zoom-viewers-to-your-web-pages}
 
-Dina webbplatser och program får åtkomst till Dynamic Media Image Server-innehåll via URL-strängar eller inbäddad kod. Den åtkomsten inkluderar primära bilder och associerade zoommål. Det innehåller även förinställningar för Zoom Viewer. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Adobe Dynamic Media Classic.
+Dina webbplatser och program får åtkomst till innehåll från Dynamic Media Image Server via URL-strängar eller inbäddad kod. Den åtkomsten inkluderar primära bilder och associerade zoommål. Det innehåller även förinställningar för Zoom Viewer. Dessa URL-strängar aktiveras under publiceringsprocessen. Om du vill placera dessa URL-strängar eller den inbäddade koden på dina webbsidor och i dina program kopierar du dem från Adobe Dynamic Media Classic.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Dina webbplatser och program får åtkomst till Dynamic Media Image Server-inneh
 
 Vanligtvis zoomar besökarna bilder på en webbplats genom att först välja en zoomningsikon (ofta visas bilden av ett förstoringsglas). Om du väljer den här ikonen öppnas en dynamisk webbsida (ASP eller JSP) som visar bilden i ett popup-fönster. I popup-fönstret kan besökarna zooma in bilden.
 
-Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i referenshandboken för visningsprogram för Adobe](https://experienceleague.adobe.com/sv/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
+Mer information och kodexempel finns i [Bädda in HTML5 Basic Zoom Viewer i referenshandboken för Adobe Viewer](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## Kopiera den inbäddade kopian av ett Zoom-visningsprogram {#copying-the-embed-copy-of-a-zoom-viewer}
 

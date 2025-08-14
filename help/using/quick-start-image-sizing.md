@@ -27,25 +27,25 @@ Bildstorlek avser möjligheten för Adobe Dynamic Media Classic att skapa flera 
 
 ![Du kan skapa flera härledda bilder i en annan storlek än samma högupplösta primära fil.](/help/using/assets/is_derivative_sizes_popup.png)
 
-Se [Bildstorlek: utbildningsvideon Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS).
+Se [Bildstorlek: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) utbildningsvideo.
 
 Följande snabbstart för bildstorlekar är utformad för att hjälpa dig att komma igång snabbt med tekniker för bildstorlek i Adobe Dynamic Media Classic. Följ steg 1-5. Efter varje steg finns det en korsreferens där du kan hitta mer information om det behövs.
 
-## 1. Överför primära bilder
+## &#x200B;1. Överför primära bilder
 
 Börja med att ladda upp dina primära bilder till Adobe Dynamic Media Classic. När det gäller storlek rekommenderar Adobe Dynamic Media Classic att du använder bilder som är så stora som du förväntar dig på din webbplats eller i ditt program. Om du till exempel vill att tittarna ska zooma bilder överför du bilder som är minst 2 000 pixlar stora. Adobe Dynamic Media Classic har stöd för många bildfilsformat, men förlustfria TIFF- och PNG-bilder rekommenderas.
 
 I fältet Global navigering väljer du **[!UICONTROL Upload]** om du vill överföra filer från datorn till en mapp på Adobe Dynamic Media Classic. Se [Överför primära bilder](uploading-master-images.md#uploading_master_images).
 
-## 2. Konfigurera bildförinställningar
+## &#x200B;2. Konfigurera bildförinställningar
 
-Precis som ett makro är en bildförinställning en samling fördefinierade storlekar och formateringskommandon som sparas under ett namn. En bildförinställning styr storleken och formateringen som bilder levereras med från Dynamic Media bildservrar. Du kan konfigurera bildförinställningar på egen hand om du har företagsadministratörsstatus. Du kan leverera bilder dynamiskt med de förinställda standardbilderna som redan finns i Adobe Dynamic Media Classic.
+Precis som ett makro är en bildförinställning en samling fördefinierade storlekar och formateringskommandon som sparas under ett namn. En bildförinställning styr storleken och formateringen som bilder levereras med från dynamiska mediabildsservrar. Du kan konfigurera bildförinställningar på egen hand om du har företagsadministratörsstatus. Du kan leverera bilder dynamiskt med de förinställda standardbilderna som redan finns i Adobe Dynamic Media Classic.
 
 Om du vill skapa en bildförinställning (om du är administratör) går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Image Presets]** i fältet Global navigering. Välj sedan **[!UICONTROL Add]** om du vill skapa en bildförinställning eller **[!UICONTROL Edit]** om du vill ändra en befintlig bildförinställning.
 
 Den bildförinställning du skapar läggs till på menyn Bildförinställning på sidan Förhandsvisa. Du kan använda den nya bildförinställningen till att visa bilder dynamiskt på webbplatser och i program. Se [Konfigurera bildförinställningar](setting-image-presets.md#setting_up_image_presets).
 
-## 3. Förhandsvisa bildförinställningar
+## &#x200B;3. Förhandsvisa bildförinställningar
 
 Nästa steg är att förhandsvisa de bildförinställningar som administratören har ställt in med olika förinställda storlekar.
 
@@ -55,17 +55,17 @@ Experimentera med olika bildförinställningar. Ta reda på hur bilden ser ut n�
 
 Se [Förhandsvisa en bildresurs baserat på bildförinställningen](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset).
 
-## 4. Publish dina primära bilder
+## &#x200B;4. Publicera dina primära bilder
 
 Publicera dina primära bildfiler för två viktiga syften:
 
-* Publicera dina primära bilder på Dynamic Media Image Servers så att bilderna dynamiskt kan levereras till er webbplats och tillämpning.
-* När du publicerar aktiveras URL-strängarna för att anropa bilder från Dynamic Media Image Servers till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera URL:er som genererats av Adobe Dynamic Media Classic där det behövs på din webbplats eller i ditt program.
+* Publicera dina primära bilder på dynamiska mediabaservrar så att bilderna dynamiskt kan levereras till din webbplats och ditt program.
+* När du publicerar aktiveras URL-strängarna för att anropa bilder från dynamiska mediabildsservrar till din webbplats eller ditt program. Efter publiceringen kan du kopiera och placera URL:er som genererats av Adobe Dynamic Media Classic där det behövs på din webbplats eller i ditt program.
 
-Välj **[!UICONTROL Publish]** i fältet Global navigering för att starta ett publiceringsjobb. Välj **[!UICONTROL Submit Publish]** i dialogrutan Publicera. Se [Publish primära bilder](publishing-master-images.md#publishing_master_images).
+Välj **[!UICONTROL Publish]** i fältet Global navigering för att starta ett publiceringsjobb. Välj **[!UICONTROL Submit Publish]** i dialogrutan Publicera. Se [Publicera primära bilder](publishing-master-images.md#publishing_master_images).
 
-## 5. Länka URL:er till webbprogrammet
+## &#x200B;5. Länka URL:er till webbprogrammet
 
-Adobe Dynamic Media Classic skapar URL-bildtextsträngar för bilder. När du publicerar bilder till Dynamic Media Image Servers (Image-servrar) aktiveras URL:erna. Du kan kopiera dessa URL-strängar från panelen Bläddra (i detaljvyn) eller förhandsgranskningsskärmen. När du har kopierat URL-strängarna kan du använda dem på din webbplats och i dina program. URL:en för bildstorlek ersätter referensen till ett statiskt bildnamn i webbsidans kod. URL:en refererar till ett primärt bildnamn som databasen ersätter för varje ny bild som ska visas.
+Adobe Dynamic Media Classic skapar URL-bildtextsträngar för bilder. När du publicerar bilder till dynamiska mediabildsservrar blir URL-adresserna aktiva. Du kan kopiera dessa URL-strängar från panelen Bläddra (i detaljvyn) eller förhandsgranskningsskärmen. När du har kopierat URL-strängarna kan du använda dem på din webbplats och i dina program. URL:en för bildstorlek ersätter referensen till ett statiskt bildnamn i webbsidans kod. URL:en refererar till ett primärt bildnamn som databasen ersätter för varje ny bild som ska visas.
 
 URL-strängar som skapas med bildförinställningar innehåller namnet på en bildförinställning. Namnet omges av dollartecken (`$`). `$thumbnail$` kan till exempel vara den förinställda bilden som är utformad för att visa primära bilder i miniatyrstorlek. Se [Länka URL:er till ditt webbprogram](linking-urls-web-application.md#linking_urls_to_your_web_application).

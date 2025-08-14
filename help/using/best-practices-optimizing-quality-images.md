@@ -12,7 +12,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -23,35 +23,35 @@ Att optimera bildkvaliteten kan ta lång tid. Många faktorer bidrar till att å
 
 Adobe Dynamic Media Classic innehåller över 100 bildserverkommandon för justering och optimering av bilder och återgivning. Följande riktlinjer kan hjälpa dig att effektivisera processen och uppnå goda resultat snabbt med några viktiga kommandon och bästa metoder.
 
-Se även [Smart bildbehandling](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
+Se även [Smart bildbehandling](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 >[!TIP]
 >
->Prova och upptäck fördelarna med Dynamic Media bildmodifierare och Smart Imaging med Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
+>Testa och upptäck fördelarna med dynamiska mediefärgmodifieringar och smart bildbehandling med Dynamic Media [_Snapshot_](https://snapshot.scene7.com/).
 >
-> Ögonblicksbild är ett visuellt demonstrationsverktyg som är utformat för att illustrera styrkan hos Dynamic Media för optimerad och dynamisk bildleverans. Experimentera med testbilder eller Dynamic Media-URL:er, så att du kan se resultatet av olika bildmodifierare i Dynamic Media och optimera smarta bilder för följande:
+> Ögonblicksbild är ett visuellt demonstrationsverktyg som är utformat för att illustrera kraften i Dynamic Media för optimerad och dynamisk bildleverans. Experimentera med testbilder eller dynamiska medie-URL:er så att du kan se utdata från olika dynamiska mediabildsmodifierare och optimering av smart bildåtergivning för följande:
 >
 >* Filstorlek (med WebP- och AVIF-leverans)
 >* Nätverksbandbredd
 >* DPR (Device Pixel Ratio)
 >
->Om du vill lära dig hur enkelt det är att använda ögonblicksbild kan du spela upp utbildningsvideon [för ögonblicksbild](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minuter och 17 sekunder).
+>Om du vill lära dig hur enkelt det är att använda ögonblicksbild kan du spela upp utbildningsvideon [för ögonblicksbild](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot) (3 minuter och 17 sekunder).
 
 
 ## Bästa tillvägagångssätt för bildformat (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
-* JPG eller PNG är de bästa alternativen för att leverera bilder med god kvalitet och hanterbar storlek och vikt.
-* Om inget formatkommando anges i URL:en används som standard Dynamic Media Image Serving JPG för leverans.
-* JPG komprimerar med förhållandet 10:1 och ger vanligtvis mindre bildfiler. PNG komprimeras med ett förhållande på cirka 2:1, förutom ibland när bilder innehåller en tom bakgrund. Vanligtvis är PNG-filernas storlek större än JPG filer.
+* JPG eller PNG är de bästa sätten att leverera bilder med god kvalitet och hanterbar storlek och vikt.
+* Om inget formatkommando anges i URL:en används JPG som standard för leverans.
+* JPG komprimerar med förhållandet 10:1 och ger vanligtvis mindre bildfiler. PNG komprimeras med ett förhållande på cirka 2:1, förutom ibland när bilder innehåller en tom bakgrund. Vanligtvis är PNG-filer större än JPG-filer.
 * JPG använder förstörande komprimering, vilket innebär att bildelement (pixlar) tas bort under komprimeringen. PNG använder däremot förlustfri komprimering.
-* JPG komprimerar ofta foton med bättre återgivning än syntetiska bilder med skarpa kanter och kontrast.
-* Om dina bilder innehåller genomskinlighet använder du PNG eftersom JPG inte stöder genomskinlighet.
+* JPG komprimerar ofta fotografiska bilder med bättre återgivning än syntetiska bilder med skarpa kanter och kontrast.
+* Om dina bilder innehåller genomskinlighet bör du använda PNG eftersom JPG inte stöder genomskinlighet.
 
 Ett tips för bildformat är att börja med den vanligaste inställningen `&fmt=JPG`.
 
 ## Bästa tillvägagångssätt för bildstorlek {#best-practices-for-image-size}
 
-Att minska bildstorleken dynamiskt är en av de vanligaste uppgifterna som Dynamic Media Image Serving utför. Det handlar om att ange storleken och, om så önskas, vilket nedsamplingsläge som används för att nedskala bilden.
+Att minska bildstorleken dynamiskt är en av de vanligaste åtgärderna som Dynamic Media Image Serving utför. Det handlar om att ange storleken och, om så önskas, vilket nedsamplingsläge som används för att nedskala bilden.
 
 * För storleksändring av bilder är det bästa och enklaste sättet att använda `&wid=<value>` och `&hei=<value>` eller bara `&hei=<value>`. Dessa parametrar ställer automatiskt in bildbredden i enlighet med proportionerna.
 * `&resMode=<value>` styr den algoritm som används för nedsampling. Börja med `&resMode=sharp2`. Det här värdet ger den bästa bildkvaliteten. Nedsamplingsvärdet `=bilin` är snabbare men resulterar ofta i aliasing av artefakter.
@@ -99,27 +99,27 @@ Ett tips är att börja med parametern unsharp mask radius. Radie-inställningar
 
 Lämna den monokroma parameterinställningen på 0.
 
-## Bästa tillvägagångssätt för komprimering av JPEG (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
+## Metodtips för JPEG-komprimering (`&qlt=`) {#best-practices-for-jpeg-compression-qlt}
 
-* Den här parametern styr JPG kodningskvaliteten. Ett högre värde innebär en bild med högre kvalitet men en stor filstorlek. Ett lägre värde innebär en bild med lägre kvalitet men mindre filstorlek. Intervallet för parametern är 0-100.
+* Den här parametern styr kodningskvaliteten i JPG. Ett högre värde innebär en bild med högre kvalitet men en stor filstorlek. Ett lägre värde innebär en bild med lägre kvalitet men mindre filstorlek. Intervallet för parametern är 0-100.
 * Om du vill optimera kvaliteten ska du inte ange parametervärdet 100. Skillnaden mellan en inställning på 90 eller 95 och 100 är nästan osynlig. Men 100 ökar storleken på bildfilen i onödan. Om du vill optimera för kvaliteten men undvika att bildfilerna blir för stora anger du därför värdet `qlt=` till 90 eller 95.
 * Om du vill optimera för en liten bildfilsstorlek men behålla bildkvaliteten på en acceptabel nivå, anger du värdet `qlt=` till 80. Värden under 70 till 75 ger en signifikant försämring av bildkvaliteten.
 * För att vara i mitten bör du ange värdet `qlt=` till 85 så att det ligger kvar i mitten.
 * Använda kroma-flaggan i `qlt=`
 
    * Parametern `qlt=` har en andra inställning som gör att du kan aktivera nedsampling av färgvärden i RGB med det normala värdet `,0` (standard) eller inaktivera den med värdet `,1`.
-   * Om du vill göra det enkelt kan du börja med att nedsampling av färgförändringar i RGB är inaktiverat ( `,1`). Den här inställningen ger vanligtvis bättre bildkvalitet, särskilt för syntetiska bilder med många skarpa kanter och kontrast.
+   * Börja med att RGB nedsampling av kromaticitet är inaktiverat ( `,1`) för att göra det enkelt. Den här inställningen ger vanligtvis bättre bildkvalitet, särskilt för syntetiska bilder med många skarpa kanter och kontrast.
 
-Använd `&qlt=85,0` som bästa praxis för komprimering JPG.
+`&qlt=85,0` bör användas som en bra metod för JPG-komprimering.
 
-## Bästa tillvägagångssätt för storleksändring av JPEG (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
+## Metodtips för JPEG-storleksändring (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 Parametern `jpegSize` är användbar om du vill garantera att en bild inte överskrider en viss storlek för leverans till enheter som har begränsat minne.
 
 * Den här parametern anges i kilobyte ( `jpegSize=<size_in_kilobytes>`). Det definierar den största tillåtna storleken för bildleverans.
-* `&jpegSize=` interagerar med JPG komprimeringsparametern `&qlt=`. Om JPG svar med den angivna JPG-komprimeringsparametern ( `&qlt=`) inte överskrider värdet `jpegSize` returneras bilden med `&qlt=` enligt definitionen. Annars minskas `&qlt=` gradvis tills bilden får plats i den högsta tillåtna storleken. Eller tills systemet avgör att det inte får plats och returnerar ett fel.
+* `&jpegSize=` interagerar med JPG-komprimeringsparametern `&qlt=`. Om JPG-svaret med den angivna JPG-komprimeringsparametern ( `&qlt=`) inte överskrider värdet `jpegSize` returneras bilden med `&qlt=` enligt definitionen. Annars minskas `&qlt=` gradvis tills bilden får plats i den högsta tillåtna storleken. Eller tills systemet avgör att det inte får plats och returnerar ett fel.
 
-Det bästa är att ange `&jpegSize=` och lägga till parametern `&qlt=` om du levererar JPG-bilder till enheter med begränsat minne.
+Det bästa sättet är att ange `&jpegSize=` och lägga till parametern `&qlt=` om du levererar JPG-bilder till enheter med begränsat minne.
 
 ## Sammanfattning av bästa praxis {#best-practices-summary}
 
@@ -136,5 +136,5 @@ Om skärpeeffekten fortfarande inte är tillräcklig ökar du radien i decimalst
 Följande allmänna förslag är användbara när du experimenterar för att optimera arbetsflödet:
 
 * Testa och testa olika parametrar i realtid, antingen direkt på en webbadress eller med Adobe Dynamic Media Classic bildjusteringsfunktioner. Den senare ger förhandsvisningar i realtid för justeringsåtgärder.
-* Det är en god vana att gruppera Dynamic Media Image Serving-kommandon i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg anropar de här förinställningarna. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
+* Det är en god vana att gruppera kommandona Dynamic Media Image Serving i en bildförinställning. En bildförinställning är i princip URL-kommandomakron med anpassade förinställningsnamn som `$thumb_low$` och `&product_high$`. Det anpassade förinställningsnamnet i en URL-sökväg anropar de här förinställningarna. Den här funktionen hjälper dig att hantera kommandon och kvalitetsinställningar för olika användningsmönster för bilder på webbplatsen och förkortar den totala längden på URL-adresser.
 * Adobe Dynamic Media Classic har också mer avancerade sätt att finjustera bildkvaliteten, t.ex. genom att tillämpa bildskärpa vid intag. För avancerade användningsområden där ytterligare justering och optimering av återgivna resultat är ett alternativ kan Adobe Professional Services hjälpa dig med anpassade insikter och bästa metoder.

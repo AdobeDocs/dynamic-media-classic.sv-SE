@@ -25,7 +25,7 @@ Se [Konfigurera standardvisningsprogram](application-setup.md#configuring_defaul
 
 Om du förhandsgranskar en mallresurs med parameterlager kan du ändra parametrar eller ändra bildförinställningen. Eftersom ändringarna infogas kan du visa resultatet direkt från samma förhandsgranskningsfönster.
 
-Se även [Exempel på referensbibliotek för visningsprogram i Adobe](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+Se även [Exempel på referensbibliotek för Adobe-visningsprogram](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **Så här förhandsgranskar du en resurs:**
 

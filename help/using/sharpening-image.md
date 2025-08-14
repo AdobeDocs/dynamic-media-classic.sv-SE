@@ -29,7 +29,7 @@ Oavsett om du använder bildförinställningar och visningsförinställningar, e
 
 >[!NOTE]
 >
->Kommandona Skärpa åsidosätter inställningarna för bildförinställningar, inklusive deras skärpeeffekter. En bildförinställning styr storleken och formateringen som bilder levereras med från Dynamic Media bildservrar. Adobe Dynamic Media Classic rekommenderar att du använder bildförinställningar för att leverera alla bilder så att bilderna levereras med en enhetlig storlek och skärpa. När skärpeinställningarna för en enskild bild har ändrats gäller skärpeinställningarna inte längre för bilden. Den levereras utan skärpeinställningar för bildförinställningar.
+>Kommandona Skärpa åsidosätter inställningarna för bildförinställningar, inklusive deras skärpeeffekter. En bildförinställning styr storleken och formateringen som bilder levereras med från dynamiska mediabildsservrar. Adobe Dynamic Media Classic rekommenderar att du använder bildförinställningar för att leverera alla bilder så att bilderna levereras med en enhetlig storlek och skärpa. När skärpeinställningarna för en enskild bild har ändrats gäller skärpeinställningarna inte längre för bilden. Den levereras utan skärpeinställningar för bildförinställningar.
 
 Det är ofta nödvändigt att göra bilder skarpare. Adobe Dynamic Media Classic- och bildservrar erbjuder flera olika skärpealternativ. Det är viktigt att du förstår vad skärpa gör i en bild och hur mycket skärpa du behöver. De flesta bilder behöver skärpa, men mängden som krävs beror på bilden.
 
@@ -41,7 +41,7 @@ Det finns god praxis som du kan följa för att optimera skärpan i dina bilder 
 
 Se [Bästa tillvägagångssätt för att öka skärpan i bilder i Adobe Dynamic Media Classic och på Dynamic Media Image Server](/help/using/assets/s7_sharpening_images.pdf).
 
-Se även utbildningsvideon [Skärpa](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
+Se även utbildningsvideon [Skärpa](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS).
 
 **Så här gör du en bild skarpare:**
 
@@ -58,7 +58,7 @@ I följande tabell visas skärpealternativen för bildservern.
 | Namn | URL Protocol | Värden | Exempel |
 | --- | --- | --- | --- |
 | Enkel skärpa | `op_sharpen` | `0` eller `1` | `op_sharpen=1` |
-| Sampla om läge | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Väljer bilinjär standardinterpolation. Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är ofta märkbara.<br>`bicub`: Väljer bikubisk interpolation. Processorintensivare än `bilin`, men ger skarpare bilder med mindre framträdande aliasartefakter.<br><br>`sharp2`: Väljer en modifierad Lanczos Windows®-funktion som en interpoleringsalgoritm. Den kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad.<br><br>`trilin`: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om sådana finns. Rekommenderas endast när kantutjämning är ett problem. Minskar storleken på JPEG på grund av reducerade högfrekventa data. | `resMode=sharp2` |
+| Sampla om läge | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: Väljer bilinjär standardinterpolation. Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är ofta märkbara.<br>`bicub`: Väljer bikubisk interpolation. Mer CPU-intensivt än `bilin`, men ger skarpare bilder med mindre framträdande aliasartefakter.<br><br>`sharp2`: Väljer en modifierad Lanczos Windows®-funktion som en interpoleringsalgoritm. Den kan ge något tydligare resultat än bikubisk till en högre CPU-kostnad.<br><br>`trilin`: Väljer en ändrad trilinjär interpolation, som använder både högre och lägre upplösningar, om sådana finns. Rekommenderas endast när kantutjämning är ett problem. Minskar storleken på JPEG på grund av reducerade högfrekventa data. | `resMode=sharp2` |
 | Oskarp mask | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: filterstyrkefaktor (verklig 0...5)<br><br>`radius`: filterkernelradie i pixlar (verklig 0...250) <br><br>`threshold`: filtertröskelnivå (int 0...255)<br><br>`monochrome`: inställd på `0` för att avskarpa maskera varje färgkomponent separat, inställd på `1` för oskarp mask bildskärpa bildskärpa bildskärpa intensitet (intensitet) | `op_usm=1,1,10,0` |
 
 Välj menyn **[!UICONTROL Sharpening]** och välj ett alternativ:
@@ -95,15 +95,15 @@ Välj menyn **[!UICONTROL Resampling]** och välj ett alternativ. Dessa alternat
 
 * **[!UICONTROL Bilinear]**: Den snabbaste omsamplingsmetoden. Vissa aliasing-artefakter är märkbara.
 
-* **[!UICONTROL Bicubic]**: Ökar processoranvändningen på bildservern, men ger skarpare bilder med mindre märkbara aliaseringsartefakter.
+* **[!UICONTROL Bicubic]**: Ökar CPU-användningen på bildservern men ger skarpare bilder med mindre framträdande aliasartefakter.
 
-* **[!UICONTROL `Sharpen 2`]**: Ger något skarpare resultat än **[!UICONTROL Bicubic]**, men med ännu högre processorkostnad på bildservern.
+* **[!UICONTROL `Sharpen 2`]**: Ger något skarpare resultat än **[!UICONTROL Bicubic]**, men till och med högre CPU-kostnader på bildservern.
 
 * **[!UICONTROL Trilinear]**: Använder både högre och lägre upplösningar om sådana finns. Rekommenderas bara när alias är ett problem. Den här metoden minskar storleken på JPEG på grund av reducerade högfrekventa data.
 
 **Bildförinställningar och skärpa**
 
-Du kan använda alla tre skärpeeffekterna för att uppnå det slutliga resultatet. Den här metoden rekommenderas dock inte. Adobe Dynamic Media Classic rekommenderar att du sparar dina skärpeeffekter som en del av en bildförinställning. Med bildförinställningar kan du paketera de vanligaste bildmodifieringarna för att skapa en dynamiskt storleksändrad bild i en liten textsträng. En bildförinställning innehåller värden för filformatet (vanligtvis JPEG för webben), pixelantal och bildskärpa. I stället för att lägga till URL:en med varje bildmodifierare som du måste använda för att skapa en viss typ av bildstorlek skapar du en namngiven bildförinställning, till exempel&quot;miniatyrbild&quot;. Konfigurera sedan miniatyrbildens förinställning med rätt storlek, filformat och skärpealternativ. Anropa bilden med namnet Bildförinställning. Bildförinställningar förkortar den övergripande URL:en. Dessa två URL:er ger samma bild på 350 x 350 JPEG med skärpa:
+Du kan använda alla tre skärpeeffekterna för att uppnå det slutliga resultatet. Den här metoden rekommenderas dock inte. Adobe Dynamic Media Classic rekommenderar att du sparar dina skärpeeffekter som en del av en bildförinställning. Med bildförinställningar kan du paketera de vanligaste bildmodifieringarna för att skapa en dynamiskt storleksändrad bild i en liten textsträng. En bildförinställning innehåller värden för filformatet (vanligtvis JPEG för webben), pixelantal och bildskärpa. I stället för att lägga till URL:en med varje bildmodifierare som du måste använda för att skapa en viss typ av bildstorlek skapar du en namngiven bildförinställning, till exempel&quot;miniatyrbild&quot;. Konfigurera sedan miniatyrbildens förinställning med rätt storlek, filformat och skärpealternativ. Anropa bilden med namnet Bildförinställning. Bildförinställningar förkortar den övergripande URL:en. Dessa två URL:er ger samma 350 × 350 JPEG-bild med skärpa:
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -112,15 +112,15 @@ Bildförinställningar kan ändras och uppdateras när som helst. Du ser resulta
 
 Om du använder en förinställning för varje bild i en storlekskategori kan alla företagsadministratörer uppdatera definitionen för den förinställningen. De kan sedan publicera om och påverka alla bilder i det formatet. Allt utan att ändra någon webbkod. Det bästa sättet är att använda en bildförinställning per unik storlek på webbplatsen. Om du vill lägga till en bildförinställning går du till **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Image Presets]** i fältet Global navigering. Välj sedan **[!UICONTROL Add]** eller **[!UICONTROL Edit]** om du vill ändra en befintlig förinställning. Det enda obligatoriska fältet är namnet på själva förinställningen. Det är dock bäst att ta med en viss nivå av skärpa i varje förinställning.
 
-**JPG kvalitet**
+**JPG-kvalitet**
 
-JPG kvalitetsalternativ styr komprimeringsnivån JPG:
+JPG kvalitetsalternativ styr komprimeringsnivån för JPG:
 
 * **JPG-kvalitet**: Välj det här alternativet om du vill styra komprimeringsnivåer och nedsampling av krominans.
 
-* **Skjutreglage**: Anger komprimeringsnivån JPG. Den här inställningen påverkar både filstorlek och bildkvalitet. JPG är 1-100.
+* **Slider**: Anger JPG-komprimeringsnivån. Den här inställningen påverkar både filstorlek och bildkvalitet. JPG kvalitetsskala är 1-100.
 
-* **Aktivera nedsampling JPG krominans**: Eftersom ögat är mindre känsligt för högfrekvent färginformation än högfrekvent luminans delar JPEG-bilder bildinformation i luminans- och färgkomponenter. När en JPEG-bild komprimeras lämnas luminanskomponenten i full upplösning, medan färgkomponenterna nedsamplas genom att medelvärdet av alla pixelgrupper ökas. Nedsampling minskar datavolymen med en halv eller en tredjedel utan att det påverkar den upplevda kvaliteten. Nedsampling kan inte användas för gråskalebilder. Den här tekniken minskar mängden komprimering som är användbar för bilder med hög kontrast (till exempel bilder med överlagrad text).
+* **Aktivera JPG krominance-nedsampling**: Eftersom ögat är mindre känsligt för högfrekvent färginformation än högfrekvent luminans delas bildinformationen upp i JPEG-bilder i luminans- och färgkomponenter. När en JPEG-bild komprimeras lämnas luminanskomponenten i full upplösning, medan färgkomponenterna nedsamplas genom att medelvärdet av grupper med pixlar ökas. Nedsampling minskar datavolymen med en halv eller en tredjedel utan att det påverkar den upplevda kvaliteten. Nedsampling kan inte användas för gråskalebilder. Den här tekniken minskar mängden komprimering som är användbar för bilder med hög kontrast (till exempel bilder med överlagrad text).
 
 **Ange skärpealternativ för hela företaget**
 
@@ -134,7 +134,7 @@ Om du inte har lagt till bildmodifieringar för skärpa i förinställningen kan
 
 Med visningsförinställningar (t.ex. bildförinställningar) kan du centralisera flera alternativ till en plats, inklusive val av skal och visningsalternativ (t.ex. en Skriv ut-knapp eller styra hastigheten på zoomanimeringen). Visningsförinställningar finns i samma avsnitt som Bildförinställningar, under **[!UICONTROL Setup]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Viewer Presets]**.
 
-Se utbildningsvideon [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
+Se utbildningsvideon [Förinställningar för visningsprogram](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS).
 
 Alternativet Modifierare (Modifierare) finns i avsnittet Core Settings (Grundinställningar) för alla förinställningar för eCatalog, Spin och Custom Zoom Viewer. Genom att lägga till kommandona för URL-skärpa i rutan Modifierare lägger du till skärpa varje gång som visningsprogrammet anropas med den visningsförinställningen.
 

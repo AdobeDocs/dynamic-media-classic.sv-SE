@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Media Portal{#media-portal}
 
-Med Adobe Media Portal kan företag skaffa, styra och distribuera godkända mediefiler till externa partner, kanaler och interna användare. Den webbläsarbaserade, självbetjäningsmiljön ger portalanvändare administratörskontrollerad&quot;vy&quot; av Adobe Dynamic Media Classic-material så att de enkelt kan ladda upp, söka, förhandsgranska och exportera material i företagsgodkända format.
+Med Adobe Media Portal kan man skaffa, styra och distribuera godkänt material till externa partners, kanaler och interna användare. Den webbläsarbaserade, självbetjäningsmiljön ger portalanvändare administratörskontrollerad&quot;vy&quot; av Adobe Dynamic Media Classic-material så att de enkelt kan ladda upp, söka, förhandsgranska och exportera material i företagsgodkända format.
 
 Mer information om Media Portal, inklusive systemkrav, finns i [Använd Adobe Dynamic Media Classic Media Portal](https://help.adobe.com/en_US/scene7/mediaportal/). <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->
 
@@ -27,6 +27,6 @@ Mer information om hur du administrerar mediaportal finns i [Snabbstart: Adminis
 
 Se även följande utbildningsvideor:
 
-* [Översikt över medieportalen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
-* [Demo av mediaportal ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
-* [Demo av mediaportal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Översikt över medieportalen](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+* [Demo av mediaportal ](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Demo av mediaportal 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)

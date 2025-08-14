@@ -19,13 +19,13 @@ ht-degree: 0%
 
 # Ute nu: Adobe Dynamic Media Classic datorprogram {#dynamic-media-classic-desktop-app}
 
-Adobe Dynamic Media Classic-användare har nu tillgång till en ny datorappsupplevelse som inte längre är beroende av Adobe Flash i webbläsaren.
+Adobe Dynamic Media Classic-användare har nu tillgång till en ny skrivbordsapp som inte längre är beroende av Adobe Flash-teknik i webbläsaren.
 
 Den nya appen finns nu för Windows® och macOS.
 
 >[!IMPORTANT]
 >
->Adobe rekommenderar att du installerar den nya Adobe Dynamic Media Classic-appen senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player blir inaktuell den 31 december 2020. Efter detta datum kan du inte logga in på webbläsarversionen av Adobe Dynamic Media Classic användargränssnitt, som är märkt som Adobe Dynamic Media Classic i produkten.
+>Adobe rekommenderar att du installerar det nya Adobe Dynamic Media Classic-datorprogrammet senast 1 oktober 2020. På så sätt får du en smidig övergång innan Adobe Flash Player är inaktuellt den 31 december 2020. Efter detta datum kan du inte logga in på webbläsarversionen av Adobe Dynamic Media Classic användargränssnitt, som är märkt som Adobe Dynamic Media Classic i produkten.
 
 Se Frågor och svar för [Ny inloggning från Adobe Dynamic Media Classic är nu tillgänglig.](/help/using/new-ui-2020.md)
 
@@ -67,10 +67,10 @@ Uppgraderingsmeddelanden i Adobe Dynamic Media Classic-datorprogrammet genereras
 ## Korrigeringar i version 20.21.2 {#minor-release}
 
 * Känd begränsning i 20.21.1: listrutan **[!UICONTROL Server]** på inloggningsskärmen var tom.
-* I **[!UICONTROL Upload Job Options]** är nu standardvärdet för lagernamn under **[!UICONTROL Photoshop Options]** **[!UICONTROL Photoshop and Layer Name]**. Lager i filen PSD överförs som separata bilder.
-   * Det tidigare standardvärdet för **[!UICONTROL Layer name]**, som namngav bilderna efter deras lagernamn eller lagernummer i filen PSD. Lagernumret användes om lagernamnen i PSD-filen var Photoshop standardlagernamn.
-   * Den nya standardinställningen **[!UICONTROL Photoshop and Layer Name]** namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i filen PSD är Photoshop standardlagernamn.
-   * Eftersom lagerbilder i Adobe Dynamic Media Classic nu har unika namn kommer inga uppdateringar att göras av befintliga PSD eller mallar (som delar lagernamn i de ursprungliga PSD-filerna).
+* I **[!UICONTROL Upload Job Options]** är nu standardvärdet för lagernamn under **[!UICONTROL Photoshop Options]** **[!UICONTROL Photoshop and Layer Name]**. Lager i PSD-filen överförs som separata bilder.
+   * Den tidigare standardinställningen för **[!UICONTROL Layer name]** namngav bilderna efter deras lagernamn eller lagernummer i PSD-filen. Lagernumret användes om lagernamnen i PSD-filen var Photoshop standardlagernamn.
+   * Den nya standardinställningen **[!UICONTROL Photoshop and Layer Name]** namnger bilderna efter PSD-filen följt av lagernamnet eller lagernumret. Lagernumret används om lagernamnen i PSD-filen är Photoshop standardlagernamn.
+   * Eftersom lagerbilder i Adobe Dynamic Media Classic nu har unika namn kommer inga uppdateringar att göras av befintliga PSD- eller Mallar (som delar lagernamn i de ursprungliga PSD-filerna).
 * Brutna miniatyrbilder av resurser.
 
 ## Korrigeringar i version 20.21.1 {#latest-fixes-desktop-app}
@@ -233,14 +233,14 @@ Så här hämtar och *tyst* installerar du den senaste versionen av Adobe Dynami
 
 ## Videogenomgång om hur du använder Adobe Dynamic Media Classic datorprogram {#dmc-app-video-walk-through}
 
-Titta på en [videogenomgång om hur du använder Adobe Dynamic Media Classic-datorprogrammet](https://experienceleague.adobe.com/sv/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (längd: 2 minuter 36 sekunder).
+Titta på en [videogenomgång om hur du använder Adobe Dynamic Media Classic-datorprogrammet](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (längd: 2 minuter 36 sekunder).
 
 ## Rensa bildcachen och resurscachen på datorn med datorprogrammet {#clear-cache}
 
 1. I Adobe Dynamic Media Classic-datorprogrammet, i det övre högra hörnet, trycker du på **[!UICONTROL Setup]** > **[!UICONTROL Personal Setup]**.
 1. Gör något av följande på sidan **[!UICONTROL Personal Setup]**, under rubriken **[!UICONTROL Desktop]**:
    * Om du vill ta bort alla Adobe Dynamic Media-cachelagrade bildfiler från datorn trycker du på **[!UICONTROL Clear Image Cache]** och sedan på **[!UICONTROL OK]**.
-   * Om du vill ta bort alla cachelagrade resursfiler för Adobe Dynamic Media från datorn trycker du på **[!UICONTROL Clear Asset Cache]** och sedan på **[!UICONTROL OK]**.
+   * Om du vill ta bort alla Adobe Dynamic Media-cachelagrade resursfiler från datorn trycker du på **[!UICONTROL Clear Asset Cache]** och sedan på **[!UICONTROL OK]**.
 1. Tryck på **[!UICONTROL Close]** i sidans nedre högra hörn.
 
 ### Rensa bildcachen och resurscachen manuellt
@@ -271,11 +271,11 @@ Förutom att rensa bild- och resurscachen med skrivbordsappen kan du rensa cache
 
 ## Tips och tricks
 
-**_Jag kan inte se Media Cart-panelen på Adobe Dynamic Media Classic landningssida._**<br>Tryck på&#x200B;**[!UICONTROL Setup > Personal Setup]**&#x200B;i Adobe Dynamic Media Classic. Kontrollera att **[!UICONTROL Show MediaPortal Features]**&#x200B;är markerat i webbläsaravsnittet. Tryck på&#x200B;**[!UICONTROL Save > Close]**.
+**_Jag kan inte se Media Cart-panelen på Adobe Dynamic Media Classic landningssida._**<br>Tryck på&#x200B;**[!UICONTROL Setup > Personal Setup]**i Adobe Dynamic Media Classic. Kontrollera att **[!UICONTROL Show MediaPortal Features]**är markerat i webbläsaravsnittet. Tryck på&#x200B;**[!UICONTROL Save > Close]**.
 
-**_Publish-tillstånd (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har Adobe introducerat en **[!UICONTROL Refresh]**-ikon i verktygsfältet till höger om knappen **[!UICONTROL Select None]**. Tryck på ikonen **[!UICONTROL Refresh]**&#x200B;för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
+**_Publiceringsläge (grön indikator) för en resurs återspeglas inte korrekt._**<br>I webbläsarens användargränssnitt krävdes en ominloggning till användargränssnittet för att se rätt publiceringstillstånd för resurserna. I skrivbordsappen har Adobe introducerat en **[!UICONTROL Refresh]**-ikon i verktygsfältet till höger om knappen **[!UICONTROL Select None]**. Tryck på ikonen **[!UICONTROL Refresh]**för att visa den senaste statusen för alla resurser på den angivna sidan. Ingen ominloggning krävs som med webbläsargränssnittet.
 
 ![Ikonen Uppdatera](/help/using/assets/refresh-icon1.png)
 *Ikonen Uppdatera*
 
-**_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br>Tryck på&#x200B;**[!UICONTROL Upload > Job Options > Batch Set Presets]**. Kontrollera att relevant **[!UICONTROL Batch Set Preset]**&#x200B;är aktiverat. Klicka på&#x200B;**[!UICONTROL Save and Submit upload]**.
+**_Jag ser inte gruppuppsättningsförinställningar som fungerar i skrivbordsappen._**<br>Tryck på&#x200B;**[!UICONTROL Upload > Job Options > Batch Set Presets]**. Kontrollera att relevant **[!UICONTROL Batch Set Preset]**är aktiverat. Klicka på&#x200B;**[!UICONTROL Save and Submit upload]**.

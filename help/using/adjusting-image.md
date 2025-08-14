@@ -51,7 +51,7 @@ Välj **[!UICONTROL Save]**.
 
    * Spara bilden som en annan vy av den primära bilden. du kan skapa ett alias för det. Välj **[!UICONTROL Save As]**.
 
-     Välj **[!UICONTROL Save as another view of primary]** i listrutan i dialogrutan **[!UICONTROL Save As]**.
+     Välj **[!UICONTROL Save As]** i listrutan i dialogrutan **[!UICONTROL Save as another view of primary]**.
 I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill att den nya primära bilden ska sparas.
 Välj **[!UICONTROL Save]**.
 
@@ -61,9 +61,9 @@ När du har justerat en bild kan du spara den som en annan vy av den primära bi
 
 **Så här skapar du ett alias för en bild:**
 
-1. Välj **[!UICONTROL Adjust]** i rutnätsvyn eller listvyn i listrutan **[!UICONTROL Edit]** bredvid en bild som du vill skapa ett alias för.
+1. Välj **[!UICONTROL Edit]** i rutnätsvyn eller listvyn i listrutan **[!UICONTROL Adjust]** bredvid en bild som du vill skapa ett alias för.
 1. Välj **[!UICONTROL Save As]** i sidans nedre högra hörn.
-1. Välj **[!UICONTROL Save as another view of primary]** i listrutan i dialogrutan **[!UICONTROL Save As]**.
+1. Välj **[!UICONTROL Save As]** i listrutan i dialogrutan **[!UICONTROL Save as another view of primary]**.
 1. I listrutan **[!UICONTROL Folder Name]** väljer du den mapp där du vill spara den utjämnade bilden.
 1. I fältet **[!UICONTROL File Name]** anger du namnet som du vill använda för aliaset.
 1. Välj **[!UICONTROL Save]**.

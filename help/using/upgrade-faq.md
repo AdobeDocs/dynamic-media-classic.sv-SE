@@ -18,7 +18,7 @@ ht-degree: 0%
 ## Allmän information
 
 +++**Vad är [!DNL Dynamic Media] i [!DNL Adobe Experience Manager] Assets?**
-[!DNL Dynamic Media] är nästa generations [!DNL Adobe Dynamic Media Classic] -funktioner (tidigare Scene7) i [!DNL Experience Manager] Assets. Lösningen kombinerar styrkan i resurshantering med multimedieleverans. Följande funktioner ingår:
+[!DNL Dynamic Media] är nästa generations utveckling av [!DNL Adobe Dynamic Media Classic]-funktioner (tidigare Scene7) i [!DNL Experience Manager] Assets. Lösningen kombinerar styrkan i resurshantering med multimedieleverans. Följande funktioner ingår:
 
 * Ett användargränssnitt och en plattform för hantering av bilder och video.
 * Innovativa marknadsföringsfunktioner.
@@ -47,7 +47,7 @@ ht-degree: 0%
 +++
 
 +++**Använder [!DNL Dynamic Media] det befintliga Adobe CDN (Content Delivery Network)?**
-Ja, [!DNL Dynamic Media] använder Adobe stabila leveransnätverk i toppskiktet.
+Ja, [!DNL Dynamic Media] använder Adobe robusta, toppskiktade leveransnätverk.
 
 * Berika multimedieleverantörer till Internet Retail 1000, nio år i rad.
 * Stöd för 24/7/265, 99,95 % SLA.
@@ -56,19 +56,19 @@ Ja, [!DNL Dynamic Media] använder Adobe stabila leveransnätverk i toppskiktet.
 +++
 
 +++**Vad är [!DNL Dynamic Media Classic]? Byter Adobe namn på Adobe Scene7?**
-Adobe har ändrat namnet på Adobe Scene7 till [!DNL Dynamic Media Classic] .
+Adobe har ändrat namnet på Adobe Scene7 till [!DNL Dynamic Media Classic].
 
 +++
 
 ## Uppgraderingsprocess och verktyg
 
 +++**Vem är berättigad till uppgraderingsprogrammet?**
-Kunder som för närvarande har [!DNL Dynamic Media Classic] (tidigare Scene7) och som också har [!DNL Experience Manager] .
+Kunder som för närvarande har [!DNL Dynamic Media Classic] (tidigare Scene7) och som också har [!DNL Experience Manager].
 
 +++
 
 +++**Hur startar jag uppgraderingsprocessen?**
-Kontakta Adobe Account Team eller [mejla s7support@adobe.com](mailto:s7support@adobe.com) med ärenderaden `[!DNL Dynamic Media] Upgrade Program` .
+Kontakta Adobe Account Team eller [mejla s7support@adobe.com](mailto:s7support@adobe.com) med ärenderaden `[!DNL Dynamic Media] Upgrade Program`.
 
 +++
 
@@ -129,7 +129,7 @@ När du har uppgraderat till [!DNL Dynamic Media] bör du bara använda Dynamic 
 +++
 
 +++**Vilka verktyg tillhandahåller Adobe för att automatisera uppgraderingsprocessen?**
-För den första starten av uppgraderingsprogrammet har Adobe verktyg som automatiskt kan flytta resurser från [!DNL Dynamic Media Classic] till [!DNL Dynamic Media] i [!DNL Experience Manager] Assets.
+För den första starten av uppgraderingsprogrammet innehåller Adobe verktyg som automatiskt kan flytta resurser från [!DNL Dynamic Media Classic] till [!DNL Dynamic Media] i [!DNL Experience Manager] Assets.
 
 +++
 
@@ -153,12 +153,12 @@ Nej. Adobe fortsätter att använda publicerings- och leveransinfrastrukturen [!
 +++
 
 +++**Hur migrerar jag mina inställningar (till exempel bildförinställningar, videokodningar) till [!DNL Dynamic Media]?**
-Förinställningar och andra inställningar måste återskapas i [!DNL Dynamic Media] . Som en del av serviceprojektet kan Adobe Global Services eller Partner hjälpa till.
+Förinställningar och andra inställningar måste återskapas inom [!DNL Dynamic Media]. Som en del av serviceprojektet kan Adobe Global Services eller Partner hjälpa till.
 
 +++
 
 +++**Hur konfigurerar jag användare och behörigheter (SSO- eller LDAP-alternativ)?**
-Inställningarna måste återskapas i [!DNL Dynamic Media] . Som en del av serviceprojektet kan AGS eller Partner hjälpa till. Om du uppgraderar till [!DNL Dynamic Media] får du SSO/LDAP-integrering, vilket gör användarhanteringen mer effektiv. Dessutom har [!DNL Dynamic Media] robusta roller och behörigheter som styr användaråtkomst.
+Inställningar måste återskapas inom [!DNL Dynamic Media]. Som en del av serviceprojektet kan AGS eller Partner hjälpa till. Om du uppgraderar till [!DNL Dynamic Media] får du SSO/LDAP-integrering, vilket gör användarhanteringen mer effektiv. Dessutom har [!DNL Dynamic Media] robusta roller och behörigheter som styr användaråtkomst.
 
 +++
 
@@ -177,8 +177,8 @@ Ja. Adobe har datacentraler i Nordamerika, Europa och Stillahavsområdet.
 
 +++
 
-+++**Hur länge kommer [!DNL Dynamic Media Classic] att finnas som en fristående produkt?**
-Adobe stöder och underhåller fullt ut [!DNL Dynamic Media Classic] (kundefterfrågade felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
++++**Hur länge finns [!DNL Dynamic Media Classic] som en fristående produkt?**
+Adobe stöder och underhåller fullt ut [!DNL Dynamic Media Classic] (kundbegärda felkorrigeringar, säkerhetskorrigeringar, plattformsskalbarhet och tillförlitlighet) nu och i framtiden.
 
 +++
 
@@ -187,7 +187,7 @@ Dynamic Media levereras med 60 GB lagringsutrymme. Du kan köpa ytterligare lagr
 
 +++
 
-+++**Vilka mått används för att mäta [!DNL Dynamic Media]-användningen?**
++++**Vilka mått används för att mäta [!DNL Dynamic Media]-användning?**
 Sidvisningar per månad (PVM). Sidvy innebär en vy av ett e-postmeddelande eller en webbsida på en webbplats. Den innehåller även skärmvyer för applikationer, programskärmslägen, mobilwebbsidor och sidor för sociala nätverk. Sidvyer visas:
 
 * Varje gång en webbsida läses in eller uppdateras
@@ -198,16 +198,16 @@ Sidvisningar per månad (PVM). Sidvy innebär en vy av ett e-postmeddelande elle
 +++
 
 +++**När kommer personaliserade media att vara tillgängliga med [!DNL Dynamic Media]?**
-Adobe arbetar aktivt med att lägga till anpassade mediefunktioner i [!DNL Dynamic Media] . Mer information om när releasen ska komma.
+Adobe arbetar aktivt med att lägga till anpassade mediefunktioner i [!DNL Dynamic Media]. Mer information om när releasen ska komma.
 
 +++
 
 +++**Hur valideras resurser under uppgraderingen? Måste jag utföra manuell validering?**
-Adobe utför en automatisk validering av alla resurser som flyttas till [!DNL Dynamic Media]. En allmän manuell validering av nyckelwebbplatser, sidor och upplevelser som drivs av [!DNL Dynamic Media] rekommenderas.
+Adobe utför en automatisk validering av alla resurser som flyttas över till [!DNL Dynamic Media]. En allmän manuell validering av nyckelwebbplatser, sidor och upplevelser som drivs av [!DNL Dynamic Media] rekommenderas.
 
 +++
 
-+++**Finns det någon SLA för [!DNL Dynamic Media]?**
++++**Finns det en SLA för [!DNL Dynamic Media]?**
 Ja. Kontakta Adobe Account Team för mer information.
 
 +++
@@ -218,12 +218,12 @@ Ja. Du kan använda ditt eget CDN med [!DNL Dynamic Media].
 +++
 
 +++**Har [!DNL Dynamic Media] de funktioner jag behöver så att jag kan uppgradera? Vilka funktioner är tillgängliga för [!DNL Dynamic Media] på [!DNL Experience Manager] Assets?**
-Se sidan [ Funktionsjämförelse ](/help/using/upgrade-feature-comparison.md) där du kan läsa mer.
+Se sidan [Funktionsjämförelse](/help/using/upgrade-feature-comparison.md) där du kan lära dig mer.
 
 +++
 
 +++**Vilka funktioner är fortfarande bara tillgängliga i [!DNL Dynamic Media Classic]? Kan jag fortfarande uppgradera?**
-Kunder som behöver följande kan även fortsättningsvis ha tillgång till funktioner som kräver [!DNL Dynamic Media Classic] :
+Kunder som behöver följande kan även fortsättningsvis ha tillgång till funktioner som kräver [!DNL Dynamic Media Classic]:
 
 * Visual configurator (image author, image render).
 * Bildmallar.
@@ -255,14 +255,14 @@ Kunderna är främst ansvariga för förändringshantering, inklusive utbildning
 ## Support och utbildning
 
 +++**Hur får jag support?**
-Kundtjänst dygnet runt, alla dagar. [Kontakta teknisk support](https://experienceleague.adobe.com/sv?support-solution=General#support).
+Kundtjänst dygnet runt, alla dagar. [Kontakta teknisk support](https://experienceleague.adobe.com/?support-solution=General#support).
 
 Telefon: 1-800-898-9743 (USA) | +44 (0)20 35641782 (Storbritannien) | +81-3-6743-9632 (Japan)
 
 +++
 
 +++**Var kan jag lära mig mer om betalda utbildningsalternativ?**
-Se [ Adobe Digital Learning Services ](https://learning.adobe.com) .
+Se [Adobe Digital Learning Services](https://learning.adobe.com).
 
 Kontakta din Adobe Account Team-representant för anpassad eller individuell utbildning.
 
@@ -271,6 +271,6 @@ Kontakta din Adobe Account Team-representant för anpassad eller individuell utb
 ## Ytterligare resurser
 
 +++**Var kan jag läsa mer om [!DNL Dynamic Media] och dess funktioner?**
-Mer information om [!DNL Dynamic Media] finns i [[!DNL Dynamic Media] mikrosite ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html) .
+Mer information om [[!DNL Dynamic Media]  finns på ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)microsite[!DNL Dynamic Media].
 
 +++
